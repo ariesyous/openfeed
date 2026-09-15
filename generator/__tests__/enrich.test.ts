@@ -80,10 +80,6 @@ describe("enrichAdvanceWorld", () => {
           authorHandle: "alice_test",
           community: "technology",
           body: "hello world",
-          comments: [
-            { tempId: "c1", authorHandle: "bob_test", body: "nice" },
-            { tempId: "c2", authorHandle: "alice_test", body: "thanks", parentTempId: "c1" },
-          ],
         },
         {
           tempId: "p2",
@@ -92,7 +88,16 @@ describe("enrichAdvanceWorld", () => {
           community: "technology",
           body: "still thinking about this",
           referencedTempId: "p1",
-          comments: [],
+        },
+      ],
+      comments: [
+        { tempId: "c1", postTempId: "p1", authorHandle: "bob_test", body: "nice" },
+        {
+          tempId: "c2",
+          postTempId: "p1",
+          authorHandle: "alice_test",
+          body: "thanks",
+          parentTempId: "c1",
         },
       ],
       worldStateUpdate: {
@@ -141,9 +146,9 @@ describe("enrichAdvanceWorld", () => {
             domain: "example.test",
             linkTitle: "A Title",
           },
-          comments: [],
         },
       ],
+      comments: [],
       worldStateUpdate: {
         newStorylines: [],
         updatedStorylineIds: [],
@@ -173,9 +178,15 @@ describe("enrichAdvanceWorld", () => {
           authorHandle: "alice_test",
           community: "technology",
           body: "hello",
-          comments: [
-            { tempId: "c1", authorHandle: "bob_test", body: "orphaned", parentTempId: "does-not-exist" },
-          ],
+        },
+      ],
+      comments: [
+        {
+          tempId: "c1",
+          postTempId: "p1",
+          authorHandle: "bob_test",
+          body: "orphaned",
+          parentTempId: "does-not-exist",
         },
       ],
       worldStateUpdate: {
@@ -191,5 +202,46 @@ describe("enrichAdvanceWorld", () => {
     expect(() =>
       enrichAdvanceWorld(raw, { runId: "run1", now: NOW, idByHandle, rng: mulberry32(1) }),
     ).toThrow(/parentTempId/);
+  });
+
+  it("resolves a referencedTempId pointing to a LATER item (no ordering requirement)", () => {
+    const raw: RawAdvanceWorldResponse = {
+      items: [
+        {
+          tempId: "p1",
+          kind: "reaction",
+          authorHandle: "alice_test",
+          community: "technology",
+          body: "lol yeah",
+          referencedTempId: "p2",
+        },
+        {
+          tempId: "p2",
+          kind: "text_post",
+          authorHandle: "bob_test",
+          community: "technology",
+          body: "posted this later in the array, referenced earlier",
+        },
+      ],
+      comments: [],
+      worldStateUpdate: {
+        newStorylines: [],
+        updatedStorylineIds: [],
+        newRunningJokes: [],
+        newConflicts: [],
+        currentTrends: [],
+        cycleSummary: "test",
+      },
+    };
+
+    const { items } = enrichAdvanceWorld(raw, {
+      runId: "run1",
+      now: NOW,
+      idByHandle,
+      rng: mulberry32(1),
+    });
+
+    const [reaction, post] = items;
+    expect(reaction.referencedPostId).toBe(post.id);
   });
 });
