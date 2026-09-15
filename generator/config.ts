@@ -24,17 +24,25 @@ export const MAX_ATTEMPTS = envInt("GEN_MAX_ATTEMPTS", 5);
 
 // Explicit completion-length ceilings. Without these, a randomly-picked openrouter/free
 // model may default to a small max_tokens and silently truncate a large structured
-// response mid-JSON -- bootstrap in particular (30-50 full account objects) needs a lot
-// of headroom. Chosen conservatively enough that most instruct models accept them
-// outright; a 400 citing the token limit is treated as retryable (see openrouter.ts) so
-// a stricter random pick on one attempt doesn't kill the whole run.
-export const BOOTSTRAP_MAX_TOKENS = envInt("GEN_BOOTSTRAP_MAX_TOKENS", 8000);
+// response mid-JSON. A 400 citing the token limit is treated as retryable (see
+// openrouter.ts) so a stricter random pick on one attempt doesn't kill the whole run --
+// there's little downside to a generous ceiling since it only caps how far a model
+// *can* go, it doesn't make a concise model ramble.
+//
+// Bootstrap only ever runs once (until the world is reset -- see worldState.ts), so it
+// gets a much bigger budget than advance-world, which runs every cycle: 30-50 full
+// account objects is a lot of output, and unlike a recurring cycle, nothing downstream
+// is time-sensitive about a one-time setup step taking a while.
+export const BOOTSTRAP_MAX_TOKENS = envInt("GEN_BOOTSTRAP_MAX_TOKENS", 64_000);
 export const ADVANCE_WORLD_MAX_TOKENS = envInt("GEN_ADVANCE_WORLD_MAX_TOKENS", 6000);
 
-// A larger max_tokens needs a longer per-request timeout: a slow free model can take
-// well over a minute (observed: consistently timing out right at the default 60s once
-// max_tokens was raised) to finish generating a large completion.
-export const BOOTSTRAP_TIMEOUT_MS = envInt("GEN_BOOTSTRAP_TIMEOUT_MS", 240_000);
+// A larger max_tokens needs a longer per-request timeout -- these are correlated, not
+// independent: response headers can arrive before the body finishes writing, so a slow
+// free model can get aborted mid-body-read well before it reaches the token ceiling if
+// the timeout isn't generous enough (observed firsthand: attempts consistently timed
+// out right at the previous default once max_tokens was raised without also raising
+// this). Bootstrap being a one-time step affords a long wait here too.
+export const BOOTSTRAP_TIMEOUT_MS = envInt("GEN_BOOTSTRAP_TIMEOUT_MS", 900_000);
 export const ADVANCE_WORLD_TIMEOUT_MS = envInt("GEN_ADVANCE_WORLD_TIMEOUT_MS", 150_000);
 // Base backoff delays (ms) before attempts 2..5; attempt 1 never waits. Jitter
 // is added on top by the retry loop. ~2/5/10/20s per ProjectSpecifications.md §14.
