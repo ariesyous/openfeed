@@ -20,6 +20,9 @@ export interface GenerateValidatedOptions<T> {
   jsonSchema?: JsonSchemaSpec;
   /** Without this, a randomly-picked free model may silently truncate a large response. */
   maxTokens?: number;
+  /** A larger max_tokens needs a longer request timeout -- a slow free model can easily
+   * take well over a minute to finish generating an 8000-token completion. */
+  timeoutMs?: number;
   /** Wraps Zod .safeParse plus any cross-reference checks; issues are human-readable
    * strings fed back to the model on retry. */
   parse: (json: unknown) => ParseOutcome<T>;
@@ -96,6 +99,7 @@ export async function generateValidated<T>(
       messages,
       jsonSchema: useStructured ? opts.jsonSchema : undefined,
       maxTokens: opts.maxTokens,
+      timeoutMs: opts.timeoutMs,
       fetchImpl: opts.fetchImpl,
     });
 

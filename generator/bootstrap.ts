@@ -1,5 +1,10 @@
 import type { Account } from "../schemas";
-import { BOOTSTRAP_MAX_ACCOUNTS, BOOTSTRAP_MAX_TOKENS, BOOTSTRAP_MIN_ACCOUNTS } from "./config";
+import {
+  BOOTSTRAP_MAX_ACCOUNTS,
+  BOOTSTRAP_MAX_TOKENS,
+  BOOTSTRAP_MIN_ACCOUNTS,
+  BOOTSTRAP_TIMEOUT_MS,
+} from "./config";
 import { enrichBootstrap } from "./enrich";
 import { buildBootstrapPrompt, buildSystemPrompt } from "./promptBuilder";
 import {
@@ -138,6 +143,7 @@ export async function runBootstrap(ctx: {
     initialUserPrompt,
     jsonSchema: { name: "dopamine_feed_bootstrap", schema: BOOTSTRAP_JSON_SCHEMA },
     maxTokens: BOOTSTRAP_MAX_TOKENS,
+    timeoutMs: BOOTSTRAP_TIMEOUT_MS,
     parse: parseRawBootstrap,
     onAttempt: ctx.onAttempt,
     fetchImpl: ctx.fetchImpl,
