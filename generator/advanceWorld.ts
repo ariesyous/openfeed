@@ -23,143 +23,6 @@ import {
   type WorldState,
 } from "./worldState";
 
-const FEED_ITEM_KINDS = [
-  "text_post",
-  "question",
-  "discussion",
-  "hot_take",
-  "observation",
-  "personal_anecdote",
-  "joke",
-  "community_post",
-  "announcement",
-  "link_preview",
-  "reaction",
-  "repost",
-];
-
-const ADVANCE_WORLD_JSON_SCHEMA = {
-  type: "object",
-  properties: {
-    items: {
-      type: "array",
-      items: {
-        type: "object",
-        properties: {
-          tempId: { type: "string" },
-          kind: { type: "string", enum: FEED_ITEM_KINDS },
-          authorHandle: { type: "string" },
-          community: { type: "string" },
-          title: { type: "string" },
-          body: { type: "string" },
-          referencedTempId: { type: "string" },
-          linkPreview: {
-            type: "object",
-            properties: {
-              url: { type: "string" },
-              domain: { type: "string" },
-              linkTitle: { type: "string" },
-              linkDescription: { type: "string" },
-            },
-            required: ["url", "domain", "linkTitle"],
-          },
-          comments: {
-            type: "array",
-            items: {
-              type: "object",
-              properties: {
-                tempId: { type: "string" },
-                authorHandle: { type: "string" },
-                body: { type: "string" },
-                parentTempId: { type: "string" },
-              },
-              required: ["tempId", "authorHandle", "body"],
-            },
-          },
-          relativeAgeHint: { type: "string", enum: ["fresh", "recent", "older"] },
-        },
-        required: ["tempId", "kind", "authorHandle", "community", "body", "comments"],
-      },
-    },
-    worldStateUpdate: {
-      type: "object",
-      properties: {
-        newStorylines: {
-          type: "array",
-          items: {
-            type: "object",
-            properties: {
-              title: { type: "string" },
-              summary: { type: "string" },
-              involvedHandles: { type: "array", items: { type: "string" } },
-              status: { type: "string", enum: ["active", "escalating", "cooling", "resolved"] },
-            },
-            required: ["title", "summary", "involvedHandles", "status"],
-          },
-        },
-        updatedStorylineIds: {
-          type: "array",
-          items: {
-            type: "object",
-            properties: {
-              id: { type: "string" },
-              summary: { type: "string" },
-              status: { type: "string", enum: ["active", "escalating", "cooling", "resolved"] },
-            },
-            required: ["id", "summary", "status"],
-          },
-        },
-        newRunningJokes: {
-          type: "array",
-          items: {
-            type: "object",
-            properties: {
-              description: { type: "string" },
-              originHandles: { type: "array", items: { type: "string" } },
-            },
-            required: ["description", "originHandles"],
-          },
-        },
-        newConflicts: {
-          type: "array",
-          items: {
-            type: "object",
-            properties: {
-              description: { type: "string" },
-              handles: { type: "array", items: { type: "string" } },
-              heat: { type: "string", enum: ["simmering", "active", "cooling"] },
-            },
-            required: ["description", "handles", "heat"],
-          },
-        },
-        currentTrends: {
-          type: "array",
-          items: {
-            type: "object",
-            properties: {
-              topic: { type: "string" },
-              community: { type: "string" },
-              strength: { type: "number" },
-            },
-            required: ["topic", "community", "strength"],
-          },
-        },
-        newMemoriesByHandle: { type: "object" },
-        cycleSummary: { type: "string" },
-      },
-      required: [
-        "newStorylines",
-        "updatedStorylineIds",
-        "newRunningJokes",
-        "newConflicts",
-        "currentTrends",
-        "cycleSummary",
-      ],
-    },
-  },
-  required: ["items", "worldStateUpdate"],
-} as const;
-
 function parseRawAdvanceWorld(
   knownHandles: ReadonlySet<string>,
 ): (json: unknown) => ParseOutcome<RawAdvanceWorldResponse> {
@@ -215,7 +78,11 @@ export async function runAdvanceWorld(ctx: {
     apiKey: ctx.apiKey,
     systemPrompt,
     initialUserPrompt,
-    jsonSchema: { name: "dopamine_feed_advance_world", schema: ADVANCE_WORLD_JSON_SCHEMA },
+    // No response_format/jsonSchema here either -- live testing showed the same
+    // empty-completion/invalid-JSON failure pattern on this call as on bootstrap
+    // (see generator/bootstrap.ts), so strict structured-output mode appears broadly
+    // unreliable across openrouter/free's random model pool, not just for large
+    // schemas. Falls back to the prompt's literal example shape + validation/retry.
     maxTokens: ADVANCE_WORLD_MAX_TOKENS,
     timeoutMs: ADVANCE_WORLD_TIMEOUT_MS,
     parse: parseRawAdvanceWorld(knownHandles),

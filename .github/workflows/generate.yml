@@ -20,8 +20,8 @@ jobs:
     runs-on: ubuntu-latest
     # Bootstrap is a one-time step with a generous 15-minute per-attempt timeout (large
     # completions on a slow free model) and up to 5 attempts, then the first
-    # advance-world call retries again on top of that.
-    timeout-minutes: 100
+    # advance-world call retries again on top of that (up to 4 minutes/attempt).
+    timeout-minutes: 130
     steps:
       # ref (not the default github.sha) so a run queued behind the `generate`
       # concurrency group checks out whatever landed while it waited, rather than a
