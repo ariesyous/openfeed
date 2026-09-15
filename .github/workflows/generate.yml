@@ -18,9 +18,10 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    # Bootstrap alone can retry up to 5 times at a 4-minute per-attempt timeout (large
-    # completions on a slow free model), then the first advance-world call retries again.
-    timeout-minutes: 45
+    # Bootstrap is a one-time step with a generous 15-minute per-attempt timeout (large
+    # completions on a slow free model) and up to 5 attempts, then the first
+    # advance-world call retries again on top of that.
+    timeout-minutes: 100
     steps:
       # ref (not the default github.sha) so a run queued behind the `generate`
       # concurrency group checks out whatever landed while it waited, rather than a
