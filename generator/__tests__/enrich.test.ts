@@ -1,8 +1,15 @@
 import { describe, expect, it } from "vitest";
 import { AccountSchema, FeedItemSchema } from "../../schemas";
 import { mulberry32 } from "../engagement";
-import { enrichAdvanceWorld, enrichBootstrap, summarizeAccountsForPrompt } from "../enrich";
-import type { RawAdvanceWorldResponse, RawBootstrapResponse } from "../rawSchemas";
+import {
+  enrichAdvanceWorld,
+  enrichBootstrap,
+  summarizeAccountsForPrompt,
+} from "../enrich";
+import type {
+  RawAdvanceWorldResponse,
+  RawBootstrapResponse,
+} from "../rawSchemas";
 
 const NOW = new Date("2026-09-15T12:00:00.000Z");
 
@@ -14,9 +21,18 @@ const rawBootstrap: RawBootstrapResponse = {
       bio: "hi",
       personalityTraits: ["curious"],
       interests: ["testing"],
-      writingStyle: { formality: 0.5, avgPostLength: "short", quirks: [], emojiUsage: "none" },
+      writingStyle: {
+        formality: 0.5,
+        avgPostLength: "short",
+        quirks: [],
+        emojiUsage: "none",
+      },
       communities: ["technology"],
-      behavioralTendencies: { positivity: 0.5, controversialTake: 0.2, replyRate: 0.5 },
+      behavioralTendencies: {
+        positivity: 0.5,
+        controversialTake: 0.2,
+        replyRate: 0.5,
+      },
       relationships: [{ handle: "bob_test", type: "friend" }],
       activityLevel: "medium",
     },
@@ -26,9 +42,18 @@ const rawBootstrap: RawBootstrapResponse = {
       bio: "hey",
       personalityTraits: ["dry"],
       interests: ["testing"],
-      writingStyle: { formality: 0.5, avgPostLength: "short", quirks: [], emojiUsage: "none" },
+      writingStyle: {
+        formality: 0.5,
+        avgPostLength: "short",
+        quirks: [],
+        emojiUsage: "none",
+      },
       communities: ["technology"],
-      behavioralTendencies: { positivity: 0.5, controversialTake: 0.2, replyRate: 0.5 },
+      behavioralTendencies: {
+        positivity: 0.5,
+        controversialTake: 0.2,
+        replyRate: 0.5,
+      },
       relationships: [],
       activityLevel: "low",
     },
@@ -38,7 +63,10 @@ const rawBootstrap: RawBootstrapResponse = {
 
 describe("enrichBootstrap", () => {
   it("produces schema-valid accounts with resolved relationship ids", () => {
-    const { accounts, idByHandle } = enrichBootstrap(rawBootstrap, { runId: "run1", now: NOW });
+    const { accounts, idByHandle } = enrichBootstrap(rawBootstrap, {
+      runId: "run1",
+      now: NOW,
+    });
 
     expect(accounts).toHaveLength(2);
     for (const account of accounts) {
@@ -50,7 +78,10 @@ describe("enrichBootstrap", () => {
   });
 
   it("assigns unique ids per account", () => {
-    const { accounts } = enrichBootstrap(rawBootstrap, { runId: "run1", now: NOW });
+    const { accounts } = enrichBootstrap(rawBootstrap, {
+      runId: "run1",
+      now: NOW,
+    });
     const ids = accounts.map((a) => a.id);
     expect(new Set(ids).size).toBe(ids.length);
   });
@@ -58,10 +89,18 @@ describe("enrichBootstrap", () => {
 
 describe("summarizeAccountsForPrompt", () => {
   it("produces one compact line per account", () => {
-    const { accounts } = enrichBootstrap(rawBootstrap, { runId: "run1", now: NOW });
+    const { accounts } = enrichBootstrap(rawBootstrap, {
+      runId: "run1",
+      now: NOW,
+    });
     const summary = summarizeAccountsForPrompt(accounts);
     expect(summary.split("\n")).toHaveLength(2);
-    expect(summary).toContain("@alice_test");
+    const first = JSON.parse(summary.split("\n")[0]);
+    expect(first.handle).toBe("alice_test");
+    expect(first.writingStyle).toEqual(accounts[0].writingStyle);
+    expect(first.relationships).toEqual([
+      { handle: "bob_test", type: "friend" },
+    ]);
   });
 });
 
@@ -91,7 +130,12 @@ describe("enrichAdvanceWorld", () => {
         },
       ],
       comments: [
-        { tempId: "c1", postTempId: "p1", authorHandle: "bob_test", body: "nice" },
+        {
+          tempId: "c1",
+          postTempId: "p1",
+          authorHandle: "bob_test",
+          body: "nice",
+        },
         {
           tempId: "c2",
           postTempId: "p1",
@@ -166,7 +210,10 @@ describe("enrichAdvanceWorld", () => {
       rng: mulberry32(1),
     });
 
-    expect(items[0]!.meta).toMatchObject({ kind: "link_preview", url: "https://example.test/article" });
+    expect(items[0]!.meta).toMatchObject({
+      kind: "link_preview",
+      url: "https://example.test/article",
+    });
   });
 
   it("throws rather than silently dropping a dangling parentTempId", () => {
@@ -200,7 +247,12 @@ describe("enrichAdvanceWorld", () => {
     };
 
     expect(() =>
-      enrichAdvanceWorld(raw, { runId: "run1", now: NOW, idByHandle, rng: mulberry32(1) }),
+      enrichAdvanceWorld(raw, {
+        runId: "run1",
+        now: NOW,
+        idByHandle,
+        rng: mulberry32(1),
+      }),
     ).toThrow(/parentTempId/);
   });
 

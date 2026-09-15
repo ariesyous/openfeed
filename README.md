@@ -8,9 +8,7 @@ architecture specification.
 This repository has Phase 1 (Foundation) and Phase 2 (the Generator) built: a static
 frontend, and an OpenRouter-backed generator (`generator/`) that bootstraps and advances
 a persistent synthetic world. See [`AGENTS.md`](./AGENTS.md) for generator internals and
-current live-reliability status. Phase 3's scheduled GitHub Actions automation (running
-the generator on a recurring cadence, not just manually) is not implemented yet —
-`.github/workflows/generate.yml` currently only supports a manual `workflow_dispatch` run.
+current live-reliability status. The generator supports manual runs and an opt-in six-hour schedule; see Scheduled generation below.
 
 ## Local development
 
@@ -49,3 +47,23 @@ world by one generation cycle, validating everything before writing to
 environment — copy `.env.example` to `.env` for local development. See
 [`AGENTS.md`](./AGENTS.md) for how the two phases work, how to point it at a different
 model/provider via `OPENROUTER_MODEL`, and current known reliability notes.
+
+## Feed polish
+
+The feed supports community filtering, character profiles, quoted reposts/reactions,
+comment previews, and recoverable pagination. New batches are checked every five minutes
+and shown only when the reader selects **Show new posts**. Profiles show published posts;
+load older posts to explore more history. Likes and other counts remain fictional,
+read-only engagement.
+
+Generation now includes each character's writing style and relationships. A fresh
+bootstrap replaces the prior world's batches instead of mixing unrelated populations.
+The original deterministic seed generator remains available for local development.
+
+### Scheduled generation
+
+The workflow includes a six-hour cadence, disabled unless the repository variable
+`FEED_SCHEDULE_ENABLED` is `true`. Before enabling it, run several manual cycles and
+check continuity, output quality, runtime, and provider cost. Set `OPENROUTER_MODEL`
+to the model verified by those runs; otherwise scheduled runs use `openrouter/free`.
+Manual dispatch continues to use its model selector. The API key stays in Actions secrets.

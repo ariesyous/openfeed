@@ -6,177 +6,186 @@ import {
   type Account,
   type BatchRef,
   type FeedItem,
-  type Manifest,
 } from "../../schemas";
 import { dataUrl, manifestUrl } from "../lib/dataPaths";
 import { rankBatch } from "../lib/ranking";
 
-const MANIFEST_REFRESH_MS = 5 * 60_000;
-
 async function fetchJson(url: string, signal: AbortSignal): Promise<unknown> {
-  const response = await fetch(url, { signal });
-  if (!response.ok) {
-    throw new Error(`${url} responded with ${response.status}`);
-  }
+  const response = await fetch(url, { signal, cache: "no-cache" });
+  if (!response.ok)
+    throw new Error("The feed couldn't be loaded. Please try again.");
   return response.json();
 }
-
-async function fetchManifest(signal: AbortSignal): Promise<Manifest> {
-  return ManifestSchema.parse(await fetchJson(manifestUrl(), signal));
+async function fetchBatch(batch: BatchRef, signal: AbortSignal) {
+  return rankBatch(
+    BatchFileSchema.parse(await fetchJson(dataUrl(batch.file), signal)).items,
+  );
 }
 
-async function fetchAccounts(signal: AbortSignal): Promise<Account[]> {
-  return AccountsFileSchema.parse(await fetchJson(dataUrl("accounts.json"), signal));
-}
-
-async function fetchBatchItems(batchRef: BatchRef, signal: AbortSignal): Promise<FeedItem[]> {
-  const batch = BatchFileSchema.parse(await fetchJson(dataUrl(batchRef.file), signal));
-  return batch.items;
-}
-
-export interface UseFeedResult {
-  items: FeedItem[];
-  accountsById: Map<string, Account>;
-  isLoadingInitial: boolean;
-  isLoadingMore: boolean;
-  hasMore: boolean;
-  error: string | null;
-  sentinelRef: (node: HTMLElement | null) => void;
-}
-
-export function useFeed(): UseFeedResult {
+export function useFeed() {
   const [items, setItems] = useState<FeedItem[]>([]);
   const [accounts, setAccounts] = useState<Account[]>([]);
-  const [pendingBatches, setPendingBatches] = useState<BatchRef[]>([]);
-  const [isLoadingInitial, setIsLoadingInitial] = useState(true);
-  const [isLoadingMore, setIsLoadingMore] = useState(false);
+  const [pending, setPending] = useState<BatchRef[]>([]);
+  const [fresh, setFresh] = useState<BatchRef[]>([]);
+  const [isLoadingInitial, setInitial] = useState(true);
+  const [isLoadingMore, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [attempt, setAttempt] = useState(0);
+  const controller = useRef<AbortController | null>(null);
+  const busy = useRef(false);
+  const loaded = useRef(new Set<string>());
+  const newest = useRef<string | null>(null);
 
-  const loadedBatchIdsRef = useRef<Set<string>>(new Set());
-  const oldestLoadedGeneratedAtRef = useRef<string | null>(null);
-  const isLoadingMoreRef = useRef(false);
-
-  const accountsById = useMemo(() => new Map(accounts.map((a) => [a.id, a])), [accounts]);
-
-  // Initial load: manifest + accounts + the newest batch.
   useEffect(() => {
-    const controller = new AbortController();
-
-    (async () => {
+    const abort = new AbortController();
+    controller.current = abort;
+    async function initialize() {
       try {
-        const [manifest, accountsFile] = await Promise.all([
-          fetchManifest(controller.signal),
-          fetchAccounts(controller.signal),
+        const [manifestData, accountData] = await Promise.all([
+          fetchJson(manifestUrl(), abort.signal),
+          fetchJson(dataUrl("accounts.json"), abort.signal),
         ]);
+        const manifest = ManifestSchema.parse(manifestData);
+        const accountsFile = AccountsFileSchema.parse(accountData);
+        const [first, ...rest] = manifest.batches;
+        const batchItems = first ? await fetchBatch(first, abort.signal) : [];
+        if (abort.signal.aborted) return;
+        loaded.current = new Set(first ? [first.id] : []);
+        newest.current = first?.generatedAt ?? manifest.generatedAt;
         setAccounts(accountsFile);
-
-        const [newestBatch, ...rest] = manifest.batches;
-        if (!newestBatch) {
-          setIsLoadingInitial(false);
-          return;
-        }
-
-        const batchItems = await fetchBatchItems(newestBatch, controller.signal);
-        loadedBatchIdsRef.current.add(newestBatch.id);
-        oldestLoadedGeneratedAtRef.current = newestBatch.generatedAt;
-        setItems(rankBatch(batchItems));
-        setPendingBatches(rest);
-        setIsLoadingInitial(false);
-      } catch (err) {
-        if (controller.signal.aborted) return;
-        setError(err instanceof Error ? err.message : "Failed to load the feed.");
-        setIsLoadingInitial(false);
-      }
-    })();
-
-    return () => controller.abort();
-  }, []);
-
-  // Periodically refresh the manifest so a long-lived tab doesn't get stuck once it has
-  // drained every batch known at page load. Only queues batches older than what's already
-  // loaded, so scrolling down always continues toward older content.
-  useEffect(() => {
-    const interval = setInterval(async () => {
-      const controller = new AbortController();
-      try {
-        const manifest = await fetchManifest(controller.signal);
-        const oldestLoaded = oldestLoadedGeneratedAtRef.current;
-        const newlyDiscovered = manifest.batches.filter(
-          (batch) =>
-            !loadedBatchIdsRef.current.has(batch.id) &&
-            (!oldestLoaded || batch.generatedAt <= oldestLoaded),
-        );
-        if (newlyDiscovered.length > 0) {
-          setPendingBatches((prev) => {
-            const known = new Set(prev.map((b) => b.id));
-            return [...prev, ...newlyDiscovered.filter((b) => !known.has(b.id))];
-          });
-        }
+        setItems(batchItems);
+        setPending(rest);
+        setFresh([]);
+        setError(null);
       } catch {
-        // A background refresh failing is not user-visible; the next interval retries.
+        if (!abort.signal.aborted)
+          setError("The feed couldn't be loaded. Please try again.");
+      } finally {
+        if (!abort.signal.aborted) setInitial(false);
       }
-    }, MANIFEST_REFRESH_MS);
+    }
+    void initialize();
+    const interval = setInterval(async () => {
+      if (!newest.current || busy.current) return;
+      try {
+        const manifest = ManifestSchema.parse(
+          await fetchJson(manifestUrl(), abort.signal),
+        );
+        if (!abort.signal.aborted)
+          setFresh(
+            manifest.batches.filter(
+              (b) =>
+                !loaded.current.has(b.id) && b.generatedAt > newest.current!,
+            ),
+          );
+      } catch {
+        /* Keep the current feed when a background check fails. */
+      }
+    }, 5 * 60_000);
+    return () => {
+      abort.abort();
+      clearInterval(interval);
+    };
+  }, [attempt]);
 
-    return () => clearInterval(interval);
-  }, []);
+  const loadMore = useCallback(async () => {
+    const next = pending[0];
+    const abort = controller.current;
+    if (!next || busy.current || !abort || abort.signal.aborted) return;
+    busy.current = true;
+    setLoading(true);
+    setError(null);
+    try {
+      const batchItems = await fetchBatch(next, abort.signal);
+      if (abort.signal.aborted) return;
+      loaded.current.add(next.id);
+      setItems((current) => [
+        ...current,
+        ...batchItems.filter((i) => !current.some((p) => p.id === i.id)),
+      ]);
+      setPending((current) => current.filter((b) => b.id !== next.id));
+    } catch {
+      if (!abort.signal.aborted)
+        setError("Couldn't load older posts. Your place is saved.");
+    } finally {
+      busy.current = false;
+      if (!abort.signal.aborted) setLoading(false);
+    }
+  }, [pending]);
 
-  const loadMore = useCallback(() => {
-    if (isLoadingMoreRef.current) return;
-    setPendingBatches((prev) => {
-      const [next, ...rest] = prev;
-      if (!next) return prev;
-
-      isLoadingMoreRef.current = true;
-      setIsLoadingMore(true);
-      const controller = new AbortController();
-
-      fetchBatchItems(next, controller.signal)
-        .then((batchItems) => {
-          loadedBatchIdsRef.current.add(next.id);
-          oldestLoadedGeneratedAtRef.current = next.generatedAt;
-          setItems((current) => [...current, ...rankBatch(batchItems)]);
-        })
-        .catch((err) => {
-          if (controller.signal.aborted) return;
-          setError(err instanceof Error ? err.message : "Failed to load more posts.");
-        })
-        .finally(() => {
-          isLoadingMoreRef.current = false;
-          setIsLoadingMore(false);
-        });
-
-      return rest;
-    });
-  }, []);
-
-  const observerRef = useRef<IntersectionObserver | null>(null);
+  const showNewPosts = async () => {
+    const abort = controller.current;
+    if (!fresh.length || busy.current || !abort) return;
+    busy.current = true;
+    setLoading(true);
+    setError(null);
+    try {
+      const [accountData, batches] = await Promise.all([
+        fetchJson(dataUrl("accounts.json"), abort.signal),
+        Promise.all(fresh.map((b) => fetchBatch(b, abort.signal))),
+      ]);
+      const accountsFile = AccountsFileSchema.parse(accountData);
+      if (abort.signal.aborted) return;
+      fresh.forEach((b) => loaded.current.add(b.id));
+      newest.current = fresh[0].generatedAt;
+      setAccounts(accountsFile);
+      setItems((current) =>
+        [...batches.flat(), ...current].filter(
+          (item, index, all) =>
+            all.findIndex((i) => i.id === item.id) === index,
+        ),
+      );
+      setFresh([]);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    } catch {
+      if (!abort.signal.aborted)
+        setError("Couldn't load new posts. Please try again.");
+    } finally {
+      busy.current = false;
+      if (!abort.signal.aborted) setLoading(false);
+    }
+  };
+  const observer = useRef<IntersectionObserver | null>(null);
   const sentinelRef = useCallback(
     (node: HTMLElement | null) => {
-      observerRef.current?.disconnect();
-      if (!node) return;
-
-      observerRef.current = new IntersectionObserver(
+      observer.current?.disconnect();
+      if (
+        !node ||
+        error ||
+        isLoadingMore ||
+        !("IntersectionObserver" in window)
+      )
+        return;
+      observer.current = new IntersectionObserver(
         (entries) => {
-          if (entries.some((entry) => entry.isIntersecting)) {
-            loadMore();
-          }
+          if (entries.some((e) => e.isIntersecting)) void loadMore();
         },
         { rootMargin: "600px" },
       );
-      observerRef.current.observe(node);
+      observer.current.observe(node);
     },
-    [loadMore],
+    [loadMore, error, isLoadingMore],
   );
-
-  useEffect(() => () => observerRef.current?.disconnect(), []);
-
+  useEffect(() => () => observer.current?.disconnect(), []);
+  const retryInitial = () => {
+    setInitial(true);
+    setError(null);
+    setAttempt((n) => n + 1);
+  };
   return {
     items,
-    accountsById,
+    accountsById: useMemo(
+      () => new Map(accounts.map((a) => [a.id, a])),
+      [accounts],
+    ),
     isLoadingInitial,
     isLoadingMore,
-    hasMore: pendingBatches.length > 0,
+    hasMore: pending.length > 0,
     error,
     sentinelRef,
+    loadMore,
+    retryInitial,
+    showNewPosts,
+    newPostCount: fresh.reduce((n, b) => n + b.itemCount, 0),
   };
 }

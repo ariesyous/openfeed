@@ -8,28 +8,64 @@ import { EngagementBar } from "./EngagementBar";
 interface PostCardProps {
   item: FeedItem;
   accountsById: Map<string, Account>;
+  itemsById?: Map<string, FeedItem>;
+  onAuthorClick?: (id: string) => void;
+  onCommunityClick?: (community: string) => void;
 }
 
-export function PostCard({ item, accountsById }: PostCardProps) {
+export function PostCard({
+  item,
+  accountsById,
+  itemsById,
+  onAuthorClick,
+  onCommunityClick,
+}: PostCardProps) {
   const [expanded, setExpanded] = useState(false);
   const author = accountsById.get(item.authorId);
   const displayName = author?.displayName ?? "Unknown";
   const handle = author?.handle ?? "unknown";
+  const referenced = item.referencedPostId
+    ? itemsById?.get(item.referencedPostId)
+    : undefined;
+  const preview = [...item.comments]
+    .sort((a, b) => b.engagement.likes - a.engagement.likes)
+    .find((c) => !c.parentCommentId);
   const hasComments = item.comments.length > 0;
 
   return (
-    <article className="post-card">
+    <article className={`post-card post-card--${item.kind}`} id={item.id}>
+      {(item.kind === "repost" || item.kind === "reaction") && (
+        <div className="post-kind">
+          {item.kind === "repost" ? "↻ Reposted" : "↳ Reacting to a post"}
+        </div>
+      )}
       <header className="post-card-header">
-        <Avatar seedKey={item.authorId} displayName={displayName} handle={handle} />
+        <Avatar
+          seedKey={item.authorId}
+          displayName={displayName}
+          handle={handle}
+        />
         <div className="post-card-author">
-          <span className="post-card-display-name">{displayName}</span>
+          <button
+            className="text-button post-card-display-name"
+            onClick={() => onAuthorClick?.(item.authorId)}
+          >
+            {displayName}
+          </button>
           <span className="post-card-handle">@{handle}</span>
         </div>
-        <span className="post-card-time">{formatRelativeTime(item.createdAt)}</span>
+        <span className="post-card-time">
+          {formatRelativeTime(item.createdAt)}
+        </span>
       </header>
 
       <div className="post-card-meta">
-        <span className="post-card-community">{item.community}</span>
+        <button
+          className="post-card-community"
+          onClick={() => onCommunityClick?.(item.community)}
+        >
+          {item.community.replaceAll("_", " ")}
+        </button>
       </div>
 
       {item.title && <h3 className="post-card-title">{item.title}</h3>}
@@ -45,13 +81,45 @@ export function PostCard({ item, accountsById }: PostCardProps) {
           <div className="post-card-link-domain">{item.meta.domain}</div>
           <div className="post-card-link-title">{item.meta.linkTitle}</div>
           {item.meta.linkDescription && (
-            <div className="post-card-link-description">{item.meta.linkDescription}</div>
+            <div className="post-card-link-description">
+              {item.meta.linkDescription}
+            </div>
           )}
         </a>
       )}
 
+      {item.referencedPostId && (
+        <blockquote className="quoted-post">
+          {referenced ? (
+            <>
+              <button
+                className="text-button"
+                onClick={() => onAuthorClick?.(referenced.authorId)}
+              >
+                {accountsById.get(referenced.authorId)?.displayName ??
+                  "Unknown"}
+              </button>
+              {referenced.title && <strong>{referenced.title}</strong>}
+              <p>{referenced.body}</p>
+            </>
+          ) : (
+            <p>Original post is unavailable.</p>
+          )}
+        </blockquote>
+      )}
       <EngagementBar engagement={item.engagement} />
 
+      {!expanded && preview && (
+        <div className="comment-preview">
+          <button
+            className="text-button"
+            onClick={() => onAuthorClick?.(preview.authorId)}
+          >
+            {accountsById.get(preview.authorId)?.displayName ?? "Unknown"}
+          </button>
+          <p>{preview.body}</p>
+        </div>
+      )}
       {hasComments ? (
         <button
           type="button"
@@ -59,14 +127,20 @@ export function PostCard({ item, accountsById }: PostCardProps) {
           onClick={() => setExpanded((v) => !v)}
           aria-expanded={expanded}
         >
-          {expanded ? "Hide discussion" : `View discussion (${item.comments.length})`}
+          {expanded
+            ? "Hide discussion"
+            : `View discussion (${item.comments.length})`}
         </button>
       ) : (
         <div className="post-card-no-comments">No comments yet</div>
       )}
 
       {expanded && hasComments && (
-        <CommentThread comments={item.comments} accountsById={accountsById} />
+        <CommentThread
+          comments={item.comments}
+          accountsById={accountsById}
+          onAuthorClick={onAuthorClick}
+        />
       )}
     </article>
   );

@@ -12,7 +12,7 @@ Dopamine Feed: a static, entirely-synthetic AI social-media feed. Static React/V
 - `scripts/seed/` — a deterministic, non-LLM fixture generator for frontend dev (`pnpm seed`). Fully independent of `generator/`; don't couple the two.
 - `generator/` — the real OpenRouter pipeline. See below.
 - `.github/workflows/deploy.yml` — builds/deploys the frontend on push to `main`.
-- `.github/workflows/generate.yml` — **manual (`workflow_dispatch`) only** right now. Runs `pnpm generate` in CI using the `OPENROUTER_API_KEY` repo secret and commits the result. The scheduled cron trigger from the spec (§26) is Phase 3, not yet built.
+- `.github/workflows/generate.yml` — manual dispatch plus an opt-in six-hour schedule gated by `FEED_SCHEDULE_ENABLED == true`. Runs `pnpm generate` in CI using the `OPENROUTER_API_KEY` repo secret and commits the result. Keep scheduling disabled until several manual cycles establish quality and cost.
 
 ## Commands
 
@@ -45,7 +45,9 @@ The model is never trusted to produce ids, timestamps, `meta`, or engagement num
 OPENROUTER_API_KEY=sk-... OPENROUTER_MODEL=anthropic/claude-... pnpm generate
 ```
 
-### Known reliability status (as of the last live testing round)
+### Known reliability status
+
+A complete generation run and deployments succeeded on September 15, 2026 (run 35018390324); the committed world is initialized at cycle 1. This confirms one successful cycle, not recurring reliability or free-model reliability. The notes below describe the earlier testing rounds.
 
 Live-tested against `openrouter/free` via `.github/workflows/generate.yml` (`workflow_dispatch`), several rounds of fixes (chronologically: explicit `max_tokens`, per-call timeouts raised to 15 min, dropped structured output on both calls, flattened `advance-world`'s nested `items→comments` into two parallel top-level arrays with no ordering constraints — see PRs #3-#9):
 
