@@ -5,6 +5,14 @@ name: Generate synthetic feed (manual)
 # The scheduled trigger described in ProjectSpecifications.md §26 is Phase 3 work.
 on:
   workflow_dispatch:
+    inputs:
+      model:
+        description: OpenRouter model to generate against
+        type: choice
+        default: openrouter/free
+        options:
+          - openrouter/free
+          - google/gemini-3.8-flash
 
 permissions:
   contents: write
@@ -42,7 +50,7 @@ jobs:
       - name: Run generator
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
+          OPENROUTER_MODEL: ${{ inputs.model }}
         run: pnpm generate
 
       - name: Commit and push if anything changed
