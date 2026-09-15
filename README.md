@@ -5,9 +5,12 @@ discussion is AI-generated — there are no real people here. See
 [`ProjectSpecifications.md`](./ProjectSpecifications.md) for the full product and
 architecture specification.
 
-This repository is currently at **Phase 1 (Foundation)**: a static frontend that reads
-checked-in sample feed data. The OpenRouter-backed generator (`generator/`) and the
-scheduled GitHub Actions automation described in the spec are not implemented yet.
+This repository has Phase 1 (Foundation) and Phase 2 (the Generator) built: a static
+frontend, and an OpenRouter-backed generator (`generator/`) that bootstraps and advances
+a persistent synthetic world. See [`AGENTS.md`](./AGENTS.md) for generator internals and
+current live-reliability status. Phase 3's scheduled GitHub Actions automation (running
+the generator on a recurring cadence, not just manually) is not implemented yet —
+`.github/workflows/generate.yml` currently only supports a manual `workflow_dispatch` run.
 
 ## Local development
 
@@ -34,13 +37,15 @@ pnpm seed
 This regenerates the checked-in sample data from `scripts/seed/`. Run it after changing
 the seed accounts or content templates.
 
-## Generator (Phase 2+, not yet implemented)
+## Generator
 
 ```bash
 pnpm generate
 ```
 
-This will eventually call OpenRouter to advance the synthetic world by one generation
-cycle. It requires `OPENROUTER_API_KEY` in the environment — copy `.env.example` to
-`.env` and fill it in once the generator exists. Today this command exits with a
-"not implemented" error.
+Calls OpenRouter to bootstrap (first run) or advance (every run after) the synthetic
+world by one generation cycle, validating everything before writing to
+`public/data/` and `generator/state/world.json`. Requires `OPENROUTER_API_KEY` in the
+environment — copy `.env.example` to `.env` for local development. See
+[`AGENTS.md`](./AGENTS.md) for how the two phases work, how to point it at a different
+model/provider via `OPENROUTER_MODEL`, and current known reliability notes.
