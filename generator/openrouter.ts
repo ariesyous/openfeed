@@ -129,8 +129,12 @@ export async function callOpenRouter(opts: CallOpenRouterOptions): Promise<OpenR
   let json: unknown;
   try {
     json = await response.json();
-  } catch {
-    return { ok: false, kind: "retryable", reason: "response was not valid JSON" };
+  } catch (err) {
+    // Headers can arrive before the body is fully written, so a slow completion can get
+    // aborted mid-body-read once timeoutMs elapses -- surfacing here, not in the fetch()
+    // try/catch above. Report the real cause rather than a generic "not valid JSON".
+    const reason = err instanceof Error ? `${err.name}: ${err.message}` : String(err);
+    return { ok: false, kind: "retryable", reason: `failed to read response body: ${reason}` };
   }
 
   const content = (json as { choices?: Array<{ message?: { content?: string } }> })?.choices?.[0]

@@ -93,6 +93,24 @@ describe("callOpenRouter", () => {
     expect(sentBody?.max_tokens).toBe(8000);
   });
 
+  it("reports a descriptive reason when the response body can't be read (e.g. aborted mid-stream)", async () => {
+    const fetchImpl = async () =>
+      ({
+        ok: true,
+        status: 200,
+        headers: new Headers(),
+        json: async () => {
+          throw new DOMException("The operation was aborted.", "AbortError");
+        },
+      }) as unknown as Response;
+
+    const result = await callOpenRouter({ ...baseOpts, fetchImpl });
+    expect(result).toMatchObject({ ok: false, kind: "retryable" });
+    if (!result.ok) {
+      expect(result.reason).toContain("AbortError");
+    }
+  });
+
   it("classifies a 400 citing a token limit as retryable, not fatal", async () => {
     const fetchImpl = async () =>
       new Response(JSON.stringify({ error: { message: "max_tokens exceeds model limit" } }), {

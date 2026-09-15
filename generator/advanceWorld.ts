@@ -1,6 +1,7 @@
 import type { Account, FeedItem } from "../schemas";
 import {
   ADVANCE_WORLD_MAX_TOKENS,
+  ADVANCE_WORLD_TIMEOUT_MS,
   COMMENTS_MAX_PER_CYCLE,
   COMMENTS_MIN_PER_CYCLE,
   ITEMS_PER_CYCLE,
@@ -216,6 +217,7 @@ export async function runAdvanceWorld(ctx: {
     initialUserPrompt,
     jsonSchema: { name: "dopamine_feed_advance_world", schema: ADVANCE_WORLD_JSON_SCHEMA },
     maxTokens: ADVANCE_WORLD_MAX_TOKENS,
+    timeoutMs: ADVANCE_WORLD_TIMEOUT_MS,
     parse: parseRawAdvanceWorld(knownHandles),
     onAttempt: ctx.onAttempt,
     fetchImpl: ctx.fetchImpl,

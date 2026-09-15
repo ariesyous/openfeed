@@ -30,6 +30,12 @@ export const MAX_ATTEMPTS = envInt("GEN_MAX_ATTEMPTS", 5);
 // a stricter random pick on one attempt doesn't kill the whole run.
 export const BOOTSTRAP_MAX_TOKENS = envInt("GEN_BOOTSTRAP_MAX_TOKENS", 8000);
 export const ADVANCE_WORLD_MAX_TOKENS = envInt("GEN_ADVANCE_WORLD_MAX_TOKENS", 6000);
+
+// A larger max_tokens needs a longer per-request timeout: a slow free model can take
+// well over a minute (observed: consistently timing out right at the default 60s once
+// max_tokens was raised) to finish generating a large completion.
+export const BOOTSTRAP_TIMEOUT_MS = envInt("GEN_BOOTSTRAP_TIMEOUT_MS", 240_000);
+export const ADVANCE_WORLD_TIMEOUT_MS = envInt("GEN_ADVANCE_WORLD_TIMEOUT_MS", 150_000);
 // Base backoff delays (ms) before attempts 2..5; attempt 1 never waits. Jitter
 // is added on top by the retry loop. ~2/5/10/20s per ProjectSpecifications.md §14.
 export const BACKOFF_BASE_MS = [2000, 5000, 10000, 20000];
