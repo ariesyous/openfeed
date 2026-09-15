@@ -21,83 +21,6 @@ const COMMUNITY_EXAMPLES =
   "technology, gaming, relationships, work, local/community chatter, entertainment, " +
   "hobbies, weird internet culture, science, unpopular opinions, absurd humor";
 
-const BOOTSTRAP_JSON_SCHEMA = {
-  type: "object",
-  properties: {
-    accounts: {
-      type: "array",
-      items: {
-        type: "object",
-        properties: {
-          handle: { type: "string" },
-          displayName: { type: "string" },
-          bio: { type: "string" },
-          personalityTraits: { type: "array", items: { type: "string" } },
-          interests: { type: "array", items: { type: "string" } },
-          writingStyle: {
-            type: "object",
-            properties: {
-              formality: { type: "number" },
-              avgPostLength: { type: "string", enum: ["short", "medium", "long", "variable"] },
-              quirks: { type: "array", items: { type: "string" } },
-              emojiUsage: { type: "string", enum: ["none", "rare", "occasional", "frequent"] },
-            },
-            required: ["formality", "avgPostLength", "quirks", "emojiUsage"],
-          },
-          communities: { type: "array", items: { type: "string" } },
-          behavioralTendencies: {
-            type: "object",
-            properties: {
-              positivity: { type: "number" },
-              controversialTake: { type: "number" },
-              replyRate: { type: "number" },
-            },
-            required: ["positivity", "controversialTake", "replyRate"],
-          },
-          relationships: {
-            type: "array",
-            items: {
-              type: "object",
-              properties: {
-                handle: { type: "string" },
-                type: { type: "string", enum: ["friend", "rival", "mutual", "fan", "blocked"] },
-              },
-              required: ["handle", "type"],
-            },
-          },
-          activityLevel: { type: "string", enum: ["low", "medium", "high"] },
-        },
-        required: [
-          "handle",
-          "displayName",
-          "bio",
-          "personalityTraits",
-          "interests",
-          "writingStyle",
-          "communities",
-          "behavioralTendencies",
-          "relationships",
-          "activityLevel",
-        ],
-      },
-    },
-    communities: { type: "array", items: { type: "string" } },
-    initialStorylines: {
-      type: "array",
-      items: {
-        type: "object",
-        properties: {
-          title: { type: "string" },
-          summary: { type: "string" },
-          involvedHandles: { type: "array", items: { type: "string" } },
-        },
-        required: ["title", "summary", "involvedHandles"],
-      },
-    },
-  },
-  required: ["accounts", "communities"],
-} as const;
-
 function parseRawBootstrap(json: unknown): ParseOutcome<RawBootstrapResponse> {
   const result = RawBootstrapResponseSchema.safeParse(json);
   if (!result.success) {
@@ -141,7 +64,11 @@ export async function runBootstrap(ctx: {
     apiKey: ctx.apiKey,
     systemPrompt,
     initialUserPrompt,
-    jsonSchema: { name: "dopamine_feed_bootstrap", schema: BOOTSTRAP_JSON_SCHEMA },
+    // No response_format/jsonSchema here on purpose: live testing against openrouter/free
+    // showed strict structured-output mode on a schema this large (30-50 nested account
+    // objects) reliably comes back empty or truncated on whichever free model gets
+    // picked. The prompt already spells out the exact JSON shape with a literal example,
+    // and Zod validation + the retry-with-correction loop below carry the rest.
     maxTokens: BOOTSTRAP_MAX_TOKENS,
     timeoutMs: BOOTSTRAP_TIMEOUT_MS,
     parse: parseRawBootstrap,
