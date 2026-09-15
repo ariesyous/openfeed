@@ -125,6 +125,11 @@ export async function generateValidated<T>(
     try {
       parsedJson = JSON.parse(stripCodeFence(outcome.content));
     } catch {
+      if (process.env.DEBUG_RAW_CONTENT) {
+        console.error("---RAW CONTENT START---");
+        console.error(outcome.content);
+        console.error("---RAW CONTENT END---");
+      }
       opts.onAttempt?.({ attempt, outcomeKind: "invalid_json" });
       userPrompt = appendCorrection(userPrompt, ["the response was not valid JSON"]);
       continue;

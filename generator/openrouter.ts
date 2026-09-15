@@ -1,4 +1,4 @@
-import { OPENROUTER_MODEL, OPENROUTER_URL } from "./config";
+import { getOpenRouterModel, OPENROUTER_URL } from "./config";
 
 export interface OpenRouterMessage {
   role: "system" | "user";
@@ -47,7 +47,7 @@ function parseRetryAfter(headers: Headers): number | undefined {
  * or network failures -- those are classified into an OpenRouterOutcome so the retry loop
  * (generator/retry.ts) can decide what to do. Never logs or returns the API key. */
 export async function callOpenRouter(opts: CallOpenRouterOptions): Promise<OpenRouterOutcome> {
-  const model = opts.model ?? OPENROUTER_MODEL;
+  const model = opts.model ?? getOpenRouterModel();
   const body: Record<string, unknown> = {
     model,
     messages: opts.messages,

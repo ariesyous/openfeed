@@ -5,7 +5,13 @@ function envInt(name: string, fallback: number): number {
   return Number.isFinite(parsed) ? parsed : fallback;
 }
 
-export const OPENROUTER_MODEL = process.env.OPENROUTER_MODEL || "openrouter/free";
+// A function, not a top-level const: config.ts is statically imported (and its
+// top-level evaluated) before generate.ts's main() calls loadEnvFile(), so a
+// top-level const here would always see OPENROUTER_MODEL as unset and silently
+// fall back to openrouter/free regardless of .env.
+export function getOpenRouterModel(): string {
+  return process.env.OPENROUTER_MODEL || "openrouter/free";
+}
 export const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
 
 export const ITEMS_PER_CYCLE = envInt("GEN_ITEMS_PER_CYCLE", 20);
@@ -34,7 +40,13 @@ export const MAX_ATTEMPTS = envInt("GEN_MAX_ATTEMPTS", 5);
 // account objects is a lot of output, and unlike a recurring cycle, nothing downstream
 // is time-sensitive about a one-time setup step taking a while.
 export const BOOTSTRAP_MAX_TOKENS = envInt("GEN_BOOTSTRAP_MAX_TOKENS", 64_000);
-export const ADVANCE_WORLD_MAX_TOKENS = envInt("GEN_ADVANCE_WORLD_MAX_TOKENS", 6000);
+// Raised from 6000 after live testing: a full cycle (20 items + 25-60 comments) got
+// silently cut off mid-JSON at 6000 tokens on google/gemini-3.8-flash, producing
+// invalid_json on every attempt (see retry.ts's stripCodeFence/JSON.parse failure).
+// Gemini's reasoning is mandatory on this endpoint (can't be disabled -- confirmed via
+// a live 400) and its reasoning tokens are drawn from the same max_tokens budget as the
+// actual JSON output, so the ceiling needs headroom for both, not just the JSON itself.
+export const ADVANCE_WORLD_MAX_TOKENS = envInt("GEN_ADVANCE_WORLD_MAX_TOKENS", 24_000);
 
 // A larger max_tokens needs a longer per-request timeout -- these are correlated, not
 // independent: response headers can arrive before the body finishes writing, so a slow
