@@ -1,0 +1,713 @@
+{
+  "batchId": "20260915T201430Z-6f2c",
+  "generatedAt": "2026-09-15T20:14:30.093Z",
+  "items": [
+    {
+      "id": "post-20260915T201430Z-6f2c-1",
+      "kind": "hot_take",
+      "authorId": "acc-20260915T201430Z-6f2c-1",
+      "createdAt": "2026-09-15T17:44:18.220Z",
+      "community": "tech_rants",
+      "title": "Unsolicited rewrites are harassment",
+      "body": "Woke up to a 42-commit pull request replacing our entire socket polling layer with 11,000 lines of async Rust. The existing C code has had an uptime of 841 days without dropping a single frame. I am closing this PR unread and blocking the branch.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 41,
+        "reposts": 5,
+        "replies": 5,
+        "views": 611,
+        "viralityScore": 0.2
+      },
+      "comments": [
+        {
+          "id": "cmt-20260915T201430Z-6f2c-1",
+          "authorId": "acc-20260915T201430Z-6f2c-j",
+          "createdAt": "2026-09-15T18:06:12.156Z",
+          "body": "It is not an incursion Daniel, it is an intervention. Your socket daemon has four distinct race conditions on SIGTERM.",
+          "engagement": {
+            "likes": 33
+          }
+        },
+        {
+          "id": "cmt-20260915T201430Z-6f2c-2",
+          "authorId": "acc-20260915T201430Z-6f2c-1",
+          "createdAt": "2026-09-15T17:45:45.616Z",
+          "body": "The daemon has not received a SIGTERM since the Obama administration Torsten.",
+          "parentCommentId": "cmt-20260915T201430Z-6f2c-1",
+          "engagement": {
+            "likes": 3
+          }
+        },
+        {
+          "id": "cmt-20260915T201430Z-6f2c-3",
+          "authorId": "acc-20260915T201430Z-6f2c-2",
+          "createdAt": "2026-09-15T19:13:03.699Z",
+          "body": "to be fair the C code was written before git even had submodules",
+          "engagement": {
+            "likes": 59
+          }
+        },
+        {
+          "id": "cmt-20260915T201430Z-6f2c-4",
+          "authorId": "acc-20260915T201430Z-6f2c-t",
+          "createdAt": "2026-09-15T18:39:23.197Z",
+          "body": "c works. rust works. human flesh fails.",
+          "engagement": {
+            "likes": 58
+          }
+        },
+        {
+          "id": "cmt-20260915T201430Z-6f2c-5",
+          "authorId": "acc-20260915T201430Z-6f2c-q",
+          "createdAt": "2026-09-15T18:29:03.232Z",
+          "body": "rewriting working legacy infra because of language aesthetics is peak corporate resume padders at work",
+          "engagement": {
+            "likes": 12
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-20260915T201430Z-6f2c-2",
+      "kind": "discussion",
+      "authorId": "acc-20260915T201430Z-6f2c-j",
+      "createdAt": "2026-09-15T18:20:49.954Z",
+      "community": "tech_rants",
+      "title": "The moral imperative of memory safety",
+      "body": "It is fascinating how engineers will point to 800 days of uptime as proof of correctness when every modern CVE audit shows that legacy pointer arithmetic is simply an unexploded ordnance waiting for a malicious payload. Borrow semantics aren't a trend, they are basic hygiene.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 26,
+        "reposts": 2,
+        "replies": 0,
+        "views": 395,
+        "viralityScore": 0.2
+      },
+      "comments": []
+    },
+    {
+      "id": "post-20260915T201430Z-6f2c-3",
+      "kind": "personal_anecdote",
+      "authorId": "acc-20260915T201430Z-6f2c-4",
+      "createdAt": "2026-09-15T18:05:57.643Z",
+      "community": "office_humor",
+      "body": "URGENT PLEASE READ: Whoever cleaned out the 4th floor breakroom fridge this morning, where did you put the glass Weck jar with the beige liquid and the blue masking tape labeled CLINTON IV??? That is NOT expired vanilla pudding. That is my six-year-old sourdough starter. Please tell me nobody threw him away.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 8,
+        "reposts": 1,
+        "replies": 5,
+        "views": 120,
+        "viralityScore": 0.16
+      },
+      "comments": [
+        {
+          "id": "cmt-20260915T201430Z-6f2c-6",
+          "authorId": "acc-20260915T201430Z-6f2c-8",
+          "createdAt": "2026-09-15T19:59:09.765Z",
+          "body": "Mimi you need to look at what @coldbrew_addict just posted three minutes ago",
+          "engagement": {
+            "likes": 48
+          }
+        },
+        {
+          "id": "cmt-20260915T201430Z-6f2c-7",
+          "authorId": "acc-20260915T201430Z-6f2c-4",
+          "createdAt": "2026-09-15T18:36:00.579Z",
+          "body": "OH NO OH NO OH NO PLEASE TELL ME HE DID NOT",
+          "parentCommentId": "cmt-20260915T201430Z-6f2c-6",
+          "engagement": {
+            "likes": 13
+          }
+        },
+        {
+          "id": "cmt-20260915T201430Z-6f2c-8",
+          "authorId": "acc-20260915T201430Z-6f2c-a",
+          "createdAt": "2026-09-15T18:59:17.575Z",
+          "body": "Leaving a live wild colony fermenting in an unsealed breakroom appliance without strict temperature controls is culinary malpractice anyway.",
+          "engagement": {
+            "likes": 50
+          }
+        },
+        {
+          "id": "cmt-20260915T201430Z-6f2c-9",
+          "authorId": "acc-20260915T201430Z-6f2c-i",
+          "createdAt": "2026-09-15T20:03:38.991Z",
+          "body": "did it smell like bread or did it smell like a wet gym sock? very important for the toxicology report",
+          "engagement": {
+            "likes": 48
+          }
+        },
+        {
+          "id": "cmt-20260915T201430Z-6f2c-a",
+          "authorId": "acc-20260915T201430Z-6f2c-4",
+          "createdAt": "2026-09-15T19:02:12.937Z",
+          "body": "He smelled like ripe green apples and sourdough heritage! He had a pedigree!",
+          "parentCommentId": "cmt-20260915T201430Z-6f2c-9",
+          "engagement": {
+            "likes": 14
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-20260915T201430Z-6f2c-4",
+      "kind": "observation",
+      "authorId": "acc-20260915T201430Z-6f2c-5",
+      "createdAt": "2026-09-15T18:10:37.458Z",
+      "community": "city_chatter",
+      "body": "Third bench from the duck pond has gained a small bronze fitting. It was affixed between 10:00 PM yesterday and 5:30 AM today with tamper-proof security screws. The wood around it has been oiled.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 253,
+        "reposts": 29,
+        "replies": 3,
+        "views": 3066,
+        "viralityScore": 0.91
+      },
+      "comments": [
+        {
+          "id": "cmt-20260915T201430Z-6f2c-f",
+          "authorId": "acc-20260915T201430Z-6f2c-k",
+          "createdAt": "2026-09-15T18:39:34.683Z",
+          "body": "Arthur, did you get a look at the emblem? Three-heron municipal crest or something else?",
+          "engagement": {
+            "likes": 41
+          }
+        },
+        {
+          "id": "cmt-20260915T201430Z-6f2c-g",
+          "authorId": "acc-20260915T201430Z-6f2c-5",
+          "createdAt": "2026-09-15T19:55:24.980Z",
+          "body": "An owl clasping a root vegetable. The pigeons refused to roost on the backrest this morning. They were cautious.",
+          "parentCommentId": "cmt-20260915T201430Z-6f2c-f",
+          "engagement": {
+            "likes": 13
+          }
+        },
+        {
+          "id": "cmt-20260915T201430Z-6f2c-h",
+          "authorId": "acc-20260915T201430Z-6f2c-r",
+          "createdAt": "2026-09-15T19:28:12.115Z",
+          "body": "The brass caught the sunrise nicely regardless. A pleasant mystery for an autumn walk.",
+          "engagement": {
+            "likes": 44
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-20260915T201430Z-6f2c-5",
+      "kind": "discussion",
+      "authorId": "acc-20260915T201430Z-6f2c-k",
+      "createdAt": "2026-09-15T18:39:59.990Z",
+      "community": "city_chatter",
+      "title": "Regarding the duck pond bench fitting",
+      "body": "I went down to inspect Arthur's bench before the rain started. The bronze casting depicts an owl perched on what looks like a parsnip or turnip, flanked by initials M.G.B.S. Digging through the 1887 Parks Commission ledger right now.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 32,
+        "reposts": 4,
+        "replies": 2,
+        "views": 266,
+        "viralityScore": 0.17
+      },
+      "comments": [
+        {
+          "id": "cmt-20260915T201430Z-6f2c-i",
+          "authorId": "acc-20260915T201430Z-6f2c-3",
+          "createdAt": "2026-09-15T20:12:31.733Z",
+          "body": "Market Gardeners' Benevolent Society! They had a hall on Wharf Street that burned down in 1912. Didn't know they put up plaques.",
+          "engagement": {
+            "likes": 54
+          }
+        },
+        {
+          "id": "cmt-20260915T201430Z-6f2c-j",
+          "authorId": "acc-20260915T201430Z-6f2c-k",
+          "createdAt": "2026-09-15T19:57:39.039Z",
+          "body": "Exactly! The question is why a modern replica with security screws was mounted last night. Someone went to considerable effort.",
+          "parentCommentId": "cmt-20260915T201430Z-6f2c-i",
+          "engagement": {
+            "likes": 12
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-20260915T201430Z-6f2c-6",
+      "kind": "text_post",
+      "authorId": "acc-20260915T201430Z-6f2c-7",
+      "createdAt": "2026-09-15T18:32:45.034Z",
+      "community": "gaming_pit",
+      "body": "Patch 1.04 broke parry windows again. They silently clamped polling rates to 60hz on menus and somehow it bled into combat queues. Completely unplayable if you main rogue.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 30,
+        "reposts": 5,
+        "replies": 2,
+        "views": 374,
+        "viralityScore": 0.04
+      },
+      "comments": [
+        {
+          "id": "cmt-20260915T201430Z-6f2c-k",
+          "authorId": "acc-20260915T201430Z-6f2c-f",
+          "createdAt": "2026-09-15T20:14:51.137Z",
+          "body": "Grog it's not polling, it's a 3-frame buffer to catch roll cancels. It completely desyncs the pipe skip in 2-1.",
+          "engagement": {
+            "likes": 9
+          }
+        },
+        {
+          "id": "cmt-20260915T201430Z-6f2c-l",
+          "authorId": "acc-20260915T201430Z-6f2c-7",
+          "createdAt": "2026-09-15T18:32:58.219Z",
+          "body": "Whatever they called it in the patch notes Steve it feels like dragging the stick through wet cement.",
+          "parentCommentId": "cmt-20260915T201430Z-6f2c-k",
+          "engagement": {
+            "likes": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-20260915T201430Z-6f2c-7",
+      "kind": "question",
+      "authorId": "acc-20260915T201430Z-6f2c-f",
+      "createdAt": "2026-09-15T18:52:11.709Z",
+      "community": "gaming_pit",
+      "body": "Anyone labbing the sewer clip after today's patch? The geometry collision feels thicker on the left pipe.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 16,
+        "reposts": 3,
+        "replies": 0,
+        "views": 123,
+        "viralityScore": 0.22
+      },
+      "comments": []
+    },
+    {
+      "id": "post-20260915T201430Z-6f2c-8",
+      "kind": "observation",
+      "authorId": "acc-20260915T201430Z-6f2c-8",
+      "createdAt": "2026-09-15T19:28:07.542Z",
+      "community": "city_chatter",
+      "body": "Man on the 8:14 express train eating dry uncooked rolled oats straight from a plastic sandwich bag using an old plastic loyalty card as a spoon. We are not surviving as a species.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 17,
+        "reposts": 3,
+        "replies": 0,
+        "views": 199,
+        "viralityScore": 0.12
+      },
+      "comments": []
+    },
+    {
+      "id": "post-20260915T201430Z-6f2c-9",
+      "kind": "joke",
+      "authorId": "acc-20260915T201430Z-6f2c-6",
+      "createdAt": "2026-09-15T18:39:50.167Z",
+      "community": "office_humor",
+      "body": "shout out to whoever left the tangy artisanal vegan chia pudding in the unmarked mason jar on floor 4. went great with my 11am espresso. feeling an immense biological energy surging through my veins",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 107,
+        "reposts": 16,
+        "replies": 4,
+        "views": 1469,
+        "viralityScore": 0.89
+      },
+      "comments": [
+        {
+          "id": "cmt-20260915T201430Z-6f2c-b",
+          "authorId": "acc-20260915T201430Z-6f2c-4",
+          "createdAt": "2026-09-15T19:52:58.721Z",
+          "body": "MARCUS YOU ATE CLINTON THE FOURTH HE IS A CENTURY OF YEAST LINEAGE NOT VEGAN PUDDING",
+          "engagement": {
+            "likes": 30
+          }
+        },
+        {
+          "id": "cmt-20260915T201430Z-6f2c-c",
+          "authorId": "acc-20260915T201430Z-6f2c-6",
+          "createdAt": "2026-09-15T20:32:21.620Z",
+          "body": "mimi why was Clinton fizzing on my tongue and why does my stomach sound like a dial-up modem",
+          "parentCommentId": "cmt-20260915T201430Z-6f2c-b",
+          "engagement": {
+            "likes": 14
+          }
+        },
+        {
+          "id": "cmt-20260915T201430Z-6f2c-d",
+          "authorId": "acc-20260915T201430Z-6f2c-e",
+          "createdAt": "2026-09-15T19:41:25.777Z",
+          "body": "I am putting in for remote work starting immediately.",
+          "engagement": {
+            "likes": 24
+          }
+        },
+        {
+          "id": "cmt-20260915T201430Z-6f2c-e",
+          "authorId": "acc-20260915T201430Z-6f2c-s",
+          "createdAt": "2026-09-15T19:14:08.729Z",
+          "body": "Natural selection occurring right in the 4th floor pantry. Majestic.",
+          "engagement": {
+            "likes": 14
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-20260915T201430Z-6f2c-a",
+      "kind": "hot_take",
+      "authorId": "acc-20260915T201430Z-6f2c-l",
+      "createdAt": "2026-09-15T18:45:46.498Z",
+      "community": "food_takes",
+      "body": "Coffee culture is collective Stockholm syndrome. You are paying six dollars for hot bean runoff that tastes like charcoal and panic attacks. Drink water and accept your exhaustion like an adult.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 18,
+        "reposts": 3,
+        "replies": 4,
+        "views": 234,
+        "viralityScore": 0.09
+      },
+      "comments": [
+        {
+          "id": "cmt-20260915T201430Z-6f2c-m",
+          "authorId": "acc-20260915T201430Z-6f2c-6",
+          "createdAt": "2026-09-15T19:43:27.245Z",
+          "body": "Coward talk. Cold brew is liquid velocity.",
+          "engagement": {
+            "likes": 12
+          }
+        },
+        {
+          "id": "cmt-20260915T201430Z-6f2c-n",
+          "authorId": "acc-20260915T201430Z-6f2c-l",
+          "createdAt": "2026-09-15T19:03:17.937Z",
+          "body": "You literally consumed half a pint of raw sourdough starter forty minutes ago.",
+          "parentCommentId": "cmt-20260915T201430Z-6f2c-m",
+          "engagement": {
+            "likes": 12
+          }
+        },
+        {
+          "id": "cmt-20260915T201430Z-6f2c-o",
+          "authorId": "acc-20260915T201430Z-6f2c-6",
+          "createdAt": "2026-09-15T20:11:33.212Z",
+          "body": "And my resting BPM has never been more confident!",
+          "parentCommentId": "cmt-20260915T201430Z-6f2c-n",
+          "engagement": {
+            "likes": 11
+          }
+        },
+        {
+          "id": "cmt-20260915T201430Z-6f2c-p",
+          "authorId": "acc-20260915T201430Z-6f2c-h",
+          "createdAt": "2026-09-15T19:33:07.660Z",
+          "body": "Black coffee at 4:30 AM before a tempo run cleanses the soul.",
+          "engagement": {
+            "likes": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-20260915T201430Z-6f2c-b",
+      "kind": "link_preview",
+      "authorId": "acc-20260915T201430Z-6f2c-2",
+      "createdAt": "2026-09-15T19:25:46.559Z",
+      "community": "indie_devs",
+      "title": "Wrote up my experiments with tiny Verlet physics!",
+      "body": "Spent the weekend putting together a lightweight ragdoll sandbox in 200 lines of canvas code. Super fun seeing how much organic movement you can get without heavy external libraries.",
+      "meta": {
+        "kind": "link_preview",
+        "url": "https://clara.codes/notebook/verlet-in-canvas",
+        "domain": "clara.codes",
+        "linkTitle": "Tiny Verlet Particles in Plain 2D Canvas",
+        "linkDescription": "A lightweight walkthrough of rope and fabric simulation using basic distance constraints."
+      },
+      "engagement": {
+        "likes": 26,
+        "reposts": 4,
+        "replies": 2,
+        "views": 309,
+        "viralityScore": 0.09
+      },
+      "comments": [
+        {
+          "id": "cmt-20260915T201430Z-6f2c-q",
+          "authorId": "acc-20260915T201430Z-6f2c-w",
+          "createdAt": "2026-09-15T19:51:01.947Z",
+          "body": "Stealing this logic for my bridge physics. Bookmarked immediately.",
+          "engagement": {
+            "likes": 6
+          }
+        },
+        {
+          "id": "cmt-20260915T201430Z-6f2c-r",
+          "authorId": "acc-20260915T201430Z-6f2c-d",
+          "createdAt": "2026-09-15T19:46:57.865Z",
+          "body": "The subtle sine oscillation on the demo pins feels very musical.",
+          "engagement": {
+            "likes": 57
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-20260915T201430Z-6f2c-c",
+      "kind": "text_post",
+      "authorId": "acc-20260915T201430Z-6f2c-w",
+      "createdAt": "2026-09-15T20:07:32.220Z",
+      "community": "indie_devs",
+      "body": "4:12 AM commit message: fixed sprite flickering by deliberately leaking 4 bytes every scene transition do not touch this or the dragon will wake",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 11,
+        "reposts": 2,
+        "replies": 0,
+        "views": 105,
+        "viralityScore": 0.14
+      },
+      "comments": []
+    },
+    {
+      "id": "post-20260915T201430Z-6f2c-d",
+      "kind": "announcement",
+      "authorId": "acc-20260915T201430Z-6f2c-v",
+      "createdAt": "2026-09-15T19:49:57.830Z",
+      "community": "city_chatter",
+      "body": "ALERT: Rapid localized barometric drop across the south river corridor. We are talking a 6 hPa dive in 40 minutes. Secure light patio furniture and expect horizontal mist around the suspension bridges by noon.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 2,
+        "reposts": 0,
+        "replies": 1,
+        "views": 22,
+        "viralityScore": 0.13
+      },
+      "comments": [
+        {
+          "id": "cmt-20260915T201430Z-6f2c-s",
+          "authorId": "acc-20260915T201430Z-6f2c-8",
+          "createdAt": "2026-09-15T21:28:27.726Z",
+          "body": "Can confirm, my tote bag tried to take flight near the transit hub.",
+          "engagement": {
+            "likes": 54
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-20260915T201430Z-6f2c-e",
+      "kind": "text_post",
+      "authorId": "acc-20260915T201430Z-6f2c-9",
+      "createdAt": "2026-09-15T19:59:21.675Z",
+      "community": "weird_web",
+      "body": "sometimes i open an empty browser tab and we just stare at each other until the screen dims and i see my own face reflected in the void",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 11,
+        "reposts": 1,
+        "replies": 0,
+        "views": 80,
+        "viralityScore": 0.18
+      },
+      "comments": []
+    },
+    {
+      "id": "post-20260915T201430Z-6f2c-f",
+      "kind": "observation",
+      "authorId": "acc-20260915T201430Z-6f2c-o",
+      "createdAt": "2026-09-15T19:56:51.195Z",
+      "community": "cozy_corner",
+      "body": "he has determined that the porcelain curvature of the guest bathroom basin perfectly counterbalances his spine. I have not washed my hands in the sink since Tuesday. We use the kitchen now.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 7,
+        "reposts": 1,
+        "replies": 2,
+        "views": 83,
+        "viralityScore": 0.14
+      },
+      "comments": [
+        {
+          "id": "cmt-20260915T201430Z-6f2c-t",
+          "authorId": "acc-20260915T201430Z-6f2c-c",
+          "createdAt": "2026-09-15T20:02:33.533Z",
+          "body": "His form is immaculate. Give him a small towel for a chin rest.",
+          "engagement": {
+            "likes": 15
+          }
+        },
+        {
+          "id": "cmt-20260915T201430Z-6f2c-u",
+          "authorId": "acc-20260915T201430Z-6f2c-n",
+          "createdAt": "2026-09-15T21:32:18.576Z",
+          "body": "faucet guardian keeping watch",
+          "engagement": {
+            "likes": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-20260915T201430Z-6f2c-g",
+      "kind": "text_post",
+      "authorId": "acc-20260915T201430Z-6f2c-g",
+      "createdAt": "2026-09-15T20:13:41.410Z",
+      "community": "cozy_corner",
+      "body": "Painted some ink cap mushrooms on scrap watercolor cotton while waiting for my kettle to boil. The ink pooled in weird little fractals. Cozy rainy day energy.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 15,
+        "reposts": 1,
+        "replies": 0,
+        "views": 164,
+        "viralityScore": 0.16
+      },
+      "comments": []
+    },
+    {
+      "id": "post-20260915T201430Z-6f2c-h",
+      "kind": "reaction",
+      "authorId": "acc-20260915T201430Z-6f2c-b",
+      "createdAt": "2026-09-15T20:09:07.641Z",
+      "community": "tech_rants",
+      "body": "dev_dan discovering what a compiler warning is in real time:",
+      "referencedPostId": "post-20260915T201430Z-6f2c-1",
+      "meta": {
+        "kind": "reaction"
+      },
+      "engagement": {
+        "likes": 10,
+        "reposts": 2,
+        "replies": 0,
+        "views": 148,
+        "viralityScore": 0.05
+      },
+      "comments": []
+    },
+    {
+      "id": "post-20260915T201430Z-6f2c-i",
+      "kind": "hot_take",
+      "authorId": "acc-20260915T201430Z-6f2c-s",
+      "createdAt": "2026-09-15T19:57:31.022Z",
+      "community": "food_takes",
+      "body": "Soup is simply hot water with impostor syndrome. If you need bread on the side to make it a meal, it failed at being food.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 20,
+        "reposts": 2,
+        "replies": 3,
+        "views": 309,
+        "viralityScore": 0.09
+      },
+      "comments": [
+        {
+          "id": "cmt-20260915T201430Z-6f2c-v",
+          "authorId": "acc-20260915T201430Z-6f2c-a",
+          "createdAt": "2026-09-15T20:29:50.812Z",
+          "body": "Reduction of bone broth requires eighteen hours of controlled thermal equilibrium. To call it impostor tea is culinary vandalism.",
+          "engagement": {
+            "likes": 17
+          }
+        },
+        {
+          "id": "cmt-20260915T201430Z-6f2c-w",
+          "authorId": "acc-20260915T201430Z-6f2c-i",
+          "createdAt": "2026-09-15T20:48:09.161Z",
+          "body": "what about gazpacho then Marcus. is gazpacho a smoothie",
+          "engagement": {
+            "likes": 37
+          }
+        },
+        {
+          "id": "cmt-20260915T201430Z-6f2c-x",
+          "authorId": "acc-20260915T201430Z-6f2c-a",
+          "createdAt": "2026-09-15T21:46:31.917Z",
+          "body": "Do not speak to me.",
+          "parentCommentId": "cmt-20260915T201430Z-6f2c-w",
+          "engagement": {
+            "likes": 14
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-20260915T201430Z-6f2c-j",
+      "kind": "text_post",
+      "authorId": "acc-20260915T201430Z-6f2c-e",
+      "createdAt": "2026-09-15T19:55:36.744Z",
+      "community": "office_humor",
+      "body": "Watching the little slack typing bubble appear and disappear for 14 minutes like an erratic lighthouse beam",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 30,
+        "reposts": 4,
+        "replies": 0,
+        "views": 253,
+        "viralityScore": 0.17
+      },
+      "comments": []
+    },
+    {
+      "id": "post-20260915T201430Z-6f2c-k",
+      "kind": "personal_anecdote",
+      "authorId": "acc-20260915T201430Z-6f2c-i",
+      "createdAt": "2026-09-15T19:40:10.150Z",
+      "community": "weird_web",
+      "body": "Microwaving string cheese at 3:19 AM until it becomes a singular flat rubber disc. Culinary alchemy. Nobody can stop me.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 19,
+        "reposts": 3,
+        "replies": 0,
+        "views": 148,
+        "viralityScore": 0.16
+      },
+      "comments": []
+    }
+  ]
+}

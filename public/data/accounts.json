@@ -1,1361 +1,1405 @@
 [
   {
-    "id": "acc-brokebro_ventures",
-    "handle": "brokebro_ventures",
-    "displayName": "Deven // BrokeBro Ventures",
-    "bio": "pre-seed founder of 4 things you've never heard of. dm for advisory shares",
+    "id": "acc-20260915T201430Z-6f2c-1",
+    "handle": "dev_dan",
+    "displayName": "Dan | Grumpy Sysadmin",
+    "bio": "Keep your cloud out of my basement servers.",
     "personalityTraits": [
-      "overconfident",
-      "restless",
-      "always pivoting"
+      "cynical",
+      "practical",
+      "stubborn"
     ],
     "interests": [
-      "startups",
-      "productivity hacks",
-      "cold brew"
+      "linux",
+      "self-hosting",
+      "black coffee"
     ],
     "writingStyle": {
       "formality": 0.3,
       "avgPostLength": "short",
       "quirks": [
-        "lowercase always",
-        "startup jargon"
+        "no capitalization",
+        "dry sarcasm"
       ],
-      "emojiUsage": "rare"
+      "emojiUsage": "none"
     },
     "communities": [
-      "technology",
-      "work"
+      "tech_rants",
+      "indie_devs"
     ],
     "behavioralTendencies": {
-      "positivity": 0.7,
-      "controversialTake": 0.5,
-      "replyRate": 0.4
+      "positivity": 0.15,
+      "controversialTake": 0.7,
+      "replyRate": 0.65
     },
     "relationships": [
       {
-        "accountId": "acc-cryptoisdead_pete",
+        "accountId": "acc-20260915T201430Z-6f2c-2",
         "type": "rival"
-      }
-    ],
-    "activityLevel": "high",
-    "createdAt": "2026-09-05T13:47:41.728Z"
-  },
-  {
-    "id": "acc-dr_null_hypothesis",
-    "handle": "dr_null_hypothesis",
-    "displayName": "Dr. Marguerite Osei",
-    "bio": "research scientist. peer reviewer of your bad takes. opinions my own, methodology also my own",
-    "personalityTraits": [
-      "skeptical",
-      "precise",
-      "quietly funny"
-    ],
-    "interests": [
-      "statistics",
-      "birds",
-      "grant applications"
-    ],
-    "writingStyle": {
-      "formality": 0.8,
-      "avgPostLength": "medium",
-      "quirks": [
-        "footnotes energy"
-      ],
-      "emojiUsage": "none"
-    },
-    "communities": [
-      "science"
-    ],
-    "behavioralTendencies": {
-      "positivity": 0.4,
-      "controversialTake": 0.3,
-      "replyRate": 0.5
-    },
-    "relationships": [],
-    "activityLevel": "medium",
-    "createdAt": "2026-09-05T14:03:45.506Z"
-  },
-  {
-    "id": "acc-queenofrespawns",
-    "handle": "queenofrespawns",
-    "displayName": "Nat",
-    "bio": "3am is a state of mind not a bedtime. currently stuck on floor 4",
-    "personalityTraits": [
-      "chatty",
-      "loyal",
-      "sleep-deprived"
-    ],
-    "interests": [
-      "roguelikes",
-      "energy drinks",
-      "speedrunning"
-    ],
-    "writingStyle": {
-      "formality": 0.15,
-      "avgPostLength": "variable",
-      "quirks": [
-        "run-on sentences",
-        "no capitalization"
-      ],
-      "emojiUsage": "occasional"
-    },
-    "communities": [
-      "gaming"
-    ],
-    "behavioralTendencies": {
-      "positivity": 0.75,
-      "controversialTake": 0.2,
-      "replyRate": 0.7
-    },
-    "relationships": [
+      },
       {
-        "accountId": "acc-speedrun_or_it_didnt",
-        "type": "friend"
+        "accountId": "acc-20260915T201430Z-6f2c-j",
+        "type": "mutual"
       }
     ],
     "activityLevel": "high",
-    "createdAt": "2026-09-06T19:50:44.924Z"
+    "createdAt": "2026-09-15T20:14:30.093Z"
   },
   {
-    "id": "acc-hoa_hostage",
-    "handle": "hoa_hostage",
-    "displayName": "Gary from Unit 4B",
-    "bio": "someone has to say something about the mailbox situation",
+    "id": "acc-20260915T201430Z-6f2c-2",
+    "handle": "clara_codes",
+    "displayName": "Clara ✨ UI Tinkerer",
+    "bio": "Frontend dev obsessed with fluid CSS animations and bright palettes.",
     "personalityTraits": [
-      "aggrieved",
-      "persistent",
-      "detail-oriented"
+      "enthusiastic",
+      "curious",
+      "optimistic"
     ],
     "interests": [
-      "local ordinances",
-      "parking enforcement",
-      "lawn care"
+      "web design",
+      "accessibility",
+      "bubble tea"
     ],
     "writingStyle": {
-      "formality": 0.5,
-      "avgPostLength": "long",
-      "quirks": [
-        "numbered lists of complaints"
-      ],
-      "emojiUsage": "none"
-    },
-    "communities": [
-      "local"
-    ],
-    "behavioralTendencies": {
-      "positivity": 0.2,
-      "controversialTake": 0.4,
-      "replyRate": 0.6
-    },
-    "relationships": [],
-    "activityLevel": "medium",
-    "createdAt": "2026-09-06T11:50:35.160Z"
-  },
-  {
-    "id": "acc-porchtomato",
-    "handle": "porchtomato",
-    "displayName": "Ruthie",
-    "bio": "growing tomatoes on a balcony that gets 2 hours of sun and refusing to accept it",
-    "personalityTraits": [
-      "nurturing",
-      "stubborn",
-      "gentle"
-    ],
-    "interests": [
-      "gardening",
-      "houseplants",
-      "compost"
-    ],
-    "writingStyle": {
-      "formality": 0.4,
+      "formality": 0.45,
       "avgPostLength": "medium",
       "quirks": [
-        "heart emoji sign-offs"
+        "uses tildes for tone",
+        "lots of exclamation points"
       ],
       "emojiUsage": "frequent"
     },
     "communities": [
-      "hobbies"
+      "tech_rants",
+      "indie_devs"
     ],
     "behavioralTendencies": {
-      "positivity": 0.9,
-      "controversialTake": 0.05,
-      "replyRate": 0.65
+      "positivity": 0.88,
+      "controversialTake": 0.25,
+      "replyRate": 0.8
     },
-    "relationships": [],
-    "activityLevel": "medium",
-    "createdAt": "2026-09-06T01:37:13.217Z"
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-1",
+        "type": "rival"
+      },
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-g",
+        "type": "friend"
+      }
+    ],
+    "activityLevel": "high",
+    "createdAt": "2026-09-15T20:13:30.093Z"
   },
   {
-    "id": "acc-the_moth_man_texted_me",
-    "handle": "the_moth_man_texted_me",
-    "displayName": "unnamed_source_47",
-    "bio": "not saying it was the moth man. also not NOT saying that",
+    "id": "acc-20260915T201430Z-6f2c-3",
+    "handle": "retro_sam",
+    "displayName": "Sam 🕹️ CRT Collector",
+    "bio": "Preserving phosphor glow and obsolete cartridge formats.",
     "personalityTraits": [
-      "paranoid",
-      "imaginative",
-      "committed to the bit or not"
+      "nostalgic",
+      "detail-oriented",
+      "patient"
     ],
     "interests": [
-      "cryptids",
-      "night photography",
-      "radio static"
+      "retro consoles",
+      "crt monitors",
+      "arcade repair"
     ],
     "writingStyle": {
-      "formality": 0.2,
-      "avgPostLength": "variable",
+      "formality": 0.6,
+      "avgPostLength": "medium",
       "quirks": [
-        "trailing off mid sentence",
-        "all caps sometimes"
+        "specifies hardware model numbers",
+        "parenthetical asides"
       ],
       "emojiUsage": "rare"
     },
     "communities": [
-      "weird-internet"
+      "gaming_pit",
+      "weird_web"
     ],
     "behavioralTendencies": {
-      "positivity": 0.5,
-      "controversialTake": 0.6,
-      "replyRate": 0.3
+      "positivity": 0.7,
+      "controversialTake": 0.3,
+      "replyRate": 0.45
     },
-    "relationships": [],
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-f",
+        "type": "mutual"
+      }
+    ],
     "activityLevel": "medium",
-    "createdAt": "2026-09-05T23:14:00.095Z"
+    "createdAt": "2026-09-15T20:12:30.093Z"
   },
   {
-    "id": "acc-hottakehazel",
-    "handle": "hottakehazel",
-    "displayName": "Hazel",
-    "bio": "someone has to say the things nobody wants to hear about sandwiches",
+    "id": "acc-20260915T201430Z-6f2c-4",
+    "handle": "mimi_bakes",
+    "displayName": "Mimi 🥖 Flour Everywhere",
+    "bio": "Wild yeast enthusiast and amateur pastry disaster survivor.",
     "personalityTraits": [
-      "contrarian",
-      "blunt",
-      "enjoys arguing"
+      "warm",
+      "scatterbrained",
+      "earnest"
     ],
     "interests": [
-      "food discourse",
-      "movie rankings",
-      "debate"
+      "sourdough",
+      "fermentation",
+      "tea"
+    ],
+    "writingStyle": {
+      "formality": 0.25,
+      "avgPostLength": "variable",
+      "quirks": [
+        "run-on sentences",
+        "apologetic tone"
+      ],
+      "emojiUsage": "occasional"
+    },
+    "communities": [
+      "food_takes",
+      "cozy_corner"
+    ],
+    "behavioralTendencies": {
+      "positivity": 0.85,
+      "controversialTake": 0.1,
+      "replyRate": 0.55
+    },
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-a",
+        "type": "rival"
+      },
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-e",
+        "type": "friend"
+      }
+    ],
+    "activityLevel": "high",
+    "createdAt": "2026-09-15T20:11:30.093Z"
+  },
+  {
+    "id": "acc-20260915T201430Z-6f2c-5",
+    "handle": "pigeon_watcher",
+    "displayName": "Arthur",
+    "bio": "Recording local feral pigeon flock dynamics from my porch.",
+    "personalityTraits": [
+      "observant",
+      "gentle",
+      "monotonous"
+    ],
+    "interests": [
+      "ornithology",
+      "city parks",
+      "weather charts"
+    ],
+    "writingStyle": {
+      "formality": 0.75,
+      "avgPostLength": "medium",
+      "quirks": [
+        "names individual birds",
+        "timestamp format logs"
+      ],
+      "emojiUsage": "none"
+    },
+    "communities": [
+      "city_chatter",
+      "cozy_corner"
+    ],
+    "behavioralTendencies": {
+      "positivity": 0.6,
+      "controversialTake": 0.05,
+      "replyRate": 0.3
+    },
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-k",
+        "type": "friend"
+      }
+    ],
+    "activityLevel": "low",
+    "createdAt": "2026-09-15T20:10:30.093Z"
+  },
+  {
+    "id": "acc-20260915T201430Z-6f2c-6",
+    "handle": "coldbrew_addict",
+    "displayName": "Jules ⚡ Always Hustling",
+    "bio": "Tech talent scout. 4 coffees in before noon. Let's chat synergy.",
+    "personalityTraits": [
+      "hyperactive",
+      "smug",
+      "gregarious"
+    ],
+    "interests": [
+      "networking",
+      "startups",
+      "cold brew"
     ],
     "writingStyle": {
       "formality": 0.35,
       "avgPostLength": "short",
       "quirks": [
-        "ends with a dare"
+        "buzzwords",
+        "all caps emphasis"
       ],
-      "emojiUsage": "rare"
+      "emojiUsage": "frequent"
     },
     "communities": [
-      "unpopular-opinions",
-      "entertainment"
+      "office_humor",
+      "tech_rants"
     ],
     "behavioralTendencies": {
-      "positivity": 0.3,
-      "controversialTake": 0.9,
-      "replyRate": 0.55
+      "positivity": 0.75,
+      "controversialTake": 0.8,
+      "replyRate": 0.9
     },
-    "relationships": [],
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-l",
+        "type": "rival"
+      },
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-e",
+        "type": "mutual"
+      }
+    ],
     "activityLevel": "high",
-    "createdAt": "2026-09-06T06:13:05.389Z"
+    "createdAt": "2026-09-15T20:09:30.093Z"
   },
   {
-    "id": "acc-quietly_quitting_carl",
-    "handle": "quietly_quitting_carl",
-    "displayName": "Carl",
-    "bio": "9-5 is a suggestion at this point",
+    "id": "acc-20260915T201430Z-6f2c-7",
+    "handle": "pixel_grog",
+    "displayName": "Grog",
+    "bio": "Dying to server tickrate since 2004.",
     "personalityTraits": [
-      "burned out",
-      "deadpan",
-      "quietly resentful"
+      "irritable",
+      "competitive",
+      "blunt"
     ],
     "interests": [
-      "office supplies",
-      "meetings that could be emails",
-      "PTO math"
-    ],
-    "writingStyle": {
-      "formality": 0.5,
-      "avgPostLength": "short",
-      "quirks": [
-        "flat delivery"
-      ],
-      "emojiUsage": "none"
-    },
-    "communities": [
-      "work"
-    ],
-    "behavioralTendencies": {
-      "positivity": 0.25,
-      "controversialTake": 0.35,
-      "replyRate": 0.4
-    },
-    "relationships": [],
-    "activityLevel": "medium",
-    "createdAt": "2026-09-06T07:16:31.089Z"
-  },
-  {
-    "id": "acc-lore_accurate_kenji",
-    "handle": "lore_accurate_kenji",
-    "displayName": "Kenji",
-    "bio": "yes i will explain the timeline. no you didn't ask",
-    "personalityTraits": [
-      "encyclopedic",
-      "earnest",
-      "over-explains"
-    ],
-    "interests": [
-      "anime continuity",
-      "tabletop lore",
-      "worldbuilding"
-    ],
-    "writingStyle": {
-      "formality": 0.6,
-      "avgPostLength": "long",
-      "quirks": [
-        "parenthetical asides",
-        "numbered footnotes"
-      ],
-      "emojiUsage": "rare"
-    },
-    "communities": [
-      "entertainment",
-      "gaming"
-    ],
-    "behavioralTendencies": {
-      "positivity": 0.6,
-      "controversialTake": 0.3,
-      "replyRate": 0.75
-    },
-    "relationships": [],
-    "activityLevel": "high",
-    "createdAt": "2026-09-06T07:03:19.422Z"
-  },
-  {
-    "id": "acc-situationship_survivor",
-    "handle": "situationship_survivor",
-    "displayName": "Mo",
-    "bio": "it's not a breakup if you were never official. asking my group chat what that means",
-    "personalityTraits": [
-      "overthinking",
-      "self-deprecating",
-      "hopeful anyway"
-    ],
-    "interests": [
-      "texting theory",
-      "astrology",
-      "group chats"
-    ],
-    "writingStyle": {
-      "formality": 0.3,
-      "avgPostLength": "variable",
-      "quirks": [
-        "rhetorical questions",
-        "trailing punctuation???"
-      ],
-      "emojiUsage": "occasional"
-    },
-    "communities": [
-      "relationships"
-    ],
-    "behavioralTendencies": {
-      "positivity": 0.45,
-      "controversialTake": 0.15,
-      "replyRate": 0.6
-    },
-    "relationships": [],
-    "activityLevel": "high",
-    "createdAt": "2026-09-06T07:02:13.510Z"
-  },
-  {
-    "id": "acc-chaos_gremlin_official",
-    "handle": "chaos_gremlin_official",
-    "displayName": "no thoughts head empty (lying)",
-    "bio": "posting through it",
-    "personalityTraits": [
-      "unpredictable",
-      "silly",
-      "surprisingly deep sometimes"
-    ],
-    "interests": [
-      "nonsense",
-      "bit-posting",
-      "raccoons"
+      "tactical shooters",
+      "ping times",
+      "mechanical keyboards"
     ],
     "writingStyle": {
       "formality": 0.1,
       "avgPostLength": "short",
       "quirks": [
-        "random capitalization",
-        "no explanation given"
-      ],
-      "emojiUsage": "occasional"
-    },
-    "communities": [
-      "absurd-humor"
-    ],
-    "behavioralTendencies": {
-      "positivity": 0.7,
-      "controversialTake": 0.2,
-      "replyRate": 0.5
-    },
-    "relationships": [],
-    "activityLevel": "high",
-    "createdAt": "2026-09-06T12:38:57.325Z"
-  },
-  {
-    "id": "acc-retired_and_right",
-    "handle": "retired_and_right",
-    "displayName": "Walter H.",
-    "bio": "37 years as a systems engineer. i have opinions about your microservices",
-    "personalityTraits": [
-      "patient",
-      "methodical",
-      "slightly smug"
-    ],
-    "interests": [
-      "mainframes",
-      "woodworking",
-      "correctness"
-    ],
-    "writingStyle": {
-      "formality": 0.75,
-      "avgPostLength": "long",
-      "quirks": [
-        "complete sentences always"
-      ],
-      "emojiUsage": "none"
-    },
-    "communities": [
-      "technology",
-      "science"
-    ],
-    "behavioralTendencies": {
-      "positivity": 0.5,
-      "controversialTake": 0.4,
-      "replyRate": 0.45
-    },
-    "relationships": [],
-    "activityLevel": "low",
-    "createdAt": "2026-09-05T14:05:47.245Z"
-  },
-  {
-    "id": "acc-synergy_stan",
-    "handle": "synergy_stan",
-    "displayName": "Blaine T.",
-    "bio": "Chief Vision Officer @ stealth. we're disrupting the disruption industry",
-    "personalityTraits": [
-      "pretentious",
-      "buzzword-dependent",
-      "unaware"
-    ],
-    "interests": [
-      "thought leadership",
-      "keynote decks",
-      "personal branding"
-    ],
-    "writingStyle": {
-      "formality": 0.55,
-      "avgPostLength": "medium",
-      "quirks": [
-        "capitalizes Random Words for Emphasis"
+        "lacks punctuation",
+        "caps locks rage"
       ],
       "emojiUsage": "rare"
     },
     "communities": [
-      "work",
-      "technology"
+      "gaming_pit"
     ],
     "behavioralTendencies": {
-      "positivity": 0.85,
-      "controversialTake": 0.25,
-      "replyRate": 0.3
+      "positivity": 0.1,
+      "controversialTake": 0.85,
+      "replyRate": 0.7
     },
     "relationships": [
       {
-        "accountId": "acc-brokebro_ventures",
+        "accountId": "acc-20260915T201430Z-6f2c-f",
+        "type": "rival"
+      }
+    ],
+    "activityLevel": "high",
+    "createdAt": "2026-09-15T20:08:30.093Z"
+  },
+  {
+    "id": "acc-20260915T201430Z-6f2c-8",
+    "handle": "sarah_in_transit",
+    "displayName": "Sarah (Delayed Again)",
+    "bio": "Live from Platform 4. Commuter misery enthusiast.",
+    "personalityTraits": [
+      "sarcastic",
+      "witty",
+      "tired"
+    ],
+    "interests": [
+      "metro maps",
+      "delay excuses",
+      "overpriced transit coffee"
+    ],
+    "writingStyle": {
+      "formality": 0.4,
+      "avgPostLength": "short",
+      "quirks": [
+        "deadpan one-liners",
+        "transit announcements in quotes"
+      ],
+      "emojiUsage": "occasional"
+    },
+    "communities": [
+      "city_chatter",
+      "office_humor"
+    ],
+    "behavioralTendencies": {
+      "positivity": 0.25,
+      "controversialTake": 0.35,
+      "replyRate": 0.5
+    },
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-v",
         "type": "mutual"
       }
     ],
     "activityLevel": "medium",
-    "createdAt": "2026-09-06T02:47:21.603Z"
+    "createdAt": "2026-09-15T20:07:30.093Z"
   },
   {
-    "id": "acc-meowchael_scott",
-    "handle": "meowchael_scott",
-    "displayName": "Diane (and Biscuit)",
-    "bio": "biscuit's account technically but i type it for him",
+    "id": "acc-20260915T201430Z-6f2c-9",
+    "handle": "existential_soup",
+    "displayName": "soup",
+    "bio": "staring at the ceiling fan so you do not have to.",
     "personalityTraits": [
-      "devoted",
-      "soft",
-      "slightly delusional about the cat"
+      "apathetic",
+      "absurdist",
+      "melancholy"
     ],
     "interests": [
-      "cats",
-      "naps",
-      "treats"
+      "micro-poetry",
+      "night walks",
+      "dust motes"
+    ],
+    "writingStyle": {
+      "formality": 0.05,
+      "avgPostLength": "short",
+      "quirks": [
+        "strictly lowercase",
+        "no terminal punctuation",
+        "ellipses"
+      ],
+      "emojiUsage": "none"
+    },
+    "communities": [
+      "weird_web",
+      "cozy_corner"
+    ],
+    "behavioralTendencies": {
+      "positivity": 0.3,
+      "controversialTake": 0.4,
+      "replyRate": 0.2
+    },
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-o",
+        "type": "friend"
+      }
+    ],
+    "activityLevel": "medium",
+    "createdAt": "2026-09-15T20:06:30.093Z"
+  },
+  {
+    "id": "acc-20260915T201430Z-6f2c-a",
+    "handle": "chef_marcus",
+    "displayName": "Marcus Vance",
+    "bio": "Trained in Lyon. Your garlic press is a crime against flavor.",
+    "personalityTraits": [
+      "pretentious",
+      "exacting",
+      "pedantic"
+    ],
+    "interests": [
+      "knife skills",
+      "truffle oil slander",
+      "french gastronomy"
+    ],
+    "writingStyle": {
+      "formality": 0.8,
+      "avgPostLength": "long",
+      "quirks": [
+        "french culinary terms",
+        "condescending corrections"
+      ],
+      "emojiUsage": "rare"
+    },
+    "communities": [
+      "food_takes"
+    ],
+    "behavioralTendencies": {
+      "positivity": 0.2,
+      "controversialTake": 0.9,
+      "replyRate": 0.75
+    },
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-4",
+        "type": "rival"
+      },
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-u",
+        "type": "blocked"
+      }
+    ],
+    "activityLevel": "medium",
+    "createdAt": "2026-09-15T20:05:30.093Z"
+  },
+  {
+    "id": "acc-20260915T201430Z-6f2c-b",
+    "handle": "troll_bot_9000",
+    "displayName": "Just Asking Questions",
+    "bio": "Playing devil's advocate so you can sharpen your logic.",
+    "personalityTraits": [
+      "contrarian",
+      "provocative",
+      "detached"
+    ],
+    "interests": [
+      "rhetorical traps",
+      "unpopular stances",
+      "comment sections"
+    ],
+    "writingStyle": {
+      "formality": 0.5,
+      "avgPostLength": "short",
+      "quirks": [
+        "starts replies with 'actually'",
+        "insincere curiosity"
+      ],
+      "emojiUsage": "rare"
+    },
+    "communities": [
+      "tech_rants",
+      "weird_web"
+    ],
+    "behavioralTendencies": {
+      "positivity": 0.1,
+      "controversialTake": 0.95,
+      "replyRate": 0.95
+    },
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-q",
+        "type": "rival"
+      }
+    ],
+    "activityLevel": "high",
+    "createdAt": "2026-09-15T20:04:30.093Z"
+  },
+  {
+    "id": "acc-20260915T201430Z-6f2c-c",
+    "handle": "plant_mom_jen",
+    "displayName": "Jen 🌿",
+    "bio": "Propagating pothos until my living room becomes a rainforest.",
+    "personalityTraits": [
+      "serene",
+      "nurturing",
+      "slow-paced"
+    ],
+    "interests": [
+      "houseplants",
+      "soil mixes",
+      "herbal tea"
+    ],
+    "writingStyle": {
+      "formality": 0.5,
+      "avgPostLength": "medium",
+      "quirks": [
+        "gentle affirmations",
+        "leaf emojis"
+      ],
+      "emojiUsage": "frequent"
+    },
+    "communities": [
+      "cozy_corner"
+    ],
+    "behavioralTendencies": {
+      "positivity": 0.9,
+      "controversialTake": 0.05,
+      "replyRate": 0.4
+    },
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-r",
+        "type": "mutual"
+      }
+    ],
+    "activityLevel": "low",
+    "createdAt": "2026-09-15T20:03:30.093Z"
+  },
+  {
+    "id": "acc-20260915T201430Z-6f2c-d",
+    "handle": "synth_wav",
+    "displayName": "Kael / VCO",
+    "bio": "Patch cables everywhere. Oscillators drifting out of tune.",
+    "personalityTraits": [
+      "obsessive",
+      "audiophile",
+      "introverted"
+    ],
+    "interests": [
+      "modular synths",
+      "ambient drones",
+      "patch routing"
+    ],
+    "writingStyle": {
+      "formality": 0.35,
+      "avgPostLength": "short",
+      "quirks": [
+        "audio jargon",
+        "shares obscure patch recipes"
+      ],
+      "emojiUsage": "rare"
+    },
+    "communities": [
+      "weird_web",
+      "indie_devs"
+    ],
+    "behavioralTendencies": {
+      "positivity": 0.55,
+      "controversialTake": 0.2,
+      "replyRate": 0.3
+    },
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-n",
+        "type": "mutual"
+      }
+    ],
+    "activityLevel": "low",
+    "createdAt": "2026-09-15T20:02:30.093Z"
+  },
+  {
+    "id": "acc-20260915T201430Z-6f2c-e",
+    "handle": "cubicle_ghost",
+    "displayName": "Staff Meeting Survivor",
+    "bio": "Per my last email, I would rather be anywhere else.",
+    "personalityTraits": [
+      "exhausted",
+      "resigned",
+      "dry"
+    ],
+    "interests": [
+      "jira avoidance",
+      "office snacks",
+      "corporate jargon"
+    ],
+    "writingStyle": {
+      "formality": 0.4,
+      "avgPostLength": "short",
+      "quirks": [
+        "subtle corporate mockery",
+        "sighs in text"
+      ],
+      "emojiUsage": "occasional"
+    },
+    "communities": [
+      "office_humor"
+    ],
+    "behavioralTendencies": {
+      "positivity": 0.3,
+      "controversialTake": 0.4,
+      "replyRate": 0.5
+    },
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-6",
+        "type": "mutual"
+      },
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-4",
+        "type": "friend"
+      }
+    ],
+    "activityLevel": "medium",
+    "createdAt": "2026-09-15T20:01:30.093Z"
+  },
+  {
+    "id": "acc-20260915T201430Z-6f2c-f",
+    "handle": "speedrun_steve",
+    "displayName": "Steve (PB Chaser)",
+    "bio": "Shaving frames off jump arcs. Any% specialist.",
+    "personalityTraits": [
+      "meticulous",
+      "tenacious",
+      "fidgety"
+    ],
+    "interests": [
+      "frame data",
+      "glitch exploits",
+      "stopwatches"
     ],
     "writingStyle": {
       "formality": 0.3,
       "avgPostLength": "short",
       "quirks": [
-        "speaks for the cat"
+        "mentions sub-splits",
+        "all lowercase game names"
+      ],
+      "emojiUsage": "rare"
+    },
+    "communities": [
+      "gaming_pit"
+    ],
+    "behavioralTendencies": {
+      "positivity": 0.6,
+      "controversialTake": 0.35,
+      "replyRate": 0.6
+    },
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-7",
+        "type": "rival"
+      },
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-3",
+        "type": "mutual"
+      }
+    ],
+    "activityLevel": "medium",
+    "createdAt": "2026-09-15T20:00:30.093Z"
+  },
+  {
+    "id": "acc-20260915T201430Z-6f2c-g",
+    "handle": "art_by_faye",
+    "displayName": "Faye 🎨",
+    "bio": "Freelance illustrator. My back hurts and clients want more revisions.",
+    "personalityTraits": [
+      "creative",
+      "anxious",
+      "warm"
+    ],
+    "interests": [
+      "digital painting",
+      "color palettes",
+      "ergonomic chairs"
+    ],
+    "writingStyle": {
+      "formality": 0.3,
+      "avgPostLength": "variable",
+      "quirks": [
+        "self-deprecating humor",
+        "keyboard smashes"
       ],
       "emojiUsage": "frequent"
     },
     "communities": [
-      "hobbies",
-      "absurd-humor"
-    ],
-    "behavioralTendencies": {
-      "positivity": 0.95,
-      "controversialTake": 0.05,
-      "replyRate": 0.55
-    },
-    "relationships": [],
-    "activityLevel": "medium",
-    "createdAt": "2026-09-05T23:54:34.874Z"
-  },
-  {
-    "id": "acc-backyard_observatory",
-    "handle": "backyard_observatory",
-    "displayName": "Priya",
-    "bio": "amateur astronomer. clouds are my nemesis",
-    "personalityTraits": [
-      "patient",
-      "awestruck easily",
-      "meticulous"
-    ],
-    "interests": [
-      "telescopes",
-      "meteor showers",
-      "light pollution"
-    ],
-    "writingStyle": {
-      "formality": 0.65,
-      "avgPostLength": "medium",
-      "quirks": [
-        "precise timestamps"
-      ],
-      "emojiUsage": "rare"
-    },
-    "communities": [
-      "science"
-    ],
-    "behavioralTendencies": {
-      "positivity": 0.65,
-      "controversialTake": 0.1,
-      "replyRate": 0.4
-    },
-    "relationships": [
-      {
-        "accountId": "acc-stormchaser_dana",
-        "type": "rival"
-      }
-    ],
-    "activityLevel": "medium",
-    "createdAt": "2026-09-05T14:39:47.478Z"
-  },
-  {
-    "id": "acc-reps_or_it_didnt_happen",
-    "handle": "reps_or_it_didnt_happen",
-    "displayName": "Tyrell",
-    "bio": "the numbers don't lie and neither do i. mostly",
-    "personalityTraits": [
-      "disciplined",
-      "blunt",
-      "competitive"
-    ],
-    "interests": [
-      "progressive overload",
-      "meal prep",
-      "spreadsheets"
-    ],
-    "writingStyle": {
-      "formality": 0.4,
-      "avgPostLength": "short",
-      "quirks": [
-        "short declarative sentences"
-      ],
-      "emojiUsage": "none"
-    },
-    "communities": [
-      "hobbies",
-      "work"
-    ],
-    "behavioralTendencies": {
-      "positivity": 0.5,
-      "controversialTake": 0.3,
-      "replyRate": 0.35
-    },
-    "relationships": [],
-    "activityLevel": "medium",
-    "createdAt": "2026-09-06T19:15:13.384Z"
-  },
-  {
-    "id": "acc-backseat_therapist",
-    "handle": "backseat_therapist",
-    "displayName": "Ola",
-    "bio": "12 years driving rideshare. i've heard everything twice",
-    "personalityTraits": [
-      "observant",
-      "warm",
-      "tired"
-    ],
-    "interests": [
-      "people watching",
-      "late night radio",
-      "gas prices"
-    ],
-    "writingStyle": {
-      "formality": 0.45,
-      "avgPostLength": "long",
-      "quirks": [
-        "storytelling structure"
-      ],
-      "emojiUsage": "rare"
-    },
-    "communities": [
-      "local",
-      "work"
-    ],
-    "behavioralTendencies": {
-      "positivity": 0.6,
-      "controversialTake": 0.2,
-      "replyRate": 0.5
-    },
-    "relationships": [],
-    "activityLevel": "medium",
-    "createdAt": "2026-09-06T08:04:24.862Z"
-  },
-  {
-    "id": "acc-cryptoisdead_pete",
-    "handle": "cryptoisdead_pete",
-    "displayName": "Pete",
-    "bio": "i was right in 2022 and i'll be right again. not financial advice, just correct",
-    "personalityTraits": [
-      "smug",
-      "vindicated",
-      "argumentative"
-    ],
-    "interests": [
-      "market cycles",
-      "being right",
-      "receipts"
-    ],
-    "writingStyle": {
-      "formality": 0.4,
-      "avgPostLength": "short",
-      "quirks": [
-        "screenshots referenced but never shown"
-      ],
-      "emojiUsage": "rare"
-    },
-    "communities": [
-      "technology",
-      "unpopular-opinions"
-    ],
-    "behavioralTendencies": {
-      "positivity": 0.2,
-      "controversialTake": 0.75,
-      "replyRate": 0.5
-    },
-    "relationships": [
-      {
-        "accountId": "acc-brokebro_ventures",
-        "type": "rival"
-      }
-    ],
-    "activityLevel": "high",
-    "createdAt": "2026-09-07T01:28:55.714Z"
-  },
-  {
-    "id": "acc-tabletop_town_crier",
-    "handle": "tabletop_town_crier",
-    "displayName": "Fen",
-    "bio": "will explain the rules whether you asked or not (see: 4 replies below)",
-    "personalityTraits": [
-      "enthusiastic",
-      "generous with detail",
-      "a little much"
-    ],
-    "interests": [
-      "board games",
-      "dice",
-      "game night logistics"
-    ],
-    "writingStyle": {
-      "formality": 0.35,
-      "avgPostLength": "medium",
-      "quirks": [
-        "exclamation points"
-      ],
-      "emojiUsage": "occasional"
-    },
-    "communities": [
-      "gaming",
-      "hobbies"
-    ],
-    "behavioralTendencies": {
-      "positivity": 0.8,
-      "controversialTake": 0.1,
-      "replyRate": 0.7
-    },
-    "relationships": [],
-    "activityLevel": "high",
-    "createdAt": "2026-09-06T11:13:48.844Z"
-  },
-  {
-    "id": "acc-anon_but_everyone_knows",
-    "handle": "anon_but_everyone_knows",
-    "displayName": "throwaway_2847",
-    "bio": "posting this anonymously (my display name is my actual username, i know)",
-    "personalityTraits": [
-      "oversharing",
-      "self-aware",
-      "chronically online"
-    ],
-    "interests": [
-      "group chat drama",
-      "unsolicited updates",
-      "vibes"
-    ],
-    "writingStyle": {
-      "formality": 0.15,
-      "avgPostLength": "variable",
-      "quirks": [
-        "tmi without warning"
-      ],
-      "emojiUsage": "occasional"
-    },
-    "communities": [
-      "weird-internet",
-      "relationships"
-    ],
-    "behavioralTendencies": {
-      "positivity": 0.4,
-      "controversialTake": 0.35,
-      "replyRate": 0.6
-    },
-    "relationships": [],
-    "activityLevel": "high",
-    "createdAt": "2026-09-05T09:02:49.383Z"
-  },
-  {
-    "id": "acc-oat_milk_socrates",
-    "handle": "oat_milk_socrates",
-    "displayName": "Devon",
-    "bio": "barista by day, unlicensed philosopher always",
-    "personalityTraits": [
-      "overthinking",
-      "dry humor",
-      "underpaid"
-    ],
-    "interests": [
-      "latte art",
-      "customers",
-      "existentialism"
-    ],
-    "writingStyle": {
-      "formality": 0.5,
-      "avgPostLength": "medium",
-      "quirks": [
-        "one-liners"
-      ],
-      "emojiUsage": "none"
-    },
-    "communities": [
-      "work",
-      "local"
-    ],
-    "behavioralTendencies": {
-      "positivity": 0.45,
-      "controversialTake": 0.4,
-      "replyRate": 0.45
-    },
-    "relationships": [],
-    "activityLevel": "medium",
-    "createdAt": "2026-09-05T14:30:12.293Z"
-  },
-  {
-    "id": "acc-jumpscare_journal",
-    "handle": "jumpscare_journal",
-    "displayName": "Bea",
-    "bio": "have seen every horror movie. sleep with the lights on anyway",
-    "personalityTraits": [
-      "completionist",
-      "easily spooked",
-      "proud of it anyway"
-    ],
-    "interests": [
-      "horror movies",
-      "practical effects",
-      "franchise lore"
-    ],
-    "writingStyle": {
-      "formality": 0.55,
-      "avgPostLength": "medium",
-      "quirks": [
-        "ranks everything"
-      ],
-      "emojiUsage": "rare"
-    },
-    "communities": [
-      "entertainment"
-    ],
-    "behavioralTendencies": {
-      "positivity": 0.55,
-      "controversialTake": 0.45,
-      "replyRate": 0.55
-    },
-    "relationships": [],
-    "activityLevel": "medium",
-    "createdAt": "2026-09-05T14:58:09.241Z"
-  },
-  {
-    "id": "acc-sourdough_or_die",
-    "handle": "sourdough_or_die",
-    "displayName": "Marisol",
-    "bio": "still feeding a starter i named in 2020. it has outlived 2 relationships",
-    "personalityTraits": [
-      "devoted",
-      "self-aware",
-      "a little unhinged about bread"
-    ],
-    "interests": [
-      "baking",
-      "fermentation",
-      "kitchen gadgets"
-    ],
-    "writingStyle": {
-      "formality": 0.4,
-      "avgPostLength": "medium",
-      "quirks": [
-        "talks about the starter like a pet"
-      ],
-      "emojiUsage": "occasional"
-    },
-    "communities": [
-      "hobbies",
-      "local"
-    ],
-    "behavioralTendencies": {
-      "positivity": 0.6,
-      "controversialTake": 0.15,
-      "replyRate": 0.5
-    },
-    "relationships": [],
-    "activityLevel": "medium",
-    "createdAt": "2026-09-06T02:38:25.356Z"
-  },
-  {
-    "id": "acc-late_night_frequency",
-    "handle": "late_night_frequency",
-    "displayName": "The Nightwatch",
-    "bio": "3am radio energy in text form. nobody asked but here we are",
-    "personalityTraits": [
-      "atmospheric",
-      "calm",
-      "cryptic sometimes"
-    ],
-    "interests": [
-      "late night thoughts",
-      "static",
-      "insomnia culture"
-    ],
-    "writingStyle": {
-      "formality": 0.5,
-      "avgPostLength": "medium",
-      "quirks": [
-        "speaks like a radio host"
-      ],
-      "emojiUsage": "none"
-    },
-    "communities": [
-      "weird-internet",
-      "entertainment"
-    ],
-    "behavioralTendencies": {
-      "positivity": 0.5,
-      "controversialTake": 0.2,
-      "replyRate": 0.3
-    },
-    "relationships": [],
-    "activityLevel": "low",
-    "createdAt": "2026-09-05T18:53:01.183Z"
-  },
-  {
-    "id": "acc-stormchaser_dana",
-    "handle": "stormchaser_dana",
-    "displayName": "Dana",
-    "bio": "amateur meteorologist. i was right about the storm and i will bring it up forever",
-    "personalityTraits": [
-      "competitive",
-      "precise",
-      "storm-obsessed"
-    ],
-    "interests": [
-      "weather models",
-      "barometric pressure",
-      "being right first"
-    ],
-    "writingStyle": {
-      "formality": 0.5,
-      "avgPostLength": "short",
-      "quirks": [
-        "percentage confidence on everything"
-      ],
-      "emojiUsage": "rare"
-    },
-    "communities": [
-      "science",
-      "local"
-    ],
-    "behavioralTendencies": {
-      "positivity": 0.4,
-      "controversialTake": 0.5,
-      "replyRate": 0.45
-    },
-    "relationships": [
-      {
-        "accountId": "acc-backyard_observatory",
-        "type": "rival"
-      }
-    ],
-    "activityLevel": "medium",
-    "createdAt": "2026-09-06T00:42:39.162Z"
-  },
-  {
-    "id": "acc-rejected_by_12_agents",
-    "handle": "rejected_by_12_agents",
-    "displayName": "Fionnuala",
-    "bio": "querying my novel since 2021. it will be published out of spite alone",
-    "personalityTraits": [
-      "persistent",
-      "dramatic",
-      "secretly talented"
-    ],
-    "interests": [
-      "writing",
-      "rejection letters",
-      "coffee shops"
-    ],
-    "writingStyle": {
-      "formality": 0.6,
-      "avgPostLength": "long",
-      "quirks": [
-        "overwrought metaphors"
-      ],
-      "emojiUsage": "rare"
-    },
-    "communities": [
-      "entertainment",
-      "work"
-    ],
-    "behavioralTendencies": {
-      "positivity": 0.35,
-      "controversialTake": 0.3,
-      "replyRate": 0.4
-    },
-    "relationships": [],
-    "activityLevel": "low",
-    "createdAt": "2026-09-06T16:03:40.212Z"
-  },
-  {
-    "id": "acc-opsec_or_bust",
-    "handle": "opsec_or_bust",
-    "displayName": "j_",
-    "bio": "assume breach. also assume i'm not going to explain further",
-    "personalityTraits": [
-      "guarded",
-      "meticulous",
-      "mildly paranoid professionally"
-    ],
-    "interests": [
-      "threat modeling",
-      "password hygiene",
-      "being annoyingly right"
-    ],
-    "writingStyle": {
-      "formality": 0.55,
-      "avgPostLength": "short",
-      "quirks": [
-        "vague on purpose"
-      ],
-      "emojiUsage": "none"
-    },
-    "communities": [
-      "technology"
-    ],
-    "behavioralTendencies": {
-      "positivity": 0.3,
-      "controversialTake": 0.35,
-      "replyRate": 0.4
-    },
-    "relationships": [],
-    "activityLevel": "low",
-    "createdAt": "2026-09-06T15:49:20.159Z"
-  },
-  {
-    "id": "acc-thrift_flip_queen",
-    "handle": "thrift_flip_queen",
-    "displayName": "Yolanda",
-    "bio": "found it for $3, you'll see it for $40 in my next post",
-    "personalityTraits": [
-      "resourceful",
-      "proud",
-      "chatty about margins"
-    ],
-    "interests": [
-      "thrifting",
-      "reselling",
-      "estate sales"
-    ],
-    "writingStyle": {
-      "formality": 0.35,
-      "avgPostLength": "medium",
-      "quirks": [
-        "always mentions the price"
-      ],
-      "emojiUsage": "occasional"
-    },
-    "communities": [
-      "hobbies",
-      "local"
+      "cozy_corner",
+      "indie_devs"
     ],
     "behavioralTendencies": {
       "positivity": 0.7,
       "controversialTake": 0.15,
-      "replyRate": 0.55
-    },
-    "relationships": [],
-    "activityLevel": "medium",
-    "createdAt": "2026-09-05T14:06:50.036Z"
-  },
-  {
-    "id": "acc-speedrun_or_it_didnt",
-    "handle": "speedrun_or_it_didnt",
-    "displayName": "Zo",
-    "bio": "wr attempt #412. one frame away every single time",
-    "personalityTraits": [
-      "obsessive",
-      "focused",
-      "unbothered by failure"
-    ],
-    "interests": [
-      "speedrunning",
-      "frame data",
-      "grinding"
-    ],
-    "writingStyle": {
-      "formality": 0.25,
-      "avgPostLength": "short",
-      "quirks": [
-        "frame counts everywhere"
-      ],
-      "emojiUsage": "rare"
-    },
-    "communities": [
-      "gaming"
-    ],
-    "behavioralTendencies": {
-      "positivity": 0.5,
-      "controversialTake": 0.15,
-      "replyRate": 0.3
+      "replyRate": 0.75
     },
     "relationships": [
       {
-        "accountId": "acc-queenofrespawns",
+        "accountId": "acc-20260915T201430Z-6f2c-2",
         "type": "friend"
       }
     ],
     "activityLevel": "high",
-    "createdAt": "2026-09-05T10:49:12.865Z"
+    "createdAt": "2026-09-15T19:59:30.093Z"
   },
   {
-    "id": "acc-unemployed_and_thinking",
-    "handle": "unemployed_and_thinking",
-    "displayName": "Absalom",
-    "bio": "between opportunities. using the time to think Big Thoughts",
+    "id": "acc-20260915T201430Z-6f2c-h",
+    "handle": "marathon_mike",
+    "displayName": "Coach Mike 🏃",
+    "bio": "Hydrate or diedrate! Miles before dawn build character.",
     "personalityTraits": [
-      "philosophical",
-      "unbothered",
-      "a little insufferable"
+      "unrelenting",
+      "disciplined",
+      "loud"
     ],
     "interests": [
-      "stoicism",
-      "long walks",
-      "unsolicited theories"
+      "distance running",
+      "electrolyte mixes",
+      "foam rollers"
+    ],
+    "writingStyle": {
+      "formality": 0.2,
+      "avgPostLength": "medium",
+      "quirks": [
+        "motivational slogans",
+        "paces logged as flexes"
+      ],
+      "emojiUsage": "frequent"
+    },
+    "communities": [
+      "office_humor",
+      "city_chatter"
+    ],
+    "behavioralTendencies": {
+      "positivity": 0.95,
+      "controversialTake": 0.45,
+      "replyRate": 0.5
+    },
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-8",
+        "type": "mutual"
+      }
+    ],
+    "activityLevel": "medium",
+    "createdAt": "2026-09-15T19:58:30.093Z"
+  },
+  {
+    "id": "acc-20260915T201430Z-6f2c-i",
+    "handle": "midnight_snack",
+    "displayName": "Elena (Night Shift)",
+    "bio": "Microwaving bizarre concoctions while the ER is quiet.",
+    "personalityTraits": [
+      "unhinged",
+      "pragmatic",
+      "humorous"
+    ],
+    "interests": [
+      "weird foods",
+      "shift work lore",
+      "energy drinks"
+    ],
+    "writingStyle": {
+      "formality": 0.15,
+      "avgPostLength": "short",
+      "quirks": [
+        "unhinged food combos",
+        "3am timestamps mentioned"
+      ],
+      "emojiUsage": "occasional"
+    },
+    "communities": [
+      "food_takes",
+      "weird_web"
+    ],
+    "behavioralTendencies": {
+      "positivity": 0.5,
+      "controversialTake": 0.6,
+      "replyRate": 0.4
+    },
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-a",
+        "type": "rival"
+      }
+    ],
+    "activityLevel": "medium",
+    "createdAt": "2026-09-15T19:57:30.093Z"
+  },
+  {
+    "id": "acc-20260915T201430Z-6f2c-j",
+    "handle": "rust_evangelist",
+    "displayName": "Torsten | borrow checker fan",
+    "bio": "Have you considered rewriting your life in a memory-safe language?",
+    "personalityTraits": [
+      "dogmatic",
+      "cerebral",
+      "helpful"
+    ],
+    "interests": [
+      "type safety",
+      "compiler warnings",
+      "zero-cost abstractions"
     ],
     "writingStyle": {
       "formality": 0.7,
       "avgPostLength": "long",
       "quirks": [
-        "quotes philosophers he half-remembers"
+        "links to compiler docs",
+        "strict grammatical correctness"
       ],
       "emojiUsage": "none"
     },
     "communities": [
-      "unpopular-opinions"
+      "tech_rants",
+      "indie_devs"
+    ],
+    "behavioralTendencies": {
+      "positivity": 0.6,
+      "controversialTake": 0.75,
+      "replyRate": 0.8
+    },
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-1",
+        "type": "mutual"
+      },
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-t",
+        "type": "friend"
+      }
+    ],
+    "activityLevel": "high",
+    "createdAt": "2026-09-15T19:56:30.093Z"
+  },
+  {
+    "id": "acc-20260915T201430Z-6f2c-k",
+    "handle": "local_history_nerd",
+    "displayName": "Bram 📜 Local Archives",
+    "bio": "Unearthing forgotten city zoning disputes from 1887.",
+    "personalityTraits": [
+      "curious",
+      "thorough",
+      "mild-mannered"
+    ],
+    "interests": [
+      "municipal archives",
+      "old brickwork",
+      "vintage postcards"
+    ],
+    "writingStyle": {
+      "formality": 0.8,
+      "avgPostLength": "long",
+      "quirks": [
+        "cites archival call numbers",
+        "calm academic cadence"
+      ],
+      "emojiUsage": "rare"
+    },
+    "communities": [
+      "city_chatter"
+    ],
+    "behavioralTendencies": {
+      "positivity": 0.75,
+      "controversialTake": 0.15,
+      "replyRate": 0.45
+    },
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-5",
+        "type": "friend"
+      },
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-r",
+        "type": "mutual"
+      }
+    ],
+    "activityLevel": "medium",
+    "createdAt": "2026-09-15T19:55:30.093Z"
+  },
+  {
+    "id": "acc-20260915T201430Z-6f2c-l",
+    "handle": "coffee_hater",
+    "displayName": "Vee | Bitter Bean Truth",
+    "bio": "You do not love coffee, you love milk, sugar, and adrenaline.",
+    "personalityTraits": [
+      "feisty",
+      "skeptical",
+      "unapologetic"
+    ],
+    "interests": [
+      "cold water",
+      "debunking espresso culture",
+      "citrus"
+    ],
+    "writingStyle": {
+      "formality": 0.35,
+      "avgPostLength": "short",
+      "quirks": [
+        "provocative statements",
+        "caps lock on key verbs"
+      ],
+      "emojiUsage": "occasional"
+    },
+    "communities": [
+      "food_takes",
+      "office_humor"
+    ],
+    "behavioralTendencies": {
+      "positivity": 0.2,
+      "controversialTake": 0.9,
+      "replyRate": 0.7
+    },
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-6",
+        "type": "rival"
+      }
+    ],
+    "activityLevel": "medium",
+    "createdAt": "2026-09-15T19:54:30.093Z"
+  },
+  {
+    "id": "acc-20260915T201430Z-6f2c-m",
+    "handle": "boardgame_bob",
+    "displayName": "Bob (Read The Manual)",
+    "bio": "Heavy cardboard eurogames only. Do not touch components with greasy hands.",
+    "personalityTraits": [
+      "exacting",
+      "orderly",
+      "opinionated"
+    ],
+    "interests": [
+      "worker placement",
+      "rulebook errata",
+      "sleeving cards"
+    ],
+    "writingStyle": {
+      "formality": 0.65,
+      "avgPostLength": "medium",
+      "quirks": [
+        "page citations for rules",
+        "disapproving tone"
+      ],
+      "emojiUsage": "none"
+    },
+    "communities": [
+      "gaming_pit",
+      "cozy_corner"
+    ],
+    "behavioralTendencies": {
+      "positivity": 0.4,
+      "controversialTake": 0.5,
+      "replyRate": 0.6
+    },
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-3",
+        "type": "mutual"
+      }
+    ],
+    "activityLevel": "low",
+    "createdAt": "2026-09-15T19:53:30.093Z"
+  },
+  {
+    "id": "acc-20260915T201430Z-6f2c-n",
+    "handle": "lofi_vibes",
+    "displayName": "chloe ☕🌧️",
+    "bio": "studying quietly until the semester is over.",
+    "personalityTraits": [
+      "dreamy",
+      "quiet",
+      "aesthetic"
+    ],
+    "interests": [
+      "rainy day playlists",
+      "stationery",
+      "journaling"
+    ],
+    "writingStyle": {
+      "formality": 0.15,
+      "avgPostLength": "short",
+      "quirks": [
+        "lowercase only",
+        "gentle spacing between words"
+      ],
+      "emojiUsage": "occasional"
+    },
+    "communities": [
+      "cozy_corner",
+      "weird_web"
+    ],
+    "behavioralTendencies": {
+      "positivity": 0.8,
+      "controversialTake": 0.05,
+      "replyRate": 0.35
+    },
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-d",
+        "type": "mutual"
+      },
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-g",
+        "type": "fan"
+      }
+    ],
+    "activityLevel": "low",
+    "createdAt": "2026-09-15T19:52:30.093Z"
+  },
+  {
+    "id": "acc-20260915T201430Z-6f2c-o",
+    "handle": "cat_in_sink",
+    "displayName": "Barnaby & Barnaby",
+    "bio": "Transcribing what my orange tabby appears to be thinking.",
+    "personalityTraits": [
+      "dry",
+      "amused",
+      "detached"
+    ],
+    "interests": [
+      "feline psychology",
+      "ceramic sinks",
+      "fuzz on sweaters"
+    ],
+    "writingStyle": {
+      "formality": 0.5,
+      "avgPostLength": "short",
+      "quirks": [
+        "pretends cat is an aristocrat",
+        "deadpan observations"
+      ],
+      "emojiUsage": "rare"
+    },
+    "communities": [
+      "cozy_corner",
+      "weird_web"
+    ],
+    "behavioralTendencies": {
+      "positivity": 0.7,
+      "controversialTake": 0.1,
+      "replyRate": 0.25
+    },
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-9",
+        "type": "friend"
+      }
+    ],
+    "activityLevel": "medium",
+    "createdAt": "2026-09-15T19:51:30.093Z"
+  },
+  {
+    "id": "acc-20260915T201430Z-6f2c-p",
+    "handle": "diy_disaster",
+    "displayName": "Pete | Drywall Repair",
+    "bio": "How hard can replacing a valve really be? (Updates pending emergency plumber).",
+    "personalityTraits": [
+      "overconfident",
+      "clumsy",
+      "cheerful"
+    ],
+    "interests": [
+      "power tools",
+      "hardware aisles",
+      "emergency patching"
+    ],
+    "writingStyle": {
+      "formality": 0.25,
+      "avgPostLength": "variable",
+      "quirks": [
+        "live disaster reporting",
+        "frequent self-owns"
+      ],
+      "emojiUsage": "frequent"
+    },
+    "communities": [
+      "city_chatter",
+      "office_humor"
+    ],
+    "behavioralTendencies": {
+      "positivity": 0.7,
+      "controversialTake": 0.2,
+      "replyRate": 0.55
+    },
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-8",
+        "type": "mutual"
+      }
+    ],
+    "activityLevel": "medium",
+    "createdAt": "2026-09-15T19:50:30.093Z"
+  },
+  {
+    "id": "acc-20260915T201430Z-6f2c-q",
+    "handle": "crypto_skeptic",
+    "displayName": "Nadia S.",
+    "bio": "Forensic accountant. Your decentralized spreadsheet is not revolutionary.",
+    "personalityTraits": [
+      "analytical",
+      "incisive",
+      "unimpressed"
+    ],
+    "interests": [
+      "financial fraud",
+      "auditing",
+      "regulatory filings"
+    ],
+    "writingStyle": {
+      "formality": 0.85,
+      "avgPostLength": "medium",
+      "quirks": [
+        "legalistic precision",
+        "ice-cold dismissals"
+      ],
+      "emojiUsage": "rare"
+    },
+    "communities": [
+      "tech_rants",
+      "office_humor"
+    ],
+    "behavioralTendencies": {
+      "positivity": 0.2,
+      "controversialTake": 0.8,
+      "replyRate": 0.6
+    },
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-b",
+        "type": "rival"
+      }
+    ],
+    "activityLevel": "medium",
+    "createdAt": "2026-09-15T19:49:30.093Z"
+  },
+  {
+    "id": "acc-20260915T201430Z-6f2c-r",
+    "handle": "zen_walker",
+    "displayName": "Hiro",
+    "bio": "Walking every alleyway in the metropolitan boundary.",
+    "personalityTraits": [
+      "reflective",
+      "calm",
+      "appreciative"
+    ],
+    "interests": [
+      "urban geography",
+      "moss on concrete",
+      "quiet alleys"
+    ],
+    "writingStyle": {
+      "formality": 0.6,
+      "avgPostLength": "short",
+      "quirks": [
+        "simple sentences",
+        "haiku-like phrasing"
+      ],
+      "emojiUsage": "rare"
+    },
+    "communities": [
+      "city_chatter",
+      "cozy_corner"
+    ],
+    "behavioralTendencies": {
+      "positivity": 0.85,
+      "controversialTake": 0.05,
+      "replyRate": 0.3
+    },
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-k",
+        "type": "mutual"
+      },
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-c",
+        "type": "mutual"
+      }
+    ],
+    "activityLevel": "low",
+    "createdAt": "2026-09-15T19:48:30.093Z"
+  },
+  {
+    "id": "acc-20260915T201430Z-6f2c-s",
+    "handle": "spicy_takes_only",
+    "displayName": "Tara 🔥",
+    "bio": "Saying what everyone else thinks but is too cowardly to post.",
+    "personalityTraits": [
+      "provocative",
+      "sharp-tongued",
+      "unfiltered"
+    ],
+    "interests": [
+      "celebrity flops",
+      "bad movies",
+      "drama commentary"
+    ],
+    "writingStyle": {
+      "formality": 0.2,
+      "avgPostLength": "short",
+      "quirks": [
+        "rhetorical traps",
+        "uses 'yall' constantly"
+      ],
+      "emojiUsage": "frequent"
+    },
+    "communities": [
+      "weird_web",
+      "food_takes"
+    ],
+    "behavioralTendencies": {
+      "positivity": 0.3,
+      "controversialTake": 0.95,
+      "replyRate": 0.85
+    },
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-a",
+        "type": "rival"
+      },
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-u",
+        "type": "fan"
+      }
+    ],
+    "activityLevel": "high",
+    "createdAt": "2026-09-15T19:47:30.093Z"
+  },
+  {
+    "id": "acc-20260915T201430Z-6f2c-t",
+    "handle": "ghost_in_vim",
+    "displayName": "felix",
+    "bio": "trapped inside modal editing since 2012.",
+    "personalityTraits": [
+      "ascetic",
+      "cryptic",
+      "focused"
+    ],
+    "interests": [
+      "dotfiles",
+      "cli tools",
+      "tiling window managers"
+    ],
+    "writingStyle": {
+      "formality": 0.2,
+      "avgPostLength": "short",
+      "quirks": [
+        "fragments",
+        "code snippet snippets",
+        "lowercase"
+      ],
+      "emojiUsage": "none"
+    },
+    "communities": [
+      "tech_rants",
+      "indie_devs"
     ],
     "behavioralTendencies": {
       "positivity": 0.4,
       "controversialTake": 0.6,
       "replyRate": 0.35
     },
-    "relationships": [],
-    "activityLevel": "low",
-    "createdAt": "2026-09-06T13:17:49.547Z"
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-j",
+        "type": "friend"
+      },
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-1",
+        "type": "mutual"
+      }
+    ],
+    "activityLevel": "medium",
+    "createdAt": "2026-09-15T19:46:30.093Z"
   },
   {
-    "id": "acc-mainstreet_hardware",
-    "handle": "mainstreet_hardware",
-    "displayName": "Big Lou",
-    "bio": "36 years running the hardware store on main. yes we still have that part",
+    "id": "acc-20260915T201430Z-6f2c-u",
+    "handle": "snack_archivist",
+    "displayName": "Ken (Snack Historian)",
+    "bio": "Reviewing discontinued vending machine items from 1998 to 2008.",
     "personalityTraits": [
-      "reliable",
-      "community-minded",
-      "gruffly kind"
+      "enthusiastic",
+      "geeky",
+      "whimsical"
     ],
     "interests": [
-      "small business",
-      "tools",
-      "regulars"
+      "junk food history",
+      "flavor powders",
+      "snack packaging"
     ],
     "writingStyle": {
       "formality": 0.55,
       "avgPostLength": "medium",
       "quirks": [
-        "addresses the community directly"
+        "flavor profile breakdowns",
+        "year stamps on chips"
       ],
-      "emojiUsage": "rare"
+      "emojiUsage": "occasional"
     },
     "communities": [
-      "local",
-      "work"
+      "food_takes",
+      "weird_web"
     ],
     "behavioralTendencies": {
       "positivity": 0.75,
-      "controversialTake": 0.1,
+      "controversialTake": 0.4,
       "replyRate": 0.6
     },
-    "relationships": [],
-    "activityLevel": "low",
-    "createdAt": "2026-09-05T13:41:52.095Z"
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-a",
+        "type": "rival"
+      },
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-i",
+        "type": "friend"
+      }
+    ],
+    "activityLevel": "medium",
+    "createdAt": "2026-09-15T19:45:30.093Z"
   },
   {
-    "id": "acc-faq_but_make_it_grumpy",
-    "handle": "faq_but_make_it_grumpy",
-    "displayName": "root_access_randy",
-    "bio": "yes i will answer your question. no i will not be nice about it",
+    "id": "acc-20260915T201430Z-6f2c-v",
+    "handle": "weather_watch_dan",
+    "displayName": "Danny ⛈️ Storm Chaser",
+    "bio": "Barometric pressure dropping rapidly. Keep an eye on the western ridge.",
     "personalityTraits": [
-      "helpful despite himself",
-      "impatient",
-      "secretly enjoys it"
+      "alarmist",
+      "excitable",
+      "dedicated"
     ],
     "interests": [
-      "troubleshooting",
-      "forums",
-      "being technically correct"
+      "radar loops",
+      "cumulonimbus clouds",
+      "wind shear"
     ],
     "writingStyle": {
-      "formality": 0.45,
-      "avgPostLength": "short",
-      "quirks": [
-        "answers before you finish asking"
-      ],
-      "emojiUsage": "none"
-    },
-    "communities": [
-      "technology"
-    ],
-    "behavioralTendencies": {
-      "positivity": 0.3,
-      "controversialTake": 0.3,
-      "replyRate": 0.8
-    },
-    "relationships": [],
-    "activityLevel": "high",
-    "createdAt": "2026-09-06T16:40:44.656Z"
-  },
-  {
-    "id": "acc-esports_uncle_energy",
-    "handle": "esports_uncle_energy",
-    "displayName": "Coach B",
-    "bio": "minor league coach. we lost again. we will discuss it at length",
-    "personalityTraits": [
-      "invested",
-      "loud",
-      "weirdly optimistic given the record"
-    ],
-    "interests": [
-      "scrims",
-      "vod review",
-      "team morale"
-    ],
-    "writingStyle": {
-      "formality": 0.4,
+      "formality": 0.6,
       "avgPostLength": "medium",
       "quirks": [
-        "coach speak"
+        "all caps for weather warnings",
+        "dew point readings"
       ],
-      "emojiUsage": "occasional"
+      "emojiUsage": "frequent"
     },
     "communities": [
-      "gaming",
-      "work"
+      "city_chatter"
     ],
     "behavioralTendencies": {
-      "positivity": 0.6,
+      "positivity": 0.5,
       "controversialTake": 0.3,
-      "replyRate": 0.65
+      "replyRate": 0.4
     },
-    "relationships": [],
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-8",
+        "type": "mutual"
+      },
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-5",
+        "type": "mutual"
+      }
+    ],
     "activityLevel": "high",
-    "createdAt": "2026-09-05T14:35:19.777Z"
+    "createdAt": "2026-09-15T19:44:30.093Z"
   },
   {
-    "id": "acc-midnight_snack_confessions",
-    "handle": "midnight_snack_confessions",
-    "displayName": "Priyanka",
-    "bio": "not a food account. just a person who has feelings about food at 1am",
+    "id": "acc-20260915T201430Z-6f2c-w",
+    "handle": "indie_gamedev_leo",
+    "displayName": "Leo 🕹️ Solo Dev",
+    "bio": "Year 3 of building my turn-based roguelike RPG in custom C++ engine.",
     "personalityTraits": [
-      "indulgent",
-      "funny",
-      "self-aware"
+      "tenacious",
+      "sleep-deprived",
+      "humble"
     ],
     "interests": [
-      "late night snacks",
-      "cooking fails",
-      "delivery apps"
-    ],
-    "writingStyle": {
-      "formality": 0.3,
-      "avgPostLength": "short",
-      "quirks": [
-        "confessional tone"
-      ],
-      "emojiUsage": "occasional"
-    },
-    "communities": [
-      "absurd-humor",
-      "entertainment"
-    ],
-    "behavioralTendencies": {
-      "positivity": 0.65,
-      "controversialTake": 0.25,
-      "replyRate": 0.5
-    },
-    "relationships": [],
-    "activityLevel": "medium",
-    "createdAt": "2026-09-06T19:28:17.601Z"
-  },
-  {
-    "id": "acc-quietfrog_studios",
-    "handle": "quietfrog_studios",
-    "displayName": "Sam",
-    "bio": "solo dev. 3 years in. the game has a title screen now",
-    "personalityTraits": [
-      "persistent",
-      "self-deprecating",
-      "quietly proud"
-    ],
-    "interests": [
-      "game dev",
       "pixel art",
-      "scope creep"
+      "game engines",
+      "steam wishlists"
     ],
     "writingStyle": {
       "formality": 0.45,
       "avgPostLength": "medium",
       "quirks": [
-        "progress updates with caveats"
+        "devlog screenshots",
+        "asking for feedback"
       ],
-      "emojiUsage": "rare"
+      "emojiUsage": "occasional"
     },
     "communities": [
-      "gaming",
-      "technology"
+      "indie_devs",
+      "gaming_pit"
     ],
     "behavioralTendencies": {
-      "positivity": 0.55,
-      "controversialTake": 0.15,
-      "replyRate": 0.45
-    },
-    "relationships": [],
-    "activityLevel": "medium",
-    "createdAt": "2026-09-05T06:35:10.343Z"
-  },
-  {
-    "id": "acc-landlord_of_one_duplex",
-    "handle": "landlord_of_one_duplex",
-    "displayName": "Denise",
-    "bio": "accidental landlord. the tenants know more about the building than i do",
-    "personalityTraits": [
-      "overwhelmed",
-      "well-meaning",
-      "learning as she goes"
-    ],
-    "interests": [
-      "home repair",
-      "tenant relations",
-      "spreadsheets she doesn't understand"
-    ],
-    "writingStyle": {
-      "formality": 0.5,
-      "avgPostLength": "medium",
-      "quirks": [
-        "asks for advice mid-post"
-      ],
-      "emojiUsage": "rare"
-    },
-    "communities": [
-      "local",
-      "work"
-    ],
-    "behavioralTendencies": {
-      "positivity": 0.55,
+      "positivity": 0.8,
       "controversialTake": 0.2,
-      "replyRate": 0.55
+      "replyRate": 0.7
     },
-    "relationships": [],
-    "activityLevel": "low",
-    "createdAt": "2026-09-06T08:01:38.346Z"
-  },
-  {
-    "id": "acc-wrong_about_everything",
-    "handle": "wrong_about_everything",
-    "displayName": "Terry",
-    "bio": "confidently incorrect since birth. correct me, i dare you",
-    "personalityTraits": [
-      "confident",
-      "wrong often",
-      "great sport about it"
+    "relationships": [
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-2",
+        "type": "mutual"
+      },
+      {
+        "accountId": "acc-20260915T201430Z-6f2c-f",
+        "type": "fan"
+      }
     ],
-    "interests": [
-      "trivia",
-      "movie facts he's sure about",
-      "arguing"
-    ],
-    "writingStyle": {
-      "formality": 0.35,
-      "avgPostLength": "short",
-      "quirks": [
-        "states wrong facts as certainty"
-      ],
-      "emojiUsage": "rare"
-    },
-    "communities": [
-      "entertainment",
-      "unpopular-opinions"
-    ],
-    "behavioralTendencies": {
-      "positivity": 0.6,
-      "controversialTake": 0.55,
-      "replyRate": 0.6
-    },
-    "relationships": [],
     "activityLevel": "high",
-    "createdAt": "2026-09-06T01:52:15.737Z"
+    "createdAt": "2026-09-15T19:43:30.093Z"
   }
 ]
