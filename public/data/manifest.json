@@ -1,8 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-15T21:46:02.266Z",
-  "latestRunId": "editorial-launch-20260915",
+  "generatedAt": "2026-09-15T22:22:13.472Z",
+  "latestRunId": "20260915T222213Z-0690",
   "batches": [
+    {
+      "id": "20260915T222213Z-0690",
+      "generatedAt": "2026-09-15T22:22:13.472Z",
+      "file": "batches/20260915T222213Z-0690.json",
+      "itemCount": 4
+    },
     {
       "id": "editorial-launch-20260915",
       "generatedAt": "2026-09-15T21:46:02.266Z",

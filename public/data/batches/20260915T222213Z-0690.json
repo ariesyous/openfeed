@@ -1,0 +1,138 @@
+{
+  "batchId": "20260915T222213Z-0690",
+  "generatedAt": "2026-09-15T22:22:13.472Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c9gk58xgng0vo",
+            "title": "Iran war has led to US munitions shortfalls, Pentagon inspector confirms",
+            "publisher": "BBC World",
+            "publishedAt": "2026-09-15T20:34:12.000Z",
+            "retrievedAt": "2026-09-15T22:22:13.472Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260915T222213Z-0690-0",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-15T22:22:13.472Z",
+      "community": "world",
+      "title": "Pentagon inspector confirms US munitions shortfalls linked to Iran war",
+      "body": "A Pentagon inspector confirmed that war with Iran has caused munitions shortfalls for the United States, along with a bottleneck in resupplying stockpiles.\n\nThe findings contrast with claims by President Donald Trump asserting that American munitions supplies remain virtually limitless.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c3vgyn49y4l7o",
+            "title": "All support acts on Ed Sheeran's US tour quit after Macklemore dropped",
+            "publisher": "BBC World",
+            "publishedAt": "2026-09-15T21:07:13.000Z",
+            "retrievedAt": "2026-09-15T22:22:13.472Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260915T222213Z-0690-1",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-15T22:22:13.472Z",
+      "community": "world",
+      "title": "Support acts exit Ed Sheeran tour following Macklemore's removal",
+      "body": "Every opening act on Ed Sheeran's tour of the United States has walked away after fellow performer Macklemore was removed from the tour schedule.\n\nMacklemore was dropped after delivering pro-Palestinian statements on stage. Sheeran stated that he was not responsible for the decision to cut Macklemore from the lineup.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/science-research/biological-physical-sciences/new-crops-health-research-proposals-to-help-nasa-advance-exploration/",
+            "title": "New Crops, Health Research Proposals to Help NASA Advance Exploration",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-14T19:00:00.000Z",
+            "retrievedAt": "2026-09-15T22:22:13.472Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260915T222213Z-0690-2",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-15T22:22:13.472Z",
+      "community": "science",
+      "title": "How NASA plans to study crops and astronaut health for deep space missions",
+      "body": "To sustain future long-duration journeys to the Moon and Mars, NASA has selected twelve new research projects focused on off-planet survival. The projects are split between space agriculture and human biology.\n\nSix investigations examine plant growth, including how regolith stimulants, hydroponic microbes, and the survival traits of drought-resistant resurrection plants function under spaceflight stressors. The other six target precision health, evaluating how microgravity, space radiation, and lunar dust exposure affect inflammation, organ aging, and cellular changes, with researchers seeking repurposed medications to offset physiological damage.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/image-article/apod-2026-september-15-a-daytime-eclipse-moon-occults-venus/",
+            "title": "APOD: 2026 September 15 – A Daytime Eclipse: Moon Occults Venus",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-15T04:05:00.000Z",
+            "retrievedAt": "2026-09-15T22:22:13.472Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260915T222213Z-0690-3",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-15T22:22:13.472Z",
+      "community": "science",
+      "title": "A daytime glimpse of Venus passing behind the Moon",
+      "body": "Observers looking toward the sky above Cessy, France, caught an unusual daytime astronomical event: an occultation of Venus by the Moon.\n\nWhile hidden clouds made the Moon difficult to see at midday, Venus emerged from behind the lunar edge as a distinct bright pinpoint. Both celestial bodies showed crescent phases, though Venus appeared substantially brighter. Because Venus orbits closer to the Sun and possesses highly reflective cloud cover, it outshone the darker lunar surface, which had only about 10 percent of its face illuminated.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}

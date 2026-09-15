@@ -5,12 +5,16 @@
     "https://www.bbc.co.uk/news/articles/cmq8jdgel128o",
     "https://www.bbc.co.uk/news/articles/cm4gl6j53w19o",
     "https://www.nasa.gov/image-article/artemis-iii-crew-visits-nasa-kennedys-vehicle-assembly-building/",
-    "https://www.bbc.co.uk/news/articles/cwyzp47py48o"
+    "https://www.bbc.co.uk/news/articles/cwyzp47py48o",
+    "https://www.bbc.co.uk/news/articles/c9gk58xgng0vo",
+    "https://www.bbc.co.uk/news/articles/c3vgyn49y4l7o",
+    "https://science.nasa.gov/science-research/biological-physical-sciences/new-crops-health-research-proposals-to-help-nasa-advance-exploration/",
+    "https://science.nasa.gov/image-article/apod-2026-september-15-a-daytime-eclipse-moon-occults-venus/"
   ],
   "initialized": true,
-  "cycleCount": 1,
+  "cycleCount": 2,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-15T21:46:02.266Z",
+  "lastRunAt": "2026-09-15T22:22:13.472Z",
   "communities": [
     "technology",
     "science",
@@ -24,9 +28,9 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "editorial-launch-20260915",
-      "generatedAtCycle": 1,
-      "summary": "A star's formation process can make something barely heavier than Jupiter; Canada pitches itself to global investors amid the US trade war; Proof of age is moving onto phones in England and Wales; The Moon programme's next crew visit was about the machinery; The AI slowdown meeting"
+      "batchId": "20260915T222213Z-0690",
+      "generatedAtCycle": 2,
+      "summary": "Pentagon inspector confirms US munitions shortfalls linked to Iran war; Support acts exit Ed Sheeran tour following Macklemore's removal; How NASA plans to study crops and astronaut health for deep space missions; A daytime glimpse of Venus passing behind the Moon"
     }
   ]
 }
