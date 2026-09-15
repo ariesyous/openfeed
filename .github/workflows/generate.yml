@@ -1,9 +1,9 @@
-name: Generate synthetic feed (manual)
+name: Generate synthetic feed
 
-# Phase 2 scope: manual-only, so the generator can be exercised in CI (where
-# OPENROUTER_API_KEY already exists as a repo secret) without needing the key locally.
-# The scheduled trigger described in ProjectSpecifications.md §26 is Phase 3 work.
+# Scheduled runs remain disabled until FEED_SCHEDULE_ENABLED is true.
 on:
+  schedule:
+    - cron: "17 */6 * * *"
   workflow_dispatch:
     inputs:
       model:
@@ -26,6 +26,8 @@ concurrency:
 
 jobs:
   generate:
+    # Enable after validating several manual cycles with the chosen model.
+    if: github.event_name != 'schedule' || vars.FEED_SCHEDULE_ENABLED == 'true'
     runs-on: ubuntu-latest
     # Bootstrap and the first advance-world call each get a generous 15-minute
     # per-attempt timeout (per-model generation speed, not output size, is the real
@@ -51,7 +53,7 @@ jobs:
       - name: Run generator
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          OPENROUTER_MODEL: ${{ inputs.model }}
+          OPENROUTER_MODEL: ${{ inputs.model || vars.OPENROUTER_MODEL || 'openrouter/free' }}
         run: pnpm generate
 
       - name: Commit and push if anything changed

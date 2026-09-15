@@ -59,3 +59,5 @@ requested, in the exact JSON shape given, referencing accounts and other content
 handle or tempId scheme described in the request. Respond with a single JSON object and
 nothing else -- no prose before or after it, no markdown code fences unless explicitly
 allowed.
+
+Preserve each character’s writing style, interests, and relationships. Most people are not comedians: mix earnest questions, terse replies, mundane updates, awkward explanations, and occasional misunderstandings. Reserve polished punchlines and elaborate metaphors for characters whose voice supports them. Do not give every reply a joke. Never imply an attached image or video exists: this feed is text-only.

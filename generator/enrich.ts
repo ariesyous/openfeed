@@ -1,4 +1,10 @@
-import { AccountSchema, FeedItemSchema, type Account, type Comment, type FeedItem } from "../schemas";
+import {
+  AccountSchema,
+  FeedItemSchema,
+  type Account,
+  type Comment,
+  type FeedItem,
+} from "../schemas";
 import {
   assignAges,
   pickIsViral,
@@ -7,7 +13,11 @@ import {
   type Rng,
 } from "./engagement";
 import { createIdGenerator } from "./ids";
-import type { RawAdvanceWorldResponse, RawBootstrapResponse, RawFeedItem } from "./rawSchemas";
+import type {
+  RawAdvanceWorldResponse,
+  RawBootstrapResponse,
+  RawFeedItem,
+} from "./rawSchemas";
 
 export interface EnrichBootstrapResult {
   accounts: Account[];
@@ -64,13 +74,26 @@ export function enrichBootstrap(
   return { accounts, idByHandle };
 }
 
-/** One short line per account (handle, top traits, activity, communities) -- kept compact
- * so the advance-world prompt stays bounded regardless of how many accounts exist. */
+/** One compact JSON line per account, preserving voice and social context. */
 export function summarizeAccountsForPrompt(accounts: Account[]): string {
   return accounts
     .map((a) => {
       const traits = a.personalityTraits.slice(0, 3).join(", ");
-      return `- @${a.handle} (${a.activityLevel} activity, in ${a.communities.join("/")}) -- ${traits}`;
+      return JSON.stringify({
+        handle: a.handle,
+        name: a.displayName,
+        bio: a.bio,
+        traits,
+        activity: a.activityLevel,
+        communities: a.communities,
+        interests: a.interests,
+        writingStyle: a.writingStyle,
+        tendencies: a.behavioralTendencies,
+        relationships: a.relationships.map((r) => ({
+          handle: accounts.find((other) => other.id === r.accountId)?.handle,
+          type: r.type,
+        })),
+      });
     })
     .join("\n");
 }
@@ -164,7 +187,9 @@ export function enrichAdvanceWorld(
         }
       }
 
-      const commentCreatedAt = new Date(createdAt.getTime() + ctx.rng() * 2 * 3_600_000);
+      const commentCreatedAt = new Date(
+        createdAt.getTime() + ctx.rng() * 2 * 3_600_000,
+      );
 
       return {
         id: commentIdByTempId.get(rawComment.tempId)!,

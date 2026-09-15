@@ -20,6 +20,7 @@ export interface PublishCandidate {
   items: FeedItem[];
   accounts: Account[];
   accountsChanged: boolean;
+  resetHistory?: boolean;
   nextWorld: WorldState;
   previousManifest: Manifest;
 }
@@ -61,17 +62,22 @@ export function buildPublishPlan(candidate: PublishCandidate): PublishPlan {
     itemCount: batchFile.items.length,
   };
 
-  const allBatches = [newBatchRef, ...candidate.previousManifest.batches];
+  const history = candidate.previousManifest.batches.filter(
+    (b) => b.id !== newBatchRef.id,
+  );
+  const allBatches = [newBatchRef, ...(candidate.resetHistory ? [] : history)];
 
   const cutoffMs = candidate.now.getTime() - RETENTION_DAYS * 24 * 3_600_000;
-  const retained = allBatches.filter((b) => new Date(b.generatedAt).getTime() >= cutoffMs);
+  const retained = allBatches.filter(
+    (b) => new Date(b.generatedAt).getTime() >= cutoffMs,
+  );
   // Defensive: the batch just generated at `now` should never itself be past the cutoff,
   // but never let pruning remove every batch.
   if (!retained.some((b) => b.id === newBatchRef.id)) {
     retained.unshift(newBatchRef);
   }
   const retainedIds = new Set(retained.map((b) => b.id));
-  const prunedBatches = allBatches.filter((b) => !retainedIds.has(b.id));
+  const prunedBatches = history.filter((b) => !retainedIds.has(b.id));
 
   const manifest = ManifestSchema.parse({
     schemaVersion: candidate.previousManifest.schemaVersion || 1,
@@ -116,14 +122,19 @@ export function writePublishPlan(
       `${JSON.stringify(plan.accountsFile, null, 2)}\n`,
     );
   }
-  writeFileSync(dirs.worldStatePath, `${JSON.stringify(plan.world, null, 2)}\n`);
+  writeFileSync(
+    dirs.worldStatePath,
+    `${JSON.stringify(plan.world, null, 2)}\n`,
+  );
 
   for (const batch of plan.prunedBatches) {
     const filePath = path.join(dirs.dataDir, batch.file);
     try {
       if (existsSync(filePath)) unlinkSync(filePath);
     } catch (err) {
-      console.warn(`[publish] failed to delete pruned batch file ${filePath}: ${err}`);
+      console.warn(
+        `[publish] failed to delete pruned batch file ${filePath}: ${err}`,
+      );
     }
   }
 }

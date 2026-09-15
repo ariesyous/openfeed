@@ -1,9 +1,20 @@
-import { existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import {
+  existsSync,
+  mkdirSync,
+  mkdtempSync,
+  readFileSync,
+  rmSync,
+  writeFileSync,
+} from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import type { FeedItem, Manifest } from "../../schemas";
-import { buildPublishPlan, writePublishPlan, type PublishCandidate } from "../publish";
+import {
+  buildPublishPlan,
+  writePublishPlan,
+  type PublishCandidate,
+} from "../publish";
 import type { WorldState } from "../worldState";
 
 const NOW = new Date("2026-09-15T12:00:00.000Z");
@@ -31,12 +42,20 @@ function makeItem(id: string): FeedItem {
     community: "technology",
     body: "hello",
     meta: { kind: "generic" },
-    engagement: { likes: 1, reposts: 0, replies: 0, views: 10, viralityScore: 0.1 },
+    engagement: {
+      likes: 1,
+      reposts: 0,
+      replies: 0,
+      views: 10,
+      viralityScore: 0.1,
+    },
     comments: [],
   };
 }
 
-function baseCandidate(overrides: Partial<PublishCandidate> = {}): PublishCandidate {
+function baseCandidate(
+  overrides: Partial<PublishCandidate> = {},
+): PublishCandidate {
   return {
     runId: "run-new",
     now: NOW,
@@ -44,12 +63,40 @@ function baseCandidate(overrides: Partial<PublishCandidate> = {}): PublishCandid
     accounts: [],
     accountsChanged: false,
     nextWorld: emptyWorld,
-    previousManifest: { schemaVersion: 1, generatedAt: NOW.toISOString(), latestRunId: "", batches: [] },
+    previousManifest: {
+      schemaVersion: 1,
+      generatedAt: NOW.toISOString(),
+      latestRunId: "",
+      batches: [],
+    },
     ...overrides,
   };
 }
 
 describe("buildPublishPlan", () => {
+  it("removes the previous world when bootstrapping a new population", () => {
+    const plan = buildPublishPlan(
+      baseCandidate({
+        resetHistory: true,
+        previousManifest: {
+          schemaVersion: 1,
+          generatedAt: NOW.toISOString(),
+          latestRunId: "seed",
+          batches: [
+            {
+              id: "seed",
+              generatedAt: NOW.toISOString(),
+              file: "batches/seed.json",
+              itemCount: 1,
+            },
+          ],
+        },
+      }),
+    );
+    expect(plan.manifest.batches.map((b) => b.id)).toEqual(["run-new"]);
+    expect(plan.prunedBatches.map((b) => b.id)).toEqual(["seed"]);
+  });
+
   it("prepends the new batch to the manifest, newest first", () => {
     const plan = buildPublishPlan(baseCandidate());
     expect(plan.manifest.batches[0]?.id).toBe("run-new");
@@ -85,8 +132,13 @@ describe("buildPublishPlan", () => {
   });
 
   it("throws rather than producing a plan when a candidate item is schema-invalid", () => {
-    const invalidItem = { ...makeItem("post-1"), kind: "repost" } as unknown as FeedItem; // repost without referencedPostId
-    expect(() => buildPublishPlan(baseCandidate({ items: [invalidItem] }))).toThrow();
+    const invalidItem = {
+      ...makeItem("post-1"),
+      kind: "repost",
+    } as unknown as FeedItem; // repost without referencedPostId
+    expect(() =>
+      buildPublishPlan(baseCandidate({ items: [invalidItem] })),
+    ).toThrow();
   });
 
   it("omits accountsFile when accountsChanged is false", () => {
@@ -133,13 +185,21 @@ describe("writePublishPlan", () => {
 
     writePublishPlan(plan, { dataDir, worldStatePath });
 
-    expect(existsSync(path.join(dataDir, "batches", "run-new.json"))).toBe(true);
+    expect(existsSync(path.join(dataDir, "batches", "run-new.json"))).toBe(
+      true,
+    );
     expect(existsSync(path.join(dataDir, "manifest.json"))).toBe(true);
     expect(existsSync(worldStatePath)).toBe(true);
-    expect(existsSync(path.join(dataDir, "batches", "run-old.json"))).toBe(false);
+    expect(existsSync(path.join(dataDir, "batches", "run-old.json"))).toBe(
+      false,
+    );
 
-    const manifest = JSON.parse(readFileSync(path.join(dataDir, "manifest.json"), "utf8"));
-    expect(manifest.batches.map((b: { id: string }) => b.id)).toEqual(["run-new"]);
+    const manifest = JSON.parse(
+      readFileSync(path.join(dataDir, "manifest.json"), "utf8"),
+    );
+    expect(manifest.batches.map((b: { id: string }) => b.id)).toEqual([
+      "run-new",
+    ]);
   });
 
   it("writes accounts.json only when accountsFile is present", () => {

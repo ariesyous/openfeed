@@ -108,6 +108,7 @@ async function main(): Promise<void> {
     items,
     accounts,
     accountsChanged,
+    resetHistory: !world.initialized,
     nextWorld,
     previousManifest,
   });
