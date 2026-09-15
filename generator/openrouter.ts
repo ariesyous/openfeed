@@ -15,6 +15,9 @@ export interface CallOpenRouterOptions {
   jsonSchema?: JsonSchemaSpec;
   apiKey: string;
   model?: string;
+  /** Without this, a randomly-picked free model may default to a small completion
+   * length and silently truncate a large structured response mid-JSON. */
+  maxTokens?: number;
   /** Injectable for tests; defaults to the global fetch. */
   fetchImpl?: typeof fetch;
   /** Request timeout in ms; openrouter/free can be slow under load. */
@@ -50,6 +53,9 @@ export async function callOpenRouter(opts: CallOpenRouterOptions): Promise<OpenR
     messages: opts.messages,
     stream: false,
   };
+  if (opts.maxTokens) {
+    body.max_tokens = opts.maxTokens;
+  }
   if (opts.jsonSchema) {
     body.response_format = {
       type: "json_schema",
@@ -99,6 +105,16 @@ export async function callOpenRouter(opts: CallOpenRouterOptions): Promise<OpenR
           ok: false,
           kind: "unsupported_structured_output",
           reason: `model rejected structured output request: ${bodyText.slice(0, 300)}`,
+        };
+      }
+      // openrouter/free re-picks a random underlying model on the next attempt, so a
+      // token-limit complaint from this one is worth retrying rather than failing fast.
+      const mentionsTokenLimit = /max_tokens|context.?length|token.?limit/i.test(bodyText);
+      if (mentionsTokenLimit) {
+        return {
+          ok: false,
+          kind: "retryable",
+          reason: `model rejected token limit: ${bodyText.slice(0, 300)}`,
         };
       }
       return { ok: false, kind: "fatal", reason: `bad request (400): ${bodyText.slice(0, 300)}` };

@@ -1,5 +1,10 @@
 import type { Account, FeedItem } from "../schemas";
-import { COMMENTS_MAX_PER_CYCLE, COMMENTS_MIN_PER_CYCLE, ITEMS_PER_CYCLE } from "./config";
+import {
+  ADVANCE_WORLD_MAX_TOKENS,
+  COMMENTS_MAX_PER_CYCLE,
+  COMMENTS_MIN_PER_CYCLE,
+  ITEMS_PER_CYCLE,
+} from "./config";
 import { createRunRng } from "./engagement";
 import { enrichAdvanceWorld, summarizeAccountsForPrompt } from "./enrich";
 import { buildAdvanceWorldPrompt, buildSystemPrompt } from "./promptBuilder";
@@ -210,6 +215,7 @@ export async function runAdvanceWorld(ctx: {
     systemPrompt,
     initialUserPrompt,
     jsonSchema: { name: "dopamine_feed_advance_world", schema: ADVANCE_WORLD_JSON_SCHEMA },
+    maxTokens: ADVANCE_WORLD_MAX_TOKENS,
     parse: parseRawAdvanceWorld(knownHandles),
     onAttempt: ctx.onAttempt,
     fetchImpl: ctx.fetchImpl,
