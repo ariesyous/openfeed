@@ -5,6 +5,7 @@ import {
   renderHook,
   screen,
   waitFor,
+  within,
 } from "@testing-library/react";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { FeedList } from "../src/components/FeedList";
@@ -14,7 +15,23 @@ import type { BatchFile, Manifest } from "../schemas";
 const read = (file: string) =>
   JSON.parse(readFileSync(`public/data/${file}`, "utf8"));
 const sourceManifest = read("manifest.json") as Manifest;
-const source = read(sourceManifest.batches[0].file) as BatchFile;
+const actual = read(sourceManifest.batches[0].file) as BatchFile;
+// The behaviour fixture must not depend on whichever news story was last published.
+const fixtureItem = {
+  ...actual.items[0],
+  editorial: undefined,
+  comments: [
+    {
+      id: "test-comment",
+      authorId: actual.items[0].authorId,
+      body: "A test reply",
+      createdAt: actual.generatedAt,
+      engagement: { likes: 0 },
+    },
+  ],
+  engagement: { ...actual.items[0].engagement, replies: 1 },
+};
+const source = { ...actual, items: [fixtureItem] };
 const accounts = read("accounts.json");
 const ref = (id: string, generatedAt: string) => ({
   id,
@@ -28,6 +45,8 @@ const fresh = ref("fresh", "2026-09-16T12:00:00.000Z");
 function mockFeed() {
   let refs = [first, older];
   let fail = false;
+  let currentAccounts = accounts;
+  let migrated = false;
   const fetcher = vi.fn(async (url: string) => {
     if (url.includes("manifest.json"))
       return {
@@ -35,7 +54,7 @@ function mockFeed() {
         json: async () => ({ ...sourceManifest, batches: refs }),
       };
     if (url.endsWith("accounts.json"))
-      return { ok: true, json: async () => accounts };
+      return { ok: true, json: async () => currentAccounts };
     if (url.includes("older") && fail) throw new Error("offline");
     const id = url.includes("older")
       ? "older"
@@ -47,7 +66,16 @@ function mockFeed() {
       json: async () => ({
         ...source,
         batchId: id,
-        items: [{ ...source.items[0], id }],
+        items: [
+          {
+            ...source.items[0],
+            id,
+            authorId:
+              migrated && id === "fresh"
+                ? "new-column"
+                : source.items[0].authorId,
+          },
+        ],
       }),
     };
   });
@@ -60,6 +88,11 @@ function mockFeed() {
     recover: () => {
       fail = false;
     },
+    migrate: () => {
+      migrated = true;
+      currentAccounts = [{ ...accounts[0], id: "new-column" }];
+      refs = [fresh];
+    },
     publish: () => {
       refs = [fresh, first, older];
     },
@@ -71,24 +104,42 @@ afterEach(() => {
   vi.useRealTimers();
 });
 describe("feed loading", () => {
+  it("drops old-world posts and pending batches when a new editorial population arrives", async () => {
+    const mock = mockFeed();
+    const interval = vi.spyOn(globalThis, "setInterval");
+    const { result } = renderHook(() => useFeed());
+    await waitFor(() => expect(result.current.isLoadingInitial).toBe(false));
+    mock.migrate();
+    await act(async () => {
+      await (interval.mock.calls[0][0] as () => Promise<void>)();
+    });
+    vi.spyOn(window, "scrollTo").mockImplementation(() => {});
+    await act(() => result.current.showNewPosts());
+    expect(result.current.items.map((i) => i.id)).toEqual(["fresh"]);
+    expect(result.current.hasMore).toBe(false);
+    expect(result.current.accountsById.has("new-column")).toBe(true);
+  });
+
   it("lets readers explore profiles, filter communities, and expand discussions", async () => {
     mockFeed();
     render(<FeedList />);
     await screen.findByRole("heading", {
-      name: "Your window into another internet.",
+      name: "Leave with something worth knowing.",
     });
     const author = accounts.find(
       (a: { id: string }) => a.id === source.items[0].authorId,
     );
     fireEvent.click(
-      screen.getAllByRole("button", { name: author.displayName })[0],
+      within(screen.getAllByRole("article")[0]).getAllByRole("button", {
+        name: author.displayName,
+      })[0],
     );
     expect(
       screen.getByRole("region", { name: `${author.displayName}'s profile` }),
     ).toBeInTheDocument();
     expect(screen.getByText(author.bio)).toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "← Back to feed" }));
-    fireEvent.change(screen.getByLabelText("Explore a community"), {
+    fireEvent.change(screen.getByLabelText("Explore a topic"), {
       target: { value: source.items[0].community },
     });
     const discussion = screen.getAllByRole("button", {

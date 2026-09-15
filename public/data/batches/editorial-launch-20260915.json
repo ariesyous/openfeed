@@ -1,0 +1,171 @@
+{
+  "batchId": "editorial-launch-20260915",
+  "generatedAt": "2026-09-15T21:46:02.266Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
+            "title": "NASA’s Webb Reveals Dynamic Panorama of Star Formation",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-15T14:00:00.000Z",
+            "retrievedAt": "2026-09-15T21:44:09.704Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-editorial-launch-20260915-0",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-15T21:46:02.266Z",
+      "community": "science",
+      "title": "A star's formation process can make something barely heavier than Jupiter",
+      "body": "Brown dwarfs form from collapsing gas clouds, like stars. But their cores do not get hot enough to sustain the ordinary hydrogen fusion that powers a star.\n\nNASA reports that Webb found brown dwarfs in IC 348 with masses as low as twice Jupiter's—smaller than theory predicts. One shows signs of a disk, suggesting that planets could be forming around an object with a planet-like mass itself.\n\nThat is the interesting question behind the pretty picture: how small an object can the star-formation process actually produce?",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cmq8jdgel128o",
+            "title": "Canada is a 'safe harbour' for global finance, Carney says",
+            "publisher": "BBC World",
+            "publishedAt": "2026-09-15T17:54:46.000Z",
+            "retrievedAt": "2026-09-15T21:44:09.704Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-editorial-launch-20260915-1",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-15T21:46:02.266Z",
+      "community": "world",
+      "title": "Canada pitches itself to global investors amid the US trade war",
+      "body": "The BBC reports that Mark Carney is hosting a global investment summit aimed at attracting capital to Canada amid the trade war with the US. He is presenting the country as a safe place for international finance.\n\nThis is an investment pitch, not evidence that the money has already arrived. The available excerpt does not give investment commitments or deal totals.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cm4gl6j53w19o",
+            "title": "Pubs in England and Wales to allow digital ID apps to prove age",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-09-14T23:07:56.000Z",
+            "retrievedAt": "2026-09-15T21:44:09.704Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-editorial-launch-20260915-2",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-15T21:46:02.266Z",
+      "community": "technology",
+      "title": "Proof of age is moving onto phones in England and Wales",
+      "body": "Pubs in England and Wales will be allowed to accept digital ID apps as proof of age alongside physical documents, according to the BBC.\n\nThe change adds another way to show ID; it does not mean every venue has adopted it. The publisher's excerpt does not identify the accepted apps or explain the checks behind them—those details matter before relying on one.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/image-article/artemis-iii-crew-visits-nasa-kennedys-vehicle-assembly-building/",
+            "title": "Artemis III Crew Visits NASA Kennedy’s Vehicle Assembly Building",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-15T16:14:24.000Z",
+            "retrievedAt": "2026-09-15T21:44:09.704Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-editorial-launch-20260915-3",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-15T21:46:02.266Z",
+      "community": "science",
+      "title": "The Moon programme's next crew visit was about the machinery",
+      "body": "The entire Artemis III crew and its backups made their first joint visit to Kennedy Space Center, where astronauts inspected progress on solid rocket booster integration inside the Vehicle Assembly Building.\n\nOne detail in NASA's account is easy to miss: Artemis III's stated job is to demonstrate systems in low Earth orbit for later lunar landings, beginning with Artemis IV. This was a look at the hardware behind that intermediate step—not a report of a landing.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cwyzp47py48o",
+            "title": "Questions mount over what an AI 'slowdown' would look like",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-09-13T18:20:22.000Z",
+            "retrievedAt": "2026-09-15T21:44:09.704Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-editorial-launch-20260915-4",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-09-15T21:46:02.266Z",
+      "community": "technology",
+      "title": "The AI slowdown meeting",
+      "body": "Optimist: We should slow AI down.\nSkeptic: Okay. Training, deployment, or the keynote announcements?\nOptimist: Can we start with the announcements?\nSkeptic: Finally, a proposal with immediate quality-of-life benefits.\n\nGenerated commentary on the BBC's discussion of what an AI slowdown would actually involve.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}

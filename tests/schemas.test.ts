@@ -2,7 +2,12 @@ import { readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { describe, expect, it } from "vitest";
-import { AccountsFileSchema, BatchFileSchema, FeedItemSchema, ManifestSchema } from "../schemas";
+import {
+  AccountsFileSchema,
+  BatchFileSchema,
+  FeedItemSchema,
+  ManifestSchema,
+} from "../schemas";
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.resolve(HERE, "../public/data");
@@ -25,7 +30,11 @@ const validAccount = {
     emojiUsage: "none" as const,
   },
   communities: ["technology"],
-  behavioralTendencies: { positivity: 0.5, controversialTake: 0.5, replyRate: 0.5 },
+  behavioralTendencies: {
+    positivity: 0.5,
+    controversialTake: 0.5,
+    replyRate: 0.5,
+  },
   relationships: [],
   activityLevel: "medium" as const,
   createdAt: new Date().toISOString(),
@@ -39,7 +48,13 @@ const validFeedItem = {
   community: "technology",
   body: "hello world",
   meta: { kind: "generic" as const },
-  engagement: { likes: 1, reposts: 0, replies: 0, views: 10, viralityScore: 0.1 },
+  engagement: {
+    likes: 1,
+    reposts: 0,
+    replies: 0,
+    views: 10,
+    viralityScore: 0.1,
+  },
   comments: [],
 };
 
@@ -49,7 +64,9 @@ describe("AccountSchema (via AccountsFileSchema)", () => {
   });
 
   it("rejects a handle with invalid characters", () => {
-    const result = AccountsFileSchema.safeParse([{ ...validAccount, handle: "Not Valid!" }]);
+    const result = AccountsFileSchema.safeParse([
+      { ...validAccount, handle: "Not Valid!" },
+    ]);
     expect(result.success).toBe(false);
   });
 });
@@ -105,12 +122,12 @@ describe("FeedItemSchema", () => {
   });
 });
 
-describe("checked-in seed data (public/data)", () => {
+describe("checked-in published data (public/data)", () => {
   it("accounts.json validates against AccountsFileSchema", () => {
     const result = AccountsFileSchema.safeParse(readJson("accounts.json"));
     expect(result.success).toBe(true);
     if (result.success) {
-      expect(result.data.length).toBeGreaterThanOrEqual(30);
+      expect(result.data.length).toBeGreaterThan(0);
     }
   });
 
@@ -133,9 +150,10 @@ describe("checked-in seed data (public/data)", () => {
       const result = BatchFileSchema.safeParse(
         JSON.parse(readFileSync(path.join(batchDir, file), "utf8")),
       );
-      expect(result.success, `${file}: ${JSON.stringify(result.success ? null : result.error.issues)}`).toBe(
-        true,
-      );
+      expect(
+        result.success,
+        `${file}: ${JSON.stringify(result.success ? null : result.error.issues)}`,
+      ).toBe(true);
     }
   });
 });

@@ -54,6 +54,38 @@ const item: FeedItem = {
 };
 
 describe("PostCard", () => {
+  it("shows attribution and an opinion label without fabricated engagement", () => {
+    render(
+      <PostCard
+        item={{
+          ...item,
+          editorial: {
+            format: "banter",
+            basis: "publisher_excerpt",
+            sources: [
+              {
+                url: "https://example.com/report",
+                title: "Original report",
+                publisher: "Publisher",
+                publishedAt: "2026-09-15T00:00:00Z",
+                retrievedAt: "2026-09-15T01:00:00Z",
+              },
+            ],
+          },
+          comments: [],
+        }}
+        accountsById={new Map([[account.id, account]])}
+      />,
+    );
+    expect(screen.getByText("Banter · Opinion")).toBeInTheDocument();
+    expect(screen.getByRole("link")).toHaveAttribute(
+      "href",
+      "https://example.com/report",
+    );
+    expect(screen.queryByText("♥ 42")).not.toBeInTheDocument();
+    expect(screen.queryByText("No comments yet")).not.toBeInTheDocument();
+  });
+
   it("shows the original post for a reaction and opens profiles", () => {
     const onAuthorClick = vi.fn();
     const reaction: FeedItem = {
