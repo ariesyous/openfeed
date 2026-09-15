@@ -1,0 +1,51 @@
+name: Generate synthetic feed (manual)
+
+# Phase 2 scope: manual-only, so the generator can be exercised in CI (where
+# OPENROUTER_API_KEY already exists as a repo secret) without needing the key locally.
+# The scheduled trigger described in ProjectSpecifications.md §26 is Phase 3 work.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# A run can retry several times against openrouter/free; without this, an overlapping
+# manual trigger would race with an in-flight run on the final git commit/push.
+concurrency:
+  group: generate
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      # ref (not the default github.sha) so a run queued behind the `generate`
+      # concurrency group checks out whatever landed while it waited, rather than a
+      # stale commit that would otherwise conflict with its own push.
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Run generator
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: pnpm generate
+
+      - name: Commit and push if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data generator/state
+          git diff --staged --quiet || git commit -m "chore(feed): generate synthetic feed ${GITHUB_RUN_ID}"
+          git pull --rebase
+          git push
