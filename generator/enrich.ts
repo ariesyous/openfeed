@@ -122,11 +122,22 @@ export function enrichAdvanceWorld(
     return id;
   };
 
-  // Assign every item's real id up front so a repost/reaction can resolve
-  // referencedTempId regardless of exactly how it's processed below.
+  // Assign every item's and every comment's real id up front (across the whole flat
+  // response) so any reference resolves regardless of array order.
   const postIdByTempId = new Map<string, string>();
   for (const item of raw.items) {
     postIdByTempId.set(item.tempId, nextPostId());
+  }
+  const commentIdByTempId = new Map<string, string>();
+  for (const c of raw.comments) {
+    commentIdByTempId.set(c.tempId, nextCommentId());
+  }
+
+  const commentsByPostTempId = new Map<string, typeof raw.comments>();
+  for (const c of raw.comments) {
+    const list = commentsByPostTempId.get(c.postTempId);
+    if (list) list.push(c);
+    else commentsByPostTempId.set(c.postTempId, [c]);
   }
 
   const createdAts = assignAges(
@@ -140,12 +151,8 @@ export function enrichAdvanceWorld(
     const ageHours = (ctx.now.getTime() - createdAt.getTime()) / 3_600_000;
     const isViral = pickIsViral(ctx.rng);
 
-    const commentIdByTempId = new Map<string, string>();
-    for (const c of rawItem.comments) {
-      commentIdByTempId.set(c.tempId, nextCommentId());
-    }
-
-    const comments: Comment[] = rawItem.comments.map((rawComment) => {
+    const rawComments = commentsByPostTempId.get(rawItem.tempId) ?? [];
+    const comments: Comment[] = rawComments.map((rawComment) => {
       let parentCommentId: string | undefined;
       if (rawComment.parentTempId) {
         parentCommentId = commentIdByTempId.get(rawComment.parentTempId);

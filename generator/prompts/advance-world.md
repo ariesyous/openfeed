@@ -26,14 +26,16 @@ observation, personal_anecdote, joke, community_post, announcement, link_preview
 reaction, repost.
 
 - `repost` and `reaction` items MUST set `referencedTempId` to the `tempId` of another
-  item you are including EARLIER in this same `items` array (never a historical item you
-  don't have in front of you -- you don't have access to older batches, only the
-  summaries above).
+  item in this same `items` array (never a historical item you don't have in front of
+  you -- you don't have access to older batches, only the summaries above). It can be
+  any other item in the array, in any order.
 - `link_preview` items MUST include a `linkPreview` object with a plausible fictional
   `url`, `domain`, `linkTitle`, and optional `linkDescription`.
-- Every `authorHandle` (for items and comments) and `parentTempId` (for nested comments)
-  must reference a handle/tempId that actually exists in this response or in the known
-  accounts list above.
+- Every `authorHandle` must be a handle that actually exists in the known accounts list
+  above.
+- Comments are a separate top-level list (see the shape below), not nested inside each
+  item. Each comment's `postTempId` says which item it belongs to, and an optional
+  `parentTempId` can point to any other comment on that same post to nest a reply.
 
 Finally, propose a `worldStateUpdate`: what changed this cycle (new or updated
 storylines, new running jokes, new or escalating conflicts, current trends, a short
@@ -54,10 +56,16 @@ Respond with exactly this JSON shape:
       "body": "string",
       "referencedTempId": "another item's tempId, only for repost/reaction",
       "linkPreview": { "url": "https://...", "domain": "string", "linkTitle": "string", "linkDescription": "string, optional" },
-      "comments": [
-        { "tempId": "c1", "authorHandle": "existing_account_handle", "body": "string", "parentTempId": "another comment's tempId in this same item, optional" }
-      ],
       "relativeAgeHint": "fresh | recent | older, optional"
+    }
+  ],
+  "comments": [
+    {
+      "tempId": "short local id, e.g. c1",
+      "postTempId": "the tempId of the item this comment is on",
+      "authorHandle": "existing_account_handle",
+      "body": "string",
+      "parentTempId": "another comment's tempId on that same post, optional, for a nested reply"
     }
   ],
   "worldStateUpdate": {

@@ -50,8 +50,16 @@ export const RawBootstrapResponseSchema = z.object({
 });
 export type RawBootstrapResponse = z.infer<typeof RawBootstrapResponseSchema>;
 
+// Comments are a flat top-level array (see RawAdvanceWorldResponseSchema below), each
+// carrying postTempId to say which item it belongs to, rather than nested inside each
+// item -- live testing showed the 3-level-deep nested shape (response -> items ->
+// comments) was a real reliability problem for weaker openrouter/free models, causing
+// persistent invalid/empty responses even with a generous token/time budget. A flatter
+// structure is a well-known LLM-friendliness pattern: less nesting to keep track of
+// while generating.
 export const RawCommentSchema = z.object({
   tempId: z.string().min(1),
+  postTempId: z.string().min(1),
   authorHandle: z.string().min(1),
   body: z.string().min(1).max(2000),
   parentTempId: z.string().min(1).optional(),
@@ -72,12 +80,14 @@ export const RawFeedItemSchema = z.object({
   community: z.string().min(1).max(40),
   title: z.string().min(1).max(150).optional(),
   body: z.string().min(1).max(4000),
-  // Restricted to another item earlier in this same cycle's `items` array (never a
-  // historical batch) -- see generator/publish.ts for why: it keeps age-based batch
-  // pruning safe by construction, with no dangling referencedPostId possible.
+  // Must match another item's tempId in this same response (never a historical batch)
+  // -- see generator/publish.ts for why: it keeps age-based batch pruning safe by
+  // construction, with no dangling referencedPostId possible. No ordering requirement
+  // (doesn't have to be "earlier") -- enrich.ts resolves every item's real id up front
+  // regardless of array position, so there's no need to burden the model with tracking
+  // generation order.
   referencedTempId: z.string().min(1).optional(),
   linkPreview: RawLinkPreviewSchema.optional(),
-  comments: z.array(RawCommentSchema).max(200),
   relativeAgeHint: z.enum(["fresh", "recent", "older"]).optional(),
 });
 export type RawFeedItem = z.infer<typeof RawFeedItemSchema>;
@@ -133,6 +143,7 @@ export type RawWorldStateUpdate = z.infer<typeof RawWorldStateUpdateSchema>;
 
 export const RawAdvanceWorldResponseSchema = z.object({
   items: z.array(RawFeedItemSchema).min(1).max(100),
+  comments: z.array(RawCommentSchema).max(400),
   worldStateUpdate: RawWorldStateUpdateSchema,
 });
 export type RawAdvanceWorldResponse = z.infer<typeof RawAdvanceWorldResponseSchema>;
@@ -177,28 +188,30 @@ export function validateRawBootstrapReferences(raw: RawBootstrapResponse): strin
 }
 
 /** knownHandles = every account handle the generator currently knows about (i.e. all of
- * accounts.json, not just ones appearing in this response). */
+ * accounts.json, not just ones appearing in this response). No ordering requirements on
+ * any reference (an item or comment may point to something appearing later in the same
+ * response) -- enrich.ts resolves every tempId to a real id up front, so there's no
+ * reason to make the model track generation order. */
 export function validateRawAdvanceWorldReferences(
   raw: RawAdvanceWorldResponse,
   knownHandles: ReadonlySet<string>,
 ): string[] {
   const issues: string[] = [];
-  const seenTempIds = new Set<string>();
+  const itemTempIds = new Set(raw.items.map((i) => i.tempId));
 
-  raw.items.forEach((item, index) => {
-    if (seenTempIds.has(item.tempId)) {
-      issues.push(`duplicate item tempId "${item.tempId}"`);
-    }
+  if (itemTempIds.size !== raw.items.length) {
+    issues.push("duplicate item tempId in items");
+  }
+
+  raw.items.forEach((item) => {
     if (!knownHandles.has(item.authorHandle)) {
       issues.push(`item "${item.tempId}" has unknown authorHandle "${item.authorHandle}"`);
     }
     if (item.referencedTempId) {
-      const earlierTempIds = raw.items.slice(0, index).map((i) => i.tempId);
-      if (!earlierTempIds.includes(item.referencedTempId)) {
+      if (item.referencedTempId === item.tempId || !itemTempIds.has(item.referencedTempId)) {
         issues.push(
-          `item "${item.tempId}" has referencedTempId "${item.referencedTempId}" that is not an ` +
-            "earlier item in this same response (repost/reaction can only reference something " +
-            "generated earlier in this same cycle)",
+          `item "${item.tempId}" has referencedTempId "${item.referencedTempId}" that does not ` +
+            "match another item in this response",
         );
       }
     }
@@ -208,32 +221,44 @@ export function validateRawAdvanceWorldReferences(
     if (item.kind === "link_preview" && !item.linkPreview) {
       issues.push(`item "${item.tempId}" of kind "link_preview" is missing linkPreview`);
     }
-
-    const commentTempIds = new Set<string>();
-    item.comments.forEach((comment, commentIndex) => {
-      if (commentTempIds.has(comment.tempId)) {
-        issues.push(`item "${item.tempId}" has duplicate comment tempId "${comment.tempId}"`);
-      }
-      commentTempIds.add(comment.tempId);
-      if (!knownHandles.has(comment.authorHandle)) {
-        issues.push(
-          `item "${item.tempId}" comment "${comment.tempId}" has unknown authorHandle ` +
-            `"${comment.authorHandle}"`,
-        );
-      }
-      if (comment.parentTempId) {
-        const earlierCommentTempIds = item.comments.slice(0, commentIndex).map((c) => c.tempId);
-        if (!earlierCommentTempIds.includes(comment.parentTempId)) {
-          issues.push(
-            `item "${item.tempId}" comment "${comment.tempId}" has parentTempId ` +
-              `"${comment.parentTempId}" that is not an earlier comment in the same item`,
-          );
-        }
-      }
-    });
-
-    seenTempIds.add(item.tempId);
   });
+
+  const commentTempIds = new Set<string>();
+  const postTempIdByCommentTempId = new Map<string, string>();
+  for (const comment of raw.comments) {
+    if (commentTempIds.has(comment.tempId)) {
+      issues.push(`duplicate comment tempId "${comment.tempId}"`);
+    }
+    commentTempIds.add(comment.tempId);
+    postTempIdByCommentTempId.set(comment.tempId, comment.postTempId);
+
+    if (!itemTempIds.has(comment.postTempId)) {
+      issues.push(
+        `comment "${comment.tempId}" has postTempId "${comment.postTempId}" that does not ` +
+          "match any item in this response",
+      );
+    }
+    if (!knownHandles.has(comment.authorHandle)) {
+      issues.push(`comment "${comment.tempId}" has unknown authorHandle "${comment.authorHandle}"`);
+    }
+  }
+
+  for (const comment of raw.comments) {
+    if (!comment.parentTempId) continue;
+    if (comment.parentTempId === comment.tempId || !commentTempIds.has(comment.parentTempId)) {
+      issues.push(
+        `comment "${comment.tempId}" has parentTempId "${comment.parentTempId}" that does not ` +
+          "match another comment in this response",
+      );
+      continue;
+    }
+    if (postTempIdByCommentTempId.get(comment.parentTempId) !== comment.postTempId) {
+      issues.push(
+        `comment "${comment.tempId}" has parentTempId "${comment.parentTempId}" which belongs ` +
+          "to a different post",
+      );
+    }
+  }
 
   return issues;
 }
@@ -245,7 +270,7 @@ export function checkCycleSizeWarnings(
   targets: { itemsPerCycle: number; commentsMin: number; commentsMax: number },
 ): string[] {
   const warnings: string[] = [];
-  const totalComments = raw.items.reduce((sum, item) => sum + item.comments.length, 0);
+  const totalComments = raw.comments.length;
 
   if (Math.abs(raw.items.length - targets.itemsPerCycle) > targets.itemsPerCycle * 0.5) {
     warnings.push(
