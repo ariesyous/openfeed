@@ -18,10 +18,10 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    # Bootstrap is a one-time step with a generous 15-minute per-attempt timeout (large
-    # completions on a slow free model) and up to 5 attempts, then the first
-    # advance-world call retries again on top of that (up to 4 minutes/attempt).
-    timeout-minutes: 130
+    # Bootstrap and the first advance-world call each get a generous 15-minute
+    # per-attempt timeout (per-model generation speed, not output size, is the real
+    # bottleneck on openrouter/free) and up to 5 attempts apiece.
+    timeout-minutes: 180
     steps:
       # ref (not the default github.sha) so a run queued behind the `generate`
       # concurrency group checks out whatever landed while it waited, rather than a

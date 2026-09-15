@@ -43,9 +43,12 @@ export const ADVANCE_WORLD_MAX_TOKENS = envInt("GEN_ADVANCE_WORLD_MAX_TOKENS", 6
 // out right at the previous default once max_tokens was raised without also raising
 // this). Bootstrap being a one-time step affords a long wait here too.
 export const BOOTSTRAP_TIMEOUT_MS = envInt("GEN_BOOTSTRAP_TIMEOUT_MS", 900_000);
-// Raised from 150s after live testing hit this exact ceiling once ("TimeoutError: The
-// operation was aborted due to timeout") on an otherwise-plausible attempt.
-export const ADVANCE_WORLD_TIMEOUT_MS = envInt("GEN_ADVANCE_WORLD_TIMEOUT_MS", 240_000);
+// Raised twice via live testing: 60s -> 150s -> 240s, each time hitting the exact
+// ceiling on an otherwise-plausible attempt. The real bottleneck turns out to be
+// per-model generation speed (tokens/sec), not output size -- a slow random free-model
+// pick is slow regardless of how small the ask is, so this now matches bootstrap's
+// generous budget rather than trying to guess a smaller "should be enough" number.
+export const ADVANCE_WORLD_TIMEOUT_MS = envInt("GEN_ADVANCE_WORLD_TIMEOUT_MS", 900_000);
 // Base backoff delays (ms) before attempts 2..5; attempt 1 never waits. Jitter
 // is added on top by the retry loop. ~2/5/10/20s per ProjectSpecifications.md §14.
 export const BACKOFF_BASE_MS = [2000, 5000, 10000, 20000];
