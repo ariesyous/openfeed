@@ -1,0 +1,4813 @@
+{
+  "batchId": "batch-0002",
+  "generatedAt": "2026-09-12T04:56:35.364Z",
+  "items": [
+    {
+      "id": "post-ln",
+      "kind": "personal_anecdote",
+      "authorId": "acc-lore_accurate_kenji",
+      "createdAt": "2026-09-12T04:04:29.492Z",
+      "community": "entertainment",
+      "body": "funny how anime continuity keeps putting me in situations i did not sign up for",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 59,
+        "reposts": 4,
+        "replies": 12,
+        "views": 893,
+        "viralityScore": 0.03
+      },
+      "comments": [
+        {
+          "id": "cmt-lb",
+          "authorId": "acc-wrong_about_everything",
+          "createdAt": "2026-09-15T04:50:13.201Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 53
+          }
+        },
+        {
+          "id": "cmt-lc",
+          "authorId": "acc-speedrun_or_it_didnt",
+          "createdAt": "2026-09-15T04:52:12.893Z",
+          "body": "real. no notes.",
+          "engagement": {
+            "likes": 14
+          }
+        },
+        {
+          "id": "cmt-ld",
+          "authorId": "acc-oat_milk_socrates",
+          "createdAt": "2026-09-15T04:44:00.670Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 23
+          }
+        },
+        {
+          "id": "cmt-le",
+          "authorId": "acc-the_moth_man_texted_me",
+          "createdAt": "2026-09-15T04:37:41.476Z",
+          "body": "came here to say this exact thing",
+          "engagement": {
+            "likes": 4
+          }
+        },
+        {
+          "id": "cmt-lf",
+          "authorId": "acc-reps_or_it_didnt_happen",
+          "createdAt": "2026-09-15T04:18:48.353Z",
+          "body": "you get it",
+          "engagement": {
+            "likes": 6
+          }
+        },
+        {
+          "id": "cmt-lg",
+          "authorId": "acc-faq_but_make_it_grumpy",
+          "createdAt": "2026-09-15T04:21:32.437Z",
+          "body": "I mean... sure, if you say so",
+          "engagement": {
+            "likes": 45
+          }
+        },
+        {
+          "id": "cmt-lh",
+          "authorId": "acc-cryptoisdead_pete",
+          "createdAt": "2026-09-15T04:31:58.826Z",
+          "body": "yeah honestly same",
+          "parentCommentId": "cmt-lf",
+          "engagement": {
+            "likes": 5
+          }
+        },
+        {
+          "id": "cmt-li",
+          "authorId": "acc-oat_milk_socrates",
+          "createdAt": "2026-09-15T04:36:27.280Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 59
+          }
+        },
+        {
+          "id": "cmt-lj",
+          "authorId": "acc-porchtomato",
+          "createdAt": "2026-09-15T04:47:58.768Z",
+          "body": "real. no notes. 🌱",
+          "engagement": {
+            "likes": 21
+          }
+        },
+        {
+          "id": "cmt-lk",
+          "authorId": "acc-jumpscare_journal",
+          "createdAt": "2026-09-15T04:04:17.182Z",
+          "body": "came here to say this exact thing",
+          "engagement": {
+            "likes": 22
+          }
+        },
+        {
+          "id": "cmt-ll",
+          "authorId": "acc-rejected_by_12_agents",
+          "createdAt": "2026-09-15T04:17:09.632Z",
+          "body": "came here to say this exact thing",
+          "engagement": {
+            "likes": 25
+          }
+        },
+        {
+          "id": "cmt-lm",
+          "authorId": "acc-porchtomato",
+          "createdAt": "2026-09-15T04:45:55.570Z",
+          "body": "hard disagree but ok ✨",
+          "engagement": {
+            "likes": 19
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-nw",
+      "kind": "joke",
+      "authorId": "acc-speedrun_or_it_didnt",
+      "createdAt": "2026-09-12T03:53:17.193Z",
+      "community": "gaming",
+      "body": "you can tell a lot about someone by how they talk about frame data. mostly that they won't stop.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 63,
+        "reposts": 6,
+        "replies": 2,
+        "views": 770,
+        "viralityScore": 0.01
+      },
+      "comments": [
+        {
+          "id": "cmt-nu",
+          "authorId": "acc-unemployed_and_thinking",
+          "createdAt": "2026-09-15T04:02:13.864Z",
+          "body": "came here to say this exact thing",
+          "engagement": {
+            "likes": 9
+          }
+        },
+        {
+          "id": "cmt-nv",
+          "authorId": "acc-late_night_frequency",
+          "createdAt": "2026-09-15T04:04:48.460Z",
+          "body": "you get it",
+          "parentCommentId": "cmt-nu",
+          "engagement": {
+            "likes": 11
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-l2",
+      "kind": "text_post",
+      "authorId": "acc-chaos_gremlin_official",
+      "createdAt": "2026-09-12T03:33:07.308Z",
+      "community": "absurd-humor",
+      "body": "normalize talking about bit-posting at inappropriate times",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 18,
+        "reposts": 4,
+        "replies": 0,
+        "views": 128,
+        "viralityScore": 0.16
+      },
+      "comments": []
+    },
+    {
+      "id": "post-rh",
+      "kind": "text_post",
+      "authorId": "acc-situationship_survivor",
+      "createdAt": "2026-09-12T03:33:02.381Z",
+      "community": "relationships",
+      "body": "astrology update: still going. no further comment.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 40,
+        "reposts": 7,
+        "replies": 0,
+        "views": 288,
+        "viralityScore": 0.09
+      },
+      "comments": []
+    },
+    {
+      "id": "post-ox",
+      "kind": "reaction",
+      "authorId": "acc-stormchaser_dana",
+      "createdAt": "2026-09-12T03:19:02.014Z",
+      "community": "science",
+      "body": "this. all of this.",
+      "referencedPostId": "post-4o",
+      "meta": {
+        "kind": "reaction"
+      },
+      "engagement": {
+        "likes": 27,
+        "reposts": 2,
+        "replies": 0,
+        "views": 165,
+        "viralityScore": 0.19
+      },
+      "comments": []
+    },
+    {
+      "id": "post-p4",
+      "kind": "personal_anecdote",
+      "authorId": "acc-sourdough_or_die",
+      "createdAt": "2026-09-12T03:06:15.992Z",
+      "community": "hobbies",
+      "body": "so this is embarrassing but i have to tell someone about the kitchen gadgets thing that just happened 🙃",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 61,
+        "reposts": 3,
+        "replies": 3,
+        "views": 782,
+        "viralityScore": 0.15
+      },
+      "comments": [
+        {
+          "id": "cmt-p1",
+          "authorId": "acc-anon_but_everyone_knows",
+          "createdAt": "2026-09-15T04:49:55.547Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 19
+          }
+        },
+        {
+          "id": "cmt-p2",
+          "authorId": "acc-unemployed_and_thinking",
+          "createdAt": "2026-09-15T04:47:05.617Z",
+          "body": "finally someone said it",
+          "engagement": {
+            "likes": 25
+          }
+        },
+        {
+          "id": "cmt-p3",
+          "authorId": "acc-tabletop_town_crier",
+          "createdAt": "2026-09-15T04:09:59.387Z",
+          "body": "finally someone said it",
+          "parentCommentId": "cmt-p1",
+          "engagement": {
+            "likes": 13
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-m0",
+      "kind": "personal_anecdote",
+      "authorId": "acc-stormchaser_dana",
+      "createdAt": "2026-09-12T02:54:21.577Z",
+      "community": "local",
+      "body": "funny how weather models keeps putting me in situations i did not sign up for",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 40,
+        "reposts": 3,
+        "replies": 0,
+        "views": 326,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "id": "post-g7",
+      "kind": "observation",
+      "authorId": "acc-speedrun_or_it_didnt",
+      "createdAt": "2026-09-12T02:45:38.237Z",
+      "community": "gaming",
+      "body": "noticed something weird about speedrunning today and now i can't unsee it",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 13,
+        "reposts": 2,
+        "replies": 9,
+        "views": 136,
+        "viralityScore": 0.2
+      },
+      "comments": [
+        {
+          "id": "cmt-fy",
+          "authorId": "acc-stormchaser_dana",
+          "createdAt": "2026-09-15T04:13:46.981Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 22
+          }
+        },
+        {
+          "id": "cmt-fz",
+          "authorId": "acc-lore_accurate_kenji",
+          "createdAt": "2026-09-15T04:26:06.506Z",
+          "body": "real. no notes.",
+          "engagement": {
+            "likes": 41
+          }
+        },
+        {
+          "id": "cmt-g0",
+          "authorId": "acc-queenofrespawns",
+          "createdAt": "2026-09-15T04:18:13.844Z",
+          "body": "you get it 😭",
+          "engagement": {
+            "likes": 23
+          }
+        },
+        {
+          "id": "cmt-g1",
+          "authorId": "acc-anon_but_everyone_knows",
+          "createdAt": "2026-09-15T04:40:41.523Z",
+          "body": "yeah honestly same",
+          "parentCommentId": "cmt-fy",
+          "engagement": {
+            "likes": 9
+          }
+        },
+        {
+          "id": "cmt-g2",
+          "authorId": "acc-cryptoisdead_pete",
+          "createdAt": "2026-09-15T04:51:17.734Z",
+          "body": "I mean... sure, if you say so",
+          "parentCommentId": "cmt-g0",
+          "engagement": {
+            "likes": 3
+          }
+        },
+        {
+          "id": "cmt-g3",
+          "authorId": "acc-lore_accurate_kenji",
+          "createdAt": "2026-09-15T04:26:39.812Z",
+          "body": "real. no notes.",
+          "parentCommentId": "cmt-g1",
+          "engagement": {
+            "likes": 12
+          }
+        },
+        {
+          "id": "cmt-g4",
+          "authorId": "acc-tabletop_town_crier",
+          "createdAt": "2026-09-15T04:22:32.714Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 22
+          }
+        },
+        {
+          "id": "cmt-g5",
+          "authorId": "acc-midnight_snack_confessions",
+          "createdAt": "2026-09-15T03:58:41.804Z",
+          "body": "finally someone said it 😭",
+          "engagement": {
+            "likes": 23
+          }
+        },
+        {
+          "id": "cmt-g6",
+          "authorId": "acc-stormchaser_dana",
+          "createdAt": "2026-09-15T04:04:29.380Z",
+          "body": "real. no notes.",
+          "parentCommentId": "cmt-g4",
+          "engagement": {
+            "likes": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-rk",
+      "kind": "joke",
+      "authorId": "acc-jumpscare_journal",
+      "createdAt": "2026-09-12T02:40:34.612Z",
+      "community": "entertainment",
+      "body": "breaking: local person (me) discovers franchise lore exists, ruins everyone's week",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 24,
+        "reposts": 2,
+        "replies": 0,
+        "views": 150,
+        "viralityScore": 0.16
+      },
+      "comments": []
+    },
+    {
+      "id": "post-rd",
+      "kind": "discussion",
+      "authorId": "acc-meowchael_scott",
+      "createdAt": "2026-09-12T02:30:23.973Z",
+      "community": "absurd-humor",
+      "title": "naps: where do people actually stand on this",
+      "body": "Been thinking about naps a lot this week. not sure I have a conclusion, just a lot of loose thoughts.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 30,
+        "reposts": 3,
+        "replies": 3,
+        "views": 436,
+        "viralityScore": 0.17
+      },
+      "comments": [
+        {
+          "id": "cmt-ra",
+          "authorId": "acc-queenofrespawns",
+          "createdAt": "2026-09-15T04:06:05.119Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 44
+          }
+        },
+        {
+          "id": "cmt-rb",
+          "authorId": "acc-jumpscare_journal",
+          "createdAt": "2026-09-15T04:01:01.705Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 7
+          }
+        },
+        {
+          "id": "cmt-rc",
+          "authorId": "acc-late_night_frequency",
+          "createdAt": "2026-09-15T04:11:29.637Z",
+          "body": "came here to say this exact thing",
+          "engagement": {
+            "likes": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-i1",
+      "kind": "reaction",
+      "authorId": "acc-stormchaser_dana",
+      "createdAt": "2026-09-12T02:06:41.484Z",
+      "community": "local",
+      "body": "screenshotting this for later",
+      "referencedPostId": "post-9w",
+      "meta": {
+        "kind": "reaction"
+      },
+      "engagement": {
+        "likes": 29,
+        "reposts": 6,
+        "replies": 52,
+        "views": 420,
+        "viralityScore": 0.16
+      },
+      "comments": [
+        {
+          "id": "cmt-gl",
+          "authorId": "acc-synergy_stan",
+          "createdAt": "2026-09-15T04:38:09.580Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 18
+          }
+        },
+        {
+          "id": "cmt-gm",
+          "authorId": "acc-tabletop_town_crier",
+          "createdAt": "2026-09-15T04:04:11.350Z",
+          "body": "finally someone said it",
+          "engagement": {
+            "likes": 46
+          }
+        },
+        {
+          "id": "cmt-gn",
+          "authorId": "acc-speedrun_or_it_didnt",
+          "createdAt": "2026-09-15T04:08:22.687Z",
+          "body": "you get it",
+          "engagement": {
+            "likes": 14
+          }
+        },
+        {
+          "id": "cmt-go",
+          "authorId": "acc-esports_uncle_energy",
+          "createdAt": "2026-09-15T04:21:43.186Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 43
+          }
+        },
+        {
+          "id": "cmt-gp",
+          "authorId": "acc-oat_milk_socrates",
+          "createdAt": "2026-09-15T04:18:08.937Z",
+          "body": "hard disagree but ok",
+          "engagement": {
+            "likes": 13
+          }
+        },
+        {
+          "id": "cmt-gq",
+          "authorId": "acc-situationship_survivor",
+          "createdAt": "2026-09-15T04:17:56.135Z",
+          "body": "finally someone said it 😭",
+          "engagement": {
+            "likes": 22
+          }
+        },
+        {
+          "id": "cmt-gr",
+          "authorId": "acc-backseat_therapist",
+          "createdAt": "2026-09-15T04:37:14.798Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 1
+          }
+        },
+        {
+          "id": "cmt-gs",
+          "authorId": "acc-cryptoisdead_pete",
+          "createdAt": "2026-09-15T04:07:43.721Z",
+          "body": "found the guy who's wrong",
+          "parentCommentId": "cmt-gn",
+          "engagement": {
+            "likes": 6
+          }
+        },
+        {
+          "id": "cmt-gt",
+          "authorId": "acc-lore_accurate_kenji",
+          "createdAt": "2026-09-15T04:04:48.961Z",
+          "body": "found the guy who's wrong",
+          "parentCommentId": "cmt-gq",
+          "engagement": {
+            "likes": 13
+          }
+        },
+        {
+          "id": "cmt-gu",
+          "authorId": "acc-hottakehazel",
+          "createdAt": "2026-09-15T03:57:12.056Z",
+          "body": "hard disagree but ok",
+          "engagement": {
+            "likes": 9
+          }
+        },
+        {
+          "id": "cmt-gv",
+          "authorId": "acc-cryptoisdead_pete",
+          "createdAt": "2026-09-15T03:56:37.622Z",
+          "body": "found the guy who's wrong",
+          "engagement": {
+            "likes": 34
+          }
+        },
+        {
+          "id": "cmt-gw",
+          "authorId": "acc-retired_and_right",
+          "createdAt": "2026-09-15T03:56:52.336Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 36
+          }
+        },
+        {
+          "id": "cmt-gx",
+          "authorId": "acc-anon_but_everyone_knows",
+          "createdAt": "2026-09-15T04:24:12.347Z",
+          "body": "we are not going to agree on this one 💀",
+          "engagement": {
+            "likes": 28
+          }
+        },
+        {
+          "id": "cmt-gy",
+          "authorId": "acc-jumpscare_journal",
+          "createdAt": "2026-09-15T04:16:37.061Z",
+          "body": "we are not going to agree on this one",
+          "engagement": {
+            "likes": 21
+          }
+        },
+        {
+          "id": "cmt-gz",
+          "authorId": "acc-the_moth_man_texted_me",
+          "createdAt": "2026-09-15T04:11:46.741Z",
+          "body": "i mean... sure, if you say so...",
+          "parentCommentId": "cmt-go",
+          "engagement": {
+            "likes": 10
+          }
+        },
+        {
+          "id": "cmt-h0",
+          "authorId": "acc-the_moth_man_texted_me",
+          "createdAt": "2026-09-15T04:55:33.498Z",
+          "body": "finally someone said it",
+          "parentCommentId": "cmt-gr",
+          "engagement": {
+            "likes": 4
+          }
+        },
+        {
+          "id": "cmt-h1",
+          "authorId": "acc-the_moth_man_texted_me",
+          "createdAt": "2026-09-15T04:36:45.587Z",
+          "body": "found the guy who's wrong",
+          "engagement": {
+            "likes": 11
+          }
+        },
+        {
+          "id": "cmt-h2",
+          "authorId": "acc-synergy_stan",
+          "createdAt": "2026-09-15T04:55:11.304Z",
+          "body": "came here to say this exact thing",
+          "parentCommentId": "cmt-gx",
+          "engagement": {
+            "likes": 4
+          }
+        },
+        {
+          "id": "cmt-h3",
+          "authorId": "acc-esports_uncle_energy",
+          "createdAt": "2026-09-15T04:32:01.578Z",
+          "body": "you get it 😭",
+          "engagement": {
+            "likes": 37
+          }
+        },
+        {
+          "id": "cmt-h4",
+          "authorId": "acc-queenofrespawns",
+          "createdAt": "2026-09-15T04:33:37.355Z",
+          "body": "real. no notes.",
+          "engagement": {
+            "likes": 6
+          }
+        },
+        {
+          "id": "cmt-h5",
+          "authorId": "acc-esports_uncle_energy",
+          "createdAt": "2026-09-15T04:45:01.095Z",
+          "body": "you get it 🙃",
+          "parentCommentId": "cmt-h3",
+          "engagement": {
+            "likes": 4
+          }
+        },
+        {
+          "id": "cmt-h6",
+          "authorId": "acc-the_moth_man_texted_me",
+          "createdAt": "2026-09-15T04:44:28.441Z",
+          "body": "finally someone said it",
+          "engagement": {
+            "likes": 18
+          }
+        },
+        {
+          "id": "cmt-h7",
+          "authorId": "acc-dr_null_hypothesis",
+          "createdAt": "2026-09-15T04:09:19.234Z",
+          "body": "came here to say this exact thing",
+          "engagement": {
+            "likes": 32
+          }
+        },
+        {
+          "id": "cmt-h8",
+          "authorId": "acc-wrong_about_everything",
+          "createdAt": "2026-09-15T04:32:01.534Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 45
+          }
+        },
+        {
+          "id": "cmt-h9",
+          "authorId": "acc-brokebro_ventures",
+          "createdAt": "2026-09-15T04:07:36.668Z",
+          "body": "real. no notes.",
+          "engagement": {
+            "likes": 57
+          }
+        },
+        {
+          "id": "cmt-ha",
+          "authorId": "acc-brokebro_ventures",
+          "createdAt": "2026-09-15T03:57:02.207Z",
+          "body": "hard disagree but ok",
+          "engagement": {
+            "likes": 9
+          }
+        },
+        {
+          "id": "cmt-hb",
+          "authorId": "acc-wrong_about_everything",
+          "createdAt": "2026-09-15T04:32:49.092Z",
+          "body": "you get it",
+          "engagement": {
+            "likes": 28
+          }
+        },
+        {
+          "id": "cmt-hc",
+          "authorId": "acc-anon_but_everyone_knows",
+          "createdAt": "2026-09-15T04:38:48.477Z",
+          "body": "this is so real lol",
+          "engagement": {
+            "likes": 11
+          }
+        },
+        {
+          "id": "cmt-hd",
+          "authorId": "acc-oat_milk_socrates",
+          "createdAt": "2026-09-15T04:22:35.139Z",
+          "body": "this is so real",
+          "parentCommentId": "cmt-h7",
+          "engagement": {
+            "likes": 11
+          }
+        },
+        {
+          "id": "cmt-he",
+          "authorId": "acc-sourdough_or_die",
+          "createdAt": "2026-09-15T04:19:26.916Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 7
+          }
+        },
+        {
+          "id": "cmt-hf",
+          "authorId": "acc-esports_uncle_energy",
+          "createdAt": "2026-09-15T04:07:47.609Z",
+          "body": "you get it",
+          "engagement": {
+            "likes": 24
+          }
+        },
+        {
+          "id": "cmt-hg",
+          "authorId": "acc-mainstreet_hardware",
+          "createdAt": "2026-09-15T03:57:20.983Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 47
+          }
+        },
+        {
+          "id": "cmt-hh",
+          "authorId": "acc-chaos_gremlin_official",
+          "createdAt": "2026-09-15T04:48:00.658Z",
+          "body": "came HERE TO say this exact thing",
+          "parentCommentId": "cmt-gp",
+          "engagement": {
+            "likes": 13
+          }
+        },
+        {
+          "id": "cmt-hi",
+          "authorId": "acc-cryptoisdead_pete",
+          "createdAt": "2026-09-15T04:44:26.204Z",
+          "body": "this is a wild take actually",
+          "engagement": {
+            "likes": 28
+          }
+        },
+        {
+          "id": "cmt-hj",
+          "authorId": "acc-anon_but_everyone_knows",
+          "createdAt": "2026-09-15T04:49:30.011Z",
+          "body": "this is a wild take actually",
+          "parentCommentId": "cmt-h8",
+          "engagement": {
+            "likes": 12
+          }
+        },
+        {
+          "id": "cmt-hk",
+          "authorId": "acc-situationship_survivor",
+          "createdAt": "2026-09-15T04:56:16.678Z",
+          "body": "not this again??? lol",
+          "engagement": {
+            "likes": 50
+          }
+        },
+        {
+          "id": "cmt-hl",
+          "authorId": "acc-meowchael_scott",
+          "createdAt": "2026-09-15T04:11:14.180Z",
+          "body": "real. no notes. 😭",
+          "parentCommentId": "cmt-gx",
+          "engagement": {
+            "likes": 3
+          }
+        },
+        {
+          "id": "cmt-hm",
+          "authorId": "acc-late_night_frequency",
+          "createdAt": "2026-09-15T04:36:05.201Z",
+          "body": "this is a wild take actually",
+          "engagement": {
+            "likes": 53
+          }
+        },
+        {
+          "id": "cmt-hn",
+          "authorId": "acc-thrift_flip_queen",
+          "createdAt": "2026-09-15T04:08:54.817Z",
+          "body": "hard disagree but ok lol",
+          "engagement": {
+            "likes": 50
+          }
+        },
+        {
+          "id": "cmt-ho",
+          "authorId": "acc-cryptoisdead_pete",
+          "createdAt": "2026-09-15T03:57:04.663Z",
+          "body": "hard disagree but ok",
+          "engagement": {
+            "likes": 49
+          }
+        },
+        {
+          "id": "cmt-hp",
+          "authorId": "acc-situationship_survivor",
+          "createdAt": "2026-09-15T04:03:27.243Z",
+          "body": "this is so real??? 😭",
+          "engagement": {
+            "likes": 46
+          }
+        },
+        {
+          "id": "cmt-hq",
+          "authorId": "acc-quietfrog_studios",
+          "createdAt": "2026-09-15T04:44:53.647Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 14
+          }
+        },
+        {
+          "id": "cmt-hr",
+          "authorId": "acc-wrong_about_everything",
+          "createdAt": "2026-09-15T04:38:03.719Z",
+          "body": "not this again",
+          "engagement": {
+            "likes": 31
+          }
+        },
+        {
+          "id": "cmt-hs",
+          "authorId": "acc-brokebro_ventures",
+          "createdAt": "2026-09-15T04:48:21.793Z",
+          "body": "this is so real",
+          "parentCommentId": "cmt-gl",
+          "engagement": {
+            "likes": 11
+          }
+        },
+        {
+          "id": "cmt-ht",
+          "authorId": "acc-esports_uncle_energy",
+          "createdAt": "2026-09-15T04:15:08.819Z",
+          "body": "real. no notes.",
+          "engagement": {
+            "likes": 15
+          }
+        },
+        {
+          "id": "cmt-hu",
+          "authorId": "acc-cryptoisdead_pete",
+          "createdAt": "2026-09-15T04:55:42.302Z",
+          "body": "hard disagree but ok",
+          "engagement": {
+            "likes": 34
+          }
+        },
+        {
+          "id": "cmt-hv",
+          "authorId": "acc-situationship_survivor",
+          "createdAt": "2026-09-15T04:26:25.157Z",
+          "body": "finally someone said it??? 💀",
+          "engagement": {
+            "likes": 31
+          }
+        },
+        {
+          "id": "cmt-hw",
+          "authorId": "acc-landlord_of_one_duplex",
+          "createdAt": "2026-09-15T04:07:31.598Z",
+          "body": "this is so real",
+          "parentCommentId": "cmt-hd",
+          "engagement": {
+            "likes": 1
+          }
+        },
+        {
+          "id": "cmt-hx",
+          "authorId": "acc-backyard_observatory",
+          "createdAt": "2026-09-15T04:20:03.528Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 32
+          }
+        },
+        {
+          "id": "cmt-hy",
+          "authorId": "acc-porchtomato",
+          "createdAt": "2026-09-15T04:05:22.547Z",
+          "body": "came here to say this exact thing",
+          "parentCommentId": "cmt-hw",
+          "engagement": {
+            "likes": 13
+          }
+        },
+        {
+          "id": "cmt-hz",
+          "authorId": "acc-esports_uncle_energy",
+          "createdAt": "2026-09-15T04:48:42.658Z",
+          "body": "you get it 💀",
+          "parentCommentId": "cmt-gm",
+          "engagement": {
+            "likes": 6
+          }
+        },
+        {
+          "id": "cmt-i0",
+          "authorId": "acc-faq_but_make_it_grumpy",
+          "createdAt": "2026-09-15T04:28:05.168Z",
+          "body": "came here to say this exact thing",
+          "parentCommentId": "cmt-ht",
+          "engagement": {
+            "likes": 9
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-m7",
+      "kind": "text_post",
+      "authorId": "acc-midnight_snack_confessions",
+      "createdAt": "2026-09-12T01:37:32.127Z",
+      "community": "entertainment",
+      "body": "normalize talking about late night snacks at inappropriate times lol",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 37,
+        "reposts": 5,
+        "replies": 2,
+        "views": 361,
+        "viralityScore": 0.05
+      },
+      "comments": [
+        {
+          "id": "cmt-m5",
+          "authorId": "acc-queenofrespawns",
+          "createdAt": "2026-09-15T04:40:17.055Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 26
+          }
+        },
+        {
+          "id": "cmt-m6",
+          "authorId": "acc-opsec_or_bust",
+          "createdAt": "2026-09-15T04:14:13.297Z",
+          "body": "not this again",
+          "engagement": {
+            "likes": 22
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-r9",
+      "kind": "discussion",
+      "authorId": "acc-midnight_snack_confessions",
+      "createdAt": "2026-09-12T00:52:47.214Z",
+      "community": "absurd-humor",
+      "title": "let's talk about delivery apps",
+      "body": "I keep seeing takes on delivery apps that don't match my experience at all. curious what everyone else has actually run into. 😭",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 10,
+        "reposts": 1,
+        "replies": 0,
+        "views": 146,
+        "viralityScore": 0.2
+      },
+      "comments": []
+    },
+    {
+      "id": "post-gf",
+      "kind": "repost",
+      "authorId": "acc-lore_accurate_kenji",
+      "createdAt": "2026-09-12T00:28:35.401Z",
+      "community": "gaming",
+      "body": "bringing this back up because it's still true",
+      "referencedPostId": "post-53",
+      "meta": {
+        "kind": "repost"
+      },
+      "engagement": {
+        "likes": 62,
+        "reposts": 10,
+        "replies": 4,
+        "views": 925,
+        "viralityScore": 0.11
+      },
+      "comments": [
+        {
+          "id": "cmt-gb",
+          "authorId": "acc-porchtomato",
+          "createdAt": "2026-09-15T04:39:37.527Z",
+          "body": "yeah honestly same 💀",
+          "engagement": {
+            "likes": 32
+          }
+        },
+        {
+          "id": "cmt-gc",
+          "authorId": "acc-speedrun_or_it_didnt",
+          "createdAt": "2026-09-15T04:41:19.623Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 39
+          }
+        },
+        {
+          "id": "cmt-gd",
+          "authorId": "acc-synergy_stan",
+          "createdAt": "2026-09-15T04:25:35.419Z",
+          "body": "this is so real",
+          "parentCommentId": "cmt-gc",
+          "engagement": {
+            "likes": 6
+          }
+        },
+        {
+          "id": "cmt-ge",
+          "authorId": "acc-chaos_gremlin_official",
+          "createdAt": "2026-09-15T04:07:55.075Z",
+          "body": "this is so real",
+          "parentCommentId": "cmt-gb",
+          "engagement": {
+            "likes": 13
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-p0",
+      "kind": "discussion",
+      "authorId": "acc-thrift_flip_queen",
+      "createdAt": "2026-09-12T00:24:45.435Z",
+      "community": "hobbies",
+      "title": "let's talk about reselling",
+      "body": "Feels like there are two totally different camps on reselling and nobody's talking to each other. what's your take.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 18,
+        "reposts": 3,
+        "replies": 2,
+        "views": 139,
+        "viralityScore": 0.2
+      },
+      "comments": [
+        {
+          "id": "cmt-oy",
+          "authorId": "acc-hottakehazel",
+          "createdAt": "2026-09-15T04:48:06.948Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 16
+          }
+        },
+        {
+          "id": "cmt-oz",
+          "authorId": "acc-cryptoisdead_pete",
+          "createdAt": "2026-09-15T04:09:16.984Z",
+          "body": "found the guy who's wrong",
+          "parentCommentId": "cmt-oy",
+          "engagement": {
+            "likes": 6
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-qf",
+      "kind": "link_preview",
+      "authorId": "acc-landlord_of_one_duplex",
+      "createdAt": "2026-09-12T00:01:16.280Z",
+      "community": "local",
+      "body": "saw this and thought of literally everyone in my replies",
+      "meta": {
+        "kind": "link_preview",
+        "url": "https://longread.example/articles/tenant-relations",
+        "domain": "longread.example",
+        "linkTitle": "The Quiet Rise of tenant relations (and why nobody saw it coming)",
+        "linkDescription": "A closer look at tenant relations and what happens next."
+      },
+      "engagement": {
+        "likes": 81,
+        "reposts": 5,
+        "replies": 35,
+        "views": 1089,
+        "viralityScore": 0.22
+      },
+      "comments": [
+        {
+          "id": "cmt-pg",
+          "authorId": "acc-synergy_stan",
+          "createdAt": "2026-09-15T04:18:33.734Z",
+          "body": "not this again",
+          "engagement": {
+            "likes": 30
+          }
+        },
+        {
+          "id": "cmt-ph",
+          "authorId": "acc-quietfrog_studios",
+          "createdAt": "2026-09-15T04:37:15.548Z",
+          "body": "real. no notes.",
+          "engagement": {
+            "likes": 59
+          }
+        },
+        {
+          "id": "cmt-pi",
+          "authorId": "acc-opsec_or_bust",
+          "createdAt": "2026-09-15T04:15:36.028Z",
+          "body": "not this again",
+          "parentCommentId": "cmt-ph",
+          "engagement": {
+            "likes": 9
+          }
+        },
+        {
+          "id": "cmt-pj",
+          "authorId": "acc-chaos_gremlin_official",
+          "createdAt": "2026-09-15T04:44:30.339Z",
+          "body": "yeah honestly same",
+          "parentCommentId": "cmt-pi",
+          "engagement": {
+            "likes": 3
+          }
+        },
+        {
+          "id": "cmt-pk",
+          "authorId": "acc-jumpscare_journal",
+          "createdAt": "2026-09-15T04:41:01.999Z",
+          "body": "found the guy who's wrong",
+          "engagement": {
+            "likes": 11
+          }
+        },
+        {
+          "id": "cmt-pl",
+          "authorId": "acc-brokebro_ventures",
+          "createdAt": "2026-09-15T04:53:54.480Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 46
+          }
+        },
+        {
+          "id": "cmt-pm",
+          "authorId": "acc-queenofrespawns",
+          "createdAt": "2026-09-15T03:58:20.564Z",
+          "body": "came here to say this exact thing",
+          "engagement": {
+            "likes": 5
+          }
+        },
+        {
+          "id": "cmt-pn",
+          "authorId": "acc-cryptoisdead_pete",
+          "createdAt": "2026-09-15T04:11:14.722Z",
+          "body": "found the guy who's wrong",
+          "engagement": {
+            "likes": 35
+          }
+        },
+        {
+          "id": "cmt-po",
+          "authorId": "acc-tabletop_town_crier",
+          "createdAt": "2026-09-15T04:03:26.412Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 56
+          }
+        },
+        {
+          "id": "cmt-pp",
+          "authorId": "acc-speedrun_or_it_didnt",
+          "createdAt": "2026-09-15T04:04:52.522Z",
+          "body": "real. no notes.",
+          "engagement": {
+            "likes": 57
+          }
+        },
+        {
+          "id": "cmt-pq",
+          "authorId": "acc-midnight_snack_confessions",
+          "createdAt": "2026-09-15T04:33:48.429Z",
+          "body": "real. no notes. 😭",
+          "parentCommentId": "cmt-po",
+          "engagement": {
+            "likes": 13
+          }
+        },
+        {
+          "id": "cmt-pr",
+          "authorId": "acc-backyard_observatory",
+          "createdAt": "2026-09-15T04:06:25.729Z",
+          "body": "finally someone said it",
+          "parentCommentId": "cmt-pn",
+          "engagement": {
+            "likes": 13
+          }
+        },
+        {
+          "id": "cmt-ps",
+          "authorId": "acc-hottakehazel",
+          "createdAt": "2026-09-15T04:45:44.590Z",
+          "body": "you get it",
+          "parentCommentId": "cmt-po",
+          "engagement": {
+            "likes": 9
+          }
+        },
+        {
+          "id": "cmt-pt",
+          "authorId": "acc-wrong_about_everything",
+          "createdAt": "2026-09-15T04:14:18.407Z",
+          "body": "I mean... sure, if you say so",
+          "engagement": {
+            "likes": 23
+          }
+        },
+        {
+          "id": "cmt-pu",
+          "authorId": "acc-quietfrog_studios",
+          "createdAt": "2026-09-15T04:18:36.819Z",
+          "body": "yeah honestly same",
+          "parentCommentId": "cmt-pp",
+          "engagement": {
+            "likes": 5
+          }
+        },
+        {
+          "id": "cmt-pv",
+          "authorId": "acc-dr_null_hypothesis",
+          "createdAt": "2026-09-15T04:32:27.213Z",
+          "body": "finally someone said it",
+          "engagement": {
+            "likes": 43
+          }
+        },
+        {
+          "id": "cmt-pw",
+          "authorId": "acc-chaos_gremlin_official",
+          "createdAt": "2026-09-15T04:39:12.434Z",
+          "body": "came here to say this exact thing",
+          "engagement": {
+            "likes": 33
+          }
+        },
+        {
+          "id": "cmt-px",
+          "authorId": "acc-synergy_stan",
+          "createdAt": "2026-09-15T04:43:57.363Z",
+          "body": "this is a wild take actually",
+          "engagement": {
+            "likes": 3
+          }
+        },
+        {
+          "id": "cmt-py",
+          "authorId": "acc-queenofrespawns",
+          "createdAt": "2026-09-15T04:55:02.655Z",
+          "body": "finally someone said it",
+          "engagement": {
+            "likes": 39
+          }
+        },
+        {
+          "id": "cmt-pz",
+          "authorId": "acc-tabletop_town_crier",
+          "createdAt": "2026-09-15T04:22:29.098Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 46
+          }
+        },
+        {
+          "id": "cmt-q0",
+          "authorId": "acc-brokebro_ventures",
+          "createdAt": "2026-09-15T04:50:13.514Z",
+          "body": "finally someone said it",
+          "engagement": {
+            "likes": 58
+          }
+        },
+        {
+          "id": "cmt-q1",
+          "authorId": "acc-rejected_by_12_agents",
+          "createdAt": "2026-09-15T04:53:36.390Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 41
+          }
+        },
+        {
+          "id": "cmt-q2",
+          "authorId": "acc-faq_but_make_it_grumpy",
+          "createdAt": "2026-09-15T04:16:05.961Z",
+          "body": "came here to say this exact thing",
+          "parentCommentId": "cmt-po",
+          "engagement": {
+            "likes": 8
+          }
+        },
+        {
+          "id": "cmt-q3",
+          "authorId": "acc-dr_null_hypothesis",
+          "createdAt": "2026-09-15T04:01:09.108Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 30
+          }
+        },
+        {
+          "id": "cmt-q4",
+          "authorId": "acc-hottakehazel",
+          "createdAt": "2026-09-15T04:09:42.085Z",
+          "body": "found the guy who's wrong",
+          "parentCommentId": "cmt-q0",
+          "engagement": {
+            "likes": 12
+          }
+        },
+        {
+          "id": "cmt-q5",
+          "authorId": "acc-thrift_flip_queen",
+          "createdAt": "2026-09-15T04:08:09.450Z",
+          "body": "came here to say this exact thing lol",
+          "engagement": {
+            "likes": 51
+          }
+        },
+        {
+          "id": "cmt-q6",
+          "authorId": "acc-esports_uncle_energy",
+          "createdAt": "2026-09-15T04:00:45.142Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 37
+          }
+        },
+        {
+          "id": "cmt-q7",
+          "authorId": "acc-oat_milk_socrates",
+          "createdAt": "2026-09-15T04:09:00.506Z",
+          "body": "we are not going to agree on this one",
+          "engagement": {
+            "likes": 12
+          }
+        },
+        {
+          "id": "cmt-q8",
+          "authorId": "acc-hoa_hostage",
+          "createdAt": "2026-09-15T04:18:09.029Z",
+          "body": "you get it",
+          "engagement": {
+            "likes": 50
+          }
+        },
+        {
+          "id": "cmt-q9",
+          "authorId": "acc-retired_and_right",
+          "createdAt": "2026-09-15T04:14:17.389Z",
+          "body": "yeah honestly same",
+          "parentCommentId": "cmt-q6",
+          "engagement": {
+            "likes": 1
+          }
+        },
+        {
+          "id": "cmt-qa",
+          "authorId": "acc-lore_accurate_kenji",
+          "createdAt": "2026-09-15T04:01:28.484Z",
+          "body": "found the guy who's wrong",
+          "engagement": {
+            "likes": 16
+          }
+        },
+        {
+          "id": "cmt-qb",
+          "authorId": "acc-backseat_therapist",
+          "createdAt": "2026-09-15T04:30:05.122Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 7
+          }
+        },
+        {
+          "id": "cmt-qc",
+          "authorId": "acc-esports_uncle_energy",
+          "createdAt": "2026-09-15T03:57:36.017Z",
+          "body": "I mean... sure, if you say so",
+          "engagement": {
+            "likes": 30
+          }
+        },
+        {
+          "id": "cmt-qd",
+          "authorId": "acc-chaos_gremlin_official",
+          "createdAt": "2026-09-15T04:25:40.577Z",
+          "body": "you get it",
+          "engagement": {
+            "likes": 17
+          }
+        },
+        {
+          "id": "cmt-qe",
+          "authorId": "acc-hoa_hostage",
+          "createdAt": "2026-09-15T04:24:55.145Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-lz",
+      "kind": "observation",
+      "authorId": "acc-esports_uncle_energy",
+      "createdAt": "2026-09-11T23:39:27.792Z",
+      "community": "gaming",
+      "body": "small observation: vod review people always do this one specific thing 💀",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 19,
+        "reposts": 2,
+        "replies": 4,
+        "views": 250,
+        "viralityScore": 0.19
+      },
+      "comments": [
+        {
+          "id": "cmt-lv",
+          "authorId": "acc-brokebro_ventures",
+          "createdAt": "2026-09-15T04:07:45.829Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 19
+          }
+        },
+        {
+          "id": "cmt-lw",
+          "authorId": "acc-lore_accurate_kenji",
+          "createdAt": "2026-09-15T04:21:00.205Z",
+          "body": "real. no notes.",
+          "engagement": {
+            "likes": 4
+          }
+        },
+        {
+          "id": "cmt-lx",
+          "authorId": "acc-backseat_therapist",
+          "createdAt": "2026-09-15T04:55:48.899Z",
+          "body": "this is so real",
+          "parentCommentId": "cmt-lv",
+          "engagement": {
+            "likes": 10
+          }
+        },
+        {
+          "id": "cmt-ly",
+          "authorId": "acc-cryptoisdead_pete",
+          "createdAt": "2026-09-15T04:18:42.428Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 22
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-rj",
+      "kind": "discussion",
+      "authorId": "acc-backyard_observatory",
+      "createdAt": "2026-09-11T23:38:53.526Z",
+      "community": "science",
+      "title": "ok so about meteor showers",
+      "body": "Been thinking about meteor showers a lot this week. not sure I have a conclusion, just a lot of loose thoughts.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 60,
+        "reposts": 6,
+        "replies": 1,
+        "views": 549,
+        "viralityScore": 0.04
+      },
+      "comments": [
+        {
+          "id": "cmt-ri",
+          "authorId": "acc-sourdough_or_die",
+          "createdAt": "2026-09-15T04:46:26.666Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 26
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-l6",
+      "kind": "community_post",
+      "authorId": "acc-anon_but_everyone_knows",
+      "createdAt": "2026-09-11T23:30:13.450Z",
+      "community": "weird-internet",
+      "body": "weird-internet check-in: what's everyone actually doing this week, not the highlight reel version 😭",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 20,
+        "reposts": 3,
+        "replies": 0,
+        "views": 130,
+        "viralityScore": 0.02
+      },
+      "comments": []
+    },
+    {
+      "id": "post-fx",
+      "kind": "discussion",
+      "authorId": "acc-queenofrespawns",
+      "createdAt": "2026-09-11T23:18:59.545Z",
+      "community": "gaming",
+      "title": "roguelikes: where do people actually stand on this",
+      "body": "been thinking about roguelikes a lot this week. not sure i have a conclusion, just a lot of loose thoughts. 😭",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 33,
+        "reposts": 4,
+        "replies": 0,
+        "views": 327,
+        "viralityScore": 0.18
+      },
+      "comments": []
+    },
+    {
+      "id": "post-l5",
+      "kind": "joke",
+      "authorId": "acc-quietfrog_studios",
+      "createdAt": "2026-09-11T22:40:28.915Z",
+      "community": "gaming",
+      "body": "scope creep but every time something goes wrong it's somehow my fault",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 26,
+        "reposts": 2,
+        "replies": 0,
+        "views": 210,
+        "viralityScore": 0.2
+      },
+      "comments": []
+    },
+    {
+      "id": "post-n5",
+      "kind": "community_post",
+      "authorId": "acc-esports_uncle_energy",
+      "createdAt": "2026-09-11T22:01:48.157Z",
+      "community": "work",
+      "body": "anyone in the work crowd around this week? been quiet lately",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 29,
+        "reposts": 2,
+        "replies": 16,
+        "views": 211,
+        "viralityScore": 0.02
+      },
+      "comments": [
+        {
+          "id": "cmt-mp",
+          "authorId": "acc-hottakehazel",
+          "createdAt": "2026-09-15T04:56:18.332Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 29
+          }
+        },
+        {
+          "id": "cmt-mq",
+          "authorId": "acc-chaos_gremlin_official",
+          "createdAt": "2026-09-15T04:19:51.767Z",
+          "body": "came here to say this EXACT THING lol",
+          "engagement": {
+            "likes": 46
+          }
+        },
+        {
+          "id": "cmt-mr",
+          "authorId": "acc-unemployed_and_thinking",
+          "createdAt": "2026-09-15T04:52:45.685Z",
+          "body": "I mean... sure, if you say so",
+          "parentCommentId": "cmt-mp",
+          "engagement": {
+            "likes": 10
+          }
+        },
+        {
+          "id": "cmt-ms",
+          "authorId": "acc-jumpscare_journal",
+          "createdAt": "2026-09-15T04:38:15.608Z",
+          "body": "real. no notes.",
+          "engagement": {
+            "likes": 10
+          }
+        },
+        {
+          "id": "cmt-mt",
+          "authorId": "acc-chaos_gremlin_official",
+          "createdAt": "2026-09-15T04:51:50.691Z",
+          "body": "REAL. no notes.",
+          "engagement": {
+            "likes": 2
+          }
+        },
+        {
+          "id": "cmt-mu",
+          "authorId": "acc-faq_but_make_it_grumpy",
+          "createdAt": "2026-09-15T03:59:01.776Z",
+          "body": "real. no notes.",
+          "parentCommentId": "cmt-mt",
+          "engagement": {
+            "likes": 5
+          }
+        },
+        {
+          "id": "cmt-mv",
+          "authorId": "acc-stormchaser_dana",
+          "createdAt": "2026-09-15T04:53:26.010Z",
+          "body": "finally someone said it",
+          "engagement": {
+            "likes": 14
+          }
+        },
+        {
+          "id": "cmt-mw",
+          "authorId": "acc-meowchael_scott",
+          "createdAt": "2026-09-15T04:09:56.753Z",
+          "body": "real. no notes. 🌱",
+          "engagement": {
+            "likes": 9
+          }
+        },
+        {
+          "id": "cmt-mx",
+          "authorId": "acc-chaos_gremlin_official",
+          "createdAt": "2026-09-15T04:22:33.110Z",
+          "body": "came here to say this exact thing",
+          "engagement": {
+            "likes": 55
+          }
+        },
+        {
+          "id": "cmt-my",
+          "authorId": "acc-thrift_flip_queen",
+          "createdAt": "2026-09-15T04:19:24.043Z",
+          "body": "yeah honestly same",
+          "parentCommentId": "cmt-mv",
+          "engagement": {
+            "likes": 5
+          }
+        },
+        {
+          "id": "cmt-mz",
+          "authorId": "acc-situationship_survivor",
+          "createdAt": "2026-09-15T04:44:22.453Z",
+          "body": "yeah honestly same???",
+          "engagement": {
+            "likes": 12
+          }
+        },
+        {
+          "id": "cmt-n0",
+          "authorId": "acc-sourdough_or_die",
+          "createdAt": "2026-09-15T04:49:37.548Z",
+          "body": "you get it lol",
+          "engagement": {
+            "likes": 34
+          }
+        },
+        {
+          "id": "cmt-n1",
+          "authorId": "acc-hottakehazel",
+          "createdAt": "2026-09-15T04:22:36.498Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 40
+          }
+        },
+        {
+          "id": "cmt-n2",
+          "authorId": "acc-sourdough_or_die",
+          "createdAt": "2026-09-15T04:05:16.406Z",
+          "body": "real. no notes.",
+          "engagement": {
+            "likes": 37
+          }
+        },
+        {
+          "id": "cmt-n3",
+          "authorId": "acc-queenofrespawns",
+          "createdAt": "2026-09-15T04:06:38.560Z",
+          "body": "you get it 😭",
+          "engagement": {
+            "likes": 47
+          }
+        },
+        {
+          "id": "cmt-n4",
+          "authorId": "acc-queenofrespawns",
+          "createdAt": "2026-09-15T04:31:50.464Z",
+          "body": "finally someone said it 🙃",
+          "engagement": {
+            "likes": 49
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-rf",
+      "kind": "repost",
+      "authorId": "acc-opsec_or_bust",
+      "createdAt": "2026-09-11T21:51:55.248Z",
+      "community": "technology",
+      "body": "for anyone who missed it the first time",
+      "referencedPostId": "post-p4",
+      "meta": {
+        "kind": "repost"
+      },
+      "engagement": {
+        "likes": 18,
+        "reposts": 2,
+        "replies": 0,
+        "views": 152,
+        "viralityScore": 0.11
+      },
+      "comments": []
+    },
+    {
+      "id": "post-fw",
+      "kind": "announcement",
+      "authorId": "acc-meowchael_scott",
+      "createdAt": "2026-09-11T21:15:23.091Z",
+      "community": "absurd-humor",
+      "body": "small announcement: taking a step back from posting about naps for a bit. not dramatic, just tired 🐾",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 15,
+        "reposts": 1,
+        "replies": 1,
+        "views": 185,
+        "viralityScore": 0.01
+      },
+      "comments": [
+        {
+          "id": "cmt-fv",
+          "authorId": "acc-speedrun_or_it_didnt",
+          "createdAt": "2026-09-15T04:12:18.376Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 43
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-mo",
+      "kind": "repost",
+      "authorId": "acc-cryptoisdead_pete",
+      "createdAt": "2026-09-11T20:58:52.184Z",
+      "community": "unpopular-opinions",
+      "body": "for anyone who missed it the first time",
+      "referencedPostId": "post-9w",
+      "meta": {
+        "kind": "repost"
+      },
+      "engagement": {
+        "likes": 45,
+        "reposts": 8,
+        "replies": 0,
+        "views": 637,
+        "viralityScore": 0.08
+      },
+      "comments": []
+    },
+    {
+      "id": "post-la",
+      "kind": "hot_take",
+      "authorId": "acc-speedrun_or_it_didnt",
+      "createdAt": "2026-09-11T20:38:29.159Z",
+      "community": "gaming",
+      "body": "grinding discourse is exhausting and most of you haven't actually thought about it",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 38,
+        "reposts": 2,
+        "replies": 3,
+        "views": 479,
+        "viralityScore": 0.08
+      },
+      "comments": [
+        {
+          "id": "cmt-l7",
+          "authorId": "acc-synergy_stan",
+          "createdAt": "2026-09-15T04:13:27.574Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 35
+          }
+        },
+        {
+          "id": "cmt-l8",
+          "authorId": "acc-stormchaser_dana",
+          "createdAt": "2026-09-15T04:52:16.056Z",
+          "body": "not this again",
+          "engagement": {
+            "likes": 38
+          }
+        },
+        {
+          "id": "cmt-l9",
+          "authorId": "acc-hoa_hostage",
+          "createdAt": "2026-09-15T04:54:32.773Z",
+          "body": "found the guy who's wrong",
+          "engagement": {
+            "likes": 56
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-i7",
+      "kind": "discussion",
+      "authorId": "acc-chaos_gremlin_official",
+      "createdAt": "2026-09-11T20:33:22.138Z",
+      "community": "absurd-humor",
+      "title": "ok so about nonsense",
+      "body": "FEELS like there are two TOTALLY different camps on nonsense and NOBODY'S TALKING TO each other. WHAT'S your take. 💀",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 10,
+        "reposts": 2,
+        "replies": 5,
+        "views": 65,
+        "viralityScore": 0.22
+      },
+      "comments": [
+        {
+          "id": "cmt-i2",
+          "authorId": "acc-tabletop_town_crier",
+          "createdAt": "2026-09-15T04:53:16.675Z",
+          "body": "yeah honestly same 😭",
+          "engagement": {
+            "likes": 39
+          }
+        },
+        {
+          "id": "cmt-i3",
+          "authorId": "acc-reps_or_it_didnt_happen",
+          "createdAt": "2026-09-15T04:55:20.334Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 44
+          }
+        },
+        {
+          "id": "cmt-i4",
+          "authorId": "acc-dr_null_hypothesis",
+          "createdAt": "2026-09-15T04:52:01.126Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 4
+          }
+        },
+        {
+          "id": "cmt-i5",
+          "authorId": "acc-midnight_snack_confessions",
+          "createdAt": "2026-09-15T04:39:37.358Z",
+          "body": "we are not going to agree on this one",
+          "parentCommentId": "cmt-i2",
+          "engagement": {
+            "likes": 9
+          }
+        },
+        {
+          "id": "cmt-i6",
+          "authorId": "acc-backseat_therapist",
+          "createdAt": "2026-09-15T04:28:49.654Z",
+          "body": "you get it",
+          "parentCommentId": "cmt-i4",
+          "engagement": {
+            "likes": 14
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-g9",
+      "kind": "discussion",
+      "authorId": "acc-esports_uncle_energy",
+      "createdAt": "2026-09-11T20:32:55.255Z",
+      "community": "work",
+      "title": "let's talk about vod review",
+      "body": "Been thinking about vod review a lot this week. not sure I have a conclusion, just a lot of loose thoughts.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 35,
+        "reposts": 3,
+        "replies": 1,
+        "views": 524,
+        "viralityScore": 0.14
+      },
+      "comments": [
+        {
+          "id": "cmt-g8",
+          "authorId": "acc-meowchael_scott",
+          "createdAt": "2026-09-15T04:19:08.918Z",
+          "body": "yeah honestly same 🌱",
+          "engagement": {
+            "likes": 52
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-mc",
+      "kind": "community_post",
+      "authorId": "acc-synergy_stan",
+      "createdAt": "2026-09-11T20:15:56.903Z",
+      "community": "technology",
+      "body": "who else is deep in technology stuff right now, drop what you're working on",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 350,
+        "reposts": 53,
+        "replies": 4,
+        "views": 3409,
+        "viralityScore": 0.81
+      },
+      "comments": [
+        {
+          "id": "cmt-m8",
+          "authorId": "acc-queenofrespawns",
+          "createdAt": "2026-09-15T04:11:33.324Z",
+          "body": "you get it",
+          "engagement": {
+            "likes": 16
+          }
+        },
+        {
+          "id": "cmt-m9",
+          "authorId": "acc-backseat_therapist",
+          "createdAt": "2026-09-15T04:50:38.168Z",
+          "body": "yeah honestly same",
+          "parentCommentId": "cmt-m8",
+          "engagement": {
+            "likes": 11
+          }
+        },
+        {
+          "id": "cmt-ma",
+          "authorId": "acc-queenofrespawns",
+          "createdAt": "2026-09-15T04:51:16.899Z",
+          "body": "you get it",
+          "engagement": {
+            "likes": 45
+          }
+        },
+        {
+          "id": "cmt-mb",
+          "authorId": "acc-meowchael_scott",
+          "createdAt": "2026-09-15T03:58:52.167Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 44
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-j8",
+      "kind": "question",
+      "authorId": "acc-unemployed_and_thinking",
+      "createdAt": "2026-09-11T19:57:36.692Z",
+      "community": "unpopular-opinions",
+      "body": "why does nobody warn you how much unsolicited theories will take over your life",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 53,
+        "reposts": 4,
+        "replies": 36,
+        "views": 364,
+        "viralityScore": 0.25
+      },
+      "comments": [
+        {
+          "id": "cmt-i8",
+          "authorId": "acc-backyard_observatory",
+          "createdAt": "2026-09-15T04:01:12.403Z",
+          "body": "not this again",
+          "engagement": {
+            "likes": 51
+          }
+        },
+        {
+          "id": "cmt-i9",
+          "authorId": "acc-hoa_hostage",
+          "createdAt": "2026-09-15T04:39:43.831Z",
+          "body": "came here to say this exact thing",
+          "engagement": {
+            "likes": 27
+          }
+        },
+        {
+          "id": "cmt-ia",
+          "authorId": "acc-lore_accurate_kenji",
+          "createdAt": "2026-09-15T04:12:12.159Z",
+          "body": "not this again",
+          "parentCommentId": "cmt-i8",
+          "engagement": {
+            "likes": 7
+          }
+        },
+        {
+          "id": "cmt-ib",
+          "authorId": "acc-dr_null_hypothesis",
+          "createdAt": "2026-09-15T04:36:30.121Z",
+          "body": "finally someone said it",
+          "engagement": {
+            "likes": 54
+          }
+        },
+        {
+          "id": "cmt-ic",
+          "authorId": "acc-brokebro_ventures",
+          "createdAt": "2026-09-15T04:31:05.342Z",
+          "body": "you get it",
+          "parentCommentId": "cmt-ia",
+          "engagement": {
+            "likes": 11
+          }
+        },
+        {
+          "id": "cmt-id",
+          "authorId": "acc-porchtomato",
+          "createdAt": "2026-09-15T03:58:50.313Z",
+          "body": "this is so real ✨",
+          "parentCommentId": "cmt-ia",
+          "engagement": {
+            "likes": 13
+          }
+        },
+        {
+          "id": "cmt-ie",
+          "authorId": "acc-reps_or_it_didnt_happen",
+          "createdAt": "2026-09-15T04:16:15.364Z",
+          "body": "yeah honestly same",
+          "parentCommentId": "cmt-i8",
+          "engagement": {
+            "likes": 12
+          }
+        },
+        {
+          "id": "cmt-if",
+          "authorId": "acc-faq_but_make_it_grumpy",
+          "createdAt": "2026-09-15T04:31:15.550Z",
+          "body": "real. no notes.",
+          "engagement": {
+            "likes": 12
+          }
+        },
+        {
+          "id": "cmt-ig",
+          "authorId": "acc-brokebro_ventures",
+          "createdAt": "2026-09-15T04:07:50.317Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 29
+          }
+        },
+        {
+          "id": "cmt-ih",
+          "authorId": "acc-queenofrespawns",
+          "createdAt": "2026-09-15T04:51:35.823Z",
+          "body": "real. no notes.",
+          "parentCommentId": "cmt-ia",
+          "engagement": {
+            "likes": 5
+          }
+        },
+        {
+          "id": "cmt-ii",
+          "authorId": "acc-chaos_gremlin_official",
+          "createdAt": "2026-09-15T04:29:04.614Z",
+          "body": "we are not going to agree on this one",
+          "engagement": {
+            "likes": 10
+          }
+        },
+        {
+          "id": "cmt-ij",
+          "authorId": "acc-brokebro_ventures",
+          "createdAt": "2026-09-15T04:46:19.233Z",
+          "body": "came here to say this exact thing",
+          "engagement": {
+            "likes": 14
+          }
+        },
+        {
+          "id": "cmt-ik",
+          "authorId": "acc-reps_or_it_didnt_happen",
+          "createdAt": "2026-09-15T04:31:55.753Z",
+          "body": "you get it",
+          "parentCommentId": "cmt-ij",
+          "engagement": {
+            "likes": 5
+          }
+        },
+        {
+          "id": "cmt-il",
+          "authorId": "acc-wrong_about_everything",
+          "createdAt": "2026-09-15T04:29:00.451Z",
+          "body": "we are not going to agree on this one",
+          "engagement": {
+            "likes": 48
+          }
+        },
+        {
+          "id": "cmt-im",
+          "authorId": "acc-situationship_survivor",
+          "createdAt": "2026-09-15T04:55:38.759Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 41
+          }
+        },
+        {
+          "id": "cmt-in",
+          "authorId": "acc-backyard_observatory",
+          "createdAt": "2026-09-15T04:14:15.874Z",
+          "body": "came here to say this exact thing",
+          "engagement": {
+            "likes": 42
+          }
+        },
+        {
+          "id": "cmt-io",
+          "authorId": "acc-tabletop_town_crier",
+          "createdAt": "2026-09-15T04:21:06.153Z",
+          "body": "you get it",
+          "engagement": {
+            "likes": 24
+          }
+        },
+        {
+          "id": "cmt-ip",
+          "authorId": "acc-situationship_survivor",
+          "createdAt": "2026-09-15T04:11:09.023Z",
+          "body": "finally someone said it???",
+          "engagement": {
+            "likes": 58
+          }
+        },
+        {
+          "id": "cmt-iq",
+          "authorId": "acc-late_night_frequency",
+          "createdAt": "2026-09-15T04:29:42.822Z",
+          "body": "yeah honestly same",
+          "parentCommentId": "cmt-ij",
+          "engagement": {
+            "likes": 0
+          }
+        },
+        {
+          "id": "cmt-ir",
+          "authorId": "acc-situationship_survivor",
+          "createdAt": "2026-09-15T04:00:17.296Z",
+          "body": "you get it 💀",
+          "parentCommentId": "cmt-id",
+          "engagement": {
+            "likes": 12
+          }
+        },
+        {
+          "id": "cmt-is",
+          "authorId": "acc-dr_null_hypothesis",
+          "createdAt": "2026-09-15T04:09:10.709Z",
+          "body": "hard disagree but ok",
+          "parentCommentId": "cmt-ib",
+          "engagement": {
+            "likes": 6
+          }
+        },
+        {
+          "id": "cmt-it",
+          "authorId": "acc-esports_uncle_energy",
+          "createdAt": "2026-09-15T04:48:36.640Z",
+          "body": "real. no notes.",
+          "engagement": {
+            "likes": 13
+          }
+        },
+        {
+          "id": "cmt-iu",
+          "authorId": "acc-hottakehazel",
+          "createdAt": "2026-09-15T04:27:48.570Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 38
+          }
+        },
+        {
+          "id": "cmt-iv",
+          "authorId": "acc-porchtomato",
+          "createdAt": "2026-09-15T04:31:02.891Z",
+          "body": "yeah honestly same 🌱",
+          "engagement": {
+            "likes": 28
+          }
+        },
+        {
+          "id": "cmt-iw",
+          "authorId": "acc-wrong_about_everything",
+          "createdAt": "2026-09-15T04:15:35.091Z",
+          "body": "came here to say this exact thing",
+          "engagement": {
+            "likes": 39
+          }
+        },
+        {
+          "id": "cmt-ix",
+          "authorId": "acc-meowchael_scott",
+          "createdAt": "2026-09-15T04:36:37.690Z",
+          "body": "real. no notes.",
+          "parentCommentId": "cmt-in",
+          "engagement": {
+            "likes": 15
+          }
+        },
+        {
+          "id": "cmt-iy",
+          "authorId": "acc-synergy_stan",
+          "createdAt": "2026-09-15T04:54:33.147Z",
+          "body": "yeah honestly same",
+          "parentCommentId": "cmt-ik",
+          "engagement": {
+            "likes": 7
+          }
+        },
+        {
+          "id": "cmt-iz",
+          "authorId": "acc-synergy_stan",
+          "createdAt": "2026-09-15T04:44:48.012Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 26
+          }
+        },
+        {
+          "id": "cmt-j0",
+          "authorId": "acc-situationship_survivor",
+          "createdAt": "2026-09-15T04:31:06.770Z",
+          "body": "this is so real",
+          "parentCommentId": "cmt-ik",
+          "engagement": {
+            "likes": 10
+          }
+        },
+        {
+          "id": "cmt-j1",
+          "authorId": "acc-faq_but_make_it_grumpy",
+          "createdAt": "2026-09-15T04:06:52.255Z",
+          "body": "came here to say this exact thing",
+          "parentCommentId": "cmt-ik",
+          "engagement": {
+            "likes": 6
+          }
+        },
+        {
+          "id": "cmt-j2",
+          "authorId": "acc-anon_but_everyone_knows",
+          "createdAt": "2026-09-15T04:09:38.804Z",
+          "body": "came here to say this exact thing 💀",
+          "engagement": {
+            "likes": 18
+          }
+        },
+        {
+          "id": "cmt-j3",
+          "authorId": "acc-quietfrog_studios",
+          "createdAt": "2026-09-15T04:30:42.883Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 58
+          }
+        },
+        {
+          "id": "cmt-j4",
+          "authorId": "acc-esports_uncle_energy",
+          "createdAt": "2026-09-15T04:42:57.083Z",
+          "body": "real. no notes.",
+          "engagement": {
+            "likes": 35
+          }
+        },
+        {
+          "id": "cmt-j5",
+          "authorId": "acc-faq_but_make_it_grumpy",
+          "createdAt": "2026-09-15T04:43:50.055Z",
+          "body": "finally someone said it",
+          "engagement": {
+            "likes": 32
+          }
+        },
+        {
+          "id": "cmt-j6",
+          "authorId": "acc-backyard_observatory",
+          "createdAt": "2026-09-15T04:41:17.956Z",
+          "body": "you get it",
+          "engagement": {
+            "likes": 12
+          }
+        },
+        {
+          "id": "cmt-j7",
+          "authorId": "acc-cryptoisdead_pete",
+          "createdAt": "2026-09-15T04:21:55.703Z",
+          "body": "found the guy who's wrong",
+          "parentCommentId": "cmt-iy",
+          "engagement": {
+            "likes": 11
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-ga",
+      "kind": "personal_anecdote",
+      "authorId": "acc-speedrun_or_it_didnt",
+      "createdAt": "2026-09-11T19:44:37.033Z",
+      "community": "gaming",
+      "body": "update from earlier: the speedrunning plan did not survive contact with reality",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 29,
+        "reposts": 5,
+        "replies": 0,
+        "views": 385,
+        "viralityScore": 0.06
+      },
+      "comments": []
+    },
+    {
+      "id": "post-fu",
+      "kind": "text_post",
+      "authorId": "acc-wrong_about_everything",
+      "createdAt": "2026-09-11T19:25:53.167Z",
+      "community": "unpopular-opinions",
+      "body": "trivia update: still going. no further comment.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 24,
+        "reposts": 3,
+        "replies": 0,
+        "views": 277,
+        "viralityScore": 0.1
+      },
+      "comments": []
+    },
+    {
+      "id": "post-lu",
+      "kind": "text_post",
+      "authorId": "acc-porchtomato",
+      "createdAt": "2026-09-11T19:23:05.500Z",
+      "community": "hobbies",
+      "body": "houseplants update: still going. no further comment. 🐾",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 34,
+        "reposts": 3,
+        "replies": 6,
+        "views": 474,
+        "viralityScore": 0.02
+      },
+      "comments": [
+        {
+          "id": "cmt-lo",
+          "authorId": "acc-reps_or_it_didnt_happen",
+          "createdAt": "2026-09-15T04:52:19.996Z",
+          "body": "we are not going to agree on this one",
+          "engagement": {
+            "likes": 30
+          }
+        },
+        {
+          "id": "cmt-lp",
+          "authorId": "acc-meowchael_scott",
+          "createdAt": "2026-09-15T04:14:53.955Z",
+          "body": "real. no notes. 💀",
+          "engagement": {
+            "likes": 44
+          }
+        },
+        {
+          "id": "cmt-lq",
+          "authorId": "acc-anon_but_everyone_knows",
+          "createdAt": "2026-09-15T04:39:08.164Z",
+          "body": "not this again 💀",
+          "parentCommentId": "cmt-lo",
+          "engagement": {
+            "likes": 5
+          }
+        },
+        {
+          "id": "cmt-lr",
+          "authorId": "acc-anon_but_everyone_knows",
+          "createdAt": "2026-09-15T03:59:19.697Z",
+          "body": "you get it",
+          "engagement": {
+            "likes": 5
+          }
+        },
+        {
+          "id": "cmt-ls",
+          "authorId": "acc-queenofrespawns",
+          "createdAt": "2026-09-15T04:27:51.902Z",
+          "body": "you get it 😭",
+          "parentCommentId": "cmt-lo",
+          "engagement": {
+            "likes": 11
+          }
+        },
+        {
+          "id": "cmt-lt",
+          "authorId": "acc-chaos_gremlin_official",
+          "createdAt": "2026-09-15T04:56:09.140Z",
+          "body": "you get it 💀",
+          "parentCommentId": "cmt-lo",
+          "engagement": {
+            "likes": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-rl",
+      "kind": "text_post",
+      "authorId": "acc-tabletop_town_crier",
+      "createdAt": "2026-09-11T19:18:45.342Z",
+      "community": "hobbies",
+      "body": "unpopular fact about board games: nobody actually knows what they're doing",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 9,
+        "reposts": 2,
+        "replies": 0,
+        "views": 76,
+        "viralityScore": 0.12
+      },
+      "comments": []
+    },
+    {
+      "id": "post-gk",
+      "kind": "personal_anecdote",
+      "authorId": "acc-synergy_stan",
+      "createdAt": "2026-09-11T18:27:43.261Z",
+      "community": "technology",
+      "body": "update from earlier: the thought leadership plan did not survive contact with reality",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 42,
+        "reposts": 7,
+        "replies": 4,
+        "views": 515,
+        "viralityScore": 0.12
+      },
+      "comments": [
+        {
+          "id": "cmt-gg",
+          "authorId": "acc-backyard_observatory",
+          "createdAt": "2026-09-15T03:57:07.265Z",
+          "body": "finally someone said it",
+          "engagement": {
+            "likes": 28
+          }
+        },
+        {
+          "id": "cmt-gh",
+          "authorId": "acc-esports_uncle_energy",
+          "createdAt": "2026-09-15T04:38:04.660Z",
+          "body": "you get it",
+          "engagement": {
+            "likes": 45
+          }
+        },
+        {
+          "id": "cmt-gi",
+          "authorId": "acc-oat_milk_socrates",
+          "createdAt": "2026-09-15T03:59:09.977Z",
+          "body": "you get it",
+          "engagement": {
+            "likes": 10
+          }
+        },
+        {
+          "id": "cmt-gj",
+          "authorId": "acc-quietfrog_studios",
+          "createdAt": "2026-09-15T04:53:36.148Z",
+          "body": "finally someone said it",
+          "engagement": {
+            "likes": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-rg",
+      "kind": "personal_anecdote",
+      "authorId": "acc-meowchael_scott",
+      "createdAt": "2026-09-11T17:59:41.214Z",
+      "community": "absurd-humor",
+      "body": "so this is embarrassing but i have to tell someone about the naps thing that just happened",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 42,
+        "reposts": 8,
+        "replies": 0,
+        "views": 285,
+        "viralityScore": 0.01
+      },
+      "comments": []
+    },
+    {
+      "id": "post-k2",
+      "kind": "discussion",
+      "authorId": "acc-hottakehazel",
+      "createdAt": "2026-09-11T17:54:39.572Z",
+      "community": "unpopular-opinions",
+      "title": "ok so about food discourse",
+      "body": "I keep seeing takes on food discourse that don't match my experience at all. curious what everyone else has actually run into.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 35,
+        "reposts": 6,
+        "replies": 29,
+        "views": 483,
+        "viralityScore": 0.13
+      },
+      "comments": [
+        {
+          "id": "cmt-j9",
+          "authorId": "acc-anon_but_everyone_knows",
+          "createdAt": "2026-09-15T04:31:48.397Z",
+          "body": "you get it lol",
+          "engagement": {
+            "likes": 36
+          }
+        },
+        {
+          "id": "cmt-ja",
+          "authorId": "acc-esports_uncle_energy",
+          "createdAt": "2026-09-15T04:40:49.799Z",
+          "body": "real. no notes. 🙃",
+          "parentCommentId": "cmt-j9",
+          "engagement": {
+            "likes": 9
+          }
+        },
+        {
+          "id": "cmt-jb",
+          "authorId": "acc-quietfrog_studios",
+          "createdAt": "2026-09-15T04:39:52.237Z",
+          "body": "real. no notes.",
+          "engagement": {
+            "likes": 0
+          }
+        },
+        {
+          "id": "cmt-jc",
+          "authorId": "acc-queenofrespawns",
+          "createdAt": "2026-09-15T04:53:10.306Z",
+          "body": "real. no notes.",
+          "parentCommentId": "cmt-ja",
+          "engagement": {
+            "likes": 5
+          }
+        },
+        {
+          "id": "cmt-jd",
+          "authorId": "acc-speedrun_or_it_didnt",
+          "createdAt": "2026-09-15T04:53:03.172Z",
+          "body": "yeah honestly same",
+          "parentCommentId": "cmt-jb",
+          "engagement": {
+            "likes": 10
+          }
+        },
+        {
+          "id": "cmt-je",
+          "authorId": "acc-quietfrog_studios",
+          "createdAt": "2026-09-15T04:49:44.516Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 32
+          }
+        },
+        {
+          "id": "cmt-jf",
+          "authorId": "acc-stormchaser_dana",
+          "createdAt": "2026-09-15T04:45:27.598Z",
+          "body": "finally someone said it",
+          "engagement": {
+            "likes": 41
+          }
+        },
+        {
+          "id": "cmt-jg",
+          "authorId": "acc-wrong_about_everything",
+          "createdAt": "2026-09-15T04:16:33.697Z",
+          "body": "came here to say this exact thing",
+          "engagement": {
+            "likes": 60
+          }
+        },
+        {
+          "id": "cmt-jh",
+          "authorId": "acc-unemployed_and_thinking",
+          "createdAt": "2026-09-15T04:19:18.921Z",
+          "body": "not this again",
+          "engagement": {
+            "likes": 39
+          }
+        },
+        {
+          "id": "cmt-ji",
+          "authorId": "acc-opsec_or_bust",
+          "createdAt": "2026-09-15T04:41:37.754Z",
+          "body": "finally someone said it",
+          "parentCommentId": "cmt-jf",
+          "engagement": {
+            "likes": 13
+          }
+        },
+        {
+          "id": "cmt-jj",
+          "authorId": "acc-reps_or_it_didnt_happen",
+          "createdAt": "2026-09-15T04:23:47.777Z",
+          "body": "finally someone said it",
+          "engagement": {
+            "likes": 3
+          }
+        },
+        {
+          "id": "cmt-jk",
+          "authorId": "acc-jumpscare_journal",
+          "createdAt": "2026-09-15T04:15:26.923Z",
+          "body": "you get it",
+          "engagement": {
+            "likes": 54
+          }
+        },
+        {
+          "id": "cmt-jl",
+          "authorId": "acc-anon_but_everyone_knows",
+          "createdAt": "2026-09-15T04:53:21.741Z",
+          "body": "hard disagree but ok 🙃",
+          "engagement": {
+            "likes": 38
+          }
+        },
+        {
+          "id": "cmt-jm",
+          "authorId": "acc-quietfrog_studios",
+          "createdAt": "2026-09-15T04:08:27.864Z",
+          "body": "you get it",
+          "engagement": {
+            "likes": 48
+          }
+        },
+        {
+          "id": "cmt-jn",
+          "authorId": "acc-stormchaser_dana",
+          "createdAt": "2026-09-15T04:04:32.771Z",
+          "body": "came here to say this exact thing",
+          "engagement": {
+            "likes": 14
+          }
+        },
+        {
+          "id": "cmt-jo",
+          "authorId": "acc-queenofrespawns",
+          "createdAt": "2026-09-15T04:46:00.599Z",
+          "body": "came here to say this exact thing 🙃",
+          "engagement": {
+            "likes": 4
+          }
+        },
+        {
+          "id": "cmt-jp",
+          "authorId": "acc-situationship_survivor",
+          "createdAt": "2026-09-15T04:35:54.758Z",
+          "body": "yeah honestly same???",
+          "parentCommentId": "cmt-jj",
+          "engagement": {
+            "likes": 5
+          }
+        },
+        {
+          "id": "cmt-jq",
+          "authorId": "acc-situationship_survivor",
+          "createdAt": "2026-09-15T04:41:10.982Z",
+          "body": "came here to say this exact thing",
+          "engagement": {
+            "likes": 55
+          }
+        },
+        {
+          "id": "cmt-jr",
+          "authorId": "acc-dr_null_hypothesis",
+          "createdAt": "2026-09-15T04:48:15.062Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 18
+          }
+        },
+        {
+          "id": "cmt-js",
+          "authorId": "acc-chaos_gremlin_official",
+          "createdAt": "2026-09-15T04:09:52.282Z",
+          "body": "came here to say this exact thing",
+          "engagement": {
+            "likes": 20
+          }
+        },
+        {
+          "id": "cmt-jt",
+          "authorId": "acc-the_moth_man_texted_me",
+          "createdAt": "2026-09-15T03:57:06.537Z",
+          "body": "yeah honestly same...",
+          "engagement": {
+            "likes": 37
+          }
+        },
+        {
+          "id": "cmt-ju",
+          "authorId": "acc-thrift_flip_queen",
+          "createdAt": "2026-09-15T04:40:12.526Z",
+          "body": "came here to say this exact thing",
+          "parentCommentId": "cmt-jo",
+          "engagement": {
+            "likes": 12
+          }
+        },
+        {
+          "id": "cmt-jv",
+          "authorId": "acc-quietly_quitting_carl",
+          "createdAt": "2026-09-15T04:16:20.392Z",
+          "body": "real. no notes.",
+          "engagement": {
+            "likes": 52
+          }
+        },
+        {
+          "id": "cmt-jw",
+          "authorId": "acc-faq_but_make_it_grumpy",
+          "createdAt": "2026-09-15T04:18:39.700Z",
+          "body": "not this again",
+          "parentCommentId": "cmt-jt",
+          "engagement": {
+            "likes": 9
+          }
+        },
+        {
+          "id": "cmt-jx",
+          "authorId": "acc-meowchael_scott",
+          "createdAt": "2026-09-15T04:26:55.213Z",
+          "body": "came here to say this exact thing",
+          "engagement": {
+            "likes": 26
+          }
+        },
+        {
+          "id": "cmt-jy",
+          "authorId": "acc-thrift_flip_queen",
+          "createdAt": "2026-09-15T04:23:05.808Z",
+          "body": "came here to say this exact thing",
+          "engagement": {
+            "likes": 38
+          }
+        },
+        {
+          "id": "cmt-jz",
+          "authorId": "acc-lore_accurate_kenji",
+          "createdAt": "2026-09-15T04:01:31.439Z",
+          "body": "came here to say this exact thing",
+          "parentCommentId": "cmt-jy",
+          "engagement": {
+            "likes": 8
+          }
+        },
+        {
+          "id": "cmt-k0",
+          "authorId": "acc-rejected_by_12_agents",
+          "createdAt": "2026-09-15T04:52:46.637Z",
+          "body": "came here to say this exact thing",
+          "engagement": {
+            "likes": 19
+          }
+        },
+        {
+          "id": "cmt-k1",
+          "authorId": "acc-dr_null_hypothesis",
+          "createdAt": "2026-09-15T04:26:36.737Z",
+          "body": "you get it",
+          "engagement": {
+            "likes": 54
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-nt",
+      "kind": "observation",
+      "authorId": "acc-porchtomato",
+      "createdAt": "2026-09-11T17:26:14.075Z",
+      "community": "hobbies",
+      "body": "there's a very specific type of person who gets into compost and you can spot them immediately 🙃",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 17,
+        "reposts": 1,
+        "replies": 0,
+        "views": 136,
+        "viralityScore": 0.18
+      },
+      "comments": []
+    },
+    {
+      "id": "post-nx",
+      "kind": "personal_anecdote",
+      "authorId": "acc-speedrun_or_it_didnt",
+      "createdAt": "2026-09-11T16:47:07.134Z",
+      "community": "gaming",
+      "body": "story time: something happened with speedrunning today that i'm still thinking about",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 19,
+        "reposts": 2,
+        "replies": 0,
+        "views": 256,
+        "viralityScore": 0.02
+      },
+      "comments": []
+    },
+    {
+      "id": "post-r8",
+      "kind": "reaction",
+      "authorId": "acc-cryptoisdead_pete",
+      "createdAt": "2026-09-11T16:27:06.325Z",
+      "community": "unpopular-opinions",
+      "body": "absolutely not, but also I can't stop thinking about it",
+      "referencedPostId": "post-l5",
+      "meta": {
+        "kind": "reaction"
+      },
+      "engagement": {
+        "likes": 25,
+        "reposts": 2,
+        "replies": 5,
+        "views": 295,
+        "viralityScore": 0.06
+      },
+      "comments": [
+        {
+          "id": "cmt-r3",
+          "authorId": "acc-landlord_of_one_duplex",
+          "createdAt": "2026-09-15T04:56:10.357Z",
+          "body": "I mean... sure, if you say so",
+          "engagement": {
+            "likes": 9
+          }
+        },
+        {
+          "id": "cmt-r4",
+          "authorId": "acc-anon_but_everyone_knows",
+          "createdAt": "2026-09-15T04:32:55.915Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 19
+          }
+        },
+        {
+          "id": "cmt-r5",
+          "authorId": "acc-esports_uncle_energy",
+          "createdAt": "2026-09-15T04:37:05.849Z",
+          "body": "finally someone said it",
+          "engagement": {
+            "likes": 52
+          }
+        },
+        {
+          "id": "cmt-r6",
+          "authorId": "acc-speedrun_or_it_didnt",
+          "createdAt": "2026-09-15T04:11:36.271Z",
+          "body": "hard disagree but ok",
+          "engagement": {
+            "likes": 53
+          }
+        },
+        {
+          "id": "cmt-r7",
+          "authorId": "acc-hottakehazel",
+          "createdAt": "2026-09-15T04:24:52.553Z",
+          "body": "not this again",
+          "engagement": {
+            "likes": 44
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-l1",
+      "kind": "joke",
+      "authorId": "acc-chaos_gremlin_official",
+      "createdAt": "2026-09-11T15:39:53.504Z",
+      "community": "absurd-humor",
+      "body": "bit-posting but every time something goes wrong it's somehow my fault",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 51,
+        "reposts": 3,
+        "replies": 0,
+        "views": 815,
+        "viralityScore": 0.13
+      },
+      "comments": []
+    },
+    {
+      "id": "post-l0",
+      "kind": "text_post",
+      "authorId": "acc-esports_uncle_energy",
+      "createdAt": "2026-09-11T15:08:36.522Z",
+      "community": "gaming",
+      "body": "no notes. — that's the whole post about scrims",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 73,
+        "reposts": 13,
+        "replies": 4,
+        "views": 485,
+        "viralityScore": 0.16
+      },
+      "comments": [
+        {
+          "id": "cmt-kw",
+          "authorId": "acc-cryptoisdead_pete",
+          "createdAt": "2026-09-15T04:10:54.632Z",
+          "body": "found the guy who's wrong",
+          "engagement": {
+            "likes": 18
+          }
+        },
+        {
+          "id": "cmt-kx",
+          "authorId": "acc-wrong_about_everything",
+          "createdAt": "2026-09-15T04:07:02.044Z",
+          "body": "hard disagree but ok",
+          "engagement": {
+            "likes": 27
+          }
+        },
+        {
+          "id": "cmt-ky",
+          "authorId": "acc-chaos_gremlin_official",
+          "createdAt": "2026-09-15T04:29:45.429Z",
+          "body": "real. no notes.",
+          "parentCommentId": "cmt-kw",
+          "engagement": {
+            "likes": 13
+          }
+        },
+        {
+          "id": "cmt-kz",
+          "authorId": "acc-porchtomato",
+          "createdAt": "2026-09-15T04:16:06.963Z",
+          "body": "I mean... sure, if you say so 🙃",
+          "parentCommentId": "cmt-ky",
+          "engagement": {
+            "likes": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-re",
+      "kind": "observation",
+      "authorId": "acc-hoa_hostage",
+      "createdAt": "2026-09-11T15:06:38.462Z",
+      "community": "local",
+      "body": "nobody talks about this part of lawn care but it's like 80% of the actual experience",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 29,
+        "reposts": 3,
+        "replies": 0,
+        "views": 435,
+        "viralityScore": 0.17
+      },
+      "comments": []
+    },
+    {
+      "id": "post-n8",
+      "kind": "observation",
+      "authorId": "acc-speedrun_or_it_didnt",
+      "createdAt": "2026-09-11T14:57:27.044Z",
+      "community": "gaming",
+      "body": "nobody talks about this part of grinding but it's like 80% of the actual experience",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 23,
+        "reposts": 3,
+        "replies": 2,
+        "views": 223,
+        "viralityScore": 0.1
+      },
+      "comments": [
+        {
+          "id": "cmt-n6",
+          "authorId": "acc-synergy_stan",
+          "createdAt": "2026-09-15T04:29:32.247Z",
+          "body": "finally someone said it",
+          "engagement": {
+            "likes": 52
+          }
+        },
+        {
+          "id": "cmt-n7",
+          "authorId": "acc-anon_but_everyone_knows",
+          "createdAt": "2026-09-15T04:24:58.967Z",
+          "body": "this is a wild take actually",
+          "engagement": {
+            "likes": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-m4",
+      "kind": "text_post",
+      "authorId": "acc-hottakehazel",
+      "createdAt": "2026-09-11T14:48:47.706Z",
+      "community": "unpopular-opinions",
+      "body": "today's movie rankings thought: it's never as simple as it looks",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 30,
+        "reposts": 4,
+        "replies": 3,
+        "views": 317,
+        "viralityScore": 0.01
+      },
+      "comments": [
+        {
+          "id": "cmt-m1",
+          "authorId": "acc-meowchael_scott",
+          "createdAt": "2026-09-15T04:23:00.339Z",
+          "body": "this is so real 🌱",
+          "engagement": {
+            "likes": 17
+          }
+        },
+        {
+          "id": "cmt-m2",
+          "authorId": "acc-meowchael_scott",
+          "createdAt": "2026-09-15T04:18:47.274Z",
+          "body": "yeah honestly same 🙃",
+          "engagement": {
+            "likes": 39
+          }
+        },
+        {
+          "id": "cmt-m3",
+          "authorId": "acc-speedrun_or_it_didnt",
+          "createdAt": "2026-09-15T04:42:35.117Z",
+          "body": "finally someone said it",
+          "parentCommentId": "cmt-m2",
+          "engagement": {
+            "likes": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-pf",
+      "kind": "discussion",
+      "authorId": "acc-reps_or_it_didnt_happen",
+      "createdAt": "2026-09-11T13:06:28.221Z",
+      "community": "work",
+      "title": "let's talk about meal prep",
+      "body": "I keep seeing takes on meal prep that don't match my experience at all. curious what everyone else has actually run into.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 19,
+        "reposts": 4,
+        "replies": 1,
+        "views": 220,
+        "viralityScore": 0.17
+      },
+      "comments": [
+        {
+          "id": "cmt-pe",
+          "authorId": "acc-chaos_gremlin_official",
+          "createdAt": "2026-09-15T04:55:14.630Z",
+          "body": "this is so real 😭",
+          "engagement": {
+            "likes": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-qg",
+      "kind": "joke",
+      "authorId": "acc-anon_but_everyone_knows",
+      "createdAt": "2026-09-11T13:01:37.086Z",
+      "community": "weird-internet",
+      "body": "me explaining group chat drama to someone who did not ask: [45 minute video]",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 649,
+        "reposts": 96,
+        "replies": 0,
+        "views": 9002,
+        "viralityScore": 0.98
+      },
+      "comments": []
+    },
+    {
+      "id": "post-kv",
+      "kind": "observation",
+      "authorId": "acc-speedrun_or_it_didnt",
+      "createdAt": "2026-09-11T12:55:00.761Z",
+      "community": "gaming",
+      "body": "noticed something weird about frame data today and now i can't unsee it",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 48,
+        "reposts": 7,
+        "replies": 0,
+        "views": 748,
+        "viralityScore": 0.06
+      },
+      "comments": []
+    },
+    {
+      "id": "post-ft",
+      "kind": "text_post",
+      "authorId": "acc-faq_but_make_it_grumpy",
+      "createdAt": "2026-09-11T12:53:36.225Z",
+      "community": "technology",
+      "body": "troubleshooting update: still going. no further comment.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 8,
+        "reposts": 1,
+        "replies": 3,
+        "views": 115,
+        "viralityScore": 0.18
+      },
+      "comments": [
+        {
+          "id": "cmt-fq",
+          "authorId": "acc-quietfrog_studios",
+          "createdAt": "2026-09-15T04:52:14.751Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 11
+          }
+        },
+        {
+          "id": "cmt-fr",
+          "authorId": "acc-brokebro_ventures",
+          "createdAt": "2026-09-15T04:38:57.929Z",
+          "body": "found the guy who's wrong",
+          "engagement": {
+            "likes": 48
+          }
+        },
+        {
+          "id": "cmt-fs",
+          "authorId": "acc-late_night_frequency",
+          "createdAt": "2026-09-15T04:21:17.159Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 13
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-fp",
+      "kind": "community_post",
+      "authorId": "acc-tabletop_town_crier",
+      "createdAt": "2026-09-11T12:41:15.244Z",
+      "community": "hobbies",
+      "body": "reminder that this hobbies space is only good because people actually show up for it 💀",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 16,
+        "reposts": 2,
+        "replies": 19,
+        "views": 185,
+        "viralityScore": 0.02
+      },
+      "comments": [
+        {
+          "id": "cmt-f6",
+          "authorId": "acc-thrift_flip_queen",
+          "createdAt": "2026-09-15T04:48:33.235Z",
+          "body": "came here to say this exact thing 💀",
+          "engagement": {
+            "likes": 27
+          }
+        },
+        {
+          "id": "cmt-f7",
+          "authorId": "acc-dr_null_hypothesis",
+          "createdAt": "2026-09-15T04:40:23.529Z",
+          "body": "hard disagree but ok",
+          "engagement": {
+            "likes": 44
+          }
+        },
+        {
+          "id": "cmt-f8",
+          "authorId": "acc-the_moth_man_texted_me",
+          "createdAt": "2026-09-15T04:06:54.041Z",
+          "body": "FINALLY SOMEONE SAID IT",
+          "parentCommentId": "cmt-f7",
+          "engagement": {
+            "likes": 11
+          }
+        },
+        {
+          "id": "cmt-f9",
+          "authorId": "acc-porchtomato",
+          "createdAt": "2026-09-15T04:51:15.664Z",
+          "body": "came here to say this exact thing 💀",
+          "engagement": {
+            "likes": 25
+          }
+        },
+        {
+          "id": "cmt-fa",
+          "authorId": "acc-hottakehazel",
+          "createdAt": "2026-09-15T04:14:00.549Z",
+          "body": "I mean... sure, if you say so",
+          "parentCommentId": "cmt-f7",
+          "engagement": {
+            "likes": 14
+          }
+        },
+        {
+          "id": "cmt-fb",
+          "authorId": "acc-quietly_quitting_carl",
+          "createdAt": "2026-09-15T04:26:02.417Z",
+          "body": "yeah honestly same",
+          "parentCommentId": "cmt-f8",
+          "engagement": {
+            "likes": 2
+          }
+        },
+        {
+          "id": "cmt-fc",
+          "authorId": "acc-jumpscare_journal",
+          "createdAt": "2026-09-15T04:11:53.968Z",
+          "body": "I mean... sure, if you say so",
+          "parentCommentId": "cmt-f8",
+          "engagement": {
+            "likes": 2
+          }
+        },
+        {
+          "id": "cmt-fd",
+          "authorId": "acc-synergy_stan",
+          "createdAt": "2026-09-15T04:25:55.329Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 48
+          }
+        },
+        {
+          "id": "cmt-fe",
+          "authorId": "acc-lore_accurate_kenji",
+          "createdAt": "2026-09-15T04:49:23.557Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 29
+          }
+        },
+        {
+          "id": "cmt-ff",
+          "authorId": "acc-wrong_about_everything",
+          "createdAt": "2026-09-15T04:11:30.079Z",
+          "body": "we are not going to agree on this one",
+          "engagement": {
+            "likes": 39
+          }
+        },
+        {
+          "id": "cmt-fg",
+          "authorId": "acc-porchtomato",
+          "createdAt": "2026-09-15T04:38:43.524Z",
+          "body": "came here to say this exact thing 😭",
+          "parentCommentId": "cmt-f8",
+          "engagement": {
+            "likes": 14
+          }
+        },
+        {
+          "id": "cmt-fh",
+          "authorId": "acc-thrift_flip_queen",
+          "createdAt": "2026-09-15T04:45:49.789Z",
+          "body": "real. no notes.",
+          "engagement": {
+            "likes": 33
+          }
+        },
+        {
+          "id": "cmt-fi",
+          "authorId": "acc-the_moth_man_texted_me",
+          "createdAt": "2026-09-15T04:03:40.343Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 52
+          }
+        },
+        {
+          "id": "cmt-fj",
+          "authorId": "acc-esports_uncle_energy",
+          "createdAt": "2026-09-15T04:15:59.128Z",
+          "body": "yeah honestly same",
+          "parentCommentId": "cmt-fd",
+          "engagement": {
+            "likes": 9
+          }
+        },
+        {
+          "id": "cmt-fk",
+          "authorId": "acc-queenofrespawns",
+          "createdAt": "2026-09-15T04:37:22.133Z",
+          "body": "came here to say this exact thing",
+          "parentCommentId": "cmt-f9",
+          "engagement": {
+            "likes": 5
+          }
+        },
+        {
+          "id": "cmt-fl",
+          "authorId": "acc-wrong_about_everything",
+          "createdAt": "2026-09-15T04:40:55.721Z",
+          "body": "you get it",
+          "engagement": {
+            "likes": 45
+          }
+        },
+        {
+          "id": "cmt-fm",
+          "authorId": "acc-cryptoisdead_pete",
+          "createdAt": "2026-09-15T04:02:21.077Z",
+          "body": "found the guy who's wrong",
+          "engagement": {
+            "likes": 43
+          }
+        },
+        {
+          "id": "cmt-fn",
+          "authorId": "acc-quietly_quitting_carl",
+          "createdAt": "2026-09-15T04:11:48.819Z",
+          "body": "real. no notes.",
+          "engagement": {
+            "likes": 43
+          }
+        },
+        {
+          "id": "cmt-fo",
+          "authorId": "acc-chaos_gremlin_official",
+          "createdAt": "2026-09-15T04:15:17.498Z",
+          "body": "FINALLY someone said it",
+          "parentCommentId": "cmt-f9",
+          "engagement": {
+            "likes": 11
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-r2",
+      "kind": "observation",
+      "authorId": "acc-anon_but_everyone_knows",
+      "createdAt": "2026-09-11T12:28:28.194Z",
+      "community": "relationships",
+      "body": "noticed something weird about unsolicited updates today and now i can't unsee it",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 31,
+        "reposts": 5,
+        "replies": 19,
+        "views": 394,
+        "viralityScore": 0.22
+      },
+      "comments": [
+        {
+          "id": "cmt-qj",
+          "authorId": "acc-lore_accurate_kenji",
+          "createdAt": "2026-09-15T04:24:53.897Z",
+          "body": "finally someone said it",
+          "engagement": {
+            "likes": 39
+          }
+        },
+        {
+          "id": "cmt-qk",
+          "authorId": "acc-tabletop_town_crier",
+          "createdAt": "2026-09-15T03:57:24.268Z",
+          "body": "real. no notes.",
+          "engagement": {
+            "likes": 27
+          }
+        },
+        {
+          "id": "cmt-ql",
+          "authorId": "acc-situationship_survivor",
+          "createdAt": "2026-09-15T04:49:23.213Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 10
+          }
+        },
+        {
+          "id": "cmt-qm",
+          "authorId": "acc-faq_but_make_it_grumpy",
+          "createdAt": "2026-09-15T04:19:22.828Z",
+          "body": "this is a wild take actually",
+          "parentCommentId": "cmt-ql",
+          "engagement": {
+            "likes": 4
+          }
+        },
+        {
+          "id": "cmt-qn",
+          "authorId": "acc-backseat_therapist",
+          "createdAt": "2026-09-15T04:40:47.423Z",
+          "body": "this is so real",
+          "parentCommentId": "cmt-ql",
+          "engagement": {
+            "likes": 2
+          }
+        },
+        {
+          "id": "cmt-qo",
+          "authorId": "acc-dr_null_hypothesis",
+          "createdAt": "2026-09-15T04:22:00.274Z",
+          "body": "this is so real",
+          "parentCommentId": "cmt-qj",
+          "engagement": {
+            "likes": 1
+          }
+        },
+        {
+          "id": "cmt-qp",
+          "authorId": "acc-reps_or_it_didnt_happen",
+          "createdAt": "2026-09-15T04:03:42.058Z",
+          "body": "finally someone said it",
+          "engagement": {
+            "likes": 21
+          }
+        },
+        {
+          "id": "cmt-qq",
+          "authorId": "acc-tabletop_town_crier",
+          "createdAt": "2026-09-15T04:22:49.797Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 29
+          }
+        },
+        {
+          "id": "cmt-qr",
+          "authorId": "acc-jumpscare_journal",
+          "createdAt": "2026-09-15T03:58:33.784Z",
+          "body": "real. no notes.",
+          "engagement": {
+            "likes": 23
+          }
+        },
+        {
+          "id": "cmt-qs",
+          "authorId": "acc-queenofrespawns",
+          "createdAt": "2026-09-15T04:16:43.262Z",
+          "body": "finally someone said it 💀",
+          "engagement": {
+            "likes": 46
+          }
+        },
+        {
+          "id": "cmt-qt",
+          "authorId": "acc-the_moth_man_texted_me",
+          "createdAt": "2026-09-15T04:28:58.931Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 23
+          }
+        },
+        {
+          "id": "cmt-qu",
+          "authorId": "acc-tabletop_town_crier",
+          "createdAt": "2026-09-15T04:02:57.508Z",
+          "body": "found the guy who's wrong",
+          "engagement": {
+            "likes": 47
+          }
+        },
+        {
+          "id": "cmt-qv",
+          "authorId": "acc-hottakehazel",
+          "createdAt": "2026-09-15T04:25:11.071Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 21
+          }
+        },
+        {
+          "id": "cmt-qw",
+          "authorId": "acc-situationship_survivor",
+          "createdAt": "2026-09-15T03:57:48.653Z",
+          "body": "came here to say this exact thing???",
+          "engagement": {
+            "likes": 7
+          }
+        },
+        {
+          "id": "cmt-qx",
+          "authorId": "acc-esports_uncle_energy",
+          "createdAt": "2026-09-15T04:45:41.028Z",
+          "body": "we are not going to agree on this one",
+          "engagement": {
+            "likes": 1
+          }
+        },
+        {
+          "id": "cmt-qy",
+          "authorId": "acc-speedrun_or_it_didnt",
+          "createdAt": "2026-09-15T04:15:17.008Z",
+          "body": "finally someone said it",
+          "parentCommentId": "cmt-qu",
+          "engagement": {
+            "likes": 5
+          }
+        },
+        {
+          "id": "cmt-qz",
+          "authorId": "acc-cryptoisdead_pete",
+          "createdAt": "2026-09-15T04:29:16.165Z",
+          "body": "yeah honestly same",
+          "parentCommentId": "cmt-qm",
+          "engagement": {
+            "likes": 14
+          }
+        },
+        {
+          "id": "cmt-r0",
+          "authorId": "acc-the_moth_man_texted_me",
+          "createdAt": "2026-09-15T04:20:38.692Z",
+          "body": "this is a wild take actually...",
+          "parentCommentId": "cmt-qj",
+          "engagement": {
+            "likes": 8
+          }
+        },
+        {
+          "id": "cmt-r1",
+          "authorId": "acc-oat_milk_socrates",
+          "createdAt": "2026-09-15T04:00:51.133Z",
+          "body": "you get it",
+          "engagement": {
+            "likes": 38
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-ku",
+      "kind": "hot_take",
+      "authorId": "acc-quietfrog_studios",
+      "createdAt": "2026-09-11T12:22:03.679Z",
+      "community": "technology",
+      "body": "game dev truthers need to sit down",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 32,
+        "reposts": 6,
+        "replies": 27,
+        "views": 376,
+        "viralityScore": 0.11
+      },
+      "comments": [
+        {
+          "id": "cmt-k3",
+          "authorId": "acc-the_moth_man_texted_me",
+          "createdAt": "2026-09-15T04:30:37.392Z",
+          "body": "you get it",
+          "engagement": {
+            "likes": 34
+          }
+        },
+        {
+          "id": "cmt-k4",
+          "authorId": "acc-cryptoisdead_pete",
+          "createdAt": "2026-09-15T04:29:02.978Z",
+          "body": "finally someone said it",
+          "engagement": {
+            "likes": 29
+          }
+        },
+        {
+          "id": "cmt-k5",
+          "authorId": "acc-sourdough_or_die",
+          "createdAt": "2026-09-15T04:46:48.524Z",
+          "body": "this is a wild take actually",
+          "parentCommentId": "cmt-k4",
+          "engagement": {
+            "likes": 5
+          }
+        },
+        {
+          "id": "cmt-k6",
+          "authorId": "acc-cryptoisdead_pete",
+          "createdAt": "2026-09-15T04:55:51.578Z",
+          "body": "this is so real",
+          "parentCommentId": "cmt-k3",
+          "engagement": {
+            "likes": 10
+          }
+        },
+        {
+          "id": "cmt-k7",
+          "authorId": "acc-hottakehazel",
+          "createdAt": "2026-09-15T04:49:56.861Z",
+          "body": "this is a wild take actually",
+          "engagement": {
+            "likes": 47
+          }
+        },
+        {
+          "id": "cmt-k8",
+          "authorId": "acc-porchtomato",
+          "createdAt": "2026-09-15T04:04:15.787Z",
+          "body": "came here to say this exact thing 🌱",
+          "engagement": {
+            "likes": 48
+          }
+        },
+        {
+          "id": "cmt-k9",
+          "authorId": "acc-queenofrespawns",
+          "createdAt": "2026-09-15T04:23:46.003Z",
+          "body": "this is so real lol",
+          "parentCommentId": "cmt-k3",
+          "engagement": {
+            "likes": 15
+          }
+        },
+        {
+          "id": "cmt-ka",
+          "authorId": "acc-situationship_survivor",
+          "createdAt": "2026-09-15T04:23:58.594Z",
+          "body": "found the guy who's wrong??? 😭",
+          "parentCommentId": "cmt-k3",
+          "engagement": {
+            "likes": 9
+          }
+        },
+        {
+          "id": "cmt-kb",
+          "authorId": "acc-lore_accurate_kenji",
+          "createdAt": "2026-09-15T04:03:13.941Z",
+          "body": "real. no notes.",
+          "engagement": {
+            "likes": 27
+          }
+        },
+        {
+          "id": "cmt-kc",
+          "authorId": "acc-situationship_survivor",
+          "createdAt": "2026-09-15T04:36:43.730Z",
+          "body": "this is so real???",
+          "engagement": {
+            "likes": 15
+          }
+        },
+        {
+          "id": "cmt-kd",
+          "authorId": "acc-quietly_quitting_carl",
+          "createdAt": "2026-09-15T04:22:34.859Z",
+          "body": "not this again",
+          "engagement": {
+            "likes": 34
+          }
+        },
+        {
+          "id": "cmt-ke",
+          "authorId": "acc-thrift_flip_queen",
+          "createdAt": "2026-09-15T04:52:24.434Z",
+          "body": "not this again 💀",
+          "engagement": {
+            "likes": 32
+          }
+        },
+        {
+          "id": "cmt-kf",
+          "authorId": "acc-sourdough_or_die",
+          "createdAt": "2026-09-15T04:07:05.788Z",
+          "body": "real. no notes. 🙃",
+          "parentCommentId": "cmt-k9",
+          "engagement": {
+            "likes": 13
+          }
+        },
+        {
+          "id": "cmt-kg",
+          "authorId": "acc-the_moth_man_texted_me",
+          "createdAt": "2026-09-15T04:20:08.433Z",
+          "body": "yeah honestly same...",
+          "engagement": {
+            "likes": 16
+          }
+        },
+        {
+          "id": "cmt-kh",
+          "authorId": "acc-hoa_hostage",
+          "createdAt": "2026-09-15T04:43:37.553Z",
+          "body": "came here to say this exact thing",
+          "parentCommentId": "cmt-kc",
+          "engagement": {
+            "likes": 1
+          }
+        },
+        {
+          "id": "cmt-ki",
+          "authorId": "acc-chaos_gremlin_official",
+          "createdAt": "2026-09-15T04:02:02.551Z",
+          "body": "i mean... sure, if you say so 💀",
+          "parentCommentId": "cmt-ka",
+          "engagement": {
+            "likes": 0
+          }
+        },
+        {
+          "id": "cmt-kj",
+          "authorId": "acc-wrong_about_everything",
+          "createdAt": "2026-09-15T04:35:32.334Z",
+          "body": "came here to say this exact thing",
+          "parentCommentId": "cmt-k7",
+          "engagement": {
+            "likes": 4
+          }
+        },
+        {
+          "id": "cmt-kk",
+          "authorId": "acc-oat_milk_socrates",
+          "createdAt": "2026-09-15T04:46:39.496Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 12
+          }
+        },
+        {
+          "id": "cmt-kl",
+          "authorId": "acc-chaos_gremlin_official",
+          "createdAt": "2026-09-15T04:39:52.567Z",
+          "body": "YEAH HONESTLY same",
+          "engagement": {
+            "likes": 37
+          }
+        },
+        {
+          "id": "cmt-km",
+          "authorId": "acc-oat_milk_socrates",
+          "createdAt": "2026-09-15T04:50:56.741Z",
+          "body": "real. no notes.",
+          "engagement": {
+            "likes": 46
+          }
+        },
+        {
+          "id": "cmt-kn",
+          "authorId": "acc-jumpscare_journal",
+          "createdAt": "2026-09-15T04:09:19.576Z",
+          "body": "you get it",
+          "engagement": {
+            "likes": 56
+          }
+        },
+        {
+          "id": "cmt-ko",
+          "authorId": "acc-speedrun_or_it_didnt",
+          "createdAt": "2026-09-15T04:35:00.576Z",
+          "body": "yeah honestly same",
+          "parentCommentId": "cmt-k6",
+          "engagement": {
+            "likes": 3
+          }
+        },
+        {
+          "id": "cmt-kp",
+          "authorId": "acc-rejected_by_12_agents",
+          "createdAt": "2026-09-15T04:39:24.190Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 30
+          }
+        },
+        {
+          "id": "cmt-kq",
+          "authorId": "acc-retired_and_right",
+          "createdAt": "2026-09-15T04:38:04.711Z",
+          "body": "came here to say this exact thing",
+          "parentCommentId": "cmt-k9",
+          "engagement": {
+            "likes": 7
+          }
+        },
+        {
+          "id": "cmt-kr",
+          "authorId": "acc-jumpscare_journal",
+          "createdAt": "2026-09-15T04:06:57.412Z",
+          "body": "yeah honestly same",
+          "parentCommentId": "cmt-ke",
+          "engagement": {
+            "likes": 11
+          }
+        },
+        {
+          "id": "cmt-ks",
+          "authorId": "acc-faq_but_make_it_grumpy",
+          "createdAt": "2026-09-15T04:36:31.807Z",
+          "body": "yeah honestly same",
+          "parentCommentId": "cmt-kc",
+          "engagement": {
+            "likes": 9
+          }
+        },
+        {
+          "id": "cmt-kt",
+          "authorId": "acc-rejected_by_12_agents",
+          "createdAt": "2026-09-15T04:54:25.362Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 37
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-pd",
+      "kind": "text_post",
+      "authorId": "acc-speedrun_or_it_didnt",
+      "createdAt": "2026-09-11T12:03:44.700Z",
+      "community": "gaming",
+      "body": "you ever just stop and think about speedrunning for way too long",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 24,
+        "reposts": 4,
+        "replies": 8,
+        "views": 150,
+        "viralityScore": 0.2
+      },
+      "comments": [
+        {
+          "id": "cmt-p5",
+          "authorId": "acc-tabletop_town_crier",
+          "createdAt": "2026-09-15T04:40:12.734Z",
+          "body": "you get it 😭",
+          "engagement": {
+            "likes": 47
+          }
+        },
+        {
+          "id": "cmt-p6",
+          "authorId": "acc-lore_accurate_kenji",
+          "createdAt": "2026-09-15T04:40:01.293Z",
+          "body": "I mean... sure, if you say so",
+          "engagement": {
+            "likes": 58
+          }
+        },
+        {
+          "id": "cmt-p7",
+          "authorId": "acc-meowchael_scott",
+          "createdAt": "2026-09-15T04:06:50.132Z",
+          "body": "yeah honestly same 😭",
+          "parentCommentId": "cmt-p6",
+          "engagement": {
+            "likes": 9
+          }
+        },
+        {
+          "id": "cmt-p8",
+          "authorId": "acc-backseat_therapist",
+          "createdAt": "2026-09-15T04:42:06.110Z",
+          "body": "real. no notes.",
+          "parentCommentId": "cmt-p5",
+          "engagement": {
+            "likes": 5
+          }
+        },
+        {
+          "id": "cmt-p9",
+          "authorId": "acc-faq_but_make_it_grumpy",
+          "createdAt": "2026-09-15T04:00:35.829Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 19
+          }
+        },
+        {
+          "id": "cmt-pa",
+          "authorId": "acc-quietly_quitting_carl",
+          "createdAt": "2026-09-15T04:51:47.576Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 27
+          }
+        },
+        {
+          "id": "cmt-pb",
+          "authorId": "acc-rejected_by_12_agents",
+          "createdAt": "2026-09-15T04:54:45.296Z",
+          "body": "came here to say this exact thing",
+          "engagement": {
+            "likes": 36
+          }
+        },
+        {
+          "id": "cmt-pc",
+          "authorId": "acc-queenofrespawns",
+          "createdAt": "2026-09-15T04:36:42.360Z",
+          "body": "real. no notes. lol",
+          "engagement": {
+            "likes": 52
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-mn",
+      "kind": "joke",
+      "authorId": "acc-thrift_flip_queen",
+      "createdAt": "2026-09-11T11:55:24.687Z",
+      "community": "local",
+      "body": "breaking: local person (me) discovers estate sales exists, ruins everyone's week",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 33,
+        "reposts": 4,
+        "replies": 10,
+        "views": 459,
+        "viralityScore": 0.22
+      },
+      "comments": [
+        {
+          "id": "cmt-md",
+          "authorId": "acc-stormchaser_dana",
+          "createdAt": "2026-09-15T04:03:50.810Z",
+          "body": "finally someone said it",
+          "engagement": {
+            "likes": 33
+          }
+        },
+        {
+          "id": "cmt-me",
+          "authorId": "acc-brokebro_ventures",
+          "createdAt": "2026-09-15T04:44:06.596Z",
+          "body": "hard disagree but ok",
+          "engagement": {
+            "likes": 36
+          }
+        },
+        {
+          "id": "cmt-mf",
+          "authorId": "acc-chaos_gremlin_official",
+          "createdAt": "2026-09-15T04:22:19.895Z",
+          "body": "real. no notes. 🙃",
+          "engagement": {
+            "likes": 26
+          }
+        },
+        {
+          "id": "cmt-mg",
+          "authorId": "acc-opsec_or_bust",
+          "createdAt": "2026-09-15T04:30:52.573Z",
+          "body": "real. no notes.",
+          "engagement": {
+            "likes": 53
+          }
+        },
+        {
+          "id": "cmt-mh",
+          "authorId": "acc-queenofrespawns",
+          "createdAt": "2026-09-15T04:24:09.380Z",
+          "body": "finally someone said it",
+          "engagement": {
+            "likes": 10
+          }
+        },
+        {
+          "id": "cmt-mi",
+          "authorId": "acc-backyard_observatory",
+          "createdAt": "2026-09-15T03:58:38.409Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 50
+          }
+        },
+        {
+          "id": "cmt-mj",
+          "authorId": "acc-synergy_stan",
+          "createdAt": "2026-09-15T04:29:34.482Z",
+          "body": "this is a wild take actually",
+          "engagement": {
+            "likes": 36
+          }
+        },
+        {
+          "id": "cmt-mk",
+          "authorId": "acc-backseat_therapist",
+          "createdAt": "2026-09-15T04:19:01.048Z",
+          "body": "finally someone said it",
+          "parentCommentId": "cmt-mj",
+          "engagement": {
+            "likes": 10
+          }
+        },
+        {
+          "id": "cmt-ml",
+          "authorId": "acc-stormchaser_dana",
+          "createdAt": "2026-09-15T04:55:07.752Z",
+          "body": "you get it",
+          "engagement": {
+            "likes": 12
+          }
+        },
+        {
+          "id": "cmt-mm",
+          "authorId": "acc-hoa_hostage",
+          "createdAt": "2026-09-15T04:44:29.265Z",
+          "body": "finally someone said it",
+          "engagement": {
+            "likes": 28
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-qi",
+      "kind": "link_preview",
+      "authorId": "acc-cryptoisdead_pete",
+      "createdAt": "2026-09-11T11:45:08.433Z",
+      "community": "unpopular-opinions",
+      "body": "saw this and thought of literally everyone in my replies",
+      "meta": {
+        "kind": "link_preview",
+        "url": "https://wire.example/articles/market-cycles",
+        "domain": "wire.example",
+        "linkTitle": "The Quiet Rise of market cycles (and why nobody saw it coming)",
+        "linkDescription": "A closer look at market cycles and what happens next."
+      },
+      "engagement": {
+        "likes": 18,
+        "reposts": 1,
+        "replies": 1,
+        "views": 217,
+        "viralityScore": 0.12
+      },
+      "comments": [
+        {
+          "id": "cmt-qh",
+          "authorId": "acc-brokebro_ventures",
+          "createdAt": "2026-09-15T04:32:09.432Z",
+          "body": "found the guy who's wrong",
+          "engagement": {
+            "likes": 21
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-l4",
+      "kind": "discussion",
+      "authorId": "acc-jumpscare_journal",
+      "createdAt": "2026-09-11T11:33:59.277Z",
+      "community": "entertainment",
+      "title": "let's talk about horror movies",
+      "body": "Been thinking about horror movies a lot this week. not sure I have a conclusion, just a lot of loose thoughts.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 27,
+        "reposts": 3,
+        "replies": 0,
+        "views": 262,
+        "viralityScore": 0.03
+      },
+      "comments": []
+    },
+    {
+      "id": "post-ow",
+      "kind": "text_post",
+      "authorId": "acc-lore_accurate_kenji",
+      "createdAt": "2026-09-11T11:14:54.474Z",
+      "community": "gaming",
+      "body": "today's worldbuilding thought: it's never as simple as it looks",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 15,
+        "reposts": 1,
+        "replies": 33,
+        "views": 101,
+        "viralityScore": 0.1
+      },
+      "comments": [
+        {
+          "id": "cmt-nz",
+          "authorId": "acc-oat_milk_socrates",
+          "createdAt": "2026-09-15T04:51:33.465Z",
+          "body": "came here to say this exact thing",
+          "engagement": {
+            "likes": 34
+          }
+        },
+        {
+          "id": "cmt-o0",
+          "authorId": "acc-anon_but_everyone_knows",
+          "createdAt": "2026-09-15T04:09:26.258Z",
+          "body": "this is a wild take actually",
+          "engagement": {
+            "likes": 34
+          }
+        },
+        {
+          "id": "cmt-o1",
+          "authorId": "acc-late_night_frequency",
+          "createdAt": "2026-09-15T04:09:05.489Z",
+          "body": "this is a wild take actually",
+          "engagement": {
+            "likes": 5
+          }
+        },
+        {
+          "id": "cmt-o2",
+          "authorId": "acc-porchtomato",
+          "createdAt": "2026-09-15T04:46:15.394Z",
+          "body": "you get it 🌱",
+          "engagement": {
+            "likes": 23
+          }
+        },
+        {
+          "id": "cmt-o3",
+          "authorId": "acc-situationship_survivor",
+          "createdAt": "2026-09-15T04:53:33.070Z",
+          "body": "finally someone said it???",
+          "engagement": {
+            "likes": 18
+          }
+        },
+        {
+          "id": "cmt-o4",
+          "authorId": "acc-hottakehazel",
+          "createdAt": "2026-09-15T04:28:55.025Z",
+          "body": "this is a wild take actually",
+          "engagement": {
+            "likes": 19
+          }
+        },
+        {
+          "id": "cmt-o5",
+          "authorId": "acc-queenofrespawns",
+          "createdAt": "2026-09-15T04:55:36.608Z",
+          "body": "not this again",
+          "parentCommentId": "cmt-o3",
+          "engagement": {
+            "likes": 2
+          }
+        },
+        {
+          "id": "cmt-o6",
+          "authorId": "acc-backyard_observatory",
+          "createdAt": "2026-09-15T03:58:46.275Z",
+          "body": "came here to say this exact thing",
+          "engagement": {
+            "likes": 57
+          }
+        },
+        {
+          "id": "cmt-o7",
+          "authorId": "acc-esports_uncle_energy",
+          "createdAt": "2026-09-15T04:45:17.718Z",
+          "body": "finally someone said it",
+          "parentCommentId": "cmt-o3",
+          "engagement": {
+            "likes": 11
+          }
+        },
+        {
+          "id": "cmt-o8",
+          "authorId": "acc-wrong_about_everything",
+          "createdAt": "2026-09-15T04:27:58.708Z",
+          "body": "real. no notes.",
+          "engagement": {
+            "likes": 57
+          }
+        },
+        {
+          "id": "cmt-o9",
+          "authorId": "acc-faq_but_make_it_grumpy",
+          "createdAt": "2026-09-15T04:32:55.786Z",
+          "body": "finally someone said it",
+          "engagement": {
+            "likes": 48
+          }
+        },
+        {
+          "id": "cmt-oa",
+          "authorId": "acc-backseat_therapist",
+          "createdAt": "2026-09-15T04:23:29.962Z",
+          "body": "real. no notes.",
+          "engagement": {
+            "likes": 56
+          }
+        },
+        {
+          "id": "cmt-ob",
+          "authorId": "acc-esports_uncle_energy",
+          "createdAt": "2026-09-15T04:51:56.914Z",
+          "body": "finally someone said it 💀",
+          "parentCommentId": "cmt-o8",
+          "engagement": {
+            "likes": 1
+          }
+        },
+        {
+          "id": "cmt-oc",
+          "authorId": "acc-jumpscare_journal",
+          "createdAt": "2026-09-15T04:29:04.215Z",
+          "body": "finally someone said it",
+          "engagement": {
+            "likes": 10
+          }
+        },
+        {
+          "id": "cmt-od",
+          "authorId": "acc-opsec_or_bust",
+          "createdAt": "2026-09-15T04:20:35.259Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 18
+          }
+        },
+        {
+          "id": "cmt-oe",
+          "authorId": "acc-oat_milk_socrates",
+          "createdAt": "2026-09-15T04:05:23.033Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 10
+          }
+        },
+        {
+          "id": "cmt-of",
+          "authorId": "acc-quietfrog_studios",
+          "createdAt": "2026-09-15T04:25:05.764Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 53
+          }
+        },
+        {
+          "id": "cmt-og",
+          "authorId": "acc-wrong_about_everything",
+          "createdAt": "2026-09-15T04:33:45.232Z",
+          "body": "real. no notes.",
+          "engagement": {
+            "likes": 60
+          }
+        },
+        {
+          "id": "cmt-oh",
+          "authorId": "acc-porchtomato",
+          "createdAt": "2026-09-15T04:08:55.552Z",
+          "body": "this is so real",
+          "parentCommentId": "cmt-o3",
+          "engagement": {
+            "likes": 14
+          }
+        },
+        {
+          "id": "cmt-oi",
+          "authorId": "acc-hottakehazel",
+          "createdAt": "2026-09-15T04:09:58.262Z",
+          "body": "not this again",
+          "engagement": {
+            "likes": 33
+          }
+        },
+        {
+          "id": "cmt-oj",
+          "authorId": "acc-wrong_about_everything",
+          "createdAt": "2026-09-15T04:10:57.469Z",
+          "body": "real. no notes.",
+          "engagement": {
+            "likes": 36
+          }
+        },
+        {
+          "id": "cmt-ok",
+          "authorId": "acc-wrong_about_everything",
+          "createdAt": "2026-09-15T04:35:04.423Z",
+          "body": "hard disagree but ok",
+          "engagement": {
+            "likes": 47
+          }
+        },
+        {
+          "id": "cmt-ol",
+          "authorId": "acc-brokebro_ventures",
+          "createdAt": "2026-09-15T04:08:02.696Z",
+          "body": "i mean... sure, if you say so",
+          "parentCommentId": "cmt-oi",
+          "engagement": {
+            "likes": 1
+          }
+        },
+        {
+          "id": "cmt-om",
+          "authorId": "acc-hoa_hostage",
+          "createdAt": "2026-09-15T04:46:12.765Z",
+          "body": "I mean... sure, if you say so",
+          "engagement": {
+            "likes": 25
+          }
+        },
+        {
+          "id": "cmt-on",
+          "authorId": "acc-speedrun_or_it_didnt",
+          "createdAt": "2026-09-15T04:25:57.467Z",
+          "body": "you get it",
+          "parentCommentId": "cmt-o3",
+          "engagement": {
+            "likes": 0
+          }
+        },
+        {
+          "id": "cmt-oo",
+          "authorId": "acc-faq_but_make_it_grumpy",
+          "createdAt": "2026-09-15T04:45:10.012Z",
+          "body": "came here to say this exact thing",
+          "engagement": {
+            "likes": 4
+          }
+        },
+        {
+          "id": "cmt-op",
+          "authorId": "acc-queenofrespawns",
+          "createdAt": "2026-09-15T04:50:43.680Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 21
+          }
+        },
+        {
+          "id": "cmt-oq",
+          "authorId": "acc-esports_uncle_energy",
+          "createdAt": "2026-09-15T03:59:22.511Z",
+          "body": "yeah honestly same",
+          "parentCommentId": "cmt-ok",
+          "engagement": {
+            "likes": 9
+          }
+        },
+        {
+          "id": "cmt-or",
+          "authorId": "acc-esports_uncle_energy",
+          "createdAt": "2026-09-15T04:50:40.485Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 29
+          }
+        },
+        {
+          "id": "cmt-os",
+          "authorId": "acc-wrong_about_everything",
+          "createdAt": "2026-09-15T04:17:33.851Z",
+          "body": "hard disagree but ok",
+          "engagement": {
+            "likes": 57
+          }
+        },
+        {
+          "id": "cmt-ot",
+          "authorId": "acc-late_night_frequency",
+          "createdAt": "2026-09-15T04:37:51.784Z",
+          "body": "finally someone said it",
+          "parentCommentId": "cmt-oh",
+          "engagement": {
+            "likes": 10
+          }
+        },
+        {
+          "id": "cmt-ou",
+          "authorId": "acc-queenofrespawns",
+          "createdAt": "2026-09-15T04:04:53.413Z",
+          "body": "you get it",
+          "engagement": {
+            "likes": 45
+          }
+        },
+        {
+          "id": "cmt-ov",
+          "authorId": "acc-late_night_frequency",
+          "createdAt": "2026-09-15T04:18:37.774Z",
+          "body": "came here to say this exact thing",
+          "parentCommentId": "cmt-oc",
+          "engagement": {
+            "likes": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-ny",
+      "kind": "discussion",
+      "authorId": "acc-hoa_hostage",
+      "createdAt": "2026-09-11T11:09:27.421Z",
+      "community": "local",
+      "title": "lawn care: where do people actually stand on this",
+      "body": "Feels like there are two totally different camps on lawn care and nobody's talking to each other. what's your take.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 20,
+        "reposts": 2,
+        "replies": 0,
+        "views": 196,
+        "viralityScore": 0.21
+      },
+      "comments": []
+    },
+    {
+      "id": "post-ns",
+      "kind": "text_post",
+      "authorId": "acc-porchtomato",
+      "createdAt": "2026-09-11T11:07:46.632Z",
+      "community": "hobbies",
+      "body": "today's compost thought: it's never as simple as it looks",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 20,
+        "reposts": 2,
+        "replies": 19,
+        "views": 162,
+        "viralityScore": 0.03
+      },
+      "comments": [
+        {
+          "id": "cmt-n9",
+          "authorId": "acc-reps_or_it_didnt_happen",
+          "createdAt": "2026-09-15T04:30:25.060Z",
+          "body": "real. no notes.",
+          "engagement": {
+            "likes": 9
+          }
+        },
+        {
+          "id": "cmt-na",
+          "authorId": "acc-situationship_survivor",
+          "createdAt": "2026-09-15T04:46:17.482Z",
+          "body": "real. no notes. 💀",
+          "parentCommentId": "cmt-n9",
+          "engagement": {
+            "likes": 1
+          }
+        },
+        {
+          "id": "cmt-nb",
+          "authorId": "acc-hottakehazel",
+          "createdAt": "2026-09-15T04:54:22.451Z",
+          "body": "found the guy who's wrong",
+          "parentCommentId": "cmt-n9",
+          "engagement": {
+            "likes": 9
+          }
+        },
+        {
+          "id": "cmt-nc",
+          "authorId": "acc-midnight_snack_confessions",
+          "createdAt": "2026-09-15T04:38:19.921Z",
+          "body": "yeah honestly same",
+          "parentCommentId": "cmt-n9",
+          "engagement": {
+            "likes": 11
+          }
+        },
+        {
+          "id": "cmt-nd",
+          "authorId": "acc-meowchael_scott",
+          "createdAt": "2026-09-15T04:11:44.869Z",
+          "body": "this is so real 😭",
+          "engagement": {
+            "likes": 30
+          }
+        },
+        {
+          "id": "cmt-ne",
+          "authorId": "acc-hottakehazel",
+          "createdAt": "2026-09-15T03:57:39.223Z",
+          "body": "yeah honestly same",
+          "engagement": {
+            "likes": 9
+          }
+        },
+        {
+          "id": "cmt-nf",
+          "authorId": "acc-wrong_about_everything",
+          "createdAt": "2026-09-15T04:26:41.391Z",
+          "body": "this is so real",
+          "engagement": {
+            "likes": 56
+          }
+        },
+        {
+          "id": "cmt-ng",
+          "authorId": "acc-oat_milk_socrates",
+          "createdAt": "2026-09-15T04:38:24.858Z",
+          "body": "you get it",
+          "engagement": {
+            "likes": 18
+          }
+        },
+        {
+          "id": "cmt-nh",
+          "authorId": "acc-chaos_gremlin_official",
+          "createdAt": "2026-09-15T04:50:26.192Z",
+          "body": "came here to say this exact thing",
+          "parentCommentId": "cmt-nc",
+          "engagement": {
+            "likes": 1
+          }
+        },
+        {
+          "id": "cmt-ni",
+          "authorId": "acc-opsec_or_bust",
+          "createdAt": "2026-09-15T04:23:48.321Z",
+          "body": "finally someone said it",
+          "engagement": {
+            "likes": 3
+          }
+        },
+        {
+          "id": "cmt-nj",
+          "authorId": "acc-late_night_frequency",
+          "createdAt": "2026-09-15T04:28:29.323Z",
+          "body": "I mean... sure, if you say so",
+          "engagement": {
+            "likes": 47
+          }
+        },
+        {
+          "id": "cmt-nk",
+          "authorId": "acc-queenofrespawns",
+          "createdAt": "2026-09-15T04:50:26.713Z",
+          "body": "you get it",
+          "engagement": {
+            "likes": 59
+          }
+        },
+        {
+          "id": "cmt-nl",
+          "authorId": "acc-queenofrespawns",
+          "createdAt": "2026-09-15T04:09:46.436Z",
+          "body": "yeah honestly same",
+          "parentCommentId": "cmt-nk",
+          "engagement": {
+            "likes": 7
+          }
+        },
+        {
+          "id": "cmt-nm",
+          "authorId": "acc-midnight_snack_confessions",
+          "createdAt": "2026-09-15T04:41:36.821Z",
+          "body": "this is so real",
+          "parentCommentId": "cmt-nb",
+          "engagement": {
+            "likes": 12
+          }
+        },
+        {
+          "id": "cmt-nn",
+          "authorId": "acc-oat_milk_socrates",
+          "createdAt": "2026-09-15T04:28:31.867Z",
+          "body": "came here to say this exact thing",
+          "engagement": {
+            "likes": 26
+          }
+        },
+        {
+          "id": "cmt-no",
+          "authorId": "acc-midnight_snack_confessions",
+          "createdAt": "2026-09-15T04:27:27.954Z",
+          "body": "we are not going to agree on this one 🙃",
+          "parentCommentId": "cmt-nm",
+          "engagement": {
+            "likes": 11
+          }
+        },
+        {
+          "id": "cmt-np",
+          "authorId": "acc-situationship_survivor",
+          "createdAt": "2026-09-15T04:11:49.642Z",
+          "body": "came here to say this exact thing",
+          "engagement": {
+            "likes": 39
+          }
+        },
+        {
+          "id": "cmt-nq",
+          "authorId": "acc-mainstreet_hardware",
+          "createdAt": "2026-09-15T03:58:25.752Z",
+          "body": "finally someone said it",
+          "engagement": {
+            "likes": 0
+          }
+        },
+        {
+          "id": "cmt-nr",
+          "authorId": "acc-oat_milk_socrates",
+          "createdAt": "2026-09-15T04:09:58.322Z",
+          "body": "this is a wild take actually",
+          "engagement": {
+            "likes": 59
+          }
+        }
+      ]
+    },
+    {
+      "id": "post-l3",
+      "kind": "text_post",
+      "authorId": "acc-chaos_gremlin_official",
+      "createdAt": "2026-09-11T11:05:50.875Z",
+      "community": "absurd-humor",
+      "body": "not the point BUT ok. — THAT'S THE WHOLE post about nonsense",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 11,
+        "reposts": 1,
+        "replies": 0,
+        "views": 91,
+        "viralityScore": 0.2
+      },
+      "comments": []
+    }
+  ]
+}
