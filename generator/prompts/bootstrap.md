@@ -16,7 +16,13 @@ variance matters more than quantity:
   in-progress project, a running joke) that involve 2+ of the accounts you just created.
 
 Also propose the initial list of communities/topic clusters for this world (you can reuse
-names from the accounts' communities, or add a couple more).
+names from the accounts' communities, or add a couple more) -- **at most 10 communities
+total, no more**.
+
+This response needs to fit within a limited output length, so keep every field concise:
+`bio` a single short sentence, 2-4 items in `personalityTraits`/`interests`/`quirks`, and
+at most 1-2 `relationships` per account. Prioritize covering all {{MIN_ACCOUNTS}}-
+{{MAX_ACCOUNTS}} accounts with short, punchy fields over fewer accounts with long ones.
 
 Respond with exactly this JSON shape (types shown inline, all fields required unless
 marked optional):

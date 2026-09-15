@@ -81,4 +81,24 @@ describe("callOpenRouter", () => {
     const result = await callOpenRouter({ ...baseOpts, apiKey: "super-secret-key", fetchImpl });
     expect(JSON.stringify(result)).not.toContain("super-secret-key");
   });
+
+  it("sends max_tokens when provided, so a large response isn't silently truncated", async () => {
+    let sentBody: Record<string, unknown> | undefined;
+    const fetchImpl = async (_url: string | URL | Request, init?: RequestInit) => {
+      sentBody = JSON.parse(String(init?.body));
+      return jsonResponse({ model: "x", choices: [{ message: { content: "ok" } }] });
+    };
+
+    await callOpenRouter({ ...baseOpts, maxTokens: 8000, fetchImpl });
+    expect(sentBody?.max_tokens).toBe(8000);
+  });
+
+  it("classifies a 400 citing a token limit as retryable, not fatal", async () => {
+    const fetchImpl = async () =>
+      new Response(JSON.stringify({ error: { message: "max_tokens exceeds model limit" } }), {
+        status: 400,
+      });
+    const result = await callOpenRouter({ ...baseOpts, fetchImpl });
+    expect(result).toMatchObject({ ok: false, kind: "retryable" });
+  });
 });

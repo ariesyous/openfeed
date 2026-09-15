@@ -18,6 +18,8 @@ export interface GenerateValidatedOptions<T> {
   systemPrompt: string;
   initialUserPrompt: string;
   jsonSchema?: JsonSchemaSpec;
+  /** Without this, a randomly-picked free model may silently truncate a large response. */
+  maxTokens?: number;
   /** Wraps Zod .safeParse plus any cross-reference checks; issues are human-readable
    * strings fed back to the model on retry. */
   parse: (json: unknown) => ParseOutcome<T>;
@@ -93,6 +95,7 @@ export async function generateValidated<T>(
       apiKey: opts.apiKey,
       messages,
       jsonSchema: useStructured ? opts.jsonSchema : undefined,
+      maxTokens: opts.maxTokens,
       fetchImpl: opts.fetchImpl,
     });
 

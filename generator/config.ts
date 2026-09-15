@@ -21,6 +21,15 @@ export const BOOTSTRAP_MAX_ACCOUNTS = envInt("GEN_BOOTSTRAP_MAX_ACCOUNTS", 50);
 export const RETENTION_DAYS = envInt("GEN_RETENTION_DAYS", 14);
 
 export const MAX_ATTEMPTS = envInt("GEN_MAX_ATTEMPTS", 5);
+
+// Explicit completion-length ceilings. Without these, a randomly-picked openrouter/free
+// model may default to a small max_tokens and silently truncate a large structured
+// response mid-JSON -- bootstrap in particular (30-50 full account objects) needs a lot
+// of headroom. Chosen conservatively enough that most instruct models accept them
+// outright; a 400 citing the token limit is treated as retryable (see openrouter.ts) so
+// a stricter random pick on one attempt doesn't kill the whole run.
+export const BOOTSTRAP_MAX_TOKENS = envInt("GEN_BOOTSTRAP_MAX_TOKENS", 8000);
+export const ADVANCE_WORLD_MAX_TOKENS = envInt("GEN_ADVANCE_WORLD_MAX_TOKENS", 6000);
 // Base backoff delays (ms) before attempts 2..5; attempt 1 never waits. Jitter
 // is added on top by the retry loop. ~2/5/10/20s per ProjectSpecifications.md §14.
 export const BACKOFF_BASE_MS = [2000, 5000, 10000, 20000];
