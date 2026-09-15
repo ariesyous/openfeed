@@ -1,11 +1,21 @@
 :root {
+  color-scheme: dark;
+  --bg: #101215;
+  --surface: #191c21;
+  --border: #30353e;
+  --text: #e9edf3;
+  --text-muted: #a5aebb;
+  --accent: #bba1ff;
+  --accent-soft: #292338;
+}
+:root[data-theme="light"] {
   color-scheme: light;
   --bg: #f6f5f3;
   --surface: #ffffff;
   --border: #e6e3dd;
   --text: #1c1b19;
   --text-muted: #6b6862;
-  --accent: #8a4fff;
+  --accent: #6740bc;
   --accent-soft: #f1eaff;
 }
 
@@ -47,7 +57,7 @@ body {
 
 .transparency-banner {
   background: var(--accent-soft);
-  color: #4b2a99;
+  color: var(--accent);
   font-size: 0.82rem;
   text-align: center;
   padding: 0.45rem 1rem;
@@ -75,7 +85,7 @@ body {
 }
 
 .feed-status-error {
-  color: #b3261e;
+  color: #ee8f8f;
 }
 
 .feed-sentinel {
@@ -129,7 +139,7 @@ body {
 .post-card-community {
   display: inline-block;
   background: var(--accent-soft);
-  color: #4b2a99;
+  color: var(--accent);
   font-size: 0.72rem;
   font-weight: 600;
   padding: 0.15rem 0.5rem;
@@ -325,7 +335,7 @@ a:focus-visible {
 }
 .profile-card {
   background: var(--accent-soft);
-  border: 1px solid #daceef;
+  border: 1px solid var(--border);
   border-radius: 14px;
   padding: 1.2rem;
   margin-bottom: 1rem;
@@ -365,7 +375,7 @@ a:focus-visible {
   border: 0;
 }
 .post-card-community:hover {
-  background: #e6d9ff;
+  background: var(--border);
 }
 .post-kind {
   color: var(--text-muted);
@@ -442,5 +452,98 @@ a:focus-visible {
 @media (prefers-reduced-motion: reduce) {
   * {
     scroll-behavior: auto !important;
+  }
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.app-tagline {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-left: 0.6rem;
+}
+.theme-toggle {
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  background: var(--surface);
+  border-radius: 8px;
+  padding: 0.45rem 0.65rem;
+  font-size: 0.8rem;
+}
+.format-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0 0 1rem;
+}
+.format-tabs button {
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 0.45rem 0.8rem;
+  background: var(--surface);
+  color: var(--text-muted);
+  font-size: 0.82rem;
+}
+.format-tabs button[aria-pressed="true"] {
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-color: var(--accent);
+}
+.format-label {
+  color: var(--text-muted);
+  text-transform: uppercase;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin-right: 0.6rem;
+}
+.format-label--banter {
+  color: var(--accent);
+}
+.source-panel {
+  margin-top: 1rem;
+  border-top: 1px solid var(--border);
+  padding-top: 0.7rem;
+}
+.source-panel-label {
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  margin-bottom: 0.45rem;
+}
+.source-link {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+.source-link span:first-child {
+  color: var(--accent);
+  font-weight: 600;
+}
+.source-link:hover span:nth-child(2) {
+  text-decoration: underline;
+}
+.source-link time {
+  font-size: 0.7rem;
+}
+.post-card-title {
+  font-size: 1.14rem;
+  line-height: 1.35;
+  margin-top: 0.8rem;
+}
+.post-card-body {
+  line-height: 1.6;
+}
+@media (max-width: 480px) {
+  .app-tagline {
+    display: none;
   }
 }

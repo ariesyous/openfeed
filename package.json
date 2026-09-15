@@ -11,10 +11,11 @@
     "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.node.json",
     "lint": "eslint .",
     "test": "vitest run",
-    "seed": "tsx scripts/seed/generateSeedData.ts",
+    "seed:legacy": "tsx scripts/seed/generateSeedData.ts",
     "generate": "tsx generator/generate.ts"
   },
   "dependencies": {
+    "fast-xml-parser": "5.11.1",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
     "zod": "^4.6.5"
@@ -40,6 +41,8 @@
     "vitest": "^5.0.0"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["esbuild"]
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
   }
 }

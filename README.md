@@ -1,69 +1,55 @@
-# Dopamine Feed
+# OpenFeed
 
-A continuously evolving, entirely synthetic social-media feed. Every account, post, and
-discussion is AI-generated — there are no real people here. See
-[`ProjectSpecifications.md`](./ProjectSpecifications.md) for the full product and
-architecture specification.
+Useful reading about the real world: news, explainers, true stories, and clearly labelled
+AI-written banter. Dark mode is the default; an explicit light preference is saved locally.
 
-This repository has Phase 1 (Foundation) and Phase 2 (the Generator) built: a static
-frontend, and an OpenRouter-backed generator (`generator/`) that bootstraps and advances
-a persistent synthetic world. See [`AGENTS.md`](./AGENTS.md) for generator internals and
-current live-reliability status. The generator supports manual runs and an opt-in six-hour schedule; see Scheduled generation below.
+The frontend is static React/TypeScript on GitHub Pages. Generation happens offline in
+GitHub Actions through OpenRouter. The browser never receives API keys or calls a model.
 
-## Local development
+## Development
 
 ```bash
-pnpm install
-pnpm dev            # start the frontend at http://localhost:5173
+pnpm install --frozen-lockfile
+pnpm dev
 pnpm typecheck
 pnpm lint
 pnpm test
 pnpm build
-pnpm preview        # serve the production build locally
 ```
 
-## Seed data
+## Content pipeline
 
-The frontend reads from `public/data/manifest.json`, `public/data/accounts.json`, and
-`public/data/batches/*.json`. In Phase 1 these are generated deterministically (no LLM
-call) by:
+`pnpm generate` fetches RSS from the publishers configured in
+`generator/editorial/sources.ts` (initially BBC Technology, BBC World, and NASA).
+It uses dated publisher descriptions or bounded text supplied in the feed. This is not
+an unrestricted web search or a guarantee of comprehensive news coverage.
 
-```bash
-pnpm seed
-```
+The editor receives actual source packets, skips URLs already covered, and returns
+structured drafts. Validation checks source IDs, exact supporting excerpts, freshness,
+and duplicate coverage. Code attaches publisher links and dates. These checks prevent
+invented citations; they do not independently prove that every paraphrase is correct.
+The prompt requires the model to skip weak evidence and separate commentary from fact.
 
-This regenerates the checked-in sample data from `scripts/seed/`. Run it after changing
-the seed accounts or content templates.
+News sources must be no older than 72 hours; the intake window for other formats is
+seven days. Sources dated in the future, non-HTTPS/off-domain article URLs, unsafe XML,
+and oversized feeds are rejected. Failed feeds are skipped; if nothing publishable
+remains, the last edition stays online. Nothing is generated from model memory as a
+substitute for unavailable news. No simulated likes, views, or fictional commenters are
+shown for editorial posts.
 
-## Generator
+The checked-in launch edition contains five editorial examples prepared from retrieved
+sources. It demonstrates the new format; recurring model-generated editions still need
+live quality evaluation. Thin RSS descriptions may support only short briefs, not deep
+explainers. Full articles remain linked for context.
 
-```bash
-pnpm generate
-```
+Set `OPENROUTER_API_KEY` locally or as a repository secret. `OPENROUTER_MODEL` selects
+the model for local runs; manual Actions runs use the model dropdown. A six-hour schedule
+exists but stays disabled until `FEED_SCHEDULE_ENABLED=true`. Validate several manual
+editions for accuracy, variety, usefulness, and cost before enabling it.
 
-Calls OpenRouter to bootstrap (first run) or advance (every run after) the synthetic
-world by one generation cycle, validating everything before writing to
-`public/data/` and `generator/state/world.json`. Requires `OPENROUTER_API_KEY` in the
-environment — copy `.env.example` to `.env` for local development. See
-[`AGENTS.md`](./AGENTS.md) for how the two phases work, how to point it at a different
-model/provider via `OPENROUTER_MODEL`, and current known reliability notes.
+## Historical prototype
 
-## Feed polish
-
-The feed supports community filtering, character profiles, quoted reposts/reactions,
-comment previews, and recoverable pagination. New batches are checked every five minutes
-and shown only when the reader selects **Show new posts**. Profiles show published posts;
-load older posts to explore more history. Likes and other counts remain fictional,
-read-only engagement.
-
-Generation now includes each character's writing style and relationships. A fresh
-bootstrap replaces the prior world's batches instead of mixing unrelated populations.
-The original deterministic seed generator remains available for local development.
-
-### Scheduled generation
-
-The workflow includes a six-hour cadence, disabled unless the repository variable
-`FEED_SCHEDULE_ENABLED` is `true`. Before enabling it, run several manual cycles and
-check continuity, output quality, runtime, and provider cost. Set `OPENROUTER_MODEL`
-to the model verified by those runs; otherwise scheduled runs use `openrouter/free`.
-Manual dispatch continues to use its model selector. The API key stays in Actions secrets.
+The original fictional-world modules and deterministic fixture generator remain for
+reference and their unit tests. `pnpm seed:legacy` recreates fictional test fixtures and
+must not be used for the live editorial feed. The active entry point is
+`generator/generate.ts`, which uses only `generator/editorial/`.

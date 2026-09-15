@@ -1,7 +1,8 @@
 export function TransparencyBanner() {
   return (
     <div className="transparency-banner" role="note">
-      Everything here is AI-generated. None of these people are real.
+      Real sources. AI-written summaries and commentary. Open the originals for
+      full context.
     </div>
   );
 }

@@ -120,17 +120,25 @@ export function useFeed() {
     setLoading(true);
     setError(null);
     try {
-      const [accountData, batches] = await Promise.all([
+      const [accountData, manifestData, batches] = await Promise.all([
         fetchJson(dataUrl("accounts.json"), abort.signal),
+        fetchJson(manifestUrl(), abort.signal),
         Promise.all(fresh.map((b) => fetchBatch(b, abort.signal))),
       ]);
       const accountsFile = AccountsFileSchema.parse(accountData);
       if (abort.signal.aborted) return;
+      const currentManifest = ManifestSchema.parse(manifestData);
+      const retained = new Set(currentManifest.batches.map((b) => b.id));
+      const knownAuthors = new Set(accountsFile.map((a) => a.id));
+      setPending((current) => current.filter((b) => retained.has(b.id)));
       fresh.forEach((b) => loaded.current.add(b.id));
       newest.current = fresh[0].generatedAt;
       setAccounts(accountsFile);
       setItems((current) =>
-        [...batches.flat(), ...current].filter(
+        [
+          ...batches.flat(),
+          ...current.filter((item) => knownAuthors.has(item.authorId)),
+        ].filter(
           (item, index, all) =>
             all.findIndex((i) => i.id === item.id) === index,
         ),

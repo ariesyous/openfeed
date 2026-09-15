@@ -5,6 +5,7 @@ import { Avatar } from "./Avatar";
 
 export function FeedList() {
   const { sentinelRef, ...feed } = useFeed();
+  const [format, setFormat] = useState("");
   const [community, setCommunity] = useState("");
   const [authorId, setAuthorId] = useState("");
   const profileRef = useRef<HTMLElement>(null);
@@ -15,12 +16,14 @@ export function FeedList() {
   const itemsById = new Map(feed.items.map((i) => [i.id, i]));
   const visible = feed.items.filter(
     (i) =>
+      (!format || i.editorial?.format === format) &&
       (!community || i.community === community) &&
       (!authorId || i.authorId === authorId),
   );
   const openProfile = (id: string) => {
     setAuthorId(id);
     setCommunity("");
+    setFormat("");
     requestAnimationFrame(() => {
       profileRef.current?.focus();
       profileRef.current?.scrollIntoView({
@@ -45,11 +48,14 @@ export function FeedList() {
     <>
       <div className="feed-toolbar">
         <div>
-          <h1>Your window into another internet.</h1>
-          <p>Familiar faces. Small dramas. Entirely fictional.</p>
+          <h1>Leave with something worth knowing.</h1>
+          <p>
+            Fresh context, useful ideas, true stories, and a little
+            back-and-forth.
+          </p>
         </div>
         <label>
-          Explore a community
+          Explore a topic
           <select
             value={community}
             onChange={(e) => {
@@ -57,7 +63,7 @@ export function FeedList() {
               setAuthorId("");
             }}
           >
-            <option value="">All communities</option>
+            <option value="">All topics</option>
             {communities.map((c) => (
               <option key={c} value={c}>
                 {c.replaceAll("_", " ")}
@@ -103,11 +109,29 @@ export function FeedList() {
           </div>
           <p>{author.bio}</p>
           <p className="profile-interests">{author.interests.join(" · ")}</p>
-          <span className="profile-note">
-            Fictional character · Posts below
-          </span>
+          <span className="profile-note">AI-edited column · Posts below</span>
         </section>
       )}
+      <div className="format-tabs" aria-label="Reading format">
+        {[
+          ["", "All"],
+          ["news", "News"],
+          ["explainer", "Explained"],
+          ["story", "Stories"],
+          ["banter", "Banter"],
+        ].map(([value, label]) => (
+          <button
+            key={value}
+            aria-pressed={format === value}
+            onClick={() => {
+              setFormat(value);
+              setAuthorId("");
+            }}
+          >
+            {label}
+          </button>
+        ))}
+      </div>
       <div className="feed-list">
         {visible.map((item) => (
           <PostCard
@@ -127,7 +151,7 @@ export function FeedList() {
           <div className="feed-status">
             {feed.hasMore
               ? "No matching posts loaded yet. Explore older posts below."
-              : "No posts here yet. Try another community or return to the feed."}
+              : "No posts here yet. Try another topic or return to the feed."}
           </div>
         )}
         {feed.error && (
@@ -162,7 +186,7 @@ export function FeedList() {
         )}
         {!feed.hasMore && feed.items.length > 0 && (
           <div className="feed-status feed-status-end">
-            You're caught up. This world has more stories to tell.
+            You're caught up. More to read when new sources arrive.
           </div>
         )}
       </div>

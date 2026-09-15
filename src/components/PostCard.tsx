@@ -52,7 +52,9 @@ export function PostCard({
           >
             {displayName}
           </button>
-          <span className="post-card-handle">@{handle}</span>
+          <span className="post-card-handle">
+            {item.editorial ? "AI-edited column" : `@${handle}`}
+          </span>
         </div>
         <span className="post-card-time">
           {formatRelativeTime(item.createdAt)}
@@ -60,6 +62,20 @@ export function PostCard({
       </header>
 
       <div className="post-card-meta">
+        {item.editorial && (
+          <span
+            className={`format-label format-label--${item.editorial.format}`}
+          >
+            {
+              {
+                news: "News",
+                explainer: "Explained",
+                story: "True story",
+                banter: "Banter · Opinion",
+              }[item.editorial.format]
+            }
+          </span>
+        )}
         <button
           className="post-card-community"
           onClick={() => onCommunityClick?.(item.community)}
@@ -107,7 +123,38 @@ export function PostCard({
           )}
         </blockquote>
       )}
-      <EngagementBar engagement={item.engagement} />
+      {item.editorial ? (
+        <div className="source-panel">
+          <div className="source-panel-label">
+            {item.editorial.format === "banter"
+              ? "Generated commentary · Source context"
+              : "Based on publisher excerpts"}
+          </div>
+          {item.editorial.sources.map((source) => (
+            <a
+              key={source.url}
+              href={source.url}
+              target="_blank"
+              rel="noreferrer"
+              className="source-link"
+            >
+              <span>{source.publisher} ↗</span>
+              <span>{source.title}</span>
+              <time dateTime={source.publishedAt}>
+                Published{" "}
+                {new Date(source.publishedAt).toLocaleDateString(undefined, {
+                  month: "short",
+                  day: "numeric",
+                  year: "numeric",
+                  timeZone: "UTC",
+                })}
+              </time>
+            </a>
+          ))}
+        </div>
+      ) : (
+        <EngagementBar engagement={item.engagement} />
+      )}
 
       {!expanded && preview && (
         <div className="comment-preview">
@@ -132,7 +179,9 @@ export function PostCard({
             : `View discussion (${item.comments.length})`}
         </button>
       ) : (
-        <div className="post-card-no-comments">No comments yet</div>
+        !item.editorial && (
+          <div className="post-card-no-comments">No comments yet</div>
+        )
       )}
 
       {expanded && hasComments && (

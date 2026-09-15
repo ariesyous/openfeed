@@ -43,8 +43,27 @@ export const EngagementSchema = z.object({
 });
 export type Engagement = z.infer<typeof EngagementSchema>;
 
+export const FeedSourceSchema = z.object({
+  url: z
+    .string()
+    .url()
+    .refine((url) => url.startsWith("https://"), "Sources must use HTTPS"),
+  title: z.string().min(1).max(300),
+  publisher: z.string().min(1).max(80),
+  publishedAt: z.string().datetime(),
+  retrievedAt: z.string().datetime(),
+});
+export type FeedSource = z.infer<typeof FeedSourceSchema>;
+
 export const FeedItemSchema = z
   .object({
+    editorial: z
+      .object({
+        format: z.enum(["news", "explainer", "story", "banter"]),
+        sources: z.array(FeedSourceSchema).min(1).max(3),
+        basis: z.literal("publisher_excerpt"),
+      })
+      .optional(),
     id: z.string().min(1),
     kind: FeedItemKindSchema,
     authorId: z.string().min(1),
@@ -69,7 +88,11 @@ export const FeedItemSchema = z
         message: `feed items of kind "${item.kind}" must set referencedPostId`,
       });
     }
-    if (!mustReference && item.kind !== "link_preview" && item.referencedPostId) {
+    if (
+      !mustReference &&
+      item.kind !== "link_preview" &&
+      item.referencedPostId
+    ) {
       ctx.addIssue({
         code: "custom",
         path: ["referencedPostId"],
@@ -77,9 +100,8 @@ export const FeedItemSchema = z
       });
     }
 
-    const expectedMetaKind = mustReference || item.kind === "link_preview"
-      ? item.kind
-      : "generic";
+    const expectedMetaKind =
+      mustReference || item.kind === "link_preview" ? item.kind : "generic";
     if (item.meta.kind !== expectedMetaKind) {
       ctx.addIssue({
         code: "custom",
