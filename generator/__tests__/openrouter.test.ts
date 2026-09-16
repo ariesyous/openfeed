@@ -120,3 +120,18 @@ describe("callOpenRouter", () => {
     expect(result).toMatchObject({ ok: false, kind: "retryable" });
   });
 });
+
+it("distinguishes reasoning-only responses from missing choices without returning reasoning text", async () => {
+  const result = await callOpenRouter({...baseOpts, fetchImpl: async () => jsonResponse({
+    model: "free/model", choices: [{finish_reason: "length", message: {content: null, reasoning: "private reasoning"}}],
+  })});
+  expect(result).toMatchObject({ok: false, kind: "retryable"});
+  expect(JSON.stringify(result)).toContain("finish=length");
+  expect(JSON.stringify(result)).toContain("reasoning=true");
+  expect(JSON.stringify(result)).not.toContain("private reasoning");
+});
+
+it("reports provider errors embedded in a successful HTTP response", async () => {
+  const result = await callOpenRouter({...baseOpts, fetchImpl: async () => jsonResponse({error: {code: 503, message: "Provider unavailable"}})});
+  expect(result).toMatchObject({ok: false, kind: "retryable", reason: "provider error (503): Provider unavailable"});
+});

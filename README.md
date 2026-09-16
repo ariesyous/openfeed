@@ -88,3 +88,22 @@ Attempt logs include elapsed time, available resolved-model/finish metadata, and
 redacted validation/provider failure details. Malformed-JSON logs report completion size
 and finish reason without dumping the response. A successful run reports whether
 structured output was used. No live paid generation was performed to validate this change.
+
+
+### Numbered evidence for free-model reliability
+
+The active model response now selects `evidenceIds` from numbered source excerpts for
+each post and discussion turn. Code copies the original quotation and derives source
+IDs; the existing provenance, freshness, publisher, duplicate-coverage, and
+discussion-source checks still run. Unknown IDs or cross-source discussion citations
+are rejected. This removes exact quotation transcription from the model's job without
+treating a valid citation as proof of semantic correctness.
+
+Each request receives at most 16 sources, selected round-robin across available topics
+with richer excerpts preferred within each topic, and at most 12 numbered excerpts per
+source. Excerpts preserve original text and stay within 25 words/300 characters. The
+model must ground claims in these excerpts, not fill gaps from its memory.
+
+`openrouter/free` remains the default. Provider failures can still occur; diagnostics now
+distinguish absent choices, empty text with finish/reasoning/refusal metadata, and
+provider errors returned inside HTTP 200 responses. No raw reasoning is logged.
