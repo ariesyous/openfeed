@@ -3,6 +3,7 @@ import { z } from "zod";
 import { FeedItemSchema, type FeedItem } from "../../schemas";
 import { generateValidated, type ParseOutcome } from "../retry";
 import { ADVANCE_WORLD_MAX_TOKENS, ADVANCE_WORLD_TIMEOUT_MS } from "../config";
+import { prepareEvidence, type EvidenceEntry } from "./evidence";
 import { logEditorialAttempt } from "./diagnostics";
 import { FORMATS, TOPICS } from "./accounts";
 import type { SourcePacket } from "./sources";
@@ -38,12 +39,18 @@ const DraftSchema = z.object({
     )
     .max(EDITORIAL_MAX_POSTS),
 });
-// Strict structured output requires all object properties to be required. Nullable
-// transport fields represent omitted optional fields; local parsing normalizes them.
-const ResponseSchema = DraftSchema.extend({
-  posts: z.array(DraftSchema.shape.posts.element.extend({
+// Models select existing evidence IDs; only code copies quotations and source IDs.
+// Strict output uses required nullable properties for optional editorial fields.
+const EvidenceIds = z.array(z.string().min(1).max(40)).min(1).max(3);
+const ResponseSchema = z.object({
+  posts: z.array(DraftSchema.shape.posts.element.omit({
+    sourceIds: true, evidence: true, discussion: true,
+  }).extend({
     topic: z.enum(TOPICS).nullable(),
-    discussion: z.array(DiscussionTurn).min(2).max(4).nullable(),
+    evidenceIds: EvidenceIds,
+    discussion: z.array(DiscussionTurn.omit({ evidence: true }).extend({
+      evidenceIds: EvidenceIds,
+    })).min(2).max(4).nullable(),
     spoilers: z.boolean().nullable(),
   })).max(EDITORIAL_MAX_POSTS),
 });
@@ -122,6 +129,40 @@ export function validateDraft(
     ? { ok: false, issues }
     : { ok: true, value: parsed.data };
 }
+export function validateCitedDraft(
+  json: unknown,
+  evidenceById: Map<string, EvidenceEntry>,
+  packets: SourcePacket[],
+  now: Date,
+): ParseOutcome<Draft> {
+  const parsed = ResponseSchema.safeParse(json);
+  if (!parsed.success) return {
+    ok: false,
+    issues: parsed.error.issues.map((issue) => `${issue.path.join(".")}: ${issue.message}`),
+  };
+  const issues: string[] = [];
+  const resolve = (ids: string[], path: string) => ids.flatMap((id) => {
+    const entry = evidenceById.get(id);
+    if (!entry) { issues.push(`${path}: unknown evidence ID ${id}; select a supplied ID`); return []; }
+    return [entry];
+  });
+  const posts = parsed.data.posts.map((post, index) => {
+    const evidence = resolve(post.evidenceIds, `posts.${index}.evidenceIds`);
+    return {
+      ...post,
+      evidence,
+      sourceIds: [...new Set(evidence.map((entry) => entry.sourceId))],
+      discussion: post.discussion?.map((turn, turnIndex) => ({
+        ...turn,
+        evidence: resolve(turn.evidenceIds, `posts.${index}.discussion.${turnIndex}.evidenceIds`),
+      })),
+    };
+  });
+  if (issues.length) return { ok: false, issues };
+  // Same provenance, freshness, duplicate-coverage and discussion-source checks as before.
+  return validateDraft({ posts }, packets, now);
+}
+
 export function enrichEditorial(
   draft: Draft,
   packets: SourcePacket[],
@@ -178,6 +219,8 @@ export async function generateEditorial(
   dependencies: { fetchImpl?: typeof fetch; sleepImpl?: (ms: number) => Promise<void> } = {},
 ): Promise<FeedItem[]> {
   const started = Date.now();
+  const prepared = prepareEvidence(packets);
+  if (!prepared.sources.length) return [];
   const result = await generateValidated({
     ...dependencies,
     apiKey,
@@ -185,11 +228,11 @@ export async function generateEditorial(
     systemPrompt: readFileSync(new URL("./prompt.md", import.meta.url), "utf8"),
     initialUserPrompt: JSON.stringify({
       now: now.toISOString(),
-      sources: packets,
+      sources: prepared.sources,
       recentEditions,
       maxPosts: EDITORIAL_MAX_POSTS,
     }),
-    parse: (json) => validateDraft(json, packets, now),
+    parse: (json) => validateCitedDraft(json, prepared.evidenceById, packets, now),
     maxTokens: ADVANCE_WORLD_MAX_TOKENS,
     timeoutMs: ADVANCE_WORLD_TIMEOUT_MS,
     onAttempt: (info) => logEditorialAttempt(info, apiKey, Date.now() - started),

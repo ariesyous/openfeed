@@ -137,13 +137,27 @@ export async function callOpenRouter(opts: CallOpenRouterOptions): Promise<OpenR
     return { ok: false, kind: "retryable", reason: `failed to read response body: ${reason}` };
   }
 
-  const content = (json as { choices?: Array<{ message?: { content?: string } }> })?.choices?.[0]
-    ?.message?.content;
-  if (!content) {
-    return { ok: false, kind: "retryable", reason: "empty completion (no choices returned)" };
+  const envelope = json as {
+    model?: unknown;
+    error?: { code?: unknown; message?: unknown };
+    choices?: Array<{ finish_reason?: unknown; message?: { content?: unknown; refusal?: unknown; reasoning?: unknown } }>;
+  } | null;
+  if (envelope?.error) {
+    const code = envelope.error.code;
+    const message = typeof envelope.error.message === "string" ? envelope.error.message.slice(0, 300) : "unspecified error";
+    return { ok: false, kind: code === 402 ? "fatal" : "retryable", reason: `provider error (${String(code ?? "unknown")}): ${message}` };
   }
+  const modelUsed = typeof envelope?.model === "string" ? envelope.model : model;
+  const choice = Array.isArray(envelope?.choices) ? envelope.choices[0] : undefined;
+  if (!choice) return { ok: false, kind: "retryable", reason: "empty completion (no choices returned)" };
+  const finishReason = typeof choice.finish_reason === "string" ? choice.finish_reason : undefined;
+  const content = choice.message?.content;
+  if (typeof content !== "string" || !content.trim()) {
+    return {
+      ok: false, kind: "retryable",
+      reason: `empty completion (model=${modelUsed}; finish=${finishReason ?? "unknown"}; refusal=${Boolean(choice.message?.refusal)}; reasoning=${Boolean(choice.message?.reasoning)})`,
+    };
+  }
+  return { ok: true, content, modelUsed, ...(finishReason ? { finishReason } : {}) };
 
-  const modelUsed = (json as { model?: string })?.model ?? model;
-  const finishReason = (json as { choices?: Array<{ finish_reason?: unknown }> }).choices?.[0]?.finish_reason;
-  return { ok: true, content, modelUsed, ...(typeof finishReason === "string" ? { finishReason } : {}) };
 }

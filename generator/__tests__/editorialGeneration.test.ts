@@ -1,6 +1,7 @@
 // @vitest-environment node
 import { describe, expect, it, vi } from "vitest";
-import { EDITORIAL_JSON_SCHEMA, generateEditorial, validateDraft } from "../editorial/generate";
+import { EDITORIAL_JSON_SCHEMA, generateEditorial, validateCitedDraft } from "../editorial/generate";
+import { prepareEvidence } from "../editorial/evidence";
 import { logEditorialAttempt } from "../editorial/diagnostics";
 import type { SourcePacket } from "../editorial/sources";
 
@@ -13,7 +14,7 @@ const source: SourcePacket = {
 const post = {
   format: "news", title: "A cautious rollout", body: "The publisher describes a trial before a wider release.",
   topic: null, discussion: null, spoilers: null,
-  sourceIds: [source.id], evidence: [{sourceId: source.id, quote: "The new system will be tested"}],
+  evidenceIds: ["S1E1"],
 };
 const completion = (value: unknown) => new Response(JSON.stringify({
   model: "test/resolved-model", choices: [{finish_reason: "stop", message: {content: JSON.stringify(value)}}],
@@ -60,7 +61,7 @@ describe("editorial structured generation", () => {
       const fetchImpl: typeof fetch = async (_url, init) => {
         requests.push(JSON.parse(String(init?.body)));
         if (requests.length === 1) return new Response("response_format not supported", {status: 400});
-        if (requests.length === 2) return completion({posts: [{...post, evidence: [{sourceId: source.id, quote: "An invented unsupported quotation"}]}]});
+        if (requests.length === 2) return completion({posts: [{...post, evidenceIds: ["invented"]}]});
         return completion({posts: [post]});
       };
       const items = await generateEditorial("secret", [source], now, "test", [], {fetchImpl, sleepImpl: async () => {}});
@@ -68,13 +69,13 @@ describe("editorial structured generation", () => {
       expect(requests.map((r) => Boolean(r.response_format))).toEqual([true, false, false]);
       const log = logger.mock.calls.flat().join(" ");
       expect(log).toContain("unsupported_structured_output");
-      expect(log).toContain("Missing or unsupported evidence for source1");
+      expect(log).toContain("posts.0.evidenceIds: unknown evidence ID invented");
       expect(log).toContain("structured output: false");
     } finally { logger.mockRestore(); }
   });
 
   it("rejects oversized editions even when structured output is unavailable", () => {
-    const result = validateDraft({posts: Array.from({length: 5}, () => post)}, [source], now);
+    const result = validateCitedDraft({posts: Array.from({length: 5}, () => post)}, prepareEvidence([source]).evidenceById, [source], now);
     expect(result.ok).toBe(false);
     if (!result.ok) expect(result.issues.join(" ")).toContain("posts");
   });

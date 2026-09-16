@@ -70,3 +70,12 @@ same local evidence validation. Editions are capped at four posts. The user expl
 Scheduled configuration and enablement remain unchanged.
 Keep attempt diagnostics bounded and credential-redacted; log failure details and
 available resolved-model/finish metadata instead of dumping completions.
+
+
+## Numbered evidence
+Active editorial generation uses evidenceIds chosen from code-built verbatim snippets.
+`evidence.ts` bounds input to 16 sources across topics and 12 snippets per source.
+`validateCitedDraft` resolves IDs before calling the unchanged core evidence checks;
+model-supplied quotation text is not used. Keep unknown-ID and cross-source discussion
+checks strict. These checks prove provenance, not semantic entailment.
+Local tests use mocked provider responses; live free-router validation remains needed.
