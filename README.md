@@ -80,9 +80,9 @@ output fall back to plain JSON within the same five-attempt budget. Optional tra
 fields use null and normalize to omitted values before publication.
 
 Editions are limited to four posts. Manual Actions runs default to
-`google/gemini-3.8-flash`; `openrouter/free` remains selectable and the scheduled model
+`openrouter/free`; Gemini remains an optional selection and the scheduled model
 configuration is unchanged. After merging, run **Generate sourced feed** once on main
-with Gemini and inspect the resulting edition before enabling the schedule.
+with the default free router and inspect the resulting edition before enabling the schedule.
 
 Attempt logs include elapsed time, available resolved-model/finish metadata, and bounded,
 redacted validation/provider failure details. Malformed-JSON logs report completion size

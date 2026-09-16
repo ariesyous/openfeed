@@ -9,7 +9,7 @@ on:
       model:
         description: OpenRouter model to generate against
         type: choice
-        default: google/gemini-3.8-flash
+        default: openrouter/free
         options:
           - openrouter/free
           - google/gemini-3.8-flash
