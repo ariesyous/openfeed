@@ -17,12 +17,16 @@
     "https://www.bbc.co.uk/news/articles/cqx2zpj4y525o",
     "https://www.bbc.co.uk/news/articles/cmlyrn2n4zg5o",
     "https://www.nasa.gov/general/nasa-ames-stars-of-the-month-september-2026/",
-    "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching/"
+    "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching/",
+    "https://www.bbc.co.uk/news/articles/cvp8d00j9gg5o",
+    "https://plato.stanford.edu/entries/stoicism/",
+    "https://www.bfi.org.uk/sight-and-sound/reviews/many-saints-newark-cant-escape-baggage-sopranos",
+    "https://www.cbc.ca/news/canada/calgary/shaw-byelection-kyle-campbell-9.7345146?cmp=rss"
   ],
   "initialized": true,
-  "cycleCount": 4,
+  "cycleCount": 5,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-16T04:32:53.097Z",
+  "lastRunAt": "2026-09-16T13:54:18.245Z",
   "communities": [
     "technology",
     "science",
@@ -31,7 +35,8 @@
     "greek_roman_mythology",
     "philosophy",
     "economics",
-    "ai_agents"
+    "ai_agents",
+    "canada"
   ],
   "activeStorylines": [],
   "characters": [],
@@ -54,6 +59,11 @@
       "batchId": "20260916T043253Z-14b2",
       "generatedAtCycle": 4,
       "summary": "OpenAI CEO says fears of AI are justified but urges trust in firms; UK ad watchdog bans AI app ads that sexualise women; NASA Ames honors seven researchers for September 2026; How Amazon Bedrock prompt caching cuts AI costs"
+    },
+    {
+      "batchId": "20260916T135418Z-305e",
+      "generatedAtCycle": 5,
+      "summary": "Dozens missing after Gaza building collapse; Stoicism: Core Doctrines and Historical Overview; The Many Saints of Newark: A Semi‑Prequel Exploring Racism and Transformation; Calgary Byelection Flip Signals NDP’s Provincial Vision"
     }
   ]
 }

@@ -1,0 +1,188 @@
+{
+  "batchId": "20260916T135418Z-305e",
+  "generatedAt": "2026-09-16T13:54:18.245Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cvp8d00j9gg5o",
+            "title": "Eight children among 21 killed after war-damaged Gaza building collapses, rescuers say",
+            "publisher": "BBC World",
+            "publishedAt": "2026-09-16T13:28:46.000Z",
+            "retrievedAt": "2026-09-16T13:54:18.245Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Rescuers report dozens of people are missing beneath the rubble of a building hit by an Israeli strike last year, where some 10 families had been living."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The excerpt does not specify how many people died, only that dozens are missing, so the true casualty count remains unknown."
+          }
+        ]
+      },
+      "id": "post-20260916T135418Z-305e-0",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-16T13:54:18.245Z",
+      "community": "world",
+      "title": "Dozens missing after Gaza building collapse",
+      "body": "Rescuers report dozens of people are missing beneath the rubble of a building hit by an Israeli strike last year, where some 10 families had been living, indicating a significant human impact from the attack. The strike occurred after a period of heightened tension, and the building’s collapse has left the area unstable for rescue efforts.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/stoicism/",
+            "title": "Stoicism",
+            "publisher": "Stanford Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-16T13:54:18.245Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Stoicism was one of the dominant philosophical systems of the Hellenistic period, its name derived from the porch (stoa poikilē) in the Agora at Athens where the first generation of Stoic philosophers congregated and lectured."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The excerpt mentions the interlocking structure of physics, logic, and ethics, but does not specify how each component is prioritized."
+          },
+          {
+            "voice": "Context",
+            "body": "The Stoic school was founded around 300 BCE by Zeno of Citium, a voracious reader of Socratic dialogues, who also studied under the Cynic Crates and was influenced by the teachings of Plato’s Academy and the Megarian School."
+          }
+        ]
+      },
+      "id": "post-20260916T135418Z-305e-1",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-16T13:54:18.245Z",
+      "community": "philosophy",
+      "title": "Stoicism: Core Doctrines and Historical Overview",
+      "body": "Stoicism emerged as a dominant philosophical system in the Hellenistic period, its name derived from the covered porch (stoa poikilē) in the Athenian Agora where the first thinkers gathered. Founded around 300 BCE by Zeno of Citium, a student of Socratic dialogues and the Cynic Crates, the school blended physics, which describes the natural order of the universe, with logic, the tool for clear reasoning, and ethics, the guide to virtuous living. This interlocking structure shaped Roman thought and endured well beyond the Hellenistic era.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.bfi.org.uk/sight-and-sound/reviews/many-saints-newark-cant-escape-baggage-sopranos",
+            "title": "The Many Saints of Newark and the baggage of The Sopranos",
+            "publisher": "BFI",
+            "retrievedAt": "2026-09-16T13:54:18.245Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The film is set in 1967 and early 1970s, depicting Dickie Moltisanti, a mid‑level mobster, as Black gangsters begin to assert themselves against the Italian‑American community, reflecting broader societal change."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The narrative suggests the riots directly influence the characters, yet the source notes the riots are largely external to the film’s main characters."
+          },
+          {
+            "voice": "Context",
+            "body": "Dickie is Christopher Moltisanti’s father and an ‘uncle’ to Tony Soprano’s son, tying the story to the original series."
+          }
+        ]
+      },
+      "id": "post-20260916T135418Z-305e-2",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-16T13:54:18.245Z",
+      "community": "the_sopranos",
+      "title": "The Many Saints of Newark: A Semi‑Prequel Exploring Racism and Transformation",
+      "body": "The Many Saints of Newark is a semi‑prequel set in the summer of 1967 and a longer stretch in the early 1970s, offering a broader social canvas than any single Sopranos episode. Its central figure is Dickie Moltisanti, a glamorous mid‑level mobster who runs a low‑stakes numbers racket in North Jersey, part of the same crime family as Johnny and Corrado Soprano and the uncle to Tony Soprano’s son. While most of the family remains detached from their Black neighbours, some of Dickie’s runners are Black, including Harold, prompting a shift after the 1967 riots as Black gangsters begin to assert themselves against the Italian‑American community, with ironic consequences for the integrity of La Cosa Nostra.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/calgary/shaw-byelection-kyle-campbell-9.7345146?cmp=rss",
+            "title": "Alberta separatism, NDP's vision for province among reasons cited for Calgary byelection flip",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-15T21:55:51.000Z",
+            "retrievedAt": "2026-09-16T13:54:18.245Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Kyle Campbell’s NDP win turned a typically conservative Calgary‑Shaw riding orange, with some attributing the result to the party’s platform on health care and education."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Others argue the shift reflects the province’s separatist movement rather than policy positions, showing competing interpretations of the result."
+          }
+        ]
+      },
+      "id": "post-20260916T135418Z-305e-3",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-16T13:54:18.245Z",
+      "community": "canada",
+      "title": "Calgary Byelection Flip Signals NDP’s Provincial Vision",
+      "body": "The NDP’s Kyle Campbell won the Calgary‑Shaw byelection on Monday, turning a typically conservative riding orange. His victory is seen by some as a endorsement of the party’s vision for health care and education, while others link the result to the province’s separatist movement, highlighting competing narratives about the significance of the win.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
