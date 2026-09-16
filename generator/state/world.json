@@ -21,12 +21,16 @@
     "https://www.bbc.co.uk/news/articles/cvp8d00j9gg5o",
     "https://plato.stanford.edu/entries/stoicism/",
     "https://www.bfi.org.uk/sight-and-sound/reviews/many-saints-newark-cant-escape-baggage-sopranos",
-    "https://www.cbc.ca/news/canada/calgary/shaw-byelection-kyle-campbell-9.7345146?cmp=rss"
+    "https://www.cbc.ca/news/canada/calgary/shaw-byelection-kyle-campbell-9.7345146?cmp=rss",
+    "https://www.bbc.co.uk/news/articles/c2l799gxjjpo",
+    "https://www.nasa.gov/technology/space-comms/nasa-celebrates-restoration-of-guam-station-damaged-by-typhoon-mawar/",
+    "https://www.bfi.org.uk/lists/10-great-films-about-television",
+    "https://www.worldhistory.org/Roman_Mythology/"
   ],
   "initialized": true,
-  "cycleCount": 5,
+  "cycleCount": 6,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-16T13:54:18.245Z",
+  "lastRunAt": "2026-09-16T16:32:41.971Z",
   "communities": [
     "technology",
     "science",
@@ -36,7 +40,8 @@
     "philosophy",
     "economics",
     "ai_agents",
-    "canada"
+    "canada",
+    "movies"
   ],
   "activeStorylines": [],
   "characters": [],
@@ -64,6 +69,11 @@
       "batchId": "20260916T135418Z-305e",
       "generatedAtCycle": 5,
       "summary": "Dozens missing after Gaza building collapse; Stoicism: Core Doctrines and Historical Overview; The Many Saints of Newark: A Semi‑Prequel Exploring Racism and Transformation; Calgary Byelection Flip Signals NDP’s Provincial Vision"
+    },
+    {
+      "batchId": "20260916T163241Z-59da",
+      "generatedAtCycle": 6,
+      "summary": "How AI raises concerns about abuse and environmental impact; NASA restores Guam Remote Station after super typhoon damage; How cinema and television have shaped each other's evolution; What defines a myth in Roman tradition"
     }
   ]
 }

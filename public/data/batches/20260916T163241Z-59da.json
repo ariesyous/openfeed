@@ -1,0 +1,136 @@
+{
+  "batchId": "20260916T163241Z-59da",
+  "generatedAt": "2026-09-16T16:32:41.971Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c2l799gxjjpo",
+            "title": "What is AI, how does it work and why are some people concerned about it?",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-09-14T16:09:56.000Z",
+            "retrievedAt": "2026-09-16T16:32:41.971Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260916T163241Z-59da-0",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-16T16:32:41.971Z",
+      "community": "technology",
+      "title": "How AI raises concerns about abuse and environmental impact",
+      "body": "Artificial intelligence is transforming modern life, but worries have been raised about its potential for misuse and its effect on the environment. These concerns reflect broader questions about how powerful technologies can be directed toward harmful ends or generate unintended consequences.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/technology/space-comms/nasa-celebrates-restoration-of-guam-station-damaged-by-typhoon-mawar/",
+            "title": "NASA Celebrates Restoration of Guam Station Damaged by Typhoon Mawar",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-16T16:12:01.000Z",
+            "retrievedAt": "2026-09-16T16:32:41.971Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260916T163241Z-59da-1",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-16T16:32:41.971Z",
+      "community": "science",
+      "title": "NASA restores Guam Remote Station after super typhoon damage",
+      "body": "NASA restored its Guam Remote Station, holding a ribbon-cutting ceremony on September 10, 2026, after more than three years of recovery from Super Typhoon Mawar's 2023 devastation. The newly hardened central antenna is designed to withstand future super typhoons more powerful than Mawar with minimal damage, ensuring continued communications with the International Space Station.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.bfi.org.uk/lists/10-great-films-about-television",
+            "title": "10 great films about television",
+            "publisher": "BFI",
+            "retrievedAt": "2026-09-16T16:32:41.971Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260916T163241Z-59da-2",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-16T16:32:41.971Z",
+      "community": "movies",
+      "title": "How cinema and television have shaped each other's evolution",
+      "body": "The relationship between cinema and television has long been complicated, with each medium influencing the other. In response to television's rise, film studios developed new widescreen formats such as 3D, VistaVision and Cinerama. Later, satirist Tex Avery directed shorts that imagined future technologies, illustrating the medium's ongoing dialogue.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.worldhistory.org/Roman_Mythology/",
+            "title": "Roman Mythology",
+            "publisher": "World History Encyclopedia",
+            "retrievedAt": "2026-09-16T16:32:41.971Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260916T163241Z-59da-3",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-16T16:32:41.971Z",
+      "community": "greek_roman_mythology",
+      "title": "What defines a myth in Roman tradition",
+      "body": "Roman mythology, though heavily derived from Greek traditions, became a distinct cultural lens through which people understood their place in the world. Myths typically feature gods with human qualities, and a common theme is that individuals must face destiny and disorder with strength and nobility.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
