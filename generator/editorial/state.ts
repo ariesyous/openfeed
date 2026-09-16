@@ -1,3 +1,4 @@
+import { MAX_RECENT_BATCH_SUMMARIES } from "../config";
 import type { FeedItem } from "../../schemas";
 import { WorldStateSchema, type WorldState } from "../worldState";
 export function makeEditorialWorld(
@@ -31,7 +32,7 @@ export function makeEditorialWorld(
     currentTrends: [],
     unresolvedThreads: [],
     recentBatchSummaries: [
-      ...previous.recentBatchSummaries.slice(-5),
+      ...previous.recentBatchSummaries,
       {
         batchId: runId,
         generatedAtCycle: cycleCount,
@@ -40,6 +41,6 @@ export function makeEditorialWorld(
           .join("; ")
           .slice(0, 500),
       },
-    ],
+    ].slice(-MAX_RECENT_BATCH_SUMMARIES),
   });
 }
