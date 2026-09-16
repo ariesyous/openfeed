@@ -25,7 +25,7 @@ export interface CallOpenRouterOptions {
 }
 
 export type OpenRouterOutcome =
-  | { ok: true; content: string; modelUsed: string }
+  | { ok: true; content: string; modelUsed: string; finishReason?: string }
   | { ok: false; kind: "retryable"; reason: string; retryAfterMs?: number }
   | { ok: false; kind: "unsupported_structured_output"; reason: string }
   | { ok: false; kind: "fatal"; reason: string };
@@ -144,5 +144,6 @@ export async function callOpenRouter(opts: CallOpenRouterOptions): Promise<OpenR
   }
 
   const modelUsed = (json as { model?: string })?.model ?? model;
-  return { ok: true, content, modelUsed };
+  const finishReason = (json as { choices?: Array<{ finish_reason?: unknown }> }).choices?.[0]?.finish_reason;
+  return { ok: true, content, modelUsed, ...(typeof finishReason === "string" ? { finishReason } : {}) };
 }

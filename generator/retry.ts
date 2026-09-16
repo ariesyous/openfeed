@@ -27,7 +27,7 @@ export interface GenerateValidatedOptions<T> {
    * strings fed back to the model on retry. */
   parse: (json: unknown) => ParseOutcome<T>;
   maxAttempts?: number;
-  onAttempt?: (info: { attempt: number; outcomeKind: string; detail?: string }) => void;
+  onAttempt?: (info: { attempt: number; outcomeKind: string; detail?: string; modelUsed?: string; finishReason?: string }) => void;
   /** Injectable for tests, so retry/backoff tests don't actually sleep. */
   sleepImpl?: (ms: number) => Promise<void>;
   /** Passed through to callOpenRouter; injectable for tests. */
@@ -130,7 +130,11 @@ export async function generateValidated<T>(
         console.error(outcome.content);
         console.error("---RAW CONTENT END---");
       }
-      opts.onAttempt?.({ attempt, outcomeKind: "invalid_json" });
+      opts.onAttempt?.({
+        attempt, outcomeKind: "invalid_json", modelUsed: outcome.modelUsed,
+        finishReason: outcome.finishReason,
+        detail: `Completion was not valid JSON (${outcome.content.length} characters); finish reason: ${outcome.finishReason ?? "unknown"}`,
+      });
       userPrompt = appendCorrection(userPrompt, ["the response was not valid JSON"]);
       continue;
     }
@@ -140,13 +144,15 @@ export async function generateValidated<T>(
       opts.onAttempt?.({
         attempt,
         outcomeKind: "validation_failed",
+        modelUsed: outcome.modelUsed,
+        finishReason: outcome.finishReason,
         detail: parsed.issues.join("; "),
       });
       userPrompt = appendCorrection(userPrompt, parsed.issues);
       continue;
     }
 
-    opts.onAttempt?.({ attempt, outcomeKind: "success" });
+    opts.onAttempt?.({ attempt, outcomeKind: "success", modelUsed: outcome.modelUsed, finishReason: outcome.finishReason });
     return {
       value: parsed.value,
       attempts: attempt,

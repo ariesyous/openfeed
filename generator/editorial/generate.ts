@@ -3,8 +3,11 @@ import { z } from "zod";
 import { FeedItemSchema, type FeedItem } from "../../schemas";
 import { generateValidated, type ParseOutcome } from "../retry";
 import { ADVANCE_WORLD_MAX_TOKENS, ADVANCE_WORLD_TIMEOUT_MS } from "../config";
+import { logEditorialAttempt } from "./diagnostics";
 import { FORMATS, TOPICS } from "./accounts";
 import type { SourcePacket } from "./sources";
+
+export const EDITORIAL_MAX_POSTS = 4;
 
 const DiscussionTurn = z.object({
   voice: z.enum(["Take", "Pushback", "Reply", "Context"]),
@@ -17,11 +20,11 @@ const DraftSchema = z.object({
       z.object({
         format: z.enum(FORMATS),
         title: z.string().min(1).max(150),
-        topic: z.enum(TOPICS).optional(),
+        topic: z.enum(TOPICS).nullish().transform((value) => value ?? undefined).optional(),
         body: z.string().min(20).max(1800),
         sourceIds: z.array(z.string()).min(1).max(3),
-        discussion: z.array(DiscussionTurn).min(2).max(4).optional(),
-        spoilers: z.boolean().optional(),
+        discussion: z.array(DiscussionTurn).min(2).max(4).nullish().transform((value) => value ?? undefined).optional(),
+        spoilers: z.boolean().nullish().transform((value) => value ?? undefined).optional(),
         evidence: z
           .array(
             z.object({
@@ -33,8 +36,22 @@ const DraftSchema = z.object({
           .max(3),
       }),
     )
-    .max(8),
+    .max(EDITORIAL_MAX_POSTS),
 });
+// Strict structured output requires all object properties to be required. Nullable
+// transport fields represent omitted optional fields; local parsing normalizes them.
+const ResponseSchema = DraftSchema.extend({
+  posts: z.array(DraftSchema.shape.posts.element.extend({
+    topic: z.enum(TOPICS).nullable(),
+    discussion: z.array(DiscussionTurn).min(2).max(4).nullable(),
+    spoilers: z.boolean().nullable(),
+  })).max(EDITORIAL_MAX_POSTS),
+});
+export const EDITORIAL_JSON_SCHEMA = {
+  name: "editorial_edition",
+  schema: z.toJSONSchema(ResponseSchema),
+};
+
 type Draft = z.infer<typeof DraftSchema>;
 export function validateDraft(
   json: unknown,
@@ -158,20 +175,25 @@ export async function generateEditorial(
   now: Date,
   runId: string,
   recentEditions: string[] = [],
+  dependencies: { fetchImpl?: typeof fetch; sleepImpl?: (ms: number) => Promise<void> } = {},
 ): Promise<FeedItem[]> {
+  const started = Date.now();
   const result = await generateValidated({
+    ...dependencies,
     apiKey,
+    jsonSchema: EDITORIAL_JSON_SCHEMA,
     systemPrompt: readFileSync(new URL("./prompt.md", import.meta.url), "utf8"),
     initialUserPrompt: JSON.stringify({
       now: now.toISOString(),
       sources: packets,
       recentEditions,
+      maxPosts: EDITORIAL_MAX_POSTS,
     }),
     parse: (json) => validateDraft(json, packets, now),
     maxTokens: ADVANCE_WORLD_MAX_TOKENS,
     timeoutMs: ADVANCE_WORLD_TIMEOUT_MS,
-    onAttempt: ({ attempt, outcomeKind }) =>
-      console.log(`[editorial] attempt ${attempt}: ${outcomeKind}`),
+    onAttempt: (info) => logEditorialAttempt(info, apiKey, Date.now() - started),
   });
+  console.log(`[editorial] completed in ${result.attempts} attempt(s); structured output: ${result.usedStructuredOutput}`);
   return enrichEditorial(result.value, packets, now, runId);
 }
