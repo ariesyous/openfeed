@@ -1,8 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T02:06:16.366Z",
-  "latestRunId": "interests-discussion-sampler-2026-09-16",
+  "generatedAt": "2026-09-16T04:32:53.097Z",
+  "latestRunId": "20260916T043253Z-14b2",
   "batches": [
+    {
+      "id": "20260916T043253Z-14b2",
+      "generatedAt": "2026-09-16T04:32:53.097Z",
+      "file": "batches/20260916T043253Z-14b2.json",
+      "itemCount": 4
+    },
     {
       "id": "interests-discussion-sampler-2026-09-16",
       "generatedAt": "2026-09-16T02:06:16.366Z",

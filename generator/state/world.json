@@ -13,12 +13,16 @@
     "https://www.bfi.org.uk/sight-and-sound/features/tvs-crowd",
     "https://www.worldhistory.org/Greek_Mythology/",
     "https://plato.stanford.edu/entries/marcus-aurelius/",
-    "https://plato.stanford.edu/entries/economics/"
+    "https://plato.stanford.edu/entries/economics/",
+    "https://www.bbc.co.uk/news/articles/cqx2zpj4y525o",
+    "https://www.bbc.co.uk/news/articles/cmlyrn2n4zg5o",
+    "https://www.nasa.gov/general/nasa-ames-stars-of-the-month-september-2026/",
+    "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching/"
   ],
   "initialized": true,
-  "cycleCount": 3,
+  "cycleCount": 4,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-16T02:06:16.366Z",
+  "lastRunAt": "2026-09-16T04:32:53.097Z",
   "communities": [
     "technology",
     "science",
@@ -26,7 +30,8 @@
     "the_sopranos",
     "greek_roman_mythology",
     "philosophy",
-    "economics"
+    "economics",
+    "ai_agents"
   ],
   "activeStorylines": [],
   "characters": [],
@@ -44,6 +49,11 @@
       "batchId": "interests-discussion-sampler-2026-09-16",
       "generatedAtCycle": 3,
       "summary": "Is The Sopranos great because it looks like cinema—or because it doesn’t?; Greek mythology didn’t arrive as one tidy canon; Marcus Aurelius was writing reminders, not building a personal brand; Nobody has to intend the result for an economy to produce it"
+    },
+    {
+      "batchId": "20260916T043253Z-14b2",
+      "generatedAtCycle": 4,
+      "summary": "OpenAI CEO says fears of AI are justified but urges trust in firms; UK ad watchdog bans AI app ads that sexualise women; NASA Ames honors seven researchers for September 2026; How Amazon Bedrock prompt caching cuts AI costs"
     }
   ]
 }

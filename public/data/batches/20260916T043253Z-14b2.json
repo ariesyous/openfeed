@@ -1,0 +1,138 @@
+{
+  "batchId": "20260916T043253Z-14b2",
+  "generatedAt": "2026-09-16T04:32:53.097Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cqx2zpj4y525o",
+            "title": "OpenAI boss says world 'right to be afraid' but 'should trust' AI firms",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-09-16T00:59:20.000Z",
+            "retrievedAt": "2026-09-16T04:32:53.097Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260916T043253Z-14b2-0",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-16T04:32:53.097Z",
+      "community": "economics",
+      "title": "OpenAI CEO says fears of AI are justified but urges trust in firms",
+      "body": "Sam Altman and other tech CEOs acknowledge that incentives exist to limit AI advancements, warning that fears about threats to humanity are understandable while urging continued trust in AI companies to develop responsibly.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cmlyrn2n4zg5o",
+            "title": "AI app ads promoting 'objectification of women' banned by watchdog",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-09-15T23:27:17.000Z",
+            "retrievedAt": "2026-09-16T04:32:53.097Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260916T043253Z-14b2-1",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-16T04:32:53.097Z",
+      "community": "technology",
+      "title": "UK ad watchdog bans AI app ads that sexualise women",
+      "body": "The Advertising Standards Authority issued a zero‑tolerance ruling against promotions for AI tools that could sexualise or objectify women, ordering the ads to be removed immediately.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/general/nasa-ames-stars-of-the-month-september-2026/",
+            "title": "NASA Ames Stars of the Month: September 2026",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-15T23:46:11.000Z",
+            "retrievedAt": "2026-09-16T04:32:53.097Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260916T043253Z-14b2-2",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-16T04:32:53.097Z",
+      "community": "science",
+      "title": "NASA Ames honors seven researchers for September 2026",
+      "body": "The NASA Ames Science Directorate recognized employees across biosciences, astrophysics, planetary science and Earth science for their leadership in safety, instrument data analysis, crater simulations on Europa, GeoAI leadership and atmospheric remote‑sensing advances.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching/",
+            "title": "Optimizing cost and latency with Amazon Bedrock prompt caching",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-15T16:18:19.000Z",
+            "retrievedAt": "2026-09-16T04:32:53.097Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260916T043253Z-14b2-3",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-16T04:32:53.097Z",
+      "community": "ai_agents",
+      "title": "How Amazon Bedrock prompt caching cuts AI costs",
+      "body": "Prompt caching stores a snapshot of the processed input so later requests with the same prefix skip redundant work, cutting input token costs by up to 90 percent on cache hits while keeping model quality unchanged.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
