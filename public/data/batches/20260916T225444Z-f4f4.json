@@ -1,0 +1,152 @@
+{
+  "batchId": "20260916T225444Z-f4f4",
+  "generatedAt": "2026-09-16T22:54:44.265Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cwzrz4xmknjgo",
+            "title": "Charlie Kirk's family alleges 'stunning failures' by Utah officials led to his shooting",
+            "publisher": "BBC US & Canada",
+            "publishedAt": "2026-09-16T15:33:19.000Z",
+            "retrievedAt": "2026-09-16T22:54:44.265Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false
+      },
+      "id": "post-20260916T225444Z-f4f4-0",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-16T22:54:44.265Z",
+      "community": "united_states",
+      "title": "Charlie Kirk Shot During Campus Speech",
+      "body": "Charlie Kirk was speaking to a crowd of thousands on a university campus when a gunman positioned nearby shot and killed him.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/people-of-nasa/armstrong-people/passion-meets-precision-at-nasas-flight-research-lab/",
+            "title": "Passion Meets Precision at NASA’s Flight Research Lab",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-16T21:06:08.000Z",
+            "retrievedAt": "2026-09-16T22:54:44.265Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false
+      },
+      "id": "post-20260916T225444Z-f4f4-1",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-16T22:54:44.265Z",
+      "community": "science",
+      "title": "How NASA’s SPLICE System Aims for Precise Moon and Mars Landings",
+      "body": "The Safe and Precise Landing – Integrated Capabilities Evolution (SPLICE) experiment, installed on the Alta‑X drone, combines advanced guidance and navigation with hazard detection to help spacecraft touch down safely on the Moon or Mars and avoid obstacles during descent.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/sports/paralympics/canada-japan-quarterfinal-women-dandeneau-wheelchair-basketball-worlds-9.7346791?cmp=rss",
+            "title": "Dandeneau scores 49 points, leading unbeaten Canadian wheelchair basketball women to world semis",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-16T21:00:51.000Z",
+            "retrievedAt": "2026-09-16T22:54:44.265Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false
+      },
+      "id": "post-20260916T225444Z-f4f4-2",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-16T22:54:44.265Z",
+      "community": "canada",
+      "title": "Kady Dandeneau’s 49‑Point Lead Canada to Wheelchair Basketball Quarterfinal Win",
+      "body": "In the world championship women's wheelchair basketball quarterfinal, Kady Dandeneau of Pender Island, B.C., scored a game‑high 49 points as Canada defeated Japan 88‑68 to advance to the semifinals.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c7v48vp31mdo",
+            "title": "Trump downplays warnings of AI risks, citing rivalry with China",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-09-13T18:49:37.000Z",
+            "retrievedAt": "2026-09-16T22:54:44.265Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "He seems to think the worries are overblown and not worth serious attention."
+          },
+          {
+            "voice": "Pushback",
+            "body": "But dismissing the concerns could ignore real safety and ethical challenges that experts are studying."
+          }
+        ]
+      },
+      "id": "post-20260916T225444Z-f4f4-3",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-09-16T22:54:44.265Z",
+      "community": "technology",
+      "title": "Trump Dismisses AI Warnings as ‘Negative Forces’",
+      "body": "President Trump recently brushed off concerns about AI risks, calling them “negative forces” worrying about things that won’t happen.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}

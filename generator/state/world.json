@@ -29,12 +29,16 @@
     "https://www.bbc.co.uk/news/videos/c9dr7e1lr265o",
     "https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/",
     "https://science.nasa.gov/solar-system/moon/nasas-moon-orbiter-spots-new-once-in-century-moon-crater/",
-    "https://www.bbc.co.uk/news/videos/cmew984dq92lo"
+    "https://www.bbc.co.uk/news/videos/cmew984dq92lo",
+    "https://www.bbc.co.uk/news/articles/cwzrz4xmknjgo",
+    "https://www.nasa.gov/people-of-nasa/armstrong-people/passion-meets-precision-at-nasas-flight-research-lab/",
+    "https://www.cbc.ca/sports/paralympics/canada-japan-quarterfinal-women-dandeneau-wheelchair-basketball-worlds-9.7346791?cmp=rss",
+    "https://www.bbc.co.uk/news/articles/c7v48vp31mdo"
   ],
   "initialized": true,
-  "cycleCount": 7,
+  "cycleCount": 8,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-16T22:34:44.348Z",
+  "lastRunAt": "2026-09-16T22:54:44.265Z",
   "communities": [
     "technology",
     "science",
@@ -56,11 +60,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "interests-discussion-sampler-2026-09-16",
-      "generatedAtCycle": 3,
-      "summary": "Is The Sopranos great because it looks like cinema—or because it doesn’t?; Greek mythology didn’t arrive as one tidy canon; Marcus Aurelius was writing reminders, not building a personal brand; Nobody has to intend the result for an economy to produce it"
-    },
-    {
       "batchId": "20260916T043253Z-14b2",
       "generatedAtCycle": 4,
       "summary": "OpenAI CEO says fears of AI are justified but urges trust in firms; UK ad watchdog bans AI app ads that sexualise women; NASA Ames honors seven researchers for September 2026; How Amazon Bedrock prompt caching cuts AI costs"
@@ -79,6 +78,11 @@
       "batchId": "20260916T223444Z-3323",
       "generatedAtCycle": 7,
       "summary": "Leaked Photos Show Extent of Iranian Strikes on US Gulf Bases; Open‑Source Skills Close the Reasoning Gap for Health‑AI Agents; Orbiter Captures Once‑in‑Century Crater on the Moon; Singapore Seizes $2.2 B in Luxury Goods for Money‑Laundering Auction"
+    },
+    {
+      "batchId": "20260916T225444Z-f4f4",
+      "generatedAtCycle": 8,
+      "summary": "Charlie Kirk Shot During Campus Speech; How NASA’s SPLICE System Aims for Precise Moon and Mars Landings; Kady Dandeneau’s 49‑Point Lead Canada to Wheelchair Basketball Quarterfinal Win; Trump Dismisses AI Warnings as ‘Negative Forces’"
     }
   ]
 }
