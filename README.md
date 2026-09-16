@@ -70,3 +70,21 @@ turn must cite evidence from the post's sources. Plot spoilers require an explic
 The new four-post sampler was prepared from retrieved BFI, World History Encyclopedia,
 and Stanford Encyclopedia of Philosophy material. It illustrates the intended writing;
 recurring model quality still needs a manual generation run after merge.
+
+
+## Generation diagnostics and manual validation
+
+Editorial generation requests strict JSON-schema output and retains local citation,
+evidence, freshness, and publisher checks. Providers that explicitly reject structured
+output fall back to plain JSON within the same five-attempt budget. Optional transport
+fields use null and normalize to omitted values before publication.
+
+Editions are limited to four posts. Manual Actions runs default to
+`openrouter/free`; Gemini remains an optional selection and the scheduled model
+configuration is unchanged. After merging, run **Generate sourced feed** once on main
+with the default free router and inspect the resulting edition before enabling the schedule.
+
+Attempt logs include elapsed time, available resolved-model/finish metadata, and bounded,
+redacted validation/provider failure details. Malformed-JSON logs report completion size
+and finish reason without dumping the response. A successful run reports whether
+structured output was used. No live paid generation was performed to validate this change.

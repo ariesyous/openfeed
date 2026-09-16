@@ -140,3 +140,19 @@ describe("generateValidated", () => {
     expect(fetchImpl).toHaveBeenCalledTimes(3);
   });
 });
+
+it("reports malformed output with resolved model and truncation metadata without dumping content", async () => {
+  const onAttempt = vi.fn();
+  const fetchImpl = vi.fn(async () => jsonResponse({
+    model: "vendor/model", choices: [{finish_reason: "length", message: {content: '{"private-output":'}}],
+  }));
+  await expect(generateValidated({
+    ...baseOpts, fetchImpl, onAttempt, maxAttempts: 1,
+    parse: (json) => ({ok: true, value: json}),
+  })).rejects.toBeInstanceOf(GenerationFailedError);
+  expect(onAttempt).toHaveBeenCalledWith(expect.objectContaining({
+    outcomeKind: "invalid_json", modelUsed: "vendor/model", finishReason: "length",
+    detail: expect.stringContaining("finish reason: length"),
+  }));
+  expect(JSON.stringify(onAttempt.mock.calls)).not.toContain("private-output");
+});

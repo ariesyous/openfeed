@@ -60,3 +60,13 @@ from its post's attached sources; exact provenance is still not semantic verific
 Spoiler-marked bodies and discussions stay hidden until requested; titles must be safe.
 The interests-discussion sampler is a manually prepared, retrieved-source edition,
 not a live OpenRouter run. The evergreen shelf is finite and must be expanded as used.
+
+
+## Editorial generation reliability
+The editorial request carries a strict JSON schema derived from Zod; nullable transport
+fields normalize to optional draft values. Both structured and fallback output pass the
+same local evidence validation. Editions are capped at four posts. The user explicitly wants
+`openrouter/free` as the default. Keep it as the manual default; Gemini is optional.
+Scheduled configuration and enablement remain unchanged.
+Keep attempt diagnostics bounded and credential-redacted; log failure details and
+available resolved-model/finish metadata instead of dumping completions.

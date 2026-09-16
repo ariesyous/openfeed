@@ -10,7 +10,7 @@ Do not invent numbers, quotes, causes, outcomes, dates, or claims of consensus. 
 reported allegations and distinguish a publisher's report from an established fact.
 If an excerpt is too thin for a useful post, skip it. Fewer good posts beat filler.
 
-Choose up to eight posts, spread across topics and formats where the evidence supports it:
+Choose up to four posts, spread across topics and formats where the evidence supports it:
 
 - news: what actually changed, why it matters where supported, and what remains unknown.
   Only use sources published within the last 72 hours. No "breaking", "today", or "just announced".
@@ -29,7 +29,9 @@ Use your own wording, not long quotations. Distinguish inference with "could" or
 Maximum two posts from the same publisher per edition; use different sources for each post.
 Do not repeat recently covered URLs. No filler to satisfy a format quota.
 
-Return ONLY JSON:
+Return ONLY JSON. Include topic, discussion, and spoilers on every post; use null
+when an optional value does not apply. Never exceed maxPosts supplied in the request.
+Return shape (the attached JSON schema is authoritative):
 {"posts":[{"format":"news|explainer|story|banter","title":"specific title under 150 characters",
 "body":"plain text with optional paragraph breaks; no URLs",
 "sourceIds":["one to three exact packet IDs"],
