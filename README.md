@@ -53,3 +53,20 @@ The original fictional-world modules and deterministic fixture generator remain 
 reference and their unit tests. `pnpm seed:legacy` recreates fictional test fixtures and
 must not be used for the live editorial feed. The active entry point is
 `generator/generate.ts`, which uses only `generator/editorial/`.
+
+
+## Reading interests and discussions
+
+The feed now targets movies, The Sopranos, agentic AI, Canadian/US/world news,
+Greek and Roman mythology, philosophy, economics, and worthwhile discoveries.
+`generator/editorial/prompt.md` controls editorial selection and voice;
+`sources.ts` contains RSS sources and age windows; `evergreen.ts` contains a finite,
+reviewed shelf of background articles. Add more shelf entries as they are consumed.
+Unavailable or thin sources are skipped. Dates are never invented for undated readings.
+
+Posts may carry 2–4 labelled AI-generated perspectives with a preview and expandable
+exchange. These are interpretations/banter, not real public comments. Each generated
+turn must cite evidence from the post's sources. Plot spoilers require an explicit reveal.
+The new four-post sampler was prepared from retrieved BFI, World History Encyclopedia,
+and Stanford Encyclopedia of Philosophy material. It illustrates the intended writing;
+recurring model quality still needs a manual generation run after merge.

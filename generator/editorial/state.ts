@@ -23,7 +23,7 @@ export function makeEditorialWorld(
         ...items.flatMap((i) => i.editorial?.sources.map((s) => s.url) ?? []),
       ]),
     ].slice(-200),
-    communities: ["technology", "science", "world"],
+    communities: [...new Set([...previous.communities, ...items.map((item) => item.community)])],
     activeStorylines: [],
     characters: [],
     runningJokes: [],
@@ -31,6 +31,7 @@ export function makeEditorialWorld(
     currentTrends: [],
     unresolvedThreads: [],
     recentBatchSummaries: [
+      ...previous.recentBatchSummaries.slice(-5),
       {
         batchId: runId,
         generatedAtCycle: cycleCount,

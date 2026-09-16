@@ -26,7 +26,9 @@ is only for intentionally recreating the old development fixtures.
 ## Important behaviour
 
 Every editorial post has real source links, original publication dates, and a format.
-News requires sources within 72 hours. Other intake sources are at most seven days old.
+News requires sources within 72 hours. News-oriented RSS intake is at most seven days old; culture feeds have explicit longer windows.
+A bounded evergreen article shelf supports older criticism and reference material.
+Evergreen sources never qualify as news; missing publication dates stay unknown.
 Unknown source IDs, mismatched evidence quotes, duplicate coverage, unsupported URL
 schemes, and publisher-domain mismatches fail validation. Never fabricate sources as a
 fallback. An empty intake or empty editorial result preserves the existing feed.
@@ -44,3 +46,17 @@ Run `pnpm typecheck && pnpm lint && pnpm test && pnpm build` before pushing chan
 Never commit/log OPENROUTER_API_KEY or put it in frontend code. No model calls in browser.
 Model choice is configurable via OPENROUTER_MODEL (manual Actions uses its dropdown).
 All public/state writes must go through buildPublishPlan/writePublishPlan after validation.
+
+
+## Reader direction — September 16, 2026
+Movies, The Sopranos, agentic AI, Canada/US/world news, Greek and Roman mythology,
+philosophy, economics, interesting facts and stories. Prefer a varied reading mix,
+roughly half timely and half lasting material when supported. Recent edition summaries
+are passed into generation to discourage repeated angles.
+
+Editorial discussions are optional 2–4 AI-generated perspectives in editorial.discussion,
+not legacy comments, synthetic people, or fake engagement. Each draft turn has evidence
+from its post's attached sources; exact provenance is still not semantic verification.
+Spoiler-marked bodies and discussions stay hidden until requested; titles must be safe.
+The interests-discussion sampler is a manually prepared, retrieved-source edition,
+not a live OpenRouter run. The evergreen shelf is finite and must be expanded as used.

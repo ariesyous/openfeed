@@ -9,16 +9,24 @@
     "https://www.bbc.co.uk/news/articles/c9gk58xgng0vo",
     "https://www.bbc.co.uk/news/articles/c3vgyn49y4l7o",
     "https://science.nasa.gov/science-research/biological-physical-sciences/new-crops-health-research-proposals-to-help-nasa-advance-exploration/",
-    "https://science.nasa.gov/image-article/apod-2026-september-15-a-daytime-eclipse-moon-occults-venus/"
+    "https://science.nasa.gov/image-article/apod-2026-september-15-a-daytime-eclipse-moon-occults-venus/",
+    "https://www.bfi.org.uk/sight-and-sound/features/tvs-crowd",
+    "https://www.worldhistory.org/Greek_Mythology/",
+    "https://plato.stanford.edu/entries/marcus-aurelius/",
+    "https://plato.stanford.edu/entries/economics/"
   ],
   "initialized": true,
-  "cycleCount": 2,
+  "cycleCount": 3,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-15T22:22:13.472Z",
+  "lastRunAt": "2026-09-16T02:06:16.366Z",
   "communities": [
     "technology",
     "science",
-    "world"
+    "world",
+    "the_sopranos",
+    "greek_roman_mythology",
+    "philosophy",
+    "economics"
   ],
   "activeStorylines": [],
   "characters": [],
@@ -31,6 +39,11 @@
       "batchId": "20260915T222213Z-0690",
       "generatedAtCycle": 2,
       "summary": "Pentagon inspector confirms US munitions shortfalls linked to Iran war; Support acts exit Ed Sheeran tour following Macklemore's removal; How NASA plans to study crops and astronaut health for deep space missions; A daytime glimpse of Venus passing behind the Moon"
+    },
+    {
+      "batchId": "interests-discussion-sampler-2026-09-16",
+      "generatedAtCycle": 3,
+      "summary": "Is The Sopranos great because it looks like cinema—or because it doesn’t?; Greek mythology didn’t arrive as one tidy canon; Marcus Aurelius was writing reminders, not building a personal brand; Nobody has to intend the result for an economy to produce it"
     }
   ]
 }

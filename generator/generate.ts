@@ -25,7 +25,7 @@ async function main() {
     console.log("[editorial] No new usable sources; existing feed preserved.");
     return;
   }
-  const items = await generateEditorial(getApiKey(), sources, now, runId);
+  const items = await generateEditorial(getApiKey(), sources, now, runId, previous.recentBatchSummaries.map((batch) => batch.summary));
   if (!items.length) {
     console.log("[editorial] No publishable posts; existing feed preserved.");
     return;

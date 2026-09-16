@@ -1,0 +1,178 @@
+{
+  "batchId": "interests-discussion-sampler-2026-09-16",
+  "generatedAt": "2026-09-16T02:06:16.366Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.bfi.org.uk/sight-and-sound/features/tvs-crowd",
+            "title": "TV's a crowd",
+            "publisher": "BFI",
+            "retrievedAt": "2026-09-16T02:03:36.850Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A recognisable style sounds like a strength. You return to the same world, even when the director changes."
+          },
+          {
+            "voice": "Pushback",
+            "body": "But if every scene must fit the house style, what happens when a particular moment needs something stranger?"
+          },
+          {
+            "voice": "Reply",
+            "body": "Fair. The interesting distinction might be consistency that serves a scene versus consistency that merely protects the brand."
+          }
+        ]
+      },
+      "id": "post-interests-discussion-sampler-2026-09-16-0",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-16T02:06:16.366Z",
+      "community": "the_sopranos",
+      "title": "Is The Sopranos great because it looks like cinema—or because it doesn’t?",
+      "body": "A BFI essay makes a nicely irritating argument: The Sopranos has a coherent visual identity, but that identity belongs to the series rather than its individual episode directors. Its characters can pull us toward sympathy and disgust at once, yet its consistent house style may restrict what each director can do.\n\nThat leaves a worthwhile disagreement. Is consistency an artistic limitation, or part of what lets a long-running show become its own world? The critic leans toward the first answer. You don’t have to.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.worldhistory.org/Greek_Mythology/",
+            "title": "Greek Mythology",
+            "publisher": "World History Encyclopedia",
+            "retrievedAt": "2026-09-16T02:03:36.850Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The variations can be part of the thing you’re studying, rather than errors you need to eliminate."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Yes, but “oral tradition” shouldn’t become permission to assume every storyteller improvised freely. Familiar audiences could have expectations."
+          }
+        ]
+      },
+      "id": "post-interests-discussion-sampler-2026-09-16-1",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-16T02:06:16.366Z",
+      "community": "greek_roman_mythology",
+      "title": "Greek mythology didn’t arrive as one tidy canon",
+      "body": "Greek myths travelled through oral storytelling before taking written form in works associated with Homer and Hesiod. That makes the familiar question—“Which version is the real one?”—less straightforward than it sounds.\n\nWorld History Encyclopedia describes possible embellishment, local influences and stories mixing across communities. But it also adds a useful caution: a knowledgeable audience might resist someone casually rewriting a familiar tale. Think of a storytelling tradition negotiating between variation and recognition, rather than a single master document.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/marcus-aurelius/",
+            "title": "Marcus Aurelius",
+            "publisher": "Stanford Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-16T02:03:36.850Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "There’s something reassuring about reading philosophy as practice rather than a certificate of personal perfection."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Reassuring, yes—but struggling with an ideal doesn’t prove the ideal is right. It just makes the writer less remote."
+          }
+        ]
+      },
+      "id": "post-interests-discussion-sampler-2026-09-16-2",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-16T02:06:16.366Z",
+      "community": "philosophy",
+      "title": "Marcus Aurelius was writing reminders, not building a personal brand",
+      "body": "Meditations was written for Marcus Aurelius himself. The Stanford Encyclopedia of Philosophy describes a man repeatedly returning to problems such as mortality and irritation with other people, trying to put Stoic commitments into practice.\n\nThat changes how the repetitions read. They needn’t be evidence that he had effortlessly mastered life. They can be read as reminders of what he was still working on. A polished quotation gives you the conclusion; the repeated effort is often the more interesting part.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/economics/",
+            "title": "Philosophy of Economics",
+            "publisher": "Stanford Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-16T02:03:36.850Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A result can emerge without anyone sitting at a control panel choosing it."
+          },
+          {
+            "voice": "Pushback",
+            "body": "And calling a result unintended doesn’t tell us whether it’s good, fair, or worth changing. Those are further questions."
+          }
+        ]
+      },
+      "id": "post-interests-discussion-sampler-2026-09-16-3",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-16T02:06:16.366Z",
+      "community": "economics",
+      "title": "Nobody has to intend the result for an economy to produce it",
+      "body": "One useful economic habit is separating what people intend from what their combined actions produce. Stanford’s philosophy of economics entry uses Hume’s account of traders spending additional imported gold: their aim isn’t to raise the general price level, but their spending can contribute to that outcome.\n\nThe interesting move is from individual purposes to patterns nobody explicitly planned. It gives economics something to investigate beyond simply asking each person what they meant to do.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}

@@ -8,9 +8,12 @@
       "curious"
     ],
     "interests": [
-      "technology",
-      "science",
-      "world"
+      "ai_agents",
+      "canada",
+      "united_states",
+      "world",
+      "economics",
+      "technology"
     ],
     "writingStyle": {
       "formality": 0.5,
@@ -19,9 +22,12 @@
       "emojiUsage": "rare"
     },
     "communities": [
-      "technology",
-      "science",
-      "world"
+      "ai_agents",
+      "canada",
+      "united_states",
+      "world",
+      "economics",
+      "technology"
     ],
     "behavioralTendencies": {
       "positivity": 0.5,
@@ -30,7 +36,7 @@
     },
     "relationships": [],
     "activityLevel": "medium",
-    "createdAt": "2026-09-15T22:22:13.472Z"
+    "createdAt": "2026-09-16T02:06:16.366Z"
   },
   {
     "id": "editorial-explainer",
@@ -41,9 +47,12 @@
       "curious"
     ],
     "interests": [
-      "technology",
+      "philosophy",
+      "economics",
+      "greek_roman_mythology",
+      "ai_agents",
       "science",
-      "world"
+      "technology"
     ],
     "writingStyle": {
       "formality": 0.5,
@@ -52,9 +61,12 @@
       "emojiUsage": "rare"
     },
     "communities": [
-      "technology",
+      "philosophy",
+      "economics",
+      "greek_roman_mythology",
+      "ai_agents",
       "science",
-      "world"
+      "technology"
     ],
     "behavioralTendencies": {
       "positivity": 0.5,
@@ -63,7 +75,7 @@
     },
     "relationships": [],
     "activityLevel": "medium",
-    "createdAt": "2026-09-15T22:22:13.472Z"
+    "createdAt": "2026-09-16T02:06:16.366Z"
   },
   {
     "id": "editorial-story",
@@ -74,8 +86,11 @@
       "curious"
     ],
     "interests": [
-      "technology",
+      "movies",
+      "the_sopranos",
+      "greek_roman_mythology",
       "science",
+      "canada",
       "world"
     ],
     "writingStyle": {
@@ -85,8 +100,11 @@
       "emojiUsage": "rare"
     },
     "communities": [
-      "technology",
+      "movies",
+      "the_sopranos",
+      "greek_roman_mythology",
       "science",
+      "canada",
       "world"
     ],
     "behavioralTendencies": {
@@ -96,7 +114,7 @@
     },
     "relationships": [],
     "activityLevel": "medium",
-    "createdAt": "2026-09-15T22:22:13.472Z"
+    "createdAt": "2026-09-16T02:06:16.366Z"
   },
   {
     "id": "editorial-banter",
@@ -107,9 +125,12 @@
       "curious"
     ],
     "interests": [
-      "technology",
-      "science",
-      "world"
+      "movies",
+      "the_sopranos",
+      "ai_agents",
+      "economics",
+      "philosophy",
+      "technology"
     ],
     "writingStyle": {
       "formality": 0.5,
@@ -118,9 +139,12 @@
       "emojiUsage": "rare"
     },
     "communities": [
-      "technology",
-      "science",
-      "world"
+      "movies",
+      "the_sopranos",
+      "ai_agents",
+      "economics",
+      "philosophy",
+      "technology"
     ],
     "behavioralTendencies": {
       "positivity": 0.5,
@@ -129,6 +153,6 @@
     },
     "relationships": [],
     "activityLevel": "medium",
-    "createdAt": "2026-09-15T22:22:13.472Z"
+    "createdAt": "2026-09-16T02:06:16.366Z"
   }
 ]
