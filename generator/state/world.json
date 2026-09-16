@@ -33,12 +33,16 @@
     "https://www.bbc.co.uk/news/articles/cwzrz4xmknjgo",
     "https://www.nasa.gov/people-of-nasa/armstrong-people/passion-meets-precision-at-nasas-flight-research-lab/",
     "https://www.cbc.ca/sports/paralympics/canada-japan-quarterfinal-women-dandeneau-wheelchair-basketball-worlds-9.7346791?cmp=rss",
-    "https://www.bbc.co.uk/news/articles/c7v48vp31mdo"
+    "https://www.bbc.co.uk/news/articles/c7v48vp31mdo",
+    "https://www.bbc.co.uk/news/articles/cr3wjz3edd10o",
+    "https://www.nasa.gov/science-research/earth-science/nasa-watches-earths-weight-finds-center-of-mass/",
+    "https://www.cbc.ca/news/canada/toronto/ford-joly-stellantis-comments-9.7346721?cmp=rss",
+    "https://variety.com/2026/film/global/oscars-france-cannes-prizewinner-minotaur-international-race-1236864305/"
   ],
   "initialized": true,
-  "cycleCount": 8,
+  "cycleCount": 9,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-16T22:54:44.265Z",
+  "lastRunAt": "2026-09-16T23:45:01.537Z",
   "communities": [
     "technology",
     "science",
@@ -60,11 +64,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260916T043253Z-14b2",
-      "generatedAtCycle": 4,
-      "summary": "OpenAI CEO says fears of AI are justified but urges trust in firms; UK ad watchdog bans AI app ads that sexualise women; NASA Ames honors seven researchers for September 2026; How Amazon Bedrock prompt caching cuts AI costs"
-    },
-    {
       "batchId": "20260916T135418Z-305e",
       "generatedAtCycle": 5,
       "summary": "Dozens missing after Gaza building collapse; Stoicism: Core Doctrines and Historical Overview; The Many Saints of Newark: A Semi‑Prequel Exploring Racism and Transformation; Calgary Byelection Flip Signals NDP’s Provincial Vision"
@@ -83,6 +82,11 @@
       "batchId": "20260916T225444Z-f4f4",
       "generatedAtCycle": 8,
       "summary": "Charlie Kirk Shot During Campus Speech; How NASA’s SPLICE System Aims for Precise Moon and Mars Landings; Kady Dandeneau’s 49‑Point Lead Canada to Wheelchair Basketball Quarterfinal Win; Trump Dismisses AI Warnings as ‘Negative Forces’"
+    },
+    {
+      "batchId": "20260916T234501Z-3d6a",
+      "generatedAtCycle": 9,
+      "summary": "Snapchat boss signals daily time limits for teens; Why Earth's center of mass shifts with the seasons; Stellantis plant in Brampton could build a new model amid potential sale; France selects Cannes prize‑winner 'Minotaur' for Oscars"
     }
   ]
 }

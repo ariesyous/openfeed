@@ -1,0 +1,138 @@
+{
+  "batchId": "20260916T234501Z-3d6a",
+  "generatedAt": "2026-09-16T23:45:01.537Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cr3wjz3edd10o",
+            "title": "Snapchat 'willing to implement' daily time limits for teens, boss tells BBC",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-09-16T23:41:57.000Z",
+            "retrievedAt": "2026-09-16T23:45:01.537Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260916T234501Z-3d6a-0",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-16T23:45:01.537Z",
+      "community": "technology",
+      "title": "Snapchat boss signals daily time limits for teens",
+      "body": "Evan Spiegel has indicated that imposing daily time limits for teenage users would mark an important step forward for the industry, according to a BBC interview. The comment suggests Snapchat is open to implementing such restrictions, aligning the platform with broader concerns about screen time for younger audiences.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/science-research/earth-science/nasa-watches-earths-weight-finds-center-of-mass/",
+            "title": "NASA Watches Earth’s Weight, Finds Center of Mass",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-16T16:08:00.000Z",
+            "retrievedAt": "2026-09-16T23:45:01.537Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260916T234501Z-3d6a-1",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-16T23:45:01.537Z",
+      "community": "science",
+      "title": "Why Earth's center of mass shifts with the seasons",
+      "body": "Seasonal changes in water distribution—driven by thawing springs and varying ocean levels—cause Earth's center of mass to move relative to its geometric center. NASA scientists track these tiny displacements, which amount to fractions of an inch, using ultraprecise satellite techniques. Over time the wobble can reach several millimeters as water, ice, and atmospheric mass shift across the globe.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/toronto/ford-joly-stellantis-comments-9.7346721?cmp=rss",
+            "title": "Ford, Joly call on Stellantis to make new model at Brampton plant after automaker signals potential sale",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-16T20:39:23.000Z",
+            "retrievedAt": "2026-09-16T23:45:01.537Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260916T234501Z-3d6a-2",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-16T23:45:01.537Z",
+      "community": "canada",
+      "title": "Stellantis plant in Brampton could build a new model amid potential sale",
+      "body": "Ontario Premier Doug Ford and federal Industry Minister Mélanie Joly have called on Stellantis to resume production at its idled Brampton assembly plant, especially a new model. Their appeal follows a memorandum of understanding signed with Canadian armoured vehicle maker Roshel concerning a possible sale of the facility, signaling a potential revival for the site.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/oscars-france-cannes-prizewinner-minotaur-international-race-1236864305/",
+            "title": "Oscars: France Selects Cannes Prizewinner ‘Minotaur’ for International Feature Race",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-16T18:09:11.000Z",
+            "retrievedAt": "2026-09-16T23:45:01.537Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260916T234501Z-3d6a-3",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-16T23:45:01.537Z",
+      "community": "movies",
+      "title": "France selects Cannes prize‑winner 'Minotaur' for Oscars",
+      "body": "France’s Oscar committee has chosen Andrey Zvyagintsev’s Cannes Grand Prize film “Minotaur” to represent the country in the international feature film race. The decision followed auditions with producers and distributors behind the five shortlisted titles, which included Mubi, Neon and Sony Pictures Classics.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
