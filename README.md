@@ -43,9 +43,11 @@ live quality evaluation. Thin RSS descriptions may support only short briefs, no
 explainers. Full articles remain linked for context.
 
 Set `OPENROUTER_API_KEY` locally or as a repository secret. `OPENROUTER_MODEL` selects
-the model for local runs; manual Actions runs use the model dropdown. A six-hour schedule
-exists but stays disabled until `FEED_SCHEDULE_ENABLED=true`. Validate several manual
-editions for accuracy, variety, usefulness, and cost before enabling it.
+the model for local runs; manual Actions runs use the model dropdown. Scheduled runs
+are enabled at minute 17 of every hour (`17 * * * *`, UTC) and always use
+`openrouter/free`. Successful editions are committed and deployed automatically.
+Concurrency prevents overlapping generation jobs. The old `FEED_SCHEDULE_ENABLED`
+rollout gate is no longer used; pause automation by disabling the workflow in Actions.
 
 ## Historical prototype
 
@@ -80,9 +82,8 @@ output fall back to plain JSON within the same five-attempt budget. Optional tra
 fields use null and normalize to omitted values before publication.
 
 Editions are limited to four posts. Manual Actions runs default to
-`openrouter/free`; Gemini remains an optional selection and the scheduled model
-configuration is unchanged. After merging, run **Generate sourced feed** once on main
-with the default free router and inspect the resulting edition before enabling the schedule.
+`openrouter/free`; Gemini remains an optional manual selection. Hourly scheduled runs
+always use `openrouter/free`, independent of the repository model variable.
 
 Attempt logs include elapsed time, available resolved-model/finish metadata, and bounded,
 redacted validation/provider failure details. Malformed-JSON logs report completion size

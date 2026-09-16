@@ -1,9 +1,9 @@
 name: Generate sourced feed
 
-# Scheduled runs remain disabled until FEED_SCHEDULE_ENABLED is true.
+# Hourly generation enabled after successful live validation and user authorization.
 on:
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "17 * * * *"
   workflow_dispatch:
     inputs:
       model:
@@ -26,8 +26,6 @@ concurrency:
 
 jobs:
   generate:
-    # Enable after validating several manual cycles with the chosen model.
-    if: github.event_name != 'schedule' || vars.FEED_SCHEDULE_ENABLED == 'true'
     runs-on: ubuntu-latest
     # One editorial request per edition, with up to five bounded retries.
     # Source intake has its own short timeouts and skips unavailable feeds.
@@ -52,7 +50,7 @@ jobs:
       - name: Run generator
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          OPENROUTER_MODEL: ${{ inputs.model || vars.OPENROUTER_MODEL || 'openrouter/free' }}
+          OPENROUTER_MODEL: ${{ github.event_name == 'workflow_dispatch' && inputs.model || 'openrouter/free' }}
         run: pnpm generate
 
       - name: Commit and push if anything changed

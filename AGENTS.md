@@ -16,7 +16,7 @@ This direction supersedes the original fictional-world specification.
 - `editorial/generate.ts`: validates citations/evidence, enriches source metadata.
 - `editorial/state.ts`: tracks covered source URLs, never invented storylines.
 - `generator/publish.ts`: sole validated writer for public data and world state.
-- `.github/workflows/generate.yml`: manual plus opt-in six-hour schedule.
+- `.github/workflows/generate.yml`: manual plus enabled hourly schedule using openrouter/free.
 - `.github/workflows/deploy.yml`: validates, builds, and deploys pushes to main.
 
 The old bootstrap/advanceWorld modules and `scripts/seed/` are historical code, not the
@@ -37,8 +37,8 @@ quality and entailment still require review. Thin excerpts must not be padded wi
 unsourced facts. Banter is visibly generated commentary, not eyewitness testimony.
 
 The launch edition was prepared from retrieved source packets to demonstrate the new
-format. It is not evidence of successful recurring OpenRouter generations. Scheduling
-remains gated by `FEED_SCHEDULE_ENABLED`; do not enable it before live validation.
+format. It is not evidence of successful recurring OpenRouter generations. The user approved hourly scheduling after successful live run 35104908350;
+the former FEED_SCHEDULE_ENABLED rollout gate has been removed.
 
 ## Verification and credentials
 
@@ -67,7 +67,7 @@ The editorial request carries a strict JSON schema derived from Zod; nullable tr
 fields normalize to optional draft values. Both structured and fallback output pass the
 same local evidence validation. Editions are capped at four posts. The user explicitly wants
 `openrouter/free` as the default. Keep it as the manual default; Gemini is optional.
-Scheduled configuration and enablement remain unchanged.
+Scheduled runs are enabled hourly at minute 17 and pinned to `openrouter/free`.
 Keep attempt diagnostics bounded and credential-redacted; log failure details and
 available resolved-model/finish metadata instead of dumping completions.
 
@@ -78,4 +78,5 @@ Active editorial generation uses evidenceIds chosen from code-built verbatim sni
 `validateCitedDraft` resolves IDs before calling the unchanged core evidence checks;
 model-supplied quotation text is not used. Keep unknown-ID and cross-source discussion
 checks strict. These checks prove provenance, not semantic entailment.
-Local tests use mocked provider responses; live free-router validation remains needed.
+Local tests use mocked provider responses. Live free-router run 35104908350 and its
+deployment succeeded; continue monitoring recurring output quality.
