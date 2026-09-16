@@ -1,0 +1,138 @@
+{
+  "batchId": "20260916T223444Z-3323",
+  "generatedAt": "2026-09-16T22:34:44.348Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/videos/c9dr7e1lr265o",
+            "title": "Watch: Leaked photos reveal extensive damage at US bases in Gulf",
+            "publisher": "BBC US & Canada",
+            "publishedAt": "2026-09-16T21:24:24.000Z",
+            "retrievedAt": "2026-09-16T22:34:44.348Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260916T223444Z-3323-0",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-16T22:34:44.348Z",
+      "community": "united_states",
+      "title": "Leaked Photos Show Extent of Iranian Strikes on US Gulf Bases",
+      "body": "Leaked photos provided by active military personnel depict a devastated U.S. presence in the Gulf. A severed radar jet, flattened trailers and heavily damaged buildings are clear evidence of recent Iranian strikes on American bases.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/",
+            "title": "Improving HCLS AI reasoning with open-source agent skills",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-16T19:00:00.000Z",
+            "retrievedAt": "2026-09-16T22:34:44.348Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260916T223444Z-3323-1",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-16T22:34:44.348Z",
+      "community": "ai_agents",
+      "title": "Open‑Source Skills Close the Reasoning Gap for Health‑AI Agents",
+      "body": "AI agents built on foundation models often misapply health‑care decision frameworks even when they have the guidelines in front of them. A collection of 38 open‑source agent skills now supplies structured reasoning for 11 health domains, helping agents win 70‑86 % of head‑to‑head tests and closing the silent‑failure gap. The skills are packaged as markdown SKILL files, covering everything from genomics to claims operations.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/solar-system/moon/nasas-moon-orbiter-spots-new-once-in-century-moon-crater/",
+            "title": "NASA’s Moon Orbiter Spots New, ‘Once-in-Century’ Moon Crater",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-16T18:06:35.000Z",
+            "retrievedAt": "2026-09-16T22:34:44.348Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260916T223444Z-3323-2",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-16T22:34:44.348Z",
+      "community": "science",
+      "title": "Orbiter Captures Once‑in‑Century Crater on the Moon",
+      "body": "While scanning a Moon map, NASA’s Lunar Reconnaissance Orbiter scientist Robert Wagner spotted a bright spot surrounded by a dark halo—an unmistakable sign of recent impact. Follow‑up image comparison reveals the new crater is the largest ever found in the solar system, formed when a mountain‑sized rock struck the Moon between April 11 and May 22 2024. Scientists call it a once‑in‑century event.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/videos/cmew984dq92lo",
+            "title": "Handbags, jewels, watches: Inside Singapore's dirty money auction",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-09-16T22:13:36.000Z",
+            "retrievedAt": "2026-09-16T22:34:44.348Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260916T223444Z-3323-3",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-16T22:34:44.348Z",
+      "community": "economics",
+      "title": "Singapore Seizes $2.2 B in Luxury Goods for Money‑Laundering Auction",
+      "body": "Singapore police have moved $2.2 billion worth of illicit cash into the spotlight, seizing a trove of handbags, jewels and watches that are now on display inside a fortified storage facility for an upcoming auction. The case underscores the city‑state’s aggressive stance against high‑value money‑laundering operations.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
