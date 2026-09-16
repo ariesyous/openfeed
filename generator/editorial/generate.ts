@@ -3,17 +3,25 @@ import { z } from "zod";
 import { FeedItemSchema, type FeedItem } from "../../schemas";
 import { generateValidated, type ParseOutcome } from "../retry";
 import { ADVANCE_WORLD_MAX_TOKENS, ADVANCE_WORLD_TIMEOUT_MS } from "../config";
-import { FORMATS } from "./accounts";
+import { FORMATS, TOPICS } from "./accounts";
 import type { SourcePacket } from "./sources";
 
+const DiscussionTurn = z.object({
+  voice: z.enum(["Take", "Pushback", "Reply", "Context"]),
+  body: z.string().min(10).max(700),
+  evidence: z.array(z.object({sourceId: z.string(), quote: z.string().min(12).max(300)})).min(1).max(3),
+});
 const DraftSchema = z.object({
   posts: z
     .array(
       z.object({
         format: z.enum(FORMATS),
         title: z.string().min(1).max(150),
+        topic: z.enum(TOPICS).optional(),
         body: z.string().min(20).max(1800),
         sourceIds: z.array(z.string()).min(1).max(3),
+        discussion: z.array(DiscussionTurn).min(2).max(4).optional(),
+        spoilers: z.boolean().optional(),
         evidence: z
           .array(
             z.object({
@@ -65,8 +73,8 @@ export function validateDraft(
       );
       if ((publishers.get(source.publisher) ?? 0) > 2)
         issues.push(`Too many posts from ${source.publisher}`);
-      const age = now.getTime() - new Date(source.publishedAt).getTime();
-      if (post.format === "news" && (age < 0 || age > 72 * 3_600_000))
+      const age = now.getTime() - new Date(source.publishedAt ?? "").getTime();
+      if (post.format === "news" && (source.evergreen || !Number.isFinite(age) || age < 0 || age > 72 * 3_600_000))
         issues.push(`Source ${id} is not recent enough for news`);
       const evidence = post.evidence.find((e) => e.sourceId === id);
       if (
@@ -78,6 +86,17 @@ export function validateDraft(
         )
       )
         issues.push(`Missing or unsupported evidence for ${id}`);
+    }
+    for (const turn of post.discussion ?? []) {
+      if (/https?:\/\//i.test(turn.body)) issues.push("Discussion URLs must use attached sources");
+      for (const evidence of turn.evidence) {
+        const source = sources.get(evidence.sourceId);
+        if (!post.sourceIds.includes(evidence.sourceId) || !source ||
+          evidence.quote.trim().split(/\s+/).length > 25 ||
+          !(source.title.includes(evidence.quote) || source.excerpt.includes(evidence.quote))) {
+          issues.push("Discussion evidence must match an attached source excerpt");
+        }
+      }
     }
     if (post.evidence.some((e) => !post.sourceIds.includes(e.sourceId)))
       issues.push("Evidence must match attached sources");
@@ -102,7 +121,7 @@ export function enrichEditorial(
       id: `post-${runId}-${index}`,
       kind: "text_post",
       authorId: `editorial-${post.format}`,
-      community: selected[0].topic,
+      community: post.topic ?? selected[0].topic,
       title: post.title,
       body: post.body,
       createdAt: now.toISOString(),
@@ -118,6 +137,8 @@ export function enrichEditorial(
       editorial: {
         format: post.format,
         basis: "publisher_excerpt",
+        spoilers: post.spoilers,
+        discussion: post.discussion?.map(({voice, body}) => ({voice, body})),
         sources: selected.map(
           ({ url, title, publisher, publishedAt, retrievedAt }) => ({
             url,
@@ -136,6 +157,7 @@ export async function generateEditorial(
   packets: SourcePacket[],
   now: Date,
   runId: string,
+  recentEditions: string[] = [],
 ): Promise<FeedItem[]> {
   const result = await generateValidated({
     apiKey,
@@ -143,6 +165,7 @@ export async function generateEditorial(
     initialUserPrompt: JSON.stringify({
       now: now.toISOString(),
       sources: packets,
+      recentEditions,
     }),
     parse: (json) => validateDraft(json, packets, now),
     maxTokens: ADVANCE_WORLD_MAX_TOKENS,

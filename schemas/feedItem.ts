@@ -50,7 +50,7 @@ export const FeedSourceSchema = z.object({
     .refine((url) => url.startsWith("https://"), "Sources must use HTTPS"),
   title: z.string().min(1).max(300),
   publisher: z.string().min(1).max(80),
-  publishedAt: z.string().datetime(),
+  publishedAt: z.string().datetime().optional(),
   retrievedAt: z.string().datetime(),
 });
 export type FeedSource = z.infer<typeof FeedSourceSchema>;
@@ -62,6 +62,11 @@ export const FeedItemSchema = z
         format: z.enum(["news", "explainer", "story", "banter"]),
         sources: z.array(FeedSourceSchema).min(1).max(3),
         basis: z.literal("publisher_excerpt"),
+        spoilers: z.boolean().optional(),
+        discussion: z.array(z.object({
+          voice: z.enum(["Take", "Pushback", "Reply", "Context"]),
+          body: z.string().min(10).max(700),
+        })).min(2).max(4).optional(),
       })
       .optional(),
     id: z.string().min(1),

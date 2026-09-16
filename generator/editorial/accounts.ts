@@ -1,5 +1,12 @@
 import { AccountSchema } from "../../schemas";
 export const FORMATS = ["news", "explainer", "story", "banter"] as const;
+export const TOPICS = ["movies", "the_sopranos", "ai_agents", "canada", "united_states", "world", "greek_roman_mythology", "philosophy", "economics", "science", "technology"] as const;
+const columnTopics = {
+  news: ["ai_agents", "canada", "united_states", "world", "economics", "technology"],
+  explainer: ["philosophy", "economics", "greek_roman_mythology", "ai_agents", "science", "technology"],
+  story: ["movies", "the_sopranos", "greek_roman_mythology", "science", "canada", "world"],
+  banter: ["movies", "the_sopranos", "ai_agents", "economics", "philosophy", "technology"],
+};
 const names = {
   news: "The Brief",
   explainer: "Explained",
@@ -17,14 +24,14 @@ export function editorialAccounts(now: Date) {
           ? "AI-written commentary on real topics. Opinions and jokes, not eyewitness accounts."
           : "An AI-edited reading column grounded in linked publisher excerpts. Open the original for full context.",
       personalityTraits: ["curious"],
-      interests: ["technology", "science", "world"],
+      interests: columnTopics[format],
       writingStyle: {
         formality: 0.5,
         avgPostLength: "variable",
         quirks: [],
         emojiUsage: "rare",
       },
-      communities: ["technology", "science", "world"],
+      communities: columnTopics[format],
       behavioralTendencies: {
         positivity: 0.5,
         controversialTake: 0,

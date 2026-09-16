@@ -547,3 +547,8 @@ a:focus-visible {
     display: none;
   }
 }
+
+.editorial-discussion { margin: 1rem 0; padding: 1rem; border-left: 2px solid var(--text-muted, #858a98); background: rgba(128,128,128,.06); border-radius: 6px; }
+.editorial-discussion-turn + .editorial-discussion-turn { margin-top: 1rem; padding-top: .8rem; border-top: 1px solid rgba(128,128,128,.2); }
+.editorial-discussion-turn strong { font-size: .8rem; }
+.editorial-discussion-turn p { margin: .3rem 0 0; white-space: pre-wrap; line-height: 1.6; }

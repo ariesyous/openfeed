@@ -21,6 +21,9 @@ export function PostCard({
   onCommunityClick,
 }: PostCardProps) {
   const [expanded, setExpanded] = useState(false);
+  const [showSpoilers, setShowSpoilers] = useState(false);
+  const discussion = item.editorial?.discussion ?? [];
+  const hiddenSpoilers = item.editorial?.spoilers && !showSpoilers;
   const author = accountsById.get(item.authorId);
   const displayName = author?.displayName ?? "Unknown";
   const handle = author?.handle ?? "unknown";
@@ -85,7 +88,23 @@ export function PostCard({
       </div>
 
       {item.title && <h3 className="post-card-title">{item.title}</h3>}
-      <p className="post-card-body">{item.body}</p>
+      {hiddenSpoilers ? (
+        <button className="post-card-toggle" onClick={() => setShowSpoilers(true)}>Show spoilers</button>
+      ) : <p className="post-card-body">{item.body}</p>}
+
+      {!hiddenSpoilers && discussion.length > 0 && (
+        <section className="editorial-discussion" aria-label="AI-generated discussion">
+          <div className="source-panel-label">AI-generated discussion · Different perspectives</div>
+          {(expanded ? discussion : discussion.slice(0, 1)).map((turn, index) => (
+            <div className="editorial-discussion-turn" key={index}>
+              <strong>{turn.voice}</strong><p>{turn.body}</p>
+            </div>
+          ))}
+          <button type="button" className="post-card-toggle" aria-expanded={expanded} onClick={() => setExpanded((value) => !value)}>
+            {expanded ? "Hide discussion" : `Read discussion (${discussion.length})`}
+          </button>
+        </section>
+      )}
 
       {item.meta.kind === "link_preview" && (
         <a
@@ -140,7 +159,7 @@ export function PostCard({
             >
               <span>{source.publisher} ↗</span>
               <span>{source.title}</span>
-              <time dateTime={source.publishedAt}>
+              {source.publishedAt ? <time dateTime={source.publishedAt}>
                 Published{" "}
                 {new Date(source.publishedAt).toLocaleDateString(undefined, {
                   month: "short",
@@ -148,7 +167,7 @@ export function PostCard({
                   year: "numeric",
                   timeZone: "UTC",
                 })}
-              </time>
+              </time> : <span>Background reading · Publication date unavailable</span>}
             </a>
           ))}
         </div>

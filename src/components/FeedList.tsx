@@ -11,7 +11,7 @@ export function FeedList() {
   const profileRef = useRef<HTMLElement>(null);
   const author = feed.accountsById.get(authorId);
   const communities = [
-    ...new Set([...feed.accountsById.values()].flatMap((a) => a.communities)),
+    ...new Set([...feed.accountsById.values()].flatMap((a) => a.communities).concat(feed.items.map((item) => item.community))),
   ].sort();
   const itemsById = new Map(feed.items.map((i) => [i.id, i]));
   const visible = feed.items.filter(

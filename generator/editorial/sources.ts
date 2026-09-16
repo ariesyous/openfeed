@@ -1,5 +1,6 @@
 import { createHash } from "node:crypto";
 import { XMLParser } from "fast-xml-parser";
+import { collectEvergreen } from "./evergreen";
 import type { FeedSource } from "../../schemas";
 
 export interface SourceFeed {
@@ -7,6 +8,7 @@ export interface SourceFeed {
   url: string;
   hosts: string[];
   topic: string;
+  maxAgeDays?: number;
 }
 export const SOURCE_FEEDS: SourceFeed[] = [
   {
@@ -27,14 +29,22 @@ export const SOURCE_FEEDS: SourceFeed[] = [
     hosts: ["bbc.co.uk", "bbc.com"],
     topic: "world",
   },
+  { publisher: "Global News Canada", url: "https://globalnews.ca/canada/feed/", hosts: ["globalnews.ca"], topic: "canada" },
+  { publisher: "CBC Canada", url: "https://www.cbc.ca/webfeed/rss/rss-canada", hosts: ["cbc.ca"], topic: "canada" },
+  { publisher: "BBC US & Canada", url: "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml", hosts: ["bbc.co.uk", "bbc.com"], topic: "united_states" },
+  { publisher: "OpenAI", url: "https://openai.com/news/rss.xml", hosts: ["openai.com"], topic: "ai_agents" },
+  { publisher: "AWS Machine Learning", url: "https://aws.amazon.com/blogs/machine-learning/feed/", hosts: ["aws.amazon.com"], topic: "ai_agents" },
+  { publisher: "Variety Film", url: "https://variety.com/v/film/feed/", hosts: ["variety.com"], topic: "movies", maxAgeDays: 30 },
+  { publisher: "Aeon", url: "https://aeon.co/feed.rss", hosts: ["aeon.co"], topic: "philosophy", maxAgeDays: 90 },
+  { publisher: "BBC Business", url: "https://feeds.bbci.co.uk/news/business/rss.xml", hosts: ["bbc.co.uk", "bbc.com"], topic: "economics" },
 ];
 export interface SourcePacket extends FeedSource {
+  evergreen?: boolean;
   id: string;
   excerpt: string;
   topic: string;
 }
 const MAX_BYTES = 1_000_000;
-const MAX_AGE = 7 * 24 * 60 * 60_000;
 
 export function plainText(input: unknown): string {
   if (typeof input !== "string") return "";
@@ -90,7 +100,7 @@ export function parseSourceFeed(
       continue;
     if (
       published.getTime() > now.getTime() ||
-      now.getTime() - published.getTime() > MAX_AGE
+      now.getTime() - published.getTime() > (feed.maxAgeDays ?? 7) * 24 * 60 * 60_000
     )
       continue;
     let url: URL;
@@ -125,10 +135,10 @@ export function parseSourceFeed(
     });
   }
   return packets
-    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+    .sort((a, b) => b.publishedAt!.localeCompare(a.publishedAt!))
     .slice(0, 8);
 }
-async function readBounded(response: Response): Promise<string> {
+export async function readBounded(response: Response): Promise<string> {
   if (!response.ok || !response.body)
     throw new Error(`RSS request failed (${response.status})`);
   const reader = response.body.getReader();
@@ -173,5 +183,6 @@ export async function collectSources(
         `[sources] ${SOURCE_FEEDS[index].publisher} unavailable; skipping`,
       );
   });
+  packets.push(...await collectEvergreen(now, fetchImpl));
   return [...new Map(packets.map((p) => [p.url, p])).values()];
 }

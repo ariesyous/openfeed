@@ -130,3 +130,24 @@ describe("PostCard", () => {
     expect(screen.getByText("@unknown")).toBeInTheDocument();
   });
 });
+
+
+it("previews labelled generated perspectives and hides plot spoilers until requested", () => {
+  render(<PostCard accountsById={new Map([[account.id, account]])} item={{...item, comments: [], editorial: {
+    format: "explainer", basis: "publisher_excerpt", spoilers: true,
+    sources: [{url: "https://example.com/criticism", title: "Film criticism", publisher: "Film journal", retrievedAt: "2026-09-16T00:00:00Z"}],
+    discussion: [{voice: "Take", body: "One interpretation of the scene."}, {voice: "Pushback", body: "Another way to read the scene."}],
+  }}} />);
+  expect(screen.queryByText(item.body)).not.toBeInTheDocument();
+  expect(screen.queryByText("One interpretation of the scene.")).not.toBeInTheDocument();
+  expect(screen.getByText(/Publication date unavailable/)).toBeInTheDocument();
+  fireEvent.click(screen.getByRole("button", {name: "Show spoilers"}));
+  expect(screen.getByText(item.body)).toBeInTheDocument();
+  expect(screen.getByText("AI-generated discussion · Different perspectives")).toBeInTheDocument();
+  expect(screen.getByText("One interpretation of the scene.")).toBeInTheDocument();
+  expect(screen.queryByText("Another way to read the scene.")).not.toBeInTheDocument();
+  fireEvent.click(screen.getByRole("button", {name: "Read discussion (2)"}));
+  expect(screen.getByText("Another way to read the scene.")).toBeInTheDocument();
+  fireEvent.click(screen.getByRole("button", {name: "Hide discussion"}));
+  expect(screen.queryByText("Another way to read the scene.")).not.toBeInTheDocument();
+});
