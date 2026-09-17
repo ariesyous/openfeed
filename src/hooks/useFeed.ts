@@ -100,7 +100,7 @@ export function useFeed(topic = "") {
       let remaining = pending;
       let cursor = olderManifest;
       const visited = new Set<string>();
-      while (!remaining.length && cursor) {
+      while (!remaining.length && cursor && visited.size < 5) {
         if (visited.has(cursor)) throw new Error("Cyclic archive index");
         visited.add(cursor);
         const page = ManifestSchema.parse(await fetchJson(dataUrl(cursor), abort.signal));
@@ -109,7 +109,7 @@ export function useFeed(topic = "") {
       }
       if (abort.signal.aborted) return;
       const next = remaining[0];
-      if (!next) { setPending([]); setOlderManifest(undefined); return; }
+      if (!next) { setPending([]); setOlderManifest(cursor); return; }
       const batchItems = await fetchBatch(next, abort.signal);
       if (abort.signal.aborted) return;
       loaded.current.add(next.id);

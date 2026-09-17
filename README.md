@@ -144,3 +144,32 @@ estimates, review thresholds and the post-merge reading trial.
 Topic IDs and URL slugs live in `shared/topics.ts`, shared with generation. Keep
 existing IDs stable when changing labels. `pnpm build` emits the topic pages and
 indexes into `dist`; Vite development uses the source manifest and filters locally.
+
+## Card mode
+
+Choose **Cards** in the header, or open `/openfeed/?view=cards`, to browse the same
+posts one at a time. Card mode uses the original title and body without rewriting,
+truncation or a separate generation step. It browses all topics, including when
+entered from a topic page. Sources remain linked; article links open the full page
+and its discussion. Back restores the active card.
+
+Swipe/drag left for **Different topic**, right for **Next**, or use the labelled
+buttons and keyboard arrows. Mouse dragging works from the card header/background;
+body text remains selectable. **Undo** (or Z) restores an accidental advance;
+Escape or **Feed** returns to the normal feed. Right is not a like, and left does
+not permanently mute anything.
+
+Cards occupy the available viewport with no page or internal scrolling. Original
+copy stays readable; if a post cannot fit at the current screen/text size, an
+explicit notice links to the article instead of showing clipped text. This card
+is not recorded as seen until it can actually be displayed. Spoilers stay hidden
+until requested. No manual read-tracking controls have been added.
+
+Presented cards are recorded locally (up to the most recent 10,000 IDs persisted),
+with in-memory fallback when storage is unavailable. Hidden tabs and prefetching
+do not mark cards seen. Clearing storage or falling outside that retained history
+can allow repeats. Archive searches load up to three further chunks per action,
+then offer **Keep looking**; a chunk follows at most five index pages and one batch.
+Exhaustion requires reaching the end, and revisiting seen content requires an
+explicit choice. New editions load on request without replacing the active card.
+See [Card mode verification](docs/card-mode.md) for validation and remaining checks.

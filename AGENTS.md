@@ -108,3 +108,19 @@ The archive build emits `/topics/<slug>/index.html` and bounded per-topic indexe
 referencing existing source batches. Topic archive cursors remain relative to
 `data/`. Article Back keeps the active topic feed mounted; switching topics starts
 that topic's own feed. Unknown topic routes show a not-found state.
+
+## Card mode — September 17, 2026
+The user authorized implementation of #25. Cards are an alternative view of the
+same existing title/body/source data. Do not add summaries, shorten copy, change
+generation, or introduce page/internal scrolling. `SwipeCard` measures the reading
+area; insufficient space must produce an explicit article-link notice, never silent
+clipping, unreadably small text, or skipping a post. Browser layout verification is
+still needed after deployment because local previews are blocked in the managed
+browser. Keep article discussion available through the full article link.
+
+Cards browse all topics via `?view=cards`. Left means a different unseen topic;
+right means the next unseen article, not a like. `useCardDeck` bounds archive search,
+retains the current card during article navigation/new editions, and allows explicit
+Undo/revisiting. Seen IDs are versioned, browser-local, and recorded only for visible,
+fitting cards; hidden tabs and loaded batches are not presentation. No Saves/manual
+read controls. Never delete content in response to card actions.
