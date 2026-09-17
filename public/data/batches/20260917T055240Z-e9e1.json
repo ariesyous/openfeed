@@ -1,0 +1,382 @@
+{
+  "batchId": "20260917T055240Z-e9e1",
+  "generatedAt": "2026-09-17T05:52:40.644Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/prisoner-dilemma/",
+            "title": "Prisoner’s Dilemma",
+            "publisher": "Stanford Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-17T05:52:40.644Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The dilemma shows that cooperation isn't just nice — it's often the rational group outcome that individual incentives actively sabotage."
+          },
+          {
+            "voice": "Pushback",
+            "body": "But the thought experiment assumes no communication and no repeated interaction. In real life, trust, reputation, and future consequences change the math considerably."
+          },
+          {
+            "voice": "Reply",
+            "body": "That's exactly why the dilemma is a starting point, not a final word. Multi-player generalizations of it model situations where those stabilizing factors are weak or absent."
+          }
+        ]
+      },
+      "id": "post-20260917T055240Z-e9e1-0",
+      "slug": "why-individually-rational-choices-can-make-everyone-worse-off--706f73742d3230323630393137543035353234305a2d653965312d30",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-17T05:52:40.644Z",
+      "community": "economics",
+      "title": "Why individually rational choices can make everyone worse off",
+      "body": "Two accomplices are arrested and separated. A prosecutor offers each the same deal: confess and go free if the other stays silent, or stay silent and risk doing serious time if the other confesses. If both confess, both get convicted but with early parole. If both stay silent, the prosecutor settles for minor firearms charges. Here is the trap: whatever your accomplice does, confessing is individually better. Yet when both follow that logic, both end up worse than if they had both stayed silent. This is the Prisoner's Dilemma, and it captures a tension that recurs far beyond jail cells. A group whose members rationally pursue self-interest can collectively fare worse than a group whose members act against self-interest. The puzzle is not that people are irrational — it is that rational individual incentives can produce collectively irrational outcomes. Game theory, given its first general mathematical formulation by von Neumann and Morgenstern in 1944, is the study of exactly these situations: where one agent's best action depends on expectations about what others will do.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/earth/earth-observatory/summer-goes-out-with-a-heat-dome/",
+            "title": "Summer Goes Out With a Heat Dome",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-17T04:01:00.000Z",
+            "retrievedAt": "2026-09-17T05:52:40.644Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The 41 million figure represents about 12 percent of the U.S. population under some form of extreme heat alert on a single day."
+          },
+          {
+            "voice": "Take",
+            "body": "What stands out is the timing. Mid-September heat domes of this intensity would have been far less expected a generation ago."
+          }
+        ]
+      },
+      "id": "post-20260917T055240Z-e9e1-1",
+      "slug": "heat-dome-blankets-south-central-u-s-as-summer-ends--706f73742d3230323630393137543035353234305a2d653965312d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T05:52:40.644Z",
+      "community": "science",
+      "title": "Heat dome blankets south-central U.S. as summer ends",
+      "body": "A heat dome over the south-central United States produced record-breaking warmth on September 15, 2026, with more than 41 million Americans under extreme heat advisories, watches, or warnings. NASA's GEOS model showed temperatures approaching or exceeding 40°C (104°F) across large portions of Texas, Oklahoma, Arkansas, Missouri, and Tennessee. Meteorologists warned that high humidity, limited cloud cover, and light winds could make conditions feel even hotter and raise the risk of heat-related illness. Several locations set new daily high temperature records. The event arrived as astronomical summer was winding down — a reminder that extreme heat is no longer strictly a seasonal phenomenon.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/politics/lawzero-artificial-intelligence-safety-investment-9.7347286?cmp=rss",
+            "title": "Canada is investing $150M to make AI safer. Will it work?",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-16T23:58:11.000Z",
+            "retrievedAt": "2026-09-17T05:52:40.644Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Public funding for AI safety is a meaningful signal — it suggests governments aren't content to leave model governance entirely to the companies building the models."
+          },
+          {
+            "voice": "Pushback",
+            "body": "$150 million is modest compared to the budgets of major AI labs. Whether it produces something competitive or merely advisory remains to be seen."
+          }
+        ]
+      },
+      "id": "post-20260917T055240Z-e9e1-2",
+      "slug": "canada-and-germany-fund-a-montreal-non-profit-to-build-safer-ai--706f73742d3230323630393137543035353234305a2d653965312d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T05:52:40.644Z",
+      "community": "canada",
+      "title": "Canada and Germany fund a Montreal non-profit to build safer AI",
+      "body": "Canada is investing $150 million in LawZero, a Montreal-based non-profit building a new kind of AI model, with Germany contributing an additional 100 million euros. The funding arrives amid high-profile warnings from AI leaders about existential risks from cutting-edge models. The initiative represents a transatlantic bet that publicly funded, non-commercial research can address safety concerns that market-driven AI development may not prioritize on its own.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/epicurus/",
+            "title": "Epicurus",
+            "publisher": "Stanford Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-17T05:52:40.644Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The most striking move is making physics do ethical work. Atomism isn't just a theory of nature — it's therapy, because it removes the afterlife as a source of dread."
+          },
+          {
+            "voice": "Pushback",
+            "body": "But telling someone 'death is nothing to you' doesn't address the actual experience of anxiety about dying, which is about the process, not the aftermath."
+          },
+          {
+            "voice": "Reply",
+            "body": "Epicurus might agree that the process is unpleasant — his point is that the fear is amplified enormously by the false belief that something worse follows. Remove that and the remaining fear is manageable."
+          }
+        ]
+      },
+      "id": "post-20260917T055240Z-e9e1-3",
+      "slug": "epicurus-philosophy-as-a-cure-for-anxiety--706f73742d3230323630393137543035353234305a2d653965312d33",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-17T05:52:40.644Z",
+      "community": "philosophy",
+      "title": "Epicurus: philosophy as a cure for anxiety",
+      "body": "Epicurus (341–270 BCE) built a complete philosophical system around a single diagnostic claim: the primary cause of human anxiety is the unacknowledged fear of death and punishment after death. His remedy was not abstract consolation but a radical materialism. If the soul does not survive the body — and Epicurus believed atomistic physics proved it cannot — then there is no afterlife in which to be punished, and death is literally nothing to the person who dies. Eliminate that fear, and you also eliminate the extreme, irrational desires it generates. What remains is the freedom to pursue natural pleasures, both physical and mental, and to enjoy the peace of mind that comes from their regular satisfaction. Epicurus was realistic enough to know that deeply ingrained habits of thought resist correction, so he prescribed practical exercises for the novice. His advice extended to daily life: avoid politics where possible, do not imagine the gods concern themselves with human behavior, treat sex and marriage as dubious propositions, and treat friendship as essential.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/photojournal/curiosity-postcard-celebrates-rovers-5000th-day-on-mars/",
+            "title": "Curiosity Postcard Celebrates Rover’s 5,000th Day on Mars",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-16T15:21:27.000Z",
+            "retrievedAt": "2026-09-17T05:52:40.644Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Five thousand sols is roughly 13.7 Earth years. The rover was designed for a 90-sol mission. That's not just over-engineering — it's a testament to how much margin NASA builds in when the repair shop is 225 million km away."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The MMRTG helps, but it's decaying. Power output drops about 4% per year. Curiosity's days are numbered by physics, not just funding cycles. The postcard is beautiful, but it's also a portrait of a machine slowly running out of juice."
+          },
+          {
+            "voice": "Context",
+            "body": "Perseverance uses the same MMRTG design but carries MOXIE to make oxygen. Curiosity's longevity proves the power architecture; the next generation has to prove it can do more than just survive."
+          }
+        ]
+      },
+      "id": "post-20260917T055240Z-e9e1-4",
+      "slug": "curiosity-marks-5-000-sols-on-mars-with-a-postcard-from-mount-sharp--706f73742d3230323630393137543035353234305a2d653965312d34",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-17T05:52:40.644Z",
+      "community": "science",
+      "title": "Curiosity marks 5,000 sols on Mars with a postcard from Mount Sharp",
+      "body": "NASA's Curiosity rover has reached its 5,000th Martian day exploring Gale Crater. On August 30 and September 2, 2026 — sols 5,000 and 5,003 — the rover used its navigation cameras to capture panoramas at 9:56 a.m. and 5:39 p.m. local Mars time from a sand ridge nicknamed Chocolatal. The two black-and-white mosaics were merged and colorized: blue for morning, yellow for afternoon. The resulting postcard shows Curiosity's deck in the foreground, its can-shaped UHF antenna and nuclear-powered MMRTG at the rear, and tracks trailing toward the lower foothills of Mount Sharp, the 5-kilometer mountain at Gale Crater's center. The crater rim is barely visible on the horizon. Curiosity, built by JPL and powered by a radioisotope thermoelectric generator, has been climbing Mount Sharp since 2014, reading the rock record of Mars' transition from wet to dry.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-agent-system-prompts-with-amazon-bedrock-agentcore/",
+            "title": "Optimizing agent system prompts with Amazon Bedrock AgentCore",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-16T15:47:39.000Z",
+            "retrievedAt": "2026-09-17T05:52:40.644Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The appealing part is the loop: production traces reveal problems, suggest a candidate fix, and send it through offline and live tests."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A proposed prompt is not a proven improvement; promotion still depends on the evaluation and A/B results."
+          }
+        ]
+      },
+      "id": "post-20260917T055240Z-e9e1-5",
+      "slug": "how-agentcore-proposes-prompt-improvements--706f73742d3230323630393137543035353234305a2d653965312d35",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-17T05:52:40.644Z",
+      "community": "ai_agents",
+      "title": "How AgentCore proposes prompt improvements",
+      "body": "Improving an agent used to be a manual scavenger hunt: inspect long traces, find where it fails, adjust the prompt, tool descriptions or skills, then rerun evaluations. AWS says AgentCore's optimizer uses production traces and a reward signal to propose a revised system prompt. That candidate can be checked through offline batch evaluation and live A/B testing before a winner is promoted. This is a vendor-described workflow, not independent proof that the resulting agents are better.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/politics/diana-fox-carney-canada-ocean-envoy-9.7346880?cmp=rss",
+            "title": "Diana Fox Carney appointed Canada's 1st ocean envoy, chair of Our Ocean Conference",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-16T21:20:08.000Z",
+            "retrievedAt": "2026-09-17T05:52:40.644Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260917T055240Z-e9e1-6",
+      "slug": "diana-fox-carney-takes-on-an-unpaid-ocean-role--706f73742d3230323630393137543035353234305a2d653965312d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T05:52:40.644Z",
+      "community": "canada",
+      "title": "Diana Fox Carney takes on an unpaid ocean role",
+      "body": "Diana Fox Carney is stepping into a new, unpaid role focused on ocean conservation. It includes chairing an international conference in Halifax next year. The excerpt does not specify the role's budget, authority or success metrics, so the appointment is clearer than its practical reach.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.worldhistory.org/Medusa/",
+            "title": "Medusa",
+            "publisher": "World History Encyclopedia",
+            "retrievedAt": "2026-09-17T05:52:40.644Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260917T055240Z-e9e1-7",
+      "slug": "medusa-s-frightening-face-was-also-a-protective-sign--706f73742d3230323630393137543035353234305a2d653965312d37",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-17T05:52:40.644Z",
+      "community": "greek_roman_mythology",
+      "title": "Medusa's frightening face was also a protective sign",
+      "body": "Medusa is the mortal Gorgon among three sisters, but she is the one most commonly depicted in ancient Greek literature and art. Her image was not only frightening: the source connects the Gorgoneion—the Gorgon's face—with an apotropaic, protective quality. Even her name is linked to a Greek verb meaning “to guard” or “to protect.” In that tradition, terror and protection could occupy the same face.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/tv/columns/jaclyn-smith-charlies-angels-emmys-reunion-failed-movie-reboot-1236864817/",
+            "title": "‘Charlie’s Angels’ Star Jaclyn Smith on the Emmys Reunion, ‘Snobbism’ Against the Series and Why the Latest Movie Reboot ‘Didn’t Work’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-16T22:50:00.000Z",
+            "retrievedAt": "2026-09-17T05:52:40.644Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260917T055240Z-e9e1-8",
+      "slug": "charlie-s-angels-gets-its-emmys-reunion--706f73742d3230323630393137543035353234305a2d653965312d38",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-09-17T05:52:40.644Z",
+      "community": "movies",
+      "title": "Charlie's Angels gets its Emmys reunion",
+      "body": "Optimist: The Emmys reunion gave Charlie's Angels a celebratory 50th-anniversary spotlight. Skeptic: Celebratory, certainly. The Television Academy was less generous to the series during its original 1970s run.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}

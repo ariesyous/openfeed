@@ -41,7 +41,16 @@
     "canada is a safe harbour for global finance carney says",
     "pubs in england and wales to allow digital id apps to prove age",
     "artemis iii crew visits nasa kennedy s vehicle assembly building",
-    "questions mount over what an ai slowdown would look like"
+    "questions mount over what an ai slowdown would look like",
+    "prisoner s dilemma",
+    "summer goes out with a heat dome",
+    "canada is investing 150m to make ai safer will it work",
+    "epicurus",
+    "curiosity postcard celebrates rover s 5 000th day on mars",
+    "optimizing agent system prompts with amazon bedrock agentcore",
+    "diana fox carney appointed canada s 1st ocean envoy chair of our ocean conference",
+    "medusa",
+    "charlie s angels star jaclyn smith on the emmys reunion snobbism against the series and why the latest movie reboot didn t work"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -84,12 +93,21 @@
     "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o",
     "https://www.nasa.gov/image-article/nasa-visits-schools-strengthening-floridas-skilled-workforce/",
     "https://variety.com/2026/film/box-office/resident-evil-box-office-reboot-opening-weekend-projection-1236861469/",
-    "https://aws.amazon.com/blogs/machine-learning/fault-tolerant-distributed-training-on-amazon-eks-using-nvrx/"
+    "https://aws.amazon.com/blogs/machine-learning/fault-tolerant-distributed-training-on-amazon-eks-using-nvrx/",
+    "https://plato.stanford.edu/entries/prisoner-dilemma/",
+    "https://science.nasa.gov/earth/earth-observatory/summer-goes-out-with-a-heat-dome/",
+    "https://www.cbc.ca/news/politics/lawzero-artificial-intelligence-safety-investment-9.7347286?cmp=rss",
+    "https://plato.stanford.edu/entries/epicurus/",
+    "https://science.nasa.gov/photojournal/curiosity-postcard-celebrates-rovers-5000th-day-on-mars/",
+    "https://aws.amazon.com/blogs/machine-learning/optimizing-agent-system-prompts-with-amazon-bedrock-agentcore/",
+    "https://www.cbc.ca/news/politics/diana-fox-carney-canada-ocean-envoy-9.7346880?cmp=rss",
+    "https://www.worldhistory.org/Medusa/",
+    "https://variety.com/2026/tv/columns/jaclyn-smith-charlies-angels-emmys-reunion-failed-movie-reboot-1236864817/"
   ],
   "initialized": true,
-  "cycleCount": 10,
+  "cycleCount": 11,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-17T01:22:39.896Z",
+  "lastRunAt": "2026-09-17T05:52:40.644Z",
   "communities": [
     "technology",
     "science",
@@ -111,11 +129,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260916T163241Z-59da",
-      "generatedAtCycle": 6,
-      "summary": "How AI raises concerns about abuse and environmental impact; NASA restores Guam Remote Station after super typhoon damage; How cinema and television have shaped each other's evolution; What defines a myth in Roman tradition"
-    },
-    {
       "batchId": "20260916T223444Z-3323",
       "generatedAtCycle": 7,
       "summary": "Leaked Photos Show Extent of Iranian Strikes on US Gulf Bases; Open‑Source Skills Close the Reasoning Gap for Health‑AI Agents; Orbiter Captures Once‑in‑Century Crater on the Moon; Singapore Seizes $2.2 B in Luxury Goods for Money‑Laundering Auction"
@@ -134,6 +147,11 @@
       "batchId": "20260917T012239Z-ee7a",
       "generatedAtCycle": 10,
       "summary": "U.S. Interest Rates Rise for First Time in Three Years; NASA Expands Skilled Workforce via Florida School Hubs; ‘Resident Evil’ Reboot Eyes $40‑50 Million Box Office Debut; NVIDIA Resiliency Extension Enables Fault‑Tolerant Training on EKS"
+    },
+    {
+      "batchId": "20260917T055240Z-e9e1",
+      "generatedAtCycle": 11,
+      "summary": "Why individually rational choices can make everyone worse off; Heat dome blankets south-central U.S. as summer ends; Canada and Germany fund a Montreal non-profit to build safer AI; Epicurus: philosophy as a cure for anxiety; Curiosity marks 5,000 sols on Mars with a postcard from Mount Sharp; How AgentCore proposes prompt improvements; Diana Fox Carney takes on an unpaid ocean role; Medusa's frightening face was also a protective sign; Charlie's Angels gets its Emmys reunion"
     }
   ]
 }
