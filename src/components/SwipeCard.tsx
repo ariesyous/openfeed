@@ -3,6 +3,7 @@ import type { FeedItem } from "../../schemas";
 import { articlePath } from "../../shared/articles";
 import { topicLabel, topicPath } from "../../shared/topics";
 import type { CardAction } from "../lib/cardSelection";
+import { fitCardText } from "../lib/fitCardText";
 
 interface Props {
   item: FeedItem;
@@ -21,7 +22,7 @@ export function SwipeCard({ item, active, disabled, onAdvance, onOpenArticle, on
   const reading = useRef<HTMLDivElement>(null);
   const copy = useRef<HTMLDivElement>(null);
   const pointer = useRef<{ id: number; x: number; y: number; horizontal: boolean } | null>(null);
-  const suppressClick = useRef(false);
+  const suppressClickUntil = useRef(0);
   const hiddenSpoilers = item.editorial?.spoilers && !spoilers;
   const href = articlePath(item, import.meta.env.BASE_URL);
 
@@ -31,7 +32,7 @@ export function SwipeCard({ item, active, disabled, onAdvance, onOpenArticle, on
       if (!reading.current || !copy.current) return;
       const available = reading.current;
       const content = copy.current;
-      const fitsNow = content.scrollHeight <= available.clientHeight + 1 && content.scrollWidth <= available.clientWidth + 1;
+      const fitsNow = fitCardText(content, available);
       setFits(fitsNow);
       if (fitsNow && available.clientHeight > 0 && document.visibilityState !== "hidden") onPresented(item);
     };
@@ -47,9 +48,11 @@ export function SwipeCard({ item, active, disabled, onAdvance, onOpenArticle, on
   const cancel = () => { pointer.current = null; setDrag(0); };
   const start = (event: PointerEvent<HTMLElement>) => {
     if (!event.isPrimary) { cancel(); return; }
-    if (disabled || event.button !== 0 || (event.target as Element).closest("a,button,input,select,textarea")) return;
+    if (disabled || event.button !== 0 || (event.target as Element).closest("button,input,select,textarea")) return;
+    if (event.pointerType === "mouse" && (event.target as Element).closest("a")) return;
     // Mouse text selection stays native; dragging the card header/background navigates.
     if (event.pointerType === "mouse" && (event.target as Element).closest(".swipe-card-copy")) return;
+    suppressClickUntil.current = 0;
     pointer.current = { id: event.pointerId, x: event.clientX, y: event.clientY, horizontal: false };
   };
   const move = (event: PointerEvent<HTMLElement>) => {
@@ -57,8 +60,8 @@ export function SwipeCard({ item, active, disabled, onAdvance, onOpenArticle, on
     if (!start || start.id !== event.pointerId || disabled) return;
     const x = event.clientX - start.x, y = event.clientY - start.y;
     if (!start.horizontal) {
-      if (Math.abs(y) > 16 && Math.abs(y) >= Math.abs(x)) { cancel(); return; }
-      if (Math.abs(x) < 12 || Math.abs(x) < Math.abs(y) * 1.5) return;
+      if (Math.abs(y) > 24 && Math.abs(y) > Math.abs(x) * 1.5) { cancel(); return; }
+      if (Math.abs(x) < 10 || Math.abs(x) < Math.abs(y) * 1.15) return;
       start.horizontal = true;
       event.currentTarget.setPointerCapture?.(event.pointerId);
     }
@@ -68,13 +71,12 @@ export function SwipeCard({ item, active, disabled, onAdvance, onOpenArticle, on
     const start = pointer.current;
     if (!start || start.id !== event.pointerId) return;
     const x = event.clientX - start.x, y = event.clientY - start.y;
-    const threshold = Math.max(56, event.currentTarget.clientWidth * .18);
+    const threshold = Math.min(100, Math.max(40, event.currentTarget.clientWidth * .12));
     if (start.horizontal) {
-      suppressClick.current = true;
-      window.setTimeout(() => { suppressClick.current = false; }, 0);
+      suppressClickUntil.current = Date.now() + 500;
     }
     cancel();
-    if (!disabled && start.horizontal && Math.abs(x) >= threshold && Math.abs(x) > Math.abs(y) * 1.5 && !window.getSelection()?.toString()) onAdvance(x < 0 ? "different" : "next");
+    if (!disabled && start.horizontal && Math.abs(x) >= threshold && Math.abs(x) > Math.abs(y) * 1.15 && !window.getSelection()?.toString()) onAdvance(x < 0 ? "different" : "next");
   };
   const articleLink = (event: React.MouseEvent<HTMLAnchorElement>) => {
     if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
@@ -82,8 +84,13 @@ export function SwipeCard({ item, active, disabled, onAdvance, onOpenArticle, on
   };
   return <article className={`swipe-card${drag ? " is-dragging" : ""}`} aria-labelledby="card-title" inert={!active}
     style={{ transform: drag ? `translateX(${drag}px) rotate(${drag / 45}deg)` : undefined }}
-    onPointerDown={start} onPointerMove={move} onPointerUp={finish} onPointerCancel={cancel} onLostPointerCapture={cancel}
-    onClickCapture={event => { if (suppressClick.current) { event.preventDefault(); event.stopPropagation(); } }}>
+    onPointerDown={start} onPointerMove={move} onPointerUp={finish} onPointerCancel={cancel}
+    onLostPointerCapture={event => {
+      // Touch starts with implicit capture on the touched child. Transferring it
+      // to this card emits a bubbling lost event from that child, not a cancel.
+      if (event.target === event.currentTarget && event.pointerId === pointer.current?.id) cancel();
+    }}
+    onClickCapture={event => { if (Date.now() < suppressClickUntil.current) { event.preventDefault(); event.stopPropagation(); } }}>
     <header className="swipe-card-meta">
       <a href={topicPath(item.community, import.meta.env.BASE_URL)} onClick={event => {
         if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;

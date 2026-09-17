@@ -606,17 +606,17 @@ a:focus-visible {
 .card-view { outline: none; }
 .card-view-heading { flex: 0 0 auto; display: flex; justify-content: space-between; align-items: center; gap: .5rem; color: var(--text-muted); font-size: .75rem; padding: .25rem .15rem .45rem; }
 .card-stage { position: relative; flex: 1; min-height: 0; min-width: 0; }
-.swipe-card { height: 100%; min-height: 0; display: flex; flex-direction: column; gap: 1rem; padding: clamp(.9rem, 2.5vw, 2rem); background: var(--surface); border: 1px solid var(--border); border-top: 3px solid var(--accent); border-radius: 18px; box-shadow: 0 8px 30px #0002; transition: transform 160ms ease-out; touch-action: pan-y pinch-zoom; }
-.swipe-card.is-dragging { transition: none; }
+.swipe-card { height: 100%; min-height: 0; display: flex; flex-direction: column; gap: 1rem; padding: clamp(.9rem, 2.5vw, 2rem); background: var(--surface); border: 1px solid var(--border); border-top: 3px solid var(--accent); border-radius: 18px; box-shadow: 0 8px 30px #0002; transition: transform 160ms ease-out; touch-action: pinch-zoom; }
+.swipe-card.is-dragging { transition: none; user-select: none; -webkit-user-select: none; }
 .swipe-card-meta { display: flex; justify-content: space-between; align-items: baseline; gap: .6rem; flex: 0 0 auto; font-size: .75rem; color: var(--text-muted); }
 .swipe-card-meta a { color: var(--accent); font-weight: 600; text-decoration: none; }
 .swipe-card-meta span { text-align: right; }
 .swipe-card-reading { position: relative; flex: 1; min-height: 0; overflow: clip; }
-.swipe-card-copy { overflow-wrap: anywhere; }
-.swipe-card-copy h1 { margin: 0 0 .85rem; font-size: clamp(1.15rem, 2.6vw, 1.9rem); line-height: 1.2; letter-spacing: -.025em; }
+.swipe-card-copy { overflow-wrap: anywhere; --card-body-size: clamp(1rem, 1.8vw, 1.18rem); --card-title-size: clamp(1.15rem, 2.6vw, 1.9rem); }
+.swipe-card-copy h1 { margin: 0 0 .85rem; font-size: calc(var(--card-title-size) * var(--card-text-scale, 1)); line-height: 1.2; letter-spacing: -.025em; }
 .swipe-card-copy h1 a { color: var(--text); text-decoration: none; }
 .swipe-card-copy h1 a:hover { text-decoration: underline; }
-.swipe-card-copy p { margin: 0; white-space: pre-wrap; font-size: clamp(1rem, 1.8vw, 1.18rem); line-height: 1.45; }
+.swipe-card-copy p { margin: 0; white-space: pre-wrap; font-size: calc(var(--card-body-size) * var(--card-text-scale, 1)); line-height: 1.4; }
 .swipe-card-footer { display: flex; flex: 0 0 auto; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .5rem 1rem; border-top: 1px solid var(--border); padding-top: .7rem; font-size: .75rem; }
 .swipe-card-footer a, .card-fit-notice a { color: var(--accent); text-decoration: none; }
 .swipe-card-footer a:hover { text-decoration: underline; }
@@ -630,9 +630,10 @@ a:focus-visible {
 .card-fit-notice { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; font-size: 1rem; line-height: 1.45; }
 .card-storage-notice { margin: .35rem 0 0; font-size: .72rem; color: var(--text-muted); }
 @media (max-width: 600px), (max-height: 650px) {
-  .swipe-card { gap: .65rem; padding: .8rem; border-radius: 12px; }
-  .swipe-card-copy h1 { font-size: 1.15rem; line-height: 1.2; margin-bottom: .65rem; }
-  .swipe-card-copy p { font-size: 1rem; line-height: 1.35; }
+  .swipe-card { gap: .5rem; padding: .65rem; border-radius: 12px; }
+  .swipe-card-copy { --card-title-size: 1.15rem; --card-body-size: 1rem; }
+  .swipe-card-copy h1 { margin-bottom: .5rem; }
+  .swipe-card-copy p { line-height: 1.3; }
   .swipe-card-footer { padding-top: .5rem; gap: .35rem; }
   .app-main--cards { padding-left: .45rem; padding-right: .45rem; }
 }

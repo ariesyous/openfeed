@@ -160,10 +160,12 @@ Escape or **Feed** returns to the normal feed. Right is not a like, and left doe
 not permanently mute anything.
 
 Cards occupy the available viewport with no page or internal scrolling. Original
-copy stays readable; if a post cannot fit at the current screen/text size, an
-explicit notice links to the article instead of showing clipped text. This card
+copy automatically scales to fit, using the largest size that works (down to
+13px body text at default settings). If it still cannot fit, an explicit notice
+links to the article instead of showing clipped text. This card
 is not recorded as seen until it can actually be displayed. Spoilers stay hidden
-until requested. No manual read-tracking controls have been added.
+until requested. Advancing excludes the departing card for this session even if
+it could not fit, so it cannot trap you in a loop. No manual read controls are added.
 
 Presented cards are recorded locally (up to the most recent 10,000 IDs persisted),
 with in-memory fallback when storage is unavailable. Hidden tabs and prefetching

@@ -82,13 +82,14 @@ choices, capacity estimates, research and evaluation.
 
 Provide an optional one-post-at-a-time view of the existing content, with original
 titles and bodies unchanged. The complete card should fit the viewport without
-scrolling; report insufficient room explicitly rather than clipping or shrinking
-text excessively. Keep source attribution, spoiler protection, article links and
+scrolling. Scale the unchanged text to the largest fitting size, with a .8125rem
+body minimum, before falling back to an explicit insufficient-room notice. Keep source attribution, spoiler protection, article links and
 access to discussions. Cards browse all topics; the ordinary feed remains available.
 
 Left requests an unseen article from another topic; right requests the next unseen
 article. Provide touch/drag, buttons, keyboard navigation and Undo. Track actually
 presented cards automatically on the device, with graceful storage fallback. Do not
 infer durable topic likes/dislikes, silently repeat exhausted content, or load the
-whole archive at startup. Returning from an article restores its card; a new edition
+whole archive at startup. Explicitly skipped cards must not repeat in the mounted
+session even when they could not fit and were not recorded as presented. Returning from an article restores its card; a new edition
 must not replace the current card. All content and URLs remain permanent.
