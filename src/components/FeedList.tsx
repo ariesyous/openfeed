@@ -3,9 +3,9 @@ import { useFeed } from "../hooks/useFeed";
 import { PostCard } from "./PostCard";
 import { Avatar } from "./Avatar";
 import type { FeedItem } from "../../schemas";
-import type { Reader } from "../hooks/useReader";
+import { topicLabel } from "../lib/topics";
 
-export function FeedList({ reader, onOpenArticle }: { reader?: Reader; onOpenArticle?: (item: FeedItem) => void } = {}) {
+export function FeedList({ onOpenArticle }: { onOpenArticle?: (item: FeedItem) => void } = {}) {
   const { sentinelRef, ...feed } = useFeed();
   const [format, setFormat] = useState("");
   const [community, setCommunity] = useState("");
@@ -15,7 +15,6 @@ export function FeedList({ reader, onOpenArticle }: { reader?: Reader; onOpenArt
   const communities = [
     ...new Set([...feed.accountsById.values()].flatMap((a) => a.communities).concat(feed.items.map((item) => item.community))),
   ].sort();
-  const isNew = (item: FeedItem) => Boolean(reader?.previousVisit && item.createdAt > reader.previousVisit && !reader.readIds.includes(item.id));
   const itemsById = new Map(feed.items.map((i) => [i.id, i]));
   const visible = feed.items.filter(
     (i) =>
@@ -48,160 +47,156 @@ export function FeedList({ reader, onOpenArticle }: { reader?: Reader; onOpenArt
       </div>
     );
   return (
-    <>
-      <div className="feed-toolbar">
-        <div>
-          <h1>Leave with something worth knowing.</h1>
-          <p>
-            Fresh context, useful ideas, true stories, and a little
-            back-and-forth.
-          </p>
-        </div>
-        <label>
-          Explore a topic
-          <select
-            value={community}
-            onChange={(e) => {
-              setCommunity(e.target.value);
-              setAuthorId("");
-            }}
-          >
-            <option value="">All topics</option>
-            {communities.map((c) => (
-              <option key={c} value={c}>
-                {c.replaceAll("_", " ")}
-              </option>
-            ))}
-          </select>
-        </label>
-      </div>
-      {reader?.previousVisit && <div className="visit-status">
-        <span>{feed.items.filter(isNew).length} new in loaded posts since your last visit</span>
-        <button type="button" onClick={reader.markCaughtUp}>Mark caught up</button>
-      </div>}
-      {feed.newPostCount > 0 && (
-        <button
-          className="new-posts"
-          disabled={feed.isLoadingMore}
-          onClick={() => {
-            setAuthorId("");
-            setCommunity("");
-            void feed.showNewPosts();
-          }}
-        >
-          Show {feed.newPostCount} new posts
-        </button>
-      )}
-      {author && (
-        <section
-          className="profile-card"
-          tabIndex={-1}
-          ref={profileRef}
-          aria-label={`${author.displayName}'s profile`}
-        >
-          <button className="text-button" onClick={() => setAuthorId("")}>
-            ← Back to feed
-          </button>
-          <div className="profile-heading">
-            <Avatar
-              seedKey={author.id}
-              displayName={author.displayName}
-              handle={author.handle}
-              size={56}
-            />
-            <div>
-              <h2>{author.displayName}</h2>
-              <span>@{author.handle}</span>
-            </div>
-          </div>
-          <p>{author.bio}</p>
-          <p className="profile-interests">{author.interests.join(" · ")}</p>
-          <span className="profile-note">AI-edited column · Posts below</span>
-        </section>
-      )}
-      <div className="format-tabs" aria-label="Reading format">
-        {[
-          ["", "All"],
-          ["news", "News"],
-          ["explainer", "Explained"],
-          ["story", "Stories"],
-          ["banter", "Banter"],
-        ].map(([value, label]) => (
-          <button
-            key={value}
-            aria-pressed={format === value}
-            onClick={() => {
-              setFormat(value);
-              setAuthorId("");
-            }}
-          >
-            {label}
-          </button>
-        ))}
-      </div>
-      <div className="feed-list">
-        {visible.map((item) => (
-          <PostCard
-            key={item.id}
-            item={item}
-            onOpenArticle={onOpenArticle}
-            onToggleSave={reader?.toggleSave}
-            onMarkRead={reader && !reader.readIds.includes(item.id) ? reader.markRead : undefined}
-            saved={reader?.saved.some(saved => saved.id === item.id)}
-            isNew={isNew(item)}
-            accountsById={feed.accountsById}
-            itemsById={itemsById}
-            onAuthorClick={openProfile}
-            onCommunityClick={(c) => {
-              setCommunity(c);
-              setAuthorId("");
-              window.scrollTo({ top: 0, behavior: "smooth" });
-            }}
-          />
-        ))}
-        {!visible.length && (
-          <div className="feed-status">
-            {feed.hasMore
-              ? "No matching posts loaded yet. Explore older posts below."
-              : "No posts here yet. Try another topic or return to the feed."}
-          </div>
-        )}
-        {feed.error && (
-          <div className="feed-status feed-status-error" role="alert">
-            {feed.error}
-          </div>
-        )}
-        {feed.hasMore && (
-          <>
-            <div
-              ref={sentinelRef}
-              className="feed-sentinel"
-              aria-hidden="true"
-            />
+    <div className="feed-layout">
+      <nav className="topic-navigation" aria-label="Topics">
+        <h2>Topics</h2>
+        <div className="topic-buttons">
+          {["", ...communities].map((topic) => (
             <button
-              className="load-more"
-              disabled={feed.isLoadingMore}
-              onClick={() => void feed.loadMore()}
+              key={topic}
+              type="button"
+              aria-pressed={community === topic && !authorId}
+              onClick={() => {
+                setCommunity(topic);
+                setAuthorId("");
+                window.scrollTo({ top: 0, behavior: "smooth" });
+              }}
             >
-              {feed.isLoadingMore
-                ? "Loading…"
-                : feed.error
-                  ? "Retry older posts"
-                  : "Load older posts"}
+              {topic ? topicLabel(topic) : "All topics"}
             </button>
-          </>
-        )}
-        {feed.isLoadingMore && (
-          <div role="status" className="feed-status">
-            Loading posts…
+          ))}
+        </div>
+      </nav>
+      <div className="feed-content">
+        <div className="feed-toolbar">
+          <div>
+            <h1>Leave with something worth knowing.</h1>
+            <p>
+              Fresh context, useful ideas, true stories, and a little
+              back-and-forth.
+            </p>
           </div>
+        </div>
+        {feed.newPostCount > 0 && (
+          <button
+            className="new-posts"
+            disabled={feed.isLoadingMore}
+            onClick={() => {
+              setAuthorId("");
+              setCommunity("");
+              void feed.showNewPosts();
+            }}
+          >
+            Show {feed.newPostCount} new posts
+          </button>
         )}
-        {!feed.hasMore && feed.items.length > 0 && (
-          <div className="feed-status feed-status-end">
-            You're caught up. More to read when new sources arrive.
-          </div>
+        {author && (
+          <section
+            className="profile-card"
+            tabIndex={-1}
+            ref={profileRef}
+            aria-label={`${author.displayName}'s profile`}
+          >
+            <button className="text-button" onClick={() => setAuthorId("")}>
+              ← Back to feed
+            </button>
+            <div className="profile-heading">
+              <Avatar
+                seedKey={author.id}
+                displayName={author.displayName}
+                handle={author.handle}
+                size={56}
+              />
+              <div>
+                <h2>{author.displayName}</h2>
+                <span>@{author.handle}</span>
+              </div>
+            </div>
+            <p>{author.bio}</p>
+            <p className="profile-interests">{author.interests.join(" · ")}</p>
+            <span className="profile-note">AI-edited column · Posts below</span>
+          </section>
         )}
+        <div className="format-tabs" aria-label="Reading format">
+          {[
+            ["", "All"],
+            ["news", "News"],
+            ["explainer", "Explained"],
+            ["story", "Stories"],
+            ["banter", "Banter"],
+          ].map(([value, label]) => (
+            <button
+              key={value}
+              aria-pressed={format === value}
+              onClick={() => {
+                setFormat(value);
+                setAuthorId("");
+              }}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+        <div className="feed-list">
+          {visible.map((item) => (
+            <PostCard
+              key={item.id}
+              item={item}
+              onOpenArticle={onOpenArticle}
+              accountsById={feed.accountsById}
+              itemsById={itemsById}
+              onAuthorClick={openProfile}
+              onCommunityClick={(c) => {
+                setCommunity(c);
+                setAuthorId("");
+                window.scrollTo({ top: 0, behavior: "smooth" });
+              }}
+            />
+          ))}
+          {!visible.length && (
+            <div className="feed-status">
+              {feed.hasMore
+                ? "No matching posts loaded yet. Explore older posts below."
+                : "No posts here yet. Try another topic or return to the feed."}
+            </div>
+          )}
+          {feed.error && (
+            <div className="feed-status feed-status-error" role="alert">
+              {feed.error}
+            </div>
+          )}
+          {feed.hasMore && (
+            <>
+              <div
+                ref={sentinelRef}
+                className="feed-sentinel"
+                aria-hidden="true"
+              />
+              <button
+                className="load-more"
+                disabled={feed.isLoadingMore}
+                onClick={() => void feed.loadMore()}
+              >
+                {feed.isLoadingMore
+                  ? "Loading…"
+                  : feed.error
+                    ? "Retry older posts"
+                    : "Load older posts"}
+              </button>
+            </>
+          )}
+          {feed.isLoadingMore && (
+            <div role="status" className="feed-status">
+              Loading posts…
+            </div>
+          )}
+          {!feed.hasMore && feed.items.length > 0 && (
+            <div className="feed-status feed-status-end">
+              You've reached the end. More to read when new sources arrive.
+            </div>
+          )}
+        </div>
       </div>
-    </>
+    </div>
   );
 }

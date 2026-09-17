@@ -68,7 +68,9 @@ Store immutable article slugs and build real static article pages with source
 attribution and spoiler-safe sharing metadata. No age-based content deletion.
 Keep initial downloads small through archive pagination and shared assets.
 
-Support device-local saved reads, explicit read state, new-since-last-visit labels,
-and in-app Back restoration. No account or analytics backend is required.
+Use visible topic buttons: a left sidebar on desktop and a horizontally scrollable
+bar on smaller screens. Preserve in-app Back restoration and explicit loading of
+new arrivals. Omit saved-article and manual read-tracking controls to keep reading
+uncluttered. No account or analytics backend is required.
 See [the September 17 decision record](docs/reading-roadmap.md) for implementation
 choices, capacity estimates, research and evaluation.

@@ -11,10 +11,6 @@ interface PostCardProps {
   accountsById: Map<string, Account>;
   itemsById?: Map<string, FeedItem>;
   onOpenArticle?: (item: FeedItem) => void;
-  onToggleSave?: (item: FeedItem) => void;
-  onMarkRead?: (item: FeedItem) => void;
-  saved?: boolean;
-  isNew?: boolean;
   articleView?: boolean;
   onAuthorClick?: (id: string) => void;
   onCommunityClick?: (community: string) => void;
@@ -24,7 +20,7 @@ export function PostCard({
   item,
   accountsById,
   itemsById,
-  onOpenArticle, onToggleSave, onMarkRead, saved, isNew, articleView,
+  onOpenArticle, articleView,
   onAuthorClick,
   onCommunityClick,
 }: PostCardProps) {
@@ -97,7 +93,6 @@ export function PostCard({
         </button>}
       </div>
 
-      {isNew && <span className="new-label">New since your last visit</span>}
       {item.title && (articleView ? <h1 className="post-card-title">{item.title}</h1> : <h3 className="post-card-title">{item.editorial ? <a href={url} onClick={(event) => {
         if (onOpenArticle && !event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey && event.button === 0) {
           event.preventDefault(); onOpenArticle(item);
@@ -157,10 +152,8 @@ export function PostCard({
           )}
         </blockquote>
       )}
-      {item.editorial && <div className="reader-actions">
-        {onToggleSave && <button type="button" aria-pressed={Boolean(saved)} onClick={() => onToggleSave(item)}>{saved ? "Saved" : "Save article"}</button>}
-        {onMarkRead && <button type="button" onClick={() => onMarkRead(item)}>Mark read</button>}
-        <button type="button" onClick={async () => {
+      {item.editorial && <div className="share-actions">
+        <button type="button" className="text-button" onClick={async () => {
           try { await navigator.clipboard.writeText(new URL(url, window.location.origin).href); setShareStatus("Link copied"); }
           catch { setShareStatus("Copy the article link from its title or address bar."); }
         }}>Copy link</button>

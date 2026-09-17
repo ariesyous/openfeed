@@ -2,6 +2,7 @@ import { act, fireEvent, render, screen, waitFor, within } from "@testing-librar
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { readFileSync } from "node:fs";
 import { App } from "../src/App";
+import { topicLabel } from "../src/lib/topics";
 import { articlePath } from "../shared/articles";
 import type { BatchFile, Manifest } from "../schemas";
 const manifest = JSON.parse(readFileSync("public/data/manifest.json", "utf8")) as Manifest;
@@ -16,25 +17,25 @@ beforeEach(() => {
 });
 afterEach(() => { document.getElementById("article-data")?.remove(); vi.unstubAllGlobals(); vi.restoreAllMocks(); });
 describe("article navigation", () => {
-  it("opens and saves an article, then restores filters and loaded feed on browser Back", async () => {
+  it("opens an article, then restores topic selection and loaded feed on browser Back", async () => {
     render(<App />);
     await screen.findByRole("link", { name: post.title });
-    fireEvent.change(screen.getByLabelText("Explore a topic"), { target: { value: post.community } });
+    fireEvent.click(within(screen.getByRole("navigation", { name: "Topics" })).getByRole("button", { name: topicLabel(post.community) }));
     const before = screen.getAllByRole("article").length;
     fireEvent.click(screen.getByRole("link", { name: post.title }));
     const article = await screen.findByRole("region", { name: "Article" });
     expect(window.location.pathname).toBe(articlePath(post));
-    fireEvent.click(within(article).getByRole("button", { name: "Save article" }));
-    expect(screen.getByRole("button", { name: "Saved (1)" })).toBeInTheDocument();
+    expect(within(article).getByRole("button", { name: "Copy link" })).toBeVisible();
+    expect(screen.queryByRole("button", { name: /Save|Mark read|Mark caught up/ })).not.toBeInTheDocument();
     await act(async () => { window.history.back(); });
     await waitFor(() => expect(window.location.pathname).toBe("/"));
-    await waitFor(() => expect(screen.getByLabelText("Explore a topic")).toHaveValue(post.community));
+    await waitFor(() => expect(within(screen.getByRole("navigation", { name: "Topics" })).getByRole("button", { name: topicLabel(post.community) })).toHaveAttribute("aria-pressed", "true"));
     expect(screen.getAllByRole("article")).toHaveLength(before);
     expect(vi.mocked(fetch).mock.calls.filter(([url]) => String(url).includes("manifest.json"))).toHaveLength(1);
-    fireEvent.click(screen.getByRole("button", { name: "Saved (1)" }));
-    expect(screen.getByRole("region", { name: "Saved articles" })).toBeVisible();
-    fireEvent.click(screen.getByRole("link", { name: post.title }));
-    expect(await screen.findByRole("region", { name: "Article" })).toBeVisible();
+    expect(screen.queryByRole("combobox")).not.toBeInTheDocument();
+    expect(screen.queryByRole("button", { name: /Save|Mark read|Mark caught up/ })).not.toBeInTheDocument();
+    fireEvent.click(within(screen.getByRole("navigation", { name: "Topics" })).getByRole("button", { name: "All topics" }));
+    expect(screen.getAllByRole("article")).toHaveLength(batch.items.length);
   });
   it("renders a direct static article without downloading the feed, and survives a remount", async () => {
     window.history.replaceState({}, "", articlePath(post));
@@ -46,7 +47,6 @@ describe("article navigation", () => {
     view.unmount(); render(<App />);
     expect(screen.getByRole("heading", { name: post.title })).toBeVisible();
     expect(fetch).not.toHaveBeenCalled();
-    expect(JSON.parse(localStorage.getItem("openfeed-reader-v1")!).readIds).toContain(post.id);
   });
   it("shows a retryable failure for a missing article", async () => {
     window.history.replaceState({}, "", "/p/not-found/");

@@ -66,16 +66,18 @@ Ten useful posts and a half-evergreen mix cannot be promised for every hour.
 
 ## Return-visit decision
 
-Saved articles, opened/read IDs and the previous visit checkpoint live in the
-browser. The feed labels new items among loaded posts; simply loading a batch does
-not mark it read. Opening an article or selecting Mark read does. Mark caught up
-advances the checkpoint. In-app Back keeps loaded batches and filters mounted and
-restores the previous scroll position. Explicit fresh-edition loading is preserved.
+The initial implementation added browser-local saves, read IDs and a previous-visit
+checkpoint. The user rejected those controls after trying them on September 17:
+Saved, Mark read and Mark caught up made the reading interface feel cluttered.
+That decision supersedes the original save/read-tracking plan. The controls,
+new-since-last-visit labels and tracking hook have been removed. Existing stored
+reader data is left untouched, but is no longer read or written by the app.
 
-Saved metadata is capped at 500 entries (never silently evicted); read IDs at 2,000.
-These device-local limits do not affect published content. Unavailable storage
-still permits in-memory use. No cross-device sync or centrally collected analytics
-is implied. New arrivals don't reorder an active session automatically.
+Topics are now directly clickable in a left sidebar on desktop and a horizontally
+scrollable bar on smaller screens. In-app Back keeps loaded batches and filters
+mounted and restores the previous scroll position. Explicit fresh-edition loading
+is preserved; new arrivals don't reorder an active session automatically. Permanent
+article URLs, copying links and forever content retention remain unchanged.
 
 ## Capacity and evaluation
 
@@ -87,17 +89,20 @@ monitoring. Build output reports article count and bytes and warns at 750 MiB.
 If hosting/storage must change, preserve content and permalinks. No TTL is an
 acceptable capacity fallback.
 
-Finish implementation with automated navigation, storage, archive, validation and
+Finish implementation with automated navigation, archive, validation and
 publication tests. After merge, inspect a small sample of scheduled editions for
 writing quality, topic variety, repetition and actual post counts. A short personal
 trial of around ten reading sessions can ask: was there something worth knowing,
 saving or sharing; was there useful new material; could an enjoyed item be found
 again? This is a pragmatic trial, not statistical proof of retention uplift.
 
-Live model generation and a rendered-browser check were not available in the
-implementation environment. Provider behavior is covered with injected responses;
-DOM integration tests cover route/save/Back flows. The first live editions remain
-the check on real free-model output quality.
+Provider behavior is covered with injected responses; live editions remain the
+check on real free-model output quality. The UI simplification passes 109 tests,
+including topic filtering, article navigation and Back restoration, plus typecheck,
+lint and the production build. A managed browser can inspect the deployed site,
+but blocked access to the unmerged localhost preview (`ERR_BLOCKED_BY_CLIENT`).
+The new desktop/mobile layout therefore still needs a rendered-browser check
+after deployment.
 
 ## Research basis
 
