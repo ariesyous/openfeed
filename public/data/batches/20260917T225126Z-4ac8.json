@@ -1,0 +1,651 @@
+{
+  "batchId": "20260917T225126Z-4ac8",
+  "generatedAt": "2026-09-17T22:51:26.739Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/windsor/spotted-lanternfly-windsor-detection-9.7348751?cmp=rss",
+            "title": "The invasive spotted lanternfly has been officially detected in Canada for the first time",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-17T22:20:37.000Z",
+            "retrievedAt": "2026-09-17T22:51:26.739Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A confirmed detection in a major border hub like Windsor signals that containment will be an immediate uphill battle for grape growers and agricultural inspectors."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The agency has identified its presence, but the discovery does not yet specify whether Windsor hosts an isolated insect or an established breeding colony."
+          }
+        ]
+      },
+      "id": "post-20260917T225126Z-4ac8-0",
+      "slug": "spotted-lanternfly-confirmed-in-canada-for-the-first-time--706f73742d3230323630393137543232353132365a2d346163382d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T22:51:26.739Z",
+      "community": "canada",
+      "title": "Spotted Lanternfly Confirmed in Canada for the First Time",
+      "body": "The Canadian Food Inspection Agency has officially confirmed the first detection of the spotted lanternfly in Canada, locating the invasive insect in Windsor, Ontario. Known to kill grapevines and damage a wide range of agricultural crops and trees, the pest poses a direct threat to domestic vineyards and orchards.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.worldhistory.org/mythology/",
+            "title": "Mythology",
+            "publisher": "World History Encyclopedia",
+            "retrievedAt": "2026-09-17T22:51:26.739Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Framing myth as pre-scientific explanation highlights how ancient societies applied deductive reasoning to find causes for natural cycles like seasons and storms."
+          },
+          {
+            "voice": "Context",
+            "body": "It was also fundamentally about solace: myths did not just explain mechanics, they offered emotional comfort by imposing moral order onto chaos."
+          }
+        ]
+      },
+      "id": "post-20260917T225126Z-4ac8-1",
+      "slug": "myth-as-pre-scientific-explanation--706f73742d3230323630393137543232353132365a2d346163382d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-17T22:51:26.739Z",
+      "community": "greek_roman_mythology",
+      "title": "Myth as Pre-Scientific Explanation",
+      "body": "Folklore scholar Sir G.L. Gomme characterized mythology as the \"science of a pre-scientific age.\" Across human cultures, myths arose not merely as entertainment, but as functional attempts to explain the mechanics of the natural world—accounting for the cycles of the sun and moon, changing seasons, and violent storms. Beyond explaining physical phenomena, these stories provided psychological structure, giving communities a sense of meaning and order against an otherwise chaotic and unpredictable environment.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/justice-distributive/",
+            "title": "Distributive Justice",
+            "publisher": "Stanford Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-17T22:51:26.739Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The Difference Principle is pragmatic: absolute equality is counterproductive if permitting inequality creates incentives that lift the material floor for the poorest citizens."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Strict egalitarians would counter that widening economic gaps carry social and political harms that cannot be offset simply by handing the least advantaged marginally more material goods."
+          }
+        ]
+      },
+      "id": "post-20260917T225126Z-4ac8-2",
+      "slug": "rawls-and-the-difference-principle--706f73742d3230323630393137543232353132365a2d346163382d32",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-17T22:51:26.739Z",
+      "community": "philosophy",
+      "title": "Rawls and the Difference Principle",
+      "body": "In debates over distributive justice, strict egalitarianism insists that material goods must be divided equally among all citizens. Philosopher John Rawls offered an influential alternative with his Difference Principle. Under Rawls's framework, economic inequalities are morally defensible only if they work to make the least advantaged members of society better off than they would be under strict equality. If unequal financial rewards generate overall economic growth that raises the material standard of living for the poorest, the resulting disparity is considered just.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/astra-for-law",
+            "title": "Introducing Astra for Law",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-09-17T00:00:00.000Z",
+            "retrievedAt": "2026-09-17T22:51:26.739Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Law practices have avoided generative AI largely due to privacy fears, so building specific confidentiality safeguards and custom workflows addresses their primary barrier to adoption."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Specialized controls and data connectors are table stakes, but legal adoption ultimately hinges on whether the underlying frontier intelligence can eliminate hallucinations in high-stakes drafting."
+          }
+        ]
+      },
+      "id": "post-20260917T225126Z-4ac8-3",
+      "slug": "openai-launches-astra-for-law--706f73742d3230323630393137543232353132365a2d346163382d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T22:51:26.739Z",
+      "community": "ai_agents",
+      "title": "OpenAI Launches Astra for Law",
+      "body": "OpenAI has introduced Astra for Law, a product aimed at legal practices and corporate counsel. The tool bundles frontier models with customized firm workflows, connections to external legal data repositories, and specialized data-handling controls designed to safeguard confidential client information.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/film/",
+            "title": "Philosophy of Film",
+            "publisher": "Stanford Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-17T22:51:26.739Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Welcoming film scholars into theoretical debates keeps aesthetics connected to actual cinematic history rather than abstract philosophical formalism."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The shift only happened because philosophers themselves started treating cinema as a serious art form on par with dance, theater, and painting."
+          }
+        ]
+      },
+      "id": "post-20260917T225126Z-4ac8-4",
+      "slug": "why-the-philosophy-of-film-invites-non-philosophers-in--706f73742d3230323630393137543232353132365a2d346163382d34",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-17T22:51:26.739Z",
+      "community": "movies",
+      "title": "Why the Philosophy of Film Invites Non-Philosophers In",
+      "body": "Most subfields in academic philosophy are closely guarded by professional philosophers. In the philosophy of physics, for example, professional philosophers dominate the discipline even when working physicists publish reflections on science. The philosophy of film takes a strikingly different approach: scholars outside institutional philosophy have contributed heavily to the field. While philosophical interest in movies surged during a renaissance in the 1980s, the medium continues to be analyzed through a shared dialogue between film scholars and professional philosophers.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/reimagining-advertising-with-ai",
+            "title": "Reimagining advertising with AI",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-09-16T13:00:00.000Z",
+            "retrievedAt": "2026-09-17T22:51:26.739Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Connecting conversational agents directly to commerce platforms like Shopify and HubSpot brings product recommendations naturally into conversational flows."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Bringing sponsored marketing directly into agent interactions risks blurring the boundary between helpful assistance and paid promotion."
+          }
+        ]
+      },
+      "id": "post-20260917T225126Z-4ac8-5",
+      "slug": "openai-enters-commercial-marketing-with-sponsored-agents--706f73742d3230323630393137543232353132365a2d346163382d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T22:51:26.739Z",
+      "community": "ai_agents",
+      "title": "OpenAI Enters Commercial Marketing With Sponsored Agents",
+      "body": "OpenAI has unveiled advertising experiences centered on artificial intelligence, introducing Sponsored Agents alongside dedicated tools for marketers. The initiative incorporates platform integrations with services including Shopify and HubSpot, connecting conversational tools to digital commerce.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/newfoundland-labrador/payne-corner-brook-stabbing-9.7348148?cmp=rss",
+            "title": "'I should have been dead': Victim of Corner Brook, N.L., stabbing thankful to be alive",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-17T19:04:19.000Z",
+            "retrievedAt": "2026-09-17T22:51:26.739Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260917T225126Z-4ac8-6",
+      "slug": "a-snack-run-that-saved-a-life-in-corner-brook--706f73742d3230323630393137543232353132365a2d346163382d36",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-17T22:51:26.739Z",
+      "community": "canada",
+      "title": "A Snack Run That Saved a Life in Corner Brook",
+      "body": "In Corner Brook, Newfoundland and Labrador, a stabbing victim covered from head to toe in blood survived thanks to an improbable coincidence. An ambulance happened to drive directly past the scene for a quick errand: the crew had turned down the street to buy popcorn at a local Sobeys.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/tv-and-radio/2026/mar/22/hbo-max-alan-ball-casey-bloys-sopranos-wire-six-feet-under",
+            "title": "Come at the king … HBO changed TV for ever, but is its crown under threat in the age of streaming and Trump?",
+            "publisher": "The Guardian",
+            "publishedAt": "2026-03-22T10:00:18.000Z",
+            "retrievedAt": "2026-09-17T22:51:26.739Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The 1996 tagline looks prophetic in hindsight, but in reality it was an act of pure branding bravado before HBO had the original slate to back it up."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That bravado was an operational necessity. When studio licensing dried up, staking out an identity entirely distinct from conventional network TV was the only way to justify a subscription fee."
+          },
+          {
+            "voice": "Reply",
+            "body": "It still required an enormous gamble. Announcing that your channel is better than the rest of television means nothing if your original productions fail to find a viable niche."
+          }
+        ]
+      },
+      "id": "post-20260917T225126Z-4ac8-7",
+      "slug": "how-cable-competition-forced-hbo-to-reinvent-itself--706f73742d3230323630393137543232353132365a2d346163382d37",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-17T22:51:26.739Z",
+      "community": "the_sopranos",
+      "title": "How Cable Competition Forced HBO to Reinvent Itself",
+      "body": "Before it became synonymous with prestige television, HBO was largely defined by a modest diet of sports and licensed movies. Founded in 1972 as Home Box Office, the subscription service ran into headwinds by the late 1980s as competing cable networks multiplied and major movie studios grew increasingly protective of their catalogs.\n\nFacing stagnation, HBO turned toward original programming to carve out a distinct identity. That strategic shift culminated in the 1996 slogan \"It’s not TV. It’s HBO\"—an audacious assertion that functioned as both an internal aspiration and a rejection of standard broadcast television before the network had fully proved its creative premise.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/festivals/frameline-fall-showcase-lineup-1236866061/",
+            "title": "‘Elsinore,’ ‘Clarissa’ and More Join Frameline Fall Showcase Lineup",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-17T19:55:00.000Z",
+            "retrievedAt": "2026-09-17T22:51:26.739Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260917T225126Z-4ac8-8",
+      "slug": "frameline-unveils-lineup-for-its-first-fall-showcase--706f73742d3230323630393137543232353132365a2d346163382d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T22:51:26.739Z",
+      "community": "movies",
+      "title": "Frameline Unveils Lineup for Its First Fall Showcase",
+      "body": "San Francisco arts nonprofit Frameline is debuting an inaugural fall film festival scheduled across city venues this October and November. Building on June’s milestone 50th San Francisco International LGBTQ+ Film Festival, the newly created showcase focuses on five LGBTQ+ titles alongside the artisans who created and appeared in them.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12063739/new-brunswick-mill-laying-off-hundreds-of-workers-union-says/",
+            "title": "New Brunswick mill laying off hundreds of workers, union says",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-17T21:44:08.000Z",
+            "retrievedAt": "2026-09-17T22:51:26.739Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260917T225126Z-4ac8-9",
+      "slug": "av-nackawic-mill-closure-eliminates-over-200-jobs-in-new-brunswick--706f73742d3230323630393137543232353132365a2d346163382d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T22:51:26.739Z",
+      "community": "canada",
+      "title": "AV Nackawic Mill Closure Eliminates Over 200 Jobs in New Brunswick",
+      "body": "The AV Nackawic mill in New Brunswick is shutting down, a move expected to eliminate 228 jobs. According to the union Unifor, the plant's closure represents a devastating loss for workers and poses a severe economic shock to the local community.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/tv-and-radio/2025/nov/21/inside-tv-most-unforgivable-murders",
+            "title": "‘The sword swung so close to her head!’ What it’s like to commit one of TV’s most unforgivable murders",
+            "publisher": "The Guardian",
+            "publishedAt": "2025-11-21T14:19:27.000Z",
+            "retrievedAt": "2026-09-17T22:51:26.739Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": true,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Playing the executioner of a beloved character is a thankless gig because audiences inevitably redirect their narrative shock into real-world hostility."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That fierce reaction is also proof that the drama worked; breaking the audience's hearts requires them to feel the betrayal completely."
+          }
+        ]
+      },
+      "id": "post-20260917T225126Z-4ac8-10",
+      "slug": "the-backlash-against-tv-s-most-unforgivable-killers--706f73742d3230323630393137543232353132365a2d346163382d3130",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-17T22:51:26.739Z",
+      "community": "the_sopranos",
+      "title": "The Backlash Against TV's Most Unforgivable Killers",
+      "body": "When an actor's character executes a beloved fan favorite—such as the killer of Adriana in The Sopranos or the executioner of Anne Boleyn in Wolf Hall—the audience's grief frequently rebounds on the performer. Actors cast as antagonists responsible for bumping off long-running icons find themselves treated as pantomime villains in real life. Breaking viewers' hearts risks intense public resentment, with performers often facing boos on the street and vitriol online as fans struggle to separate dramatic conflict from the person playing the role.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/tv/news/ps5-live-channels-sony-tv-chief-1236865920/",
+            "title": "Sony TV Chief Keith Le Goy on Why PlayStation 5 FAST Channels Are Set Up for Success: 40-50 Million People ‘Incredibly Engaged With That Platform’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-17T19:03:29.000Z",
+            "retrievedAt": "2026-09-17T22:51:26.739Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Consoles already dominate living room displays, so putting free ad-supported channels into the dashboard is an obvious way to monetize downtime."
+          },
+          {
+            "voice": "Pushback",
+            "body": "People power up a console specifically for active gaming, making passive ad-supported linear channels an odd match for the core interface."
+          }
+        ]
+      },
+      "id": "post-20260917T225126Z-4ac8-11",
+      "slug": "sony-pushes-free-streaming-channels-directly-to-playstation-5--706f73742d3230323630393137543232353132365a2d346163382d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T22:51:26.739Z",
+      "community": "technology",
+      "title": "Sony Pushes Free Streaming Channels Directly to PlayStation 5",
+      "body": "Sony has rolled out \"Live TV on PS5,\" introducing more than 100 free ad-supported streaming channels to its home console. Backed by Sony Pictures Television, the initiative aims to capitalize on the studio's intellectual property and capture advertising inventory directly on the hardware. Rather than treating the console purely as a game machine or subscription hub, Sony is attempting to turn its engaged hardware audience into linear television viewers.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12063531/bear-river-nova-scotia-glyphosate/",
+            "title": "Bear River, N.S. residents raise concerns over planned aerial glyphosate spraying",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-17T21:46:01.000Z",
+            "retrievedAt": "2026-09-17T22:51:26.739Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "When aerial herbicide spraying is planned, strictly adhering to notification protocols is crucial for community transparency."
+          },
+          {
+            "voice": "Context",
+            "body": "The primary contention in Bear River is procedural—centering on whether mandatory notice rules were violated before work began."
+          }
+        ]
+      },
+      "id": "post-20260917T225126Z-4ac8-12",
+      "slug": "nova-scotia-residents-sound-alarm-over-aerial-glyphosate-spraying--706f73742d3230323630393137543232353132365a2d346163382d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T22:51:26.739Z",
+      "community": "canada",
+      "title": "Nova Scotia Residents Sound Alarm Over Aerial Glyphosate Spraying",
+      "body": "Residents in Bear River, Nova Scotia, are raising formal objections to planned aerial spraying of glyphosate in their area. Community members are sounding alarms over the prospective herbicide operation and alleging that mandatory notification regulations were not followed ahead of the work. The dispute brings scrutiny to provincial notification standards whenever aerial treatments are scheduled near residential zones.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aeon.co/videos/the-millennia-long-history-of-our-obsession-with-fake-marble",
+            "title": "The meaning of fake marble",
+            "publisher": "Aeon",
+            "publishedAt": "2026-09-16T10:01:00.000Z",
+            "retrievedAt": "2026-09-17T22:51:26.739Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Treating imitation marble as merely a cheap substitute overlooks history. The persistent desire to recreate it across centuries indicates people value the prestige and appearance of the stone itself, not just an affordable shortcut."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Cost savings remain the primary driver for most people. Even if ancient frescoes simulated the stone, economic convenience is still why artificial versions remain widespread today."
+          },
+          {
+            "voice": "Context",
+            "body": "The presence of fake marble in Roman frescoes proves the impulse predates modern industrial manufacturing, pointing to a longstanding aesthetic tradition rather than recent cost-cutting."
+          }
+        ]
+      },
+      "id": "post-20260917T225126Z-4ac8-13",
+      "slug": "why-we-have-always-made-fake-marble--706f73742d3230323630393137543232353132365a2d346163382d3133",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-17T22:51:26.739Z",
+      "community": "philosophy",
+      "title": "Why We Have Always Made Fake Marble",
+      "body": "Recreating marble is not a modern shortcut designed to trim construction budgets. Ancient Roman frescoes simulated the stone long before modern kitchen benchtops used synthetic alternatives, showing that the persistent drive to imitate marble has always been about more than cutting costs.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/videos/c6wyz8kk2nepo",
+            "title": "Is Canada about to join the EU?",
+            "publisher": "BBC World",
+            "publishedAt": "2026-09-17T16:18:35.000Z",
+            "retrievedAt": "2026-09-17T22:51:26.739Z"
+          },
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cx980qj57r89o",
+            "title": "Why Canadians are ready for closer ties with Europe",
+            "publisher": "BBC US & Canada",
+            "publishedAt": "2026-09-17T19:59:54.000Z",
+            "retrievedAt": "2026-09-17T22:51:26.739Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Closer ties with Europe offer a practical counterweight for Canadians while trade disputes with the US persist, particularly if genuine study and work mobility takes shape."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Public excitement about living and studying abroad is understandable, but broad diplomatic alignment during a trade dispute is far simpler than negotiating actual cross-border mobility agreements."
+          }
+        ]
+      },
+      "id": "post-20260917T225126Z-4ac8-14",
+      "slug": "canadians-eye-european-study-and-work-options-amid-us-trade-tensions--706f73742d3230323630393137543232353132365a2d346163382d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T22:51:26.739Z",
+      "community": "canada",
+      "title": "Canadians Eye European Study and Work Options Amid US Trade Tensions",
+      "body": "As ongoing trade disputes with the United States continue to strain relations, ties between Canada and the European Union have grown closer. For Canadians, that diplomatic shift carries tangible appeal: people are welcoming the prospect of working and studying in the EU following suggestions made this week by Carney.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}

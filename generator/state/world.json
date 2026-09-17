@@ -115,7 +115,23 @@
     "the bombarding of childhood",
     "trial of former sask principal accused of assaulting students with a paddle hears closing arguments",
     "our framework for reporting model misalignment",
-    "chasing la dolce vita"
+    "chasing la dolce vita",
+    "the invasive spotted lanternfly has been officially detected in canada for the first time",
+    "mythology",
+    "distributive justice",
+    "introducing astra for law",
+    "philosophy of film",
+    "reimagining advertising with ai",
+    "i should have been dead victim of corner brook n l stabbing thankful to be alive",
+    "come at the king hbo changed tv for ever but is its crown under threat in the age of streaming and trump",
+    "elsinore clarissa and more join frameline fall showcase lineup",
+    "new brunswick mill laying off hundreds of workers union says",
+    "the sword swung so close to her head what it s like to commit one of tv s most unforgivable murders",
+    "sony tv chief keith le goy on why playstation 5 fast channels are set up for success 40 50 million people incredibly engaged with that platform",
+    "bear river n s residents raise concerns over planned aerial glyphosate spraying",
+    "the meaning of fake marble",
+    "is canada about to join the eu",
+    "why canadians are ready for closer ties with europe"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -232,12 +248,28 @@
     "https://aeon.co/essays/its-not-just-screen-time-kids-are-bombarded-by-hectic-media",
     "https://www.cbc.ca/news/canada/saskatchewan/jury-trial-closing-arguments-former-principal-christian-school-saskatoon-duff-friesen-9.7348525?cmp=rss",
     "https://openai.com/index/model-misalignment-reporting-framework",
-    "https://aeon.co/essays/italianness-is-a-state-of-travelling-in-both-directions"
+    "https://aeon.co/essays/italianness-is-a-state-of-travelling-in-both-directions",
+    "https://www.cbc.ca/news/canada/windsor/spotted-lanternfly-windsor-detection-9.7348751?cmp=rss",
+    "https://www.worldhistory.org/mythology/",
+    "https://plato.stanford.edu/entries/justice-distributive/",
+    "https://openai.com/index/astra-for-law",
+    "https://plato.stanford.edu/entries/film/",
+    "https://openai.com/index/reimagining-advertising-with-ai",
+    "https://www.cbc.ca/news/canada/newfoundland-labrador/payne-corner-brook-stabbing-9.7348148?cmp=rss",
+    "https://www.theguardian.com/tv-and-radio/2026/mar/22/hbo-max-alan-ball-casey-bloys-sopranos-wire-six-feet-under",
+    "https://variety.com/2026/film/festivals/frameline-fall-showcase-lineup-1236866061/",
+    "https://globalnews.ca/news/12063739/new-brunswick-mill-laying-off-hundreds-of-workers-union-says/",
+    "https://www.theguardian.com/tv-and-radio/2025/nov/21/inside-tv-most-unforgivable-murders",
+    "https://variety.com/2026/tv/news/ps5-live-channels-sony-tv-chief-1236865920/",
+    "https://globalnews.ca/news/12063531/bear-river-nova-scotia-glyphosate/",
+    "https://aeon.co/videos/the-millennia-long-history-of-our-obsession-with-fake-marble",
+    "https://www.bbc.co.uk/news/videos/c6wyz8kk2nepo",
+    "https://www.bbc.co.uk/news/articles/cx980qj57r89o"
   ],
   "initialized": true,
-  "cycleCount": 19,
+  "cycleCount": 20,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-17T22:15:44.373Z",
+  "lastRunAt": "2026-09-17T22:51:26.739Z",
   "communities": [
     "technology",
     "science",
@@ -259,11 +291,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260917T165732Z-e5b6",
-      "generatedAtCycle": 15,
-      "summary": "How Star Trek fans renamed NASA’s first shuttle; Choosing a vector store for Bedrock Knowledge Bases; Wyatt Russell joins John Carroll Lynch’s comedy ‘Happy’; Polymath lessons from early Islamic scholars"
-    },
-    {
       "batchId": "20260917T181110Z-79ec",
       "generatedAtCycle": 16,
       "summary": "King Charles warns AI could pose existential danger if misused; Bank of England holds rates, warns rise possible if energy prices stay high; Amazon Connect Talent uses AI agents to streamline large‑scale hiring; Investigation into Prince George plane crash could last up to 450 days"
@@ -282,6 +309,11 @@
       "batchId": "20260917T221544Z-b692",
       "generatedAtCycle": 19,
       "summary": "AI Consciousness and the ‘Silicon Species’ Warning; Canada seeks unique EU ties, but associate member status does not exist; Decision Theory: Choosing by Expected Utility; David Chase returns with an HBO series on the CIA’s MKUltra; Synthetic data for the safety cases that are hardest to photograph; Tokyo festival names its 15-title Gala selection; Why so many readers meet Stoicism through Seneca; How Big Pussy held toughness and tenderness together; Alasko frozen raspberries recalled in 7 provi"
+    },
+    {
+      "batchId": "20260917T225126Z-4ac8",
+      "generatedAtCycle": 20,
+      "summary": "Spotted Lanternfly Confirmed in Canada for the First Time; Myth as Pre-Scientific Explanation; Rawls and the Difference Principle; OpenAI Launches Astra for Law; Why the Philosophy of Film Invites Non-Philosophers In; OpenAI Enters Commercial Marketing With Sponsored Agents; A Snack Run That Saved a Life in Corner Brook; How Cable Competition Forced HBO to Reinvent Itself; Frameline Unveils Lineup for Its First Fall Showcase; AV Nackawic Mill Closure Eliminates Over 200 Jobs in New Brunswick; Th"
     }
   ]
 }
