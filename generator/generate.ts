@@ -1,4 +1,4 @@
-import { readFileSync } from "node:fs";
+import { appendFileSync, readFileSync } from "node:fs";
 import { ManifestSchema } from "../schemas";
 import { PUBLIC_DATA_DIR, WORLD_STATE_PATH } from "./config";
 import { getApiKey, loadEnvFile } from "./env";
@@ -8,6 +8,7 @@ import { loadWorldState } from "./worldState";
 import { collectSources } from "./editorial/sources";
 import { generateEditorial } from "./editorial/generate";
 import { makeEditorialWorld } from "./editorial/state";
+import { coverageTitle } from "./editorial/coverage";
 import { editorialAccounts } from "./editorial/accounts";
 
 async function main() {
@@ -18,11 +19,15 @@ async function main() {
   const manifest = ManifestSchema.parse(
     JSON.parse(readFileSync(`${PUBLIC_DATA_DIR}/manifest.json`, "utf8")),
   );
-  const sources = (await collectSources(now)).filter(
-    (source) => !previous.coveredSourceUrls?.includes(source.url),
+  if (manifest.batches.length && previous.contentMode !== "editorial") throw new Error("Editorial state is missing; refusing to replace published history");
+  const coveredTitles = new Set(previous.coveredSourceTitles ?? []);
+  const coveredUrls = new Set(previous.coveredSourceUrls ?? []);
+  const sources = (await collectSources(now, fetch, coveredUrls)).filter(
+    (source) => !coveredUrls.has(source.url) && !coveredTitles.has(coverageTitle(source.title)),
   );
   if (!sources.length) {
     console.log("[editorial] No new usable sources; existing feed preserved.");
+    if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, "## Editorial generation\n\nTarget: 10. Published: 0. No new usable sources; existing edition preserved.\n");
     return;
   }
   const items = await generateEditorial(getApiKey(), sources, now, runId, previous.recentBatchSummaries.map((batch) => batch.summary));
@@ -37,7 +42,6 @@ async function main() {
     items,
     accounts: editorialAccounts(now),
     accountsChanged: true,
-    resetHistory: previous.contentMode !== "editorial",
     nextWorld,
     previousManifest: manifest,
   });
@@ -46,10 +50,12 @@ async function main() {
     worldStatePath: WORLD_STATE_PATH,
   });
   console.log(`[editorial] Published ${items.length} sourced posts.`);
+  if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, `\nPublication complete: ${items.length} sourced posts written.\n`);
 }
 main().catch((error) => {
   console.error(
     `[editorial] ${error instanceof Error ? error.message : String(error)}`,
   );
+  if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, "\nGeneration failed before publication; the existing edition is unchanged. See redacted attempt logs for details.\n");
   process.exitCode = 1;
 });

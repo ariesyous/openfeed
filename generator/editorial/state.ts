@@ -1,3 +1,4 @@
+import { coverageTitle } from "./coverage";
 import { MAX_RECENT_BATCH_SUMMARIES } from "../config";
 import type { FeedItem } from "../../schemas";
 import { WorldStateSchema, type WorldState } from "../worldState";
@@ -18,12 +19,13 @@ export function makeEditorialWorld(
         ? previous.createdAt
         : now.toISOString(),
     lastRunAt: now.toISOString(),
+    coveredSourceTitles: [...new Set([...(previous.coveredSourceTitles ?? []), ...items.flatMap(item => item.editorial?.sources.map(source => coverageTitle(source.title)) ?? [])])],
     coveredSourceUrls: [
       ...new Set([
         ...(previous.coveredSourceUrls ?? []),
         ...items.flatMap((i) => i.editorial?.sources.map((s) => s.url) ?? []),
       ]),
-    ].slice(-200),
+    ],
     communities: [...new Set([...previous.communities, ...items.map((item) => item.community)])],
     activeStorylines: [],
     characters: [],

@@ -26,6 +26,7 @@ export function useFeed() {
   const [items, setItems] = useState<FeedItem[]>([]);
   const [accounts, setAccounts] = useState<Account[]>([]);
   const [pending, setPending] = useState<BatchRef[]>([]);
+  const [olderManifest, setOlderManifest] = useState<string | undefined>();
   const [fresh, setFresh] = useState<BatchRef[]>([]);
   const [isLoadingInitial, setInitial] = useState(true);
   const [isLoadingMore, setLoading] = useState(false);
@@ -55,6 +56,7 @@ export function useFeed() {
         setAccounts(accountsFile);
         setItems(batchItems);
         setPending(rest);
+        setOlderManifest(manifest.olderManifest);
         setFresh([]);
         setError(null);
       } catch {
@@ -89,21 +91,37 @@ export function useFeed() {
   }, [attempt]);
 
   const loadMore = useCallback(async () => {
-    const next = pending[0];
     const abort = controller.current;
-    if (!next || busy.current || !abort || abort.signal.aborted) return;
+    if ((!pending.length && !olderManifest) || busy.current || !abort || abort.signal.aborted) return;
     busy.current = true;
     setLoading(true);
     setError(null);
     try {
+      let remaining = pending;
+      let cursor = olderManifest;
+      const visited = new Set<string>();
+      while (!remaining.length && cursor) {
+        if (visited.has(cursor)) throw new Error("Cyclic archive index");
+        visited.add(cursor);
+        const page = ManifestSchema.parse(await fetchJson(dataUrl(cursor), abort.signal));
+        remaining = page.batches.filter(batch => !loaded.current.has(batch.id));
+        cursor = page.olderManifest;
+      }
+      if (abort.signal.aborted) return;
+      const next = remaining[0];
+      if (!next) { setPending([]); setOlderManifest(undefined); return; }
       const batchItems = await fetchBatch(next, abort.signal);
       if (abort.signal.aborted) return;
       loaded.current.add(next.id);
-      setItems((current) => [
-        ...current,
-        ...batchItems.filter((i) => !current.some((p) => p.id === i.id)),
-      ]);
-      setPending((current) => current.filter((b) => b.id !== next.id));
+      setItems((current) => {
+        const merged = [...current, ...batchItems.filter(item => !current.some(existing => existing.id === item.id))];
+        // A tab may have missed more editions than fit in the newest index page.
+        // Place those recovered batches between the new and already-loaded old posts.
+        return merged.every(item => item.editorial)
+          ? merged.sort((a, b) => b.createdAt.localeCompare(a.createdAt)) : merged;
+      });
+      setPending(remaining.slice(1));
+      setOlderManifest(cursor);
     } catch {
       if (!abort.signal.aborted)
         setError("Couldn't load older posts. Your place is saved.");
@@ -111,7 +129,7 @@ export function useFeed() {
       busy.current = false;
       if (!abort.signal.aborted) setLoading(false);
     }
-  }, [pending]);
+  }, [pending, olderManifest]);
 
   const showNewPosts = async () => {
     const abort = controller.current;
@@ -128,10 +146,10 @@ export function useFeed() {
       const accountsFile = AccountsFileSchema.parse(accountData);
       if (abort.signal.aborted) return;
       const currentManifest = ManifestSchema.parse(manifestData);
-      const retained = new Set(currentManifest.batches.map((b) => b.id));
       const knownAuthors = new Set(accountsFile.map((a) => a.id));
-      setPending((current) => current.filter((b) => retained.has(b.id)));
       fresh.forEach((b) => loaded.current.add(b.id));
+      setPending(currentManifest.batches.filter(batch => !loaded.current.has(batch.id)));
+      setOlderManifest(currentManifest.olderManifest);
       newest.current = fresh[0].generatedAt;
       setAccounts(accountsFile);
       setItems((current) =>
@@ -188,7 +206,7 @@ export function useFeed() {
     ),
     isLoadingInitial,
     isLoadingMore,
-    hasMore: pending.length > 0,
+    hasMore: pending.length > 0 || Boolean(olderManifest),
     error,
     sentinelRef,
     loadMore,

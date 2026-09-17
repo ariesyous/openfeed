@@ -65,7 +65,7 @@ not a live OpenRouter run. The evergreen shelf is finite and must be expanded as
 ## Editorial generation reliability
 The editorial request carries a strict JSON schema derived from Zod; nullable transport
 fields normalize to optional draft values. Both structured and fallback output pass the
-same local evidence validation. Editions are capped at four posts. The user explicitly wants
+same local evidence validation. Editions target ten posts in requests capped at four, sharing five total attempts. The user explicitly wants
 `openrouter/free` as the default. Keep it as the manual default; Gemini is optional.
 Scheduled runs are enabled hourly at minute 17 and pinned to `openrouter/free`.
 Keep attempt diagnostics bounded and credential-redacted; log failure details and
@@ -80,3 +80,20 @@ model-supplied quotation text is not used. Keep unknown-ID and cross-source disc
 checks strict. These checks prove provenance, not semantic entailment.
 Local tests use mocked provider responses. Live free-router run 35104908350 and its
 deployment succeeded; continue monitoring recurring output quality.
+
+## Permanent content and reader state — September 17, 2026
+The user explicitly requires forever retention. Never reintroduce automatic age- or
+capacity-based content deletion. Keep source batch files and stable article slugs.
+`shared/articles.ts` assigns slugs; `scripts/buildArchive.ts` builds static article
+HTML/JSON and paginated deployment indexes. `public/data/manifest.json` in Git remains
+the complete publication catalog; the deployed manifest is only the newest index page.
+`pnpm archive:backfill` validates through the publish plan before writing migrations.
+
+Generator URL and normalized-source-title coverage is durable; only recent summaries
+are passed to models. Requests share one five-attempt budget across the whole edition.
+Cross-chunk evidence, freshness and publisher validation must remain strict. Preserve
+accepted chunks on later provider failure, but publish only once after validation.
+
+Reader state is device-local. Loading is not reading. Preserve feed filters/position on
+in-app Back and spoiler protection in both prebuilt HTML and React. Tests and the build
+run for PRs without deployment. Read docs/reading-roadmap.md for settled decisions.

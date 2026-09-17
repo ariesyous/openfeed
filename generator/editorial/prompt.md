@@ -10,7 +10,7 @@ Do not invent numbers, quotes, causes, outcomes, dates, or claims of consensus. 
 reported allegations and distinguish a publisher's report from an established fact.
 If an excerpt is too thin for a useful post, skip it. Fewer good posts beat filler.
 
-Choose up to four posts, spread across topics and formats where the evidence supports it:
+Choose up to maxPosts posts, spread across topics and formats where the evidence supports it:
 
 - news: what actually changed, why it matters where supported, and what remains unknown.
   Only use sources published within the last 72 hours. No "breaking", "today", or "just announced".
@@ -26,7 +26,7 @@ Writing: strong concrete opening; usually 40–180 words, shorter when evidence 
 No engagement bait, canned "this changes everything", corporate filler, or questions tacked
 onto every post. Do not force a punchline or "why it matters" when there is no substance.
 Use your own wording, not long quotations. Distinguish inference with "could" or "may".
-Maximum two posts from the same publisher per edition; use different sources for each post.
+Maximum two source uses from the same publisher across the whole edition (BBC sections count as one publisher). Honor publisherSlotsRemaining and avoid titles already in recentEditions; use different sources for each post.
 Do not repeat recently covered URLs. No filler to satisfy a format quota.
 
 Return ONLY JSON. Include topic, discussion, and spoilers on every post; use null

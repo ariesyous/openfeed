@@ -2,8 +2,10 @@ import { useRef, useState } from "react";
 import { useFeed } from "../hooks/useFeed";
 import { PostCard } from "./PostCard";
 import { Avatar } from "./Avatar";
+import type { FeedItem } from "../../schemas";
+import type { Reader } from "../hooks/useReader";
 
-export function FeedList() {
+export function FeedList({ reader, onOpenArticle }: { reader?: Reader; onOpenArticle?: (item: FeedItem) => void } = {}) {
   const { sentinelRef, ...feed } = useFeed();
   const [format, setFormat] = useState("");
   const [community, setCommunity] = useState("");
@@ -13,6 +15,7 @@ export function FeedList() {
   const communities = [
     ...new Set([...feed.accountsById.values()].flatMap((a) => a.communities).concat(feed.items.map((item) => item.community))),
   ].sort();
+  const isNew = (item: FeedItem) => Boolean(reader?.previousVisit && item.createdAt > reader.previousVisit && !reader.readIds.includes(item.id));
   const itemsById = new Map(feed.items.map((i) => [i.id, i]));
   const visible = feed.items.filter(
     (i) =>
@@ -72,6 +75,10 @@ export function FeedList() {
           </select>
         </label>
       </div>
+      {reader?.previousVisit && <div className="visit-status">
+        <span>{feed.items.filter(isNew).length} new in loaded posts since your last visit</span>
+        <button type="button" onClick={reader.markCaughtUp}>Mark caught up</button>
+      </div>}
       {feed.newPostCount > 0 && (
         <button
           className="new-posts"
@@ -137,6 +144,11 @@ export function FeedList() {
           <PostCard
             key={item.id}
             item={item}
+            onOpenArticle={onOpenArticle}
+            onToggleSave={reader?.toggleSave}
+            onMarkRead={reader && !reader.readIds.includes(item.id) ? reader.markRead : undefined}
+            saved={reader?.saved.some(saved => saved.id === item.id)}
+            isNew={isNew(item)}
             accountsById={feed.accountsById}
             itemsById={itemsById}
             onAuthorClick={openProfile}
