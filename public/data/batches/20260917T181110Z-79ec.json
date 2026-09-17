@@ -1,0 +1,142 @@
+{
+  "batchId": "20260917T181110Z-79ec",
+  "generatedAt": "2026-09-17T18:11:10.231Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c65ymj7njvl7o",
+            "title": "King Charles warns of 'existential danger' of AI falling into wrong hands",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-09-17T14:33:12.000Z",
+            "retrievedAt": "2026-09-17T18:11:10.231Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260917T181110Z-79ec-0",
+      "slug": "king-charles-warns-ai-could-pose-existential-danger-if-misused--706f73742d3230323630393137543138313131305a2d373965632d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T18:11:10.231Z",
+      "community": "technology",
+      "title": "King Charles warns AI could pose existential danger if misused",
+      "body": "At a summit in Ayrshire, King Charles warned that artificial intelligence poses an existential danger if it falls into the wrong hands. The gathering included representatives from major AI firms such as Nvidia, OpenAI and Anthropic. His remarks echo growing concerns among leaders about the risks of uncontrolled AI development.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cm4gjrxez1q0o",
+            "title": "Interest rates held but Bank signals rise if energy prices stay high",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-09-17T14:05:38.000Z",
+            "retrievedAt": "2026-09-17T18:11:10.231Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260917T181110Z-79ec-1",
+      "slug": "bank-of-england-holds-rates-warns-rise-possible-if-energy-prices-stay--706f73742d3230323630393137543138313131305a2d373965632d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T18:11:10.231Z",
+      "community": "economics",
+      "title": "Bank of England holds rates, warns rise possible if energy prices stay high",
+      "body": "The Bank of England kept interest rates unchanged for the sixth consecutive meeting, but cautioned that a future increase becomes more likely if energy prices remain elevated. Policymakers said high energy costs are a key factor shaping their outlook, leaving the door open for tighter monetary policy later this year.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/reduce-time-to-hire-for-quality-candidates-with-ai-powered-amazon-connect-talent/",
+            "title": "Reduce time-to-hire for quality candidates with AI-powered Amazon Connect Talent",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-17T17:55:20.000Z",
+            "retrievedAt": "2026-09-17T18:11:10.231Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260917T181110Z-79ec-2",
+      "slug": "amazon-connect-talent-uses-ai-agents-to-streamline-large-scale-hiring--706f73742d3230323630393137543138313131305a2d373965632d32",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-17T18:11:10.231Z",
+      "community": "ai_agents",
+      "title": "Amazon Connect Talent uses AI agents to streamline large‑scale hiring",
+      "body": "Amazon Connect Talent is a new AI‑powered hiring service built for recruiters handling high‑volume roles. It lets organizations define evaluation criteria and interview questions, then deploys AI agents to conduct interviews and assessments at scale, processing thousands of candidates. Candidates can complete their interviews at any time—day or night—on any device without scheduling delays, while recruiters receive a next‑morning dashboard with scored candidates, full transcripts and clear reasoning for each score. The system draws on Amazon’s internal hiring science to bring transparency and consistency to the talent acquisition process.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/british-columbia/prince-george-plane-crash-investigation-tsb-beech-king-air-9.7347235?cmp=rss",
+            "title": "Investigation into fatal plane crash in Prince George could take up to 450 days: TSB",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-17T13:00:00.000Z",
+            "retrievedAt": "2026-09-17T18:11:10.231Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260917T181110Z-79ec-3",
+      "slug": "investigation-into-prince-george-plane-crash-could-last-up-to-450-days--706f73742d3230323630393137543138313131305a2d373965632d33",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-17T18:11:10.231Z",
+      "community": "canada",
+      "title": "Investigation into Prince George plane crash could last up to 450 days",
+      "body": "Investigators say the investigation into the fatal plane crash near Prince George could take as long as 450 days. So far the Transportation Safety Board has only disclosed that the aircraft lost power to a single engine, which prompted the descent. Aviation experts note that the plane’s model is designed to fly safely on just one of its two engines, raising questions about why the loss of power led to the crash.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
