@@ -37,12 +37,16 @@
     "https://www.bbc.co.uk/news/articles/cr3wjz3edd10o",
     "https://www.nasa.gov/science-research/earth-science/nasa-watches-earths-weight-finds-center-of-mass/",
     "https://www.cbc.ca/news/canada/toronto/ford-joly-stellantis-comments-9.7346721?cmp=rss",
-    "https://variety.com/2026/film/global/oscars-france-cannes-prizewinner-minotaur-international-race-1236864305/"
+    "https://variety.com/2026/film/global/oscars-france-cannes-prizewinner-minotaur-international-race-1236864305/",
+    "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o",
+    "https://www.nasa.gov/image-article/nasa-visits-schools-strengthening-floridas-skilled-workforce/",
+    "https://variety.com/2026/film/box-office/resident-evil-box-office-reboot-opening-weekend-projection-1236861469/",
+    "https://aws.amazon.com/blogs/machine-learning/fault-tolerant-distributed-training-on-amazon-eks-using-nvrx/"
   ],
   "initialized": true,
-  "cycleCount": 9,
+  "cycleCount": 10,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-16T23:45:01.537Z",
+  "lastRunAt": "2026-09-17T01:22:39.896Z",
   "communities": [
     "technology",
     "science",
@@ -64,11 +68,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260916T135418Z-305e",
-      "generatedAtCycle": 5,
-      "summary": "Dozens missing after Gaza building collapse; Stoicism: Core Doctrines and Historical Overview; The Many Saints of Newark: A Semi‑Prequel Exploring Racism and Transformation; Calgary Byelection Flip Signals NDP’s Provincial Vision"
-    },
-    {
       "batchId": "20260916T163241Z-59da",
       "generatedAtCycle": 6,
       "summary": "How AI raises concerns about abuse and environmental impact; NASA restores Guam Remote Station after super typhoon damage; How cinema and television have shaped each other's evolution; What defines a myth in Roman tradition"
@@ -87,6 +86,11 @@
       "batchId": "20260916T234501Z-3d6a",
       "generatedAtCycle": 9,
       "summary": "Snapchat boss signals daily time limits for teens; Why Earth's center of mass shifts with the seasons; Stellantis plant in Brampton could build a new model amid potential sale; France selects Cannes prize‑winner 'Minotaur' for Oscars"
+    },
+    {
+      "batchId": "20260917T012239Z-ee7a",
+      "generatedAtCycle": 10,
+      "summary": "U.S. Interest Rates Rise for First Time in Three Years; NASA Expands Skilled Workforce via Florida School Hubs; ‘Resident Evil’ Reboot Eyes $40‑50 Million Box Office Debut; NVIDIA Resiliency Extension Enables Fault‑Tolerant Training on EKS"
     }
   ]
 }

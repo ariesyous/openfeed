@@ -1,0 +1,178 @@
+{
+  "batchId": "20260917T012239Z-ee7a",
+  "generatedAt": "2026-09-17T01:22:39.896Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cw4gmlyvj422o",
+            "title": "US interest rates raised for first time in three years",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-09-17T00:40:17.000Z",
+            "retrievedAt": "2026-09-17T01:22:39.896Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The Federal Reserve's unanimous decision to raise rates marks the first increase in three years, signaling a shift toward tighter monetary policy."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Critics argue that the hike could exacerbate borrowing costs for households already strained by inflation, especially given President Trump's public demand for cuts."
+          }
+        ]
+      },
+      "id": "post-20260917T012239Z-ee7a-0",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T01:22:39.896Z",
+      "community": "economics",
+      "title": "U.S. Interest Rates Rise for First Time in Three Years",
+      "body": "U.S. interest rates have risen for the first time in three years after the Federal Reserve approved a unanimous hike despite outspoken opposition from President Donald Trump, who had urged a cut. The move signals a renewed focus on curbing inflation, which analysts say remains above target. While the decision aims to stabilize price pressures, critics warn it could increase borrowing costs for consumers and businesses already feeling the squeeze. The Fed's action marks a pivotal shift in monetary policy as it balances growth concerns with price stability.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/image-article/nasa-visits-schools-strengthening-floridas-skilled-workforce/",
+            "title": "NASA Visits Schools Strengthening Florida’s Skilled Workforce",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-16T15:14:57.000Z",
+            "retrievedAt": "2026-09-17T01:22:39.896Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "NASA’s $10.5 million investment through the State Hubs initiative is expanding aerospace and technical training to 42 school districts, directly addressing workforce shortages in Florida."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The program’s rapid growth since its 2024 launch may outpace funding sustainability, raising questions about long‑term viability."
+          }
+        ]
+      },
+      "id": "post-20260917T012239Z-ee7a-1",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-17T01:22:39.896Z",
+      "community": "science",
+      "title": "NASA Expands Skilled Workforce via Florida School Hubs",
+      "body": "NASA’s State Hubs initiative has injected $10.5 million into seven national partners, with Space Florida leading Project ORBIT to expand aerospace and technical training for middle and high school students across Florida. Since its 2024 launch, the program has grown from 23 to 42 participating school districts, offering courses in aviation, robotics, welding and other high‑skill trades. By creating a statewide portal that links students with aerospace employers, the effort aims to boost enrollment in career‑technical programs and prepare a new generation for jobs in aviation, aerospace and related industries. The expansion reflects a broader push to strengthen the skilled workforce needed for the nation’s space ambitions.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/box-office/resident-evil-box-office-reboot-opening-weekend-projection-1236861469/",
+            "title": "Box Office: ‘Resident Evil’ Reboot Targets Franchise-Best $45 Million Debut",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-16T20:02:31.000Z",
+            "retrievedAt": "2026-09-17T01:22:39.896Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The upcoming ‘Resident Evil’ reboot is projected to open with a $40‑50 million domestic debut, revitalizing the early‑fall box office."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Despite strong early reviews, the film’s horror‑comedy tone may limit its audience, making the $40‑50 million target optimistic."
+          }
+        ]
+      },
+      "id": "post-20260917T012239Z-ee7a-2",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-17T01:22:39.896Z",
+      "community": "movies",
+      "title": "‘Resident Evil’ Reboot Eyes $40‑50 Million Box Office Debut",
+      "body": "Variety’s box office report predicts Sony’s ‘Resident Evil’ reboot will open with a domestic debut between $40 million and $50 million, targeting a strong early‑fall performance. The horror‑comedy reimagining leverages glowing word‑of‑mouth and positive early reviews, prompting rivals and tracking services to anticipate robust ticket sales. With a franchise‑best debut projected, the film could revitalize the seasonal box office and demonstrate the enduring appeal of the zombie franchise.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/fault-tolerant-distributed-training-on-amazon-eks-using-nvrx/",
+            "title": "Fault tolerant distributed training on Amazon EKS using NVRx",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-16T18:59:25.000Z",
+            "retrievedAt": "2026-09-17T01:22:39.896Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Integrating NVIDIA Resiliency Extension (NVRx) into PyTorch enables async checkpointing and in‑process restarts, dramatically reducing downtime during large‑scale training."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Even with these primitives, the added complexity of managing checkpointing and restart logic can increase maintenance burden for teams unfamiliar with the extension."
+          }
+        ]
+      },
+      "id": "post-20260917T012239Z-ee7a-3",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-17T01:22:39.896Z",
+      "community": "ai_agents",
+      "title": "NVIDIA Resiliency Extension Enables Fault‑Tolerant Training on EKS",
+      "body": "Large‑scale distributed training on Amazon EKS is prone to interruptions—network partitions, GPU faults, or software errors—that can halt progress for days. The NVIDIA Resiliency Extension (NVRx) adds async checkpointing, in‑process restart and in‑job restart to PyTorch, allowing faults to be recovered within seconds without restarting containers. Benchmarks on H100 GPUs show these techniques preserve training speed while cutting idle time, making multi‑node jobs more reliable and cost‑effective for researchers and industry alike.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
