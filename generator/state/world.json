@@ -90,7 +90,17 @@
     "don t close don t sell union implores stellantis to keep brampton plant as automaker signals sale",
     "nasa invites media to spacex s 35th resupply launch to space station",
     "why are there concerns ai could threaten humanity and how real are they",
-    "halle berry regina king and meg ryan announced as jurors for tribeca and chanel s through her lens filmmaker program"
+    "halle berry regina king and meg ryan announced as jurors for tribeca and chanel s through her lens filmmaker program",
+    "this olympic river has 500 crocodiles in it but that s not the main concern",
+    "wife of us scholar jailed in china asks trump to raise arrest at xi meeting",
+    "lawyers suggest 5 years for fatal impaired driving case after judge panned last proposal",
+    "a serverless data driven git metrics dashboard using amazon quick sight",
+    "greta gerwig says narnia is inspired by david bowie confirms meryl streep is voicing aslan i wanted someone profound but not pretentious",
+    "implementing defense in depth authorization for mcp tools on amazon quick",
+    "who will taste the cherries",
+    "what the u s fed hiking rates means for the loonie and for borrowers",
+    "manitoba adopts permanent daylight time after survey suggested overwhelming opposition to clock changes",
+    "the simpsons casting director scott muller to recruit voices for animated film the most serious fart"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -182,12 +192,22 @@
     "https://www.cbc.ca/news/canada/toronto/stellantis-brampton-plant-union-talks-9.7348153?cmp=rss",
     "https://www.nasa.gov/news-release/nasa-invites-media-to-spacexs-35th-resupply-launch-to-space-station/",
     "https://www.bbc.co.uk/news/articles/c790xvnzgnno",
-    "https://variety.com/2026/film/news/halle-berry-meg-ryan-tribeca-chanel-through-her-lens-jurors-1236866066/"
+    "https://variety.com/2026/film/news/halle-berry-meg-ryan-tribeca-chanel-through-her-lens-jurors-1236866066/",
+    "https://www.bbc.co.uk/news/articles/c68xkypqyxw7o",
+    "https://www.bbc.co.uk/news/articles/c9j3d2rr6g24o",
+    "https://www.cbc.ca/news/canada/newfoundland-labrador/rodney-constantine-impaired-driving-causing-death-9.7347968?cmp=rss",
+    "https://aws.amazon.com/blogs/machine-learning/a-serverless-data-driven-git-metrics-dashboard-using-amazon-quick-sight/",
+    "https://variety.com/2026/film/news/greta-gerwig-narnia-david-bowie-meryl-streep-aslan-1236865755/",
+    "https://aws.amazon.com/blogs/machine-learning/implementing-defense-in-depth-authorization-for-mcp-tools-on-amazon-quick/",
+    "https://aeon.co/essays/if-computers-count-all-the-petals-who-tastes-the-cherries",
+    "https://globalnews.ca/news/12062959/bank-of-canada-federal-reserve-loonie/",
+    "https://www.cbc.ca/news/canada/manitoba/daylight-time-manitoba-9.7347844?cmp=rss",
+    "https://variety.com/2026/film/news/casting-director-scott-muller-the-most-serious-fart-1236864768/"
   ],
   "initialized": true,
-  "cycleCount": 17,
+  "cycleCount": 18,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-17T21:04:52.806Z",
+  "lastRunAt": "2026-09-17T21:19:01.794Z",
   "communities": [
     "technology",
     "science",
@@ -209,11 +229,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260917T073610Z-8adf",
-      "generatedAtCycle": 13,
-      "summary": "Anak Krakatau’s Eruption Disrupted Thousands of Flights; When a Smaller Model Is the Better Catalog Worker; Machiavelli’s Philosophy Without the System; Zhang Yimou Takes the Busan Jury Presidency; OpenAI announces system to track and disclose model misbehavior; How generative AI simplifies PII redaction at scale; Netanyahu pushes law to strip citizenship of IDF critics; Aristotle’s practical wisdom vs. modern self‑help"
-    },
-    {
       "batchId": "20260917T132440Z-8a01",
       "generatedAtCycle": 14,
       "summary": "A one-off payment for the commute back; Let SageMaker choose the first available GPU; Police-database information and alleged indifference to harm; A crocodile river gets the Olympic rowing nod; Why production AI agents need a serverless code sandbox; Mass fish die‑off tests Canada's biggest nuclear plant and highlights climate risk; Alief picks up Lithuanian filmmaker Kristijonas Vildziunas's new feature; Prometheus: the trickster who stole fire and paid with his liver; A 50-year Labrador energ"
@@ -232,6 +247,11 @@
       "batchId": "20260917T210452Z-a764",
       "generatedAtCycle": 17,
       "summary": "NASA's tiny StarBurst satellite will hunt cosmic collisions from space; Why 88% of AI proofs-of-concept never make it to production; Police officer in Project South probe allegedly planned illegal dispensaries and massage parlours; US clears Iranian president and foreign minister for UN meetings in New York; Pan's Labyrinth's 20th anniversary books unlock the film's secrets; How a German insurer gave 400 employees secure self-service AI agents; Stellantis signals sale of Brampton plant as union "
+    },
+    {
+      "batchId": "20260917T211901Z-b489",
+      "generatedAtCycle": 18,
+      "summary": "Fitzroy River chosen for 2032 Olympics despite crocodile population; Families of jailed Americans urge Trump to raise China detentions; Lawyers push five‑year sentence in fatal drunk‑driving case; Serverless Git metrics dashboard brings live dev insights to Quick Sight; Greta Gerwig Says 'Narnia' Is Inspired by David Bowie, Confirms Meryl Streep Is Voicing Aslan; Layered Authorization for MCP Tools on Amazon Quick; The Computist's Dream of Debugging Human Subjectivity; What the U.S. Fed Hiking R"
     }
   ]
 }

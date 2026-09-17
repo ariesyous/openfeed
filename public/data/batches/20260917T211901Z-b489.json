@@ -1,0 +1,414 @@
+{
+  "batchId": "20260917T211901Z-b489",
+  "generatedAt": "2026-09-17T21:19:01.794Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c68xkypqyxw7o",
+            "title": "This Olympic river has 500 crocodiles in it - but that's not the main concern",
+            "publisher": "BBC World",
+            "publishedAt": "2026-09-17T19:35:23.000Z",
+            "retrievedAt": "2026-09-17T21:19:01.794Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260917T211901Z-b489-0",
+      "slug": "fitzroy-river-chosen-for-2032-olympics-despite-crocodile-population--706f73742d3230323630393137543231313930315a2d623438392d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T21:19:01.794Z",
+      "community": "world",
+      "title": "Fitzroy River chosen for 2032 Olympics despite crocodile population",
+      "body": "Olympic organizers have selected Queensland's Fitzroy River for the 2032 Games, even though the waterway is home to about 500 crocodiles. Officials say the site met technical requirements, but safety plans will need to address the reptile population.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c9j3d2rr6g24o",
+            "title": "Wife of US scholar jailed in China asks Trump to raise arrest at Xi meeting",
+            "publisher": "BBC US & Canada",
+            "publishedAt": "2026-09-17T17:08:00.000Z",
+            "retrievedAt": "2026-09-17T21:19:01.794Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260917T211901Z-b489-1",
+      "slug": "families-of-jailed-americans-urge-trump-to-raise-china-detentions--706f73742d3230323630393137543231313930315a2d623438392d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T21:19:01.794Z",
+      "community": "united_states",
+      "title": "Families of jailed Americans urge Trump to raise China detentions",
+      "body": "Relatives of Americans detained in China, including Sylvia Zin whose husband is a jailed scholar, are urging President Trump to bring up their loved ones' cases when he meets Chinese President Xi Jinping next week.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/newfoundland-labrador/rodney-constantine-impaired-driving-causing-death-9.7347968?cmp=rss",
+            "title": "Lawyers suggest 5 years for fatal impaired driving case, after judge panned last proposal",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-17T15:38:14.000Z",
+            "retrievedAt": "2026-09-17T21:19:01.794Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260917T211901Z-b489-2",
+      "slug": "lawyers-push-five-year-sentence-in-fatal-drunk-driving-case--706f73742d3230323630393137543231313930315a2d623438392d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T21:19:01.794Z",
+      "community": "canada",
+      "title": "Lawyers push five‑year sentence in fatal drunk‑driving case",
+      "body": "In a fatal impaired‑driving case, lawyers are now urging a five‑year prison term after a judge called the earlier four‑year proposal too lenient, citing the defendant’s lack of remorse.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/a-serverless-data-driven-git-metrics-dashboard-using-amazon-quick-sight/",
+            "title": "A serverless, data-driven Git metrics dashboard using Amazon Quick Sight",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-17T15:42:31.000Z",
+            "retrievedAt": "2026-09-17T21:19:01.794Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260917T211901Z-b489-3",
+      "slug": "serverless-git-metrics-dashboard-brings-live-dev-insights-to-quick-sig--706f73742d3230323630393137543231313930315a2d623438392d33",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-17T21:19:01.794Z",
+      "community": "ai_agents",
+      "title": "Serverless Git metrics dashboard brings live dev insights to Quick Sight",
+      "body": "Engineers can now get live GitHub and GitLab activity into an Amazon Quick Sight dashboard without managing servers. The system pulls commit data via APIs, processes it with event‑driven Lambda functions, stores results in S3, and visualizes trends like sprint velocity or release readiness.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/greta-gerwig-narnia-david-bowie-meryl-streep-aslan-1236865755/",
+            "title": "Greta Gerwig Says ‘Narnia’ Is Inspired by David Bowie, Confirms Meryl Streep Is Voicing Aslan: ‘I Wanted Someone Profound but Not Pretentious’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-17T18:36:53.000Z",
+            "retrievedAt": "2026-09-17T21:19:01.794Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Meryl Streep voicing Aslan is a bold, theatrical choice that instantly gives the iconic lion a sense of ancient wisdom and gravitas that matches Gerwig's ambitious vision."
+          },
+          {
+            "voice": "Pushback",
+            "body": "While Streep has unmatched vocal range, casting such a distinctly human, dramatic actor as the creator lion might risk making Narnia feel too dense or adult for its target young audience."
+          }
+        ]
+      },
+      "id": "post-20260917T211901Z-b489-4",
+      "slug": "greta-gerwig-says-narnia-is-inspired-by-david-bowie-confirms-meryl-str--706f73742d3230323630393137543231313930315a2d623438392d34",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-17T21:19:01.794Z",
+      "community": "movies",
+      "title": "Greta Gerwig Says 'Narnia' Is Inspired by David Bowie, Confirms Meryl Streep Is Voicing Aslan",
+      "body": "Greta Gerwig is reuniting with her “Little Women” star Meryl Streep on “Narnia,” the director’s adaptation of the C.S. Lewis fantasy series. Streep is voicing Aslan, the mythical lion who creates the mystical world of Narnia. Gerwig explained that she wanted someone profound but not pretentious, who had gravitas but not morose self-seriousness. The director has also revealed that the film's aesthetic and tone were inspired by the artistic legacy of David Bowie.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/implementing-defense-in-depth-authorization-for-mcp-tools-on-amazon-quick/",
+            "title": "Implementing defense-in-depth authorization for MCP tools on Amazon Quick",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-17T15:30:17.000Z",
+            "retrievedAt": "2026-09-17T21:19:01.794Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "In agentic AI, treating a valid SSO token as the final gate is a massive security risk. Layered, multi-gate authorization ensures least-privilege access down to the tool and parameter level."
+          },
+          {
+            "voice": "Pushback",
+            "body": "But adding multiple authorization gates could introduce latency or complexity that slows down agent workflows in fast-paced, automated environments."
+          }
+        ]
+      },
+      "id": "post-20260917T211901Z-b489-5",
+      "slug": "layered-authorization-for-mcp-tools-on-amazon-quick--706f73742d3230323630393137543231313930315a2d623438392d35",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-17T21:19:01.794Z",
+      "community": "ai_agents",
+      "title": "Layered Authorization for MCP Tools on Amazon Quick",
+      "body": "When connecting Model Context Protocol (MCP) tools to Amazon Quick, a valid single sign-on (SSO) confirms who the caller is, but not what they are allowed to do. Authorization closes that gap, turning a verified identity into a set of enforceable rules about what each caller can reach. Implementing a defense-in-depth authorization pattern evaluates OpenID Connect (OIDC) JSON Web Token (JWT) claims in sequence, enforcing role-based and attribute-based access control on each invocation. This layered approach ensures that a single misconfigured permission cannot bypass compliance requirements or expose sensitive data, which is critical when MCP tools reach internal databases and APIs.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aeon.co/essays/if-computers-count-all-the-petals-who-tastes-the-cherries",
+            "title": "Who will taste the cherries?",
+            "publisher": "Aeon",
+            "publishedAt": "2026-09-17T10:00:00.000Z",
+            "retrievedAt": "2026-09-17T21:19:01.794Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Stripping subjectivity out of knowledge sounds like a path to perfect objectivity, but it might also strip out the very empathy, context, and nuance that make knowledge useful to human lives."
+          },
+          {
+            "voice": "Reply",
+            "body": "That's the core tension: the 'friction' of subjectivity is often where creativity, moral reasoning, and cultural understanding actually live."
+          }
+        ]
+      },
+      "id": "post-20260917T211901Z-b489-6",
+      "slug": "the-computist-s-dream-of-debugging-human-subjectivity--706f73742d3230323630393137543231313930315a2d623438392d36",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-17T21:19:01.794Z",
+      "community": "philosophy",
+      "title": "The Computist's Dream of Debugging Human Subjectivity",
+      "body": "The computist has one dream: to debug the subjectivity out of all of human knowledge, creating a pure, frictionless world. This philosophical impulse treats human bias, perspective, and subjective experience as system errors to be eliminated in favor of objective, computational clarity. While appealing in its promise of universal agreement, the pursuit raises deep questions about whether knowledge can ever be truly stripped of its human context without losing its meaning.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12062959/bank-of-canada-federal-reserve-loonie/",
+            "title": "What the U.S. Fed hiking rates means for the loonie and for borrowers",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-17T18:58:59.000Z",
+            "retrievedAt": "2026-09-17T21:19:01.794Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "When the Fed hikes rates, the Bank of Canada often faces a difficult dilemma: follow suit to defend the loonie, or keep rates lower to support domestic economic growth."
+          },
+          {
+            "voice": "Pushback",
+            "body": "But given Canada's exceptionally high household debt-to-income ratio, even a symbolic divergence in monetary policy can heavily impact borrower confidence and market expectations."
+          }
+        ]
+      },
+      "id": "post-20260917T211901Z-b489-7",
+      "slug": "what-the-u-s-fed-hiking-rates-means-for-the-loonie-and-borrowers--706f73742d3230323630393137543231313930315a2d623438392d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T21:19:01.794Z",
+      "community": "canada",
+      "title": "What the U.S. Fed Hiking Rates Means for the Loonie and Borrowers",
+      "body": "The U.S. Federal Reserve hiked interest rates for the first time in three years on Wednesday, and several economists say this could add pressure on the Bank of Canada. The move is expected to affect the Canadian dollar, known as the loonie, and Canadian borrowers.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/manitoba/daylight-time-manitoba-9.7347844?cmp=rss",
+            "title": "Manitoba adopts permanent daylight time after survey suggested overwhelming opposition to clock changes",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-17T14:20:37.000Z",
+            "retrievedAt": "2026-09-17T21:19:01.794Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The immediate appeal is simplicity: one clock setting instead of a twice-yearly reset."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Simplicity is not implementation; the excerpt gives no effective date."
+          },
+          {
+            "voice": "Reply",
+            "body": "So the policy direction is reported clearly, while the calendar remains open."
+          }
+        ]
+      },
+      "id": "post-20260917T211901Z-b489-8",
+      "slug": "manitoba-chooses-one-clock-for-the-year--706f73742d3230323630393137543231313930315a2d623438392d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T21:19:01.794Z",
+      "community": "canada",
+      "title": "Manitoba Chooses One Clock for the Year",
+      "body": "Manitoba will adopt permanent daylight time, Premier Wab Kinew says, so residents will no longer need to spring forward or fall back by an hour. The year-round setting is clear. The excerpt gives no effective date or transition details, leaving the practical timetable unspecified.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/casting-director-scott-muller-the-most-serious-fart-1236864768/",
+            "title": "‘The Simpsons’ Casting Director Scott Muller to Recruit Voices for Animated Film ‘The Most Serious Fart’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-17T18:29:29.000Z",
+            "retrievedAt": "2026-09-17T21:19:01.794Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Siegfried’s goal is not to abolish farts but to make them respectable."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The excerpt supplies shame and determination, but no actual rehabilitation plan."
+          },
+          {
+            "voice": "Reply",
+            "body": "Then the voice has to do some heavy lifting—preferably without puncturing the premise."
+          }
+        ]
+      },
+      "id": "post-20260917T211901Z-b489-9",
+      "slug": "the-most-serious-fart-gets-a-voice-casting-brief--706f73742d3230323630393137543231313930315a2d623438392d39",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-09-17T21:19:01.794Z",
+      "community": "movies",
+      "title": "The Most Serious Fart Gets a Voice-Casting Brief",
+      "body": "Scott Muller will oversee voice casting for The Most Serious Fart, Utopai’s animated feature based on Mike Bender’s bestselling children’s book, due in theaters in 2027. Its hero, Siegfried, is an uptight fart who is ashamed of himself and determined to make farts respectable. That is less a plot summary than a hostile takeover of dignity.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
