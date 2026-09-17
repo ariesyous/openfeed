@@ -18,18 +18,29 @@ generator, article body, source batch or permanent URL is changed.
 
 ## Content fit
 
-The app uses the dynamic viewport height, safe-area padding, and a flexible reading
-area. Body text is at least 1rem. No line clamps, rewritten summaries or text scaling
-are used. A ResizeObserver checks the original headline/body against available room,
-including changes in text size and viewport dimensions. If it cannot fit, the view
-explicitly explains that and links to the full article; it does not silently crop
-content, skip the post or mark it as presented. This is an honest fallback for small
-screens/large text, not a claim that arbitrary content fits every viewport.
+The app uses dynamic viewport height, safe-area padding, compact mobile spacing,
+and a flexible reading area. After the user's mobile feedback, `fitCardText` now
+measures the unchanged headline/body and finds the largest fitting font scale with
+an eight-step binary search before paint. Body text scales down to .8125rem (13px
+with a 16px root); the floor follows the root font setting. A ResizeObserver
+recalculates on layout changes and restores the normal size when space increases.
+No line clamps, summaries or scrolling are introduced. If even the minimum cannot
+fit, the existing explicit article-link notice remains and the card is not marked
+presented. Arbitrary content cannot be guaranteed to fit every screen/text setting.
 
-The current 50-post archive's longest body is 174 words. Actual browser fit still
-needs verification: the managed browser's security policy rejected both localhost
-and local-file preview URLs. Automated DOM tests simulate dimensions to verify the
-fit/fallback logic; they do not prove the rendered layout fits real devices.
+Mobile swipes can start on linked headlines and sources; taps still open links.
+The card reserves single-finger movement for gestures while preserving pinch zoom
+(`touch-action: pinch-zoom`). Movement is more forgiving of diagonal paths and
+shorter distances; vertical, cancelled and multi-pointer gestures do not advance.
+Transferring implicit touch capture from a child to the card no longer cancels the
+swipe when the child's lost-capture event bubbles. Delayed clicks after a drag
+are suppressed. Mouse links and body text retain native interaction.
+
+The original version passed desktop live checks at 1363×936, but the user reported
+failed phone swipes, overflow notices and a two-card loop. Desktop checks did not
+validate mobile behavior. Localhost/local-file previews remain blocked by the
+managed browser's security policy; the current browser has no mobile emulation
+API. Automated layout tests simulate reflow and are not real-device verification.
 
 ## Selection and storage
 
@@ -39,6 +50,11 @@ storage holds a versioned list of up to 10,000 recent IDs; session history conti
 in memory when writes fail. Retained IDs prevent repeats; clearing storage or rolling
 past the retained limit can allow older IDs to appear again. This is not cross-device
 history. Explicit Undo and Revisit are the only intended repeats within that history.
+
+Explicitly advancing also excludes the departing card for the mounted session,
+even if it did not fit and was never presented. This fixes the two-card loop where
+unfit cards repeatedly selected each other instead of reaching the rest of the
+archive. Session exclusions are not persisted as seen; Revisit clears them.
 
 Search is bounded to three additional archive chunks per action. Each chunk follows
 at most five index pages and fetches at most one batch. A continuation action is
@@ -51,8 +67,9 @@ require a click to load and never automatically displace it.
 Automated coverage exercises selection, persistence, corrupt/denied storage,
 presentation versus prefetch, hidden tabs, bounded archive continuation, exhaustion,
 explicit revisiting, retry, new editions, swipes/cancellation, keyboard/buttons,
-Undo, original copy/source links, spoilers, overflow notice, article return and mode
-switching. Existing feed/archive/generation checks remain in the full suite.
+Undo, original copy/source links, spoilers, adaptive sizing/resizing, overflow
+notice, skipped-unfit-card archive progression, touch capture transfer, headline
+swipes versus taps, multi-touch, article return and mode switching. Existing feed/archive/generation checks remain in the full suite.
 
 After deployment, check actual posts at desktop and phone sizes (including 390×844
 and 360×740), the longest headlines/bodies, enlarged text and landscape. Verify no

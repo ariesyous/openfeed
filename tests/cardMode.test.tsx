@@ -12,6 +12,10 @@ const batch = JSON.parse(readFileSync(`public/data/${manifest.batches[0].file}`,
 const accounts = JSON.parse(readFileSync("public/data/accounts.json", "utf8"));
 const post = (id: string, community = "science"): FeedItem => ({ ...batch.items[0], id, slug: undefined, title: `Article ${id}`, body: `The original body of ${id}.`, community, editorial: { ...batch.items[0].editorial, spoilers: false } });
 const a = post("a"), b = post("b", "movies"), c = post("c");
+class TestPointer extends MouseEvent {
+  pointerId: number; pointerType: string; isPrimary: boolean;
+  constructor(type: string, init: PointerEventInit = {}) { super(type, init); this.pointerId = init.pointerId ?? 1; this.pointerType = init.pointerType ?? "touch"; this.isPrimary = init.isPrimary ?? true; }
+}
 function mockFeed(editions: FeedItem[][]) {
   const refs = editions.map((items, i) => ({ id: `edition-${i}`, file: `batches/edition-${i}.json`, itemCount: items.length, generatedAt: new Date(Date.UTC(2026, 8, 17, 10 - i)).toISOString() }));
   return vi.fn(async (url: string) => ({ ok: true, json: async () => {
@@ -23,6 +27,7 @@ function mockFeed(editions: FeedItem[][]) {
   } }));
 }
 beforeEach(() => {
+  vi.stubGlobal("PointerEvent", TestPointer);
   localStorage.clear(); window.history.replaceState({}, "", "/");
   vi.spyOn(window, "scrollTo").mockImplementation(() => {});
   vi.spyOn(HTMLElement.prototype, "clientHeight", "get").mockReturnValue(900);
@@ -60,6 +65,25 @@ describe("card selection and history", () => {
     expect(view.result.current.storageNotice).toContain("this visit only");
     act(() => view.result.current.advance("next"));
     await waitFor(() => expect(view.result.current.current?.id).toBe(b.id));
+  });
+  it("advances past unfit cards without cycling between two or marking them read", async () => {
+    vi.stubGlobal("fetch", mockFeed([[a, b], [c]]));
+    const view = renderHook(() => useCardDeck(true));
+    await waitFor(() => expect(view.result.current.current?.id).toBe(a.id));
+    // No presentation callback: these cards could not fit on the device.
+    act(() => view.result.current.advance("next"));
+    await waitFor(() => expect(view.result.current.current?.id).toBe(b.id));
+    act(() => view.result.current.advance("next"));
+    await waitFor(() => expect(view.result.current.current?.id).toBe(c.id));
+    expect(readSeenCards().size).toBe(0);
+    act(() => view.result.current.undo());
+    expect(view.result.current.current?.id).toBe(b.id);
+    act(() => view.result.current.advance("next"));
+    await waitFor(() => expect(view.result.current.current?.id).toBe(c.id));
+    act(() => view.result.current.advance("next"));
+    await waitFor(() => expect(view.result.current.status).toBe("exhausted"));
+    act(() => view.result.current.revisit());
+    await waitFor(() => expect(view.result.current.current?.id).toBe(a.id));
   });
   it("bounds automatic archive searches, offers continuation, and never declares premature exhaustion", async () => {
     const items = [a, b, c, post("d"), post("e")];
@@ -162,12 +186,25 @@ describe("card UI", () => {
     expect(screen.getByText(a.body)).toBeVisible();
     expect(callbacks.onPresented).toHaveBeenCalledWith(a);
   });
+  it("shrinks overflowing text to the largest fitting size and grows it back on resize", () => {
+    // Simulate reflow as font size changes. Real mobile layout remains a browser check.
+    vi.spyOn(HTMLElement.prototype, "clientHeight", "get").mockReturnValue(500);
+    vi.spyOn(HTMLElement.prototype, "scrollHeight", "get").mockImplementation(function(this: HTMLElement) {
+      return this.classList.contains("swipe-card-copy") ? Math.ceil(600 * Number(this.style.getPropertyValue("--card-text-scale") || 1) ** 2) : 200;
+    });
+    const callbacks = props(); const view = render(<SwipeCard {...callbacks} />);
+    const copy = view.container.querySelector<HTMLElement>(".swipe-card-copy")!;
+    const scale = Number(copy.style.getPropertyValue("--card-text-scale"));
+    expect(scale).toBeGreaterThan(.9);
+    expect(scale).toBeLessThan(1);
+    expect(copy.scrollHeight).toBeLessThanOrEqual(500);
+    expect(screen.getByText(a.body)).toBeVisible();
+    expect(callbacks.onPresented).toHaveBeenCalledWith(a);
+    vi.spyOn(HTMLElement.prototype, "clientHeight", "get").mockReturnValue(900);
+    fireEvent(window, new Event("resize"));
+    expect(copy.style.getPropertyValue("--card-text-scale")).toBe("1");
+  });
   it("handles horizontal swipes but ignores cancelled, vertical, short and interactive drags", () => {
-    class TestPointer extends MouseEvent {
-      pointerId: number; pointerType: string; isPrimary: boolean;
-      constructor(type: string, init: PointerEventInit = {}) { super(type, init); this.pointerId = init.pointerId ?? 1; this.pointerType = init.pointerType ?? "touch"; this.isPrimary = init.isPrimary ?? true; }
-    }
-    vi.stubGlobal("PointerEvent", TestPointer);
     const callbacks = props(); render(<SwipeCard {...callbacks} />);
     const card = screen.getByRole("article");
     const down = (target = card) => fireEvent.pointerDown(target, { clientX: 200, clientY: 100, pointerId: 1, button: 0 });
@@ -176,10 +213,46 @@ describe("card UI", () => {
     down(); fireEvent.pointerMove(card, { clientX: 205, clientY: 230, pointerId: 1 }); fireEvent.pointerUp(card, { clientX: 205, clientY: 230, pointerId: 1 });
     down(); fireEvent.pointerMove(card, { clientX: 220, clientY: 100, pointerId: 1 }); fireEvent.pointerUp(card, { clientX: 220, clientY: 100, pointerId: 1 });
     down(); fireEvent.pointerMove(card, { clientX: 330, clientY: 100, pointerId: 1 }); fireEvent.pointerCancel(card);
-    down(screen.getByRole("link", { name: a.title })); fireEvent.pointerMove(card, { clientX: 330, clientY: 100, pointerId: 1 }); fireEvent.pointerUp(card, { clientX: 330, clientY: 100, pointerId: 1 });
+    fireEvent.pointerDown(screen.getByRole("link", { name: a.title }), { clientX: 200, clientY: 100, pointerId: 1, button: 0, pointerType: "mouse" }); fireEvent.pointerMove(card, { clientX: 330, clientY: 100, pointerId: 1 }); fireEvent.pointerUp(card, { clientX: 330, clientY: 100, pointerId: 1 });
     expect(callbacks.onAdvance).not.toHaveBeenCalled();
     down(); fireEvent.pointerMove(card, { clientX: 330, clientY: 100, pointerId: 1 }); fireEvent.pointerUp(card, { clientX: 330, clientY: 100, pointerId: 1 });
     expect(callbacks.onAdvance).toHaveBeenCalledWith("next");
+  });
+  it("accepts short diagonal phone swipes starting on headlines, suppresses ghost clicks, and keeps taps", () => {
+    const callbacks = props(); render(<SwipeCard {...callbacks} />);
+    const card = screen.getByRole("article");
+    const title = screen.getByRole("link", { name: a.title });
+    fireEvent.pointerDown(title, { clientX: 100, clientY: 100, button: 0 });
+    fireEvent.pointerMove(card, { clientX: 150, clientY: 135 });
+    // Native touch capture transfers from the headline to the card mid-gesture.
+    fireEvent.lostPointerCapture(title, { pointerId: 1 });
+    fireEvent.pointerUp(card, { clientX: 150, clientY: 135 });
+    expect(callbacks.onAdvance).toHaveBeenCalledExactlyOnceWith("next");
+    fireEvent.click(title);
+    expect(callbacks.onOpenArticle).not.toHaveBeenCalled();
+    fireEvent.pointerDown(title, { clientX: 100, clientY: 100, button: 0 });
+    fireEvent.pointerUp(title, { clientX: 100, clientY: 100 });
+    fireEvent.click(title);
+    expect(callbacks.onOpenArticle).toHaveBeenCalledExactlyOnceWith(a);
+  });
+  it("cancels multi-touch and leaves spoiler buttons usable", () => {
+    const callbacks = props(); render(<SwipeCard {...callbacks} item={{ ...a, editorial: { ...a.editorial!, spoilers: true } }} />);
+    const card = screen.getByRole("article");
+    fireEvent.pointerDown(card, { clientX: 100, clientY: 100, button: 0 });
+    fireEvent.pointerMove(card, { clientX: 170, clientY: 100 });
+    fireEvent.pointerDown(card, { clientX: 110, clientY: 100, pointerId: 2, isPrimary: false });
+    fireEvent.pointerUp(card, { clientX: 200, clientY: 100 });
+    fireEvent.pointerDown(card, { clientX: 100, clientY: 100, button: 0 });
+    fireEvent.pointerMove(card, { clientX: 170, clientY: 100 });
+    fireEvent.lostPointerCapture(card, { pointerId: 1 });
+    fireEvent.pointerUp(card, { clientX: 200, clientY: 100 });
+    const button = screen.getByRole("button", { name: "Show spoilers" });
+    fireEvent.pointerDown(button, { clientX: 100, clientY: 100, button: 0 });
+    fireEvent.pointerMove(card, { clientX: 200, clientY: 100 });
+    fireEvent.pointerUp(card, { clientX: 200, clientY: 100 });
+    expect(callbacks.onAdvance).not.toHaveBeenCalled();
+    fireEvent.click(button);
+    expect(screen.getByText(a.body)).toBeVisible();
   });
   it("supports buttons, keyboard, undo and ignores keys while hidden", async () => {
     const view = render(<CardView active onOpenArticle={vi.fn()} onOpenTopic={vi.fn()} onExit={vi.fn()} />);

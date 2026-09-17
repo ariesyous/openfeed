@@ -18,6 +18,10 @@ export function useCardDeck(active: boolean) {
     try { return readSeenCards(); } catch { return new Set<string>(); }
   });
   const [revisitSeen, setRevisitSeen] = useState<Set<string> | null>(null);
+  // Explicitly leaving a card excludes it for this session even if it could not
+  // fit. Keep that separate from persistent, actually-presented history.
+  const [dismissed, setDismissed] = useState(() => new Set<string>());
+  const excluded = new Set([...(revisitSeen ?? seen), ...dismissed]);
   const loading = useRef(false);
   const presented = useCallback((item: FeedItem) => {
     if (!active) return;
@@ -31,7 +35,7 @@ export function useCardDeck(active: boolean) {
   // Reconcile a requested selection with newly loaded data. Only archive I/O lives
   // in the effect below; showing a card never starts another selection by itself.
   if (active && search && !feed.isLoadingInitial && !feed.isLoadingMore && !feed.error) {
-    const candidate = selectCard(feed.items, revisitSeen ?? seen, current, search.action);
+    const candidate = selectCard(feed.items, excluded, current, search.action);
     if (candidate) {
       if (current) setHistory(previous => [...previous, current].slice(-30));
       setCurrent(candidate);
@@ -43,16 +47,17 @@ export function useCardDeck(active: boolean) {
   }
   const { items, hasMore, isLoadingInitial, isLoadingMore, error, loadMore } = feed;
   useEffect(() => {
-    if (!active || !search || search.remaining === 0 || loading.current || isLoadingInitial || isLoadingMore || error || !hasMore || selectCard(items, revisitSeen ?? seen, current, search.action)) return;
+    if (!active || !search || search.remaining === 0 || loading.current || isLoadingInitial || isLoadingMore || error || !hasMore || selectCard(items, new Set([...(revisitSeen ?? seen), ...dismissed]), current, search.action)) return;
     loading.current = true;
     void loadMore().finally(() => {
       loading.current = false;
       setSearch(previous => previous === search ? { ...search, remaining: search.remaining - 1 } : previous);
     });
-  }, [active, search, current, seen, revisitSeen, items, hasMore, isLoadingInitial, isLoadingMore, error, loadMore]);
+  }, [active, search, current, seen, revisitSeen, dismissed, items, hasMore, isLoadingInitial, isLoadingMore, error, loadMore]);
 
   const advance = (action: CardAction) => {
     if (feed.isLoadingInitial || feed.isLoadingMore || loading.current) return;
+    if (current) setDismissed(previous => new Set([...previous, current.id]));
     setSearch({ action, remaining: SEARCH_BATCHES }); setStatus("searching");
   };
   const undo = () => {
@@ -62,7 +67,7 @@ export function useCardDeck(active: boolean) {
     setCurrent(history[history.length - 1]); setHistory(history.slice(0, -1));
   };
   const revisit = () => {
-    setRevisitSeen(new Set()); setCurrent(null); setHistory([]);
+    setRevisitSeen(new Set()); setDismissed(new Set()); setCurrent(null); setHistory([]);
     setSearch({ action: "next", remaining: SEARCH_BATCHES }); setStatus("searching");
   };
   const retry = () => {

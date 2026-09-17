@@ -113,8 +113,11 @@ that topic's own feed. Unknown topic routes show a not-found state.
 The user authorized implementation of #25. Cards are an alternative view of the
 same existing title/body/source data. Do not add summaries, shorten copy, change
 generation, or introduce page/internal scrolling. `SwipeCard` measures the reading
-area; insufficient space must produce an explicit article-link notice, never silent
-clipping, unreadably small text, or skipping a post. Browser layout verification is
+area and scales the unchanged text to fit, down to a body floor of .8125rem
+(13px with default settings). The user requested adaptive sizing after mobile
+overflow. Only if that still fails, show an explicit article-link notice; never
+silently clip content. Explicitly advancing past an unfit card excludes it for the
+mounted session, without falsely recording it as presented. Browser layout verification is
 still needed after deployment because local previews are blocked in the managed
 browser. Keep article discussion available through the full article link.
 
