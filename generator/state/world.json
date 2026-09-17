@@ -100,7 +100,22 @@
     "who will taste the cherries",
     "what the u s fed hiking rates means for the loonie and for borrowers",
     "manitoba adopts permanent daylight time after survey suggested overwhelming opposition to clock changes",
-    "the simpsons casting director scott muller to recruit voices for animated film the most serious fart"
+    "the simpsons casting director scott muller to recruit voices for animated film the most serious fart",
+    "uncontrolled ai could lead to silicon species rivalling humans warns microsoft",
+    "what could eu associate member status mean for canada",
+    "decision theory",
+    "sopranos creator david chase to write hbo limited series on cia drug program",
+    "enhancing industrial safety ai with synthetic data on amazon sagemaker ai",
+    "fan bingbing pedro pascal john malkovich javier bardem films lead tokyo festival s gala selection",
+    "seneca",
+    "vincent pastore obituary",
+    "alasko frozen raspberries recalled in 7 provinces over norovirus risk",
+    "perplexity trusts gpt 6 astra with end to end systems",
+    "evil genius review courteney cox fashions the pizza bomber case into a broad shrilly played farce",
+    "the bombarding of childhood",
+    "trial of former sask principal accused of assaulting students with a paddle hears closing arguments",
+    "our framework for reporting model misalignment",
+    "chasing la dolce vita"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -202,12 +217,27 @@
     "https://aeon.co/essays/if-computers-count-all-the-petals-who-tastes-the-cherries",
     "https://globalnews.ca/news/12062959/bank-of-canada-federal-reserve-loonie/",
     "https://www.cbc.ca/news/canada/manitoba/daylight-time-manitoba-9.7347844?cmp=rss",
-    "https://variety.com/2026/film/news/casting-director-scott-muller-the-most-serious-fart-1236864768/"
+    "https://variety.com/2026/film/news/casting-director-scott-muller-the-most-serious-fart-1236864768/",
+    "https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo",
+    "https://www.bbc.co.uk/news/articles/c8vgy3pq5ywyo",
+    "https://plato.stanford.edu/entries/decision-theory/",
+    "https://www.theguardian.com/us-news/2025/oct/22/david-chase-sopranos-return-to-television",
+    "https://aws.amazon.com/blogs/machine-learning/enhancing-industrial-safety-ai-with-synthetic-data-on-amazon-sagemaker-ai/",
+    "https://variety.com/2026/film/festivals/fan-bingbing-pedro-pascal-tokyo-film-festival-galas-1236865197/",
+    "https://plato.stanford.edu/entries/seneca/",
+    "https://www.theguardian.com/tv-and-radio/2026/aug/03/vincent-pastore-obituary",
+    "https://www.cbc.ca/news/canada/new-brunswick/raspberries-recall-norovirus-frozen-alasko-cfia-investigation-9.7348459?cmp=rss",
+    "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+    "https://variety.com/2026/film/reviews/evil-genius-review-1236866128/",
+    "https://aeon.co/essays/its-not-just-screen-time-kids-are-bombarded-by-hectic-media",
+    "https://www.cbc.ca/news/canada/saskatchewan/jury-trial-closing-arguments-former-principal-christian-school-saskatoon-duff-friesen-9.7348525?cmp=rss",
+    "https://openai.com/index/model-misalignment-reporting-framework",
+    "https://aeon.co/essays/italianness-is-a-state-of-travelling-in-both-directions"
   ],
   "initialized": true,
-  "cycleCount": 18,
+  "cycleCount": 19,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-17T21:19:01.794Z",
+  "lastRunAt": "2026-09-17T22:15:44.373Z",
   "communities": [
     "technology",
     "science",
@@ -229,11 +259,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260917T132440Z-8a01",
-      "generatedAtCycle": 14,
-      "summary": "A one-off payment for the commute back; Let SageMaker choose the first available GPU; Police-database information and alleged indifference to harm; A crocodile river gets the Olympic rowing nod; Why production AI agents need a serverless code sandbox; Mass fish die‑off tests Canada's biggest nuclear plant and highlights climate risk; Alief picks up Lithuanian filmmaker Kristijonas Vildziunas's new feature; Prometheus: the trickster who stole fire and paid with his liver; A 50-year Labrador energ"
-    },
-    {
       "batchId": "20260917T165732Z-e5b6",
       "generatedAtCycle": 15,
       "summary": "How Star Trek fans renamed NASA’s first shuttle; Choosing a vector store for Bedrock Knowledge Bases; Wyatt Russell joins John Carroll Lynch’s comedy ‘Happy’; Polymath lessons from early Islamic scholars"
@@ -252,6 +277,11 @@
       "batchId": "20260917T211901Z-b489",
       "generatedAtCycle": 18,
       "summary": "Fitzroy River chosen for 2032 Olympics despite crocodile population; Families of jailed Americans urge Trump to raise China detentions; Lawyers push five‑year sentence in fatal drunk‑driving case; Serverless Git metrics dashboard brings live dev insights to Quick Sight; Greta Gerwig Says 'Narnia' Is Inspired by David Bowie, Confirms Meryl Streep Is Voicing Aslan; Layered Authorization for MCP Tools on Amazon Quick; The Computist's Dream of Debugging Human Subjectivity; What the U.S. Fed Hiking R"
+    },
+    {
+      "batchId": "20260917T221544Z-b692",
+      "generatedAtCycle": 19,
+      "summary": "AI Consciousness and the ‘Silicon Species’ Warning; Canada seeks unique EU ties, but associate member status does not exist; Decision Theory: Choosing by Expected Utility; David Chase returns with an HBO series on the CIA’s MKUltra; Synthetic data for the safety cases that are hardest to photograph; Tokyo festival names its 15-title Gala selection; Why so many readers meet Stoicism through Seneca; How Big Pussy held toughness and tenderness together; Alasko frozen raspberries recalled in 7 provi"
     }
   ]
 }
