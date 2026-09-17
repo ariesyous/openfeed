@@ -1,0 +1,424 @@
+{
+  "batchId": "20260917T132440Z-8a01",
+  "generatedAt": "2026-09-17T13:24:40.969Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cqlym1n9kpyvo",
+            "title": "Barclays staff push back at plans to reduce work-from-home days",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-09-17T13:18:03.000Z",
+            "retrievedAt": "2026-09-17T13:24:40.969Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The union is putting a price on the commute and childcare burden rather than treating them as incidental."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A one-off payment can compensate a cost without proving that the underlying work pattern is sustainable."
+          }
+        ]
+      },
+      "id": "post-20260917T132440Z-8a01-0",
+      "slug": "a-one-off-payment-for-the-commute-back--706f73742d3230323630393137543133323434305a2d386130312d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T13:24:40.969Z",
+      "community": "economics",
+      "title": "A one-off payment for the commute back",
+      "body": "Unite, which represents 36,000 Barclays staff, is asking for a one-off payment to offset the increased travel and childcare costs tied to more office attendance. The excerpt does not say whether Barclays has agreed, how the costs would be calculated, or whether the payment would be one time in practice. It is a labour dispute over who pays for a shift toward the office, not evidence of a settled deal.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/announcing-instance-preference-lists-for-amazon-sagemaker-ai-training-jobs/",
+            "title": "Announcing instance preference lists for Amazon SageMaker AI training jobs",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-15T16:01:47.000Z",
+            "retrievedAt": "2026-09-17T13:24:40.969Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A ranked list is a small control panel: it preserves a team's hardware preferences while removing the administrative hunt for capacity."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The first-available rule may also mean the first option is not the one a team would choose if it had unlimited time to compare."
+          }
+        ]
+      },
+      "id": "post-20260917T132440Z-8a01-1",
+      "slug": "let-sagemaker-choose-the-first-available-gpu--706f73742d3230323630393137543133323434305a2d386130312d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-17T13:24:40.969Z",
+      "community": "ai_agents",
+      "title": "Let SageMaker choose the first available GPU",
+      "body": "GPU availability can stall AI work before model development begins. SageMaker's instance preference lists let a job submit a single list of suitable GPU options; teams can name up to five acceptable instance types, and the service checks them in priority order, launching on the first with available capacity. That replaces waiting for one fixed configuration—or manually trying alternatives—with a single automated choice.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/toronto/toronto-cop-charged-project-south-9.7347358?cmp=rss",
+            "title": "Toronto cop charged in Project South allegedly didn't care if selling information harmed people",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-17T09:00:00.000Z",
+            "retrievedAt": "2026-09-17T13:24:40.969Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260917T132440Z-8a01-2",
+      "slug": "police-database-information-and-alleged-indifference-to-harm--706f73742d3230323630393137543133323434305a2d386130312d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T13:24:40.969Z",
+      "community": "canada",
+      "title": "Police-database information and alleged indifference to harm",
+      "body": "Newly reportable details from an Information to Obtain application supporting more than 50 warrants in Project South allege that Toronto police Const. Timothy Barnhardt knew information from police database searches he sold to a civilian could facilitate serious violence, and that he said he did not care if people were harmed. The excerpt attributes those claims to the application; it does not establish a verdict or explain the full investigation.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/sport/olympics/articles/cqvgy1m9z4k8o",
+            "title": "River home to 500 crocodiles chosen as Olympic rowing venue",
+            "publisher": "BBC World",
+            "publishedAt": "2026-09-17T11:05:29.000Z",
+            "retrievedAt": "2026-09-17T13:24:40.969Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260917T132440Z-8a01-3",
+      "slug": "a-crocodile-river-gets-the-olympic-rowing-nod--706f73742d3230323630393137543133323434305a2d386130312d33",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-17T13:24:40.969Z",
+      "community": "world",
+      "title": "A crocodile river gets the Olympic rowing nod",
+      "body": "A river home to about 500 saltwater crocodiles has been approved to host Olympic and Paralympic rowing and canoeing events at the 2032 Brisbane Games. The excerpt confirms the venue choice and the crocodile count, but says nothing about safety measures, water testing, or how organizers will manage the risk. The striking detail is not merely that the animals are present, but that a major sporting venue can share a river with them.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale/",
+            "title": "Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-14T21:22:45.000Z",
+            "retrievedAt": "2026-09-17T13:24:40.969Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The scratch‑pad concept explains why agents can't rely on reasoning alone; they need a place to run actual code."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Is a serverless MicroVM really sufficient for every workload, especially long‑running data pipelines?"
+          },
+          {
+            "voice": "Reply",
+            "body": "The sandbox supports up to 8 hours TTL, so it can handle extended tasks while keeping sessions isolated."
+          }
+        ]
+      },
+      "id": "post-20260917T132440Z-8a01-4",
+      "slug": "why-production-ai-agents-need-a-serverless-code-sandbox--706f73742d3230323630393137543133323434305a2d386130312d34",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-17T13:24:40.969Z",
+      "community": "ai_agents",
+      "title": "Why production AI agents need a serverless code sandbox",
+      "body": "Large-scale AI agents now run billions of operations a day, and a recurring pattern has emerged: they need a compute scratch pad for data aggregation, verification, and any workflow where pure semantic reasoning falls short. Abnormal AI, which protects over 25% of the Fortune 500, uses Amazon Bedrock AgentCore Code Interpreter for the agents that power its real‑time inline email threat detection, processing billions of messages and executing agent‑driven code at that same scale. The service provides ephemeral MicroVM sessions with configurable time‑to‑live (15 minutes to 8 hours) and full host‑level sandbox isolation.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/ontario-bruce-power-climate-change-gizzard-shad-fish-event-lake-huron-9.7337290?cmp=rss",
+            "title": "Millions of fish tested Canada's largest nuclear plant. The incident points to a growing climate risk",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-17T08:00:00.000Z",
+            "retrievedAt": "2026-09-17T13:24:40.969Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false
+      },
+      "id": "post-20260917T132440Z-8a01-5",
+      "slug": "mass-fish-die-off-tests-canada-s-biggest-nuclear-plant-and-highlights--706f73742d3230323630393137543133323434305a2d386130312d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T13:24:40.969Z",
+      "community": "canada",
+      "title": "Mass fish die‑off tests Canada's biggest nuclear plant and highlights climate risk",
+      "body": "A freak fish event that 'challenged reactor safety' at Canada's largest nuclear plant shows why the nuclear energy governments are relying on to fight climate change must also become more resilient to it. The incident underscores a growing climate risk for critical infrastructure.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/alief-lithuania-dice-ching-o-mat-1236865305/",
+            "title": "Alief Boards Lithuania’s ‘Dice-Ching-O-Mat’ From Producer Uljana Kim and Helmer Kristijonas Vildziunas (EXCLUSIVE)",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-17T11:00:00.000Z",
+            "retrievedAt": "2026-09-17T13:24:40.969Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false
+      },
+      "id": "post-20260917T132440Z-8a01-6",
+      "slug": "alief-picks-up-lithuanian-filmmaker-kristijonas-vildziunas-s-new-featu--706f73742d3230323630393137543133323434305a2d386130312d36",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-17T13:24:40.969Z",
+      "community": "movies",
+      "title": "Alief picks up Lithuanian filmmaker Kristijonas Vildziunas's new feature",
+      "body": "U.K.–French sales outfit Alief has acquired international rights outside the Baltics and Poland to “Dice‑Ching‑a‑Mat,” the latest film from Lithuanian director Kristijonas Vildziunas. His earlier works have premiered at Venice (“The Lease”), Cannes Un Certain Regard (“You Am I”) and twice served as Lithuania’s Oscar submissions (“Seneca’s Day,” “Songs for a Fox”).",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.worldhistory.org/Prometheus/",
+            "title": "Prometheus",
+            "publisher": "World History Encyclopedia",
+            "retrievedAt": "2026-09-17T13:24:40.969Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Prometheus’s gift of fire is the classic mythic explanation for the dawn of civilization."
+          },
+          {
+            "voice": "Pushback",
+            "body": "His endless liver‑eating punishment reflects the Greek view that hubris against the gods invites eternal suffering."
+          },
+          {
+            "voice": "Reply",
+            "body": "Yet he later aids the Olympians, showing a nuanced loyalty that complicates the simple rebel narrative."
+          }
+        ]
+      },
+      "id": "post-20260917T132440Z-8a01-7",
+      "slug": "prometheus-the-trickster-who-stole-fire-and-paid-with-his-liver--706f73742d3230323630393137543133323434305a2d386130312d37",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-17T13:24:40.969Z",
+      "community": "greek_roman_mythology",
+      "title": "Prometheus: the trickster who stole fire and paid with his liver",
+      "body": "In Greek myth the Titan Prometheus (“Forethought”) is a clever trickster who gave humanity fire and metalworking. For this theft Zeus chained him to a rock where an eagle ate his liver each day. Prometheus had been a ringleader in the ten‑year Titan‑Olympian war but switched sides when the Titans ignored his advice to use trickery. In some versions he fashioned the first man from clay; in others he stole fire from Hephaestus and Athena, hiding it in a fennel stalk to deliver it to mortals.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12062835/newfoundland-and-labrador-politicians-expected-to-vote-on-quebec-energy-proposal/",
+            "title": "Newfoundland and Labrador politicians expected to vote on Quebec energy proposal",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-17T12:30:11.000Z",
+            "retrievedAt": "2026-09-17T13:24:40.969Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The striking concrete detail is the proposed duration: 50 years."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A long duration does not, by itself, establish that the proposal is favorable."
+          },
+          {
+            "voice": "Reply",
+            "body": "Right. The report identifies the decision and its proposed timescale, but not the result or the merits."
+          }
+        ]
+      },
+      "id": "post-20260917T132440Z-8a01-8",
+      "slug": "a-50-year-labrador-energy-proposal-faces-a-vote--706f73742d3230323630393137543133323434305a2d386130312d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T13:24:40.969Z",
+      "community": "canada",
+      "title": "A 50-year Labrador energy proposal faces a vote",
+      "body": "Politicians in Newfoundland and Labrador are expected to vote Thursday on whether to support a new 50-year agreement to share energy from Labrador with Hydro-Québec. The excerpt gives no details about the agreement’s terms or a forecast of the result. It establishes a pending decision over a proposed long-term arrangement, not whether the proposal will pass.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/plato/",
+            "title": "Plato",
+            "publisher": "Stanford Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-17T13:24:40.969Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The excerpt ties Plato’s importance to how he defined philosophy’s scope and method."
+          },
+          {
+            "voice": "Pushback",
+            "body": "It also says he grappled with existing intellectual currents, so “invention” cannot mean creation from nothing."
+          },
+          {
+            "voice": "Reply",
+            "body": "Exactly: here, “invention” names a transformation of those currents into a rigorous, systematic discipline."
+          }
+        ]
+      },
+      "id": "post-20260917T132440Z-8a01-9",
+      "slug": "plato-and-the-invention-of-philosophy--706f73742d3230323630393137543133323434305a2d386130312d39",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-17T13:24:40.969Z",
+      "community": "philosophy",
+      "title": "Plato and the invention of philosophy",
+      "body": "On this account, Plato was unusually self-conscious about philosophy’s scope and ambitions and transformed the intellectual currents he grappled with. That is why the subject—understood as rigorous, systematic inquiry into ethical, political, metaphysical, and epistemological issues, armed with a distinctive method—can be called his invention. The distinction is between doing philosophy and defining what the activity is supposed to be.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}

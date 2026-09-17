@@ -62,7 +62,17 @@
     "openai reveals six more safety issues and unveils plan to disclose incidents",
     "build a serverless pii redaction pipeline with amazon bedrock data automation",
     "benjamin netanyahu calls to revoke the citizenship of anyone who slanders idf soldiers following naza documentary premiere",
-    "aristotle s ethics"
+    "aristotle s ethics",
+    "barclays staff push back at plans to reduce work from home days",
+    "announcing instance preference lists for amazon sagemaker ai training jobs",
+    "toronto cop charged in project south allegedly didn t care if selling information harmed people",
+    "river home to 500 crocodiles chosen as olympic rowing venue",
+    "abnormal ai amazon bedrock agentcore for agentic email security at scale",
+    "millions of fish tested canada s largest nuclear plant the incident points to a growing climate risk",
+    "alief boards lithuania s dice ching o mat from producer uljana kim and helmer kristijonas vildziunas exclusive",
+    "prometheus",
+    "newfoundland and labrador politicians expected to vote on quebec energy proposal",
+    "plato"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -126,12 +136,22 @@
     "https://www.bbc.co.uk/news/articles/cmpq0wj5g899o",
     "https://aws.amazon.com/blogs/machine-learning/build-a-serverless-pii-redaction-pipeline-with-amazon-bedrock-data-automation/",
     "https://variety.com/2026/film/news/benjamin-netanyahu-naza-1236864975/",
-    "https://plato.stanford.edu/entries/aristotle-ethics/"
+    "https://plato.stanford.edu/entries/aristotle-ethics/",
+    "https://www.bbc.co.uk/news/articles/cqlym1n9kpyvo",
+    "https://aws.amazon.com/blogs/machine-learning/announcing-instance-preference-lists-for-amazon-sagemaker-ai-training-jobs/",
+    "https://www.cbc.ca/news/canada/toronto/toronto-cop-charged-project-south-9.7347358?cmp=rss",
+    "https://www.bbc.co.uk/sport/olympics/articles/cqvgy1m9z4k8o",
+    "https://aws.amazon.com/blogs/machine-learning/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale/",
+    "https://www.cbc.ca/news/canada/ontario-bruce-power-climate-change-gizzard-shad-fish-event-lake-huron-9.7337290?cmp=rss",
+    "https://variety.com/2026/film/global/alief-lithuania-dice-ching-o-mat-1236865305/",
+    "https://www.worldhistory.org/Prometheus/",
+    "https://globalnews.ca/news/12062835/newfoundland-and-labrador-politicians-expected-to-vote-on-quebec-energy-proposal/",
+    "https://plato.stanford.edu/entries/plato/"
   ],
   "initialized": true,
-  "cycleCount": 13,
+  "cycleCount": 14,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-17T07:36:10.030Z",
+  "lastRunAt": "2026-09-17T13:24:40.969Z",
   "communities": [
     "technology",
     "science",
@@ -153,11 +173,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260916T234501Z-3d6a",
-      "generatedAtCycle": 9,
-      "summary": "Snapchat boss signals daily time limits for teens; Why Earth's center of mass shifts with the seasons; Stellantis plant in Brampton could build a new model amid potential sale; France selects Cannes prize‑winner 'Minotaur' for Oscars"
-    },
-    {
       "batchId": "20260917T012239Z-ee7a",
       "generatedAtCycle": 10,
       "summary": "U.S. Interest Rates Rise for First Time in Three Years; NASA Expands Skilled Workforce via Florida School Hubs; ‘Resident Evil’ Reboot Eyes $40‑50 Million Box Office Debut; NVIDIA Resiliency Extension Enables Fault‑Tolerant Training on EKS"
@@ -176,6 +191,11 @@
       "batchId": "20260917T073610Z-8adf",
       "generatedAtCycle": 13,
       "summary": "Anak Krakatau’s Eruption Disrupted Thousands of Flights; When a Smaller Model Is the Better Catalog Worker; Machiavelli’s Philosophy Without the System; Zhang Yimou Takes the Busan Jury Presidency; OpenAI announces system to track and disclose model misbehavior; How generative AI simplifies PII redaction at scale; Netanyahu pushes law to strip citizenship of IDF critics; Aristotle’s practical wisdom vs. modern self‑help"
+    },
+    {
+      "batchId": "20260917T132440Z-8a01",
+      "generatedAtCycle": 14,
+      "summary": "A one-off payment for the commute back; Let SageMaker choose the first available GPU; Police-database information and alleged indifference to harm; A crocodile river gets the Olympic rowing nod; Why production AI agents need a serverless code sandbox; Mass fish die‑off tests Canada's biggest nuclear plant and highlights climate risk; Alief picks up Lithuanian filmmaker Kristijonas Vildziunas's new feature; Prometheus: the trickster who stole fire and paid with his liver; A 50-year Labrador energ"
     }
   ]
 }
