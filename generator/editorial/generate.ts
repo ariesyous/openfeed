@@ -1,14 +1,17 @@
-import { readFileSync } from "node:fs";
+import { appendFileSync, readFileSync } from "node:fs";
 import { z } from "zod";
 import { FeedItemSchema, type FeedItem } from "../../schemas";
-import { generateValidated, type ParseOutcome } from "../retry";
-import { ADVANCE_WORLD_MAX_TOKENS, ADVANCE_WORLD_TIMEOUT_MS } from "../config";
+import { generateValidated, GenerationFailedError, type ParseOutcome } from "../retry";
+import { ADVANCE_WORLD_MAX_TOKENS, ADVANCE_WORLD_TIMEOUT_MS, MAX_ATTEMPTS } from "../config";
 import { prepareEvidence, type EvidenceEntry } from "./evidence";
 import { logEditorialAttempt } from "./diagnostics";
+import { coverageTitle } from "./coverage";
 import { FORMATS, TOPICS } from "./accounts";
 import type { SourcePacket } from "./sources";
 
-export const EDITORIAL_MAX_POSTS = 4;
+export const EDITORIAL_MAX_POSTS = 10;
+export const EDITORIAL_REQUEST_POSTS = 4;
+const publisherKey = (publisher: string) => publisher.startsWith("BBC") ? "BBC" : publisher;
 
 const DiscussionTurn = z.object({
   voice: z.enum(["Take", "Pushback", "Reply", "Context"]),
@@ -52,7 +55,7 @@ const ResponseSchema = z.object({
       evidenceIds: EvidenceIds,
     })).min(2).max(4).nullable(),
     spoilers: z.boolean().nullable(),
-  })).max(EDITORIAL_MAX_POSTS),
+  })).max(EDITORIAL_REQUEST_POSTS),
 });
 export const EDITORIAL_JSON_SCHEMA = {
   name: "editorial_edition",
@@ -92,10 +95,10 @@ export function validateDraft(
         issues.push(`Source ${id} already used in this edition`);
       used.add(id);
       publishers.set(
-        source.publisher,
-        (publishers.get(source.publisher) ?? 0) + 1,
+        publisherKey(source.publisher),
+        (publishers.get(publisherKey(source.publisher)) ?? 0) + 1,
       );
-      if ((publishers.get(source.publisher) ?? 0) > 2)
+      if ((publishers.get(publisherKey(source.publisher)) ?? 0) > 2)
         issues.push(`Too many posts from ${source.publisher}`);
       const age = now.getTime() - new Date(source.publishedAt ?? "").getTime();
       if (post.format === "news" && (source.evergreen || !Number.isFinite(age) || age < 0 || age > 72 * 3_600_000))
@@ -219,24 +222,65 @@ export async function generateEditorial(
   dependencies: { fetchImpl?: typeof fetch; sleepImpl?: (ms: number) => Promise<void> } = {},
 ): Promise<FeedItem[]> {
   const started = Date.now();
-  const prepared = prepareEvidence(packets);
-  if (!prepared.sources.length) return [];
-  const result = await generateValidated({
-    ...dependencies,
-    apiKey,
-    jsonSchema: EDITORIAL_JSON_SCHEMA,
-    systemPrompt: readFileSync(new URL("./prompt.md", import.meta.url), "utf8"),
-    initialUserPrompt: JSON.stringify({
-      now: now.toISOString(),
-      sources: prepared.sources,
-      recentEditions,
-      maxPosts: EDITORIAL_MAX_POSTS,
-    }),
-    parse: (json) => validateCitedDraft(json, prepared.evidenceById, packets, now),
-    maxTokens: ADVANCE_WORLD_MAX_TOKENS,
-    timeoutMs: ADVANCE_WORLD_TIMEOUT_MS,
-    onAttempt: (info) => logEditorialAttempt(info, apiKey, Date.now() - started),
-  });
-  console.log(`[editorial] completed in ${result.attempts} attempt(s); structured output: ${result.usedStructuredOutput}`);
-  return enrichEditorial(result.value, packets, now, runId);
+  const accepted: Draft["posts"] = [];
+  let attempts = 0;
+  let reason = "target reached";
+  const models = new Set<string>();
+  while (accepted.length < EDITORIAL_MAX_POSTS && attempts < MAX_ATTEMPTS) {
+    const used = new Set(accepted.flatMap(post => post.sourceIds));
+    const usedTitles = new Set(packets.filter(packet => used.has(packet.id)).map(packet => coverageTitle(packet.title)));
+    const publishers = new Map<string, number>();
+    for (const packet of packets.filter(packet => used.has(packet.id))) {
+      const key = publisherKey(packet.publisher);
+      publishers.set(key, (publishers.get(key) ?? 0) + 1);
+    }
+    const available = packets.filter(packet => !used.has(packet.id) && !usedTitles.has(coverageTitle(packet.title)) && (publishers.get(publisherKey(packet.publisher)) ?? 0) < 2);
+    const distinctSources = [...new Map(available.map(packet => [coverageTitle(packet.title), packet])).values()];
+    const prepared = prepareEvidence(distinctSources);
+    if (!prepared.sources.length) { reason = "insufficient unused evidence or publisher diversity"; break; }
+    const maxPosts = Math.min(EDITORIAL_REQUEST_POSTS, EDITORIAL_MAX_POSTS - accepted.length);
+    try {
+      const result = await generateValidated({
+        ...dependencies, apiKey, maxAttempts: MAX_ATTEMPTS - attempts,
+        jsonSchema: EDITORIAL_JSON_SCHEMA,
+        systemPrompt: readFileSync(new URL("./prompt.md", import.meta.url), "utf8"),
+        initialUserPrompt: JSON.stringify({
+          now: now.toISOString(), sources: prepared.sources, maxPosts,
+          recentEditions: [...recentEditions, ...accepted.map(post => post.title)],
+          publisherSlotsRemaining: Object.fromEntries([...publishers].map(([key, count]) => [key, 2 - count])),
+        }),
+        parse: (json) => {
+          const draft = validateCitedDraft(json, prepared.evidenceById, available, now);
+          if (!draft.ok) return draft;
+          if (draft.value.posts.length > maxPosts) return { ok: false, issues: [`At most ${maxPosts} posts remain in this edition`] };
+          const titles = [...accepted, ...draft.value.posts].map(post => post.title.toLowerCase().replace(/[^a-z0-9]/g, ""));
+          if (new Set(titles).size !== titles.length) return { ok: false, issues: ["Duplicate article title in this edition"] };
+          const combined = validateDraft({ posts: [...accepted, ...draft.value.posts] }, packets, now);
+          return combined.ok ? draft : combined;
+        },
+        maxTokens: ADVANCE_WORLD_MAX_TOKENS, timeoutMs: ADVANCE_WORLD_TIMEOUT_MS,
+        onAttempt: (info) => logEditorialAttempt({ ...info, attempt: attempts + info.attempt }, apiKey, Date.now() - started),
+      });
+      attempts += result.attempts;
+      models.add(result.modelUsed);
+      console.log(`[editorial] completed chunk in ${result.attempts} attempt(s); structured output: ${result.usedStructuredOutput}`);
+      if (!result.value.posts.length) { reason = "model found no further publishable evidence"; break; }
+      accepted.push(...result.value.posts);
+    } catch (error) {
+      if (!(error instanceof GenerationFailedError)) throw error;
+      attempts += error.attempts;
+      reason = "provider or validation budget exhausted";
+      if (!accepted.length) throw error;
+      break;
+    }
+  }
+  if (accepted.length < EDITORIAL_MAX_POSTS && reason === "target reached") reason = "edition attempt budget exhausted";
+  const items = enrichEditorial({ posts: accepted }, packets, now, runId);
+  const summary = `[editorial] target=${EDITORIAL_MAX_POSTS} actual=${items.length} attempts=${attempts}/${MAX_ATTEMPTS} elapsedMs=${Date.now() - started}; ${reason}`;
+  console.log(summary);
+  if (process.env.GITHUB_STEP_SUMMARY) {
+    const safe = (text: string) => text.replace(/[\r\n<>`|]/g, " ").slice(0, 200);
+    appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## Editorial generation\n\n${summary}\n\nModels: ${[...models].map(safe).join(", ") || "none"}\n\nTopics: ${items.map(item => item.community).join(", ")}\n\nOutcome: ${items.length ? "validated candidate ready for publication" : "no-op; existing edition retained"}\n`);
+  }
+  return items;
 }

@@ -164,6 +164,7 @@ export async function readBounded(response: Response): Promise<string> {
 export async function collectSources(
   now: Date,
   fetchImpl: typeof fetch = fetch,
+  coveredUrls: ReadonlySet<string> = new Set(),
 ): Promise<SourcePacket[]> {
   const results = await Promise.allSettled(
     SOURCE_FEEDS.map(async (feed) => {
@@ -183,6 +184,6 @@ export async function collectSources(
         `[sources] ${SOURCE_FEEDS[index].publisher} unavailable; skipping`,
       );
   });
-  packets.push(...await collectEvergreen(now, fetchImpl));
+  packets.push(...await collectEvergreen(now, fetchImpl, coveredUrls));
   return [...new Map(packets.map((p) => [p.url, p])).values()];
 }

@@ -47,3 +47,12 @@ describe("editorial history rollover", () => {
     expect(world.coveredSourceUrls).toEqual(["https://example.com/article"]);
   });
 });
+
+it("keeps source coverage beyond 200 URLs without growing model summaries", () => {
+  const urls = Array.from({ length: 250 }, (_, index) => `https://example.com/${index}`);
+  const previous = WorldStateSchema.parse({ ...initial, contentMode: "editorial", coveredSourceUrls: urls });
+  const next = makeEditorialWorld(previous, [item], now, "retained");
+  expect(next.coveredSourceUrls).toHaveLength(251);
+  expect(next.coveredSourceUrls).toContain(urls[0]);
+  expect(next.recentBatchSummaries.length).toBeLessThanOrEqual(MAX_RECENT_BATCH_SUMMARIES);
+});

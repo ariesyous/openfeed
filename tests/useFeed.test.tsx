@@ -204,3 +204,29 @@ describe("feed loading", () => {
     expect(second.result.current.newPostCount).toBe(0);
   });
 });
+
+it("loads historical manifest pages on demand without losing batches after a failed request", async () => {
+  let fail = true;
+  const calls: string[] = [];
+  vi.stubGlobal("fetch", vi.fn(async (url: string) => {
+    calls.push(url);
+    if (url.endsWith("accounts.json")) return { ok: true, json: async () => accounts };
+    if (url.includes("manifest.json")) return { ok: true, json: async () => ({ ...sourceManifest, batches: [first], olderManifest: "archive/page-0.json" }) };
+    if (url.includes("archive/page-0.json")) {
+      if (fail) throw new Error("offline");
+      return { ok: true, json: async () => ({ ...sourceManifest, batches: [older] }) };
+    }
+    const id = url.includes("older") ? "older" : "first";
+    return { ok: true, json: async () => ({ ...source, batchId: id, items: [{ ...source.items[0], id }] }) };
+  }));
+  const { result } = renderHook(() => useFeed());
+  await waitFor(() => expect(result.current.isLoadingInitial).toBe(false));
+  expect(calls.some(url => url.includes("archive/"))).toBe(false);
+  await act(() => result.current.loadMore());
+  expect(result.current.items.map(item => item.id)).toEqual(["first"]);
+  expect(result.current.hasMore).toBe(true);
+  fail = false;
+  await act(() => result.current.loadMore());
+  expect(result.current.items.map(item => item.id)).toEqual(["first", "older"]);
+  expect(result.current.hasMore).toBe(false);
+});

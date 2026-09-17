@@ -13,5 +13,6 @@ export const ManifestSchema = z.object({
   generatedAt: z.string().datetime(),
   latestRunId: z.string().min(1),
   batches: z.array(BatchRefSchema),
+  olderManifest: z.string().regex(/^archive\/page-[a-zA-Z0-9_-]+\.json$/).optional(),
 });
 export type Manifest = z.infer<typeof ManifestSchema>;

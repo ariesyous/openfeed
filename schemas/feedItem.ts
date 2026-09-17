@@ -70,6 +70,7 @@ export const FeedItemSchema = z
       })
       .optional(),
     id: z.string().min(1),
+    slug: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*--[a-f0-9]+$/).optional(),
     kind: FeedItemKindSchema,
     authorId: z.string().min(1),
     createdAt: z.string().datetime(),

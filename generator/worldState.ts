@@ -79,7 +79,8 @@ export type BatchSummary = z.infer<typeof BatchSummarySchema>;
 
 export const WorldStateSchema = z.object({
   contentMode: z.literal("editorial").optional(),
-  coveredSourceUrls: z.array(z.string().url()).max(200).optional(),
+  coveredSourceTitles: z.array(z.string()).optional(),
+  coveredSourceUrls: z.array(z.string().url()).optional(),
   initialized: z.boolean(),
   cycleCount: z.number().int().nonnegative(),
   createdAt: z.string().datetime().optional(),

@@ -94,7 +94,7 @@ describe("buildPublishPlan", () => {
       }),
     );
     expect(plan.manifest.batches.map((b) => b.id)).toEqual(["run-new"]);
-    expect(plan.prunedBatches.map((b) => b.id)).toEqual(["seed"]);
+    expect(plan.prunedBatches).toEqual([]);
   });
 
   it("prepends the new batch to the manifest, newest first", () => {
@@ -103,7 +103,7 @@ describe("buildPublishPlan", () => {
     expect(plan.manifest.latestRunId).toBe("run-new");
   });
 
-  it("prunes batches older than the retention window and keeps recent ones", () => {
+  it("retains batches indefinitely alongside recent ones", () => {
     const previousManifest: Manifest = {
       schemaVersion: 1,
       generatedAt: NOW.toISOString(),
@@ -127,8 +127,8 @@ describe("buildPublishPlan", () => {
     const plan = buildPublishPlan(baseCandidate({ previousManifest }));
 
     const retainedIds = plan.manifest.batches.map((b) => b.id);
-    expect(retainedIds).toEqual(["run-new", "run-recent"]);
-    expect(plan.prunedBatches.map((b) => b.id)).toEqual(["run-old"]);
+    expect(retainedIds).toEqual(["run-new", "run-recent", "run-old"]);
+    expect(plan.prunedBatches).toEqual([]);
   });
 
   it("throws rather than producing a plan when a candidate item is schema-invalid", () => {
@@ -158,7 +158,7 @@ describe("writePublishPlan", () => {
     rmSync(dir, { recursive: true, force: true });
   });
 
-  it("writes batch, manifest, and world files, and deletes pruned batch files", () => {
+  it("writes batch, manifest, and world files without deleting historical content", () => {
     const dataDir = path.join(dir, "data");
     const worldStatePath = path.join(dir, "world.json");
 
@@ -191,14 +191,14 @@ describe("writePublishPlan", () => {
     expect(existsSync(path.join(dataDir, "manifest.json"))).toBe(true);
     expect(existsSync(worldStatePath)).toBe(true);
     expect(existsSync(path.join(dataDir, "batches", "run-old.json"))).toBe(
-      false,
+      true,
     );
 
     const manifest = JSON.parse(
       readFileSync(path.join(dataDir, "manifest.json"), "utf8"),
     );
     expect(manifest.batches.map((b: { id: string }) => b.id)).toEqual([
-      "run-new",
+      "run-new", "run-old",
     ]);
   });
 

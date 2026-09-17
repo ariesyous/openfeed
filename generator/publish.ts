@@ -1,4 +1,4 @@
-import { existsSync, mkdirSync, unlinkSync, writeFileSync } from "node:fs";
+import { mkdirSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import {
   AccountsFileSchema,
@@ -11,7 +11,7 @@ import {
   type FeedItem,
   type Manifest,
 } from "../schemas";
-import { RETENTION_DAYS } from "./config";
+import { withArticleSlug } from "../shared/articles";
 import { WorldStateSchema, type WorldState } from "./worldState";
 
 export interface PublishCandidate {
@@ -23,6 +23,8 @@ export interface PublishCandidate {
   resetHistory?: boolean;
   nextWorld: WorldState;
   previousManifest: Manifest;
+  /** One-time validated slug backfill; original batch dates and IDs are preserved. */
+  backfillBatches?: BatchFile[];
 }
 
 export interface PublishPlan {
@@ -32,6 +34,7 @@ export interface PublishPlan {
   accountsFile: AccountsFile | undefined;
   world: WorldState;
   prunedBatches: BatchRef[];
+  backfillBatches: BatchFile[];
 }
 
 /**
@@ -40,19 +43,13 @@ export interface PublishPlan {
  * .parse() calls) rather than returning a partially-valid plan -- a candidate that
  * fails validation never reaches writePublishPlan, so nothing on disk is touched.
  *
- * Pruning tradeoff: batches older than RETENTION_DAYS are dropped by age alone, with no
- * attempt at full referential-integrity preservation across the retained set. This is
- * safe by construction because repost/reaction referencedPostId is restricted (at
- * generation time -- see generator/rawSchemas.ts) to items from the same cycle, never a
- * historical batch, so pruning an old batch can never leave a dangling reference in a
- * retained one. Continuity beyond the retention window lives in world-state summaries,
- * which the generator reads instead of re-reading old batch files.
+ * Published batches are retained forever. Deployment indexes are paginated at build time.
  */
 export function buildPublishPlan(candidate: PublishCandidate): PublishPlan {
   const batchFile = BatchFileSchema.parse({
     batchId: candidate.runId,
     generatedAt: candidate.now.toISOString(),
-    items: candidate.items,
+    items: candidate.items.map(withArticleSlug),
   });
 
   const newBatchRef: BatchRef = {
@@ -67,17 +64,10 @@ export function buildPublishPlan(candidate: PublishCandidate): PublishPlan {
   );
   const allBatches = [newBatchRef, ...(candidate.resetHistory ? [] : history)];
 
-  const cutoffMs = candidate.now.getTime() - RETENTION_DAYS * 24 * 3_600_000;
-  const retained = allBatches.filter(
-    (b) => new Date(b.generatedAt).getTime() >= cutoffMs,
-  );
-  // Defensive: the batch just generated at `now` should never itself be past the cutoff,
-  // but never let pruning remove every batch.
-  if (!retained.some((b) => b.id === newBatchRef.id)) {
-    retained.unshift(newBatchRef);
-  }
-  const retainedIds = new Set(retained.map((b) => b.id));
-  const prunedBatches = history.filter((b) => !retainedIds.has(b.id));
+  // Content never expires. resetHistory only disconnects legacy fictional data;
+  // it must not delete files. The active editorial generator never resets history.
+  const retained = allBatches;
+  const prunedBatches: BatchRef[] = [];
 
   const manifest = ManifestSchema.parse({
     schemaVersion: candidate.previousManifest.schemaVersion || 1,
@@ -95,6 +85,8 @@ export function buildPublishPlan(candidate: PublishCandidate): PublishPlan {
       : undefined,
     world: WorldStateSchema.parse(candidate.nextWorld),
     prunedBatches,
+    backfillBatches: (candidate.backfillBatches ?? []).map((batch) =>
+      BatchFileSchema.parse({ ...batch, items: batch.items.map(withArticleSlug) })),
   };
 }
 
@@ -107,6 +99,10 @@ export function writePublishPlan(
 ): void {
   const batchesDir = path.join(dirs.dataDir, "batches");
   mkdirSync(batchesDir, { recursive: true });
+
+  for (const batch of plan.backfillBatches) {
+    writeFileSync(path.join(batchesDir, `${batch.batchId}.json`), `${JSON.stringify(batch, null, 2)}\n`);
+  }
 
   writeFileSync(
     path.join(batchesDir, plan.batchFileName),
@@ -127,14 +123,4 @@ export function writePublishPlan(
     `${JSON.stringify(plan.world, null, 2)}\n`,
   );
 
-  for (const batch of plan.prunedBatches) {
-    const filePath = path.join(dirs.dataDir, batch.file);
-    try {
-      if (existsSync(filePath)) unlinkSync(filePath);
-    } catch (err) {
-      console.warn(
-        `[publish] failed to delete pruned batch file ${filePath}: ${err}`,
-      );
-    }
-  }
 }

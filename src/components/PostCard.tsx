@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { articlePath } from "../../shared/articles";
 import type { Account, FeedItem } from "../../schemas";
 import { formatRelativeTime } from "../lib/relativeTime";
 import { Avatar } from "./Avatar";
@@ -9,6 +10,12 @@ interface PostCardProps {
   item: FeedItem;
   accountsById: Map<string, Account>;
   itemsById?: Map<string, FeedItem>;
+  onOpenArticle?: (item: FeedItem) => void;
+  onToggleSave?: (item: FeedItem) => void;
+  onMarkRead?: (item: FeedItem) => void;
+  saved?: boolean;
+  isNew?: boolean;
+  articleView?: boolean;
   onAuthorClick?: (id: string) => void;
   onCommunityClick?: (community: string) => void;
 }
@@ -17,15 +24,18 @@ export function PostCard({
   item,
   accountsById,
   itemsById,
+  onOpenArticle, onToggleSave, onMarkRead, saved, isNew, articleView,
   onAuthorClick,
   onCommunityClick,
 }: PostCardProps) {
-  const [expanded, setExpanded] = useState(false);
+  const [expanded, setExpanded] = useState(Boolean(articleView));
+  const [shareStatus, setShareStatus] = useState("");
+  const url = articlePath(item, import.meta.env.BASE_URL);
   const [showSpoilers, setShowSpoilers] = useState(false);
   const discussion = item.editorial?.discussion ?? [];
   const hiddenSpoilers = item.editorial?.spoilers && !showSpoilers;
   const author = accountsById.get(item.authorId);
-  const displayName = author?.displayName ?? "Unknown";
+  const displayName = author?.displayName ?? (item.editorial ? "OpenFeed" : "Unknown");
   const handle = author?.handle ?? "unknown";
   const referenced = item.referencedPostId
     ? itemsById?.get(item.referencedPostId)
@@ -49,12 +59,12 @@ export function PostCard({
           handle={handle}
         />
         <div className="post-card-author">
-          <button
+          {articleView ? <span className="post-card-display-name">{displayName}</span> : <button
             className="text-button post-card-display-name"
             onClick={() => onAuthorClick?.(item.authorId)}
           >
             {displayName}
-          </button>
+          </button>}
           <span className="post-card-handle">
             {item.editorial ? "AI-edited column" : `@${handle}`}
           </span>
@@ -79,15 +89,20 @@ export function PostCard({
             }
           </span>
         )}
-        <button
+        {articleView ? <span className="post-card-community">{item.community.replaceAll("_", " ")}</span> : <button
           className="post-card-community"
           onClick={() => onCommunityClick?.(item.community)}
         >
           {item.community.replaceAll("_", " ")}
-        </button>
+        </button>}
       </div>
 
-      {item.title && <h3 className="post-card-title">{item.title}</h3>}
+      {isNew && <span className="new-label">New since your last visit</span>}
+      {item.title && (articleView ? <h1 className="post-card-title">{item.title}</h1> : <h3 className="post-card-title">{item.editorial ? <a href={url} onClick={(event) => {
+        if (onOpenArticle && !event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey && event.button === 0) {
+          event.preventDefault(); onOpenArticle(item);
+        }
+      }}>{item.title}</a> : item.title}</h3>)}
       {hiddenSpoilers ? (
         <button className="post-card-toggle" onClick={() => setShowSpoilers(true)}>Show spoilers</button>
       ) : <p className="post-card-body">{item.body}</p>}
@@ -142,6 +157,15 @@ export function PostCard({
           )}
         </blockquote>
       )}
+      {item.editorial && <div className="reader-actions">
+        {onToggleSave && <button type="button" aria-pressed={Boolean(saved)} onClick={() => onToggleSave(item)}>{saved ? "Saved" : "Save article"}</button>}
+        {onMarkRead && <button type="button" onClick={() => onMarkRead(item)}>Mark read</button>}
+        <button type="button" onClick={async () => {
+          try { await navigator.clipboard.writeText(new URL(url, window.location.origin).href); setShareStatus("Link copied"); }
+          catch { setShareStatus("Copy the article link from its title or address bar."); }
+        }}>Copy link</button>
+        <span role="status">{shareStatus}</span>
+      </div>}
       {item.editorial ? (
         <div className="source-panel">
           <div className="source-panel-label">

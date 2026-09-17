@@ -1,12 +1,10 @@
 name: Deploy
 
-# Phase 1 scope: an ordinary push to main tests/builds/deploys the static site without
-# generating any new AI content. Phase 3 will add a scheduled `schedule` trigger and a
-# `generate -> validate -> persist` job here that runs before `build` and commits new
-# feed batches; today only `push` and manual `workflow_dispatch` exist.
+# Pull requests validate without deploying; main pushes/manual dispatch publish Pages.
 on:
   push:
     branches: [main]
+  pull_request:
   workflow_dispatch:
 
 permissions:
@@ -50,14 +48,17 @@ jobs:
         run: pnpm build
 
       - name: Configure Pages
+        if: github.event_name != 'pull_request'
         uses: actions/configure-pages@v5
 
       - name: Upload Pages artifact
+        if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
 
   deploy:
+    if: github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest
     environment:

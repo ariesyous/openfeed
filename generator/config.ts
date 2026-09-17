@@ -21,11 +21,6 @@ export const COMMENTS_MAX_PER_CYCLE = envInt("GEN_COMMENTS_MAX", 60);
 export const BOOTSTRAP_MIN_ACCOUNTS = envInt("GEN_BOOTSTRAP_MIN_ACCOUNTS", 30);
 export const BOOTSTRAP_MAX_ACCOUNTS = envInt("GEN_BOOTSTRAP_MAX_ACCOUNTS", 50);
 
-// V1 retains ~14 days of batches in public/data/batches; older ones are pruned
-// on publish. Continuity beyond that window lives in world-state summaries,
-// not in old batch files (see worldState.ts).
-export const RETENTION_DAYS = envInt("GEN_RETENTION_DAYS", 14);
-
 export const MAX_ATTEMPTS = envInt("GEN_MAX_ATTEMPTS", 5);
 
 // Explicit completion-length ceilings. Without these, a randomly-picked openrouter/free

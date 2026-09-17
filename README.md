@@ -81,7 +81,8 @@ evidence, freshness, and publisher checks. Providers that explicitly reject stru
 output fall back to plain JSON within the same five-attempt budget. Optional transport
 fields use null and normalize to omitted values before publication.
 
-Editions are limited to four posts. Manual Actions runs default to
+Editions target ten posts in requests of at most four, sharing five total provider attempts.
+Validated partial editions can publish when a later request fails; weak evidence never gets padded. Manual Actions runs default to
 `openrouter/free`; Gemini remains an optional manual selection. Hourly scheduled runs
 always use `openrouter/free`, independent of the repository model variable.
 
@@ -108,3 +109,29 @@ model must ground claims in these excerpts, not fill gaps from its memory.
 `openrouter/free` remains the default. Provider failures can still occur; diagnostics now
 distinguish absent choices, empty text with finish/reasoning/refusal metadata, and
 provider errors returned inside HTTP 200 responses. No raw reasoning is logged.
+
+## Permanent articles and returning readers
+
+Published editorial content is retained forever. Every article has a stable readable
+URL and a real HTML page under `/openfeed/p/<slug>/`, with article-specific sharing
+metadata. The feed and archive load batches incrementally; initial navigation never
+requires the entire archive. The build emits indexes with at most 50 batch refs each.
+
+Save articles locally, view Saved reads, mark articles read, and see which loaded
+posts are new since your last visit. In-app article navigation preserves the feed,
+filters and scroll position on Back. Saves are browser-local, not synchronized.
+
+`pnpm build` runs Vite and the static archive builder. `pnpm archive:backfill` is an
+idempotent, validated migration for existing posts that lack stored slugs or source
+coverage history. It preserves original publication dates. New publication stores
+slugs automatically. Source coverage is durable; model prompt summaries stay bounded.
+
+The evergreen shelf is finite (currently 18 reviewed publisher pages) alongside
+recurring RSS. Intake logs remaining unconsumed shelf entries; replenish culture and
+background reading as needed. Ten is a quality-dependent target, not a filler quota.
+
+Pull requests run typecheck, lint, tests and the full static build without deploying.
+Main pushes and manual Deploy dispatches publish GitHub Pages as before.
+
+See [the research and architecture decisions](docs/reading-roadmap.md) for capacity
+estimates, review thresholds and the post-merge reading trial.

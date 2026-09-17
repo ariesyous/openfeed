@@ -27,7 +27,7 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    # One editorial request per edition, with up to five bounded retries.
+    # At most four posts per request, ten per edition, five total provider attempts.
     # Source intake has its own short timeouts and skips unavailable feeds.
     timeout-minutes: 180
     steps:

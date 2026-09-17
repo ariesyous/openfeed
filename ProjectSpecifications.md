@@ -51,11 +51,24 @@ mix old fictional accounts into the new edition in an already-open tab.
 
 Static React/Vite/TypeScript frontend, shared Zod schemas, static JSON batches, and
 an offline Node generator in GitHub Actions. No backend, database, browser inference,
-or client-side secrets. Retain 14 days of batches; keep bounded URL history for deduplication.
+or client-side secrets. Retain published content forever, with permanent article URLs and paginated archive indexes.
+Keep durable source coverage history while bounding the context supplied to models.
 Validate a full publication plan before writing. A new editorial population replaces
 fictional history; the old prototype remains accessible through Git history.
 
-Manual generation first. A six-hour schedule is opt-in after several manual editions
-show useful, accurate, varied content at acceptable runtime and cost. Automated tests
+Generate hourly at minute 17 through openrouter/free. Target ten useful posts per
+edition using requests of at most four posts and five total provider attempts.
+Publish fewer when evidence or provider reliability limits output; never pad. Automated tests
 cover provenance, freshness, no-source behaviour, data integrity, loading, and theme.
 Live quality review must judge whether the posts are actually worth reading.
+
+## Permanent reading and return visits
+
+Store immutable article slugs and build real static article pages with source
+attribution and spoiler-safe sharing metadata. No age-based content deletion.
+Keep initial downloads small through archive pagination and shared assets.
+
+Support device-local saved reads, explicit read state, new-since-last-visit labels,
+and in-app Back restoration. No account or analytics backend is required.
+See [the September 17 decision record](docs/reading-roadmap.md) for implementation
+choices, capacity estimates, research and evaluation.
