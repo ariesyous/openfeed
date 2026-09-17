@@ -117,9 +117,10 @@ URL and a real HTML page under `/openfeed/p/<slug>/`, with article-specific shar
 metadata. The feed and archive load batches incrementally; initial navigation never
 requires the entire archive. The build emits indexes with at most 50 batch refs each.
 
-Save articles locally, view Saved reads, mark articles read, and see which loaded
-posts are new since your last visit. In-app article navigation preserves the feed,
-filters and scroll position on Back. Saves are browser-local, not synchronized.
+Browse topics from a visible left sidebar on desktop or a horizontally scrollable
+button bar on smaller screens. In-app article navigation preserves the feed, filters
+and scroll position on Back. Newly published posts load when you choose to show them.
+There are no saved-article or manual read-tracking controls.
 
 `pnpm build` runs Vite and the static archive builder. `pnpm archive:backfill` is an
 idempotent, validated migration for existing posts that lack stored slugs or source

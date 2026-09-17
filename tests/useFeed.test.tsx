@@ -1,3 +1,4 @@
+import { topicLabel } from "../src/lib/topics";
 import {
   act,
   fireEvent,
@@ -121,6 +122,7 @@ describe("feed loading", () => {
   });
 
   it("lets readers explore profiles, filter communities, and expand discussions", async () => {
+    vi.spyOn(window, "scrollTo").mockImplementation(() => {});
     mockFeed();
     render(<FeedList />);
     await screen.findByRole("heading", {
@@ -139,9 +141,7 @@ describe("feed loading", () => {
     ).toBeInTheDocument();
     expect(screen.getByText(author.bio)).toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "← Back to feed" }));
-    fireEvent.change(screen.getByLabelText("Explore a topic"), {
-      target: { value: source.items[0].community },
-    });
+    fireEvent.click(within(screen.getByRole("navigation", { name: "Topics" })).getByRole("button", { name: topicLabel(source.items[0].community) }));
     const discussion = screen.getAllByRole("button", {
       name: /View discussion/,
     })[0];

@@ -94,6 +94,8 @@ are passed to models. Requests share one five-attempt budget across the whole ed
 Cross-chunk evidence, freshness and publisher validation must remain strict. Preserve
 accepted chunks on later provider failure, but publish only once after validation.
 
-Reader state is device-local. Loading is not reading. Preserve feed filters/position on
-in-app Back and spoiler protection in both prebuilt HTML and React. Tests and the build
+The user subsequently rejected Saved, Mark read, Mark caught up and the topic dropdown.
+Keep those controls removed; use a desktop topic sidebar and mobile horizontal topic
+buttons. Preserve feed filters/position on in-app Back, explicit new-arrival loading,
+and spoiler protection in both prebuilt HTML and React. Tests and the build
 run for PRs without deployment. Read docs/reading-roadmap.md for settled decisions.
