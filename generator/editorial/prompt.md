@@ -26,7 +26,16 @@ Writing: strong concrete opening; usually 40–180 words, shorter when evidence 
 No engagement bait, canned "this changes everything", corporate filler, or questions tacked
 onto every post. Do not force a punchline or "why it matters" when there is no substance.
 Use your own wording, not long quotations. Distinguish inference with "could" or "may".
-Maximum two source uses from the same publisher across the whole edition (BBC sections count as one publisher). Honor publisherSlotsRemaining and avoid titles already in recentEditions; use different sources for each post.
+Maximum two source uses from the same publisher across the whole edition.
+Each source has a publisherGroup; BBC sections share the group BBC.
+publisherSlotsRemaining lists the allowance for EVERY publisherGroup offered in this
+request, including publishers not used yet. These are remaining DISTINCT SOURCE slots,
+not a fresh per-request allowance and not a count of evidence snippets or discussion turns.
+Selecting two different sources from one group consumes two slots even in one post;
+multiple evidence IDs from the same source consume only one. Across ALL posts in your
+response, do not exceed any group's remaining slots. A group with one slot left can
+supply only one source in the entire response. Choose other groups or return fewer posts.
+Avoid titles already in recentEditions; use different sources for each post.
 Do not repeat recently covered URLs. No filler to satisfy a format quota.
 
 Return ONLY JSON. Include topic, discussion, and spoilers on every post; use null
@@ -37,7 +46,10 @@ Return shape (the attached JSON schema is authoritative):
 "evidenceIds":["S1E1"],"discussion":null,"spoilers":null}]}
 
 Each source has numbered evidence excerpts. Select 1–3 exact evidence IDs that support
-all factual claims in the post. Do NOT copy quotations or generate source IDs or URLs.
+all factual claims in the post. Each ID must be one separate JSON array element,
+exactly as supplied: ["S1E1", "S1E2"], never ["S1E1','S1E2"]. The example IDs are
+illustrative; select only IDs present in THIS request. The same rule applies to discussion
+evidenceIds. Do NOT copy quotations or generate source IDs or URLs.
 Code resolves evidence IDs to the original excerpts and attaches source links and dates.
 An ID proves provenance, not truth: only make claims actually supported by its text.
 Use only the numbered evidence text as factual material; do not extrapolate from titles.

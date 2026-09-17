@@ -176,3 +176,13 @@ then offer **Keep looking**; a chunk follows at most five index pages and one ba
 Exhaustion requires reaching the end, and revisiting seen content requires an
 explicit choice. New editions load on request without replacing the active card.
 See [Card mode verification](docs/card-mode.md) for validation and remaining checks.
+
+
+### Request-specific evidence and publisher allowances
+Each request's JSON schema enumerates only its supplied evidence IDs for posts and
+individual discussion turns, and caps the response at the remaining requested post count.
+Providers falling back to plain JSON still pass the same local evidence checks; malformed
+IDs are rejected rather than repaired. Every offered publisher group has an explicit
+remaining distinct-source allowance, including unused publishers (two slots). BBC sections
+share one group. Multiple excerpts from one source consume one slot; two different sources
+consume two even inside one post. Cross-chunk validation remains authoritative.

@@ -127,3 +127,13 @@ retains the current card during article navigation/new editions, and allows expl
 Undo/revisiting. Seen IDs are versioned, browser-local, and recorded only for visible,
 fitting cards; hidden tabs and loaded batches are not presentation. No Saves/manual
 read controls. Never delete content in response to card actions.
+
+
+### Request-specific evidence and publisher allowances
+Each request's JSON schema enumerates only its supplied evidence IDs for posts and
+individual discussion turns, and caps the response at the remaining requested post count.
+Providers falling back to plain JSON still pass the same local evidence checks; malformed
+IDs are rejected rather than repaired. Every offered publisher group has an explicit
+remaining distinct-source allowance, including unused publishers (two slots). BBC sections
+share one group. Multiple excerpts from one source consume one slot; two different sources
+consume two even inside one post. Cross-chunk validation remains authoritative.

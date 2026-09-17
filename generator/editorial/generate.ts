@@ -46,8 +46,9 @@ const DraftSchema = z.object({
 });
 // Models select existing evidence IDs; only code copies quotations and source IDs.
 // Strict output uses required nullable properties for optional editorial fields.
-const EvidenceIds = z.array(z.string().min(1).max(40)).min(1).max(3);
-const ResponseSchema = z.object({
+function responseSchema(evidenceId: z.ZodType<string>, maxPosts = EDITORIAL_REQUEST_POSTS) {
+  const EvidenceIds = z.array(evidenceId).min(1).max(3);
+  return z.object({
   posts: z.array(DraftSchema.shape.posts.element.omit({
     sourceIds: true, evidence: true, discussion: true,
   }).extend({
@@ -57,12 +58,17 @@ const ResponseSchema = z.object({
       evidenceIds: EvidenceIds,
     })).min(2).max(4).nullable(),
     spoilers: z.boolean().nullable(),
-  })).max(EDITORIAL_REQUEST_POSTS),
-});
-export const EDITORIAL_JSON_SCHEMA = {
-  name: "editorial_edition",
-  schema: z.toJSONSchema(ResponseSchema),
-};
+  })).max(maxPosts),
+  });
+}
+const ResponseSchema = responseSchema(z.string().min(1).max(40));
+export function editorialJsonSchema(evidenceIds: string[], maxPosts: number) {
+  if (!evidenceIds.length) throw new Error("Cannot generate without evidence IDs");
+  return {
+    name: "editorial_edition",
+    schema: z.toJSONSchema(responseSchema(z.enum(evidenceIds), maxPosts)),
+  };
+}
 
 type Draft = z.infer<typeof DraftSchema>;
 export function validateDraft(
@@ -243,15 +249,22 @@ export async function generateEditorial(
     const prepared = prepareEvidence(distinctSources);
     if (!prepared.sources.length) { reason = "insufficient unused evidence or publisher diversity"; break; }
     const maxPosts = Math.min(EDITORIAL_REQUEST_POSTS, EDITORIAL_MAX_POSTS - accepted.length);
+    const requestSources = prepared.sources.map(source => ({
+      ...source,
+      publisherGroup: publisherKey(source.publisher),
+    }));
+    const publisherSlotsRemaining = Object.fromEntries(requestSources.map(source => [
+      source.publisherGroup, 2 - (publishers.get(source.publisherGroup) ?? 0),
+    ]));
     try {
       const result = await generateValidated({
         ...dependencies, apiKey, deadlineMs, maxAttempts: EDITORIAL_MAX_ATTEMPTS - attempts,
-        jsonSchema: EDITORIAL_JSON_SCHEMA,
+        jsonSchema: editorialJsonSchema([...prepared.evidenceById.keys()], maxPosts),
         systemPrompt: readFileSync(new URL("./prompt.md", import.meta.url), "utf8"),
         initialUserPrompt: JSON.stringify({
-          now: now.toISOString(), sources: prepared.sources, maxPosts,
+          now: now.toISOString(), sources: requestSources, maxPosts,
           recentEditions: [...recentEditions, ...accepted.map(post => post.title)],
-          publisherSlotsRemaining: Object.fromEntries([...publishers].map(([key, count]) => [key, 2 - count])),
+          publisherSlotsRemaining,
         }),
         parse: (json) => {
           const draft = validateCitedDraft(json, prepared.evidenceById, available, now);
