@@ -77,3 +77,18 @@ new arrivals. Omit saved-article and manual read-tracking controls to keep readi
 uncluttered. No account or analytics backend is required.
 See [the September 17 decision record](docs/reading-roadmap.md) for implementation
 choices, capacity estimates, research and evaluation.
+
+## Alternative Card mode
+
+Provide an optional one-post-at-a-time view of the existing content, with original
+titles and bodies unchanged. The complete card should fit the viewport without
+scrolling; report insufficient room explicitly rather than clipping or shrinking
+text excessively. Keep source attribution, spoiler protection, article links and
+access to discussions. Cards browse all topics; the ordinary feed remains available.
+
+Left requests an unseen article from another topic; right requests the next unseen
+article. Provide touch/drag, buttons, keyboard navigation and Undo. Track actually
+presented cards automatically on the device, with graceful storage fallback. Do not
+infer durable topic likes/dislikes, silently repeat exhausted content, or load the
+whole archive at startup. Returning from an article restores its card; a new edition
+must not replace the current card. All content and URLs remain permanent.
