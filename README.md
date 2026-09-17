@@ -118,7 +118,11 @@ metadata. The feed and archive load batches incrementally; initial navigation ne
 requires the entire archive. The build emits indexes with at most 50 batch refs each.
 
 Browse topics from a visible left sidebar on desktop or a horizontally scrollable
-button bar on smaller screens. In-app article navigation preserves the feed, filters
+link bar on smaller screens. Each topic has a permanent URL such as
+`/openfeed/topics/ai-agents/`, with a real static page for direct visits and refreshes.
+Topic indexes load only editions containing that topic, with incremental archive
+pagination. The sidebar and article topic labels support opening in a new tab.
+In-app article navigation preserves the feed, filters
 and scroll position on Back. Newly published posts load when you choose to show them.
 There are no saved-article or manual read-tracking controls.
 
@@ -136,3 +140,7 @@ Main pushes and manual Deploy dispatches publish GitHub Pages as before.
 
 See [the research and architecture decisions](docs/reading-roadmap.md) for capacity
 estimates, review thresholds and the post-merge reading trial.
+
+Topic IDs and URL slugs live in `shared/topics.ts`, shared with generation. Keep
+existing IDs stable when changing labels. `pnpm build` emits the topic pages and
+indexes into `dist`; Vite development uses the source manifest and filters locally.

@@ -3,18 +3,18 @@ import { useFeed } from "../hooks/useFeed";
 import { PostCard } from "./PostCard";
 import { Avatar } from "./Avatar";
 import type { FeedItem } from "../../schemas";
-import { topicLabel } from "../lib/topics";
+import { TOPICS, topicLabel, topicPath } from "../../shared/topics";
 
-export function FeedList({ onOpenArticle }: { onOpenArticle?: (item: FeedItem) => void } = {}) {
-  const { sentinelRef, ...feed } = useFeed();
+export function FeedList({ community = "", onOpenTopic, onOpenArticle }: {
+  community?: string;
+  onOpenTopic?: (topic: string) => void;
+  onOpenArticle?: (item: FeedItem) => void;
+} = {}) {
+  const { sentinelRef, ...feed } = useFeed(community);
   const [format, setFormat] = useState("");
-  const [community, setCommunity] = useState("");
   const [authorId, setAuthorId] = useState("");
   const profileRef = useRef<HTMLElement>(null);
   const author = feed.accountsById.get(authorId);
-  const communities = [
-    ...new Set([...feed.accountsById.values()].flatMap((a) => a.communities).concat(feed.items.map((item) => item.community))),
-  ].sort();
   const itemsById = new Map(feed.items.map((i) => [i.id, i]));
   const visible = feed.items.filter(
     (i) =>
@@ -24,7 +24,6 @@ export function FeedList({ onOpenArticle }: { onOpenArticle?: (item: FeedItem) =
   );
   const openProfile = (id: string) => {
     setAuthorId(id);
-    setCommunity("");
     setFormat("");
     requestAnimationFrame(() => {
       profileRef.current?.focus();
@@ -51,29 +50,30 @@ export function FeedList({ onOpenArticle }: { onOpenArticle?: (item: FeedItem) =
       <nav className="topic-navigation" aria-label="Topics">
         <h2>Topics</h2>
         <div className="topic-buttons">
-          {["", ...communities].map((topic) => (
-            <button
+          {["", ...[...TOPICS].sort()].map((topic) => (
+            <a
               key={topic}
-              type="button"
-              aria-pressed={community === topic && !authorId}
-              onClick={() => {
-                setCommunity(topic);
+              href={topicPath(topic, import.meta.env.BASE_URL)}
+              aria-current={community === topic ? "page" : undefined}
+              onClick={(event) => {
+                if (!onOpenTopic || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || event.button !== 0) return;
+                event.preventDefault();
                 setAuthorId("");
-                window.scrollTo({ top: 0, behavior: "smooth" });
+                setFormat("");
+                onOpenTopic(topic);
               }}
             >
               {topic ? topicLabel(topic) : "All topics"}
-            </button>
+            </a>
           ))}
         </div>
       </nav>
       <div className="feed-content">
         <div className="feed-toolbar">
           <div>
-            <h1>Leave with something worth knowing.</h1>
+            <h1>{community ? topicLabel(community) : "Leave with something worth knowing."}</h1>
             <p>
-              Fresh context, useful ideas, true stories, and a little
-              back-and-forth.
+              {community ? `News, stories, and ideas about ${topicLabel(community)}.` : "Fresh context, useful ideas, true stories, and a little back-and-forth."}
             </p>
           </div>
         </div>
@@ -83,7 +83,6 @@ export function FeedList({ onOpenArticle }: { onOpenArticle?: (item: FeedItem) =
             disabled={feed.isLoadingMore}
             onClick={() => {
               setAuthorId("");
-              setCommunity("");
               void feed.showNewPosts();
             }}
           >
@@ -146,11 +145,7 @@ export function FeedList({ onOpenArticle }: { onOpenArticle?: (item: FeedItem) =
               accountsById={feed.accountsById}
               itemsById={itemsById}
               onAuthorClick={openProfile}
-              onCommunityClick={(c) => {
-                setCommunity(c);
-                setAuthorId("");
-                window.scrollTo({ top: 0, behavior: "smooth" });
-              }}
+              onCommunityClick={onOpenTopic}
             />
           ))}
           {!visible.length && (

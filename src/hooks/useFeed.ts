@@ -22,7 +22,7 @@ async function fetchBatch(batch: BatchRef, signal: AbortSignal) {
   );
 }
 
-export function useFeed() {
+export function useFeed(topic = "") {
   const [items, setItems] = useState<FeedItem[]>([]);
   const [accounts, setAccounts] = useState<Account[]>([]);
   const [pending, setPending] = useState<BatchRef[]>([]);
@@ -43,7 +43,7 @@ export function useFeed() {
     async function initialize() {
       try {
         const [manifestData, accountData] = await Promise.all([
-          fetchJson(manifestUrl(), abort.signal),
+          fetchJson(manifestUrl(topic), abort.signal),
           fetchJson(dataUrl("accounts.json"), abort.signal),
         ]);
         const manifest = ManifestSchema.parse(manifestData);
@@ -71,7 +71,7 @@ export function useFeed() {
       if (!newest.current || busy.current) return;
       try {
         const manifest = ManifestSchema.parse(
-          await fetchJson(manifestUrl(), abort.signal),
+          await fetchJson(manifestUrl(topic), abort.signal),
         );
         if (!abort.signal.aborted)
           setFresh(
@@ -88,7 +88,7 @@ export function useFeed() {
       abort.abort();
       clearInterval(interval);
     };
-  }, [attempt]);
+  }, [attempt, topic]);
 
   const loadMore = useCallback(async () => {
     const abort = controller.current;
@@ -140,7 +140,7 @@ export function useFeed() {
     try {
       const [accountData, manifestData, batches] = await Promise.all([
         fetchJson(dataUrl("accounts.json"), abort.signal),
-        fetchJson(manifestUrl(), abort.signal),
+        fetchJson(manifestUrl(topic), abort.signal),
         Promise.all(fresh.map((b) => fetchBatch(b, abort.signal))),
       ]);
       const accountsFile = AccountsFileSchema.parse(accountData);

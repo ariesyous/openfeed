@@ -1,4 +1,4 @@
-import { topicLabel } from "../src/lib/topics";
+import { topicLabel } from "../shared/topics";
 import {
   act,
   fireEvent,
@@ -9,7 +9,7 @@ import {
   within,
 } from "@testing-library/react";
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { FeedList } from "../src/components/FeedList";
+import { App } from "../src/App";
 import { useFeed } from "../src/hooks/useFeed";
 import { readFileSync } from "node:fs";
 import type { BatchFile, Manifest } from "../schemas";
@@ -100,11 +100,36 @@ function mockFeed() {
   };
 }
 afterEach(() => {
+  vi.unstubAllEnvs();
   vi.unstubAllGlobals();
   vi.restoreAllMocks();
   vi.useRealTimers();
 });
 describe("feed loading", () => {
+  it("loads the production topic index and follows its older-page cursor", async () => {
+    vi.stubEnv("PROD", true);
+    vi.stubEnv("BASE_URL", "/openfeed/");
+    const fetcher = vi.fn(async (url: string) => ({
+      ok: true,
+      json: async () => url.includes("topics/ai-agents/manifest.json")
+        ? { ...sourceManifest, batches: [first], olderManifest: "archive/page-ai-agents-0.json" }
+        : url.endsWith("archive/page-ai-agents-0.json")
+          ? { ...sourceManifest, batches: [older] }
+          : url.endsWith("accounts.json") ? accounts
+            : { ...source, items: [{ ...fixtureItem, id: url.includes("older") ? "older" : "first", community: "ai_agents" }] },
+    }));
+    vi.stubGlobal("fetch", fetcher);
+    const { result } = renderHook(() => useFeed("ai_agents"));
+    await waitFor(() => expect(result.current.isLoadingInitial).toBe(false));
+    expect(result.current.items.map(item => item.id)).toEqual(["first"]);
+    await act(async () => result.current.loadMore());
+    expect(result.current.items.map(item => item.id)).toEqual(["first", "older"]);
+    expect(result.current.hasMore).toBe(false);
+    const urls = fetcher.mock.calls.map(([url]) => url);
+    expect(urls.some(url => url.startsWith("/openfeed/data/topics/ai-agents/manifest.json?"))).toBe(true);
+    expect(urls).toContain("/openfeed/data/archive/page-ai-agents-0.json");
+    expect(urls.some(url => url.startsWith("/openfeed/data/manifest.json"))).toBe(false);
+  });
   it("drops old-world posts and pending batches when a new editorial population arrives", async () => {
     const mock = mockFeed();
     const interval = vi.spyOn(globalThis, "setInterval");
@@ -124,7 +149,8 @@ describe("feed loading", () => {
   it("lets readers explore profiles, filter communities, and expand discussions", async () => {
     vi.spyOn(window, "scrollTo").mockImplementation(() => {});
     mockFeed();
-    render(<FeedList />);
+    window.history.replaceState({}, "", "/");
+    render(<App />);
     await screen.findByRole("heading", {
       name: "Leave with something worth knowing.",
     });
@@ -141,10 +167,10 @@ describe("feed loading", () => {
     ).toBeInTheDocument();
     expect(screen.getByText(author.bio)).toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "← Back to feed" }));
-    fireEvent.click(within(screen.getByRole("navigation", { name: "Topics" })).getByRole("button", { name: topicLabel(source.items[0].community) }));
-    const discussion = screen.getAllByRole("button", {
+    fireEvent.click(within(screen.getByRole("navigation", { name: "Topics" })).getByRole("link", { name: topicLabel(source.items[0].community) }));
+    const discussion = (await screen.findAllByRole("button", {
       name: /View discussion/,
-    })[0];
+    }))[0];
     fireEvent.click(discussion);
     expect(
       screen.getByRole("button", { name: "Hide discussion" }),

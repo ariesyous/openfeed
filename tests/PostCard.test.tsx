@@ -78,7 +78,7 @@ describe("PostCard", () => {
       />,
     );
     expect(screen.getByText("Banter · Opinion")).toBeInTheDocument();
-    expect(screen.getByRole("link")).toHaveAttribute(
+    expect(screen.getByRole("link", { name: /Publisher/ })).toHaveAttribute(
       "href",
       "https://example.com/report",
     );

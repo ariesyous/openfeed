@@ -566,8 +566,9 @@ a:focus-visible {
   padding: .4rem;
   scrollbar-width: thin;
 }
-.topic-buttons button {
+.topic-buttons a {
   flex: 0 0 auto;
+  text-decoration: none;
   border: 1px solid transparent;
   border-radius: .55rem;
   padding: .65rem .8rem;
@@ -576,8 +577,8 @@ a:focus-visible {
   text-align: left;
   font-size: .9rem;
 }
-.topic-buttons button:hover { background: var(--surface); color: var(--text); }
-.topic-buttons button[aria-pressed="true"] {
+.topic-buttons a:hover { background: var(--surface); color: var(--text); }
+.topic-buttons a[aria-current="page"] {
   background: var(--accent-soft);
   border-color: var(--accent);
   color: var(--accent);
@@ -590,3 +591,5 @@ a:focus-visible {
   .topic-navigation h2 { padding-left: 1.2rem; }
   .topic-buttons { flex-direction: column; overflow: visible; }
 }
+
+.post-card-community { text-decoration: none; }

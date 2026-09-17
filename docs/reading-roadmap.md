@@ -119,3 +119,19 @@ after deployment.
 The platform accounts are design inputs, not causal evidence that these features
 have already increased OpenFeed engagement. Topic weights, related reading,
 recurring columns, archive search and RSS remain follow-on candidates.
+
+## Topic permalink follow-up
+
+The user pointed out that sidebar topics should have URLs too. Topic navigation now
+uses real links such as `/openfeed/topics/the-sopranos/`. Static topic HTML provides
+a title, canonical/sharing metadata and up to 20 recent article links; it never
+embeds article bodies or spoiler discussions. React opens the matching topic on a
+direct visit or refresh, and browser Back/Forward follows topic navigation.
+
+Each topic has an index of batches containing matching posts, paginated at the same
+50-reference limit as the all-topic feed. Indexes reuse existing batch JSON; their
+counts include only matching posts. An empty topic remains a valid page. Article
+Back preserves the active topic's loaded posts, format and scroll position;
+switching between topics starts the selected topic feed from its newest edition.
+Vite development filters the source manifest; the production build emits the
+optimized topic indexes. No content is deleted or moved.

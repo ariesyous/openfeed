@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { topicLabel, topicPath } from "../../shared/topics";
 import { articlePath } from "../../shared/articles";
 import type { Account, FeedItem } from "../../schemas";
 import { formatRelativeTime } from "../lib/relativeTime";
@@ -85,12 +86,16 @@ export function PostCard({
             }
           </span>
         )}
-        {articleView ? <span className="post-card-community">{item.community.replaceAll("_", " ")}</span> : <button
+        <a
           className="post-card-community"
-          onClick={() => onCommunityClick?.(item.community)}
+          href={topicPath(item.community, import.meta.env.BASE_URL)}
+          onClick={(event) => {
+            if (!onCommunityClick || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || event.button !== 0) return;
+            event.preventDefault(); onCommunityClick(item.community);
+          }}
         >
-          {item.community.replaceAll("_", " ")}
-        </button>}
+          {topicLabel(item.community)}
+        </a>
       </div>
 
       {item.title && (articleView ? <h1 className="post-card-title">{item.title}</h1> : <h3 className="post-card-title">{item.editorial ? <a href={url} onClick={(event) => {

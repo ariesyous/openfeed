@@ -1,6 +1,6 @@
 import { AccountSchema } from "../../schemas";
 export const FORMATS = ["news", "explainer", "story", "banter"] as const;
-export const TOPICS = ["movies", "the_sopranos", "ai_agents", "canada", "united_states", "world", "greek_roman_mythology", "philosophy", "economics", "science", "technology"] as const;
+export { TOPICS } from "../../shared/topics";
 const columnTopics = {
   news: ["ai_agents", "canada", "united_states", "world", "economics", "technology"],
   explainer: ["philosophy", "economics", "greek_roman_mythology", "ai_agents", "science", "technology"],
