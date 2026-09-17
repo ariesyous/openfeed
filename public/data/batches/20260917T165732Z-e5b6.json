@@ -1,0 +1,190 @@
+{
+  "batchId": "20260917T165732Z-e5b6",
+  "generatedAt": "2026-09-17T16:57:32.350Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/image-article/nasa-unveils-enterprise-the-first-space-shuttle/",
+            "title": "NASA Unveils Enterprise, the First Space Shuttle",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-17T15:22:42.000Z",
+            "retrievedAt": "2026-09-17T16:57:32.350Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A write‑in campaign of 100,000 fans actually changed a government program’s name."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Enterprise never flew in orbit; it only proved the glide‑flight profile."
+          }
+        ]
+      },
+      "id": "post-20260917T165732Z-e5b6-0",
+      "slug": "how-star-trek-fans-renamed-nasa-s-first-shuttle--706f73742d3230323630393137543136353733325a2d653562362d30",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-17T16:57:32.350Z",
+      "community": "science",
+      "title": "How Star Trek fans renamed NASA’s first shuttle",
+      "body": "On September 17, 1976, NASA rolled out its first space shuttle orbiter, OV‑101, at Rockwell’s Palmdale plant. The vehicle was slated to be called Constitution, but a fan campaign of nearly 100,000 Star Trek viewers persuaded President Gerald Ford to rename it Enterprise. The ceremony drew the show’s creator Gene Roddenberry and the main cast, linking a fictional starship to a real test vehicle that would later prove the shuttle’s aerodynamic design.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/selecting-a-vector-store-for-amazon-bedrock-knowledge-bases/",
+            "title": "Selecting a vector store for Amazon Bedrock Knowledge Bases",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-17T15:53:13.000Z",
+            "retrievedAt": "2026-09-17T16:57:32.350Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Having three managed backends means you can match the store to your workload without leaving AWS."
+          },
+          {
+            "voice": "Pushback",
+            "body": "But each backend has different consistency and scaling limits; the docs don’t compare them head‑to‑head."
+          },
+          {
+            "voice": "Reply",
+            "body": "The post itself notes that the right store impacts performance and cost, so the comparison matters."
+          }
+        ]
+      },
+      "id": "post-20260917T165732Z-e5b6-1",
+      "slug": "choosing-a-vector-store-for-bedrock-knowledge-bases--706f73742d3230323630393137543136353733325a2d653562362d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-17T16:57:32.350Z",
+      "community": "ai_agents",
+      "title": "Choosing a vector store for Bedrock Knowledge Bases",
+      "body": "Amazon Bedrock Knowledge Bases lets you plug in a vector store for retrieval‑augmented generation. You can either use the fully managed option or bring your own backend — currently OpenSearch Service, Aurora PostgreSQL with pgvector, or the new S3 Vectors capability. The choice affects query latency, indexing cost, and how much operational overhead you accept.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/wyatt-russell-joins-john-carroll-lynch-comedy-happy-1236865204/",
+            "title": "Wyatt Russell Joins Asa Butterfield, Mark Strong and Kyra Sedgwick in John Carroll Lynch Comedy ‘Happy’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-17T16:00:00.000Z",
+            "retrievedAt": "2026-09-17T16:57:32.350Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Russell’s knack for off‑beat humor fits Lynch’s directing style."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The ensemble is crowded; it’s unclear how much screen time each gets."
+          }
+        ]
+      },
+      "id": "post-20260917T165732Z-e5b6-2",
+      "slug": "wyatt-russell-joins-john-carroll-lynch-s-comedy-happy--706f73742d3230323630393137543136353733325a2d653562362d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T16:57:32.350Z",
+      "community": "movies",
+      "title": "Wyatt Russell joins John Carroll Lynch’s comedy ‘Happy’",
+      "body": "Wyatt Russell, fresh off “Thunderbolts” and “Monarch: Legacy of Monsters,” has joined John Carroll Lynch’s comedy “Happy.” He’ll share the screen with Asa Butterfield, Mark Strong, Kyra Sedgwick, Brittany O’Grady and Patti Harrison. The film is described as a dark‑tuned look at a disastrous first date.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aeon.co/essays/four-islamic-polymaths-prove-breadth-beats-specialisation",
+            "title": "Penchants of the polymaths",
+            "publisher": "Aeon",
+            "publishedAt": "2026-09-11T10:00:00.000Z",
+            "retrievedAt": "2026-09-17T16:57:32.350Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Breadth lets you spot connections that specialists miss."
+          },
+          {
+            "voice": "Pushback",
+            "body": "But today’s funding structures reward deep, measurable outputs, not wandering curiosity."
+          }
+        ]
+      },
+      "id": "post-20260917T165732Z-e5b6-3",
+      "slug": "polymath-lessons-from-early-islamic-scholars--706f73742d3230323630393137543136353733325a2d653562362d33",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-17T16:57:32.350Z",
+      "community": "philosophy",
+      "title": "Polymath lessons from early Islamic scholars",
+      "body": "Aeon highlights how early Islamic scholars modeled a polymath approach: pursue breadth over narrow specialization and refuse to let institutional constraints dictate inquiry. The piece argues that this mindset remains a template for modern interdisciplinary work.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}

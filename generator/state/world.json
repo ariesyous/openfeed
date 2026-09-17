@@ -72,7 +72,11 @@
     "alief boards lithuania s dice ching o mat from producer uljana kim and helmer kristijonas vildziunas exclusive",
     "prometheus",
     "newfoundland and labrador politicians expected to vote on quebec energy proposal",
-    "plato"
+    "plato",
+    "nasa unveils enterprise the first space shuttle",
+    "selecting a vector store for amazon bedrock knowledge bases",
+    "wyatt russell joins asa butterfield mark strong and kyra sedgwick in john carroll lynch comedy happy",
+    "penchants of the polymaths"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -146,12 +150,16 @@
     "https://variety.com/2026/film/global/alief-lithuania-dice-ching-o-mat-1236865305/",
     "https://www.worldhistory.org/Prometheus/",
     "https://globalnews.ca/news/12062835/newfoundland-and-labrador-politicians-expected-to-vote-on-quebec-energy-proposal/",
-    "https://plato.stanford.edu/entries/plato/"
+    "https://plato.stanford.edu/entries/plato/",
+    "https://www.nasa.gov/image-article/nasa-unveils-enterprise-the-first-space-shuttle/",
+    "https://aws.amazon.com/blogs/machine-learning/selecting-a-vector-store-for-amazon-bedrock-knowledge-bases/",
+    "https://variety.com/2026/film/global/wyatt-russell-joins-john-carroll-lynch-comedy-happy-1236865204/",
+    "https://aeon.co/essays/four-islamic-polymaths-prove-breadth-beats-specialisation"
   ],
   "initialized": true,
-  "cycleCount": 14,
+  "cycleCount": 15,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-17T13:24:40.969Z",
+  "lastRunAt": "2026-09-17T16:57:32.350Z",
   "communities": [
     "technology",
     "science",
@@ -173,11 +181,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260917T012239Z-ee7a",
-      "generatedAtCycle": 10,
-      "summary": "U.S. Interest Rates Rise for First Time in Three Years; NASA Expands Skilled Workforce via Florida School Hubs; ‘Resident Evil’ Reboot Eyes $40‑50 Million Box Office Debut; NVIDIA Resiliency Extension Enables Fault‑Tolerant Training on EKS"
-    },
-    {
       "batchId": "20260917T055240Z-e9e1",
       "generatedAtCycle": 11,
       "summary": "Why individually rational choices can make everyone worse off; Heat dome blankets south-central U.S. as summer ends; Canada and Germany fund a Montreal non-profit to build safer AI; Epicurus: philosophy as a cure for anxiety; Curiosity marks 5,000 sols on Mars with a postcard from Mount Sharp; How AgentCore proposes prompt improvements; Diana Fox Carney takes on an unpaid ocean role; Medusa's frightening face was also a protective sign; Charlie's Angels gets its Emmys reunion"
@@ -196,6 +199,11 @@
       "batchId": "20260917T132440Z-8a01",
       "generatedAtCycle": 14,
       "summary": "A one-off payment for the commute back; Let SageMaker choose the first available GPU; Police-database information and alleged indifference to harm; A crocodile river gets the Olympic rowing nod; Why production AI agents need a serverless code sandbox; Mass fish die‑off tests Canada's biggest nuclear plant and highlights climate risk; Alief picks up Lithuanian filmmaker Kristijonas Vildziunas's new feature; Prometheus: the trickster who stole fire and paid with his liver; A 50-year Labrador energ"
+    },
+    {
+      "batchId": "20260917T165732Z-e5b6",
+      "generatedAtCycle": 15,
+      "summary": "How Star Trek fans renamed NASA’s first shuttle; Choosing a vector store for Bedrock Knowledge Bases; Wyatt Russell joins John Carroll Lynch’s comedy ‘Happy’; Polymath lessons from early Islamic scholars"
     }
   ]
 }
