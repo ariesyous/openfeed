@@ -1,0 +1,430 @@
+{
+  "batchId": "20260917T210452Z-a764",
+  "generatedAt": "2026-09-17T21:04:52.806Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/news-release/nasa-awards-launch-services-for-starburst-gamma-ray-detector/",
+            "title": "NASA Awards Launch Services for StarBurst Gamma-Ray Detector",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-17T20:37:09.000Z",
+            "retrievedAt": "2026-09-17T21:04:52.806Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The real value here is all-sky coverage. Larger gamma-ray observatories have exquisite sensitivity but narrow fields of view, so they can miss the initial flash entirely. StarBurst catches the opening act."
+          },
+          {
+            "voice": "Pushback",
+            "body": "But a small satellite can't match the sensitivity of a dedicated gamma-ray observatory. Are we trading precision for probability of detection?"
+          },
+          {
+            "voice": "Reply",
+            "body": "It's not about replacing them. It's about catching the first flash so bigger telescopes know where to point in time to follow up. Different job, complementary tool."
+          }
+        ]
+      },
+      "id": "post-20260917T210452Z-a764-0",
+      "slug": "nasa-s-tiny-starburst-satellite-will-hunt-cosmic-collisions-from-space--706f73742d3230323630393137543231303435325a2d613736342d30",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-17T21:04:52.806Z",
+      "community": "science",
+      "title": "NASA's tiny StarBurst satellite will hunt cosmic collisions from space",
+      "body": "NASA has picked SpaceX to launch a small satellite that will do something big: watch the sky for the violent collisions of neutron stars. The mission, called StarBurst, will ride aboard a Falcon 9 rocket from Cape Canaveral no earlier than 2028, piggybacking on a rideshare flight to orbit. StarBurst is built to catch short gamma-ray bursts — those brief, powerful explosions that happen when two ultra-dense stellar remnants slam together. These events are hard to study because they vanish in a flash. The satellite will scan the entire portion of the sky not blocked by Earth and focus on the initial high-energy emission from each burst. What makes this mission worth watching is the research plan: scientists intend to combine StarBurst's observations with gravitational-wave measurements and follow-up from other telescopes. This multimessenger approach lets them study neutron star mergers through multiple types of signals at once, rather than relying on any single instrument. The mission fits within NASA's Astrophysics Pioneers Program, which supports lower-cost investigations using small spacecraft — a reminder that some of the most ambitious science doesn't require the biggest budget, just the right instrument pointed at the right question.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/a-shared-agentic-platform-for-wood-mackenzie-on-amazon-bedrock-agentcore/",
+            "title": "A shared agentic platform for Wood Mackenzie, on Amazon Bedrock AgentCore",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-17T15:41:03.000Z",
+            "retrievedAt": "2026-09-17T21:04:52.806Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The production gap isn't a model problem. It's an engineering and evaluation problem, and until teams stop rebuilding the same infrastructure, nothing scales."
+          },
+          {
+            "voice": "Pushback",
+            "body": "But maybe the deeper issue is that most use cases don't actually need agents. If a simple API call or RAG pipeline solves the problem, all this architecture is overhead."
+          },
+          {
+            "voice": "Reply",
+            "body": "That's fair for some cases. But the organizations hitting these walls — energy analytics, enterprise research — have genuine multi-step workflows where a simple pipeline won't cut it. The walls are real for them."
+          }
+        ]
+      },
+      "id": "post-20260917T210452Z-a764-1",
+      "slug": "why-88-of-ai-proofs-of-concept-never-make-it-to-production--706f73742d3230323630393137543231303435325a2d613736342d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-17T21:04:52.806Z",
+      "community": "ai_agents",
+      "title": "Why 88% of AI proofs-of-concept never make it to production",
+      "body": "Building an AI agent that works for one user is easy. Building one that works for thousands, keeps their sessions isolated, remembers context across conversations, and can be trusted not to do something catastrophic — that's where most teams get stuck. Wood Mackenzie found that 88% of its AI proofs-of-concept never reach widescale deployment. Industry surveys through early 2026 put the share of organizations that have scaled agents into production at roughly a quarter. The reasons aren't what you'd expect: they're mostly architectural rather than model-related. The single biggest blocker is evaluation and observability. Standard regression tests don't catch the ways a non-deterministic agent can be wrong — you can't reliably tell ahead of time when it will hallucinate, overreach, or drift from instructions. Governance comes next: many executives report they couldn't shut down a misbehaving agent if they needed to. Underneath it all is duplicated infrastructure, with every team re-implementing authentication, guardrails, memory, and tracing from scratch. The argument for a shared agentic platform is that it handles orchestration, safety, observability, and identity once, so teams can focus on the business logic that actually differentiates their product.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/toronto/project-south-planned-illegal-dispensaries-massage-parlours-9.7348005?cmp=rss",
+            "title": "Police officer charged in Project South planned illegal massage parlours, dispensaries, according to docs",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-17T16:20:43.000Z",
+            "retrievedAt": "2026-09-17T21:04:52.806Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260917T210452Z-a764-2",
+      "slug": "police-officer-in-project-south-probe-allegedly-planned-illegal-dispen--706f73742d3230323630393137543231303435325a2d613736342d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T21:04:52.806Z",
+      "community": "canada",
+      "title": "Police officer in Project South probe allegedly planned illegal dispensaries and massage parlours",
+      "body": "Newly unsealed documents in Ontario's Project South probe allege that a police officer under investigation helped plan illegal cannabis dispensaries and erotic massage parlours in Toronto. The officer is accused as part of a sweeping organized crime and police corruption investigation. The allegations surface in court documents that have now been made public.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c6n8m72r13ngo",
+            "title": "US to allow Iran delegation to attend UN meetings in New York as war passes half-year mark",
+            "publisher": "BBC World",
+            "publishedAt": "2026-09-17T20:44:53.000Z",
+            "retrievedAt": "2026-09-17T21:04:52.806Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260917T210452Z-a764-3",
+      "slug": "us-clears-iranian-president-and-foreign-minister-for-un-meetings-in-ne--706f73742d3230323630393137543231303435325a2d613736342d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T21:04:52.806Z",
+      "community": "world",
+      "title": "US clears Iranian president and foreign minister for UN meetings in New York",
+      "body": "The United States has agreed to let an Iranian delegation attend UN meetings in New York, with President Masoud Pezeshkian and Foreign Minister Abbas Araghchi among those cleared to enter the country. The decision comes as the conflict involving Iran passes the six-month mark, and represents a diplomatic channel that stays open even amid ongoing hostilities.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/pans-labyrinth-new-20th-anniversary-books-1236865576/",
+            "title": "‘Pan’s Labyrinth’: 20th Anniversary Books Reveal Rare Concept Art and Full Shooting Script",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-17T19:56:50.000Z",
+            "retrievedAt": "2026-09-17T21:04:52.806Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Having del Toro involved means access to archives that casual fans have never seen before. The concept art alone could justify the purchase."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Anniversary editions often recycle existing material. Without knowing what's genuinely new, it's hard to get excited."
+          },
+          {
+            "voice": "Reply",
+            "body": "The complete screenplay is a different proposition — even dedicated fans may not have read the full script, and del Toro's annotations could reveal how his vision evolved from page to screen."
+          }
+        ]
+      },
+      "id": "post-20260917T210452Z-a764-4",
+      "slug": "pan-s-labyrinth-s-20th-anniversary-books-unlock-the-film-s-secrets--706f73742d3230323630393137543231303435325a2d613736342d34",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-17T21:04:52.806Z",
+      "community": "movies",
+      "title": "Pan's Labyrinth's 20th anniversary books unlock the film's secrets",
+      "body": "Twenty years after Guillermo del Toro's “Pan’s Labyrinth” first reached audiences, two official books are marking the milestone. Insight Editions is publishing “Pan’s Labyrinth: The Complete Screenplay” and “Guillermo del Toro’s Pan’s Labyrinth: Inside the Creation of a Modern Fairytale — 20th Anniversary Edition.” The latter was written in close collaboration with del Toro. The anniversary release promises rare concept art and the full shooting script, giving readers a window into how the filmmaker built his dark fairy tale world. For fans of the film, the books offer a chance to revisit the craft behind a movie that has stayed with audiences for two decades.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/how-mrh-trowe-enabled-secure-self-service-ai-agents-in-financial-services/",
+            "title": "How MRH Trowe enabled secure self-service AI agents in financial services",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-17T15:36:42.000Z",
+            "retrievedAt": "2026-09-17T21:04:52.806Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "$14 per seat for secure, governed AI access is remarkably reasonable. This could be a template for other regulated industries."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The 40% cost reduction is a projection, not a result. And first-month numbers can be misleading — adoption and costs may shift dramatically."
+          },
+          {
+            "voice": "Reply",
+            "body": "The real win here isn't the cost savings. It's that employees got AI access without the company losing control of its data, which in financial services is the whole game."
+          }
+        ]
+      },
+      "id": "post-20260917T210452Z-a764-5",
+      "slug": "how-a-german-insurer-gave-400-employees-secure-self-service-ai-agents--706f73742d3230323630393137543231303435325a2d613736342d35",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-17T21:04:52.806Z",
+      "community": "ai_agents",
+      "title": "How a German insurer gave 400 employees secure self-service AI agents",
+      "body": "MRH Trowe, a German commercial insurance broker, faced a familiar problem: employees wanted to use generative AI, but individual teams were experimenting on their own, risking exposure of sensitive client data. The company needed a way to let staff use AI agents without losing control. The solution combined Strands Agents, Amazon Bedrock AgentCore, and LibreChat to create a governed environment where AI could work with internal systems while staying auditable and cost-transparent. Within its first month of production, the rollout reached approximately 400 employees at about $14 per seat, with a path to cut infrastructure costs by roughly 40 percent through right-sizing and scheduled scaling. The framework addresses a real tension in enterprise AI: how do you give people useful AI tools without creating a security and compliance nightmare?",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/toronto/stellantis-brampton-plant-union-talks-9.7348153?cmp=rss",
+            "title": "'Don't close, don't sell': Union implores Stellantis to keep Brampton plant as automaker signals sale",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-17T16:41:22.000Z",
+            "retrievedAt": "2026-09-17T21:04:52.806Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The union going public suggests negotiations have reached a tense point. Public pressure is their main lever."
+          },
+          {
+            "voice": "Pushback",
+            "body": "We only have the union's side here. Stellantis may have its own reasons for considering a sale that aren't in this report."
+          },
+          {
+            "voice": "Reply",
+            "body": "Either way, the Brampton plant's future affects thousands of jobs and the supply chain across Ontario."
+          }
+        ]
+      },
+      "id": "post-20260917T210452Z-a764-6",
+      "slug": "stellantis-signals-sale-of-brampton-plant-as-union-begs-it-to-stay--706f73742d3230323630393137543231303435325a2d613736342d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T21:04:52.806Z",
+      "community": "canada",
+      "title": "Stellantis signals sale of Brampton plant as union begs it to stay",
+      "body": "The union representing Canadian workers at Stellantis is urging the automaker to keep its commitment to retooling its Brampton, Ontario plant, as the company appears poised to sell it instead. The union's message is direct: don't close, don't sell. What remains unknown is whether Stellantis will follow through on the sale signal or whether the union's appeal will change the company's plans.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-spacexs-35th-resupply-launch-to-space-station/",
+            "title": "NASA Invites Media to SpaceX’s 35th Resupply Launch to Space Station",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-17T18:32:30.000Z",
+            "retrievedAt": "2026-09-17T21:04:52.806Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The IROSA arrays are the final piece of a multi-year power upgrade. Once installed, they'll extend the station's operational life meaningfully."
+          },
+          {
+            "voice": "Pushback",
+            "body": "“No earlier than October” is a moving target. Launch dates have a habit of slipping, and we don't have a firm date yet."
+          },
+          {
+            "voice": "Reply",
+            "body": "The in-space manufacturing experiments are quietly exciting — testing whether you can build things in microgravity is a step toward sustainable orbital infrastructure."
+          }
+        ]
+      },
+      "id": "post-20260917T210452Z-a764-7",
+      "slug": "what-spacex-s-next-iss-resupply-mission-is-carrying-to-orbit--706f73742d3230323630393137543231303435325a2d613736342d37",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-17T21:04:52.806Z",
+      "community": "science",
+      "title": "What SpaceX's next ISS resupply mission is carrying to orbit",
+      "body": "NASA and SpaceX are targeting no earlier than October for the 35th commercial resupply mission to the International Space Station. A Falcon 9 rocket will launch a Dragon spacecraft from Cape Canaveral Space Force Station in Florida, delivering scientific investigations, supplies, and equipment to the orbital laboratory. Among the cargo will be the final sets of International Space Station Roll-Out Solar Arrays, which astronauts will install during future spacewalks to complete the station's power augmentation. Once installed, the arrays will provide additional power to support critical station operations, including its safe and controlled deorbit. The mission will also transport several new experiments, including hardware for in-space manufacturing.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c790xvnzgnno",
+            "title": "Why are there concerns AI could threaten humanity, and how real are they?",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-09-17T09:18:57.000Z",
+            "retrievedAt": "2026-09-17T21:04:52.806Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260917T210452Z-a764-8",
+      "slug": "why-experts-warn-ai-could-threaten-humanity--706f73742d3230323630393137543231303435325a2d613736342d38",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-17T21:04:52.806Z",
+      "community": "technology",
+      "title": "Why experts warn AI could threaten humanity",
+      "body": "Existential fears about AI have resurfaced, prompting questions about whether advanced AI could threaten humanity.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/halle-berry-meg-ryan-tribeca-chanel-through-her-lens-jurors-1236866066/",
+            "title": "Halle Berry, Regina King and Meg Ryan Announced as Jurors for Tribeca and Chanel’s Through Her Lens Filmmaker Program",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-17T19:47:37.000Z",
+            "retrievedAt": "2026-09-17T21:04:52.806Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260917T210452Z-a764-9",
+      "slug": "halle-berry-regina-king-and-meg-ryan-named-jurors-for-tribeca-chanel-w--706f73742d3230323630393137543231303435325a2d613736342d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T21:04:52.806Z",
+      "community": "movies",
+      "title": "Halle Berry, Regina King and Meg Ryan named jurors for Tribeca-Chanel women’s filmmaker program",
+      "body": "Halle Berry, Regina King and Meg Ryan have been named jurors for the 11th edition of Tribeca and Chanel’s Through Her Lens program, which supports emerging women and non‑binary filmmakers.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
