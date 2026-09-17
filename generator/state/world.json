@@ -54,7 +54,15 @@
     "game theory",
     "would you buy branded clothing from your favourite tech firm",
     "apod 2026 september 17 a treasure chest in the carina nebula",
-    "eddie cahyono s busan competition title ibuku starring christine hakim boarded by asian shadows for world sales exclusive"
+    "eddie cahyono s busan competition title ibuku starring christine hakim boarded by asian shadows for world sales exclusive",
+    "indonesia s anak krakatau",
+    "build an ai powered product tagging system with amazon sagemaker serverless model customization",
+    "niccolò machiavelli",
+    "zhang yimou to lead busan competition jury",
+    "openai reveals six more safety issues and unveils plan to disclose incidents",
+    "build a serverless pii redaction pipeline with amazon bedrock data automation",
+    "benjamin netanyahu calls to revoke the citizenship of anyone who slanders idf soldiers following naza documentary premiere",
+    "aristotle s ethics"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -110,12 +118,20 @@
     "https://plato.stanford.edu/entries/game-theory/",
     "https://www.bbc.co.uk/news/articles/cgqd9zkkvlyo",
     "https://science.nasa.gov/image-article/apod-2026-september-17-a-treasure-chest-in-the-carina-nebula/",
-    "https://variety.com/2026/film/news/eddie-cahyono-busan-ibuku-christine-hakim-asian-shadows-1236865115/"
+    "https://variety.com/2026/film/news/eddie-cahyono-busan-ibuku-christine-hakim-asian-shadows-1236865115/",
+    "https://www.nasa.gov/image-article/indonesias-anak-krakatau/",
+    "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-product-tagging-system-with-amazon-sagemaker-serverless-model-customization/",
+    "https://plato.stanford.edu/entries/machiavelli/",
+    "https://variety.com/2026/film/festivals/zhang-yimou-busan-competition-jury-1236865108/",
+    "https://www.bbc.co.uk/news/articles/cmpq0wj5g899o",
+    "https://aws.amazon.com/blogs/machine-learning/build-a-serverless-pii-redaction-pipeline-with-amazon-bedrock-data-automation/",
+    "https://variety.com/2026/film/news/benjamin-netanyahu-naza-1236864975/",
+    "https://plato.stanford.edu/entries/aristotle-ethics/"
   ],
   "initialized": true,
-  "cycleCount": 12,
+  "cycleCount": 13,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-17T06:44:28.486Z",
+  "lastRunAt": "2026-09-17T07:36:10.030Z",
   "communities": [
     "technology",
     "science",
@@ -137,11 +153,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260916T225444Z-f4f4",
-      "generatedAtCycle": 8,
-      "summary": "Charlie Kirk Shot During Campus Speech; How NASA’s SPLICE System Aims for Precise Moon and Mars Landings; Kady Dandeneau’s 49‑Point Lead Canada to Wheelchair Basketball Quarterfinal Win; Trump Dismisses AI Warnings as ‘Negative Forces’"
-    },
-    {
       "batchId": "20260916T234501Z-3d6a",
       "generatedAtCycle": 9,
       "summary": "Snapchat boss signals daily time limits for teens; Why Earth's center of mass shifts with the seasons; Stellantis plant in Brampton could build a new model amid potential sale; France selects Cannes prize‑winner 'Minotaur' for Oscars"
@@ -160,6 +171,11 @@
       "batchId": "20260917T064428Z-a4d7",
       "generatedAtCycle": 12,
       "summary": "Game theory: when rational choices clash; AI giants launch their own fashion lines; Webb reveals a stellar nursery in the Carina Nebula; Indonesian film ‘Ibuku’ heads to Busan competition"
+    },
+    {
+      "batchId": "20260917T073610Z-8adf",
+      "generatedAtCycle": 13,
+      "summary": "Anak Krakatau’s Eruption Disrupted Thousands of Flights; When a Smaller Model Is the Better Catalog Worker; Machiavelli’s Philosophy Without the System; Zhang Yimou Takes the Busan Jury Presidency; OpenAI announces system to track and disclose model misbehavior; How generative AI simplifies PII redaction at scale; Netanyahu pushes law to strip citizenship of IDF critics; Aristotle’s practical wisdom vs. modern self‑help"
     }
   ]
 }

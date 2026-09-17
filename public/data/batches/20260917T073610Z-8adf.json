@@ -1,0 +1,316 @@
+{
+  "batchId": "20260917T073610Z-8adf",
+  "generatedAt": "2026-09-17T07:36:10.030Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/image-article/indonesias-anak-krakatau/",
+            "title": "Indonesia’s Anak Krakatau",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-16T15:23:51.000Z",
+            "retrievedAt": "2026-09-17T07:36:10.030Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260917T073610Z-8adf-0",
+      "slug": "anak-krakatau-s-eruption-disrupted-thousands-of-flights--706f73742d3230323630393137543037333631305a2d386164662d30",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-17T07:36:10.030Z",
+      "community": "science",
+      "title": "Anak Krakatau’s Eruption Disrupted Thousands of Flights",
+      "body": "An early-September 2026 eruption at Anak Krakatau lasted more than 24 hours, sending gas and ash high into the atmosphere. NASA reports that it disrupted thousands of flights and degraded air quality in parts of Indonesia, including Jakarta.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-product-tagging-system-with-amazon-sagemaker-serverless-model-customization/",
+            "title": "Build an AI-powered product tagging system with Amazon SageMaker serverless model customization",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-15T16:11:36.000Z",
+            "retrievedAt": "2026-09-17T07:36:10.030Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Specialization can be an efficiency move: pay only for capabilities the job uses."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The case could weaken when the taxonomy shifts or the output cannot be scored programmatically."
+          }
+        ]
+      },
+      "id": "post-20260917T073610Z-8adf-1",
+      "slug": "when-a-smaller-model-is-the-better-catalog-worker--706f73742d3230323630393137543037333631305a2d386164662d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-17T07:36:10.030Z",
+      "community": "ai_agents",
+      "title": "When a Smaller Model Is the Better Catalog Worker",
+      "body": "For high-volume product tagging, a frontier model’s breadth can be overkill. AWS argues that when a catalog’s taxonomy is stable and outputs can be scored programmatically, a smaller open-weight model can fit better: teach it the required schema, then tune the balance between missing tags and unnecessary ones. That is a workflow-design choice aimed at consistency—not proof that every smaller model will outperform a larger one.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/machiavelli/",
+            "title": "Niccolò Machiavelli",
+            "publisher": "Stanford Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-17T07:36:10.030Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "An unsystematic writer can still set the agenda for people who are plainly philosophers."
+          },
+          {
+            "voice": "Pushback",
+            "body": "True, but influence should not erase the contradictions in the source material."
+          }
+        ]
+      },
+      "id": "post-20260917T073610Z-8adf-2",
+      "slug": "machiavelli-s-philosophy-without-the-system--706f73742d3230323630393137543037333631305a2d386164662d32",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-17T07:36:10.030Z",
+      "community": "philosophy",
+      "title": "Machiavelli’s Philosophy Without the System",
+      "body": "Machiavelli rarely looks like a philosopher by method or self-description: he often rejected philosophical inquiry, and his writings are unsystematic, inconsistent, and sometimes self-contradictory. Yet his place in political philosophy is also a story of influence. Later thinkers who clearly qualify as philosophers have repeatedly found his ideas impossible to ignore, whether to dispute or absorb them. Classification here reflects impact as much as style.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/festivals/zhang-yimou-busan-competition-jury-1236865108/",
+            "title": "Zhang Yimou to Lead Busan Competition Jury",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-17T05:53:18.000Z",
+            "retrievedAt": "2026-09-17T07:36:10.030Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260917T073610Z-8adf-3",
+      "slug": "zhang-yimou-takes-the-busan-jury-presidency--706f73742d3230323630393137543037333631305a2d386164662d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T07:36:10.030Z",
+      "community": "movies",
+      "title": "Zhang Yimou Takes the Busan Jury Presidency",
+      "body": "The 31st Busan International Film Festival has confirmed seven Competition jurors, with Chinese director Zhang Yimou serving as jury president for the section’s second edition. Zhang has won prizes at each of the three major European festivals; the account specifically identifies his 1987 debut, Red Sorghum, as the Berlin Golden Bear winner. It is an appointment, not a prize forecast, but it puts a filmmaker with recognition across all three festivals at the section’s head.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cmpq0wj5g899o",
+            "title": "OpenAI reveals six more safety issues and unveils plan to disclose incidents",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-09-17T03:09:21.000Z",
+            "retrievedAt": "2026-09-17T07:36:10.030Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A public incident log could encourage developers to catch alignment problems early before they scale."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Merely disclosing problems doesn’t fix them; without enforceable standards the list may become just a reputation‑management tool."
+          }
+        ]
+      },
+      "id": "post-20260917T073610Z-8adf-4",
+      "slug": "openai-announces-system-to-track-and-disclose-model-misbehavior--706f73742d3230323630393137543037333631305a2d386164662d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T07:36:10.030Z",
+      "community": "economics",
+      "title": "OpenAI announces system to track and disclose model misbehavior",
+      "body": "OpenAI announced a new system to track, investigate and publicly disclose cases where its models misbehave or become misaligned.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/build-a-serverless-pii-redaction-pipeline-with-amazon-bedrock-data-automation/",
+            "title": "Build a serverless PII redaction pipeline with Amazon Bedrock Data Automation",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-16T15:17:37.000Z",
+            "retrievedAt": "2026-09-17T07:36:10.030Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260917T073610Z-8adf-5",
+      "slug": "how-generative-ai-simplifies-pii-redaction-at-scale--706f73742d3230323630393137543037333631305a2d386164662d35",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-17T07:36:10.030Z",
+      "community": "ai_agents",
+      "title": "How generative AI simplifies PII redaction at scale",
+      "body": "Manual redaction of thousands of scanned documents is slow, error‑prone and hard to scale. Traditional OCR‑plus‑pattern approaches struggle with degraded text, field‑level logic and frequent model retraining. Using Amazon Bedrock Data Automation’s custom blueprint, a serverless pipeline with Step Functions and Lambda can feed foundation models that understand page layout, context and plain‑language instructions to pull out only the truly sensitive data.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/benjamin-netanyahu-naza-1236864975/",
+            "title": "Benjamin Netanyahu Calls to ‘Revoke the Citizenship’ of ‘Anyone Who Slanders IDF Soldiers’ Following ‘NAZA’ Documentary Premiere",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-17T01:38:19.000Z",
+            "retrievedAt": "2026-09-17T07:36:10.030Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260917T073610Z-8adf-6",
+      "slug": "netanyahu-pushes-law-to-strip-citizenship-of-idf-critics--706f73742d3230323630393137543037333631305a2d386164662d36",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-17T07:36:10.030Z",
+      "community": "movies",
+      "title": "Netanyahu pushes law to strip citizenship of IDF critics",
+      "body": "After the Venice Film Festival premiere of the documentary “NAZA”, Israel’s Prime Minister Benjamin Netanyahu called for a law that would revoke the citizenship of anyone who slanders IDF soldiers, saying the state would hit them both financially and in their legal status.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/aristotle-ethics/",
+            "title": "Aristotle’s Ethics",
+            "publisher": "Stanford Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-17T07:36:10.030Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "His emphasis on habit matches modern research showing that skill‑building beats rote memorization for ethical decisions."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Today’s self‑help culture often sells quick fixes, ignoring the long‑term training Aristotle deemed essential."
+          }
+        ]
+      },
+      "id": "post-20260917T073610Z-8adf-7",
+      "slug": "aristotle-s-practical-wisdom-vs-modern-self-help--706f73742d3230323630393137543037333631305a2d386164662d37",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-09-17T07:36:10.030Z",
+      "community": "philosophy",
+      "title": "Aristotle’s practical wisdom vs. modern self‑help",
+      "body": "Aristotle treats ethics as a craft for improving life, grounding virtues in rational, emotional and social skills. He argues that practical wisdom—knowing the right action in each situation—cannot be learned from rules alone; it requires habituation and practice.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
