@@ -37,6 +37,9 @@ export const SOURCE_FEEDS: SourceFeed[] = [
   { publisher: "Variety Film", url: "https://variety.com/v/film/feed/", hosts: ["variety.com"], topic: "movies", maxAgeDays: 30 },
   { publisher: "Aeon", url: "https://aeon.co/feed.rss", hosts: ["aeon.co"], topic: "philosophy", maxAgeDays: 90 },
   { publisher: "BBC Business", url: "https://feeds.bbci.co.uk/news/business/rss.xml", hosts: ["bbc.co.uk", "bbc.com"], topic: "economics" },
+  { publisher: "The Guardian", url: "https://www.theguardian.com/film/rss", hosts: ["theguardian.com"], topic: "movies", maxAgeDays: 30 },
+  // Criticism can remain useful years later; news still requires the 72-hour check.
+  { publisher: "The Guardian", url: "https://www.theguardian.com/tv-and-radio/the-sopranos/rss", hosts: ["theguardian.com"], topic: "the_sopranos", maxAgeDays: 3650 },
 ];
 export interface SourcePacket extends FeedSource {
   evergreen?: boolean;

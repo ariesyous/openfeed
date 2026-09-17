@@ -156,3 +156,28 @@ it("reports malformed output with resolved model and truncation metadata without
   }));
   expect(JSON.stringify(onAttempt.mock.calls)).not.toContain("private-output");
 });
+
+
+describe("shared generation deadline", () => {
+  it("does not sleep or retry past the deadline when Retry-After is long", async () => {
+    const fetchImpl = vi.fn(async () => new Response("busy", { status: 429, headers: { "Retry-After": "3600" } }));
+    const sleepImpl = vi.fn(async () => {});
+    await expect(generateValidated({ ...baseOpts, fetchImpl, sleepImpl,
+      nowImpl: () => 0, deadlineMs: 120_000,
+      parse: (value) => ({ ok: true, value }),
+    })).rejects.toMatchObject({ name: "GenerationDeadlineError", attempts: 1 });
+    expect(fetchImpl).toHaveBeenCalledTimes(1);
+    expect(sleepImpl).not.toHaveBeenCalled();
+  });
+  it("caps the provider timeout to the remaining edition budget", async () => {
+    const timeout = vi.spyOn(AbortSignal, "timeout");
+    try {
+      await generateValidated({ ...baseOpts,
+        fetchImpl: async () => okContent('{"ok":true}'),
+        nowImpl: () => 30_000, deadlineMs: 120_000, timeoutMs: 900_000,
+        parse: (value) => ({ ok: true, value }),
+      });
+      expect(timeout).toHaveBeenCalledWith(90_000);
+    } finally { timeout.mockRestore(); }
+  });
+});

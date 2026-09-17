@@ -92,8 +92,8 @@ it("redacts credentials, strips control characters, and bounds diagnostic output
   } finally { logger.mockRestore(); }
 });
 
-describe("ten-post edition budgeting", () => {
-  const packets = Array.from({ length: 12 }, (_, index) => ({ ...source,
+describe("twenty-post edition budgeting", () => {
+  const packets = Array.from({ length: 24 }, (_, index) => ({ ...source,
     id: `source-${index}`, url: `https://example.com/${index}`, publisher: `Publisher ${index}`,
     title: `Distinct source ${index}`, excerpt: `Source ${index} reports a carefully monitored trial before any wider release is considered.`,
   }));
@@ -102,15 +102,15 @@ describe("ten-post edition budgeting", () => {
     const input = JSON.parse(request.messages[1].content.split("\n\nYour previous")[0]);
     return input.sources.slice(0, input.maxPosts).map((entry: { title: string; evidence: { id: string }[] }) => ({ ...post, title: entry.title, evidenceIds: [entry.evidence[0].id] }));
   }
-  it("produces ten distinct posts in 4/4/2 chunks with one total attempt budget", async () => {
+  it("produces twenty distinct posts in five four-post chunks with one total attempt budget", async () => {
     const sizes: number[] = [];
     const fetchImpl: typeof fetch = async (_url, init) => {
       const posts = chunk(init); sizes.push(posts.length); return completion({ posts });
     };
     const items = await generateEditorial("secret", packets, now, "ten", [], { fetchImpl });
-    expect(sizes).toEqual([4, 4, 2]);
-    expect(items).toHaveLength(10);
-    expect(new Set(items.flatMap(item => item.editorial!.sources.map(entry => entry.url))).size).toBe(10);
+    expect(sizes).toEqual([4, 4, 4, 4, 4]);
+    expect(items).toHaveLength(20);
+    expect(new Set(items.flatMap(item => item.editorial!.sources.map(entry => entry.url))).size).toBe(20);
   });
   it("publishes an already validated partial edition when later attempts fail", async () => {
     let calls = 0;
@@ -119,18 +119,45 @@ describe("ten-post edition budgeting", () => {
       return new Response("unavailable", { status: 503 });
     };
     const items = await generateEditorial("secret", packets, now, "partial", [], { fetchImpl, sleepImpl: async () => {} });
-    expect(calls).toBe(5);
+    expect(calls).toBe(8);
     expect(items).toHaveLength(4);
   });
   it("rejects a cross-chunk repeated title and leaves the accepted chunk intact", async () => {
     let calls = 0;
+    let firstTitle = "";
     const fetchImpl: typeof fetch = async (_url, init) => {
       const posts = chunk(init);
-      if (++calls > 1) posts[0].title = "Distinct source 0";
+      if (++calls === 1) firstTitle = posts[0].title;
+      else posts[0].title = firstTitle;
       return completion({ posts });
     };
     const items = await generateEditorial("secret", packets, now, "duplicate", [], { fetchImpl, sleepImpl: async () => {} });
-    expect(calls).toBe(5);
+    expect(calls).toBe(8);
     expect(items).toHaveLength(4);
   });
+  it("retains valid chunks when the shared deadline leaves no room for another request", async () => {
+    let elapsed = 0;
+    let calls = 0;
+    const fetchImpl: typeof fetch = async (_url, init) => {
+      calls++;
+      elapsed = 45 * 60_000 - 30_000;
+      return completion({ posts: chunk(init) });
+    };
+    const items = await generateEditorial("secret", packets, now, "deadline", [], {
+      fetchImpl, nowImpl: () => elapsed,
+    });
+    expect(calls).toBe(1);
+    expect(items).toHaveLength(4);
+  });
+  it("reaches twenty despite three transient provider failures", async () => {
+    let calls = 0;
+    const fetchImpl: typeof fetch = async (_url, init) => {
+      if (++calls <= 3) return new Response("unavailable", { status: 503 });
+      return completion({ posts: chunk(init) });
+    };
+    const items = await generateEditorial("secret", packets, now, "retry", [], { fetchImpl, sleepImpl: async () => {} });
+    expect(calls).toBe(8);
+    expect(items).toHaveLength(20);
+  });
+
 });
