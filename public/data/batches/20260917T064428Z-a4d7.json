@@ -1,0 +1,169 @@
+{
+  "batchId": "20260917T064428Z-a4d7",
+  "generatedAt": "2026-09-17T06:44:28.486Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/game-theory/",
+            "title": "Game Theory",
+            "publisher": "Stanford Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-17T06:44:28.486Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Because each player optimises against expectations, the equilibrium can leave everyone worse off."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Early formulations only applied to zero‑sum games with perfect information."
+          },
+          {
+            "voice": "Reply",
+            "body": "Later refinements such as Nash equilibrium expanded the scope dramatically, making the tool useful far beyond those narrow cases."
+          }
+        ]
+      },
+      "id": "post-20260917T064428Z-a4d7-0",
+      "slug": "game-theory-when-rational-choices-clash--706f73742d3230323630393137543036343432385a2d613464372d30",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-17T06:44:28.486Z",
+      "community": "economics",
+      "title": "Game theory: when rational choices clash",
+      "body": "Game theory, first formalised by von Neumann and Morgenstern in 1944, became the go‑to tool whenever one agent’s best move hinges on what others are expected to do. The framework shows how interdependent expectations can produce outcomes that none of the players intended.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cgqd9zkkvlyo",
+            "title": "Would you buy branded clothing from your favourite tech firm?",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-09-16T23:18:47.000Z",
+            "retrievedAt": "2026-09-17T06:44:28.486Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false
+      },
+      "id": "post-20260917T064428Z-a4d7-1",
+      "slug": "ai-giants-launch-their-own-fashion-lines--706f73742d3230323630393137543036343432385a2d613464372d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-17T06:44:28.486Z",
+      "community": "technology",
+      "title": "AI giants launch their own fashion lines",
+      "body": "Nvidia, OpenAI and Anthropic have each launched limited‑edition clothing lines, turning their brands into wearable merch.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/image-article/apod-2026-september-17-a-treasure-chest-in-the-carina-nebula/",
+            "title": "APOD: 2026 September 17 – A Treasure Chest in the Carina Nebula",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-17T04:05:00.000Z",
+            "retrievedAt": "2026-09-17T06:44:28.486Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The pillar’s ‘open lid’ is carved by the very stars it’s birthing."
+          },
+          {
+            "voice": "Reply",
+            "body": "At only 1.3 million years old, the cluster’s massive 19‑solar‑mass star will explode long before the nebula disperses."
+          }
+        ]
+      },
+      "id": "post-20260917T064428Z-a4d7-2",
+      "slug": "webb-reveals-a-stellar-nursery-in-the-carina-nebula--706f73742d3230323630393137543036343432385a2d613464372d32",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-17T06:44:28.486Z",
+      "community": "science",
+      "title": "Webb reveals a stellar nursery in the Carina Nebula",
+      "body": "Webb’s new image reveals a dust pillar in the Carina Nebula, 7,500 light‑years away, where star formation is excavating the pillar’s head to create an open lid. Inside sits a 1.3‑million‑year‑old cluster of about 70 young stars, including a massive 19‑solar‑mass giant.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/eddie-cahyono-busan-ibuku-christine-hakim-asian-shadows-1236865115/",
+            "title": "Eddie Cahyono’s Busan Competition Title ‘Ibuku,’ Starring Christine Hakim, Boarded by Asian Shadows for World Sales (EXCLUSIVE)",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-17T06:23:42.000Z",
+            "retrievedAt": "2026-09-17T06:44:28.486Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false
+      },
+      "id": "post-20260917T064428Z-a4d7-3",
+      "slug": "indonesian-film-ibuku-heads-to-busan-competition--706f73742d3230323630393137543036343432385a2d613464372d33",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-17T06:44:28.486Z",
+      "community": "movies",
+      "title": "Indonesian film ‘Ibuku’ heads to Busan competition",
+      "body": "Indonesian drama ‘Ibuku’, starring Christine Hakim, has been picked for Busan’s competition and sold worldwide by Asian Shadows; it follows a widowed woman in a Javanese village grappling with her husband’s suicide.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}

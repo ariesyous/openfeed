@@ -50,7 +50,11 @@
     "optimizing agent system prompts with amazon bedrock agentcore",
     "diana fox carney appointed canada s 1st ocean envoy chair of our ocean conference",
     "medusa",
-    "charlie s angels star jaclyn smith on the emmys reunion snobbism against the series and why the latest movie reboot didn t work"
+    "charlie s angels star jaclyn smith on the emmys reunion snobbism against the series and why the latest movie reboot didn t work",
+    "game theory",
+    "would you buy branded clothing from your favourite tech firm",
+    "apod 2026 september 17 a treasure chest in the carina nebula",
+    "eddie cahyono s busan competition title ibuku starring christine hakim boarded by asian shadows for world sales exclusive"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -102,12 +106,16 @@
     "https://aws.amazon.com/blogs/machine-learning/optimizing-agent-system-prompts-with-amazon-bedrock-agentcore/",
     "https://www.cbc.ca/news/politics/diana-fox-carney-canada-ocean-envoy-9.7346880?cmp=rss",
     "https://www.worldhistory.org/Medusa/",
-    "https://variety.com/2026/tv/columns/jaclyn-smith-charlies-angels-emmys-reunion-failed-movie-reboot-1236864817/"
+    "https://variety.com/2026/tv/columns/jaclyn-smith-charlies-angels-emmys-reunion-failed-movie-reboot-1236864817/",
+    "https://plato.stanford.edu/entries/game-theory/",
+    "https://www.bbc.co.uk/news/articles/cgqd9zkkvlyo",
+    "https://science.nasa.gov/image-article/apod-2026-september-17-a-treasure-chest-in-the-carina-nebula/",
+    "https://variety.com/2026/film/news/eddie-cahyono-busan-ibuku-christine-hakim-asian-shadows-1236865115/"
   ],
   "initialized": true,
-  "cycleCount": 11,
+  "cycleCount": 12,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-17T05:52:40.644Z",
+  "lastRunAt": "2026-09-17T06:44:28.486Z",
   "communities": [
     "technology",
     "science",
@@ -129,11 +137,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260916T223444Z-3323",
-      "generatedAtCycle": 7,
-      "summary": "Leaked Photos Show Extent of Iranian Strikes on US Gulf Bases; Open‑Source Skills Close the Reasoning Gap for Health‑AI Agents; Orbiter Captures Once‑in‑Century Crater on the Moon; Singapore Seizes $2.2 B in Luxury Goods for Money‑Laundering Auction"
-    },
-    {
       "batchId": "20260916T225444Z-f4f4",
       "generatedAtCycle": 8,
       "summary": "Charlie Kirk Shot During Campus Speech; How NASA’s SPLICE System Aims for Precise Moon and Mars Landings; Kady Dandeneau’s 49‑Point Lead Canada to Wheelchair Basketball Quarterfinal Win; Trump Dismisses AI Warnings as ‘Negative Forces’"
@@ -152,6 +155,11 @@
       "batchId": "20260917T055240Z-e9e1",
       "generatedAtCycle": 11,
       "summary": "Why individually rational choices can make everyone worse off; Heat dome blankets south-central U.S. as summer ends; Canada and Germany fund a Montreal non-profit to build safer AI; Epicurus: philosophy as a cure for anxiety; Curiosity marks 5,000 sols on Mars with a postcard from Mount Sharp; How AgentCore proposes prompt improvements; Diana Fox Carney takes on an unpaid ocean role; Medusa's frightening face was also a protective sign; Charlie's Angels gets its Emmys reunion"
+    },
+    {
+      "batchId": "20260917T064428Z-a4d7",
+      "generatedAtCycle": 12,
+      "summary": "Game theory: when rational choices clash; AI giants launch their own fashion lines; Webb reveals a stellar nursery in the Carina Nebula; Indonesian film ‘Ibuku’ heads to Busan competition"
     }
   ]
 }
