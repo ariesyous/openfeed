@@ -99,3 +99,12 @@ Keep those controls removed; use a desktop topic sidebar and mobile horizontal t
 buttons. Preserve feed filters/position on in-app Back, explicit new-arrival loading,
 and spoiler protection in both prebuilt HTML and React. Tests and the build
 run for PRs without deployment. Read docs/reading-roadmap.md for settled decisions.
+
+## Topic URLs — September 17, 2026
+Topics are destinations, not temporary filters. `shared/topics.ts` owns stable topic
+IDs/slugs and is shared with the generator. Sidebar and article topic labels must
+remain real links; ordinary clicks navigate in-app, modified clicks stay native.
+The archive build emits `/topics/<slug>/index.html` and bounded per-topic indexes,
+referencing existing source batches. Topic archive cursors remain relative to
+`data/`. Article Back keeps the active topic feed mounted; switching topics starts
+that topic's own feed. Unknown topic routes show a not-found state.

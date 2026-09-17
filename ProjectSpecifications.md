@@ -69,7 +69,10 @@ attribution and spoiler-safe sharing metadata. No age-based content deletion.
 Keep initial downloads small through archive pagination and shared assets.
 
 Use visible topic buttons: a left sidebar on desktop and a horizontally scrollable
-bar on smaller screens. Preserve in-app Back restoration and explicit loading of
+bar on smaller screens. Topics must be real links to stable `/topics/<slug>/`
+pages with static HTML, canonical metadata and topic-specific paginated indexes.
+Support direct visits, refreshes, new tabs, and browser Back/Forward. Preserve
+in-app article Back restoration and explicit loading of
 new arrivals. Omit saved-article and manual read-tracking controls to keep reading
 uncluttered. No account or analytics backend is required.
 See [the September 17 decision record](docs/reading-roadmap.md) for implementation
