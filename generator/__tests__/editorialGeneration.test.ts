@@ -1,6 +1,6 @@
 // @vitest-environment node
 import { describe, expect, it, vi } from "vitest";
-import { EDITORIAL_JSON_SCHEMA, generateEditorial, validateCitedDraft } from "../editorial/generate";
+import { editorialJsonSchema, generateEditorial, validateCitedDraft } from "../editorial/generate";
 import { prepareEvidence } from "../editorial/evidence";
 import { logEditorialAttempt } from "../editorial/diagnostics";
 import type { SourcePacket } from "../editorial/sources";
@@ -32,9 +32,9 @@ describe("editorial structured generation", () => {
       };
       const items = await generateEditorial("secret", [source], now, "test", [], {fetchImpl});
       expect(requests[0].response_format).toEqual({type: "json_schema", json_schema: {
-        name: "editorial_edition", strict: true, schema: EDITORIAL_JSON_SCHEMA.schema,
+        name: "editorial_edition", strict: true, schema: editorialJsonSchema([...prepareEvidence([source]).evidenceById.keys()], 4).schema,
       }});
-      const schema = EDITORIAL_JSON_SCHEMA.schema;
+      const schema = editorialJsonSchema([...prepareEvidence([source]).evidenceById.keys()], 4).schema;
       const walk = (node: unknown) => {
         if (!node || typeof node !== "object") return;
         const value = node as Record<string, unknown>;
@@ -160,4 +160,69 @@ describe("twenty-post edition budgeting", () => {
     expect(items).toHaveLength(20);
   });
 
+});
+
+describe("run 31 validation regressions", () => {
+  it("constrains post and discussion evidence to exactly the current request IDs", () => {
+    const schema = editorialJsonSchema(["S1E1", "S2E3"], 2).schema;
+    let fields = 0;
+    const walk = (node: unknown) => {
+      if (!node || typeof node !== "object") return;
+      const value = node as Record<string, unknown>;
+      if (value.evidenceIds) {
+        const field = value.evidenceIds as { items: { enum: string[] } };
+        expect(field.items.enum).toEqual(["S1E1", "S2E3"]);
+        expect(field.items.enum).not.toContain("S1E1','S2E3");
+        fields++;
+      }
+      Object.values(value).forEach(child => Array.isArray(child) ? child.forEach(walk) : walk(child));
+    };
+    walk(schema);
+    expect(fields).toBe(2);
+    expect(schema.properties?.posts).toMatchObject({ maxItems: 2 });
+    expect(JSON.stringify(editorialJsonSchema(["S1E2"], 4))).not.toContain('"S2E3"');
+  });
+
+  it("rejects concatenated evidence IDs even when a provider falls back to plain JSON", async () => {
+    let calls = 0;
+    const fetchImpl: typeof fetch = async (_url, init) => {
+      const request = JSON.parse(String(init?.body));
+      if (++calls === 1) return new Response("response_format not supported", {status: 400});
+      expect(request.response_format).toBeUndefined();
+      if (calls === 2) return completion({posts: [{...post, evidenceIds: ["S1E1','S1E2"]}]});
+      expect(request.messages[1].content).toContain("unknown evidence ID S1E1','S1E2");
+      return completion({posts: [post]});
+    };
+    const items = await generateEditorial("secret", [source], now, "ids", [], {fetchImpl, sleepImpl: async () => {}});
+    expect(calls).toBe(3);
+    expect(items).toHaveLength(1);
+  });
+
+  it("states fresh and remaining publisher budgets and still rejects cross-chunk excess", async () => {
+    const publishers = ["BBC Technology", "BBC World", "BBC Business", "OpenAI", "OpenAI", "OpenAI", "Global News Canada", "Global News Canada", "Global News Canada"];
+    const packets = publishers.map((publisher, i) => ({...source, publisher,
+      id: `p${i}`, title: `Article ${i}`, url: `https://example.com/${i}`,
+    }));
+    let calls = 0;
+    const fetchImpl: typeof fetch = async (_url, init) => {
+      const request = JSON.parse(String(init?.body));
+      const input = JSON.parse(request.messages[1].content.split("\n\nYour previous")[0]);
+      calls++;
+      expect(input.publisherSlotsRemaining).toEqual({BBC: calls === 1 ? 2 : 1, OpenAI: calls === 1 ? 2 : 1, "Global News Canada": calls === 1 ? 2 : 1});
+      for (const entry of input.sources) {
+        expect(entry.publisherGroup).toBe(entry.publisher.startsWith("BBC") ? "BBC" : entry.publisher);
+      }
+      // First chunk uses one source per group; the next improperly selects two OpenAI sources.
+      const indices = calls === 1 ? [0, 3, 6] : calls === 2 ? [4, 5] : [1, 4, 7];
+      if (calls === 3) expect(request.messages[1].content).toContain("Too many posts from OpenAI");
+      return completion({posts: indices.map(i => {
+        const entry = input.sources.find((entry: {title: string}) => entry.title === `Article ${i}`);
+        return {...post, title: entry.title, evidenceIds: [entry.evidence[0].id]};
+      })});
+    };
+    const items = await generateEditorial("secret", packets, now, "publishers", [], {fetchImpl, sleepImpl: async () => {}});
+    expect(calls).toBe(3);
+    expect(items).toHaveLength(6);
+    expect(items.map(item => item.title)).not.toContain("Article 5");
+  });
 });
