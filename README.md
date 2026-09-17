@@ -78,11 +78,12 @@ recurring model quality still needs a manual generation run after merge.
 
 Editorial generation requests strict JSON-schema output and retains local citation,
 evidence, freshness, and publisher checks. Providers that explicitly reject structured
-output fall back to plain JSON within the same five-attempt budget. Optional transport
+output fall back to plain JSON within the same eight-attempt budget. Optional transport
 fields use null and normalize to omitted values before publication.
 
-Editions target ten posts in requests of at most four, sharing five total provider attempts.
-Validated partial editions can publish when a later request fails; weak evidence never gets padded. Manual Actions runs default to
+Editions target twenty posts in requests of at most four, sharing eight total provider attempts.
+A shared 45-minute generation budget caps request timeouts and retry waits; the workflow
+has a 55-minute safety timeout. Validated partial editions can publish when a later request fails; weak evidence never gets padded. Manual Actions runs default to
 `openrouter/free`; Gemini remains an optional manual selection. Hourly scheduled runs
 always use `openrouter/free`, independent of the repository model variable.
 

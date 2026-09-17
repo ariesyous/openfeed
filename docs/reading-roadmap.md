@@ -39,11 +39,13 @@ through the feed archive and its original link, not merely through Git history.
 
 ## Generation decision
 
-Target ten posts per run, with requests of at most four posts (normally 4/4/2).
-All requests and retries share the existing five-attempt edition budget; the
+Target twenty posts per run, with requests of at most four posts (normally five four-post chunks).
+All requests and retries share one eight-attempt edition budget; the
 maximum request duration remains 15 minutes. Successful chunks consume attempts
-too. This bounds provider calls, although a slow run can still exceed the hourly
-cadence. Workflow concurrency continues to serialize generation.
+too. A shared 45-minute generation deadline bounds requests and retry waits;
+requests use the smaller of 15 minutes or the remaining budget, and no new request
+starts with less than one minute left. The workflow has a 55-minute safety timeout
+to leave room for publication. Workflow concurrency continues to serialize generation.
 
 Each chunk gets fresh, unused evidence. Source identity, exact normalized source
 headlines, output titles, freshness and publisher limits are checked across the
@@ -56,13 +58,13 @@ A later provider failure preserves accepted, fully validated chunks and publishe
 one partial edition. No accepted chunks means no publication. Empty/thin intake
 preserves the existing edition. Diagnostics explain target, actual count,
 shortfall, attempts, runtime, models and topics. No free-router result is fabricated
-or replaced silently with a paid model to hit ten.
+or replaced silently with a paid model to hit twenty.
 
-The curated evergreen shelf has expanded from nine to eighteen verified publisher
-pages. Consumed URLs are no longer fetched, and intake reports remaining shelf
+The curated evergreen shelf has expanded to twenty-five retrieved publisher
+pages. Guardian film and Sopranos RSS also broaden recurring culture intake. Consumed URLs are no longer fetched, and intake reports remaining shelf
 size. This is a finite editorial backlog alongside recurring RSS, not an unlimited
 source supply: replenish it as consumed, particularly film/Sopranos criticism.
-Ten useful posts and a half-evergreen mix cannot be promised for every hour.
+Twenty useful posts and a half-evergreen mix cannot be promised for every hour.
 
 ## Return-visit decision
 
@@ -82,8 +84,8 @@ article URLs, copying links and forever content retention remain unchanged.
 ## Capacity and evaluation
 
 Initial measured build: 41 articles, about 0.61 MiB total output including shared
-assets. With the current article mix, a linear estimate at 87,600 articles/year
-(ten per hour, every hour) is about 611 MiB/year. This is an estimate, not a
+assets. With the current article mix, a linear estimate at 175,200 articles/year
+(twenty per hour, every hour) is about 1.2 GiB/year. This is an estimate, not a
 benchmark or capacity guarantee: content length, build time and Git growth need
 monitoring. Build output reports article count and bytes and warns at 750 MiB.
 If hosting/storage must change, preserve content and permalinks. No TTL is an
@@ -135,3 +137,13 @@ Back preserves the active topic's loaded posts, format and scroll position;
 switching between topics starts the selected topic feed from its newest edition.
 Vite development filters the source manifest; the production build emits the
 optimized topic indexes. No content is deleted or moved.
+
+
+## Twenty-post rollout review
+
+After two days, compare actual posts published, attempt counts, generation duration,
+partial editions/failures, topic mix and repeated angles. Twenty is a target, not
+a quota that justifies weaker evidence. Five full successful requests reach the
+target; eight attempts leave three retries. At 24 runs this is at least 120
+requests/day for full editions, up to 192 attempts/day, excluding manual runs and
+other API usage. Check the OpenRouter account allowance if rate limits occur.

@@ -4,6 +4,15 @@ import { plainText, readBounded, type SourcePacket } from "./sources";
 // Deliberate reading shelf: factual background and criticism, never current news.
 // Add URLs here as the shelf is reviewed; covered URLs are filtered by generate.ts.
 export const EVERGREEN_SOURCES = [
+  // Retrieved and checked for usable article prose for the twenty-post rollout.
+  {"topic": "philosophy", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Existentialism", "url": "https://plato.stanford.edu/entries/existentialism/"},
+  {"topic": "philosophy", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Distributive Justice", "url": "https://plato.stanford.edu/entries/justice-distributive/"},
+  {"topic": "philosophy", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Seneca", "url": "https://plato.stanford.edu/entries/seneca/"},
+  {"topic": "philosophy", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Epictetus", "url": "https://plato.stanford.edu/entries/epictetus/"},
+  {"topic": "economics", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Decision Theory", "url": "https://plato.stanford.edu/entries/decision-theory/"},
+  {"topic": "economics", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Markets", "url": "https://plato.stanford.edu/entries/markets/"},
+  {"topic": "movies", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Philosophy of Film", "url": "https://plato.stanford.edu/entries/film/"},
+
   // Additional publisher pages checked during the September 17 planning implementation.
   {"topic": "philosophy", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Epicurus", "url": "https://plato.stanford.edu/entries/epicurus/"},
   {"topic": "philosophy", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Niccolò Machiavelli", "url": "https://plato.stanford.edu/entries/machiavelli/"},

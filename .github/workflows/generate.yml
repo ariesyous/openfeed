@@ -27,9 +27,10 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    # At most four posts per request, ten per edition, five total provider attempts.
+    # At most four posts per request, twenty per edition, eight total provider attempts.
+    # Generation has a shared 45-minute budget, leaving time to publish and deploy.
     # Source intake has its own short timeouts and skips unavailable feeds.
-    timeout-minutes: 180
+    timeout-minutes: 55
     steps:
       # ref (not the default github.sha) so a run queued behind the `generate`
       # concurrency group checks out whatever landed while it waited, rather than a

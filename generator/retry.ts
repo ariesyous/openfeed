@@ -11,6 +11,13 @@ export class GenerationFailedError extends Error {
   }
 }
 
+export class GenerationDeadlineError extends GenerationFailedError {
+  constructor(attempts: number) {
+    super("edition time budget exhausted", attempts);
+    this.name = "GenerationDeadlineError";
+  }
+}
+
 export type ParseOutcome<T> = { ok: true; value: T } | { ok: false; issues: string[] };
 
 export interface GenerateValidatedOptions<T> {
@@ -27,6 +34,9 @@ export interface GenerateValidatedOptions<T> {
    * strings fed back to the model on retry. */
   parse: (json: unknown) => ParseOutcome<T>;
   maxAttempts?: number;
+  /** Shared absolute deadline across chunks and retries. */
+  deadlineMs?: number;
+  nowImpl?: () => number;
   onAttempt?: (info: { attempt: number; outcomeKind: string; detail?: string; modelUsed?: string; finishReason?: string }) => void;
   /** Injectable for tests, so retry/backoff tests don't actually sleep. */
   sleepImpl?: (ms: number) => Promise<void>;
@@ -78,6 +88,9 @@ export async function generateValidated<T>(
 ): Promise<GenerateValidatedResult<T>> {
   const maxAttempts = opts.maxAttempts ?? MAX_ATTEMPTS;
   const sleep = opts.sleepImpl ?? defaultSleep;
+  const clock = opts.nowImpl ?? Date.now;
+  const remaining = () => (opts.deadlineMs ?? Infinity) - clock();
+  const minimumRequestMs = 60_000;
 
   let userPrompt = opts.initialUserPrompt;
   let useStructured = !!opts.jsonSchema;
@@ -85,10 +98,13 @@ export async function generateValidated<T>(
 
   for (let attempt = 1; attempt <= maxAttempts; attempt++) {
     if (attempt > 1) {
-      await sleep(Math.max(backoffDelayMs(attempt), minNextDelayMs));
+      const delay = Math.max(backoffDelayMs(attempt), minNextDelayMs);
+      if (remaining() < delay + minimumRequestMs) throw new GenerationDeadlineError(attempt - 1);
+      await sleep(delay);
       minNextDelayMs = 0;
     }
 
+    if (remaining() < minimumRequestMs) throw new GenerationDeadlineError(attempt - 1);
     const messages: OpenRouterMessage[] = [
       { role: "system", content: opts.systemPrompt },
       { role: "user", content: userPrompt },
@@ -99,7 +115,7 @@ export async function generateValidated<T>(
       messages,
       jsonSchema: useStructured ? opts.jsonSchema : undefined,
       maxTokens: opts.maxTokens,
-      timeoutMs: opts.timeoutMs,
+      timeoutMs: Math.min(opts.timeoutMs ?? 60_000, remaining()),
       fetchImpl: opts.fetchImpl,
     });
 

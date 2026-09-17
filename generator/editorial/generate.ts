@@ -1,16 +1,18 @@
 import { appendFileSync, readFileSync } from "node:fs";
 import { z } from "zod";
 import { FeedItemSchema, type FeedItem } from "../../schemas";
-import { generateValidated, GenerationFailedError, type ParseOutcome } from "../retry";
-import { ADVANCE_WORLD_MAX_TOKENS, ADVANCE_WORLD_TIMEOUT_MS, MAX_ATTEMPTS } from "../config";
+import { generateValidated, GenerationDeadlineError, GenerationFailedError, type ParseOutcome } from "../retry";
+import { ADVANCE_WORLD_MAX_TOKENS, ADVANCE_WORLD_TIMEOUT_MS } from "../config";
 import { prepareEvidence, type EvidenceEntry } from "./evidence";
 import { logEditorialAttempt } from "./diagnostics";
 import { coverageTitle } from "./coverage";
 import { FORMATS, TOPICS } from "./accounts";
 import type { SourcePacket } from "./sources";
 
-export const EDITORIAL_MAX_POSTS = 10;
+export const EDITORIAL_MAX_POSTS = 20;
 export const EDITORIAL_REQUEST_POSTS = 4;
+export const EDITORIAL_MAX_ATTEMPTS = 8;
+export const EDITORIAL_TIME_BUDGET_MS = 45 * 60_000;
 const publisherKey = (publisher: string) => publisher.startsWith("BBC") ? "BBC" : publisher;
 
 const DiscussionTurn = z.object({
@@ -219,14 +221,16 @@ export async function generateEditorial(
   now: Date,
   runId: string,
   recentEditions: string[] = [],
-  dependencies: { fetchImpl?: typeof fetch; sleepImpl?: (ms: number) => Promise<void> } = {},
+  dependencies: { fetchImpl?: typeof fetch; sleepImpl?: (ms: number) => Promise<void>; nowImpl?: () => number } = {},
 ): Promise<FeedItem[]> {
-  const started = Date.now();
+  const clock = dependencies.nowImpl ?? Date.now;
+  const started = clock();
+  const deadlineMs = started + EDITORIAL_TIME_BUDGET_MS;
   const accepted: Draft["posts"] = [];
   let attempts = 0;
   let reason = "target reached";
   const models = new Set<string>();
-  while (accepted.length < EDITORIAL_MAX_POSTS && attempts < MAX_ATTEMPTS) {
+  while (accepted.length < EDITORIAL_MAX_POSTS && attempts < EDITORIAL_MAX_ATTEMPTS) {
     const used = new Set(accepted.flatMap(post => post.sourceIds));
     const usedTitles = new Set(packets.filter(packet => used.has(packet.id)).map(packet => coverageTitle(packet.title)));
     const publishers = new Map<string, number>();
@@ -241,7 +245,7 @@ export async function generateEditorial(
     const maxPosts = Math.min(EDITORIAL_REQUEST_POSTS, EDITORIAL_MAX_POSTS - accepted.length);
     try {
       const result = await generateValidated({
-        ...dependencies, apiKey, maxAttempts: MAX_ATTEMPTS - attempts,
+        ...dependencies, apiKey, deadlineMs, maxAttempts: EDITORIAL_MAX_ATTEMPTS - attempts,
         jsonSchema: EDITORIAL_JSON_SCHEMA,
         systemPrompt: readFileSync(new URL("./prompt.md", import.meta.url), "utf8"),
         initialUserPrompt: JSON.stringify({
@@ -259,7 +263,7 @@ export async function generateEditorial(
           return combined.ok ? draft : combined;
         },
         maxTokens: ADVANCE_WORLD_MAX_TOKENS, timeoutMs: ADVANCE_WORLD_TIMEOUT_MS,
-        onAttempt: (info) => logEditorialAttempt({ ...info, attempt: attempts + info.attempt }, apiKey, Date.now() - started),
+        onAttempt: (info) => logEditorialAttempt({ ...info, attempt: attempts + info.attempt }, apiKey, clock() - started),
       });
       attempts += result.attempts;
       models.add(result.modelUsed);
@@ -269,14 +273,14 @@ export async function generateEditorial(
     } catch (error) {
       if (!(error instanceof GenerationFailedError)) throw error;
       attempts += error.attempts;
-      reason = "provider or validation budget exhausted";
+      reason = error instanceof GenerationDeadlineError ? "edition time budget exhausted" : "provider or validation budget exhausted";
       if (!accepted.length) throw error;
       break;
     }
   }
   if (accepted.length < EDITORIAL_MAX_POSTS && reason === "target reached") reason = "edition attempt budget exhausted";
   const items = enrichEditorial({ posts: accepted }, packets, now, runId);
-  const summary = `[editorial] target=${EDITORIAL_MAX_POSTS} actual=${items.length} attempts=${attempts}/${MAX_ATTEMPTS} elapsedMs=${Date.now() - started}; ${reason}`;
+  const summary = `[editorial] target=${EDITORIAL_MAX_POSTS} actual=${items.length} attempts=${attempts}/${EDITORIAL_MAX_ATTEMPTS} elapsedMs=${clock() - started}; ${reason}`;
   console.log(summary);
   if (process.env.GITHUB_STEP_SUMMARY) {
     const safe = (text: string) => text.replace(/[\r\n<>`|]/g, " ").slice(0, 200);
