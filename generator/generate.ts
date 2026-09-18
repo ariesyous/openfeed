@@ -10,11 +10,14 @@ import { EDITORIAL_MAX_POSTS, generateEditorial } from "./editorial/generate";
 import { makeEditorialWorld } from "./editorial/state";
 import { coverageTitle } from "./editorial/coverage";
 import { editorialAccounts } from "./editorial/accounts";
+import { createEditorialAudit, publishWithAudit } from "./editorial/audit";
 
 async function main() {
   loadEnvFile();
   const now = new Date(),
     runId = createRunId();
+  const audit = process.env.EDITORIAL_AUDIT_DIR
+    ? createEditorialAudit({ directory: process.env.EDITORIAL_AUDIT_DIR, runId, now }) : undefined;
   const previous = loadWorldState();
   const manifest = ManifestSchema.parse(
     JSON.parse(readFileSync(`${PUBLIC_DATA_DIR}/manifest.json`, "utf8")),
@@ -32,7 +35,9 @@ async function main() {
     if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## Editorial generation\n\nTarget: ${EDITORIAL_MAX_POSTS}. Published: 0. No new usable sources; existing edition preserved.\n`);
     return;
   }
-  const items = await generateEditorial(getApiKey(), sources, now, runId, previous.recentBatchSummaries.map((batch) => batch.summary));
+  const items = await generateEditorial(getApiKey(), sources, now, runId, previous.recentBatchSummaries.map((batch) => batch.summary), {
+    onAcceptedChunk: audit?.onAcceptedChunk,
+  });
   if (!items.length) {
     console.log("[editorial] No publishable posts; existing feed preserved.");
     return;
@@ -47,10 +52,10 @@ async function main() {
     nextWorld,
     previousManifest: manifest,
   });
-  writePublishPlan(plan, {
+  publishWithAudit(audit, items.map(item => item.id), () => writePublishPlan(plan, {
     dataDir: PUBLIC_DATA_DIR,
     worldStatePath: WORLD_STATE_PATH,
-  });
+  }));
   console.log(`[editorial] Published ${items.length} sourced posts.`);
   if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, `\nPublication complete: ${items.length} sourced posts written.\n`);
 }
@@ -58,6 +63,6 @@ main().catch((error) => {
   console.error(
     `[editorial] ${error instanceof Error ? error.message : String(error)}`,
   );
-  if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, "\nGeneration failed before publication; the existing edition is unchanged. See redacted attempt logs for details.\n");
+  if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, "\nGeneration/publication failed; this job will not commit or deploy these local files. A candidate audit does not establish successful public-data writes. See redacted attempt logs for details.\n");
   process.exitCode = 1;
 });

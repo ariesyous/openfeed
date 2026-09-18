@@ -1,0 +1,392 @@
+{
+  "schemaVersion": 1,
+  "correctionId": "editorial-integrity-20260918",
+  "verifiedAt": "2026-09-18T20:17:38.937Z",
+  "corrections": [
+    {
+      "postId": "post-20260918T182557Z-8bc1-5",
+      "batchId": "20260918T182557Z-8bc1",
+      "reason": "The original combined separate landing-page subjects and misidentified the spin-reversal object as 3I/ATLAS. The specific Hubble report identifies comet 41P and dates the report March 26, 2026. Replace the broad citation and explicitly frame this as historical research; preserve explainer format and stable slug.",
+      "verifiedSources": [
+        {
+          "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-detects-first-ever-spin-reversal-of-tiny-comet/",
+          "publicationDate": "2026-03-26",
+          "verifiedOn": "2026-09-18"
+        }
+      ],
+      "beforeSha256": "2fce876d676bdd34b7dcf1c7fe7f9cf4dca40b99ccb23e94fa6a1ca34819a40d",
+      "afterSha256": "f12aa4f893b78900b77629c35742e544f8c0f33af5134626accb68d8ccefb6f9",
+      "before": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://science.nasa.gov/solar-system/comets/",
+              "title": "Comets",
+              "publisher": "NASA",
+              "retrievedAt": "2026-09-18T18:25:57.734Z"
+            }
+          ],
+          "basis": "publisher_excerpt"
+        },
+        "id": "post-20260918T182557Z-8bc1-5",
+        "slug": "hubble-reveals-comet-3i-atlas-slowed-and-reversed-its-spin--706f73742d3230323630393138543138323535375a2d386263312d35",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T18:25:57.734Z",
+        "community": "science",
+        "title": "Hubble reveals comet 3I/ATLAS slowed and reversed its spin",
+        "body": "New research from NASA’s Jet Propulsion Laboratory has uncovered what’s behind a puzzling change in comet 3I/ATLAS. Hubble Space Telescope observations show the comet’s spin first slowed, then reversed direction—a rare reversal that offers fresh clues about how these icy bodies evolve when they approach the Sun. Understanding such spin dynamics helps scientists refine models of cometary interiors and the way volatile materials are released, shedding light on the broader behavior of objects traversing the solar system.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-detects-first-ever-spin-reversal-of-tiny-comet/",
+              "title": "NASA's Hubble Detects First-Ever Spin Reversal of Tiny Comet",
+              "publisher": "NASA",
+              "retrievedAt": "2026-09-18T20:17:38.937Z"
+            }
+          ],
+          "basis": "publisher_excerpt"
+        },
+        "id": "post-20260918T182557Z-8bc1-5",
+        "slug": "hubble-reveals-comet-3i-atlas-slowed-and-reversed-its-spin--706f73742d3230323630393138543138323535375a2d386263312d35",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T18:25:57.734Z",
+        "community": "science",
+        "title": "Hubble finds evidence that comet 41P reversed its spin",
+        "body": "In March 2026, NASA reported evidence that comet 41P/Tuttle-Giacobini-Kresák had slowed its rotation and then spun up in the opposite direction. After a 2017 pass around the Sun, Swift observations measured a rotation period of 46–60 hours; later Hubble images indicated about 14 hours. The researchers’ simplest explanation is that jets of escaping gas kept pushing against the original rotation until the comet nearly stopped and reversed. Those jets can act like small thrusters, showing how a comet’s own activity can change its motion.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260916T223444Z-3323-2",
+      "batchId": "20260916T223444Z-3323",
+      "reason": "Restore the newly formed qualifier to the crater comparison and replace mountain-sized impactor with the source’s building-scale estimate. The original overstated both the category and impactor size.",
+      "verifiedSources": [
+        {
+          "url": "https://science.nasa.gov/solar-system/moon/nasas-moon-orbiter-spots-new-once-in-century-moon-crater/",
+          "publicationDate": "2026-09-16",
+          "verifiedOn": "2026-09-18"
+        }
+      ],
+      "beforeSha256": "d5276886610cb1a075c2b21d038272d5c5aaf4a7f4900207468eaf453308dddd",
+      "afterSha256": "a630a1fa8f3cbc8c30ad1b5ecaa5cabaaa847e96c275ef42afd083e7bc93e945",
+      "before": {
+        "editorial": {
+          "format": "story",
+          "sources": [
+            {
+              "url": "https://science.nasa.gov/solar-system/moon/nasas-moon-orbiter-spots-new-once-in-century-moon-crater/",
+              "title": "NASA’s Moon Orbiter Spots New, ‘Once-in-Century’ Moon Crater",
+              "publisher": "NASA",
+              "publishedAt": "2026-09-16T18:06:35.000Z",
+              "retrievedAt": "2026-09-16T22:34:44.348Z"
+            }
+          ],
+          "basis": "publisher_excerpt"
+        },
+        "id": "post-20260916T223444Z-3323-2",
+        "slug": "orbiter-captures-once-in-century-crater-on-the-moon--706f73742d3230323630393136543232333434345a2d333332332d32",
+        "kind": "text_post",
+        "authorId": "editorial-story",
+        "createdAt": "2026-09-16T22:34:44.348Z",
+        "community": "science",
+        "title": "Orbiter Captures Once‑in‑Century Crater on the Moon",
+        "body": "While scanning a Moon map, NASA’s Lunar Reconnaissance Orbiter scientist Robert Wagner spotted a bright spot surrounded by a dark halo—an unmistakable sign of recent impact. Follow‑up image comparison reveals the new crater is the largest ever found in the solar system, formed when a mountain‑sized rock struck the Moon between April 11 and May 22 2024. Scientists call it a once‑in‑century event.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "story",
+          "sources": [
+            {
+              "url": "https://science.nasa.gov/solar-system/moon/nasas-moon-orbiter-spots-new-once-in-century-moon-crater/",
+              "title": "NASA’s Moon Orbiter Spots New, ‘Once-in-Century’ Moon Crater",
+              "publisher": "NASA",
+              "publishedAt": "2026-09-16T18:06:35.000Z",
+              "retrievedAt": "2026-09-16T22:34:44.348Z"
+            }
+          ],
+          "basis": "publisher_excerpt"
+        },
+        "id": "post-20260916T223444Z-3323-2",
+        "slug": "orbiter-captures-once-in-century-crater-on-the-moon--706f73742d3230323630393136543232333434345a2d333332332d32",
+        "kind": "text_post",
+        "authorId": "editorial-story",
+        "createdAt": "2026-09-16T22:34:44.348Z",
+        "community": "science",
+        "title": "Orbiter Captures Once‑in‑Century Crater on the Moon",
+        "body": "Robert Wagner spotted a bright patch with a dark halo while checking a lunar map made from NASA’s Lunar Reconnaissance Orbiter images. Comparing older and newer images revealed McGetchin, the largest newly formed crater yet found in the solar system. A rock estimated to be the size of a three- to six-story building struck between April 11 and May 22, 2024, leaving a crater 728 feet wide. Scientists estimate an impact of that scale occurs on the Moon about once a century or less often.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260916T135418Z-305e-2",
+      "batchId": "20260916T135418Z-305e",
+      "reason": "Correct the reversed family relationship in both body and Context: Dickie is an uncle figure to Tony, Johnny’s son, rather than to Tony’s son.",
+      "verifiedSources": [
+        {
+          "url": "https://www.bfi.org.uk/sight-and-sound/reviews/many-saints-newark-cant-escape-baggage-sopranos",
+          "verifiedOn": "2026-09-18",
+          "publicationDate": "2021-09-24"
+        }
+      ],
+      "beforeSha256": "ade3335ee987fc71bc8a9f39c7cb7e6b3dfa829443cafbf8d5550a7b340f9804",
+      "afterSha256": "16ce4668437cc071736892a581bb6a819d47337cfbf1010b92596a38cd2c9613",
+      "before": {
+        "editorial": {
+          "format": "story",
+          "sources": [
+            {
+              "url": "https://www.bfi.org.uk/sight-and-sound/reviews/many-saints-newark-cant-escape-baggage-sopranos",
+              "title": "The Many Saints of Newark and the baggage of The Sopranos",
+              "publisher": "BFI",
+              "retrievedAt": "2026-09-16T13:54:18.245Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "spoilers": false,
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "The film is set in 1967 and early 1970s, depicting Dickie Moltisanti, a mid‑level mobster, as Black gangsters begin to assert themselves against the Italian‑American community, reflecting broader societal change."
+            },
+            {
+              "voice": "Pushback",
+              "body": "The narrative suggests the riots directly influence the characters, yet the source notes the riots are largely external to the film’s main characters."
+            },
+            {
+              "voice": "Context",
+              "body": "Dickie is Christopher Moltisanti’s father and an ‘uncle’ to Tony Soprano’s son, tying the story to the original series."
+            }
+          ]
+        },
+        "id": "post-20260916T135418Z-305e-2",
+        "slug": "the-many-saints-of-newark-a-semi-prequel-exploring-racism-and-transfor--706f73742d3230323630393136543133353431385a2d333035652d32",
+        "kind": "text_post",
+        "authorId": "editorial-story",
+        "createdAt": "2026-09-16T13:54:18.245Z",
+        "community": "the_sopranos",
+        "title": "The Many Saints of Newark: A Semi‑Prequel Exploring Racism and Transformation",
+        "body": "The Many Saints of Newark is a semi‑prequel set in the summer of 1967 and a longer stretch in the early 1970s, offering a broader social canvas than any single Sopranos episode. Its central figure is Dickie Moltisanti, a glamorous mid‑level mobster who runs a low‑stakes numbers racket in North Jersey, part of the same crime family as Johnny and Corrado Soprano and the uncle to Tony Soprano’s son. While most of the family remains detached from their Black neighbours, some of Dickie’s runners are Black, including Harold, prompting a shift after the 1967 riots as Black gangsters begin to assert themselves against the Italian‑American community, with ironic consequences for the integrity of La Cosa Nostra.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "story",
+          "sources": [
+            {
+              "url": "https://www.bfi.org.uk/sight-and-sound/reviews/many-saints-newark-cant-escape-baggage-sopranos",
+              "title": "The Many Saints of Newark and the baggage of The Sopranos",
+              "publisher": "BFI",
+              "retrievedAt": "2026-09-16T13:54:18.245Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "spoilers": false,
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "The film is set in 1967 and early 1970s, depicting Dickie Moltisanti, a mid‑level mobster, as Black gangsters begin to assert themselves against the Italian‑American community, reflecting broader societal change."
+            },
+            {
+              "voice": "Pushback",
+              "body": "The narrative suggests the riots directly influence the characters, yet the source notes the riots are largely external to the film’s main characters."
+            },
+            {
+              "voice": "Context",
+              "body": "Dickie is Christopher Moltisanti’s father and an “uncle” to Johnny Soprano’s son, Tony, tying the story to the original series."
+            }
+          ]
+        },
+        "id": "post-20260916T135418Z-305e-2",
+        "slug": "the-many-saints-of-newark-a-semi-prequel-exploring-racism-and-transfor--706f73742d3230323630393136543133353431385a2d333035652d32",
+        "kind": "text_post",
+        "authorId": "editorial-story",
+        "createdAt": "2026-09-16T13:54:18.245Z",
+        "community": "the_sopranos",
+        "title": "The Many Saints of Newark: A Semi‑Prequel Exploring Racism and Transformation",
+        "body": "The Many Saints of Newark is a semi‑prequel set in the summer of 1967 and a longer stretch in the early 1970s, offering a broader social canvas than any single Sopranos episode. Its central figure is Dickie Moltisanti, a glamorous mid‑level mobster who runs a low‑stakes numbers racket in North Jersey, part of the same crime family as Johnny and Corrado Soprano and an “uncle” to Johnny Soprano’s son, Tony. While most of the family remains detached from their Black neighbours, some of Dickie’s runners are Black, including Harold, prompting a shift after the 1967 riots as Black gangsters begin to assert themselves against the Italian‑American community, with ironic consequences for the integrity of La Cosa Nostra.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260917T055240Z-e9e1-4",
+      "batchId": "20260917T055240Z-e9e1",
+      "reason": "The original discussion incorrectly gave Curiosity a 90-sol planned mission, added an unsupported annual power-loss figure and introduced unrelated Perseverance/MOXIE claims. NASA records the original mission as one Martian year (687 Earth days). Replace those turns with a useful discussion grounded in the retained photojournal citation; keep the body within that same source.",
+      "verifiedSources": [
+        {
+          "url": "https://science.nasa.gov/photojournal/curiosity-postcard-celebrates-rovers-5000th-day-on-mars/",
+          "publicationDate": "2026-09-16",
+          "verifiedOn": "2026-09-18"
+        },
+        {
+          "url": "https://www.nasa.gov/history/curiosity-celebrates-10-years-on-mars/",
+          "publicationDate": "2022-08-08",
+          "verifiedOn": "2026-09-18"
+        }
+      ],
+      "beforeSha256": "ae483f39ac4804fd9427f24627294df9532799e24c95b7c6c81a662a9d9ac9a7",
+      "afterSha256": "b00ecc6ee332cddf5446ab75397bab19a0e238f8d8942421a63d0c8e588395fd",
+      "before": {
+        "editorial": {
+          "format": "story",
+          "sources": [
+            {
+              "url": "https://science.nasa.gov/photojournal/curiosity-postcard-celebrates-rovers-5000th-day-on-mars/",
+              "title": "Curiosity Postcard Celebrates Rover’s 5,000th Day on Mars",
+              "publisher": "NASA",
+              "publishedAt": "2026-09-16T15:21:27.000Z",
+              "retrievedAt": "2026-09-17T05:52:40.644Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "spoilers": false,
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "Five thousand sols is roughly 13.7 Earth years. The rover was designed for a 90-sol mission. That's not just over-engineering — it's a testament to how much margin NASA builds in when the repair shop is 225 million km away."
+            },
+            {
+              "voice": "Pushback",
+              "body": "The MMRTG helps, but it's decaying. Power output drops about 4% per year. Curiosity's days are numbered by physics, not just funding cycles. The postcard is beautiful, but it's also a portrait of a machine slowly running out of juice."
+            },
+            {
+              "voice": "Context",
+              "body": "Perseverance uses the same MMRTG design but carries MOXIE to make oxygen. Curiosity's longevity proves the power architecture; the next generation has to prove it can do more than just survive."
+            }
+          ]
+        },
+        "id": "post-20260917T055240Z-e9e1-4",
+        "slug": "curiosity-marks-5-000-sols-on-mars-with-a-postcard-from-mount-sharp--706f73742d3230323630393137543035353234305a2d653965312d34",
+        "kind": "text_post",
+        "authorId": "editorial-story",
+        "createdAt": "2026-09-17T05:52:40.644Z",
+        "community": "science",
+        "title": "Curiosity marks 5,000 sols on Mars with a postcard from Mount Sharp",
+        "body": "NASA's Curiosity rover has reached its 5,000th Martian day exploring Gale Crater. On August 30 and September 2, 2026 — sols 5,000 and 5,003 — the rover used its navigation cameras to capture panoramas at 9:56 a.m. and 5:39 p.m. local Mars time from a sand ridge nicknamed Chocolatal. The two black-and-white mosaics were merged and colorized: blue for morning, yellow for afternoon. The resulting postcard shows Curiosity's deck in the foreground, its can-shaped UHF antenna and nuclear-powered MMRTG at the rear, and tracks trailing toward the lower foothills of Mount Sharp, the 5-kilometer mountain at Gale Crater's center. The crater rim is barely visible on the horizon. Curiosity, built by JPL and powered by a radioisotope thermoelectric generator, has been climbing Mount Sharp since 2014, reading the rock record of Mars' transition from wet to dry.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "story",
+          "sources": [
+            {
+              "url": "https://science.nasa.gov/photojournal/curiosity-postcard-celebrates-rovers-5000th-day-on-mars/",
+              "title": "Curiosity Postcard Celebrates Rover’s 5,000th Day on Mars",
+              "publisher": "NASA",
+              "publishedAt": "2026-09-16T15:21:27.000Z",
+              "retrievedAt": "2026-09-17T05:52:40.644Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "spoilers": false,
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "The postcard turns two observations into one scene. Its blue and yellow also tell you which parts came from morning and afternoon."
+            },
+            {
+              "voice": "Pushback",
+              "body": "Those colours are an artistic choice, rather than a literal colour photograph of Mars. The underlying navigation-camera panoramas were black and white."
+            }
+          ]
+        },
+        "id": "post-20260917T055240Z-e9e1-4",
+        "slug": "curiosity-marks-5-000-sols-on-mars-with-a-postcard-from-mount-sharp--706f73742d3230323630393137543035353234305a2d653965312d34",
+        "kind": "text_post",
+        "authorId": "editorial-story",
+        "createdAt": "2026-09-17T05:52:40.644Z",
+        "community": "science",
+        "title": "Curiosity marks 5,000 sols on Mars with a postcard from Mount Sharp",
+        "body": "NASA’s Curiosity rover marked its 5,000th Martian day with a postcard from a sand ridge nicknamed Chocolatal. Its navigation cameras captured black-and-white panoramas on August 30 and September 2, 2026, at 9:56 a.m. and 5:39 p.m. local Mars time. The two views were merged and coloured blue for morning and yellow for afternoon. The rover’s deck, UHF antenna and nuclear power source appear in the foreground, with tracks stretching into the distance. Curiosity is in the lower foothills of Mount Sharp, the five-kilometre mountain inside Gale Crater; the crater rim is barely visible on the horizon.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    }
+  ]
+}

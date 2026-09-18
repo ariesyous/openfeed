@@ -13,7 +13,8 @@
     "test": "vitest run",
     "seed:legacy": "tsx scripts/seed/generateSeedData.ts",
     "generate": "tsx generator/generate.ts",
-    "archive:backfill": "node --import tsx scripts/backfillSlugs.ts"
+    "archive:backfill": "node --import tsx scripts/backfillSlugs.ts",
+    "editorial:benchmark": "node --import tsx scripts/reviewEditorialIntegrity.ts"
   },
   "dependencies": {
     "fast-xml-parser": "5.11.1",

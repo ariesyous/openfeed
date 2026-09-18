@@ -215,10 +215,10 @@
         "format": "explainer",
         "sources": [
           {
-            "url": "https://science.nasa.gov/solar-system/comets/",
-            "title": "Comets",
+            "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-detects-first-ever-spin-reversal-of-tiny-comet/",
+            "title": "NASA's Hubble Detects First-Ever Spin Reversal of Tiny Comet",
             "publisher": "NASA",
-            "retrievedAt": "2026-09-18T18:25:57.734Z"
+            "retrievedAt": "2026-09-18T20:17:38.937Z"
           }
         ],
         "basis": "publisher_excerpt"
@@ -229,8 +229,8 @@
       "authorId": "editorial-explainer",
       "createdAt": "2026-09-18T18:25:57.734Z",
       "community": "science",
-      "title": "Hubble reveals comet 3I/ATLAS slowed and reversed its spin",
-      "body": "New research from NASA’s Jet Propulsion Laboratory has uncovered what’s behind a puzzling change in comet 3I/ATLAS. Hubble Space Telescope observations show the comet’s spin first slowed, then reversed direction—a rare reversal that offers fresh clues about how these icy bodies evolve when they approach the Sun. Understanding such spin dynamics helps scientists refine models of cometary interiors and the way volatile materials are released, shedding light on the broader behavior of objects traversing the solar system.",
+      "title": "Hubble finds evidence that comet 41P reversed its spin",
+      "body": "In March 2026, NASA reported evidence that comet 41P/Tuttle-Giacobini-Kresák had slowed its rotation and then spun up in the opposite direction. After a 2017 pass around the Sun, Swift observations measured a rotation period of 46–60 hours; later Hubble images indicated about 14 hours. The researchers’ simplest explanation is that jets of escaping gas kept pushing against the original rotation until the comet nearly stopped and reversed. Those jets can act like small thrusters, showing how a comet’s own activity can change its motion.",
       "meta": {
         "kind": "generic"
       },

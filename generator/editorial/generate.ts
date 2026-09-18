@@ -6,6 +6,8 @@ import { ADVANCE_WORLD_MAX_TOKENS, ADVANCE_WORLD_TIMEOUT_MS } from "../config";
 import { prepareEvidence, type EvidenceEntry } from "./evidence";
 import { logEditorialAttempt } from "./diagnostics";
 import { coverageTitle } from "./coverage";
+import { editorialVoiceIssues } from "./voice";
+import { buildAuditChunk, type EditorialAuditChunk } from "./audit";
 import { FORMATS, TOPICS } from "./accounts";
 import type { SourcePacket } from "./sources";
 
@@ -89,6 +91,7 @@ export function validateDraft(
     used = new Set<string>();
   const publishers = new Map<string, number>();
   for (const post of parsed.data.posts) {
+    issues.push(...editorialVoiceIssues(post));
     if (/https?:\/\//i.test(post.body))
       issues.push("URLs must come from the source list, not the body");
     if (new Set(post.sourceIds).size !== post.sourceIds.length)
@@ -111,16 +114,15 @@ export function validateDraft(
       const age = now.getTime() - new Date(source.publishedAt ?? "").getTime();
       if (post.format === "news" && (source.evergreen || !Number.isFinite(age) || age < 0 || age > 72 * 3_600_000))
         issues.push(`Source ${id} is not recent enough for news`);
-      const evidence = post.evidence.find((e) => e.sourceId === id);
-      if (
-        !evidence ||
-        evidence.quote.trim().split(/\s+/).length > 25 ||
-        !(
-          source.title.includes(evidence.quote) ||
-          source.excerpt.includes(evidence.quote)
-        )
-      )
+      if (!post.evidence.some((entry) => entry.sourceId === id))
         issues.push(`Missing or unsupported evidence for ${id}`);
+    }
+    // Every selected span needs provenance, not just the first span for a source.
+    for (const evidence of post.evidence) {
+      const source = sources.get(evidence.sourceId);
+      if (!source || evidence.quote.trim().split(/\s+/).length > 25 ||
+        !(source.title.includes(evidence.quote) || source.excerpt.includes(evidence.quote)))
+        issues.push(`Missing or unsupported evidence for ${evidence.sourceId}`);
     }
     for (const turn of post.discussion ?? []) {
       if (/https?:\/\//i.test(turn.body)) issues.push("Discussion URLs must use attached sources");
@@ -227,7 +229,7 @@ export async function generateEditorial(
   now: Date,
   runId: string,
   recentEditions: string[] = [],
-  dependencies: { fetchImpl?: typeof fetch; sleepImpl?: (ms: number) => Promise<void>; nowImpl?: () => number } = {},
+  dependencies: { fetchImpl?: typeof fetch; sleepImpl?: (ms: number) => Promise<void>; nowImpl?: () => number; onAcceptedChunk?: (chunk: EditorialAuditChunk) => void } = {},
 ): Promise<FeedItem[]> {
   const clock = dependencies.nowImpl ?? Date.now;
   const started = clock();
@@ -237,6 +239,7 @@ export async function generateEditorial(
   const deferredSources = new Set<string>();
   let emptySelections = 0;
   let attempts = 0;
+  let acceptedChunks = 0;
   let reason = "target reached";
   const models = new Set<string>();
   while (accepted.length < EDITORIAL_MAX_POSTS && attempts < EDITORIAL_MAX_ATTEMPTS) {
@@ -264,6 +267,7 @@ export async function generateEditorial(
     const publisherSlotsRemaining = Object.fromEntries(requestSources.map(source => [
       source.publisherGroup, 2 - (publishers.get(source.publisherGroup) ?? 0),
     ]));
+    let selected: z.infer<typeof ResponseSchema>["posts"] | undefined;
     try {
       const result = await generateValidated({
         ...dependencies, apiKey, deadlineMs, maxAttempts: EDITORIAL_MAX_ATTEMPTS - attempts,
@@ -281,7 +285,10 @@ export async function generateEditorial(
           const titles = [...accepted, ...draft.value.posts].map(post => post.title.toLowerCase().replace(/[^a-z0-9]/g, ""));
           if (new Set(titles).size !== titles.length) return { ok: false, issues: ["Duplicate article title in this edition"] };
           const combined = validateDraft({ posts: [...accepted, ...draft.value.posts] }, packets, now);
-          return combined.ok ? draft : combined;
+          if (!combined.ok) return combined;
+          // Retain request-local evidence IDs only for the response that passed every gate.
+          selected = ResponseSchema.parse(json).posts;
+          return draft;
         },
         maxTokens: ADVANCE_WORLD_MAX_TOKENS, timeoutMs: ADVANCE_WORLD_TIMEOUT_MS,
         onAttempt: (info) => logEditorialAttempt({ ...info, attempt: attempts + info.attempt }, apiKey, clock() - started),
@@ -294,6 +301,15 @@ export async function generateEditorial(
         for (const id of offeredIds) deferredSources.add(id);
         console.log(`[editorial] empty selection: deferred ${offeredIds.size} sources for this run; checking other evidence within the remaining budget`);
         continue;
+      }
+      acceptedChunks++;
+      if (dependencies.onAcceptedChunk) {
+        if (!selected) throw new Error("Accepted editorial evidence selection is missing");
+        dependencies.onAcceptedChunk(buildAuditChunk({
+          index: acceptedChunks, runId, postOffset: accepted.length,
+          requestedModel: result.requestedModel, resolvedModel: result.resolvedModel, apiKey,
+          posts: selected, evidenceById: prepared.evidenceById, packets: available,
+        }));
       }
       accepted.push(...result.value.posts);
     } catch (error) {

@@ -10,7 +10,7 @@ const source: SourcePacket = {
   url: "https://example.com/a", publishedAt: now.toISOString(), retrievedAt: now.toISOString(),
 };
 const post = {
-  format: "explainer", title: "A grounded explanation", body: "An explanation based on the supplied source material.",
+  format: "explainer", title: "A grounded explanation", body: "An explanation of the research idea and its implications.",
   topic: null, spoilers: null, evidenceIds: ["S1E1"],
   discussion: [
     {voice: "Take", body: "An interpretation of the evidence.", evidenceIds: ["S1E1"]},
@@ -63,5 +63,51 @@ describe("numbered evidence", () => {
     expect(new Set(prepared.sources.map((s) => s.topic)).size).toBe(2);
     expect(prepared.evidenceById.size).toBeLessThanOrEqual(16 * 12);
     expect(prepareEvidence([]).sources).toEqual([]);
+  });
+});
+
+describe("evidence context boundaries", () => {
+  it("keeps complete short sentences and different paragraphs separate", () => {
+    const first = "Astronomers tracked comet 41P and reported a change in its rotation after the observation period.";
+    const second = "Comet 3I/ATLAS is a different object from the comet in that observation.";
+    const spans = evidenceSpans(`${first}\n\n${second}`);
+    expect(spans).toEqual([first, second]);
+    const prepared = prepareEvidence([{...source, excerpt: `${first}\n\n${second}`}]);
+    expect(prepared.sources[0].evidence.map(entry => entry.paragraph)).toEqual([1, 2]);
+    expect(prepared.sources[0].contextTruncated).toBe(false);
+  });
+
+  it("marks ordered long-sentence continuations without dropping their final qualification", () => {
+    const long = `${Array.from({length: 26}, (_, index) => `word${index}`).join(" ")} but this is uncertain.`;
+    const prepared = prepareEvidence([{...source, excerpt: long}]);
+    const entries = prepared.sources[0].evidence;
+    expect(entries).toHaveLength(2);
+    expect(entries[0].contextGroup).toBe(entries[1].contextGroup);
+    expect(entries.map(entry => entry.part)).toEqual([1, 2]);
+    expect(entries.map(entry => entry.parts)).toEqual([2, 2]);
+    expect(entries.map(entry => entry.text).join(" ")).toBe(long);
+    expect(entries[1].text).toContain("but this is uncertain.");
+  });
+
+  it("never offers only the beginning of a sentence at the twelve-snippet cap", () => {
+    const shortParagraph = "This is one complete contextual statement with its subject made explicit.";
+    const long = `${"observation ".repeat(27)}but the evidence is inconclusive.`;
+    const excerpt = `${Array(11).fill(shortParagraph).join("\n\n")}\n\n${long}`;
+    const prepared = prepareEvidence([{...source, excerpt}]);
+    expect(prepared.sources[0].evidence).toHaveLength(11);
+    expect(prepared.sources[0].contextTruncated).toBe(true);
+    expect(prepared.sources[0].evidence.every(entry => !entry.text.includes("observation"))).toBe(true);
+  });
+
+  it("preserves short negations and original whitespace instead of silently dropping them", () => {
+    for (const separator of [" ", "\n\n"]) {
+      const excerpt = `The study establishes that this observation is representative.${separator}Not yet.`;
+      const spans = evidenceSpans(excerpt);
+      expect(spans).toEqual([excerpt]);
+    }
+    const excerpt = `The following assertion includes an unusually long token.\n\n${"x".repeat(301)} Further material cannot safely reconnect across it.`;
+    const prepared = prepareEvidence([{...source, excerpt}]);
+    expect(prepared.sources[0].contextTruncated).toBe(true);
+    expect(prepared.sources[0].evidence.map(entry => entry.text).join(" ")).not.toContain("Further material");
   });
 });

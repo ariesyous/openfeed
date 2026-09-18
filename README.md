@@ -86,6 +86,12 @@ evidence, freshness, and publisher checks. Providers that explicitly reject stru
 output fall back to plain JSON within the same eight-attempt budget. Optional transport
 fields use null and normalize to omitted values before publication.
 
+Editorial voice rules preserve commentary, humour, interpretation and disagreement
+while keeping the generator's source limitations out of reader-facing copy.
+Recognizable process narration in a title, body or discussion triggers a correction
+within the existing retry budget. Attribution and evidence-backed caveats about the
+subject remain welcome. This focused text check does not replace editorial review.
+
 Editions target twenty posts in requests of at most four, sharing eight total provider attempts.
 A shared 45-minute generation budget caps request timeouts and retry waits; the workflow
 has a 55-minute safety timeout. Validated partial editions can publish when a later request fails; weak evidence never gets padded. Manual Actions runs default to
@@ -117,6 +123,14 @@ Each request receives at most 16 sources, selected round-robin across available 
 with richer excerpts preferred within each topic, and at most 12 numbered excerpts per
 source. Excerpts preserve original text and stay within 25 words/300 characters. The
 model must ground claims in these excerpts, not fill gaps from its memory.
+
+Evergreen extraction now retains a coherent prose section rather than combining page
+features. Numbered excerpts preserve sentence/paragraph context and flag truncation.
+Generation saves bounded selected-support records as 14-day Actions artifacts before
+committing an edition; they never enter the feed bundle. Run `pnpm editorial:benchmark`
+for twelve offline review examples. See [editorial integrity](docs/editorial-integrity.md)
+for the evidence contract, audit fields, corrected posts and remaining live review gate.
+These checks establish provenance and inspectability, not automatic factual correctness.
 
 `openrouter/free` remains the default. Provider failures can still occur; diagnostics now
 distinguish absent choices, empty text with finish/reasoning/refusal metadata, and
