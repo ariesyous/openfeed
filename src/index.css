@@ -129,7 +129,7 @@ body {
   margin-left: auto;
   color: var(--text-muted);
   font-size: 0.8rem;
-  white-space: nowrap;
+  text-align: right;
 }
 
 .post-card-meta {
@@ -620,7 +620,8 @@ a:focus-visible {
 .swipe-card-footer { display: flex; flex: 0 0 auto; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .5rem 1rem; border-top: 1px solid var(--border); padding-top: .7rem; font-size: .75rem; }
 .swipe-card-footer a, .card-fit-notice a { color: var(--accent); text-decoration: none; }
 .swipe-card-footer a:hover { text-decoration: underline; }
-.card-sources { display: flex; flex-wrap: wrap; gap: .5rem; }
+.card-sources { display: flex; flex-direction: column; gap: .25rem; color: var(--text-muted); min-width: 0; }
+.card-source { overflow-wrap: anywhere; }
 .card-controls { display: grid; grid-template-columns: 1fr auto 1fr; gap: .5rem; flex: 0 0 auto; padding-top: .6rem; }
 .card-controls button, .card-state button, .card-spoilers { min-height: 42px; border: 1px solid var(--border); border-radius: 10px; color: var(--text); background: var(--surface); padding: .5rem .75rem; font-size: .85rem; }
 .card-controls button:last-child { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); }

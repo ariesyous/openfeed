@@ -254,6 +254,46 @@ describe("card UI", () => {
     fireEvent.click(button);
     expect(screen.getByText(a.body)).toBeVisible();
   });
+  it("keeps source taps native, supports source-start swipes, and ignores ambiguous diagonals", () => {
+    const callbacks = props(); render(<SwipeCard {...callbacks} />);
+    const card = screen.getByRole("article");
+    const source = screen.getByRole("link", { name: `${a.editorial!.sources[0].publisher}: ${a.editorial!.sources[0].title}` });
+    fireEvent.pointerDown(source, { clientX: 180, clientY: 100, button: 0 });
+    fireEvent.pointerUp(source, { clientX: 180, clientY: 100 });
+    // Dispatch without jsdom's navigation default; cancellation is the contract.
+    const tap = new MouseEvent("click", { bubbles: true, cancelable: true });
+    source.addEventListener("click", event => { expect(event.defaultPrevented).toBe(false); event.preventDefault(); }, { once: true });
+    fireEvent(source, tap);
+    expect(callbacks.onAdvance).not.toHaveBeenCalled();
+    fireEvent.pointerDown(source, { clientX: 180, clientY: 100, button: 0 });
+    fireEvent.pointerMove(card, { clientX: 110, clientY: 105 });
+    fireEvent.lostPointerCapture(source, { pointerId: 1 });
+    fireEvent.pointerUp(card, { clientX: 110, clientY: 105 });
+    expect(callbacks.onAdvance).toHaveBeenCalledExactlyOnceWith("different");
+    const dragClick = new MouseEvent("click", { bubbles: true, cancelable: true });
+    fireEvent(source, dragClick);
+    expect(dragClick.defaultPrevented).toBe(true);
+    callbacks.onAdvance.mockClear();
+    fireEvent.pointerDown(card, { clientX: 180, clientY: 100, button: 0 });
+    fireEvent.pointerMove(card, { clientX: 100, clientY: 180 });
+    fireEvent.pointerUp(card, { clientX: 100, clientY: 180 });
+    expect(callbacks.onAdvance).not.toHaveBeenCalled();
+  });
+  it("keeps the enlarged-root body floor and does not present inactive or unfit cards", () => {
+    // Simulated geometry: minimum body is 26px at a 32px root. This proves the
+    // sizing contract, not the visual fit/comfort of text on an actual phone.
+    vi.spyOn(window, "getComputedStyle").mockImplementation(element => ({
+      fontSize: element === document.documentElement ? "32px" : "32px",
+    }) as CSSStyleDeclaration);
+    vi.spyOn(HTMLElement.prototype, "clientHeight", "get").mockReturnValue(100);
+    const callbacks = props(); const view = render(<SwipeCard {...callbacks} active={false} />);
+    expect(callbacks.onPresented).not.toHaveBeenCalled();
+    view.rerender(<SwipeCard {...callbacks} />);
+    const copy = view.container.querySelector<HTMLElement>(".swipe-card-copy")!;
+    expect(Number(copy.style.getPropertyValue("--card-text-scale")) * 32).toBe(26);
+    expect(screen.getByText("This post needs more room at this screen size.")).toBeVisible();
+    expect(callbacks.onPresented).not.toHaveBeenCalled();
+  });
   it("supports buttons, keyboard, undo and ignores keys while hidden", async () => {
     const view = render(<CardView active onOpenArticle={vi.fn()} onOpenTopic={vi.fn()} onExit={vi.fn()} />);
     await screen.findByRole("heading", { name: a.title });
