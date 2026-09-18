@@ -22,8 +22,14 @@ describe("callOpenRouter", () => {
         choices: [{ message: { content: "hello" } }],
       });
 
-    const result = await callOpenRouter({ ...baseOpts, fetchImpl });
-    expect(result).toEqual({ ok: true, content: "hello", modelUsed: "some-vendor/some-model" });
+    const result = await callOpenRouter({ ...baseOpts, model: "openrouter/free", fetchImpl });
+    expect(result).toEqual({ ok: true, content: "hello", modelUsed: "some-vendor/some-model", requestedModel: "openrouter/free", resolvedModel: "some-vendor/some-model" });
+  });
+
+  it.each([undefined, null, "", "  ", "openrouter/free", "openrouter/auto"])("does not infer a resolved model from missing metadata or a router alias (%s)", async (model) => {
+    const result = await callOpenRouter({ ...baseOpts, model: "openrouter/free", fetchImpl: async () =>
+      jsonResponse({ model, choices: [{ message: { content: "hello" } }] }) });
+    expect(result).toMatchObject({ ok: true, requestedModel: "openrouter/free", resolvedModel: null });
   });
 
   it("classifies 429 as retryable and parses Retry-After", async () => {

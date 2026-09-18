@@ -48,6 +48,8 @@ export interface GenerateValidatedResult<T> {
   value: T;
   attempts: number;
   modelUsed: string;
+  requestedModel: string;
+  resolvedModel: string | null;
   usedStructuredOutput: boolean;
 }
 
@@ -173,6 +175,8 @@ export async function generateValidated<T>(
       value: parsed.value,
       attempts: attempt,
       modelUsed: outcome.modelUsed,
+      requestedModel: outcome.requestedModel,
+      resolvedModel: outcome.resolvedModel,
       usedStructuredOutput: useStructured,
     };
   }

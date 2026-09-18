@@ -201,15 +201,11 @@
         "discussion": [
           {
             "voice": "Take",
-            "body": "Five thousand sols is roughly 13.7 Earth years. The rover was designed for a 90-sol mission. That's not just over-engineering — it's a testament to how much margin NASA builds in when the repair shop is 225 million km away."
+            "body": "The postcard turns two observations into one scene. Its blue and yellow also tell you which parts came from morning and afternoon."
           },
           {
             "voice": "Pushback",
-            "body": "The MMRTG helps, but it's decaying. Power output drops about 4% per year. Curiosity's days are numbered by physics, not just funding cycles. The postcard is beautiful, but it's also a portrait of a machine slowly running out of juice."
-          },
-          {
-            "voice": "Context",
-            "body": "Perseverance uses the same MMRTG design but carries MOXIE to make oxygen. Curiosity's longevity proves the power architecture; the next generation has to prove it can do more than just survive."
+            "body": "Those colours are an artistic choice, rather than a literal colour photograph of Mars. The underlying navigation-camera panoramas were black and white."
           }
         ]
       },
@@ -220,7 +216,7 @@
       "createdAt": "2026-09-17T05:52:40.644Z",
       "community": "science",
       "title": "Curiosity marks 5,000 sols on Mars with a postcard from Mount Sharp",
-      "body": "NASA's Curiosity rover has reached its 5,000th Martian day exploring Gale Crater. On August 30 and September 2, 2026 — sols 5,000 and 5,003 — the rover used its navigation cameras to capture panoramas at 9:56 a.m. and 5:39 p.m. local Mars time from a sand ridge nicknamed Chocolatal. The two black-and-white mosaics were merged and colorized: blue for morning, yellow for afternoon. The resulting postcard shows Curiosity's deck in the foreground, its can-shaped UHF antenna and nuclear-powered MMRTG at the rear, and tracks trailing toward the lower foothills of Mount Sharp, the 5-kilometer mountain at Gale Crater's center. The crater rim is barely visible on the horizon. Curiosity, built by JPL and powered by a radioisotope thermoelectric generator, has been climbing Mount Sharp since 2014, reading the rock record of Mars' transition from wet to dry.",
+      "body": "NASA’s Curiosity rover marked its 5,000th Martian day with a postcard from a sand ridge nicknamed Chocolatal. Its navigation cameras captured black-and-white panoramas on August 30 and September 2, 2026, at 9:56 a.m. and 5:39 p.m. local Mars time. The two views were merged and coloured blue for morning and yellow for afternoon. The rover’s deck, UHF antenna and nuclear power source appear in the foreground, with tracks stretching into the distance. Curiosity is in the lower foothills of Mount Sharp, the five-kilometre mountain inside Gale Crater; the crater rim is barely visible on the horizon.",
       "meta": {
         "kind": "generic"
       },

@@ -53,7 +53,20 @@ jobs:
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           OPENROUTER_MODEL: ${{ github.event_name == 'workflow_dispatch' && inputs.model || 'openrouter/free' }}
+          EDITORIAL_AUDIT_DIR: artifacts
         run: pnpm generate
+
+      # Bounded selected support only. Public-repository artifacts are not confidential.
+      # data_written means local publisher writes, not a successful commit or deployment.
+      # Upload failure blocks the subsequent publication commit and deploy dispatch.
+      - name: Upload editorial support audit
+        if: always() && hashFiles('artifacts/editorial-audit.json') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: editorial-support-${{ github.run_id }}-${{ github.run_attempt }}
+          path: artifacts/editorial-audit.json
+          retention-days: 14
+          if-no-files-found: error
 
       - name: Commit and push if anything changed
         id: commit

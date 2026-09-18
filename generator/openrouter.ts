@@ -25,7 +25,7 @@ export interface CallOpenRouterOptions {
 }
 
 export type OpenRouterOutcome =
-  | { ok: true; content: string; modelUsed: string; finishReason?: string }
+  | { ok: true; content: string; modelUsed: string; requestedModel: string; resolvedModel: string | null; finishReason?: string }
   | { ok: false; kind: "retryable"; reason: string; retryAfterMs?: number }
   | { ok: false; kind: "unsupported_structured_output"; reason: string }
   | { ok: false; kind: "fatal"; reason: string };
@@ -147,7 +147,11 @@ export async function callOpenRouter(opts: CallOpenRouterOptions): Promise<OpenR
     const message = typeof envelope.error.message === "string" ? envelope.error.message.slice(0, 300) : "unspecified error";
     return { ok: false, kind: code === 402 ? "fatal" : "retryable", reason: `provider error (${String(code ?? "unknown")}): ${message}` };
   }
-  const modelUsed = typeof envelope?.model === "string" ? envelope.model : model;
+  const reportedModel = typeof envelope?.model === "string" && envelope.model.trim() ? envelope.model.trim() : null;
+  // A routing alias is not an identified underlying model. Preserve the historical
+  // display fallback in modelUsed, but never report that fallback as resolved.
+  const resolvedModel = reportedModel && !["openrouter/free", "openrouter/auto"].includes(reportedModel) ? reportedModel : null;
+  const modelUsed = reportedModel ?? model;
   const choice = Array.isArray(envelope?.choices) ? envelope.choices[0] : undefined;
   if (!choice) return { ok: false, kind: "retryable", reason: "empty completion (no choices returned)" };
   const finishReason = typeof choice.finish_reason === "string" ? choice.finish_reason : undefined;
@@ -158,6 +162,6 @@ export async function callOpenRouter(opts: CallOpenRouterOptions): Promise<OpenR
       reason: `empty completion (model=${modelUsed}; finish=${finishReason ?? "unknown"}; refusal=${Boolean(choice.message?.refusal)}; reasoning=${Boolean(choice.message?.reasoning)})`,
     };
   }
-  return { ok: true, content, modelUsed, ...(finishReason ? { finishReason } : {}) };
+  return { ok: true, content, modelUsed, requestedModel: model, resolvedModel, ...(finishReason ? { finishReason } : {}) };
 
 }
