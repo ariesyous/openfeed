@@ -1,0 +1,913 @@
+{
+  "batchId": "20260918T055248Z-a06c",
+  "generatedAt": "2026-09-18T05:52:48.949Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts/",
+            "title": "LLMs respond differently to harmful prompts when AI watermarking is used",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-17T18:33:13.000Z",
+            "retrievedAt": "2026-09-18T05:52:48.949Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The mechanism is the story here: watermarking isn't a tag bolted on afterward, it's a perturbation of the sampling process. Anything that touches token choice touches everything downstream, including tool calls."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Granted, but the excerpt describes what can happen under adversarial prompting, not what typically happens in ordinary use. The practical question is how often the guardrail deviation shows up outside a lab attack."
+          },
+          {
+            "voice": "Reply",
+            "body": "Fair — and that's exactly why the researcher's point about needing thorough testing before deployment is the load-bearing claim, not a hypothetical worst case."
+          }
+        ]
+      },
+      "id": "post-20260918T055248Z-a06c-0",
+      "slug": "watermarking-changes-more-than-the-words-a-model-picks--706f73742d3230323630393138543035353234385a2d613036632d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T05:52:48.949Z",
+      "community": "ai_agents",
+      "title": "Watermarking Changes More Than the Words a Model Picks",
+      "body": "In response to a new European Union law, AI platforms are rolling out watermarking schemes for generated content, and Anthropic has said future Claude models will use SynthID-Text, an approach Google created and released as open source. The idea is elegant: a secret key nudges the model's next-word choice, so a top pick like \"cloudy\" might become \"overcast,\" and anyone holding the key can tell the platform made it.\n\nThe tradeoff, per new research reported by Ars Technica, is that the same nudge can shift not just word selection but which tools a model invokes and whether it respects safety guardrails it was trained to follow. An attacker who crafts an adversarial prompt could, in some cases, get instructions followed that normally wouldn't be.\n\nThat doesn't mean watermarking is a dead end. It means it's a change to the model's behavior, and behavior changes need testing under the same ugly conditions real agents face.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://econbrowser.com/archives/2026/09/guest-contribution-do-traditional-models-or-the-dominant-currency-paradigm-explain-chinas-export-behavior",
+            "title": "Guest Contribution: “Do Traditional Models or the Dominant Currency Paradigm Explain China’s Export Behavior?”",
+            "publisher": "Econbrowser",
+            "publishedAt": "2026-09-14T18:34:09.000Z",
+            "retrievedAt": "2026-09-18T05:52:48.949Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The stakes are bigger than trade arithmetic. If bilateral exchange rates barely move export volumes, then a flexible exchange rate is less of a shock absorber than the traditional model promises."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Worth noting the excerpt only cites reported findings of little pass-through to dollar-denominated export prices — it's summarizing a contested literature, not settling it."
+          }
+        ]
+      },
+      "id": "post-20260918T055248Z-a06c-1",
+      "slug": "why-a-weaker-currency-might-not-sell-more-exports--706f73742d3230323630393138543035353234385a2d613036632d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T05:52:48.949Z",
+      "community": "economics",
+      "title": "Why a Weaker Currency Might Not Sell More Exports",
+      "body": "The textbook story is tidy. The Mundell-Fleming model assumes exporters set prices in their own currency, so a depreciation lowers the price foreign buyers pay, demand rises, and exports recover. Economists call this expenditure-switching toward the depreciating country's goods.\n\nBut a lot of global trade is invoiced in US dollars even when neither party is American. If you're buying from one country and selling to another, and the contract is in dollars, then a depreciation of the exporter's currency relative to the importer's doesn't increase the importer's dollar purchasing power — so it doesn't let them buy more. What does help is the importer's currency appreciating against the dollar.\n\nThis is the dominant currency pricing framework, and it changes the policy conclusion: the stabilizing feedback loop where weak exports push a currency down and exports bounce back may simply not fire.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/how-the-railways-killed-a-medieval-law/",
+            "title": "How the Railways Killed a Medieval Law",
+            "publisher": "JSTOR Daily",
+            "publishedAt": "2026-09-16T13:42:00.000Z",
+            "retrievedAt": "2026-09-18T05:52:48.949Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The strange part isn't the superstition, it's the accounting: the remedy was measured by the object's value, not the person's. That's a completely different theory of what a death is worth."
+          },
+          {
+            "voice": "Pushback",
+            "body": "It reads less like a valuation of life and more like a forfeiture ritual — the accursed thing belongs to God, and the payout is incidental to getting rid of it."
+          }
+        ]
+      },
+      "id": "post-20260918T055248Z-a06c-2",
+      "slug": "the-medieval-rule-that-made-a-deadly-object-pay--706f73742d3230323630393138543035353234385a2d613036632d32",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-18T05:52:48.949Z",
+      "community": "philosophy",
+      "title": "The Medieval Rule That Made a Deadly Object Pay",
+      "body": "In 1829, hundreds of spinners and weavers were gathered at the Norfolk Arms Hotel when the floor gave way beneath them. The crowd fell two stories into the cellar, and thirty people died.\n\nAt the inquest, a jury priced the splintered timbers that had been the floor at five shillings, to be divided among the victims' families. Dreary as that is, it followed an old logic: the deodand, an eight-centuries-old legal concept holding that when an object killed a person, the object's owner owed the value of the thing itself. The Latin root, deo dandum, means \"that which must be given to God\" — the idea being that an object charged with causing death was accursed and therefore forfeit to God, with the sovereign standing in as earthly representative.\n\nEnglish law before 1846 turned any moveable personal property that directly caused an adult's death into a deodand. By 1829 the doctrine was fading — but JSTOR Daily notes it had a surprising last act, surfacing in some of the Industrial Revolution's key legal battles.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/new-ai-technique-could-make-minimally-invasive-surgeries-safer-more-precise-0916",
+            "title": "New AI technique could make minimally invasive surgeries safer and more precise",
+            "publisher": "MIT News",
+            "publishedAt": "2026-09-16T15:00:00.000Z",
+            "retrievedAt": "2026-09-18T05:52:48.949Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The order-of-magnitude comparison is against prior AI methods on the same task, per the announcement — not against a human clinician doing the manual alignment, which is the more interesting bar."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Five minutes of per-patient adaptation is a real workflow cost, and it happens inside a procedure context. Whether that fits clinical reality is a separate question from whether the alignment is accurate."
+          }
+        ]
+      },
+      "id": "post-20260918T055248Z-a06c-3",
+      "slug": "an-x-ray-matching-tool-that-adapts-to-one-patient-in-five-minutes--706f73742d3230323630393138543035353234385a2d613036632d33",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-18T05:52:48.949Z",
+      "community": "science",
+      "title": "An X-Ray Matching Tool That Adapts to One Patient in Five Minutes",
+      "body": "Surgeons steering catheters and endoscopes through tiny incisions rely on real-time X-rays, but flat images make it genuinely hard to tell where a tool sits and points inside a body — a real source of complications. Clinicians can manually line up those X-rays with preoperative CT or MRI scans, and existing AI attempts to automate the alignment reportedly aren't robust enough across patients to be practical.\n\nMIT researchers and collaborating clinicians built a system called xvr — X-ray volume registration — that adapts to an individual patient in about five minutes and then matches that patient's X-rays with 3D scans in seconds, at sub-millimeter precision. It reportedly outperformed existing AI methods by an order of magnitude across a wide range of patients, body parts, and procedures.\n\nThe lead author frames the payoff in access terms: most Americans live over an hour from a center that can perform noninvasive procedures like emergency stroke interventions, and an hour matters enormously in stroke care.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/rationality-normative-utility/",
+            "title": "Normative Theories of Rational Choice: Expected Utility",
+            "publisher": "Stanford Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-18T05:52:48.949Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Notice what the slogan promises: not a good outcome, just the best weighted average given your probabilities and your ranking of the outcomes."
+          },
+          {
+            "voice": "Pushback",
+            "body": "If the theory mispredicts choices so often, calling it irrational to ignore it starts to look like insisting on an ideal nobody actually has."
+          },
+          {
+            "voice": "Reply",
+            "body": "The descriptive and predictive readings are labeled separately for a reason. Whether the theory describes us and whether it should guide us are answered with different evidence."
+          }
+        ]
+      },
+      "id": "post-20260918T055248Z-a06c-4",
+      "slug": "pick-the-best-weighted-average-not-the-best-story--706f73742d3230323630393138543035353234385a2d613036632d34",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T05:52:48.949Z",
+      "community": "economics",
+      "title": "Pick the Best Weighted Average, Not the Best Story",
+      "body": "Expected utility theory answers a narrow question: how should you choose when you don't know which outcome your act will produce? Its slogan is blunt — choose the act with the highest expected utility, where each possible outcome's utility is weighted by the probability that the act leads to it, and the weighted total decides the comparison. That is a normative theory: an account of how people should decide, not how they do. The same machinery has a second life as a predictor of actual choices, and there it performs badly. In many real-life choice situations the theory makes faulty predictions, the entry notes, citing Kahneman and Tversky. What follows is subtler than it looks. Bad predictions about our choices show that the ideal and the behavior come apart; they do not by themselves settle how we should choose.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914",
+            "title": "New method enables AI for safety-critical situations",
+            "publisher": "MIT News",
+            "publishedAt": "2026-09-14T04:00:00.000Z",
+            "retrievedAt": "2026-09-18T05:52:48.949Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Constraining only the last output is a bet on verifiability. Let the model roam, then check the answer — cheap when the constraint is an equation or a collision test."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or it's the only way to preserve any generative power at all: pin down every intermediate step and you have mostly hand-authored the answer yourself."
+          },
+          {
+            "voice": "Context",
+            "body": "Worth noting where this was demonstrated: robotics, process control, vision. Domains where a violated limit is unambiguous rather than a matter of taste."
+          }
+        ]
+      },
+      "id": "post-20260918T055248Z-a06c-5",
+      "slug": "let-the-model-wander-then-enforce-the-constraint--706f73742d3230323630393138543035353234385a2d613036632d35",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T05:52:48.949Z",
+      "community": "ai_agents",
+      "title": "Let the Model Wander, Then Enforce the Constraint",
+      "body": "Generative models are excellent at plausible. Plausible is the wrong standard when the output has to obey a safety rule or a physical law that cannot be violated. MIT researchers describe a technique aimed at exactly that situation: give the model more freedom while it generates, then enforce the hard constraints on the final output instead of at every intermediate step. In experiments spanning robotics, control of physical processes and computer vision, the researchers report the method consistently satisfied the required constraints while finding better solutions than existing approaches. It works at deployment time, so a pretrained model can be constrained without retraining.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/health/2026/09/sketchy-iv-drips-at-wellness-clinics-have-poisoned-dozens-cdc-and-fda-warn/",
+            "title": "IV drips used for \"detoxification\" actually filled with toxins; dozens poisoned",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-17T17:43:50.000Z",
+            "retrievedAt": "2026-09-18T05:52:48.949Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The mismatch is much of the story: powder graded for oral supplements and product graded for sterile injection are held to different standards of purity."
+          },
+          {
+            "voice": "Take",
+            "body": "There are no FDA-approved glutathione products in the US, and clinics have been offering it in drips anyway — a supplement claim delivered straight into a vein."
+          }
+        ]
+      },
+      "id": "post-20260918T055248Z-a06c-6",
+      "slug": "the-iv-detox-drip-made-from-powder-graded-for-pills--706f73742d3230323630393138543035353234385a2d613036632d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T05:52:48.949Z",
+      "community": "science",
+      "title": "The IV 'Detox' Drip Made From Powder Graded for Pills",
+      "body": "More than 30 people across four states were poisoned by bacterial toxins after receiving intravenous drips at wellness clinics, according to the CDC and the FDA. The drips contained glutathione, which is sold — without evidence — for purposes including detoxification, immune support, increased energy and skin brightening. The specific failure is a grading problem. Compounding pharmacies made these IV products from glutathione powders graded for dietary supplements taken orally. A powder intended to be swallowed is not automatically fit to be injected.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/mawachihitotaak-for-metis-it-matters-to-say-lets-get-together-to-share-stories-290607",
+            "title": "‘Mawachihitotaak:’ For Métis, it matters to say ‘let’s get together’ to share stories",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-17T19:50:16.000Z",
+            "retrievedAt": "2026-09-18T05:52:48.949Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Recognition on paper and recognition in practice aren't the same thing. The Constitution includes Métis among Aboriginal peoples, while communities keep pressing for their inherent rights to be fully honored."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Worth separating two ideas, though: a distinct peoplehood, which is history and culture, and the rights of a particular community, which get argued case by case. The first doesn't automatically settle the second."
+          }
+        ]
+      },
+      "id": "post-20260918T055248Z-a06c-7",
+      "slug": "metis-is-a-peoplehood-not-a-fraction--706f73742d3230323630393138543035353234385a2d613036632d37",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T05:52:48.949Z",
+      "community": "canada",
+      "title": "Métis Is a Peoplehood, Not a Fraction",
+      "body": "The Métis are one of the most misunderstood Indigenous groups in Canada, and the confusion often arrives as arithmetic: half European, half First Nation. That description is erroneous. Métis peoplehood comes from a shared history, political will, cultural traditions and kinship networks that predate colonial boundaries — a people, not a racial sum. The Canadian Constitution recognizes Métis among the Aboriginal peoples of Canada. The article written from within the community insists on being described in its own terms rather than in categories imposed from outside, which is less a matter of manners than of who gets to define a nation.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://econbrowser.com/archives/2026/09/cbo-on-iran-war-costs",
+            "title": "CBO on Iran War Costs",
+            "publisher": "Econbrowser",
+            "publishedAt": "2026-09-15T20:21:05.000Z",
+            "retrievedAt": "2026-09-18T05:52:48.949Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The headline total is a sunk number. The useful part is the two-dollar-figure spread between a quiet month and a loud one — that's escalation risk with a price tag attached."
+          },
+          {
+            "voice": "Pushback",
+            "body": "It's also an accounting snapshot. Munitions replacement and lost equipment are one-time line items; a long, low-intensity conflict could keep adding smaller monthly costs without ever looking dramatic."
+          },
+          {
+            "voice": "Context",
+            "body": "Worth remembering the scale: the intense phase lasted just over a month, and far fewer U.S. forces have been involved than in Iraq or Afghanistan. The estimate is about this war's shape, not a rerun of those."
+          }
+        ]
+      },
+      "id": "post-20260918T055248Z-a06c-8",
+      "slug": "the-cbo-s-38-billion-bill-for-the-iran-conflict-and-the-price-of-a-wor--706f73742d3230323630393138543035353234385a2d613036632d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T05:52:48.949Z",
+      "community": "economics",
+      "title": "The CBO's $38 Billion Bill for the Iran Conflict — and the Price of a Worse Month",
+      "body": "The Congressional Budget Office estimates that, as of August 1, 2026, the armed conflict with Iran has cost the Defense Department roughly $38 billion, Econbrowser reports. That figure reflects replacing expended munitions and equipment lost in battle, extra flying hours, other operations and higher fuel costs.\n\nThe most revealing number isn't the total; it's the slope. CBO projects that another month at the low, sporadic violence of May and June would cost about $2 billion, while a month at July's intensity would run about $3 billion — and more if things escalate further. An intense opening phase lasting just over a month, followed by a cheaper grind, is a very different bill from the one Iraq and Afghanistan eventually produced.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/as-ai-behavior-raises-concerns-ex-researcher-jacob-coxon-warns-what-may-lie-ahead",
+            "title": "As AI behavior raises concerns, ex-researcher Jacob Coxon warns what may lie ahead",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-17T22:55:25.000Z",
+            "retrievedAt": "2026-09-18T05:52:48.949Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "Self-reported incident disclosures are better than silence, but they're still a company describing its own homework. Without an outside account of the six cases, the phrase 'concerning or unexpected' does most of the work."
+          },
+          {
+            "voice": "Context",
+            "body": "The disclosure arrives against a backdrop of warnings that safety efforts may not keep pace with capability — which is why a vague announcement lands differently than it might in a calmer moment."
+          },
+          {
+            "voice": "Reply",
+            "body": "Fair, and the messenger matters here too: Coxon worked at both labs, so his concerns are at least informed by the inside. Informed isn't the same as verified, but it isn't nothing."
+          }
+        ]
+      },
+      "id": "post-20260918T055248Z-a06c-9",
+      "slug": "openai-reported-six-more-cases-of-concerning-or-unexpected-model-behav--706f73742d3230323630393138543035353234385a2d613036632d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T05:52:48.949Z",
+      "community": "ai_agents",
+      "title": "OpenAI Reported Six More Cases of 'Concerning or Unexpected' Model Behavior",
+      "body": "OpenAI said it had discovered six new instances of \"concerning or unexpected\" behavior by its AI models, PBS NewsHour reports, amid repeated warnings that rapid capability gains are outpacing safety work. PBS also interviewed Jacob Coxon, a former researcher at both Anthropic and OpenAI.\n\nWhat the excerpt doesn't give you is the part that matters most: what the six behaviors were, how severe they were, or whether anyone outside the company has verified them. \"Concerning\" covers everything from a strange refusal to something genuinely dangerous, and only the company has described the findings so far.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/universe/black-holes/",
+            "title": "Black Holes",
+            "publisher": "NASA",
+            "retrievedAt": "2026-09-18T05:52:48.949Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The best way to hold the idea: the horizon is an address, not an object. It marks where the matter is, not what shape it takes."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Calling it 'just a boundary' undersells the weirdness. A boundary that nothing, not even light, can cross is doing more than bookkeeping — it is why direct observation is impossible."
+          },
+          {
+            "voice": "Reply",
+            "body": "Which is why the noodle detail is the friendlier introduction. Matter going sideways-thin as it approaches is something you can picture, and it makes the invisible boundary legible by its effects."
+          }
+        ]
+      },
+      "id": "post-20260918T055248Z-a06c-10",
+      "slug": "a-black-hole-s-event-horizon-is-a-boundary-not-a-surface--706f73742d3230323630393138543035353234385a2d613036632d3130",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T05:52:48.949Z",
+      "community": "science",
+      "title": "A Black Hole's Event Horizon Is a Boundary, Not a Surface",
+      "body": "The event horizon sounds like a skin, a shell you could touch. It isn't. As NASA describes it, the horizon is a boundary that contains all the matter making up the black hole — not a surface like Earth's or the Sun's.\n\nThat distinction matters for how we find the things at all. Black holes don't emit or reflect light, so they are effectively invisible to telescopes; scientists detect and study them mainly through how they affect their surroundings. The horizon is the line past which nothing returns, which is exactly why the interesting evidence sits outside it: infalling matter, orbiting stars, and the strange stretching — squeezed sideways, pulled lengthwise into something noodle-like — that matter undergoes when it gets too close.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/uk-village-votes-to-secede-in-asylum-center-plan-protest/a-79295826?maca=en-rss-en-world-4025-rdf",
+            "title": "UK: Village votes to 'secede' in asylum center plan protest",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-16T17:41:00.000Z",
+            "retrievedAt": "2026-09-18T05:52:48.949Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "You can't secede from the UK by parish poll, so the vote is better read as the loudest possible letter to whoever approves the site."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A protest is still a legitimate form of speech. Objecting to a reception center in your village is a real position, however odd the vehicle."
+          },
+          {
+            "voice": "Reply",
+            "body": "Then the only test that matters is whether anyone with power over the base plan is listening. On the evidence given, we simply don't know."
+          }
+        ]
+      },
+      "id": "post-20260918T055248Z-a06c-11",
+      "slug": "a-very-small-village-votes-on-leaving-a-very-large-country--706f73742d3230323630393138543035353234385a2d613036632d3131",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-09-18T05:52:48.949Z",
+      "community": "world",
+      "title": "A Very Small Village Votes on Leaving a Very Large Country",
+      "body": "Piddington is a tiny, remote village in Oxfordshire, England. According to Deutsche Welle, residents there staged a \"referendum\" — the quotation marks are the publisher's — on leaving the UK, objecting to plans for an asylum reception center at a disused military base nearby. The excerpt stops there: no turnout, no margin, no legal mechanism, and no word yet on what the government makes of it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/bounded-rationality/",
+            "title": "Bounded Rationality",
+            "publisher": "Stanford Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-18T05:52:48.949Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The interesting move isn't saying people are dumb. It's that rationality gets judged relative to the information and processing power an agent actually has, not against an idealized solver."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Worth remembering that the target here is a model, not a person. Homo economicus is an explicitly hypothetical individual, so Simon is replacing an assumption rather than diagnosing anyone's thinking."
+          },
+          {
+            "voice": "Reply",
+            "body": "Which leaves an awkward gap: once you relax the optimization standard, what counts as good enough? The literature now holds descriptive, normative and prescriptive accounts side by side rather than one answer."
+          }
+        ]
+      },
+      "id": "post-20260918T055248Z-a06c-12",
+      "slug": "herbert-simon-s-swap-for-homo-economicus--706f73742d3230323630393138543035353234385a2d613036632d3132",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T05:52:48.949Z",
+      "community": "economics",
+      "title": "Herbert Simon's Swap for Homo Economicus",
+      "body": "Herbert Simon introduced \"bounded rationality\" as shorthand for a replacement: take the perfect rationality of homo economicus and substitute a rationality suited to agents that are actually cognitively limited.\n\nThe imaginary economic man has the wherewithal to solve an optimization problem that identifies the option maximizing his personal utility — a demanding standard for a hypothetical being. Simon's alternative asks what rational behavior looks like given the information access and computational capacity that real organisms have in the environments where they exist.\n\nThe useful part of the idea is that it moves the question from \"is this agent optimal?\" to \"what is this agent, in this setting, actually able to do?\" That reframing is why the concept travelled so far beyond economics.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://theconversation.com/b-c-s-militarized-wolf-cull-is-a-misguided-approach-to-a-complex-issue-290905",
+            "title": "B.C.’s militarized wolf cull is a misguided approach to a complex issue",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-17T15:01:51.000Z",
+            "retrievedAt": "2026-09-18T05:52:48.949Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A decade and $13 million for a program whose results are still contested is the part that should get attention, whatever you think of killing wolves."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Contested isn't the same as useless. If wolves are pressing a small herd right now, removing them might buy time — and some studies did record rebounds afterward."
+          },
+          {
+            "voice": "Reply",
+            "body": "Buying time only helps if something else is being fixed at the same time. The concern is that the cull substitutes for habitat work while logging approvals in caribou habitat continue."
+          }
+        ]
+      },
+      "id": "post-20260918T055248Z-a06c-13",
+      "slug": "british-columbia-s-wolf-cull-and-the-caribou-it-doesn-t-save--706f73742d3230323630393138543035353234385a2d613036632d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T05:52:48.949Z",
+      "community": "canada",
+      "title": "British Columbia's Wolf Cull and the Caribou It Doesn't Save",
+      "body": "British Columbia is facing renewed criticism over a proposed extension of its wolf culling program, which has run for a decade and cost taxpayers $13 million, according to researchers writing at The Conversation Canada. The program was mobilized in response to dwindling caribou populations.\n\nThe authors argue the government emphasizes predators' effects on caribou while glossing over human-caused habitat destruction, and that habitat loss itself raises the risk of predation. They also note the evidence is unresolved: some studies documented caribou populations rebounding after wolf culls, while others found the approach ineffective as a long-term solution, and reviews of predator control programs more broadly show no clear consensus.\n\nThat is a dispute about what the cull can accomplish, not a settled verdict on it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/a-war-fatigued-and-anxious-russia-picks-a-new-parliament/a-79312440?maca=en-rss-en-world-4025-rdf",
+            "title": "A war-fatigued and anxious Russia picks a new parliament",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-17T16:42:00.000Z",
+            "retrievedAt": "2026-09-18T05:52:48.949Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T055248Z-a06c-14",
+      "slug": "war-fatigue-fuel-shortages-and-a-russian-parliament-vote--706f73742d3230323630393138543035353234385a2d613036632d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T05:52:48.949Z",
+      "community": "world",
+      "title": "War Fatigue, Fuel Shortages and a Russian Parliament Vote",
+      "body": "Deutsche Welle reports that fuel shortages, drone strikes and rumors of mobilization are feeding anxiety and war fatigue in Russia, that support for peace talks is growing among Russians, and that the Kremlin is watching closely ahead of parliamentary elections. Those are the claims the report makes; what such sentiment does at the ballot box is not something the excerpt establishes.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/how-trumps-immigration-crackdown-made-it-harder-to-become-u-s-citizen",
+            "title": "How Trump's immigration crackdown made it harder to become U.S. citizen",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-17T22:35:44.000Z",
+            "retrievedAt": "2026-09-18T05:52:48.949Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T055248Z-a06c-15",
+      "slug": "more-requirements-on-the-path-to-us-citizenship--706f73742d3230323630393138543035353234385a2d613036632d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T05:52:48.949Z",
+      "community": "united_states",
+      "title": "More Requirements on the Path to US Citizenship",
+      "body": "PBS NewsHour marks Constitution Day — September 17, the date the founding document was signed in 1787 — by reporting that the path to US naturalization has grown more difficult as the Trump administration has added new requirements and tightened vetting standards.\n\nThe segment, reported by justice correspondent Ali Rogin, does not specify in the available excerpt which requirements changed or how many applicants are affected.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/17/nx-s1-5973271/trump-withdraws-lance-schroyer-a-former-oklahoma-state-trooper-as-his-nominee-to-lead-ice",
+            "title": "Trump withdraws Lance Schroyer, a former Oklahoma state trooper, as his nominee to lead ICE",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-17T21:17:39.000Z",
+            "retrievedAt": "2026-09-18T05:52:48.949Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The notable detail here is that the confirmation gap is being reported as a plain fact about how the agency operates, not as a crisis."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That may be reading in more than the text supports. The excerpt says there's no confirmed leader for at least a while longer; it says nothing about day-to-day functioning either way."
+          },
+          {
+            "voice": "Reply",
+            "body": "Fair. And it's a withdrawal by the White House, not a rejection by the Senate — which the excerpt also doesn't explain, so the reason stays open."
+          }
+        ]
+      },
+      "id": "post-20260918T055248Z-a06c-16",
+      "slug": "a-nominee-pulled-and-ice-stays-without-a-confirmed-leader--706f73742d3230323630393138543035353234385a2d613036632d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T05:52:48.949Z",
+      "community": "united_states",
+      "title": "A Nominee Pulled, and ICE Stays Without a Confirmed Leader",
+      "body": "The White House says it is withdrawing Lance Schroyer, a former Oklahoma state trooper, as its nominee to lead ICE, according to NPR. The stated consequence is narrow and procedural: an agency at the center of the president's domestic agenda will remain without a Senate-confirmed leader for at least a while longer.\n\nThe excerpt doesn't say why the nomination was pulled, who might replace him, or how the agency is being run in the meantime. Those are the gaps to watch rather than the headline itself.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://deadline.com/video/up-against-it-antonio-banderas-trudie-styler-tiff-interview/",
+            "title": "Antonio Banderas Says Trudie Styler’s ‘Up Against It’ Family Story Is “Sometimes Painful, Sometimes Funny, Like Life” – Toronto Studio",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-17T23:07:46.000Z",
+            "retrievedAt": "2026-09-18T05:52:48.949Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A comedy that fuses custody logistics with an indecent proposal is a well-worn screwball engine. The question is whether the co-parenting material is the joke or the stakes."
+          },
+          {
+            "voice": "Pushback",
+            "body": "We're looking at a market listing and a panel roster, not criticism. Nothing here establishes whether the film works or who it's for."
+          },
+          {
+            "voice": "Context",
+            "body": "Worth noting the sales structure, though: domestic and international rights split between CAA and Beta Cinema says something about intended reach."
+          }
+        ]
+      },
+      "id": "post-20260918T055248Z-a06c-17",
+      "slug": "a-divorce-comedy-built-around-an-indecent-proposal--706f73742d3230323630393138543035353234385a2d613036632d3137",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-18T05:52:48.949Z",
+      "community": "movies",
+      "title": "A Divorce Comedy Built Around an Indecent Proposal",
+      "body": "Trudie Styler directs \"Up Against It,\" a comedy whose logline pairs post-marital acrimony with parental devotion, and whose co-leads are Antonio Banderas and Eva Birthistle as co-parenting divorcees facing an indecent proposal. The project was presented during Deadline's Toronto studio coverage, with CAA handling domestic sales and Beta Cinema international.\n\nThat's about as far as the supplied material goes: a premise, a cast, a director and a sales setup. No review, no release date, no indication of how the indecent proposal actually resolves — which, for a comedy with that title, is the only question that matters.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://iep.utm.edu/aristotle-ethics/",
+            "title": "Aristotle: Ethics",
+            "publisher": "Internet Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-18T05:52:48.949Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "\"Active condition\" quietly reframes the whole ethics. If virtue is something you must hold yourself in, then lapses aren't just mistakes — they're the condition slipping."
+          },
+          {
+            "voice": "Pushback",
+            "body": "But \"knowingly and for its own sake\" still sounds a lot like a stable disposition. Calling it active doesn't necessarily rule out habit; it may just rule out unconscious habit."
+          },
+          {
+            "voice": "Context",
+            "body": "This is an encyclopedia entry arguing against common translations, not a settled consensus. Good reason to read it as a case being made."
+          }
+        ]
+      },
+      "id": "post-20260918T055248Z-a06c-18",
+      "slug": "aristotle-s-virtue-is-a-verb-not-a-habit--706f73742d3230323630393138543035353234385a2d613036632d3138",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T05:52:48.949Z",
+      "community": "philosophy",
+      "title": "Aristotle's Virtue Is a Verb, Not a Habit",
+      "body": "The standard reading of Aristotle's ethics says virtues are habits and the good life is a life of mindless routine. The Internet Encyclopedia of Philosophy argues that reading comes from imprecise translations.\n\nThe Greek word Aristotle uses for moral virtue is hexis, and the encyclopedia's gloss is that it doesn't mean passive habituation — it names an active condition, a state in which something must actively hold itself. Virtue, on this account, shows up in action: an action counts as virtuous when a person holds themselves in a stable equilibrium of the soul, choosing knowingly and for its own sake.\n\nSo the picture isn't a person on autopilot doing kind things. It's closer to a kind of practiced steadiness that has to be maintained, which is a harder thing to automate.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/saturn/moons/titan/",
+            "title": "Titan",
+            "publisher": "NASA",
+            "retrievedAt": "2026-09-18T05:52:48.949Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Calling Titan \"Earthlike\" is fair for the plumbing — cycles of evaporation, rain and flow — but the working fluid changes everything about the analogy."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The more interesting claim is the chemistry: a place where the building blocks of life exist without life having shown up yet. That's the actual target."
+          },
+          {
+            "voice": "Context",
+            "body": "And it's a 2028 launch with a three-year landing campaign, so this is a plan on the books, not a result anyone has yet."
+          }
+        ]
+      },
+      "id": "post-20260918T055248Z-a06c-19",
+      "slug": "titan-has-rain-rivers-and-seas-just-not-water--706f73742d3230323630393138543035353234385a2d613036632d3139",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T05:52:48.949Z",
+      "community": "science",
+      "title": "Titan Has Rain, Rivers and Seas — Just Not Water",
+      "body": "Titan is Saturn's largest moon and the only moon known to have a substantial atmosphere. It is also, according to NASA, the only place besides Earth known to have liquids on its surface: clouds, rain, rivers, lakes and seas — made of liquid hydrocarbons like methane and ethane, not water.\n\nNASA's Dragonfly rotorcraft is planned to launch there in 2028 and spend three years making multiple landings, investigating prebiotic chemical processes and complex organic compounds that on Earth function as the building blocks of life. A lake district where the rain isn't water and the chemistry might be a predecessor to biology is about as good a reason as any to send a helicopter to another world.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
