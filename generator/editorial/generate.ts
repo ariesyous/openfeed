@@ -233,6 +233,9 @@ export async function generateEditorial(
   const started = clock();
   const deadlineMs = started + EDITORIAL_TIME_BUDGET_MS;
   const accepted: Draft["posts"] = [];
+  // Empty selections are deferred only for this run, never marked as published.
+  const deferredSources = new Set<string>();
+  let emptySelections = 0;
   let attempts = 0;
   let reason = "target reached";
   const models = new Set<string>();
@@ -244,10 +247,15 @@ export async function generateEditorial(
       const key = publisherKey(packet.publisher);
       publishers.set(key, (publishers.get(key) ?? 0) + 1);
     }
-    const available = packets.filter(packet => !used.has(packet.id) && !usedTitles.has(coverageTitle(packet.title)) && (publishers.get(publisherKey(packet.publisher)) ?? 0) < 2);
+    const available = packets.filter(packet => !deferredSources.has(packet.id) && !used.has(packet.id) && !usedTitles.has(coverageTitle(packet.title)) && (publishers.get(publisherKey(packet.publisher)) ?? 0) < 2);
     const distinctSources = [...new Map(available.map(packet => [coverageTitle(packet.title), packet])).values()];
     const prepared = prepareEvidence(distinctSources);
-    if (!prepared.sources.length) { reason = "insufficient unused evidence or publisher diversity"; break; }
+    if (!prepared.sources.length) {
+      reason = emptySelections ? "no untried evidence remains after empty selections" : "insufficient unused evidence or publisher diversity";
+      break;
+    }
+    const offeredIds = new Set([...prepared.evidenceById.values()].map(entry => entry.sourceId));
+    console.log(`[editorial] candidates=${distinctSources.length} offered=${offeredIds.size} deferred=${deferredSources.size} accepted=${accepted.length}/${EDITORIAL_MAX_POSTS}`);
     const maxPosts = Math.min(EDITORIAL_REQUEST_POSTS, EDITORIAL_MAX_POSTS - accepted.length);
     const requestSources = prepared.sources.map(source => ({
       ...source,
@@ -281,7 +289,12 @@ export async function generateEditorial(
       attempts += result.attempts;
       models.add(result.modelUsed);
       console.log(`[editorial] completed chunk in ${result.attempts} attempt(s); structured output: ${result.usedStructuredOutput}`);
-      if (!result.value.posts.length) { reason = "model found no further publishable evidence"; break; }
+      if (!result.value.posts.length) {
+        emptySelections++;
+        for (const id of offeredIds) deferredSources.add(id);
+        console.log(`[editorial] empty selection: deferred ${offeredIds.size} sources for this run; checking other evidence within the remaining budget`);
+        continue;
+      }
       accepted.push(...result.value.posts);
     } catch (error) {
       if (!(error instanceof GenerationFailedError)) throw error;
@@ -293,7 +306,7 @@ export async function generateEditorial(
   }
   if (accepted.length < EDITORIAL_MAX_POSTS && reason === "target reached") reason = "edition attempt budget exhausted";
   const items = enrichEditorial({ posts: accepted }, packets, now, runId);
-  const summary = `[editorial] target=${EDITORIAL_MAX_POSTS} actual=${items.length} attempts=${attempts}/${EDITORIAL_MAX_ATTEMPTS} elapsedMs=${clock() - started}; ${reason}`;
+  const summary = `[editorial] target=${EDITORIAL_MAX_POSTS} actual=${items.length} attempts=${attempts}/${EDITORIAL_MAX_ATTEMPTS} emptySelections=${emptySelections} deferredSources=${deferredSources.size} elapsedMs=${clock() - started}; ${reason}`;
   console.log(summary);
   if (process.env.GITHUB_STEP_SUMMARY) {
     const safe = (text: string) => text.replace(/[\r\n<>`|]/g, " ").slice(0, 200);

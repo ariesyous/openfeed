@@ -137,3 +137,13 @@ IDs are rejected rather than repaired. Every offered publisher group has an expl
 remaining distinct-source allowance, including unused publishers (two slots). BBC sections
 share one group. Multiple excerpts from one source consume one slot; two different sources
 consume two even inside one post. Cross-chunk validation remains authoritative.
+
+## Empty-selection recovery — September 18, 2026
+An empty successful response consumes an attempt and defers its offered evidence
+sources only for the current run. Try other unused sources under the same shared
+eight-attempt/45-minute limits; never resend that empty selection or mark deferred
+sources as covered. Keep accepted chunks and all cross-chunk validation intact.
+Diagnostics include candidate/offered/deferred counts and empty-selection totals.
+The finite evergreen shelf now contains 50 reviewed pages. Its 25 new URLs were
+retrieved and checked with the existing article parser; do not weaken extraction
+or date rules to admit blocked/thin pages. Replenish the shelf as it is consumed.

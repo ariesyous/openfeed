@@ -160,6 +160,105 @@ describe("twenty-post edition budgeting", () => {
     expect(items).toHaveLength(20);
   });
 
+  it("continues after an empty second chunk using different evidence and preserves the first chunk", async () => {
+    let calls = 0;
+    let declined: string[] = [];
+    let firstTitles: string[] = [];
+    const fetchImpl: typeof fetch = async (_url, init) => {
+      const request = JSON.parse(String(init?.body));
+      const input = JSON.parse(request.messages[1].content);
+      const titles = input.sources.map((entry: { title: string }) => entry.title);
+      if (calls === 0) firstTitles = titles.slice(0, 4);
+      if (++calls === 2) {
+        declined = titles;
+        return completion({ posts: [] });
+      }
+      if (calls > 2) expect(titles.every((title: string) => !declined.includes(title))).toBe(true);
+      return completion({ posts: chunk(init) });
+    };
+    const items = await generateEditorial("secret", packets, now, "empty-second", [], { fetchImpl });
+    expect(calls).toBe(3);
+    expect(items).toHaveLength(8);
+    expect(items.slice(0, 4).map(item => item.title)).toEqual(firstTitles);
+    expect(items.every(item => !declined.includes(item.title!))).toBe(true);
+    // Deferral is run-local: these sources can be selected on a later run.
+    const next = await generateEditorial("secret", packets.filter(packet => declined.includes(packet.title)), now, "later", [], {
+      fetchImpl: async (_url, init) => completion({ posts: chunk(init) }),
+    });
+    expect(next).toHaveLength(16);
+  });
+
+  it("stops after exhausting distinct selections without repeating an empty request", async () => {
+    const offered = new Set<string>();
+    let calls = 0;
+    const fetchImpl: typeof fetch = async (_url, init) => {
+      calls++;
+      const input = JSON.parse(JSON.parse(String(init?.body)).messages[1].content);
+      for (const entry of input.sources) {
+        expect(offered.has(entry.title)).toBe(false);
+        offered.add(entry.title);
+      }
+      return completion({ posts: [] });
+    };
+    const items = await generateEditorial("secret", packets, now, "all-empty", [], { fetchImpl });
+    expect(calls).toBe(2);
+    expect(offered.size).toBe(24);
+    expect(items).toEqual([]);
+    expect(await generateEditorial("secret", [], now, "no-sources", [], { fetchImpl })).toEqual([]);
+    expect(calls).toBe(2);
+  });
+
+  it("can still reach twenty posts after an empty initial selection", async () => {
+    const many = Array.from({ length: 40 }, (_, index) => ({ ...source,
+      id: `initial-${index}`, url: `https://example.com/initial-${index}`,
+      publisher: `Publisher ${index}`, title: `Initial source ${index}`,
+    }));
+    let calls = 0;
+    const fetchImpl: typeof fetch = async (_url, init) => completion({
+      posts: ++calls === 1 ? [] : chunk(init),
+    });
+    const items = await generateEditorial("secret", many, now, "initial-empty", [], { fetchImpl });
+    expect(calls).toBe(6);
+    expect(items).toHaveLength(20);
+    expect(new Set(items.map(item => item.editorial!.sources[0].url)).size).toBe(20);
+  });
+
+  it("charges empty selections and provider retries to the same eight-attempt budget", async () => {
+    const many = Array.from({ length: 160 }, (_, index) => ({ ...source,
+      id: `many-${index}`, url: `https://example.com/many-${index}`,
+      publisher: `Publisher ${index}`, title: `Source number ${index}`,
+    }));
+    let calls = 0;
+    const fetchImpl: typeof fetch = async (_url, init) => {
+      calls++;
+      if (calls === 1) return completion({ posts: chunk(init) });
+      if (calls === 3) return new Response("unavailable", { status: 503 });
+      return completion({ posts: [] });
+    };
+    const items = await generateEditorial("secret", many, now, "bounded-empty", [], { fetchImpl, sleepImpl: async () => {} });
+    expect(calls).toBe(8);
+    expect(items).toHaveLength(4);
+  });
+
+  it("does not reset the shared deadline after an empty selection", async () => {
+    const many = Array.from({ length: 60 }, (_, index) => ({ ...source,
+      id: `time-${index}`, url: `https://example.com/time-${index}`,
+      publisher: `Publisher ${index}`, title: `Timed source ${index}`,
+    }));
+    let calls = 0;
+    let elapsed = 0;
+    const fetchImpl: typeof fetch = async (_url, init) => {
+      if (++calls === 1) return completion({ posts: chunk(init) });
+      elapsed = 45 * 60_000 - 30_000;
+      return completion({ posts: [] });
+    };
+    const items = await generateEditorial("secret", many, now, "empty-deadline", [], {
+      fetchImpl, nowImpl: () => elapsed,
+    });
+    expect(calls).toBe(2);
+    expect(items).toHaveLength(4);
+  });
+
 });
 
 describe("run 31 validation regressions", () => {

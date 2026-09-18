@@ -87,6 +87,12 @@ has a 55-minute safety timeout. Validated partial editions can publish when a la
 `openrouter/free`; Gemini remains an optional manual selection. Hourly scheduled runs
 always use `openrouter/free`, independent of the repository model variable.
 
+An empty model response defers that request's sources for the current run and tries
+a different unused selection. These calls share the same attempt/time budgets;
+generation stops when the target, budget, or remaining evidence is exhausted.
+Deferred sources are not marked as covered and can be reconsidered on later runs.
+Logs report candidate/offered/deferred counts and the number of empty selections.
+
 Attempt logs include elapsed time, available resolved-model/finish metadata, and bounded,
 redacted validation/provider failure details. Malformed-JSON logs report completion size
 and finish reason without dumping the response. A successful run reports whether
@@ -132,9 +138,9 @@ idempotent, validated migration for existing posts that lack stored slugs or sou
 coverage history. It preserves original publication dates. New publication stores
 slugs automatically. Source coverage is durable; model prompt summaries stay bounded.
 
-The evergreen shelf is finite (currently 18 reviewed publisher pages) alongside
+The evergreen shelf is finite (currently 50 reviewed publisher pages) alongside
 recurring RSS. Intake logs remaining unconsumed shelf entries; replenish culture and
-background reading as needed. Ten is a quality-dependent target, not a filler quota.
+background reading as needed. Twenty is a quality-dependent target, not a filler quota.
 
 Pull requests run typecheck, lint, tests and the full static build without deploying.
 Main pushes and manual Deploy dispatches publish GitHub Pages as before.
