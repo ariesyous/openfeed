@@ -6,6 +6,7 @@ import { ADVANCE_WORLD_MAX_TOKENS, ADVANCE_WORLD_TIMEOUT_MS } from "../config";
 import { prepareEvidence, type EvidenceEntry } from "./evidence";
 import { logEditorialAttempt } from "./diagnostics";
 import { coverageTitle } from "./coverage";
+import { editorialVoiceIssues } from "./voice";
 import { FORMATS, TOPICS } from "./accounts";
 import type { SourcePacket } from "./sources";
 
@@ -89,6 +90,7 @@ export function validateDraft(
     used = new Set<string>();
   const publishers = new Map<string, number>();
   for (const post of parsed.data.posts) {
+    issues.push(...editorialVoiceIssues(post));
     if (/https?:\/\//i.test(post.body))
       issues.push("URLs must come from the source list, not the body");
     if (new Set(post.sourceIds).size !== post.sourceIds.length)

@@ -10,7 +10,7 @@ const source: SourcePacket = {
   url: "https://example.com/a", publishedAt: now.toISOString(), retrievedAt: now.toISOString(),
 };
 const post = {
-  format: "explainer", title: "A grounded explanation", body: "An explanation based on the supplied source material.",
+  format: "explainer", title: "A grounded explanation", body: "An explanation of the research idea and its implications.",
   topic: null, spoilers: null, evidenceIds: ["S1E1"],
   discussion: [
     {voice: "Take", body: "An interpretation of the evidence.", evidenceIds: ["S1E1"]},

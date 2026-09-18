@@ -157,3 +157,17 @@ updated or a channel date as publication. Atom article links must pass the same
 HTTPS/host checks. Keep the 1 MB, 20-second, eight-articles-per-feed bounds and
 the existing generation/publisher limits. Decode escaped HTML before stripping
 markup so it does not enter evidence. Only selected fixed feed URLs are fetched.
+
+## Editorial voice — September 18, 2026
+The user wants useful commentary, opinions, banter and disagreement preserved.
+Reject narration about the generator's own inputs or limitations ("the excerpt
+doesn't say", "the supplied material only gives us...") in titles, bodies and
+discussion turns. Keep normal attribution and evidence-backed uncertainty about
+the subject. Missing input is not proof that a fact is unknown or undisclosed.
+The prompt keeps these judgments internal; voice.ts catches recognizable process
+commentary and feeds correction instructions into the existing bounded retry path.
+This heuristic is not a semantic editorial review. Do not erase all commentary or
+silently strip sentences from newly generated posts to pass validation.
+The three reported posts in batch 20260918T055248Z-a06c were manually edited through
+the validated publish plan, preserving their IDs, slugs, dates, sources and discussion
+arrays. Other historical posts have not been bulk rewritten.

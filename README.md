@@ -86,6 +86,12 @@ evidence, freshness, and publisher checks. Providers that explicitly reject stru
 output fall back to plain JSON within the same eight-attempt budget. Optional transport
 fields use null and normalize to omitted values before publication.
 
+Editorial voice rules preserve commentary, humour, interpretation and disagreement
+while keeping the generator's source limitations out of reader-facing copy.
+Recognizable process narration in a title, body or discussion triggers a correction
+within the existing retry budget. Attribution and evidence-backed caveats about the
+subject remain welcome. This focused text check does not replace editorial review.
+
 Editions target twenty posts in requests of at most four, sharing eight total provider attempts.
 A shared 45-minute generation budget caps request timeouts and retry waits; the workflow
 has a 55-minute safety timeout. Validated partial editions can publish when a later request fails; weak evidence never gets padded. Manual Actions runs default to
