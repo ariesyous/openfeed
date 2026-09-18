@@ -66,6 +66,11 @@ Greek and Roman mythology, philosophy, economics, and worthwhile discoveries.
 reviewed shelf of background articles. Add more shelf entries as they are consumed.
 Unavailable or thin sources are skipped. Dates are never invented for undated readings.
 
+Recurring intake includes 27 feeds across 23 publisher groups, spanning news,
+film criticism, AI research, science, philosophy and economics. RSS 2.0, RSS 1.0
+and Atom share the same date, publisher-domain and excerpt checks. See
+[the feed inventory and validation snapshot](docs/source-feeds.md) for the additions.
+
 Posts may carry 2–4 labelled AI-generated perspectives with a preview and expandable
 exchange. These are interpretations/banter, not real public comments. Each generated
 turn must cite evidence from the post's sources. Plot spoilers require an explicit reveal.

@@ -2,6 +2,7 @@ import { describe, expect, it, vi } from "vitest";
 import {
   collectSources,
   parseSourceFeed,
+  plainText,
   type SourcePacket,
   SOURCE_FEEDS,
 } from "../editorial/sources";
@@ -30,6 +31,74 @@ function rss(link: string, date = source.publishedAt!) {
   return `<rss><channel><item><title>Test</title><link>${link}</link><pubDate>${date}</pubDate><description>${source.excerpt}</description></item></channel></rss>`;
 }
 describe("source ingestion", () => {
+  function atom(link = source.url, published = source.publishedAt!) {
+    return `<feed xmlns="http://www.w3.org/2005/Atom"><entry>
+      <title type="text">An Atom article</title><published>${published}</published>
+      <updated>2026-09-15T22:00:00Z</updated>
+      <link rel="self" type="application/atom+xml" href="https://attacker.example/self"/>
+      <link rel="enclosure" href="https://attacker.example/audio"/>
+      <link rel="alternate" type="text/html" href="${link}"/>
+      <content type="html">&lt;p&gt;${source.excerpt}&lt;/p&gt;</content>
+    </entry></feed>`;
+  }
+
+  it("reads Atom article links and HTML content while retaining the original publication date", () => {
+    const [packet] = parseSourceFeed(atom(), SOURCE_FEEDS[0], now);
+    expect(packet.url).toBe(source.url);
+    expect(packet.excerpt).toBe(source.excerpt);
+    expect(packet.title).toBe("An Atom article");
+    expect(packet.publishedAt).toBe(new Date(source.publishedAt!).toISOString());
+    // A single link object and a plain summary are also valid Atom.
+    const summary = `<feed><entry><title>Summary</title><published>${source.publishedAt}</published>
+      <link href="${source.url}"/><summary>${source.excerpt}</summary></entry></feed>`;
+    expect(parseSourceFeed(summary, SOURCE_FEEDS[0], now)[0].excerpt).toBe(source.excerpt);
+  });
+
+  it("applies date and URL restrictions to Atom and never substitutes an updated timestamp", () => {
+    for (const xml of [
+      atom().replace(/<published>.*?<\/published>/, ""),
+      atom(source.url, "2026-08-01"), atom(source.url, "2026-09-16"),
+      atom("http://www.bbc.co.uk/report"), atom("https://bbc.co.uk.attacker.example/report"),
+      atom("https://user:pass@www.bbc.co.uk/report"), atom("https://www.bbc.co.uk:444/report"),
+      atom().replace('rel="alternate"', 'rel="enclosure"'),
+    ]) expect(parseSourceFeed(xml, SOURCE_FEEDS[0], now)).toEqual([]);
+  });
+
+  it("reads RSS 1.0 article-level Dublin Core dates and rejects invalid entries", () => {
+    const rdf = (link: string, date: string) => `<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <channel><dc:date>${source.publishedAt}</dc:date></channel>
+      <item><title>RDF article</title><link>${link}</link><dc:date>${date}</dc:date>
+      <description>${source.excerpt}</description></item></rdf:RDF>`;
+    const [packet] = parseSourceFeed(rdf(source.url, source.publishedAt!), SOURCE_FEEDS[0], now);
+    expect(packet.publishedAt).toBe(new Date(source.publishedAt!).toISOString());
+    expect(packet.excerpt).toBe(source.excerpt);
+    for (const [link, date] of [[source.url, ""], [source.url, "2026-08-01"],
+      [source.url, "2026-09-16"], ["https://attacker.example/a", source.publishedAt!]]) {
+      expect(parseSourceFeed(rdf(link, date), SOURCE_FEEDS[0], now)).toEqual([]);
+    }
+  });
+
+  it("strips encoded and literal HTML without admitting scripts into source evidence", () => {
+    for (const html of [
+      `<p>${source.excerpt}</p><script>invented detail</script>`,
+      `&lt;p&gt;${source.excerpt}&lt;/p&gt;&lt;script&gt;invented detail&lt;/script&gt;`,
+      `&#60;p&#62;${source.excerpt}&#60;/p&#62;`,
+    ]) expect(plainText(html)).toBe(source.excerpt);
+    expect(parseSourceFeed(rss(source.url).replace(source.excerpt,
+      `&lt;p&gt;${source.excerpt}&lt;/p&gt;`), SOURCE_FEEDS[0], now)[0].excerpt).toBe(source.excerpt);
+  });
+
+  it("bounds and sorts Atom intake and rejects entity declarations", () => {
+    const entry = atom().match(/<entry>[\s\S]*?<\/entry>/)![0];
+    const xml = `<feed>${Array.from({length: 12}, (_, i) => entry.replace(source.url, `${source.url}/${i}`)
+      .replace(source.publishedAt!, `2026-09-${String(i + 1).padStart(2, "0")}T12:00:00Z`)).join("")}</feed>`;
+    const packets = parseSourceFeed(xml, {...SOURCE_FEEDS[0], maxAgeDays: 30}, now);
+    expect(packets).toHaveLength(8);
+    expect(packets[0].publishedAt).toBe("2026-09-12T12:00:00.000Z");
+    expect(packets.at(-1)!.publishedAt).toBe("2026-09-05T12:00:00.000Z");
+    expect(() => parseSourceFeed('<!DOCTYPE feed [<!ENTITY x "unsafe">]>' + atom(), SOURCE_FEEDS[0], now)).toThrow();
+  });
+
   it("normalizes tracking URLs and accepts valid recent publisher articles", () => {
     const result = parseSourceFeed(
       rss("https://www.bbc.co.uk/news/test?at_medium=RSS&amp;at_campaign=rss"),
