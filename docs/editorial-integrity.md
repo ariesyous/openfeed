@@ -1,6 +1,6 @@
 # Editorial integrity: source context and support audits
 
-Implementation for [#36](https://github.com/ariesyous/openfeed/issues/36), incorporating the voice guard and three reviewed process-commentary edits from [#34](https://github.com/ariesyous/openfeed/pull/34). This improves source context and makes accepted evidence inspectable. It is not an automated factual judge. Subsequent normal editions still need the observation described below.
+Implementation for [#36](https://github.com/ariesyous/openfeed/issues/36), incorporating the voice guard and three reviewed process-commentary edits from [#34](https://github.com/ariesyous/openfeed/pull/34). This improves source context and makes accepted evidence inspectable. It is not an automated factual judge. Subsequent normal editions still need the observation described below. The [first ordinary-edition review](wp1-live-review-20260918.md) checks sixteen posts in one edition and records eleven reviewed corrections; the five-edition gate remains open.
 
 ## Evidence contract
 
@@ -42,9 +42,9 @@ Run the offline diagnostic without providers, source fetches or publication:
 pnpm editorial:benchmark
 ```
 
-`generator/editorial/integrityBenchmark.ts` contains twelve reviewed examples: wrong and supported versions of the four verified factual errors, process leakage, a fabricated second quotation, supported uncertainty and useful commentary. The short rechecked source passages are evaluation fixtures, not saved historical prompts. Each example has a human editorial expectation; the command separately reports what deterministic gates actually do.
+`generator/editorial/integrityBenchmark.ts` originally contained twelve reviewed examples: wrong and supported versions of the four verified factual errors, process leakage, a fabricated second quotation, supported uncertainty and useful commentary. The short rechecked source passages are evaluation fixtures, not saved historical prompts. Each example has a human editorial expectation; the command separately reports what deterministic gates actually do.
 
-**Four semantically wrong examples currently pass provenance checks.** The benchmark intentionally exposes that gap rather than reporting a misleading factual-accuracy score. Voice and fabricated-quotation cases fail deterministically; supported examples remain allowed. Changes to this benchmark should preserve the distinction between expected editorial judgment and automated enforcement.
+The first live review adds four wrong-source/speaker-attribution examples, bringing the benchmark to sixteen. **Six semantically wrong examples currently pass provenance checks.** The benchmark intentionally exposes that gap rather than reporting a misleading factual-accuracy score. Voice and fabricated-quotation cases fail deterministically; supported examples remain allowed. Changes to this benchmark should preserve the distinction between expected editorial judgment and automated enforcement.
 
 The comet, lunar crater, family relationship and Curiosity discussion corrections are documented in [the correction record](editorial-corrections-20260918.md). Their guarded migration uses `buildPublishPlan`/`writePublishPlan`, preserves article IDs/slugs/dates and all unrelated content, and does no writes on a second run. The three #34 edits remain intact. No historical editions were regenerated.
 

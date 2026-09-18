@@ -1,0 +1,797 @@
+{
+  "schemaVersion": 1,
+  "baselineCommit": "bb251e04ba670cca9ac6e2746212aad33abfd3c5",
+  "generationCommit": "c5fd886383be0c7eeacafc98ab2d6d3cd26d8ddd",
+  "publicationCommit": "1eba5614b1387151e56e810b30ea012e781b3794",
+  "runId": 35397839301,
+  "runUrl": "https://github.com/ariesyous/openfeed/actions/runs/35397839301",
+  "batchId": "20260918T213919Z-f7d9",
+  "artifactId": 10570390428,
+  "artifactUrl": "https://github.com/ariesyous/openfeed/actions/runs/35397839301/artifacts/10570390428",
+  "artifactExpiresAt": "2026-10-02T22:15:22Z",
+  "artifactZipSha256": "983cdc93524b9c41b23ea4a04d9a667162021a53e493ade0cea34e225bef9089",
+  "auditJsonSha256": "16ad712b14d9d9074b26e1815b17a6d98a3a691d836327b264c367d693581400",
+  "selectionRule": "Census of all 16 posts in the sole eligible post-WP1 ordinary edition; review originals including all discussion turns.",
+  "gate": {
+    "requiredPosts": 20,
+    "requiredEditions": 5,
+    "reviewedPosts": 16,
+    "reviewedEditions": 1,
+    "complete": false,
+    "cultureCoverage": "Philosophy and film reviewed; no mythology or Sopranos item in this edition. Supplement later samples with a second unambiguous culture topic."
+  },
+  "metrics": {
+    "collectedSources": 194,
+    "unusedSources": 135,
+    "acceptedPublishedPosts": 16,
+    "targetPosts": 20,
+    "attempts": 8,
+    "emptyCompletionAttempts": 4,
+    "generationElapsedMs": 2151339,
+    "jobElapsedSeconds": 2175,
+    "artifactZipBytes": 7314,
+    "auditJsonBytes": 30704,
+    "providerModelExperiment": false,
+    "wp2Eligible": false
+  },
+  "posts": [
+    {
+      "postId": "post-20260918T213919Z-f7d9-0",
+      "title": "XRISM Sees a Star’s Wind Power Its Companion’s Flares",
+      "topic": "science",
+      "originalSourceUrl": "https://science.nasa.gov/missions/xrism/xrism-sees-pulsar-gathering-companions-wind/",
+      "chunkIndex": 1,
+      "resolvedModel": "nex-agi/nex-n2.5-pro:free",
+      "bodyEvidenceIds": [
+        "S2E1",
+        "S2E2",
+        "S2E7"
+      ],
+      "discussionEvidence": [
+        {
+          "turnIndex": 0,
+          "voice": "Take",
+          "evidenceIds": [
+            "S2E2"
+          ]
+        },
+        {
+          "turnIndex": 1,
+          "voice": "Reply",
+          "evidenceIds": [
+            "S2E6",
+            "S2E7"
+          ]
+        }
+      ],
+      "currentPageVerification": "retrieved",
+      "retrievedHtmlSha256": "4cd242a25bcd5ec840f47b5183eb209943f4bbeec99b50cd73e65a8eb4de3fc1",
+      "originalVerdict": "supported",
+      "independentlyWorthReading": "yes",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "Wind captured by a compact companion powers X-ray flares; BP Crucis is about 13,000 light-years away in Crux.",
+          "review": "Selected S2E1/S2E2/S2E7 and the NASA page support the entity, mechanism, approximate distance and location."
+        },
+        {
+          "scope": "discussion",
+          "claim": "Wind-to-flare chain and the opportunity to test the process.",
+          "review": "S2E2/S2E6/S2E7 support both turns; no material extra factual claim."
+        }
+      ],
+      "correctionRecorded": false
+    },
+    {
+      "postId": "post-20260918T213919Z-f7d9-1",
+      "title": "A Qwen Tool on the Federal Register Was Removed",
+      "topic": "technology",
+      "originalSourceUrl": "https://arstechnica.com/tech-policy/2026/09/us-government-website-used-chinese-model-the-fbi-called-malicious/",
+      "chunkIndex": 1,
+      "resolvedModel": "nex-agi/nex-n2.5-pro:free",
+      "bodyEvidenceIds": [
+        "S10E1",
+        "S10E2",
+        "S10E4"
+      ],
+      "discussionEvidence": [
+        {
+          "turnIndex": 0,
+          "voice": "Context",
+          "evidenceIds": [
+            "S10E1",
+            "S10E4"
+          ]
+        },
+        {
+          "turnIndex": 1,
+          "voice": "Pushback",
+          "evidenceIds": [
+            "S10E2"
+          ]
+        }
+      ],
+      "currentPageVerification": "retrieved",
+      "retrievedHtmlSha256": "17022f937d7e7d6d62d130aa848753f7fef7972917a199fbfb5f9230f83ff659",
+      "originalVerdict": "supported",
+      "independentlyWorthReading": "yes",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "Federal Register Qwen search was removed after attention; Alibaba was named among six firms in an FBI allegation.",
+          "review": "Page supports sequence and reported allegation. S10E4 is a partial sentence; it preserves the allegation marker but is not a full account."
+        },
+        {
+          "scope": "discussion",
+          "claim": "Distinguishes deployment choice from allegations about model development.",
+          "review": "Supported interpretation of S10E1/S10E2/S10E4; no finding of wrongdoing asserted."
+        }
+      ],
+      "correctionRecorded": false
+    },
+    {
+      "postId": "post-20260918T213919Z-f7d9-2",
+      "title": "Two Profit Measures, Two Different Stories",
+      "topic": "economics",
+      "originalSourceUrl": "https://econbrowser.com/archives/2026/09/business-cycle-indicators-industrial-manufacturing-production-under-consensus",
+      "chunkIndex": 1,
+      "resolvedModel": "nex-agi/nex-n2.5-pro:free",
+      "bodyEvidenceIds": [
+        "S5E5",
+        "S5E6",
+        "S5E7"
+      ],
+      "discussionEvidence": [
+        {
+          "turnIndex": 0,
+          "voice": "Take",
+          "evidenceIds": [
+            "S5E5",
+            "S5E6",
+            "S5E7"
+          ]
+        },
+        {
+          "turnIndex": 1,
+          "voice": "Pushback",
+          "evidenceIds": [
+            "S5E5",
+            "S5E6",
+            "S5E7"
+          ]
+        }
+      ],
+      "currentPageVerification": "retrieved",
+      "retrievedHtmlSha256": "2cf1ec36b58971b9b1aaa017cdd04ecfcecfb87709c2e1a2eb853f8b13684837",
+      "originalVerdict": "wrong_source",
+      "independentlyWorthReading": "after correction",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "After-tax profits surged while adjusted pre-tax profits changed less.",
+          "review": "Selected S5E5/S5E6/S5E7 instead concern industrial/manufacturing production and a chart. Attached page has no profit comparison. Separate profit article attached to post 10 supports the body."
+        },
+        {
+          "scope": "discussion",
+          "claim": "After-tax and adjusted pre-tax profit are different measures.",
+          "review": "Interpretation is defensible for the replacement source, not the originally attached production evidence."
+        }
+      ],
+      "correctionRecorded": true
+    },
+    {
+      "postId": "post-20260918T213919Z-f7d9-3",
+      "title": "Well-Being Is About What Makes a Life Go Well",
+      "topic": "philosophy",
+      "originalSourceUrl": "https://plato.stanford.edu/entries/well-being/",
+      "chunkIndex": 1,
+      "resolvedModel": "nex-agi/nex-n2.5-pro:free",
+      "bodyEvidenceIds": [
+        "S9E2",
+        "S9E3",
+        "S9E8"
+      ],
+      "discussionEvidence": [
+        {
+          "turnIndex": 0,
+          "voice": "Context",
+          "evidenceIds": [
+            "S9E8",
+            "S9E9"
+          ]
+        },
+        {
+          "turnIndex": 1,
+          "voice": "Take",
+          "evidenceIds": [
+            "S9E8",
+            "S9E9"
+          ]
+        }
+      ],
+      "currentPageVerification": "retrieved",
+      "retrievedHtmlSha256": "12ef8278e8176328458298e626232acdb5643eeec2713b8dcc88ed1ea7e840f2",
+      "originalVerdict": "supported",
+      "independentlyWorthReading": "yes",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "Well-being concerns how a life goes for its subject and is prudential rather than moral/aesthetic value.",
+          "review": "S9E2/S9E3/S9E8 and SEP section 1 support both distinctions."
+        },
+        {
+          "scope": "discussion",
+          "claim": "Good for someone is distinct from morally admirable.",
+          "review": "S9E8/S9E9 and SEP section 1 support both turns."
+        }
+      ],
+      "correctionRecorded": false
+    },
+    {
+      "postId": "post-20260918T213919Z-f7d9-4",
+      "title": "Canadian Jewish faculty say university EDI offices met them with silence after Oct. 7",
+      "topic": "canada",
+      "originalSourceUrl": "https://theconversation.com/many-jewish-faculty-and-staff-say-university-edi-is-failing-them-289753",
+      "chunkIndex": 2,
+      "resolvedModel": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "bodyEvidenceIds": [
+        "S6E1",
+        "S6E3",
+        "S6E4"
+      ],
+      "discussionEvidence": [
+        {
+          "turnIndex": 0,
+          "voice": "Take",
+          "evidenceIds": [
+            "S6E6",
+            "S6E7",
+            "S6E8"
+          ]
+        },
+        {
+          "turnIndex": 1,
+          "voice": "Pushback",
+          "evidenceIds": [
+            "S6E3",
+            "S6E4",
+            "S6E5"
+          ]
+        },
+        {
+          "turnIndex": 2,
+          "voice": "Context",
+          "evidenceIds": [
+            "S6E2",
+            "S6E8"
+          ]
+        }
+      ],
+      "currentPageVerification": "retrieved",
+      "retrievedHtmlSha256": "d43e9782a0c810cc092d16b580d13f1dcffae301f3d814561b5980060a1bae28",
+      "originalVerdict": "population_and_scope_error",
+      "independentlyWorthReading": "after correction",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "Faculty/staff findings and student survey described as though they share a population.",
+          "review": "S6E7 explicitly identifies the federal survey as Jewish students. Page separates that from a faculty/staff study."
+        },
+        {
+          "scope": "body",
+          "claim": "Jewish students report peers have low negativity toward them.",
+          "review": "S6E3/S6E4 are a national survey of university students' attitudes; the post changes what was measured and who reported it."
+        },
+        {
+          "scope": "body",
+          "claim": "70% of religion-targeted hate crimes in 2025 and about 1% of the population.",
+          "review": "S6E1/S6E2 and page support these denominators and year; S6E2 was retained for discussion rather than the body."
+        },
+        {
+          "scope": "discussion",
+          "claim": "Hostility is directed at Israel, not Jewish individuals; EDI failure explained by political distinctions.",
+          "review": "Categorical exclusion is unsupported by aggregate attitudes and the page describes antisemitic incidents. The proposed causal explanation is speculative; remove it."
+        }
+      ],
+      "correctionRecorded": true
+    },
+    {
+      "postId": "post-20260918T213919Z-f7d9-5",
+      "title": "NASA's COSI telescope will hunt gamma rays from antimatter and dying stars",
+      "topic": "science",
+      "originalSourceUrl": "https://www.nasa.gov/image-article/cosi-telescope-comes-together/",
+      "chunkIndex": 2,
+      "resolvedModel": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "bodyEvidenceIds": [
+        "S11E1",
+        "S11E3",
+        "S11E5"
+      ],
+      "discussionEvidence": [
+        {
+          "turnIndex": 0,
+          "voice": "Take",
+          "evidenceIds": [
+            "S11E5",
+            "S11E6"
+          ]
+        },
+        {
+          "turnIndex": 1,
+          "voice": "Reply",
+          "evidenceIds": [
+            "S11E7",
+            "S11E8"
+          ]
+        }
+      ],
+      "currentPageVerification": "retrieved",
+      "retrievedHtmlSha256": "690fd143d96cb15d4937f1dc9a9197373d3f550a0f9b89e3f85c78fd559f2a8c",
+      "originalVerdict": "unsupported_discussion",
+      "independentlyWorthReading": "after correction",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "COSI assembly, July 8 image, flex circuits, mission aims and named partners.",
+          "review": "Page supports the body. Saved body IDs select only starts of several sentences; July 8 and several continuation details are absent from those body IDs. Discussion retains additional aims/partner fragments."
+        },
+        {
+          "scope": "discussion",
+          "claim": "Gamma-ray telescope rarity, focusing explanation, brief flashes, and a university-leading collaboration model.",
+          "review": "Selected S11E5-S11E8 and the NASA image article do not support this elaboration. Remove discussion rather than label it confirmed false."
+        }
+      ],
+      "correctionRecorded": true
+    },
+    {
+      "postId": "post-20260918T213919Z-f7d9-6",
+      "title": "FAA to debut AI air-traffic advisor over Washington, D.C. as soon as Monday",
+      "topic": "technology",
+      "originalSourceUrl": "https://arstechnica.com/ai/2026/09/faa-tees-up-875m-ai-tool-to-help-manage-air-traffic-congestion/",
+      "chunkIndex": 2,
+      "resolvedModel": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "bodyEvidenceIds": [
+        "S10E1",
+        "S10E4",
+        "S10E7"
+      ],
+      "discussionEvidence": [
+        {
+          "turnIndex": 0,
+          "voice": "Take",
+          "evidenceIds": [
+            "S10E2",
+            "S10E6"
+          ]
+        },
+        {
+          "turnIndex": 1,
+          "voice": "Pushback",
+          "evidenceIds": [
+            "S10E1",
+            "S10E4"
+          ]
+        },
+        {
+          "turnIndex": 2,
+          "voice": "Context",
+          "evidenceIds": [
+            "S10E8",
+            "S10E9"
+          ]
+        }
+      ],
+      "currentPageVerification": "retrieved",
+      "retrievedHtmlSha256": "661f31fdba2187c5bd46bdfaa2dcc56f47d8984f9458d778d1dce2d8924e7774",
+      "originalVerdict": "unsupported_discussion",
+      "independentlyWorthReading": "after correction",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "SMART advisory role, four operational inputs, possible September 21 launch at three airports, planned 29-million-square-mile rollout and Mann's 17-year career.",
+          "review": "Full page supports the body with possible/planned qualifiers. Several details are not present in selected body snippets; some appear in retained discussion support."
+        },
+        {
+          "scope": "discussion",
+          "claim": "World's most congested airspace and an implied near-miss-reduction evaluation.",
+          "review": "Superlative and safety effect are not established by the selected evidence or page. Replace with qualified interpretation of the limited rollout."
+        },
+        {
+          "scope": "discussion",
+          "claim": "Advisory role and Mann's caution.",
+          "review": "Page supports advisory role/career; original claim that value depends entirely on controller trust overstates it. Keep narrower interpretation."
+        }
+      ],
+      "correctionRecorded": true
+    },
+    {
+      "postId": "post-20260918T213919Z-f7d9-7",
+      "title": "What the American landscape looked like before the suburb took over",
+      "topic": "philosophy",
+      "originalSourceUrl": "https://daily.jstor.org/what-came-before-the-american-suburb/",
+      "chunkIndex": 2,
+      "resolvedModel": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "bodyEvidenceIds": [
+        "S9E4",
+        "S9E6",
+        "S9E8"
+      ],
+      "discussionEvidence": [
+        {
+          "turnIndex": 0,
+          "voice": "Take",
+          "evidenceIds": [
+            "S9E6",
+            "S9E8",
+            "S9E10"
+          ]
+        },
+        {
+          "turnIndex": 1,
+          "voice": "Reply",
+          "evidenceIds": [
+            "S9E10",
+            "S9E11"
+          ]
+        }
+      ],
+      "currentPageVerification": "retrieved",
+      "retrievedHtmlSha256": "9aaa5615e19ef75cb8951d405aa218f8e50822dba35c80f7f0a4035d8e5091ad",
+      "originalVerdict": "chronology_and_unsupported_detail",
+      "independentlyWorthReading": "after correction",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "1643 purchase and families arriving in 1644 under earlier Dutch control.",
+          "review": "Page supports those dates, names and sequence."
+        },
+        {
+          "scope": "body",
+          "claim": "1644 community centered on stores/pharmacies in gallery; pattern vanished with cars and federal funding.",
+          "review": "Post joins settlement history to much later gallery captions and claims disappearance where page describes transformation. Saved S9E10/S9E11 are captions, not chronology."
+        },
+        {
+          "scope": "discussion",
+          "claim": "Current zoning recreation, billions spent reversing suburbs, and Main Street dated to 1910.",
+          "review": "Not supported by retained captions or article. Correct using the page's explicit rail/retail explanation, not an inferred photograph date."
+        }
+      ],
+      "correctionRecorded": true
+    },
+    {
+      "postId": "post-20260918T213919Z-f7d9-8",
+      "title": "Virtual worlds boost robot real‑world training",
+      "topic": "technology",
+      "originalSourceUrl": "https://www.bbc.co.uk/news/articles/c79g0j3d4q9o",
+      "chunkIndex": 3,
+      "resolvedModel": "nvidia/nemotron-3-super-120b-a12b:free",
+      "bodyEvidenceIds": [
+        "S1E1"
+      ],
+      "discussionEvidence": [
+        {
+          "turnIndex": 0,
+          "voice": "Take",
+          "evidenceIds": [
+            "S1E1"
+          ]
+        },
+        {
+          "turnIndex": 1,
+          "voice": "Pushback",
+          "evidenceIds": [
+            "S1E1"
+          ]
+        }
+      ],
+      "currentPageVerification": "retrieved",
+      "retrievedHtmlSha256": "56d51ba7bb8e1aa557494a0d7ef4678a041f7355365a5a9c1e0b8fdb253681ec",
+      "originalVerdict": "unsupported_discussion_thin_body",
+      "independentlyWorthReading": "no",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "Robot training systems are becoming more sophisticated.",
+          "review": "Exactly the one-sentence S1E1 evidence. Supported but little independent payoff for an explainer."
+        },
+        {
+          "scope": "discussion",
+          "claim": "Rare-scenario rehearsal and simulated physics limiting transfer.",
+          "review": "Not supported by retained S1E1. Later full page discusses simulations/approximation, but that is not evidence the original model received. Omit discussion; do not falsely mark all elaboration factually wrong."
+        }
+      ],
+      "correctionRecorded": true
+    },
+    {
+      "postId": "post-20260918T213919Z-f7d9-9",
+      "title": "Holdout juror insists Clancy guilty despite dissent",
+      "topic": "united_states",
+      "originalSourceUrl": "https://www.pbs.org/newshour/nation/holdout-juror-in-clancy-trial-says-he-didnt-have-any-doubts-that-she-was-responsible-for-killing-her-kids",
+      "chunkIndex": 3,
+      "resolvedModel": "nvidia/nemotron-3-super-120b-a12b:free",
+      "bodyEvidenceIds": [
+        "S2E1",
+        "S2E2"
+      ],
+      "discussionEvidence": [],
+      "currentPageVerification": "retrieved",
+      "retrievedHtmlSha256": "00b307fd10e8f952f04fe292c18446bc49032cd4417063adfae5919b115645d7",
+      "originalVerdict": "supported",
+      "independentlyWorthReading": "yes",
+      "claims": [
+        {
+          "scope": "title_and_body",
+          "claim": "A lone juror wanted conviction and said others would not listen, attributed to his lawyer's statement.",
+          "review": "S2E1/S2E2 and PBS/AP page support this as the juror's claim, not a court finding. No discussion."
+        }
+      ],
+      "correctionRecorded": false
+    },
+    {
+      "postId": "post-20260918T213919Z-f7d9-10",
+      "title": "After‑tax manufacturing profits surge, but adjusted measures tell a mixed story",
+      "topic": "economics",
+      "originalSourceUrl": "https://econbrowser.com/archives/2026/09/ej-antoni-manufacturing-profits-soar-on-trump-reforms-end-iran-war-to-keep-boom-going",
+      "chunkIndex": 3,
+      "resolvedModel": "nvidia/nemotron-3-super-120b-a12b:free",
+      "bodyEvidenceIds": [
+        "S4E2",
+        "S4E3",
+        "S4E8"
+      ],
+      "discussionEvidence": [
+        {
+          "turnIndex": 0,
+          "voice": "Take",
+          "evidenceIds": [
+            "S4E2"
+          ]
+        },
+        {
+          "turnIndex": 1,
+          "voice": "Pushback",
+          "evidenceIds": [
+            "S4E3",
+            "S4E8"
+          ]
+        }
+      ],
+      "currentPageVerification": "retrieved",
+      "retrievedHtmlSha256": "4ede8e7b51d8cda7961184b5c13c5e69dd9f4e056e86b995c6ed1c5e51c3055f",
+      "originalVerdict": "speaker_attribution_error",
+      "independentlyWorthReading": "after correction",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "After-tax profits versus inventory-adjusted profits and equipment expensing.",
+          "review": "S4E2/S4E3/S4E8 and page support the contrast, but the skeptical analysis belongs to Econbrowser's author, not Antoni."
+        },
+        {
+          "scope": "discussion",
+          "claim": "After-tax surge establishes genuine manufacturing strength.",
+          "review": "Contrary to the caution in the cited analysis; opinion label does not establish productivity. Replace with the measure-versus-question distinction."
+        }
+      ],
+      "correctionRecorded": true
+    },
+    {
+      "postId": "post-20260918T213919Z-f7d9-11",
+      "title": "Norval Morrisseau masterpiece returns after 40 years in storage",
+      "topic": "canada",
+      "originalSourceUrl": "https://www.cbc.ca/news/canada/thunder-bay/morrisseau-artwork-unveiling-thunder-bay-from-calgary-9.7349750?cmp=rss",
+      "chunkIndex": 3,
+      "resolvedModel": "nvidia/nemotron-3-super-120b-a12b:free",
+      "bodyEvidenceIds": [
+        "S13E1",
+        "S13E2"
+      ],
+      "discussionEvidence": [],
+      "currentPageVerification": "timed out twice; retained support only",
+      "retrievedHtmlSha256": null,
+      "originalVerdict": "supported_retained_only",
+      "independentlyWorthReading": "yes, provisional",
+      "claims": [
+        {
+          "scope": "title_and_body",
+          "claim": "Morrisseau painting returns after 40 years in storage, Thunder Bay unveiling, loan from EA Studios Calgary and spiritual/powerful descriptions.",
+          "review": "S13E1/S13E2 support each claim and qualifier. CBC fresh retrieval timed out twice; no independent current-page verification. No discussion."
+        }
+      ],
+      "correctionRecorded": false
+    },
+    {
+      "postId": "post-20260918T213919Z-f7d9-12",
+      "title": "Attorney General Blanche's Political Event Speeches Blur Justice Department Boundaries",
+      "topic": "united_states",
+      "originalSourceUrl": "https://www.pbs.org/newshour/politics/attorney-general-blanche-blurs-justice-department-boundaries-by-appearing-at-political-events",
+      "chunkIndex": 4,
+      "resolvedModel": "nvidia/nemotron-3.5-lightning:free",
+      "bodyEvidenceIds": [
+        "S1E1",
+        "S1E2"
+      ],
+      "discussionEvidence": [
+        {
+          "turnIndex": 0,
+          "voice": "Take",
+          "evidenceIds": [
+            "S1E1",
+            "S1E2"
+          ]
+        },
+        {
+          "turnIndex": 1,
+          "voice": "Pushback",
+          "evidenceIds": [
+            "S1E1",
+            "S1E2"
+          ]
+        }
+      ],
+      "currentPageVerification": "retrieved",
+      "retrievedHtmlSha256": "16e82b484745d4bfd507f7f5a92534a65dfcbf58dc2d6cec38cbcea55c578a4b",
+      "originalVerdict": "internal_evidence_narration",
+      "independentlyWorthReading": "after correction",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "Blanche political speeches depart from norms protecting DOJ's appearance of impartiality.",
+          "review": "S1E1/S1E2 and PBS/AP page support the report."
+        },
+        {
+          "scope": "discussion",
+          "claim": "S1E1/S1E2 invoked as reader-facing authorities.",
+          "review": "Internal evidence narration; second turn is also circular and adds little. Remove optional block."
+        }
+      ],
+      "correctionRecorded": true
+    },
+    {
+      "postId": "post-20260918T213919Z-f7d9-13",
+      "title": "Israeli Investment Growth in Cypriot Property Market",
+      "topic": "world",
+      "originalSourceUrl": "https://www.dw.com/en/ever-more-israelis-moving-to-and-investing-in-cyprus/a-79330240?maca=en-rss-en-world-4025-rdf",
+      "chunkIndex": 4,
+      "resolvedModel": "nvidia/nemotron-3.5-lightning:free",
+      "bodyEvidenceIds": [
+        "S2E1",
+        "S2E2"
+      ],
+      "discussionEvidence": [
+        {
+          "turnIndex": 0,
+          "voice": "Take",
+          "evidenceIds": [
+            "S2E1",
+            "S2E2"
+          ]
+        },
+        {
+          "turnIndex": 1,
+          "voice": "Pushback",
+          "evidenceIds": [
+            "S2E1",
+            "S2E2"
+          ]
+        }
+      ],
+      "currentPageVerification": "retrieved",
+      "retrievedHtmlSha256": "c5bc8b0b348ceb6061be330428e208d6a7d95a9f2ef843bb3784346530b73f60",
+      "originalVerdict": "internal_evidence_narration_and_question_inference",
+      "independentlyWorthReading": "after correction",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "Three-year rise in Israeli property purchases/investment and permanent moves to Cyprus.",
+          "review": "S2E1 supports this. Subsequent narration of S2E2 is process leakage, not an explanation."
+        },
+        {
+          "scope": "discussion",
+          "claim": "Investment shows growing opportunities and the teaser question implies mixed economic effects.",
+          "review": "S2E1/S2E2 do not establish those answers. Later full page has substantive reporting, but it is not retained input. Narrow copy to the supported statement and omit discussion."
+        }
+      ],
+      "correctionRecorded": true
+    },
+    {
+      "postId": "post-20260918T213919Z-f7d9-14",
+      "title": "SageMaker AI 2026 Inference Capabilities and Deployment Paths",
+      "topic": "ai_agents",
+      "originalSourceUrl": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-year-to-date-launches-in-review/",
+      "chunkIndex": 4,
+      "resolvedModel": "nvidia/nemotron-3.5-lightning:free",
+      "bodyEvidenceIds": [
+        "S5E1",
+        "S5E3",
+        "S5E6"
+      ],
+      "discussionEvidence": [
+        {
+          "turnIndex": 0,
+          "voice": "Take",
+          "evidenceIds": [
+            "S5E3"
+          ]
+        },
+        {
+          "turnIndex": 1,
+          "voice": "Reply",
+          "evidenceIds": [
+            "S5E1",
+            "S5E3"
+          ]
+        }
+      ],
+      "currentPageVerification": "timed out twice; retained support only",
+      "retrievedHtmlSha256": null,
+      "originalVerdict": "internal_evidence_narration_and_incomplete_support",
+      "independentlyWorthReading": "after correction",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "Model sizes, token-rate/latency language, cold starts, capacity/monitoring claims.",
+          "review": "S5E1 retains only the beginning of a long sentence. Several claims require continuations absent from selected support; page retrieval timed out."
+        },
+        {
+          "scope": "body",
+          "claim": "Two deployment paths with detailed endpoint/HyperPod descriptions; thirteen 2026 capabilities.",
+          "review": "S5E3 retains instance-versus-token billing and existence of two paths; S5E6 supports thirteen capabilities. Detailed pathway names are not in retained snippets."
+        },
+        {
+          "scope": "discussion",
+          "claim": "Endpoint and HyperPod operational claims with S5E references.",
+          "review": "Evidence-ID leakage plus unsupported retained details. Remove discussion; narrow title/body to independently inspectable retained claims. Do not certify or call missing details false."
+        }
+      ],
+      "correctionRecorded": true
+    },
+    {
+      "postId": "post-20260918T213919Z-f7d9-15",
+      "title": "BetterHalf Films Boards Galeo of the Seawalkers at VIFF Business Hub",
+      "topic": "movies",
+      "originalSourceUrl": "https://variety.com/2026/film/global/betterhalf-galeo-of-the-seawalkers-viff-business-hub-1236865133/",
+      "chunkIndex": 4,
+      "resolvedModel": "nvidia/nemotron-3.5-lightning:free",
+      "bodyEvidenceIds": [
+        "S6E1",
+        "S6E2"
+      ],
+      "discussionEvidence": [
+        {
+          "turnIndex": 0,
+          "voice": "Take",
+          "evidenceIds": [
+            "S6E1",
+            "S6E2"
+          ]
+        },
+        {
+          "turnIndex": 1,
+          "voice": "Pushback",
+          "evidenceIds": [
+            "S6E1",
+            "S6E2"
+          ]
+        }
+      ],
+      "currentPageVerification": "retrieved",
+      "retrievedHtmlSha256": "e104feab3f0248915f46c600cebbdbfcfa3cc5908f067ad886ba5810106dadc9",
+      "originalVerdict": "internal_evidence_narration_and_title_relationship",
+      "independentlyWorthReading": "after correction",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "BetterHalf boards Fembriarto film, whose Indonesian title is Galeo Anak Segara, selected for new VIFF forum.",
+          "review": "S6E1/S6E2 and retrieved Variety opening support this. Original body runs the two titles together and narrates evidence IDs."
+        },
+        {
+          "scope": "discussion",
+          "claim": "Co-production opportunity plus forum effectiveness for financing/distribution.",
+          "review": "First mostly repeats the body; second adds claims beyond retained support. Remove block and retain the corrected film report."
+        }
+      ],
+      "correctionRecorded": true
+    }
+  ],
+  "reviewedOn": "2026-09-18"
+}

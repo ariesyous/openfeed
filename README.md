@@ -128,7 +128,7 @@ Evergreen extraction now retains a coherent prose section rather than combining 
 features. Numbered excerpts preserve sentence/paragraph context and flag truncation.
 Generation saves bounded selected-support records as 14-day Actions artifacts before
 committing an edition; they never enter the feed bundle. Run `pnpm editorial:benchmark`
-for twelve offline review examples. See [editorial integrity](docs/editorial-integrity.md)
+for sixteen offline review examples. See [editorial integrity](docs/editorial-integrity.md)
 for the evidence contract, audit fields, corrected posts and remaining live review gate.
 These checks establish provenance and inspectability, not automatic factual correctness.
 

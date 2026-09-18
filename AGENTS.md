@@ -204,3 +204,16 @@ prompt guidance; short supported posts remain welcome. No length/topic quotas. G
 JSON drafts, accepted posts and manually worthwhile samples are different counts. #36's
 five-edition check and #37's ten ordinary-run evaluation remain open; no model experiment
 or historical regeneration is part of this implementation.
+
+## WP1 first ordinary-edition review
+Read docs/wp1-live-review-20260918.md and its claim ledger. Only one qualifying
+post-WP1 edition was available: sixteen posts reviewed, fourteen source pages
+retrieved, two unresolved page checks. Keep #36 open for at least five editions
+and the remaining culture coverage. This run predates WP2's checkout despite
+publishing after #39; do not count it toward #37.
+The voice guard rejects observed evidence-ID attribution grammar, preserving
+ordinary TV episode notation. Six semantic counterexamples still pass provenance
+checks in the expanded sixteen-example benchmark; never call it fact-checking.
+The eleven additional reviewed corrections use scripts/correctFirstLiveAudit.ts
+and its exact before/after record through the existing validated publisher. Preserve
+original artifacts, identities, dates, historical content and the earlier migration.
