@@ -40,6 +40,21 @@ export const SOURCE_FEEDS: SourceFeed[] = [
   { publisher: "The Guardian", url: "https://www.theguardian.com/film/rss", hosts: ["theguardian.com"], topic: "movies", maxAgeDays: 30 },
   // Criticism can remain useful years later; news still requires the 72-hour check.
   { publisher: "The Guardian", url: "https://www.theguardian.com/tv-and-radio/the-sopranos/rss", hosts: ["theguardian.com"], topic: "the_sopranos", maxAgeDays: 3650 },
+  // Recurring publisher feeds retrieved and parser-checked September 18, 2026.
+  {"publisher":"Ars Technica","url":"https://feeds.arstechnica.com/arstechnica/index","hosts":["arstechnica.com"],"topic":"technology","maxAgeDays":7},
+  {"publisher":"MIT News","url":"https://news.mit.edu/rss/topic/artificial-intelligence2","hosts":["news.mit.edu"],"topic":"ai_agents","maxAgeDays":7},
+  {"publisher":"Quanta Magazine","url":"https://www.quantamagazine.org/feed/","hosts":["quantamagazine.org"],"topic":"science","maxAgeDays":30},
+  {"publisher":"JSTOR Daily","url":"https://daily.jstor.org/feed/","hosts":["daily.jstor.org"],"topic":"philosophy","maxAgeDays":90},
+  {"publisher":"The Conversation Canada","url":"https://theconversation.com/ca/articles.atom","hosts":["theconversation.com"],"topic":"canada","maxAgeDays":7},
+  {"publisher":"NPR","url":"https://feeds.npr.org/1001/rss.xml","hosts":["npr.org"],"topic":"united_states","maxAgeDays":7},
+  {"publisher":"PBS NewsHour","url":"https://www.pbs.org/newshour/feeds/rss/headlines","hosts":["pbs.org"],"topic":"united_states","maxAgeDays":7},
+  {"publisher":"Deutsche Welle","url":"https://rss.dw.com/rdf/rss-en-world","hosts":["dw.com"],"topic":"world","maxAgeDays":7},
+  {"publisher":"IndieWire","url":"https://www.indiewire.com/feed/","hosts":["indiewire.com"],"topic":"movies","maxAgeDays":30},
+  {"publisher":"Deadline","url":"https://deadline.com/v/film/feed/","hosts":["deadline.com"],"topic":"movies","maxAgeDays":30},
+  {"publisher":"Senses of Cinema","url":"https://www.sensesofcinema.com/feed/","hosts":["sensesofcinema.com"],"topic":"movies","maxAgeDays":90},
+  {"publisher":"Psyche","url":"https://psyche.co/feed.rss","hosts":["psyche.co"],"topic":"philosophy","maxAgeDays":90},
+  {"publisher":"Econbrowser","url":"https://econbrowser.com/feed","hosts":["econbrowser.com"],"topic":"economics","maxAgeDays":7},
+  {"publisher":"Bank of Canada","url":"https://www.bankofcanada.ca/content_type/research,boc-review-article,fsr-article/feed/","hosts":["bankofcanada.ca"],"topic":"economics","maxAgeDays":30},
 ];
 export interface SourcePacket extends FeedSource {
   evergreen?: boolean;
@@ -52,7 +67,6 @@ const MAX_BYTES = 1_000_000;
 export function plainText(input: unknown): string {
   if (typeof input !== "string") return "";
   return input
-    .replace(/<[^>]*>/g, " ")
     .replace(
       /&(?:amp|lt|gt|quot|apos|nbsp);/g,
       (entity) =>
@@ -73,6 +87,9 @@ export function plainText(input: unknown): string {
         ? String.fromCodePoint(number)
         : " ";
     })
+    // RSS descriptions can contain escaped HTML as well as CDATA markup.
+    .replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/gi, " ")
+    .replace(/<[^>]*>/g, " ")
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -86,19 +103,28 @@ export function parseSourceFeed(
     throw new Error("RSS declarations are not allowed");
   const parsed = new XMLParser({
     processEntities: false,
-    ignoreAttributes: true,
+    ignoreAttributes: false,
     parseTagValue: false,
   }).parse(xml);
-  const entries: unknown = parsed?.rss?.channel?.item;
+  const atom = Boolean(parsed?.feed);
+  const entries: unknown = parsed?.rss?.channel?.item ?? parsed?.["rdf:RDF"]?.item ?? parsed?.feed?.entry;
   const rows = Array.isArray(entries) ? entries : entries ? [entries] : [];
+  const textValue = (value: unknown): string => {
+    if (typeof value === "string") return value;
+    if (value && typeof value === "object" && "#text" in value && typeof value["#text"] === "string") return value["#text"];
+    return "";
+  };
   const packets: SourcePacket[] = [];
   for (const row of rows) {
-    const title = plainText(row.title).slice(0, 300);
-    const excerpt = plainText(row["content:encoded"] || row.description).slice(
+    const title = plainText(textValue(row.title)).slice(0, 300);
+    const excerpt = plainText(atom
+      ? textValue(row.content) || textValue(row.summary)
+      : textValue(row["content:encoded"]) || textValue(row.description)).slice(
       0,
       6000,
     );
-    const published = new Date(row.pubDate);
+    // Atom updated is a revision date, never a substitute for publication.
+    const published = new Date(textValue(atom ? row.published : row.pubDate ?? row["dc:date"]));
     if (!title || excerpt.length < 80 || !Number.isFinite(published.getTime()))
       continue;
     if (
@@ -108,7 +134,13 @@ export function parseSourceFeed(
       continue;
     let url: URL;
     try {
-      url = new URL(plainText(row.link));
+      const links: unknown[] = Array.isArray(row.link) ? row.link : [row.link];
+      const articleLink = atom ? links
+        .filter((link): link is Record<string, unknown> => typeof link === "object" && link !== null)
+        .find(link =>
+        (!link["@_rel"] || link["@_rel"] === "alternate") &&
+        (!link["@_type"] || link["@_type"] === "text/html"))?.["@_href"] : textValue(row.link);
+      url = new URL(plainText(articleLink));
     } catch {
       continue;
     }
@@ -174,14 +206,17 @@ export async function collectSources(
       const response = await fetchImpl(feed.url, {
         signal: AbortSignal.timeout(20_000),
         redirect: "error",
-        headers: { Accept: "application/rss+xml, application/xml, text/xml" },
+        headers: { Accept: "application/rss+xml, application/atom+xml, application/xml, text/xml" },
       });
       return parseSourceFeed(await readBounded(response), feed, now);
     }),
   );
   const packets: SourcePacket[] = [];
   results.forEach((result, index) => {
-    if (result.status === "fulfilled") packets.push(...result.value);
+    if (result.status === "fulfilled") {
+      packets.push(...result.value);
+      console.log(`[sources] ${SOURCE_FEEDS[index].publisher}: ${result.value.length} usable feed articles`);
+    }
     else
       console.warn(
         `[sources] ${SOURCE_FEEDS[index].publisher} unavailable; skipping`,

@@ -147,3 +147,13 @@ Diagnostics include candidate/offered/deferred counts and empty-selection totals
 The finite evergreen shelf now contains 50 reviewed pages. Its 25 new URLs were
 retrieved and checked with the existing article parser; do not weaken extraction
 or date rules to admit blocked/thin pages. Replenish the shelf as it is consumed.
+
+## Recurring publisher expansion — September 18, 2026
+Intake now has 27 feeds across 23 publisher groups (BBC sections stay grouped).
+The 14 additions returned 106 unused, parser-valid candidates in the local live
+snapshot; this is not a guaranteed post count. See docs/source-feeds.md.
+Parse RSS 2.0, RSS 1.0 item dc:date, and Atom entry published; never use Atom
+updated or a channel date as publication. Atom article links must pass the same
+HTTPS/host checks. Keep the 1 MB, 20-second, eight-articles-per-feed bounds and
+the existing generation/publisher limits. Decode escaped HTML before stripping
+markup so it does not enter evidence. Only selected fixed feed URLs are fetched.
