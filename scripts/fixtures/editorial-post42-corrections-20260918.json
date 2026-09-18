@@ -1,0 +1,908 @@
+{
+  "schemaVersion": 1,
+  "review": "Post-PR42 manual edition review",
+  "runId": 35405624271,
+  "publicationCommit": "6e83fe73f9dbf654c11f43cbece1bae10e89f54f",
+  "corrections": [
+    {
+      "postId": "post-20260918T232533Z-bd16-1",
+      "batchId": "20260918T232533Z-bd16",
+      "reason": "Non-rivalry concerns undiminished consumption, not a zero price or cost.",
+      "beforeSha256": "6a5b67479f36b2fbebf1fc9605c7f17818d4cbee45552024e93c2b4ecffc51c5",
+      "afterSha256": "27d72cb817721d0a602d04d74d25547d31c947c5c917212ae79f76c17bfabefb",
+      "before": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://plato.stanford.edu/entries/public-goods/",
+              "title": "Public Goods",
+              "publisher": "Stanford Encyclopedia of Philosophy",
+              "retrievedAt": "2026-09-18T23:25:33.316Z"
+            }
+          ],
+          "basis": "publisher_excerpt"
+        },
+        "id": "post-20260918T232533Z-bd16-1",
+        "slug": "rice-is-rivalrous-bruckner-is-not--706f73742d3230323630393138543233323533335a2d626431362d31",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T23:25:33.316Z",
+        "community": "economics",
+        "title": "Rice Is Rivalrous; Bruckner Is Not",
+        "body": "Paul Samuelson is usually credited with bringing the theory of public goods into modern economics, but the Stanford Encyclopedia of Philosophy notes the idea predates him, reaching back to John Stuart Mill, the Italian public-finance writer Ugo Mazzola, and the Swedish economist Knut Wicksell. Samuelson's own term was a mouthful: he defined a collective consumption good as one that all enjoy in common, in the sense that each individual's consumption of it leads to no subtraction from anyone else's consumption of the same good. Contemporary economics has a tidier label for that feature: non-rivalry. The definition runs on subtraction rather than popularity. A good is rivalrous exactly when one person's consumption diminishes someone else's ability to consume it. The encyclopedia's two examples do the work better than a definition can. Bob's consumption of a grain of rice makes it impossible for Sally to consume that same grain — the object is used up, so rice is rivalrous. Sally's enjoyment of Bruckner's Symphony No. 9, by contrast, does not diminish Bob's ability to enjoy it. Rice is consumed once; the symphony can be enjoyed twice at no cost to the second listener.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://plato.stanford.edu/entries/public-goods/",
+              "title": "Public Goods",
+              "publisher": "Stanford Encyclopedia of Philosophy",
+              "retrievedAt": "2026-09-18T23:25:33.316Z"
+            }
+          ],
+          "basis": "publisher_excerpt"
+        },
+        "id": "post-20260918T232533Z-bd16-1",
+        "slug": "rice-is-rivalrous-bruckner-is-not--706f73742d3230323630393138543233323533335a2d626431362d31",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T23:25:33.316Z",
+        "community": "economics",
+        "title": "Rice Is Rivalrous; Bruckner Is Not",
+        "body": "Paul Samuelson is usually credited with bringing the theory of public goods into modern economics, but the Stanford Encyclopedia of Philosophy notes the idea predates him, reaching back to John Stuart Mill, the Italian public-finance writer Ugo Mazzola, and the Swedish economist Knut Wicksell. Samuelson's own term was a mouthful: he defined a collective consumption good as one that all enjoy in common, in the sense that each individual's consumption of it leads to no subtraction from anyone else's consumption of the same good. Contemporary economics has a tidier label for that feature: non-rivalry. The definition runs on subtraction rather than popularity. A good is rivalrous exactly when one person's consumption diminishes someone else's ability to consume it. The encyclopedia's two examples do the work better than a definition can. Bob's consumption of a grain of rice makes it impossible for Sally to consume that same grain — the object is used up, so rice is rivalrous. Sally's enjoyment of Bruckner's Symphony No. 9, by contrast, does not diminish Bob's ability to enjoy it. Rice is consumed once; one person enjoying the symphony does not use up another person's opportunity to enjoy it.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260918T232533Z-bd16-2",
+      "batchId": "20260918T232533Z-bd16",
+      "reason": "The retained CBC support establishes a request for investigations, not the absence of findings or what the Conservatives did not allege. The page timed out; remove that unsupported negative claim without declaring it false.",
+      "beforeSha256": "4c69143cb977e0c8966aad542358b787d732bdab419d987e4ffb885d82a8e2e7",
+      "afterSha256": "a28ae332e55b0e40d5a3e7abd3e265b64e5a7b8df8af941a8a96c644f4ccd0a1",
+      "before": {
+        "editorial": {
+          "format": "news",
+          "sources": [
+            {
+              "url": "https://www.cbc.ca/news/politics/globaleye-military-saab-canada-surveillance-9.7350393?cmp=rss",
+              "title": "GlobalEye surveillance plane under the microscope as Conservatives call for twin probes",
+              "publisher": "CBC Canada",
+              "publishedAt": "2026-09-18T22:00:41.000Z",
+              "retrievedAt": "2026-09-18T23:25:33.316Z"
+            }
+          ],
+          "basis": "publisher_excerpt"
+        },
+        "id": "post-20260918T232533Z-bd16-2",
+        "slug": "conservatives-want-audits-of-ottawa-s-globaleye-purchase--706f73742d3230323630393138543233323533335a2d626431362d32",
+        "kind": "text_post",
+        "authorId": "editorial-news",
+        "createdAt": "2026-09-18T23:25:33.316Z",
+        "community": "canada",
+        "title": "Conservatives Want Audits of Ottawa's GlobalEye Purchase",
+        "body": "CBC reports that the federal Conservatives want the auditor general and the parliamentary budget officer to investigate Ottawa's planned GlobalEye purchase, questioning whether proper procurement rules were followed. The demand follows reporting that the Saab aircraft meets only some military requirements, and that competitors had not been shown those requirements before the government announced its preferred aircraft. The Conservatives are asking for scrutiny rather than alleging a specific finding; no outcome from either proposed probe is part of that request. What the complaint targets, at least on its face, is the sequence: requirements that competing bidders did not see before a preferred aircraft was named.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "news",
+          "sources": [
+            {
+              "url": "https://www.cbc.ca/news/politics/globaleye-military-saab-canada-surveillance-9.7350393?cmp=rss",
+              "title": "GlobalEye surveillance plane under the microscope as Conservatives call for twin probes",
+              "publisher": "CBC Canada",
+              "publishedAt": "2026-09-18T22:00:41.000Z",
+              "retrievedAt": "2026-09-18T23:25:33.316Z"
+            }
+          ],
+          "basis": "publisher_excerpt"
+        },
+        "id": "post-20260918T232533Z-bd16-2",
+        "slug": "conservatives-want-audits-of-ottawa-s-globaleye-purchase--706f73742d3230323630393138543233323533335a2d626431362d32",
+        "kind": "text_post",
+        "authorId": "editorial-news",
+        "createdAt": "2026-09-18T23:25:33.316Z",
+        "community": "canada",
+        "title": "Conservatives Want Audits of Ottawa's GlobalEye Purchase",
+        "body": "CBC reports that the federal Conservatives want the auditor general and the parliamentary budget officer to investigate Ottawa's planned GlobalEye purchase, questioning whether proper procurement rules were followed. The demand follows reporting that the Saab aircraft meets only some military requirements, and that competitors had not been shown those requirements before the government announced its preferred aircraft. The request seeks scrutiny of the procurement process. What the complaint targets, at least on its face, is the sequence: requirements that competing bidders did not see before a preferred aircraft was named.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260918T232533Z-bd16-5",
+      "batchId": "20260918T232533Z-bd16",
+      "reason": "Preserve the denominator in the title: one percent of inhibitory neurons, not one percent of the cortex.",
+      "beforeSha256": "2264bff90eac81d0f4c871e0e88d7511ea544947f27e7ce0dfc271a7470555d4",
+      "afterSha256": "657271b8a40c4b3153b96ea3731adadc9e35cb4b9281aa8195a90924c10c6c2b",
+      "before": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://arstechnica.com/science/2026/09/finding-the-cells-that-put-our-brain-to-sleep/",
+              "title": "Finding the cells that put our brain to sleep",
+              "publisher": "Ars Technica",
+              "publishedAt": "2026-09-18T17:49:50.000Z",
+              "retrievedAt": "2026-09-18T23:25:33.316Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "A one-percent population of inhibitory neurons acting as a sleep switch is a strikingly small lever for such a large behavior."
+            },
+            {
+              "voice": "Reply",
+              "body": "The claim is narrower than that. It is about the cortex initiating the rhythm, not about these cells running the whole sleep system."
+            }
+          ]
+        },
+        "id": "post-20260918T232533Z-bd16-5",
+        "slug": "a-one-percent-slice-of-the-cortex-that-can-send-a-mouse-to-sleep--706f73742d3230323630393138543233323533335a2d626431362d35",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T23:25:33.316Z",
+        "community": "science",
+        "title": "A One-Percent Slice of the Cortex That Can Send a Mouse to Sleep",
+        "body": "Somewhere in the cortex sits a small population of cells that can put a mouse to sleep. In a recent Nature study, neuroscientist Geoffrey Terral and Renata Batista-Brito, who runs the lab, report that these cells make up only around one percent of the cortex's inhibitory neurons, and that switching them on sends the animal to sleep. The claim is about initiation, not mere response. The study's argument is that the cortex can not only register the slow rhythm of deep sleep but also start it on its own — and that this is sufficient to promote sleep.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://arstechnica.com/science/2026/09/finding-the-cells-that-put-our-brain-to-sleep/",
+              "title": "Finding the cells that put our brain to sleep",
+              "publisher": "Ars Technica",
+              "publishedAt": "2026-09-18T17:49:50.000Z",
+              "retrievedAt": "2026-09-18T23:25:33.316Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "A one-percent population of inhibitory neurons acting as a sleep switch is a strikingly small lever for such a large behavior."
+            },
+            {
+              "voice": "Reply",
+              "body": "The claim is narrower than that. It is about the cortex initiating the rhythm, not about these cells running the whole sleep system."
+            }
+          ]
+        },
+        "id": "post-20260918T232533Z-bd16-5",
+        "slug": "a-one-percent-slice-of-the-cortex-that-can-send-a-mouse-to-sleep--706f73742d3230323630393138543233323533335a2d626431362d35",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T23:25:33.316Z",
+        "community": "science",
+        "title": "A Small Group of Inhibitory Neurons Can Send a Mouse to Sleep",
+        "body": "Somewhere in the cortex sits a small population of cells that can put a mouse to sleep. In a recent Nature study, neuroscientist Geoffrey Terral and Renata Batista-Brito, who runs the lab, report that these cells make up only around one percent of the cortex's inhibitory neurons, and that switching them on sends the animal to sleep. The claim is about initiation, not mere response. The study's argument is that the cortex can not only register the slow rhythm of deep sleep but also start it on its own — and that this is sufficient to promote sleep.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260918T232533Z-bd16-8",
+      "batchId": "20260918T232533Z-bd16",
+      "reason": "Attribute deployment capabilities to AWS; replace unsupported claims about failure visibility, quarter-long detection delays and what people reliably forget. Technical body details were independently found in the AWS search result, not in the selected parent IDs.",
+      "beforeSha256": "4113a97ad57589af762986b22e0dd39ffdc0a432f603abcf3b38b53b4f69acf8",
+      "afterSha256": "569f60615a0ee0a3edc42666cfd814f867fabd4839521160fca292c2b23bd651",
+      "before": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents/",
+              "title": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
+              "publisher": "AWS Machine Learning",
+              "publishedAt": "2026-09-18T15:25:23.000Z",
+              "retrievedAt": "2026-09-18T23:25:33.316Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "The telling part is \"quietly wrong.\" A fragile or expensive endpoint fails loudly and someone fixes it. An endpoint that serves subtly bad output is the version that eats a quarter before anyone notices."
+            },
+            {
+              "voice": "Pushback",
+              "body": "Skills are still a guess about what the task needs. Six of them cover the decisions someone thought to write down; the container tag for your region is exactly the kind of thing that goes stale."
+            },
+            {
+              "voice": "Reply",
+              "body": "They do claim a verified teardown path, which is the one decision people reliably forget to encode anywhere."
+            }
+          ]
+        },
+        "id": "post-20260918T232533Z-bd16-8",
+        "slug": "attach-the-skills-don-t-let-the-agent-improvise--706f73742d3230323630393138543233323533335a2d626431362d38",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T23:25:33.316Z",
+        "community": "ai_agents",
+        "title": "Attach the skills, don't let the agent improvise",
+        "body": "The pitch for coding agents is that you describe what you want — a model running behind a real-time endpoint, say — walk away, and come back to a working deployment. AWS's own write-up on deploying Hugging Face models with SageMaker AI names the failure mode directly: an unguided agent \"might make wrong decisions, producing endpoints that are fragile, costly, or quietly wrong.\"\n\nThe problem is worst with new models, because the agent's training data may not contain the deployment knowledge the task requires — the right serving container for a given architecture, the current image tag for a specific AWS Region, an instance type matched to the model's memory footprint, autoscaling that doesn't burn GPU hours on an idle endpoint, alarms that catch silent failures.\n\nThe proposed fix is narrower than \"better prompting\": install six pre-written skills from Hugging Face Skills and point the agent at them. The agent then produces an endpoint with autoscaling, CloudWatch alarms, the correct container from the AWS Deep Learning Containers catalog, and a verified teardown path.\n\nThat's a real engineering tradeoff, not just a product announcement. You're outsourcing the agent's deployment judgment to a curated skill set rather than hoping general competence covers a task where being quietly wrong is the expensive outcome.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents/",
+              "title": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
+              "publisher": "AWS Machine Learning",
+              "publishedAt": "2026-09-18T15:25:23.000Z",
+              "retrievedAt": "2026-09-18T23:25:33.316Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "The telling phrase is \"quietly wrong.\" Getting an endpoint to run is not the same as making sound deployment decisions; that is the risk AWS says the skills are meant to address."
+            },
+            {
+              "voice": "Pushback",
+              "body": "Skills still encode the decisions someone thought to write down. The current container tag for a particular region is exactly the kind of detail that may need updating."
+            },
+            {
+              "voice": "Reply",
+              "body": "They also claim a verified teardown path. An endpoint you can start is only half the story; the workflow promises a way to shut it down, too."
+            }
+          ]
+        },
+        "id": "post-20260918T232533Z-bd16-8",
+        "slug": "attach-the-skills-don-t-let-the-agent-improvise--706f73742d3230323630393138543233323533335a2d626431362d38",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T23:25:33.316Z",
+        "community": "ai_agents",
+        "title": "Attach the skills, don't let the agent improvise",
+        "body": "The pitch for coding agents is that you describe what you want — a model running behind a real-time endpoint, say — walk away, and come back to a working deployment. AWS's own write-up on deploying Hugging Face models with SageMaker AI names the failure mode directly: an unguided agent \"might make wrong decisions, producing endpoints that are fragile, costly, or quietly wrong.\"\n\nThe problem is worst with new models, because the agent's training data may not contain the deployment knowledge the task requires — the right serving container for a given architecture, the current image tag for a specific AWS Region, an instance type matched to the model's memory footprint, autoscaling that doesn't burn GPU hours on an idle endpoint, alarms that catch silent failures.\n\nThe proposed fix is narrower than \"better prompting\": install six pre-written skills from Hugging Face Skills and point the agent at them. AWS describes the agent producing an endpoint with autoscaling, CloudWatch alarms, the correct container from the AWS Deep Learning Containers catalog, and a verified teardown path.\n\nThat's a real engineering tradeoff, not just a product announcement. You're outsourcing the agent's deployment judgment to a curated skill set rather than hoping general competence covers a task where being quietly wrong is the expensive outcome.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260918T232533Z-bd16-9",
+      "batchId": "20260918T232533Z-bd16",
+      "reason": "Do not broaden NASA's asteroid classification to the largest body in the belt or invent a single substantial object. Preserve the less-than-Moon comparison and remove unsupported disaster-film generalization.",
+      "beforeSha256": "6c451597e74ff197baccc69f6f7927b0cd308ba6f92e58753474efe8341840c3",
+      "afterSha256": "31c93c16056cbfb29bc13eee204395e72370cb683273e995020f6f00eb68c03d",
+      "before": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://science.nasa.gov/solar-system/asteroids/",
+              "title": "Asteroids",
+              "publisher": "NASA",
+              "retrievedAt": "2026-09-18T23:25:33.316Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "The Moon comparison is the part that sticks. Every asteroid disaster film has trained us to think of the belt as a planetary-scale threat. It's smaller than something we look at every clear night."
+            },
+            {
+              "voice": "Context",
+              "body": "The size range is also doing work: Vesta at roughly 530 kilometers versus sub-10-meter bodies means \"asteroid\" spans objects that are worlds and objects that are boulders."
+            }
+          ]
+        },
+        "id": "post-20260918T232533Z-bd16-9",
+        "slug": "vesta-a-moon-s-worth-of-rubble-and-the-rest--706f73742d3230323630393138543233323533335a2d626431362d39",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T23:25:33.316Z",
+        "community": "science",
+        "title": "Vesta, a Moon's worth of rubble, and the rest",
+        "body": "The asteroid belt has a marketing problem. It's usually pictured as a crowded maze of tumbling rocks, and in fact the material there is leftover rubble from the solar system's formation roughly 4.6 billion years ago — rocky, airless remnants that never assembled into a planet.\n\nTwo numbers fix the mental image. The largest body, Vesta, is about 530 kilometers across. The smallest counted bodies are under 10 meters. And the whole lot — every asteroid in the belt and beyond — adds up to less mass than Earth's Moon.\n\nSo the belt is less a debris field than a very large, very empty room with one substantial object in it. Most of it sits between Mars and Jupiter, orbiting the Sun.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://science.nasa.gov/solar-system/asteroids/",
+              "title": "Asteroids",
+              "publisher": "NASA",
+              "retrievedAt": "2026-09-18T23:25:33.316Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "The Moon comparison gives the population a scale; Vesta gives one member a scale. Keeping those two measurements separate makes the contrast more useful."
+            },
+            {
+              "voice": "Context",
+              "body": "The size range is also doing work: Vesta at roughly 530 kilometers versus sub-10-meter bodies means \"asteroid\" spans objects that are worlds and objects that are boulders."
+            }
+          ]
+        },
+        "id": "post-20260918T232533Z-bd16-9",
+        "slug": "vesta-a-moon-s-worth-of-rubble-and-the-rest--706f73742d3230323630393138543233323533335a2d626431362d39",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T23:25:33.316Z",
+        "community": "science",
+        "title": "All the Asteroids Together Weigh Less Than the Moon",
+        "body": "NASA describes asteroids as rocky, airless remnants of the solar system's formation about 4.6 billion years ago. Most orbit the Sun between Mars and Jupiter in the main asteroid belt.\n\nThe size range is striking: Vesta is about 530 kilometers across, while some asteroids are smaller than 10 meters. Yet NASA puts the combined mass of all asteroids below that of Earth's Moon.\n\nThe contrast is between the size of an individual object and the mass of the whole population. A body hundreds of kilometers across can belong to a population whose total mass is still less than the Moon's.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260918T232533Z-bd16-10",
+      "batchId": "20260918T232533Z-bd16",
+      "reason": "Largely erased is not no women in the record. Mark the present-day implication as interpretation rather than an established labour-policy effect.",
+      "beforeSha256": "2e95adc4bc89aa85d67630d504bf5956153e2a2ec2f611f0ad340ca0c44ff59d",
+      "afterSha256": "abc80d46428240a23aff66c36f989e5d0ff054dcc8bb9ad4b6f1f988b27cf3e4",
+      "before": {
+        "editorial": {
+          "format": "story",
+          "sources": [
+            {
+              "url": "https://daily.jstor.org/the-women-written-out-of-mining-history/",
+              "title": "The Women Written Out of Mining History",
+              "publisher": "JSTOR Daily",
+              "publishedAt": "2026-09-14T13:35:08.000Z",
+              "retrievedAt": "2026-09-18T23:25:33.316Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "\"Protective\" is doing a lot of quotation-mark work there. The law frames exclusion as care, and the result is an occupation whose historical record has no women in it."
+            },
+            {
+              "voice": "Context",
+              "body": "The household framing matters for how the argument lands. If mining was a family activity, the later all-male mine isn't a tradition preserved — it's one that was built."
+            }
+          ]
+        },
+        "id": "post-20260918T232533Z-bd16-10",
+        "slug": "the-eviction-that-got-written-out-of-mining-history--706f73742d3230323630393138543233323533335a2d626431362d3130",
+        "kind": "text_post",
+        "authorId": "editorial-story",
+        "createdAt": "2026-09-18T23:25:33.316Z",
+        "community": "philosophy",
+        "title": "The eviction that got written out of mining history",
+        "body": "The stock image of a miner — the brawny figure at the coal face, the gold-rush prospector — is about as masculine as an occupational stereotype gets. According to scholars Rossana Barragán Romano and Leda Papastefanaki, women have mined around the world throughout history, and early modern mining was a household affair in which every member of a family took on mining tasks. Women, they write, \"were as active as miners in the past as they are in the present.\"\n\nThey also give a mechanism for the discrepancy. Mining came to be considered — and legislated — as men's work, which they argue largely erased women from its recorded history. Over two centuries, women were evicted from European and North American mines as \"protective\" laws barred them from working in them.\n\nThe erasure has a present-tense cost. Today, in some countries, women can make up as much as half of the millions of people working in artisanal and small-scale mining, the sector the UN and World Bank call ASM — work the scholars describe as often taking place under the worst and most precarious conditions. Invisibility in the archive is also invisibility in labour policy.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "story",
+          "sources": [
+            {
+              "url": "https://daily.jstor.org/the-women-written-out-of-mining-history/",
+              "title": "The Women Written Out of Mining History",
+              "publisher": "JSTOR Daily",
+              "publishedAt": "2026-09-14T13:35:08.000Z",
+              "retrievedAt": "2026-09-18T23:25:33.316Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "Calling these laws protective casts exclusion as care. The scholars' account makes that language difficult to separate from the loss of women's visibility in mining history."
+            },
+            {
+              "voice": "Context",
+              "body": "The household framing matters: if early modern mining involved the whole family, its later masculine image cannot simply be treated as a timeless description of the work."
+            }
+          ]
+        },
+        "id": "post-20260918T232533Z-bd16-10",
+        "slug": "the-eviction-that-got-written-out-of-mining-history--706f73742d3230323630393138543233323533335a2d626431362d3130",
+        "kind": "text_post",
+        "authorId": "editorial-story",
+        "createdAt": "2026-09-18T23:25:33.316Z",
+        "community": "philosophy",
+        "title": "The eviction that got written out of mining history",
+        "body": "The stock image of a miner — the brawny figure at the coal face, the gold-rush prospector — is about as masculine as an occupational stereotype gets. According to scholars Rossana Barragán Romano and Leda Papastefanaki, women have mined around the world throughout history, and early modern mining was a household affair in which every member of a family took on mining tasks. Women, they write, \"were as active as miners in the past as they are in the present.\"\n\nThey also give a mechanism for the discrepancy. Mining came to be considered — and legislated — as men's work, which they argue largely erased women from its recorded history. Over two centuries, women were evicted from European and North American mines as \"protective\" laws barred them from working in them.\n\nThe erasure has a present-tense cost. Today, in some countries, women can make up as much as half of the millions of people working in artisanal and small-scale mining, the sector the UN and World Bank call ASM — work the scholars describe as often taking place under the worst and most precarious conditions. That makes this more than a question about the archive: it also concerns whose work gets noticed in the present.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260918T232533Z-bd16-11",
+      "batchId": "20260918T232533Z-bd16",
+      "reason": "Do not attribute a 5.1-versus-2 percent spread to models when the stated periods differ. Narrow the unanswered why title; omit a puzzling source-reported interval without silently repairing it. Remove the whole optional block, which contradicts itself and adds no distinct payoff once the body explains the distinction.",
+      "beforeSha256": "fa86141eb90cb944960e9f2e18a6dbdec93966b62f124a08dd14dc2894626758",
+      "afterSha256": "eaef79d8d5081b6d3ec3c868651655803ea8464c727cf6fd513d470a3277844c",
+      "before": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://econbrowser.com/archives/2026/09/gdpnow-goes-gangbusters",
+              "title": "GDPNow Goes Gangbusters",
+              "publisher": "Econbrowser",
+              "publishedAt": "2026-09-17T23:03:50.000Z",
+              "retrievedAt": "2026-09-18T23:25:33.316Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "A 5.1 percent nowcast against a 2 percent forecast isn't a rounding difference. Something in the input data or the method is producing genuinely different pictures."
+            },
+            {
+              "voice": "Pushback",
+              "body": "Worth remembering these aren't measuring the same span — annualized quarter growth versus fourth-quarter-over-fourth-quarter will diverge even when the underlying economy is identical."
+            }
+          ]
+        },
+        "id": "post-20260918T232533Z-bd16-11",
+        "slug": "why-one-forecaster-says-5-1-percent-and-the-others-don-t--706f73742d3230323630393138543233323533335a2d626431362d3131",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T23:25:33.316Z",
+        "community": "economics",
+        "title": "Why one forecaster says 5.1 percent and the others don't",
+        "body": "The Atlanta Fed's GDPNow reading for the third quarter sits at 5.1 percent annualized, with consumption nowcast at 4.1 percent growth and what Econbrowser's author calls \"core GDP\" at 4.7 percent annualized. That is well above the other nowcasts on the same chart.\n\nBy contrast, the just-released FT-Booth forecast of 2 percent fourth-quarter-over-fourth-quarter growth lines up more closely with the August Survey of Professional Forecasters and with the New York Fed nowcast and Goldman Sachs tracking — with the FT-Booth 10/90 band running 1.5 to 1.7 percent.\n\nThe gap between those clusters is the interesting object here. GDPNow, the SPF, the New York Fed and Goldman are all estimating the same quarter from different data and methods, and the spread is wide enough that \"what is the economy doing\" has more than one defensible answer depending on which model you read.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://econbrowser.com/archives/2026/09/gdpnow-goes-gangbusters",
+              "title": "GDPNow Goes Gangbusters",
+              "publisher": "Econbrowser",
+              "publishedAt": "2026-09-17T23:03:50.000Z",
+              "retrievedAt": "2026-09-18T23:25:33.316Z"
+            }
+          ],
+          "basis": "publisher_excerpt"
+        },
+        "id": "post-20260918T232533Z-bd16-11",
+        "slug": "why-one-forecaster-says-5-1-percent-and-the-others-don-t--706f73742d3230323630393138543233323533335a2d626431362d3131",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T23:25:33.316Z",
+        "community": "economics",
+        "title": "GDP Growth Rates Need Their Time Periods Attached",
+        "body": "Econbrowser reports an Atlanta Fed GDPNow estimate of 5.1 percent annualized quarter-over-quarter growth for the third quarter. In the same post, the FT-Booth forecast is 2 percent fourth-quarter-over-fourth-quarter growth.\n\nThose labels matter. The first describes a quarter's growth expressed at an annual rate; the second compares the fourth quarter with the fourth quarter a year earlier. They are not two directly comparable estimates of the same span.\n\nEconbrowser also places GDPNow above the other nowcasts it charts. That reported disagreement is worth distinguishing from the tempting 5.1-versus-2 comparison: before treating a gap as a dispute about the economy, check that both numbers measure growth over the same period.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260918T232533Z-bd16-13",
+      "batchId": "20260918T232533Z-bd16",
+      "reason": "Market-implied predictions are not guarantees, but describing them as not forecasts is misleading. Remove unsupported certainty that repricing occurs at the very next inflation release; retain the supported rate/breakeven interpretation.",
+      "beforeSha256": "e8af59862d65a2102265eb60270a13f2d37469c8ad4a4d6c3a0af0155ed46518",
+      "afterSha256": "3ef18e096dd62008b35b051cc2de84dd6982151a727a7533fa43cd5a7e9c3e72",
+      "before": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://econbrowser.com/archives/2026/09/fed-funds-expected-trajectory-and-other-rates",
+              "title": "Fed Funds Expected Trajectory, and Other Rates",
+              "publisher": "Econbrowser",
+              "publishedAt": "2026-09-17T17:50:12.000Z",
+              "retrievedAt": "2026-09-18T23:25:33.316Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "A modal path read off futures prices is a snapshot of positioning, not a forecast. It reprices the moment the next inflation print lands."
+            },
+            {
+              "voice": "Pushback",
+              "body": "Fair — but the expectation number is the one that matters here. Five basis points off a five-year breakeven after a quarter-point move is barely a reaction."
+            }
+          ]
+        },
+        "id": "post-20260918T232533Z-bd16-13",
+        "slug": "a-quarter-point-move-and-inflation-expectations-that-haven-t-quite-set--706f73742d3230323630393138543233323533335a2d626431362d3133",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T23:25:33.316Z",
+        "community": "economics",
+        "title": "A Quarter-Point Move, and Inflation Expectations That Haven't Quite Settled",
+        "body": "The CME FedWatch implied path for the fed funds rate, charted at Econbrowser, carries a modal prediction of another quarter-point increase by the end of the year. The more interesting number sits on the inflation side: the post's author writes that a quarter-point increase does not look to have quieted inflation expectations completely, even though the five-year breakeven measure dropped 5 basis points. A market-implied path is a snapshot of what traders are pricing rather than a forecast of what the Fed will do, but a breakeven that barely budges while the curve expects more tightening is the sort of pairing worth watching.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://econbrowser.com/archives/2026/09/fed-funds-expected-trajectory-and-other-rates",
+              "title": "Fed Funds Expected Trajectory, and Other Rates",
+              "publisher": "Econbrowser",
+              "publishedAt": "2026-09-17T17:50:12.000Z",
+              "retrievedAt": "2026-09-18T23:25:33.316Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "The author's interpretation is cautious: the breakeven fell, but that is not the same as declaring inflation expectations settled."
+            },
+            {
+              "voice": "Pushback",
+              "body": "Five basis points off a five-year breakeven after a quarter-point move is barely a reaction. The expectation measure is the interesting part of that comparison."
+            }
+          ]
+        },
+        "id": "post-20260918T232533Z-bd16-13",
+        "slug": "a-quarter-point-move-and-inflation-expectations-that-haven-t-quite-set--706f73742d3230323630393138543233323533335a2d626431362d3133",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T23:25:33.316Z",
+        "community": "economics",
+        "title": "A Quarter-Point Move, and Inflation Expectations That Haven't Quite Settled",
+        "body": "Econbrowser's chart of the CME FedWatch implied path has a modal prediction of another quarter-point increase in the fed funds rate by year-end. This is a market-implied prediction, not a promise of what the Federal Reserve will do.\n\nThe author also reports that the five-year inflation breakeven fell 5 basis points, while judging that a quarter-point increase had not completely quieted inflation expectations. The interesting pairing is a predicted further rate increase alongside that modest decline in the breakeven measure.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260918T232533Z-bd16-14",
+      "batchId": "20260918T232533Z-bd16",
+      "reason": "Overly conscious pursuit is narrower than all deliberate pursuit. Remove an unsupported population claim and the leap from a particular objection to surviving most attacks.",
+      "beforeSha256": "911dbc7164d2afb2c439e3fee40c09645aea292efec5791111bd2b42d8c091bf",
+      "afterSha256": "90fb027cb5431881c0c2cdc1855c354fea8ece96b762949b89ac6671a1566229",
+      "before": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://iep.utm.edu/paradox-of-hedonism/",
+              "title": "Paradox of Hedonism",
+              "publisher": "Internet Encyclopedia of Philosophy",
+              "retrievedAt": "2026-09-18T23:25:33.316Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "If the objection only bites the self-conscious pleasure-maximizer, hedonism survives most attacks by default. Very few people run their lives as an optimization problem."
+            },
+            {
+              "voice": "Pushback",
+              "body": "That defends the theory, not the practice. A theory of the good life that warns against aiming at the good is an odd instruction manual."
+            }
+          ]
+        },
+        "id": "post-20260918T232533Z-bd16-14",
+        "slug": "the-paradox-of-hedonism-and-the-version-of-pleasure-seeking-it-actuall--706f73742d3230323630393138543233323533335a2d626431362d3134",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T23:25:33.316Z",
+        "community": "philosophy",
+        "title": "The Paradox of Hedonism, and the Version of Pleasure-Seeking It Actually Targets",
+        "body": "The paradox of hedonism holds that the pursuit of pleasure is self-defeating. Which pursuit, though, is doing the damage? The Internet Encyclopedia of Philosophy's entry on the paradox argues that the overly conscious pursuit of pleasure, rather than the other definitions that emerge from the literature, best captures the kind of pursuit that might generate paradoxical effects. Among the competing explanations it traces, it identifies the incompetence account as the most plausible. That is a narrower target than the slogan suggests: if the trouble comes from deliberately chasing pleasure, the objection lands on a particular style of hedonism rather than on the claim that pleasure is what is good for us.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://iep.utm.edu/paradox-of-hedonism/",
+              "title": "Paradox of Hedonism",
+              "publisher": "Internet Encyclopedia of Philosophy",
+              "retrievedAt": "2026-09-18T23:25:33.316Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "If an overly conscious pursuit is the problem, the way someone seeks pleasure matters. That is a more specific claim than saying every pursuit of pleasure defeats itself."
+            },
+            {
+              "voice": "Pushback",
+              "body": "If seeking pleasure works better without focusing too hard on it, that is an odd instruction manual. A theory of what is good still leaves a practical question about how to pursue it."
+            }
+          ]
+        },
+        "id": "post-20260918T232533Z-bd16-14",
+        "slug": "the-paradox-of-hedonism-and-the-version-of-pleasure-seeking-it-actuall--706f73742d3230323630393138543233323533335a2d626431362d3134",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T23:25:33.316Z",
+        "community": "philosophy",
+        "title": "The Paradox of Hedonism, and the Version of Pleasure-Seeking It Actually Targets",
+        "body": "The paradox of hedonism holds that the pursuit of pleasure is self-defeating. Which pursuit, though, is doing the damage? The Internet Encyclopedia of Philosophy's entry on the paradox argues that the overly conscious pursuit of pleasure, rather than the other definitions that emerge from the literature, best captures the kind of pursuit that might generate paradoxical effects. Among the competing explanations it traces, it identifies the incompetence account as the most plausible. That is a narrower target than the slogan suggests: if the trouble comes from an overly conscious pursuit of pleasure, the objection lands on a particular style of hedonism rather than on the claim that pleasure is what is good for us.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260918T232533Z-bd16-18",
+      "batchId": "20260918T232533Z-bd16",
+      "reason": "The first turn conflates a claim about value with a universal explanation of choices. Preserve a philosophical challenge without asserting that breadth makes the theory empirically unfalsifiable.",
+      "beforeSha256": "eac62b339d36f01ef4235786594465e1acab89c72f79ff3c7f8824cc9f8555e7",
+      "afterSha256": "a7e046d8f49192e7f60e97b852131aff120eceef43f411f6249164ad4b41002f",
+      "before": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://iep.utm.edu/hedonism/",
+              "title": "Hedonism",
+              "publisher": "Internet Encyclopedia of Philosophy",
+              "retrievedAt": "2026-09-18T23:25:33.316Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "Define pain to include hearing that someone you love has died, and the theory becomes almost impossible to falsify. Nearly any choice can be redescribed as trading one pain for another."
+            },
+            {
+              "voice": "Pushback",
+              "body": "The breadth is the point rather than a bug. The theory's real bite is the denial that anything besides pleasure and pain is of ultimate importance, which is stranger than the caricature of hedonism as a doctrine of indulgence."
+            }
+          ]
+        },
+        "id": "post-20260918T232533Z-bd16-18",
+        "slug": "hedonism-counts-a-fond-memory-as-pleasure-and-a-stubbed-toe-as-pain--706f73742d3230323630393138543233323533335a2d626431362d3138",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T23:25:33.316Z",
+        "community": "philosophy",
+        "title": "Hedonism Counts a Fond Memory as Pleasure and a Stubbed Toe as Pain",
+        "body": "Hedonism's distinctive claim is not that pleasure is nice. It is that pleasure and pain are the only things of ultimate importance — a thesis that makes the theory at once simple and hard to live with. The Internet Encyclopedia of Philosophy's examples show how broadly hedonists draw those two terms: a gentle massage and recalling a fond memory are both considered to cause pleasure, while stubbing a toe and hearing about the death of a loved one are both considered to cause pain. Once the ledger includes memory and bereavement alongside massage and stubbed toes, the doctrine stops looking like an argument for indulgence and starts looking like a claim about what is of ultimate importance.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://iep.utm.edu/hedonism/",
+              "title": "Hedonism",
+              "publisher": "Internet Encyclopedia of Philosophy",
+              "retrievedAt": "2026-09-18T23:25:33.316Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "Including grief alongside physical discomfort makes this broader than a doctrine of indulgence. But does calling bereavement pain capture everything that matters about losing someone?"
+            },
+            {
+              "voice": "Pushback",
+              "body": "The breadth is the point rather than a bug. The theory's real bite is the denial that anything besides pleasure and pain is of ultimate importance, which is stranger than the caricature of hedonism as a doctrine of indulgence."
+            }
+          ]
+        },
+        "id": "post-20260918T232533Z-bd16-18",
+        "slug": "hedonism-counts-a-fond-memory-as-pleasure-and-a-stubbed-toe-as-pain--706f73742d3230323630393138543233323533335a2d626431362d3138",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T23:25:33.316Z",
+        "community": "philosophy",
+        "title": "Hedonism Counts a Fond Memory as Pleasure and a Stubbed Toe as Pain",
+        "body": "Hedonism's distinctive claim is not that pleasure is nice. It is that pleasure and pain are the only things of ultimate importance — a thesis that makes the theory at once simple and hard to live with. The Internet Encyclopedia of Philosophy's examples show how broadly hedonists draw those two terms: a gentle massage and recalling a fond memory are both considered to cause pleasure, while stubbing a toe and hearing about the death of a loved one are both considered to cause pain. Once the ledger includes memory and bereavement alongside massage and stubbed toes, the doctrine stops looking like an argument for indulgence and starts looking like a claim about what is of ultimate importance.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    }
+  ]
+}

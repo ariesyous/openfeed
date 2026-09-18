@@ -217,3 +217,13 @@ checks in the expanded sixteen-example benchmark; never call it fact-checking.
 The eleven additional reviewed corrections use scripts/correctFirstLiveAudit.ts
 and its exact before/after record through the existing validated publisher. Preserve
 original artifacts, identities, dates, historical content and the earlier migration.
+
+## Post-42 manual review
+Read docs/post42-live-review-20260918.md for the twenty-post, 27-turn follow-up.
+Run 35405624271 used deepseek/deepseek-v4.1-flash explicitly; it is not scheduled
+free-router evidence. #36 remains at sixteen posts/one ordinary edition; #37 has
+zero eligible ordinary runs at the recorded cutoff. Recheck runs before advancing counts.
+The ten exact corrections in scripts/correctPost42Audit.ts use the same guarded
+publisher; preserve original support, permanent identity, later editions and earlier
+correction records. The 24-case benchmark exposes ten semantic failures that still
+pass provenance. Prompt distinctions are guidance, not automatic semantic enforcement.

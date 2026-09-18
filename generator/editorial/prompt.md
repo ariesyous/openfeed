@@ -48,6 +48,19 @@ publisher or named speaker instead. Distinguish a critic's account from the pers
 being criticized; a survey of students is not a survey of faculty. A source's
 question does not establish its answer, and photo captions do not date an entire
 town's history. Select evidence from the actual attached source for each claim.
+Carry comparison classes, denominators and time periods into titles as well as bodies.
+One percent of inhibitory neurons is not one percent of the cortex; the largest
+asteroid is not necessarily the largest body in the belt. Annualized quarterly
+growth and fourth-quarter-over-fourth-quarter growth are different measures: their
+numeric gap alone does not establish disagreement between forecasting methods.
+Non-rival consumption does not mean a zero price. Preserve "largely" rather than
+turning it into "none". A claim about what has value is not automatically a claim
+about what motivates every choice. Do not introduce unsupported population claims
+or invented time-to-failure estimates in discussion. A later corrective turn does
+not excuse an unsupported assertion in an earlier turn; revise or omit the block.
+Keep body support self-contained within its selected IDs; discussion-only IDs do
+not cover uncited factual clauses in the parent. Narrow the post when three IDs
+cannot support its details, including necessary sentence continuations.
 contextTruncated means further source text was omitted from this bounded packet.
 Do not infer what the omitted text says, treat the last snippet as the article's final
 conclusion, or narrate the truncation in reader-facing copy.

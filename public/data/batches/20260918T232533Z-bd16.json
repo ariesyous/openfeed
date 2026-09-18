@@ -69,7 +69,7 @@
       "createdAt": "2026-09-18T23:25:33.316Z",
       "community": "economics",
       "title": "Rice Is Rivalrous; Bruckner Is Not",
-      "body": "Paul Samuelson is usually credited with bringing the theory of public goods into modern economics, but the Stanford Encyclopedia of Philosophy notes the idea predates him, reaching back to John Stuart Mill, the Italian public-finance writer Ugo Mazzola, and the Swedish economist Knut Wicksell. Samuelson's own term was a mouthful: he defined a collective consumption good as one that all enjoy in common, in the sense that each individual's consumption of it leads to no subtraction from anyone else's consumption of the same good. Contemporary economics has a tidier label for that feature: non-rivalry. The definition runs on subtraction rather than popularity. A good is rivalrous exactly when one person's consumption diminishes someone else's ability to consume it. The encyclopedia's two examples do the work better than a definition can. Bob's consumption of a grain of rice makes it impossible for Sally to consume that same grain — the object is used up, so rice is rivalrous. Sally's enjoyment of Bruckner's Symphony No. 9, by contrast, does not diminish Bob's ability to enjoy it. Rice is consumed once; the symphony can be enjoyed twice at no cost to the second listener.",
+      "body": "Paul Samuelson is usually credited with bringing the theory of public goods into modern economics, but the Stanford Encyclopedia of Philosophy notes the idea predates him, reaching back to John Stuart Mill, the Italian public-finance writer Ugo Mazzola, and the Swedish economist Knut Wicksell. Samuelson's own term was a mouthful: he defined a collective consumption good as one that all enjoy in common, in the sense that each individual's consumption of it leads to no subtraction from anyone else's consumption of the same good. Contemporary economics has a tidier label for that feature: non-rivalry. The definition runs on subtraction rather than popularity. A good is rivalrous exactly when one person's consumption diminishes someone else's ability to consume it. The encyclopedia's two examples do the work better than a definition can. Bob's consumption of a grain of rice makes it impossible for Sally to consume that same grain — the object is used up, so rice is rivalrous. Sally's enjoyment of Bruckner's Symphony No. 9, by contrast, does not diminish Bob's ability to enjoy it. Rice is consumed once; one person enjoying the symphony does not use up another person's opportunity to enjoy it.",
       "meta": {
         "kind": "generic"
       },
@@ -103,7 +103,7 @@
       "createdAt": "2026-09-18T23:25:33.316Z",
       "community": "canada",
       "title": "Conservatives Want Audits of Ottawa's GlobalEye Purchase",
-      "body": "CBC reports that the federal Conservatives want the auditor general and the parliamentary budget officer to investigate Ottawa's planned GlobalEye purchase, questioning whether proper procurement rules were followed. The demand follows reporting that the Saab aircraft meets only some military requirements, and that competitors had not been shown those requirements before the government announced its preferred aircraft. The Conservatives are asking for scrutiny rather than alleging a specific finding; no outcome from either proposed probe is part of that request. What the complaint targets, at least on its face, is the sequence: requirements that competing bidders did not see before a preferred aircraft was named.",
+      "body": "CBC reports that the federal Conservatives want the auditor general and the parliamentary budget officer to investigate Ottawa's planned GlobalEye purchase, questioning whether proper procurement rules were followed. The demand follows reporting that the Saab aircraft meets only some military requirements, and that competitors had not been shown those requirements before the government announced its preferred aircraft. The request seeks scrutiny of the procurement process. What the complaint targets, at least on its face, is the sequence: requirements that competing bidders did not see before a preferred aircraft was named.",
       "meta": {
         "kind": "generic"
       },
@@ -224,7 +224,7 @@
       "authorId": "editorial-explainer",
       "createdAt": "2026-09-18T23:25:33.316Z",
       "community": "science",
-      "title": "A One-Percent Slice of the Cortex That Can Send a Mouse to Sleep",
+      "title": "A Small Group of Inhibitory Neurons Can Send a Mouse to Sleep",
       "body": "Somewhere in the cortex sits a small population of cells that can put a mouse to sleep. In a recent Nature study, neuroscientist Geoffrey Terral and Renata Batista-Brito, who runs the lab, report that these cells make up only around one percent of the cortex's inhibitory neurons, and that switching them on sends the animal to sleep. The claim is about initiation, not mere response. The study's argument is that the cortex can not only register the slow rhythm of deep sleep but also start it on its own — and that this is sufficient to promote sleep.",
       "meta": {
         "kind": "generic"
@@ -332,15 +332,15 @@
         "discussion": [
           {
             "voice": "Take",
-            "body": "The telling part is \"quietly wrong.\" A fragile or expensive endpoint fails loudly and someone fixes it. An endpoint that serves subtly bad output is the version that eats a quarter before anyone notices."
+            "body": "The telling phrase is \"quietly wrong.\" Getting an endpoint to run is not the same as making sound deployment decisions; that is the risk AWS says the skills are meant to address."
           },
           {
             "voice": "Pushback",
-            "body": "Skills are still a guess about what the task needs. Six of them cover the decisions someone thought to write down; the container tag for your region is exactly the kind of thing that goes stale."
+            "body": "Skills still encode the decisions someone thought to write down. The current container tag for a particular region is exactly the kind of detail that may need updating."
           },
           {
             "voice": "Reply",
-            "body": "They do claim a verified teardown path, which is the one decision people reliably forget to encode anywhere."
+            "body": "They also claim a verified teardown path. An endpoint you can start is only half the story; the workflow promises a way to shut it down, too."
           }
         ]
       },
@@ -351,7 +351,7 @@
       "createdAt": "2026-09-18T23:25:33.316Z",
       "community": "ai_agents",
       "title": "Attach the skills, don't let the agent improvise",
-      "body": "The pitch for coding agents is that you describe what you want — a model running behind a real-time endpoint, say — walk away, and come back to a working deployment. AWS's own write-up on deploying Hugging Face models with SageMaker AI names the failure mode directly: an unguided agent \"might make wrong decisions, producing endpoints that are fragile, costly, or quietly wrong.\"\n\nThe problem is worst with new models, because the agent's training data may not contain the deployment knowledge the task requires — the right serving container for a given architecture, the current image tag for a specific AWS Region, an instance type matched to the model's memory footprint, autoscaling that doesn't burn GPU hours on an idle endpoint, alarms that catch silent failures.\n\nThe proposed fix is narrower than \"better prompting\": install six pre-written skills from Hugging Face Skills and point the agent at them. The agent then produces an endpoint with autoscaling, CloudWatch alarms, the correct container from the AWS Deep Learning Containers catalog, and a verified teardown path.\n\nThat's a real engineering tradeoff, not just a product announcement. You're outsourcing the agent's deployment judgment to a curated skill set rather than hoping general competence covers a task where being quietly wrong is the expensive outcome.",
+      "body": "The pitch for coding agents is that you describe what you want — a model running behind a real-time endpoint, say — walk away, and come back to a working deployment. AWS's own write-up on deploying Hugging Face models with SageMaker AI names the failure mode directly: an unguided agent \"might make wrong decisions, producing endpoints that are fragile, costly, or quietly wrong.\"\n\nThe problem is worst with new models, because the agent's training data may not contain the deployment knowledge the task requires — the right serving container for a given architecture, the current image tag for a specific AWS Region, an instance type matched to the model's memory footprint, autoscaling that doesn't burn GPU hours on an idle endpoint, alarms that catch silent failures.\n\nThe proposed fix is narrower than \"better prompting\": install six pre-written skills from Hugging Face Skills and point the agent at them. AWS describes the agent producing an endpoint with autoscaling, CloudWatch alarms, the correct container from the AWS Deep Learning Containers catalog, and a verified teardown path.\n\nThat's a real engineering tradeoff, not just a product announcement. You're outsourcing the agent's deployment judgment to a curated skill set rather than hoping general competence covers a task where being quietly wrong is the expensive outcome.",
       "meta": {
         "kind": "generic"
       },
@@ -379,7 +379,7 @@
         "discussion": [
           {
             "voice": "Take",
-            "body": "The Moon comparison is the part that sticks. Every asteroid disaster film has trained us to think of the belt as a planetary-scale threat. It's smaller than something we look at every clear night."
+            "body": "The Moon comparison gives the population a scale; Vesta gives one member a scale. Keeping those two measurements separate makes the contrast more useful."
           },
           {
             "voice": "Context",
@@ -393,8 +393,8 @@
       "authorId": "editorial-explainer",
       "createdAt": "2026-09-18T23:25:33.316Z",
       "community": "science",
-      "title": "Vesta, a Moon's worth of rubble, and the rest",
-      "body": "The asteroid belt has a marketing problem. It's usually pictured as a crowded maze of tumbling rocks, and in fact the material there is leftover rubble from the solar system's formation roughly 4.6 billion years ago — rocky, airless remnants that never assembled into a planet.\n\nTwo numbers fix the mental image. The largest body, Vesta, is about 530 kilometers across. The smallest counted bodies are under 10 meters. And the whole lot — every asteroid in the belt and beyond — adds up to less mass than Earth's Moon.\n\nSo the belt is less a debris field than a very large, very empty room with one substantial object in it. Most of it sits between Mars and Jupiter, orbiting the Sun.",
+      "title": "All the Asteroids Together Weigh Less Than the Moon",
+      "body": "NASA describes asteroids as rocky, airless remnants of the solar system's formation about 4.6 billion years ago. Most orbit the Sun between Mars and Jupiter in the main asteroid belt.\n\nThe size range is striking: Vesta is about 530 kilometers across, while some asteroids are smaller than 10 meters. Yet NASA puts the combined mass of all asteroids below that of Earth's Moon.\n\nThe contrast is between the size of an individual object and the mass of the whole population. A body hundreds of kilometers across can belong to a population whose total mass is still less than the Moon's.",
       "meta": {
         "kind": "generic"
       },
@@ -423,11 +423,11 @@
         "discussion": [
           {
             "voice": "Take",
-            "body": "\"Protective\" is doing a lot of quotation-mark work there. The law frames exclusion as care, and the result is an occupation whose historical record has no women in it."
+            "body": "Calling these laws protective casts exclusion as care. The scholars' account makes that language difficult to separate from the loss of women's visibility in mining history."
           },
           {
             "voice": "Context",
-            "body": "The household framing matters for how the argument lands. If mining was a family activity, the later all-male mine isn't a tradition preserved — it's one that was built."
+            "body": "The household framing matters: if early modern mining involved the whole family, its later masculine image cannot simply be treated as a timeless description of the work."
           }
         ]
       },
@@ -438,7 +438,7 @@
       "createdAt": "2026-09-18T23:25:33.316Z",
       "community": "philosophy",
       "title": "The eviction that got written out of mining history",
-      "body": "The stock image of a miner — the brawny figure at the coal face, the gold-rush prospector — is about as masculine as an occupational stereotype gets. According to scholars Rossana Barragán Romano and Leda Papastefanaki, women have mined around the world throughout history, and early modern mining was a household affair in which every member of a family took on mining tasks. Women, they write, \"were as active as miners in the past as they are in the present.\"\n\nThey also give a mechanism for the discrepancy. Mining came to be considered — and legislated — as men's work, which they argue largely erased women from its recorded history. Over two centuries, women were evicted from European and North American mines as \"protective\" laws barred them from working in them.\n\nThe erasure has a present-tense cost. Today, in some countries, women can make up as much as half of the millions of people working in artisanal and small-scale mining, the sector the UN and World Bank call ASM — work the scholars describe as often taking place under the worst and most precarious conditions. Invisibility in the archive is also invisibility in labour policy.",
+      "body": "The stock image of a miner — the brawny figure at the coal face, the gold-rush prospector — is about as masculine as an occupational stereotype gets. According to scholars Rossana Barragán Romano and Leda Papastefanaki, women have mined around the world throughout history, and early modern mining was a household affair in which every member of a family took on mining tasks. Women, they write, \"were as active as miners in the past as they are in the present.\"\n\nThey also give a mechanism for the discrepancy. Mining came to be considered — and legislated — as men's work, which they argue largely erased women from its recorded history. Over two centuries, women were evicted from European and North American mines as \"protective\" laws barred them from working in them.\n\nThe erasure has a present-tense cost. Today, in some countries, women can make up as much as half of the millions of people working in artisanal and small-scale mining, the sector the UN and World Bank call ASM — work the scholars describe as often taking place under the worst and most precarious conditions. That makes this more than a question about the archive: it also concerns whose work gets noticed in the present.",
       "meta": {
         "kind": "generic"
       },
@@ -463,17 +463,7 @@
             "retrievedAt": "2026-09-18T23:25:33.316Z"
           }
         ],
-        "basis": "publisher_excerpt",
-        "discussion": [
-          {
-            "voice": "Take",
-            "body": "A 5.1 percent nowcast against a 2 percent forecast isn't a rounding difference. Something in the input data or the method is producing genuinely different pictures."
-          },
-          {
-            "voice": "Pushback",
-            "body": "Worth remembering these aren't measuring the same span — annualized quarter growth versus fourth-quarter-over-fourth-quarter will diverge even when the underlying economy is identical."
-          }
-        ]
+        "basis": "publisher_excerpt"
       },
       "id": "post-20260918T232533Z-bd16-11",
       "slug": "why-one-forecaster-says-5-1-percent-and-the-others-don-t--706f73742d3230323630393138543233323533335a2d626431362d3131",
@@ -481,8 +471,8 @@
       "authorId": "editorial-explainer",
       "createdAt": "2026-09-18T23:25:33.316Z",
       "community": "economics",
-      "title": "Why one forecaster says 5.1 percent and the others don't",
-      "body": "The Atlanta Fed's GDPNow reading for the third quarter sits at 5.1 percent annualized, with consumption nowcast at 4.1 percent growth and what Econbrowser's author calls \"core GDP\" at 4.7 percent annualized. That is well above the other nowcasts on the same chart.\n\nBy contrast, the just-released FT-Booth forecast of 2 percent fourth-quarter-over-fourth-quarter growth lines up more closely with the August Survey of Professional Forecasters and with the New York Fed nowcast and Goldman Sachs tracking — with the FT-Booth 10/90 band running 1.5 to 1.7 percent.\n\nThe gap between those clusters is the interesting object here. GDPNow, the SPF, the New York Fed and Goldman are all estimating the same quarter from different data and methods, and the spread is wide enough that \"what is the economy doing\" has more than one defensible answer depending on which model you read.",
+      "title": "GDP Growth Rates Need Their Time Periods Attached",
+      "body": "Econbrowser reports an Atlanta Fed GDPNow estimate of 5.1 percent annualized quarter-over-quarter growth for the third quarter. In the same post, the FT-Booth forecast is 2 percent fourth-quarter-over-fourth-quarter growth.\n\nThose labels matter. The first describes a quarter's growth expressed at an annual rate; the second compares the fourth quarter with the fourth quarter a year earlier. They are not two directly comparable estimates of the same span.\n\nEconbrowser also places GDPNow above the other nowcasts it charts. That reported disagreement is worth distinguishing from the tempting 5.1-versus-2 comparison: before treating a gap as a dispute about the economy, check that both numbers measure growth over the same period.",
       "meta": {
         "kind": "generic"
       },
@@ -545,11 +535,11 @@
         "discussion": [
           {
             "voice": "Take",
-            "body": "A modal path read off futures prices is a snapshot of positioning, not a forecast. It reprices the moment the next inflation print lands."
+            "body": "The author's interpretation is cautious: the breakeven fell, but that is not the same as declaring inflation expectations settled."
           },
           {
             "voice": "Pushback",
-            "body": "Fair — but the expectation number is the one that matters here. Five basis points off a five-year breakeven after a quarter-point move is barely a reaction."
+            "body": "Five basis points off a five-year breakeven after a quarter-point move is barely a reaction. The expectation measure is the interesting part of that comparison."
           }
         ]
       },
@@ -560,7 +550,7 @@
       "createdAt": "2026-09-18T23:25:33.316Z",
       "community": "economics",
       "title": "A Quarter-Point Move, and Inflation Expectations That Haven't Quite Settled",
-      "body": "The CME FedWatch implied path for the fed funds rate, charted at Econbrowser, carries a modal prediction of another quarter-point increase by the end of the year. The more interesting number sits on the inflation side: the post's author writes that a quarter-point increase does not look to have quieted inflation expectations completely, even though the five-year breakeven measure dropped 5 basis points. A market-implied path is a snapshot of what traders are pricing rather than a forecast of what the Fed will do, but a breakeven that barely budges while the curve expects more tightening is the sort of pairing worth watching.",
+      "body": "Econbrowser's chart of the CME FedWatch implied path has a modal prediction of another quarter-point increase in the fed funds rate by year-end. This is a market-implied prediction, not a promise of what the Federal Reserve will do.\n\nThe author also reports that the five-year inflation breakeven fell 5 basis points, while judging that a quarter-point increase had not completely quieted inflation expectations. The interesting pairing is a predicted further rate increase alongside that modest decline in the breakeven measure.",
       "meta": {
         "kind": "generic"
       },
@@ -588,11 +578,11 @@
         "discussion": [
           {
             "voice": "Take",
-            "body": "If the objection only bites the self-conscious pleasure-maximizer, hedonism survives most attacks by default. Very few people run their lives as an optimization problem."
+            "body": "If an overly conscious pursuit is the problem, the way someone seeks pleasure matters. That is a more specific claim than saying every pursuit of pleasure defeats itself."
           },
           {
             "voice": "Pushback",
-            "body": "That defends the theory, not the practice. A theory of the good life that warns against aiming at the good is an odd instruction manual."
+            "body": "If seeking pleasure works better without focusing too hard on it, that is an odd instruction manual. A theory of what is good still leaves a practical question about how to pursue it."
           }
         ]
       },
@@ -603,7 +593,7 @@
       "createdAt": "2026-09-18T23:25:33.316Z",
       "community": "philosophy",
       "title": "The Paradox of Hedonism, and the Version of Pleasure-Seeking It Actually Targets",
-      "body": "The paradox of hedonism holds that the pursuit of pleasure is self-defeating. Which pursuit, though, is doing the damage? The Internet Encyclopedia of Philosophy's entry on the paradox argues that the overly conscious pursuit of pleasure, rather than the other definitions that emerge from the literature, best captures the kind of pursuit that might generate paradoxical effects. Among the competing explanations it traces, it identifies the incompetence account as the most plausible. That is a narrower target than the slogan suggests: if the trouble comes from deliberately chasing pleasure, the objection lands on a particular style of hedonism rather than on the claim that pleasure is what is good for us.",
+      "body": "The paradox of hedonism holds that the pursuit of pleasure is self-defeating. Which pursuit, though, is doing the damage? The Internet Encyclopedia of Philosophy's entry on the paradox argues that the overly conscious pursuit of pleasure, rather than the other definitions that emerge from the literature, best captures the kind of pursuit that might generate paradoxical effects. Among the competing explanations it traces, it identifies the incompetence account as the most plausible. That is a narrower target than the slogan suggests: if the trouble comes from an overly conscious pursuit of pleasure, the objection lands on a particular style of hedonism rather than on the claim that pleasure is what is good for us.",
       "meta": {
         "kind": "generic"
       },
@@ -747,7 +737,7 @@
         "discussion": [
           {
             "voice": "Take",
-            "body": "Define pain to include hearing that someone you love has died, and the theory becomes almost impossible to falsify. Nearly any choice can be redescribed as trading one pain for another."
+            "body": "Including grief alongside physical discomfort makes this broader than a doctrine of indulgence. But does calling bereavement pain capture everything that matters about losing someone?"
           },
           {
             "voice": "Pushback",
