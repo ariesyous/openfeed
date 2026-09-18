@@ -244,7 +244,27 @@
     "attorney general blanche blurs justice department boundaries by appearing at political events",
     "ever more israelis moving to and investing in cyprus",
     "amazon sagemaker inference 2026 year to date launches in review",
-    "canada s betterhalf films joins indonesia s studio amarana on animated film galeo of the seawalkers exclusive"
+    "canada s betterhalf films joins indonesia s studio amarana on animated film galeo of the seawalkers exclusive",
+    "the paradox of suspense",
+    "public goods",
+    "globaleye surveillance plane under the microscope as conservatives call for twin probes",
+    "fcc lets paramount sell 49 5 equity stake to saudi arabia uae and qatar",
+    "nasa invites media to albania artemis accords signing ceremony",
+    "finding the cells that put our brain to sleep",
+    "how cambodian pop music survived the khmer rouge",
+    "trump says he s banning 3 outlets from white house in his latest attack on press freedom",
+    "deploy hugging face models on amazon sagemaker ai with coding agents",
+    "asteroids",
+    "the women written out of mining history",
+    "gdpnow goes gangbusters",
+    "u s saudi nuclear power deal faces pushback over potential weapons risks",
+    "fed funds expected trajectory and other rates",
+    "paradox of hedonism",
+    "carney government files 3rd court challenge in first nations child welfare complaint",
+    "manitobans brace for dark mornings lighter evenings after time change nixed",
+    "liquidity optimization in gross settlement systems with quantum reordering application to target2",
+    "hedonism",
+    "a new chapter for mit reads"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -490,12 +510,32 @@
     "https://www.pbs.org/newshour/politics/attorney-general-blanche-blurs-justice-department-boundaries-by-appearing-at-political-events",
     "https://www.dw.com/en/ever-more-israelis-moving-to-and-investing-in-cyprus/a-79330240?maca=en-rss-en-world-4025-rdf",
     "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-year-to-date-launches-in-review/",
-    "https://variety.com/2026/film/global/betterhalf-galeo-of-the-seawalkers-viff-business-hub-1236865133/"
+    "https://variety.com/2026/film/global/betterhalf-galeo-of-the-seawalkers-viff-business-hub-1236865133/",
+    "https://plato.stanford.edu/entries/paradox-suspense/",
+    "https://plato.stanford.edu/entries/public-goods/",
+    "https://www.cbc.ca/news/politics/globaleye-military-saab-canada-surveillance-9.7350393?cmp=rss",
+    "https://arstechnica.com/tech-policy/2026/09/fcc-lets-paramount-sell-49-5-equity-stake-to-saudi-arabia-uae-and-qatar/",
+    "https://www.nasa.gov/news-release/nasa-invites-media-to-albania-artemis-accords-signing-ceremony/",
+    "https://arstechnica.com/science/2026/09/finding-the-cells-that-put-our-brain-to-sleep/",
+    "https://daily.jstor.org/how-cambodian-pop-music-survived-the-khmer-rouge/",
+    "https://www.pbs.org/newshour/show/trump-says-hes-banning-3-outlets-from-white-house-in-his-latest-attack-on-press-freedom",
+    "https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents/",
+    "https://science.nasa.gov/solar-system/asteroids/",
+    "https://daily.jstor.org/the-women-written-out-of-mining-history/",
+    "https://econbrowser.com/archives/2026/09/gdpnow-goes-gangbusters",
+    "https://www.pbs.org/newshour/show/u-s-saudi-nuclear-power-deal-faces-pushback-over-potential-weapons-risks",
+    "https://econbrowser.com/archives/2026/09/fed-funds-expected-trajectory-and-other-rates",
+    "https://iep.utm.edu/paradox-of-hedonism/",
+    "https://www.cbc.ca/news/indigenous/first-nations-tribunal-court-9.7349907?cmp=rss",
+    "https://globalnews.ca/news/12064969/manitoba-dark-mornings-time-change-nixed/",
+    "https://www.bankofcanada.ca/2026/09/staff-working-paper-2026-32/",
+    "https://iep.utm.edu/hedonism/",
+    "https://news.mit.edu/2026/new-chapter-mit-reads-0918"
   ],
   "initialized": true,
-  "cycleCount": 29,
+  "cycleCount": 30,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-18T21:39:19.784Z",
+  "lastRunAt": "2026-09-18T23:25:33.316Z",
   "communities": [
     "technology",
     "science",
@@ -517,11 +557,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260918T055248Z-a06c",
-      "generatedAtCycle": 25,
-      "summary": "Watermarking Changes More Than the Words a Model Picks; Why a Weaker Currency Might Not Sell More Exports; The Medieval Rule That Made a Deadly Object Pay; An X-Ray Matching Tool That Adapts to One Patient in Five Minutes; Pick the Best Weighted Average, Not the Best Story; Let the Model Wander, Then Enforce the Constraint; The IV 'Detox' Drip Made From Powder Graded for Pills; Métis Is a Peoplehood, Not a Fraction; The CBO's $38 Billion Bill for the Iran Conflict — and the Price of a Worse Mont"
-    },
-    {
       "batchId": "20260918T094304Z-2e4a",
       "generatedAtCycle": 26,
       "summary": "Hyundai Ioniq 5 AWD offers fast charge but reduced range; RFK Jr. names eight members to the stalled preventive-medicine panel; Palace pushes back on Earl Spencer’s latest criticism of King Charles; Why dropping grades won’t automatically fix student stress; Plastic waste becomes a 40-foot bridge in Massachusetts; NASA spots a massive new crater on the Moon; House passes sweeping new sanctions on Russia; What the Navier‑Stokes equation is and why an AI‑proposed solution matters; AI‑guided ultras"
@@ -540,6 +575,11 @@
       "batchId": "20260918T213919Z-f7d9",
       "generatedAtCycle": 29,
       "summary": "XRISM Sees a Star’s Wind Power Its Companion’s Flares; A Qwen Tool on the Federal Register Was Removed; Two Profit Measures, Two Different Stories; Well-Being Is About What Makes a Life Go Well; Canadian Jewish faculty say university EDI offices met them with silence after Oct. 7; NASA's COSI telescope will hunt gamma rays from antimatter and dying stars; FAA to debut AI air-traffic advisor over Washington, D.C. as soon as Monday; What the American landscape looked like before the suburb took ov"
+    },
+    {
+      "batchId": "20260918T232533Z-bd16",
+      "generatedAtCycle": 30,
+      "summary": "Fear, Hope, and Not Knowing: The Recipe Suspense Runs On; Rice Is Rivalrous; Bruckner Is Not; Conservatives Want Audits of Ottawa's GlobalEye Purchase; FCC Clears Sovereign-Fund Stakes That Take Paramount's Foreign Ownership to 49.5%; Albania Set to Become the 73rd Country to Sign the Artemis Accords; A One-Percent Slice of the Cortex That Can Send a Mouse to Sleep; The Khmer Rouge Killed Nine in Ten of Cambodia's Professional Musicians. The Music Came Back.; Trump Says He Is Barring CNN, MS NOW"
     }
   ]
 }
