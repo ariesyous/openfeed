@@ -1,0 +1,341 @@
+{
+  "batchId": "20260918T094304Z-2e4a",
+  "generatedAt": "2026-09-18T09:43:04.653Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/cars/2026/09/2026-hyundai-ioniq-5-heres-what-we-still-like-heres-what-annoys-us/",
+            "title": "2026 Hyundai Ioniq 5: Here's what we still like, here's what annoys us",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-17T17:30:30.000Z",
+            "retrievedAt": "2026-09-18T09:43:04.653Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The fast‑charge capability is a genuine advantage for daily drivers."
+          },
+          {
+            "voice": "Pushback",
+            "body": "But the AWD model’s lower range shows that efficiency suffers when traction is added."
+          },
+          {
+            "voice": "Reply",
+            "body": "Higher horsepower may offset the range loss for drivers who need all‑wheel grip."
+          }
+        ]
+      },
+      "id": "post-20260918T094304Z-2e4a-0",
+      "slug": "hyundai-ioniq-5-awd-offers-fast-charge-but-reduced-range--706f73742d3230323630393138543039343330345a2d326534612d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T09:43:04.653Z",
+      "community": "technology",
+      "title": "Hyundai Ioniq 5 AWD offers fast charge but reduced range",
+      "body": "The 2026 Hyundai Ioniq 5 AWD Limited, built on the same 800 V platform that once powered premium EVs, can charge from 10 % to 80 % in just 18 minutes (S1E3). While the retro‑styled hatch still turns heads, the compact electric crossover segment is now far more competitive (S1E5). The AWD version adds a front motor for 320 hp and 446 lb‑ft of torque, but its EPA range falls to 269 mi compared with 318 mi for the rear‑wheel drive model (S1E10).",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/health/2026/09/rfk-jr-stacks-another-influential-federal-panel-with-questionable-picks/",
+            "title": "RFK Jr. names 8 new members to influential preventive medicine task force",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-17T22:31:28.000Z",
+            "retrievedAt": "2026-09-18T09:43:04.653Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T094304Z-2e4a-1",
+      "slug": "rfk-jr-names-eight-members-to-the-stalled-preventive-medicine-panel--706f73742d3230323630393138543039343330345a2d326534612d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T09:43:04.653Z",
+      "community": "united_states",
+      "title": "RFK Jr. names eight members to the stalled preventive-medicine panel",
+      "body": "Health Secretary Robert F. Kennedy Jr. has named eight new members to the 16-person U.S. Preventive Services Task Force. The panel rates services on an A-to-D scale, and insurers must cover preventive services that receive an A or B at no cost. The announcement follows more than a year in which Kennedy sidelined the task force, canceling meetings.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/king-charles-earl-spencer-clash-over-diana-death-once-again/a-79305876?maca=en-rss-en-world-4025-rdf",
+            "title": "King Charles, Earl Spencer clash over Diana death once again",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-17T11:06:00.000Z",
+            "retrievedAt": "2026-09-18T09:43:04.653Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T094304Z-2e4a-2",
+      "slug": "palace-pushes-back-on-earl-spencer-s-latest-criticism-of-king-charles--706f73742d3230323630393138543039343330345a2d326534612d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T09:43:04.653Z",
+      "community": "world",
+      "title": "Palace pushes back on Earl Spencer’s latest criticism of King Charles",
+      "body": "Buckingham Palace has rejected criticism of King Charles III in a new book by Earl Charles Spencer, Princess Diana’s brother. Spencer has been a fierce critic of his former brother-in-law for decades, so the palace’s statement is less the start of a feud than another round of a familiar one.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/rethinking-how-we-assess-students-could-improve-their-well-being-289750",
+            "title": "Rethinking how we assess students could improve their well-being",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-17T15:56:26.000Z",
+            "retrievedAt": "2026-09-18T09:43:04.653Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The finding undercuts a lot of well-meaning grading reform: changing formats or removing grades can be a structural change without a clear psychological payoff."
+          },
+          {
+            "voice": "Pushback",
+            "body": "“Doesn’t guarantee” is not “no effect.” The average could hide real benefits for individual students, so this shouldn’t be used to rule out grading reform entirely."
+          },
+          {
+            "voice": "Reply",
+            "body": "Fair — but the author’s point is about where to spend instructors’ limited time. If a change doesn’t move average well-being, social-psychology approaches may be more practical levers."
+          }
+        ]
+      },
+      "id": "post-20260918T094304Z-2e4a-3",
+      "slug": "why-dropping-grades-won-t-automatically-fix-student-stress--706f73742d3230323630393138543039343330345a2d326534612d33",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T09:43:04.653Z",
+      "community": "canada",
+      "title": "Why dropping grades won’t automatically fix student stress",
+      "body": "Classroom assessment remains a persistent source of social pressure and unhappiness for post-secondary students, according to research described in The Conversation Canada. Yet the findings suggest that removing particular assessment formats — or even grades — does not seem to guarantee improved well-being. The author argues for borrowing from social psychology, working within the limits of instructors’ finite resources.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/mit-spinout-turns-plastic-waste-into-resilient-building-materials-0914",
+            "title": "MIT spinout turns plastic waste into resilient building materials",
+            "publisher": "MIT News",
+            "publishedAt": "2026-09-14T04:00:00.000Z",
+            "retrievedAt": "2026-09-18T09:43:04.653Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T094304Z-2e4a-4",
+      "slug": "plastic-waste-becomes-a-40-foot-bridge-in-massachusetts--706f73742d3230323630393138543039343330345a2d326534612d34",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-18T09:43:04.653Z",
+      "community": "technology",
+      "title": "Plastic waste becomes a 40-foot bridge in Massachusetts",
+      "body": "Atlas uses waterless plastic recycling and large-scale composite additive manufacturing. Its parts already support barns, sheds, decks, and docks, and the U.S. Army Corps of Engineers recently used its American-made recycled composite trusses to construct a 40-foot bridge in a Massachusetts wetland.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/news-wrap-judge-says-kennedy-center-must-provide-notice-before-making-changes-to-building",
+            "title": "News Wrap: Judge says Kennedy Center must provide notice before making changes to building",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-17T22:45:01.000Z",
+            "retrievedAt": "2026-09-18T09:43:04.653Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T094304Z-2e4a-5",
+      "slug": "nasa-spots-a-massive-new-crater-on-the-moon--706f73742d3230323630393138543039343330345a2d326534612d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T09:43:04.653Z",
+      "community": "science",
+      "title": "NASA spots a massive new crater on the Moon",
+      "body": "NASA announced the discovery of a massive new crater on the Moon, spotted in recent lunar imagery. The crater’s size suggests a recent impact, though scientists have not yet released estimates of the impacting object’s diameter or velocity. The finding adds to the growing catalogue of recent lunar impacts monitored by orbiting spacecraft.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/congress-passes-new-sanctions-on-russia-and-countries-using-russian-energy",
+            "title": "Congress passes new sanctions on Russia and countries using Russian energy",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-17T22:40:38.000Z",
+            "retrievedAt": "2026-09-18T09:43:04.653Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T094304Z-2e4a-6",
+      "slug": "house-passes-sweeping-new-sanctions-on-russia--706f73742d3230323630393138543039343330345a2d326534612d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T09:43:04.653Z",
+      "community": "united_states",
+      "title": "House passes sweeping new sanctions on Russia",
+      "body": "The House of Representatives overwhelmingly passed a bill imposing sweeping new sanctions on Russia and on nations that use Russian energy. The legislation now awaits President Trump’s signature. Supporters say the measures aim to pressure Moscow over its actions in Ukraine, while critics warn of potential spillover effects on global energy markets.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/openai-may-have-solved-the-navier-stokes-equation-but-mathematics-is-more-than-1-million-trophy-hunts-291963",
+            "title": "OpenAI may have solved the Navier-Stokes equation — but mathematics is more than $1 million trophy hunts",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-17T12:27:16.000Z",
+            "retrievedAt": "2026-09-18T09:43:04.653Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T094304Z-2e4a-7",
+      "slug": "what-the-navier-stokes-equation-is-and-why-an-ai-proposed-solution-mat--706f73742d3230323630393138543039343330345a2d326534612d37",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T09:43:04.653Z",
+      "community": "technology",
+      "title": "What the Navier‑Stokes equation is and why an AI‑proposed solution matters",
+      "body": "The Navier‑Stokes equations describe how fluids such as water and air move, capturing the conservation of momentum in continuous media. They are one of the seven Clay Mathematics Institute Millennium Prize Problems, each carrying a $1 million reward for a verified solution. Last week OpenAI shared a proposed solution to the equation; if confirmed by peer review, it would become only the second Millennium Prize Problem ever solved. The excerpt notes that the problem’s fame has grown beyond its mathematical roots, turning it into a cultural monument that can obscure the broader landscape of modern mathematics.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/lifesaving-lincoln-laboratory-technology-wins-tech-transfer-award-0911",
+            "title": "Lifesaving Lincoln Laboratory device wins 2026 Excellence in Technology Transfer Award",
+            "publisher": "MIT News",
+            "publishedAt": "2026-09-11T13:45:00.000Z",
+            "retrievedAt": "2026-09-18T09:43:04.653Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T094304Z-2e4a-8",
+      "slug": "ai-guided-ultrasound-device-wins-federal-tech-transfer-award--706f73742d3230323630393138543039343330345a2d326534612d38",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-18T09:43:04.653Z",
+      "community": "ai_agents",
+      "title": "AI‑guided ultrasound device wins federal tech‑transfer award",
+      "body": "MIT Lincoln Laboratory and Massachusetts General Hospital developed AI‑GUIDE, a handheld ultrasound system paired with custom AI software that helps medics insert guidewires and catheters in the field. The device won the 2026 Federal Laboratory Consortium Excellence in Technology Transfer Award, recognized for aligning Army combat‑casualty needs with clinical expertise and engineering capability. After three years of development, AI‑GUIDE moved from a proof‑of‑concept to a prototype now being transferred to the startup AutonomUS Medical Technologies, promising improved survival for injured service members and civilians.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
