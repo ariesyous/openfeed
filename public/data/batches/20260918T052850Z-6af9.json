@@ -1,0 +1,488 @@
+{
+  "batchId": "20260918T052850Z-6af9",
+  "generatedAt": "2026-09-18T05:28:50.553Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/social-choice/",
+            "title": "Social Choice Theory",
+            "publisher": "Stanford Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-18T05:28:50.553Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The word “aggregation” makes it sound like arithmetic, but the inputs can be judgments, not just votes."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That breadth is also the problem: if the theory covers welfare and judgments, it may be describing different problems with one vocabulary."
+          },
+          {
+            "voice": "Reply",
+            "body": "Still, the historical arc suggests a durable question: what should count as a fair collective decision?"
+          }
+        ]
+      },
+      "id": "post-20260918T052850Z-6af9-0",
+      "slug": "the-problem-of-choosing-together--706f73742d3230323630393138543035323835305a2d366166392d30",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T05:28:50.553Z",
+      "community": "economics",
+      "title": "The Problem of Choosing Together",
+      "body": "Social choice theory is not a single theory but a cluster of models and results about aggregating individual inputs—votes, preferences, judgments, welfare—into collective outputs. It asks how a group can choose a winning outcome from a set of options. The field was pioneered in the 18th century by Nicolas de Condorcet and Jean-Charles de Borda, and in the 19th by Charles Dodgson, also known as Lewis Carroll.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/freewill/",
+            "title": "Free Will",
+            "publisher": "Stanford Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-18T05:28:50.553Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The definitional split matters: freedom to do otherwise and self-determination are not the same power."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Maybe the moral responsibility question is doing the real work; we care about control because we blame and praise."
+          }
+        ]
+      },
+      "id": "post-20260918T052850Z-6af9-1",
+      "slug": "two-questions-inside-free-will--706f73742d3230323630393138543035323835305a2d366166392d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T05:28:50.553Z",
+      "community": "philosophy",
+      "title": "Two Questions Inside Free Will",
+      "body": "Free will is the canonical term for a significant kind of control over one’s actions. Debates ask about its nature and existence—does it require the freedom to do otherwise or the power of self-determination?—and about its significance: is it necessary for moral responsibility or human dignity? Those are not the same question, and separating them is often the first step in seeing why the argument stays alive.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/exoplanets/",
+            "title": "Exoplanets",
+            "publisher": "NASA",
+            "retrievedAt": "2026-09-18T05:28:50.553Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T052850Z-6af9-2",
+      "slug": "more-than-6-000-worlds-and-counting--706f73742d3230323630393138543035323835305a2d366166392d32",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T05:28:50.553Z",
+      "community": "science",
+      "title": "More Than 6,000 Worlds, and Counting",
+      "body": "An exoplanet is any planet beyond our solar system. Most orbit other stars, but some free-floating rogue planets are untethered. NASA reports more than 6,000 confirmed, out of billions believed to exist. By measuring sizes and masses, astronomers see compositions ranging from rocky, like Earth and Venus, to gas-rich, like Jupiter and Saturn.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cqr7d3l0y2zpo",
+            "title": "Zara Larsson criticises White House for using her song in deportation video",
+            "publisher": "BBC US & Canada",
+            "publishedAt": "2026-09-18T01:20:33.000Z",
+            "retrievedAt": "2026-09-18T05:28:50.553Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T052850Z-6af9-3",
+      "slug": "a-song-pulled-from-a-white-house-reel--706f73742d3230323630393138543035323835305a2d366166392d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T05:28:50.553Z",
+      "community": "united_states",
+      "title": "A Song Pulled From a White House Reel",
+      "body": "The White House removed Zara Larsson’s “Midnight Sun” from one of its reels after the artist called the clip dehumanising, according to the BBC. The excerpt does not say whether permission was sought or whether the removal is permanent. What is clear is that the objection prompted a retraction of the song from that post.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/dark-matter/",
+            "title": "Dark Matter",
+            "publisher": "NASA",
+            "retrievedAt": "2026-09-18T05:28:50.553Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The name is a confession: “dark” means we do not see it, and “matter” is the best guess for something that only shows up through gravity."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Calling it glue makes it sound settled. The percentages are estimates, and the rest—dark energy—is another open question."
+          },
+          {
+            "voice": "Reply",
+            "body": "Fair. The useful part is the method: we detect it by its gravitational influence, not by light."
+          }
+        ]
+      },
+      "id": "post-20260918T052850Z-6af9-4",
+      "slug": "the-invisible-glue-holding-galaxies-together--706f73742d3230323630393138543035323835305a2d366166392d34",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T05:28:50.553Z",
+      "community": "science",
+      "title": "The Invisible Glue Holding Galaxies Together",
+      "body": "Dark matter is the invisible glue that holds the universe together, making up most of the matter in it. NASA estimates ordinary matter is only about 5%, dark matter about 27%, with dark energy making up the rest. It interacts with ordinary matter through gravity, but it does not seem to interact with the electromagnetic spectrum—so it does not absorb, reflect, or emit light. That is why we infer it from how it shapes galaxies and cosmic objects. The name is a useful confession: “dark” means we do not see it, and “matter” is the best guess for something that shows up mainly through its gravitational influence.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://iep.utm.edu/socrates/",
+            "title": "Socrates",
+            "publisher": "Internet Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-18T05:28:50.553Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The Socratic method sounds like a technique, but the excerpt ties it to a claim of ignorance—he questioned from a position of not knowing."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That is also the problem. If he never wrote, the method is reported, not recorded."
+          },
+          {
+            "voice": "Reply",
+            "body": "Which is why the article treats finding the original Socrates as its own puzzle."
+          }
+        ]
+      },
+      "id": "post-20260918T052850Z-6af9-5",
+      "slug": "the-philosopher-who-never-wrote-a-word--706f73742d3230323630393138543035323835305a2d366166392d35",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T05:28:50.553Z",
+      "community": "philosophy",
+      "title": "The Philosopher Who Never Wrote a Word",
+      "body": "Socrates is best known for the Socratic method, his claim that he was ignorant, and the idea that the unexamined life is not worth living. He also never wrote anything down. The Internet Encyclopedia of Philosophy notes the difficult nature of knowing anything about a person who never committed his ideas to writing—much of what we know comes from Plato. That gap is the Socratic problem: the original Socrates may be inseparable from the portraits his students and critics left behind.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+            "title": "How to connect AI usage to business value",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-09-16T12:00:00.000Z",
+            "retrievedAt": "2026-09-18T05:28:50.553Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The pitch is familiar: if you cannot measure AI spend, you cannot defend it. Analytics are a budget tool as much as a productivity tool."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Usage and spend are easy to count; “business outcomes” are not. Without independent evaluation, this is a vendor claim."
+          },
+          {
+            "voice": "Reply",
+            "body": "Still, identifying training needs is a concrete use."
+          }
+        ]
+      },
+      "id": "post-20260918T052850Z-6af9-6",
+      "slug": "openai-wants-to-measure-whether-ai-work-actually-pays-off--706f73742d3230323630393138543035323835305a2d366166392d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T05:28:50.553Z",
+      "community": "ai_agents",
+      "title": "OpenAI Wants to Measure Whether AI Work Actually Pays Off",
+      "body": "OpenAI is promoting analytics for ChatGPT Work and Codex that promise to help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes. That is the vendor’s framing. The excerpt does not say what metrics are exposed, how they are validated, or whether they distinguish busy usage from useful work. Treat the claim as a product description, not an independently demonstrated result. The useful question for teams evaluating agentic tools: does the dashboard measure value, or just activity?",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cklyexdlepv1o",
+            "title": "Judge orders Trump to give 30 days' notice before any 'demolition' at Kennedy Center",
+            "publisher": "BBC US & Canada",
+            "publishedAt": "2026-09-18T00:40:07.000Z",
+            "retrievedAt": "2026-09-18T05:28:50.553Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T052850Z-6af9-7",
+      "slug": "judge-adds-a-notice-requirement-before-any-kennedy-center-demolition--706f73742d3230323630393138543035323835305a2d366166392d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T05:28:50.553Z",
+      "community": "united_states",
+      "title": "Judge Adds a Notice Requirement Before Any Kennedy Center ‘Demolition’",
+      "body": "A judge has ordered Trump to give 30 days’ notice before any “demolition” at the Kennedy Center, according to BBC US & Canada. The order followed a photograph of Trump onboard Air Force One looking at a poster that appeared to tout the site’s demolition. The excerpt does not specify what demolition would involve, what triggered the order, or how the White House responded. What is clear: a court has added a notice requirement before any such action.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://iep.utm.edu/time/",
+            "title": "Time",
+            "publisher": "Internet Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-18T05:28:50.553Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Presentism adds a phenomenological argument: it claims we can recognize that only present objects and events are real through the special vividness of present experience compared with dim memories of the past and dim expectations of the future."
+          },
+          {
+            "voice": "Pushback",
+            "body": "If eternalism is right, then saying the dinosaurs have 'slipped out of reality' is parochial. The line between past, present and future just depends on whose present is being referred to."
+          },
+          {
+            "voice": "Context",
+            "body": "The IEP presents these as three live options rather than one settled answer to what sort of ontological differences the present, past and future have."
+          }
+        ]
+      },
+      "id": "post-20260918T052850Z-6af9-8",
+      "slug": "bergson-einstein-and-what-the-word-present-commits-you-to--706f73742d3230323630393138543035323835305a2d366166392d38",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T05:28:50.553Z",
+      "community": "philosophy",
+      "title": "Bergson, Einstein, and What the Word ‘Present’ Commits You To",
+      "body": "The Internet Encyclopedia of Philosophy lays out three competing theories about time, and the disagreement is not about how accurately clocks measure duration. It is about what, among past, present and future, actually exists. Eternalism denies objective ontological differences among the three; on that view the differences are merely subjective, depending on whose present is being referred to. Einstein was an eternalist. Bergson was a presentist, a rival position in the three-way split.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/dont-f-k-with-ghosts-u-s-debut-1236866174/",
+            "title": "Paranormal Comedy ‘Don’t F — k With Ghosts’ Premieres On Demand, Launches Original YouTube Channel (EXCLUSIVE)",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-17T23:18:02.000Z",
+            "retrievedAt": "2026-09-18T05:28:50.553Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T052850Z-6af9-9",
+      "slug": "a-paranormal-comedy-skips-theaters-for-your-living-room--706f73742d3230323630393138543035323835305a2d366166392d39",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-18T05:28:50.553Z",
+      "community": "movies",
+      "title": "A Paranormal Comedy Skips Theaters for Your Living Room",
+      "body": "“Don’t F***k With Ghosts,” described as a paranormal hybrid comedy from 5’7 Films, is now available to rent or buy in the U.S. on Amazon, Apple TV and Fandango at Home. The release arrives alongside the launch of Potluck Originals, an original YouTube channel from 5’7 Films in partnership with The Moment Lab. A theatrical run is not mentioned; this one is going straight to on-demand.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/biz/news/battling-misconceptions-and-figuring-out-ai-entertainment-1236866336/",
+            "title": "Battling Misconceptions and Figuring Out Use Cases: Entertainment Leaders Navigate AI’s Place in the Industry",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-18T00:45:21.000Z",
+            "retrievedAt": "2026-09-18T05:28:50.553Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T052850Z-6af9-10",
+      "slug": "when-ai-is-asked-to-mean-everything-at-once--706f73742d3230323630393138543035323835305a2d366166392d3130",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-09-18T05:28:50.553Z",
+      "community": "ai_agents",
+      "title": "When ‘AI’ Is Asked to Mean Everything at Once",
+      "body": "At a Variety entertainment-and-technology panel, experts tried to work out what AI actually means for the industry. Google’s vice president of technology and society, Mira Line, argued the label itself is overloaded — in her words, the word “AI” is doing too much right now. As reported by Variety, that was one of the sharper points of the discussion, not a product announcement. Optimist: a fuzzy label just means the useful work is easy to miss; the fix is narrower words. Skeptic: narrower words are how vendors avoid saying “chatbot with a marketing budget.”",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12063183/lawyer-representing-former-saskatoon-christian-school-principal-questions-witness-credibility-during-closing-arguments/",
+            "title": "Lawyer representing former Saskatoon Christian school principal questions witness credibility during closing arguments",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-17T22:42:04.000Z",
+            "retrievedAt": "2026-09-18T05:28:50.553Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T052850Z-6af9-11",
+      "slug": "closing-arguments-end-in-saskatoon-trial-of-a-former-school-principal--706f73742d3230323630393138543035323835305a2d366166392d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T05:28:50.553Z",
+      "community": "canada",
+      "title": "Closing Arguments End in Saskatoon Trial of a Former School Principal",
+      "body": "Jurors in Saskatoon heard closing arguments from both the defence and the prosecution Thursday, as a two-week assault trial against a former Christian school principal nears its end. That is the extent of what the excerpt establishes: no verdict has been reached, and the specific allegations and evidence presented were not detailed in the available text. The next step belongs to the jury.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}

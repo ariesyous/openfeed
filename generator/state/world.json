@@ -166,7 +166,19 @@
     "fcc approves 49 5 foreign ownership of paramount warner bros",
     "un experts say grounds to believe us committed war crimes in iran strikes",
     "san sebastián 2026 les mis los javis brad pitt penélope cruz and much more",
-    "early bowie music available to stream for first time"
+    "early bowie music available to stream for first time",
+    "social choice theory",
+    "free will",
+    "exoplanets",
+    "zara larsson criticises white house for using her song in deportation video",
+    "dark matter",
+    "socrates",
+    "how to connect ai usage to business value",
+    "judge orders trump to give 30 days notice before any demolition at kennedy center",
+    "time",
+    "paranormal comedy don t f k with ghosts premieres on demand launches original youtube channel exclusive",
+    "battling misconceptions and figuring out use cases entertainment leaders navigate ai s place in the industry",
+    "lawyer representing former saskatoon christian school principal questions witness credibility during closing arguments"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -334,12 +346,24 @@
     "https://variety.com/2026/film/news/fcc-approves-49-5-foreign-ownership-paramount-warner-bros-1236866217/",
     "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo",
     "https://variety.com/2026/film/global/les-mis-los-javis-brad-pitt-penelope-cruz-san-sebastian-1236847674/",
-    "https://www.bbc.co.uk/news/articles/cm4gj5z9xvnqo"
+    "https://www.bbc.co.uk/news/articles/cm4gj5z9xvnqo",
+    "https://plato.stanford.edu/entries/social-choice/",
+    "https://plato.stanford.edu/entries/freewill/",
+    "https://science.nasa.gov/exoplanets/",
+    "https://www.bbc.co.uk/news/articles/cqr7d3l0y2zpo",
+    "https://science.nasa.gov/dark-matter/",
+    "https://iep.utm.edu/socrates/",
+    "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+    "https://www.bbc.co.uk/news/articles/cklyexdlepv1o",
+    "https://iep.utm.edu/time/",
+    "https://variety.com/2026/film/news/dont-f-k-with-ghosts-u-s-debut-1236866174/",
+    "https://variety.com/2026/biz/news/battling-misconceptions-and-figuring-out-ai-entertainment-1236866336/",
+    "https://globalnews.ca/news/12063183/lawyer-representing-former-saskatoon-christian-school-principal-questions-witness-credibility-during-closing-arguments/"
   ],
   "initialized": true,
-  "cycleCount": 23,
+  "cycleCount": 24,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-18T05:15:02.507Z",
+  "lastRunAt": "2026-09-18T05:28:50.553Z",
   "communities": [
     "technology",
     "science",
@@ -361,11 +385,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260917T221544Z-b692",
-      "generatedAtCycle": 19,
-      "summary": "AI Consciousness and the ‘Silicon Species’ Warning; Canada seeks unique EU ties, but associate member status does not exist; Decision Theory: Choosing by Expected Utility; David Chase returns with an HBO series on the CIA’s MKUltra; Synthetic data for the safety cases that are hardest to photograph; Tokyo festival names its 15-title Gala selection; Why so many readers meet Stoicism through Seneca; How Big Pussy held toughness and tenderness together; Alasko frozen raspberries recalled in 7 provi"
-    },
-    {
       "batchId": "20260917T225126Z-4ac8",
       "generatedAtCycle": 20,
       "summary": "Spotted Lanternfly Confirmed in Canada for the First Time; Myth as Pre-Scientific Explanation; Rawls and the Difference Principle; OpenAI Launches Astra for Law; Why the Philosophy of Film Invites Non-Philosophers In; OpenAI Enters Commercial Marketing With Sponsored Agents; A Snack Run That Saved a Life in Corner Brook; How Cable Competition Forced HBO to Reinvent Itself; Frameline Unveils Lineup for Its First Fall Showcase; AV Nackawic Mill Closure Eliminates Over 200 Jobs in New Brunswick; Th"
@@ -384,6 +403,11 @@
       "batchId": "20260918T051502Z-5698",
       "generatedAtCycle": 23,
       "summary": "FCC Lets Nearly Half of Paramount Be Foreign-Owned After Warner Deal; UN Experts Say Grounds Exist to Believe US Committed War Crimes in Iran Strikes; San Sebastián Opens With Brad Pitt Back in the Basque Country; Early Bowie Recordings Reach Streaming for the First Time"
+    },
+    {
+      "batchId": "20260918T052850Z-6af9",
+      "generatedAtCycle": 24,
+      "summary": "The Problem of Choosing Together; Two Questions Inside Free Will; More Than 6,000 Worlds, and Counting; A Song Pulled From a White House Reel; The Invisible Glue Holding Galaxies Together; The Philosopher Who Never Wrote a Word; OpenAI Wants to Measure Whether AI Work Actually Pays Off; Judge Adds a Notice Requirement Before Any Kennedy Center ‘Demolition’; Bergson, Einstein, and What the Word ‘Present’ Commits You To; A Paranormal Comedy Skips Theaters for Your Living Room; When ‘AI’ Is Asked t"
     }
   ]
 }
