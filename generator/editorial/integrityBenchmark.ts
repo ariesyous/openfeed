@@ -55,6 +55,16 @@ const missionQuotes = ["Curiosity has traversed across the Martian surface, inve
   "carrying out these studies for one Martian year, equivalent to 687 Earth days."];
 const missionBody = "Curiosity's originally planned mission lasted one Martian year, equivalent to 687 Earth days.";
 
+// First ordinary post-WP1 edition: two short, rechecked source passages.
+// These remain semantic review examples, not claims of automated detection.
+const production = { ...source("production", "Business Cycle Indicators: Industrial, Manufacturing Production under Consensus",
+  "https://econbrowser.com/archives/2026/09/business-cycle-indicators-industrial-manufacturing-production-under-consensus",
+  "While industrial production was flat, manufacturing fell noticeably."), publisher: "Econbrowser", topic: "economics" };
+const profits = { ...source("profits", "EJ Antoni: Manufacturing profits soar on Trump reforms",
+  "https://econbrowser.com/archives/2026/09/ej-antoni-manufacturing-profits-soar-on-trump-reforms-end-iran-war-to-keep-boom-going",
+  "Dr. Antoni is writing about corporate net income after tax.\n\n" +
+  "doesn’t mean underlying productivity is higher."), publisher: "Econbrowser", topic: "economics" };
+
 export const INTEGRITY_EXAMPLES: IntegrityExample[] = [
   { id: "comet-entity-wrong", category: "entity", source: comet,
     draft: draft(comet, "Hubble detects a comet's spin reversal", "Hubble observations show that comet 3I/ATLAS slowed and reversed its spin.", cometQuotes),
@@ -99,6 +109,18 @@ export const INTEGRITY_EXAMPLES: IntegrityExample[] = [
   { id: "grounded-commentary", category: "commentary", source: curiosity,
     draft: draft(curiosity, "The mission plan is a starting line", "Curiosity's original plan was one Martian year, or 687 Earth days. A mission plan is a useful yardstick, not an expiry date.", missionQuotes),
     expectedEditorialDecision: "accept", reviewReason: "The second sentence is an interpretation of the supported plan, not a fabricated engineering specification or process complaint." },
+  { id: "live-unrelated-source-wrong", category: "source-subject", source: production,
+    draft: draft(production, "Two profit measures", "After-tax profits surged while adjusted pre-tax profits barely changed.", [production.excerpt]),
+    expectedEditorialDecision: "reject", reviewReason: "Post 2 in the first ordinary edition used production evidence for a profit claim. Same publisher and valid IDs do not establish support." },
+  { id: "live-unrelated-source-supported", category: "source-subject", source: production,
+    draft: draft(production, "Production measures diverge", "Econbrowser reports flat industrial production alongside a decline in manufacturing production.", [production.excerpt]),
+    expectedEditorialDecision: "accept", reviewReason: "The claim stays within the supplied production comparison." },
+  { id: "live-speaker-attribution-wrong", category: "speaker-attribution", source: profits,
+    draft: draft(profits, "What the profit figure means", "Antoni cautions that higher after-tax income does not mean underlying productivity is higher.", profits.excerpt.split("\n\n")),
+    expectedEditorialDecision: "reject", reviewReason: "The rechecked article identifies Antoni as the subject of the critique; the productivity qualification belongs to Econbrowser's author. This reproduces post 10's attribution reversal." },
+  { id: "live-speaker-attribution-supported", category: "speaker-attribution", source: profits,
+    draft: draft(profits, "What the profit figure means", "Econbrowser's author critiques Antoni's focus on after-tax income and cautions that it does not establish higher underlying productivity.", profits.excerpt.split("\n\n")),
+    expectedEditorialDecision: "accept", reviewReason: "The source subject and the author making the qualification remain distinct; reviewed against the linked article, not inferred by an automated judge." },
 ];
 
 export function reviewIntegrityBenchmark() {

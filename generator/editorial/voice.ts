@@ -1,6 +1,11 @@
 // Catch recognizable narration about the generator's inputs. This is a focused
 // editorial guard, not a semantic quality check or a ban on publisher attribution.
 const PROCESS_COMMENTARY = [
+  // Citation-like narration leaked by a normal free-router edition. Match the
+  // attribution grammar, not every S1E1 token: season/episode labels are valid
+  // reader-facing material for film and television criticism.
+  /\b(?:according\s+to|per)\s+S\d+E\d+(?:\s*(?:,|and|&)\s*S\d+E\d+)*\b/i,
+  /\bS\d+E\d+(?:\s*(?:,|and|&)\s*S\d+E\d+)*\s+(?:states?|reports?|confirms?|establish(?:es)?|identif(?:y|ies)|describes?|notes?|questions?|raises?)\b/i,
   /\b(?:supplied|provided|available)\s+(?:source\s+)?(?:material|text|excerpts?|snippets?)\b/i,
   /\bsource\s+(?:packet|snippets?)\b/i,
   /\b(?:the|this|that|an?|publisher's)\s+excerpt\s+(?:does|doesn't|did|didn't|says?|gives?|mentions?|describes?|reports?|confirms?|establishes?|identifies?|supplies|ties|contrasts|stops?|only|also)\b/i,

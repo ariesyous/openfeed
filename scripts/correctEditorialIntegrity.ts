@@ -27,8 +27,20 @@ export interface CorrectionSnapshot {
   world: WorldState;
 }
 
-/** Four reviewed corrections only; an unexpected version fails before any write. */
-export function buildEditorialCorrectionPlan(snapshot: CorrectionSnapshot) {
+export interface ReviewedCorrection {
+  postId: string;
+  batchId: string;
+  beforeSha256: string;
+  afterSha256: string;
+  before: unknown;
+  after: unknown;
+}
+
+/** Exact reviewed corrections only; an unexpected version fails before any write. */
+export function buildEditorialCorrectionPlan(
+  snapshot: CorrectionSnapshot,
+  corrections: readonly ReviewedCorrection[] = correctionRecord.corrections,
+) {
   const batches = structuredClone(snapshot.batches);
   const changedBatches = new Set<string>();
   const correctedPostIds: string[] = [];
@@ -36,7 +48,7 @@ export function buildEditorialCorrectionPlan(snapshot: CorrectionSnapshot) {
   const urls = new Set(nextWorld.coveredSourceUrls ?? []);
   const titles = new Set(nextWorld.coveredSourceTitles ?? []);
 
-  for (const correction of correctionRecord.corrections) {
+  for (const correction of corrections) {
     const before = FeedItemSchema.parse(correction.before);
     const after = FeedItemSchema.parse(correction.after);
     if (contentHash(before) !== correction.beforeSha256 || contentHash(after) !== correction.afterSha256)
@@ -89,7 +101,10 @@ export function buildEditorialCorrectionPlan(snapshot: CorrectionSnapshot) {
   return { correctedPostIds, plan };
 }
 
-export function correctEditorialIntegrity(rootDir = process.cwd()) {
+export function correctEditorialIntegrity(
+  rootDir = process.cwd(),
+  corrections: readonly ReviewedCorrection[] = correctionRecord.corrections,
+) {
   const dataDir = path.join(rootDir, "public/data");
   const worldStatePath = path.join(rootDir, "generator/state/world.json");
   const readSnapshot = new Map<string, string>();
@@ -101,7 +116,7 @@ export function correctEditorialIntegrity(rootDir = process.cwd()) {
   const manifest = ManifestSchema.parse(readJson(path.join(dataDir, "manifest.json")));
   const world = WorldStateSchema.parse(readJson(worldStatePath));
   const batches = manifest.batches.map(ref => BatchFileSchema.parse(readJson(path.join(dataDir, ref.file))));
-  const result = buildEditorialCorrectionPlan({ manifest, world, batches });
+  const result = buildEditorialCorrectionPlan({ manifest, world, batches }, corrections);
   if (result.plan) {
     // Do not overwrite another local edit made while preparing the validated plan.
     for (const [filename, original] of readSnapshot) {

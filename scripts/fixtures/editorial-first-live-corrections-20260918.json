@@ -1,0 +1,1079 @@
+{
+  "schemaVersion": 1,
+  "correctionId": "editorial-first-live-audit-20260918",
+  "runId": 35397839301,
+  "artifactId": 10570390428,
+  "corrections": [
+    {
+      "postId": "post-20260918T213919Z-f7d9-2",
+      "batchId": "20260918T213919Z-f7d9",
+      "reason": "The attached industrial-production report and its selected evidence do not support a profit comparison. The separately retrieved Econbrowser profit article supports this body. Replace the mistaken citation, retaining both old and new durable coverage.",
+      "verifiedSources": [
+        {
+          "url": "https://econbrowser.com/archives/2026/09/ej-antoni-manufacturing-profits-soar-on-trump-reforms-end-iran-war-to-keep-boom-going",
+          "verification": "linked page retrieved and compared with retained selected support",
+          "verifiedOn": "2026-09-18"
+        }
+      ],
+      "beforeSha256": "95e95a3ff0810c5c5c4d423e8b6150948adcb2262c867d3f3f91a43a1555fd6a",
+      "afterSha256": "0f8ed1f3ee638e6ad5fabbd3361cfa2707de22f33f995ce5d644efb9fab0933e",
+      "before": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://econbrowser.com/archives/2026/09/business-cycle-indicators-industrial-manufacturing-production-under-consensus",
+              "title": "Business Cycle Indicators: Industrial, Manufacturing Production under Consensus",
+              "publisher": "Econbrowser",
+              "publishedAt": "2026-09-18T17:56:20.000Z",
+              "retrievedAt": "2026-09-18T21:39:19.784Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "After-tax profit and adjusted pre-tax profit are not interchangeable labels."
+            },
+            {
+              "voice": "Pushback",
+              "body": "The point is not that one number is fake; each answers a different accounting question."
+            }
+          ]
+        },
+        "id": "post-20260918T213919Z-f7d9-2",
+        "slug": "two-profit-measures-two-different-stories--706f73742d3230323630393138543231333931395a2d663764392d32",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T21:39:19.784Z",
+        "community": "economics",
+        "title": "Two Profit Measures, Two Different Stories",
+        "body": "Econbrowser reports that corporate net income after tax surged, particularly in the second quarter. Its adjusted, pre-tax profit measure had not clearly changed nearly as much. That contrast is a warning against treating every line called “profit” as a clean read on underlying sector momentum.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://econbrowser.com/archives/2026/09/ej-antoni-manufacturing-profits-soar-on-trump-reforms-end-iran-war-to-keep-boom-going",
+              "title": "EJ Antoni: “Manufacturing profits soar on Trump reforms: End Iran war to keep boom going”",
+              "publisher": "Econbrowser",
+              "publishedAt": "2026-09-18T20:13:09.000Z",
+              "retrievedAt": "2026-09-18T21:39:19.784Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "After-tax profit and adjusted pre-tax profit are not interchangeable labels."
+            },
+            {
+              "voice": "Pushback",
+              "body": "The point is not that one number is fake; each answers a different accounting question."
+            }
+          ]
+        },
+        "id": "post-20260918T213919Z-f7d9-2",
+        "slug": "two-profit-measures-two-different-stories--706f73742d3230323630393138543231333931395a2d663764392d32",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T21:39:19.784Z",
+        "community": "economics",
+        "title": "Two Profit Measures, Two Different Stories",
+        "body": "Econbrowser reports that corporate net income after tax surged, particularly in the second quarter. Its adjusted, pre-tax profit measure had not clearly changed nearly as much. That contrast is a warning against treating every line called “profit” as a clean read on underlying sector momentum.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260918T213919Z-f7d9-4",
+      "batchId": "20260918T213919Z-f7d9",
+      "reason": "Separate the faculty/staff study from the federally commissioned student survey and the national attitudes survey. Remove the discussion claim that hostility targets Israel rather than Jewish individuals: an aggregate survey does not establish that categorical conclusion.",
+      "verifiedSources": [
+        {
+          "url": "https://theconversation.com/many-jewish-faculty-and-staff-say-university-edi-is-failing-them-289753",
+          "verification": "linked page retrieved and compared with retained selected support",
+          "verifiedOn": "2026-09-18"
+        }
+      ],
+      "beforeSha256": "5bc2be263ce1add5e225ce652970cb2bad3715fd6f2837f31aaeee8e210605b4",
+      "afterSha256": "db5d237e8ee8fdfd17b4e85f9673519453f27775a1c5fd283b96e9affb81ab0a",
+      "before": {
+        "editorial": {
+          "format": "news",
+          "sources": [
+            {
+              "url": "https://theconversation.com/many-jewish-faculty-and-staff-say-university-edi-is-failing-them-289753",
+              "title": "Many Jewish faculty and staff say university EDI is failing them",
+              "publisher": "The Conversation Canada",
+              "publishedAt": "2026-09-16T14:04:54.000Z",
+              "retrievedAt": "2026-09-18T21:39:19.784Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "The disconnect is striking: universities have EDI infrastructure built to address discrimination, yet the very group experiencing a surge in hate crimes says those offices went silent when they needed them most."
+            },
+            {
+              "voice": "Pushback",
+              "body": "But the survey also shows Canadian students have low negativity toward Jews personally. The hostility is directed at Israel, not Jewish individuals. EDI offices may be struggling to distinguish political criticism from antisemitism — a genuine policy dilemma, not simple indifference."
+            },
+            {
+              "voice": "Context",
+              "body": "Research cited in the piece notes higher education usually increases tolerance. The gap between that expectation and what Jewish faculty are reporting suggests something specific has broken in how these offices handle Israel-related tensions."
+            }
+          ]
+        },
+        "id": "post-20260918T213919Z-f7d9-4",
+        "slug": "canadian-jewish-faculty-say-university-edi-offices-met-them-with-silen--706f73742d3230323630393138543231333931395a2d663764392d34",
+        "kind": "text_post",
+        "authorId": "editorial-news",
+        "createdAt": "2026-09-18T21:39:19.784Z",
+        "community": "canada",
+        "title": "Canadian Jewish faculty say university EDI offices met them with silence after Oct. 7",
+        "body": "A federally commissioned survey and a new study find that Jewish faculty and staff at Canadian universities say equity, diversity and inclusion offices largely failed to engage with their concerns after the Hamas attack. While Jewish students report low personal negativity from peers, they encounter high negativity toward Israel — a friction point because many Canadian Jews feel emotionally attached to Israel and support its existence. In 2025, Jewish people were the target of 70 per cent of all police-reported hate crimes directed at a religious group in Canada, despite making up about one per cent of the population.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "news",
+          "sources": [
+            {
+              "url": "https://theconversation.com/many-jewish-faculty-and-staff-say-university-edi-is-failing-them-289753",
+              "title": "Many Jewish faculty and staff say university EDI is failing them",
+              "publisher": "The Conversation Canada",
+              "publishedAt": "2026-09-16T14:04:54.000Z",
+              "retrievedAt": "2026-09-18T21:39:19.784Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "An office can exist on paper yet leave people feeling unprotected. The respondents' accounts make that gap the issue."
+            },
+            {
+              "voice": "Reply",
+              "body": "The surveys address different groups and questions. An overall measure of students' attitudes cannot resolve whether particular complaints were handled adequately."
+            }
+          ]
+        },
+        "id": "post-20260918T213919Z-f7d9-4",
+        "slug": "canadian-jewish-faculty-say-university-edi-offices-met-them-with-silen--706f73742d3230323630393138543231333931395a2d663764392d34",
+        "kind": "text_post",
+        "authorId": "editorial-news",
+        "createdAt": "2026-09-18T21:39:19.784Z",
+        "community": "canada",
+        "title": "Canadian Jewish faculty say university EDI offices met them with silence after Oct. 7",
+        "body": "The Conversation reports that a study of Jewish faculty and staff at Canadian universities found many respondents felt EDI offices met their concerns with silence or dismissal after October 7, 2023. A separate federally commissioned survey of Jewish students found dissatisfaction with those offices. A third survey found that Canadian university students generally expressed low negativity toward Jews and high negativity toward Israel. In 2025, Jewish people were the target of 70 per cent of police-reported hate crimes directed at a religious group in Canada, despite making up about one per cent of the population.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260918T213919Z-f7d9-5",
+      "batchId": "20260918T213919Z-f7d9",
+      "reason": "Keep the source-supported telescope assembly story. Omit the whole optional discussion: the cited NASA image article does not support the rarity/focusing explanation, brief-flash characterization, or asserted leadership model.",
+      "verifiedSources": [
+        {
+          "url": "https://www.nasa.gov/image-article/cosi-telescope-comes-together/",
+          "verification": "linked page retrieved and compared with retained selected support",
+          "verifiedOn": "2026-09-18"
+        }
+      ],
+      "beforeSha256": "0829591d3ce5478c55c6411255b03fa20e0e84819104d109200579e347cbf960",
+      "afterSha256": "7843f0176f624bf3aae060a5f60597c164c4832b8a5a054e76252701947b85ef",
+      "before": {
+        "editorial": {
+          "format": "story",
+          "sources": [
+            {
+              "url": "https://www.nasa.gov/image-article/cosi-telescope-comes-together/",
+              "title": "COSI Telescope Comes Together",
+              "publisher": "NASA",
+              "publishedAt": "2026-09-18T15:45:03.000Z",
+              "retrievedAt": "2026-09-18T21:39:19.784Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "Gamma-ray telescopes are rare because gamma rays don't focus like light — they penetrate. COSI's wide-field Compton imaging design lets it watch large swaths of the sky for the brief flashes of antimatter annihilation and supernova nucleosynthesis."
+            },
+            {
+              "voice": "Reply",
+              "body": "The partnership list is notable: a university lab leading, with NASA Goddard, a defense contractor (Northrop), and the Italian Space Agency all contributing. That's the modern model — distributed expertise across sectors and borders."
+            }
+          ]
+        },
+        "id": "post-20260918T213919Z-f7d9-5",
+        "slug": "nasa-s-cosi-telescope-will-hunt-gamma-rays-from-antimatter-and-dying-s--706f73742d3230323630393138543231333931395a2d663764392d35",
+        "kind": "text_post",
+        "authorId": "editorial-story",
+        "createdAt": "2026-09-18T21:39:19.784Z",
+        "community": "science",
+        "title": "NASA's COSI telescope will hunt gamma rays from antimatter and dying stars",
+        "body": "The Compton Spectrometer and Imager (COSI) is coming together at UC Berkeley. This wide-field gamma-ray telescope will study the Milky Way's most energetic phenomena: the creation and destruction of matter and antimatter, and the final stages of stellar lives. The detector assembly — seen in a July 8 image being lifted into place — uses flex circuits covered in silver material to carry signals to readout electronics. It's a collaboration spanning UC Berkeley's Space Sciences Lab, UC San Diego, the Naval Research Laboratory, NASA Goddard, Northrop Grumman, Space Dynamics Laboratory, the Italian Space Agency, and other institutions.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "story",
+          "sources": [
+            {
+              "url": "https://www.nasa.gov/image-article/cosi-telescope-comes-together/",
+              "title": "COSI Telescope Comes Together",
+              "publisher": "NASA",
+              "publishedAt": "2026-09-18T15:45:03.000Z",
+              "retrievedAt": "2026-09-18T21:39:19.784Z"
+            }
+          ],
+          "basis": "publisher_excerpt"
+        },
+        "id": "post-20260918T213919Z-f7d9-5",
+        "slug": "nasa-s-cosi-telescope-will-hunt-gamma-rays-from-antimatter-and-dying-s--706f73742d3230323630393138543231333931395a2d663764392d35",
+        "kind": "text_post",
+        "authorId": "editorial-story",
+        "createdAt": "2026-09-18T21:39:19.784Z",
+        "community": "science",
+        "title": "NASA's COSI telescope will hunt gamma rays from antimatter and dying stars",
+        "body": "The Compton Spectrometer and Imager (COSI) is coming together at UC Berkeley. This wide-field gamma-ray telescope will study the Milky Way's most energetic phenomena: the creation and destruction of matter and antimatter, and the final stages of stellar lives. The detector assembly — seen in a July 8 image being lifted into place — uses flex circuits covered in silver material to carry signals to readout electronics. It's a collaboration spanning UC Berkeley's Space Sciences Lab, UC San Diego, the Naval Research Laboratory, NASA Goddard, Northrop Grumman, Space Dynamics Laboratory, the Italian Space Agency, and other institutions.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260918T213919Z-f7d9-6",
+      "batchId": "20260918T213919Z-f7d9",
+      "reason": "Keep the source-supported launch report. Replace unsupported discussion superlatives and safety-effect claims with qualified interpretation of the documented limited, advisory rollout.",
+      "verifiedSources": [
+        {
+          "url": "https://arstechnica.com/ai/2026/09/faa-tees-up-875m-ai-tool-to-help-manage-air-traffic-congestion/",
+          "verification": "linked page retrieved and compared with retained selected support",
+          "verifiedOn": "2026-09-18"
+        }
+      ],
+      "beforeSha256": "74bda251d53f7f85218d6193909cbab20732cd0871c9636017d331139e99e8c9",
+      "afterSha256": "c9a817f09f538ef462900aa663c1048bf211d3512d2a08a9e674101170dbd29d",
+      "before": {
+        "editorial": {
+          "format": "news",
+          "sources": [
+            {
+              "url": "https://arstechnica.com/ai/2026/09/faa-tees-up-875m-ai-tool-to-help-manage-air-traffic-congestion/",
+              "title": "FAA tees up $875M AI tool to help manage air traffic congestion",
+              "publisher": "Ars Technica",
+              "publishedAt": "2026-09-18T19:20:50.000Z",
+              "retrievedAt": "2026-09-18T21:39:19.784Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "An AI advisor for the world's most congested airspace is a high-stakes test. If SMART cuts delays and near-misses in the D.C. corridor, the case for nationwide deployment gets much stronger."
+            },
+            {
+              "voice": "Pushback",
+              "body": "The system only *advises* controllers — it doesn't issue commands. That human-in-the-loop design is deliberate, but it also means the AI's value depends entirely on whether controllers trust and act on its suggestions in real time."
+            },
+            {
+              "voice": "Context",
+              "body": "Mann's endorsement carries weight: he spent 17 years at the FAA in multiple roles and now advises on aviation safety and AI governance. His 'right call' verdict reflects institutional caution, not just vendor optimism."
+            }
+          ]
+        },
+        "id": "post-20260918T213919Z-f7d9-6",
+        "slug": "faa-to-debut-ai-air-traffic-advisor-over-washington-d-c-as-soon-as-mon--706f73742d3230323630393138543231333931395a2d663764392d36",
+        "kind": "text_post",
+        "authorId": "editorial-news",
+        "createdAt": "2026-09-18T21:39:19.784Z",
+        "community": "technology",
+        "title": "FAA to debut AI air-traffic advisor over Washington, D.C. as soon as Monday",
+        "body": "The FAA's SMART system — an AI tool that predicts traffic flows and flags potential conflicts using airline schedules, weather, airport capacity, and airspace conditions — could go live for the three major D.C.-area airports on September 21. It's the first step toward a planned nationwide rollout across the 29 million square miles of U.S. airspace. Aviation safety consultant Philip Mann, a 17-year FAA veteran, called the limited-scope launch the 'right call' before scaling nationally.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "news",
+          "sources": [
+            {
+              "url": "https://arstechnica.com/ai/2026/09/faa-tees-up-875m-ai-tool-to-help-manage-air-traffic-congestion/",
+              "title": "FAA tees up $875M AI tool to help manage air traffic congestion",
+              "publisher": "Ars Technica",
+              "publishedAt": "2026-09-18T19:20:50.000Z",
+              "retrievedAt": "2026-09-18T21:39:19.784Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "A limited launch could give the FAA a chance to assess the tool before extending it across the national system."
+            },
+            {
+              "voice": "Reply",
+              "body": "Advising controllers and replacing their decisions are different roles. That distinction matters when judging what this rollout is meant to accomplish."
+            }
+          ]
+        },
+        "id": "post-20260918T213919Z-f7d9-6",
+        "slug": "faa-to-debut-ai-air-traffic-advisor-over-washington-d-c-as-soon-as-mon--706f73742d3230323630393138543231333931395a2d663764392d36",
+        "kind": "text_post",
+        "authorId": "editorial-news",
+        "createdAt": "2026-09-18T21:39:19.784Z",
+        "community": "technology",
+        "title": "FAA to debut AI air-traffic advisor over Washington, D.C. as soon as Monday",
+        "body": "The FAA's SMART system — an AI tool that predicts traffic flows and flags potential conflicts using airline schedules, weather, airport capacity, and airspace conditions — could go live for the three major D.C.-area airports on September 21. It's the first step toward a planned nationwide rollout across the 29 million square miles of U.S. airspace. Aviation safety consultant Philip Mann, a 17-year FAA veteran, called the limited-scope launch the 'right call' before scaling nationally.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260918T213919Z-f7d9-7",
+      "batchId": "20260918T213919Z-f7d9",
+      "reason": "The generated body collapses the 1644 settlement and much later commercial photographs, then claims the pattern vanished. The source distinguishes those eras and describes rail connections, later malls and transformation. Remove unsupported billion-dollar spending and 1910 dating from discussion.",
+      "verifiedSources": [
+        {
+          "url": "https://daily.jstor.org/what-came-before-the-american-suburb/",
+          "verification": "linked page retrieved and compared with retained selected support",
+          "verifiedOn": "2026-09-18"
+        }
+      ],
+      "beforeSha256": "d844d018194fb9300a9502c8963016bfb1482273d46203f1cabb7c1fd2f1c5be",
+      "afterSha256": "b48545a5a44e4ad3821f1e41528d13e64a558df9470d18effa35dc93816dcb9c",
+      "before": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://daily.jstor.org/what-came-before-the-american-suburb/",
+              "title": "What Came Before the American Suburb?",
+              "publisher": "JSTOR Daily",
+              "publishedAt": "2026-09-09T13:55:00.000Z",
+              "retrievedAt": "2026-09-18T21:39:19.784Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "The pre-suburb town wasn't a utopia — it was built on colonized land — but its physical form (dense, walkable, mixed-use) is exactly what urban planners now try to recreate through zoning reform."
+            },
+            {
+              "voice": "Reply",
+              "body": "The irony: we spent 70 years engineering the suburb, and now spend billions trying to undo its worst effects. Hempstead's Main Street in 1910 had a furniture store, a pharmacy, a commercial block at a street intersection — all within walking distance."
+            }
+          ]
+        },
+        "id": "post-20260918T213919Z-f7d9-7",
+        "slug": "what-the-american-landscape-looked-like-before-the-suburb-took-over--706f73742d3230323630393138543231333931395a2d663764392d37",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T21:39:19.784Z",
+        "community": "philosophy",
+        "title": "What the American landscape looked like before the suburb took over",
+        "body": "Before the post-WWII explosion of suburbs, highways, and malls, places like Hempstead Village, New York, show what small-town life looked like. Founded in the mid-1600s under Dutch control, the land was purchased in 1643 by two Englishmen, John Carman and John Fordham, who negotiated with local Indigenous tribes. Families moved in the following year to establish a community centered on a Main Street with storefronts, pharmacies, and commercial blocks — a walkable, mixed-use pattern that vanished once mass automobile ownership and federal highway funding reshaped the country.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://daily.jstor.org/what-came-before-the-american-suburb/",
+              "title": "What Came Before the American Suburb?",
+              "publisher": "JSTOR Daily",
+              "publishedAt": "2026-09-09T13:55:00.000Z",
+              "retrievedAt": "2026-09-18T21:39:19.784Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "The railroad was more than a way out of town: arriving passengers also helped sustain the shops in town."
+            },
+            {
+              "voice": "Reply",
+              "body": "That makes the later shift toward malls a change in where people gathered and spent money, as well as a change in how they travelled."
+            }
+          ]
+        },
+        "id": "post-20260918T213919Z-f7d9-7",
+        "slug": "what-the-american-landscape-looked-like-before-the-suburb-took-over--706f73742d3230323630393138543231333931395a2d663764392d37",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T21:39:19.784Z",
+        "community": "philosophy",
+        "title": "What the American landscape looked like before the suburb took over",
+        "body": "Hempstead Village offers a view of small-town America before postwar suburban expansion. Under Dutch colonial control, John Carman and John Fordham negotiated a land purchase with local Indigenous tribes in 1643; families arrived the following year. Centuries later, railroad connections helped sustain the village's commercial life by bringing people into its downtown shopping district. After World War II, nearby Levittown and shopping malls such as Roosevelt Field helped shift the area's development and drew shoppers away from historic commercial centers.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260918T213919Z-f7d9-8",
+      "batchId": "20260918T213919Z-f7d9",
+      "reason": "The saved evidence is only a one-sentence general description. It does not support either discussion claim, even though the later page recheck provides related technical context. Remove the optional discussion without retroactively treating the full page as original model input.",
+      "verifiedSources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c79g0j3d4q9o",
+          "verification": "linked page retrieved and compared with retained selected support",
+          "verifiedOn": "2026-09-18"
+        }
+      ],
+      "beforeSha256": "dff984cc94d6efc461bb1834d7e5a0580ac083c1753bf7d053f4495bd997c832",
+      "afterSha256": "071c45af68c84d6551b1bbe90a054ac6894747773221a4bfef544781db2d8253",
+      "before": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c79g0j3d4q9o",
+              "title": "The virtual worlds where robots are trained",
+              "publisher": "BBC Technology",
+              "publishedAt": "2026-09-17T23:00:47.000Z",
+              "retrievedAt": "2026-09-18T21:39:19.784Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "More sophisticated virtual training lets robots rehearse rare scenarios safely."
+            },
+            {
+              "voice": "Pushback",
+              "body": "Even advanced simulators may miss subtle real‑world physics, limiting transfer."
+            }
+          ]
+        },
+        "id": "post-20260918T213919Z-f7d9-8",
+        "slug": "virtual-worlds-boost-robot-real-world-training--706f73742d3230323630393138543231333931395a2d663764392d38",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T21:39:19.784Z",
+        "community": "technology",
+        "title": "Virtual worlds boost robot real‑world training",
+        "body": "Training systems that allow robots to negotiate the real world are getting more sophisticated.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://www.bbc.co.uk/news/articles/c79g0j3d4q9o",
+              "title": "The virtual worlds where robots are trained",
+              "publisher": "BBC Technology",
+              "publishedAt": "2026-09-17T23:00:47.000Z",
+              "retrievedAt": "2026-09-18T21:39:19.784Z"
+            }
+          ],
+          "basis": "publisher_excerpt"
+        },
+        "id": "post-20260918T213919Z-f7d9-8",
+        "slug": "virtual-worlds-boost-robot-real-world-training--706f73742d3230323630393138543231333931395a2d663764392d38",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T21:39:19.784Z",
+        "community": "technology",
+        "title": "Virtual worlds boost robot real‑world training",
+        "body": "Training systems that allow robots to negotiate the real world are getting more sophisticated.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260918T213919Z-f7d9-10",
+      "batchId": "20260918T213919Z-f7d9",
+      "reason": "The post attributes the Econbrowser author's qualification to EJ Antoni, the person being criticized. Correct the speaker and remove the unsupported claim that higher after-tax profit itself demonstrates real manufacturing strength.",
+      "verifiedSources": [
+        {
+          "url": "https://econbrowser.com/archives/2026/09/ej-antoni-manufacturing-profits-soar-on-trump-reforms-end-iran-war-to-keep-boom-going",
+          "verification": "linked page retrieved and compared with retained selected support",
+          "verifiedOn": "2026-09-18"
+        }
+      ],
+      "beforeSha256": "33059ad32b3f75c3c1bf99caec67ae2e74e2f534a9f55b2879383ff0ea501c8d",
+      "afterSha256": "6c491372dafcfea60eb5e4e20a92fc2af5dcd2debb747c8375c474d57b479788",
+      "before": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://econbrowser.com/archives/2026/09/ej-antoni-manufacturing-profits-soar-on-trump-reforms-end-iran-war-to-keep-boom-going",
+              "title": "EJ Antoni: “Manufacturing profits soar on Trump reforms: End Iran war to keep boom going”",
+              "publisher": "Econbrowser",
+              "publishedAt": "2026-09-18T20:13:09.000Z",
+              "retrievedAt": "2026-09-18T21:39:19.784Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "The after‑tax profit surge reflects genuine strength in manufacturing."
+            },
+            {
+              "voice": "Pushback",
+              "body": "When you adjust for inventory valuation, the gains look muted, suggesting the boom may be partly accounting‑driven."
+            }
+          ]
+        },
+        "id": "post-20260918T213919Z-f7d9-10",
+        "slug": "after-tax-manufacturing-profits-surge-but-adjusted-measures-tell-a-mix--706f73742d3230323630393138543231333931395a2d663764392d3130",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T21:39:19.784Z",
+        "community": "economics",
+        "title": "After‑tax manufacturing profits surge, but adjusted measures tell a mixed story",
+        "body": "EJ Antoni points out that corporate net income after tax has surged, yet when you look at manufacturing profits with inventory‑valuation adjustments the picture is less clear, and he notes that expensing equipment at 100 % can inflate after‑tax income without raising actual productivity.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://econbrowser.com/archives/2026/09/ej-antoni-manufacturing-profits-soar-on-trump-reforms-end-iran-war-to-keep-boom-going",
+              "title": "EJ Antoni: “Manufacturing profits soar on Trump reforms: End Iran war to keep boom going”",
+              "publisher": "Econbrowser",
+              "publishedAt": "2026-09-18T20:13:09.000Z",
+              "retrievedAt": "2026-09-18T21:39:19.784Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "A larger after-tax figure and stronger underlying productivity are different claims."
+            },
+            {
+              "voice": "Reply",
+              "body": "That does not make the profit increase imaginary. It means the measure needs to match the question being asked."
+            }
+          ]
+        },
+        "id": "post-20260918T213919Z-f7d9-10",
+        "slug": "after-tax-manufacturing-profits-surge-but-adjusted-measures-tell-a-mix--706f73742d3230323630393138543231333931395a2d663764392d3130",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T21:39:19.784Z",
+        "community": "economics",
+        "title": "After‑tax manufacturing profits surge, but adjusted measures tell a mixed story",
+        "body": "EJ Antoni highlighted a surge in corporate net income after tax. Econbrowser's author contrasts that figure with manufacturing profits adjusted for inventory valuation and argues that tax treatment can raise after-tax income without demonstrating higher underlying productivity. The disagreement turns on what the chosen profit measure actually tells us about manufacturing performance.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260918T213919Z-f7d9-12",
+      "batchId": "20260918T213919Z-f7d9",
+      "reason": "The body is source-supported. Remove the optional discussion, which exposes internal evidence IDs and largely restates the body instead of adding a supported distinction.",
+      "verifiedSources": [
+        {
+          "url": "https://www.pbs.org/newshour/politics/attorney-general-blanche-blurs-justice-department-boundaries-by-appearing-at-political-events",
+          "verification": "linked page retrieved and compared with retained selected support",
+          "verifiedOn": "2026-09-18"
+        }
+      ],
+      "beforeSha256": "3b88b1ce21eea365bc7565d52508b555df7da1be1651daa6dfe14f2cae72bfef",
+      "afterSha256": "344f66cb12969471c9cf1b48d9fe26a66d7742f666c953c477d76ea876da55d1",
+      "before": {
+        "editorial": {
+          "format": "news",
+          "sources": [
+            {
+              "url": "https://www.pbs.org/newshour/politics/attorney-general-blanche-blurs-justice-department-boundaries-by-appearing-at-political-events",
+              "title": "Attorney General Blanche blurs Justice Department boundaries by appearing at political events",
+              "publisher": "PBS NewsHour",
+              "publishedAt": "2026-09-18T16:44:56.000Z",
+              "retrievedAt": "2026-09-18T21:39:19.784Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "Blanche's political event speeches represent a departure from norms meant to protect the Justice Department from appearing partisan, as S1E1 and S1E2 establish."
+            },
+            {
+              "voice": "Pushback",
+              "body": "The sharp departure from norms described in S1E1 could reflect changing expectations for the Attorney General's public engagement with political events, consistent with the norm shift S1E1 describes."
+            }
+          ]
+        },
+        "id": "post-20260918T213919Z-f7d9-12",
+        "slug": "attorney-general-blanche-s-political-event-speeches-blur-justice-depar--706f73742d3230323630393138543231333931395a2d663764392d3132",
+        "kind": "text_post",
+        "authorId": "editorial-news",
+        "createdAt": "2026-09-18T21:39:19.784Z",
+        "community": "united_states",
+        "title": "Attorney General Blanche's Political Event Speeches Blur Justice Department Boundaries",
+        "body": "Attorney General Todd Blanche's recent speeches at political events mark a sharp departure from norms meant to protect the Justice Department from the appearance of partisan bias, blurring traditional boundaries between politics and federal law enforcement.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "news",
+          "sources": [
+            {
+              "url": "https://www.pbs.org/newshour/politics/attorney-general-blanche-blurs-justice-department-boundaries-by-appearing-at-political-events",
+              "title": "Attorney General Blanche blurs Justice Department boundaries by appearing at political events",
+              "publisher": "PBS NewsHour",
+              "publishedAt": "2026-09-18T16:44:56.000Z",
+              "retrievedAt": "2026-09-18T21:39:19.784Z"
+            }
+          ],
+          "basis": "publisher_excerpt"
+        },
+        "id": "post-20260918T213919Z-f7d9-12",
+        "slug": "attorney-general-blanche-s-political-event-speeches-blur-justice-depar--706f73742d3230323630393138543231333931395a2d663764392d3132",
+        "kind": "text_post",
+        "authorId": "editorial-news",
+        "createdAt": "2026-09-18T21:39:19.784Z",
+        "community": "united_states",
+        "title": "Attorney General Blanche's Political Event Speeches Blur Justice Department Boundaries",
+        "body": "Attorney General Todd Blanche's recent speeches at political events mark a sharp departure from norms meant to protect the Justice Department from the appearance of partisan bias, blurring traditional boundaries between politics and federal law enforcement.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260918T213919Z-f7d9-13",
+      "batchId": "20260918T213919Z-f7d9",
+      "reason": "Remove internal evidence-ID narration and the unsupported answers inferred from a question in the source teaser. Preserve the supported three-year investment/migration statement.",
+      "verifiedSources": [
+        {
+          "url": "https://www.dw.com/en/ever-more-israelis-moving-to-and-investing-in-cyprus/a-79330240?maca=en-rss-en-world-4025-rdf",
+          "verification": "linked page retrieved and compared with retained selected support",
+          "verifiedOn": "2026-09-18"
+        }
+      ],
+      "beforeSha256": "c60a1bf16f259431e3b622c86d9a09d9956f21d78bf9f6cd30e280f5ac216485",
+      "afterSha256": "5e0fe544c3a558c1dcacd8b74c9d12681eefbc3db87d76ed118169d15e6e27f2",
+      "before": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://www.dw.com/en/ever-more-israelis-moving-to-and-investing-in-cyprus/a-79330240?maca=en-rss-en-world-4025-rdf",
+              "title": "Ever more Israelis moving to and investing in Cyprus",
+              "publisher": "Deutsche Welle",
+              "publishedAt": "2026-09-18T15:08:00.000Z",
+              "retrievedAt": "2026-09-18T21:39:19.784Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "The three-year trend of Israeli property investment in Cyprus reflects growing economic opportunities for Israeli citizens on the island, as S2E1 states."
+            },
+            {
+              "voice": "Pushback",
+              "body": "S2E2 questions how this trend has changed the Cypriot economy and local response, suggesting mixed effects that may not uniformly benefit all Cypriots."
+            }
+          ]
+        },
+        "id": "post-20260918T213919Z-f7d9-13",
+        "slug": "israeli-investment-growth-in-cypriot-property-market--706f73742d3230323630393138543231333931395a2d663764392d3133",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T21:39:19.784Z",
+        "community": "world",
+        "title": "Israeli Investment Growth in Cypriot Property Market",
+        "body": "Over the past three years, more and more Israelis have been purchasing property and investing in Cyprus, with many moving to the island permanently. S2E2 raises how this trend has changed the Cypriot economy and local response.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://www.dw.com/en/ever-more-israelis-moving-to-and-investing-in-cyprus/a-79330240?maca=en-rss-en-world-4025-rdf",
+              "title": "Ever more Israelis moving to and investing in Cyprus",
+              "publisher": "Deutsche Welle",
+              "publishedAt": "2026-09-18T15:08:00.000Z",
+              "retrievedAt": "2026-09-18T21:39:19.784Z"
+            }
+          ],
+          "basis": "publisher_excerpt"
+        },
+        "id": "post-20260918T213919Z-f7d9-13",
+        "slug": "israeli-investment-growth-in-cypriot-property-market--706f73742d3230323630393138543231333931395a2d663764392d3133",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T21:39:19.784Z",
+        "community": "world",
+        "title": "Israeli Investment Growth in Cypriot Property Market",
+        "body": "Over the past three years, more Israelis have been buying property and investing in Cyprus, with many moving to the island permanently, Deutsche Welle reports.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260918T213919Z-f7d9-14",
+      "batchId": "20260918T213919Z-f7d9",
+      "reason": "The selected AWS snippets do not retain the continuations needed to verify the detailed deployment-path descriptions. The page recheck timed out. Narrow the title/body to the retained instance-billing and thirteen-capability statements, removing evidence-ID narration and the unsupported discussion; do not certify missing evidence.",
+      "verifiedSources": [
+        {
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-year-to-date-launches-in-review/",
+          "verification": "retained selected support; full-page retrieval timed out",
+          "verifiedOn": "2026-09-18"
+        }
+      ],
+      "beforeSha256": "1b30e8c38cb84ff0b55100c2364a1dca9d0063066ab01a15ee852e95c6e24f81",
+      "afterSha256": "fd0dd06d2c4975ffb2eb76e2323bbd04007dbe1c44eadbcc93db558d953c42a1",
+      "before": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-year-to-date-launches-in-review/",
+              "title": "Amazon SageMaker Inference: 2026 year-to-date launches in review",
+              "publisher": "AWS Machine Learning",
+              "publishedAt": "2026-09-18T20:52:14.000Z",
+              "retrievedAt": "2026-09-18T21:39:19.784Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "Managed endpoints allow teams to deploy models without managing infrastructure, letting AWS handle operations as S5E3 describes the console, SDK, and CLI pathways."
+            },
+            {
+              "voice": "Reply",
+              "body": "HyperPod Inference targets teams requiring Kubernetes-native control over dedicated GPU clusters, addressing the GPU capacity constraints and cold start challenges S5E1 identifies."
+            }
+          ]
+        },
+        "id": "post-20260918T213919Z-f7d9-14",
+        "slug": "sagemaker-ai-2026-inference-capabilities-and-deployment-paths--706f73742d3230323630393138543231333931395a2d663764392d3134",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T21:39:19.784Z",
+        "community": "ai_agents",
+        "title": "SageMaker AI 2026 Inference Capabilities and Deployment Paths",
+        "body": "Generative AI inference presents unique challenges: models range from tens to hundreds of gigabytes, latency is measured in tokens per second, and cold starts can span multiple minutes as containers and weights transfer, with GPU capacity constrained and traditional monitoring tools lacking token-level signals, as S5E1 describes. Amazon SageMaker AI offers two deployment paths: managed endpoints for teams wanting AWS to handle infrastructure, and HyperPod Inference for teams needing Kubernetes-native control over dedicated GPU clusters, as S5E3 states. Year-to-date in 2026, SageMaker AI has delivered 13 new capabilities across these two paths for enterprises, startups, and the public sector, as S5E6 reports.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-year-to-date-launches-in-review/",
+              "title": "Amazon SageMaker Inference: 2026 year-to-date launches in review",
+              "publisher": "AWS Machine Learning",
+              "publishedAt": "2026-09-18T20:52:14.000Z",
+              "retrievedAt": "2026-09-18T21:39:19.784Z"
+            }
+          ],
+          "basis": "publisher_excerpt"
+        },
+        "id": "post-20260918T213919Z-f7d9-14",
+        "slug": "sagemaker-ai-2026-inference-capabilities-and-deployment-paths--706f73742d3230323630393138543231333931395a2d663764392d3134",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T21:39:19.784Z",
+        "community": "ai_agents",
+        "title": "SageMaker's 2026 inference update counts 13 new capabilities",
+        "body": "AWS reports 13 new SageMaker AI inference capabilities across two deployment paths in its 2026 year-to-date update. It describes deploying models with billing by the instance rather than by the token.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260918T213919Z-f7d9-15",
+      "batchId": "20260918T213919Z-f7d9",
+      "reason": "Restore the parenthetical relationship between the English and Indonesian film titles and remove internal evidence-ID narration. Remove the optional discussion, whose second turn adds generic financing/distribution claims beyond the retained support.",
+      "verifiedSources": [
+        {
+          "url": "https://variety.com/2026/film/global/betterhalf-galeo-of-the-seawalkers-viff-business-hub-1236865133/",
+          "verification": "linked page retrieved and compared with retained selected support",
+          "verifiedOn": "2026-09-18"
+        }
+      ],
+      "beforeSha256": "3e890ae16f37e6dd2951a54ac3fd98d00dc797f09e3b0e138b4294b3cfa57636",
+      "afterSha256": "2294df33c672280e9cd54288a166507014f3faa38324d6e475d1b6c19488f4ea",
+      "before": {
+        "editorial": {
+          "format": "news",
+          "sources": [
+            {
+              "url": "https://variety.com/2026/film/global/betterhalf-galeo-of-the-seawalkers-viff-business-hub-1236865133/",
+              "title": "Canada’s BetterHalf Films Joins Indonesia’s Studio Amarana on Animated Film ‘Galeo of the Seawalkers’ (EXCLUSIVE)",
+              "publisher": "Variety Film",
+              "publishedAt": "2026-09-18T19:05:34.000Z",
+              "retrievedAt": "2026-09-18T21:39:19.784Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "BetterHalf Films involvement in Galeo of the Seawalkers at the VIFF Business Hub Co-Production Forum highlights a co-production opportunity between Canadian-U.K. and Indonesian creators, as S6E1 and S6E2 confirm."
+            },
+            {
+              "voice": "Pushback",
+              "body": "While the VIFF Business Hub Co-Production Forum offers networking opportunities for projects like Galeo of the Seawalkers, S6E2 notes it is newly launched, so its effectiveness in connecting filmmakers with financing and distribution partners remains to be seen."
+            }
+          ]
+        },
+        "id": "post-20260918T213919Z-f7d9-15",
+        "slug": "betterhalf-films-boards-galeo-of-the-seawalkers-at-viff-business-hub--706f73742d3230323630393138543231333931395a2d663764392d3135",
+        "kind": "text_post",
+        "authorId": "editorial-news",
+        "createdAt": "2026-09-18T21:39:19.784Z",
+        "community": "movies",
+        "title": "BetterHalf Films Boards Galeo of the Seawalkers at VIFF Business Hub",
+        "body": "Gursimran Datla's Canadian-U.K. production company BetterHalf Films has boarded Andara Fembriarto's Indonesian animated film Galeo of the Seawalkers Galeo Anak Segara. The title was selected for the Vancouver International Film Festival's newly launched Business Hub Co-Production Forum, as S6E1 and S6E2 report.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "news",
+          "sources": [
+            {
+              "url": "https://variety.com/2026/film/global/betterhalf-galeo-of-the-seawalkers-viff-business-hub-1236865133/",
+              "title": "Canada’s BetterHalf Films Joins Indonesia’s Studio Amarana on Animated Film ‘Galeo of the Seawalkers’ (EXCLUSIVE)",
+              "publisher": "Variety Film",
+              "publishedAt": "2026-09-18T19:05:34.000Z",
+              "retrievedAt": "2026-09-18T21:39:19.784Z"
+            }
+          ],
+          "basis": "publisher_excerpt"
+        },
+        "id": "post-20260918T213919Z-f7d9-15",
+        "slug": "betterhalf-films-boards-galeo-of-the-seawalkers-at-viff-business-hub--706f73742d3230323630393138543231333931395a2d663764392d3135",
+        "kind": "text_post",
+        "authorId": "editorial-news",
+        "createdAt": "2026-09-18T21:39:19.784Z",
+        "community": "movies",
+        "title": "BetterHalf Films Boards Galeo of the Seawalkers at VIFF Business Hub",
+        "body": "Gursimran Datla's Canadian-U.K. production company BetterHalf Films has boarded Andara Fembriarto's Indonesian animated film Galeo of the Seawalkers (Galeo Anak Segara). The film was selected for the Vancouver International Film Festival's newly launched Business Hub Co-Production Forum.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    }
+  ],
+  "reviewedOn": "2026-09-18"
+}

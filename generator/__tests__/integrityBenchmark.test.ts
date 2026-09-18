@@ -4,8 +4,8 @@ import { INTEGRITY_EXAMPLES, reviewIntegrityBenchmark } from "../editorial/integ
 describe("reviewed editorial integrity examples", () => {
   it("preserves supported attribution, uncertainty, commentary and corrected factual examples", () => {
     const results = reviewIntegrityBenchmark();
-    expect(INTEGRITY_EXAMPLES).toHaveLength(12);
-    expect(new Set(results.map(result => result.id)).size).toBe(12);
+    expect(INTEGRITY_EXAMPLES).toHaveLength(16);
+    expect(new Set(results.map(result => result.id)).size).toBe(16);
     for (const result of results.filter(row => row.expectedEditorialDecision === "accept")) {
       expect(result.issues, result.id).toEqual([]);
       expect(result.deterministicGate).toContain("semantic review still required");
@@ -23,7 +23,7 @@ describe("reviewed editorial integrity examples", () => {
 
   it("reports semantic judgments separately from executable publication gates", () => {
     const results = reviewIntegrityBenchmark();
-    for (const id of ["comet-entity-wrong", "crater-scope-wrong", "family-relationship-wrong", "discussion-background-wrong"]) {
+    for (const id of ["comet-entity-wrong", "crater-scope-wrong", "family-relationship-wrong", "discussion-background-wrong", "live-unrelated-source-wrong", "live-speaker-attribution-wrong"]) {
       const result = results.find(row => row.id === id)!;
       expect(result.expectedEditorialDecision).toBe("reject");
       // Deliberately do not demand that these pass the validator: later semantic

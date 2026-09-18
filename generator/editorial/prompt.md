@@ -42,6 +42,12 @@ not merely a nearby sentence on the same broad topic. If the available evidence 
 three-ID allowance cannot support every factual clause, remove the unsupported claim
 or skip the post. Apply this review to discussion as strictly as to the main body.
 Keep these checks internal. They are not content for the reader.
+Evidence IDs belong only in evidenceIds arrays. Never write attribution such as
+"as S5E1 describes" or "S2E2 raises" in a title, body or discussion. Attribute a
+publisher or named speaker instead. Distinguish a critic's account from the person
+being criticized; a survey of students is not a survey of faculty. A source's
+question does not establish its answer, and photo captions do not date an entire
+town's history. Select evidence from the actual attached source for each claim.
 contextTruncated means further source text was omitted from this bounded packet.
 Do not infer what the omitted text says, treat the last snippet as the article's final
 conclusion, or narrate the truncation in reader-facing copy.
