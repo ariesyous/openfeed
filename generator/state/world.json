@@ -207,7 +207,11 @@
     "news wrap judge says kennedy center must provide notice before making changes to building",
     "congress passes new sanctions on russia and countries using russian energy",
     "openai may have solved the navier stokes equation but mathematics is more than 1 million trophy hunts",
-    "lifesaving lincoln laboratory device wins 2026 excellence in technology transfer award"
+    "lifesaving lincoln laboratory device wins 2026 excellence in technology transfer award",
+    "republican bill would order isps dns providers and vpns to block piracy sites",
+    "nasa s hubble spots an out of sync galaxy",
+    "thanks trump why canada may become the european union s first ever associate member",
+    "introducing amazon sagemaker hyperpod inference gateway"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -416,12 +420,16 @@
     "https://www.pbs.org/newshour/show/news-wrap-judge-says-kennedy-center-must-provide-notice-before-making-changes-to-building",
     "https://www.pbs.org/newshour/show/congress-passes-new-sanctions-on-russia-and-countries-using-russian-energy",
     "https://theconversation.com/openai-may-have-solved-the-navier-stokes-equation-but-mathematics-is-more-than-1-million-trophy-hunts-291963",
-    "https://news.mit.edu/2026/lifesaving-lincoln-laboratory-technology-wins-tech-transfer-award-0911"
+    "https://news.mit.edu/2026/lifesaving-lincoln-laboratory-technology-wins-tech-transfer-award-0911",
+    "https://arstechnica.com/tech-policy/2026/09/republican-bill-would-order-isps-dns-providers-and-vpns-to-block-piracy-sites/",
+    "https://science.nasa.gov/uncategorized/nasas-hubble-spots-an-out-of-sync-galaxy/",
+    "https://theconversation.com/thanks-trump-why-canada-may-become-the-european-unions-first-ever-associate-member-292059",
+    "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/"
   ],
   "initialized": true,
-  "cycleCount": 26,
+  "cycleCount": 27,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-18T09:43:04.653Z",
+  "lastRunAt": "2026-09-18T14:29:08.539Z",
   "communities": [
     "technology",
     "science",
@@ -443,11 +451,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260918T044314Z-6f06",
-      "generatedAtCycle": 22,
-      "summary": "Resident Evil Reboot: Why the Film’s Past Matters; Epictetus’s Stoic Ethics: Volition and the Use of Impressions; Messier 33: The Triangulum Galaxy in New APOD Image; Great Dane Gets Stretcher Ride Down B.C. Mountain; BC Conservatives allegedly hired a private investigator to watch their own MLAs; OpenAI research maps how workers actually fold AI into daily tasks; Universal proceeds with international release of Gibney's 4-hour Musk documentary despite legal threats; A poetic documentary explore"
-    },
-    {
       "batchId": "20260918T051502Z-5698",
       "generatedAtCycle": 23,
       "summary": "FCC Lets Nearly Half of Paramount Be Foreign-Owned After Warner Deal; UN Experts Say Grounds Exist to Believe US Committed War Crimes in Iran Strikes; San Sebastián Opens With Brad Pitt Back in the Basque Country; Early Bowie Recordings Reach Streaming for the First Time"
@@ -466,6 +469,11 @@
       "batchId": "20260918T094304Z-2e4a",
       "generatedAtCycle": 26,
       "summary": "Hyundai Ioniq 5 AWD offers fast charge but reduced range; RFK Jr. names eight members to the stalled preventive-medicine panel; Palace pushes back on Earl Spencer’s latest criticism of King Charles; Why dropping grades won’t automatically fix student stress; Plastic waste becomes a 40-foot bridge in Massachusetts; NASA spots a massive new crater on the Moon; House passes sweeping new sanctions on Russia; What the Navier‑Stokes equation is and why an AI‑proposed solution matters; AI‑guided ultras"
+    },
+    {
+      "batchId": "20260918T142908Z-67e3",
+      "generatedAtCycle": 27,
+      "summary": "ISP Blocking Bill Targets Piracy Sites; Why NGC 4698’s Spiral Arms Stay Outer; Canada Eyes EU Associate Membership Amid US Tensions; SageMaker HyperPod Inference Gateway: Fast Routing or Added Complexity?"
     }
   ]
 }

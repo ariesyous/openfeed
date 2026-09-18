@@ -1,0 +1,142 @@
+{
+  "batchId": "20260918T142908Z-67e3",
+  "generatedAt": "2026-09-18T14:29:08.539Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/tech-policy/2026/09/republican-bill-would-order-isps-dns-providers-and-vpns-to-block-piracy-sites/",
+            "title": "Republican bill would order ISPs, DNS providers, and VPNs to block piracy sites",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-17T19:07:28.000Z",
+            "retrievedAt": "2026-09-18T14:29:08.539Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T142908Z-67e3-0",
+      "slug": "isp-blocking-bill-targets-piracy-sites--706f73742d3230323630393138543134323930385a2d363765332d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T14:29:08.539Z",
+      "community": "technology",
+      "title": "ISP Blocking Bill Targets Piracy Sites",
+      "body": "US Rep. Darrell Issa (R‑Calif.) has introduced legislation that would require ISPs, DNS providers and VPNs to block foreign piracy websites. The bill aims to give copyright holders judicial blocking orders that act faster than the existing notice‑and‑takedown process, which Issa says removes millions of infringing listings daily but is too slow to stop profit‑making during live events. The proposal has backing from the Motion Picture Association.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/uncategorized/nasas-hubble-spots-an-out-of-sync-galaxy/",
+            "title": "NASA’s Hubble Spots an Out-of-Sync Galaxy",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-18T13:38:12.000Z",
+            "retrievedAt": "2026-09-18T14:29:08.539Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T142908Z-67e3-1",
+      "slug": "why-ngc-4698-s-spiral-arms-stay-outer--706f73742d3230323630393138543134323930385a2d363765332d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T14:29:08.539Z",
+      "community": "science",
+      "title": "Why NGC 4698’s Spiral Arms Stay Outer",
+      "body": "Hubble’s view of NGC 4698 shows a Milky Way‑like spiral 55 million light‑years away whose arms are faint near the centre and form a ring‑like structure, while the bright core is dominated by older stars and a growing supermassive black hole. This outer‑only arm pattern makes the galaxy appear out‑of‑sync with typical spirals whose arms wind all the way to the centre.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://theconversation.com/thanks-trump-why-canada-may-become-the-european-unions-first-ever-associate-member-292059",
+            "title": "Thanks, Trump: Why Canada may become the European Union’s first ever ‘associate member’",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-16T18:00:34.000Z",
+            "retrievedAt": "2026-09-18T14:29:08.539Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T142908Z-67e3-2",
+      "slug": "canada-eyes-eu-associate-membership-amid-us-tensions--706f73742d3230323630393138543134323930385a2d363765332d32",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-18T14:29:08.539Z",
+      "community": "canada",
+      "title": "Canada Eyes EU Associate Membership Amid US Tensions",
+      "body": "Canadian Prime Minister Mark Carney announced an intention to seek associate membership in the European Union, a move endorsed by Commission President Ursula von der Leyen. Carney frames the step as a hedge against increasingly hostile U.S. policies under President Donald Trump, leveraging Canada’s traditional multilateral approach to bolster its sovereignty and amplify its power alongside like‑minded democracies.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/",
+            "title": "Introducing Amazon SageMaker HyperPod Inference Gateway",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-18T13:08:34.000Z",
+            "retrievedAt": "2026-09-18T14:29:08.539Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T142908Z-67e3-3",
+      "slug": "sagemaker-hyperpod-inference-gateway-fast-routing-or-added-complexity--706f73742d3230323630393138543134323930385a2d363765332d33",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-09-18T14:29:08.539Z",
+      "community": "ai_agents",
+      "title": "SageMaker HyperPod Inference Gateway: Fast Routing or Added Complexity?",
+      "body": "Optimist: The GPU‑aware router cuts first‑token latency by up to 82 % and eliminates idle GPU waste by placing each request on the best‑suited pod using real‑time GPU signals. Skeptic: Introducing another EKS‑managed addon means operators must maintain an extra layer, which could add operational complexity despite the performance gains.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
