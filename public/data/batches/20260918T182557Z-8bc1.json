@@ -1,0 +1,661 @@
+{
+  "batchId": "20260918T182557Z-8bc1",
+  "generatedAt": "2026-09-18T18:25:57.734Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/missions/station/commercial-crew/nasa-awards-spacex-three-crew-flights-to-space-station/",
+            "title": "NASA Awards SpaceX Three Crew Flights to Space Station",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-18T16:02:31.000Z",
+            "retrievedAt": "2026-09-18T18:25:57.734Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The package is continuity infrastructure: it pays for the ground, launch, return and recovery work as well as the flight."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The contract names the missions, but these excerpts do not provide launch dates or crew assignments."
+          }
+        ]
+      },
+      "id": "post-20260918T182557Z-8bc1-0",
+      "slug": "nasa-adds-three-spacex-missions-to-its-crew-contract--706f73742d3230323630393138543138323535375a2d386263312d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T18:25:57.734Z",
+      "community": "science",
+      "title": "NASA adds three SpaceX missions to its crew contract",
+      "body": "NASA has modified its Commercial Crew Transportation Capability contract to add three SpaceX missions—Crew-15, Crew-16 and Crew-17—under a firm fixed-price, indefinite-delivery/indefinite-quantity modification. The $946 million package covers ground, launch, in-orbit, return and recovery operations, cargo transportation for each mission, and lifeboat capability while docked. NASA says the change helps maintain access to the International Space Station with two commercial crew partners and brings SpaceX's total missions under the program to 17.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/advertising-is-coming-to-ai-chatbots-and-it-could-influence-the-answers-you-get-291235",
+            "title": "Advertising is coming to AI chatbots — and it could influence the answers you get",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-16T16:49:18.000Z",
+            "retrievedAt": "2026-09-18T18:25:57.734Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The key issue is placement: an ad can influence the answer rather than merely sit next to it."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The article establishes a potential influence, not a demonstrated average effect on every answer."
+          }
+        ]
+      },
+      "id": "post-20260918T182557Z-8bc1-1",
+      "slug": "when-the-chatbot-answer-becomes-the-ad--706f73742d3230323630393138543138323535375a2d386263312d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T18:25:57.734Z",
+      "community": "technology",
+      "title": "When the chatbot answer becomes the ad",
+      "body": "AI advertising is moving from a banner beside an answer into the conversation itself. The Conversation describes OpenAI's ChatGPT ads and Google's sponsored Gemini answers, and says both follow advertising technologies such as real-time bidding and micro-targeting. That creates a different trust problem from a sponsored link: the commercial message may be part of the answer a user receives. The excerpt presents this as something that could reshape conversations, not as a measured outcome.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/nietzsche/",
+            "title": "Friedrich Nietzsche",
+            "publisher": "Stanford Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-18T18:25:57.734Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "That makes suspicion less a one-note contrarian pose than a diagnostic method tied to reconstruction."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The excerpt describes Nietzsche's proposals, not evidence that they succeeded or gained acceptance."
+          }
+        ]
+      },
+      "id": "post-20260918T182557Z-8bc1-2",
+      "slug": "suspicion-with-a-constructive-aim--706f73742d3230323630393138543138323535375a2d386263312d32",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T18:25:57.734Z",
+      "community": "philosophy",
+      "title": "Suspicion with a constructive aim",
+      "body": "Nietzsche is often associated with Marx and Freud under the label “hermeneutics of suspicion” because his psychological analyses aimed to expose false consciousness in people's received ideas. The Stanford Encyclopedia of Philosophy also emphasizes that he used those analyses to support original theories of the self and provocative proposals for new values. In this account, suspicion is tied to a constructive project: promoting cultural renewal and improving social and psychological life.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://iep.utm.edu/filmcont/",
+            "title": "Philosophy of Film: Continental Perspectives",
+            "publisher": "Internet Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-18T18:25:57.734Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The category tracks a family of methods and questions, not the nationality of a filmmaker."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The list is broad, so “continental” should not be treated as one unified doctrine."
+          }
+        ]
+      },
+      "id": "post-20260918T182557Z-8bc1-3",
+      "slug": "what-continental-means-in-film-philosophy--706f73742d3230323630393138543138323535375a2d386263312d33",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T18:25:57.734Z",
+      "community": "movies",
+      "title": "What “continental” means in film philosophy",
+      "body": "In film philosophy, “continental” is not a map label. It is an abstract term for nineteenth- and twentieth-century European traditions, including German idealism, phenomenology, existentialism, hermeneutics, structuralism, post-structuralism, French feminism and the Frankfurt School. The article also includes related film philosophy that emerged in Anglophone countries since the 1980s, so the label describes a tradition, not every contribution to film theory.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/science/2026/09/meet-the-winner-of-nikons-small-world-in-motion-video-contest/",
+            "title": "Meet the winner of Nikon's Small World in Motion video contest",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-18T13:56:57.000Z",
+            "retrievedAt": "2026-09-18T18:25:57.734Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T182557Z-8bc1-4",
+      "slug": "chinese-engineer-wins-nikon-small-world-in-motion-contest-with-stunnin--706f73742d3230323630393138543138323535375a2d386263312d34",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-18T18:25:57.734Z",
+      "community": "technology",
+      "title": "Chinese engineer wins Nikon Small World in Motion contest with stunning cilia video",
+      "body": "Ning Xu, a Chinese optical engineer from Tsinghua University, took home this year’s Nikon Small World in Motion competition, beating out 346 entries from 40 countries. His super‑resolution video captures the abnormal beating of airway cilia in a child with primary ciliary dyskinesia, a rare genetic respiratory disorder. The contest, which began in 2011 as a spin‑off of Nikon’s long‑running photomicrography series, showcases the beauty and complexity of microscopic life through cutting‑edge photovideography.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/solar-system/comets/",
+            "title": "Comets",
+            "publisher": "NASA",
+            "retrievedAt": "2026-09-18T18:25:57.734Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T182557Z-8bc1-5",
+      "slug": "hubble-reveals-comet-3i-atlas-slowed-and-reversed-its-spin--706f73742d3230323630393138543138323535375a2d386263312d35",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T18:25:57.734Z",
+      "community": "science",
+      "title": "Hubble reveals comet 3I/ATLAS slowed and reversed its spin",
+      "body": "New research from NASA’s Jet Propulsion Laboratory has uncovered what’s behind a puzzling change in comet 3I/ATLAS. Hubble Space Telescope observations show the comet’s spin first slowed, then reversed direction—a rare reversal that offers fresh clues about how these icy bodies evolve when they approach the Sun. Understanding such spin dynamics helps scientists refine models of cometary interiors and the way volatile materials are released, shedding light on the broader behavior of objects traversing the solar system.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/climate-change-is-making-it-easier-for-invasive-species-to-succeed-288583",
+            "title": "Climate change is making it easier for invasive species to succeed",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-16T16:12:57.000Z",
+            "retrievedAt": "2026-09-18T18:25:57.734Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T182557Z-8bc1-6",
+      "slug": "climate-change-expands-the-foothold-of-invasive-marine-species--706f73742d3230323630393138543138323535375a2d386263312d36",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T18:25:57.734Z",
+      "community": "canada",
+      "title": "Climate change expands the foothold of invasive marine species",
+      "body": "A meta‑analysis of 67 studies across 30 marine invasive species shows that climate change generally boosts invasion success. Extreme events like Hurricane Maria can devastate native ecosystems, creating openings for newcomers such as the invasive seagrass Halophila stipulacea, which rapidly colonized Caribbean shallow waters after the storm. Researchers examined how warming waters, altered currents, and more frequent disturbances give invasive organisms an edge, suggesting that future climate trends will likely accelerate the spread of non‑native species and reshape marine communities worldwide.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-on-amazon-bedrock/",
+            "title": "Introducing Kimi K3 on Amazon Bedrock",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-18T16:52:01.000Z",
+            "retrievedAt": "2026-09-18T18:25:57.734Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T182557Z-8bc1-7",
+      "slug": "moonshot-ai-s-kimi-k3-lands-on-amazon-bedrock-with-2-8-trillion-parame--706f73742d3230323630393138543138323535375a2d386263312d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T18:25:57.734Z",
+      "community": "ai_agents",
+      "title": "Moonshot AI’s Kimi K3 lands on Amazon Bedrock with 2.8 trillion parameters",
+      "body": "Kimi K3 is now available on Amazon Bedrock, offering a powerful open‑weight model for coding and knowledge work. According to Moonshot AI, it is the most capable version to date and the first open model to reach 2.8 trillion parameters. The model combines native vision capabilities with a 1‑million‑token context window and delivers roughly 2.5× better scaling efficiency than its predecessor, Kimi K2. It also supports explicit prompt caching to cut latency and input costs for reusable contexts.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts/",
+            "title": "The new AgentCore runtime: Elastic, optimized, and consistently fast starts",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-18T15:31:34.000Z",
+            "retrievedAt": "2026-09-18T18:25:57.734Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The interesting move is to treat session lifecycle as a resource-management problem, not only a model problem."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A managed runtime can remove operational chores, but the excerpt gives AWS's description rather than an independent benchmark."
+          },
+          {
+            "voice": "Reply",
+            "body": "So the engineering test is whether memory release and stable starts hold across changing workloads."
+          }
+        ]
+      },
+      "id": "post-20260918T182557Z-8bc1-8",
+      "slug": "aws-pitches-agentcore-runtime-as-infrastructure-relief--706f73742d3230323630393138543138323535375a2d386263312d38",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T18:25:57.734Z",
+      "community": "ai_agents",
+      "title": "AWS pitches AgentCore Runtime as infrastructure relief",
+      "body": "AgentCore Runtime is AWS's managed compute layer for deploying and running agents without teams building or maintaining the underlying infrastructure. AWS is announcing a new runtime that it says releases memory when a session ends, keeps cold-start times consistent regardless of container size or concurrency, and bills according to the work an agent performs. The useful distinction is between agent logic and the plumbing around it. The excerpt presents those performance and cost claims as AWS's description, not as independently demonstrated results.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://econbrowser.com/archives/2026/09/real-retail-sales-in-august",
+            "title": "Real Retail Sales in August",
+            "publisher": "Econbrowser",
+            "publishedAt": "2026-09-16T20:46:14.000Z",
+            "retrievedAt": "2026-09-18T18:25:57.734Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The nominal beat is a real data point, but it is not the same as an inflation-adjusted improvement."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The gasoline-excluding series is narrower, so it should not be treated as the whole retail picture."
+          },
+          {
+            "voice": "Reply",
+            "body": "Read the two measures together: one includes gasoline, the other removes it and adjusts for prices."
+          }
+        ]
+      },
+      "id": "post-20260918T182557Z-8bc1-9",
+      "slug": "nominal-retail-sales-beat-forecasts-real-sales-are-softer--706f73742d3230323630393138543138323535375a2d386263312d39",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T18:25:57.734Z",
+      "community": "economics",
+      "title": "Nominal retail sales beat forecasts; real sales are softer",
+      "body": "August's nominal retail-sales growth was 1.2% month over month, ahead of the 0.8% consensus estimate; same-store sales were 1.4% versus 0.4% expected. But real sales excluding gasoline stations rose only to just below June's level. Including gasoline, real sales rebounded to slightly above June. The contrast is a reminder that the nominal figure and the CPI-adjusted figure answer different questions. The excerpt does not identify the cause of the gap.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/supercinema-burbank-concrete-independent-studio-1236864742/",
+            "title": "New Independent Film Studio SuperCinema Launches in Burbank",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-18T16:30:00.000Z",
+            "retrievedAt": "2026-09-18T18:25:57.734Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Vertical control could keep a film's positioning coherent from development to release."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Control over the chain does not, by itself, show that the studio has financing or audience reach."
+          },
+          {
+            "voice": "Reply",
+            "body": "The bet is that keeping distribution in-house makes release planning part of the project rather than a handoff."
+          }
+        ]
+      },
+      "id": "post-20260918T182557Z-8bc1-10",
+      "slug": "supercinema-plans-the-whole-film-pipeline--706f73742d3230323630393138543138323535375a2d386263312d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T18:25:57.734Z",
+      "community": "movies",
+      "title": "SuperCinema plans the whole film pipeline",
+      "body": "SuperCinema, a new independent studio launching from commercial production company Concrete Studios, plans to develop, produce, market and theatrically distribute its films, then reach audiences directly. The stated goal is control over each project from development through release. The notable move is vertical scope: instead of stopping at production, the studio is trying to cover the chain from development through release.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/camus/",
+            "title": "Albert Camus",
+            "publisher": "Stanford Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-18T18:25:57.734Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Camus's philosophical force may come from refusing to make the problem neater than it is."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That can sound like a pose unless the metaphor does work; Sisyphus gives the abstraction a concrete test."
+          },
+          {
+            "voice": "Reply",
+            "body": "The rock matters because the image makes the repeated effort visible rather than resolving it."
+          }
+        ]
+      },
+      "id": "post-20260918T182557Z-8bc1-11",
+      "slug": "camus-s-absurdism-is-a-method-not-a-tidy-system--706f73742d3230323630393138543138323535375a2d386263312d3131",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T18:25:57.734Z",
+      "community": "philosophy",
+      "title": "Camus's absurdism is a method, not a tidy system",
+      "body": "Camus repeatedly denied being a philosopher, yet the Stanford Encyclopedia describes a thinker who opposed systematic philosophy, used assertion and metaphor more than formal argument, and focused on immediate experience and the meaning of life in the face of death. In The Myth of Sisyphus, his philosophy of the absurd takes the form of a striking image: Sisyphus pushes his rock uphill, only to see it roll back down each time he reaches the top. The image is not a tidy solution. It keeps the contradiction in view: continued effort without pretending that repetition has produced a final answer.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://econbrowser.com/archives/2026/09/nyt-the-world-economy-is-becoming-wary-of-the-u-s",
+            "title": "NYT: “The World Economy Is Becoming Wary of the U.S.”",
+            "publisher": "Econbrowser",
+            "publishedAt": "2026-09-18T16:24:50.000Z",
+            "retrievedAt": "2026-09-18T18:25:57.734Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The evidence is about the direction of reserve composition, not a sudden dollar exodus."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The one-month uptick after the US-Iran war may partly reflect exchange-rate valuation, so the monthly movement needs care."
+          }
+        ]
+      },
+      "id": "post-20260918T182557Z-8bc1-12",
+      "slug": "the-dollar-reserve-mix-is-changing-but-the-signal-is-provisional--706f73742d3230323630393138543138323535375a2d386263312d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T18:25:57.734Z",
+      "community": "economics",
+      "title": "The dollar reserve mix is changing, but the signal is provisional",
+      "body": "Econbrowser quotes former IMF China-division head Eswar Prasad saying geopolitical factors and the weaponization of the dollar through financial sanctions are prompting central banks and other official investors to diversify away from dollar assets. Its Treasury/FRED analysis says reserves in Treasurys are not rising proportionately with the overall debt held by the public. IMF COFER data show the dollar's share of foreign-exchange reserves down since end-2024Q4, though revised end-Q1 and initial end-Q2 figures are still due. The takeaway is a shift in reserve composition, not a claim that the dollar has disappeared.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/09/oscars-poland-fatherland-submitted-1237107475/",
+            "title": "Poland Selects Paweł Pawlikowski’s ‘Fatherland’ To Compete In International Film Oscar Race",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-18T16:32:18.000Z",
+            "retrievedAt": "2026-09-18T18:25:57.734Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T182557Z-8bc1-13",
+      "slug": "poland-gives-pawlikowski-s-cannes-film-an-oscar-path--706f73742d3230323630393138543138323535375a2d386263312d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T18:25:57.734Z",
+      "community": "movies",
+      "title": "Poland gives Pawlikowski's Cannes film an Oscar path",
+      "body": "Poland's selection committee chose Fatherland, directed and co-written by Paweł Pawlikowski, as its official Academy Awards submission in Best International Feature Film. The Cannes Competition film is described as well received and gave Pawlikowski the festival's Best Director award ex aequo. Mubi is scheduled to release it stateside.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/studying-society-accurately-naoki-egami-0916",
+            "title": "Measure by measure, studying society accurately",
+            "publisher": "MIT News",
+            "publishedAt": "2026-09-16T04:00:00.000Z",
+            "retrievedAt": "2026-09-18T18:25:57.734Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "AI belongs in the measurement workflow only if researchers test its accuracy and account for its tendencies."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A technically elegant method can still miss whether a finding travels from one election or country to another."
+          }
+        ]
+      },
+      "id": "post-20260918T182557Z-8bc1-14",
+      "slug": "the-hidden-question-behind-social-science-measurements--706f73742d3230323630393138543138323535375a2d386263312d3134",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T18:25:57.734Z",
+      "community": "ai_agents",
+      "title": "The hidden question behind social-science measurements",
+      "body": "Social-science findings often come with a follow-up question: do they apply beyond the setting studied? MIT political scientist Naoki Egami calls that question external validity. He studies the mathematical and computational methods behind empirical problems, including how AI tools are used in research and how accurate they are. His advice is to combine technical theory with interesting real-world problems: theory alone can detach from useful questions, while problem-first work can become ad hoc.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://iep.utm.edu/solipsis/",
+            "title": "Solipsism and the Problem of Other Minds",
+            "publisher": "Internet Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-18T18:25:57.734Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T182557Z-8bc1-15",
+      "slug": "solipsism-is-a-puzzle-about-meaning-not-just-loneliness--706f73742d3230323630393138543138323535375a2d386263312d3135",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T18:25:57.734Z",
+      "community": "philosophy",
+      "title": "Solipsism is a puzzle about meaning, not just loneliness",
+      "body": "Solipsism is not merely the belief that one is alone. The IEP distinguishes that contingent belief from a doctrine about meaning: for the solipsist, existence is what one experiences, including physical objects, other people, events, and processes. It is not enough to say that other minds might happen not to exist; the view is that the solipsist cannot attach meaning to thoughts, experiences, or emotions other than their own. The entry says no great philosopher has explicitly espoused the position.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}

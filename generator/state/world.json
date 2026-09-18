@@ -211,7 +211,23 @@
     "republican bill would order isps dns providers and vpns to block piracy sites",
     "nasa s hubble spots an out of sync galaxy",
     "thanks trump why canada may become the european union s first ever associate member",
-    "introducing amazon sagemaker hyperpod inference gateway"
+    "introducing amazon sagemaker hyperpod inference gateway",
+    "nasa awards spacex three crew flights to space station",
+    "advertising is coming to ai chatbots and it could influence the answers you get",
+    "friedrich nietzsche",
+    "philosophy of film continental perspectives",
+    "meet the winner of nikon s small world in motion video contest",
+    "comets",
+    "climate change is making it easier for invasive species to succeed",
+    "introducing kimi k3 on amazon bedrock",
+    "the new agentcore runtime elastic optimized and consistently fast starts",
+    "real retail sales in august",
+    "new independent film studio supercinema launches in burbank",
+    "albert camus",
+    "nyt the world economy is becoming wary of the u s",
+    "poland selects paweł pawlikowski s fatherland to compete in international film oscar race",
+    "measure by measure studying society accurately",
+    "solipsism and the problem of other minds"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -424,12 +440,28 @@
     "https://arstechnica.com/tech-policy/2026/09/republican-bill-would-order-isps-dns-providers-and-vpns-to-block-piracy-sites/",
     "https://science.nasa.gov/uncategorized/nasas-hubble-spots-an-out-of-sync-galaxy/",
     "https://theconversation.com/thanks-trump-why-canada-may-become-the-european-unions-first-ever-associate-member-292059",
-    "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/"
+    "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/",
+    "https://www.nasa.gov/missions/station/commercial-crew/nasa-awards-spacex-three-crew-flights-to-space-station/",
+    "https://theconversation.com/advertising-is-coming-to-ai-chatbots-and-it-could-influence-the-answers-you-get-291235",
+    "https://plato.stanford.edu/entries/nietzsche/",
+    "https://iep.utm.edu/filmcont/",
+    "https://arstechnica.com/science/2026/09/meet-the-winner-of-nikons-small-world-in-motion-video-contest/",
+    "https://science.nasa.gov/solar-system/comets/",
+    "https://theconversation.com/climate-change-is-making-it-easier-for-invasive-species-to-succeed-288583",
+    "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-on-amazon-bedrock/",
+    "https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts/",
+    "https://econbrowser.com/archives/2026/09/real-retail-sales-in-august",
+    "https://variety.com/2026/film/news/supercinema-burbank-concrete-independent-studio-1236864742/",
+    "https://plato.stanford.edu/entries/camus/",
+    "https://econbrowser.com/archives/2026/09/nyt-the-world-economy-is-becoming-wary-of-the-u-s",
+    "https://deadline.com/2026/09/oscars-poland-fatherland-submitted-1237107475/",
+    "https://news.mit.edu/2026/studying-society-accurately-naoki-egami-0916",
+    "https://iep.utm.edu/solipsis/"
   ],
   "initialized": true,
-  "cycleCount": 27,
+  "cycleCount": 28,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-18T14:29:08.539Z",
+  "lastRunAt": "2026-09-18T18:25:57.734Z",
   "communities": [
     "technology",
     "science",
@@ -451,11 +483,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260918T051502Z-5698",
-      "generatedAtCycle": 23,
-      "summary": "FCC Lets Nearly Half of Paramount Be Foreign-Owned After Warner Deal; UN Experts Say Grounds Exist to Believe US Committed War Crimes in Iran Strikes; San Sebastián Opens With Brad Pitt Back in the Basque Country; Early Bowie Recordings Reach Streaming for the First Time"
-    },
-    {
       "batchId": "20260918T052850Z-6af9",
       "generatedAtCycle": 24,
       "summary": "The Problem of Choosing Together; Two Questions Inside Free Will; More Than 6,000 Worlds, and Counting; A Song Pulled From a White House Reel; The Invisible Glue Holding Galaxies Together; The Philosopher Who Never Wrote a Word; OpenAI Wants to Measure Whether AI Work Actually Pays Off; Judge Adds a Notice Requirement Before Any Kennedy Center ‘Demolition’; Bergson, Einstein, and What the Word ‘Present’ Commits You To; A Paranormal Comedy Skips Theaters for Your Living Room; When ‘AI’ Is Asked t"
@@ -474,6 +501,11 @@
       "batchId": "20260918T142908Z-67e3",
       "generatedAtCycle": 27,
       "summary": "ISP Blocking Bill Targets Piracy Sites; Why NGC 4698’s Spiral Arms Stay Outer; Canada Eyes EU Associate Membership Amid US Tensions; SageMaker HyperPod Inference Gateway: Fast Routing or Added Complexity?"
+    },
+    {
+      "batchId": "20260918T182557Z-8bc1",
+      "generatedAtCycle": 28,
+      "summary": "NASA adds three SpaceX missions to its crew contract; When the chatbot answer becomes the ad; Suspicion with a constructive aim; What “continental” means in film philosophy; Chinese engineer wins Nikon Small World in Motion contest with stunning cilia video; Hubble reveals comet 3I/ATLAS slowed and reversed its spin; Climate change expands the foothold of invasive marine species; Moonshot AI’s Kimi K3 lands on Amazon Bedrock with 2.8 trillion parameters; AWS pitches AgentCore Runtime as infrastr"
     }
   ]
 }
