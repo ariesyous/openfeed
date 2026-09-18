@@ -60,8 +60,21 @@ preserves the existing edition. Diagnostics explain target, actual count,
 shortfall, attempts, runtime, models and topics. No free-router result is fabricated
 or replaced silently with a paid model to hit twenty.
 
-The curated evergreen shelf has expanded to twenty-five retrieved publisher
-pages. Guardian film and Sopranos RSS also broaden recurring culture intake. Consumed URLs are no longer fetched, and intake reports remaining shelf
+After run #36 stopped at four posts on an empty second response, empty selections
+now defer only the sources actually offered in that request and move on to other
+unused evidence. Deferral lasts for one run; only published sources enter durable
+coverage. Empty responses still consume the same eight-attempt budget and never
+reset the shared deadline. Stop when no untried evidence remains. Candidate,
+offered, deferred and empty-selection counts make the shortfall visible.
+
+The curated evergreen shelf has expanded to fifty retrieved publisher pages.
+The September 18 addition contains twenty-five pages from Stanford Encyclopedia
+of Philosophy, Internet Encyclopedia of Philosophy, NASA, and The Metropolitan
+Museum of Art, covering philosophy, economics, film theory, Greek culture and
+science. Each added URL returned usable prose through the existing article parser;
+blocked, missing, thin and duplicate-title candidates were excluded. Only URL and
+editorial metadata are committed; article prose is retrieved at run time.
+Guardian film and Sopranos RSS also broaden recurring culture intake. Consumed URLs are no longer fetched, and intake reports remaining shelf
 size. This is a finite editorial backlog alongside recurring RSS, not an unlimited
 source supply: replenish it as consumed, particularly film/Sopranos criticism.
 Twenty useful posts and a half-evergreen mix cannot be promised for every hour.

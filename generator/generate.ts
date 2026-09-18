@@ -6,7 +6,7 @@ import { createRunId } from "./ids";
 import { buildPublishPlan, writePublishPlan } from "./publish";
 import { loadWorldState } from "./worldState";
 import { collectSources } from "./editorial/sources";
-import { generateEditorial } from "./editorial/generate";
+import { EDITORIAL_MAX_POSTS, generateEditorial } from "./editorial/generate";
 import { makeEditorialWorld } from "./editorial/state";
 import { coverageTitle } from "./editorial/coverage";
 import { editorialAccounts } from "./editorial/accounts";
@@ -22,12 +22,14 @@ async function main() {
   if (manifest.batches.length && previous.contentMode !== "editorial") throw new Error("Editorial state is missing; refusing to replace published history");
   const coveredTitles = new Set(previous.coveredSourceTitles ?? []);
   const coveredUrls = new Set(previous.coveredSourceUrls ?? []);
-  const sources = (await collectSources(now, fetch, coveredUrls)).filter(
+  const collected = await collectSources(now, fetch, coveredUrls);
+  const sources = collected.filter(
     (source) => !coveredUrls.has(source.url) && !coveredTitles.has(coverageTitle(source.title)),
   );
+  console.log(`[sources] collected=${collected.length} unused=${sources.length} previouslyCovered=${collected.length - sources.length}`);
   if (!sources.length) {
     console.log("[editorial] No new usable sources; existing feed preserved.");
-    if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, "## Editorial generation\n\nTarget: 10. Published: 0. No new usable sources; existing edition preserved.\n");
+    if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## Editorial generation\n\nTarget: ${EDITORIAL_MAX_POSTS}. Published: 0. No new usable sources; existing edition preserved.\n`);
     return;
   }
   const items = await generateEditorial(getApiKey(), sources, now, runId, previous.recentBatchSummaries.map((batch) => batch.summary));
