@@ -43,6 +43,20 @@ describe("publication date semantics", () => {
     expect(screen.getByText("Publication date unavailable")).toBeVisible();
     expect(container.querySelector("time")).toBeNull();
   });
+  it.each([
+    ["2026-09-18T23:00:00Z", "Added just now"],
+    ["2026-09-18T22:55:00Z", "Added 5m ago"],
+    ["2026-09-18T22:00:00Z", "Added 1h ago"],
+    ["2026-09-18T00:00:00Z", "Added 23h ago"],
+    ["2026-09-17T23:00:00Z", "Added 1d ago"],
+    ["2025-08-24T19:40:16Z", "Added Aug 24, 2025"],
+  ])("restores creation age while retaining the exact timestamp for %s", (iso, label) => {
+    render(<PublicationDate iso={iso} added />);
+    const time = screen.getByText(label);
+    expect(time).toHaveAttribute("datetime", iso);
+    expect(time.getAttribute("title")).toContain(iso);
+    expect(time.getAttribute("title")).toContain("not when its sources were published");
+  });
 });
 
 describe("temporal context on existing articles", () => {
@@ -77,9 +91,15 @@ describe("temporal context on existing articles", () => {
     view.unmount();
     const feed = render(<PostCard item={item} accountsById={new Map()} />);
     expect(feed.container.querySelector(".post-card-time time")).toHaveAttribute("datetime", item.createdAt);
-    expect(feed.container.querySelector(".post-card-time")).toHaveTextContent("Added Sep");
+    expect(feed.container.querySelector(".post-card-time")).toHaveTextContent(/Added \d+[hd] ago/);
     expect(feed.container.querySelectorAll(".source-panel time")).toHaveLength(item.editorial!.sources.filter(source => source.publishedAt).length);
     expect(screen.queryByText(/Background reading|evergreen/)).not.toBeInTheDocument();
+  });
+  it.each([false, true])("keeps a newly added old source visibly old (articleView=%s)", articleView => {
+    const item = { ...old, createdAt: "2026-09-18T22:00:00Z" };
+    render(<PostCard item={item} accountsById={new Map()} articleView={articleView} />);
+    expect(screen.getByText("Added 1h ago")).toBeVisible();
+    expect(screen.getByText("Published Aug 24, 2025")).toBeVisible();
   });
   it("shows each source's own date when dates differ or one is unknown", () => {
     // In-memory variants only: stored multiple-source article happens to have
