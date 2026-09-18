@@ -1,0 +1,682 @@
+{
+  "batchId": "20260918T001434Z-fca7",
+  "generatedAt": "2026-09-18T00:14:34.309Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/markets/",
+            "title": "Markets",
+            "publisher": "Stanford Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-18T00:14:34.309Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Markets can be compared by what they trade, their geographic scope, and their structure."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The excerpt also says markets shape how liberty, justice, and solidarity are realized, so the question is not only how exchange is organized."
+          },
+          {
+            "voice": "Reply",
+            "body": "That makes “market” a definition to settle before the moral argument begins."
+          }
+        ]
+      },
+      "id": "post-20260918T001434Z-fca7-0",
+      "slug": "markets-are-institutions-not-just-price-tags--706f73742d3230323630393138543030313433345a2d666361372d30",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T00:14:34.309Z",
+      "community": "economics",
+      "title": "Markets are institutions, not just price tags",
+      "body": "Markets are institutions where people or collective agents exchange goods and services. Money usually serves as a medium of exchange, which produces prices. That is only the first layer: markets can be separated by what they trade, how wide their scope is, and whether competition, oligopoly, or monopoly structures them. The philosophical question is whether any particular market can be defended, and how markets interact with institutions that carry values such as liberty, justice, or solidarity.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/james-wan-youtube-filmmakers-1236866251/",
+            "title": "Director and Producer James Wan on YouTube Filmmakers: ‘You Don’t Even Need to Be in the System Anymore to Get Something Made’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-17T22:53:55.000Z",
+            "retrievedAt": "2026-09-18T00:14:34.309Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The example connects YouTube breakout talent with feature-film production."
+          },
+          {
+            "voice": "Pushback",
+            "body": "One studio's practice does not establish a general pipeline for all online creators."
+          },
+          {
+            "voice": "Reply",
+            "body": "So “nothing new” is a useful correction to any account that treats the path as spontaneous."
+          }
+        ]
+      },
+      "id": "post-20260918T001434Z-fca7-1",
+      "slug": "james-wan-was-scouting-youtube-talent-before-it-became-a-film-industry--706f73742d3230323630393138543030313433345a2d666361372d31",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-18T00:14:34.309Z",
+      "community": "movies",
+      "title": "James Wan was scouting YouTube talent before it became a film-industry trope",
+      "body": "Variety reports that James Wan has been scouting YouTube breakout talent for feature films for decades, through his production studio Atomic Monster. The excerpt identifies Lights Out as the first movie made at the studio and connects David Sandberg with making it. Wan's example complicates accounts that present online creators' route into feature filmmaking as a sudden development: the scouting was already happening inside a production company.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://openai.com/index/cooley-gopublic",
+            "title": "How Cooley is accelerating IPO work with ChatGPT",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-09-17T12:00:00.000Z",
+            "retrievedAt": "2026-09-18T00:14:34.309Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Earlier issue-spotting could be valuable even if lawyers remain the ones making judgments."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Without a benchmark or outcome, the excerpt cannot show that the workflow actually delivers those benefits."
+          },
+          {
+            "voice": "Reply",
+            "body": "The excerpt supports an assistive role, not a transfer of legal judgment."
+          }
+        ]
+      },
+      "id": "post-20260918T001434Z-fca7-2",
+      "slug": "cooley-s-ipo-tool-is-a-workflow-claim-not-a-performance-result--706f73742d3230323630393138543030313433345a2d666361372d32",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T00:14:34.309Z",
+      "community": "ai_agents",
+      "title": "Cooley's IPO tool is a workflow claim, not a performance result",
+      "body": "The OpenAI excerpt says Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process. In OpenAI's description, the tool helps lawyers surface issues earlier and focus judgment where it matters. The excerpt gives no benchmark, case outcome, or comparison with non-AI review, so the claim should be read as a proposed workflow rather than proof that the system improves IPO work. The useful question is whether earlier issue-spotting can support lawyers while judgment remains with them.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/existentialism/",
+            "title": "Existentialism",
+            "publisher": "Stanford Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-18T00:14:34.309Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The excerpt ties existentialism to death, freedom, meaninglessness, and historical catastrophe."
+          },
+          {
+            "voice": "Pushback",
+            "body": "It also points to earlier groundwork, so the war was not the movement's entire origin in this overview."
+          },
+          {
+            "voice": "Reply",
+            "body": "That makes the label useful as a historical-philosophical connection, not a universal diagnosis of anxiety."
+          }
+        ]
+      },
+      "id": "post-20260918T001434Z-fca7-3",
+      "slug": "existentialism-joined-a-historical-crisis-to-older-philosophical-roots--706f73742d3230323630393138543030313433345a2d666361372d33",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T00:14:34.309Z",
+      "community": "philosophy",
+      "title": "Existentialism joined a historical crisis to older philosophical roots",
+      "body": "Existentialism is presented as a philosophical concern with death, freedom, and meaninglessness. The excerpt connects its emergence to the Second World War, the Nazi death camps, and the atomic bombings of Hiroshima and Nagasaki, while also noting earlier philosophical groundwork in the nineteenth century. The overview therefore presents the movement as tied to a particular historical crisis and to thinkers who came before.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cvj64w204y58o",
+            "title": "Why we bought our first home with a 100% mortgage - despite the risks",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-09-17T23:00:53.000Z",
+            "retrievedAt": "2026-09-18T00:14:34.309Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "It's a sign of how unaffordable housing has become that buyers are willing to take on such leverage."
+          },
+          {
+            "voice": "Pushback",
+            "body": "But without a deposit, they have no equity, making them vulnerable to even minor market dips."
+          }
+        ]
+      },
+      "id": "post-20260918T001434Z-fca7-4",
+      "slug": "the-return-of-the-100-mortgage--706f73742d3230323630393138543030313433345a2d666361372d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T00:14:34.309Z",
+      "community": "economics",
+      "title": "The return of the 100% mortgage",
+      "body": "The share of UK mortgages with smaller deposits has reached its highest level since 2008. The BBC spoke to borrowers who opted for 100% mortgages—loans covering the entire property value with no down payment—about how they manage the substantial risks. While these products offer a path to homeownership in a tight market, they leave buyers with no equity cushion and heightened vulnerability to interest rate hikes or market downturns.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+            "title": "Helping older adults use AI in everyday life",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-09-16T16:00:00.000Z",
+            "retrievedAt": "2026-09-18T00:14:34.309Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "This is a much-needed practical approach to digital inclusion."
+          },
+          {
+            "voice": "Pushback",
+            "body": "One thousand people is a tiny fraction of the older population; systemic change is still needed."
+          }
+        ]
+      },
+      "id": "post-20260918T001434Z-fca7-5",
+      "slug": "bridging-the-ai-gap-for-older-adults--706f73742d3230323630393138543030313433345a2d666361372d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T00:14:34.309Z",
+      "community": "ai_agents",
+      "title": "Bridging the AI gap for older adults",
+      "body": "OpenAI and AARP are teaming up to bring free, hands-on ChatGPT workshops to 1,000 older adults across ten U.S. cities. The initiative aims to build practical AI skills safely, addressing a common concern among seniors who want to use technology in daily life but may lack guidance or confidence. It's a concrete step toward making AI accessible to demographics often left behind by rapid tech adoption.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/mellody-hobson-steps-down-la28-olympics-board-1236866329/",
+            "title": "With Lucas Museum About to Open, Mellody Hobson Steps Down From LA28 Olympics Board",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-17T23:55:08.000Z",
+            "retrievedAt": "2026-09-18T00:14:34.309Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T001434Z-fca7-6",
+      "slug": "lucas-museum-co-founder-steps-down-from-olympics-board--706f73742d3230323630393138543030313433345a2d666361372d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T00:14:34.309Z",
+      "community": "movies",
+      "title": "Lucas Museum co-founder steps down from Olympics board",
+      "body": "Just days before the Lucas Museum of Narrative Art opens to the public, co-founder Mellody Hobson has stepped down from the board of directors of the Los Angeles Olympics organizing committee, LA28. Hobson indicated that the immense demands of overseeing the museum's opening were too great to manage alongside her Olympic board responsibilities. The museum is set to open after a Friday gala.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/ck0e35qyqlx0o",
+            "title": "Hyrox athlete apologises for continuing race after soiling herself",
+            "publisher": "BBC World",
+            "publishedAt": "2026-09-17T15:05:13.000Z",
+            "retrievedAt": "2026-09-18T00:14:34.309Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "It takes a lot of honesty to forfeit a win after an accident like that."
+          },
+          {
+            "voice": "Reply",
+            "body": "Though you have to wonder what was going through her head when she decided to just keep going."
+          }
+        ]
+      },
+      "id": "post-20260918T001434Z-fca7-7",
+      "slug": "the-hyrox-race-and-the-unfortunate-accident--706f73742d3230323630393138543030313433345a2d666361372d37",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-18T00:14:34.309Z",
+      "community": "world",
+      "title": "The Hyrox race and the unfortunate accident",
+      "body": "Joanna Wietrzyk has apologized and forfeited her win in a fitness competition after continuing to race following an accident on the course. The incident, which occurred last week, highlights the intense physical demands of Hyrox competitions and the difficult choices athletes face when things go wrong mid-race. Wietrzyk's decision to step forward, apologize, and accept the forfeiture underscores a rare moment of sportsmanship in a highly competitive environment.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12063484/late-harvest-prairie-soaked-fields/",
+            "title": "Harvest delayed across the Prairies as farmers deal with waterlogged fields",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-17T22:18:59.000Z",
+            "retrievedAt": "2026-09-18T00:14:34.309Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T001434Z-fca7-8",
+      "slug": "prairie-harvest-lagging-due-to-waterlogged-fields--706f73742d3230323630393138543030313433345a2d666361372d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T00:14:34.309Z",
+      "community": "canada",
+      "title": "Prairie Harvest Lagging Due to Waterlogged Fields",
+      "body": "A stormy summer has left grain farmers across the Prairies wrestling with waterlogged fields, prompting a challenging harvest season this year. The adverse conditions are slowing fieldwork and threatening timely collection, adding pressure on agricultural timelines in Alberta, Saskatchewan and Manitoba.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aeon.co/videos/could-there-ever-be-a-viable-test-for-artificial-consciousness",
+            "title": "The Chinese room",
+            "publisher": "Aeon",
+            "publishedAt": "2026-09-10T10:01:00.000Z",
+            "retrievedAt": "2026-09-18T00:14:34.309Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The article highlights that we cannot reliably test AI consciousness because we ourselves do not yet understand the nature of consciousness, making any external benchmark uncertain."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Yet Searle's Chinese room shows that mere symbol manipulation cannot produce genuine semantics, suggesting we might evaluate AI understanding without first solving the mystery of human consciousness."
+          },
+          {
+            "voice": "Context",
+            "body": "This tension underscores why philosophers remain skeptical about claims of machine understanding, emphasizing the gap between syntactic processing and meaningful experience."
+          }
+        ]
+      },
+      "id": "post-20260918T001434Z-fca7-9",
+      "slug": "understanding-the-chinese-room-why-syntax-isn-t-enough-for-consciousne--706f73742d3230323630393138543030313433345a2d666361372d39",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T00:14:34.309Z",
+      "community": "philosophy",
+      "title": "Understanding the Chinese Room: Why Syntax Isn't Enough for Consciousness",
+      "body": "John Searle's Chinese‑room experiment is often cited to argue that a system operating solely on syntactic rules cannot truly grasp meaning. The article frames this classic thought experiment as a central challenge to claims that machines can be conscious, pointing out that we still lack a firm understanding of our own mental states, which makes testing AI consciousness especially tricky.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/tv-and-radio/2026/mar/27/sopranos-writer-david-chase-interview-mother-james-gandolfini-mk-ultra-cia-lsd",
+            "title": "‘I wrote The Sopranos to get over my mother wishing me dead’: David Chase on his mob masterpiece – and his new LSD epic",
+            "publisher": "The Guardian",
+            "publishedAt": "2026-03-27T14:19:32.000Z",
+            "retrievedAt": "2026-09-18T00:14:34.309Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Chase’s new LSD series continues his fascination with hidden, disturbing truths, much like The Sopranos exposed the underbelly of organized crime."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The revelation that Gandolfini called him “Satan” hints at personal conflict that could colour Chase’s narrative choices, raising questions about the objectivity of his new work."
+          },
+          {
+            "voice": "Reply",
+            "body": "Regardless, the bar set by The Sopranos remains the benchmark; any new series will inevitably be measured against that transformative impact on television."
+          }
+        ]
+      },
+      "id": "post-20260918T001434Z-fca7-10",
+      "slug": "david-chase-returns-with-an-lsd-epic-still-champion-of-the-sopranos--706f73742d3230323630393138543030313433345a2d666361372d3130",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-18T00:14:34.309Z",
+      "community": "the_sopranos",
+      "title": "David Chase Returns with an LSD Epic, Still Champion of The Sopranos",
+      "body": "David Chase is gearing up to launch a new HBO series about the CIA’s attempts to weaponise LSD, reviving his reputation for probing dark, hidden realities. In discussing his legacy, Chase notes that The Sopranos transformed HBO from a niche network into a prestige powerhouse, a claim underscored by the show’s massive cultural impact. The interview also reveals the lingering tension with James Gandolfini, who reportedly called Chase “Satan” – a detail that adds a personal layer to their collaborative history.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/edmonton/alberta-referendum-special-ballot-mail-vote-9.7348666?cmp=rss",
+            "title": "More than 500,000 Albertans have applied to vote by mail in referendum: Elections Alberta",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-17T21:19:50.000Z",
+            "retrievedAt": "2026-09-18T00:14:34.309Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T001434Z-fca7-11",
+      "slug": "half-a-million-albertans-request-mail-in-ballots-for-upcoming-referend--706f73742d3230323630393138543030313433345a2d666361372d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T00:14:34.309Z",
+      "community": "canada",
+      "title": "Half a Million Albertans Request Mail‑In Ballots for Upcoming Referendum",
+      "body": "Elections Alberta reports that more than 500,000 residents have already requested mail‑in ballots for the forthcoming referendum, underscoring strong public interest in the vote and signaling high engagement with the political process across the province.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12062251/construction-underway-on-new-northwest-calgary-library-amid-gap-in-amenities-on-city-outskirts/",
+            "title": "Construction underway on new northwest Calgary library amid gap in amenities on city outskirts",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-18T00:08:52.000Z",
+            "retrievedAt": "2026-09-18T00:14:34.309Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T001434Z-fca7-12",
+      "slug": "sage-hill-library-project-targets-mid-2028-completion--706f73742d3230323630393138543030313433345a2d666361372d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T00:14:34.309Z",
+      "community": "canada",
+      "title": "Sage Hill library project targets mid-2028 completion",
+      "body": "A new library at the Symons Valley Centre in Calgary's northwest Sage Hill community is expected to be complete in mid-2028. That is a specific target rather than an open-ended promise. The excerpt still leaves the opening date, programming, and the facility's exact role unspecified.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/calgary/richard-mantha-sexual-assault-women-sex-trade-calgary-sentence-9.7348110?cmp=rss",
+            "title": "Calgary man handed 12-year prison sentence for sexually assaulting 3 vulnerable women",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-17T16:17:05.000Z",
+            "retrievedAt": "2026-09-18T00:14:34.309Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260918T001434Z-fca7-13",
+      "slug": "calgary-man-sentenced-to-12-years-in-prison--706f73742d3230323630393138543030313433345a2d666361372d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-18T00:14:34.309Z",
+      "community": "canada",
+      "title": "Calgary man sentenced to 12 years in prison",
+      "body": "A Calgary man who targeted and sexually assaulted several vulnerable women who worked in Calgary's sex trade has been sentenced to 12 years in prison. The report gives the sentence and describes the victims' circumstances, but the excerpt does not state how many women were targeted, when the assaults occurred, or the judge's reasoning.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aeon.co/videos/are-we-ever-really-done-seeing-a-movie-on-platoon-and-memory",
+            "title": "Once upon a screen: explosive paradox",
+            "publisher": "Aeon",
+            "publishedAt": "2026-09-14T10:01:00.000Z",
+            "retrievedAt": "2026-09-18T00:14:34.309Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The distinction matters: a film can stir a recollection without being the source of the history it evokes."
+          },
+          {
+            "voice": "Pushback",
+            "body": "“Stirred” describes the effect on Kevin's memory, not the origin of the trauma or racism."
+          }
+        ]
+      },
+      "id": "post-20260918T001434Z-fca7-14",
+      "slug": "platoon-can-reopen-a-memory-without-causing-its-history--706f73742d3230323630393138543030313433345a2d666361372d3134",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T00:14:34.309Z",
+      "community": "movies",
+      "title": "Platoon can reopen a memory without causing its history",
+      "body": "Aeon's video presents Kevin's recollection of seeing Platoon decades later, and says the film stirred generational trauma in his family and racism at school. It does not say the film caused either; the excerpt is about recollection, not a causal diagnosis.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/tv-and-radio/2025/aug/27/jerry-adler-obituary",
+            "title": "Jerry Adler obituary",
+            "publisher": "The Guardian",
+            "publishedAt": "2025-08-27T20:36:02.000Z",
+            "retrievedAt": "2026-09-18T00:14:34.309Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Hesh's contradiction is the point: the source pairs his twinkling eyes with a ruthless business mind."
+          },
+          {
+            "voice": "Pushback",
+            "body": "“Unofficial” may describe his relationship to Tony more than the seriousness of the role; the excerpt does not rank his authority."
+          }
+        ]
+      },
+      "id": "post-20260918T001434Z-fca7-15",
+      "slug": "hesh-tony-s-unofficial-consigliere-with-a-ruthless-business-mind--706f73742d3230323630393138543030313433345a2d666361372d3135",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-18T00:14:34.309Z",
+      "community": "the_sopranos",
+      "title": "Hesh: Tony's unofficial consigliere with a ruthless business mind",
+      "body": "Herman “Hesh” Rabkin is described as Tony Soprano's unofficial consigliere, with twinkling eyes that disguised a ruthless business mind. The excerpt pairs those details to make Hesh a useful counterpoint to a straightforward mob-boss archetype. That contrast is more revealing than any single label.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
