@@ -4,6 +4,7 @@ import { articlePath } from "../../shared/articles";
 import { topicLabel, topicPath } from "../../shared/topics";
 import type { CardAction } from "../lib/cardSelection";
 import { fitCardText } from "../lib/fitCardText";
+import { PublicationDate } from "./PublicationDate";
 
 interface Props {
   item: FeedItem;
@@ -110,7 +111,10 @@ export function SwipeCard({ item, active, disabled, onAdvance, onOpenArticle, on
       </div>}
     </div>
     <footer className="swipe-card-footer">
-      <div className="card-sources" aria-label="Sources">{item.editorial?.sources.map((source, index) => <a key={source.url} href={source.url} target="_blank" rel="noreferrer" title={source.title} aria-label={`${source.publisher}: ${source.title}`}>{source.publisher}{item.editorial!.sources.filter(s => s.publisher === source.publisher).length > 1 ? ` ${index + 1}` : ""} ↗</a>)}</div>
+      <div className="card-sources" aria-label="Sources">{item.editorial?.sources.map((source, index) => <div className="card-source" key={source.url}>
+        <a href={source.url} target="_blank" rel="noreferrer" title={source.title} aria-label={`${source.publisher}: ${source.title}`}>{source.publisher}{item.editorial!.sources.filter(s => s.publisher === source.publisher).length > 1 ? ` ${index + 1}` : ""} ↗</a>
+        {" · "}<PublicationDate iso={source.publishedAt} />
+      </div>)}</div>
       <a href={href} onClick={articleLink}>{item.editorial?.discussion?.length ? `Article & discussion (${item.editorial.discussion.length})` : "Open article"} ↗</a>
     </footer>
   </article>;

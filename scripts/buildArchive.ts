@@ -4,6 +4,7 @@ import { pathToFileURL } from "node:url";
 import { BatchFileSchema, ManifestSchema, type BatchRef, type FeedItem, type Manifest } from "../schemas";
 import { TOPICS, topicLabel, topicPath, topicSlug } from "../shared/topics";
 import { articlePath, articleSlug } from "../shared/articles";
+import { publicationDate } from "../shared/publicationDate";
 
 export const INDEX_PAGE_SIZE = 50;
 const escape = (value: string) => value.replace(/[&<>"']/g, (c) => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"})[c]!);
@@ -25,13 +26,19 @@ export function paginateManifest(manifest: Manifest, size = INDEX_PAGE_SIZE): Ma
   return pages;
 }
 
+function dateMarkup(iso: string | undefined, added = false): string {
+  const date = publicationDate(iso);
+  if (date.status !== "dated") return added ? "Added date unavailable" : "Publication date unavailable";
+  return `<time datetime="${escape(date.dateTime)}">${added ? "Added" : "Published"} ${escape(date.label)}</time>`;
+}
+
 export function articleMarkup(item: FeedItem, base: string): string {
   const editorial = item.editorial!;
   const body = `<p class="post-card-body">${escape(item.body)}</p>`;
   const discussion = (editorial.discussion ?? []).map(turn => `<div class="editorial-discussion-turn"><strong>${escape(turn.voice)}</strong><p>${escape(turn.body)}</p></div>`).join("");
   const reading = body + (discussion ? `<section class="editorial-discussion" aria-label="AI-generated discussion"><h2>AI-generated discussion</h2>${discussion}</section>` : "");
-  const sources = editorial.sources.map(source => `<li><a href="${escape(source.url)}" rel="noreferrer">${escape(source.publisher)} — ${escape(source.title)}</a>${source.publishedAt ? `<p>Source published ${escape(source.publishedAt.slice(0, 10))}</p>` : "<p>Background reading · Publication date unavailable</p>"}</li>`).join("");
-  return `<div class="app"><header class="app-header"><a class="app-title" href="${base}">OpenFeed</a></header><main class="app-main"><article class="post-card"><p>${escape(editorial.format)} · AI-edited · ${escape(item.createdAt.slice(0, 10))}</p><a class="post-card-community" href="${escape(topicPath(item.community, base))}">${escape(topicLabel(item.community))}</a><h1>${escape(item.title ?? "Article")}</h1>${editorial.spoilers ? `<details><summary>Show spoilers</summary>${reading}</details>` : reading}<section class="source-panel"><h2>Based on publisher excerpts</h2><ul>${sources}</ul></section></article><a href="${base}">← Back to feed</a></main></div>`;
+  const sources = editorial.sources.map(source => `<li><a href="${escape(source.url)}" rel="noreferrer">${escape(source.publisher)} — ${escape(source.title)}</a><p>${dateMarkup(source.publishedAt)}</p></li>`).join("");
+  return `<div class="app"><header class="app-header"><a class="app-title" href="${base}">OpenFeed</a></header><main class="app-main"><article class="post-card"><p>${escape(editorial.format)} · AI-edited · ${dateMarkup(item.createdAt, true)}</p><a class="post-card-community" href="${escape(topicPath(item.community, base))}">${escape(topicLabel(item.community))}</a><h1>${escape(item.title ?? "Article")}</h1>${editorial.spoilers ? `<details><summary>Show spoilers</summary>${reading}</details>` : reading}<section class="source-panel"><h2>Based on publisher excerpts</h2><ul>${sources}</ul></section></article><a href="${base}">← Back to feed</a></main></div>`;
 }
 
 export function buildArchive(root = process.cwd()) {

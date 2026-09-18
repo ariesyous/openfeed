@@ -41,6 +41,19 @@ describe("permanent articles", () => {
     expect(html).toContain(item.editorial!.sources[0].url.replaceAll("&", "&amp;"));
     expect(html).toContain('href="/openfeed/"');
   });
+  it("distinguishes added and source dates even before JavaScript loads", () => {
+    const fixture = { ...item, createdAt: "2026-09-18T00:00:00Z", editorial: { ...item.editorial!, sources: [
+      { ...item.editorial!.sources[0], publishedAt: "2025-08-24T19:40:16Z" },
+      { ...item.editorial!.sources[0], publishedAt: undefined },
+      { ...item.editorial!.sources[0], publishedAt: "2999-01-01T00:00:00Z" },
+    ] } };
+    const html = articleMarkup(fixture, "/openfeed/");
+    expect(html).toContain('<time datetime="2026-09-18T00:00:00Z">Added Sep 18, 2026</time>');
+    expect(html).toContain('<time datetime="2025-08-24T19:40:16Z">Published Aug 24, 2025</time>');
+    expect(html.match(/Publication date unavailable/g)).toHaveLength(2);
+    expect(html).not.toContain("Background reading");
+    expect(html).not.toContain('datetime="2999');
+  });
 });
 
 describe("permanent topic pages", () => {

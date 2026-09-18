@@ -2,7 +2,7 @@ import { useState } from "react";
 import { topicLabel, topicPath } from "../../shared/topics";
 import { articlePath } from "../../shared/articles";
 import type { Account, FeedItem } from "../../schemas";
-import { formatRelativeTime } from "../lib/relativeTime";
+import { PublicationDate } from "./PublicationDate";
 import { Avatar } from "./Avatar";
 import { CommentThread } from "./CommentThread";
 import { EngagementBar } from "./EngagementBar";
@@ -67,7 +67,7 @@ export function PostCard({
           </span>
         </div>
         <span className="post-card-time">
-          {formatRelativeTime(item.createdAt)}
+          <PublicationDate iso={item.createdAt} added />
         </span>
       </header>
 
@@ -181,15 +181,7 @@ export function PostCard({
             >
               <span>{source.publisher} ↗</span>
               <span>{source.title}</span>
-              {source.publishedAt ? <time dateTime={source.publishedAt}>
-                Published{" "}
-                {new Date(source.publishedAt).toLocaleDateString(undefined, {
-                  month: "short",
-                  day: "numeric",
-                  year: "numeric",
-                  timeZone: "UTC",
-                })}
-              </time> : <span>Background reading · Publication date unavailable</span>}
+              <PublicationDate iso={source.publishedAt} />
             </a>
           ))}
         </div>
