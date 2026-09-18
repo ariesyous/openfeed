@@ -162,7 +162,11 @@
     "how fyxer built an ai executive assistant people trust",
     "freedom convoy leader can t travel abroad while on house arrest judge",
     "west kelowna s next mayor vows to restore public confidence after cost overruns",
-    "jerry adler actor in the sopranos and the good wife dies aged 96"
+    "jerry adler actor in the sopranos and the good wife dies aged 96",
+    "fcc approves 49 5 foreign ownership of paramount warner bros",
+    "un experts say grounds to believe us committed war crimes in iran strikes",
+    "san sebastián 2026 les mis los javis brad pitt penélope cruz and much more",
+    "early bowie music available to stream for first time"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -326,12 +330,16 @@
     "https://openai.com/index/fyxer",
     "https://globalnews.ca/news/12063472/convoy-leader-tamara-lich/",
     "https://globalnews.ca/news/12063901/west-kelowna-next-mayor-vows-restore-public-confidence-cost-overruns/",
-    "https://www.theguardian.com/us-news/2025/aug/24/jerry-adler-actor-death"
+    "https://www.theguardian.com/us-news/2025/aug/24/jerry-adler-actor-death",
+    "https://variety.com/2026/film/news/fcc-approves-49-5-foreign-ownership-paramount-warner-bros-1236866217/",
+    "https://www.bbc.co.uk/news/articles/cm9w4n5nverdo",
+    "https://variety.com/2026/film/global/les-mis-los-javis-brad-pitt-penelope-cruz-san-sebastian-1236847674/",
+    "https://www.bbc.co.uk/news/articles/cm4gj5z9xvnqo"
   ],
   "initialized": true,
-  "cycleCount": 22,
+  "cycleCount": 23,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-18T04:43:14.814Z",
+  "lastRunAt": "2026-09-18T05:15:02.507Z",
   "communities": [
     "technology",
     "science",
@@ -353,11 +361,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260917T211901Z-b489",
-      "generatedAtCycle": 18,
-      "summary": "Fitzroy River chosen for 2032 Olympics despite crocodile population; Families of jailed Americans urge Trump to raise China detentions; Lawyers push five‑year sentence in fatal drunk‑driving case; Serverless Git metrics dashboard brings live dev insights to Quick Sight; Greta Gerwig Says 'Narnia' Is Inspired by David Bowie, Confirms Meryl Streep Is Voicing Aslan; Layered Authorization for MCP Tools on Amazon Quick; The Computist's Dream of Debugging Human Subjectivity; What the U.S. Fed Hiking R"
-    },
-    {
       "batchId": "20260917T221544Z-b692",
       "generatedAtCycle": 19,
       "summary": "AI Consciousness and the ‘Silicon Species’ Warning; Canada seeks unique EU ties, but associate member status does not exist; Decision Theory: Choosing by Expected Utility; David Chase returns with an HBO series on the CIA’s MKUltra; Synthetic data for the safety cases that are hardest to photograph; Tokyo festival names its 15-title Gala selection; Why so many readers meet Stoicism through Seneca; How Big Pussy held toughness and tenderness together; Alasko frozen raspberries recalled in 7 provi"
@@ -376,6 +379,11 @@
       "batchId": "20260918T044314Z-6f06",
       "generatedAtCycle": 22,
       "summary": "Resident Evil Reboot: Why the Film’s Past Matters; Epictetus’s Stoic Ethics: Volition and the Use of Impressions; Messier 33: The Triangulum Galaxy in New APOD Image; Great Dane Gets Stretcher Ride Down B.C. Mountain; BC Conservatives allegedly hired a private investigator to watch their own MLAs; OpenAI research maps how workers actually fold AI into daily tasks; Universal proceeds with international release of Gibney's 4-hour Musk documentary despite legal threats; A poetic documentary explore"
+    },
+    {
+      "batchId": "20260918T051502Z-5698",
+      "generatedAtCycle": 23,
+      "summary": "FCC Lets Nearly Half of Paramount Be Foreign-Owned After Warner Deal; UN Experts Say Grounds Exist to Believe US Committed War Crimes in Iran Strikes; San Sebastián Opens With Brad Pitt Back in the Basque Country; Early Bowie Recordings Reach Streaming for the First Time"
     }
   ]
 }
