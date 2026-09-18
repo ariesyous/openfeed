@@ -13,6 +13,7 @@ on:
         options:
           - openrouter/free
           - google/gemini-3.8-flash
+          - deepseek/deepseek-v4.1-flash
 
 permissions:
   contents: write
