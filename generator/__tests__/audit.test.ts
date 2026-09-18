@@ -63,6 +63,10 @@ describe("bounded editorial support records", () => {
     expect(() => chunk({ posts: Array.from({ length: 5 }, () => ({ evidenceIds: ["S1E1"] })) })).toThrow(/bounds/);
     const invalid = chunk(); invalid.posts[0].discussion.push({ turnIndex: 0, voice: "Take", evidenceIds: ["unknown"] });
     expect(() => serializeEditorialAudit(envelope([invalid]))).toThrow(/invalid/);
+    const omitted = chunk({ posts: [{ evidenceIds: ["S1E1"], discussionOmission: "schema",
+      discussion: [{ voice: "Take", evidenceIds: ["S1E1"] }],
+    }] });
+    expect(() => serializeEditorialAudit(envelope([omitted]))).toThrow(/invalid/);
     const chunks = Array.from({ length: 6 }, (_, index) => chunk({ index: index + 1, postOffset: index * 4,
       posts: Array.from({ length: 4 }, () => ({ evidenceIds: ["S1E1"] })),
     }));

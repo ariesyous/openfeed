@@ -190,3 +190,17 @@ judge. Four known factual counterexamples pass deterministic provenance gates.
 The four documented factual corrections use the guarded validated publisher migration
 in scripts/correctEditorialIntegrity.ts; preserve its exact correction record and
 stable article URLs. New generated quality still needs the #36 observation gate.
+
+## Optional discussion and source payoff — WP2
+Read docs/editorial-depth.md. `validateCitedDraft` validates parents without discussion,
+then isolates only a named array/null discussion block. Invalid arrays are omitted whole;
+ambiguous structures and invalid parents still fail. Cross-chunk gates precede omission
+counts/audits. Keep `validateDraft` strict for accepted content and publication. Audit only
+the sanitized selection; an omitted block has a fixed reason and no discussion-only support.
+Preserve the spoiler flag conservatively. Never repair IDs/JSON or revive raw completion dumps.
+The shelf has 59 fixed pages after nine reviewed additions; thirteen page-level evidence
+reviews are in docs/fixtures/editorial-source-pilot.json. Discussion defaults to null in
+prompt guidance; short supported posts remain welcome. No length/topic quotas. Generated
+JSON drafts, accepted posts and manually worthwhile samples are different counts. #36's
+five-edition check and #37's ten ordinary-run evaluation remain open; no model experiment
+or historical regeneration is part of this implementation.

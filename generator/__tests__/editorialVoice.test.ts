@@ -71,7 +71,7 @@ describe("editorial voice", () => {
     expect(validateDraft({posts: [draft]}, [{...source, publishedAt: "2026-01-01T00:00:00Z"}], now).ok).toBe(false);
   });
 
-  it("retries process commentary and publishes corrected commentary in both response modes", async () => {
+  it("retries parent process commentary and preserves supported discussion in both response modes", async () => {
     for (const fallback of [false, true]) {
       let calls = 0;
       const fetchImpl: typeof fetch = async (_url, init) => {
@@ -79,12 +79,12 @@ describe("editorial voice", () => {
         const request = JSON.parse(String(init?.body));
         if (fallback && calls === 1) return new Response("response_format not supported", {status: 400});
         const corrected = calls === (fallback ? 3 : 2);
-        if (corrected) expect(request.messages[1].content).toContain("Source-process commentary in discussion.1.body");
+        if (corrected) expect(request.messages[1].content).toContain("Source-process commentary in body");
         if (fallback) expect(request.response_format).toBeUndefined();
-        const post = {format: "news", title: draft.title, body: draft.body,
+        const post = {format: "news", title: draft.title, body: corrected ? draft.body : "The excerpt does not tell us enough to assess the trial.",
           topic: null, spoilers: null, evidenceIds: ["S1E1"], discussion: [
             {voice: "Take", body: "A trial seems a sensible first step.", evidenceIds: ["S1E1"]},
-            {voice: "Pushback", body: corrected ? "Testing should inform the decision, not become a rubber stamp for release." : "The excerpt does not tell us enough to assess the trial.", evidenceIds: ["S1E1"]},
+            {voice: "Pushback", body: "Testing should inform the decision, not become a rubber stamp for release.", evidenceIds: ["S1E1"]},
           ]};
         return new Response(JSON.stringify({model: "test/model", choices: [{finish_reason: "stop", message: {content: JSON.stringify({posts: [post]})}}]}));
       };

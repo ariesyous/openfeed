@@ -5,6 +5,17 @@ import { plainText, readBounded, type SourcePacket } from "./sources";
 // Deliberate reading shelf: factual background and criticism, never current news.
 // Add URLs here as the shelf is reviewed; covered URLs are filtered by generate.ts.
 export const EVERGREEN_SOURCES = [
+  // WP2 source pilot: reviewed extraction AND numbered evidence; see docs/editorial-depth.md.
+  {"topic": "greek_roman_mythology", "publisher": "The Metropolitan Museum of Art", "title": "Theater in Ancient Greece", "url": "https://www.metmuseum.org/essays/theater-in-ancient-greece"},
+  {"topic": "greek_roman_mythology", "publisher": "The Metropolitan Museum of Art", "title": "Death, Burial, and the Afterlife in Ancient Greece", "url": "https://www.metmuseum.org/essays/death-burial-and-the-afterlife-in-ancient-greece"},
+  {"topic": "greek_roman_mythology", "publisher": "The Metropolitan Museum of Art", "title": "Mystery Cults in the Greek and Roman World", "url": "https://www.metmuseum.org/essays/mystery-cults-in-the-greek-and-roman-world"},
+  {"topic": "movies", "publisher": "Stanford Encyclopedia of Philosophy", "title": "The Paradox of Suspense", "url": "https://plato.stanford.edu/entries/paradox-suspense/"},
+  {"topic": "philosophy", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Philosophy of Humor", "url": "https://plato.stanford.edu/entries/humor/"},
+  {"topic": "philosophy", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Fiction", "url": "https://plato.stanford.edu/entries/fiction/"},
+  {"topic": "economics", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Public Goods", "url": "https://plato.stanford.edu/entries/public-goods/"},
+  {"topic": "greek_roman_mythology", "publisher": "The Metropolitan Museum of Art", "title": "Roman Sarcophagi", "url": "https://www.metmuseum.org/essays/roman-sarcophagi"},
+  {"topic": "greek_roman_mythology", "publisher": "The Metropolitan Museum of Art", "title": "Roman Copies of Greek Statues", "url": "https://www.metmuseum.org/essays/roman-copies-of-greek-statues"},
+
   // Retrieved and checked for usable article prose for the twenty-post rollout.
   {"topic": "philosophy", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Existentialism", "url": "https://plato.stanford.edu/entries/existentialism/"},
   {"topic": "philosophy", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Distributive Justice", "url": "https://plato.stanford.edu/entries/justice-distributive/"},

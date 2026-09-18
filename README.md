@@ -132,6 +132,12 @@ for twelve offline review examples. See [editorial integrity](docs/editorial-int
 for the evidence contract, audit fields, corrected posts and remaining live review gate.
 These checks establish provenance and inspectability, not automatic factual correctness.
 
+Optional discussion is validated independently: a clearly isolated invalid array is omitted
+whole only after the parent and edition gates pass. Audits retain only surviving support
+and record a bounded omission reason. See [editorial depth](docs/editorial-depth.md) for
+the thirteen-page source pilot, diagnostics, and the fixed ordinary-run review protocol.
+The #36 and #37 observation requirements remain open.
+
 `openrouter/free` remains the default. Provider failures can still occur; diagnostics now
 distinguish absent choices, empty text with finish/reasoning/refusal metadata, and
 provider errors returned inside HTTP 200 responses. No raw reasoning is logged.
@@ -157,7 +163,7 @@ idempotent, validated migration for existing posts that lack stored slugs or sou
 coverage history. It preserves original publication dates. New publication stores
 slugs automatically. Source coverage is durable; model prompt summaries stay bounded.
 
-The evergreen shelf is finite (currently 50 reviewed publisher pages) alongside
+The evergreen shelf is finite (currently 59 reviewed publisher pages) alongside
 recurring RSS. Intake logs remaining unconsumed shelf entries; replenish culture and
 background reading as needed. Twenty is a quality-dependent target, not a filler quota.
 

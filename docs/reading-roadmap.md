@@ -67,7 +67,8 @@ coverage. Empty responses still consume the same eight-attempt budget and never
 reset the shared deadline. Stop when no untried evidence remains. Candidate,
 offered, deferred and empty-selection counts make the shortfall visible.
 
-The curated evergreen shelf has expanded to fifty retrieved publisher pages.
+The curated evergreen shelf has expanded to fifty-nine retrieved publisher pages;
+see [the WP2 source pilot](editorial-depth.md) for the latest nine additions.
 The September 18 addition contains twenty-five pages from Stanford Encyclopedia
 of Philosophy, Internet Encyclopedia of Philosophy, NASA, and The Metropolitan
 Museum of Art, covering philosophy, economics, film theory, Greek culture and

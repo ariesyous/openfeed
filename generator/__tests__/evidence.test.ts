@@ -40,12 +40,17 @@ describe("numbered evidence", () => {
     expect(item.editorial?.discussion).toHaveLength(2);
     expect(item.editorial?.sources[0].url).toBe(source.url);
   });
-  it("rejects unknown IDs and discussion references to sources not cited by their post", () => {
+  it("omits unknown IDs and discussion references to sources not cited by their post", () => {
     const other = {...source, id: "b", topic: "movies", url: "https://example.com/b"};
     const prepared = prepareEvidence([source, other]);
     for (const id of ["invented", "S2E1"]) {
       const draft = {posts: [{...post, discussion: [{...post.discussion[0], evidenceIds: [id]}, post.discussion[1]]}]};
-      expect(validateCitedDraft(draft, prepared.evidenceById, [source, other], now).ok).toBe(false);
+      const result = validateCitedDraft(draft, prepared.evidenceById, [source, other], now);
+      expect(result.ok).toBe(true);
+      if (result.ok) {
+        expect(result.value.posts[0].discussion).toBeUndefined();
+        expect(result.selection[0].discussionOmission).toBe(id === "invented" ? "unknown_evidence" : "support_or_voice");
+      }
     }
   });
   it("retains stale-news, quote-provenance, and duplicate-coverage checks", () => {
