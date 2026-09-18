@@ -147,7 +147,22 @@
     "construction underway on new northwest calgary library amid gap in amenities on city outskirts",
     "calgary man handed 12 year prison sentence for sexually assaulting 3 vulnerable women",
     "once upon a screen explosive paradox",
-    "jerry adler obituary"
+    "jerry adler obituary",
+    "resident evil video game references all the zombies weapons and easter eggs in zach cregger s reboot",
+    "epictetus",
+    "apod 2026 september 18 messier 33 the triangulum galaxy",
+    "great dane gets stretcher ride down b c mountain after injuring paws",
+    "ex b c conservative mlas and party president say a private investigator was hired to look into them",
+    "how workers are unlocking new ways of working",
+    "universal still plans overseas release for alex gibney s musk documentary despite mogul s legal threats",
+    "animal eye",
+    "japan raises interest rate to new 31 year high to curb rising prices",
+    "white house withdraws trump s ice nominee as republican senator objects",
+    "sopranos actor vincent pastore known for playing mobsters and tough guys dies aged 80",
+    "how fyxer built an ai executive assistant people trust",
+    "freedom convoy leader can t travel abroad while on house arrest judge",
+    "west kelowna s next mayor vows to restore public confidence after cost overruns",
+    "jerry adler actor in the sopranos and the good wife dies aged 96"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -296,12 +311,27 @@
     "https://globalnews.ca/news/12062251/construction-underway-on-new-northwest-calgary-library-amid-gap-in-amenities-on-city-outskirts/",
     "https://www.cbc.ca/news/canada/calgary/richard-mantha-sexual-assault-women-sex-trade-calgary-sentence-9.7348110?cmp=rss",
     "https://aeon.co/videos/are-we-ever-really-done-seeing-a-movie-on-platoon-and-memory",
-    "https://www.theguardian.com/tv-and-radio/2025/aug/27/jerry-adler-obituary"
+    "https://www.theguardian.com/tv-and-radio/2025/aug/27/jerry-adler-obituary",
+    "https://variety.com/lists/resident-evil-video-game-references-easter-eggs/",
+    "https://plato.stanford.edu/entries/epictetus/",
+    "https://science.nasa.gov/image-article/apod-2026-september-18-messier-33-the-triangulum-galaxy/",
+    "https://www.cbc.ca/news/canada/british-columbia/great-dane-gets-stretcher-ride-down-b-c-mountain-after-injuring-paws-9.7348313?cmp=rss",
+    "https://www.cbc.ca/news/canada/british-columbia/ex-b-c-conservative-mlas-private-investigator-hired-to-look-into-them-9.7348861?cmp=rss",
+    "https://openai.com/index/unlocking-new-ways-of-working",
+    "https://variety.com/2026/film/news/universal-release-alex-gibney-musk-documentary-1236866395/",
+    "https://aeon.co/videos/the-alien-worlds-beside-our-own-a-journey-into-animal-eyes",
+    "https://www.bbc.co.uk/news/articles/cqn74jeek06no",
+    "https://www.bbc.co.uk/news/articles/cq23xzp55x08o",
+    "https://www.theguardian.com/us-news/2026/aug/01/sopranos-actor-vincent-pastore-dead-80",
+    "https://openai.com/index/fyxer",
+    "https://globalnews.ca/news/12063472/convoy-leader-tamara-lich/",
+    "https://globalnews.ca/news/12063901/west-kelowna-next-mayor-vows-restore-public-confidence-cost-overruns/",
+    "https://www.theguardian.com/us-news/2025/aug/24/jerry-adler-actor-death"
   ],
   "initialized": true,
-  "cycleCount": 21,
+  "cycleCount": 22,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-18T00:14:34.309Z",
+  "lastRunAt": "2026-09-18T04:43:14.814Z",
   "communities": [
     "technology",
     "science",
@@ -323,11 +353,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260917T210452Z-a764",
-      "generatedAtCycle": 17,
-      "summary": "NASA's tiny StarBurst satellite will hunt cosmic collisions from space; Why 88% of AI proofs-of-concept never make it to production; Police officer in Project South probe allegedly planned illegal dispensaries and massage parlours; US clears Iranian president and foreign minister for UN meetings in New York; Pan's Labyrinth's 20th anniversary books unlock the film's secrets; How a German insurer gave 400 employees secure self-service AI agents; Stellantis signals sale of Brampton plant as union "
-    },
-    {
       "batchId": "20260917T211901Z-b489",
       "generatedAtCycle": 18,
       "summary": "Fitzroy River chosen for 2032 Olympics despite crocodile population; Families of jailed Americans urge Trump to raise China detentions; Lawyers push five‑year sentence in fatal drunk‑driving case; Serverless Git metrics dashboard brings live dev insights to Quick Sight; Greta Gerwig Says 'Narnia' Is Inspired by David Bowie, Confirms Meryl Streep Is Voicing Aslan; Layered Authorization for MCP Tools on Amazon Quick; The Computist's Dream of Debugging Human Subjectivity; What the U.S. Fed Hiking R"
@@ -346,6 +371,11 @@
       "batchId": "20260918T001434Z-fca7",
       "generatedAtCycle": 21,
       "summary": "Markets are institutions, not just price tags; James Wan was scouting YouTube talent before it became a film-industry trope; Cooley's IPO tool is a workflow claim, not a performance result; Existentialism joined a historical crisis to older philosophical roots; The return of the 100% mortgage; Bridging the AI gap for older adults; Lucas Museum co-founder steps down from Olympics board; The Hyrox race and the unfortunate accident; Prairie Harvest Lagging Due to Waterlogged Fields; Understanding t"
+    },
+    {
+      "batchId": "20260918T044314Z-6f06",
+      "generatedAtCycle": 22,
+      "summary": "Resident Evil Reboot: Why the Film’s Past Matters; Epictetus’s Stoic Ethics: Volition and the Use of Impressions; Messier 33: The Triangulum Galaxy in New APOD Image; Great Dane Gets Stretcher Ride Down B.C. Mountain; BC Conservatives allegedly hired a private investigator to watch their own MLAs; OpenAI research maps how workers actually fold AI into daily tasks; Universal proceeds with international release of Gibney's 4-hour Musk documentary despite legal threats; A poetic documentary explore"
     }
   ]
 }
