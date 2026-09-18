@@ -1,0 +1,523 @@
+{
+  "baseline": "c5fd886383be0c7eeacafc98ab2d6d3cd26d8ddd",
+  "method": "Live readBounded → articleExcerpt → prepareEvidence, one page at a time; S1 IDs are local to each pilot page, not future requests. Human-reviewed potential payoff, not generated posts.",
+  "sources": [
+    {
+      "title": "Theater in Ancient Greece",
+      "url": "https://www.metmuseum.org/essays/theater-in-ancient-greece",
+      "publisher": "The Metropolitan Museum of Art",
+      "topic": "greek_roman_mythology",
+      "retrievedAt": "2026-09-18T21:29:11.965Z",
+      "excerptCharacters": 3876,
+      "excerptSha256": "02bc564c9b048b494f0c5ae8d73a2d545b59ca8034941a6bfb111f45597eaf72",
+      "offeredEvidenceCount": 12,
+      "contextTruncated": true,
+      "alreadyCoveredAtBaseline": false,
+      "proposedTitle": "Why surviving theatres cannot settle the earliest Greek stage layout",
+      "reviewedPayoff": "Explains the evidence problem: repeated rebuilding obscures Classical spaces; the circular-orchestra evidence is dated, not a universal account of ancient seating.",
+      "boundary": "Do not turn absence of physical evidence into proof that no earlier circular orchestra existed.",
+      "support": [
+        {
+          "id": "S1E5",
+          "text": "Since theaters in antiquity were frequently modified and rebuilt, the surviving remains offer little clear evidence of the nature of the theatrical space available to",
+          "contextGroup": "S1G5",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 2
+        },
+        {
+          "id": "S1E6",
+          "text": "the Classical dramatists in the sixth and fifth centuries B.C.",
+          "contextGroup": "S1G5",
+          "paragraph": 2,
+          "part": 2,
+          "parts": 2
+        },
+        {
+          "id": "S1E7",
+          "text": "There is no physical evidence for a circular orchestra earlier than that of the great theater at Epidauros dated to around 330 B.C.",
+          "contextGroup": "S1G6",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 1
+        }
+      ]
+    },
+    {
+      "title": "Greek Gods and Religious Practices",
+      "url": "https://www.metmuseum.org/essays/greek-gods-and-religious-practices",
+      "publisher": "The Metropolitan Museum of Art",
+      "topic": "greek_roman_mythology",
+      "retrievedAt": "2026-09-18T21:29:11.931Z",
+      "excerptCharacters": 4199,
+      "excerptSha256": "e429d42b30174a550595f51868f78cdea29b7f307feb2e9c0a3c6d987cb5cb06",
+      "offeredEvidenceCount": 12,
+      "contextTruncated": true,
+      "alreadyCoveredAtBaseline": false,
+      "proposedTitle": "Athena’s armour did not exclude the workshop",
+      "reviewedPayoff": "A memorable cultural pairing: the armed goddess was also patroness of weaving and carpentry.",
+      "boundary": "Do not generalize one goddess’s attributes into a complete account of Greek religion.",
+      "support": [
+        {
+          "id": "S1E8",
+          "text": "Wise Athena, the patron goddess of Athens (1996.178), who typically appears in full armor with her aegis (a goatskin with a snaky fringe), helmet, and",
+          "contextGroup": "S1G7",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 2
+        },
+        {
+          "id": "S1E9",
+          "text": "spear (07.286.79), was also the patroness of weaving and carpentry.",
+          "contextGroup": "S1G7",
+          "paragraph": 1,
+          "part": 2,
+          "parts": 2
+        },
+        {
+          "id": "S1E10",
+          "text": "The owl and the olive tree were sacred to her.",
+          "contextGroup": "S1G8",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 1
+        }
+      ]
+    },
+    {
+      "title": "Death, Burial, and the Afterlife in Ancient Greece",
+      "url": "https://www.metmuseum.org/essays/death-burial-and-the-afterlife-in-ancient-greece",
+      "publisher": "The Metropolitan Museum of Art",
+      "topic": "greek_roman_mythology",
+      "retrievedAt": "2026-09-18T21:29:11.882Z",
+      "excerptCharacters": 4047,
+      "excerptSha256": "c5c37356ad993b2a05266e1f478f66bbb5a41c93aaab1adf598044c180cea73f",
+      "offeredEvidenceCount": 11,
+      "contextTruncated": true,
+      "alreadyCoveredAtBaseline": false,
+      "proposedTitle": "Achilles would rather serve the living than rule the dead",
+      "reviewedPayoff": "A specific episode from the Odyssey makes the bleak portrayal of the Underworld memorable.",
+      "boundary": "Identify this as Homeric myth and Achilles’ stated preference, not every Greek’s view of death.",
+      "support": [
+        {
+          "id": "S1E4",
+          "text": "It was not a happy place.",
+          "contextGroup": "S1G3",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E5",
+          "text": "Indeed, the ghost of the great hero Achilles told Odysseus that he would rather be a poor serf on earth than lord of all the",
+          "contextGroup": "S1G4",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 2
+        },
+        {
+          "id": "S1E6",
+          "text": "dead in the Underworld (Odyssey 11: 489–91).",
+          "contextGroup": "S1G4",
+          "paragraph": 1,
+          "part": 2,
+          "parts": 2
+        }
+      ]
+    },
+    {
+      "title": "Mystery Cults in the Greek and Roman World",
+      "url": "https://www.metmuseum.org/essays/mystery-cults-in-the-greek-and-roman-world",
+      "publisher": "The Metropolitan Museum of Art",
+      "topic": "greek_roman_mythology",
+      "retrievedAt": "2026-09-18T21:29:11.907Z",
+      "excerptCharacters": 5663,
+      "excerptSha256": "a8a65478171dce10f03125b8b5219feb70573c017fd8c685aabf8acc55f003c1",
+      "offeredEvidenceCount": 12,
+      "contextTruncated": true,
+      "alreadyCoveredAtBaseline": false,
+      "proposedTitle": "What mystery cults offered beyond public ritual",
+      "reviewedPayoff": "Cultural context connects personal afterlife hopes, ritual reenactment and social bonds.",
+      "boundary": "Use the source’s “most” qualification for death-rebirth stories; the later numbered caveats warn against treating varied cults as one uniform religion.",
+      "support": [
+        {
+          "id": "S1E2",
+          "text": "A pendant to the official cults of the Greeks and Romans, mystery cults served more personal, individualistic attitudes toward death and the afterlife.",
+          "contextGroup": "S1G2",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E3",
+          "text": "Most were based on sacred stories (hieroi logoi) that often involved the ritual reenactment of a death-rebirth myth of a particular divinity.",
+          "contextGroup": "S1G3",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E4",
+          "text": "In addition to the promise of a better afterlife, mystery cults fostered social bonds among the participants, called mystai.",
+          "contextGroup": "S1G4",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 1
+        }
+      ]
+    },
+    {
+      "title": "TV's a crowd",
+      "url": "https://www.bfi.org.uk/sight-and-sound/features/tvs-crowd",
+      "publisher": "BFI",
+      "topic": "the_sopranos",
+      "retrievedAt": "2026-09-18T21:29:12.558Z",
+      "excerptCharacters": 5455,
+      "excerptSha256": "18e3d3ed66dfa5ccdd1e950d0237ab4ec13a9a9484a8fcb7b8f7d5d2b33e421a",
+      "offeredEvidenceCount": 11,
+      "contextTruncated": true,
+      "alreadyCoveredAtBaseline": true,
+      "proposedTitle": "Sympathy need not mean approval in The Sopranos",
+      "reviewedPayoff": "The critic acknowledges sympathy for repugnant protagonists while resisting the claim that television replaces cinema.",
+      "boundary": "Attribute this perspective to the critic; the offered opening does not supply the later visual-style argument or a plot example. Existing covered page: review only.",
+      "support": [
+        {
+          "id": "S1E5",
+          "text": "To an extent, I accept these claims: there’s little doubt that The Sopranos and Dexter break new ground in terms of audience identification, asking us",
+          "contextGroup": "S1G3",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 2
+        },
+        {
+          "id": "S1E6",
+          "text": "to sympathise unironically with protagonists whose behaviour and motivations we are simultaneously encouraged to find repugnant.",
+          "contextGroup": "S1G3",
+          "paragraph": 2,
+          "part": 2,
+          "parts": 2
+        },
+        {
+          "id": "S1E9",
+          "text": "Yet I find myself unconvinced that American cinema is alive and well and available on HBO.",
+          "contextGroup": "S1G5",
+          "paragraph": 3,
+          "part": 1,
+          "parts": 1
+        }
+      ]
+    },
+    {
+      "title": "The Paradox of Suspense",
+      "url": "https://plato.stanford.edu/entries/paradox-suspense/",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "topic": "movies",
+      "retrievedAt": "2026-09-18T21:29:11.741Z",
+      "excerptCharacters": 3536,
+      "excerptSha256": "efd0c7dca23e74cef5d08fd608c1bf22fc644a40b4ad236d2804284983427558",
+      "offeredEvidenceCount": 11,
+      "contextTruncated": true,
+      "alreadyCoveredAtBaseline": false,
+      "proposedTitle": "One account of suspense combines fear, hope and uncertainty",
+      "reviewedPayoff": "Explains the standard account with named attribution rather than promising to solve the whole paradox.",
+      "boundary": "The actual extraction starts at a substantive section; it does not supply a resolution of repeat-viewing suspense. Do not title the post as if it does.",
+      "support": [
+        {
+          "id": "S1E1",
+          "text": "Cognitive psychologists Ortony, Clore, and Collins put forth a useful theory of suspense that we might call the standard account.",
+          "contextGroup": "S1G1",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E5",
+          "text": "On the standard account, people feel suspense when they fear a bad outcome, hope for a good outcome, and are uncertain about which outcome will",
+          "contextGroup": "S1G4",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 2
+        },
+        {
+          "id": "S1E6",
+          "text": "come to pass.",
+          "contextGroup": "S1G4",
+          "paragraph": 1,
+          "part": 2,
+          "parts": 2
+        }
+      ]
+    },
+    {
+      "title": "Philosophy of Humor",
+      "url": "https://plato.stanford.edu/entries/humor/",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "topic": "philosophy",
+      "retrievedAt": "2026-09-18T21:29:11.730Z",
+      "excerptCharacters": 5538,
+      "excerptSha256": "17d809f08d1d1b94f9b11438310178f833fbd9d4dfcce7d31d09af58ae7611d9",
+      "offeredEvidenceCount": 11,
+      "contextTruncated": true,
+      "alreadyCoveredAtBaseline": false,
+      "proposedTitle": "When “humor” began to mean funniness",
+      "reviewedPayoff": "A narrow historical detail distinguishes the newer use of the word from older discussion of laughter and comedy.",
+      "boundary": "This packet does not explain incongruity theory. Do not stretch the detail into a theory of why jokes work.",
+      "support": [
+        {
+          "id": "S1E7",
+          "text": "The word humor was not used in its current sense of funniness until the 18th century, we should note, and so traditional discussions were about",
+          "contextGroup": "S1G6",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 2
+        },
+        {
+          "id": "S1E8",
+          "text": "laughter or comedy.",
+          "contextGroup": "S1G6",
+          "paragraph": 2,
+          "part": 2,
+          "parts": 2
+        }
+      ]
+    },
+    {
+      "title": "Fiction",
+      "url": "https://plato.stanford.edu/entries/fiction/",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "topic": "philosophy",
+      "retrievedAt": "2026-09-18T21:29:11.977Z",
+      "excerptCharacters": 2494,
+      "excerptSha256": "1ecce8b6231189298c29f7f31ae12ce522e8a30f50755b42974cef28e780a71c",
+      "offeredEvidenceCount": 12,
+      "contextTruncated": true,
+      "alreadyCoveredAtBaseline": false,
+      "proposedTitle": "Why factual departures are judged differently in fiction",
+      "reviewedPayoff": "The source contrasts standards of appraisal and uses historical novels as the concrete example.",
+      "boundary": "Do not infer that fiction has no ethical obligations or that all inaccuracies are harmless.",
+      "support": [
+        {
+          "id": "S1E1",
+          "text": "In whatever way we characterize the fiction/non-fiction distinction, the distinction is widely recognized as important. We care which category a work belongs to.",
+          "contextGroup": "S1G1",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E4",
+          "text": "Historical novels such as Tolstoy&rsquo;s War and Peace (1865&ndash;1867) or Hilary Mantel&rsquo;s Wolf Hall (2009) also display bias and they depart in numerous ways from",
+          "contextGroup": "S1G3",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 2
+        },
+        {
+          "id": "S1E5",
+          "text": "fact, but the bias and inaccuracies don&rsquo;t lessen their value as works of fiction.",
+          "contextGroup": "S1G3",
+          "paragraph": 1,
+          "part": 2,
+          "parts": 2
+        }
+      ]
+    },
+    {
+      "title": "Public Goods",
+      "url": "https://plato.stanford.edu/entries/public-goods/",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "topic": "economics",
+      "retrievedAt": "2026-09-18T21:29:11.845Z",
+      "excerptCharacters": 2797,
+      "excerptSha256": "f7488c948ee8fc06ea796cde9e841ebbc62d3d1cb9de968b8aff7268e056c1a1",
+      "offeredEvidenceCount": 12,
+      "contextTruncated": true,
+      "alreadyCoveredAtBaseline": false,
+      "proposedTitle": "A grain of rice and a symphony explain non-rivalry",
+      "reviewedPayoff": "A concrete contrast explains why one person’s consumption can, or need not, diminish another’s.",
+      "boundary": "Do not conflate music with rival concert seats or claim this alone explains all public-goods policy; non-excludability is not in these selected IDs.",
+      "support": [
+        {
+          "id": "S1E9",
+          "text": "A good is rivalrous if and only if an individual&rsquo;s consumption of it diminishes others&rsquo; ability to consume it.",
+          "contextGroup": "S1G6",
+          "paragraph": 3,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E10",
+          "text": "Bob&rsquo;s consumption of a grain of rice makes it impossible for Sally to consume the same grain of rice.",
+          "contextGroup": "S1G7",
+          "paragraph": 3,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E11",
+          "text": "By contrast, Sally&rsquo;s enjoyment of Bruckner&rsquo;s Symphony No. 9 in no way diminishes Bob&rsquo;s ability to do the same.",
+          "contextGroup": "S1G8",
+          "paragraph": 3,
+          "part": 1,
+          "parts": 1
+        }
+      ]
+    },
+    {
+      "title": "The Ethics of Aristotle",
+      "url": "https://iep.utm.edu/aristotle-ethics/",
+      "publisher": "Internet Encyclopedia of Philosophy",
+      "topic": "philosophy",
+      "retrievedAt": "2026-09-18T21:29:13.873Z",
+      "excerptCharacters": 2043,
+      "excerptSha256": "350993c451a3ac153e5fef16c2ac4c37e46bc2d23da38fef8511a5da884d775e",
+      "offeredEvidenceCount": 12,
+      "contextTruncated": true,
+      "alreadyCoveredAtBaseline": true,
+      "proposedTitle": "Virtue as an active condition, not automatic routine",
+      "reviewedPayoff": "An attributed interpretive challenge turns on the translation of hexis and the difference between active character and passive habituation.",
+      "boundary": "Frame as this author’s reading rather than scholarly consensus. Existing covered page: review only.",
+      "support": [
+        {
+          "id": "S1E3",
+          "text": "These interpretations of Aristotle’s ethics are the result of imprecise translations from the ancient Greek text. Aristotle uses the word hexis to denote moral virtue.",
+          "contextGroup": "S1G3",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E4",
+          "text": "But the word does not merely mean passive habituation. Rather, hexis is an active condition, a state in which something must actively hold itself.",
+          "contextGroup": "S1G4",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E5",
+          "text": "Virtue, therefore, manifests itself in action.",
+          "contextGroup": "S1G5",
+          "paragraph": 3,
+          "part": 1,
+          "parts": 1
+        }
+      ]
+    },
+    {
+      "title": "Roman Sarcophagi",
+      "url": "https://www.metmuseum.org/essays/roman-sarcophagi",
+      "publisher": "The Metropolitan Museum of Art",
+      "topic": "greek_roman_mythology",
+      "retrievedAt": "2026-09-18T21:29:52.477Z",
+      "excerptCharacters": 4863,
+      "excerptSha256": "6b43225c25cbaaab5e6419ef99acea90444b4b765a5919724ae5cf177c9b5193",
+      "offeredEvidenceCount": 12,
+      "contextTruncated": true,
+      "alreadyCoveredAtBaseline": false,
+      "proposedTitle": "A Roman coffin lid could look like a banquet couch",
+      "reviewedPayoff": "The kline lid gives a vivid cultural detail and identifies its Etruscan inspiration.",
+      "boundary": "Do not add a specific afterlife belief or imply that every Roman coffin had this form.",
+      "support": [
+        {
+          "id": "S1E10",
+          "text": "The most common shape for Roman sarcophagi is a low rectangular box (48.76.1) and a flat lid.",
+          "contextGroup": "S1G8",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E11",
+          "text": "The kline lid, with full-length sculptural portraits of the deceased reclining as if at a banquet (1993.11.1), was inspired by earlier Etruscan funerary monuments.",
+          "contextGroup": "S1G9",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E12",
+          "text": "This type of lid gained popularity in the later second century, and was produced in all three production centers for very lavish sarcophagi.",
+          "contextGroup": "S1G10",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 1
+        }
+      ]
+    },
+    {
+      "title": "Roman Copies of Greek Statues",
+      "url": "https://www.metmuseum.org/essays/roman-copies-of-greek-statues",
+      "publisher": "The Metropolitan Museum of Art",
+      "topic": "greek_roman_mythology",
+      "retrievedAt": "2026-09-18T21:29:52.548Z",
+      "excerptCharacters": 2292,
+      "excerptSha256": "b5cade183200309cc1e0245a09af4ba784029e214e6d501a8a60d8d68593958a",
+      "offeredEvidenceCount": 12,
+      "contextTruncated": true,
+      "alreadyCoveredAtBaseline": false,
+      "proposedTitle": "Why a marble statue might need a tree trunk",
+      "reviewedPayoff": "A material mechanism: marble copies needed supports because they lacked bronze’s tensile strength.",
+      "boundary": "Keep the claim scoped to these marble copies; do not imply that every sculpted tree trunk is a support.",
+      "support": [
+        {
+          "id": "S1E8",
+          "text": "Artists used hollow plaster casts to produce bronze replicas. Solid plaster casts with numerous points of measurement were used for marble copies.",
+          "contextGroup": "S1G6",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E9",
+          "text": "Since copies in marble lack the tensile strength of bronze, they required struts or supports, which were often carved in the form of tree trunks,",
+          "contextGroup": "S1G7",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 2
+        },
+        {
+          "id": "S1E10",
+          "text": "figures, or other kinds of images.",
+          "contextGroup": "S1G7",
+          "paragraph": 1,
+          "part": 2,
+          "parts": 2
+        }
+      ]
+    },
+    {
+      "title": "The Many Saints of Newark and the baggage of The Sopranos",
+      "url": "https://www.bfi.org.uk/sight-and-sound/reviews/many-saints-newark-cant-escape-baggage-sopranos",
+      "publisher": "BFI",
+      "topic": "the_sopranos",
+      "retrievedAt": "2026-09-18T21:29:52.219Z",
+      "excerptCharacters": 3201,
+      "excerptSha256": "8b66cb25d1e41e038e4bf078a322a21549cb424bd9183e874c651ca299578bb7",
+      "offeredEvidenceCount": 12,
+      "contextTruncated": true,
+      "alreadyCoveredAtBaseline": true,
+      "proposedTitle": "A prequel strongest when it steps away from its parent",
+      "reviewedPayoff": "A critic’s concise interpretive tension: the film’s strongest work is where it is furthest from the show.",
+      "boundary": "The three-ID cap cannot cover the longer social-history sentence plus this claim. Keep the post narrow; no extra plot or family details. Existing covered page: review only.",
+      "support": [
+        {
+          "id": "S1E2",
+          "text": "The weight of expectations doesn’t crush The Many Saints of Newark, but it’s at its strongest when far removed from The Sopranos, to which it",
+          "contextGroup": "S1G2",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 2
+        },
+        {
+          "id": "S1E3",
+          "text": "is a semi-prequel.",
+          "contextGroup": "S1G2",
+          "paragraph": 2,
+          "part": 2,
+          "parts": 2
+        }
+      ]
+    }
+  ]
+}

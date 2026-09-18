@@ -18,6 +18,8 @@ const SourceSchema = z.object({
   retrievedAt: z.string().datetime(), publishedAt: z.string().datetime().optional(),
   evergreen: z.boolean(),
 }).strict();
+const DiscussionOmissionSchema = z.enum(["schema", "unknown_evidence", "support_or_voice"]);
+export type DiscussionOmissionReason = z.infer<typeof DiscussionOmissionSchema>;
 const AuditChunkSchema = z.object({
   index: z.number().int().min(1).max(8),
   requestedModel: z.string().min(1).max(200), resolvedModel: z.string().min(1).max(200).nullable(),
@@ -26,6 +28,7 @@ const AuditChunkSchema = z.object({
   evidence: z.array(z.object({ id: evidenceId, sourceId: id, quote: z.string().min(1).max(512) }).strict()).min(1).max(60),
   posts: z.array(z.object({
     postId: id, evidenceIds,
+    discussionOmission: DiscussionOmissionSchema.optional(),
     discussion: z.array(z.object({
       turnIndex: z.number().int().min(0).max(3),
       voice: z.enum(["Take", "Pushback", "Reply", "Context"]), evidenceIds,
@@ -50,6 +53,8 @@ export const EditorialAuditSchema = z.object({
       chunk.evidence.some(entry => !sources.has(entry.sourceId)))
       ctx.addIssue({ code: "custom", message: "Invalid audit evidence mapping" });
     for (const post of chunk.posts) {
+      if (post.discussionOmission && post.discussion.length)
+        ctx.addIssue({ code: "custom", message: "Omitted discussion cannot have published support" });
       const parentSources = new Set(post.evidenceIds.map(key => evidence.get(key)?.sourceId));
       if (post.evidenceIds.some(key => !evidence.has(key)) || post.discussion.some(turn =>
         turn.evidenceIds.some(key => !evidence.has(key) || !parentSources.has(evidence.get(key)!.sourceId))))
@@ -58,6 +63,7 @@ export const EditorialAuditSchema = z.object({
   });
 });
 type AuditSelection = {
+  discussionOmission?: DiscussionOmissionReason;
   evidenceIds: string[];
   discussion?: { voice: string; evidenceIds: string[] }[] | null;
 };
@@ -98,6 +104,7 @@ export function buildAuditChunk(options: {
     index: options.index, requestedModel, resolvedModel, redactionsApplied, sources, evidence,
     posts: options.posts.map((post, index) => ({
       postId: `post-${options.runId}-${options.postOffset + index}`, evidenceIds: post.evidenceIds,
+      discussionOmission: post.discussionOmission,
       discussion: (post.discussion ?? []).map((turn, turnIndex) => ({ turnIndex, voice: turn.voice, evidenceIds: turn.evidenceIds })),
     })),
   });

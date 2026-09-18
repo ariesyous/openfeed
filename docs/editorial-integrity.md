@@ -55,3 +55,12 @@ Local validation passed: typecheck, lint, 192 tests across 24 files, and product
 Keep #36 open after implementation until twenty posts across at least five subsequent normal editions have been source-checked, including discussion and two culture topics. For each sampled post, record edition/post ID, artifact/run link, resolved model if known, each material factual claim's support, any entity/relationship/quantity/qualification error, and whether the post was independently worth reading. Record newly discovered errors separately from the fixture results. Also compare eligible source count, accepted/useful posts, attempts and run time; fewer accepted posts alone does not prove worse quality.
 
 If serious errors persist, narrow source eligibility before considering a bounded semantic-review experiment. If an adapter repeatedly returns mixed or boilerplate text, exclude it; do not weaken extraction to fill a quota. Revisit a voice heuristic that routinely rejects supported interpretation. Editorial depth/discussion salvage (#37) and Cards (#25) remain separate work packages.
+
+## WP2 follow-up
+
+[Editorial depth and discussion isolation](editorial-depth.md) builds on this contract.
+Accepted audit posts can now include the optional fixed `discussionOmission` reason. The
+selection passed to the audit builder contains only surviving discussion; omitted-only
+IDs are excluded. Article and cross-chunk gates, conservative spoiler flags, artifact
+retention and the validated public-data writer remain unchanged. See that document for
+the thirteen-page source pilot and separate still-open #36/#37 observation requirements.
