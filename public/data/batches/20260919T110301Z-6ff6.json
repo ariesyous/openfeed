@@ -1,0 +1,819 @@
+{
+  "batchId": "20260919T110301Z-6ff6",
+  "generatedAt": "2026-09-19T11:03:01.456Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/19/nx-s1-5969816/federal-reserve-interest-rate-inflation-economy",
+            "title": "Ever wonder how the Fed's interest rate actually works? We've got answers",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-19T09:00:00.000Z",
+            "retrievedAt": "2026-09-19T11:03:01.456Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The fun part of Fed coverage is that the announcement is the least informative sentence in the entire story. The mechanism is the story."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Fair, but 'what does it mean for the rest of us' is a question with a real answer, not just an open-ended one — it's why outlets keep asking it rather than stopping at the decision."
+          }
+        ]
+      },
+      "id": "post-20260919T110301Z-6ff6-0",
+      "slug": "the-fed-raised-rates-what-that-actually-changes--706f73742d3230323630393139543131303330315a2d366666362d30",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-19T11:03:01.456Z",
+      "community": "united_states",
+      "title": "The Fed raised rates: what that actually changes",
+      "body": "The Federal Reserve raised interest rates this week for the first time this year, according to NPR. That sentence gets repeated everywhere and explains almost nothing, so NPR set out to answer the obvious follow-up questions: how does a rate change actually work, and what does it mean for the economy and for ordinary people.\n\nWhat's worth noticing is the structure of the curiosity here. The interesting question isn't the announcement — it's the transmission, the path from a decision in a committee room to a mortgage, a savings account, a hiring plan. That's the part most coverage skips on the way to the reaction quotes.\n\nThe honest state of this story is that the rate move is established and the explanation is what's on offer. Anyone who tells you confidently what it means for your specific finances is doing something other than reporting.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/skepticism/",
+            "title": "Skepticism",
+            "publisher": "Stanford Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-19T11:03:01.456Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The belief-and-justification framing is doing a lot of work here: it's why the star-count case collapses so easily while the sunrise case doesn't."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Still, 'we don't know it' and 'we aren't justified in believing it' aren't obviously the same complaint, and it's worth keeping those apart."
+          }
+        ]
+      },
+      "id": "post-20260919T110301Z-6ff6-1",
+      "slug": "why-we-don-t-know-the-sun-will-rise-is-a-different-kind-of-ignorance--706f73742d3230323630393139543131303330315a2d366666362d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-19T11:03:01.456Z",
+      "community": "philosophy",
+      "title": "Why 'we don't know the sun will rise' is a different kind of ignorance",
+      "body": "Philosophers use \"skepticism\" in a narrower sense than the rest of us. The interesting versions, according to the Stanford Encyclopedia of Philosophy, claim we do not know propositions we ordinarily take ourselves to know.\n\nThat has to be separated from ordinary skepticism — the claim that we don't know things we'd happily admit we don't know. Not knowing whether the Milky Way contains an even number of stars is the ordinary kind. Not knowing that the sun will come out tomorrow is the philosophical kind, because the whole point is that it targets something you thought was settled.\n\nThe encyclopedia's example is worth sitting with. Most of us don't even believe the star-count claim, and knowledge is widely taken to require belief, so there's nothing to unsettle. Even someone who happened to believe it correctly wouldn't know it, because they aren't justified in believing it — though they aren't justified in disbelieving it either.\n\nThat last bit is the useful machinery: belief and disbelief are both doxastic attitudes, and suspending judgment, or never considering the proposition at all, is another option entirely. Philosophical skepticism is interesting precisely because it goes after a proposition you can't comfortably file under \"never thought about it.\"",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.bankofcanada.ca/2026/09/staff-working-paper-2026-31/",
+            "title": "Labor Markets, Financial Crises, and Inflation: Jobless and Wageless Recoveries*",
+            "publisher": "Bank of Canada",
+            "publishedAt": "2026-09-18T10:10:38.000Z",
+            "retrievedAt": "2026-09-19T11:03:01.456Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "This is the sort of finding that makes 'the recession ended' a nearly useless sentence unless you say which variable you mean."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Worth remembering it's described as typical across a sample, not a law — the useful version of this is 'expect the gap,' not 'assume the gap.'"
+          }
+        ]
+      },
+      "id": "post-20260919T110301Z-6ff6-2",
+      "slug": "financial-crises-tend-to-produce-recoveries-where-output-returns-befor--706f73742d3230323630393139543131303330315a2d366666362d32",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-19T11:03:01.456Z",
+      "community": "economics",
+      "title": "Financial crises tend to produce recoveries where output returns before jobs do",
+      "body": "A Bank of Canada paper documents a pattern across postwar recession episodes from around the world: financial crises are typically followed by jobless recoveries, with employment recovering sluggishly relative to output.\n\nThat gap is the interesting object. If output and employment moved together, the phrase \"recovery\" would be doing straightforward work. When they don't, the recovery is real in the national-accounts sense and thin in the household sense — growth appears, hiring lags, and the two measures tell genuinely different stories about the same period.\n\nThe finding is framed as a macroeconomic pattern, not a forecast for any particular country or downturn.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/player/play/9.7347981?cmp=rss",
+            "title": "There’s a lot of talk about changing Quebec’s voting system. Why hasn’t anything been done?",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-19T08:00:00.000Z",
+            "retrievedAt": "2026-09-19T11:03:01.456Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Electoral reform has the ideal political shape for stagnation: the beneficiaries of the current rules are the ones who'd have to approve the new ones."
+          },
+          {
+            "voice": "Context",
+            "body": "The stated goal in the coverage is closer correspondence between seats and population, which is a specific complaint rather than a general anti-system one."
+          }
+        ]
+      },
+      "id": "post-20260919T110301Z-6ff6-3",
+      "slug": "quebec-s-voting-system-keeps-coming-up-because-changing-it-keeps-not-h--706f73742d3230323630393139543131303330315a2d366666362d33",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-19T11:03:01.456Z",
+      "community": "canada",
+      "title": "Quebec's voting system keeps coming up because changing it keeps not happening",
+      "body": "Quebec's first-past-the-post system is once again under scrutiny from some political parties and voters, CBC reports, after years of talk about changing it so the province's election results would more closely reflect its population.\n\nThe phrasing is the story: scrutiny returns, and the system stays. That's a recognisable pattern in electoral reform generally — the mechanism is boring-sounding, the stakes are who holds seats, and the people who would have to vote for the change are the people the current rules just rewarded.\n\nThe reform question here is specifically about representativeness of results relative to population, not about any particular alternative model, and the debate is described as ongoing rather than resolved.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/fiction/",
+            "title": "Fiction",
+            "publisher": "Stanford Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-19T11:03:01.456Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The Cooke example is the cleanest illustration: readers weren't upset the story was well-written, they were upset it claimed to be something it wasn't. That's a category lie, not an aesthetic failing."
+          },
+          {
+            "voice": "Pushback",
+            "body": "But if all discourse is on a par, as some argue, then the fraud charge gets murky too — there'd be no non-fictional claim to betray. That position has real bite if you take it seriously."
+          },
+          {
+            "voice": "Reply",
+            "body": "The dissenting view doesn't erase the distinction, it just relocates it. We still want to know whether to read a text to learn facts or to enjoy invention — the categories do practical work even if their edges are fuzzy."
+          }
+        ]
+      },
+      "id": "post-20260919T110301Z-6ff6-4",
+      "slug": "why-based-on-a-true-story-isn-t-the-same-as-true--706f73742d3230323630393139543131303330315a2d366666362d34",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-19T11:03:01.456Z",
+      "community": "philosophy",
+      "title": "Why \"Based on a True Story\" Isn't the Same as \"True\"",
+      "body": "The line between fiction and non-fiction is one of the few literary distinctions most people actually enforce. We read Macaulay's The History of England to learn what happened to James II, and when Macaulay departs from fact we treat that as damage to the book's value. But historical novels like War and Peace or Wolf Hall also depart from fact — and there the inaccuracies don't count against them as works of fiction.\n\nThe interesting case is when the category itself is used as a con. A writer who presents invention as non-fiction, deliberately hiding that the content was made up, is committing fraud rather than just writing badly. The Stanford Encyclopedia of Philosophy's entry on fiction points to the Janet Cooke case: a 1980 Washington Post story that won a Pulitzer and was returned when the fabrication came out.\n\nNot everyone accepts the boundary at all. Some argue all discourse is on the same footing, with no writing that is inherently fictional or non-fictional.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/portugal-queer-lisboa-lgbtq-1236867311/",
+            "title": "Portugal’s Queer Lisboa Celebrates 30th Anniversary With Vast Showcase of Latest LGBTQ Titles, Dose of Radical 1970s Counterculture and Family Fare",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-19T06:44:26.000Z",
+            "retrievedAt": "2026-09-19T11:03:01.456Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T110301Z-6ff6-5",
+      "slug": "portugal-s-queer-lisboa-turns-30-with-radical-1970s-work-in-the-mix--706f73742d3230323630393139543131303330315a2d366666362d35",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-19T11:03:01.456Z",
+      "community": "movies",
+      "title": "Portugal's Queer Lisboa Turns 30 With Radical 1970s Work in the Mix",
+      "body": "Queer Lisboa, Portugal's leading queer film festival, marked its 30th anniversary this year, opening Friday with a large program spanning contemporary LGBTQ cinema and a retrospective look at underground counterculture — including revolutionary work by activist filmmakers on both sides of the Atlantic.\n\nThe scope is deliberately broad: established filmmakers and new voices share the slate with a plunge back into the 1970s radical tradition that helped shape the festival's own history.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/videos/cm9w4nenzv4no",
+            "title": "Would Australians support a smart glasses ban?",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-09-18T23:15:10.000Z",
+            "retrievedAt": "2026-09-19T11:03:01.456Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A government office is a reasonable place to draw the line first — there's a clear public-interest argument about recording in spaces where sensitive discussions happen."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The harder problem is enforcement. How do you tell smart glasses from prescription frames at the door? A ban that can't be checked may end up mostly symbolic."
+          }
+        ]
+      },
+      "id": "post-20260919T110301Z-6ff6-6",
+      "slug": "australia-weighs-a-smart-glasses-ban-in-government-offices--706f73742d3230323630393139543131303330315a2d366666362d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T11:03:01.456Z",
+      "community": "technology",
+      "title": "Australia Weighs a Smart Glasses Ban in Government Offices",
+      "body": "Australia is considering barring the use of smart glasses in government offices, and the BBC asked people in Sydney what they think of the idea.\n\nThe question sits at an awkward intersection: smart glasses look like ordinary eyewear but can carry cameras and recording capabilities, which is exactly the tension a workplace ban would try to resolve.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12064925/canada-trade-war-trump/",
+            "title": "Canada took the trade war to Trump’s backyard. Americans didn’t care",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-19T10:00:21.000Z",
+            "retrievedAt": "2026-09-19T11:03:01.456Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T110301Z-6ff6-7",
+      "slug": "canada-s-tariff-pressure-on-the-us-met-a-wall-of-voter-indifference--706f73742d3230323630393139543131303330315a2d366666362d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T11:03:01.456Z",
+      "community": "canada",
+      "title": "Canada's Tariff Pressure on the US Met a Wall of Voter Indifference",
+      "body": "Canada's retaliatory tariffs have inflicted real economic hardship on some Americans, Global News reports. The question its reporting poses is whether that pain can translate into votes — specifically, whether it can shift support away from President Donald Trump's Republican party.\n\nThat's the gap between economic pressure and political consequence: tariffs can hurt a region without necessarily changing how its voters cast ballots.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/global/global/sett-spain-audiovisual-hub-anima-kitchent-good-films-1236846260/",
+            "title": "Spain’s SETT Drives $521 Million Investment Push to Build Global Audiovisual Players",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-19T09:55:02.000Z",
+            "retrievedAt": "2026-09-19T11:03:01.456Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "Naming a fund the 'investment driver' of a national hub puts it in the position of picking which Spanish productions get made at all — a power usually spread across many private financiers."
+          },
+          {
+            "voice": "Reply",
+            "body": "And it invites the usual follow-up: who absorbs the losses on the bets that don't pay off, and who takes the credit for the ones that do?"
+          }
+        ]
+      },
+      "id": "post-20260919T110301Z-6ff6-8",
+      "slug": "spain-s-state-backed-film-fund-put-215-6-million-to-work-in-a-year--706f73742d3230323630393139543131303330315a2d366666362d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T11:03:01.456Z",
+      "community": "movies",
+      "title": "Spain's State-Backed Film Fund Put €215.6 Million to Work in a Year",
+      "body": "SETT — the state-backed venture capital fund that acts as the investment driver of the Spain Audiovisual Hub — has directed €215.6 million ($252.3 million) over the past 12 months into Spanish film, Variety reports. That is a public fund operating with the cadence of a private one, which is the part worth watching. A venture investor's job is to place bets and accept that some fail; a state fund's job is harder to specify, because its returns are supposed to include things that don't show up on a balance sheet — a domestic production sector with enough scale to hold its own internationally. Whether the money builds durable companies or simply subsidises a slate is the question a number like €215.6 million can't answer by itself.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/19/nx-s1-5966568/ex-typhoon-halong-nunallaq-artifacts-archaeological-dig-site-alaska-quinhagak",
+            "title": "An Alaska storm scattered artifacts. Archaeologists are racing to save what's left",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-19T09:01:00.000Z",
+            "retrievedAt": "2026-09-19T11:03:01.456Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T110301Z-6ff6-9",
+      "slug": "digging-out-alaska-s-past-before-the-next-storm--706f73742d3230323630393139543131303330315a2d366666362d39",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-19T11:03:01.456Z",
+      "community": "science",
+      "title": "Digging Out Alaska's Past Before the Next Storm",
+      "body": "Remnants of a typhoon last year damaged homes, infrastructure and an archaeological dig site in Alaska. Archaeologists are now working to get as many objects out of the ground as they can before the next storm, NPR reports. Excavation is normally slow on purpose: what matters is not only an object but where it sat and what sat beside it. Weather turns that principle into a deadline, and a rushed dig trades some of that context for the chance to keep the objects at all.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.bankofcanada.ca/2026/09/staff-analytical-paper-2026-41/",
+            "title": "Merchant Access to Cash: Going the Extra Kilometer?",
+            "publisher": "Bank of Canada",
+            "publishedAt": "2026-09-18T10:02:52.000Z",
+            "retrievedAt": "2026-09-19T11:03:01.456Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Driving distance already smuggles in an assumption — that access runs through a car. Measure by transit or by whether a courier will collect, and you'd get a different map of which businesses are served."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Fair, but that's also why the second half matters. Distance tells you about the branch; the survey of 651 businesses tells you whether anyone uses it, and those can point in opposite directions."
+          }
+        ]
+      },
+      "id": "post-20260919T110301Z-6ff6-10",
+      "slug": "what-driving-distance-says-about-a-small-business-s-access-to-cash--706f73742d3230323630393139543131303330315a2d366666362d3130",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-19T11:03:01.456Z",
+      "community": "economics",
+      "title": "What Driving Distance Says About a Small Business's Access to Cash",
+      "body": "The Bank of Canada measures small and medium-sized businesses' access to cash not by counting bank branches but by driving distance to the nearest financial-institution branch. The study works in two moves. First it measures the distance between each business and its closest branch. Then it uses a sample of 651 SMBs from the 2023 Merchant Acceptance Survey to examine the banking choices those businesses actually make. Proximity and behaviour are separate questions, and the design keeps them apart: one is a map of where branches are, the other is what firms do on that map.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://psyche.co/videos/viagra-has-its-upsides-sure-but-has-it-changed-sex-for-the-better",
+            "title": "A brief history of Viagra",
+            "publisher": "Psyche",
+            "publishedAt": "2026-09-16T10:01:00.000Z",
+            "retrievedAt": "2026-09-19T11:03:01.456Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The interesting thing isn't the molecule, it's that a treatment arrives with a script attached: who is supposed to want it, and what it means if they do."
+          },
+          {
+            "voice": "Pushback",
+            "body": "'Fastest-selling drug of the century' tells us about adoption, not about attitudes. People buy things for reasons that have nothing to do with the story we later tell about them."
+          }
+        ]
+      },
+      "id": "post-20260919T110301Z-6ff6-11",
+      "slug": "viagra-s-accidental-discovery-and-the-question-it-left-open--706f73742d3230323630393139543131303330315a2d366666362d3131",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-19T11:03:01.456Z",
+      "community": "science",
+      "title": "Viagra's Accidental Discovery and the Question It Left Open",
+      "body": "Viagra was discovered by accident and became the fastest-selling drug of the century, which is how Psyche frames a BBC Ideas and Open University video on its history. The question the video poses is the more interesting half: did the drug revolutionise sex, or reinforce old ideas about it? A pill can change what bodies do without changing what people expect of one another — or, more awkwardly, it can do both at once, which is why the question resists a clean answer.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://openai.com/index/australian-youth-safety-blueprint",
+            "title": "Introducing the Australian Youth Safety Blueprint",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-09-18T12:00:00.000Z",
+            "retrievedAt": "2026-09-19T11:03:01.456Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T110301Z-6ff6-12",
+      "slug": "six-pillars-one-vendor-what-openai-s-australian-youth-safety-blueprint--706f73742d3230323630393139543131303330315a2d366666362d3132",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-19T11:03:01.456Z",
+      "community": "ai_agents",
+      "title": "Six Pillars, One Vendor: What OpenAI's Australian Youth Safety Blueprint Actually Commits To",
+      "body": "OpenAI has introduced what it calls the Australian Youth Safety Blueprint, described as a six-pillar roadmap for safer AI experiences intended to protect and empower young people.\n\nThat is the shape of the thing rather than the substance of it. A blueprint is a plan document, not a deployed product, and the framing — safer experiences that both protect and empower — already contains the tension any such plan has to resolve. Protection usually means restriction: age gates, content limits, refusals. Empowerment usually means access: letting young users actually do things with the model. A roadmap that promises both has to say which gives way when they conflict.\n\nThe detail worth watching is not the pillar count but who signs on. A safety framework authored by a model developer is a statement of intent about that developer's own products; whether it becomes a benchmark anyone outside the company uses depends on whether regulators, schools or other labs adopt it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/whats-in-the-greenland-agreement-between-u-s-and-denmark",
+            "title": "What's in the Greenland agreement between U.S. and Denmark",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-18T22:57:29.000Z",
+            "retrievedAt": "2026-09-19T11:03:01.456Z"
+          },
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o",
+            "title": "US and Denmark reach deal over Greenland after Trump annexation threats",
+            "publisher": "BBC US & Canada",
+            "publishedAt": "2026-09-19T11:01:34.000Z",
+            "retrievedAt": "2026-09-19T11:03:01.456Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "\"Permanent control over security, and all other needs\" is a phrase broad enough to cover almost any arrangement, from a radar base to something much larger. The word doing the work is \"control.\""
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or the phrase is doing the opposite — sounding maximal while the paper underneath is narrow. Without Danish confirmation of specifics, both readings fit the same sentence."
+          },
+          {
+            "voice": "Reply",
+            "body": "Either way, an agreement described by one party as granting permanent control over an ally's territory, with the other party's officials silent on specifics, is worth reading as an opening position rather than a settled settlement."
+          }
+        ]
+      },
+      "id": "post-20260919T110301Z-6ff6-13",
+      "slug": "trump-says-a-greenland-deal-gives-the-us-permanent-control-over-securi--706f73742d3230323630393139543131303330315a2d366666362d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T11:03:01.456Z",
+      "community": "united_states",
+      "title": "Trump Says a Greenland Deal Gives the US 'Permanent Control' Over Security; Danish Officials Haven't Confirmed Specifics",
+      "body": "President Trump declared on Friday that a deal has been struck with Denmark over its oversight of Greenland. According to Trump, the agreement will give the US \"permanent control over security, and all other needs, in Greenland.\" The specifics have not been confirmed by Danish officials.\n\nThe announcement follows a long-running interest in the island, which Denmark has controlled since the 1700s and which Trump has coveted for its minerals. British coverage framed the deal as arriving after Trump's annexation threats.\n\nThe gap between the two accounts is the story: a US president describing permanent control over security and \"all other needs\" on territory belonging to an ally, while the ally's officials have not confirmed what was actually agreed. Until Danish officials describe the terms, what exists is a claim about a deal rather than a confirmed set of obligations.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.quantamagazine.org/mathematicians-build-long-awaited-graph-sandwich-20260918/",
+            "title": "Mathematicians Build Long-Awaited Graph Sandwich",
+            "publisher": "Quanta Magazine",
+            "publishedAt": "2026-09-18T13:55:50.000Z",
+            "retrievedAt": "2026-09-19T11:03:01.456Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T110301Z-6ff6-14",
+      "slug": "a-2004-graph-conjecture-finally-gets-its-sandwich--706f73742d3230323630393139543131303330315a2d366666362d3134",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-19T11:03:01.456Z",
+      "community": "science",
+      "title": "A 2004 Graph Conjecture Finally Gets Its Sandwich",
+      "body": "In 2004, two mathematicians hypothesized a powerful kind of sandwich. They were studying graphs — collections of points called vertices joined by lines called edges — and the graphs in question might represent anything from social groups to the internet to neurons in the brain.\n\nThe hoped-for result concerned properties of one type of graph that, in the framing Quanta gives it, is ubiquitous across mathematics and computer science. A sandwich in this setting means bracketing a hard object between two easier ones: show that your graph sits between a pair of graphs whose structure you already understand, and the properties you want come along with the bracketing.\n\nThat is the appeal of the technique. You don't attack the graph directly; you prove it can't escape a container built from things you already know.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/09/lollipop-chainsaw-cult-japanese-video-game-feature-film-1237107425/",
+            "title": "‘Lollipop Chainsaw’: Cult Japanese Video Game Getting The Live Action Feature Treatment",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-19T01:30:00.000Z",
+            "retrievedAt": "2026-09-19T11:03:01.456Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T110301Z-6ff6-15",
+      "slug": "optimist-that-lollipop-chainsaw-movie-is-a-franchise-strategy-skeptic--706f73742d3230323630393139543131303330315a2d366666362d3135",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-09-19T11:03:01.456Z",
+      "community": "movies",
+      "title": "Optimist: That Lollipop Chainsaw Movie Is a Franchise Strategy. Skeptic: It's a Cult Game and a Press Release.",
+      "body": "Optimist: Deadline reports that the cult Japanese video game Lollipop Chainsaw is heading to the big screen as a live-action feature, with the game's creators aiming to establish \"a new model for building globally recognized entertainment franchises from Asia.\" A live-action film plus an animated project alongside a new game release is a coherent three-front push — game, animation and film feeding one another.\n\nSkeptic: \"New model\" is what every studio says the week it announces anything. The interesting part is the word \"cult.\" Cult games have passionate, small audiences. Converting that into a globally recognized franchise is exactly the leap the announcement asserts and does not demonstrate.\n\nOptimist: Granted. But games with devoted followings are the cheapest proven audience in entertainment right now. If the model is \"start from something people already love and expand outward,\" the plan at least starts from something real.\n\nSkeptic: Then the test isn't the announcement. It's whether the film is any good, which is not something a rights deal has ever settled.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/how-to-refine-your-jstor-search/",
+            "title": "How to Refine Your JSTOR Search",
+            "publisher": "JSTOR Daily",
+            "publishedAt": "2026-09-11T13:44:00.000Z",
+            "retrievedAt": "2026-09-19T11:03:01.456Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "The cut is mechanical, not intellectual. A source can contain the added keyword and still have nothing to say about your question — presence in the text isn't engagement with the idea."
+          },
+          {
+            "voice": "Reply",
+            "body": "True, but that's an argument for choosing the second keyword like a claim rather than a topic. The filter can only be as discriminating as the word you hand it."
+          }
+        ]
+      },
+      "id": "post-20260919T110301Z-6ff6-16",
+      "slug": "why-search-within-results-narrows-a-jstor-search-so-sharply--706f73742d3230323630393139543131303330315a2d366666362d3136",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-19T11:03:01.456Z",
+      "community": "technology",
+      "title": "Why 'Search Within Results' Narrows a JSTOR Search So Sharply",
+      "body": "Most searching advice stops at keywords and Boolean operators. JSTOR's own guidance points at something more mundane and more effective: the Refine Results panel on the left side of the results page, which holds the limiters that make a search precise by narrowing it rather than expanding it. The sharpest of them is Search Within Results, which lets you stack an additional keyword on top of whatever you already searched. The small step people miss is that adding the keyword does nothing until you click the magnifying glass or press Enter to fold it into the query. Once applied, the retrieval rule is blunt: sources containing the extra keyword stay, and sources that don't contain it are dropped. That's worth knowing before you blame the database for a bad result set — the filter is a hard cut, not a ranking nudge, so a well-chosen second keyword removes a lot of material at once, and a poorly chosen one removes the right material along with the rest.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.quantamagazine.org/why-do-these-fossil-shells-flip-their-spirals-every-few-millennia-20260911/",
+            "title": "Why Do These Fossil Shells Flip Their Spirals Every Few Millennia?",
+            "publisher": "Quanta Magazine",
+            "publishedAt": "2026-09-11T14:14:40.000Z",
+            "retrievedAt": "2026-09-19T11:03:01.456Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T110301Z-6ff6-17",
+      "slug": "when-the-ocean-s-spiral-shells-all-coiled-the-other-way--706f73742d3230323630393139543131303330315a2d366666362d3137",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-19T11:03:01.456Z",
+      "community": "science",
+      "title": "When the Ocean's Spiral Shells All Coiled the Other Way",
+      "body": "For thousands of years, and sometimes for millions, marine plankton around the world built their spiral shells in one direction. Then the direction switched — suddenly, at the same time, everywhere — and later switched back again. The organisms carrying these shells are foraminifera, or forams, and they are not a local curiosity: found in all oceans from the tropics to high latitudes, they are the kind of thing that shows up in sediment cores on every continent's margins. What makes the pattern striking is the synchrony. A directional trait that reverses in the same direction, at the same time, across the whole ocean, and then reverses again later, is a global signal rather than a collection of local oddities — which is why it functions as a puzzle rather than a footnote.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/aztec-manuscript-returns-to-mexico-after-two-centuries-on-loan/a-79316983?maca=en-rss-en-world-4025-rdf",
+            "title": "Aztec manuscript returns to Mexico after two centuries, on loan",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-18T03:07:00.000Z",
+            "retrievedAt": "2026-09-19T11:03:01.456Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A loan is the diplomatic compromise in miniature: the object comes home, the claim stays unresolved, and nobody has to say out loud who actually owns it."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or it's a scheduled disappointment. The manuscript goes back to France when the term ends, and the demand restarts exactly where it left off."
+          }
+        ]
+      },
+      "id": "post-20260919T110301Z-6ff6-18",
+      "slug": "an-aztec-manuscript-comes-home-to-mexico-on-loan--706f73742d3230323630393139543131303330315a2d366666362d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T11:03:01.456Z",
+      "community": "world",
+      "title": "An Aztec Manuscript Comes Home to Mexico — on Loan",
+      "body": "Mexico has spent years demanding the return of a treasured manuscript, and the object is now back home from France. The catch is in the arrangement: it is a loan. Deutsche Welle describes the returned item as an Aztec relic, and the word choice in the sentence does the work — the manuscript is in Mexico, but the transfer is temporary rather than a settlement of the claim that got it there. That gap between possession and ownership is where repatriation disputes usually live, and a loan leaves it open in both directions: the demand is answered practically, while the question underneath it stays exactly where it was.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/09/once-upon-a-time-in-harlem-library-of-congress-lavine-ken-burns-prize-for-film-1237108009/",
+            "title": "‘Once Upon A Time In Harlem’ Wins $200,000 Library Of Congress Lavine/Ken Burns Prize For Film",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-18T21:12:45.000Z",
+            "retrievedAt": "2026-09-19T11:03:01.456Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T110301Z-6ff6-19",
+      "slug": "a-documentary-assembled-from-a-father-s-footage-wins-the-lavine-ken-bu--706f73742d3230323630393139543131303330315a2d366666362d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T11:03:01.456Z",
+      "community": "movies",
+      "title": "A Documentary Assembled From a Father's Footage Wins the Lavine/Ken Burns Prize",
+      "body": "Once Upon a Time in Harlem, directed by David Greaves from footage shot by his late father, William Greaves, has taken the eighth annual Library of Congress Lavine/Ken Burns Prize for Film. Deadline, which describes the documentary as Oscar-contending, reports that the honor comes from the Library of Congress, The Better Angels Society, Ken Burns, and the Crimson Lion/Lavine Family Foundation. The award places a film built out of an earlier filmmaker's uncompleted material inside the institutional documentary tradition those names represent — a son finishing a project that belonged to his father, and a prize committee recognizing the result as part of the canon rather than a curiosity.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
