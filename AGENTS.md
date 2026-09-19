@@ -227,3 +227,14 @@ The ten exact corrections in scripts/correctPost42Audit.ts use the same guarded
 publisher; preserve original support, permanent identity, later editions and earlier
 correction records. The 24-case benchmark exposes ten semantic failures that still
 pass provenance. Prompt distinctions are guidance, not automatic semantic enforcement.
+
+## Scheduled continuation and source curation — September 19
+Read docs/scheduled-review-culture-20260919.md and docs/culture-source-review-20260919.md.
+At the fixed 02:39:19 UTC cutoff, one new ordinary free-router run was eligible: six posts,
+pre-#43 checkout. #36 has 20 primary checks plus 2 supplemental (22 total) across 2 editions;
+three more editions and culture coverage remain. #37 has 1/10 runs and four fixed sampled
+articles; preserve its baseline and blinding limitation. Offline packets do not count.
+Four reviewed shelf additions bring the inventory to 63; do not revive consumed URLs or
+add the duplicate Medusa angle. Nine exact corrections use scripts/correctScheduledAudit.ts.
+The 28-case benchmark exposes twelve semantic counterexamples; no new automatic semantic
+gate or prompt change was added. Keep both observation issues open.

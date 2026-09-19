@@ -1,0 +1,251 @@
+{
+  "scoredAt": "2026-09-19T02:40:46.364122+00:00",
+  "protocol": "SHA-256 openfeed-wp2-v1:postId order; IDs/cohort/model/date/links hidden. Baseline worksheet was read as part of protocol discovery, so baseline recognition is a disclosed limitation; new sampled bodies were unseen.",
+  "articles": [
+    {
+      "label": "00f03077d7fe5705ea0ac2e350135e7a0933d11b66107832ae6c6bce03c5bfa6",
+      "title": "Palace pushes back on Earl Spencer\u2019s latest criticism of King Charles",
+      "body": "Buckingham Palace has rejected criticism of King Charles III in a new book by Earl Charles Spencer, Princess Diana\u2019s brother. Spencer has been a fierce critic of his former brother-in-law for decades, so the palace\u2019s statement is less the start of a feud than another round of a familiar one.",
+      "discussion": null,
+      "titlePayoff": 1,
+      "memorableSubstance": 1,
+      "initialCommentary": "absent",
+      "initialReason": "A familiar feud summary without the substance of either criticism or reply.",
+      "support": "pending reveal",
+      "worthwhile": "pending support"
+    },
+    {
+      "label": "09423c1502bd358eadea8ffa48a333d9ccb58ab776f6221b79a15bf777078c93",
+      "title": "NASA adds three SpaceX missions to its crew contract",
+      "body": "NASA has modified its Commercial Crew Transportation Capability contract to add three SpaceX missions\u2014Crew-15, Crew-16 and Crew-17\u2014under a firm fixed-price, indefinite-delivery/indefinite-quantity modification. The $946 million package covers ground, launch, in-orbit, return and recovery operations, cargo transportation for each mission, and lifeboat capability while docked. NASA says the change helps maintain access to the International Space Station with two commercial crew partners and brings SpaceX's total missions under the program to 17.",
+      "discussion": [
+        {
+          "voice": "Take",
+          "body": "The package is continuity infrastructure: it pays for the ground, launch, return and recovery work as well as the flight."
+        },
+        {
+          "voice": "Pushback",
+          "body": "The contract names the missions, but these excerpts do not provide launch dates or crew assignments."
+        }
+      ],
+      "titlePayoff": 2,
+      "memorableSubstance": 1,
+      "initialCommentary": "redundant/process defect",
+      "initialReason": "Specific price, missions and scope; discussion repeats then narrates excerpts.",
+      "support": "pending reveal",
+      "worthwhile": "pending support"
+    },
+    {
+      "label": "1946059d3409073f74410162fff735dee606174b093e12dc228c1bab01bba793",
+      "title": "Canada Eyes EU Associate Membership Amid US Tensions",
+      "body": "Canadian Prime Minister Mark Carney announced an intention to seek associate membership in the European Union, a move endorsed by Commission President Ursula von der Leyen. Carney frames the step as a hedge against increasingly hostile U.S. policies under President Donald Trump, leveraging Canada\u2019s traditional multilateral approach to bolster its sovereignty and amplify its power alongside like\u2011minded democracies.",
+      "discussion": null,
+      "titlePayoff": 2,
+      "memorableSubstance": 1,
+      "initialCommentary": "absent",
+      "initialReason": "A concrete policy claim and attributed rationale; high-stakes support still to check.",
+      "support": "pending reveal",
+      "worthwhile": "pending support"
+    },
+    {
+      "label": "262bd18105c6d75dd10895be0805c4ca20f1f15f025aebf0debf63c273e56372",
+      "title": "SuperCinema plans the whole film pipeline",
+      "body": "SuperCinema, a new independent studio launching from commercial production company Concrete Studios, plans to develop, produce, market and theatrically distribute its films, then reach audiences directly. The stated goal is control over each project from development through release. The notable move is vertical scope: instead of stopping at production, the studio is trying to cover the chain from development through release.",
+      "discussion": [
+        {
+          "voice": "Take",
+          "body": "Vertical control could keep a film's positioning coherent from development to release."
+        },
+        {
+          "voice": "Pushback",
+          "body": "Control over the chain does not, by itself, show that the studio has financing or audience reach."
+        },
+        {
+          "voice": "Reply",
+          "body": "The bet is that keeping distribution in-house makes release planning part of the project rather than a handoff."
+        }
+      ],
+      "titlePayoff": 2,
+      "memorableSubstance": 1,
+      "initialCommentary": "adds perspective/redundant",
+      "initialReason": "Vertical scope clear, body repeats its conclusion; qualified discussion adds possible implications.",
+      "support": "pending reveal",
+      "worthwhile": "pending support"
+    },
+    {
+      "label": "4dadd5fc58cdee04e29c2e24ca75cf696a254001d40c44f2b8fbd0b2875d0592",
+      "title": "NASA spots a massive new crater on the Moon",
+      "body": "NASA announced the discovery of a massive new crater on the Moon, spotted in recent lunar imagery. The crater\u2019s size suggests a recent impact, though scientists have not yet released estimates of the impacting object\u2019s diameter or velocity. The finding adds to the growing catalogue of recent lunar impacts monitored by orbiting spacecraft.",
+      "discussion": null,
+      "titlePayoff": 1,
+      "memorableSubstance": 0,
+      "initialCommentary": "absent",
+      "initialReason": "No size, date or mechanism; size-to-recency inference and claim that estimates are unreleased need checking.",
+      "support": "pending reveal",
+      "worthwhile": "pending support"
+    },
+    {
+      "label": "5df178b4ffcb855c6871a51d84bed79f572d97504dd42bbdfc97cc64df7ebca2",
+      "title": "AI hallucination nearly sparks military clash over Chinese vessel",
+      "body": "An AI\u2011generated intelligence report falsely claimed a Chinese vessel was carrying nuclear arms, prompting the US military to prepare a boarding operation with air support; investigators later discovered the chatbot had misidentified the ship\u2019s cargo, a mistake officials said \u201calmost started a war.\u201d",
+      "discussion": [
+        {
+          "voice": "Take",
+          "body": "The episode shows that AI\u2011driven analysis can produce lethal misinformation, underscoring the need for rigorous validation before military decisions."
+        },
+        {
+          "voice": "Take",
+          "body": "The AI\u2011generated report was false and almost caused a war, confirming the danger of AI hallucinations in high\u2011stakes contexts."
+        }
+      ],
+      "titlePayoff": 2,
+      "memorableSubstance": 1,
+      "initialCommentary": "redundant",
+      "initialReason": "Specific causal incident; two takes repeat each other; verify whether this was real or simulated.",
+      "support": "pending reveal",
+      "worthwhile": "pending support"
+    },
+    {
+      "label": "71c68ce31072f4a85ed78984ba9f1c364cbb28a4de18160d9e7a436ef3a9852e",
+      "title": "Solipsism is a puzzle about meaning, not just loneliness",
+      "body": "Solipsism is not merely the belief that one is alone. The IEP distinguishes that contingent belief from a doctrine about meaning: for the solipsist, existence is what one experiences, including physical objects, other people, events, and processes. It is not enough to say that other minds might happen not to exist; the view is that the solipsist cannot attach meaning to thoughts, experiences, or emotions other than their own. The entry says no great philosopher has explicitly espoused the position.",
+      "discussion": null,
+      "titlePayoff": 2,
+      "memorableSubstance": 2,
+      "initialCommentary": "absent",
+      "initialReason": "Clear distinction between loneliness and a doctrine of meaning; attributed final claim.",
+      "support": "pending reveal",
+      "worthwhile": "pending support"
+    },
+    {
+      "label": "74ed9c1bc729c0e4c03dde7dc7f20a6256a3315dae292879ad767b17d7e664a5",
+      "title": "Newsom signs California order with a possible AI kill switch",
+      "body": "California Gov. Gavin Newsom signed an executive order aimed at speeding up AI safety measures, including a possible 'kill switch' for advanced models, according to PBS NewsHour.",
+      "discussion": null,
+      "titlePayoff": 1,
+      "memorableSubstance": 0,
+      "initialCommentary": "absent",
+      "initialReason": "Almost only restates headline; no explanation of what the possible switch would do.",
+      "support": "pending reveal",
+      "worthwhile": "pending support"
+    },
+    {
+      "label": "786b469d5891166c19ab0cf490e35906ac54e0b76ae941450d479586a7944b15",
+      "title": "Claude hacks OpenAI: Security researchers used Anthropic's tool to break into a ChatGPT account",
+      "body": "Cybersecurity researchers broke into an OpenAI employee's ChatGPT account using software from Anthropic, OpenAI's key rival. The team gained access to private software information and even suggested changes, highlighting vulnerabilities in the ChatGPT maker's security posture at a time when leading AI companies face mounting scrutiny over safety. The researchers had been given access to an Anthropic tool specifically designed for security professionals, and were paid for the work as part of a program to find vulnerabilities before bad actors could exploit them. The episode is a reminder that the AI industry's competitive rivalry extends to offensive security: one company's red-team instrument became the lever against another's infrastructure.",
+      "discussion": [
+        {
+          "voice": "Take",
+          "body": "There's a dark comedy in Anthropic's safety tool being the one that cracked OpenAI's front door."
+        },
+        {
+          "voice": "Pushback",
+          "body": "The more interesting point is structural: if an employee's ChatGPT account can expose private software internals, the risk isn't one company's tooling, it's the overlap between employee productivity apps and sensitive codebases."
+        }
+      ],
+      "titlePayoff": 2,
+      "memorableSubstance": 1,
+      "initialCommentary": "adds perspective/unsupported risk",
+      "initialReason": "Concrete account of security exercise; discussion asks structural question but closing rivalry framing overreaches unless sourced.",
+      "support": "pending reveal",
+      "worthwhile": "pending support"
+    },
+    {
+      "label": "9d21f898a54da8863bca9ffd1526b588ed1c88296cfbb1801b9b028068b7862f",
+      "title": "Hyundai Ioniq 5 AWD offers fast charge but reduced range",
+      "body": "The 2026 Hyundai Ioniq\u202f5 AWD Limited, built on the same 800\u202fV platform that once powered premium EVs, can charge from 10\u202f% to 80\u202f% in just 18\u202fminutes (S1E3). While the retro\u2011styled hatch still turns heads, the compact electric crossover segment is now far more competitive (S1E5). The AWD version adds a front motor for 320\u202fhp and 446\u202flb\u2011ft of torque, but its EPA range falls to 269\u202fmi compared with 318\u202fmi for the rear\u2011wheel drive model (S1E10).",
+      "discussion": [
+        {
+          "voice": "Take",
+          "body": "The fast\u2011charge capability is a genuine advantage for daily drivers."
+        },
+        {
+          "voice": "Pushback",
+          "body": "But the AWD model\u2019s lower range shows that efficiency suffers when traction is added."
+        },
+        {
+          "voice": "Reply",
+          "body": "Higher horsepower may offset the range loss for drivers who need all\u2011wheel grip."
+        }
+      ],
+      "titlePayoff": 2,
+      "memorableSubstance": 1,
+      "initialCommentary": "redundant",
+      "initialReason": "Concrete range/power tradeoff; visible internal IDs and unqualified charging conditions are weaknesses.",
+      "support": "pending reveal",
+      "worthwhile": "pending support"
+    },
+    {
+      "label": "a7d39686e6794e93b06247b1cfe1240bec109d5ddd05bea44be352f0dea8463c",
+      "title": "AI\u2011guided ultrasound device wins federal tech\u2011transfer award",
+      "body": "MIT Lincoln Laboratory and Massachusetts General Hospital developed AI\u2011GUIDE, a handheld ultrasound system paired with custom AI software that helps medics insert guidewires and catheters in the field. The device won the 2026 Federal Laboratory Consortium Excellence in Technology Transfer Award, recognized for aligning Army combat\u2011casualty needs with clinical expertise and engineering capability. After three years of development, AI\u2011GUIDE moved from a proof\u2011of\u2011concept to a prototype now being transferred to the startup AutonomUS Medical Technologies, promising improved survival for injured service members and civilians.",
+      "discussion": null,
+      "titlePayoff": 2,
+      "memorableSubstance": 2,
+      "initialCommentary": "absent",
+      "initialReason": "Explains a device use and development/transfer path; survival benefit is framed as promise, verify.",
+      "support": "pending reveal",
+      "worthwhile": "pending support"
+    },
+    {
+      "label": "b064394b35b3edc83ce5da073efc59848cda3ea072b20d563b18faa4ad4a4bdf",
+      "title": "AWS's pitch for managing multi-model AI agents",
+      "body": "AWS says multi-model agentic applications can add operational overhead in container orchestration, scaling policies, identity, and observability. It says teams often spend more time on that infrastructure than on agent logic. Its AgentCore runtime handles container lifecycle, scaling, identity, and observability, so the pitch is to spend more time on agent code.",
+      "discussion": null,
+      "titlePayoff": 2,
+      "memorableSubstance": 1,
+      "initialCommentary": "absent",
+      "initialReason": "Specific vendor responsibilities, but repeats the infrastructure-versus-agent-code pitch.",
+      "support": "pending reveal",
+      "worthwhile": "pending support"
+    },
+    {
+      "label": "b21569592593a4f282ec436056e8b9407c293e1c6e4b300eddba92b53f7534a1",
+      "title": "SageMaker HyperPod Inference Gateway: Fast Routing or Added Complexity?",
+      "body": "Optimist: The GPU\u2011aware router cuts first\u2011token latency by up to 82\u202f% and eliminates idle GPU waste by placing each request on the best\u2011suited pod using real\u2011time GPU signals. Skeptic: Introducing another EKS\u2011managed addon means operators must maintain an extra layer, which could add operational complexity despite the performance gains.",
+      "discussion": null,
+      "titlePayoff": 2,
+      "memorableSubstance": 2,
+      "initialCommentary": "adds perspective/unsupported risk",
+      "initialReason": "Routing mechanism and operating tradeoff; eliminating all idle waste is an unsupported-sounding absolute.",
+      "support": "pending reveal",
+      "worthwhile": "pending support"
+    },
+    {
+      "label": "d76b233308a1fc7df5f936bd2f9c00025b346430985795a7e7a950384171c7f9",
+      "title": "ISP Blocking Bill Targets Piracy Sites",
+      "body": "US Rep. Darrell Issa (R\u2011Calif.) has introduced legislation that would require ISPs, DNS providers and VPNs to block foreign piracy websites. The bill aims to give copyright holders judicial blocking orders that act faster than the existing notice\u2011and\u2011takedown process, which Issa says removes millions of infringing listings daily but is too slow to stop profit\u2011making during live events. The proposal has backing from the Motion Picture Association.",
+      "discussion": null,
+      "titlePayoff": 2,
+      "memorableSubstance": 2,
+      "initialCommentary": "absent",
+      "initialReason": "Gives scope plus why time matters during a live event; attributes sponsor rationale.",
+      "support": "pending reveal",
+      "worthwhile": "pending support"
+    },
+    {
+      "label": "f88e98c9d562c6f2aa79036a47d02f4a394a4198245434be4c156ee8d0211c6e",
+      "title": "Why NGC 4698\u2019s Spiral Arms Stay Outer",
+      "body": "Hubble\u2019s view of NGC 4698 shows a Milky Way\u2011like spiral 55\u202fmillion light\u2011years away whose arms are faint near the centre and form a ring\u2011like structure, while the bright core is dominated by older stars and a growing supermassive black hole. This outer\u2011only arm pattern makes the galaxy appear out\u2011of\u2011sync with typical spirals whose arms wind all the way to the centre.",
+      "discussion": null,
+      "titlePayoff": 1,
+      "memorableSubstance": 1,
+      "initialCommentary": "absent",
+      "initialReason": "Describes galaxy morphology without explaining the title\u2019s why.",
+      "support": "pending reveal",
+      "worthwhile": "pending support"
+    },
+    {
+      "label": "fc794c9ab9009f89dcb823987de3b36e01aaa89adfbfd19c2c1635f7bf33dcf4",
+      "title": "Hubble finds evidence that comet 41P reversed its spin",
+      "body": "In March 2026, NASA reported evidence that comet 41P/Tuttle-Giacobini-Kres\u00e1k had slowed its rotation and then spun up in the opposite direction. After a 2017 pass around the Sun, Swift observations measured a rotation period of 46\u201360 hours; later Hubble images indicated about 14 hours. The researchers\u2019 simplest explanation is that jets of escaping gas kept pushing against the original rotation until the comet nearly stopped and reversed. Those jets can act like small thrusters, showing how a comet\u2019s own activity can change its motion.",
+      "discussion": null,
+      "titlePayoff": 2,
+      "memorableSubstance": 2,
+      "initialCommentary": "absent",
+      "initialReason": "Clear gas-jet mechanism and before/after periods; attribution makes the inference legible.",
+      "support": "pending reveal",
+      "worthwhile": "pending support"
+    }
+  ]
+}

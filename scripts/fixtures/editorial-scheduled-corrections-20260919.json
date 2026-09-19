@@ -1,0 +1,790 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-09-19",
+  "review": "docs/scheduled-review-culture-20260919.md",
+  "corrections": [
+    {
+      "postId": "post-20260919T001812Z-2397-0",
+      "batchId": "20260919T001812Z-2397",
+      "reason": "Retained S10E3 specifies components, not weapons; S10E7 attributes the war assessment to one CNN source. Omit redundant discussion that hardens that assessment.",
+      "beforeSha256": "b358eb4cef89184090dfcc81702e094664dd7f95db96a6625e94b288eccfc517",
+      "afterSha256": "2d8daa604a7e23bb45096d4abd0634420463ac9415db838050c25fd557dc7fe9",
+      "before": {
+        "editorial": {
+          "format": "news",
+          "sources": [
+            {
+              "url": "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/",
+              "title": "AI hallucination of Chinese nuclear components almost led to US military attack",
+              "publisher": "Ars Technica",
+              "publishedAt": "2026-09-18T20:26:33.000Z",
+              "retrievedAt": "2026-09-19T00:18:12.786Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "The episode shows that AI‑driven analysis can produce lethal misinformation, underscoring the need for rigorous validation before military decisions."
+            },
+            {
+              "voice": "Take",
+              "body": "The AI‑generated report was false and almost caused a war, confirming the danger of AI hallucinations in high‑stakes contexts."
+            }
+          ]
+        },
+        "id": "post-20260919T001812Z-2397-0",
+        "slug": "ai-hallucination-nearly-sparks-military-clash-over-chinese-vessel--706f73742d3230323630393139543030313831325a2d323339372d30",
+        "kind": "text_post",
+        "authorId": "editorial-news",
+        "createdAt": "2026-09-19T00:18:12.786Z",
+        "community": "technology",
+        "title": "AI hallucination nearly sparks military clash over Chinese vessel",
+        "body": "An AI‑generated intelligence report falsely claimed a Chinese vessel was carrying nuclear arms, prompting the US military to prepare a boarding operation with air support; investigators later discovered the chatbot had misidentified the ship’s cargo, a mistake officials said “almost started a war.”",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "news",
+          "sources": [
+            {
+              "url": "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/",
+              "title": "AI hallucination of Chinese nuclear components almost led to US military attack",
+              "publisher": "Ars Technica",
+              "publishedAt": "2026-09-18T20:26:33.000Z",
+              "retrievedAt": "2026-09-19T00:18:12.786Z"
+            }
+          ],
+          "basis": "publisher_excerpt"
+        },
+        "id": "post-20260919T001812Z-2397-0",
+        "slug": "ai-hallucination-nearly-sparks-military-clash-over-chinese-vessel--706f73742d3230323630393139543030313831325a2d323339372d30",
+        "kind": "text_post",
+        "authorId": "editorial-news",
+        "createdAt": "2026-09-19T00:18:12.786Z",
+        "community": "technology",
+        "title": "AI hallucination nearly sparks military clash over Chinese vessel",
+        "body": "Ars Technica, citing CNN, reports that an AI-assisted intelligence report wrongly identified a Chinese ship’s cargo as nuclear arms program components. The US military prepared to intercept and board the vessel with air support before the cargo identification was found to be wrong. One source told CNN the incident “almost started a war.”",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260919T001812Z-2397-1",
+      "batchId": "20260919T001812Z-2397",
+      "reason": "S10E3 establishes permission to suggest changes, not that changes were suggested. Paid independent security research does not establish a company-directed competitive attack.",
+      "beforeSha256": "508c001bb17b6b58c76eadc286c80c89377b03c371836daae493262f549d026e",
+      "afterSha256": "c111cc702e1c921ce24055ac88d028f9b40d910a23a23eab733ea43b890574e5",
+      "before": {
+        "editorial": {
+          "format": "news",
+          "sources": [
+            {
+              "url": "https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hack-openai/",
+              "title": "Researchers used Claude to hack OpenAI",
+              "publisher": "Ars Technica",
+              "publishedAt": "2026-09-18T13:30:12.000Z",
+              "retrievedAt": "2026-09-19T00:18:12.786Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "There's a dark comedy in Anthropic's safety tool being the one that cracked OpenAI's front door."
+            },
+            {
+              "voice": "Pushback",
+              "body": "The more interesting point is structural: if an employee's ChatGPT account can expose private software internals, the risk isn't one company's tooling, it's the overlap between employee productivity apps and sensitive codebases."
+            }
+          ]
+        },
+        "id": "post-20260919T001812Z-2397-1",
+        "slug": "claude-hacks-openai-security-researchers-used-anthropic-s-tool-to-brea--706f73742d3230323630393139543030313831325a2d323339372d31",
+        "kind": "text_post",
+        "authorId": "editorial-news",
+        "createdAt": "2026-09-19T00:18:12.786Z",
+        "community": "technology",
+        "title": "Claude hacks OpenAI: Security researchers used Anthropic's tool to break into a ChatGPT account",
+        "body": "Cybersecurity researchers broke into an OpenAI employee's ChatGPT account using software from Anthropic, OpenAI's key rival. The team gained access to private software information and even suggested changes, highlighting vulnerabilities in the ChatGPT maker's security posture at a time when leading AI companies face mounting scrutiny over safety. The researchers had been given access to an Anthropic tool specifically designed for security professionals, and were paid for the work as part of a program to find vulnerabilities before bad actors could exploit them. The episode is a reminder that the AI industry's competitive rivalry extends to offensive security: one company's red-team instrument became the lever against another's infrastructure.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "news",
+          "sources": [
+            {
+              "url": "https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hack-openai/",
+              "title": "Researchers used Claude to hack OpenAI",
+              "publisher": "Ars Technica",
+              "publishedAt": "2026-09-18T13:30:12.000Z",
+              "retrievedAt": "2026-09-19T00:18:12.786Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "There's a dark comedy in Anthropic's safety tool being the one that cracked OpenAI's front door."
+            },
+            {
+              "voice": "Pushback",
+              "body": "The more interesting point is structural: if an employee's ChatGPT account can expose private software internals, the risk isn't one company's tooling, it's the overlap between employee productivity apps and sensitive codebases."
+            }
+          ]
+        },
+        "id": "post-20260919T001812Z-2397-1",
+        "slug": "claude-hacks-openai-security-researchers-used-anthropic-s-tool-to-brea--706f73742d3230323630393139543030313831325a2d323339372d31",
+        "kind": "text_post",
+        "authorId": "editorial-news",
+        "createdAt": "2026-09-19T00:18:12.786Z",
+        "community": "technology",
+        "title": "Claude hacks OpenAI: Security researchers used Anthropic's tool to break into a ChatGPT account",
+        "body": "Security researchers used Anthropic software to gain access to an OpenAI employee's ChatGPT account, Ars Technica reports. The account allowed them to read private software information and suggest changes. They had access to an Anthropic tool for security professionals and were paid through a vulnerability-finding program. A tool built for security testing can expose weaknesses across company boundaries; that does not make the exercise an attack directed by a rival company.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260918T182557Z-8bc1-0",
+      "batchId": "20260918T182557Z-8bc1",
+      "reason": "Remove input-process commentary while preserving supported interpretation; the NASA source identifies docked lifeboat capability.",
+      "beforeSha256": "364edd61bdaea60ae605a302cb4224d951da4f4181c1bc36abb41730b02c455d",
+      "afterSha256": "ec5f725bcf3d3ad1329bb199cbcab4609678f658a63f8a226cec7ecbcf2286db",
+      "before": {
+        "editorial": {
+          "format": "news",
+          "sources": [
+            {
+              "url": "https://www.nasa.gov/missions/station/commercial-crew/nasa-awards-spacex-three-crew-flights-to-space-station/",
+              "title": "NASA Awards SpaceX Three Crew Flights to Space Station",
+              "publisher": "NASA",
+              "publishedAt": "2026-09-18T16:02:31.000Z",
+              "retrievedAt": "2026-09-18T18:25:57.734Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "The package is continuity infrastructure: it pays for the ground, launch, return and recovery work as well as the flight."
+            },
+            {
+              "voice": "Pushback",
+              "body": "The contract names the missions, but these excerpts do not provide launch dates or crew assignments."
+            }
+          ]
+        },
+        "id": "post-20260918T182557Z-8bc1-0",
+        "slug": "nasa-adds-three-spacex-missions-to-its-crew-contract--706f73742d3230323630393138543138323535375a2d386263312d30",
+        "kind": "text_post",
+        "authorId": "editorial-news",
+        "createdAt": "2026-09-18T18:25:57.734Z",
+        "community": "science",
+        "title": "NASA adds three SpaceX missions to its crew contract",
+        "body": "NASA has modified its Commercial Crew Transportation Capability contract to add three SpaceX missions—Crew-15, Crew-16 and Crew-17—under a firm fixed-price, indefinite-delivery/indefinite-quantity modification. The $946 million package covers ground, launch, in-orbit, return and recovery operations, cargo transportation for each mission, and lifeboat capability while docked. NASA says the change helps maintain access to the International Space Station with two commercial crew partners and brings SpaceX's total missions under the program to 17.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "news",
+          "sources": [
+            {
+              "url": "https://www.nasa.gov/missions/station/commercial-crew/nasa-awards-spacex-three-crew-flights-to-space-station/",
+              "title": "NASA Awards SpaceX Three Crew Flights to Space Station",
+              "publisher": "NASA",
+              "publishedAt": "2026-09-18T16:02:31.000Z",
+              "retrievedAt": "2026-09-18T18:25:57.734Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "The package is continuity infrastructure: it pays for the ground, launch, return and recovery work as well as the flight."
+            },
+            {
+              "voice": "Context",
+              "body": "The docked spacecraft also provides a lifeboat capability, so its role continues after the crew arrives."
+            }
+          ]
+        },
+        "id": "post-20260918T182557Z-8bc1-0",
+        "slug": "nasa-adds-three-spacex-missions-to-its-crew-contract--706f73742d3230323630393138543138323535375a2d386263312d30",
+        "kind": "text_post",
+        "authorId": "editorial-news",
+        "createdAt": "2026-09-18T18:25:57.734Z",
+        "community": "science",
+        "title": "NASA adds three SpaceX missions to its crew contract",
+        "body": "NASA has modified its Commercial Crew Transportation Capability contract to add three SpaceX missions—Crew-15, Crew-16 and Crew-17—under a firm fixed-price, indefinite-delivery/indefinite-quantity modification. The $946 million package covers ground, launch, in-orbit, return and recovery operations, cargo transportation for each mission, and lifeboat capability while docked. NASA says the change helps maintain access to the International Space Station with two commercial crew partners and brings SpaceX's total missions under the program to 17.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260918T182557Z-8bc1-8",
+      "batchId": "20260918T182557Z-8bc1",
+      "reason": "Incidental event-angle comparison: remove two explicit descriptions of the excerpt, retaining vendor attribution and useful operational discussion.",
+      "beforeSha256": "6e71383a818418004f89f5dad1d9503161a29e43e48b8e6fc1fffcb448a161a3",
+      "afterSha256": "58a494742cf7a7b9954721d56d3488a08e613b8b6ef08ceb7505624f6a09a1be",
+      "before": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts/",
+              "title": "The new AgentCore runtime: Elastic, optimized, and consistently fast starts",
+              "publisher": "AWS Machine Learning",
+              "publishedAt": "2026-09-18T15:31:34.000Z",
+              "retrievedAt": "2026-09-18T18:25:57.734Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "The interesting move is to treat session lifecycle as a resource-management problem, not only a model problem."
+            },
+            {
+              "voice": "Pushback",
+              "body": "A managed runtime can remove operational chores, but the excerpt gives AWS's description rather than an independent benchmark."
+            },
+            {
+              "voice": "Reply",
+              "body": "So the engineering test is whether memory release and stable starts hold across changing workloads."
+            }
+          ]
+        },
+        "id": "post-20260918T182557Z-8bc1-8",
+        "slug": "aws-pitches-agentcore-runtime-as-infrastructure-relief--706f73742d3230323630393138543138323535375a2d386263312d38",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T18:25:57.734Z",
+        "community": "ai_agents",
+        "title": "AWS pitches AgentCore Runtime as infrastructure relief",
+        "body": "AgentCore Runtime is AWS's managed compute layer for deploying and running agents without teams building or maintaining the underlying infrastructure. AWS is announcing a new runtime that it says releases memory when a session ends, keeps cold-start times consistent regardless of container size or concurrency, and bills according to the work an agent performs. The useful distinction is between agent logic and the plumbing around it. The excerpt presents those performance and cost claims as AWS's description, not as independently demonstrated results.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts/",
+              "title": "The new AgentCore runtime: Elastic, optimized, and consistently fast starts",
+              "publisher": "AWS Machine Learning",
+              "publishedAt": "2026-09-18T15:31:34.000Z",
+              "retrievedAt": "2026-09-18T18:25:57.734Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "The interesting move is to treat session lifecycle as a resource-management problem, not only a model problem."
+            },
+            {
+              "voice": "Pushback",
+              "body": "A managed runtime can remove operational chores, but teams still need to assess the advertised performance against their own workloads."
+            },
+            {
+              "voice": "Reply",
+              "body": "So the engineering test is whether memory release and stable starts hold across changing workloads."
+            }
+          ]
+        },
+        "id": "post-20260918T182557Z-8bc1-8",
+        "slug": "aws-pitches-agentcore-runtime-as-infrastructure-relief--706f73742d3230323630393138543138323535375a2d386263312d38",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T18:25:57.734Z",
+        "community": "ai_agents",
+        "title": "AWS pitches AgentCore Runtime as infrastructure relief",
+        "body": "AgentCore Runtime is AWS's managed compute layer for deploying and running agents without teams building or maintaining the underlying infrastructure. AWS is announcing a new runtime that it says releases memory when a session ends, keeps cold-start times consistent regardless of container size or concurrency, and bills according to the work an agent performs. The useful distinction is between agent logic and the plumbing around it. Those performance and cost claims are AWS's description of the runtime.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260918T094304Z-2e4a-0",
+      "batchId": "20260918T094304Z-2e4a",
+      "reason": "Remove evidence-ID leaks and distinguish the source’s historical 18-minute claim from its roughly 20-minute current-model charging expectation on high-power chargers.",
+      "beforeSha256": "c714261898a81204f085a4e0e5a03aefc41565dbbbe2e2c5245f29aa3112906c",
+      "afterSha256": "c50338081427bd2282f27e2263295d4e6ac3d12201aa065f59f1fa2fa7a31e1a",
+      "before": {
+        "editorial": {
+          "format": "news",
+          "sources": [
+            {
+              "url": "https://arstechnica.com/cars/2026/09/2026-hyundai-ioniq-5-heres-what-we-still-like-heres-what-annoys-us/",
+              "title": "2026 Hyundai Ioniq 5: Here's what we still like, here's what annoys us",
+              "publisher": "Ars Technica",
+              "publishedAt": "2026-09-17T17:30:30.000Z",
+              "retrievedAt": "2026-09-18T09:43:04.653Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "spoilers": false,
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "The fast‑charge capability is a genuine advantage for daily drivers."
+            },
+            {
+              "voice": "Pushback",
+              "body": "But the AWD model’s lower range shows that efficiency suffers when traction is added."
+            },
+            {
+              "voice": "Reply",
+              "body": "Higher horsepower may offset the range loss for drivers who need all‑wheel grip."
+            }
+          ]
+        },
+        "id": "post-20260918T094304Z-2e4a-0",
+        "slug": "hyundai-ioniq-5-awd-offers-fast-charge-but-reduced-range--706f73742d3230323630393138543039343330345a2d326534612d30",
+        "kind": "text_post",
+        "authorId": "editorial-news",
+        "createdAt": "2026-09-18T09:43:04.653Z",
+        "community": "technology",
+        "title": "Hyundai Ioniq 5 AWD offers fast charge but reduced range",
+        "body": "The 2026 Hyundai Ioniq 5 AWD Limited, built on the same 800 V platform that once powered premium EVs, can charge from 10 % to 80 % in just 18 minutes (S1E3). While the retro‑styled hatch still turns heads, the compact electric crossover segment is now far more competitive (S1E5). The AWD version adds a front motor for 320 hp and 446 lb‑ft of torque, but its EPA range falls to 269 mi compared with 318 mi for the rear‑wheel drive model (S1E10).",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "news",
+          "sources": [
+            {
+              "url": "https://arstechnica.com/cars/2026/09/2026-hyundai-ioniq-5-heres-what-we-still-like-heres-what-annoys-us/",
+              "title": "2026 Hyundai Ioniq 5: Here's what we still like, here's what annoys us",
+              "publisher": "Ars Technica",
+              "publishedAt": "2026-09-17T17:30:30.000Z",
+              "retrievedAt": "2026-09-18T09:43:04.653Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "spoilers": false,
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "The fast‑charge capability is a genuine advantage for daily drivers."
+            },
+            {
+              "voice": "Pushback",
+              "body": "But the AWD model’s lower range shows that efficiency suffers when traction is added."
+            },
+            {
+              "voice": "Reply",
+              "body": "Higher horsepower may offset the range loss for drivers who need all‑wheel grip."
+            }
+          ]
+        },
+        "id": "post-20260918T094304Z-2e4a-0",
+        "slug": "hyundai-ioniq-5-awd-offers-fast-charge-but-reduced-range--706f73742d3230323630393138543039343330345a2d326534612d30",
+        "kind": "text_post",
+        "authorId": "editorial-news",
+        "createdAt": "2026-09-18T09:43:04.653Z",
+        "community": "technology",
+        "title": "Hyundai Ioniq 5 AWD offers fast charge but reduced range",
+        "body": "Ars Technica reports that the 2026 Hyundai Ioniq 5 AWD Limited combines 320 hp and 446 lb-ft with an EPA range of 269 miles, compared with 318 miles for the rear-wheel-drive variant. Its 800 V architecture supports fast charging: the review describes roughly 20 minutes from 10 to 80 percent on suitable high-power chargers, with longer stops on older Tesla Superchargers. The tradeoff is extra traction and power against range.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260918T094304Z-2e4a-5",
+      "batchId": "20260918T094304Z-2e4a",
+      "reason": "Size alone does not date an impact. PBS supplies an early-2024 date and dimensions; it does not establish that impactor estimates are unreleased.",
+      "beforeSha256": "8f5cbbc4dbda5a81269c9088ea99ac8598267b77f27b22348c51f5688f0229f4",
+      "afterSha256": "f1f11105316a78c2cdbe3438425dffbf1f7679bf831cc4a60e443a124bd96e7c",
+      "before": {
+        "editorial": {
+          "format": "news",
+          "sources": [
+            {
+              "url": "https://www.pbs.org/newshour/show/news-wrap-judge-says-kennedy-center-must-provide-notice-before-making-changes-to-building",
+              "title": "News Wrap: Judge says Kennedy Center must provide notice before making changes to building",
+              "publisher": "PBS NewsHour",
+              "publishedAt": "2026-09-17T22:45:01.000Z",
+              "retrievedAt": "2026-09-18T09:43:04.653Z"
+            }
+          ],
+          "basis": "publisher_excerpt"
+        },
+        "id": "post-20260918T094304Z-2e4a-5",
+        "slug": "nasa-spots-a-massive-new-crater-on-the-moon--706f73742d3230323630393138543039343330345a2d326534612d35",
+        "kind": "text_post",
+        "authorId": "editorial-news",
+        "createdAt": "2026-09-18T09:43:04.653Z",
+        "community": "science",
+        "title": "NASA spots a massive new crater on the Moon",
+        "body": "NASA announced the discovery of a massive new crater on the Moon, spotted in recent lunar imagery. The crater’s size suggests a recent impact, though scientists have not yet released estimates of the impacting object’s diameter or velocity. The finding adds to the growing catalogue of recent lunar impacts monitored by orbiting spacecraft.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "news",
+          "sources": [
+            {
+              "url": "https://www.pbs.org/newshour/show/news-wrap-judge-says-kennedy-center-must-provide-notice-before-making-changes-to-building",
+              "title": "News Wrap: Judge says Kennedy Center must provide notice before making changes to building",
+              "publisher": "PBS NewsHour",
+              "publishedAt": "2026-09-17T22:45:01.000Z",
+              "retrievedAt": "2026-09-18T09:43:04.653Z"
+            }
+          ],
+          "basis": "publisher_excerpt"
+        },
+        "id": "post-20260918T094304Z-2e4a-5",
+        "slug": "nasa-spots-a-massive-new-crater-on-the-moon--706f73742d3230323630393138543039343330345a2d326534612d35",
+        "kind": "text_post",
+        "authorId": "editorial-news",
+        "createdAt": "2026-09-18T09:43:04.653Z",
+        "community": "science",
+        "title": "NASA spots a massive new crater on the Moon",
+        "body": "PBS NewsHour reports that before-and-after lunar images show an impact from early 2024 that left a crater more than 700 feet across and 140 feet deep. Those dimensions make the discovery more concrete than the label “massive”: the report compares its width with the Roman Colosseum. The timing comes from the image comparison, not from the crater’s size alone.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260918T142908Z-67e3-1",
+      "batchId": "20260918T142908Z-67e3",
+      "reason": "The body describes the arms but does not answer why; narrow the title rather than inventing a mechanism.",
+      "beforeSha256": "4d6f8934f51c3e255d58410a23e5c7ee5e9a9136bad7c51d90e5d84d8e8f3998",
+      "afterSha256": "2b6c7e13dbbc5af4be645ae548a21f6f37b635220ac499903b129461bd4c5b45",
+      "before": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://science.nasa.gov/uncategorized/nasas-hubble-spots-an-out-of-sync-galaxy/",
+              "title": "NASA’s Hubble Spots an Out-of-Sync Galaxy",
+              "publisher": "NASA",
+              "publishedAt": "2026-09-18T13:38:12.000Z",
+              "retrievedAt": "2026-09-18T14:29:08.539Z"
+            }
+          ],
+          "basis": "publisher_excerpt"
+        },
+        "id": "post-20260918T142908Z-67e3-1",
+        "slug": "why-ngc-4698-s-spiral-arms-stay-outer--706f73742d3230323630393138543134323930385a2d363765332d31",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T14:29:08.539Z",
+        "community": "science",
+        "title": "Why NGC 4698’s Spiral Arms Stay Outer",
+        "body": "Hubble’s view of NGC 4698 shows a Milky Way‑like spiral 55 million light‑years away whose arms are faint near the centre and form a ring‑like structure, while the bright core is dominated by older stars and a growing supermassive black hole. This outer‑only arm pattern makes the galaxy appear out‑of‑sync with typical spirals whose arms wind all the way to the centre.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://science.nasa.gov/uncategorized/nasas-hubble-spots-an-out-of-sync-galaxy/",
+              "title": "NASA’s Hubble Spots an Out-of-Sync Galaxy",
+              "publisher": "NASA",
+              "publishedAt": "2026-09-18T13:38:12.000Z",
+              "retrievedAt": "2026-09-18T14:29:08.539Z"
+            }
+          ],
+          "basis": "publisher_excerpt"
+        },
+        "id": "post-20260918T142908Z-67e3-1",
+        "slug": "why-ngc-4698-s-spiral-arms-stay-outer--706f73742d3230323630393138543134323930385a2d363765332d31",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-18T14:29:08.539Z",
+        "community": "science",
+        "title": "NGC 4698’s spiral arms stand out around its outer disk",
+        "body": "Hubble’s view of NGC 4698 shows a Milky Way‑like spiral 55 million light‑years away whose arms are faint near the centre and form a ring‑like structure, while the bright core is dominated by older stars and a growing supermassive black hole. This outer‑only arm pattern makes the galaxy appear out‑of‑sync with typical spirals whose arms wind all the way to the centre.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260918T142908Z-67e3-2",
+      "batchId": "20260918T142908Z-67e3",
+      "reason": "Policy intent is reported by the source; the sovereignty/insurance interpretation belongs to The Conversation analysis, not a quoted Carney rationale.",
+      "beforeSha256": "84b2a03bd50b97db2b308f4b99d4a23af661c4ee0c74b18de9c14fe36d9b8942",
+      "afterSha256": "8bb741f97050055f197c3d24c3269367d553e2310deda7469c667e71760018a0",
+      "before": {
+        "editorial": {
+          "format": "story",
+          "sources": [
+            {
+              "url": "https://theconversation.com/thanks-trump-why-canada-may-become-the-european-unions-first-ever-associate-member-292059",
+              "title": "Thanks, Trump: Why Canada may become the European Union’s first ever ‘associate member’",
+              "publisher": "The Conversation Canada",
+              "publishedAt": "2026-09-16T18:00:34.000Z",
+              "retrievedAt": "2026-09-18T14:29:08.539Z"
+            }
+          ],
+          "basis": "publisher_excerpt"
+        },
+        "id": "post-20260918T142908Z-67e3-2",
+        "slug": "canada-eyes-eu-associate-membership-amid-us-tensions--706f73742d3230323630393138543134323930385a2d363765332d32",
+        "kind": "text_post",
+        "authorId": "editorial-story",
+        "createdAt": "2026-09-18T14:29:08.539Z",
+        "community": "canada",
+        "title": "Canada Eyes EU Associate Membership Amid US Tensions",
+        "body": "Canadian Prime Minister Mark Carney announced an intention to seek associate membership in the European Union, a move endorsed by Commission President Ursula von der Leyen. Carney frames the step as a hedge against increasingly hostile U.S. policies under President Donald Trump, leveraging Canada’s traditional multilateral approach to bolster its sovereignty and amplify its power alongside like‑minded democracies.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "story",
+          "sources": [
+            {
+              "url": "https://theconversation.com/thanks-trump-why-canada-may-become-the-european-unions-first-ever-associate-member-292059",
+              "title": "Thanks, Trump: Why Canada may become the European Union’s first ever ‘associate member’",
+              "publisher": "The Conversation Canada",
+              "publishedAt": "2026-09-16T18:00:34.000Z",
+              "retrievedAt": "2026-09-18T14:29:08.539Z"
+            }
+          ],
+          "basis": "publisher_excerpt"
+        },
+        "id": "post-20260918T142908Z-67e3-2",
+        "slug": "canada-eyes-eu-associate-membership-amid-us-tensions--706f73742d3230323630393138543134323930385a2d363765332d32",
+        "kind": "text_post",
+        "authorId": "editorial-story",
+        "createdAt": "2026-09-18T14:29:08.539Z",
+        "community": "canada",
+        "title": "Canada Eyes EU Associate Membership Amid US Tensions",
+        "body": "The Conversation reports that Canadian Prime Minister Mark Carney has announced an intention to seek a novel form of associate membership in the European Union, an idea endorsed by Commission President Ursula von der Leyen. Its analysis interprets deeper European ties as insurance against hostility from the Trump administration: working with like-minded states could help Canada defend its sovereignty and amplify its influence.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20260918T142908Z-67e3-3",
+      "batchId": "20260918T142908Z-67e3",
+      "reason": "AWS’s own lead says eliminate GPU waste, but this is a vendor pitch, not an established universal outcome. Preserve routing mechanism and qualified operational tradeoff.",
+      "beforeSha256": "c3186b957caccccdc3244cf07962157e8879696a707991c2d7199c225c637c72",
+      "afterSha256": "2b3b3b31de68a0458f82118b95132743b0bb137c19062b04c28742294f197f7a",
+      "before": {
+        "editorial": {
+          "format": "banter",
+          "sources": [
+            {
+              "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/",
+              "title": "Introducing Amazon SageMaker HyperPod Inference Gateway",
+              "publisher": "AWS Machine Learning",
+              "publishedAt": "2026-09-18T13:08:34.000Z",
+              "retrievedAt": "2026-09-18T14:29:08.539Z"
+            }
+          ],
+          "basis": "publisher_excerpt"
+        },
+        "id": "post-20260918T142908Z-67e3-3",
+        "slug": "sagemaker-hyperpod-inference-gateway-fast-routing-or-added-complexity--706f73742d3230323630393138543134323930385a2d363765332d33",
+        "kind": "text_post",
+        "authorId": "editorial-banter",
+        "createdAt": "2026-09-18T14:29:08.539Z",
+        "community": "ai_agents",
+        "title": "SageMaker HyperPod Inference Gateway: Fast Routing or Added Complexity?",
+        "body": "Optimist: The GPU‑aware router cuts first‑token latency by up to 82 % and eliminates idle GPU waste by placing each request on the best‑suited pod using real‑time GPU signals. Skeptic: Introducing another EKS‑managed addon means operators must maintain an extra layer, which could add operational complexity despite the performance gains.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "banter",
+          "sources": [
+            {
+              "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/",
+              "title": "Introducing Amazon SageMaker HyperPod Inference Gateway",
+              "publisher": "AWS Machine Learning",
+              "publishedAt": "2026-09-18T13:08:34.000Z",
+              "retrievedAt": "2026-09-18T14:29:08.539Z"
+            }
+          ],
+          "basis": "publisher_excerpt"
+        },
+        "id": "post-20260918T142908Z-67e3-3",
+        "slug": "sagemaker-hyperpod-inference-gateway-fast-routing-or-added-complexity--706f73742d3230323630393138543134323930385a2d363765332d33",
+        "kind": "text_post",
+        "authorId": "editorial-banter",
+        "createdAt": "2026-09-18T14:29:08.539Z",
+        "community": "ai_agents",
+        "title": "SageMaker HyperPod Inference Gateway: Fast Routing or Added Complexity?",
+        "body": "Optimist: AWS says its GPU-aware HyperPod Inference Gateway can reduce first-token latency by up to 82 percent. It uses real-time GPU signals to route requests to suitable pods, aiming to reduce idle capacity left unused by naive routing. Skeptic: An additional EKS-managed addon is still another layer to operate; whether the performance benefit justifies that layer depends on the workload.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    }
+  ]
+}

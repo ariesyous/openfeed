@@ -58,6 +58,13 @@ If serious errors persist, narrow source eligibility before considering a bounde
 
 ## WP2 follow-up
 
+The [September 19 scheduled continuation](scheduled-review-culture-20260919.md) advances
+#36 to **20 primary reviewed posts plus 2 supplemental checks (22 total), across two
+ordinary editions**. Three further published editions and required culture coverage remain;
+prior unresolved source checks are explicitly carried forward. Nine guarded corrections
+are proposed, with unchanged article identities/history. The benchmark now has 28 cases
+and twelve semantic counterexamples that still pass provenance. Keep #36 open.
+
 The [post-42 manual review](post42-live-review-20260918.md) audits twenty further posts
 and 27 discussion turns, with ten guarded corrections and eight additional benchmark
 cases (24 total; ten semantic counterexamples still pass provenance). That run requested
