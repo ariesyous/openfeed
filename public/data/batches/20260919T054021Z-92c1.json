@@ -1,0 +1,616 @@
+{
+  "batchId": "20260919T054021Z-92c1",
+  "generatedAt": "2026-09-19T05:40:21.765Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/image-article/apod-2026-september-19-a-zodiacal-night/",
+            "title": "APOD: 2026 September 19 – A Zodiacal Night",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-19T04:05:00.000Z",
+            "retrievedAt": "2026-09-19T05:40:21.765Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T054021Z-92c1-0",
+      "slug": "mars-may-be-the-source-of-earth-s-zodiacal-light--706f73742d3230323630393139543035343032315a2d393263312d30",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-19T05:40:21.765Z",
+      "community": "science",
+      "title": "Mars May Be the Source of Earth’s Zodiacal Light",
+      "body": "The faint glow of zodiacal light visible in Earth's night sky comes from interplanetary dust back-scattering sunlight. While the origin of that diffuse cloud was long debated, serendipitous detections of dust grains by NASA’s Juno spacecraft suggest that Mars itself is the source of the dust producing the glow.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/identity-personal/",
+            "title": "Personal Identity",
+            "publisher": "Stanford Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-19T05:40:21.765Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T054021Z-92c1-1",
+      "slug": "the-difference-between-identity-and-character--706f73742d3230323630393139543035343032315a2d393263312d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-19T05:40:21.765Z",
+      "community": "philosophy",
+      "title": "The Difference Between Identity and Character",
+      "body": "In philosophy, personal identity does not refer to a single unified problem, but to a collection of loosely connected questions that are easily conflated. Outside technical debates, people generally use the phrase in what is known as the characterization sense: the properties and traits to which someone feels a deep sense of ownership or attachment. Under this framing, having an identity crisis is not an abstract metaphysical dilemma about bodily survival, but a practical crisis of self-definition—becoming fundamentally unsure of what sort of person one is.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.bankofcanada.ca/2026/09/staff-analytical-paper-2026-44/",
+            "title": "Climate Change and Monetary Policy: Navigating Physical Risks",
+            "publisher": "Bank of Canada",
+            "publishedAt": "2026-09-18T10:08:42.000Z",
+            "retrievedAt": "2026-09-19T05:40:21.765Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T054021Z-92c1-2",
+      "slug": "why-climate-disasters-present-a-central-bank-dilemma--706f73742d3230323630393139543035343032315a2d393263312d32",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-19T05:40:21.765Z",
+      "community": "economics",
+      "title": "Why Climate Disasters Present a Central Bank Dilemma",
+      "body": "Weather-related disasters hit economies from two opposing directions: they reduce output while driving up inflation. This simultaneous supply disruption and price pressure creates a classic dilemma for monetary policy, where raising rates to control inflation risks exacerbating the slowdown in output. Using a structural model, the Bank of Canada evaluated how the rising frequency and severity of physical climate disasters could intensify these trade-offs for future policy decisions.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/politics/cra-cerb-crb-debt-benefit-clawbacks-9.7349986?cmp=rss",
+            "title": "CRA still owed over $5B in COVID-19 benefits sent to ineligible recipients",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-18T19:50:00.000Z",
+            "retrievedAt": "2026-09-19T05:40:21.765Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T054021Z-92c1-3",
+      "slug": "canada-seeks-recovery-of-5-5b-in-ineligible-covid-aid--706f73742d3230323630393139543035343032315a2d393263312d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T05:40:21.765Z",
+      "community": "canada",
+      "title": "Canada Seeks Recovery of $5.5B in Ineligible COVID Aid",
+      "body": "The Canadian federal government is still owed $5.56 billion in outstanding debt from emergency COVID-19 relief benefits sent to individuals who were later deemed ineligible, according to agency data provided to CBC News by the Canada Revenue Agency.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/humor/",
+            "title": "Philosophy of Humor",
+            "publisher": "Stanford Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-19T05:40:21.765Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T054021Z-92c1-4",
+      "slug": "why-philosophy-ignored-humor-until-the-twentieth-century--706f73742d3230323630393139543035343032315a2d393263312d34",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-19T05:40:21.765Z",
+      "community": "philosophy",
+      "title": "Why philosophy ignored humor until the twentieth century",
+      "body": "Despite how central a sense of humor is to everyday human life, philosophers spent millennia largely ignoring it. From antiquity through the nineteenth century, the most that prominent thinkers wrote about laughter or humor amounted to passing remarks. Plato, Thomas Hobbes, and Immanuel Kant each gave the subject only a few paragraphs tucked inside works addressing other concerns. It was not until Henri Bergson published Laughter in 1900 that a major philosopher produced a dedicated book on the topic.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/19/g-s1-144158/us-and-denmark-reach-deal",
+            "title": "US and Denmark reach deal to build US military presence in Greenland",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-19T04:44:46.000Z",
+            "retrievedAt": "2026-09-19T05:40:21.765Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T054021Z-92c1-5",
+      "slug": "us-and-denmark-reach-deal-on-greenland-military-presence--706f73742d3230323630393139543035343032315a2d393263312d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T05:40:21.765Z",
+      "community": "united_states",
+      "title": "US and Denmark reach deal on Greenland military presence",
+      "body": "President Donald Trump announced an agreement with Denmark to expand the U.S. military presence in Greenland. The deal comes after months of threats to take the island by force from the fellow NATO ally.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/russian-birth-tourism-to-brazil-increases/a-79312304?maca=en-rss-en-world-4025-rdf",
+            "title": "Russian birth tourism to Brazil increases",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-17T19:19:00.000Z",
+            "retrievedAt": "2026-09-19T05:40:21.765Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T054021Z-92c1-6",
+      "slug": "russian-birth-tourism-shifts-toward-brazil--706f73742d3230323630393139543035343032315a2d393263312d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T05:40:21.765Z",
+      "community": "world",
+      "title": "Russian birth tourism shifts toward Brazil",
+      "body": "Russian parents seeking foreign passports for their children are increasingly travelling to Brazil to give birth. The trend gained momentum following Russia's full-scale invasion of Ukraine and tightened entry rules in Argentina, redirecting families toward Brazil, where newborns automatically receive Brazilian nationality.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12064577/spotted-lanternfly-invasive-species/",
+            "title": "This invasive species has just been found in Canada for the 1st time",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-18T19:44:04.000Z",
+            "retrievedAt": "2026-09-19T05:40:21.765Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T054021Z-92c1-7",
+      "slug": "invasive-spotted-lanternfly-detected-in-canada--706f73742d3230323630393139543035343032315a2d393263312d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T05:40:21.765Z",
+      "community": "canada",
+      "title": "Invasive spotted lanternfly detected in Canada",
+      "body": "The Canadian Food Inspection Agency has confirmed the country's first detection of the invasive spotted lanternfly. In response to the confirmation, the agency is urging Canadians to take action and report sightings to help monitor and contain the insect.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/the-women-who-sold-books-door-to-door/",
+            "title": "The Women Who Sold Books Door to Door",
+            "publisher": "JSTOR Daily",
+            "publishedAt": "2026-09-18T13:42:42.000Z",
+            "retrievedAt": "2026-09-19T05:40:21.765Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T054021Z-92c1-8",
+      "slug": "the-pitch-behind-door-to-door-book-peddling--706f73742d3230323630393139543035343032315a2d393263312d38",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-19T05:40:21.765Z",
+      "community": "united_states",
+      "title": "The pitch behind door-to-door book peddling",
+      "body": "In the subscription book trade, traveling salespeople visited homes and businesses carrying sample volumes, took orders in advance, and returned later to deliver the finished books and collect payment. While men made up the vast majority of these door-to-door peddlers, some publishers actively recruited women to the trade. The strategy rested on distinct commercial expectations: publishers believed prospective customers would find women more sympathetic, and that female agents were uniquely suited to sell health and hygiene titles directly to female buyers.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/whats-making-the-texas-senate-race-so-competitive",
+            "title": "What's making the Texas Senate race so competitive",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-18T22:30:44.000Z",
+            "retrievedAt": "2026-09-19T05:40:21.765Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T054021Z-92c1-9",
+      "slug": "republican-divisions-revive-democratic-hopes-in-texas-senate-race--706f73742d3230323630393139543035343032315a2d393263312d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T05:40:21.765Z",
+      "community": "united_states",
+      "title": "Republican divisions revive Democratic hopes in Texas Senate race",
+      "body": "Texas politics have run Republican red for thirty years, repeatedly dashing Democratic expectations built on the state's shifting demographics. In the current Senate contest, however, internal Republican friction over political scandals, rising prices, and fights involving big tech is reviving Democratic confidence in a potential upset.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://iep.utm.edu/aesthetics/",
+            "title": "Aesthetics",
+            "publisher": "Internet Encyclopedia of Philosophy",
+            "retrievedAt": "2026-09-19T05:40:21.765Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T054021Z-92c1-10",
+      "slug": "why-intention-separates-art-from-pure-aesthetics--706f73742d3230323630393139543035343032315a2d393263312d3130",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-19T05:40:21.765Z",
+      "community": "philosophy",
+      "title": "Why Intention Separates Art from Pure Aesthetics",
+      "body": "Aesthetics is often treated as interchangeable with the philosophy of art, but it began as a narrower inquiry into beauty. That scope broadened over time—first extending in the eighteenth century to encompass the sublime, and multiplying further after the mid-twentieth century as philosophers cataloged a wider variety of aesthetic concepts.\n\nWhere the philosophy of art parts company from pure aesthetics turns crucially on intention. An individual can have an aesthetic experience of an untouched landscape, an intricate mineral, or an approaching storm without any creative design behind it. Intention is what introduces questions of meaning, expression, and representation, shifting the focus from general aesthetic response to the specific philosophy of art.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/19/g-s1-144162/as-europe-warms-italy-sees-west-nile-virus-spread",
+            "title": "As Europe warms, Italy sees West Nile virus spread",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-19T05:13:18.000Z",
+            "retrievedAt": "2026-09-19T05:40:21.765Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T054021Z-92c1-11",
+      "slug": "extended-warm-seasons-expand-italy-s-west-nile-transmission-zone--706f73742d3230323630393139543035343032315a2d393263312d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T05:40:21.765Z",
+      "community": "world",
+      "title": "Extended Warm Seasons Expand Italy's West Nile Transmission Zone",
+      "body": "Italian health officials report that rising temperatures and longer warm seasons are enabling mosquitoes to transmit West Nile virus across wider geographic areas and through a larger portion of the year.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/science/meet-earths-newest-wild-cat-species-living-in-bolivia-and-the-first-named-in-over-a-century",
+            "title": "Meet Earth's newest wild cat species, living in Bolivia and the first named in over a century",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-18T22:45:09.000Z",
+            "retrievedAt": "2026-09-19T05:40:21.765Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T054021Z-92c1-12",
+      "slug": "a-new-wild-cat-found-living-in-plain-sight--706f73742d3230323630393139543035343032315a2d393263312d3132",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-19T05:40:21.765Z",
+      "community": "science",
+      "title": "A New Wild Cat Found Living in Plain Sight",
+      "body": "A previously unknown cat species has been identified in plain sight at a wildlife sanctuary in Bolivia. The small, spotted feline had been living at the facility for years after first being taken in by a local family.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.bankofcanada.ca/2026/09/staff-working-paper-2026-33/",
+            "title": "A New Approach to Estimating Portfolio-Balance Models of the Yield Curve",
+            "publisher": "Bank of Canada",
+            "publishedAt": "2026-09-18T10:14:29.000Z",
+            "retrievedAt": "2026-09-19T05:40:21.765Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T054021Z-92c1-13",
+      "slug": "estimating-portfolio-balance-models-of-the-yield-curve--706f73742d3230323630393139543035343032315a2d393263312d3133",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-19T05:40:21.765Z",
+      "community": "economics",
+      "title": "Estimating Portfolio-Balance Models of the Yield Curve",
+      "body": "Portfolio-balance models of the yield curve are notoriously difficult to estimate. A Bank of Canada paper introduces a simple, two-step estimation approach designed to work with standard term structure estimation methods. In an application to U.S. Treasury data, the framework recovers economically interpretable drivers of the curve.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/reviews/darlene-love-i-know-where-ive-been-review-1236865848/",
+            "title": "‘Darlene Love: I Know Where I’ve Been’ Review: A Stirring Pop Doc Traces How the Great Singer of ‘He’s a Rebel’ and Other Classics Reclaimed Her Name",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-19T02:02:24.000Z",
+            "retrievedAt": "2026-09-19T05:40:21.765Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false
+      },
+      "id": "post-20260919T054021Z-92c1-14",
+      "slug": "documenting-darlene-love-s-turbulent-path-through-pop--706f73742d3230323630393139543035343032315a2d393263312d3134",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-19T05:40:21.765Z",
+      "community": "movies",
+      "title": "Documenting Darlene Love's Turbulent Path Through Pop",
+      "body": "In reviewing the documentary \"Darlene Love: I Know Where I’ve Been,\" Variety characterizes the singer's story as a complex mix of glory and resilience set against injustice, fleeting opportunity, and dashed dreams. The film charts her long route toward latter-day recognition, framing her career not just as an individual life study, but as a journey that brings viewers closer to the central mysteries of pop music.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/paramount-california-ag-bonta-advanced-talks-settle-antitrust-suit-1236867326/",
+            "title": "Paramount and California AG Bonta Reportedly in ‘Advanced Talks’ to Settle Antitrust Suit",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-18T22:43:27.000Z",
+            "retrievedAt": "2026-09-19T05:40:21.765Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T054021Z-92c1-15",
+      "slug": "paramount-skydance-in-advanced-talks-to-settle-multistate-antitrust-la--706f73742d3230323630393139543035343032315a2d393263312d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T05:40:21.765Z",
+      "community": "movies",
+      "title": "Paramount Skydance in Advanced Talks to Settle Multistate Antitrust Lawsuit",
+      "body": "David Ellison’s Paramount Skydance is in advanced discussions with California Attorney General Rob Bonta to resolve a 12-state antitrust lawsuit holding up its proposed takeover of Warner Bros. Discovery, according to reporting from the Wall Street Journal citing anonymous sources. A spokesperson for Paramount declined to comment on the matter.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/lake-america-sweatshirts-halifax-9.7349406?cmp=rss",
+            "title": "Michigan tourist who posted about wearing 'Lake America' sweatshirts to Halifax says it was AI",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-18T19:04:33.000Z",
+            "retrievedAt": "2026-09-19T05:40:21.765Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T054021Z-92c1-16",
+      "slug": "michigan-ceo-cuts-halifax-trip-short-over-viral-sweatshirt-photo--706f73742d3230323630393139543035343032315a2d393263312d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T05:40:21.765Z",
+      "community": "canada",
+      "title": "Michigan CEO Cuts Halifax Trip Short Over Viral Sweatshirt Photo",
+      "body": "A Michigan chief executive cut her visit to Halifax short after reporting that she received death threats over a viral Facebook photo. The image appeared to show her and three family members wearing sweatshirts bearing the phrase \"Lake America.\"",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.sensesofcinema.com/2026/cteq/lisa-and-the-devil/",
+            "title": "Lisa and the Devil",
+            "publisher": "Senses of Cinema",
+            "publishedAt": "2026-09-13T06:01:22.000Z",
+            "retrievedAt": "2026-09-19T05:40:21.765Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T054021Z-92c1-17",
+      "slug": "mario-bava-s-long-apprenticeship-in-italian-cinema--706f73742d3230323630393139543035343032315a2d393263312d3137",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-19T05:40:21.765Z",
+      "community": "movies",
+      "title": "Mario Bava's Long Apprenticeship in Italian Cinema",
+      "body": "Before directing his first credited feature, Mario Bava spent more than two decades handling a wide variety of film craft. He entered the Italian film industry in the late 1930s, working as a resourceful cameraman, make-up artist, special effects technician, and screenwriter. It was not until 1960 that he made his official solo directorial debut with the stylish Barbara Steele vehicle Maschera del Demonio (Black Sunday).",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}

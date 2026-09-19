@@ -290,7 +290,25 @@
     "minimalist fiction in six short stories",
     "betting on the midterms",
     "alaska s salmon feasting bears face off in biggest fat bear week ever",
-    "airport malaria in germany remains infrequent"
+    "airport malaria in germany remains infrequent",
+    "apod 2026 september 19 a zodiacal night",
+    "personal identity",
+    "climate change and monetary policy navigating physical risks",
+    "cra still owed over 5b in covid 19 benefits sent to ineligible recipients",
+    "philosophy of humor",
+    "us and denmark reach deal to build us military presence in greenland",
+    "russian birth tourism to brazil increases",
+    "this invasive species has just been found in canada for the 1st time",
+    "the women who sold books door to door",
+    "what s making the texas senate race so competitive",
+    "aesthetics",
+    "as europe warms italy sees west nile virus spread",
+    "meet earth s newest wild cat species living in bolivia and the first named in over a century",
+    "a new approach to estimating portfolio balance models of the yield curve",
+    "darlene love i know where i ve been review a stirring pop doc traces how the great singer of he s a rebel and other classics reclaimed her name",
+    "paramount and california ag bonta reportedly in advanced talks to settle antitrust suit",
+    "michigan tourist who posted about wearing lake america sweatshirts to halifax says it was ai",
+    "lisa and the devil"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -582,12 +600,30 @@
     "https://daily.jstor.org/minimalist-fiction-in-six-short-stories/",
     "https://econbrowser.com/archives/2026/09/betting-on-the-midterms",
     "https://www.npr.org/2026/09/18/nx-s1-5973938/fat-bear-week-2026-bracket",
-    "https://www.dw.com/en/airport-malaria-in-germany-remains-infrequent/a-79333920?maca=en-rss-en-world-4025-rdf"
+    "https://www.dw.com/en/airport-malaria-in-germany-remains-infrequent/a-79333920?maca=en-rss-en-world-4025-rdf",
+    "https://science.nasa.gov/image-article/apod-2026-september-19-a-zodiacal-night/",
+    "https://plato.stanford.edu/entries/identity-personal/",
+    "https://www.bankofcanada.ca/2026/09/staff-analytical-paper-2026-44/",
+    "https://www.cbc.ca/news/politics/cra-cerb-crb-debt-benefit-clawbacks-9.7349986?cmp=rss",
+    "https://plato.stanford.edu/entries/humor/",
+    "https://www.npr.org/2026/09/19/g-s1-144158/us-and-denmark-reach-deal",
+    "https://www.dw.com/en/russian-birth-tourism-to-brazil-increases/a-79312304?maca=en-rss-en-world-4025-rdf",
+    "https://globalnews.ca/news/12064577/spotted-lanternfly-invasive-species/",
+    "https://daily.jstor.org/the-women-who-sold-books-door-to-door/",
+    "https://www.pbs.org/newshour/show/whats-making-the-texas-senate-race-so-competitive",
+    "https://iep.utm.edu/aesthetics/",
+    "https://www.npr.org/2026/09/19/g-s1-144162/as-europe-warms-italy-sees-west-nile-virus-spread",
+    "https://www.pbs.org/newshour/science/meet-earths-newest-wild-cat-species-living-in-bolivia-and-the-first-named-in-over-a-century",
+    "https://www.bankofcanada.ca/2026/09/staff-working-paper-2026-33/",
+    "https://variety.com/2026/film/reviews/darlene-love-i-know-where-ive-been-review-1236865848/",
+    "https://variety.com/2026/film/news/paramount-california-ag-bonta-advanced-talks-settle-antitrust-suit-1236867326/",
+    "https://www.cbc.ca/news/canada/lake-america-sweatshirts-halifax-9.7349406?cmp=rss",
+    "https://www.sensesofcinema.com/2026/cteq/lisa-and-the-devil/"
   ],
   "initialized": true,
-  "cycleCount": 32,
+  "cycleCount": 33,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-19T04:16:16.074Z",
+  "lastRunAt": "2026-09-19T05:40:21.765Z",
   "communities": [
     "technology",
     "science",
@@ -609,11 +645,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260918T182557Z-8bc1",
-      "generatedAtCycle": 28,
-      "summary": "NASA adds three SpaceX missions to its crew contract; When the chatbot answer becomes the ad; Suspicion with a constructive aim; What “continental” means in film philosophy; Chinese engineer wins Nikon Small World in Motion contest with stunning cilia video; Hubble reveals comet 3I/ATLAS slowed and reversed its spin; Climate change expands the foothold of invasive marine species; Moonshot AI’s Kimi K3 lands on Amazon Bedrock with 2.8 trillion parameters; AWS pitches AgentCore Runtime as infrastr"
-    },
-    {
       "batchId": "20260918T213919Z-f7d9",
       "generatedAtCycle": 29,
       "summary": "XRISM Sees a Star’s Wind Power Its Companion’s Flares; A Qwen Tool on the Federal Register Was Removed; Two Profit Measures, Two Different Stories; Well-Being Is About What Makes a Life Go Well; Canadian Jewish faculty say university EDI offices met them with silence after Oct. 7; NASA's COSI telescope will hunt gamma rays from antimatter and dying stars; FAA to debut AI air-traffic advisor over Washington, D.C. as soon as Monday; What the American landscape looked like before the suburb took ov"
@@ -632,6 +663,11 @@
       "batchId": "20260919T041616Z-6005",
       "generatedAtCycle": 32,
       "summary": "Chilling a Hollywood soundstage to 30°F so you can see The Hateful Eight's breath; Ceres is the asteroid belt's biggest object — and a quarter of its mass; Why Edie Falco's ordinariness makes Carmela's self-deception land; Calgary council split over taking a stance on Alberta's independence referendum; The Beastie Boys sample buried in the Rust Belt: why ULA's rocket problem is a business-model problem; Collective action problems vs. coordination problems: the difference is not information, it's"
+    },
+    {
+      "batchId": "20260919T054021Z-92c1",
+      "generatedAtCycle": 33,
+      "summary": "Mars May Be the Source of Earth’s Zodiacal Light; The Difference Between Identity and Character; Why Climate Disasters Present a Central Bank Dilemma; Canada Seeks Recovery of $5.5B in Ineligible COVID Aid; Why philosophy ignored humor until the twentieth century; US and Denmark reach deal on Greenland military presence; Russian birth tourism shifts toward Brazil; Invasive spotted lanternfly detected in Canada; The pitch behind door-to-door book peddling; Republican divisions revive Democratic h"
     }
   ]
 }
