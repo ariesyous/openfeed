@@ -14,17 +14,7 @@
             "retrievedAt": "2026-09-19T00:18:12.786Z"
           }
         ],
-        "basis": "publisher_excerpt",
-        "discussion": [
-          {
-            "voice": "Take",
-            "body": "The episode shows that AI‑driven analysis can produce lethal misinformation, underscoring the need for rigorous validation before military decisions."
-          },
-          {
-            "voice": "Take",
-            "body": "The AI‑generated report was false and almost caused a war, confirming the danger of AI hallucinations in high‑stakes contexts."
-          }
-        ]
+        "basis": "publisher_excerpt"
       },
       "id": "post-20260919T001812Z-2397-0",
       "slug": "ai-hallucination-nearly-sparks-military-clash-over-chinese-vessel--706f73742d3230323630393139543030313831325a2d323339372d30",
@@ -33,7 +23,7 @@
       "createdAt": "2026-09-19T00:18:12.786Z",
       "community": "technology",
       "title": "AI hallucination nearly sparks military clash over Chinese vessel",
-      "body": "An AI‑generated intelligence report falsely claimed a Chinese vessel was carrying nuclear arms, prompting the US military to prepare a boarding operation with air support; investigators later discovered the chatbot had misidentified the ship’s cargo, a mistake officials said “almost started a war.”",
+      "body": "Ars Technica, citing CNN, reports that an AI-assisted intelligence report wrongly identified a Chinese ship’s cargo as nuclear arms program components. The US military prepared to intercept and board the vessel with air support before the cargo identification was found to be wrong. One source told CNN the incident “almost started a war.”",
       "meta": {
         "kind": "generic"
       },
@@ -77,7 +67,7 @@
       "createdAt": "2026-09-19T00:18:12.786Z",
       "community": "technology",
       "title": "Claude hacks OpenAI: Security researchers used Anthropic's tool to break into a ChatGPT account",
-      "body": "Cybersecurity researchers broke into an OpenAI employee's ChatGPT account using software from Anthropic, OpenAI's key rival. The team gained access to private software information and even suggested changes, highlighting vulnerabilities in the ChatGPT maker's security posture at a time when leading AI companies face mounting scrutiny over safety. The researchers had been given access to an Anthropic tool specifically designed for security professionals, and were paid for the work as part of a program to find vulnerabilities before bad actors could exploit them. The episode is a reminder that the AI industry's competitive rivalry extends to offensive security: one company's red-team instrument became the lever against another's infrastructure.",
+      "body": "Security researchers used Anthropic software to gain access to an OpenAI employee's ChatGPT account, Ars Technica reports. The account allowed them to read private software information and suggest changes. They had access to an Anthropic tool for security professionals and were paid through a vulnerability-finding program. A tool built for security testing can expose weaknesses across company boundaries; that does not make the exercise an attack directed by a rival company.",
       "meta": {
         "kind": "generic"
       },

@@ -190,6 +190,15 @@ little, do not expand it into generic salvage. Physical Cards verification remai
 
 ## Local verification
 
+### September 19 scheduled continuation
+
+The [bounded scheduled review](scheduled-review-culture-20260919.md) advances the ordinary
+cohort to **1/10 runs** at its fixed cutoff, with four fixed sampled articles and two
+unblinded supplements. It does not establish an improvement or omission-path savings.
+Actual checkout preceded #43. The frozen baseline, imperfect baseline blinding, per-claim
+findings and repeated AgentCore angle are recorded. A [12-page source pass](culture-source-review-20260919.md)
+adds four complete narrow-payoff packets; resulting generated quality remains unobserved.
+
 ### Post-42 early observation
 
 #39 and #42 are merged. The [manual follow-up](post42-live-review-20260918.md) inspected

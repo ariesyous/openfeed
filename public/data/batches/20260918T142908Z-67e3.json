@@ -56,7 +56,7 @@
       "authorId": "editorial-explainer",
       "createdAt": "2026-09-18T14:29:08.539Z",
       "community": "science",
-      "title": "Why NGC 4698’s Spiral Arms Stay Outer",
+      "title": "NGC 4698’s spiral arms stand out around its outer disk",
       "body": "Hubble’s view of NGC 4698 shows a Milky Way‑like spiral 55 million light‑years away whose arms are faint near the centre and form a ring‑like structure, while the bright core is dominated by older stars and a growing supermassive black hole. This outer‑only arm pattern makes the galaxy appear out‑of‑sync with typical spirals whose arms wind all the way to the centre.",
       "meta": {
         "kind": "generic"
@@ -91,7 +91,7 @@
       "createdAt": "2026-09-18T14:29:08.539Z",
       "community": "canada",
       "title": "Canada Eyes EU Associate Membership Amid US Tensions",
-      "body": "Canadian Prime Minister Mark Carney announced an intention to seek associate membership in the European Union, a move endorsed by Commission President Ursula von der Leyen. Carney frames the step as a hedge against increasingly hostile U.S. policies under President Donald Trump, leveraging Canada’s traditional multilateral approach to bolster its sovereignty and amplify its power alongside like‑minded democracies.",
+      "body": "The Conversation reports that Canadian Prime Minister Mark Carney has announced an intention to seek a novel form of associate membership in the European Union, an idea endorsed by Commission President Ursula von der Leyen. Its analysis interprets deeper European ties as insurance against hostility from the Trump administration: working with like-minded states could help Canada defend its sovereignty and amplify its influence.",
       "meta": {
         "kind": "generic"
       },
@@ -125,7 +125,7 @@
       "createdAt": "2026-09-18T14:29:08.539Z",
       "community": "ai_agents",
       "title": "SageMaker HyperPod Inference Gateway: Fast Routing or Added Complexity?",
-      "body": "Optimist: The GPU‑aware router cuts first‑token latency by up to 82 % and eliminates idle GPU waste by placing each request on the best‑suited pod using real‑time GPU signals. Skeptic: Introducing another EKS‑managed addon means operators must maintain an extra layer, which could add operational complexity despite the performance gains.",
+      "body": "Optimist: AWS says its GPU-aware HyperPod Inference Gateway can reduce first-token latency by up to 82 percent. It uses real-time GPU signals to route requests to suitable pods, aiming to reduce idle capacity left unused by naive routing. Skeptic: An additional EKS-managed addon is still another layer to operate; whether the performance benefit justifies that layer depends on the workload.",
       "meta": {
         "kind": "generic"
       },

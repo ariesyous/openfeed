@@ -5,6 +5,11 @@ import { plainText, readBounded, type SourcePacket } from "./sources";
 // Deliberate reading shelf: factual background and criticism, never current news.
 // Add URLs here as the shelf is reviewed; covered URLs are filtered by generate.ts.
 export const EVERGREEN_SOURCES = [
+  // September 19 packet review: complete narrow payoffs; see docs/culture-source-review-20260919.md.
+  {"topic": "greek_roman_mythology", "publisher": "The Metropolitan Museum of Art", "title": "The Symposium in Ancient Greece", "url": "https://www.metmuseum.org/essays/the-symposium-in-ancient-greece"},
+  {"topic": "philosophy", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Personal Identity", "url": "https://plato.stanford.edu/entries/identity-personal/"},
+  {"topic": "economics", "publisher": "Stanford Encyclopedia of Philosophy", "title": "The Free Rider Problem", "url": "https://plato.stanford.edu/entries/free-rider/"},
+  {"topic": "science", "publisher": "NASA", "title": "Ceres Facts", "url": "https://science.nasa.gov/dwarf-planets/ceres/facts/"},
   // WP2 source pilot: reviewed extraction AND numbered evidence; see docs/editorial-depth.md.
   {"topic": "greek_roman_mythology", "publisher": "The Metropolitan Museum of Art", "title": "Theater in Ancient Greece", "url": "https://www.metmuseum.org/essays/theater-in-ancient-greece"},
   {"topic": "greek_roman_mythology", "publisher": "The Metropolitan Museum of Art", "title": "Death, Burial, and the Afterlife in Ancient Greece", "url": "https://www.metmuseum.org/essays/death-burial-and-the-afterlife-in-ancient-greece"},

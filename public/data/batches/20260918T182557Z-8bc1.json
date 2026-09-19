@@ -21,8 +21,8 @@
             "body": "The package is continuity infrastructure: it pays for the ground, launch, return and recovery work as well as the flight."
           },
           {
-            "voice": "Pushback",
-            "body": "The contract names the missions, but these excerpts do not provide launch dates or crew assignments."
+            "voice": "Context",
+            "body": "The docked spacecraft also provides a lifeboat capability, so its role continues after the crew arrives."
           }
         ]
       },
@@ -331,7 +331,7 @@
           },
           {
             "voice": "Pushback",
-            "body": "A managed runtime can remove operational chores, but the excerpt gives AWS's description rather than an independent benchmark."
+            "body": "A managed runtime can remove operational chores, but teams still need to assess the advertised performance against their own workloads."
           },
           {
             "voice": "Reply",
@@ -346,7 +346,7 @@
       "createdAt": "2026-09-18T18:25:57.734Z",
       "community": "ai_agents",
       "title": "AWS pitches AgentCore Runtime as infrastructure relief",
-      "body": "AgentCore Runtime is AWS's managed compute layer for deploying and running agents without teams building or maintaining the underlying infrastructure. AWS is announcing a new runtime that it says releases memory when a session ends, keeps cold-start times consistent regardless of container size or concurrency, and bills according to the work an agent performs. The useful distinction is between agent logic and the plumbing around it. The excerpt presents those performance and cost claims as AWS's description, not as independently demonstrated results.",
+      "body": "AgentCore Runtime is AWS's managed compute layer for deploying and running agents without teams building or maintaining the underlying infrastructure. AWS is announcing a new runtime that it says releases memory when a session ends, keeps cold-start times consistent regardless of container size or concurrency, and bills according to the work an agent performs. The useful distinction is between agent logic and the plumbing around it. Those performance and cost claims are AWS's description of the runtime.",
       "meta": {
         "kind": "generic"
       },

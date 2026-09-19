@@ -81,7 +81,26 @@ const asteroids = source("asteroids", "Asteroids",
   "https://science.nasa.gov/solar-system/asteroids/",
   "Asteroids range in size from Vesta – the largest at about 329 miles (530 kilometers) in diameter");
 
+const components = { ...source("components", "AI hallucination of Chinese nuclear components almost led to US military attack",
+  "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/",
+  "suggested the Chinese ship was transporting nuclear arms program components"), publisher: "Ars Technica", topic: "technology" };
+const capability = { ...source("capability", "Researchers used Claude to hack OpenAI",
+  "https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hack-openai/",
+  "which permitted them to read private software information and suggest changes."), publisher: "Ars Technica", topic: "technology" };
+
 export const INTEGRITY_EXAMPLES: IntegrityExample[] = [
+  { id: "scheduled-components-wrong", category: "object-qualification", source: components,
+    draft: draft(components, "An erroneous cargo report", "The erroneous intelligence report claimed the ship was carrying nuclear weapons.", [components.excerpt]),
+    expectedEditorialDecision: "reject", reviewReason: "The scheduled edition collapsed nuclear arms program components into arms; components are not finished weapons." },
+  { id: "scheduled-components-supported", category: "object-qualification", source: components,
+    draft: draft(components, "An erroneous cargo report", "The erroneous intelligence report claimed the ship was carrying nuclear arms program components.", [components.excerpt]),
+    expectedEditorialDecision: "accept", reviewReason: "Preserves the object qualification and the distinction between a report and actual cargo." },
+  { id: "scheduled-capability-wrong", category: "capability-versus-action", source: capability,
+    draft: draft(capability, "Researchers gain account access", "The researchers read private software information and suggested changes.", [capability.excerpt]),
+    expectedEditorialDecision: "reject", reviewReason: "Access that permits an action is not evidence that the researchers actually performed it; the scheduled body strengthened permission into occurrence." },
+  { id: "scheduled-capability-supported", category: "capability-versus-action", source: capability,
+    draft: draft(capability, "Researchers gain account access", "The access permitted researchers to read private software information and suggest changes.", [capability.excerpt]),
+    expectedEditorialDecision: "accept", reviewReason: "Retains the capability claim without inventing a completed action." },
   { id: "comet-entity-wrong", category: "entity", source: comet,
     draft: draft(comet, "Hubble detects a comet's spin reversal", "Hubble observations show that comet 3I/ATLAS slowed and reversed its spin.", cometQuotes),
     expectedEditorialDecision: "reject", reviewReason: "The cited finding identifies 41P, not 3I/ATLAS. A genuine quote about 41P cannot support a sentence about another comet." },

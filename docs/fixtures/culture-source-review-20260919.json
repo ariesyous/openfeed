@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-09-19",
+  "baselineCommit": "16203454a3b4489cf451af207f2ade9f6c95da8b",
+  "fixtureScope": "Actual readBounded -> articleExcerpt -> prepareEvidence live results. Only selected support and reduced paragraph/container fixtures retained; no full HTML or publisher article. Offline fixtures test those paragraphs, not live layout availability. Page-local IDs.",
+  "sources": [
+    {
+      "topic": "greek_roman_mythology",
+      "publisher": "The Metropolitan Museum of Art",
+      "title": "The Symposium in Ancient Greece",
+      "url": "https://www.metmuseum.org/essays/the-symposium-in-ancient-greece",
+      "covered": false,
+      "existing": false,
+      "retrievedAt": "2026-09-19T02:42:11.844Z",
+      "htmlSha256": "b9b2a096f8a6e10700d8f64034d2f6801fa3b4d4aa85887dca6d4bc6be2fd233",
+      "excerptSha256": "9f8aac11197532bc9fff8380cd5874d856911f8ea6081e9bfb32d7c1f770d604",
+      "excerptCharacters": 1532,
+      "contextTruncated": false,
+      "decision": "add",
+      "supportedAngle": "Who set the strength of the wine at a Greek symposium?",
+      "reviewedExample": "The Met describes wine and water mixed in a central krater, with strength set by the symposiarch. The usual mixture was three or four parts water to one part wine, served by enslaved boys.",
+      "limitations": "A specific practice in the described symposium, not a universal rule for all Greek drinking.",
+      "support": [
+        {
+          "id": "S1E6",
+          "text": "Water was mixed with wine in a large central krater to a strength determined by the symposiarch (master of ceremonies).",
+          "contextGroup": "S1G5",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E7",
+          "text": "The mixture, usually three or four parts water to one part wine, was served by slave boys who filled pitchers from the krater and poured",
+          "contextGroup": "S1G6",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 2
+        },
+        {
+          "id": "S1E8",
+          "text": "the drink into each participant’s cup (1993.11.5).",
+          "contextGroup": "S1G6",
+          "paragraph": 2,
+          "part": 2,
+          "parts": 2
+        }
+      ],
+      "offlineHtml": "<article><p>The Greek symposium was a male aristocratic activity, a tightly choreographed social gathering where men drank together, conversed, and enjoyed themselves in a convivial atmosphere. Bedecked in garlands, participants reclined—one or two to a couch—in a room designed to hold seven to fifteen couches with cushions and low tables (21.88.74). Many such rooms have been identified archaeologically in domestic settings, although the best representation is perhaps the painted Tomb of the Diver at Paestum.</p><p>By the late sixth century B.C., there was an established repertoire of symposium vessels that included wine coolers, jugs, various drinking cups, and mixing vessels, many of which were decorated with scenes of drinking parties or of Dionysos and his followers (31.11.11). Water was mixed with wine in a large central krater to a strength determined by the symposiarch (master of ceremonies). The mixture, usually three or four parts water to one part wine, was served by slave boys who filled pitchers from the krater and poured the drink into each participant’s cup (1993.11.5).</p></article>",
+      "offlineExcerpt": "The Greek symposium was a male aristocratic activity, a tightly choreographed social gathering where men drank together, conversed, and enjoyed themselves in a convivial atmosphere. Bedecked in garlands, participants reclined—one or two to a couch—in a room designed to hold seven to fifteen couches with cushions and low tables (21.88.74). Many such rooms have been identified archaeologically in domestic settings, although the best representation is perhaps the painted Tomb of the Diver at Paestum.\n\nBy the late sixth century B.C., there was an established repertoire of symposium vessels that included wine coolers, jugs, various drinking cups, and mixing vessels, many of which were decorated with scenes of drinking parties or of Dionysos and his followers (31.11.11). Water was mixed with wine in a large central krater to a strength determined by the symposiarch (master of ceremonies). The mixture, usually three or four parts water to one part wine, was served by slave boys who filled pitchers from the krater and poured the drink into each participant’s cup (1993.11.5).",
+      "offeredCount": 12
+    },
+    {
+      "topic": "greek_roman_mythology",
+      "publisher": "The Metropolitan Museum of Art",
+      "title": "Medusa in Ancient Greek Art",
+      "url": "https://www.metmuseum.org/essays/medusa-in-ancient-greek-art",
+      "covered": false,
+      "existing": false,
+      "retrievedAt": "2026-09-19T02:42:11.852Z",
+      "htmlSha256": "5626886fbfdecd1a2d642b15f27ce9d24386b02db42aefb39b716ba816d40f76",
+      "excerptSha256": "81c544cce7c985e09dde80e3ed1c9ef544e421f64d8b53a3e7b1fe8820cb49bd",
+      "excerptCharacters": 5498,
+      "contextTruncated": true,
+      "decision": "exclude",
+      "reason": "Do not add: protective Medusa angle already published as post-20260917T055240Z-e9e1-7; another URL would duplicate it.",
+      "offeredCount": 12
+    },
+    {
+      "topic": "greek_roman_mythology",
+      "publisher": "World History Encyclopedia",
+      "title": "Theseus",
+      "url": "https://www.worldhistory.org/Theseus/",
+      "covered": false,
+      "existing": false,
+      "retrievedAt": "2026-09-19T02:42:11.853Z",
+      "htmlSha256": "2ff4b9c6da74d746e642cbe3d88de707271204af44ef1be87fea82b0b6db103f",
+      "excerptSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "excerptCharacters": 0,
+      "decision": "exclude",
+      "reason": "No recognized prose; reject without weakening extraction.",
+      "offeredCount": 0
+    },
+    {
+      "topic": "the_sopranos",
+      "publisher": "BFI",
+      "title": "TV’s a crowd",
+      "url": "https://www.bfi.org.uk/sight-and-sound/features/tvs-crowd",
+      "covered": true,
+      "existing": true,
+      "retrievedAt": "2026-09-19T02:42:11.854Z",
+      "htmlSha256": "118175f6daa6822565b15e74266dbe08fb2f29d3868b54f3f5e6fe589471b1b9",
+      "excerptSha256": "18e3d3ed66dfa5ccdd1e950d0237ab4ec13a9a9484a8fcb7b8f7d5d2b33e421a",
+      "excerptCharacters": 5455,
+      "contextTruncated": true,
+      "decision": "exclude",
+      "reason": "Already consumed; keep URL and covered status unchanged.",
+      "offeredCount": 11
+    },
+    {
+      "topic": "the_sopranos",
+      "publisher": "People",
+      "title": "Steven Van Zandt on Gandolfini’s workload",
+      "url": "https://people.com/steven-van-zandt-says-james-gandolfini-contemplated-quitting-the-sopranos-often-8707383",
+      "covered": false,
+      "existing": false,
+      "retrievedAt": "2026-09-19T02:42:11.854Z",
+      "error": "Error: RSS request failed (402)",
+      "decision": "exclude",
+      "reason": "HTTP 402; no usable packet; no access workaround.",
+      "offeredCount": 0
+    },
+    {
+      "topic": "movies",
+      "publisher": "BFI",
+      "title": "How Twin Peaks stretches television into the unknown",
+      "url": "https://www.bfi.org.uk/sight-and-sound/features/how-twin-peaks-stretches-television-unknown",
+      "covered": false,
+      "existing": false,
+      "retrievedAt": "2026-09-19T02:42:11.855Z",
+      "error": "Error: RSS request failed (404)",
+      "decision": "exclude",
+      "reason": "Candidate URL returned 404; do not add guessed route.",
+      "offeredCount": 0
+    },
+    {
+      "topic": "movies",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "title": "Philosophy of Documentary Film",
+      "url": "https://plato.stanford.edu/entries/film-documentary/",
+      "covered": false,
+      "existing": false,
+      "retrievedAt": "2026-09-19T02:42:11.855Z",
+      "error": "Error: RSS request failed (404)",
+      "decision": "exclude",
+      "reason": "Candidate URL returned 404; do not add guessed route.",
+      "offeredCount": 0
+    },
+    {
+      "topic": "philosophy",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "title": "The Experience Machine",
+      "url": "https://plato.stanford.edu/entries/experience-machine/",
+      "covered": false,
+      "existing": false,
+      "retrievedAt": "2026-09-19T02:42:11.855Z",
+      "error": "Error: RSS request failed (404)",
+      "decision": "exclude",
+      "reason": "Candidate URL returned 404; do not add guessed route.",
+      "offeredCount": 0
+    },
+    {
+      "topic": "philosophy",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "title": "Personal Identity",
+      "url": "https://plato.stanford.edu/entries/identity-personal/",
+      "covered": false,
+      "existing": false,
+      "retrievedAt": "2026-09-19T02:42:11.856Z",
+      "htmlSha256": "bed25f23b2d088442cddd5f3f9fbe5957585dd2cabd85afbb4761039321a755d",
+      "excerptSha256": "939495ae0efdc9bb6876e5bdb60954924238d6bb9ab40470e55f039b770e1590",
+      "excerptCharacters": 5769,
+      "contextTruncated": true,
+      "decision": "add",
+      "supportedAngle": "The identity we describe can change",
+      "reviewedExample": "In the characterization sense, personal identity concerns properties we feel attached to. The Stanford entry distinguishes this self-description as contingent and changeable over time.",
+      "limitations": "Only characterization is supported here; no claim about bodily or psychological persistence, consciousness, or an answer to every identity question.",
+      "support": [
+        {
+          "id": "S1E3",
+          "text": "Characterization. Outside of philosophy, the term &lsquo;personal identity&rsquo; commonly refers to properties to which we feel a special sense of attachment or ownership.",
+          "contextGroup": "S1G3",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E11",
+          "text": "This sort of personal identity is contingent and temporary: the way I define myself as a person might have been different, and can vary from",
+          "contextGroup": "S1G9",
+          "paragraph": 3,
+          "part": 1,
+          "parts": 2
+        },
+        {
+          "id": "S1E12",
+          "text": "one time to another.",
+          "contextGroup": "S1G9",
+          "paragraph": 3,
+          "part": 2,
+          "parts": 2
+        }
+      ],
+      "offlineHtml": "<div id=\"aueditable\"><div id=\"main-text\"><p>There is no single problem of personal identity, but rather a wide range of questions that are at best loosely connected and not always distinguished. Here are the most familiar:</p><p>Characterization. Outside of philosophy, the term &lsquo;personal identity&rsquo; commonly refers to properties to which we feel a special sense of attachment or ownership. My personal identity in this sense consists of those properties I take to &ldquo;define me as a person&rdquo; or to &ldquo;make me the person I am&rdquo;. (The precise meaning of these phrases is hard to pin down.) To have an &ldquo;identity crisis&rdquo; is to become unsure about my most characteristic properties&mdash;about what sort of person I am in some deep sense. To ask about it is to ask, in the expectation of a deep and revealing psychological answer, Who am I? My individual personal identity contrasts with my gender, ethnic, and national identity, which consist roughly of the sex, ethnic group, or nation I take myself to belong to and the importance I attach to it.</p><p>This sort of personal identity is contingent and temporary: the way I define myself as a person might have been different, and can vary from one time to another. It is a subset, usually a small one, of someone&rsquo;s properties. It could happen that being a philosopher and a parent belong to my identity but not being a man or a cyclist, while someone else has the same four properties but feels differently towards them, so that being a man and a cyclist belong to his identity but not being a philosopher or a parent. Someone may not even need to have the properties belonging to her identity: if I become convinced that I am Napoleon, being an emperor could be one of the properties central to the way I define myself and thus (perhaps) part of my identity, even though I&rsquo;m deluded and have never been an emperor.</p></div></div>",
+      "offlineExcerpt": "There is no single problem of personal identity, but rather a wide range of questions that are at best loosely connected and not always distinguished. Here are the most familiar:\n\nCharacterization. Outside of philosophy, the term &lsquo;personal identity&rsquo; commonly refers to properties to which we feel a special sense of attachment or ownership. My personal identity in this sense consists of those properties I take to &ldquo;define me as a person&rdquo; or to &ldquo;make me the person I am&rdquo;. (The precise meaning of these phrases is hard to pin down.) To have an &ldquo;identity crisis&rdquo; is to become unsure about my most characteristic properties&mdash;about what sort of person I am in some deep sense. To ask about it is to ask, in the expectation of a deep and revealing psychological answer, Who am I? My individual personal identity contrasts with my gender, ethnic, and national identity, which consist roughly of the sex, ethnic group, or nation I take myself to belong to and the importance I attach to it.\n\nThis sort of personal identity is contingent and temporary: the way I define myself as a person might have been different, and can vary from one time to another. It is a subset, usually a small one, of someone&rsquo;s properties. It could happen that being a philosopher and a parent belong to my identity but not being a man or a cyclist, while someone else has the same four properties but feels differently towards them, so that being a man and a cyclist belong to his identity but not being a philosopher or a parent. Someone may not even need to have the properties belonging to her identity: if I become convinced that I am Napoleon, being an emperor could be one of the properties central to the way I define myself and thus (perhaps) part of my identity, even though I&rsquo;m deluded and have never been an emperor.",
+      "offeredCount": 12
+    },
+    {
+      "topic": "economics",
+      "publisher": "Federal Reserve Bank of St. Louis",
+      "title": "Real-Life Examples of Opportunity Cost",
+      "url": "https://www.stlouisfed.org/open-vault/2020/january/real-life-examples-opportunity-cost",
+      "covered": false,
+      "existing": false,
+      "retrievedAt": "2026-09-19T02:42:11.856Z",
+      "htmlSha256": "ecb9547a54e7a1a366557563ff4fb4150484931de77be9a0b1ce0c001735d55a",
+      "excerptSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "excerptCharacters": 0,
+      "decision": "exclude",
+      "reason": "No recognized article container; exclude instead of adding a new adapter for one page.",
+      "offeredCount": 0
+    },
+    {
+      "topic": "economics",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "title": "The Free Rider Problem",
+      "url": "https://plato.stanford.edu/entries/free-rider/",
+      "covered": false,
+      "existing": false,
+      "retrievedAt": "2026-09-19T02:42:11.857Z",
+      "htmlSha256": "8128bdca4367ff0e57ad014b3317d4afdab696d610ec5801ed11a53a181b3b1e",
+      "excerptSha256": "3f15ba41ec7229698e1d6fa057c0c3fa7c7eba4bb3a37bc060389df64140c59c",
+      "excerptCharacters": 5841,
+      "contextTruncated": true,
+      "decision": "add",
+      "supportedAngle": "Coordination can fail without conflicting interests",
+      "reviewedExample": "The Stanford entry distinguishes coordination from collective action problems: people can share a goal, such as meeting at an agreed place, yet fail through missing information rather than conflicting interests.",
+      "limitations": "Do not promise the whole free-rider mechanism or its solutions. The selected passage supports the coordination distinction only.",
+      "support": [
+        {
+          "id": "S1E4",
+          "text": "Collective action problems contrast with coordination problems.",
+          "contextGroup": "S1G2",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E5",
+          "text": "In a coordination problem, producing a mutually advantageous outcome (such as meeting at a rendezvous point) can be obstructed by a lack of information, not",
+          "contextGroup": "S1G3",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 2
+        },
+        {
+          "id": "S1E6",
+          "text": "by the conflicting interests of the parties (Cronk & Leech 2013: Ch. 1).[1]",
+          "contextGroup": "S1G3",
+          "paragraph": 1,
+          "part": 2,
+          "parts": 2
+        }
+      ],
+      "offlineHtml": "<div id=\"aueditable\"><div id=\"main-text\"><p>A collective action problem is a situation in which it is better for every member of a group that everyone does A than that no one does A, but conflicts in what the parties regard as being in their own interest risk producing an outcome that is worse for every member than everyone&rsquo;s doing A would be. Collective action problems contrast with coordination problems. In a coordination problem, producing a mutually advantageous outcome (such as meeting at a rendezvous point) can be obstructed by a lack of information, not by the conflicting interests of the parties (Cronk & Leech 2013: Ch. 1).[1]</p></div></div>",
+      "offlineExcerpt": "A collective action problem is a situation in which it is better for every member of a group that everyone does A than that no one does A, but conflicts in what the parties regard as being in their own interest risk producing an outcome that is worse for every member than everyone&rsquo;s doing A would be. Collective action problems contrast with coordination problems. In a coordination problem, producing a mutually advantageous outcome (such as meeting at a rendezvous point) can be obstructed by a lack of information, not by the conflicting interests of the parties (Cronk & Leech 2013: Ch. 1).[1]",
+      "offeredCount": 11
+    },
+    {
+      "topic": "science",
+      "publisher": "NASA",
+      "title": "Ceres Facts",
+      "url": "https://science.nasa.gov/dwarf-planets/ceres/facts/",
+      "covered": false,
+      "existing": false,
+      "retrievedAt": "2026-09-19T02:42:11.857Z",
+      "htmlSha256": "186df5d630f1e427fe9c7a01db7d09194d838d9426b2f470249bc4eba2792cac",
+      "excerptSha256": "31ed73ed13e734ff943ed1a6f80f8c293bf5ea6dc0908806f15226eb3476b3dd",
+      "excerptCharacters": 628,
+      "contextTruncated": false,
+      "decision": "add",
+      "supportedAngle": "Ceres reached two firsts, centuries apart",
+      "reviewedExample": "NASA dates Ceres’s discovery by Giuseppe Piazzi to 1801. Dawn’s arrival in 2015 made Ceres the first dwarf planet visited by a spacecraft.",
+      "limitations": "Historical milestones, not fresh news; do not introduce bright spots, habitability, or mineral chemistry absent from these IDs.",
+      "support": [
+        {
+          "id": "S1E3",
+          "text": "It was the first member of the asteroid belt to be discovered when Giuseppe Piazzi spotted it in 1801.",
+          "contextGroup": "S1G2",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E4",
+          "text": "When NASA's Dawn arrived in 2015, Ceres became the first dwarf planet to receive a visit from a spacecraft.",
+          "contextGroup": "S1G3",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 1
+        }
+      ],
+      "offlineHtml": "<article><p>Dwarf planet Ceres is the largest object in the asteroid belt between Mars and Jupiter, and it's the only dwarf planet located in the inner solar system. It was the first member of the asteroid belt to be discovered when Giuseppe Piazzi spotted it in 1801. When NASA's Dawn arrived in 2015, Ceres became the first dwarf planet to receive a visit from a spacecraft.</p></article>",
+      "offlineExcerpt": "Dwarf planet Ceres is the largest object in the asteroid belt between Mars and Jupiter, and it's the only dwarf planet located in the inner solar system. It was the first member of the asteroid belt to be discovered when Giuseppe Piazzi spotted it in 1801. When NASA's Dawn arrived in 2015, Ceres became the first dwarf planet to receive a visit from a spacecraft.",
+      "offeredCount": 7
+    }
+  ]
+}

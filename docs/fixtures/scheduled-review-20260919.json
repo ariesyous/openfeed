@@ -1,0 +1,1910 @@
+{
+  "schemaVersion": 1,
+  "reviewCutoff": "2026-09-19T02:39:19Z",
+  "baselineMain": "16203454a3b4489cf451af207f2ade9f6c95da8b",
+  "runEligibility": [
+    {
+      "runId": 35408871596,
+      "eligible36": true,
+      "eligible37": true,
+      "reason": "scheduled free-router; actual checkout 6e83fe7 includes #38/#39/#42, excludes #43"
+    },
+    {
+      "runId": 35405624271,
+      "eligible36": false,
+      "eligible37": false,
+      "reason": "manual explicitly requested DeepSeek; previously reviewed, no recount"
+    },
+    {
+      "runId": 35397839301,
+      "eligible36": true,
+      "eligible37": false,
+      "reason": "previously reviewed; logs reverified checkout c5fd886 before #39; zero newly reviewed posts"
+    },
+    {
+      "runId": null,
+      "reason": "Repository Actions listing per_page=100 covers merge boundaries through 2026-09-16; no newer generation, failures, no-ops or in-progress generation existed by cutoff. Deploy and PR workflows excluded."
+    }
+  ],
+  "operations": [
+    {
+      "id": 35330968341,
+      "jobId": 105554974889,
+      "event": "schedule",
+      "reportedHead": "ce4354f1935b0f918207704c882930e463d0c157",
+      "actualCheckout": "ce4354f1935b0f918207704c882930e463d0c157",
+      "status": "completed",
+      "conclusion": "success",
+      "createdAt": "2026-09-18T09:42:53Z",
+      "requestedModel": "openrouter/free",
+      "firstLogTimestamp": "2026-09-18T09:42:56.7805639Z",
+      "lastLogTimestamp": "2026-09-18T10:16:01.4827211Z",
+      "attempts": [
+        "2026-09-18T09:43:06.7350061Z [sources] Evergreen shelf: 15/50 unconsumed articles",
+        "2026-09-18T09:43:07.6136509Z [sources] collected=210 unused=123 previouslyCovered=87",
+        "2026-09-18T09:44:19.0220440Z [editorial] attempt 1: retryable (71s elapsed) — empty completion (model=deepseek/deepseek-v4-flash-0731:free; finish=unknown; refusal=false; reasoning=true)",
+        "2026-09-18T09:47:38.4125998Z [editorial] attempt 2: invalid_json (271s elapsed; model=nvidia/nemotron-3.5-lightning:free; finish=stop) — Completion was not valid JSON (14700 characters); finish reason: stop",
+        "2026-09-18T09:53:56.6492898Z [editorial] attempt 3: success (649s elapsed; model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free; finish=stop)",
+        "2026-09-18T10:03:57.1105499Z [editorial] attempt 4: retryable (1249s elapsed) — empty completion (model=nvidia/nemotron-3.5-lightning:free; finish=error; refusal=false; reasoning=true)",
+        "2026-09-18T10:04:22.5686682Z [editorial] attempt 5: validation_failed (1275s elapsed; model=google/gemma-4-26b-a4b-it:free; finish=stop) — posts.0.evidenceIds: Too big: expected array to have <=3 items; posts.1.evidenceIds: Too big: expected array to have <=3 items; posts.2.evidenceIds: Too big: expected array to have <=3 items; posts.3.evidenceIds: Too big: expected array to have <=3 items",
+        "2026-09-18T10:12:18.9430845Z [editorial] attempt 6: success (1751s elapsed; model=deepseek/deepseek-v4-flash-0731:free; finish=stop)",
+        "2026-09-18T10:14:50.9157982Z [editorial] attempt 7: retryable (1903s elapsed) — empty completion (model=nex-agi/nex-n2.5-mini:free; finish=length; refusal=false; reasoning=true)",
+        "2026-09-18T10:15:56.9156855Z [editorial] attempt 8: success (1969s elapsed; model=nvidia/nemotron-3-super-120b-a12b:free; finish=stop)",
+        "2026-09-18T10:15:56.9212456Z [editorial] target=20 actual=9 attempts=8/8 emptySelections=0 deferredSources=0 elapsedMs=1969308; edition attempt budget exhausted"
+      ],
+      "runUrl": "https://github.com/ariesyous/openfeed/actions/runs/35330968341",
+      "artifactStatus": "not implemented at checkout",
+      "publicationCommit": "e51e64631650507f2a18e84970be0effbe7e6b31",
+      "batchId": "20260918T094304Z-2e4a",
+      "published": 9,
+      "target": 20,
+      "generatedDrafts": null
+    },
+    {
+      "id": 35356489904,
+      "jobId": 105637000980,
+      "event": "schedule",
+      "reportedHead": "e51e64631650507f2a18e84970be0effbe7e6b31",
+      "actualCheckout": "e51e64631650507f2a18e84970be0effbe7e6b31",
+      "status": "completed",
+      "conclusion": "success",
+      "createdAt": "2026-09-18T14:28:58Z",
+      "requestedModel": "openrouter/free",
+      "firstLogTimestamp": "2026-09-18T14:29:01.3569488Z",
+      "lastLogTimestamp": "2026-09-18T15:14:15.1685869Z",
+      "attempts": [
+        "2026-09-18T14:29:10.4174848Z [sources] Evergreen shelf: 15/50 unconsumed articles",
+        "2026-09-18T14:29:11.0548590Z [sources] collected=212 unused=141 previouslyCovered=71",
+        "2026-09-18T14:39:11.6931562Z [editorial] attempt 1: retryable (601s elapsed) — empty completion (model=nvidia/nemotron-3.5-lightning:free; finish=error; refusal=false; reasoning=true)",
+        "2026-09-18T14:41:46.9571192Z [editorial] attempt 2: invalid_json (756s elapsed; model=poolside/laguna-s-2.1:free; finish=stop) — Completion was not valid JSON (6122 characters); finish reason: stop",
+        "2026-09-18T14:42:37.6268524Z [editorial] attempt 3: success (807s elapsed; model=nvidia/nemotron-3-super-120b-a12b:free; finish=stop)",
+        "2026-09-18T14:52:38.0435238Z [editorial] attempt 4: retryable (1407s elapsed) — empty completion (model=nvidia/nemotron-3.5-lightning:free; finish=error; refusal=false; reasoning=true)",
+        "2026-09-18T14:57:22.6185606Z [editorial] attempt 5: retryable (1692s elapsed) — empty completion (model=nex-agi/nex-n2.5-pro:free; finish=error; refusal=false; reasoning=true)",
+        "2026-09-18T15:07:29.1491478Z [editorial] attempt 6: retryable (2298s elapsed) — empty completion (model=nvidia/nemotron-3.5-lightning:free; finish=error; refusal=false; reasoning=true)",
+        "2026-09-18T15:14:11.0579451Z [editorial] attempt 7: retryable (2700s elapsed) — failed to read response body: TimeoutError: The operation was aborted due to timeout",
+        "2026-09-18T15:14:11.0625730Z [editorial] target=20 actual=4 attempts=7/8 emptySelections=0 deferredSources=0 elapsedMs=2700007; edition time budget exhausted"
+      ],
+      "runUrl": "https://github.com/ariesyous/openfeed/actions/runs/35356489904",
+      "artifactStatus": "not implemented at checkout",
+      "publicationCommit": "ba2e6b32f692f5334c11e243d27cb60215047967",
+      "batchId": "20260918T142908Z-67e3",
+      "published": 4,
+      "target": 20,
+      "generatedDrafts": null
+    },
+    {
+      "id": 35380122228,
+      "jobId": 105714038294,
+      "event": "schedule",
+      "reportedHead": "ba2e6b32f692f5334c11e243d27cb60215047967",
+      "actualCheckout": "ba2e6b32f692f5334c11e243d27cb60215047967",
+      "status": "completed",
+      "conclusion": "success",
+      "createdAt": "2026-09-18T18:25:46Z",
+      "requestedModel": "openrouter/free",
+      "firstLogTimestamp": "2026-09-18T18:25:50.4556902Z",
+      "lastLogTimestamp": "2026-09-18T18:50:33.6882554Z",
+      "attempts": [
+        "2026-09-18T18:25:59.7997698Z [sources] Evergreen shelf: 15/50 unconsumed articles",
+        "2026-09-18T18:26:00.7313898Z [sources] collected=212 unused=155 previouslyCovered=57",
+        "2026-09-18T18:26:55.8642344Z [editorial] attempt 1: validation_failed (55s elapsed; model=cohere/north-mini-code:free; finish=stop) — posts.3.discussion: Too small: expected array to have >=2 items",
+        "2026-09-18T18:28:35.4272094Z [editorial] attempt 2: success (155s elapsed; model=nex-agi/nex-n2.5-mini:free; finish=stop)",
+        "2026-09-18T18:29:53.6178897Z [editorial] attempt 3: success (233s elapsed; model=cohere/north-mini-code:free; finish=stop)",
+        "2026-09-18T18:33:17.8436611Z [editorial] attempt 4: success (437s elapsed; model=nex-agi/nex-n2.5-pro:free; finish=stop)",
+        "2026-09-18T18:36:44.8551910Z [editorial] attempt 5: validation_failed (644s elapsed; model=poolside/laguna-s-2.1:free; finish=stop) — posts.0.evidenceIds: Too big: expected array to have <=3 items; posts.1.evidenceIds: Too big: expected array to have <=3 items; posts.3.evidenceIds: Too big: expected array to have <=3 items",
+        "2026-09-18T18:43:59.9786575Z [editorial] attempt 6: retryable (1079s elapsed) — empty completion (model=nex-agi/nex-n2.5-pro:free; finish=length; refusal=false; reasoning=true)",
+        "2026-09-18T18:44:39.8882646Z [editorial] attempt 7: success (1119s elapsed; model=nex-agi/nex-n2.5-mini:free; finish=stop)",
+        "2026-09-18T18:50:29.0732859Z [editorial] attempt 8: validation_failed (1468s elapsed; model=nvidia/nemotron-3.5-lightning:free; finish=stop) — Discussion evidence must match an attached source excerpt; Discussion evidence must match an attached source excerpt; Discussion evidence must match an attached source excerpt; Discussion evidence must match an attached source excerpt; Discussion evidence must match an attached source excerpt; Discussion evidence must match an attached source excerpt; Discussion evidence must match an attached source excerpt; Discussion evidence must match an attached source excerpt",
+        "2026-09-18T18:50:29.0780416Z [editorial] target=20 actual=16 attempts=8/8 emptySelections=0 deferredSources=0 elapsedMs=1468346; provider or validation budget exhausted"
+      ],
+      "runUrl": "https://github.com/ariesyous/openfeed/actions/runs/35380122228",
+      "artifactStatus": "not implemented at checkout",
+      "publicationCommit": "5737dd548129b3a6b1e0f6a0e3a8bc50e660e4c9",
+      "batchId": "20260918T182557Z-8bc1",
+      "published": 16,
+      "target": 20,
+      "generatedDrafts": null
+    },
+    {
+      "id": 35397839301,
+      "jobId": 105770632939,
+      "event": "schedule",
+      "reportedHead": "c5fd886383be0c7eeacafc98ab2d6d3cd26d8ddd",
+      "actualCheckout": "c5fd886383be0c7eeacafc98ab2d6d3cd26d8ddd",
+      "status": "completed",
+      "conclusion": "success",
+      "createdAt": "2026-09-18T21:39:09Z",
+      "requestedModel": "openrouter/free",
+      "firstLogTimestamp": "2026-09-18T21:39:12.5562046Z",
+      "lastLogTimestamp": "2026-09-18T22:15:27.1435690Z",
+      "attempts": [
+        "2026-09-18T21:39:30.3283195Z [sources] Evergreen shelf: 10/50 unconsumed articles",
+        "2026-09-18T21:39:31.1419323Z [sources] collected=194 unused=135 previouslyCovered=59",
+        "2026-09-18T21:47:45.8533222Z [editorial] attempt 1: retryable (495s elapsed) — empty completion (model=nex-agi/nex-n2.5-pro:free; finish=length; refusal=false; reasoning=true)",
+        "2026-09-18T21:52:03.6132421Z [editorial] attempt 2: success (752s elapsed; model=nex-agi/nex-n2.5-pro:free; finish=stop)",
+        "2026-09-18T22:01:01.7814182Z [editorial] attempt 3: retryable (1291s elapsed) — empty completion (model=nex-agi/nex-n2.5-pro:free; finish=length; refusal=false; reasoning=true)",
+        "2026-09-18T22:01:53.1983007Z [editorial] attempt 4: success (1342s elapsed; model=nvidia/nemotron-3-ultra-550b-a55b:free; finish=stop)",
+        "2026-09-18T22:02:30.7479884Z [editorial] attempt 5: success (1380s elapsed; model=nvidia/nemotron-3-super-120b-a12b:free; finish=stop)",
+        "2026-09-18T22:12:00.1072535Z [editorial] attempt 6: success (1949s elapsed; model=nvidia/nemotron-3.5-lightning:free; finish=stop)",
+        "2026-09-18T22:13:24.0961691Z [editorial] attempt 7: retryable (2033s elapsed) — empty completion (model=qwen/qwen3.8-27b:free; finish=error; refusal=false; reasoning=true)",
+        "2026-09-18T22:15:22.4742474Z [editorial] attempt 8: retryable (2151s elapsed) — empty completion (model=nex-agi/nex-n2.5-mini:free; finish=length; refusal=false; reasoning=true)",
+        "2026-09-18T22:15:22.4817967Z [editorial] target=20 actual=16 attempts=8/8 emptySelections=0 deferredSources=0 elapsedMs=2151339; provider or validation budget exhausted"
+      ],
+      "runUrl": "https://github.com/ariesyous/openfeed/actions/runs/35397839301",
+      "artifactStatus": "selected support retained",
+      "publicationCommit": "1eba5614b1387151e56e810b30ea012e781b3794",
+      "batchId": "20260918T213919Z-f7d9",
+      "published": 16,
+      "target": 20,
+      "generatedDrafts": null
+    },
+    {
+      "id": 35408871596,
+      "jobId": 105804226934,
+      "event": "schedule",
+      "reportedHead": "6e83fe73f9dbf654c11f43cbece1bae10e89f54f",
+      "actualCheckout": "6e83fe73f9dbf654c11f43cbece1bae10e89f54f",
+      "status": "completed",
+      "conclusion": "success",
+      "createdAt": "2026-09-19T00:17:55Z",
+      "requestedModel": "openrouter/free",
+      "firstLogTimestamp": "2026-09-19T00:17:59.3867435Z",
+      "lastLogTimestamp": "2026-09-19T00:44:35.5247038Z",
+      "attempts": [
+        "2026-09-19T00:18:15.1631355Z [sources] Evergreen shelf: 13/59 unconsumed articles",
+        "2026-09-19T00:18:16.2734518Z [sources] collected=203 unused=120 previouslyCovered=83",
+        "2026-09-19T00:19:22.7853934Z [editorial] attempt 1: invalid_json (67s elapsed; model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free; finish=stop) — Completion was not valid JSON (8823 characters); finish reason: stop",
+        "2026-09-19T00:22:39.5016936Z [editorial] attempt 2: success (263s elapsed; model=nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free; finish=stop)",
+        "2026-09-19T00:34:16.8960762Z [editorial] attempt 3: retryable (961s elapsed) — empty completion (model=deepseek/deepseek-v4-flash-0731:free; finish=length; refusal=false; reasoning=true)",
+        "2026-09-19T00:40:28.3622994Z [editorial] attempt 4: retryable (1332s elapsed) — empty completion (model=nex-agi/nex-n2.5-pro:free; finish=length; refusal=false; reasoning=true)",
+        "2026-09-19T00:40:47.8919059Z [editorial] attempt 5: success (1352s elapsed; model=z-ai/glm-5.2:free; finish=stop)",
+        "2026-09-19T00:43:41.4931023Z [editorial] attempt 6: validation_failed (1525s elapsed; model=poolside/laguna-s-2.1:free; finish=stop) — posts.0.evidenceIds: Too big: expected array to have <=3 items; posts.1.evidenceIds: Too big: expected array to have <=3 items",
+        "2026-09-19T00:44:21.9934742Z [editorial] attempt 7: success (1566s elapsed; model=nex-agi/nex-n2.5-mini:free; finish=stop)",
+        "2026-09-19T00:44:30.0735070Z [editorial] attempt 8: retryable (1574s elapsed) — empty completion (model=poolside/laguna-xs-2.1:free; finish=stop; refusal=false; reasoning=true)",
+        "2026-09-19T00:44:30.0790495Z [editorial] target=20 actual=6 attempts=8/8 generatedDrafts=10 discussionOmissions=0 providerFailures=3 rejectedResponses=2 emptySelections=0 deferredSources=0 elapsedMs=1573805; provider or validation budget exhausted"
+      ],
+      "runUrl": "https://github.com/ariesyous/openfeed/actions/runs/35408871596",
+      "artifactStatus": "selected support retained",
+      "publicationCommit": "fb9b7f5077802360ce411e5453526d2d025c4c89",
+      "batchId": "20260919T001812Z-2397",
+      "published": 6,
+      "target": 20,
+      "generatedDrafts": 10
+    }
+  ],
+  "artifact": {
+    "id": 10574371285,
+    "url": "https://github.com/ariesyous/openfeed/actions/runs/35408871596/artifacts/10574371285",
+    "name": "editorial-support-35408871596-1",
+    "expiresAt": "2026-10-03T00:44:30Z",
+    "zipSha256": "bc97d9dff70d63758d6765c11b54a78086790c79eee8fd7dfdde70b9ea585c35",
+    "jsonSha256": "7402552911e67ee8128020db6a8081bb5092d17b7dc5fdbfda01d1222dc3ca3c",
+    "jsonBytes": 9599,
+    "status": "data_written",
+    "supportSnapshot": "scheduled-selected-support-20260919.json"
+  },
+  "metrics": {
+    "target": 20,
+    "generatedDrafts": 10,
+    "accepted": 6,
+    "published": 6,
+    "initialBlindSample": 4,
+    "sourceReviewed": 6,
+    "worthwhileFixedSample": 0,
+    "worthwhileWholeEdition": 1,
+    "worthwhileUnresolved": 1,
+    "attempts": 8,
+    "providerFailures": 3,
+    "rejectedResponses": 2,
+    "emptySelections": 0,
+    "discussionOmissions": 0,
+    "discussionTurns": 4,
+    "generationElapsedMs": 1573805,
+    "jobElapsedSeconds": 1596,
+    "sourceCollected": 203,
+    "sourceUnused": 120,
+    "evergreenShelf": 59,
+    "evergreenUnconsumed": 13,
+    "evergreenUnavailable": 8,
+    "sourcesUsed": 6,
+    "publisherGroupsUsed": 5,
+    "evergreenUsed": 0
+  },
+  "posts": [
+    {
+      "postId": "post-20260919T001812Z-2397-0",
+      "position": 0,
+      "original": {
+        "editorial": {
+          "format": "news",
+          "sources": [
+            {
+              "url": "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/",
+              "title": "AI hallucination of Chinese nuclear components almost led to US military attack",
+              "publisher": "Ars Technica",
+              "publishedAt": "2026-09-18T20:26:33.000Z",
+              "retrievedAt": "2026-09-19T00:18:12.786Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "The episode shows that AI‑driven analysis can produce lethal misinformation, underscoring the need for rigorous validation before military decisions."
+            },
+            {
+              "voice": "Take",
+              "body": "The AI‑generated report was false and almost caused a war, confirming the danger of AI hallucinations in high‑stakes contexts."
+            }
+          ]
+        },
+        "id": "post-20260919T001812Z-2397-0",
+        "slug": "ai-hallucination-nearly-sparks-military-clash-over-chinese-vessel--706f73742d3230323630393139543030313831325a2d323339372d30",
+        "kind": "text_post",
+        "authorId": "editorial-news",
+        "createdAt": "2026-09-19T00:18:12.786Z",
+        "community": "technology",
+        "title": "AI hallucination nearly sparks military clash over Chinese vessel",
+        "body": "An AI‑generated intelligence report falsely claimed a Chinese vessel was carrying nuclear arms, prompting the US military to prepare a boarding operation with air support; investigators later discovered the chatbot had misidentified the ship’s cargo, a mistake officials said “almost started a war.”",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/ai-hallucination-nearly-sparks-military-clash-over-chinese-vessel--706f73742d3230323630393139543030313831325a2d323339372d30/",
+      "issue36Sample": "first four",
+      "issue37Sample": true,
+      "initialBlindLabel": "5df178b4ffcb855c6871a51d84bed79f572d97504dd42bbdfc97cc64df7ebca2",
+      "titlePayoff": 2,
+      "memorableSubstance": 1,
+      "initialReading": "source-hidden before reveal",
+      "chunkIndex": 1,
+      "resolvedModel": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "supportSelection": {
+        "postId": "post-20260919T001812Z-2397-0",
+        "evidenceIds": [
+          "S10E1",
+          "S10E3",
+          "S10E5"
+        ],
+        "discussion": [
+          {
+            "turnIndex": 0,
+            "voice": "Take",
+            "evidenceIds": [
+              "S10E6",
+              "S10E7"
+            ]
+          },
+          {
+            "turnIndex": 1,
+            "voice": "Take",
+            "evidenceIds": [
+              "S10E1",
+              "S10E3",
+              "S10E5"
+            ]
+          }
+        ]
+      },
+      "sourceRetrieval": {
+        "url": "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/",
+        "key": "ea36c1448b7e",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "webVerification": "readable original page via web reader",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "Cargo described as nuclear arms",
+          "status": "contradicted",
+          "evidence": "S10E3",
+          "assessment": "The retained span and current Ars page say nuclear arms program components, not finished arms."
+        },
+        {
+          "scope": "body",
+          "claim": "Boarding preparation with air support; discovery of bad cargo identification",
+          "status": "supported",
+          "evidence": "S10E5; discussion S10E6",
+          "assessment": "Current page confirms. Parent-selected S10E5 ends mid-sentence; no complete original input replay exists."
+        },
+        {
+          "scope": "body",
+          "claim": "Officials said almost started a war",
+          "status": "attribution error",
+          "evidence": "discussion S10E7",
+          "assessment": "The source identifies one CNN source, not officials collectively; this ID was selected only for discussion."
+        },
+        {
+          "scope": "discussion 0",
+          "claim": "Potential lethal consequences and need for validation",
+          "status": "supported interpretation",
+          "evidence": "S10E6,S10E7",
+          "assessment": "Risk interpretation, not a claim of actual deaths; mostly repeats the body."
+        },
+        {
+          "scope": "discussion 1",
+          "claim": "False report almost caused a war",
+          "status": "unsupported strengthening",
+          "evidence": "S10E1,S10E3,S10E5",
+          "assessment": "Turns an attributed assessment into an established consequence; redundant block omitted in reviewed correction."
+        }
+      ],
+      "eventAngle": "distinct",
+      "relatedPostIds": [],
+      "originalWorthwhile": "no",
+      "correctionRecorded": true
+    },
+    {
+      "postId": "post-20260919T001812Z-2397-1",
+      "position": 1,
+      "original": {
+        "editorial": {
+          "format": "news",
+          "sources": [
+            {
+              "url": "https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hack-openai/",
+              "title": "Researchers used Claude to hack OpenAI",
+              "publisher": "Ars Technica",
+              "publishedAt": "2026-09-18T13:30:12.000Z",
+              "retrievedAt": "2026-09-19T00:18:12.786Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "There's a dark comedy in Anthropic's safety tool being the one that cracked OpenAI's front door."
+            },
+            {
+              "voice": "Pushback",
+              "body": "The more interesting point is structural: if an employee's ChatGPT account can expose private software internals, the risk isn't one company's tooling, it's the overlap between employee productivity apps and sensitive codebases."
+            }
+          ]
+        },
+        "id": "post-20260919T001812Z-2397-1",
+        "slug": "claude-hacks-openai-security-researchers-used-anthropic-s-tool-to-brea--706f73742d3230323630393139543030313831325a2d323339372d31",
+        "kind": "text_post",
+        "authorId": "editorial-news",
+        "createdAt": "2026-09-19T00:18:12.786Z",
+        "community": "technology",
+        "title": "Claude hacks OpenAI: Security researchers used Anthropic's tool to break into a ChatGPT account",
+        "body": "Cybersecurity researchers broke into an OpenAI employee's ChatGPT account using software from Anthropic, OpenAI's key rival. The team gained access to private software information and even suggested changes, highlighting vulnerabilities in the ChatGPT maker's security posture at a time when leading AI companies face mounting scrutiny over safety. The researchers had been given access to an Anthropic tool specifically designed for security professionals, and were paid for the work as part of a program to find vulnerabilities before bad actors could exploit them. The episode is a reminder that the AI industry's competitive rivalry extends to offensive security: one company's red-team instrument became the lever against another's infrastructure.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/claude-hacks-openai-security-researchers-used-anthropic-s-tool-to-brea--706f73742d3230323630393139543030313831325a2d323339372d31/",
+      "issue36Sample": "first four",
+      "issue37Sample": true,
+      "initialBlindLabel": "786b469d5891166c19ab0cf490e35906ac54e0b76ae941450d479586a7944b15",
+      "titlePayoff": 2,
+      "memorableSubstance": 1,
+      "initialReading": "source-hidden before reveal",
+      "chunkIndex": 2,
+      "resolvedModel": "z-ai/glm-5.2:free",
+      "supportSelection": {
+        "postId": "post-20260919T001812Z-2397-1",
+        "evidenceIds": [
+          "S10E1",
+          "S10E3",
+          "S10E4"
+        ],
+        "discussion": [
+          {
+            "turnIndex": 0,
+            "voice": "Take",
+            "evidenceIds": [
+              "S10E1",
+              "S10E4"
+            ]
+          },
+          {
+            "turnIndex": 1,
+            "voice": "Pushback",
+            "evidenceIds": [
+              "S10E3"
+            ]
+          }
+        ]
+      },
+      "sourceRetrieval": {
+        "url": "https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hack-openai/",
+        "key": "0d07d819dbcf",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "webVerification": "readable original page via web reader",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "Researcher access to employee account and private software information",
+          "status": "supported",
+          "evidence": "S10E1,S10E3",
+          "assessment": "Current Ars page confirms; account access could expose GitHub code."
+        },
+        {
+          "scope": "body",
+          "claim": "Researchers even suggested changes",
+          "status": "unsupported action",
+          "evidence": "S10E3",
+          "assessment": "Permission to suggest changes does not establish that changes were suggested."
+        },
+        {
+          "scope": "body",
+          "claim": "Security-specific tool and paid vulnerability program",
+          "status": "current-page supported; selected support incomplete",
+          "evidence": "S10E4",
+          "assessment": "The retained sentence ends at part of a; the underlying page completes the program description. It does not prove all completion text was in selected support."
+        },
+        {
+          "scope": "body",
+          "claim": "Competitive rivalry extends to offensive security",
+          "status": "unsupported implication",
+          "evidence": "S10E1,S10E3,S10E4",
+          "assessment": "Paid independent research does not establish a company-directed competitive attack. Narrow the interpretation."
+        },
+        {
+          "scope": "discussion 0",
+          "claim": "Irony of competitor tool finding flaw",
+          "status": "supported commentary",
+          "evidence": "S10E1,S10E4",
+          "assessment": "Humor grounded in reported tool use, retained."
+        },
+        {
+          "scope": "discussion 1",
+          "claim": "Conditional concern about employee app access to code",
+          "status": "supported commentary",
+          "evidence": "S10E3",
+          "assessment": "Conditional structural concern; current source explicitly describes GitHub access. Retained."
+        }
+      ],
+      "eventAngle": "distinct",
+      "relatedPostIds": [],
+      "originalWorthwhile": "no",
+      "correctionRecorded": true
+    },
+    {
+      "postId": "post-20260919T001812Z-2397-2",
+      "position": 2,
+      "original": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://www.bankofcanada.ca/2026/09/staff-analytical-paper-2026-43/",
+              "title": "Segmented Inflation Dynamics (SID): Identifying Trend Inflation from the Price Index",
+              "publisher": "Bank of Canada",
+              "publishedAt": "2026-09-18T10:06:39.000Z",
+              "retrievedAt": "2026-09-19T00:18:12.786Z"
+            }
+          ],
+          "basis": "publisher_excerpt"
+        },
+        "id": "post-20260919T001812Z-2397-2",
+        "slug": "how-the-bank-of-canada-s-sid-tool-segments-the-price-index--706f73742d3230323630393139543030313831325a2d323339372d32",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-19T00:18:12.786Z",
+        "community": "economics",
+        "title": "How the Bank of Canada's SID tool segments the price index",
+        "body": "Segmented Inflation Dynamics (SID) is a data-driven tool for assessing trend inflation. It uses time-series segmentation to divide the price index into contiguous segments with stable inflation rates. Based on data through December 2025, the Bank says SID indicates Canada's trend inflation has been near 2 percent since early 2024.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/how-the-bank-of-canada-s-sid-tool-segments-the-price-index--706f73742d3230323630393139543030313831325a2d323339372d32/",
+      "issue36Sample": "first four",
+      "issue37Sample": false,
+      "initialBlindLabel": null,
+      "titlePayoff": 2,
+      "memorableSubstance": 2,
+      "initialReading": "unblinded supplement",
+      "chunkIndex": 3,
+      "resolvedModel": "nex-agi/nex-n2.5-mini:free",
+      "supportSelection": {
+        "postId": "post-20260919T001812Z-2397-2",
+        "evidenceIds": [
+          "S5E1",
+          "S5E2",
+          "S5E3"
+        ],
+        "discussion": []
+      },
+      "sourceRetrieval": {
+        "url": "https://www.bankofcanada.ca/2026/09/staff-analytical-paper-2026-43/",
+        "key": "0fef923add6b",
+        "status": 200,
+        "bytes": 134108,
+        "sha256": "befb72f6b008e61f11727bf8e420b5446b194be99fb9d9904dbb5e15d24b9864"
+      },
+      "webVerification": "direct retrieved HTML",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "SID segments price index into contiguous stable-rate periods",
+          "status": "supported",
+          "evidence": "S5E1,S5E2",
+          "assessment": "Bank of Canada abstract confirms purpose and method."
+        },
+        {
+          "scope": "body",
+          "claim": "Near 2 percent since early 2024, using data through December 2025",
+          "status": "supported",
+          "evidence": "S5E3",
+          "assessment": "Preserves both dates and trend-inflation qualifier; not a claim about September 2026 inflation."
+        }
+      ],
+      "eventAngle": "distinct",
+      "relatedPostIds": [],
+      "originalWorthwhile": "yes",
+      "correctionRecorded": false
+    },
+    {
+      "postId": "post-20260919T001812Z-2397-3",
+      "position": 3,
+      "original": {
+        "editorial": {
+          "format": "news",
+          "sources": [
+            {
+              "url": "https://www.pbs.org/newshour/show/news-wrap-newsom-signs-order-for-ai-safety-in-california",
+              "title": "News Wrap: Newsom signs order for AI safety in California",
+              "publisher": "PBS NewsHour",
+              "publishedAt": "2026-09-18T22:55:08.000Z",
+              "retrievedAt": "2026-09-19T00:18:12.786Z"
+            }
+          ],
+          "basis": "publisher_excerpt"
+        },
+        "id": "post-20260919T001812Z-2397-3",
+        "slug": "newsom-signs-california-order-with-a-possible-ai-kill-switch--706f73742d3230323630393139543030313831325a2d323339372d33",
+        "kind": "text_post",
+        "authorId": "editorial-news",
+        "createdAt": "2026-09-19T00:18:12.786Z",
+        "community": "united_states",
+        "title": "Newsom signs California order with a possible AI kill switch",
+        "body": "California Gov. Gavin Newsom signed an executive order aimed at speeding up AI safety measures, including a possible 'kill switch' for advanced models, according to PBS NewsHour.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/newsom-signs-california-order-with-a-possible-ai-kill-switch--706f73742d3230323630393139543030313831325a2d323339372d33/",
+      "issue36Sample": "first four",
+      "issue37Sample": true,
+      "initialBlindLabel": "74ed9c1bc729c0e4c03dde7dc7f20a6256a3315dae292879ad767b17d7e664a5",
+      "titlePayoff": 1,
+      "memorableSubstance": 0,
+      "initialReading": "source-hidden before reveal",
+      "chunkIndex": 3,
+      "resolvedModel": "nex-agi/nex-n2.5-mini:free",
+      "supportSelection": {
+        "postId": "post-20260919T001812Z-2397-3",
+        "evidenceIds": [
+          "S2E2"
+        ],
+        "discussion": []
+      },
+      "sourceRetrieval": {
+        "url": "https://www.pbs.org/newshour/show/news-wrap-newsom-signs-order-for-ai-safety-in-california",
+        "key": "1425a8db1b6a",
+        "status": 200,
+        "bytes": 265989,
+        "sha256": "b8d44b92d31d01a13d07ce8779a2208adf7fa3a29051bb4efc9a2309cf3be3c9"
+      },
+      "webVerification": "direct retrieved HTML",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "Newsom order aims to accelerate AI safety and includes possible switch",
+          "status": "supported",
+          "evidence": "S2E2",
+          "assessment": "PBS summary and transcript confirm; possible is retained. Parent excerpt ends in the next story but article does not fuse the subjects."
+        },
+        {
+          "scope": "editorial",
+          "claim": "Concrete learning beyond the headline",
+          "status": "weak",
+          "evidence": "S2E2",
+          "assessment": "No mechanism or specific implication; safe but thin headline restatement."
+        }
+      ],
+      "eventAngle": "distinct",
+      "relatedPostIds": [],
+      "originalWorthwhile": "no",
+      "correctionRecorded": false
+    },
+    {
+      "postId": "post-20260919T001812Z-2397-4",
+      "position": 4,
+      "original": {
+        "editorial": {
+          "format": "news",
+          "sources": [
+            {
+              "url": "https://www.cbc.ca/news/canada/edmonton/alberta-referendum-separatist-leaders-9.7349718?cmp=rss",
+              "title": "'Never giving up': Alberta separatist leaders say referendum vote won't end their fight",
+              "publisher": "CBC Canada",
+              "publishedAt": "2026-09-18T17:50:46.000Z",
+              "retrievedAt": "2026-09-19T00:18:12.786Z"
+            }
+          ],
+          "basis": "publisher_excerpt"
+        },
+        "id": "post-20260919T001812Z-2397-4",
+        "slug": "alberta-separatists-say-the-referendum-won-t-end-their-fight--706f73742d3230323630393139543030313831325a2d323339372d34",
+        "kind": "text_post",
+        "authorId": "editorial-news",
+        "createdAt": "2026-09-19T00:18:12.786Z",
+        "community": "canada",
+        "title": "Alberta separatists say the referendum won't end their fight",
+        "body": "Premier Danielle Smith and her government expect next month's separation referendum to be the last word on the subject. Those fighting for an independent Alberta say the fight will continue no matter the outcome.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/alberta-separatists-say-the-referendum-won-t-end-their-fight--706f73742d3230323630393139543030313831325a2d323339372d34/",
+      "issue36Sample": "supplemental six-post census",
+      "issue37Sample": false,
+      "initialBlindLabel": null,
+      "titlePayoff": 2,
+      "memorableSubstance": 1,
+      "initialReading": "unblinded supplement",
+      "chunkIndex": 3,
+      "resolvedModel": "nex-agi/nex-n2.5-mini:free",
+      "supportSelection": {
+        "postId": "post-20260919T001812Z-2397-4",
+        "evidenceIds": [
+          "S4E1",
+          "S4E2"
+        ],
+        "discussion": []
+      },
+      "sourceRetrieval": {
+        "url": "https://www.cbc.ca/news/canada/edmonton/alberta-referendum-separatist-leaders-9.7349718?cmp=rss",
+        "key": "2ef9dfb7a1e9",
+        "error": "The read operation timed out"
+      },
+      "webVerification": "unavailable",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "Smith government expects finality; separatists intend to persist whatever outcome",
+          "status": "retained-support supported; page unresolved",
+          "evidence": "S4E1,S4E2",
+          "assessment": "Complete sentence spans support both positions; CBC page timed out. No claim is labelled false due to access failure."
+        }
+      ],
+      "eventAngle": "distinct",
+      "relatedPostIds": [],
+      "originalWorthwhile": "unresolved",
+      "correctionRecorded": false
+    },
+    {
+      "postId": "post-20260919T001812Z-2397-5",
+      "position": 5,
+      "original": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://aws.amazon.com/blogs/machine-learning/migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-runtime/",
+              "title": "Migrating multi-model AI agents to Amazon Bedrock AgentCore runtime",
+              "publisher": "AWS Machine Learning",
+              "publishedAt": "2026-09-18T15:38:53.000Z",
+              "retrievedAt": "2026-09-19T00:18:12.786Z"
+            }
+          ],
+          "basis": "publisher_excerpt"
+        },
+        "id": "post-20260919T001812Z-2397-5",
+        "slug": "aws-s-pitch-for-managing-multi-model-ai-agents--706f73742d3230323630393139543030313831325a2d323339372d35",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-09-19T00:18:12.786Z",
+        "community": "ai_agents",
+        "title": "AWS's pitch for managing multi-model AI agents",
+        "body": "AWS says multi-model agentic applications can add operational overhead in container orchestration, scaling policies, identity, and observability. It says teams often spend more time on that infrastructure than on agent logic. Its AgentCore runtime handles container lifecycle, scaling, identity, and observability, so the pitch is to spend more time on agent code.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/aws-s-pitch-for-managing-multi-model-ai-agents--706f73742d3230323630393139543030313831325a2d323339372d35/",
+      "issue36Sample": "supplemental six-post census",
+      "issue37Sample": true,
+      "initialBlindLabel": "b064394b35b3edc83ce5da073efc59848cda3ea072b20d563b18faa4ad4a4bdf",
+      "titlePayoff": 2,
+      "memorableSubstance": 1,
+      "initialReading": "source-hidden before reveal",
+      "chunkIndex": 3,
+      "resolvedModel": "nex-agi/nex-n2.5-mini:free",
+      "supportSelection": {
+        "postId": "post-20260919T001812Z-2397-5",
+        "evidenceIds": [
+          "S6E1",
+          "S6E2",
+          "S6E6"
+        ],
+        "discussion": []
+      },
+      "sourceRetrieval": {
+        "url": "https://aws.amazon.com/blogs/machine-learning/migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-runtime/",
+        "key": "69d535f8a58d",
+        "error": "The read operation timed out"
+      },
+      "webVerification": "readable original page via web reader",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "Infrastructure burdens and managed runtime responsibilities",
+          "status": "supported vendor attribution",
+          "evidence": "S6E1,S6E2,S6E6",
+          "assessment": "Current AWS page confirms all responsibilities and its claim about teams’ time; attribution retained."
+        },
+        {
+          "scope": "editorial",
+          "claim": "Infrastructure relief is a new angle",
+          "status": "repeated angle",
+          "evidence": "S6E1,S6E2,S6E6",
+          "assessment": "post-20260918T182557Z-8bc1-8 already covers agent logic versus infrastructure. New URL but no material update in this body."
+        }
+      ],
+      "eventAngle": "repeated angle",
+      "relatedPostIds": [
+        "post-20260918T182557Z-8bc1-8"
+      ],
+      "originalWorthwhile": "no",
+      "correctionRecorded": false
+    }
+  ],
+  "frozenBaseline": [
+    {
+      "postId": "post-20260918T182557Z-8bc1-0",
+      "batchId": "20260918T182557Z-8bc1",
+      "position": 0,
+      "blindLabel": "09423c1502bd358eadea8ffa48a333d9ccb58ab776f6221b79a15bf777078c93",
+      "frozenCommit": "c5fd886383be0c7eeacafc98ab2d6d3cd26d8ddd",
+      "manuallyCorrectedAtFreeze": false,
+      "titlePayoff": 2,
+      "memorableSubstance": 1,
+      "originalWorthwhile": "no",
+      "sources": [
+        {
+          "url": "https://www.nasa.gov/missions/station/commercial-crew/nasa-awards-spacex-three-crew-flights-to-space-station/",
+          "title": "NASA Awards SpaceX Three Crew Flights to Space Station",
+          "publisher": "NASA",
+          "publishedAt": "2026-09-18T16:02:31.000Z",
+          "retrievedAt": "2026-09-18T18:25:57.734Z"
+        }
+      ],
+      "historicalInputEvidence": "unavailable—predates support audit implementation; current pages are not historical model inputs",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "Crew-15/16/17, $946m, contract type, operations/cargo/lifeboat and total 17",
+          "status": "supported",
+          "assessment": "NASA release confirms names, quantities and scope."
+        },
+        {
+          "scope": "discussion 0",
+          "claim": "Continuity infrastructure interpretation",
+          "status": "supported interpretation",
+          "assessment": "Follows enumerated ground-to-recovery work."
+        },
+        {
+          "scope": "discussion 1",
+          "claim": "These excerpts do not provide dates or assignments",
+          "status": "process defect",
+          "assessment": "Input narration; historical input unavailable. NASA page includes 2027/2028 readiness dates. Replace with supported docked-lifeboat role."
+        }
+      ],
+      "eventAngle": "distinct within own and preceding two ordinary editions",
+      "relatedPostIds": [],
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/nasa-adds-three-spacex-missions-to-its-crew-contract--706f73742d3230323630393138543138323535375a2d386263312d30/",
+      "currentPageVerification": [
+        {
+          "url": "https://www.nasa.gov/missions/station/commercial-crew/nasa-awards-spacex-three-crew-flights-to-space-station/",
+          "key": "8a863be8b838",
+          "status": 200,
+          "bytes": 281250,
+          "sha256": "8f0c4ed5529f1e89343952507db22a8f1acf7d817eae035defa791f406caf659",
+          "webReaderVerification": "not needed: direct HTML retrieval supplied the original page"
+        }
+      ]
+    },
+    {
+      "postId": "post-20260918T182557Z-8bc1-5",
+      "batchId": "20260918T182557Z-8bc1",
+      "position": 5,
+      "blindLabel": "fc794c9ab9009f89dcb823987de3b36e01aaa89adfbfd19c2c1635f7bf33dcf4",
+      "frozenCommit": "c5fd886383be0c7eeacafc98ab2d6d3cd26d8ddd",
+      "manuallyCorrectedAtFreeze": true,
+      "titlePayoff": 2,
+      "memorableSubstance": 2,
+      "originalWorthwhile": "yes—manual baseline intervention",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-detects-first-ever-spin-reversal-of-tiny-comet/",
+          "title": "NASA's Hubble Detects First-Ever Spin Reversal of Tiny Comet",
+          "publisher": "NASA",
+          "retrievedAt": "2026-09-18T20:17:38.937Z"
+        }
+      ],
+      "historicalInputEvidence": "unavailable—predates support audit implementation; current pages are not historical model inputs",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "41P rotation periods, near reversal and gas-jet explanation",
+          "status": "supported",
+          "assessment": "NASA report confirms 46–60 hours then about 14 hours and researchers’ simplest explanation. This frozen article was already manually corrected by #38; report separately."
+        }
+      ],
+      "eventAngle": "distinct within own and preceding two ordinary editions",
+      "relatedPostIds": [],
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/hubble-reveals-comet-3i-atlas-slowed-and-reversed-its-spin--706f73742d3230323630393138543138323535375a2d386263312d35/",
+      "currentPageVerification": [
+        {
+          "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-detects-first-ever-spin-reversal-of-tiny-comet/",
+          "key": "bb0a89084acf",
+          "status": 200,
+          "bytes": 313184,
+          "sha256": "4f2bc7054f2d340b027270dd3df90f808fcc52637f62e4fd2d263ad4dbbd447c",
+          "webReaderVerification": "not needed: direct HTML retrieval supplied the original page"
+        }
+      ]
+    },
+    {
+      "postId": "post-20260918T182557Z-8bc1-10",
+      "batchId": "20260918T182557Z-8bc1",
+      "position": 10,
+      "blindLabel": "262bd18105c6d75dd10895be0805c4ca20f1f15f025aebf0debf63c273e56372",
+      "frozenCommit": "c5fd886383be0c7eeacafc98ab2d6d3cd26d8ddd",
+      "manuallyCorrectedAtFreeze": false,
+      "titlePayoff": 2,
+      "memorableSubstance": 1,
+      "originalWorthwhile": "no",
+      "sources": [
+        {
+          "url": "https://variety.com/2026/film/news/supercinema-burbank-concrete-independent-studio-1236864742/",
+          "title": "New Independent Film Studio SuperCinema Launches in Burbank",
+          "publisher": "Variety Film",
+          "publishedAt": "2026-09-18T16:30:00.000Z",
+          "retrievedAt": "2026-09-18T18:25:57.734Z"
+        }
+      ],
+      "historicalInputEvidence": "unavailable—predates support audit implementation; current pages are not historical model inputs",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "Concrete Studios origin and production-through-distribution plan",
+          "status": "supported",
+          "assessment": "Variety confirms; last sentence largely repeats the preceding one."
+        },
+        {
+          "scope": "discussion 0",
+          "claim": "Could keep positioning coherent",
+          "status": "supported interpretation",
+          "assessment": "Qualified implication of vertical scope."
+        },
+        {
+          "scope": "discussion 1",
+          "claim": "Control alone does not demonstrate financing/audience reach",
+          "status": "supported logical qualification",
+          "assessment": "Not a claim the company lacks financing."
+        },
+        {
+          "scope": "discussion 2",
+          "claim": "Release planning no longer a handoff",
+          "status": "supported interpretation but repetitive",
+          "assessment": "Rephrases control of distribution."
+        }
+      ],
+      "eventAngle": "distinct within own and preceding two ordinary editions",
+      "relatedPostIds": [],
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/supercinema-plans-the-whole-film-pipeline--706f73742d3230323630393138543138323535375a2d386263312d3130/",
+      "currentPageVerification": [
+        {
+          "url": "https://variety.com/2026/film/news/supercinema-burbank-concrete-independent-studio-1236864742/",
+          "key": "d75988bb6c61",
+          "status": 200,
+          "bytes": 571735,
+          "sha256": "256cae61c35cf61aedc5612f2bd5e2b8a827aa525978cd1b84cf5ac5057a1720",
+          "webReaderVerification": "not needed: direct HTML retrieval supplied the original page"
+        }
+      ]
+    },
+    {
+      "postId": "post-20260918T182557Z-8bc1-15",
+      "batchId": "20260918T182557Z-8bc1",
+      "position": 15,
+      "blindLabel": "71c68ce31072f4a85ed78984ba9f1c364cbb28a4de18160d9e7a436ef3a9852e",
+      "frozenCommit": "c5fd886383be0c7eeacafc98ab2d6d3cd26d8ddd",
+      "manuallyCorrectedAtFreeze": false,
+      "titlePayoff": 2,
+      "memorableSubstance": 2,
+      "originalWorthwhile": "yes",
+      "sources": [
+        {
+          "url": "https://iep.utm.edu/solipsis/",
+          "title": "Solipsism and the Problem of Other Minds",
+          "publisher": "Internet Encyclopedia of Philosophy",
+          "retrievedAt": "2026-09-18T18:25:57.734Z"
+        }
+      ],
+      "historicalInputEvidence": "unavailable—predates support audit implementation; current pages are not historical model inputs",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "Contingent loneliness versus meaning/existence doctrine",
+          "status": "supported",
+          "assessment": "IEP opening and subsequent paragraph supply the distinction."
+        },
+        {
+          "scope": "body",
+          "claim": "No great philosopher explicitly espoused it",
+          "status": "supported attribution",
+          "assessment": "IEP says this explicitly; article attributes the statement rather than asserting consensus independently."
+        }
+      ],
+      "eventAngle": "distinct within own and preceding two ordinary editions",
+      "relatedPostIds": [],
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/solipsism-is-a-puzzle-about-meaning-not-just-loneliness--706f73742d3230323630393138543138323535375a2d386263312d3135/",
+      "currentPageVerification": [
+        {
+          "url": "https://iep.utm.edu/solipsis/",
+          "key": "83d531f4cd32",
+          "status": 200,
+          "bytes": 60733,
+          "sha256": "3713f49314068fbba4cfe58bd8fff5b89e88b964227c80cd6c998028f263b759",
+          "webReaderVerification": "not needed: direct HTML retrieval supplied the original page"
+        }
+      ]
+    },
+    {
+      "postId": "post-20260918T142908Z-67e3-0",
+      "batchId": "20260918T142908Z-67e3",
+      "position": 0,
+      "blindLabel": "d76b233308a1fc7df5f936bd2f9c00025b346430985795a7e7a950384171c7f9",
+      "frozenCommit": "c5fd886383be0c7eeacafc98ab2d6d3cd26d8ddd",
+      "manuallyCorrectedAtFreeze": false,
+      "titlePayoff": 2,
+      "memorableSubstance": 2,
+      "originalWorthwhile": "yes",
+      "sources": [
+        {
+          "url": "https://arstechnica.com/tech-policy/2026/09/republican-bill-would-order-isps-dns-providers-and-vpns-to-block-piracy-sites/",
+          "title": "Republican bill would order ISPs, DNS providers, and VPNs to block piracy sites",
+          "publisher": "Ars Technica",
+          "publishedAt": "2026-09-17T19:07:28.000Z",
+          "retrievedAt": "2026-09-18T14:29:08.539Z"
+        }
+      ],
+      "historicalInputEvidence": "unavailable—predates support audit implementation; current pages are not historical model inputs",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "Issa bill, judicial orders for foreign piracy sites and covered service types",
+          "status": "supported",
+          "assessment": "Ars reports proposal, not enacted law."
+        },
+        {
+          "scope": "body",
+          "claim": "Speed rationale for live events; MPA backing",
+          "status": "supported attribution",
+          "assessment": "Issa quotations and MPA advocacy in linked source support summary. Eligibility thresholds/exemptions are not enumerated; this is a scoped brief, not compliance guidance."
+        }
+      ],
+      "eventAngle": "distinct within own and preceding two ordinary editions",
+      "relatedPostIds": [],
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/isp-blocking-bill-targets-piracy-sites--706f73742d3230323630393138543134323930385a2d363765332d30/",
+      "currentPageVerification": [
+        {
+          "url": "https://arstechnica.com/tech-policy/2026/09/republican-bill-would-order-isps-dns-providers-and-vpns-to-block-piracy-sites/",
+          "key": "6c1f687ecb59",
+          "error": "HTTP Error 403: Forbidden",
+          "webReaderVerification": "readable original retrieved through web reader; claims checked after blind reading"
+        }
+      ]
+    },
+    {
+      "postId": "post-20260918T142908Z-67e3-1",
+      "batchId": "20260918T142908Z-67e3",
+      "position": 1,
+      "blindLabel": "f88e98c9d562c6f2aa79036a47d02f4a394a4198245434be4c156ee8d0211c6e",
+      "frozenCommit": "c5fd886383be0c7eeacafc98ab2d6d3cd26d8ddd",
+      "manuallyCorrectedAtFreeze": false,
+      "titlePayoff": 1,
+      "memorableSubstance": 1,
+      "originalWorthwhile": "no",
+      "sources": [
+        {
+          "url": "https://science.nasa.gov/uncategorized/nasas-hubble-spots-an-out-of-sync-galaxy/",
+          "title": "NASA’s Hubble Spots an Out-of-Sync Galaxy",
+          "publisher": "NASA",
+          "publishedAt": "2026-09-18T13:38:12.000Z",
+          "retrievedAt": "2026-09-18T14:29:08.539Z"
+        }
+      ],
+      "historicalInputEvidence": "unavailable—predates support audit implementation; current pages are not historical model inputs",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "55 million light-years, outer arms, older central stars, growing black hole",
+          "status": "supported",
+          "assessment": "NASA page confirms all details."
+        },
+        {
+          "scope": "title",
+          "claim": "Why arms remain outer",
+          "status": "unanswered promise",
+          "assessment": "Body describes morphology without cause; narrow title, do not invent arm mechanism."
+        }
+      ],
+      "eventAngle": "distinct within own and preceding two ordinary editions",
+      "relatedPostIds": [],
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/why-ngc-4698-s-spiral-arms-stay-outer--706f73742d3230323630393138543134323930385a2d363765332d31/",
+      "currentPageVerification": [
+        {
+          "url": "https://science.nasa.gov/uncategorized/nasas-hubble-spots-an-out-of-sync-galaxy/",
+          "key": "62d937d9bc4a",
+          "status": 200,
+          "bytes": 282324,
+          "sha256": "17df2c8881c4a8f752219b6a2ada0cfcdf4cd0c71140154eba0d4dfd6dd4a204",
+          "webReaderVerification": "not needed: direct HTML retrieval supplied the original page"
+        }
+      ]
+    },
+    {
+      "postId": "post-20260918T142908Z-67e3-2",
+      "batchId": "20260918T142908Z-67e3",
+      "position": 2,
+      "blindLabel": "1946059d3409073f74410162fff735dee606174b093e12dc228c1bab01bba793",
+      "frozenCommit": "c5fd886383be0c7eeacafc98ab2d6d3cd26d8ddd",
+      "manuallyCorrectedAtFreeze": false,
+      "titlePayoff": 2,
+      "memorableSubstance": 1,
+      "originalWorthwhile": "no",
+      "sources": [
+        {
+          "url": "https://theconversation.com/thanks-trump-why-canada-may-become-the-european-unions-first-ever-associate-member-292059",
+          "title": "Thanks, Trump: Why Canada may become the European Union’s first ever ‘associate member’",
+          "publisher": "The Conversation Canada",
+          "publishedAt": "2026-09-16T18:00:34.000Z",
+          "retrievedAt": "2026-09-18T14:29:08.539Z"
+        }
+      ],
+      "historicalInputEvidence": "unavailable—predates support audit implementation; current pages are not historical model inputs",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "Carney intent and von der Leyen endorsement",
+          "status": "source-reported support",
+          "assessment": "The Conversation explicitly reports both; not an enacted membership status."
+        },
+        {
+          "scope": "body",
+          "claim": "Carney frames it as sovereignty/US hostility hedge",
+          "status": "attribution error",
+          "assessment": "The hedge/insurance argument is the author’s analysis. Attribute that interpretation to the publication."
+        }
+      ],
+      "eventAngle": "distinct within own and preceding two ordinary editions",
+      "relatedPostIds": [],
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/canada-eyes-eu-associate-membership-amid-us-tensions--706f73742d3230323630393138543134323930385a2d363765332d32/",
+      "currentPageVerification": [
+        {
+          "url": "https://theconversation.com/thanks-trump-why-canada-may-become-the-european-unions-first-ever-associate-member-292059",
+          "key": "2ed63a7400d1",
+          "status": 200,
+          "bytes": 188517,
+          "sha256": "73ab4074f0c4d2104d144a4973cd34da64c835456305c7efe1e4327f89c074a2",
+          "webReaderVerification": "not needed: direct HTML retrieval supplied the original page"
+        }
+      ]
+    },
+    {
+      "postId": "post-20260918T142908Z-67e3-3",
+      "batchId": "20260918T142908Z-67e3",
+      "position": 3,
+      "blindLabel": "b21569592593a4f282ec436056e8b9407c293e1c6e4b300eddba92b53f7534a1",
+      "frozenCommit": "c5fd886383be0c7eeacafc98ab2d6d3cd26d8ddd",
+      "manuallyCorrectedAtFreeze": false,
+      "titlePayoff": 2,
+      "memorableSubstance": 2,
+      "originalWorthwhile": "no",
+      "sources": [
+        {
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/",
+          "title": "Introducing Amazon SageMaker HyperPod Inference Gateway",
+          "publisher": "AWS Machine Learning",
+          "publishedAt": "2026-09-18T13:08:34.000Z",
+          "retrievedAt": "2026-09-18T14:29:08.539Z"
+        }
+      ],
+      "historicalInputEvidence": "unavailable—predates support audit implementation; current pages are not historical model inputs",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "82% latency reduction, GPU-aware routing and EKS addon",
+          "status": "supported vendor claim",
+          "assessment": "AWS page supplies figure and routing mechanism; benchmark conditions must not become universal guarantee."
+        },
+        {
+          "scope": "body",
+          "claim": "Eliminates idle GPU waste",
+          "status": "overstated vendor pitch",
+          "assessment": "Source’s marketing phrase repeated without attribution; narrow to intended reduction."
+        },
+        {
+          "scope": "body",
+          "claim": "Extra operational layer could add complexity",
+          "status": "supported interpretation",
+          "assessment": "Qualified operational tradeoff retained."
+        }
+      ],
+      "eventAngle": "distinct within own and preceding two ordinary editions",
+      "relatedPostIds": [],
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/sagemaker-hyperpod-inference-gateway-fast-routing-or-added-complexity--706f73742d3230323630393138543134323930385a2d363765332d33/",
+      "currentPageVerification": [
+        {
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/",
+          "key": "72a147bca7de",
+          "error": "The read operation timed out",
+          "webReaderVerification": "readable original retrieved through web reader; claims checked after blind reading"
+        }
+      ]
+    },
+    {
+      "postId": "post-20260918T094304Z-2e4a-0",
+      "batchId": "20260918T094304Z-2e4a",
+      "position": 0,
+      "blindLabel": "9d21f898a54da8863bca9ffd1526b588ed1c88296cfbb1801b9b028068b7862f",
+      "frozenCommit": "c5fd886383be0c7eeacafc98ab2d6d3cd26d8ddd",
+      "manuallyCorrectedAtFreeze": false,
+      "titlePayoff": 2,
+      "memorableSubstance": 1,
+      "originalWorthwhile": "no",
+      "sources": [
+        {
+          "url": "https://arstechnica.com/cars/2026/09/2026-hyundai-ioniq-5-heres-what-we-still-like-heres-what-annoys-us/",
+          "title": "2026 Hyundai Ioniq 5: Here's what we still like, here's what annoys us",
+          "publisher": "Ars Technica",
+          "publishedAt": "2026-09-17T17:30:30.000Z",
+          "retrievedAt": "2026-09-18T09:43:04.653Z"
+        }
+      ],
+      "historicalInputEvidence": "unavailable—predates support audit implementation; current pages are not historical model inputs",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "320hp, 446lb-ft; EPA 269 versus 318 miles",
+          "status": "supported",
+          "assessment": "Ars review confirms AWD/RWD populations."
+        },
+        {
+          "scope": "body",
+          "claim": "2026 trim charges 10–80% in 18 minutes",
+          "status": "temporal/context error",
+          "assessment": "Ars opening discusses the 2021 debut; current-model passage says about 20 minutes on suitable high-power chargers, longer on older Superchargers."
+        },
+        {
+          "scope": "body",
+          "claim": "Visible S1E3/S1E5/S1E10",
+          "status": "evidence-ID leakage",
+          "assessment": "Remove internal markup through guarded correction."
+        },
+        {
+          "scope": "discussion 0",
+          "claim": "Charging advantage",
+          "status": "supported opinion",
+          "assessment": "Broad opinion; no promised universal charge time."
+        },
+        {
+          "scope": "discussion 1",
+          "claim": "Efficiency/range tradeoff for AWD",
+          "status": "supported",
+          "assessment": "Source explicitly makes tradeoff."
+        },
+        {
+          "scope": "discussion 2",
+          "claim": "Power may offset range loss for some drivers",
+          "status": "supported preference interpretation",
+          "assessment": "Not a quantified performance guarantee; preserve."
+        }
+      ],
+      "eventAngle": "distinct within own and preceding two ordinary editions",
+      "relatedPostIds": [],
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/hyundai-ioniq-5-awd-offers-fast-charge-but-reduced-range--706f73742d3230323630393138543039343330345a2d326534612d30/",
+      "currentPageVerification": [
+        {
+          "url": "https://arstechnica.com/cars/2026/09/2026-hyundai-ioniq-5-heres-what-we-still-like-heres-what-annoys-us/",
+          "key": "ab2d564f9b00",
+          "error": "HTTP Error 403: Forbidden",
+          "webReaderVerification": "readable original retrieved through web reader; claims checked after blind reading"
+        }
+      ]
+    },
+    {
+      "postId": "post-20260918T094304Z-2e4a-2",
+      "batchId": "20260918T094304Z-2e4a",
+      "position": 2,
+      "blindLabel": "00f03077d7fe5705ea0ac2e350135e7a0933d11b66107832ae6c6bce03c5bfa6",
+      "frozenCommit": "c5fd886383be0c7eeacafc98ab2d6d3cd26d8ddd",
+      "manuallyCorrectedAtFreeze": false,
+      "titlePayoff": 1,
+      "memorableSubstance": 1,
+      "originalWorthwhile": "no",
+      "sources": [
+        {
+          "url": "https://www.dw.com/en/king-charles-earl-spencer-clash-over-diana-death-once-again/a-79305876?maca=en-rss-en-world-4025-rdf",
+          "title": "King Charles, Earl Spencer clash over Diana death once again",
+          "publisher": "Deutsche Welle",
+          "publishedAt": "2026-09-17T11:06:00.000Z",
+          "retrievedAt": "2026-09-18T09:43:04.653Z"
+        }
+      ],
+      "historicalInputEvidence": "unavailable—predates support audit implementation; current pages are not historical model inputs",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "Palace rejection, Spencer relationship, decades-long criticism",
+          "status": "supported",
+          "assessment": "DW page confirms; thin familiar-feud framing has little payoff."
+        }
+      ],
+      "eventAngle": "distinct within own and preceding two ordinary editions",
+      "relatedPostIds": [],
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/palace-pushes-back-on-earl-spencer-s-latest-criticism-of-king-charles--706f73742d3230323630393138543039343330345a2d326534612d32/",
+      "currentPageVerification": [
+        {
+          "url": "https://www.dw.com/en/king-charles-earl-spencer-clash-over-diana-death-once-again/a-79305876?maca=en-rss-en-world-4025-rdf",
+          "key": "a93f76776f53",
+          "status": 200,
+          "bytes": 203455,
+          "sha256": "39b3428cfd40068ff5038cc400338d70301f5ceb34f70ca72287c1f0855d182c",
+          "webReaderVerification": "not needed: direct HTML retrieval supplied the original page"
+        }
+      ]
+    },
+    {
+      "postId": "post-20260918T094304Z-2e4a-5",
+      "batchId": "20260918T094304Z-2e4a",
+      "position": 5,
+      "blindLabel": "4dadd5fc58cdee04e29c2e24ca75cf696a254001d40c44f2b8fbd0b2875d0592",
+      "frozenCommit": "c5fd886383be0c7eeacafc98ab2d6d3cd26d8ddd",
+      "manuallyCorrectedAtFreeze": false,
+      "titlePayoff": 1,
+      "memorableSubstance": 0,
+      "originalWorthwhile": "no",
+      "sources": [
+        {
+          "url": "https://www.pbs.org/newshour/show/news-wrap-judge-says-kennedy-center-must-provide-notice-before-making-changes-to-building",
+          "title": "News Wrap: Judge says Kennedy Center must provide notice before making changes to building",
+          "publisher": "PBS NewsHour",
+          "publishedAt": "2026-09-17T22:45:01.000Z",
+          "retrievedAt": "2026-09-18T09:43:04.653Z"
+        }
+      ],
+      "historicalInputEvidence": "unavailable—predates support audit implementation; current pages are not historical model inputs",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "NASA new crater in imagery",
+          "status": "supported",
+          "assessment": "PBS transcript reports before/after images."
+        },
+        {
+          "scope": "body",
+          "claim": "Size suggests recency",
+          "status": "unsupported causal inference",
+          "assessment": "Image comparison supplies timing, not size alone."
+        },
+        {
+          "scope": "body",
+          "claim": "Scientists have not released impactor estimates",
+          "status": "unsupported absence claim",
+          "assessment": "PBS provides dimensions/date but no support for the claim about unreleased estimates. Remove without calling inaccessible historical inputs false."
+        }
+      ],
+      "eventAngle": "distinct within own and preceding two ordinary editions",
+      "relatedPostIds": [],
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/nasa-spots-a-massive-new-crater-on-the-moon--706f73742d3230323630393138543039343330345a2d326534612d35/",
+      "currentPageVerification": [
+        {
+          "url": "https://www.pbs.org/newshour/show/news-wrap-judge-says-kennedy-center-must-provide-notice-before-making-changes-to-building",
+          "key": "8676b5513a7e",
+          "status": 200,
+          "bytes": 269197,
+          "sha256": "06f05482ea0aea55248f69448814b55ded00115ac5cc314f5d2277c71609ee8b",
+          "webReaderVerification": "not needed: direct HTML retrieval supplied the original page"
+        }
+      ]
+    },
+    {
+      "postId": "post-20260918T094304Z-2e4a-8",
+      "batchId": "20260918T094304Z-2e4a",
+      "position": 8,
+      "blindLabel": "a7d39686e6794e93b06247b1cfe1240bec109d5ddd05bea44be352f0dea8463c",
+      "frozenCommit": "c5fd886383be0c7eeacafc98ab2d6d3cd26d8ddd",
+      "manuallyCorrectedAtFreeze": false,
+      "titlePayoff": 2,
+      "memorableSubstance": 2,
+      "originalWorthwhile": "yes",
+      "sources": [
+        {
+          "url": "https://news.mit.edu/2026/lifesaving-lincoln-laboratory-technology-wins-tech-transfer-award-0911",
+          "title": "Lifesaving Lincoln Laboratory device wins 2026 Excellence in Technology Transfer Award",
+          "publisher": "MIT News",
+          "publishedAt": "2026-09-11T13:45:00.000Z",
+          "retrievedAt": "2026-09-18T09:43:04.653Z"
+        }
+      ],
+      "historicalInputEvidence": "unavailable—predates support audit implementation; current pages are not historical model inputs",
+      "claims": [
+        {
+          "scope": "body",
+          "claim": "MIT/MGH ultrasound AI for guidewires/catheters, 2026 award",
+          "status": "supported",
+          "assessment": "MIT release confirms purpose and award."
+        },
+        {
+          "scope": "body",
+          "claim": "Three-year development and transfer to AutonomUS",
+          "status": "supported",
+          "assessment": "Release dates idea-to-proof-of-concept at three years; transfer of prototype underway."
+        },
+        {
+          "scope": "body",
+          "claim": "Promised survival benefit",
+          "status": "supported as prospect",
+          "assessment": "Source describes health/survival potential; article does not claim measured clinical efficacy."
+        }
+      ],
+      "eventAngle": "distinct within own and preceding two ordinary editions",
+      "relatedPostIds": [],
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/ai-guided-ultrasound-device-wins-federal-tech-transfer-award--706f73742d3230323630393138543039343330345a2d326534612d38/",
+      "currentPageVerification": [
+        {
+          "url": "https://news.mit.edu/2026/lifesaving-lincoln-laboratory-technology-wins-tech-transfer-award-0911",
+          "key": "2d0dbb5662da",
+          "status": 200,
+          "bytes": 106812,
+          "sha256": "e881af668fc389cd0441704176ac37a32295c9953f8ff693020226bc8ca1c55d",
+          "webReaderVerification": "not needed: direct HTML retrieval supplied the original page"
+        }
+      ]
+    }
+  ],
+  "comparisonLimitations": [
+    "Baseline preparatory worksheet was read before source-hidden pool; baseline recognition limits blinding. Subsequent bodies were unseen before initial scoring. Scores were saved before support/cohort reveal.",
+    "Twelve baseline samples versus four scheduled samples; only one eligible subsequent run; source/topic mix, provider routing and safeguards differ. No causal improvement or retention claim.",
+    "Comet article already manually corrected at freeze; exclude it from unassisted baseline quality numerator. Other current-copy corrections do not change frozen scores."
+  ],
+  "eventAngleWindows": {
+    "20260919T001812Z-2397": [
+      "20260918T213919Z-f7d9",
+      "20260918T182557Z-8bc1"
+    ],
+    "20260918T182557Z-8bc1": [
+      "20260918T142908Z-67e3",
+      "20260918T094304Z-2e4a"
+    ],
+    "20260918T142908Z-67e3": [
+      "20260918T094304Z-2e4a",
+      "20260918T044314Z-6f06"
+    ],
+    "20260918T094304Z-2e4a": [
+      "20260918T044314Z-6f06",
+      "20260918T001434Z-fca7"
+    ]
+  },
+  "observationGates": {
+    "36": {
+      "primaryReviewed": 20,
+      "supplementalReviewed": 2,
+      "totalReviewed": 22,
+      "editions": 2,
+      "remainingEditions": 3,
+      "remainingNumericPosts": 0,
+      "remainingFixedSamplePosts": 12,
+      "culture": "No culture in new edition; required coverage remains open; offline candidates do not count."
+    },
+    "37": {
+      "runsReviewed": 1,
+      "runsRemaining": 9,
+      "baselineSample": 12,
+      "subsequentFixedSample": 4,
+      "supplemental": 2,
+      "keepOpen": true
+    }
+  },
+  "previousUnresolvedChecks": [
+    "post-20260918T213919Z-f7d9-11 CBC Morrisseau: prior full-page timeouts unresolved; original ledger retained.",
+    "post-20260918T213919Z-f7d9-14 AWS inference review: prior full-page timeouts unresolved; a different AWS page retrieved today does not clear this check."
+  ],
+  "retrievals": [
+    {
+      "url": "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/",
+      "key": "ea36c1448b7e",
+      "error": "HTTP Error 403: Forbidden",
+      "webReaderVerification": "readable original retrieved through web reader; claims checked after blind reading"
+    },
+    {
+      "url": "https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hack-openai/",
+      "key": "0d07d819dbcf",
+      "error": "HTTP Error 403: Forbidden",
+      "webReaderVerification": "readable original retrieved through web reader; claims checked after blind reading"
+    },
+    {
+      "url": "https://arstechnica.com/cars/2026/09/2026-hyundai-ioniq-5-heres-what-we-still-like-heres-what-annoys-us/",
+      "key": "ab2d564f9b00",
+      "error": "HTTP Error 403: Forbidden",
+      "webReaderVerification": "readable original retrieved through web reader; claims checked after blind reading"
+    },
+    {
+      "url": "https://arstechnica.com/tech-policy/2026/09/republican-bill-would-order-isps-dns-providers-and-vpns-to-block-piracy-sites/",
+      "key": "6c1f687ecb59",
+      "error": "HTTP Error 403: Forbidden",
+      "webReaderVerification": "readable original retrieved through web reader; claims checked after blind reading"
+    },
+    {
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/",
+      "key": "72a147bca7de",
+      "error": "The read operation timed out",
+      "webReaderVerification": "readable original retrieved through web reader; claims checked after blind reading"
+    },
+    {
+      "url": "https://aws.amazon.com/blogs/machine-learning/migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-runtime/",
+      "key": "69d535f8a58d",
+      "error": "The read operation timed out",
+      "webReaderVerification": "readable original retrieved through web reader; claims checked after blind reading"
+    },
+    {
+      "url": "https://iep.utm.edu/solipsis/",
+      "key": "83d531f4cd32",
+      "status": 200,
+      "bytes": 60733,
+      "sha256": "3713f49314068fbba4cfe58bd8fff5b89e88b964227c80cd6c998028f263b759",
+      "webReaderVerification": "not needed: direct HTML retrieval supplied the original page"
+    },
+    {
+      "url": "https://news.mit.edu/2026/lifesaving-lincoln-laboratory-technology-wins-tech-transfer-award-0911",
+      "key": "2d0dbb5662da",
+      "status": 200,
+      "bytes": 106812,
+      "sha256": "e881af668fc389cd0441704176ac37a32295c9953f8ff693020226bc8ca1c55d",
+      "webReaderVerification": "not needed: direct HTML retrieval supplied the original page"
+    },
+    {
+      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-detects-first-ever-spin-reversal-of-tiny-comet/",
+      "key": "bb0a89084acf",
+      "status": 200,
+      "bytes": 313184,
+      "sha256": "4f2bc7054f2d340b027270dd3df90f808fcc52637f62e4fd2d263ad4dbbd447c",
+      "webReaderVerification": "not needed: direct HTML retrieval supplied the original page"
+    },
+    {
+      "url": "https://science.nasa.gov/uncategorized/nasas-hubble-spots-an-out-of-sync-galaxy/",
+      "key": "62d937d9bc4a",
+      "status": 200,
+      "bytes": 282324,
+      "sha256": "17df2c8881c4a8f752219b6a2ada0cfcdf4cd0c71140154eba0d4dfd6dd4a204",
+      "webReaderVerification": "not needed: direct HTML retrieval supplied the original page"
+    },
+    {
+      "url": "https://theconversation.com/thanks-trump-why-canada-may-become-the-european-unions-first-ever-associate-member-292059",
+      "key": "2ed63a7400d1",
+      "status": 200,
+      "bytes": 188517,
+      "sha256": "73ab4074f0c4d2104d144a4973cd34da64c835456305c7efe1e4327f89c074a2",
+      "webReaderVerification": "not needed: direct HTML retrieval supplied the original page"
+    },
+    {
+      "url": "https://variety.com/2026/film/news/supercinema-burbank-concrete-independent-studio-1236864742/",
+      "key": "d75988bb6c61",
+      "status": 200,
+      "bytes": 571735,
+      "sha256": "256cae61c35cf61aedc5612f2bd5e2b8a827aa525978cd1b84cf5ac5057a1720",
+      "webReaderVerification": "not needed: direct HTML retrieval supplied the original page"
+    },
+    {
+      "url": "https://www.bankofcanada.ca/2026/09/staff-analytical-paper-2026-43/",
+      "key": "0fef923add6b",
+      "status": 200,
+      "bytes": 134108,
+      "sha256": "befb72f6b008e61f11727bf8e420b5446b194be99fb9d9904dbb5e15d24b9864",
+      "webReaderVerification": "not needed: direct HTML retrieval supplied the original page"
+    },
+    {
+      "url": "https://www.cbc.ca/news/canada/edmonton/alberta-referendum-separatist-leaders-9.7349718?cmp=rss",
+      "key": "2ef9dfb7a1e9",
+      "error": "The read operation timed out",
+      "webReaderVerification": "unresolved: CBC original remains unavailable"
+    },
+    {
+      "url": "https://www.dw.com/en/king-charles-earl-spencer-clash-over-diana-death-once-again/a-79305876?maca=en-rss-en-world-4025-rdf",
+      "key": "a93f76776f53",
+      "status": 200,
+      "bytes": 203455,
+      "sha256": "39b3428cfd40068ff5038cc400338d70301f5ceb34f70ca72287c1f0855d182c",
+      "webReaderVerification": "not needed: direct HTML retrieval supplied the original page"
+    },
+    {
+      "url": "https://www.nasa.gov/missions/station/commercial-crew/nasa-awards-spacex-three-crew-flights-to-space-station/",
+      "key": "8a863be8b838",
+      "status": 200,
+      "bytes": 281250,
+      "sha256": "8f0c4ed5529f1e89343952507db22a8f1acf7d817eae035defa791f406caf659",
+      "webReaderVerification": "not needed: direct HTML retrieval supplied the original page"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/show/news-wrap-judge-says-kennedy-center-must-provide-notice-before-making-changes-to-building",
+      "key": "8676b5513a7e",
+      "status": 200,
+      "bytes": 269197,
+      "sha256": "06f05482ea0aea55248f69448814b55ded00115ac5cc314f5d2277c71609ee8b",
+      "webReaderVerification": "not needed: direct HTML retrieval supplied the original page"
+    },
+    {
+      "url": "https://www.pbs.org/newshour/show/news-wrap-newsom-signs-order-for-ai-safety-in-california",
+      "key": "1425a8db1b6a",
+      "status": 200,
+      "bytes": 265989,
+      "sha256": "b8d44b92d31d01a13d07ce8779a2208adf7fa3a29051bb4efc9a2309cf3be3c9",
+      "webReaderVerification": "not needed: direct HTML retrieval supplied the original page"
+    }
+  ],
+  "runListingEvidence": {
+    "endpoint": "actions/runs?per_page=100",
+    "returnedCount": 100,
+    "oldestCreatedAt": "2026-09-16T11:28:04Z",
+    "cutoff": "2026-09-19T02:39:19Z",
+    "generationRuns": [
+      {
+        "id": 35408871596,
+        "name": "Generate sourced feed",
+        "event": "schedule",
+        "created_at": "2026-09-19T00:17:55Z",
+        "head_sha": "6e83fe73f9dbf654c11f43cbece1bae10e89f54f",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 35405624271,
+        "name": "Generate sourced feed",
+        "event": "workflow_dispatch",
+        "created_at": "2026-09-18T23:25:22Z",
+        "head_sha": "9be086a8438adb0fdcdc9450348c4e4cd311e000",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 35397839301,
+        "name": "Generate sourced feed",
+        "event": "schedule",
+        "created_at": "2026-09-18T21:39:09Z",
+        "head_sha": "c5fd886383be0c7eeacafc98ab2d6d3cd26d8ddd",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 35380122228,
+        "name": "Generate sourced feed",
+        "event": "schedule",
+        "created_at": "2026-09-18T18:25:46Z",
+        "head_sha": "ba2e6b32f692f5334c11e243d27cb60215047967",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 35356489904,
+        "name": "Generate sourced feed",
+        "event": "schedule",
+        "created_at": "2026-09-18T14:28:58Z",
+        "head_sha": "e51e64631650507f2a18e84970be0effbe7e6b31",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 35330968341,
+        "name": "Generate sourced feed",
+        "event": "schedule",
+        "created_at": "2026-09-18T09:42:53Z",
+        "head_sha": "ce4354f1935b0f918207704c882930e463d0c157",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 35312535630,
+        "name": "Generate sourced feed",
+        "event": "workflow_dispatch",
+        "created_at": "2026-09-18T05:52:38Z",
+        "head_sha": "63b2d64ec01378471b4212d64bd80eff93f2c143",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 35310943867,
+        "name": "Generate sourced feed",
+        "event": "workflow_dispatch",
+        "created_at": "2026-09-18T05:28:36Z",
+        "head_sha": "06116080ee1fcc55f632f452f5f69adb4248854e",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 35310044742,
+        "name": "Generate sourced feed",
+        "event": "workflow_dispatch",
+        "created_at": "2026-09-18T05:14:45Z",
+        "head_sha": "23772d316244a11e7777a7e08c61945035453aa5",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 35309823975,
+        "name": "Generate sourced feed",
+        "event": "workflow_dispatch",
+        "created_at": "2026-09-18T05:11:19Z",
+        "head_sha": "c8b126b8ca1f00633a7b94f2354c481d3a0bf3ed",
+        "status": "completed",
+        "conclusion": "failure"
+      },
+      {
+        "id": 35308019367,
+        "name": "Generate sourced feed",
+        "event": "schedule",
+        "created_at": "2026-09-18T04:43:00Z",
+        "head_sha": "0d7b462137a490c25e79f4619b2c24f2f74869f4",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 35290332260,
+        "name": "Generate sourced feed",
+        "event": "schedule",
+        "created_at": "2026-09-18T00:14:20Z",
+        "head_sha": "e18d511e426f1e5c554a5df205248a2ae68ec190",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 35284074823,
+        "name": "Generate sourced feed",
+        "event": "workflow_dispatch",
+        "created_at": "2026-09-17T22:51:13Z",
+        "head_sha": "f978a6a003b50a9524c0b3a2533984c498851766",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 35281099399,
+        "name": "Generate sourced feed",
+        "event": "workflow_dispatch",
+        "created_at": "2026-09-17T22:15:32Z",
+        "head_sha": "225b7d874860d21a8f6e47a954ebd0affeb7ccc1",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 35275949220,
+        "name": "Generate sourced feed",
+        "event": "schedule",
+        "created_at": "2026-09-17T21:18:49Z",
+        "head_sha": "933e254b606cd79be67f93c0dc8dbf9d82e648c0",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 35274604582,
+        "name": "Generate sourced feed",
+        "event": "workflow_dispatch",
+        "created_at": "2026-09-17T21:04:40Z",
+        "head_sha": "5fef5e94983bd18f8d825c8cb8a67f10182c1f6d",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 35257250635,
+        "name": "Generate sourced feed",
+        "event": "schedule",
+        "created_at": "2026-09-17T18:10:57Z",
+        "head_sha": "3b76794b01a4acd852e3543940b06ccb3c397496",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 35249737884,
+        "name": "Generate sourced feed",
+        "event": "workflow_dispatch",
+        "created_at": "2026-09-17T16:57:16Z",
+        "head_sha": "af1b62152b2ec4ecbd0cace5eb8bf4771a55d67e",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 35226874178,
+        "name": "Generate sourced feed",
+        "event": "schedule",
+        "created_at": "2026-09-17T13:24:30Z",
+        "head_sha": "d4831abd3659cf1194ff3baf6961b83821c5e256",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 35195334919,
+        "name": "Generate sourced feed",
+        "event": "schedule",
+        "created_at": "2026-09-17T07:35:56Z",
+        "head_sha": "7acc465e459d14b92c79a5ec7d6d7f2b17580785",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 35191157715,
+        "name": "Generate sourced feed",
+        "event": "workflow_dispatch",
+        "created_at": "2026-09-17T06:44:14Z",
+        "head_sha": "e92c5d14a1727fe064a66e7bbab532fb1edd4d98",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 35187455068,
+        "name": "Generate sourced feed",
+        "event": "workflow_dispatch",
+        "created_at": "2026-09-17T05:52:29Z",
+        "head_sha": "dc9155a9859ffaf7f2c1679ee75b9a0e75f94530",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 35170298004,
+        "name": "Generate sourced feed",
+        "event": "schedule",
+        "created_at": "2026-09-17T01:22:28Z",
+        "head_sha": "7a36d4d0e200b247e85f64cef5c0c08dcf56eb5f",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 35163632906,
+        "name": "Generate sourced feed",
+        "event": "workflow_dispatch",
+        "created_at": "2026-09-16T23:44:50Z",
+        "head_sha": "b7a064b68e1e839c35e5cd35f91870e540f63499",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 35159898320,
+        "name": "Generate sourced feed",
+        "event": "schedule",
+        "created_at": "2026-09-16T22:54:31Z",
+        "head_sha": "888c9f040671154e3fa641c30c68118402a7d4d6",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 35158340992,
+        "name": "Generate sourced feed",
+        "event": "workflow_dispatch",
+        "created_at": "2026-09-16T22:34:28Z",
+        "head_sha": "91d8c9cc04a8c0596cc7fc1ae7028a9b2b43b1a6",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 35155614645,
+        "name": "Generate sourced feed",
+        "event": "workflow_dispatch",
+        "created_at": "2026-09-16T22:02:28Z",
+        "head_sha": "65b72bfe84b3d5ae6d88c3104ff2b60c96bdaae5",
+        "status": "completed",
+        "conclusion": "failure"
+      },
+      {
+        "id": 35144440899,
+        "name": "Generate sourced feed",
+        "event": "schedule",
+        "created_at": "2026-09-16T20:05:26Z",
+        "head_sha": "65b72bfe84b3d5ae6d88c3104ff2b60c96bdaae5",
+        "status": "completed",
+        "conclusion": "failure"
+      },
+      {
+        "id": 35122550236,
+        "name": "Generate sourced feed",
+        "event": "workflow_dispatch",
+        "created_at": "2026-09-16T16:32:28Z",
+        "head_sha": "b080dcc72c2210f57817c50143e9eecaa22a0526",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 35104908350,
+        "name": "Generate sourced feed",
+        "event": "workflow_dispatch",
+        "created_at": "2026-09-16T13:54:06Z",
+        "head_sha": "1fe8d5abe1fc98cc403a9557821bc8a12236dafa",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 35090466261,
+        "name": "Generate sourced feed",
+        "event": "schedule",
+        "created_at": "2026-09-16T11:28:04Z",
+        "head_sha": "4b131c6eb28f29af92eac00bd686c40b196117d2",
+        "status": "completed",
+        "conclusion": "skipped"
+      }
+    ]
+  }
+}
