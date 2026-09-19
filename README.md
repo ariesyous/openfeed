@@ -45,7 +45,7 @@ explainers. Full articles remain linked for context.
 Set `OPENROUTER_API_KEY` locally or as a repository secret. `OPENROUTER_MODEL` selects
 the model for local runs; manual Actions runs use the model dropdown. Scheduled runs
 are enabled at minute 17 of every hour (`17 * * * *`, UTC) and always use
-`openrouter/free`. Successful editions are committed and deployed automatically.
+`deepseek/deepseek-v4.1-flash`. Successful editions are committed and deployed automatically.
 Concurrency prevents overlapping generation jobs. The old `FEED_SCHEDULE_ENABLED`
 rollout gate is no longer used; pause automation by disabling the workflow in Actions.
 
@@ -95,8 +95,8 @@ subject remain welcome. This focused text check does not replace editorial revie
 Editions target twenty posts in requests of at most four, sharing eight total provider attempts.
 A shared 45-minute generation budget caps request timeouts and retry waits; the workflow
 has a 55-minute safety timeout. Validated partial editions can publish when a later request fails; weak evidence never gets padded. Manual Actions runs default to
-`openrouter/free`; Gemini remains an optional manual selection. Hourly scheduled runs
-always use `openrouter/free`, independent of the repository model variable.
+`openrouter/free`; Gemini and DeepSeek Flash remain optional manual selections. Hourly scheduled runs
+always use `deepseek/deepseek-v4.1-flash`, independent of the repository model variable.
 
 An empty model response defers that request's sources for the current run and tries
 a different unused selection. These calls share the same attempt/time budgets;
@@ -138,7 +138,7 @@ and record a bounded omission reason. See [editorial depth](docs/editorial-depth
 the thirteen-page source pilot, diagnostics, and the fixed ordinary-run review protocol.
 The #36 and #37 observation requirements remain open.
 
-`openrouter/free` remains the default. Provider failures can still occur; diagnostics now
+`openrouter/free` remains the local and manual default. Provider failures can still occur; diagnostics now
 distinguish absent choices, empty text with finish/reasoning/refusal metadata, and
 provider errors returned inside HTTP 200 responses. No raw reasoning is logged.
 

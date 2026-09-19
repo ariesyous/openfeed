@@ -19,7 +19,7 @@ permissions:
   contents: write
   actions: write
 
-# A run can retry several times against openrouter/free; without this, an overlapping
+# A run can retry several times against its selected model; without this, an overlapping
 # manual trigger would race with an in-flight run on the final git commit/push.
 concurrency:
   group: generate
@@ -52,7 +52,7 @@ jobs:
       - name: Run generator
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          OPENROUTER_MODEL: ${{ github.event_name == 'workflow_dispatch' && inputs.model || 'openrouter/free' }}
+          OPENROUTER_MODEL: ${{ github.event_name == 'workflow_dispatch' && inputs.model || 'deepseek/deepseek-v4.1-flash' }}
           EDITORIAL_AUDIT_DIR: artifacts
         run: pnpm generate
 
