@@ -264,7 +264,13 @@
     "manitobans brace for dark mornings lighter evenings after time change nixed",
     "liquidity optimization in gross settlement systems with quantum reordering application to target2",
     "hedonism",
-    "a new chapter for mit reads"
+    "a new chapter for mit reads",
+    "ai hallucination of chinese nuclear components almost led to us military attack",
+    "researchers used claude to hack openai",
+    "segmented inflation dynamics sid identifying trend inflation from the price index",
+    "news wrap newsom signs order for ai safety in california",
+    "never giving up alberta separatist leaders say referendum vote won t end their fight",
+    "migrating multi model ai agents to amazon bedrock agentcore runtime"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -530,12 +536,18 @@
     "https://globalnews.ca/news/12064969/manitoba-dark-mornings-time-change-nixed/",
     "https://www.bankofcanada.ca/2026/09/staff-working-paper-2026-32/",
     "https://iep.utm.edu/hedonism/",
-    "https://news.mit.edu/2026/new-chapter-mit-reads-0918"
+    "https://news.mit.edu/2026/new-chapter-mit-reads-0918",
+    "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/",
+    "https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hack-openai/",
+    "https://www.bankofcanada.ca/2026/09/staff-analytical-paper-2026-43/",
+    "https://www.pbs.org/newshour/show/news-wrap-newsom-signs-order-for-ai-safety-in-california",
+    "https://www.cbc.ca/news/canada/edmonton/alberta-referendum-separatist-leaders-9.7349718?cmp=rss",
+    "https://aws.amazon.com/blogs/machine-learning/migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-runtime/"
   ],
   "initialized": true,
-  "cycleCount": 30,
+  "cycleCount": 31,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-18T23:25:33.316Z",
+  "lastRunAt": "2026-09-19T00:18:12.786Z",
   "communities": [
     "technology",
     "science",
@@ -557,11 +569,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260918T094304Z-2e4a",
-      "generatedAtCycle": 26,
-      "summary": "Hyundai Ioniq 5 AWD offers fast charge but reduced range; RFK Jr. names eight members to the stalled preventive-medicine panel; Palace pushes back on Earl Spencer’s latest criticism of King Charles; Why dropping grades won’t automatically fix student stress; Plastic waste becomes a 40-foot bridge in Massachusetts; NASA spots a massive new crater on the Moon; House passes sweeping new sanctions on Russia; What the Navier‑Stokes equation is and why an AI‑proposed solution matters; AI‑guided ultras"
-    },
-    {
       "batchId": "20260918T142908Z-67e3",
       "generatedAtCycle": 27,
       "summary": "ISP Blocking Bill Targets Piracy Sites; Why NGC 4698’s Spiral Arms Stay Outer; Canada Eyes EU Associate Membership Amid US Tensions; SageMaker HyperPod Inference Gateway: Fast Routing or Added Complexity?"
@@ -580,6 +587,11 @@
       "batchId": "20260918T232533Z-bd16",
       "generatedAtCycle": 30,
       "summary": "Fear, Hope, and Not Knowing: The Recipe Suspense Runs On; Rice Is Rivalrous; Bruckner Is Not; Conservatives Want Audits of Ottawa's GlobalEye Purchase; FCC Clears Sovereign-Fund Stakes That Take Paramount's Foreign Ownership to 49.5%; Albania Set to Become the 73rd Country to Sign the Artemis Accords; A One-Percent Slice of the Cortex That Can Send a Mouse to Sleep; The Khmer Rouge Killed Nine in Ten of Cambodia's Professional Musicians. The Music Came Back.; Trump Says He Is Barring CNN, MS NOW"
+    },
+    {
+      "batchId": "20260919T001812Z-2397",
+      "generatedAtCycle": 31,
+      "summary": "AI hallucination nearly sparks military clash over Chinese vessel; Claude hacks OpenAI: Security researchers used Anthropic's tool to break into a ChatGPT account; How the Bank of Canada's SID tool segments the price index; Newsom signs California order with a possible AI kill switch; Alberta separatists say the referendum won't end their fight; AWS's pitch for managing multi-model AI agents"
     }
   ]
 }

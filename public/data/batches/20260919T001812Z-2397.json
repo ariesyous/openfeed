@@ -1,0 +1,230 @@
+{
+  "batchId": "20260919T001812Z-2397",
+  "generatedAt": "2026-09-19T00:18:12.786Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/",
+            "title": "AI hallucination of Chinese nuclear components almost led to US military attack",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-18T20:26:33.000Z",
+            "retrievedAt": "2026-09-19T00:18:12.786Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The episode shows that AI‑driven analysis can produce lethal misinformation, underscoring the need for rigorous validation before military decisions."
+          },
+          {
+            "voice": "Take",
+            "body": "The AI‑generated report was false and almost caused a war, confirming the danger of AI hallucinations in high‑stakes contexts."
+          }
+        ]
+      },
+      "id": "post-20260919T001812Z-2397-0",
+      "slug": "ai-hallucination-nearly-sparks-military-clash-over-chinese-vessel--706f73742d3230323630393139543030313831325a2d323339372d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T00:18:12.786Z",
+      "community": "technology",
+      "title": "AI hallucination nearly sparks military clash over Chinese vessel",
+      "body": "An AI‑generated intelligence report falsely claimed a Chinese vessel was carrying nuclear arms, prompting the US military to prepare a boarding operation with air support; investigators later discovered the chatbot had misidentified the ship’s cargo, a mistake officials said “almost started a war.”",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hack-openai/",
+            "title": "Researchers used Claude to hack OpenAI",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-18T13:30:12.000Z",
+            "retrievedAt": "2026-09-19T00:18:12.786Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "There's a dark comedy in Anthropic's safety tool being the one that cracked OpenAI's front door."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The more interesting point is structural: if an employee's ChatGPT account can expose private software internals, the risk isn't one company's tooling, it's the overlap between employee productivity apps and sensitive codebases."
+          }
+        ]
+      },
+      "id": "post-20260919T001812Z-2397-1",
+      "slug": "claude-hacks-openai-security-researchers-used-anthropic-s-tool-to-brea--706f73742d3230323630393139543030313831325a2d323339372d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T00:18:12.786Z",
+      "community": "technology",
+      "title": "Claude hacks OpenAI: Security researchers used Anthropic's tool to break into a ChatGPT account",
+      "body": "Cybersecurity researchers broke into an OpenAI employee's ChatGPT account using software from Anthropic, OpenAI's key rival. The team gained access to private software information and even suggested changes, highlighting vulnerabilities in the ChatGPT maker's security posture at a time when leading AI companies face mounting scrutiny over safety. The researchers had been given access to an Anthropic tool specifically designed for security professionals, and were paid for the work as part of a program to find vulnerabilities before bad actors could exploit them. The episode is a reminder that the AI industry's competitive rivalry extends to offensive security: one company's red-team instrument became the lever against another's infrastructure.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.bankofcanada.ca/2026/09/staff-analytical-paper-2026-43/",
+            "title": "Segmented Inflation Dynamics (SID): Identifying Trend Inflation from the Price Index",
+            "publisher": "Bank of Canada",
+            "publishedAt": "2026-09-18T10:06:39.000Z",
+            "retrievedAt": "2026-09-19T00:18:12.786Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T001812Z-2397-2",
+      "slug": "how-the-bank-of-canada-s-sid-tool-segments-the-price-index--706f73742d3230323630393139543030313831325a2d323339372d32",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-19T00:18:12.786Z",
+      "community": "economics",
+      "title": "How the Bank of Canada's SID tool segments the price index",
+      "body": "Segmented Inflation Dynamics (SID) is a data-driven tool for assessing trend inflation. It uses time-series segmentation to divide the price index into contiguous segments with stable inflation rates. Based on data through December 2025, the Bank says SID indicates Canada's trend inflation has been near 2 percent since early 2024.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/news-wrap-newsom-signs-order-for-ai-safety-in-california",
+            "title": "News Wrap: Newsom signs order for AI safety in California",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-18T22:55:08.000Z",
+            "retrievedAt": "2026-09-19T00:18:12.786Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T001812Z-2397-3",
+      "slug": "newsom-signs-california-order-with-a-possible-ai-kill-switch--706f73742d3230323630393139543030313831325a2d323339372d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T00:18:12.786Z",
+      "community": "united_states",
+      "title": "Newsom signs California order with a possible AI kill switch",
+      "body": "California Gov. Gavin Newsom signed an executive order aimed at speeding up AI safety measures, including a possible 'kill switch' for advanced models, according to PBS NewsHour.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/edmonton/alberta-referendum-separatist-leaders-9.7349718?cmp=rss",
+            "title": "'Never giving up': Alberta separatist leaders say referendum vote won't end their fight",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-18T17:50:46.000Z",
+            "retrievedAt": "2026-09-19T00:18:12.786Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T001812Z-2397-4",
+      "slug": "alberta-separatists-say-the-referendum-won-t-end-their-fight--706f73742d3230323630393139543030313831325a2d323339372d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T00:18:12.786Z",
+      "community": "canada",
+      "title": "Alberta separatists say the referendum won't end their fight",
+      "body": "Premier Danielle Smith and her government expect next month's separation referendum to be the last word on the subject. Those fighting for an independent Alberta say the fight will continue no matter the outcome.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-runtime/",
+            "title": "Migrating multi-model AI agents to Amazon Bedrock AgentCore runtime",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-18T15:38:53.000Z",
+            "retrievedAt": "2026-09-19T00:18:12.786Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T001812Z-2397-5",
+      "slug": "aws-s-pitch-for-managing-multi-model-ai-agents--706f73742d3230323630393139543030313831325a2d323339372d35",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-19T00:18:12.786Z",
+      "community": "ai_agents",
+      "title": "AWS's pitch for managing multi-model AI agents",
+      "body": "AWS says multi-model agentic applications can add operational overhead in container orchestration, scaling policies, identity, and observability. It says teams often spend more time on that infrastructure than on agent logic. Its AgentCore runtime handles container lifecycle, scaling, identity, and observability, so the pitch is to spend more time on agent code.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
