@@ -1,9 +1,9 @@
 name: Generate sourced feed
 
-# Hourly generation enabled after successful live validation and user authorization.
+# Generation every three hours, as requested by the user.
 on:
   schedule:
-    - cron: "17 * * * *"
+    - cron: "17 */3 * * *"
   workflow_dispatch:
     inputs:
       model:

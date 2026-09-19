@@ -16,7 +16,7 @@ This direction supersedes the original fictional-world specification.
 - `editorial/generate.ts`: validates citations/evidence, enriches source metadata.
 - `editorial/state.ts`: tracks covered source URLs, never invented storylines.
 - `generator/publish.ts`: sole validated writer for public data and world state.
-- `.github/workflows/generate.yml`: manual model selection plus enabled hourly schedule using deepseek/deepseek-v4.1-flash.
+- `.github/workflows/generate.yml`: manual model selection plus enabled schedule every three hours using deepseek/deepseek-v4.1-flash.
 - `.github/workflows/deploy.yml`: validates, builds, and deploys pushes to main.
 
 The old bootstrap/advanceWorld modules and `scripts/seed/` are historical code, not the
@@ -66,7 +66,7 @@ not a live OpenRouter run. The evergreen shelf is finite and must be expanded as
 The editorial request carries a strict JSON schema derived from Zod; nullable transport
 fields normalize to optional draft values. Both structured and fallback output pass the
 same local evidence validation. Editions target twenty posts in requests capped at four, sharing eight total attempts and a shared 45-minute generation deadline (55-minute workflow timeout). Keep `openrouter/free` as the manual default; Gemini and DeepSeek Flash are optional manual selections.
-At the user’s request on September 19, scheduled runs are enabled hourly at minute 17
+At the user’s request on September 19, scheduled runs are enabled every three hours at minute 17 (UTC)
 and pinned to `deepseek/deepseek-v4.1-flash`. Earlier free-router observation records
 remain historical; scheduled DeepSeek runs are not free-router cohort evidence.
 Keep attempt diagnostics bounded and credential-redacted; log failure details and
