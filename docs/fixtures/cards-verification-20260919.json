@@ -1,0 +1,152 @@
+{
+  "observedAt": "2026-09-19",
+  "revision": "b6455bc8e0320dc1f6ab9b9ddd41ed042009b873",
+  "surface": "Deployed GitHub Pages; JS/CSS asset names match the local build. Real posts selected through Cards, including explicit Revisit articles.",
+  "viewport": {
+    "width": 1363,
+    "height": 936,
+    "rootFontPx": 16,
+    "touch": false,
+    "reducedMotion": "Not emulated; default setting"
+  },
+  "assets": {
+    "javascript": "index-CqzZiTEO.js",
+    "css": "index-DSKRfACr.css"
+  },
+  "limitations": [
+    "Desktop rendering only. No mobile emulation or physical phone.",
+    "Fixed development-only sample route blocked; these are the same eight IDs reached through the deployed deck.",
+    "Geometry plus screenshot review for each fixed sample; not a personal reading trial or screen-reader audit.",
+    "No rendered fallback occurred. Enlarged-root, landscape, safe areas and touch remain unverified.",
+    "Existing browser presentation history retained; explicit revisiting used for already-presented samples."
+  ],
+  "records": [
+    {
+      "bodyFont": "18.88px",
+      "controlsBottom": 928,
+      "copyHeight": 209,
+      "documentHeight": 936,
+      "footerBottom": 843.40625,
+      "hidden": null,
+      "href": "/openfeed/p/the-ai-slowdown-meeting--706f73742d656469746f7269616c2d6c61756e63682d32303236303931352d34/",
+      "inert": false,
+      "readingHeight": 652,
+      "sources": "BBC Technology ↗ · Published Sep 13, 2026\nOpen article ↗",
+      "title": "The AI slowdown meeting",
+      "id": "post-editorial-launch-20260915-4"
+    },
+    {
+      "bodyFont": "18.88px",
+      "controlsBottom": 928,
+      "copyHeight": 209,
+      "documentHeight": 936,
+      "footerBottom": 843.40625,
+      "hidden": null,
+      "href": "/openfeed/p/nasa-adds-three-spacex-missions-to-its-crew-contract--706f73742d3230323630393138543138323535375a2d386263312d30/",
+      "inert": false,
+      "readingHeight": 652,
+      "sources": "NASA ↗ · Published Sep 18, 2026\nArticle & discussion (2) ↗",
+      "title": "NASA adds three SpaceX missions to its crew contract",
+      "id": "post-20260918T182557Z-8bc1-0"
+    },
+    {
+      "bodyFont": "18.88px",
+      "controlsBottom": 928,
+      "copyHeight": 182,
+      "documentHeight": 936,
+      "footerBottom": 843.40625,
+      "hidden": null,
+      "href": "/openfeed/p/suspicion-with-a-constructive-aim--706f73742d3230323630393138543138323535375a2d386263312d32/",
+      "inert": false,
+      "readingHeight": 652,
+      "sources": "Stanford Encyclopedia of Philosophy ↗ · Publication date unavailable\nArticle & discussion (2) ↗",
+      "title": "Suspicion with a constructive aim",
+      "id": "post-20260918T182557Z-8bc1-2"
+    },
+    {
+      "bodyFont": null,
+      "controlsBottom": 928,
+      "copyHeight": 92,
+      "documentHeight": 936,
+      "footerBottom": 843.40625,
+      "hidden": null,
+      "href": "/openfeed/p/resident-evil-reboot-why-the-film-s-past-matters--706f73742d3230323630393138543034343331345a2d366630362d30/",
+      "inert": false,
+      "readingHeight": 652,
+      "sources": "Variety Film ↗ · Published Sep 18, 2026\nArticle & discussion (3) ↗",
+      "title": "Resident Evil Reboot: Why the Film’s Past Matters",
+      "id": "post-20260918T044314Z-6f06-0"
+    },
+    {
+      "bodyFont": "18.88px",
+      "controlsBottom": 928,
+      "copyHeight": 235,
+      "documentHeight": 936,
+      "footerBottom": 843.40625,
+      "hidden": null,
+      "href": "/openfeed/p/resident-evil-reboot-why-the-film-s-past-matters--706f73742d3230323630393138543034343331345a2d366630362d30/",
+      "inert": false,
+      "readingHeight": 652,
+      "sources": "Variety Film ↗ · Published Sep 18, 2026\nArticle & discussion (3) ↗",
+      "title": "Resident Evil Reboot: Why the Film’s Past Matters",
+      "id": "post-20260918T044314Z-6f06-0",
+      "state": "revealed"
+    },
+    {
+      "bodyFont": "18.88px",
+      "controlsBottom": 928,
+      "copyHeight": 166,
+      "documentHeight": 936,
+      "footerBottom": 843.40625,
+      "hidden": null,
+      "href": "/openfeed/p/universal-proceeds-with-international-release-of-gibney-s-4-hour-musk--706f73742d3230323630393138543034343331345a2d366630362d36/",
+      "inert": false,
+      "readingHeight": 652,
+      "sources": "Variety Film ↗ · Published Sep 18, 2026\nArticle & discussion (3) ↗",
+      "title": "Universal proceeds with international release of Gibney's 4-hour Musk documentary despite legal threats",
+      "id": "post-20260918T044314Z-6f06-6"
+    },
+    {
+      "bodyFont": "18.88px",
+      "controlsBottom": 928,
+      "copyHeight": 129,
+      "documentHeight": 936,
+      "footerBottom": 843.40625,
+      "hidden": null,
+      "href": "/openfeed/p/jerry-adler-broadway-veteran-and-sopranos-actor-dies-at-96--706f73742d3230323630393138543034343331345a2d366630362d3134/",
+      "inert": false,
+      "readingHeight": 652,
+      "sources": "The Guardian ↗ · Published Aug 24, 2025\nArticle & discussion (2) ↗",
+      "title": "Jerry Adler, Broadway veteran and Sopranos actor, dies at 96",
+      "id": "post-20260918T044314Z-6f06-14"
+    },
+    {
+      "bodyFont": "18.88px",
+      "controlsBottom": 928,
+      "copyHeight": 192,
+      "documentHeight": 936,
+      "footerBottom": 843.40625,
+      "hidden": null,
+      "href": "/openfeed/p/canadians-eye-european-study-and-work-options-amid-us-trade-tensions--706f73742d3230323630393137543232353132365a2d346163382d3134/",
+      "inert": false,
+      "readingHeight": 634,
+      "sources": "BBC World ↗ · Published Sep 17, 2026\nBBC US & Canada ↗ · Published Sep 17, 2026\nArticle & discussion (2) ↗",
+      "title": "Canadians Eye European Study and Work Options Amid US Trade Tensions",
+      "id": "post-20260917T225126Z-4ac8-14"
+    },
+    {
+      "bodyFont": "18.88px",
+      "controlsBottom": 928,
+      "copyHeight": 394,
+      "documentHeight": 936,
+      "footerBottom": 843.40625,
+      "hidden": null,
+      "href": "/openfeed/p/why-88-of-ai-proofs-of-concept-never-make-it-to-production--706f73742d3230323630393137543231303435325a2d613736342d31/",
+      "inert": false,
+      "readingHeight": 652,
+      "sources": "AWS Machine Learning ↗ · Published Sep 17, 2026\nArticle & discussion (3) ↗",
+      "title": "Why 88% of AI proofs-of-concept never make it to production",
+      "id": "post-20260917T210452Z-a764-1"
+    }
+  ]
+}
