@@ -238,3 +238,11 @@ Four reviewed shelf additions bring the inventory to 63; do not revive consumed 
 add the duplicate Medusa angle. Nine exact corrections use scripts/correctScheduledAudit.ts.
 The 28-case benchmark exposes twelve semantic counterexamples; no new automatic semantic
 gate or prompt change was added. Keep both observation issues open.
+
+## Movie and Sopranos shelf — September 19
+Read docs/movie-sopranos-source-review-20260919.md and its reduced fixtures. Four additions
+bring the shelf to 67. ASC single stories use a specifically marked div body; recommendation
+article tiles are not that body. Keep the exact layout markers, fail closed on missing body,
+and preserve coherent-section boundaries. Source packet validation is not generated quality;
+#36/#37 historical observation counts are unchanged. Blue Heron’s structural angle needs
+spoiler protection; Carmela’s analysis is the interviewer’s interpretation, not Falco’s belief.
