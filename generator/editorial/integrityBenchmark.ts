@@ -65,6 +65,22 @@ const profits = { ...source("profits", "EJ Antoni: Manufacturing profits soar on
   "Dr. Antoni is writing about corporate net income after tax.\n\n" +
   "doesn’t mean underlying productivity is higher."), publisher: "Econbrowser", topic: "economics" };
 
+// Post-42 manual edition: short retained support, not full historical prompts.
+const growth = { ...source("growth", "GDPNow Goes Gangbusters",
+  "https://econbrowser.com/archives/2026/09/gdpnow-goes-gangbusters",
+  "GDPNow as of today is 5.1% q/q AR for Q3:\n\n" +
+  "the just released FT-Booth forecast , for 2% q4/q4 growth"), publisher: "Econbrowser", topic: "economics" };
+const neurons = { ...source("neurons", "Finding the cells that put our brain to sleep",
+  "https://arstechnica.com/science/2026/09/finding-the-cells-that-put-our-brain-to-sleep/",
+  "These cortical cells make up only around one percent of the cortex's inhibitory neurons"), publisher: "Ars Technica" };
+const rivalry = { ...source("rivalry", "Public Goods",
+  "https://plato.stanford.edu/entries/public-goods/",
+  "A good is rivalrous if and only if an individual’s consumption of it diminishes others’ ability to consume it."),
+  publisher: "Stanford Encyclopedia of Philosophy", topic: "economics" };
+const asteroids = source("asteroids", "Asteroids",
+  "https://science.nasa.gov/solar-system/asteroids/",
+  "Asteroids range in size from Vesta – the largest at about 329 miles (530 kilometers) in diameter");
+
 export const INTEGRITY_EXAMPLES: IntegrityExample[] = [
   { id: "comet-entity-wrong", category: "entity", source: comet,
     draft: draft(comet, "Hubble detects a comet's spin reversal", "Hubble observations show that comet 3I/ATLAS slowed and reversed its spin.", cometQuotes),
@@ -121,6 +137,30 @@ export const INTEGRITY_EXAMPLES: IntegrityExample[] = [
   { id: "live-speaker-attribution-supported", category: "speaker-attribution", source: profits,
     draft: draft(profits, "What the profit figure means", "Econbrowser's author critiques Antoni's focus on after-tax income and cautions that it does not establish higher underlying productivity.", profits.excerpt.split("\n\n")),
     expectedEditorialDecision: "accept", reviewReason: "The source subject and the author making the qualification remain distinct; reviewed against the linked article, not inferred by an automated judge." },
+  { id: "manual-growth-periods-wrong", category: "comparison-period", source: growth,
+    draft: draft(growth, "Why the forecasts disagree", "The 5.1 percent and 2 percent figures measure the same period, so their gap proves the methods disagree.", growth.excerpt.split("\n\n")),
+    expectedEditorialDecision: "reject", reviewReason: "The post-42 edition compared Q3 annualized quarter growth with Q4-over-Q4 growth. Different time bases do not establish a model disagreement." },
+  { id: "manual-growth-periods-supported", category: "comparison-period", source: growth,
+    draft: draft(growth, "Growth rates need time periods", "GDPNow's 5.1 percent is Q3 annualized quarter-over-quarter growth; FT-Booth's 2 percent is fourth-quarter-over-fourth-quarter growth. The rates describe different spans.", growth.excerpt.split("\n\n")),
+    expectedEditorialDecision: "accept", reviewReason: "Retains each estimate's time basis without inventing a cause for a numeric difference." },
+  { id: "manual-title-denominator-wrong", category: "title-denominator", source: neurons,
+    draft: draft(neurons, "One percent of the cortex", "The reported population makes up around one percent of the cortex's inhibitory neurons.", [neurons.excerpt]),
+    expectedEditorialDecision: "reject", reviewReason: "A correct body does not repair a title that drops the inhibitory-neuron denominator." },
+  { id: "manual-title-denominator-supported", category: "title-denominator", source: neurons,
+    draft: draft(neurons, "A small population of inhibitory neurons", "The reported population makes up around one percent of the cortex's inhibitory neurons.", [neurons.excerpt]),
+    expectedEditorialDecision: "accept", reviewReason: "The title and body retain the population distinction without implying a share of total cortex volume." },
+  { id: "manual-nonrival-price-wrong", category: "concept-distinction", source: rivalry,
+    draft: draft(rivalry, "Non-rival goods cost nothing", "If a good is non-rival, another person can consume it at no cost.", [rivalry.excerpt]),
+    expectedEditorialDecision: "reject", reviewReason: "Non-rivalry concerns undiminished consumption, not a zero price or absence of delivery costs." },
+  { id: "manual-nonrival-price-supported", category: "concept-distinction", source: rivalry,
+    draft: draft(rivalry, "Consumption without subtraction", "With a non-rival good, one person's consumption does not diminish another person's ability to consume it.", [rivalry.excerpt]),
+    expectedEditorialDecision: "accept", reviewReason: "The explanation retains the source's consumption criterion instead of importing a claim about price." },
+  { id: "manual-asteroid-class-wrong", category: "comparison-class", source: asteroids,
+    draft: draft(asteroids, "The largest body in the belt", "NASA identifies Vesta as the largest body in the asteroid belt.", [asteroids.excerpt]),
+    expectedEditorialDecision: "reject", reviewReason: "The source describes the asteroid category, not every body in the belt; the original article widened that comparison class." },
+  { id: "manual-asteroid-class-supported", category: "comparison-class", source: asteroids,
+    draft: draft(asteroids, "Vesta gives the size range a scale", "NASA puts Vesta's diameter at about 530 kilometers.", [asteroids.excerpt]),
+    expectedEditorialDecision: "accept", reviewReason: "Retains the supported dimension and approximate value without broadening the superlative." },
 ];
 
 export function reviewIntegrityBenchmark() {

@@ -190,6 +190,17 @@ little, do not expand it into generic salvage. Physical Cards verification remai
 
 ## Local verification
 
+### Post-42 early observation
+
+#39 and #42 are merged. The [manual follow-up](post42-live-review-20260918.md) inspected
+all twenty posts and 27 discussion turns from run 35405624271. It used
+`deepseek/deepseek-v4.1-flash`, not the scheduled free router, and contributes zero of
+the ten required ordinary runs. It shows useful concrete explanations and zero observed
+evidence-ID leaks, but also semantic errors despite valid provenance. There were zero
+automatic discussion omissions, so live retry savings are unproven. Ten reviewed content
+corrections and focused prompt/benchmark additions are documented separately from observed
+generated quality. The fixed evaluation protocol and open #36/#37 requirements stand.
+
 `pnpm typecheck && pnpm lint && pnpm test && pnpm build` passed: 212 tests in 25 files;
 226 permanent articles and eleven topic pages remain in the production archive build.
 Tests exercise structured/fallback handling, whole-block omissions, strict parents, unknown/

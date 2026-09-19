@@ -58,6 +58,12 @@ If serious errors persist, narrow source eligibility before considering a bounde
 
 ## WP2 follow-up
 
+The [post-42 manual review](post42-live-review-20260918.md) audits twenty further posts
+and 27 discussion turns, with ten guarded corrections and eight additional benchmark
+cases (24 total; ten semantic counterexamples still pass provenance). That run requested
+DeepSeek directly, so ordinary #36 progress remains sixteen posts across one edition.
+The original bounded support snapshot is retained as a review fixture, outside public assets.
+
 [Editorial depth and discussion isolation](editorial-depth.md) builds on this contract.
 Accepted audit posts can now include the optional fixed `discussionOmission` reason. The
 selection passed to the audit builder contains only surviving discussion; omitted-only

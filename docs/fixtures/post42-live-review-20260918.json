@@ -1,0 +1,1414 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-09-18",
+  "baselineCommit": "6e83fe73f9dbf654c11f43cbece1bae10e89f54f",
+  "generationCommit": "9be086a8438adb0fdcdc9450348c4e4cd311e000",
+  "publicationCommit": "6e83fe73f9dbf654c11f43cbece1bae10e89f54f",
+  "runId": 35405624271,
+  "runUrl": "https://github.com/ariesyous/openfeed/actions/runs/35405624271",
+  "jobId": 105794679955,
+  "event": "workflow_dispatch",
+  "requestedModel": "deepseek/deepseek-v4.1-flash",
+  "batchId": "20260918T232533Z-bd16",
+  "artifactId": 10572606551,
+  "artifactUrl": "https://github.com/ariesyous/openfeed/actions/runs/35405624271/artifacts/10572606551",
+  "artifactExpiresAt": "2026-10-02T23:36:14Z",
+  "artifactZipSha256": "837293587fc52bc10974441f136af8fe20b1c122db92ebcd43591d70c77f8519",
+  "auditJsonSha256": "a4ed986e17ae8e96dc46fccb37311341e6d94d1044697dc5c071521b24ffe181",
+  "supportSnapshot": "post42-selected-support-20260918.json",
+  "selectionRule": "Census of all 20 original posts and all 27 discussion turns; manual other-model run, excluded from ordinary-run gates. Unblinded review; not the WP2 comparative experiment.",
+  "metrics": {
+    "target": 20,
+    "generatedDrafts": 20,
+    "accepted": 20,
+    "published": 20,
+    "reviewed": 20,
+    "originalVerifiedWorthwhile": 7,
+    "unresolvedWorthwhile": 1,
+    "attempts": 5,
+    "maxAttempts": 8,
+    "discussionOmissions": 0,
+    "providerFailures": 0,
+    "rejectedResponses": 0,
+    "emptySelections": 0,
+    "sourceCollected": 206,
+    "sourceUnused": 138,
+    "evergreenUnconsumedBeforeFetch": 18,
+    "evergreenShelfTotal": 59,
+    "evergreenFetchFailures": 8,
+    "evergreenSourcesUsed": 5,
+    "distinctSourcesUsed": 20,
+    "publisherGroupsUsed": 12,
+    "acceptedPerChunk": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "generationElapsedMs": 638593,
+    "jobElapsedSeconds": 657,
+    "artifactZipBytes": 7997,
+    "auditJsonBytes": 34218,
+    "topics": {
+      "movies": 1,
+      "economics": 4,
+      "canada": 3,
+      "united_states": 3,
+      "world": 2,
+      "science": 2,
+      "ai_agents": 1,
+      "philosophy": 3,
+      "technology": 1
+    },
+    "formats": {
+      "explainer": 10,
+      "news": 7,
+      "story": 3
+    },
+    "medianBodyWords": 109.0
+  },
+  "observationGates": {
+    "issue36": {
+      "ordinaryPostsReviewed": 16,
+      "ordinaryEditionsReviewed": 1,
+      "requiredPosts": 20,
+      "requiredEditions": 5,
+      "remainingEditionsMinimum": 4,
+      "newEligibleEditions": 0,
+      "complete": false
+    },
+    "issue37": {
+      "eligibleOrdinaryFreeRouterRuns": 0,
+      "requiredRuns": 10,
+      "remainingRuns": 10,
+      "comparativeReview": "pending",
+      "complete": false
+    }
+  },
+  "posts": [
+    {
+      "postId": "post-20260918T232533Z-bd16-0",
+      "title": "Fear, Hope, and Not Knowing: The Recipe Suspense Runs On",
+      "topic": "movies",
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/fear-hope-and-not-knowing-the-recipe-suspense-runs-on--706f73742d3230323630393138543233323533335a2d626431362d30/",
+      "sourceReferences": [
+        {
+          "url": "https://plato.stanford.edu/entries/paradox-suspense/",
+          "title": "The Paradox of Suspense",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "retrievedAt": "2026-09-18T23:25:33.316Z"
+        }
+      ],
+      "chunkIndex": 1,
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "bodyEvidenceIds": [
+        "S8E2",
+        "S8E5",
+        "S8E9"
+      ],
+      "currentPageVerification": {
+        "index": 0,
+        "url": "https://plato.stanford.edu/entries/paradox-suspense/",
+        "checkedAt": "2026-09-18T23:45:09Z",
+        "status": 200,
+        "finalUrl": "https://plato.stanford.edu/entries/paradox-suspense/",
+        "characters": 30658,
+        "htmlSha256": "b15b17c1178c82bccdc2e72f8c084dd8f671558582748f11022c9b978a355f68"
+      },
+      "originalVerdict": "supported-current-page",
+      "titlePayoff": 2,
+      "memorableSubstance": 2,
+      "independentlyWorthReading": "yes",
+      "worthwhileReason": "An attributed account of suspense and a usable stakes/probability mechanism.",
+      "claims": [
+        {
+          "claim": "Fear, hope and uncertainty; definitions of fear/hope; Ortony/Clore/Collins attribution.",
+          "assessment": "S8E2 and partial S8E5; current SEP opening supports the definitions and attribution."
+        },
+        {
+          "claim": "Dangerous-neighborhood example and desirability/likelihood mechanism.",
+          "assessment": "Current SEP opening supports both. Selected parent S8E9 omits its continuation; the example is not retained. Body exceeds selected support; a fresh page is not proof of original model input."
+        }
+      ],
+      "discussion": [
+        {
+          "turnIndex": 0,
+          "voice": "Take",
+          "evidenceIds": [
+            "S8E9"
+          ],
+          "body": "The sting of the account is that fear here is aimed at something that may never happen. The emotion is doing its work on a merely possible event, which is why it can be manufactured before anything goes wrong.",
+          "assessment": "Adds a supported implication of prospect emotions (S8E9), with a truncated selected sentence."
+        },
+        {
+          "turnIndex": 1,
+          "voice": "Pushback",
+          "evidenceIds": [
+            "S8E11"
+          ],
+          "body": "It also makes tension a dial rather than a mood. Raise the danger or the odds of the bad outcome and the fear is supposed to rise with them, which is a claim you can test by rewriting the same scene with worse stakes.",
+          "assessment": "Adds a hypothetical scene-writing application of S8E11, not a reported experiment."
+        },
+        {
+          "turnIndex": 2,
+          "voice": "Reply",
+          "evidenceIds": [
+            "S8E2",
+            "S8E5"
+          ],
+          "body": "Fine, but on this account dread alone is not suspense. You also need hope in the mix — something the viewer wants to happen — or you have atmosphere rather than a scene that pulls.",
+          "assessment": "Useful distinction: this account needs hope as well as fear (S8E2/S8E5); interpretation, not a universal claim about all theories."
+        }
+      ],
+      "eventAngle": {
+        "verdict": "distinct",
+        "relatedPostIds": [],
+        "assessment": "No repeated event/angle found in own edition or the previous two ordinary editions."
+      },
+      "correctionRecorded": false
+    },
+    {
+      "postId": "post-20260918T232533Z-bd16-1",
+      "title": "Rice Is Rivalrous; Bruckner Is Not",
+      "topic": "economics",
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/rice-is-rivalrous-bruckner-is-not--706f73742d3230323630393138543233323533335a2d626431362d31/",
+      "sourceReferences": [
+        {
+          "url": "https://plato.stanford.edu/entries/public-goods/",
+          "title": "Public Goods",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "retrievedAt": "2026-09-18T23:25:33.316Z"
+        }
+      ],
+      "chunkIndex": 1,
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "bodyEvidenceIds": [
+        "S5E1",
+        "S5E8",
+        "S5E9"
+      ],
+      "currentPageVerification": {
+        "index": 1,
+        "url": "https://plato.stanford.edu/entries/public-goods/",
+        "checkedAt": "2026-09-18T23:45:09Z",
+        "status": 200,
+        "finalUrl": "https://plato.stanford.edu/entries/public-goods/",
+        "characters": 68114,
+        "htmlSha256": "722733301f3ff2c322ae8db2878bf3c55bdbd3fd9bdbdcaf8431e5b7aed00f43"
+      },
+      "originalVerdict": "unsupported-concept-extension",
+      "titlePayoff": 2,
+      "memorableSubstance": 2,
+      "independentlyWorthReading": "no",
+      "worthwhileReason": "Clear rice/music explanation, weakened by the final zero-cost implication.",
+      "claims": [
+        {
+          "claim": "Samuelson and predecessors; collective consumption; rice/music example.",
+          "assessment": "Verified in current SEP page. Only the start of the historical sentence and definition IDs S5E1/S5E8/S5E9 were selected; predecessor names and examples are not saved body evidence."
+        },
+        {
+          "claim": "Music can be enjoyed at no cost to the second listener.",
+          "assessment": "Non-rivalry does not establish free access or zero cost. Narrow to undiminished consumption, preserving the useful example."
+        }
+      ],
+      "discussion": [],
+      "eventAngle": {
+        "verdict": "distinct",
+        "relatedPostIds": [],
+        "assessment": "No repeated event/angle found in own edition or the previous two ordinary editions."
+      },
+      "correctionRecorded": true
+    },
+    {
+      "postId": "post-20260918T232533Z-bd16-2",
+      "title": "Conservatives Want Audits of Ottawa's GlobalEye Purchase",
+      "topic": "canada",
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/conservatives-want-audits-of-ottawa-s-globaleye-purchase--706f73742d3230323630393138543233323533335a2d626431362d32/",
+      "sourceReferences": [
+        {
+          "url": "https://www.cbc.ca/news/politics/globaleye-military-saab-canada-surveillance-9.7350393?cmp=rss",
+          "title": "GlobalEye surveillance plane under the microscope as Conservatives call for twin probes",
+          "publisher": "CBC Canada",
+          "publishedAt": "2026-09-18T22:00:41.000Z",
+          "retrievedAt": "2026-09-18T23:25:33.316Z"
+        }
+      ],
+      "chunkIndex": 1,
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "bodyEvidenceIds": [
+        "S6E1",
+        "S6E2"
+      ],
+      "currentPageVerification": {
+        "index": 2,
+        "url": "https://www.cbc.ca/news/politics/globaleye-military-saab-canada-surveillance-9.7350393?cmp=rss",
+        "checkedAt": "2026-09-18T23:45:09Z",
+        "error": "The read operation timed out"
+      },
+      "originalVerdict": "unsupported-negative-claim",
+      "titlePayoff": 2,
+      "memorableSubstance": 1,
+      "independentlyWorthReading": "no",
+      "worthwhileReason": "Useful procurement sequence but adds an unverified claim about what was not alleged or found.",
+      "claims": [
+        {
+          "claim": "Conservatives request AG/PBO scrutiny; Saab meets some requirements; competitors not shown requirements.",
+          "assessment": "S6E1/S6E2 support core, but S6E2 ends before preferred-aircraft continuation; CBC page timed out."
+        },
+        {
+          "claim": "No finding alleged or probe outcome part of request.",
+          "assessment": "Not established by retained support. Remove this negative inference; unavailable CBC is not evidence that it is false."
+        }
+      ],
+      "discussion": [],
+      "eventAngle": {
+        "verdict": "distinct",
+        "relatedPostIds": [],
+        "assessment": "No repeated event/angle found in own edition or the previous two ordinary editions."
+      },
+      "correctionRecorded": true
+    },
+    {
+      "postId": "post-20260918T232533Z-bd16-3",
+      "title": "FCC Clears Sovereign-Fund Stakes That Take Paramount's Foreign Ownership to 49.5%",
+      "topic": "united_states",
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/fcc-clears-sovereign-fund-stakes-that-take-paramount-s-foreign-ownersh--706f73742d3230323630393138543233323533335a2d626431362d33/",
+      "sourceReferences": [
+        {
+          "url": "https://arstechnica.com/tech-policy/2026/09/fcc-lets-paramount-sell-49-5-equity-stake-to-saudi-arabia-uae-and-qatar/",
+          "title": "FCC lets Paramount sell 49.5% equity stake to Saudi Arabia, UAE, and Qatar",
+          "publisher": "Ars Technica",
+          "publishedAt": "2026-09-18T17:57:41.000Z",
+          "retrievedAt": "2026-09-18T23:25:33.316Z"
+        }
+      ],
+      "chunkIndex": 1,
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "bodyEvidenceIds": [
+        "S10E1",
+        "S10E5",
+        "S10E8"
+      ],
+      "currentPageVerification": {
+        "index": 3,
+        "url": "https://arstechnica.com/tech-policy/2026/09/fcc-lets-paramount-sell-49-5-equity-stake-to-saudi-arabia-uae-and-qatar/",
+        "checkedAt": "2026-09-18T23:45:09Z",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "originalVerdict": "unresolved",
+      "titlePayoff": 2,
+      "memorableSubstance": 2,
+      "independentlyWorthReading": "unresolved",
+      "worthwhileReason": "Financing/regulatory distinction is promising but several body facts cannot be certified from retained spans.",
+      "claims": [
+        {
+          "claim": "FCC approval; three sovereign funds; 49.5 percent indirect ownership; 111-billion-dollar deal and lawsuit; DOJ approval.",
+          "assessment": "Selected S10E1/S10E5/S10E8 are incomplete sentence parts. S10E10 in discussion supports DOJ. Core relationships are visible, but full claim support is incomplete."
+        },
+        {
+          "claim": "25 percent rule for direct/indirect ownership and 28 CBS stations.",
+          "assessment": "Neither is retained in the audit. Ars returned 403; do not certify legal scope or call it false on access failure. No correction based solely on that absence."
+        }
+      ],
+      "discussion": [
+        {
+          "turnIndex": 0,
+          "voice": "Take",
+          "evidenceIds": [
+            "S10E1",
+            "S10E8",
+            "S10E10"
+          ],
+          "body": "Two separate gates are visible here: the FCC signed off on the foreign ownership stakes, while the merger itself sits contested in court and separately approved by the Justice Department.",
+          "assessment": "Useful distinction between approval processes; S10E1/S10E8/S10E10 support the premise but contain incomplete spans."
+        },
+        {
+          "turnIndex": 1,
+          "voice": "Pushback",
+          "evidenceIds": [
+            "S10E5",
+            "S10E8"
+          ],
+          "body": "Separate on paper, but the financing is the link. The deal is partly financed by foreign investment, so clearing the ownership question looks like progress toward closing a merger that states are still trying to stop.",
+          "assessment": "Financing link is a reasonable qualified interpretation of S10E5/S10E8."
+        }
+      ],
+      "eventAngle": {
+        "verdict": "distinct",
+        "relatedPostIds": [],
+        "assessment": "No repeated event/angle found in own edition or the previous two ordinary editions."
+      },
+      "correctionRecorded": false
+    },
+    {
+      "postId": "post-20260918T232533Z-bd16-4",
+      "title": "Albania Set to Become the 73rd Country to Sign the Artemis Accords",
+      "topic": "world",
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/albania-set-to-become-the-73rd-country-to-sign-the-artemis-accords--706f73742d3230323630393138543233323533335a2d626431362d34/",
+      "sourceReferences": [
+        {
+          "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-albania-artemis-accords-signing-ceremony/",
+          "title": "NASA Invites Media to Albania Artemis Accords Signing Ceremony",
+          "publisher": "NASA",
+          "publishedAt": "2026-09-18T19:56:08.000Z",
+          "retrievedAt": "2026-09-18T23:25:33.316Z"
+        }
+      ],
+      "chunkIndex": 2,
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "bodyEvidenceIds": [
+        "S2E1",
+        "S2E2",
+        "S2E3"
+      ],
+      "currentPageVerification": {
+        "index": 4,
+        "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-albania-artemis-accords-signing-ceremony/",
+        "checkedAt": "2026-09-18T23:45:09Z",
+        "status": 200,
+        "finalUrl": "https://www.nasa.gov/news-release/nasa-invites-media-to-albania-artemis-accords-signing-ceremony/",
+        "characters": 7355,
+        "htmlSha256": "d160d74ed0a8b88ef27669d72abddd6f0e5f0cb3274521808f8d337b97c14d12"
+      },
+      "originalVerdict": "supported-current-page",
+      "titlePayoff": 2,
+      "memorableSubstance": 1,
+      "independentlyWorthReading": "yes",
+      "worthwhileReason": "A useful upcoming-signing brief, though media RSVP logistics add little.",
+      "claims": [
+        {
+          "claim": "Albania, 73rd signatory, noon EDT September 21 at NASA HQ.",
+          "assessment": "S2E1/S2E2 plus current NASA advisory support future tense, date and ordinal."
+        },
+        {
+          "claim": "Anderson/Hoxha/Bushati, State officials, in-person RSVP; safety/transparency/coordination principles.",
+          "assessment": "Current NASA advisory confirms; selected S2E3 stops before Bushati and the rest is not retained parent evidence. Moon is within source scope (also Mars/beyond); no invented extension."
+        }
+      ],
+      "discussion": [],
+      "eventAngle": {
+        "verdict": "distinct",
+        "relatedPostIds": [],
+        "assessment": "No repeated event/angle found in own edition or the previous two ordinary editions."
+      },
+      "correctionRecorded": false
+    },
+    {
+      "postId": "post-20260918T232533Z-bd16-5",
+      "title": "A One-Percent Slice of the Cortex That Can Send a Mouse to Sleep",
+      "topic": "science",
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/a-one-percent-slice-of-the-cortex-that-can-send-a-mouse-to-sleep--706f73742d3230323630393138543233323533335a2d626431362d35/",
+      "sourceReferences": [
+        {
+          "url": "https://arstechnica.com/science/2026/09/finding-the-cells-that-put-our-brain-to-sleep/",
+          "title": "Finding the cells that put our brain to sleep",
+          "publisher": "Ars Technica",
+          "publishedAt": "2026-09-18T17:49:50.000Z",
+          "retrievedAt": "2026-09-18T23:25:33.316Z"
+        }
+      ],
+      "chunkIndex": 2,
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "bodyEvidenceIds": [
+        "S10E4",
+        "S10E5",
+        "S10E7"
+      ],
+      "currentPageVerification": {
+        "index": 5,
+        "url": "https://arstechnica.com/science/2026/09/finding-the-cells-that-put-our-brain-to-sleep/",
+        "checkedAt": "2026-09-18T23:45:09Z",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      "originalVerdict": "title-denominator-error",
+      "titlePayoff": 1,
+      "memorableSubstance": 2,
+      "independentlyWorthReading": "no",
+      "worthwhileReason": "The body preserves the neuron population; the title drops its denominator.",
+      "claims": [
+        {
+          "claim": "One percent of cortex in title versus one percent of inhibitory neurons in body.",
+          "assessment": "S10E5 explicitly limits the denominator to inhibitory neurons. Correct title."
+        },
+        {
+          "claim": "Terral/Batista-Brito, Nature study, activating mouse neurons, initiating deep-sleep rhythm.",
+          "assessment": "S10E4/S10E5/S10E7 support study and direction but omit continuation of sleep claims and first name. Ars 403 leaves full-page verification unresolved."
+        }
+      ],
+      "discussion": [
+        {
+          "turnIndex": 0,
+          "voice": "Take",
+          "evidenceIds": [
+            "S10E5"
+          ],
+          "body": "A one-percent population of inhibitory neurons acting as a sleep switch is a strikingly small lever for such a large behavior.",
+          "assessment": "Retains inhibitory-neuron denominator (S10E5); useful emphasis, not another whole-cortex claim."
+        },
+        {
+          "turnIndex": 1,
+          "voice": "Reply",
+          "evidenceIds": [
+            "S10E7"
+          ],
+          "body": "The claim is narrower than that. It is about the cortex initiating the rhythm, not about these cells running the whole sleep system.",
+          "assessment": "Adds a useful limit to the sleep-switch metaphor, grounded in S10E7, with continuation unavailable."
+        }
+      ],
+      "eventAngle": {
+        "verdict": "distinct",
+        "relatedPostIds": [],
+        "assessment": "No repeated event/angle found in own edition or the previous two ordinary editions."
+      },
+      "correctionRecorded": true
+    },
+    {
+      "postId": "post-20260918T232533Z-bd16-6",
+      "title": "The Khmer Rouge Killed Nine in Ten of Cambodia's Professional Musicians. The Music Came Back.",
+      "topic": "world",
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/the-khmer-rouge-killed-nine-in-ten-of-cambodia-s-professional-musician--706f73742d3230323630393138543233323533335a2d626431362d36/",
+      "sourceReferences": [
+        {
+          "url": "https://daily.jstor.org/how-cambodian-pop-music-survived-the-khmer-rouge/",
+          "title": "How Cambodian Pop Music Survived the Khmer Rouge",
+          "publisher": "JSTOR Daily",
+          "publishedAt": "2026-09-15T13:47:44.000Z",
+          "retrievedAt": "2026-09-18T23:25:33.316Z"
+        }
+      ],
+      "chunkIndex": 2,
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "bodyEvidenceIds": [
+        "S9E4",
+        "S9E5",
+        "S9E6"
+      ],
+      "currentPageVerification": {
+        "index": 6,
+        "url": "https://daily.jstor.org/how-cambodian-pop-music-survived-the-khmer-rouge/",
+        "checkedAt": "2026-09-18T23:45:09Z",
+        "status": 200,
+        "finalUrl": "https://daily.jstor.org/how-cambodian-pop-music-survived-the-khmer-rouge/",
+        "characters": 8752,
+        "htmlSha256": "f7a7c14138489cbba9cb288579f2524d270a1b74200209a5d0e5bcdee68ab80b"
+      },
+      "originalVerdict": "supported-current-page",
+      "titlePayoff": 2,
+      "memorableSubstance": 2,
+      "independentlyWorthReading": "yes",
+      "worthwhileReason": "Historical loss and technology-assisted return are concrete; mechanism mostly appears in discussion.",
+      "claims": [
+        {
+          "claim": "Khmer Rouge closures, nine in ten professional musicians killed, twenty-year cultural interruption.",
+          "assessment": "S9E4/S9E5/S9E6 and current JSTOR page support stated population, period and revival. Not nine in ten Cambodians or all musicians."
+        }
+      ],
+      "discussion": [
+        {
+          "turnIndex": 0,
+          "voice": "Context",
+          "evidenceIds": [
+            "S9E10",
+            "S9E11",
+            "S9E12"
+          ],
+          "body": "Ethnographer Stephen Mamula, conducting fieldwork in Phnom Penh between 2004 and 2006, was struck by the musical vitality of the country's soundscape and the ubiquity of colorful CD jewel cases on display. He found that access to technologies such as television and compact discs was instrumental in regenerating indigenous culture.",
+          "assessment": "Adds the payoff: Mamula fieldwork in 2004–06 and TV/CD access. S9E10–12 support; current page confirms name and context."
+        },
+        {
+          "turnIndex": 1,
+          "voice": "Take",
+          "evidenceIds": [
+            "S9E12"
+          ],
+          "body": "That puts the return in an unexpected place: consumer hardware, TV sets and discs, as the vehicle that carried a tradition back into daily life.",
+          "assessment": "Useful interpretation of consumer media as a vehicle for cultural return (S9E12)."
+        }
+      ],
+      "eventAngle": {
+        "verdict": "distinct",
+        "relatedPostIds": [],
+        "assessment": "No repeated event/angle found in own edition or the previous two ordinary editions."
+      },
+      "correctionRecorded": false
+    },
+    {
+      "postId": "post-20260918T232533Z-bd16-7",
+      "title": "Trump Says He Is Barring CNN, MS NOW and Politico From the White House",
+      "topic": "united_states",
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/trump-says-he-is-barring-cnn-ms-now-and-politico-from-the-white-house--706f73742d3230323630393138543233323533335a2d626431362d37/",
+      "sourceReferences": [
+        {
+          "url": "https://www.pbs.org/newshour/show/trump-says-hes-banning-3-outlets-from-white-house-in-his-latest-attack-on-press-freedom",
+          "title": "Trump says he's banning 3 outlets from White House in his latest attack on press freedom",
+          "publisher": "PBS NewsHour",
+          "publishedAt": "2026-09-18T22:56:04.000Z",
+          "retrievedAt": "2026-09-18T23:25:33.316Z"
+        }
+      ],
+      "chunkIndex": 2,
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "bodyEvidenceIds": [
+        "S3E1",
+        "S3E2",
+        "S3E3"
+      ],
+      "currentPageVerification": {
+        "index": 7,
+        "url": "https://www.pbs.org/newshour/show/trump-says-hes-banning-3-outlets-from-white-house-in-his-latest-attack-on-press-freedom",
+        "checkedAt": "2026-09-18T23:45:09Z",
+        "status": 200,
+        "finalUrl": "https://www.pbs.org/newshour/show/trump-says-hes-banning-3-outlets-from-white-house-in-his-latest-attack-on-press-freedom",
+        "characters": 5932,
+        "htmlSha256": "eb5890b98f2d13202985c5b3e670bab285a5197aaeac894333cac3c180ca39b4"
+      },
+      "originalVerdict": "supported-current-page",
+      "titlePayoff": 2,
+      "memorableSubstance": 1,
+      "independentlyWorthReading": "yes",
+      "worthwhileReason": "A concise news brief preserves says/warned rather than asserting an implemented ban.",
+      "claims": [
+        {
+          "claim": "Trump says CNN/MS NOW/Politico barred; unfavorable coverage; no implementation details; possible other outlets.",
+          "assessment": "Complete S3E1–3 and current PBS summary agree. Unlike post 2, absence of details is explicitly in the source."
+        }
+      ],
+      "discussion": [],
+      "eventAngle": {
+        "verdict": "distinct",
+        "relatedPostIds": [],
+        "assessment": "No repeated event/angle found in own edition or the previous two ordinary editions."
+      },
+      "correctionRecorded": false
+    },
+    {
+      "postId": "post-20260918T232533Z-bd16-8",
+      "title": "Attach the skills, don't let the agent improvise",
+      "topic": "ai_agents",
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/attach-the-skills-don-t-let-the-agent-improvise--706f73742d3230323630393138543233323533335a2d626431362d38/",
+      "sourceReferences": [
+        {
+          "url": "https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents/",
+          "title": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
+          "publisher": "AWS Machine Learning",
+          "publishedAt": "2026-09-18T15:25:23.000Z",
+          "retrievedAt": "2026-09-18T23:25:33.316Z"
+        }
+      ],
+      "chunkIndex": 3,
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "bodyEvidenceIds": [
+        "S14E7",
+        "S14E8",
+        "S14E9"
+      ],
+      "currentPageVerification": {
+        "index": 8,
+        "url": "https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents/",
+        "checkedAt": "2026-09-18T23:45:09Z",
+        "error": "The read operation timed out",
+        "additionalVerification": "Official AWS indexed article passage retrieved through web search; direct page still timed out/failed. Not a full-page verification."
+      },
+      "originalVerdict": "unsupported-discussion-generalizations",
+      "titlePayoff": 2,
+      "memorableSubstance": 2,
+      "independentlyWorthReading": "no",
+      "worthwhileReason": "Concrete deployment tradeoff, but discussion invents detection times and universal habits.",
+      "claims": [
+        {
+          "claim": "Unguided agents; newer-model knowledge gaps.",
+          "assessment": "Body S14E7–9 directly support."
+        },
+        {
+          "claim": "Architecture, region image tags, memory fit, autoscaling, alarms, six skills, DLC and teardown.",
+          "assessment": "AWS indexed article passage independently confirms these details; S14E11/12 retained only in discussion confirm skills and advertised output. Parent-selected IDs do not cover them; do not reconstruct the entire old packet. Qualify capabilities as AWS claims."
+        }
+      ],
+      "discussion": [
+        {
+          "turnIndex": 0,
+          "voice": "Take",
+          "evidenceIds": [
+            "S14E8"
+          ],
+          "body": "The telling part is \"quietly wrong.\" A fragile or expensive endpoint fails loudly and someone fixes it. An endpoint that serves subtly bad output is the version that eats a quarter before anyone notices.",
+          "assessment": "Unsupported: costly/fragile failures always noticed, versus a quarter before quiet failures are found; S14E8 provides no such time or universality."
+        },
+        {
+          "turnIndex": 1,
+          "voice": "Pushback",
+          "evidenceIds": [
+            "S14E11",
+            "S14E12"
+          ],
+          "body": "Skills are still a guess about what the task needs. Six of them cover the decisions someone thought to write down; the container tag for your region is exactly the kind of thing that goes stale.",
+          "assessment": "Maintenance concern is a legitimate interpretation of needing a current region-specific tag. Preserve it with may need updating rather than presenting staleness as an observed result."
+        },
+        {
+          "turnIndex": 2,
+          "voice": "Reply",
+          "evidenceIds": [
+            "S14E12"
+          ],
+          "body": "They do claim a verified teardown path, which is the one decision people reliably forget to encode anywhere.",
+          "assessment": "Unsupported universal habit about teardown being reliably forgotten; S14E12 only establishes advertised teardown."
+        }
+      ],
+      "eventAngle": {
+        "verdict": "distinct",
+        "relatedPostIds": [
+          "post-20260918T213919Z-f7d9-14"
+        ],
+        "assessment": "Shared SageMaker theme; six deployment skills versus an inference-capability roundup. Distinct angle."
+      },
+      "correctionRecorded": true
+    },
+    {
+      "postId": "post-20260918T232533Z-bd16-9",
+      "title": "Vesta, a Moon's worth of rubble, and the rest",
+      "topic": "science",
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/vesta-a-moon-s-worth-of-rubble-and-the-rest--706f73742d3230323630393138543233323533335a2d626431362d39/",
+      "sourceReferences": [
+        {
+          "url": "https://science.nasa.gov/solar-system/asteroids/",
+          "title": "Asteroids",
+          "publisher": "NASA",
+          "retrievedAt": "2026-09-18T23:25:33.316Z"
+        }
+      ],
+      "chunkIndex": 3,
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "bodyEvidenceIds": [
+        "S9E1",
+        "S9E2",
+        "S9E3"
+      ],
+      "currentPageVerification": {
+        "index": 9,
+        "url": "https://science.nasa.gov/solar-system/asteroids/",
+        "checkedAt": "2026-09-18T23:45:09Z",
+        "status": 200,
+        "finalUrl": "https://science.nasa.gov/solar-system/asteroids/",
+        "characters": 8107,
+        "htmlSha256": "274d22cd6af5cacd253a395a66a2cc69d4d998a86ac19d17b913b6db82537155"
+      },
+      "originalVerdict": "factual-comparison-class-error",
+      "titlePayoff": 1,
+      "memorableSubstance": 2,
+      "independentlyWorthReading": "no",
+      "worthwhileReason": "Useful mass/size contrast distorted by an enlarged superlative and a single-object metaphor.",
+      "claims": [
+        {
+          "claim": "Vesta 530 km; smaller-than-10m bodies; 4.6-billion-year remnants; belt location; less than lunar mass.",
+          "assessment": "NASA current page supports these. Parent S9E1–3 omit size continuation and mass; discussion S9E4/5 retain them."
+        },
+        {
+          "claim": "Vesta largest body; belt contains one substantial object; a Moon's worth in title.",
+          "assessment": "Original NASA category is asteroids. NASA Ceres Facts identifies Ceres as largest belt object. Broadened superlative is false; one substantial object is unsupported/misleading and title weakens less-than qualifier. Narrow without importing a new source into the article."
+        }
+      ],
+      "discussion": [
+        {
+          "turnIndex": 0,
+          "voice": "Take",
+          "evidenceIds": [
+            "S9E5"
+          ],
+          "body": "The Moon comparison is the part that sticks. Every asteroid disaster film has trained us to think of the belt as a planetary-scale threat. It's smaller than something we look at every clear night.",
+          "assessment": "Disaster-film universal and threat framing are unsupported by S9E5; retain only mass interpretation."
+        },
+        {
+          "turnIndex": 1,
+          "voice": "Context",
+          "evidenceIds": [
+            "S9E3",
+            "S9E4"
+          ],
+          "body": "The size range is also doing work: Vesta at roughly 530 kilometers versus sub-10-meter bodies means \"asteroid\" spans objects that are worlds and objects that are boulders.",
+          "assessment": "Vesta/sub-10m range is supported by S9E3/S9E4."
+        }
+      ],
+      "eventAngle": {
+        "verdict": "distinct",
+        "relatedPostIds": [],
+        "assessment": "No repeated event/angle found in own edition or the previous two ordinary editions."
+      },
+      "correctionRecorded": true
+    },
+    {
+      "postId": "post-20260918T232533Z-bd16-10",
+      "title": "The eviction that got written out of mining history",
+      "topic": "philosophy",
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/the-eviction-that-got-written-out-of-mining-history--706f73742d3230323630393138543233323533335a2d626431362d3130/",
+      "sourceReferences": [
+        {
+          "url": "https://daily.jstor.org/the-women-written-out-of-mining-history/",
+          "title": "The Women Written Out of Mining History",
+          "publisher": "JSTOR Daily",
+          "publishedAt": "2026-09-14T13:35:08.000Z",
+          "retrievedAt": "2026-09-18T23:25:33.316Z"
+        }
+      ],
+      "chunkIndex": 3,
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "bodyEvidenceIds": [
+        "S16E2",
+        "S16E5",
+        "S16E11"
+      ],
+      "currentPageVerification": {
+        "index": 10,
+        "url": "https://daily.jstor.org/the-women-written-out-of-mining-history/",
+        "checkedAt": "2026-09-18T23:45:13Z",
+        "status": 200,
+        "finalUrl": "https://daily.jstor.org/the-women-written-out-of-mining-history/",
+        "characters": 8177,
+        "htmlSha256": "529584fc6c5c298d7ccc6485745d31b282e1aa123f8ae100680eb93d3b692603"
+      },
+      "originalVerdict": "qualifier-loss-and-unsupported-implication",
+      "titlePayoff": 2,
+      "memorableSubstance": 2,
+      "independentlyWorthReading": "no",
+      "worthwhileReason": "Strong mechanism tying laws and historical visibility, but commentary overstates it.",
+      "claims": [
+        {
+          "claim": "Romano/Papastefanaki; worldwide women miners; family work; two-century European/North American bans; up to half ASM workers in some countries.",
+          "assessment": "Current JSTOR page supports qualifiers and scholars' attribution. Saved parent S16E2/S16E5/S16E11 cover only part; names, contemporary number and quote are unselected."
+        },
+        {
+          "claim": "Archive invisibility equals labour-policy invisibility.",
+          "assessment": "Source supports present invisibility/precarity, not this categorical policy identity. Recast as a modest interpretation."
+        }
+      ],
+      "discussion": [
+        {
+          "turnIndex": 0,
+          "voice": "Take",
+          "evidenceIds": [
+            "S16E11"
+          ],
+          "body": "\"Protective\" is doing a lot of quotation-mark work there. The law frames exclusion as care, and the result is an occupation whose historical record has no women in it.",
+          "assessment": "No women in the record overstates largely erased; S16E11 is a legal exclusion claim, not proof of total absence."
+        },
+        {
+          "turnIndex": 1,
+          "voice": "Context",
+          "evidenceIds": [
+            "S16E5",
+            "S16E7",
+            "S16E8"
+          ],
+          "body": "The household framing matters for how the argument lands. If mining was a family activity, the later all-male mine isn't a tradition preserved — it's one that was built.",
+          "assessment": "Useful family-work versus later masculine-image distinction (S16E5/S16E7/S16E8), kept in narrower form."
+        }
+      ],
+      "eventAngle": {
+        "verdict": "distinct",
+        "relatedPostIds": [],
+        "assessment": "No repeated event/angle found in own edition or the previous two ordinary editions."
+      },
+      "correctionRecorded": true
+    },
+    {
+      "postId": "post-20260918T232533Z-bd16-11",
+      "title": "Why one forecaster says 5.1 percent and the others don't",
+      "topic": "economics",
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/why-one-forecaster-says-5-1-percent-and-the-others-don-t--706f73742d3230323630393138543233323533335a2d626431362d3131/",
+      "sourceReferences": [
+        {
+          "url": "https://econbrowser.com/archives/2026/09/gdpnow-goes-gangbusters",
+          "title": "GDPNow Goes Gangbusters",
+          "publisher": "Econbrowser",
+          "publishedAt": "2026-09-17T23:03:50.000Z",
+          "retrievedAt": "2026-09-18T23:25:33.316Z"
+        }
+      ],
+      "chunkIndex": 3,
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "bodyEvidenceIds": [
+        "S12E1",
+        "S12E4",
+        "S12E5"
+      ],
+      "currentPageVerification": {
+        "index": 11,
+        "url": "https://econbrowser.com/archives/2026/09/gdpnow-goes-gangbusters",
+        "checkedAt": "2026-09-18T23:45:14Z",
+        "status": 200,
+        "finalUrl": "https://econbrowser.com/archives/2026/09/gdpnow-goes-gangbusters",
+        "characters": 4383,
+        "htmlSha256": "118e329f4d52b4592af459d68776fa36f51ebbf561945017bdf7e155b2d854a6"
+      },
+      "originalVerdict": "unsupported-comparison-and-title-promise",
+      "titlePayoff": 0,
+      "memorableSubstance": 1,
+      "independentlyWorthReading": "no",
+      "worthwhileReason": "Numbers are reported, but the why title and model-gap explanation exceed what is established.",
+      "claims": [
+        {
+          "claim": "5.1 percent Q3 q/q annualized, 4.1 consumption and 4.7 core; FT-Booth 2 percent q4/q4.",
+          "assessment": "S12E1/S12E4/S12E5 and current page establish different periods; the numeric gap is not by itself a model dispute."
+        },
+        {
+          "claim": "FT-Booth 10/90 band 1.5–1.7 percent; same-quarter framing of charted forecasts; different methods explain spread.",
+          "assessment": "Band occurs verbatim on current page: flag source ambiguity, not an invented number. The article does not establish the cause of the spread; the discussion explicitly compares unlike 5.1 and 2 percent measures. Narrow the promise and explain the time bases without inventing a correction to the source interval."
+        }
+      ],
+      "discussion": [
+        {
+          "turnIndex": 0,
+          "voice": "Take",
+          "evidenceIds": [
+            "S12E1",
+            "S12E5"
+          ],
+          "body": "A 5.1 percent nowcast against a 2 percent forecast isn't a rounding difference. Something in the input data or the method is producing genuinely different pictures.",
+          "assessment": "Unsupported causal reading of 5.1 versus 2 difference (S12E1/S12E5)."
+        },
+        {
+          "turnIndex": 1,
+          "voice": "Pushback",
+          "evidenceIds": [
+            "S12E1",
+            "S12E5"
+          ],
+          "body": "Worth remembering these aren't measuring the same span — annualized quarter growth versus fourth-quarter-over-fourth-quarter will diverge even when the underlying economy is identical.",
+          "assessment": "Recognizes periods differ but will diverge is too categorical; could coincide. Contradicts preceding framing. Omit whole block; put correct distinction in body."
+        }
+      ],
+      "eventAngle": {
+        "verdict": "distinct",
+        "relatedPostIds": [],
+        "assessment": "No repeated event/angle found in own edition or the previous two ordinary editions."
+      },
+      "correctionRecorded": true
+    },
+    {
+      "postId": "post-20260918T232533Z-bd16-12",
+      "title": "Democrats Move to Block a U.S.-Saudi Civilian Nuclear Deal",
+      "topic": "united_states",
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/democrats-move-to-block-a-u-s-saudi-civilian-nuclear-deal--706f73742d3230323630393138543233323533335a2d626431362d3132/",
+      "sourceReferences": [
+        {
+          "url": "https://www.pbs.org/newshour/show/u-s-saudi-nuclear-power-deal-faces-pushback-over-potential-weapons-risks",
+          "title": "U.S.-Saudi nuclear power deal faces pushback over potential weapons risks",
+          "publisher": "PBS NewsHour",
+          "publishedAt": "2026-09-18T22:35:49.000Z",
+          "retrievedAt": "2026-09-18T23:25:33.316Z"
+        }
+      ],
+      "chunkIndex": 4,
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "bodyEvidenceIds": [
+        "S10E1",
+        "S10E2",
+        "S10E3"
+      ],
+      "currentPageVerification": {
+        "index": 12,
+        "url": "https://www.pbs.org/newshour/show/u-s-saudi-nuclear-power-deal-faces-pushback-over-potential-weapons-risks",
+        "checkedAt": "2026-09-18T23:45:14Z",
+        "status": 200,
+        "finalUrl": "https://www.pbs.org/newshour/show/u-s-saudi-nuclear-power-deal-faces-pushback-over-potential-weapons-risks",
+        "characters": 11544,
+        "htmlSha256": "1e16a7b29f3900280ebeda39c24d5d140bd16f1a0ae428276f0da75eff977095"
+      },
+      "originalVerdict": "supported-current-page",
+      "titlePayoff": 2,
+      "memorableSubstance": 1,
+      "independentlyWorthReading": "yes",
+      "worthwhileReason": "Concise policy dispute with critics' concern distinguished from demonstrated weaponization.",
+      "claims": [
+        {
+          "claim": "Democratic resolution this week, civilian nuclear agreement, peaceful program and critics' safeguard/weapons concerns.",
+          "assessment": "S10E1–3 and current PBS summary support attribution and chronology. Closing line interprets the stated tension without inventing a technical safeguard."
+        }
+      ],
+      "discussion": [],
+      "eventAngle": {
+        "verdict": "distinct",
+        "relatedPostIds": [],
+        "assessment": "No repeated event/angle found in own edition or the previous two ordinary editions."
+      },
+      "correctionRecorded": false
+    },
+    {
+      "postId": "post-20260918T232533Z-bd16-13",
+      "title": "A Quarter-Point Move, and Inflation Expectations That Haven't Quite Settled",
+      "topic": "economics",
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/a-quarter-point-move-and-inflation-expectations-that-haven-t-quite-set--706f73742d3230323630393138543233323533335a2d626431362d3133/",
+      "sourceReferences": [
+        {
+          "url": "https://econbrowser.com/archives/2026/09/fed-funds-expected-trajectory-and-other-rates",
+          "title": "Fed Funds Expected Trajectory, and Other Rates",
+          "publisher": "Econbrowser",
+          "publishedAt": "2026-09-17T17:50:12.000Z",
+          "retrievedAt": "2026-09-18T23:25:33.316Z"
+        }
+      ],
+      "chunkIndex": 4,
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "bodyEvidenceIds": [
+        "S4E1",
+        "S4E6",
+        "S4E7"
+      ],
+      "currentPageVerification": {
+        "index": 13,
+        "url": "https://econbrowser.com/archives/2026/09/fed-funds-expected-trajectory-and-other-rates",
+        "checkedAt": "2026-09-18T23:45:14Z",
+        "status": 200,
+        "finalUrl": "https://econbrowser.com/archives/2026/09/fed-funds-expected-trajectory-and-other-rates",
+        "characters": 3072,
+        "htmlSha256": "677bf2b543872c61e7b3833373839e557c873fb00c7fabdefeb48e3ce62f4bed"
+      },
+      "originalVerdict": "unsupported-forecast-exclusion-and-certainty",
+      "titlePayoff": 2,
+      "memorableSubstance": 1,
+      "independentlyWorthReading": "no",
+      "worthwhileReason": "Rate/breakeven figures survive review; categorical commentary needs narrowing.",
+      "claims": [
+        {
+          "claim": "Modal further 25bps rise by year-end; 5-year breakeven falls 5bps; author judges expectations not fully quieted.",
+          "assessment": "S4E1/S4E6/S4E7 and current Econbrowser page support these attributed observations."
+        },
+        {
+          "claim": "Market-implied path is not a forecast.",
+          "assessment": "A market-implied prediction is not a guaranteed Fed decision. Saying not a forecast is a misleading exclusion, unsupported by source wording."
+        }
+      ],
+      "discussion": [
+        {
+          "turnIndex": 0,
+          "voice": "Take",
+          "evidenceIds": [
+            "S4E1"
+          ],
+          "body": "A modal path read off futures prices is a snapshot of positioning, not a forecast. It reprices the moment the next inflation print lands.",
+          "assessment": "Reprices the moment the next inflation print lands is unsupported certainty; S4E1 supplies no reaction timing."
+        },
+        {
+          "turnIndex": 1,
+          "voice": "Pushback",
+          "evidenceIds": [
+            "S4E7"
+          ],
+          "body": "Fair — but the expectation number is the one that matters here. Five basis points off a five-year breakeven after a quarter-point move is barely a reaction.",
+          "assessment": "Barely a reaction is interpretation of cited 5bps, but neither a causal estimate nor proof that expectations settled. Preserve qualified interpretation."
+        }
+      ],
+      "eventAngle": {
+        "verdict": "distinct",
+        "relatedPostIds": [],
+        "assessment": "No repeated event/angle found in own edition or the previous two ordinary editions."
+      },
+      "correctionRecorded": true
+    },
+    {
+      "postId": "post-20260918T232533Z-bd16-14",
+      "title": "The Paradox of Hedonism, and the Version of Pleasure-Seeking It Actually Targets",
+      "topic": "philosophy",
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/the-paradox-of-hedonism-and-the-version-of-pleasure-seeking-it-actuall--706f73742d3230323630393138543233323533335a2d626431362d3134/",
+      "sourceReferences": [
+        {
+          "url": "https://iep.utm.edu/paradox-of-hedonism/",
+          "title": "Paradox of Hedonism",
+          "publisher": "Internet Encyclopedia of Philosophy",
+          "retrievedAt": "2026-09-18T23:25:33.316Z"
+        }
+      ],
+      "chunkIndex": 4,
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "bodyEvidenceIds": [
+        "S16E3",
+        "S16E7",
+        "S16E10"
+      ],
+      "currentPageVerification": {
+        "index": 14,
+        "url": "https://iep.utm.edu/paradox-of-hedonism/",
+        "checkedAt": "2026-09-18T23:45:15Z",
+        "status": 200,
+        "finalUrl": "https://iep.utm.edu/paradox-of-hedonism/",
+        "characters": 44269,
+        "htmlSha256": "7f3a9eab6dc112ff241e0476855892c4a005fa6f3571017045875eacd1d9f129"
+      },
+      "originalVerdict": "unsupported-population-claim",
+      "titlePayoff": 2,
+      "memorableSubstance": 1,
+      "independentlyWorthReading": "no",
+      "worthwhileReason": "A useful narrower target, with an unexplained label and overreaching discussion.",
+      "claims": [
+        {
+          "claim": "Paradox, overly conscious pursuit and author's preferred incompetence account.",
+          "assessment": "S16E3/S16E7/S16E10 and IEP opening support attribution; S16E7 is incomplete. Naming incompetence account without explaining it is an editorial weakness, not an invented answer."
+        },
+        {
+          "claim": "Deliberately chasing pleasure is the target.",
+          "assessment": "Overly conscious is narrower than every deliberate pursuit; preserve qualifier. Current page distinguishes value theory from pursuit strategy."
+        }
+      ],
+      "discussion": [
+        {
+          "turnIndex": 0,
+          "voice": "Take",
+          "evidenceIds": [
+            "S16E7"
+          ],
+          "body": "If the objection only bites the self-conscious pleasure-maximizer, hedonism survives most attacks by default. Very few people run their lives as an optimization problem.",
+          "assessment": "Very few people optimize their lives is unsupported; surviving most attacks does not follow from narrowing one objection."
+        },
+        {
+          "turnIndex": 1,
+          "voice": "Pushback",
+          "evidenceIds": [
+            "S16E3"
+          ],
+          "body": "That defends the theory, not the practice. A theory of the good life that warns against aiming at the good is an odd instruction manual.",
+          "assessment": "Instruction-manual tension is a useful opinion, preserved without empirical generalization."
+        }
+      ],
+      "eventAngle": {
+        "verdict": "distinct",
+        "relatedPostIds": [
+          "post-20260918T232533Z-bd16-18",
+          "post-20260918T213919Z-f7d9-3"
+        ],
+        "assessment": "Shared hedonism theme, distinct angles: pursuit strategy versus breadth/ultimate value. Same-edition thematic concentration, not duplicate claim. Previous well-being article defines prudential value rather than this hedonism angle."
+      },
+      "correctionRecorded": true
+    },
+    {
+      "postId": "post-20260918T232533Z-bd16-15",
+      "title": "Canada Challenges Another Ruling in the First Nations Child Welfare Case",
+      "topic": "canada",
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/canada-challenges-another-ruling-in-the-first-nations-child-welfare-ca--706f73742d3230323630393138543233323533335a2d626431362d3135/",
+      "sourceReferences": [
+        {
+          "url": "https://www.cbc.ca/news/indigenous/first-nations-tribunal-court-9.7349907?cmp=rss",
+          "title": "Carney government files 3rd court challenge in First Nations child welfare complaint",
+          "publisher": "CBC Canada",
+          "publishedAt": "2026-09-18T20:13:05.000Z",
+          "retrievedAt": "2026-09-18T23:25:33.316Z"
+        }
+      ],
+      "chunkIndex": 4,
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "bodyEvidenceIds": [
+        "S5E1",
+        "S5E2",
+        "S5E3"
+      ],
+      "currentPageVerification": {
+        "index": 15,
+        "url": "https://www.cbc.ca/news/indigenous/first-nations-tribunal-court-9.7349907?cmp=rss",
+        "checkedAt": "2026-09-18T23:45:15Z",
+        "error": "The read operation timed out"
+      },
+      "originalVerdict": "supported-retained-only",
+      "titlePayoff": 2,
+      "memorableSubstance": 1,
+      "independentlyWorthReading": "no",
+      "worthwhileReason": "Core useful brief, but last sentence largely repeats the first two; no new payoff.",
+      "claims": [
+        {
+          "claim": "Third government challenge in a year; First Nations child/family services; latest CHRT ruling; nearly twenty-year case.",
+          "assessment": "Complete S5E1–3 support all facts. CBC timeout leaves current-page check unresolved; no correction warranted solely from access failure."
+        }
+      ],
+      "discussion": [],
+      "eventAngle": {
+        "verdict": "distinct",
+        "relatedPostIds": [],
+        "assessment": "No repeated event/angle found in own edition or the previous two ordinary editions."
+      },
+      "correctionRecorded": false
+    },
+    {
+      "postId": "post-20260918T232533Z-bd16-16",
+      "title": "Manitoba Stops Falling Back",
+      "topic": "canada",
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/manitoba-stops-falling-back--706f73742d3230323630393138543233323533335a2d626431362d3136/",
+      "sourceReferences": [
+        {
+          "url": "https://globalnews.ca/news/12064969/manitoba-dark-mornings-time-change-nixed/",
+          "title": "Manitobans brace for dark mornings, lighter evenings after time change nixed",
+          "publisher": "Global News Canada",
+          "publishedAt": "2026-09-18T22:03:26.000Z",
+          "retrievedAt": "2026-09-18T23:25:33.316Z"
+        }
+      ],
+      "chunkIndex": 5,
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "bodyEvidenceIds": [
+        "S13E1",
+        "S13E2"
+      ],
+      "currentPageVerification": {
+        "index": 16,
+        "url": "https://globalnews.ca/news/12064969/manitoba-dark-mornings-time-change-nixed/",
+        "checkedAt": "2026-09-18T23:45:18Z",
+        "status": 200,
+        "finalUrl": "https://globalnews.ca/news/12064969/manitoba-dark-mornings-time-change-nixed/",
+        "characters": 8946,
+        "htmlSha256": "79e72f13e82c569a22ef661a74fe36921a13d9471f56a555aff179e57ee0da30"
+      },
+      "originalVerdict": "supported-current-page",
+      "titlePayoff": 2,
+      "memorableSubstance": 1,
+      "independentlyWorthReading": "yes",
+      "worthwhileReason": "Concrete consequence of keeping daylight time; attribution of advocates' view is clear.",
+      "claims": [
+        {
+          "claim": "No November fall-back; Kinew Thursday; advocates call it positive.",
+          "assessment": "S13E1/2 directly support."
+        },
+        {
+          "claim": "Winter on daylight rather than standard time, darker mornings/lighter evenings, hour difference.",
+          "assessment": "Current Global News page explicitly confirms permanent daylight time and winter sun times. Not all these details are retained; staying an hour ahead is the simple consequence, not medical advice. At least this November is cautious, not a claim of only one year."
+        }
+      ],
+      "discussion": [],
+      "eventAngle": {
+        "verdict": "distinct",
+        "relatedPostIds": [],
+        "assessment": "No repeated event/angle found in own edition or the previous two ordinary editions."
+      },
+      "correctionRecorded": false
+    },
+    {
+      "postId": "post-20260918T232533Z-bd16-17",
+      "title": "The Queue Order That Shrinks a Payment System's Liquidity Needs",
+      "topic": "economics",
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/the-queue-order-that-shrinks-a-payment-system-s-liquidity-needs--706f73742d3230323630393138543233323533335a2d626431362d3137/",
+      "sourceReferences": [
+        {
+          "url": "https://www.bankofcanada.ca/2026/09/staff-working-paper-2026-32/",
+          "title": "Liquidity Optimization in Gross Settlement Systems with Quantum Reordering: Application to TARGET2∗",
+          "publisher": "Bank of Canada",
+          "publishedAt": "2026-09-18T10:12:19.000Z",
+          "retrievedAt": "2026-09-18T23:25:33.316Z"
+        }
+      ],
+      "chunkIndex": 5,
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "bodyEvidenceIds": [
+        "S4E1",
+        "S4E2",
+        "S4E3"
+      ],
+      "currentPageVerification": {
+        "index": 17,
+        "url": "https://www.bankofcanada.ca/2026/09/staff-working-paper-2026-32/",
+        "checkedAt": "2026-09-18T23:45:18Z",
+        "status": 200,
+        "finalUrl": "https://www.bankofcanada.ca/2026/09/staff-working-paper-2026-32/",
+        "characters": 2535,
+        "htmlSha256": "d3c217cd84db86c32d2b1cbf4934c8c172016d356cf4319f5cc6b42f9cdd3c72"
+      },
+      "originalVerdict": "supported-core-editorial-redundancy",
+      "titlePayoff": 2,
+      "memorableSubstance": 2,
+      "independentlyWorthReading": "no",
+      "worthwhileReason": "Body teaches a useful size-dependent method tradeoff; discussion mostly repeats it.",
+      "claims": [
+        {
+          "claim": "Queue reordering reduces liquidity; quantum method small batches, traditional algorithms larger/greater savings; ML identifies promising patterns.",
+          "assessment": "S4E1–3 and current Bank of Canada abstract agree. Full abstract identifies TARGET2 segment and classical benchmarking; article does not inflate this to all payment systems."
+        },
+        {
+          "claim": "Gross settlement one-by-one explanation.",
+          "assessment": "Background gloss of gross settlement, not retained in the selected three-sentence summary. No invented numerical saving or claim of deployment; distinguish the gloss from measured study results."
+        }
+      ],
+      "discussion": [
+        {
+          "turnIndex": 0,
+          "voice": "Take",
+          "evidenceIds": [
+            "S4E2"
+          ],
+          "body": "Promising on small batches and beaten on large ones is a division of labour, not a takeover. The interesting question is what happens as batches grow.",
+          "assessment": "Supported size-dependent interpretation (S4E2), largely repeated from body."
+        },
+        {
+          "turnIndex": 1,
+          "voice": "Pushback",
+          "evidenceIds": [
+            "S4E3"
+          ],
+          "body": "The machine-learning half may be the more practical part. Knowing which payment patterns can actually be improved is useful no matter which algorithm does the reordering.",
+          "assessment": "Supported practical emphasis on ML (S4E3), repeats its role rather than teaching more."
+        },
+        {
+          "turnIndex": 2,
+          "voice": "Reply",
+          "evidenceIds": [
+            "S4E1",
+            "S4E2"
+          ],
+          "body": "Fair — the claim that survives is narrower than the exciting version: reordering helps, and how much it helps depends on batch size.",
+          "assessment": "Supported narrowing (S4E1/S4E2), repetitive. Editorial weakness recorded; no factual correction needed."
+        }
+      ],
+      "eventAngle": {
+        "verdict": "distinct",
+        "relatedPostIds": [],
+        "assessment": "No repeated event/angle found in own edition or the previous two ordinary editions."
+      },
+      "correctionRecorded": false
+    },
+    {
+      "postId": "post-20260918T232533Z-bd16-18",
+      "title": "Hedonism Counts a Fond Memory as Pleasure and a Stubbed Toe as Pain",
+      "topic": "philosophy",
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/hedonism-counts-a-fond-memory-as-pleasure-and-a-stubbed-toe-as-pain--706f73742d3230323630393138543233323533335a2d626431362d3138/",
+      "sourceReferences": [
+        {
+          "url": "https://iep.utm.edu/hedonism/",
+          "title": "Hedonism",
+          "publisher": "Internet Encyclopedia of Philosophy",
+          "retrievedAt": "2026-09-18T23:25:33.316Z"
+        }
+      ],
+      "chunkIndex": 5,
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "bodyEvidenceIds": [
+        "S8E6",
+        "S8E10",
+        "S8E11"
+      ],
+      "currentPageVerification": {
+        "index": 18,
+        "url": "https://iep.utm.edu/hedonism/",
+        "checkedAt": "2026-09-18T23:45:18Z",
+        "status": 200,
+        "finalUrl": "https://iep.utm.edu/hedonism/",
+        "characters": 65746,
+        "htmlSha256": "2ed5761d7f08b49de115c082c596d2ff8648fd7ab6864e25588823ce05286256"
+      },
+      "originalVerdict": "discussion-conflates-value-with-motivation",
+      "titlePayoff": 2,
+      "memorableSubstance": 2,
+      "independentlyWorthReading": "no",
+      "worthwhileReason": "Strong everyday examples in body; discussion changes the theory being challenged.",
+      "claims": [
+        {
+          "claim": "Pleasure/pain ultimate importance; memory/massage and toe/bereavement examples.",
+          "assessment": "Complete S8E6/S8E10/S8E11 and current IEP page support body."
+        },
+        {
+          "claim": "Any choice can be redescribed; theory almost impossible to falsify.",
+          "assessment": "Discussion moves from value to a universal motivational claim. Current IEP page distinguishes those theories. Replace with a question about the value claim, not alleged observed choice behavior."
+        }
+      ],
+      "discussion": [
+        {
+          "turnIndex": 0,
+          "voice": "Take",
+          "evidenceIds": [
+            "S8E10",
+            "S8E11"
+          ],
+          "body": "Define pain to include hearing that someone you love has died, and the theory becomes almost impossible to falsify. Nearly any choice can be redescribed as trading one pain for another.",
+          "assessment": "Unsupported inference from broad pain to unfalsifiable choices; S8E10/11 are examples, not a motivational theory."
+        },
+        {
+          "turnIndex": 1,
+          "voice": "Pushback",
+          "evidenceIds": [
+            "S8E6"
+          ],
+          "body": "The breadth is the point rather than a bug. The theory's real bite is the denial that anything besides pleasure and pain is of ultimate importance, which is stranger than the caricature of hedonism as a doctrine of indulgence.",
+          "assessment": "Useful only-ultimate-importance challenge (S8E6), preserved in a clearer reply."
+        }
+      ],
+      "eventAngle": {
+        "verdict": "distinct",
+        "relatedPostIds": [
+          "post-20260918T232533Z-bd16-14",
+          "post-20260918T213919Z-f7d9-3"
+        ],
+        "assessment": "Shared hedonism theme, distinct angles: pursuit strategy versus breadth/ultimate value. Same-edition thematic concentration, not duplicate claim. Previous well-being article defines prudential value rather than this hedonism angle."
+      },
+      "correctionRecorded": true
+    },
+    {
+      "postId": "post-20260918T232533Z-bd16-19",
+      "title": "MIT's Shared Reading Program Answers the AI Age With Fiction",
+      "topic": "technology",
+      "liveUrl": "https://ariesyous.github.io/openfeed/p/mit-s-shared-reading-program-answers-the-ai-age-with-fiction--706f73742d3230323630393138543233323533335a2d626431362d3139/",
+      "sourceReferences": [
+        {
+          "url": "https://news.mit.edu/2026/new-chapter-mit-reads-0918",
+          "title": "A new chapter for MIT Reads",
+          "publisher": "MIT News",
+          "publishedAt": "2026-09-18T16:30:00.000Z",
+          "retrievedAt": "2026-09-18T23:25:33.316Z"
+        }
+      ],
+      "chunkIndex": 5,
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "bodyEvidenceIds": [
+        "S14E1",
+        "S14E2",
+        "S14E5"
+      ],
+      "currentPageVerification": {
+        "index": 19,
+        "url": "https://news.mit.edu/2026/new-chapter-mit-reads-0918",
+        "checkedAt": "2026-09-18T23:45:18Z",
+        "status": 200,
+        "finalUrl": "https://news.mit.edu/2026/new-chapter-mit-reads-0918",
+        "characters": 7231,
+        "htmlSha256": "ba61ac25c4783e6cc9c5565cf5d33567b9f6cb83982af2eb260c61e46f4b31c6"
+      },
+      "originalVerdict": "supported-current-page",
+      "titlePayoff": 2,
+      "memorableSubstance": 2,
+      "independentlyWorthReading": "yes",
+      "worthwhileReason": "Reading fiction as reflection on what builders create is a memorable, attributed idea.",
+      "claims": [
+        {
+          "claim": "MIT Reads tenth anniversary; fiction/memoir shift; Chris Bourg quote; understanding ourselves.",
+          "assessment": "Current MIT page supports all. Parent S14E1/S14E2/S14E5 omit some continuations. No fabricated book or event details."
+        },
+        {
+          "claim": "Fiction as rehearsal for what building does to builders.",
+          "assessment": "Supported interpretation of Bourg's quote, not a claim that the program has measured that outcome."
+        }
+      ],
+      "discussion": [],
+      "eventAngle": {
+        "verdict": "distinct",
+        "relatedPostIds": [],
+        "assessment": "No repeated event/angle found in own edition or the previous two ordinary editions."
+      },
+      "correctionRecorded": false
+    }
+  ],
+  "runListingCheckedAt": "2026-09-18T23:53:00Z",
+  "runEligibility": [
+    {
+      "runId": 35405624271,
+      "event": "workflow_dispatch",
+      "actualCheckout": "9be086a8438adb0fdcdc9450348c4e4cd311e000",
+      "checkoutEvidence": "Job 105794679955 git log -1 --format=%H at 23:25:28Z",
+      "requestedModel": "deepseek/deepseek-v4.1-flash",
+      "issue36Eligible": false,
+      "issue37Eligible": false,
+      "reason": "Manual other-model run."
+    },
+    {
+      "runId": 35397839301,
+      "event": "schedule",
+      "actualCheckout": "c5fd886383be0c7eeacafc98ab2d6d3cd26d8ddd",
+      "checkoutEvidence": "Job 105770632939 git log -1 --format=%H at 21:39:14Z, rechecked in this session",
+      "requestedModel": "openrouter/free",
+      "issue36Eligible": true,
+      "issue37Eligible": false,
+      "reason": "Prior reviewed ordinary edition; checkout before WP2."
+    }
+  ]
+}
