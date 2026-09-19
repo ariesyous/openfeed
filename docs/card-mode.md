@@ -3,6 +3,9 @@
 Implements issue #25 using the existing title, body and sources. No content schema,
 generator, article body, source batch or permanent URL is changed.
 
+Latest evidence: [September 19 bounded verification](#september-19-bounded-verification).
+Earlier records below remain historical, including their environment limitations.
+
 ## Reading experience
 
 - Feed / Cards toggle; cards also open at `/openfeed/?view=cards`.
@@ -227,3 +230,140 @@ WP3 preserves #38/#39 editorial safeguards, diagnostics, pilot, public content,
 schedules and budgets. #25 stays open until the branch's rendered mobile,
 physical-phone, accessibility and usability checks pass. #36's five-edition and
 #37's ten-ordinary-run observation gates remain independent and open.
+
+## September 19 bounded verification
+
+**Outcome: desktop date rendering and the eight fixed sample IDs verified; no
+reproduced product defect, so no application-code change. Keep #25 open.** Mobile,
+enlarged-root, physical touch and rendered fallback checks remain incomplete.
+
+### Baseline and environment
+
+- Started from main `b6455bc8e0320dc1f6ab9b9ddd41ed042009b873`. Read `AGENTS.md`,
+  #25 and its comment, merged #40 (`3b27456`), this document, fixed samples,
+  App/CardView/SwipeCard, deck/selection/fitting logic, CSS and relevant tests.
+- The live Chrome cloud browser rendered **1363×936 CSS pixels**, **16px root**,
+  dark theme, default motion, with automated mouse/keyboard input. Browser version
+  and host OS were not independently established. This is neither mobile emulation
+  nor a physical device. Its asset URLs `index-CqzZiTEO.js` / `index-DSKRfACr.css`
+  match the production build at the tested revision. This verifies the deployed
+  date implementation, unlike the September 18 pre-date desktop record.
+- Fresh capability discovery exposed no viewport, touch, root-font or motion
+  emulation. Vite started successfully, but opening the fixed sample URL at
+  `http://127.0.0.1:5174/tests/browser/cards.html?view=cards` returned
+  `ERR_BLOCKED_BY_CLIENT`. The same eight IDs were instead reached through the
+  deployed deck. The development-only sample route itself remains unexecuted.
+- A browser zoom key attempt did not change the measured viewport or 16px root;
+  it is **not** a 200% text pass. No device emulation or browser restriction bypass
+  was used. Existing local presentation history was retained. Explicit
+  **Revisit articles** enabled inspection of previously presented fixed samples.
+- Before publication, incorporated concurrent content-only main
+  `da1cedf5e07230562d7f54b30bc73914bca6d1ec` (edition `20260919T041616Z-6005`).
+  UI source/assets are unchanged. The schedule remains `17 */3 * * *` UTC with
+  scheduled `deepseek/deepseek-v4.1-flash` and the existing manual model dropdown.
+
+### Rendered sample matrix
+
+All rows below use the desktop settings above. Each received DOM geometry and a
+screenshot review, with the complete title/body (or intentional spoiler gate),
+publisher/date rows, article escape and navigation visible. Body text was
+**18.88px**, with no fitting reduction. Footer bottom was **843.41px**, navigation
+bottom **928px**, document height **936px**. Full identifiers and measurements:
+[September 19 ledger](fixtures/cards-verification-20260919.json).
+
+| Sample / exact article ID | Copy / available height | Outcome |
+| --- | --- | --- |
+| Recent: `post-20260918T182557Z-8bc1-0` | 209 / 652px | NASA date Sep 18, 2026; source link opens the expected NASA article in a new tab. |
+| Longest title: `post-20260918T044314Z-6f06-6` | 166 / 652px | Complete two-line title and body; source/date and article link visible. |
+| Longest body: `post-20260917T210452Z-a764-1` | 394 / 652px | Full unchanged body visible, with substantial remaining room. |
+| Paragraphs: `post-editorial-launch-20260915-4` | 209 / 652px | Original line breaks and blank paragraph preserved. |
+| Multiple sources: `post-20260917T225126Z-4ac8-14` | 192 / 634px | Both BBC publisher rows show Sep 17, 2026; distinct `datetime` values remain 16:18:35Z and 19:59:54Z. |
+| Spoilers: `post-20260918T044314Z-6f06-0` | Gate 92 / 652px; revealed 235 / 652px | Body absent before reveal; Enter on Show spoilers reveals the full body. Sources/date remain visible in both states. |
+| Undated: `post-20260918T182557Z-8bc1-2` | 182 / 652px | Stanford Encyclopedia of Philosophy explicitly says Publication date unavailable. |
+| Older: `post-20260918T044314Z-6f06-14` | 129 / 652px | Published Aug 24, 2025; opening the article separately shows Added 23h ago. Back restores the card. |
+
+“Longest” still denotes the fixed September 18 catalog, not a fresh maximum over
+all later editions. Visual assessment: the body sizes, spacing and uncut lines
+were readable on this desktop; the long body has wide lines and source/date text
+is smaller than the body. Pixel fit and this screenshot review do not establish
+phone comfort or replace the user's personal reading trial. **No rendered unfit
+case occurred in these settings**; fallback success on smaller screens is unknown.
+
+### Interaction evidence and exceptions
+
+- On `post-20260919T001812Z-2397-0`, Different topic selected `...-2397-2`
+  (Technology → Economics), and Undo restored `...-2397-0`. Right arrow selected
+  `...-2397-3`; Z restored `...-2397-0`. A leftward background mouse drag later
+  selected `...-2397-4` (Canada). These are navigation actions, not preferences.
+- Next progressed across many real batch boundaries to the launch edition.
+  When bounded search could not immediately find unseen content, the explicit
+  **Keep looking for unseen cards** prompt appeared with visible controls.
+  Continuing eventually reached `post-20260917T210452Z-a764-2`. At the end,
+  **Revisit articles** explicitly restarted the deck; no two-card loop reproduced.
+  Busy/covered departing cards were not treated as new visible presentations.
+- Both the headline and footer link on `...-2397-0` opened its permanent article.
+  In-app Back and browser Back restored the same card. A locator center click
+  first landed in whitespace between wrapped headline fragments; clicking an
+  observed text fragment worked. This was an automation targeting issue, not a
+  broken headline. The article showed **Added 4h ago**, separately from its source
+  publication date. Topic navigation entered the Technology feed route; switching
+  to Cards restored the active card. Topic-feed content loading was not audited.
+- Tab from the Cards region reached its topic link with a visible **3px outline**.
+  Region, navigation, buttons, headline and full publisher/source-title accessible
+  names were present. Keyboard spoiler reveal worked. This is basic keyboard/DOM
+  evidence, not a screen-reader or comprehensive focus-order audit.
+- A 15px mouse drag and a roughly 45-degree mouse drag did not advance.
+  The diagonal selected text; a subsequent drag correctly remained blocked until
+  selection was cleared by a normal click. Native body selection on the longest
+  body produced `Building an AI agent th`; Right arrow did not advance while
+  selected. These mouse checks do not establish touch selection or touch gestures.
+- A real pending **20 new · Load** button appeared during the trial. Clicking it
+  removed the notice and retained `post-20260917T210452Z-a764-1`. No generation was
+  manually triggered. The new edition was not editorially assessed.
+- A synthesized wheel action timed out in browser transport. A subsequent DOM
+  read still showed page and reading-area scroll offsets of zero and document
+  height 936px; **do not count the timed-out gesture as a wheel-interaction pass**.
+  Geometry/screenshots independently establish complete visibility for the rows
+  above. No application repair was inferred from this transport error.
+
+### Coverage still open
+
+| Requested check | Current evidence / remaining work |
+| --- | --- |
+| 390×844 and 360×740 portrait | Not rendered: no viewport capability. Run all fixed samples and inspect controls, dates, comfort and fallback. |
+| 844×390 landscape | Not rendered; footer/fallback reachability and horizontal safe areas remain unknown. |
+| 200% root text (32px) | Existing simulated fitter test retains a 26px floor. Actual wrapping, controls and escape remain unverified. Browser zoom is not equivalent. |
+| Reduced motion | CSS inspected and unchanged; preference rendering not exercised. |
+| Physical phone and browser chrome | No device: expanded/collapsed chrome, notches, home indicator, rotation and comfort unverified. |
+| Headline/source touch swipes versus taps; short/diagonal/cancelled/multi-touch; pinch and long-press | Existing jsdom synthetic PointerEvents only for applicable handler cases. No live touch synthesis or physical touch; pinch and long-press unverified. |
+| Explicit unfit skip, no false presented history, article escape | Existing mocked-layout/deck tests pass; no rendered fallback case or live storage inspection. Must verify in a constrained viewport. |
+| Different-year and mixed dated/undated source variants | Existing deterministic date tests; in-memory variants not browser-rendered. |
+| Screen reader, complete focus sequence and subjective reading trial | Still required; basic desktop keyboard/names checks above are narrower. |
+
+### Reproducible phone handoff
+
+1. Use the development sample instructions above in an ordinary browser/LAN
+   setup. Test all eight samples at 390×844, 360×740 and 844×390, then 32px root
+   text and reduced motion. Record actual CSS viewport, OS/browser, sample ID,
+   body size, fit/fallback and comfort. On the phone, rotate and expand/collapse
+   browser chrome; inspect notch/home-indicator clearance.
+2. For a nonfitting case (start with longest-body in landscape/32px root), confirm
+   the notice and Open article escape are reachable. In the eight-card deck,
+   explicitly skip at least three unfit cards, Undo, and check that unfit IDs were
+   not recorded as presented. Do not shrink below the root-relative floor.
+3. Swipe from headline, source and background, then test ordinary taps, short,
+   diagonal, cancelled and two-finger gestures, long-press selection and pinch.
+   Confirm Next, Different topic, Undo, topic return and article Back. Check focus
+   and source/date announcements with VoiceOver or TalkBack, and report concrete
+   reading-comfort failures with the sample/settings.
+
+No new tests were added for this documentation-only slice. Existing fit, skipped
+unfit progression, inactive/hidden presentation, bounded search, synthetic touch,
+date and navigation regressions were reviewed and run. Validation on the initial
+baseline: `pnpm typecheck`, `pnpm lint`, **278 tests / 31 files**, `pnpm build`
+(**268 articles / 11 topic pages**) all passed. Existing pnpm configuration and
+jsdom `scrollTo` warnings remain. The same four checks passed again on final base
+`da1cedf`: **278 tests / 31 files**, **288 articles / 11 topic pages**, identical
+frontend asset names. `git diff --check` also passed.
+No public copy, source metadata, application behavior, editorial counts or
+generation configuration was changed by this slice.
