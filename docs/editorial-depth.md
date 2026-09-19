@@ -217,3 +217,11 @@ cross-source support, voice, publisher/cross-chunk gates, spoiler flags, sanitiz
 redacted omission/model diagnostics, the validated writer, malformed JSON, partial success,
 and exhausted attempts/deadlines. Existing jsdom scrollTo and local pnpm configuration warnings
 remain. No model generation, merge, deployment, secret change or historical rewrite was performed.
+
+## Movie and Sopranos source replenishment — September 19
+
+The [bounded twelve-page review](movie-sopranos-source-review-20260919.md) adds three movie
+packets and one Sopranos character-analysis packet (63 → 67 shelf URLs). A narrow ASC
+single-story body selector fixes a reproduced layout mismatch without joining sections
+or changing evidence limits. Offline packet/provenance checks and local retrieval do not
+advance either issue’s historical scheduled-observation counts or establish generated quality.

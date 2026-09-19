@@ -5,6 +5,11 @@ import { plainText, readBounded, type SourcePacket } from "./sources";
 // Deliberate reading shelf: factual background and criticism, never current news.
 // Add URLs here as the shelf is reviewed; covered URLs are filtered by generate.ts.
 export const EVERGREEN_SOURCES = [
+  // Bounded movie/Sopranos review: docs/movie-sopranos-source-review-20260919.md.
+  {"topic": "movies", "publisher": "American Cinematographer", "title": "Wide Wide West: The Hateful Eight", "url": "https://theasc.com/article/wide-wide-west-the-hateful-eight/"},
+  {"topic": "movies", "publisher": "American Cinematographer", "title": "Finessing Killers of the Flower Moon at Company 3", "url": "https://theasc.com/article/finessing-killers-of-the-flower-moon-at-company-3/"},
+  {"topic": "movies", "publisher": "BFI", "title": "“I realised any attempt to replicate is going to be a failure”: Sophy Romvari on Blue Heron", "url": "https://www.bfi.org.uk/sight-and-sound/interviews/i-realised-any-attempt-replicate-going-be-failure-sophy-romvari-blue-heron"},
+  {"topic": "the_sopranos", "publisher": "The Guardian", "title": "Edie Falco: ‘Alcohol was the answer to all my problems – and the cause of them’", "url": "https://www.theguardian.com/tv-and-radio/2021/dec/01/edie-falco-interview-tv-actor-alcohol-hillary-clinton-sopranos"},
   // September 19 packet review: complete narrow payoffs; see docs/culture-source-review-20260919.md.
   {"topic": "greek_roman_mythology", "publisher": "The Metropolitan Museum of Art", "title": "The Symposium in Ancient Greece", "url": "https://www.metmuseum.org/essays/the-symposium-in-ancient-greece"},
   {"topic": "philosophy", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Personal Identity", "url": "https://plato.stanford.edu/entries/identity-personal/"},
@@ -121,10 +126,19 @@ export function articleExcerpt(html: string): string {
   try {
     const nodes = htmlParser.parse(cleaned) as HtmlNode[];
     const stanford = findElement(nodes, node => node[":@"]?.["@_id"] === "aueditable");
+    // American Cinematographer's single-article layout uses a div for its body;
+    // its <article> elements are recommendation tiles, not the requested story.
+    const singleArticle = findElement(nodes, node =>
+      node[":@"]?.["@_data-elementor-type"] === "single-post" &&
+      hasClass(node, "elementor-location-single") && hasClass(node, "type-article"));
+    const articleBody = singleArticle && findElement(childrenOf(singleArticle), node =>
+      hasClass(node, "article-template-content") &&
+      node[":@"]?.["@_data-widget_type"] === "theme-post-content.default");
     const article = findElement(nodes, node => tagOf(node) === "article");
     const root = stanford
       ? findElement(childrenOf(stanford), node => node[":@"]?.["@_id"] === "main-text") ?? stanford
-      : article && (findElement(childrenOf(article), node => hasClass(node, "entry-content")) ?? article);
+      : singleArticle ? articleBody
+        : article && (findElement(childrenOf(article), node => hasClass(node, "entry-content")) ?? article);
     if (!root) return "";
     const sections: string[][] = [[]];
     const boundary = () => { if (sections.at(-1)!.length) sections.push([]); };

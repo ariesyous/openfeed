@@ -1,0 +1,743 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-09-19",
+  "baselineCommit": "c61ccb89402f759ddf09949de4fd591e811caa24",
+  "fixtureScope": "Reduced representations of captured prose prefixes, not full-page/layout snapshots. Selected IDs were first checked against full live bounded extraction. Synthetic caption/boundary/recommendation sentinels only in ASC offline wrappers. All offered evidence retained for additions; page-local S1 numbering changes in real multi-source requests. Manually authored probes are not generated or published articles.",
+  "sources": [
+    {
+      "topic": "movies",
+      "publisher": "American Cinematographer",
+      "title": "Wide Wide West: The Hateful Eight",
+      "url": "https://theasc.com/article/wide-wide-west-the-hateful-eight/",
+      "discovery": "https://theasc.com/articles_tag/yvan-lucas/",
+      "retrievedAt": "2026-09-19T03:59:26.872Z",
+      "status": 200,
+      "responseUrl": "https://theasc.com/article/wide-wide-west-the-hateful-eight/",
+      "htmlSha256": "c001d0a3fb2abf2b0f61d044bf8e0a102b4d3c96deb386f74e95c18ca5539c31",
+      "htmlBytes": 184930,
+      "excerptSha256": "9339c800cdb64e0f399accdb6fd9df4ceb9c4572649a19ca32ce948880c864b8",
+      "candidate": 1,
+      "coveredAtBaseline": false,
+      "excerptCharacters": 2377,
+      "offeredCount": 12,
+      "contextTruncated": true,
+      "decision": "add",
+      "publishedAtInIntake": null,
+      "baselineExcerptCharacters": 0,
+      "author": "Michael Goldman",
+      "sourceDateNote": "Online June 28, 2023; article originally ran December 2015.",
+      "supportedAngle": "Making winter breath visible on an indoor film set",
+      "reviewedProbe": "American Cinematographer reports that the Hateful Eight crew chilled the Red Studios Hollywood soundstage to 30 degrees Fahrenheit with 80% humidity to make the cast’s breath visible. The cold was part of producing a visible effect on the indoor set.",
+      "spoilers": false,
+      "limitations": "Reported production conditions, not a universal recipe. Do not conflate Fahrenheit and Celsius, or claim all snow was real. The later excerpt includes plot material; the offered E12 is an unusable fragment ending at Samuel L. and is not selected.",
+      "offeredEvidence": [
+        {
+          "id": "S1E1",
+          "text": "Quentin Tarantino’s crew is reconfiguring the set of Minnie’s Haberdashery, which has been transferred from a location in Colorado to a bone-cold soundstage at Red",
+          "contextGroup": "S1G1",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 2
+        },
+        {
+          "id": "S1E2",
+          "text": "Studios Hollywood — artificially chilled to 30° Fahrenheit and 80% humidity to make the cast’s exhaled breaths visible.",
+          "contextGroup": "S1G1",
+          "paragraph": 1,
+          "part": 2,
+          "parts": 2
+        },
+        {
+          "id": "S1E3",
+          "text": "Snug in a parka that’s been pinned with a sheriff’s badge, the director cheerfully greets visitors from American Cinematographer to the set of The Hateful",
+          "contextGroup": "S1G2",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 2
+        },
+        {
+          "id": "S1E4",
+          "text": "Eight with a hearty, “Welcome to our super film set!”",
+          "contextGroup": "S1G2",
+          "paragraph": 1,
+          "part": 2,
+          "parts": 2
+        },
+        {
+          "id": "S1E5",
+          "text": "He and cinematographer Robert Richardson, ASC proceed to discuss how their team managed to pull off shooting the entire movie in a widescreen film format",
+          "contextGroup": "S1G3",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 2
+        },
+        {
+          "id": "S1E6",
+          "text": "not used in almost 50 years.",
+          "contextGroup": "S1G3",
+          "paragraph": 2,
+          "part": 2,
+          "parts": 2
+        },
+        {
+          "id": "S1E7",
+          "text": "The director refers to Ultra Panavision 70, with its 2.76:1 aspect ratio, as “the widest format there is, outside of three-screen Cinerama.”",
+          "contextGroup": "S1G4",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E8",
+          "text": "As Tarantino explains, he fell madly in love with Ultra Panavision 70, which during its heyday was responsible for giving the world just 10 features,",
+          "contextGroup": "S1G5",
+          "paragraph": 3,
+          "part": 1,
+          "parts": 2
+        },
+        {
+          "id": "S1E9",
+          "text": "including Ben-Hur and Mutiny on the Bounty.",
+          "contextGroup": "S1G5",
+          "paragraph": 3,
+          "part": 2,
+          "parts": 2
+        },
+        {
+          "id": "S1E10",
+          "text": "The last Ultra Panavision 70 feature, Khartoum, debuted in 1966, when the more financially feasible anamorphic 35mm had already entered the fray.",
+          "contextGroup": "S1G6",
+          "paragraph": 3,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E11",
+          "text": "Richardson adds that the format works beautifully for intimate close-ups, and lauds its ability to capture the “landscape” of the human face.",
+          "contextGroup": "S1G7",
+          "paragraph": 3,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E12",
+          "text": "Cameras soon roll as Samuel L.",
+          "contextGroup": "S1G8",
+          "paragraph": 4,
+          "part": 1,
+          "parts": 1
+        }
+      ],
+      "selectedIds": [
+        "S1E1",
+        "S1E2"
+      ],
+      "offlineExcerpt": "Quentin Tarantino’s crew is reconfiguring the set of Minnie’s Haberdashery, which has been transferred from a location in Colorado to a bone-cold soundstage at Red Studios Hollywood — artificially chilled to 30° Fahrenheit and 80% humidity to make the cast’s exhaled breaths visible. Snug in a parka that’s been pinned with a sheriff’s badge, the director cheerfully greets visitors from American Cinematographer to the set of The Hateful Eight with a hearty, “Welcome to our super film set!”",
+      "offlineHtml": "<div data-elementor-type=\"single-post\" class=\"elementor-location-single article type-article\"><div class=\"article-template-content elementor-widget-theme-post-content\" data-widget_type=\"theme-post-content.default\"><figure><figcaption>EXCLUDED CAPTION sentinel.</figcaption></figure><p>Quentin Tarantino’s crew is reconfiguring the set of Minnie’s Haberdashery, which has been transferred from a location in Colorado to a bone-cold soundstage at Red Studios Hollywood — artificially chilled to 30° Fahrenheit and 80% humidity to make the cast’s exhaled breaths visible. Snug in a parka that’s been pinned with a sheriff’s badge, the director cheerfully greets visitors from American Cinematographer to the set of The Hateful Eight with a hearty, “Welcome to our super film set!”</p><figure><figcaption>BOUNDARY sentinel.</figcaption></figure><p>LATER SECTION sentinel must not be joined.</p></div><article class=\"elementor-post\"><p>RECOMMENDATION sentinel must not enter the packet.</p></article></div>",
+      "duplicateAngleCheck": "No matching subject/angle in existing movie/Sopranos titles or relevant bodies at baseline; selected URL and normalized title unconsumed."
+    },
+    {
+      "topic": "movies",
+      "publisher": "American Cinematographer",
+      "title": "Wages of Sin: The Irishman",
+      "url": "https://theasc.com/article/the-irishman/",
+      "discovery": "https://theasc.com/articles_tag/yvan-lucas/",
+      "retrievedAt": "2026-09-19T03:59:26.880Z",
+      "status": 200,
+      "responseUrl": "https://theasc.com/article/the-irishman/",
+      "htmlSha256": "921fa3d8f6f7b612123f207670787b522d2f923a6d88ca4637f2f9e172a08daf",
+      "htmlBytes": 183680,
+      "excerptSha256": "e2222ef294945b6fc162546826c91365336f7645cd067ab1b2b717cf9e655f94",
+      "candidate": 2,
+      "coveredAtBaseline": false,
+      "excerptCharacters": 865,
+      "offeredCount": 9,
+      "contextTruncated": false,
+      "decision": "exclude",
+      "publishedAtInIntake": null,
+      "baselineExcerptCharacters": 0,
+      "reason": "Reject: selector exposes only credits and a broad film-versus-streaming introduction before a video boundary. The specific emulsion/memory explanation lies in later sections. Do not stitch across the boundary."
+    },
+    {
+      "topic": "movies",
+      "publisher": "American Cinematographer",
+      "title": "Finessing Killers of the Flower Moon at Company 3",
+      "url": "https://theasc.com/article/finessing-killers-of-the-flower-moon-at-company-3/",
+      "discovery": "https://theasc.com/articles_tag/yvan-lucas/",
+      "retrievedAt": "2026-09-19T03:59:26.881Z",
+      "status": 200,
+      "responseUrl": "https://theasc.com/article/finessing-killers-of-the-flower-moon-at-company-3/",
+      "htmlSha256": "88d7a37e8095d003d5de8a742cc8bfcdebde1d00c6b6178c022b5ab42bfe8fa6",
+      "htmlBytes": 153868,
+      "excerptSha256": "bc814c0abfff87342ee673663072f8c25620290fe4068394dd81d248936e5164",
+      "candidate": 3,
+      "coveredAtBaseline": false,
+      "excerptCharacters": 1139,
+      "offeredCount": 12,
+      "contextTruncated": false,
+      "decision": "add",
+      "publishedAtInIntake": null,
+      "baselineExcerptCharacters": 0,
+      "author": "Fred Schruers; interviewee Yvan Lucas",
+      "sourceDateNote": "December 2, 2023.",
+      "supportedAngle": "Why a digital colourist begins with a film-style workflow",
+      "reviewedProbe": "Yvan Lucas says he treats custom LUTs as something like custom film stocks. Starting with printer-point adjustments in Baselight, he explains, retains the qualities of a film finish. His account connects a digital tool choice to the look he wants to preserve.",
+      "spoilers": false,
+      "limitations": "Lucas’s stated workflow and preference, not proof of one objectively correct grading method. The extracted answer stops at the video boundary. Specific Killers-era looks and the grass correction occur later and are not offered. Selected E7–E8 includes the reason; selected E2 identifies the speaker. Later-step details are not part of this probe.",
+      "offeredEvidence": [
+        {
+          "id": "S1E1",
+          "text": "American Cinematographer: You and Rodrigo Prieto ASC, AMC have worked together on quite a few films. How did that creative relationship start out?",
+          "contextGroup": "S1G1",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E2",
+          "text": "Yvan Lucas: I spent many years as a timer in Paris at Éclair and I’ve always loved the whole process of working with film.",
+          "contextGroup": "S1G2",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E3",
+          "text": "Cinematographers could do so much by choosing the film stock and the timer could contribute quite a bit just through printer lights.",
+          "contextGroup": "S1G3",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E4",
+          "text": "And there was even more you can do with different processing techniques, like bleach bypass and ENR.",
+          "contextGroup": "S1G4",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E5",
+          "text": "When I went into color grading, where you can alter lift, gamma, gain and so much more, I still preferred to work the way I",
+          "contextGroup": "S1G5",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 2
+        },
+        {
+          "id": "S1E6",
+          "text": "did as a timer.",
+          "contextGroup": "S1G5",
+          "paragraph": 2,
+          "part": 2,
+          "parts": 2
+        },
+        {
+          "id": "S1E7",
+          "text": "We can create custom LUTs that are very much like custom “film stocks,” and I still start out using just printer points within Baselight, because",
+          "contextGroup": "S1G6",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 2
+        },
+        {
+          "id": "S1E8",
+          "text": "it retains the qualities of a film finish.",
+          "contextGroup": "S1G6",
+          "paragraph": 2,
+          "part": 2,
+          "parts": 2
+        },
+        {
+          "id": "S1E9",
+          "text": "You aren’t affecting contrast or adding windows or keys.",
+          "contextGroup": "S1G7",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E10",
+          "text": "You can do all those things at the end, but I prefer to do a lot of the work upfront with the LUTs.",
+          "contextGroup": "S1G8",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E11",
+          "text": "Rodrigo likes to work the same way.",
+          "contextGroup": "S1G9",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E12",
+          "text": "We think in very similar ways about color for films, and that’s why he’s wanted to work with me all these years.",
+          "contextGroup": "S1G10",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 1
+        }
+      ],
+      "selectedIds": [
+        "S1E2",
+        "S1E7",
+        "S1E8"
+      ],
+      "offlineExcerpt": "American Cinematographer: You and Rodrigo Prieto ASC, AMC have worked together on quite a few films. How did that creative relationship start out?\n\nYvan Lucas: I spent many years as a timer in Paris at Éclair and I’ve always loved the whole process of working with film. Cinematographers could do so much by choosing the film stock and the timer could contribute quite a bit just through printer lights. And there was even more you can do with different processing techniques, like bleach bypass and ENR. When I went into color grading, where you can alter lift, gamma, gain and so much more, I still preferred to work the way I did as a timer. We can create custom LUTs that are very much like custom “film stocks,” and I still start out using just printer points within Baselight, because it retains the qualities of a film finish. You aren’t affecting contrast or adding windows or keys. You can do all those things at the end, but I prefer to do a lot of the work upfront with the LUTs. Rodrigo likes to work the same way. We think in very similar ways about color for films, and that’s why he’s wanted to work with me all these years.",
+      "offlineHtml": "<div data-elementor-type=\"single-post\" class=\"elementor-location-single article type-article\"><div class=\"article-template-content elementor-widget-theme-post-content\" data-widget_type=\"theme-post-content.default\"><figure><figcaption>EXCLUDED CAPTION sentinel.</figcaption></figure><p>American Cinematographer: You and Rodrigo Prieto ASC, AMC have worked together on quite a few films. How did that creative relationship start out?</p><p>Yvan Lucas: I spent many years as a timer in Paris at Éclair and I’ve always loved the whole process of working with film. Cinematographers could do so much by choosing the film stock and the timer could contribute quite a bit just through printer lights. And there was even more you can do with different processing techniques, like bleach bypass and ENR. When I went into color grading, where you can alter lift, gamma, gain and so much more, I still preferred to work the way I did as a timer. We can create custom LUTs that are very much like custom “film stocks,” and I still start out using just printer points within Baselight, because it retains the qualities of a film finish. You aren’t affecting contrast or adding windows or keys. You can do all those things at the end, but I prefer to do a lot of the work upfront with the LUTs. Rodrigo likes to work the same way. We think in very similar ways about color for films, and that’s why he’s wanted to work with me all these years.</p><figure><figcaption>BOUNDARY sentinel.</figcaption></figure><p>LATER SECTION sentinel must not be joined.</p></div><article class=\"elementor-post\"><p>RECOMMENDATION sentinel must not enter the packet.</p></article></div>",
+      "duplicateAngleCheck": "No matching subject/angle in existing movie/Sopranos titles or relevant bodies at baseline; selected URL and normalized title unconsumed."
+    },
+    {
+      "topic": "movies",
+      "publisher": "BFI",
+      "title": "“I realised any attempt to replicate is going to be a failure”: Sophy Romvari on Blue Heron",
+      "url": "https://www.bfi.org.uk/sight-and-sound/interviews/i-realised-any-attempt-replicate-going-be-failure-sophy-romvari-blue-heron",
+      "discovery": "https://www.bfi.org.uk/",
+      "retrievedAt": "2026-09-19T03:59:26.882Z",
+      "status": 200,
+      "responseUrl": "https://www.bfi.org.uk/sight-and-sound/interviews/i-realised-any-attempt-replicate-going-be-failure-sophy-romvari-blue-heron",
+      "htmlSha256": "b06f21e4c8b6cf315437146318d2375eae863b075fe6f1f862d434b7d005d166",
+      "htmlBytes": 216351,
+      "excerptSha256": "f695d4096d22080a29b2e084087dd496c42608019907b93781b79e61f2ee3a9f",
+      "candidate": 4,
+      "coveredAtBaseline": false,
+      "excerptCharacters": 1497,
+      "offeredCount": 12,
+      "contextTruncated": true,
+      "decision": "add",
+      "publishedAtInIntake": null,
+      "author": "Hope Rangaswami",
+      "sourceDateNote": "September 17, 2026; structured publication metadata 2026-09-17T12:14:04+01:00.",
+      "supportedAngle": "How Blue Heron changes the viewer’s perspective",
+      "reviewedProbe": "Hope Rangaswami describes Blue Heron abruptly moving from Sasha’s childhood into the present. Adult Sasha is now a filmmaker making a documentary to process her hazy memories of Jeremy. The shift turns a childhood experience into an adult attempt to understand it.",
+      "spoilers": true,
+      "limitations": "The offered passage is the interviewer’s introductory criticism, not Romvari’s own answer. E10–E11 must stay together. This reveals the film’s structural shift; use a spoiler flag and a safe title. Do not import later interview statements or E12’s separate return-home development.",
+      "offeredEvidence": [
+        {
+          "id": "S1E1",
+          "text": "Think of Blue Heron as a snow globe.",
+          "contextGroup": "S1G1",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E2",
+          "text": "Unhurried and nostalgic, Sophy Romvari’s semi-autobiographical debut lets you observe the intricacies of its self-contained world as if through a glass dome.",
+          "contextGroup": "S1G2",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E3",
+          "text": "In this story of a Hungarian-Canadian family undone by a disruptive son and the systems that fail him, there are conversations you never hear, behaviours",
+          "contextGroup": "S1G3",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 2
+        },
+        {
+          "id": "S1E4",
+          "text": "you never understand and a tragedy you never see.",
+          "contextGroup": "S1G3",
+          "paragraph": 1,
+          "part": 2,
+          "parts": 2
+        },
+        {
+          "id": "S1E5",
+          "text": "The film is also strikingly intimate, submerging us in the life of eight-year-old Sasha (Eylul Guven).",
+          "contextGroup": "S1G4",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E6",
+          "text": "We experience the late-1990s summer alongside her, cradled by the balmy boredom of her aimless days.",
+          "contextGroup": "S1G5",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E7",
+          "text": "That stasis is disrupted by the increasingly destructive behaviour of her teen brother Jeremy (Edik Beddoes).",
+          "contextGroup": "S1G6",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E8",
+          "text": "His patient but exasperated parents (Ádám Tompa and Iringó Réti) seek help from various professionals but rarely feel heard.",
+          "contextGroup": "S1G7",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E9",
+          "text": "Just when the irregular rhythms of Sasha’s life begin to feel normal, Romvari tears us from the past and plonks us into the present.",
+          "contextGroup": "S1G8",
+          "paragraph": 3,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E10",
+          "text": "Adult Sasha (Amy Zimmer), now a filmmaker, is making a documentary to process her hazy memories of Jeremy, searching for answers like her parents did",
+          "contextGroup": "S1G9",
+          "paragraph": 3,
+          "part": 1,
+          "parts": 2
+        },
+        {
+          "id": "S1E11",
+          "text": "years earlier.",
+          "contextGroup": "S1G9",
+          "paragraph": 3,
+          "part": 2,
+          "parts": 2
+        },
+        {
+          "id": "S1E12",
+          "text": "A moment of magic brings her back to them and her childhood home, leading to a devastating meditation on our inability to alter the past.",
+          "contextGroup": "S1G10",
+          "paragraph": 3,
+          "part": 1,
+          "parts": 1
+        }
+      ],
+      "selectedIds": [
+        "S1E9",
+        "S1E10",
+        "S1E11"
+      ],
+      "offlineExcerpt": "Think of Blue Heron as a snow globe. Unhurried and nostalgic, Sophy Romvari’s semi-autobiographical debut lets you observe the intricacies of its self-contained world as if through a glass dome. In this story of a Hungarian-Canadian family undone by a disruptive son and the systems that fail him, there are conversations you never hear, behaviours you never understand and a tragedy you never see.\n\nThe film is also strikingly intimate, submerging us in the life of eight-year-old Sasha (Eylul Guven). We experience the late-1990s summer alongside her, cradled by the balmy boredom of her aimless days. That stasis is disrupted by the increasingly destructive behaviour of her teen brother Jeremy (Edik Beddoes). His patient but exasperated parents (Ádám Tompa and Iringó Réti) seek help from various professionals but rarely feel heard.\n\nJust when the irregular rhythms of Sasha’s life begin to feel normal, Romvari tears us from the past and plonks us into the present. Adult Sasha (Amy Zimmer), now a filmmaker, is making a documentary to process her hazy memories of Jeremy, searching for answers like her parents did years earlier. A moment of magic brings her back to them and her childhood home, leading to a devastating meditation on our inability to alter the past.",
+      "offlineHtml": "<article><p>Think of Blue Heron as a snow globe. Unhurried and nostalgic, Sophy Romvari’s semi-autobiographical debut lets you observe the intricacies of its self-contained world as if through a glass dome. In this story of a Hungarian-Canadian family undone by a disruptive son and the systems that fail him, there are conversations you never hear, behaviours you never understand and a tragedy you never see.</p><p>The film is also strikingly intimate, submerging us in the life of eight-year-old Sasha (Eylul Guven). We experience the late-1990s summer alongside her, cradled by the balmy boredom of her aimless days. That stasis is disrupted by the increasingly destructive behaviour of her teen brother Jeremy (Edik Beddoes). His patient but exasperated parents (Ádám Tompa and Iringó Réti) seek help from various professionals but rarely feel heard.</p><p>Just when the irregular rhythms of Sasha’s life begin to feel normal, Romvari tears us from the past and plonks us into the present. Adult Sasha (Amy Zimmer), now a filmmaker, is making a documentary to process her hazy memories of Jeremy, searching for answers like her parents did years earlier. A moment of magic brings her back to them and her childhood home, leading to a devastating meditation on our inability to alter the past.</p></article>",
+      "duplicateAngleCheck": "No matching subject/angle in existing movie/Sopranos titles or relevant bodies at baseline; selected URL and normalized title unconsumed."
+    },
+    {
+      "topic": "movies",
+      "publisher": "BFI",
+      "title": "Mission Statement: the Tom Cruise interview",
+      "url": "https://www.bfi.org.uk/sight-and-sound/interviews/i-never-made-movie-just-go-make-movie-it-was-always-exploration-filmmaking-our-world-exclusive-interview-with-tom-cruise",
+      "discovery": "https://www.bfi.org.uk/",
+      "retrievedAt": "2026-09-19T03:59:26.882Z",
+      "status": 200,
+      "responseUrl": "https://www.bfi.org.uk/sight-and-sound/interviews/i-never-made-movie-just-go-make-movie-it-was-always-exploration-filmmaking-our-world-exclusive-interview-with-tom-cruise",
+      "htmlSha256": "a3cdff1a6ddaa10fb0b9f2938d71e534d21fb3240d6e72950eb397da955e285c",
+      "htmlBytes": 372312,
+      "excerptSha256": "4656bd5d7055284c7982962ce2fb8051a0e2d1e61e51652af973aadbd4979e72",
+      "candidate": 5,
+      "coveredAtBaseline": false,
+      "excerptCharacters": 2076,
+      "offeredCount": 12,
+      "contextTruncated": true,
+      "decision": "exclude",
+      "publishedAtInIntake": null,
+      "reason": "Reject: offered introduction supplies screen-persona description and an entrance, but not Cruise’s interview answers or a developed production explanation. Later Eyes Wide Shut contrast is beyond twelve IDs. Do not infer director intent."
+    },
+    {
+      "topic": "the_sopranos",
+      "publisher": "The New Yorker",
+      "title": "Family Guy",
+      "url": "https://www.newyorker.com/magazine/2007/06/04/family-guy",
+      "discovery": "https://en.wikipedia.org/wiki/The_Sopranos",
+      "linkedUrl": "https://www.newyorker.com/talk/comment/2007/06/04/070604taco_talk_remnick",
+      "retrievedAt": "2026-09-19T04:00:20.459Z",
+      "status": 200,
+      "responseUrl": "https://www.newyorker.com/magazine/2007/06/04/family-guy",
+      "htmlSha256": "59b9ae5b4e42db91eedc5ead5e202a9b800b269becfe22b8a380e661135307e8",
+      "htmlBytes": 839917,
+      "excerptSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "candidate": 6,
+      "coveredAtBaseline": false,
+      "excerptCharacters": 0,
+      "offeredCount": 0,
+      "contextTruncated": null,
+      "decision": "exclude",
+      "publishedAtInIntake": null,
+      "reason": "Reject: HTTP 200 and intended canonical article, but zero recognized prose in the normal path; no second adapter added."
+    },
+    {
+      "topic": "the_sopranos",
+      "publisher": "Vanity Fair",
+      "title": "The Family That Preys Together",
+      "url": "https://www.vanityfair.com/news/2007/03/chase200703",
+      "discovery": "https://en.wikipedia.org/wiki/The_Sopranos",
+      "linkedUrl": "https://www.vanityfair.com/culture/features/2007/03/chase200703",
+      "retrievedAt": "2026-09-19T04:00:20.467Z",
+      "status": 200,
+      "responseUrl": "https://www.vanityfair.com/news/2007/03/chase200703",
+      "error": "Error: RSS exceeds size limit",
+      "candidate": 7,
+      "coveredAtBaseline": false,
+      "excerptCharacters": 0,
+      "offeredCount": 0,
+      "contextTruncated": null,
+      "decision": "exclude",
+      "publishedAtInIntake": null,
+      "reason": "Reject: HTTP 200, but readBounded rejects the response above 1,000,000 bytes. Do not increase the cap or use a reader copy."
+    },
+    {
+      "topic": "the_sopranos",
+      "publisher": "UnHerd",
+      "title": "The dark origins of The Sopranos",
+      "url": "https://unherd.com/2021/09/the-sopranos-didnt-need-an-origin-story/",
+      "discovery": "https://en.wikipedia.org/wiki/The_Sopranos",
+      "retrievedAt": "2026-09-19T04:00:20.468Z",
+      "status": 200,
+      "responseUrl": "https://unherd.com/2021/09/the-sopranos-didnt-need-an-origin-story/",
+      "htmlSha256": "15f1a29e23577dcc45a262f6217c9834eec367fe1802ef5b04faf60b8d95e204",
+      "htmlBytes": 102594,
+      "excerptSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "candidate": 8,
+      "coveredAtBaseline": false,
+      "excerptCharacters": 0,
+      "offeredCount": 0,
+      "contextTruncated": null,
+      "decision": "exclude",
+      "publishedAtInIntake": null,
+      "reason": "Reject: intended article is accessible but returns zero recognized prose. No broad parser expansion."
+    },
+    {
+      "topic": "the_sopranos",
+      "publisher": "Splice Today",
+      "title": "Black Comedy and the Mob",
+      "url": "https://www.splicetoday.com/pop-culture/black-comedy-and-the-mob",
+      "discovery": "https://en.wikipedia.org/wiki/The_Sopranos",
+      "retrievedAt": "2026-09-19T04:00:20.469Z",
+      "status": 200,
+      "responseUrl": "https://www.splicetoday.com/pop-culture/black-comedy-and-the-mob",
+      "htmlSha256": "7760010ddf43d71152224e02d7ab0e04542d4b2fd5a6318f81f7d9bbe6e8cccf",
+      "htmlBytes": 46084,
+      "excerptSha256": "9f98d1374316c26c472a58a5bfdc89f19c5c8b2de591b92b02c61f9d1ac7f4ea",
+      "candidate": 9,
+      "coveredAtBaseline": false,
+      "excerptCharacters": 5374,
+      "offeredCount": 12,
+      "contextTruncated": true,
+      "decision": "exclude",
+      "publishedAtInIntake": null,
+      "reason": "Reject for this pass: offered criticism asserts broad moral contrasts, while the specific Sopranos causal examples and therapy analysis fall beyond twelve IDs. The selected shelf favors more concrete character/craft detail. Preserve interpretation as interpretation; no publisher ban."
+    },
+    {
+      "topic": "the_sopranos",
+      "publisher": "The Guardian",
+      "title": "The Sopranos cast reunite for documentary at Tribeca",
+      "url": "https://www.theguardian.com/tv-and-radio/article/2024/jun/14/the-sopranos-cast-reunite-documentary-tribeca",
+      "discovery": "https://www.theguardian.com/tv-and-radio/the-sopranos",
+      "retrievedAt": "2026-09-19T04:01:23.289Z",
+      "status": 200,
+      "responseUrl": "https://www.theguardian.com/tv-and-radio/article/2024/jun/14/the-sopranos-cast-reunite-documentary-tribeca",
+      "htmlSha256": "0d3a2c50219f064c8f3972550c44c155060c9b6d22961620e927bedc16b7a3e1",
+      "htmlBytes": 346299,
+      "excerptSha256": "26cb9151b878cf87cbb1d99ab3ce937281ea2303010c4327a5f90fb03e6cab55",
+      "candidate": 10,
+      "coveredAtBaseline": false,
+      "excerptCharacters": 715,
+      "offeredCount": 6,
+      "contextTruncated": false,
+      "decision": "exclude",
+      "publishedAtInIntake": null,
+      "reason": "Defer, not an extraction failure: a complete three-ID music-choice anecdote is offered, but the bounded section contains only that anecdote and a thematic introduction. Prioritize the more substantive Carmela character packet in this small pass. No lyric-bearing fixture is retained."
+    },
+    {
+      "topic": "the_sopranos",
+      "publisher": "The Guardian",
+      "title": "Edie Falco: ‘Alcohol was the answer to all my problems – and the cause of them’",
+      "url": "https://www.theguardian.com/tv-and-radio/2021/dec/01/edie-falco-interview-tv-actor-alcohol-hillary-clinton-sopranos",
+      "discovery": "https://www.theguardian.com/tv-and-radio/the-sopranos?page=2",
+      "retrievedAt": "2026-09-19T04:01:55.949Z",
+      "status": 200,
+      "responseUrl": "https://www.theguardian.com/tv-and-radio/2021/dec/01/edie-falco-interview-tv-actor-alcohol-hillary-clinton-sopranos",
+      "htmlSha256": "682e4b345cc898e8cd7a02cd5d33738a72054dcf76dc0b9e1fe3a468e2b09806",
+      "htmlBytes": 346820,
+      "excerptSha256": "9a8c5b6e2e904d52213afa1d2d1476a2a188d9c9adb7a8c6364890b9cfe7b1fc",
+      "candidate": 11,
+      "coveredAtBaseline": false,
+      "excerptCharacters": 2249,
+      "offeredCount": 12,
+      "contextTruncated": true,
+      "decision": "add",
+      "publishedAtInIntake": null,
+      "author": "Hadley Freeman",
+      "sourceDateNote": "December 1, 2021; publication metadata 2021-12-01T06:00:53.000Z.",
+      "supportedAngle": "Carmela’s selective self-deception",
+      "reviewedProbe": "Hadley Freeman frames Carmela’s self-deception through a selective confrontation: she can challenge Tony about his mistresses, yet cannot admit the worse things underwriting the comfortable life she loves. The contrast is Freeman’s reading of the character, not Falco confessing her own beliefs.",
+      "spoilers": false,
+      "limitations": "Character interpretation by the interviewer, not an interviewee recollection or a clinical diagnosis. General series premise only; no episode outcome. E8–E9 is a complete contrast. The cooking-camera anecdote later in the extracted prose is beyond the offered twelve IDs and must not be promised.",
+      "offeredEvidence": [
+        {
+          "id": "S1E1",
+          "text": "Edie Falco has never been the type of actor to demand entourages and encores.",
+          "contextGroup": "S1G1",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E2",
+          "text": "Fanfares and fuss are just not her bag, and she has little time for pretentious thespiness.",
+          "contextGroup": "S1G2",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E3",
+          "text": "When other actors talk about their “Process,” as she puts it – with a capital P – she thinks, “What are you talking about?!”",
+          "contextGroup": "S1G3",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E4",
+          "text": "With her open, thoughtful face and wide smile, she looks as if she could be your friend from the local coffee shop, as opposed to",
+          "contextGroup": "S1G4",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 3
+        },
+        {
+          "id": "S1E5",
+          "text": "one of the most accoladed American actors of this century, having accumulated two Golden Globes, four Emmys and five Screen Actors Guild awards, plus a",
+          "contextGroup": "S1G4",
+          "paragraph": 1,
+          "part": 2,
+          "parts": 3
+        },
+        {
+          "id": "S1E6",
+          "text": "jaw-dropping 47 nominations.",
+          "contextGroup": "S1G4",
+          "paragraph": 1,
+          "part": 3,
+          "parts": 3
+        },
+        {
+          "id": "S1E7",
+          "text": "This impression of straightforwardness and – oh dreaded word – relatability has made her subtle performances of self-deceiving characters even more powerful.",
+          "contextGroup": "S1G5",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E8",
+          "text": "As the mob wife, Carmela, in The Sopranos, she could tell Tony (James Gandolfini) what she thought of him staying out all night with his",
+          "contextGroup": "S1G6",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 2
+        },
+        {
+          "id": "S1E9",
+          "text": "“goomahs”, or mistresses, but she couldn’t admit to herself that he does much worse to fund the life she loves.",
+          "contextGroup": "S1G6",
+          "paragraph": 1,
+          "part": 2,
+          "parts": 2
+        },
+        {
+          "id": "S1E10",
+          "text": "Similarly, as Nurse Jackie, in the eponymous TV series, her scrubbed clean face and sensible short hair belied her character’s drug addiction.",
+          "contextGroup": "S1G7",
+          "paragraph": 1,
+          "part": 1,
+          "parts": 1
+        },
+        {
+          "id": "S1E11",
+          "text": "So it feels extremely right that, when we connect by video chat, Falco, 58, is sitting – not in a fancy hotel room, or a",
+          "contextGroup": "S1G8",
+          "paragraph": 2,
+          "part": 1,
+          "parts": 2
+        },
+        {
+          "id": "S1E12",
+          "text": "Hollywood mansion, but in the endearingly messy basement of her New York house, where she lives with her son, 16, and daughter, 13.",
+          "contextGroup": "S1G8",
+          "paragraph": 2,
+          "part": 2,
+          "parts": 2
+        }
+      ],
+      "selectedIds": [
+        "S1E8",
+        "S1E9"
+      ],
+      "offlineExcerpt": "Edie Falco has never been the type of actor to demand entourages and encores. Fanfares and fuss are just not her bag, and she has little time for pretentious thespiness. When other actors talk about their “Process,” as she puts it – with a capital P – she thinks, “What are you talking about?!” With her open, thoughtful face and wide smile, she looks as if she could be your friend from the local coffee shop, as opposed to one of the most accoladed American actors of this century, having accumulated two Golden Globes, four Emmys and five Screen Actors Guild awards, plus a jaw-dropping 47 nominations. This impression of straightforwardness and – oh dreaded word – relatability has made her subtle performances of self-deceiving characters even more powerful. As the mob wife, Carmela, in The Sopranos, she could tell Tony (James Gandolfini) what she thought of him staying out all night with his “goomahs”, or mistresses, but she couldn’t admit to herself that he does much worse to fund the life she loves. Similarly, as Nurse Jackie, in the eponymous TV series, her scrubbed clean face and sensible short hair belied her character’s drug addiction.",
+      "offlineHtml": "<article><p>Edie Falco has never been the type of actor to demand entourages and encores. Fanfares and fuss are just not her bag, and she has little time for pretentious thespiness. When other actors talk about their “Process,” as she puts it – with a capital P – she thinks, “What are you talking about?!” With her open, thoughtful face and wide smile, she looks as if she could be your friend from the local coffee shop, as opposed to one of the most accoladed American actors of this century, having accumulated two Golden Globes, four Emmys and five Screen Actors Guild awards, plus a jaw-dropping 47 nominations. This impression of straightforwardness and – oh dreaded word – relatability has made her subtle performances of self-deceiving characters even more powerful. As the mob wife, Carmela, in The Sopranos, she could tell Tony (James Gandolfini) what she thought of him staying out all night with his “goomahs”, or mistresses, but she couldn’t admit to herself that he does much worse to fund the life she loves. Similarly, as Nurse Jackie, in the eponymous TV series, her scrubbed clean face and sensible short hair belied her character’s drug addiction.</p></article>",
+      "duplicateAngleCheck": "No matching subject/angle in existing movie/Sopranos titles or relevant bodies at baseline; selected URL and normalized title unconsumed."
+    },
+    {
+      "topic": "the_sopranos",
+      "publisher": "The Guardian",
+      "title": "Sopranos star Michael Imperioli: ‘I thought they were going to fire me’",
+      "url": "https://www.theguardian.com/tv-and-radio/2021/nov/04/sopranos-star-michael-imperioli-i-thought-they-were-going-to-fire-me",
+      "discovery": "https://www.theguardian.com/tv-and-radio/the-sopranos?page=2",
+      "retrievedAt": "2026-09-19T04:01:55.958Z",
+      "status": 200,
+      "responseUrl": "https://www.theguardian.com/tv-and-radio/2021/nov/04/sopranos-star-michael-imperioli-i-thought-they-were-going-to-fire-me",
+      "htmlSha256": "82d01e82ef4fc8f663cc6efa5002b4af2d6255b3f8d6340d0e19d0c4db544f69",
+      "htmlBytes": 374316,
+      "excerptSha256": "ed03efca3239338794396a8428ec1da11bfd4146f9e0345499e5977d1ea69472",
+      "candidate": 12,
+      "coveredAtBaseline": false,
+      "excerptCharacters": 1359,
+      "offeredCount": 11,
+      "contextTruncated": true,
+      "decision": "exclude",
+      "publishedAtInIntake": null,
+      "reason": "Reject for Sopranos replenishment: the entire extracted section is the Goodfellas injury anecdote. The three-ID allowance can cover the accident and hospital misunderstanding, but not also the fuller scene setup and resolution. No Sopranos production evidence is offered; do not relabel film history as series coverage."
+    }
+  ],
+  "normalIntakeRecheck": [
+    {
+      "url": "https://theasc.com/article/wide-wide-west-the-hateful-eight/",
+      "id": "232aa59e7debd695",
+      "retrievedAt": "2026-09-19T04:04:12.851Z",
+      "excerptCharacters": 2377,
+      "offeredCount": 12,
+      "exactOfferedEvidenceMatch": true,
+      "unknownPublicationDate": true
+    },
+    {
+      "url": "https://theasc.com/article/finessing-killers-of-the-flower-moon-at-company-3/",
+      "id": "c8940bdba4736d02",
+      "retrievedAt": "2026-09-19T04:04:12.851Z",
+      "excerptCharacters": 1139,
+      "offeredCount": 12,
+      "exactOfferedEvidenceMatch": true,
+      "unknownPublicationDate": true
+    },
+    {
+      "url": "https://www.bfi.org.uk/sight-and-sound/interviews/i-realised-any-attempt-replicate-going-be-failure-sophy-romvari-blue-heron",
+      "id": "f8246b093f63e165",
+      "retrievedAt": "2026-09-19T04:04:12.851Z",
+      "excerptCharacters": 1497,
+      "offeredCount": 12,
+      "exactOfferedEvidenceMatch": true,
+      "unknownPublicationDate": true
+    },
+    {
+      "url": "https://www.theguardian.com/tv-and-radio/2021/dec/01/edie-falco-interview-tv-actor-alcohol-hillary-clinton-sopranos",
+      "id": "aadf0a7bd74f9479",
+      "retrievedAt": "2026-09-19T04:04:12.851Z",
+      "excerptCharacters": 2249,
+      "offeredCount": 12,
+      "exactOfferedEvidenceMatch": true,
+      "unknownPublicationDate": true
+    }
+  ]
+}
