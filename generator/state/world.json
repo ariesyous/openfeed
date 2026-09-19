@@ -349,7 +349,27 @@
     "the faces of mario bava s black sabbath",
     "filmmaking at the end of the world the quiet earth",
     "high profile raids spotlight india s food safety struggles",
-    "uncertainty hangs over nackawic after pulp mill announces temporary shutdown"
+    "uncertainty hangs over nackawic after pulp mill announces temporary shutdown",
+    "ukraine steps up measures to protect railways",
+    "insufficient funds to pay brewdog creditors after takeover deal",
+    "flight chaos caused by millisecond software defect report says",
+    "canada and eu a look at the bloc s special relationships",
+    "the new lines of southern lebanon",
+    "editors guild praises california s new post production tax credit law as historic",
+    "there might be no economic case for expanding the port of churchill but that may not be the point",
+    "michigan city defends itself against accusations of favoring muslim holidays over other faiths",
+    "trump announces all 50 states joining medicaid drug pricing model",
+    "cnn ms now politico reporters denied access to white house following trump ban",
+    "possible love the cast of lee chang dong s venice award winner discuss its themes of class division tiff studio",
+    "if most albertans don t want to leave canada where is the pro canada movement",
+    "canada s defence minister calls u s deal on greenland encouraging",
+    "henry winkler says his name was cut from scream poster because you were the fonz and it would knock the balance of horror off",
+    "playful provocation hypermediacy in mario bava s danger diabolik",
+    "john wilson on the history of concrete and what s wrong with the documentary space people are retelling stories that have already happened",
+    "2 sudden deaths prompt public safety warning from halifax police",
+    "rabid dogs",
+    "cosmic amnesia",
+    "maxxing treats life as a problem when it s a mystery"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -700,12 +720,32 @@
     "https://www.sensesofcinema.com/2026/cteq/the-faces-of-mario-bavas-black-sabbath/",
     "https://www.sensesofcinema.com/2026/cteq/filmmaking-at-the-end-of-the-world-the-quiet-earth/",
     "https://www.dw.com/en/high-profile-raids-spotlight-india-s-food-safety-struggles/a-79324342?maca=en-rss-en-world-4025-rdf",
-    "https://globalnews.ca/news/12064467/nackawic-mill-shutdown/"
+    "https://globalnews.ca/news/12064467/nackawic-mill-shutdown/",
+    "https://www.dw.com/en/ukraine-steps-up-measures-to-protect-railways/a-79339087?maca=en-rss-en-world-4025-rdf",
+    "https://www.bbc.co.uk/news/articles/cw1mvjyv937eo",
+    "https://www.bbc.co.uk/news/articles/cw0kl1571lpmo",
+    "https://www.dw.com/en/canada-and-eu-a-look-at-the-bloc-s-special-relationships/a-79328797?maca=en-rss-en-world-4025-rdf",
+    "https://www.npr.org/sections/the-picture-show/2026/09/19/g-s1-139752/the-new-lines-of-southern-lebanon",
+    "https://deadline.com/2026/09/editors-guild-california-post-production-tax-credit-newsom-1237108455/",
+    "https://www.cbc.ca/news/canada/manitoba/economic-development-analysis-churchill-port-9.7348769?cmp=rss",
+    "https://www.pbs.org/newshour/nation/michigan-city-defends-itself-against-accusations-of-favoring-muslim-holidays-over-other-faiths",
+    "https://www.pbs.org/newshour/politics/trump-announces-all-50-states-joining-medicaid-drug-pricing-model",
+    "https://www.npr.org/2026/09/19/nx-s1-5974854/trump-cnn-msnow-politico-ban",
+    "https://deadline.com/video/possible-love-the-cast-of-lee-chang-dong-venice-award-winner/",
+    "https://www.cbc.ca/news/canada/calgary/alberta-referendum-canada-federalists-campaign-remain-9.7350021?cmp=rss",
+    "https://globalnews.ca/news/12065788/canadas-defence-minister-greenland-us-deal/",
+    "https://variety.com/2026/film/news/henry-winkler-scream-movie-poster-1236869640/",
+    "https://www.sensesofcinema.com/2026/cteq/playful-provocation-hypermediacy-in-mario-bavas-danger-diabolik/",
+    "https://variety.com/2026/film/news/john-wilson-history-of-concrete-1236867369/",
+    "https://globalnews.ca/news/12064953/sudden-deaths-halifax-possible-overdose/",
+    "https://www.sensesofcinema.com/2026/cteq/rabid-dogs/",
+    "https://aeon.co/essays/black-holes-ring-like-bells-what-happens-next-is-stranger",
+    "https://psyche.co/ideas/maxxing-treats-life-as-a-problem-when-its-a-mystery"
   ],
   "initialized": true,
-  "cycleCount": 35,
+  "cycleCount": 36,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-19T15:54:40.843Z",
+  "lastRunAt": "2026-09-19T20:43:15.593Z",
   "communities": [
     "technology",
     "science",
@@ -727,11 +767,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260919T001812Z-2397",
-      "generatedAtCycle": 31,
-      "summary": "AI hallucination nearly sparks military clash over Chinese vessel; Claude hacks OpenAI: Security researchers used Anthropic's tool to break into a ChatGPT account; How the Bank of Canada's SID tool segments the price index; Newsom signs California order with a possible AI kill switch; Alberta separatists say the referendum won't end their fight; AWS's pitch for managing multi-model AI agents"
-    },
-    {
       "batchId": "20260919T041616Z-6005",
       "generatedAtCycle": 32,
       "summary": "Chilling a Hollywood soundstage to 30°F so you can see The Hateful Eight's breath; Ceres is the asteroid belt's biggest object — and a quarter of its mass; Why Edie Falco's ordinariness makes Carmela's self-deception land; Calgary council split over taking a stance on Alberta's independence referendum; The Beastie Boys sample buried in the Rust Belt: why ULA's rocket problem is a business-model problem; Collective action problems vs. coordination problems: the difference is not information, it's"
@@ -750,6 +785,11 @@
       "batchId": "20260919T155440Z-671f",
       "generatedAtCycle": 35,
       "summary": "How Astronomers Weigh a Ring by Watching It Blink; Six Decades of Reports About Dying Patients Who Briefly Return; A Charitable Tax Break, a Social Media Post, and Two Governments Arguing; The Oil Price Forecast That Won't Forecast; Montreal Turns Its Cobblestones and Mount Royal Into a Cycling Circuit; Comb Jellies, the Gelatinous Branch of the Animal Tree; ‘Vintage Violence’ Puts Cole Sprouse Behind the Live-Stream; What Language Learning Demands of a Brain; Camden's All-Documentary Festival R"
+    },
+    {
+      "batchId": "20260919T204315Z-b2c4",
+      "generatedAtCycle": 36,
+      "summary": "Ukraine Moves to Shield Its Railways as Strikes on the Network Intensify; Brewdog Administrators Say the Money Isn't There for Creditors; A Software Defect Measured in Milliseconds Grounded More Than 2,000 Flights; What an Associate Membership Would Actually Be; A Monitoring Mandate Younger Than the Group It Watches; A California Bill Aimed at the Edit, Not the Shoot; A $3-Billion Port Expansion Argued in the Language of Sovereignty; A Detroit Suburb Is Sued Over Which Holidays It Pays to Mark; "
     }
   ]
 }
