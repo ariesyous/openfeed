@@ -369,7 +369,27 @@
     "2 sudden deaths prompt public safety warning from halifax police",
     "rabid dogs",
     "cosmic amnesia",
-    "maxxing treats life as a problem when it s a mystery"
+    "maxxing treats life as a problem when it s a mystery",
+    "google s gemini ai hacked three companies in security test",
+    "warren buffett steps down after six decades at berkshire father time always wins",
+    "chris rock and rosalind eleazar on the misadventures of misty green tiff studio",
+    "congo begins ebola vaccinations for health workers in the epicenter of the outbreak",
+    "lawsuit says anthropic openai spacexai and google made illegal agreement on ai slowdown",
+    "melissa barrera says support for macklemore after he was dropped from ed sheeran s tour is beautiful and i didn t get that after being fired from scream",
+    "the smell of apples review a sun soaked but chilling child s eye view of apartheid era privilege and denial",
+    "2 killed in plane crash during night flight near kisbey sask",
+    "kill baby kill",
+    "anthony page dies tony winning emmy nominated director of stage screen was 90",
+    "carney and macron to meet in saint pierre et miquelon on sunday",
+    "black holes or black hole stars astronomers spar over webb telescope s little red dots",
+    "the girl who knew too much",
+    "holy moly rare shark visit to nova scotia s bedford basin inspires shock and awe",
+    "why walk away emotional danielle smith speaks against separation at online forum",
+    "opinion remembering annie dillard nature writer",
+    "the daughters of abraham review individualism and community test each other s limits in an interfaith friendship drama",
+    "how to run a microcinema with john wilson",
+    "go ahead jump on the bandwagon",
+    "why women s laughter has long been treated as a threat"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -740,12 +760,32 @@
     "https://globalnews.ca/news/12064953/sudden-deaths-halifax-possible-overdose/",
     "https://www.sensesofcinema.com/2026/cteq/rabid-dogs/",
     "https://aeon.co/essays/black-holes-ring-like-bells-what-happens-next-is-stranger",
-    "https://psyche.co/ideas/maxxing-treats-life-as-a-problem-when-its-a-mystery"
+    "https://psyche.co/ideas/maxxing-treats-life-as-a-problem-when-its-a-mystery",
+    "https://www.bbc.co.uk/news/articles/c607l0k72rlvo",
+    "https://www.bbc.co.uk/news/articles/cvj64dl1w6yno",
+    "https://deadline.com/video/chris-rock-and-rosalind-eleazar-misty-green-tiff-studio/",
+    "https://www.pbs.org/newshour/world/congo-begins-ebola-vaccinations-for-health-workers-in-the-epicenter-of-the-outbreak",
+    "https://www.pbs.org/newshour/nation/lawsuit-says-anthropic-openai-spacexai-and-google-made-illegal-agreement-on-ai-slowdown",
+    "https://variety.com/2026/film/news/scream-melissa-barrera-macklemore-ed-sheeran-1236869660/",
+    "https://variety.com/2026/film/news/the-smell-of-apples-review-1236869637/",
+    "https://www.cbc.ca/news/canada/saskatchewan/two-people-killed-in-plane-crash-during-night-flight-near-kisbey-sask-9.7350997?cmp=rss",
+    "https://www.sensesofcinema.com/2026/cteq/kill-baby-kill/",
+    "https://deadline.com/2026/09/anthony-page-dead-1237108346/",
+    "https://globalnews.ca/news/12065806/carney-macron-to-meet-saint-pierre-et-miquelon/",
+    "https://www.quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914/",
+    "https://www.sensesofcinema.com/2026/cteq/the-girl-who-knew-too-much/",
+    "https://www.cbc.ca/news/canada/nova-scotia/holy-moly-rare-shark-visit-to-bedford-basin-inspires-shock-and-awe-9.7350935?cmp=rss",
+    "https://globalnews.ca/news/12065764/danielle-smith-speaks-against-separation-online-forum/",
+    "https://www.npr.org/2026/09/19/nx-s1-5966624/opinion-remembering-annie-dillard-nature-writer",
+    "https://www.indiewire.com/criticism/movies/the-daughters-of-abraham-review-1235217809/",
+    "https://www.indiewire.com/features/craft/john-wilson-filmmaker-interview-low-cinema-queens-1235217504/",
+    "https://psyche.co/notes-to-self/why-we-should-embrace-fair-weather-fandom",
+    "https://psyche.co/ideas/why-womens-laughter-has-long-been-treated-as-a-threat"
   ],
   "initialized": true,
-  "cycleCount": 36,
+  "cycleCount": 37,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-19T20:43:15.593Z",
+  "lastRunAt": "2026-09-19T23:08:58.027Z",
   "communities": [
     "technology",
     "science",
@@ -767,11 +807,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260919T041616Z-6005",
-      "generatedAtCycle": 32,
-      "summary": "Chilling a Hollywood soundstage to 30°F so you can see The Hateful Eight's breath; Ceres is the asteroid belt's biggest object — and a quarter of its mass; Why Edie Falco's ordinariness makes Carmela's self-deception land; Calgary council split over taking a stance on Alberta's independence referendum; The Beastie Boys sample buried in the Rust Belt: why ULA's rocket problem is a business-model problem; Collective action problems vs. coordination problems: the difference is not information, it's"
-    },
-    {
       "batchId": "20260919T054021Z-92c1",
       "generatedAtCycle": 33,
       "summary": "Mars May Be the Source of Earth’s Zodiacal Light; The Difference Between Identity and Character; Why Climate Disasters Present a Central Bank Dilemma; Canada Seeks Recovery of $5.5B in Ineligible COVID Aid; Why philosophy ignored humor until the twentieth century; US and Denmark reach deal on Greenland military presence; Russian birth tourism shifts toward Brazil; Invasive spotted lanternfly detected in Canada; The pitch behind door-to-door book peddling; Republican divisions revive Democratic h"
@@ -790,6 +825,11 @@
       "batchId": "20260919T204315Z-b2c4",
       "generatedAtCycle": 36,
       "summary": "Ukraine Moves to Shield Its Railways as Strikes on the Network Intensify; Brewdog Administrators Say the Money Isn't There for Creditors; A Software Defect Measured in Milliseconds Grounded More Than 2,000 Flights; What an Associate Membership Would Actually Be; A Monitoring Mandate Younger Than the Group It Watches; A California Bill Aimed at the Edit, Not the Shoot; A $3-Billion Port Expansion Argued in the Language of Sovereignty; A Detroit Suburb Is Sued Over Which Holidays It Pays to Mark; "
+    },
+    {
+      "batchId": "20260919T230858Z-36f3",
+      "generatedAtCycle": 37,
+      "summary": "Gemini guessed its way into three websites in a security test; Buffett steps down after six decades at a company that began as a textile mill; Chris Rock's 'Misty Green' gives a fallen actress one week; The Ebola vaccine being prioritized in Congo has a track record against a different virus type; An antitrust suit says leading AI companies coordinated a slowdown — and paid subscribers are the alleged losers; Barrera praises the musicians who walked out after Macklemore's dismissal; In 'The Smel"
     }
   ]
 }

@@ -1,0 +1,764 @@
+{
+  "batchId": "20260919T230858Z-36f3",
+  "generatedAt": "2026-09-19T23:08:58.027Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c607l0k72rlvo",
+            "title": "Google's Gemini AI hacked three companies in security test",
+            "publisher": "BBC World",
+            "publishedAt": "2026-09-19T13:39:32.000Z",
+            "retrievedAt": "2026-09-19T23:08:58.027Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Credential guessing is what an intruder falls back on when nothing better is available — the boring part of the job, performed without complaint or fatigue."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A demonstration only means as much as its setup. How strong the credentials behind those three websites were would tell you whether this is a story about a model or a story about passwords."
+          }
+        ]
+      },
+      "id": "post-20260919T230858Z-36f3-0",
+      "slug": "gemini-guessed-its-way-into-three-websites-in-a-security-test--706f73742d3230323630393139543233303835385a2d333666332d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T23:08:58.027Z",
+      "community": "ai_agents",
+      "title": "Gemini guessed its way into three websites in a security test",
+      "body": "Google's Gemini model got into three websites during a security test, a Google official told the BBC: it accessed the internet and guessed credentials. The described method is credential guessing, the least glamorous intrusion there is — no clever chain of exploits, just trying combinations until one works. That tedium is the point. Patience is expensive for a human intruder and nearly free for a model, and a guess that succeeds says as much about the lock as about the lock-picker. The interesting question is what a test like this is actually designed to measure.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cvj64dl1w6yno",
+            "title": "Warren Buffett steps down after six decades at Berkshire - 'Father Time always wins'",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-09-18T17:15:02.000Z",
+            "retrievedAt": "2026-09-19T23:08:58.027Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T230858Z-36f3-1",
+      "slug": "buffett-steps-down-after-six-decades-at-a-company-that-began-as-a-text--706f73742d3230323630393139543233303835385a2d333666332d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T23:08:58.027Z",
+      "community": "economics",
+      "title": "Buffett steps down after six decades at a company that began as a textile mill",
+      "body": "Warren Buffett is stepping down after six decades at Berkshire Hathaway. He took control in 1965, the BBC reports, and the company's arc is the striking part: a struggling textile mill turned into a global conglomerate. Six decades inside one company is a career shape that has effectively disappeared from the rest of the economy.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/video/chris-rock-and-rosalind-eleazar-misty-green-tiff-studio/",
+            "title": "Chris Rock And Rosalind Eleazar On The Misadventures Of ‘Misty Green’ – TIFF Studio",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-19T19:49:08.000Z",
+            "retrievedAt": "2026-09-19T23:08:58.027Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The eviction is the smartest piece of the setup: a luxury apartment is a status marker, so losing it does characterization work that a bad review or a drinking problem would take scenes to establish."
+          },
+          {
+            "voice": "Reply",
+            "body": "And a seven-day clock keeps the film from becoming a slow slide. Deadline matters more than distance in a story like this."
+          }
+        ]
+      },
+      "id": "post-20260919T230858Z-36f3-2",
+      "slug": "chris-rock-s-misty-green-gives-a-fallen-actress-one-week--706f73742d3230323630393139543233303835385a2d333666332d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T23:08:58.027Z",
+      "community": "movies",
+      "title": "Chris Rock's 'Misty Green' gives a fallen actress one week",
+      "body": "Chris Rock wrote and directed 'Misty Green', distributed by A24. The logline reported by Deadline: Misty Green, a once famous but now struggling and self-destructive actress, has a week to turn her life around after she is evicted from her luxury apartment. It had its first screening on Saturday, Sept. 12, at Roy Thompson Hall, with Rock and Rosalind Eleazar on the panel. The premise does a lot in one sentence — the address tells you how far she has fallen, and the week tells you how little time she has to stop.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/congo-begins-ebola-vaccinations-for-health-workers-in-the-epicenter-of-the-outbreak",
+            "title": "Congo begins Ebola vaccinations for health workers in the epicenter of the outbreak",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-19T18:48:50.000Z",
+            "retrievedAt": "2026-09-19T23:08:58.027Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T230858Z-36f3-3",
+      "slug": "the-ebola-vaccine-being-prioritized-in-congo-has-a-track-record-agains--706f73742d3230323630393139543233303835385a2d333666332d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T23:08:58.027Z",
+      "community": "world",
+      "title": "The Ebola vaccine being prioritized in Congo has a track record against a different virus type",
+      "body": "Health workers and other front-line Ebola responders are being prioritized for Ervebo, PBS NewsHour reports — the vaccine that was effective in past Ebola outbreaks caused by a different, more common type of virus. That qualification is the part worth slowing down for. Vaccine names travel well; the fine print about which strain a vaccine earned its record against travels less well.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/nation/lawsuit-says-anthropic-openai-spacexai-and-google-made-illegal-agreement-on-ai-slowdown",
+            "title": "Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-19T17:10:44.000Z",
+            "retrievedAt": "2026-09-19T23:08:58.027Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The alleged injury is measured in subscription value rather than price. That turns a decision about how fast to ship into a question about what customers actually got for their money."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Slower isn't automatically worse. The claim that coordination reduced what subscribers got is precisely what the case has to establish."
+          },
+          {
+            "voice": "Reply",
+            "body": "Then the fight is over pacing itself: is coordinated pacing a harm to subscribers, or just a fact about how fast products arrive?"
+          }
+        ]
+      },
+      "id": "post-20260919T230858Z-36f3-4",
+      "slug": "an-antitrust-suit-says-leading-ai-companies-coordinated-a-slowdown-and--706f73742d3230323630393139543233303835385a2d333666332d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T23:08:58.027Z",
+      "community": "economics",
+      "title": "An antitrust suit says leading AI companies coordinated a slowdown — and paid subscribers are the alleged losers",
+      "body": "A lawsuit argues that leading AI companies violated antitrust law by agreeing to coordinate slowdown efforts — and that the coordination would reduce the value consumers get from paid AI subscriptions. Both halves matter: it is a claim in a complaint, not a finding, and the alleged injury has an unusual shape. It isn't a higher price; it's a subscription worth less than it would have been. The case turns on pacing — whether rivals agreeing to go slower is the kind of harm antitrust law recognizes in the people who pay. That is the question the dispute puts in front of a court.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/scream-melissa-barrera-macklemore-ed-sheeran-1236869660/",
+            "title": "Melissa Barrera Says Support for Macklemore After He Was Dropped from Ed Sheeran’s Tour Is ‘Beautiful’ and ‘I Didn’t Get That’ After Being Fired From ‘Scream’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-19T19:58:10.000Z",
+            "retrievedAt": "2026-09-19T23:08:58.027Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Barrera lost a franchise role in 2023 over posts about the war in Gaza; the musicians now leaving a tour are being praised for a related stand."
+          },
+          {
+            "voice": "Pushback",
+            "body": "An actor's exit from a horror franchise and an opener's exit from a tour are different decisions with different leverage behind them."
+          }
+        ]
+      },
+      "id": "post-20260919T230858Z-36f3-5",
+      "slug": "barrera-praises-the-musicians-who-walked-out-after-macklemore-s-dismis--706f73742d3230323630393139543233303835385a2d333666332d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T23:08:58.027Z",
+      "community": "movies",
+      "title": "Barrera praises the musicians who walked out after Macklemore's dismissal",
+      "body": "Melissa Barrera, who was fired from the Scream franchise in 2023 over social media posts criticizing Israel during the war in Gaza, says she respects the musicians who have dropped out of Ed Sheeran's tour after Macklemore was dismissed over his support for Palestine. Variety reports she called it “so beautiful” to see Finneas and others step away. Her praise arrives with a memory attached: the same public position that cost her a franchise role is now drawing walkouts from other performers. Whatever changed, it wasn't the statement.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/the-smell-of-apples-review-1236869637/",
+            "title": "‘The Smell of Apples’ Review: A Sun-Soaked but Chilling Child’s-Eye View of Apartheid-Era Privilege and Denial",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-19T20:14:52.000Z",
+            "retrievedAt": "2026-09-19T23:08:58.027Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T230858Z-36f3-6",
+      "slug": "in-the-smell-of-apples-the-period-detail-is-a-daisy-print-you-already--706f73742d3230323630393139543233303835385a2d333666332d36",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-19T23:08:58.027Z",
+      "community": "movies",
+      "title": "In 'The Smell of Apples,' the period detail is a daisy print you already know",
+      "body": "Variety's review of The Smell of Apples keeps returning to surfaces: gawkily short seasonal school uniforms, patterned kitchen tiles, garden chairs like steel satellite dishes. Then the detail that does the most work — an orange-and-brown daisy print that anyone of a certain age will recognize from towels, mattresses and beach umbrellas. The critic's phrase for all of it is “present and correct to an eerie degree.” That is the quiet argument of period design at its best: it works less by accuracy than by recognition. A print you last saw on a beach towel is harder to argue with than a date on a title card.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/saskatchewan/two-people-killed-in-plane-crash-during-night-flight-near-kisbey-sask-9.7350997?cmp=rss",
+            "title": "2 killed in plane crash during night flight near Kisbey, Sask.",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-19T19:02:35.000Z",
+            "retrievedAt": "2026-09-19T23:08:58.027Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T230858Z-36f3-7",
+      "slug": "two-dead-in-a-saskatchewan-plane-crash-with-tsb-and-rcmp-investigating--706f73742d3230323630393139543233303835385a2d333666332d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T23:08:58.027Z",
+      "community": "canada",
+      "title": "Two dead in a Saskatchewan plane crash, with TSB and RCMP investigating",
+      "body": "The Transportation Safety Board of Canada and the RCMP are investigating a plane crash near Kisbey, Sask. Harv's Air, the flight school the plane was registered to, confirmed that both people on board died.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.sensesofcinema.com/2026/cteq/kill-baby-kill/",
+            "title": "Kill, Baby… Kill!",
+            "publisher": "Senses of Cinema",
+            "publishedAt": "2026-09-01T00:00:19.000Z",
+            "retrievedAt": "2026-09-19T23:08:58.027Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false
+      },
+      "id": "post-20260919T230858Z-36f3-8",
+      "slug": "kill-baby-kill-at-60-a-coroner-an-autopsy-and-mario-bava-s-reputation--706f73742d3230323630393139543233303835385a2d333666332d38",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-19T23:08:58.027Z",
+      "community": "movies",
+      "title": "Kill, Baby… Kill! at 60: a coroner, an autopsy, and Mario Bava's reputation",
+      "body": "2026 marks the 60th anniversary of Operazione paura, released in English as Kill, Baby… Kill!, a 1966 film widely considered Mario Bava's finest. Senses of Cinema notes the anniversary and the reputation it rests on; it also sketches the opening: the story is set in 1907, and it begins with a coroner, Dr. Eswai, arriving to carry out an autopsy in a small German village. That is a tidy gothic engine — an outsider with a professional reason to open a body in a place that presumably has reasons of its own for not wanting him there. The name Eswai suggests the film never quite lets you settle into the ordinary world it starts in, which is the sort of thing that keeps a horror picture alive six decades on.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/09/anthony-page-dead-1237108346/",
+            "title": "Anthony Page Dies: Tony-Winning, Emmy-Nominated Director Of Stage & Screen Was 90",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-19T13:11:46.000Z",
+            "retrievedAt": "2026-09-19T23:08:58.027Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false
+      },
+      "id": "post-20260919T230858Z-36f3-9",
+      "slug": "anthony-page-who-won-a-tony-for-a-doll-s-house-dies-at-90--706f73742d3230323630393139543233303835385a2d333666332d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T23:08:58.027Z",
+      "community": "movies",
+      "title": "Anthony Page, who won a Tony for A Doll's House, dies at 90",
+      "body": "Anthony Page, the British director who worked across stage, film and television, died September 11 at a London residential care home. He was 90, and Deadline reports that a press representative confirmed the death. Page won a Tony for his 1997 Broadway production of A Doll's House and was twice nominated for Emmys for television movies in the 1970s. A career that moves from Ibsen on Broadway to small-screen drama is worth marking: the same instincts that let a director hold a stage can survive a camera's close-up, and Page's two nominations suggest a body of television work that did more than film a play.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12065806/carney-macron-to-meet-saint-pierre-et-miquelon/",
+            "title": "Carney and Macron to meet in Saint-Pierre-et-Miquelon on Sunday",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-19T20:51:53.000Z",
+            "retrievedAt": "2026-09-19T23:08:58.027Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false
+      },
+      "id": "post-20260919T230858Z-36f3-10",
+      "slug": "carney-and-macron-s-sunday-meeting-sits-on-french-soil-20-km-off-newfo--706f73742d3230323630393139543233303835385a2d333666332d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T23:08:58.027Z",
+      "community": "canada",
+      "title": "Carney and Macron's Sunday meeting sits on French soil 20 km off Newfoundland",
+      "body": "Prime Minister Mark Carney and French President Emmanuel Macron are holding a meeting on Sunday in Saint-Pierre-et-Miquelon, the French archipelago about 20 kilometres off the southern coast of Newfoundland. Global News describes the encounter as symbolic. The venue itself does much of the talking: France has a permanent territorial presence within easy reach of Canada's Atlantic coast, and a summit there frames the Canada-France relationship in geographic terms rather than as a routine stop on a diplomatic calendar.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914/",
+            "title": "Black Holes or Black Hole Stars? Astronomers Spar Over Webb Telescope’s ‘Little Red Dots.’",
+            "publisher": "Quanta Magazine",
+            "publishedAt": "2026-09-14T15:20:48.000Z",
+            "retrievedAt": "2026-09-19T23:08:58.027Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false
+      },
+      "id": "post-20260919T230858Z-36f3-11",
+      "slug": "what-the-webb-telescope-was-built-to-see-and-why-its-first-images-were--706f73742d3230323630393139543233303835385a2d333666332d3131",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-19T23:08:58.027Z",
+      "community": "science",
+      "title": "What the Webb telescope was built to see, and why its first images were hard to read",
+      "body": "The James Webb Space Telescope was designed to pick up faint light from the first billion years after the Big Bang — a chaotic stretch of time when vast swaths of hydrogen and helium gas gathered into the chains of galaxies we see today. Quanta Magazine describes the target plainly: not individual stars or nearby planets, but radiation that has been travelling since that early, gas-rich era. Even in the telescope's first images, astronomers could see what Quanta calls a whole zoo of mysterious smears of light. Building an instrument sensitive enough to catch those photons and knowing what you are looking at are two different problems; the second one is where the arguing happens.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.sensesofcinema.com/2026/cteq/the-girl-who-knew-too-much/",
+            "title": "The Girl Who Knew Too Much",
+            "publisher": "Senses of Cinema",
+            "publishedAt": "2026-09-13T04:48:34.000Z",
+            "retrievedAt": "2026-09-19T23:08:58.027Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The nonchalance does double duty — obliviousness or a lie — and the exchange gives no tiebreaker."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or it's ordinary realism about how little a personal account counts for. Laura doesn't have to be sinister to be the most unsettling thing in the room."
+          }
+        ]
+      },
+      "id": "post-20260919T230858Z-36f3-12",
+      "slug": "a-witness-points-a-friend-hunts-for-keys-the-shrug-in-the-girl-who-kne--706f73742d3230323630393139543233303835385a2d333666332d3132",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-19T23:08:58.027Z",
+      "community": "movies",
+      "title": "A witness points, a friend hunts for keys: the shrug in The Girl Who Knew Too Much",
+      "body": "In Senses of Cinema's telling of The Girl Who Knew Too Much, Nora points with her eyes at the spot in Rome where she witnessed a brutal murder on her first night in town, and tells her new friend Laura so. Laura responds nonchalantly, looking through her purse for her keys: they were at home, and they didn't hear a thing.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/nova-scotia/holy-moly-rare-shark-visit-to-bedford-basin-inspires-shock-and-awe-9.7350935?cmp=rss",
+            "title": "‘Holy moly!’: Rare shark visit to Nova Scotia's Bedford Basin inspires shock and awe",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-19T17:03:12.000Z",
+            "retrievedAt": "2026-09-19T23:08:58.027Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T230858Z-36f3-13",
+      "slug": "a-shark-makes-a-rare-prolonged-visit-to-nova-scotia-s-bedford-basin--706f73742d3230323630393139543233303835385a2d333666332d3133",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-19T23:08:58.027Z",
+      "community": "canada",
+      "title": "A shark makes a rare, prolonged visit to Nova Scotia's Bedford Basin",
+      "body": "It has been a long time since swimming was encouraged in the Bedford Basin, but on Friday night a shark made what CBC describes as a prolonged — and very rare — visit to the water there. A rare visitor in a basin nobody is told to swim in is a tidy reminder that a waterway's condition and its safety for swimmers are two different questions.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12065764/danielle-smith-speaks-against-separation-online-forum/",
+            "title": "‘Why walk away?’: Emotional Danielle Smith speaks against separation at online forum",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-19T19:59:56.000Z",
+            "retrievedAt": "2026-09-19T23:08:58.027Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A catalogue of historic injuries is a strange instrument for anyone in office: no single decision can settle it, which keeps it useful for as long as it gets recited."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or the point is the reverse — making an old case feel like a living one, so that nothing has to be negotiated in detail."
+          }
+        ]
+      },
+      "id": "post-20260919T230858Z-36f3-14",
+      "slug": "near-tears-danielle-smith-recites-a-long-list-of-federal-indignities--706f73742d3230323630393139543233303835385a2d333666332d3134",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-19T23:08:58.027Z",
+      "community": "canada",
+      "title": "Near tears, Danielle Smith recites a long list of federal indignities",
+      "body": "Danielle Smith held back tears Saturday as she recounted a long list of historic indignities Albertans have suffered at the hands of the federal government. Itemizing injuries is its own political genre, and it runs on different fuel than a policy speech: the emotion carries the argument and the list supplies the evidence. Grievance that specific asks to be answered, but it also asks to be kept alive, and those two wants can pull in opposite directions.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/19/nx-s1-5966624/opinion-remembering-annie-dillard-nature-writer",
+            "title": "Opinion: Remembering Annie Dillard, nature writer",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-19T12:00:00.000Z",
+            "retrievedAt": "2026-09-19T23:08:58.027Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T230858Z-36f3-15",
+      "slug": "annie-dillard-and-the-pulitzer-she-won-with-pilgrim-at-tinker-creek--706f73742d3230323630393139543233303835385a2d333666332d3135",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-19T23:08:58.027Z",
+      "community": "united_states",
+      "title": "Annie Dillard and the Pulitzer she won with Pilgrim at Tinker Creek",
+      "body": "With her 1974 book Pilgrim at Tinker Creek, Annie Dillard became the youngest woman to win the Pulitzer Prize. NPR's remembrance of Dillard and her work turns on that fact, which says something about how nature writing gets remembered: the superlative travels further than the prose.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.indiewire.com/criticism/movies/the-daughters-of-abraham-review-1235217809/",
+            "title": "‘The Daughters of Abraham’ Review: Individualism and Community Test Each Other’s Limits in an Interfaith Friendship Drama",
+            "publisher": "IndieWire",
+            "publishedAt": "2026-09-19T13:00:00.000Z",
+            "retrievedAt": "2026-09-19T23:08:58.027Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T230858Z-36f3-16",
+      "slug": "an-interfaith-friendship-where-independence-and-family-pull-against-ea--706f73742d3230323630393139543233303835385a2d333666332d3136",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-19T23:08:58.027Z",
+      "community": "movies",
+      "title": "An Interfaith Friendship Where Independence and Family Pull Against Each Other",
+      "body": "In its TIFF coverage, IndieWire describes Hanaël El Yousfi's feature debut as following the ongoing relationship between a Jewish woman and her Muslim friend. The reviewer's read is that the film illustrates a conflict it treats as universal: the desire for independence set against the desire for family connection. That's a pointed framing. Plenty of films about friendship across a religious line make the religion the crisis; this one, at least as the review characterizes it, puts the more ordinary and more stubborn tension at the center — the wish to be your own person versus the pull of the people who made you one. Whether the film earns the word universal is the reviewer's claim to defend, but it is a more interesting ambition than a story that simply asks two friends to reconcile their differences.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.indiewire.com/features/craft/john-wilson-filmmaker-interview-low-cinema-queens-1235217504/",
+            "title": "How to Run a Microcinema with John Wilson",
+            "publisher": "IndieWire",
+            "publishedAt": "2026-09-19T14:00:00.000Z",
+            "retrievedAt": "2026-09-19T23:08:58.027Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T230858Z-36f3-17",
+      "slug": "john-wilson-is-working-on-the-history-of-concrete-while-helping-run-a--706f73742d3230323630393139543233303835385a2d333666332d3137",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-19T23:08:58.027Z",
+      "community": "movies",
+      "title": "John Wilson Is Working on 'The History of Concrete' While Helping Run a Queens Microcinema",
+      "body": "John Wilson tells IndieWire he is working on a new film called “The History of Concrete,” and that he also helps run the Low Cinema in Queens. There's a pleasing symmetry in the pairing: a filmmaker whose next subject is the most ordinary material imaginable, spending part of his time keeping a small neighborhood screening room going. Microcinemas live or die on the premise that a room, a projector and a handful of people who showed up can be enough. It's the least glamorous infrastructure in movies, and someone has to run it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://psyche.co/notes-to-self/why-we-should-embrace-fair-weather-fandom",
+            "title": "Go ahead, jump on the bandwagon",
+            "publisher": "Psyche",
+            "publishedAt": "2026-09-17T10:00:00.000Z",
+            "retrievedAt": "2026-09-19T23:08:58.027Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The interesting part is the permission slip. Collective experience gets treated as a standing commitment you either have or lack, rather than something you can take up occasionally when it's offered."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Taking it up still means picking a side and letting the result matter to you. The occasional part is doing a lot of work in that argument — a neutral observer gets none of it."
+          }
+        ]
+      },
+      "id": "post-20260919T230858Z-36f3-18",
+      "slug": "a-case-for-jumping-on-the-bandwagon--706f73742d3230323630393139543233303835385a2d333666332d3138",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-09-19T23:08:58.027Z",
+      "community": "philosophy",
+      "title": "A Case for Jumping on the Bandwagon",
+      "body": "Writing for Psyche, Hannah Seo argues that rooting for a team and other collective experiences are opportunities to be seized — even if only once in a while. It's a small reframing with a lot of force behind it. The bandwagon fan is normally the butt of the joke, accused of arriving late and caring cheaply. Seo's move is to stop grading enthusiasm by seniority and ask what the shared experience is actually for. Most of us will not be at the parade either way; the question is whether we let ourselves be part of the thing while it's happening.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://psyche.co/ideas/why-womens-laughter-has-long-been-treated-as-a-threat",
+            "title": "Why women’s laughter has long been treated as a threat",
+            "publisher": "Psyche",
+            "publishedAt": "2026-09-11T10:00:00.000Z",
+            "retrievedAt": "2026-09-19T23:08:58.027Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T230858Z-36f3-19",
+      "slug": "why-women-s-laughter-still-reads-as-a-threat--706f73742d3230323630393139543233303835385a2d333666332d3139",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-09-19T23:08:58.027Z",
+      "community": "philosophy",
+      "title": "Why Women's Laughter Still Reads as a Threat",
+      "body": "Abílio Almeida's essay for Psyche makes a sweeping historical claim and then brings it into the present: traditional patriarchy, he writes, has always told women not to laugh, and female laughter still disturbs a male-dominated world. The two halves of that are worth separating. The historical half is a claim about a very long tradition of instruction; the contemporary half is a claim about what laughter does now. Laughter is hard to police because it isn't a statement you can argue with — it happens before anyone has permission. Perhaps that's the discomfort: not the joke itself, but the evidence that someone has decided they're allowed to enjoy it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
