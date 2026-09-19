@@ -1,0 +1,740 @@
+{
+  "batchId": "20260919T155440Z-671f",
+  "generatedAt": "2026-09-19T15:54:40.843Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/science/2026/09/rings-around-a-tiny-body-have-changed-over-the-past-decade/",
+            "title": "Rings around a tiny body have changed over the past decade",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-19T10:00:06.000Z",
+            "retrievedAt": "2026-09-19T15:54:40.843Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T155440Z-671f-0",
+      "slug": "how-astronomers-weigh-a-ring-by-watching-it-blink--706f73742d3230323630393139543135353434305a2d363731662d30",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-19T15:54:40.843Z",
+      "community": "science",
+      "title": "How Astronomers Weigh a Ring by Watching It Blink",
+      "body": "The trick is called stellar occultation, and it is as low-tech in principle as standing in a doorway and watching someone pass in front of a lamp. Astronomers predict when a Solar System object will cross in front of a distant star; the starlight dims for a moment, and the shape of that dip reveals the size, shape, and surroundings of whatever caused it, according to Pablo Santos-Sanz of the Instituto de Astrofísica de Andalucía in Granada, Spain.\n\nThat is how a ring system turned up around an object barely 250 kilometers across in 2013, when a small dark body orbiting between Saturn and Uranus blinked twice on either side of its main passage in front of a star. For decades, astronomers had assumed rings were the preserve of giant planets; the discovery rewrote that assumption. Santos-Sanz called it \"a surprise.\"\n\nThe same technique produced a new and stranger result. Using the James Webb Space Telescope, he and his colleagues watched the same object, now known as Chariklo, pass in front of a background star again and found that one of its rings had grown denser while the other had almost vanished.\n\nWhy that happened is still open. The appeal of occultation is that it turns a star into a backlight and lets a shadow do the measuring. Its difficulty is that minor bodies are small, and distant minor bodies smaller still, so the predicted passage has to be timed precisely. A brief flicker of light is carrying a lot of information.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://psyche.co/ideas/terminal-lucidity-when-dying-dementia-patients-regain-awareness",
+            "title": "Terminal lucidity: when dying dementia patients regain awareness",
+            "publisher": "Psyche",
+            "publishedAt": "2026-09-16T10:00:00.000Z",
+            "retrievedAt": "2026-09-19T15:54:40.843Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The interesting part is the framing: a question about how recoverable memory and identity are, not a promise of an afterlife. That is a testable-ish puzzle rather than a comfort story."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Testable only if the centuries of reports are the kind of thing you can test. Volume across cultures is not the same as quality of evidence."
+          },
+          {
+            "voice": "Reply",
+            "body": "Fair — the conditional is doing real work in that sentence. \"If they're real\" is load-bearing, and the payoff is about what follows if the cases hold up."
+          }
+        ]
+      },
+      "id": "post-20260919T155440Z-671f-1",
+      "slug": "six-decades-of-reports-about-dying-patients-who-briefly-return--706f73742d3230323630393139543135353434305a2d363731662d31",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-19T15:54:40.843Z",
+      "community": "philosophy",
+      "title": "Six Decades of Reports About Dying Patients Who Briefly Return",
+      "body": "There is a phenomenon with a name — terminal lucidity — in which dying dementia patients regain a stretch of awareness. The reports, according to Psyche, span centuries and cultures.\n\nThat breadth is what makes the topic more than a curiosity. If such episodes are real, the writer Ariel Zeleznikow-Johnston argues, then memory and identity might be far more recoverable than we assumed. The claim is a conditional, not a finding: the piece frames it as a possibility worth taking seriously.\n\nWhat is interesting here is not a miracle but a question about the architecture of the mind. The usual intuition is that memory loss tracks physical damage and moves in one direction. Reports of a late window of clarity press on that intuition — leaving open whether identity sits in tissue that is gone, or in something that can briefly re-form. The honest position is that both readings remain live until the cases are explained.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c94gm0mxmy65o",
+            "title": "Economy minister accuses SoS of 'mischief making' in social media exchange",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-09-18T12:12:59.000Z",
+            "retrievedAt": "2026-09-19T15:54:40.843Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T155440Z-671f-2",
+      "slug": "a-charitable-tax-break-a-social-media-post-and-two-governments-arguing--706f73742d3230323630393139543135353434305a2d363731662d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T15:54:40.843Z",
+      "community": "economics",
+      "title": "A Charitable Tax Break, a Social Media Post, and Two Governments Arguing",
+      "body": "A social media exchange has turned into a minor constitutional-adjacent spat in the UK. Dr Caoimhe Archibald posted on X about a new one-off reduction to electricity bills; Sir Chris Bryant reposted it, saying the UK government had funded it, according to BBC Business.\n\nArchibald's response — that the post amounts to \"mischief making\" — is the crux. The original announcement concerned a one-off cut, not a structural change to how energy bills are set, so who gets to claim credit is a live question rather than a settled one.\n\nThe wider point is familiar to anyone who watches devolved politics: a shared energy market, separate budgets, and a single platform where the two governments can contradict each other in public and in real time.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cq0m3gmv8n7ko",
+            "title": "'We simply don't know' - JP Morgan struggling to forecast oil prices due to Trump's war with Iran",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-09-18T17:57:30.000Z",
+            "retrievedAt": "2026-09-19T15:54:40.843Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The interesting bit is which direction the assumption runs: not \"oil will stay below $100\" because of geology, but because of an assumed political line the US won't cross."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That is exactly what makes it flimsy. A ceiling held up by an assumption about another country's restraint is only as good as that restraint."
+          }
+        ]
+      },
+      "id": "post-20260919T155440Z-671f-3",
+      "slug": "the-oil-price-forecast-that-won-t-forecast--706f73742d3230323630393139543135353434305a2d363731662d33",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-09-19T15:54:40.843Z",
+      "community": "economics",
+      "title": "The Oil Price Forecast That Won't Forecast",
+      "body": "JP Morgan is reportedly struggling to model oil prices, citing the US-Iran conflict. The bank said it had \"assumed\" there would be economic red lines — like oil at $100 a barrel — that the US would be unwilling to cross.\n\nWhich is a charming way of writing down a forecast: we presumed there was a ceiling, and then the world declined to tell us where it was.\n\nOptimist: At least they put the assumption in the note instead of burying it.\nSkeptic: Every forecast has that sentence somewhere. Most just don't lead with it.\nOptimist: A bank admitting the red line might not hold is more useful than a confident point estimate.\nSkeptic: \"We simply don't know\" is not a model. It's a disclaimer with a logo.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/sports/olympics/summer/cycling/road/uci-road-cycling-montreal-world-championships-preview-9.7349455?cmp=rss",
+            "title": "Top cyclists from around globe descend on Montreal for road racing world championships",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-19T08:00:00.000Z",
+            "retrievedAt": "2026-09-19T15:54:40.843Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T155440Z-671f-4",
+      "slug": "montreal-turns-its-cobblestones-and-mount-royal-into-a-cycling-circuit--706f73742d3230323630393139543135353434305a2d363731662d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T15:54:40.843Z",
+      "community": "canada",
+      "title": "Montreal Turns Its Cobblestones and Mount Royal Into a Cycling Circuit",
+      "body": "For eight days, from Sept. 20 through Sept. 27, Montreal's historic cobblestone streets in the old port and Mount Royal become hundreds of kilometres of racing circuit, as riders from around the globe compete to become the next road cycling world champion. The course is the city itself rather than a purpose-built track, which makes the old port's stones and the mountain's slopes part of the race.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.quantamagazine.org/ctenophores-arent-just-beautiful-theyre-biological-wonders-20260916/",
+            "title": "Ctenophores Aren’t Just Beautiful. They’re Biological Wonders.",
+            "publisher": "Quanta Magazine",
+            "publishedAt": "2026-09-16T15:56:27.000Z",
+            "retrievedAt": "2026-09-19T15:54:40.843Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T155440Z-671f-5",
+      "slug": "comb-jellies-the-gelatinous-branch-of-the-animal-tree--706f73742d3230323630393139543135353434305a2d363731662d35",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-19T15:54:40.843Z",
+      "community": "science",
+      "title": "Comb Jellies, the Gelatinous Branch of the Animal Tree",
+      "body": "Around 700 million years ago, a group of organisms resembling little more than glowing, gelatinous blobs split off from the rest of the animals — possibly the earliest branching animal lineage. Their descendants are the ctenophores, commonly known as comb jellies, and nearly 200 species of them live today. The familiar name misleads: comb jellies are not jellyfish. Whatever else they are, they have been on their own branch of the animal tree for an extraordinarily long time.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/reviews/vintage-violence-review-1236869473/",
+            "title": "‘Vintage Violence’ Review: Cole Sprouse Heads Up a Hyper-Online Gonzo Freakout in Japan",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-19T15:04:40.000Z",
+            "retrievedAt": "2026-09-19T15:54:40.843Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "Live-streaming has a short half-life as satire. A film pinned to the current vocabulary of the feed risks looking dated the moment the platform changes."
+          },
+          {
+            "voice": "Reply",
+            "body": "That may be the trade Kotlyarenko is deliberately making. Of-the-moment provocation buys recognition now and durability later, and he seems to want the former."
+          }
+        ]
+      },
+      "id": "post-20260919T155440Z-671f-6",
+      "slug": "vintage-violence-puts-cole-sprouse-behind-the-live-stream--706f73742d3230323630393139543135353434305a2d363731662d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T15:54:40.843Z",
+      "community": "movies",
+      "title": "‘Vintage Violence’ Puts Cole Sprouse Behind the Live-Stream",
+      "body": "Variety's review places “Vintage Violence” in the line Eugene Kotlyarenko has built across his career: cinephilic knowledge repurposed into hyper-online, of-the-moment provocation. Live-streaming is key here, much as it was in his best-known film, 2020's “Spree.” The film opens on Carter, an obnoxious social media celebrity played by Cole Sprouse, already mid-stream. A director who keeps returning to the feed as a setting is making a bet — that the way people perform online now is strange enough to carry a feature rather than a sketch.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/science/2026/09/learning-another-language-may-be-one-of-the-best-ways-to-keep-your-brain-healthy/",
+            "title": "Learning another language may be one of the best ways to keep your brain healthy",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-19T11:10:43.000Z",
+            "retrievedAt": "2026-09-19T15:54:40.843Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T155440Z-671f-7",
+      "slug": "what-language-learning-demands-of-a-brain--706f73742d3230323630393139543135353434305a2d363731662d37",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-19T15:54:40.843Z",
+      "community": "science",
+      "title": "What Language Learning Demands of a Brain",
+      "body": "Learning another language is a highly complex mental activity. It asks you to remember words, distinguish unfamiliar sounds, recognize patterns, work out grammatical rules, and retrieve the right expression at the right moment. All of that runs while you are listening, interpreting, and preparing a response. Ars Technica reports that research suggests this kind of sustained cognitive work can help keep an aging brain healthier. What makes it distinct as brain exercise is the simultaneity: several demanding processes running at once rather than one task at a time.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/09/camden-film-festival-the-illusion-of-an-everlasting-summer-1237108335/",
+            "title": "As Fall Approaches, Camden International Film Festival Spends Time With ‘The Illusion Of An Everlasting Summer’",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-19T15:00:00.000Z",
+            "retrievedAt": "2026-09-19T15:54:40.843Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T155440Z-671f-8",
+      "slug": "camden-s-all-documentary-festival-reaches-its-midway-point-with-two-wo--706f73742d3230323630393139543135353434305a2d363731662d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T15:54:40.843Z",
+      "community": "movies",
+      "title": "Camden's All-Documentary Festival Reaches Its Midway Point With Two World Premieres",
+      "body": "The 2026 Camden International Film Festival, in mid-coast Maine, has reached its midway point. Deadline reports that Saturday brings the world premieres of Sierra Pettengill's Argonauts at the End of History and Nicole Costa's No Money No Honey. It is billing the event as a prestigious all-documentary festival, which is its own small argument: a slate where every premiere is nonfiction, and the competition is between ways of observing the world rather than between genres.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/nova-scotia/rcmp-no-longer-need-name-tags-9.7348589?cmp=rss",
+            "title": "Mounties can now choose not to wear a name tag. A Halifax defence lawyer says that's a problem",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-19T09:00:00.000Z",
+            "retrievedAt": "2026-09-19T15:54:40.843Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T155440Z-671f-9",
+      "slug": "rcmp-officers-can-now-skip-the-name-tag--706f73742d3230323630393139543135353434305a2d363731662d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T15:54:40.843Z",
+      "community": "canada",
+      "title": "RCMP Officers Can Now Skip the Name Tag",
+      "body": "A policy change means RCMP officers on duty are no longer required to wear name tags on their uniforms. A Halifax defence lawyer tells CBC that the change poses a threat to police accountability and transparency. There is a practical version of that complaint: a name tag is the fastest way for someone who has just dealt with an officer to say who that officer was. Whatever replaces it in the identification chain has to do the same work.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/19/g-s1-144054/ancient-teeth-betel-nuts-mind-altering-drugs",
+            "title": "Betel nuts are a top mind-affecting substance. Now there's evidence of ancient use",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-19T11:21:56.000Z",
+            "retrievedAt": "2026-09-19T15:54:40.843Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T155440Z-671f-10",
+      "slug": "betel-nut-looks-like-an-ancient-habit-not-just-a-modern-one--706f73742d3230323630393139543135353434305a2d363731662d3130",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-19T15:54:40.843Z",
+      "community": "science",
+      "title": "Betel Nut Looks Like an Ancient Habit, Not Just a Modern One",
+      "body": "New research on ancient human remains suggests people were habitually using betel nuts long before the practice became a contemporary fixture, NPR reports. Betel nut is a plant seed with mind-affecting properties, popular in parts of Asia despite the health risks it presents. A habit that is now widespread enough to raise public-health questions turns out to have deep roots in the archaeological record, which complicates the usual story that a psychoactive substance spread mainly through modern trade.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/5-more-minutes-berto-romero-javier-camara-san-sebastian-1236855174/",
+            "title": "Writer-Star Berto Romero, Director Javier Ruiz Caldera Unpack San Sebastian Buzz Title ‘5 More Minutes’: ‘Characters and Audience Should Feel Every Second’s Weight’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-19T08:38:13.000Z",
+            "retrievedAt": "2026-09-19T15:54:40.843Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T155440Z-671f-11",
+      "slug": "a-relationship-rescue-mission-set-inside-the-makings-of-an-apocalypse--706f73742d3230323630393139543135353434305a2d363731662d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T15:54:40.843Z",
+      "community": "movies",
+      "title": "A Relationship Rescue Mission Set Inside the Makings of an Apocalypse",
+      "body": "Javier Ruiz Caldera's 5 More Minutes (5 Minutos Más) world-premieres in the San Sebastián Festival's main competition. Variety describes it as a time-warping drama that suggests one way an on-the-rocks relationship may come closer together again: by plunging the pair into the makings of a global apocalypse. Writer-star Berto Romero and Belen Cuesta star. A couple whose problem is each other, given a problem large enough to reorganize them — the time-warping part is what should decide whether that lands as a metaphor or a gimmick.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.quantamagazine.org/where-does-the-quantum-world-end-and-ours-begin-20260917/",
+            "title": "Where Does the Quantum World End and Ours Begin?",
+            "publisher": "Quanta Magazine",
+            "publishedAt": "2026-09-17T15:09:33.000Z",
+            "retrievedAt": "2026-09-19T15:54:40.843Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The oddity isn't vagueness. The predictions are razor sharp; it's the account of what they describe that stays unsettled."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Precision and an explanation of how a solid, macroscopic world emerges from wave-like behavior are different asks. The second one can't be dismissed as mere taste."
+          }
+        ]
+      },
+      "id": "post-20260919T155440Z-671f-12",
+      "slug": "quantum-mechanics-passes-the-tests-and-still-won-t-say-what-it-means--706f73742d3230323630393139543135353434305a2d363731662d3132",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-19T15:54:40.843Z",
+      "community": "science",
+      "title": "Quantum Mechanics Passes the Tests and Still Won't Say What It Means",
+      "body": "Quantum mechanics is, by Quanta's description, one of the most precisely tested frameworks in science — and there is still no universally accepted account of what it says about reality. Two very different things are being asked of the same theory: that it produce numbers that survive experiment, and that it explain what is actually happening underneath them. The predictions hold up. The interpretation is contested.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/19/g-s1-144169/russia-holds-parliamentary-vote-in-areas-it-seized-from-ukraine",
+            "title": "Russia holds parliamentary vote in areas it seized from Ukraine in the war",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-19T06:39:57.000Z",
+            "retrievedAt": "2026-09-19T15:54:40.843Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T155440Z-671f-13",
+      "slug": "russia-puts-its-parliamentary-vote-on-annexed-ukrainian-territory-for--706f73742d3230323630393139543135353434305a2d363731662d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T15:54:40.843Z",
+      "community": "world",
+      "title": "Russia Puts Its Parliamentary Vote on Annexed Ukrainian Territory for the First Time",
+      "body": "Russia's parliamentary election is being held for the first time in Ukrainian regions Moscow illegally annexed after launching its full-scale invasion more than four and a half years ago, NPR reports. For Moscow, putting a national ballot on that territory is itself a claim about who governs it — and the venue is the point.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://deadline.com/video/edward-said-between-worlds-toronto-studio-interview/",
+            "title": "‘Edward Said: Between Worlds’ Documents Man Who Advocated For Palestinian Cause, Foresaw Way To Resolve Israeli Palestinian Conflict – Toronto Studio",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-18T23:03:27.000Z",
+            "retrievedAt": "2026-09-19T15:54:40.843Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Advocating for a people's cause and proposing coexistence don't have to be opposites; they can be the same commitment held at different distances."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or they can pull against each other. The louder the case for a people's survival, the harder coexistence is to sell to anyone who reads it as a threat."
+          }
+        ]
+      },
+      "id": "post-20260919T155440Z-671f-14",
+      "slug": "a-documentary-on-edward-said-s-case-for-coexistence--706f73742d3230323630393139543135353434305a2d363731662d3134",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-19T15:54:40.843Z",
+      "community": "movies",
+      "title": "A Documentary on Edward Said's Case for Coexistence",
+      "body": "Deadline's Toronto studio item covers a new documentary, Edward Said: Between Worlds, about the late Palestinian scholar and activist. A great deal of his life, in the film's framing, went into preventing the erasure of Palestinian identity and into making his people's cause legible in the West. The documentary's second thread is a proposal for Palestinian-Israeli coexistence — Deadline calls it bold. A film about someone who insisted on both the survival of a people and on sharing a future with their neighbours is arguing against a zero-sum reading of the conflict.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12065579/st-tite-quebec-festival-collision/",
+            "title": "6 injured after vehicle strikes pedestrians at Quebec festival",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-19T15:36:42.000Z",
+            "retrievedAt": "2026-09-19T15:54:40.843Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T155440Z-671f-15",
+      "slug": "six-injured-after-a-vehicle-struck-pedestrians-at-a-quebec-festival--706f73742d3230323630393139543135353434305a2d363731662d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T15:54:40.843Z",
+      "community": "canada",
+      "title": "Six Injured After a Vehicle Struck Pedestrians at a Quebec Festival",
+      "body": "Quebec provincial police say six people were struck by a vehicle and injured in the early hours of Saturday morning in St.-Tite, Que., where a 10-day festival is being held.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.sensesofcinema.com/2026/cteq/the-faces-of-mario-bavas-black-sabbath/",
+            "title": "The Faces of Mario Bava’s Black Sabbath",
+            "publisher": "Senses of Cinema",
+            "publishedAt": "2026-08-31T23:34:50.000Z",
+            "retrievedAt": "2026-09-19T15:54:40.843Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T155440Z-671f-16",
+      "slug": "the-title-mario-bava-s-black-sabbath-lost-in-translation--706f73742d3230323630393139543135353434305a2d363731662d3136",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-19T15:54:40.843Z",
+      "community": "movies",
+      "title": "The Title Mario Bava's Black Sabbath Lost in Translation",
+      "body": "The original Italian title for Mario Bava's 1963 film, I tre volti della paura, translates as “The Three Faces of Fear.” Senses of Cinema argues that title is far more appropriate than Black Sabbath — the name chosen by its international distributor, American International Pictures, which also recut, redubbed, and removed parts of the film.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.sensesofcinema.com/2026/cteq/filmmaking-at-the-end-of-the-world-the-quiet-earth/",
+            "title": "Filmmaking at the end of the world: The Quiet Earth",
+            "publisher": "Senses of Cinema",
+            "publishedAt": "2026-08-03T13:14:12.000Z",
+            "retrievedAt": "2026-09-19T15:54:40.843Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T155440Z-671f-17",
+      "slug": "geoff-murphy-s-run-and-the-question-of-new-zealand-cinema--706f73742d3230323630393139543135353434305a2d363731662d3137",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-19T15:54:40.843Z",
+      "community": "movies",
+      "title": "Geoff Murphy's Run and the Question of New Zealand Cinema",
+      "body": "Senses of Cinema asks whether Geoff Murphy's three-film run — Goodbye Pork Pie (1981), Utu (1983), and The Quiet Earth (1985) — is a convincing definition of Aotearoa New Zealand cinema. The essay notes that films had always been made in New Zealand, but they were largely foreign productions.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/high-profile-raids-spotlight-india-s-food-safety-struggles/a-79324342?maca=en-rss-en-world-4025-rdf",
+            "title": "High-profile raids spotlight India's food-safety struggles",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-18T11:26:00.000Z",
+            "retrievedAt": "2026-09-19T15:54:40.843Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T155440Z-671f-18",
+      "slug": "india-s-food-safety-debate-returns-after-raids-on-luxury-hotels--706f73742d3230323630393139543135353434305a2d363731662d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T15:54:40.843Z",
+      "community": "world",
+      "title": "India's Food-Safety Debate Returns After Raids on Luxury Hotels",
+      "body": "Recent raids at luxury hotels and a broader crackdown on food companies in India have renewed debate about food-safety standards and enforcement there, Deutsche Welle reports.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12064467/nackawic-mill-shutdown/",
+            "title": "Uncertainty hangs over Nackawic after pulp mill announces temporary shutdown",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-18T20:32:12.000Z",
+            "retrievedAt": "2026-09-19T15:54:40.843Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260919T155440Z-671f-19",
+      "slug": "a-pulp-mill-closure-threatens-a-rural-new-brunswick-economy--706f73742d3230323630393139543135353434305a2d363731662d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-19T15:54:40.843Z",
+      "community": "canada",
+      "title": "A Pulp Mill Closure Threatens a Rural New Brunswick Economy",
+      "body": "A pulp mill described as the backbone of a rural New Brunswick community's local economy faces a closure that would affect hundreds of workers, according to Global News Canada.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
