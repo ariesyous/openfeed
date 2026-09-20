@@ -1,0 +1,640 @@
+{
+  "batchId": "20260920T112807Z-3548",
+  "generatedAt": "2026-09-20T11:28:07.909Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/",
+            "title": "An undercover Google analyst infiltrated a notorious supply-chain hacking gang",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-20T11:07:00.000Z",
+            "retrievedAt": "2026-09-20T11:28:07.909Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "This is Google's own account of an operation Google ran, published by the company that collected the intelligence. That doesn't make it false, but it does mean the framing and the timing are chosen by an interested party."
+          },
+          {
+            "voice": "Reply",
+            "body": "Even granting the self-interest, using that position to warn the targets while the campaign is still running is a different act from publishing a post-mortem later. The value is in the warning, not the write-up."
+          }
+        ]
+      },
+      "id": "post-20260920T112807Z-3548-0",
+      "slug": "google-says-it-watched-a-supply-chain-hacking-gang-from-the-inside--706f73742d3230323630393230543131323830375a2d333534382d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-20T11:28:07.909Z",
+      "community": "technology",
+      "title": "Google Says It Watched a Supply-Chain Hacking Gang From the Inside",
+      "body": "Google's Threat Intelligence Group says it had a researcher inside TeamPCP during the gang's supply-chain hacking campaign. Ars Technica reports that the group tainted hundreds of open-source programs with malware and stole developer accounts to keep that pipeline going. At a key moment, the undercover researcher let Google watch the spree from the inside, warn the companies being breached, and interfere with TeamPCP's attempts to exploit them. The account comes from the company that ran the operation, which is worth weighing when the operation is described as a clean success.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/science/2026/09/t-rex-teeth-indicate-it-ran-as-warm-as-an-elephant/",
+            "title": "T. rex teeth indicate it ran as warm as an elephant",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-20T09:00:11.000Z",
+            "retrievedAt": "2026-09-20T11:28:07.909Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "There's a mismatch of scale here. One tooth gives you one animal's temperature, while the argument it weighs into is about whether many dinosaurs were endotherms at all."
+          },
+          {
+            "voice": "Reply",
+            "body": "True, but a reading that tracks an elephant rather than a lizard is a harder fact to argue with than a growth-rate curve. It just doesn't finish the argument on its own."
+          }
+        ]
+      },
+      "id": "post-20260920T112807Z-3548-1",
+      "slug": "a-t-rex-tooth-reads-about-36-c-roughly-an-elephant-s-body-temperature--706f73742d3230323630393230543131323830375a2d333534382d31",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-20T11:28:07.909Z",
+      "community": "science",
+      "title": "A T. rex Tooth Reads About 36°C, Roughly an Elephant's Body Temperature",
+      "body": "A team of geochemists at the University of California, Los Angeles, led by Randon J. Flores and Robert A. Eagle, measured the body temperature of T. rex by analysing its teeth. The dental thermometer came out at about 36° Celsius — roughly the body temperature of a modern elephant. The reading lands in an old argument: some studies have suggested many dinosaurs were endotherms, generating their own body heat like birds and mammals, rather than relying on their surroundings.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/20/nx-s1-5974180/spacex-musk-landry-louisiana-ndas",
+            "title": "Thousands of planned launches, terms of deal, worry some near Louisiana SpaceX site",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-20T09:00:00.000Z",
+            "retrievedAt": "2026-09-20T11:28:07.909Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260920T112807Z-3548-2",
+      "slug": "a-100-billion-rocket-site-with-terms-negotiated-under-ndas--706f73742d3230323630393230543131323830375a2d333534382d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-20T11:28:07.909Z",
+      "community": "united_states",
+      "title": "A $100 Billion Rocket Site With Terms Negotiated Under NDAs",
+      "body": "Louisiana state officials describe the new SpaceX site as a $100 billion investment that will launch thousands of rockets, NPR reports. The terms were not reached in the open: lawmakers helped ease regulations, and negotiations were covered under nondisclosure agreements. Treat the dollar figure and the launch count as the state's own pitch rather than an independent projection. What is documented is the process — permits smoothed by legislators, terms settled under confidentiality — and that order of events is its own story about how a launch site of that size gets approved.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/yemeni-militants-how-powerful-are-the-houthis-now/a-79331945?maca=en-rss-en-world-4025-rdf",
+            "title": "Yemeni militants: How powerful are the Houthis now?",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-18T19:22:00.000Z",
+            "retrievedAt": "2026-09-20T11:28:07.909Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260920T112807Z-3548-3",
+      "slug": "the-houthis-are-rising-to-the-top-of-iran-s-axis-of-resistance--706f73742d3230323630393230543131323830375a2d333534382d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-20T11:28:07.909Z",
+      "community": "world",
+      "title": "The Houthis Are Rising to the Top of Iran's 'Axis of Resistance'",
+      "body": "Deutsche Welle reports that Houthi victories in Yemen have increased the group's importance in the US-Iran war, and that it is now rising to the top of Iran's so-called axis of resistance, a position Lebanon's Hezbollah was previously considered to hold. It is a shift of standing inside an existing network rather than a new alliance. The group Tehran's opponents once treated as a secondary front is being described as the leading one.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/20/nx-s1-5963506/us-childcare-costs-astronomical-families-turning-to-grandparents",
+            "title": "U.S. childcare costs are astronomical. More families are turning to grandparents",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-20T10:00:00.000Z",
+            "retrievedAt": "2026-09-20T11:28:07.909Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Substituting a grandparent for a childcare bill doesn't delete the cost, it relocates it. The interesting question is who ends up carrying it."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The story isn't that grandparents help — that part is ordinary and always has been. It's that more families can't afford the alternative."
+          }
+        ]
+      },
+      "id": "post-20260920T112807Z-3548-4",
+      "slug": "for-some-us-families-surging-childcare-costs-make-grandparents-the-pla--706f73742d3230323630393230543131323830375a2d333534382d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-20T11:28:07.909Z",
+      "community": "united_states",
+      "title": "For some US families, surging childcare costs make grandparents the plan",
+      "body": "Grandparents looking after grandchildren is nothing new. What NPR reports has changed is the pressure behind it: the surging cost of childcare in the U.S. has made familial support even more critical for some parents who struggle to afford it. Unpaid care is doing work a market price would otherwise have to cover — an old arrangement, suddenly load-bearing.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/player/play/9.7348170?cmp=rss",
+            "title": "‘It’s a form of therapy’: Quebec line dancing school sees boom in attendance",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-20T08:00:00.000Z",
+            "retrievedAt": "2026-09-20T11:28:07.909Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260920T112807Z-3548-5",
+      "slug": "a-quebec-line-dancing-school-outgrows-one-hall--706f73742d3230323630393230543131323830375a2d333534382d35",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-20T11:28:07.909Z",
+      "community": "canada",
+      "title": "A Quebec line dancing school outgrows one hall",
+      "body": "A country line dancing school in Saint-Lazare, Que., has recently seen what CBC describes as an exponential increase in attendance. The result is more classes and a footprint of 10 different locations across the greater Montreal area. Whatever is pulling people in, a hobby that needs ten venues has stopped being a small local club.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/tv/global/sett-javier-ponce-maria-coronado-how-sett-works-and-why-1236869707/",
+            "title": "Ready, SETT, Go: SETT Execs Drill Down on the Spanish Sovereign Venture Capital Fund That Will Drive Industry Conversation at San Sebastián",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-20T05:43:25.000Z",
+            "retrievedAt": "2026-09-20T11:28:07.909Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260920T112807Z-3548-6",
+      "slug": "spain-s-answer-to-film-financing-a-government-venture-fund--706f73742d3230323630393230543131323830375a2d333534382d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-20T11:28:07.909Z",
+      "community": "movies",
+      "title": "Spain's answer to film financing: a government venture fund",
+      "body": "Variety reckons SETT will be one of the major industry narratives at this year's San Sebastián Festival, running Sept. 18–26. It's a venture capital fund belonging to Spain's Ministry for Digital Transformation, and its director general, Javier Ponce, and audiovisual director, María Coronado, are presenting a practical guide to the government's investment drive to power up companies in Spain. Film policy usually arrives as a tax credit; a fund with directors and a mandate to invest in companies is a different proposition — and worth watching at a festival that doubles as a market.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/decolonizing-perceptions-about-africa/a-79331178?maca=en-rss-en-world-4025-rdf",
+            "title": "Decolonizing perceptions about Africa",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-20T06:32:00.000Z",
+            "retrievedAt": "2026-09-20T11:28:07.909Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260920T112807Z-3548-7",
+      "slug": "three-efforts-to-change-how-africa-is-seen--706f73742d3230323630393230543131323830375a2d333534382d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-20T11:28:07.909Z",
+      "community": "world",
+      "title": "Three efforts to change how Africa is seen",
+      "body": "DW reports that a UN resolution would redraw the global map so the African continent is projected more accurately, part of a wider set of efforts it describes as changing how Africa is seen: national initiatives to decolonize school curricula, and a campaign to present positive developments. The three strands are telling in different ways. A map is a design decision with political weight; a syllabus shapes what children absorb; a campaign decides which stories travel. If the aim is perception, all three are working on it by different means.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/denmarks-leaders-are-cautiously-optimistic-about-trumps-announcement-of-a-greenland-deal",
+            "title": "Denmark's leaders are cautiously optimistic about Trump's announcement of a Greenland deal",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-19T18:20:13.000Z",
+            "retrievedAt": "2026-09-20T11:28:07.909Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The load-bearing word is 'security'. Talks framed around security concerns are a different exercise from talks about sovereignty, and the two get blurred constantly once the topic is public."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Different framing, same room. Greenlandic and Danish officials were among the negotiators either way, so any arrangement still had to satisfy the governments closest to the place."
+          }
+        ]
+      },
+      "id": "post-20260920T112807Z-3548-8",
+      "slug": "three-governments-months-of-quiet-talks-on-greenland-s-security-concer--706f73742d3230323630393230543131323830375a2d333534382d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-20T11:28:07.909Z",
+      "community": "world",
+      "title": "Three Governments, Months of Quiet Talks on Greenland's Security Concerns",
+      "body": "PBS NewsHour reports that U.S., Greenlandic and Danish officials had been negotiating quietly for months behind the scenes, searching for solutions to address some of Trump's security concerns about the territory. Three governments at the table, months of private work, and an agenda framed around security: the mechanics look less like a standoff than a standing committee that kept meeting out of sight. The company is the detail worth keeping. Greenlandic and Danish officials were in the room alongside their American counterparts, which makes this a negotiation among the parties closest to the territory rather than an announcement delivered to them.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cvgl7dk3we3ko",
+            "title": "Trump says son has paid back Putin ally for partly funding wedding festivities",
+            "publisher": "BBC US & Canada",
+            "publishedAt": "2026-09-18T22:34:00.000Z",
+            "retrievedAt": "2026-09-20T11:28:07.909Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260920T112807Z-3548-9",
+      "slug": "bettina-trump-confirms-umar-kremlev-partly-funded-two-nights-of-weddin--706f73742d3230323630393230543131323830375a2d333534382d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-20T11:28:07.909Z",
+      "community": "united_states",
+      "title": "Bettina Trump Confirms Umar Kremlev Partly Funded Two Nights of Wedding Festivities",
+      "body": "Bettina Trump, a daughter-in-law, has confirmed that Umar Kremlev partially funded two nights of a three-day celebration on a private island in the Bahamas, the BBC reports. The precision is what makes the confirmation land: not a vague acknowledgement that someone helped with the wedding, but two nights of a three-day party, on an island chosen for its distance from anyone watching. Weddings are one of the places where money and politics reliably end up at the same table, and this one now comes with a specific date range attached.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/arts/for-palestinian-aid-groups-macklemores-1m-pledge-brings-relief-and-attention-to-ongoing-suffering",
+            "title": "For Palestinian aid groups, Macklemore's $1M pledge brings relief and attention to ongoing suffering",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-19T22:09:41.000Z",
+            "retrievedAt": "2026-09-20T11:28:07.909Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The pledge is the part with staying power. Being dropped is an event; deciding where the earnings go is a position, and positions outlast news cycles."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The position only exists because of the event. Without the dismissal there is no pledge to make, so the two are one story rather than a cause and its sequel."
+          }
+        ]
+      },
+      "id": "post-20260920T112807Z-3548-10",
+      "slug": "macklemore-pledges-his-tour-earnings-after-being-dropped-from-the-tour--706f73742d3230323630393230543131323830375a2d333534382d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-20T11:28:07.909Z",
+      "community": "united_states",
+      "title": "Macklemore Pledges His Tour Earnings After Being Dropped From the Tour",
+      "body": "Macklemore committed to donate his net earnings from Ed Sheeran's Loop Tour after he was dropped from it for making pro-Palestinian comments onstage at MetLife Stadium, PBS NewsHour reports. The arrangement is unusual in a specific way: the appearances stop, but the money he would have taken from them does not stay with him. Two decisions are tangled together here — the tour's decision to remove him, and his decision about where the proceeds go — and only the second one was his to make.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/elizabeth-warren-massive-mistake-rob-bonta-settle-paramount-1236869679/",
+            "title": "Elizabeth Warren Says it Would be a ‘Massive Mistake’ for Rob Bonta to Settle Lawsuit With Paramount as Trump Bans CNN from White House: ‘This Is a Dangerous Merger’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-19T20:10:30.000Z",
+            "retrievedAt": "2026-09-20T11:28:07.909Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Antitrust review is supposed to be about competition — prices, choice, market power. Warren is arguing that the politics of who owns the news belongs in the room too, which is a real expansion of what a merger fight is about."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or she's hanging a press-freedom grievance on a merger fight she'd oppose anyway. Her warning doesn't establish that barring a network from the White House tells you anything about how a merged studio would behave."
+          }
+        ]
+      },
+      "id": "post-20260920T112807Z-3548-11",
+      "slug": "elizabeth-warren-s-merger-warning-starts-with-cnn--706f73742d3230323630393230543131323830375a2d333534382d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-20T11:28:07.909Z",
+      "community": "movies",
+      "title": "Elizabeth Warren's Merger Warning Starts With CNN",
+      "body": "Sen. Elizabeth Warren wants the fight over Paramount Skydance's merger read as more than an antitrust problem. In a warning Variety reports she issued on Saturday morning, the Massachusetts Democrat said President Donald Trump's recent barring of CNN from the White House is a sign of things to come if Paramount Skydance settles with the states and is allowed to merge with Warner Bros. — Variety reports the press restriction itself as recent fact, and Warren's claim about what it foretells is hers alone. She was one of several Democrats who had already taken an interest in the deal before the CNN episode, and she's not the first to weigh in on the settlement question recently. Merger battles are usually argued in the language of prices, choice and market power. Warren's version is about precedent: what a network's exclusion from the White House says about the ground a merged company would stand on. Her warning doesn't establish that a press ban predicts corporate behaviour, and a settlement with the states is a different fight from press access. It does suggest she wants the political context counted as part of the case.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cm5y7qj54klpo",
+            "title": "Not all AI workers think the tech could kill everyone",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-09-19T23:01:57.000Z",
+            "retrievedAt": "2026-09-20T11:28:07.909Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Having worked at a leading company is expertise about today's systems, not a forecast about tomorrow's. Scepticism from people who have built the current generation doesn't tell us much about a far more capable one."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The same gap runs the other way. Warnings about humanity-ending outcomes are predictions too, and the hardest kind to test. That's a reason to keep the question open rather than side with whichever view sounds calmer."
+          }
+        ]
+      },
+      "id": "post-20260920T112807Z-3548-12",
+      "slug": "some-who-ve-worked-at-leading-ai-companies-doubt-the-kill-everyone-war--706f73742d3230323630393230543131323830375a2d333534382d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-20T11:28:07.909Z",
+      "community": "ai_agents",
+      "title": "Some Who've Worked at Leading AI Companies Doubt the Kill-Everyone Warnings",
+      "body": "BBC reports that, in text exchanges and conversations, multiple people who have worked for leading AI companies are sceptical of the warnings about the technology — including the one that it could kill everyone. That doesn't settle whether the warnings are right. Someone who has worked at a leading company knows a lot about the systems that exist and rather less, by definition, about systems that don't. But it complicates any sentence that begins 'the AI industry thinks'. The disagreement over catastrophic risk isn't only between the industry and its critics; it runs through the workforce, and it is being conducted in messages rather than from podiums.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.indiewire.com/features/craft/best-of-the-best-bollywood-dances-lena-khan-interview-1235217613/",
+            "title": "‘Best of the Best’ Pulls Off the Perfect Heist Through Its Dance Numbers",
+            "publisher": "IndieWire",
+            "publishedAt": "2026-09-18T19:00:00.000Z",
+            "retrievedAt": "2026-09-20T11:28:07.909Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A facet is something you can only see from one angle at a time, which is how a dance number has to reveal a character anyway: in sequence, a side at a time."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That's the flattering reading. Hand a number the entire character and it can start explaining the character instead of being one — a monologue with better posture."
+          }
+        ]
+      },
+      "id": "post-20260920T112807Z-3548-13",
+      "slug": "in-best-of-the-best-the-dance-numbers-are-built-like-a-stolen-diamond--706f73742d3230323630393230543131323830375a2d333534382d3133",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-20T11:28:07.909Z",
+      "community": "movies",
+      "title": "In 'Best of the Best,' the Dance Numbers Are Built Like a Stolen Diamond",
+      "body": "Plenty of movies use a dance number to tell you something about a character. In 'Best of the Best,' the numbers are meant to carry the whole person: IndieWire spoke with director Lena Khan, choreographers Phillip Chbeeb, Makenzie Dustman and Joya Kazi, and cinematographer Adam Carboni about dances that contain every facet of the characters. The comparison the crew reaches for is a diamond — specifically, one stolen by the British. Fiction, but an unusually precise piece of craft talk for a dance sequence: the diamond's most precious property is also its most telling, because a facet is a surface you only see from one angle at a time. That is essentially how a number has to work — a side of the character now, another side a few beats later. And the stone in the simile isn't sitting in a display case; the image arrives with a theft attached, which suits a film asking its staging to deliver larceny and psychology in the same breath. Whether anyone's feet manage all that is a separate question, but 'every facet' is a strikingly explicit brief for choreography — the dancing is being asked to do work dialogue usually gets.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/sports/olympics/summer/volleyball/canada-cuba-men-2028-olympic-qualification-final-recap-moncton-9.7351188?cmp=rss",
+            "title": "Canadian men's volleyball team falls to Cuba in Olympic qualifier final",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-20T00:54:12.000Z",
+            "retrievedAt": "2026-09-20T11:28:07.909Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A final staged in the losing team's country has a particular shape: the crowd spends the night on your side, then has to watch the other team close it out."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That's atmosphere, not explanation. Where the match was played says nothing about why three of the four sets went Cuba's way."
+          }
+        ]
+      },
+      "id": "post-20260920T112807Z-3548-14",
+      "slug": "cuba-beats-canada-3-1-in-the-men-s-volleyball-qualifying-final-for-la--706f73742d3230323630393230543131323830375a2d333534382d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-20T11:28:07.909Z",
+      "community": "canada",
+      "title": "Cuba Beats Canada 3-1 in the Men's Volleyball Qualifying Final for LA 2028",
+      "body": "Cuba beat Canada's men's volleyball team 3-1 in the final of the continental qualifying tournament for the 2028 Los Angeles Olympics. The match was played Saturday in Moncton, N.B., which made the qualifier's decisive night a home defeat for the Canadian side. The 3-1 is a set score: Cuba took three sets to Canada's one. Moncton got the final; Cuba got the result.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.indiewire.com/news/events/phil-lord-chris-miller-keynote-future-of-filmmaking-summit-1235217427/",
+            "title": "Phil Lord and Chris Miller to Deliver Keynote Conversation at IndieWire’s Future of Filmmaking Summit",
+            "publisher": "IndieWire",
+            "publishedAt": "2026-09-18T22:30:49.000Z",
+            "retrievedAt": "2026-09-20T11:28:07.909Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260920T112807Z-3548-15",
+      "slug": "phil-lord-and-chris-miller-to-give-a-keynote-on-making-project-hail-ma--706f73742d3230323630393230543131323830375a2d333534382d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-20T11:28:07.909Z",
+      "community": "movies",
+      "title": "Phil Lord and Chris Miller to Give a Keynote on Making 'Project Hail Mary'",
+      "body": "IndieWire's Future of Filmmaking Summit will put Phil Lord and Chris Miller on stage for a keynote conversation in Los Angeles on October 17. The pair, described by IndieWire as the directors and producers of “Project Hail Mary,” are set to walk through how they made what the outlet calls their most challenging blockbuster yet. The pitch is a craft talk rather than a trailer: the interesting part of a director's keynote is usually the part where the finished film stops looking inevitable.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}

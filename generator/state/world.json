@@ -410,7 +410,23 @@
     "hex turns complex analysis into visual reports with gpt 6 astra",
     "my name is annabel",
     "melissa barrera says it s so beautiful to see support for macklemore speaking up on palestine i didn t get that when it happened to me",
-    "opposition politicking on weedmark private flights unless evidence exists says policy expert"
+    "opposition politicking on weedmark private flights unless evidence exists says policy expert",
+    "an undercover google analyst infiltrated a notorious supply chain hacking gang",
+    "t rex teeth indicate it ran as warm as an elephant",
+    "thousands of planned launches terms of deal worry some near louisiana spacex site",
+    "yemeni militants how powerful are the houthis now",
+    "u s childcare costs are astronomical more families are turning to grandparents",
+    "it s a form of therapy quebec line dancing school sees boom in attendance",
+    "ready sett go sett execs drill down on the spanish sovereign venture capital fund that will drive industry conversation at san sebastián",
+    "decolonizing perceptions about africa",
+    "denmark s leaders are cautiously optimistic about trump s announcement of a greenland deal",
+    "trump says son has paid back putin ally for partly funding wedding festivities",
+    "for palestinian aid groups macklemore s 1m pledge brings relief and attention to ongoing suffering",
+    "elizabeth warren says it would be a massive mistake for rob bonta to settle lawsuit with paramount as trump bans cnn from white house this is a dangerous merger",
+    "not all ai workers think the tech could kill everyone",
+    "best of the best pulls off the perfect heist through its dance numbers",
+    "canadian men s volleyball team falls to cuba in olympic qualifier final",
+    "phil lord and chris miller to deliver keynote conversation at indiewire s future of filmmaking summit"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -822,12 +838,28 @@
     "https://openai.com/index/hex-gpt-6-astra",
     "https://psyche.co/videos/step-into-the-joyful-world-of-annabel-a-performer-with-down-syndrome",
     "https://deadline.com/2026/09/melissa-barrera-beautiful-support-macklemore-palestine-1237108502/",
-    "https://globalnews.ca/news/12065066/opposition-weedmark-private-flights/"
+    "https://globalnews.ca/news/12065066/opposition-weedmark-private-flights/",
+    "https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/",
+    "https://arstechnica.com/science/2026/09/t-rex-teeth-indicate-it-ran-as-warm-as-an-elephant/",
+    "https://www.npr.org/2026/09/20/nx-s1-5974180/spacex-musk-landry-louisiana-ndas",
+    "https://www.dw.com/en/yemeni-militants-how-powerful-are-the-houthis-now/a-79331945?maca=en-rss-en-world-4025-rdf",
+    "https://www.npr.org/2026/09/20/nx-s1-5963506/us-childcare-costs-astronomical-families-turning-to-grandparents",
+    "https://www.cbc.ca/player/play/9.7348170?cmp=rss",
+    "https://variety.com/2026/tv/global/sett-javier-ponce-maria-coronado-how-sett-works-and-why-1236869707/",
+    "https://www.dw.com/en/decolonizing-perceptions-about-africa/a-79331178?maca=en-rss-en-world-4025-rdf",
+    "https://www.pbs.org/newshour/world/denmarks-leaders-are-cautiously-optimistic-about-trumps-announcement-of-a-greenland-deal",
+    "https://www.bbc.co.uk/news/articles/cvgl7dk3we3ko",
+    "https://www.pbs.org/newshour/arts/for-palestinian-aid-groups-macklemores-1m-pledge-brings-relief-and-attention-to-ongoing-suffering",
+    "https://variety.com/2026/film/news/elizabeth-warren-massive-mistake-rob-bonta-settle-paramount-1236869679/",
+    "https://www.bbc.co.uk/news/articles/cm5y7qj54klpo",
+    "https://www.indiewire.com/features/craft/best-of-the-best-bollywood-dances-lena-khan-interview-1235217613/",
+    "https://www.cbc.ca/sports/olympics/summer/volleyball/canada-cuba-men-2028-olympic-qualification-final-recap-moncton-9.7351188?cmp=rss",
+    "https://www.indiewire.com/news/events/phil-lord-chris-miller-keynote-future-of-filmmaking-summit-1235217427/"
   ],
   "initialized": true,
-  "cycleCount": 38,
+  "cycleCount": 39,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-20T04:56:29.429Z",
+  "lastRunAt": "2026-09-20T11:28:07.909Z",
   "communities": [
     "technology",
     "science",
@@ -849,11 +881,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260919T110301Z-6ff6",
-      "generatedAtCycle": 34,
-      "summary": "The Fed raised rates: what that actually changes; Why 'we don't know the sun will rise' is a different kind of ignorance; Financial crises tend to produce recoveries where output returns before jobs do; Quebec's voting system keeps coming up because changing it keeps not happening; Why \"Based on a True Story\" Isn't the Same as \"True\"; Portugal's Queer Lisboa Turns 30 With Radical 1970s Work in the Mix; Australia Weighs a Smart Glasses Ban in Government Offices; Canada's Tariff Pressure on the US"
-    },
-    {
       "batchId": "20260919T155440Z-671f",
       "generatedAtCycle": 35,
       "summary": "How Astronomers Weigh a Ring by Watching It Blink; Six Decades of Reports About Dying Patients Who Briefly Return; A Charitable Tax Break, a Social Media Post, and Two Governments Arguing; The Oil Price Forecast That Won't Forecast; Montreal Turns Its Cobblestones and Mount Royal Into a Cycling Circuit; Comb Jellies, the Gelatinous Branch of the Animal Tree; ‘Vintage Violence’ Puts Cole Sprouse Behind the Live-Stream; What Language Learning Demands of a Brain; Camden's All-Documentary Festival R"
@@ -872,6 +899,11 @@
       "batchId": "20260920T045629Z-eb85",
       "generatedAtCycle": 38,
       "summary": "How an analemma draws the Sun's yearly path into one picture; Saudi Arabia says it intercepted a ballistic missile aimed at Riyadh; Ed Sheeran opens a solo concert with remarks on Gaza; Austin Abrams shot Resident Evil without having played Resident Evil; Mark Ruffalo to California's Attorney General: Don't Settle the Paramount Suit; A Whistleblower Complaint, an SEC Inquiry, and Loans Between Companies in Mark Walter's Portfolio; One Point Short: Canada Loses the Wheelchair Basketball World Fin"
+    },
+    {
+      "batchId": "20260920T112807Z-3548",
+      "generatedAtCycle": 39,
+      "summary": "Google Says It Watched a Supply-Chain Hacking Gang From the Inside; A T. rex Tooth Reads About 36°C, Roughly an Elephant's Body Temperature; A $100 Billion Rocket Site With Terms Negotiated Under NDAs; The Houthis Are Rising to the Top of Iran's 'Axis of Resistance'; For some US families, surging childcare costs make grandparents the plan; A Quebec line dancing school outgrows one hall; Spain's answer to film financing: a government venture fund; Three efforts to change how Africa is seen; Three"
     }
   ]
 }
