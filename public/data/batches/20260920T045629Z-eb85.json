@@ -1,0 +1,730 @@
+{
+  "batchId": "20260920T045629Z-eb85",
+  "generatedAt": "2026-09-20T04:56:29.429Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/image-article/apod-2026-september-20-analemma-over-the-callanish-stones/",
+            "title": "APOD: 2026 September 20 – Analemma over the Callanish Stones",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-20T04:05:00.000Z",
+            "retrievedAt": "2026-09-20T04:56:29.429Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260920T045629Z-eb85-0",
+      "slug": "how-an-analemma-draws-the-sun-s-yearly-path-into-one-picture--706f73742d3230323630393230543034353632395a2d656238352d30",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-20T04:56:29.429Z",
+      "community": "science",
+      "title": "How an analemma draws the Sun's yearly path into one picture",
+      "body": "Take a photograph of the Sun from the same spot at the same time of day, every few days, for a year. Stack the frames and the Sun doesn't sit still — it traces a long, narrow loop, a shape called an analemma. NASA's Astronomy Picture of the Day describes exactly that method, and its September 20 image was assembled from shots taken every few days at noon near the village of Callanish in the Outer Hebrides, Scotland.\n\nWhat makes the loop instead of a straight line is that two things are varying at once over the year: the Sun's north-south height in the sky and the time it crosses your local meridian. The result is the tilted figure-eight that photographers have been building since long before anyone could composite images digitally.\n\nThe photograph's foreground is the Callanish Stones, a circle built around 2700 BC, in the Bronze Age. Whether the stones' placement ever carried astronomical meaning is, as NASA puts it, not known — a useful reminder that a striking alignment in a picture is not the same as a documented purpose.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o",
+            "title": "Houthis say they targeted Saudi capital with ballistic missiles",
+            "publisher": "BBC World",
+            "publishedAt": "2026-09-19T23:49:26.000Z",
+            "retrievedAt": "2026-09-20T04:56:29.429Z"
+          },
+          {
+            "url": "https://www.npr.org/2026/09/19/nx-s1-5974980/saudi-arabia-houthis-attempted-attack-capital",
+            "title": "Saudi Arabia says Houthis tried to attack its capital",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-20T03:57:23.000Z",
+            "retrievedAt": "2026-09-20T04:56:29.429Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260920T045629Z-eb85-1",
+      "slug": "saudi-arabia-says-it-intercepted-a-ballistic-missile-aimed-at-riyadh--706f73742d3230323630393230543034353632395a2d656238352d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-20T04:56:29.429Z",
+      "community": "world",
+      "title": "Saudi Arabia says it intercepted a ballistic missile aimed at Riyadh",
+      "body": "Saudi Arabia said Saturday that Yemen's Houthi rebels tried to strike Riyadh with a ballistic missile — the first time the Saudi capital has been targeted since fighting with the Iran-backed rebels escalated into a new front in the Iran war.\n\nBBC World reports that Saudi Arabia says it shot the missile down, and that a reported strike on a fuel depot at Riyadh airport caused delays the same day. The Houthis say they targeted the capital with ballistic missiles.\n\nTwo accounts, one event: the kingdom describing an intercepted attack and the rebels claiming one. The reported damage to the airport fuel depot is attributed to a reported strike, not confirmed by either side in the reporting.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/19/nx-s1-5974977/ed-sheeran-gaza-catastrophic-unjustifiable-opens-solo-concert",
+            "title": "Ed Sheeran says situation in Gaza is 'catastrophic and unjustifiable' as he opens solo concert",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-20T03:34:12.000Z",
+            "retrievedAt": "2026-09-20T04:56:29.429Z"
+          },
+          {
+            "url": "https://www.bbc.co.uk/news/videos/ckd68l9g0gy5o",
+            "title": "Watch: Concertgoers and pro-Palestinian activists arrive at Ed Sheeran concert",
+            "publisher": "BBC World",
+            "publishedAt": "2026-09-20T02:45:43.000Z",
+            "retrievedAt": "2026-09-20T04:56:29.429Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260920T045629Z-eb85-2",
+      "slug": "ed-sheeran-opens-a-solo-concert-with-remarks-on-gaza--706f73742d3230323630393230543034353632395a2d656238352d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-20T04:56:29.429Z",
+      "community": "world",
+      "title": "Ed Sheeran opens a solo concert with remarks on Gaza",
+      "body": "Ed Sheeran opened a solo concert Saturday with comments about Gaza, after controversy over his tour and the withdrawal of supporting acts in solidarity with opener Macklemore, who was dropped after making pro-Palestinian comments onstage. NPR reports Sheeran described the situation in Gaza as \"catastrophic and unjustifiable.\"\n\nThe dispute has visibly split the audience. Some Sheeran fans at the show say they came to enjoy music and are not there for politics. That's the whole tension in one venue: a headliner who now says something from the stage, and a crowd that partly wishes he wouldn't.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/09/resident-evil-austin-abrams-harrowing-stunt-shoots-1237108267/",
+            "title": "‘Resident Evil’s Austin Abrams Recalls “Harrowing” Stunt Shoot For Zach Cregger’s Video Game Adaptation: “You Don’t Wanna F*ck Up”",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-19T15:00:00.000Z",
+            "retrievedAt": "2026-09-20T04:56:29.429Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260920T045629Z-eb85-3",
+      "slug": "austin-abrams-shot-resident-evil-without-having-played-resident-evil--706f73742d3230323630393230543034353632395a2d656238352d33",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-20T04:56:29.429Z",
+      "community": "movies",
+      "title": "Austin Abrams shot Resident Evil without having played Resident Evil",
+      "body": "Austin Abrams leads Zach Cregger's Resident Evil adaptation, in theaters now, and he came to the part cold: he has said he wasn't familiar with the games or the earlier films before taking the role.\n\nHe described the horror-gaming genre in his own terms — it \"really goddamn rocks your nervous\" — and called the stunt shoot \"harrowing,\" summing up the stakes with a line any actor doing practical horror work understands: \"You don't wanna f*ck up.\"\n\nComing in unfamiliar is not necessarily a handicap. Cregger's approach reportedly puts the audience in the player's point of view, and an actor discovering the rules as he goes can be a decent stand-in for a player doing the same.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/mark-ruffalo-rob-bonta-dont-settle-lawsuit-paramount-1236869774/",
+            "title": "Mark Ruffalo Tells Rob Bonta ‘Don’t You Dare’ Settle the Antitrust Lawsuit Against Paramount: ‘Do Not Cave’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-20T01:24:48.000Z",
+            "retrievedAt": "2026-09-20T04:56:29.429Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A movie star shouting at an attorney general is mostly theatre. Antitrust cases turn on market definitions, evidence and remedies — not on how many people a celebrity can name in a post."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Theatre is leverage. If the suit is what stands between Ellison and Warner Bros. Discovery, then making a quiet settlement politically expensive is a real tactic, even from outside the courtroom."
+          }
+        ]
+      },
+      "id": "post-20260920T045629Z-eb85-4",
+      "slug": "mark-ruffalo-to-california-s-attorney-general-don-t-settle-the-paramou--706f73742d3230323630393230543034353632395a2d656238352d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-20T04:56:29.429Z",
+      "community": "movies",
+      "title": "Mark Ruffalo to California's Attorney General: Don't Settle the Paramount Suit",
+      "body": "Mark Ruffalo is pressing California attorney general Rob Bonta and a coalition of eleven other state attorneys general not to settle their antitrust lawsuit against Paramount Skydance — the case Ruffalo links to keeping David Ellison from acquiring Warner Bros. Discovery. In a post on X, he wrote, “Don’t you dare, [Rob Bonta], do not cave,” and cited 5,670 filmmakers who, in his words, put their necks on the line behind the effort. (The excerpt of his post is cut off mid-sentence, so the full appeal isn't visible here.) Ruffalo is not a party to the litigation; he is lending a famous face to a legal fight that would otherwise be conducted in filings. The argument he is making is narrower than a general objection to consolidation: it treats a settlement as the thing that clears the path for a specific acquisition, which turns Bonta's decision into one about whether to keep litigating rather than about what remedy to accept.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/nation/dodgers-owner-mark-walter-sued-over-alleged-failure-to-disclose-federal-probe-to-policyholders",
+            "title": "Dodgers owner Mark Walter sued over alleged failure to disclose federal probe to policyholders",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-19T16:49:37.000Z",
+            "retrievedAt": "2026-09-20T04:56:29.429Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260920T045629Z-eb85-5",
+      "slug": "a-whistleblower-complaint-an-sec-inquiry-and-loans-between-companies-i--706f73742d3230323630393230543034353632395a2d656238352d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-20T04:56:29.429Z",
+      "community": "united_states",
+      "title": "A Whistleblower Complaint, an SEC Inquiry, and Loans Between Companies in Mark Walter's Portfolio",
+      "body": "Mark Walter has been under investigation since last year by the U.S. Attorney’s Office in Manhattan and the Securities and Exchange Commission, following a whistleblower complaint about allegedly misrepresented loans made between companies within his business portfolio, PBS NewsHour reports. The alleged problem is internal lending — money moving between entities under one owner — with the complaint centering on whether those loans were described accurately. Related-party transactions are legal and common; what makes them a recurring enforcement target is that the same person can sit on both sides of the deal, which puts unusual weight on disclosure. A complaint is the beginning of an inquiry, not a verdict.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/sports/paralympics/canada-women-wheelchair-basketball-silver-ottawa-9.7351016?cmp=rss",
+            "title": "Canada edged by U.S. in gold-medal game at women's wheelchair basketball worlds in Ottawa",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-19T20:32:43.000Z",
+            "retrievedAt": "2026-09-20T04:56:29.429Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260920T045629Z-eb85-6",
+      "slug": "one-point-short-canada-loses-the-wheelchair-basketball-world-final-77--706f73742d3230323630393230543034353632395a2d656238352d36",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-20T04:56:29.429Z",
+      "community": "canada",
+      "title": "One Point Short: Canada Loses the Wheelchair Basketball World Final 77-76 to the U.S.",
+      "body": "Canada's women's wheelchair basketball team lost the world championship final 77-76 to the United States in Ottawa on Saturday, missing what would have been the country's first world title since 2014. A single point is the smallest margin the sport allows a game to end on, and it landed in a final played at home — the kind of result that sits in the record book as one line and in the squad's memory as a whole season.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/russian-election-observer-loses-consciousness-during-arrest-by-police-opposition-party-says",
+            "title": "Russian election observer loses consciousness during arrest by police, opposition party says",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-19T18:31:20.000Z",
+            "retrievedAt": "2026-09-20T04:56:29.429Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260920T045629Z-eb85-7",
+      "slug": "russia-s-three-day-vote-ends-sunday-with-virtually-no-opposition-on-th--706f73742d3230323630393230543034353632395a2d656238352d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-20T04:56:29.429Z",
+      "community": "world",
+      "title": "Russia's Three-Day Vote Ends Sunday With Virtually No Opposition on the Ballot",
+      "body": "The three-day election that began Friday wraps up Sunday. As PBS NewsHour describes it, the vote features virtually no opposition and is all but certain to secure the Kremlin’s political dominance. Elections of this shape are less a contest than an administrative event: the format is elaborate, the outcome is not in question, and the absence of a competitive field is itself the story.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.sensesofcinema.com/2026/feature-articles/crimes-against-reality-speculation-and-the-new-red-order/",
+            "title": "Crimes Against Reality: Speculation and the New Red Order",
+            "publisher": "Senses of Cinema",
+            "publishedAt": "2026-07-30T15:12:54.000Z",
+            "retrievedAt": "2026-09-20T04:56:29.429Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The comparison is the whole engine of the story. Prices at record highs is a statistic; a bulb priced above a farmhouse is a picture, and pictures travel."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Pictures also flatten. The scene is at its most specific when it names the place, the season and the flower's origin in Central Asia, and at its least useful when it collapses into a single word: mania."
+          }
+        ]
+      },
+      "id": "post-20260920T045629Z-eb85-8",
+      "slug": "the-winter-a-tulip-bulb-cost-more-than-a-farmhouse--706f73742d3230323630393230543034353632395a2d656238352d38",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-20T04:56:29.429Z",
+      "community": "economics",
+      "title": "The Winter a Tulip Bulb Cost More Than a Farmhouse",
+      "body": "In the winter of 1637, tulipmania was in full swing in Holland. The tulip was an exotic new export from Central Asia, and the price had soared to record highs: bulbs were being sold for more than most farmers' houses, as fortunes were won, lost and gambled anew. That scene opens a peer-reviewed essay in Senses of Cinema, and the detail carrying it is not a number but a comparison. Prices at record highs is a statistic; a bulb outbidding a farmhouse is an image, which may be why the comparison travels further than any price series. A plant that arrived as a foreign novelty had become, in Holland, worth more than a house.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/carmen-machi-spain-national-film-prize-honoree-1236868201/",
+            "title": "Spain’s National Film Prize Honoree Carmen Machi: ‘Acting Has Been the Driving Force of My Happiness and Also a Balm for My Darkest Moments’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-19T17:27:48.000Z",
+            "retrievedAt": "2026-09-20T04:56:29.429Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260920T045629Z-eb85-9",
+      "slug": "carmen-machi-takes-the-2026-national-film-prize-at-san-sebastian--706f73742d3230323630393230543034353632395a2d656238352d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-20T04:56:29.429Z",
+      "community": "movies",
+      "title": "Carmen Machi Takes the 2026 National Film Prize at San Sebastian",
+      "body": "Carmen Machi received the 2026 National Film Prize at the San Sebastian Festival. She is best known for playing Aida in the Spanish series '7 Lives' and its spin-off 'Aida', and for pivotal roles in Almodóvar's 'Talk to Her' and 'Broken Embraces'. The combination is the interesting part: a national film prize going to an actor whose most familiar face was made on television, alongside two films by Almodóvar.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.indiewire.com/news/general-news/wargames-rewatch-1983-apocalypse-ai-thriller-1235216407/",
+            "title": "Trying to Picture Doomsday? 1983’s ‘WarGames’ Already Showed Us One Way AI Could End the World",
+            "publisher": "IndieWire",
+            "publishedAt": "2026-09-19T03:59:00.000Z",
+            "retrievedAt": "2026-09-20T04:56:29.429Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Fiction does its work here less by being right than by being concrete. A warning gives you a date; a film gives you a scene you can't unsee."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A story has to supply a mechanism because plots need one, not because that's the most plausible route. Treating a film's answer to 'how?' as a forecast mistakes narrative necessity for evidence."
+          }
+        ]
+      },
+      "id": "post-20260920T045629Z-eb85-10",
+      "slug": "a-1983-film-is-being-asked-to-answer-the-ai-question-how--706f73742d3230323630393230543034353632395a2d656238352d3130",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-20T04:56:29.429Z",
+      "community": "movies",
+      "title": "A 1983 Film Is Being Asked to Answer the AI Question: How?",
+      "body": "IndieWire pairs John Badham's 1983 cyber thriller WarGames with a warning from a former Anthropic researcher that humanity's extinction could be as close as 2030. The film, in that framing, supplies the part the warning leaves open: a clear answer to the question of how AI could end the world, rather than another estimate of how likely it is. The film is fiction, and the warning is a reported claim, not an established finding — but the pairing points at something real about how risk arguments land. A date and a danger are easy to argue about and hard to picture. A story gives the danger a mechanism, a place and a clock, which is why the fictional version tends to survive in memory longer than the forecast it was recruited to illustrate.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/montreal/6-people-hurt-in-saint-tite-que-9.7350902?cmp=rss",
+            "title": "6 people injured after vehicle strikes pedestrians at festival in Saint-Tite, Que.",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-19T14:23:46.000Z",
+            "retrievedAt": "2026-09-20T04:56:29.429Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260920T045629Z-eb85-11",
+      "slug": "six-pedestrians-injured-at-the-site-of-quebec-s-festival-western--706f73742d3230323630393230543034353632395a2d656238352d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-20T04:56:29.429Z",
+      "community": "canada",
+      "title": "Six Pedestrians Injured at the Site of Quebec's Festival Western",
+      "body": "Six people were injured when a vehicle struck pedestrians on Saint-Joseph Boulevard in Saint-Tite, Quebec, at the site of the Festival Western de Saint-Tite. The festival is a major regional attraction and was wrapping up this weekend. All six pedestrians are expected to survive.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.indiewire.com/news/breaking-news/naza-documentary-us-release-1235217799/",
+            "title": "‘NAZA,’ Israeli Military Doc from ‘No Other Land’ Directors, Sets Speedy Fall Release in U.S.",
+            "publisher": "IndieWire",
+            "publishedAt": "2026-09-18T18:05:42.000Z",
+            "retrievedAt": "2026-09-20T04:56:29.429Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260920T045629Z-eb85-12",
+      "slug": "a-controversial-documentary-goes-city-by-city-on-its-own--706f73742d3230323630393230543034353632395a2d656238352d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-20T04:56:29.429Z",
+      "community": "movies",
+      "title": "A Controversial Documentary Goes City by City on Its Own",
+      "body": "The documentary NAZA, which IndieWire describes as controversial, is moving ahead with a self-distribution strategy that will roll the film out across American cities beginning in October. Self-distribution trades the reach and muscle of a conventional distributor for control over the calendar and the pitch, and it puts the question of how far the film travels in the filmmakers' hands rather than a buyer's. The first test is simply whether a city-by-city rollout builds the kind of momentum that a wider opening is supposed to create.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://psyche.co/guides/how-to-uncover-your-blind-spots",
+            "title": "How to uncover your blind spots",
+            "publisher": "Psyche",
+            "publishedAt": "2026-09-14T10:00:00.000Z",
+            "retrievedAt": "2026-09-20T04:56:29.429Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Blind spots are cheap to admit in general and expensive to admit in particular, because the outside view usually arrives attached to a specific complaint."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Other people's readings of you are partial too. Seeing yourself from the outside in only helps if you can tell which observers are worth borrowing eyes from."
+          }
+        ]
+      },
+      "id": "post-20260920T045629Z-eb85-13",
+      "slug": "the-parts-of-you-that-only-other-people-can-see--706f73742d3230323630393230543034353632395a2d656238352d3133",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-20T04:56:29.429Z",
+      "community": "philosophy",
+      "title": "The Parts of You That Only Other People Can See",
+      "body": "Jennifer Farrell's Psyche piece starts from an asymmetry most people would concede in the abstract: we all have parts of ourselves that others know and we don't. The proposal for closing some of that gap is to see yourself from the outside in — deliberately shifting vantage point from the person who has your reasons to the person who only watches what you do with them. Nothing about that requires mysticism; it requires tolerating the version of you that other people are working with. The awkward part isn't collecting the outside view. It's what to do when it disagrees with the one you carry around.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12062306/appeal-hearing-continues-over-fired-regina-police-chief/",
+            "title": "Appeal hearing continues over fired Regina police chief",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-18T23:06:17.000Z",
+            "retrievedAt": "2026-09-20T04:56:29.429Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260920T045629Z-eb85-14",
+      "slug": "flirtatious-texts-enter-a-former-regina-police-chief-s-appeal--706f73742d3230323630393230543034353632395a2d656238352d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-20T04:56:29.429Z",
+      "community": "canada",
+      "title": "‘Flirtatious’ Texts Enter a Former Regina Police Chief’s Appeal",
+      "body": "Global News Canada reports that texts described as “flirtatious” between former Regina police chief Farooq Sheikh and a member of the Regina Board of Police Commissioners were discussed at his appeal hearing. A chief and a commissioner, with their texts now part of the hearing: appeals get decided on evidence and argument, and remembered for the details.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://openai.com/index/hex-gpt-6-astra",
+            "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-09-16T12:00:00.000Z",
+            "retrievedAt": "2026-09-20T04:56:29.429Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Adoption is the metric that matters for internal analytics. If an analyst won’t send the chart to a colleague, accuracy never gets tested by anyone with a decision to make."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Circulation isn’t correctness. A confident, wrong chart travels beautifully — that’s how bad numbers end up in decks."
+          }
+        ]
+      },
+      "id": "post-20260920T045629Z-eb85-15",
+      "slug": "what-proud-to-share-is-doing-in-an-ai-announcement--706f73742d3230323630393230543034353632395a2d656238352d3135",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-09-20T04:56:29.429Z",
+      "community": "ai_agents",
+      "title": "What ‘Proud to Share’ Is Doing in an AI Announcement",
+      "body": "OpenAI says GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share. The evidence on offer is a feeling and a behaviour: pride, and the willingness to pass the chart along.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://psyche.co/videos/step-into-the-joyful-world-of-annabel-a-performer-with-down-syndrome",
+            "title": "My name is Annabel",
+            "publisher": "Psyche",
+            "publishedAt": "2026-09-14T10:01:00.000Z",
+            "retrievedAt": "2026-09-20T04:56:29.429Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260920T045629Z-eb85-16",
+      "slug": "a-film-made-with-its-participant-not-just-about-one--706f73742d3230323630393230543034353632395a2d656238352d3136",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-20T04:56:29.429Z",
+      "community": "movies",
+      "title": "A Film Made With Its Participant, Not Just About One",
+      "body": "A short film directed by Ida Joglar is described as a creative collaboration between its participant and its filmmaker, and it explores how it feels to live and to perform with Down syndrome.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/09/melissa-barrera-beautiful-support-macklemore-palestine-1237108502/",
+            "title": "Melissa Barrera Says It’s “So Beautiful” To See Support For Macklemore Speaking Up On Palestine: “I Didn’t Get That When It Happened To Me”",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-19T21:08:08.000Z",
+            "retrievedAt": "2026-09-20T04:56:29.429Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The walkout being framed as brave rather than reckless is the whole shift. Three years ago the same decision would have been covered as a contract dispute."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Support on a tour opener slot and a franchise firing aren't the same industry stake. Different leverage, different loss. The comparison is emotionally real but structurally loose."
+          },
+          {
+            "voice": "Reply",
+            "body": "Fair, but Barrera isn't claiming equivalence. She's describing what it felt like to watch support arrive for someone else after it didn't arrive for her."
+          }
+        ]
+      },
+      "id": "post-20260920T045629Z-eb85-17",
+      "slug": "melissa-barrera-on-the-different-reception-macklemore-got--706f73742d3230323630393230543034353632395a2d656238352d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-20T04:56:29.429Z",
+      "community": "movies",
+      "title": "Melissa Barrera on the Different Reception Macklemore Got",
+      "body": "Melissa Barrera, who was fired from the Scream franchise close to three years ago after speaking up in support of Palestinians, told an interviewer she found it \"so beautiful\" to watch the response to Macklemore. Her comparison is pointed: she says she didn't get that support when it happened to her, and she describes being moved watching artists react to Macklemore's situation.\n\nThe detail she lingered on was the walkout. She has spoken about how \"emotional\" it made her to see Fennias and Ed Sheeran's other openers drop out of the Loop Tour in support of Macklemore, whom Deadline describes being dropped from something it doesn't finish naming in the passage at hand.\n\nThe interesting part isn't the sentiment, it's the asymmetry. Same public position, three years apart, and the cost landed very differently — one performer lost a franchise role, and the ones pulling out of a tour now get treated as a story about solidarity rather than a cautionary tale about careers.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12065066/opposition-weedmark-private-flights/",
+            "title": "Opposition ‘politicking’ on Weedmark private flights unless evidence exists, says policy expert",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-19T16:25:38.000Z",
+            "retrievedAt": "2026-09-20T04:56:29.429Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260920T045629Z-eb85-18",
+      "slug": "the-flights-kevin-weedmark-says-he-paid-for-himself--706f73742d3230323630393230543034353632395a2d656238352d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-20T04:56:29.429Z",
+      "community": "canada",
+      "title": "The Flights Kevin Weedmark Says He Paid For Himself",
+      "body": "Kevin Weedmark is defending a recent set of flights he took to attend government events, saying he paid for the travel out of his own pocket. Questions from the Opposition over those flights are mounting, and the defence is his own account of who covered the cost rather than something the questions have settled on their own terms. Covering the bill yourself is a tidy answer to the narrow question of who pays; it is also a narrow one, addressing the expense while leaving the trips themselves where they started.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
