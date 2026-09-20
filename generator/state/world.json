@@ -464,7 +464,22 @@
     "another mla leaves bc conservative caucus as potential snap election looms",
     "ben affleck nearly cast ex jennifer garner as his wife in animals you just get baggage",
     "duncan jones on why it s harder than ever to make his kind of movies and why he refused to use ai for his newest one",
-    "zach cregger s resident evil grossed more in its opening weekend than the first film made in its entire run"
+    "zach cregger s resident evil grossed more in its opening weekend than the first film made in its entire run",
+    "history of concrete rocks ifc center as daniel and the fiery furnace brings biblical heat to top 10 specialty box office",
+    "the assassin s review a riveting south korean popcorn thriller about a real assassination",
+    "carney and macron deepen ties as canada turns toward europe and away from u s dependence",
+    "where should we be taylor rule wise",
+    "alaskans will decide fate of ranked choice voting system after chaotic end to state s primary",
+    "agent layla sex assault victim turned secret agent brings her abuser to justice",
+    "what food items should you stock up on in case of an emergency",
+    "nyu langone privately bought the site of a landmark amc theater new yorkers are now fighting to save it",
+    "largest attack on moscow sees ukraine fire hundreds of drones mayor says",
+    "poison suspected in deaths of ten lions in game reserve in tanzania",
+    "judge orders fox to hand over hundreds of documents in shareholders case",
+    "poilievre says canada will never be 28th state of eu at ontario rally",
+    "kerry lynne findlay resigns as bc conservatives leader",
+    "kerry lynne findlay resigns as leader of the b c conservative party",
+    "which fall festival favorites are now in the oscar race"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -930,12 +945,27 @@
     "https://globalnews.ca/news/12066244/bc-conservatives-lose-another-mla-linda-hepner/",
     "https://deadline.com/2026/09/ben-affleck-nearly-cast-jennifer-garner-wife-animals-1237108825/",
     "https://www.indiewire.com/features/interviews/duncan-jones-harder-than-ever-rogue-trooper-ai-1235217917/",
-    "https://www.indiewire.com/news/box-office/resident-evil-box-office-hit-zach-cregger-opening-weekend-1235217930/"
+    "https://www.indiewire.com/news/box-office/resident-evil-box-office-hit-zach-cregger-opening-weekend-1235217930/",
+    "https://deadline.com/2026/09/indie-film-box-office-john-wilson-the-history-of-concrete-1237108942/",
+    "https://variety.com/2026/film/news/the-assassins-review-1236869794/",
+    "https://www.pbs.org/newshour/world/carney-and-macron-deepen-ties-as-canada-turns-toward-europe-and-away-from-u-s-dependence",
+    "https://econbrowser.com/archives/2026/09/where-should-we-be-taylor-rule-wise",
+    "https://www.pbs.org/newshour/politics/alaskans-will-decide-fate-of-ranked-choice-voting-system-after-chaotic-end-to-states-primary",
+    "https://www.cbc.ca/news/canada/british-columbia/agent-layla-sex-assault-victim-turned-secret-agent-brings-her-abuser-to-justice-9.7346749?cmp=rss",
+    "https://www.bbc.co.uk/news/articles/c20veglyjp8o",
+    "https://variety.com/2026/film/news/amc-kips-bay-protests-movie-theater-nyu-langone-1236870536/",
+    "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo",
+    "https://www.npr.org/2026/09/20/nx-s1-5975478/poison-suspected-in-deaths-of-ten-lions-in-game-reserve-in-tanzania",
+    "https://www.npr.org/2026/09/20/nx-s1-5974900/fox-shareholders-murdoch-lawsuit",
+    "https://globalnews.ca/news/12066501/poilievre-eu-canada-alliance/",
+    "https://globalnews.ca/news/12066394/kerry-lynne-findlay-resigns-bc-conservatives/",
+    "https://www.cbc.ca/news/canada/british-columbia/kerry-lynne-findlay-resigns-as-leader-of-the-b-c-conservative-party-9.7351532?cmp=rss",
+    "https://www.indiewire.com/awards/predictions/fall-festival-best-picture-oscar-race-bola-negra-wild-horse-nine-1235217890/"
   ],
   "initialized": true,
-  "cycleCount": 41,
+  "cycleCount": 42,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-20T20:51:17.149Z",
+  "lastRunAt": "2026-09-20T23:15:57.822Z",
   "communities": [
     "technology",
     "science",
@@ -957,11 +987,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260919T230858Z-36f3",
-      "generatedAtCycle": 37,
-      "summary": "Gemini guessed its way into three websites in a security test; Buffett steps down after six decades at a company that began as a textile mill; Chris Rock's 'Misty Green' gives a fallen actress one week; The Ebola vaccine being prioritized in Congo has a track record against a different virus type; An antitrust suit says leading AI companies coordinated a slowdown — and paid subscribers are the alleged losers; Barrera praises the musicians who walked out after Macklemore's dismissal; In 'The Smel"
-    },
-    {
       "batchId": "20260920T045629Z-eb85",
       "generatedAtCycle": 38,
       "summary": "How an analemma draws the Sun's yearly path into one picture; Saudi Arabia says it intercepted a ballistic missile aimed at Riyadh; Ed Sheeran opens a solo concert with remarks on Gaza; Austin Abrams shot Resident Evil without having played Resident Evil; Mark Ruffalo to California's Attorney General: Don't Settle the Paramount Suit; A Whistleblower Complaint, an SEC Inquiry, and Loans Between Companies in Mark Walter's Portfolio; One Point Short: Canada Loses the Wheelchair Basketball World Fin"
@@ -980,6 +1005,11 @@
       "batchId": "20260920T205117Z-e0ce",
       "generatedAtCycle": 41,
       "summary": "Canada's Rail Revival Runs Into the Tracks It Already Lost; Why \"Supportive Management\" Isn't a Pain Treatment; Sorkin on Strong: Method Acting as Method Casting; Trump Says the D.C. Arch Was Upgraded at the Military's Request; British Columbia Is Managing a Year-Round Drought as a Seasonal Emergency; Merz's CDU Takes Damaging Losses in Two German State Elections; 'Angh' Puts a Waning Tribe's Chief Between Indigenous Identity and Colonial Modernity; Brent at $103, Record Diesel, and a $43 Billio"
+    },
+    {
+      "batchId": "20260920T231557Z-f2b3",
+      "generatedAtCycle": 42,
+      "summary": "A Documentary About Concrete Is One Art House's Second-Biggest Weekend in 21 Years; A Korean Thriller Built From What the Investigation Left Out; Carney Says Two Countries Will Build Shared Space and Defence Infrastructure; Three Numbers for One Policy Rate; Alaska's Chaotic Primary Puts Ranked Choice Voting Back on the Ballot; A Victim Went Undercover as an RCMP Agent to Record Her Abuser's Confession; Why the UK Government Is Telling People to Stock Canned Goods; The Kips Bay AMC Fight Has a N"
     }
   ]
 }
