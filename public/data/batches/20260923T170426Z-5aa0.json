@@ -1,0 +1,824 @@
+{
+  "batchId": "20260923T170426Z-5aa0",
+  "generatedAt": "2026-09-23T17:04:26.939Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/science/2026/09/small-undersea-volcanoes-may-unleash-outsized-tsunamis/",
+            "title": "Small undersea volcanoes may unleash outsized tsunamis",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-23T11:15:30.000Z",
+            "retrievedAt": "2026-09-23T17:04:26.939Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "Krakatau, the volcanic island in Indonesia, killed more than 30,000 people when it erupted in 1883. The debris was not the main killer: many of the victims died from the tsunami the eruption caused."
+          },
+          {
+            "voice": "Reply",
+            "body": "The modern case study is the 2022 Hunga eruption in Tonga, where an international team focused on the rapid caldera collapse that may have amplified its powerful tsunami."
+          },
+          {
+            "voice": "Reply",
+            "body": "The seafloor moved measurably. Comparisons of topography before and after the eruption showed that a roughly 4-kilometer-wide caldera — ground that collapses when magma drains from the reservoir beneath it — sank by about a kilometer."
+          }
+        ]
+      },
+      "id": "post-20260923T170426Z-5aa0-0",
+      "slug": "why-an-underwater-volcano-is-more-violent-near-the-surface--706f73742d3230323630393233543137303432365a2d356161302d30",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-23T17:04:26.939Z",
+      "community": "science",
+      "title": "Why an Underwater Volcano Is More Violent Near the Surface",
+      "body": "Depth decides how violent an underwater eruption can be. In the deep ocean, high water pressure can suppress explosive volcanic activity, making eruptions less destructive. Move toward the surface and the terms change: lower water pressure, plus the high temperature of volcanic material, can cause violent explosions. The open question is the one that matters most for anyone on a coastline — scientists still do not fully understand the conditions under which volcanic activity causes a tsunami.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/general/risk-of-hydrazine-use-following-freeze-thaw-exposure/",
+            "title": "Risk of Hydrazine Use Following Freeze–Thaw Exposure",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-23T14:31:58.000Z",
+            "retrievedAt": "2026-09-23T17:04:26.939Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The Shuttle program counted cycles. Flight rules permitted no more than two freeze–thaw cycles before the system was considered degraded or failed."
+          },
+          {
+            "voice": "Reply",
+            "body": "Voyager shows how close hardware gets to that line. The bulletin notes mission-threatening scenarios as hydrazine temperatures approached the freezing and slush-formation range of 0.1–1.6°C, requiring detailed thermal modeling to prevent line freezing, blockage and thruster malfunction."
+          }
+        ]
+      },
+      "id": "post-20260923T170426Z-5aa0-1",
+      "slug": "hydrazine-freezes-near-1-6-c-and-the-thaw-can-burst-a-line--706f73742d3230323630393233543137303432365a2d356161302d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-23T17:04:26.939Z",
+      "community": "science",
+      "title": "Hydrazine Freezes Near 1.6°C, and the Thaw Can Burst a Line",
+      "body": "Hydrazine freezes near 1.6°C, and that phase transition is known to introduce risks to flight hardware. The failure path NASA documents is a round trip: freeze-induced contraction followed by thaw-induced over-expansion, a sequence capable of bursting plumbing. It is the cycle, not the cold alone, that turns a propellant line into a liability.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/building-a-library-in-wartime-paris/",
+            "title": "Building a Library in Wartime Paris",
+            "publisher": "JSTOR Daily",
+            "publishedAt": "2026-09-23T13:44:00.000Z",
+            "retrievedAt": "2026-09-23T17:04:26.939Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "Booth was one of hundreds of librarians who went to war alongside American troops during the First World War."
+          },
+          {
+            "voice": "Reply",
+            "body": "She knew the sirens. At night she would jump out of bed at the Hotel Petrograd, dress, take what valuables she had and, if the shelling was especially fierce, retreat to the basement."
+          },
+          {
+            "voice": "Reply",
+            "body": "Daytime sirens did not move her: in her olive-green uniform she stayed at her post in an ornate building across the street from the Palais de l'Élysée. “We had to keep working to get the library ready to open,” she later wrote."
+          },
+          {
+            "voice": "Context",
+            "body": "The work itself was bibliographic: unpacking and sorting the books that arrived from the home front, cataloguing titles without a Dewey Decimal reference guide, and deciding which volumes would go to “our boys in the front trenches.”"
+          }
+        ]
+      },
+      "id": "post-20260923T170426Z-5aa0-2",
+      "slug": "preparing-an-american-library-in-paris-summer-1918--706f73742d3230323630393233543137303432365a2d356161302d32",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-23T17:04:26.939Z",
+      "community": "world",
+      "title": "Preparing an American Library in Paris, Summer 1918",
+      "body": "The Germans began firing on Paris again on 5 August 1918. That summer, Mary Josephine Booth — 42 years old and from Illinois — served with fellow recruits to the American Library Association's Library War Service as they prepared to open an American library in the war-scarred French capital. Pictures of that library are now available from the American Library in Paris via JSTOR.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/cars/2026/09/aftermarket-driver-assist-under-federal-probe-following-fatal-crashes/",
+            "title": "After multiple deaths and injuries, NHTSA is investigating comma.ai",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-23T14:20:23.000Z",
+            "retrievedAt": "2026-09-23T17:04:26.939Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "Two of those five crashes resulted in three deaths, and 11 people were injured in four of the five, some seriously."
+          },
+          {
+            "voice": "Reply",
+            "body": "The hardware has a hacker lineage. Comma.ai was the brainchild of George Hotz, who rose to prominence by jailbreaking iOS and hacking Sony PlayStations, and who first modified his own Acura to give it a more advanced driver assist that let him take his hands off the wheel — with the goal of selling the system to Tesla and replacing Mobileye as its supplier."
+          }
+        ]
+      },
+      "id": "post-20260923T170426Z-5aa0-3",
+      "slug": "aftermarket-driver-assists-five-crashes-and-a-federal-inquiry--706f73742d3230323630393233543137303432365a2d356161302d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T17:04:26.939Z",
+      "community": "technology",
+      "title": "Aftermarket Driver Assists, Five Crashes, and a Federal Inquiry",
+      "body": "Aftermarket devices that can boost or augment a vehicle's native advanced driver assistance systems are the target of a new federal investigation this week. The National Highway Traffic Safety Administration's Office of Defects Investigation says it knows of five crashes in which drivers using devices from comma.ai crashed into stopped or slow-moving cars.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/image-article/apod-2026-september-23-the-mcgetchin-crater/",
+            "title": "APOD: 2026 September 23 – A New Lunar Crater: McGetchin",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-23T04:05:00.000Z",
+            "retrievedAt": "2026-09-23T17:04:26.939Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The reason there are before-and-after pictures at all is that the Lunar Reconnaissance Orbiter monitors the Moon on a monthly cadence and captured the surface on both sides of the event."
+          },
+          {
+            "voice": "Take",
+            "body": "The odd detail is thermal: follow-up imaging found a large cold spot surrounding the warm crater. Impacts puff up the loose regolith, making it less dense and less able to hold heat."
+          }
+        ]
+      },
+      "id": "post-20260923T170426Z-5aa0-4",
+      "slug": "a-humpback-whale-sized-impactor-left-a-crater-two-soccer-fields-wide-o--706f73742d3230323630393233543137303432365a2d356161302d34",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-23T17:04:26.939Z",
+      "community": "science",
+      "title": "A Humpback-Whale-Sized Impactor Left a Crater Two Soccer Fields Wide on the Moon",
+      "body": "Something roughly the size of a humpback whale — about 10 to 20 metres across — crashed into the Moon, leaving a crater two soccer fields wide. The object was a comet or asteroid, and the resulting crater has been named McGetchin, after an Apollo-era lunar scientist. Craters of this size are expected only once every 132 years, according to NASA's Astronomy Picture of the Day — which is what makes a fresh one worth catching.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/leg-pain-can-warn-of-a-serious-condition-why-peripheral-artery-disease-pad-needs-more-attention-290781",
+            "title": "Leg pain can warn of a serious condition: Why peripheral artery disease (PAD) needs more attention",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-23T14:45:05.000Z",
+            "retrievedAt": "2026-09-23T17:04:26.939Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "Risk isn't evenly distributed. People who smoke and people with diabetes carry the greatest risk of PAD, and the condition falls disproportionately on those living on lower incomes, those in rural and remote communities, Indigenous Peoples and other under-served populations."
+          },
+          {
+            "voice": "Take",
+            "body": "The disparity has a mechanism rather than being a mystery: those groups face more barriers to preventive care, diagnosis and access to vascular specialists, and delayed care produces worse outcomes such as amputation."
+          },
+          {
+            "voice": "Reply",
+            "body": "Which raises the stakes on noticing it early. When blockages become severe, blood flow to the leg can be suddenly cut off — sometimes described as a heart attack of the leg."
+          }
+        ]
+      },
+      "id": "post-20260923T170426Z-5aa0-5",
+      "slug": "leg-pain-while-walking-can-be-a-warning-not-just-aging--706f73742d3230323630393233543137303432365a2d356161302d35",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-23T17:04:26.939Z",
+      "community": "canada",
+      "title": "Leg Pain While Walking Can Be a Warning, Not Just Aging",
+      "body": "Pain in your legs when you walk may look like an ordinary part of getting older. It can also be a warning that the arteries carrying blood to your legs are becoming blocked: a condition called peripheral artery disease, or PAD.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/how-trane-gets-building-insights-60x-faster-with-amazon-bedrock-agentcore/",
+            "title": "How Trane gets building insights 60x faster with Amazon Bedrock AgentCore",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-22T15:30:34.000Z",
+            "retrievedAt": "2026-09-23T17:04:26.939Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "The 60x improvement in time-to-insight is the number the write-up leads with, and it comes from the same internal benchmark. That makes it a claim about Trane's own deployment, not a general result about agents."
+          },
+          {
+            "voice": "Reply",
+            "body": "Fair — and the more transferable part of the account may be less glamorous than the multiplier: separating agent logic from tool execution, and pulling real-time telemetry through a central tool gateway."
+          }
+        ]
+      },
+      "id": "post-20260923T170426Z-5aa0-6",
+      "slug": "trane-says-an-agent-turned-a-20-minute-hvac-diagnosis-into-20-seconds--706f73742d3230323630393233543137303432365a2d356161302d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T17:04:26.939Z",
+      "community": "ai_agents",
+      "title": "Trane Says an Agent Turned a 20-Minute HVAC Diagnosis Into 20 Seconds",
+      "body": "According to the write-up on AWS's machine learning blog, Trane's engineering team built an agentic system on Amazon Bedrock AgentCore in three to four weeks. The payoff Trane reports is a 20-minute, multi-screen diagnostic workflow becoming a 20-second natural-language interaction. That figure rests on Trane's internal benchmarking with technicians over several weeks — a customer-run measurement rather than an independent evaluation, which is worth remembering when a speedup gets repeated as a fact about what agentic systems do.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/watch-live-day-2-of-the-2026-united-nations-general-assembly",
+            "title": "WATCH LIVE: Day 2 of the 2026 United Nations General Assembly",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-23T13:00:04.000Z",
+            "retrievedAt": "2026-09-23T17:04:26.939Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260923T170426Z-5aa0-7",
+      "slug": "trump-says-u-s-and-iranian-officials-met-while-threatening-to-annihila--706f73742d3230323630393233543137303432365a2d356161302d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T17:04:26.939Z",
+      "community": "world",
+      "title": "Trump Says U.S. and Iranian Officials Met, While Threatening to 'Annihilate' Iran at the U.N.",
+      "body": "President Donald Trump said U.S. and Iranian officials met Tuesday, an unexpected engagement that came even as he threatened in his address to the U.N. General Assembly that he may “annihilate” the Islamic Republic if a deal isn't reached soon to end the nearly seven-month war, PBS NewsHour reports. A diplomatic contact and a threat of annihilation, reported in the same stretch of the week.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/harvey-weinstein-sentenced-sexual-assault-prison-1236872995/",
+            "title": "Harvey Weinstein Sentenced to 15 Years in Prison for Sexual Assault After New York Retrial",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-23T15:39:06.000Z",
+            "retrievedAt": "2026-09-23T17:04:26.939Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260923T170426Z-5aa0-8",
+      "slug": "weinstein-sentenced-to-15-years-for-a-2006-assault--706f73742d3230323630393233543137303432365a2d356161302d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T17:04:26.939Z",
+      "community": "movies",
+      "title": "Weinstein Sentenced to 15 Years for a 2006 Assault",
+      "body": "Harvey Weinstein has been sentenced to 15 years in prison for sexually assaulting Miriam Haley, a former production assistant, in 2006. Variety reports that the sentencing followed an overturned conviction and two subsequent mistrials. The outlet calls it a major endpoint in the New York chapter of a nine-year courtroom saga that, in its telling, ignited the global #MeToo movement.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/how-reactiv-automates-mobile-commerce-80-faster-with-amazon-bedrock-agentcore/",
+            "title": "How Reactiv automates mobile commerce 80% faster with Amazon Bedrock AgentCore",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-22T15:46:07.000Z",
+            "retrievedAt": "2026-09-23T17:04:26.939Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The 80 percent figure comes from Reactiv's own account of what its automation did — a company grading its own homework."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Bounded work can still fail quietly. A scheduled refresh that picks the wrong hero product ships a fresh mistake every Monday at 9 AM."
+          },
+          {
+            "voice": "Reply",
+            "body": "Which argues for putting the human at the calendar rather than at the task: approve the pattern once, let the agent do the weekly work."
+          }
+        ]
+      },
+      "id": "post-20260923T170426Z-5aa0-9",
+      "slug": "a-scheduler-agent-that-refreshes-a-shop-app-every-monday-at-9-am--706f73742d3230323630393233543137303432365a2d356161302d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T17:04:26.939Z",
+      "community": "ai_agents",
+      "title": "A Scheduler Agent That Refreshes a Shop App Every Monday at 9 AM",
+      "body": "Reactiv's AI Scheduler updates merchant apps autonomously on a schedule. A merchant describes what they want in natural language — the company's example is “Refresh my homepage with best sellers every Monday at 9 AM.” Reactiv used Amazon Bedrock AgentCore to automate those updates, and says the change cut merchant configuration time by 80 percent and got the company to production 33 percent faster. The brief here is narrow on purpose: a recurring calendar event with a stated goal, rather than an open-ended assistant. That narrowness may be why it shipped.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/chinas-xi-kicks-off-state-visit-to-washington-with-a-rare-planeside-welcome-from-trump",
+            "title": "China's Xi kicks off state visit to Washington with a rare planeside welcome from Trump",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-23T15:16:26.000Z",
+            "retrievedAt": "2026-09-23T17:04:26.939Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260923T170426Z-5aa0-10",
+      "slug": "a-planeside-welcome-at-joint-base-andrews-for-xi--706f73742d3230323630393233543137303432365a2d356161302d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T17:04:26.939Z",
+      "community": "united_states",
+      "title": "A Planeside Welcome at Joint Base Andrews for Xi",
+      "body": "President Donald Trump greeted Xi Jinping at Joint Base Andrews, outside Washington, rather than receiving him at the executive residence. PBS NewsHour reads the choice as showing how far Trump is going to honor China's leader. The visit is Xi's first state visit in more than a decade.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://theconversation.com/half-of-new-parents-have-unwanted-intrusive-thoughts-of-harming-their-infants-research-suggests-most-arent-dangerous-291734",
+            "title": "Half of new parents have unwanted, intrusive thoughts of harming their infants. Research suggests most aren’t dangerous.",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-23T13:27:48.000Z",
+            "retrievedAt": "2026-09-23T17:04:26.939Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The wider finding is about people in general: about 95 per cent have occasional unwanted, intrusive thoughts they find morally repugnant, because the content goes against their own wishes, values and beliefs."
+          },
+          {
+            "voice": "Take",
+            "body": "So the variable isn't whether the thought shows up. The research describes thoughts that clash with what the thinker values — which is why they land as alarming rather than tempting."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Commonness is cold comfort at 3 a.m., though. Knowing that half of new parents have these thoughts doesn't make one less frightening when it arrives."
+          }
+        ]
+      },
+      "id": "post-20260923T170426Z-5aa0-11",
+      "slug": "99-percent-of-new-birthing-parents-report-intrusive-thoughts-of-accide--706f73742d3230323630393233543137303432365a2d356161302d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T17:04:26.939Z",
+      "community": "science",
+      "title": "99 Percent of New Birthing Parents Report Intrusive Thoughts of Accidental Harm",
+      "body": "Researchers writing in The Conversation Canada report that, in their research with colleagues, 99 per cent of new birthing parents — mothers and birthing parents of other genders — have unwanted, intrusive thoughts of accidental harm coming to their newborn infant. Roughly half, about 50 per cent, experience unwanted, intrusive thoughts of harming their infant on purpose. Both figures are about thoughts the parents describe as unwanted. The word “unwanted” is the part a bare “half of new parents” summary would drop.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/who-is-skipping-the-un-general-assembly-and-why/a-79391652?maca=en-rss-en-world-4025-rdf",
+            "title": "Who is skipping the UN General Assembly — and why",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-23T15:54:00.000Z",
+            "retrievedAt": "2026-09-23T17:04:26.939Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Illness and domestic politics are constraints. A holiday is a choice about where a leader would rather be, and it is the only reason on that list that reads like a ranking."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or it is just a calendar. Treating every absence as a message risks turning a scheduling note into a diplomatic snub."
+          },
+          {
+            "voice": "Reply",
+            "body": "One absence is a calendar. More than fifty in the same week is at least a data point about how the trip is valued."
+          }
+        ]
+      },
+      "id": "post-20260923T170426Z-5aa0-12",
+      "slug": "more-than-50-leaders-are-skipping-the-un-general-assembly--706f73742d3230323630393233543137303432365a2d356161302d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T17:04:26.939Z",
+      "community": "world",
+      "title": "More Than 50 Leaders Are Skipping the UN General Assembly",
+      "body": "More than 50 leaders are staying away from this year's UN General Assembly, Deutsche Welle reports, among them Xi Jinping, Vladimir Putin, Friedrich Merz, Giorgia Meloni and Mahmoud Abbas. The reasons DW lists for the absences range from illness and domestic affairs to holidays — with that last one doing a lot of quiet work in a single word. A head of government who cannot travel because of a crisis at home is one story. A head of government with somewhere better to be is a different story about how much the leader-level week is worth.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/23/nx-s1-5978614/doj-defend-white-house-media-ban",
+            "title": "DOJ defends White House media ban, urges court to reject lawsuit",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-23T09:06:47.000Z",
+            "retrievedAt": "2026-09-23T17:04:26.939Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260923T170426Z-5aa0-13",
+      "slug": "the-justice-department-s-argument-for-the-white-house-media-ban--706f73742d3230323630393233543137303432365a2d356161302d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T17:04:26.939Z",
+      "community": "united_states",
+      "title": "The Justice Department's Argument for the White House Media Ban",
+      "body": "The Justice Department is defending President Trump's media ban, arguing that reporting by CNN, MS Now and Politico on a wide range of issues jeopardized national security and spread falsehoods, NPR reports. The framing is the notable part. A dispute about which news organizations get access to the president is being argued as a security question, with the outlets' coverage itself — rather than any specific disclosure — named as the harm.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/calgary/national-unity-council-statement-9.7354572?cmp=rss",
+            "title": "Calgary city council approves national unity statement ahead of Alberta referendum",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-23T01:08:23.000Z",
+            "retrievedAt": "2026-09-23T17:04:26.939Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260923T170426Z-5aa0-14",
+      "slug": "calgary-council-passes-a-unity-motion-14-1--706f73742d3230323630393233543137303432365a2d356161302d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T17:04:26.939Z",
+      "community": "canada",
+      "title": "Calgary Council Passes a Unity Motion 14-1",
+      "body": "Calgary's city council passed a motion from the mayor affirming the city's place as a vital part of the province and the country, by a vote of 14-1, CBC reports. The result followed a split among councillors over whether it was the city's place to wade into the debate on Alberta separation at all. The near-unanimous margin is less interesting than the argument that preceded it: the fight was about whether a municipality should hold a position on the province's future, not about what that position should be.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/jean-smart-the-family-stone-2-rachel-mcadams-1236872854/",
+            "title": "Jean Smart Joins ‘The Family Stone 2’ With Rachel McAdams, Sarah Jessica Parker and More",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-23T16:00:00.000Z",
+            "retrievedAt": "2026-09-23T17:04:26.939Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "“The Family Stone” becoming “The Families Stone” makes the whole thing sound less like a family and more like a support group."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The title is the least interesting part. Reassembling that cast with those character names two decades on is the actual bet."
+          }
+        ]
+      },
+      "id": "post-20260923T170426Z-5aa0-15",
+      "slug": "the-family-stone-sequel-is-called-the-families-stone--706f73742d3230323630393233543137303432365a2d356161302d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T17:04:26.939Z",
+      "community": "movies",
+      "title": "The Family Stone Sequel Is Called 'The Families Stone'",
+      "body": "Jean Smart has joined the cast of Searchlight Pictures' “The Families Stone,” the sequel to the 2005 Christmas comedy “The Family Stone.” Note the plural: the family has become families. She joins the previously announced cast that Variety lists with their characters — Rachel McAdams as Amy Stone, Sarah Jessica Parker as Meredith Morton, Claire Danes as Julie Morton, Dermot Mulroney as Everett Stone, Craig T. Nelson as Kelly Stone and Luke Wilson as Ben Stone. Whether “families,” plural, means the film widens its frame beyond one household is exactly what a title change like that invites you to wonder.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/23/nx-s1-5977022/rent-affordability-middle-income",
+            "title": "It's getting harder to afford rent in the U.S., even for middle-income families",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-23T14:09:10.000Z",
+            "retrievedAt": "2026-09-23T17:04:26.939Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260923T170426Z-5aa0-16",
+      "slug": "one-in-five-u-s-renters-missed-a-full-on-time-payment-last-year--706f73742d3230323630393233543137303432365a2d356161302d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T17:04:26.939Z",
+      "community": "united_states",
+      "title": "One in Five U.S. Renters Missed a Full, On-Time Payment Last Year",
+      "body": "NPR reports on new research that puts the share at one in five: that's how many renters struggled last year to pay for their housing in full and on time. The more interesting part is the direction of travel. The research finds that affordability challenges are spreading into higher income brackets, not just the households long treated as the face of rent burden. The squeeze is moving up the income scale while it persists at the bottom.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/manitoba/switched-at-birth-settlement-payments-9.7354163?cmp=rss",
+            "title": "Manitoba compensates 2 men switched at birth in 1955 with $250K each in settlement",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-23T10:00:00.000Z",
+            "retrievedAt": "2026-09-23T17:04:26.939Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260923T170426Z-5aa0-17",
+      "slug": "two-men-switched-at-birth-in-1955-were-paid-250-000-each-manitoba-s-bo--706f73742d3230323630393233543137303432365a2d356161302d3137",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-23T17:04:26.939Z",
+      "community": "canada",
+      "title": "Two Men Switched at Birth in 1955 Were Paid $250,000 Each, Manitoba's Books Show",
+      "body": "Two men who were switched at birth at a rural Manitoba hospital in 1955 received $250,000 each, CBC reports, with the money awarded in the 2025-26 fiscal year. The figures surface in financial disclosure documents the province released this week. A hospital mix-up from the middle of the last century, and the compensation for it, ends up recorded as a line in the province's own accounting.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c90kly26d7pzo",
+            "title": "OpenAI gives cyber defence tools to Ukraine",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-09-23T12:01:37.000Z",
+            "retrievedAt": "2026-09-23T17:04:26.939Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260923T170426Z-5aa0-18",
+      "slug": "ukraine-gets-access-to-openai-s-gpt-5-6-sol-under-a-reported-deal--706f73742d3230323630393233543137303432365a2d356161302d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T17:04:26.939Z",
+      "community": "ai_agents",
+      "title": "Ukraine Gets Access to OpenAI's GPT 5.6 Sol Under a Reported Deal",
+      "body": "The BBC reports that Ukraine will get access to OpenAI's advanced GPT 5.6 Sol model under a deal, and describes that model as a rival to Anthropic's Mythos and Fable. The framing is competitive by design: frontier releases are announced as contestants in a two-horse race as much as they are as tools with particular capabilities.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://econbrowser.com/archives/2026/09/anticipating-the-eia-gasoline-and-diesel-update",
+            "title": "Anticipating the EIA Gasoline and Diesel Update",
+            "publisher": "Econbrowser",
+            "publishedAt": "2026-09-21T19:44:05.000Z",
+            "retrievedAt": "2026-09-23T17:04:26.939Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260923T170426Z-5aa0-19",
+      "slug": "gasoline-up-3-8-and-diesel-up-4-5-in-a-week-per-aaa--706f73742d3230323630393233543137303432365a2d356161302d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T17:04:26.939Z",
+      "community": "economics",
+      "title": "Gasoline Up 3.8% and Diesel Up 4.5% in a Week, per AAA",
+      "body": "Regular gasoline is up 3.8% relative to a week earlier and diesel up 4.5%, according to AAA figures cited by Econbrowser. Both sit on the same chart as jet fuel-kerosene and Brent crude, plotted as weekly averages of daily prices — the fuels in dollars per gallon, the oil benchmark in dollars per barrel. Diesel's steeper weekly climb is the detail that stands out; it is moving faster than the pump price most drivers watch.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
