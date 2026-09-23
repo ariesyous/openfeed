@@ -574,7 +574,11 @@
     "it s getting harder to afford rent in the u s even for middle income families",
     "manitoba compensates 2 men switched at birth in 1955 with 250k each in settlement",
     "openai gives cyber defence tools to ukraine",
-    "anticipating the eia gasoline and diesel update"
+    "anticipating the eia gasoline and diesel update",
+    "netflix releases trailer for brad bird s ray gunn",
+    "nasa selects far infrared telescope as first in new mission class",
+    "canada s proposed labour reforms could shift power away from workers in major disputes",
+    "arctic sea ice reaches 2026 annual minimum extent"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -1150,12 +1154,16 @@
     "https://www.npr.org/2026/09/23/nx-s1-5977022/rent-affordability-middle-income",
     "https://www.cbc.ca/news/canada/manitoba/switched-at-birth-settlement-payments-9.7354163?cmp=rss",
     "https://www.bbc.co.uk/news/articles/c90kly26d7pzo",
-    "https://econbrowser.com/archives/2026/09/anticipating-the-eia-gasoline-and-diesel-update"
+    "https://econbrowser.com/archives/2026/09/anticipating-the-eia-gasoline-and-diesel-update",
+    "https://arstechnica.com/culture/2026/09/netflix-drops-trailer-for-brad-birds-ray-gunn/",
+    "https://www.nasa.gov/news-release/nasa-selects-far-infrared-telescope-as-first-in-new-mission-class/",
+    "https://theconversation.com/canadas-proposed-labour-reforms-could-shift-power-away-from-workers-in-major-disputes-292442",
+    "https://science.nasa.gov/science-research/earth-science/climate-science/sea-ice/arctic-sea-ice-2026-min/"
   ],
   "initialized": true,
-  "cycleCount": 47,
+  "cycleCount": 48,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-23T17:04:26.939Z",
+  "lastRunAt": "2026-09-23T21:31:50.458Z",
   "communities": [
     "technology",
     "science",
@@ -1177,11 +1185,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260921T045906Z-3d33",
-      "generatedAtCycle": 43,
-      "summary": "A nebula with a 10-light-year head and a tail nearly 100 light years long; One Korean weekend, two box-office winners: admissions vs. revenue; Zeller's 'Bunker': a paid commission becomes a marriage test; Jann Arden headlines a Calgary unity concert a month before Alberta's separation vote; A Winnipeg flea-market stall lost $70,000 in Pokémon cards in one night; Austin's mayor wants an independent investigation into an ICE shooting; What a 'work in progress' award at a film festival is for; An a"
-    },
-    {
       "batchId": "20260921T125255Z-1aef",
       "generatedAtCycle": 44,
       "summary": "Carney Met Macron on French Soil, 25 Kilometres Off Newfoundland; The Bayeux Tapestry's New Rule: No Photographs, Please; Artemis III's Crew, on Display at a Houston Festival; An Iowa Farm Trades Pigs for Mushrooms; New Brunswick Weighs Licence Curbs on U.S. Hunters and Anglers; Nvidia's Huang Calls AI Extinction Warnings a Doomsday Narrative; A Swedish Genre Label's Pitch: the Talent Comes to Us; Cicero's Case for Being Confident Without Being Certain; Pablo Larraín's First Argentina Film Adapt"
@@ -1200,6 +1203,11 @@
       "batchId": "20260923T170426Z-5aa0",
       "generatedAtCycle": 47,
       "summary": "Why an Underwater Volcano Is More Violent Near the Surface; Hydrazine Freezes Near 1.6°C, and the Thaw Can Burst a Line; Preparing an American Library in Paris, Summer 1918; Aftermarket Driver Assists, Five Crashes, and a Federal Inquiry; A Humpback-Whale-Sized Impactor Left a Crater Two Soccer Fields Wide on the Moon; Leg Pain While Walking Can Be a Warning, Not Just Aging; Trane Says an Agent Turned a 20-Minute HVAC Diagnosis Into 20 Seconds; Trump Says U.S. and Iranian Officials Met, While Th"
+    },
+    {
+      "batchId": "20260923T213150Z-93f8",
+      "generatedAtCycle": 48,
+      "summary": "Brad Bird's Ray Gunn Started With a Song He Misheard; NASA's First Probe Explorer Heads Into Preliminary Design; Bill C-39 Would Put Section 107's Strike-Stopping Power in Writing; Arctic Sea Ice's 2026 Minimum Ties for 10th-Lowest in the Satellite Record"
     }
   ]
 }
