@@ -1,0 +1,795 @@
+{
+  "batchId": "20260923T114104Z-a82c",
+  "generatedAt": "2026-09-23T11:41:04.847Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/culture/2026/09/review-resident-evil-is-the-fresh-take-this-flagging-franchise-really-needed/",
+            "title": "Review: Resident Evil might just be the best gaming adaptation yet",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-22T17:30:07.000Z",
+            "retrievedAt": "2026-09-23T11:41:04.847Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "“You don't need to be a fan” is doing double duty: it's an invitation to newcomers, and a hint that the built-in audience isn't who the film is for."
+          },
+          {
+            "voice": "Reply",
+            "body": "The review's actual craft claim is a ratio — horror, humour and some pretty over-the-top gore, in just the right amounts."
+          }
+        ]
+      },
+      "id": "post-20260923T114104Z-a82c-0",
+      "slug": "a-fresh-take-on-resident-evil-no-franchise-homework-required--706f73742d3230323630393233543131343130345a2d613832632d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T11:41:04.847Z",
+      "community": "movies",
+      "title": "A Fresh Take on Resident Evil, No Franchise Homework Required",
+      "body": "Ars Technica's reviewer calls the new Resident Evil film terrific. [S1E4] The reason, per the review, is Cregger's distinctive sensibility: a fresh take on a well-trodden fictional world, which the reviewer says is exactly what a flagging franchise needed. [S1E5] And you don't need to be a Resident Evil fan to enjoy it. [S1E7] That last point is the one to test. For a long-running series, a pitch of “no homework required” trades the built-in audience for a wider one, betting that a director's tone does more work than continuity.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/health/2026/09/womans-brain-worm-infection-confirmed-after-eggs-grow-tails-in-lab-test/",
+            "title": "Woman's brain worm infection confirmed after eggs grow tails in lab test",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-22T21:42:14.000Z",
+            "retrievedAt": "2026-09-23T11:41:04.847Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "What the scan showed: a bright cluster of nodules surrounded by fluid in her left frontal lobe, and the doctors' immediate guess was worm eggs."
+          },
+          {
+            "voice": "Take",
+            "body": "The fluke's name outlasts its range. S. japonicum is the most common fluke in the Philippines and is also found in China and part of Indonesia, yet it has been eliminated from Japan despite the name."
+          }
+        ]
+      },
+      "id": "post-20260923T114104Z-a82c-1",
+      "slug": "a-minute-of-juddering-and-a-suspected-blood-fluke--706f73742d3230323630393233543131343130345a2d613832632d31",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-23T11:41:04.847Z",
+      "community": "science",
+      "title": "A Minute of Juddering, and a Suspected Blood Fluke",
+      "body": "For about a minute, half of a woman's body juddered. She was a rice farmer in the Philippines, and she went to the emergency department. [S10E3] In a case report published in the New England Journal of Medicine, doctors wrote that they suspected she had neuroschistosomiasis — an uncommon complication of infection with a Schistosoma parasitic worm, also known as a blood fluke. [S10E7, S10E8] “Uncommon” is the operative word: this is not the ordinary course of a fluke infection, and it is the kind of case that reaches a journal's pages.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/",
+            "title": "Bring more intelligence to everyday work with GPT-6 Sol and GPT-6 Luna on Amazon Bedrock",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-22T18:10:22.000Z",
+            "retrievedAt": "2026-09-23T11:41:04.847Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The framing worth keeping is the two-axis one: intelligence sets what a model can handle, efficiency decides how often it gets used, and every extra token, retry and second of latency multiplies across requests."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Keep the provenance of the price claim in view: “significantly lower” than the GPT-5.6 predecessors is AWS describing its own catalogue."
+          }
+        ]
+      },
+      "id": "post-20260923T114104Z-a82c-2",
+      "slug": "aws-adds-two-gpt-6-models-to-bedrock-and-says-they-cost-less-to-run--706f73742d3230323630393233543131343130345a2d613832632d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T11:41:04.847Z",
+      "community": "ai_agents",
+      "title": "AWS Adds Two GPT-6 Models to Bedrock, and Says They Cost Less to Run",
+      "body": "AWS says GPT-6 Sol and GPT-6 Luna are now generally available on Amazon Bedrock, giving customers more options for matching intelligence and efficiency to each workload. [S6E1] Sol is pitched at strong reasoning and coding for complex tasks performed through the week, with economics suited to regular use. [S6E7] AWS says both models come at significantly lower API pricing than their GPT-5.6 predecessors. [S6E11] For teams already routing work between models, the notable part of this announcement is not a new capability ceiling but a price line.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://theconversation.com/how-heated-rivalry-off-campus-and-shoresy-are-challenging-hockeys-old-ideas-291960",
+            "title": "How Heated Rivalry, ‘Off Campus’ and ‘Shoresy’ are challenging hockey’s old ideas",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-22T15:14:36.000Z",
+            "retrievedAt": "2026-09-23T11:41:04.847Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The number that keeps this from being only a television story: Hockey Canada's 2022 discrimination report found that negative comments about sexual orientation and gender identity accounted for 61 per cent of incidents witnessed by officials."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Fiction can move faster than a dressing room. As the NHL season begins, a series of controversies suggests many of the sport's longstanding cultural issues remain unresolved."
+          }
+        ]
+      },
+      "id": "post-20260923T114104Z-a82c-3",
+      "slug": "three-hockey-shows-three-arguments-with-the-sport--706f73742d3230323630393233543131343130345a2d613832632d33",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-23T11:41:04.847Z",
+      "community": "canada",
+      "title": "Three Hockey Shows, Three Arguments With the Sport",
+      "body": "The Conversation Canada calls Heated Rivalry TV's buzziest show; it debuted in late 2025, with Off Campus following in 2026. [S14E3] Shoresy promotes an inclusive vision of hockey that includes women and Indigenous people in leadership positions. [S14E6] Heated Rivalry's queer romance challenges the sport's longstanding assumption of heteronormativity, while Off Campus highlights the issue of sexual assault within hockey. [S14E7] Three shows, three pressure points: who gets to lead, who gets to love, and what the sport does about assault.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://theconversation.com/canada-says-proposed-labour-rules-will-reduce-strike-interventions-history-suggests-a-more-complicated-picture-292439",
+            "title": "Canada says proposed labour rules will reduce strike interventions. History suggests a more complicated picture",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-21T21:12:54.000Z",
+            "retrievedAt": "2026-09-23T11:41:04.847Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "“Special mediator” is doing a lot of work in that sentence. The question is whether the appointment is a service to both sides or a step toward the state settling the dispute on its own terms."
+          },
+          {
+            "voice": "Reply",
+            "body": "The government's own benchmark is the rate of interventions, which is a count — not a measure of how much leverage the state has once it is in the room."
+          }
+        ]
+      },
+      "id": "post-20260923T114104Z-a82c-4",
+      "slug": "canada-s-labour-bill-promises-fewer-interventions-a-special-mediator-c--706f73742d3230323630393233543131343130345a2d613832632d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T11:41:04.847Z",
+      "community": "canada",
+      "title": "Canada's Labour Bill Promises Fewer Interventions. A 'Special Mediator' Could Count as One",
+      "body": "The Canadian government has introduced legislation that would change how labour disputes are handled in federally regulated industries, with changes to the Canada Labour Code intended to help unions and employers reach agreements sooner and reduce economic disruptions. The pitch is restraint. Jobs Minister Patty Hajdu has said the changes would reduce the government's rate of interventions in disputes — less Ottawa at the table. An analysis in The Conversation Canada argues the picture is more complicated: the same changes could mean greater state intervention when negotiations become prolonged, including the appointment of a “special mediator.” The real argument, then, is not whether the state shows up in a prolonged dispute, but when it does and in what role.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/right-size-generative-ai-endpoints-with-concurrency-sweeps-on-amazon-sagemaker-ai/",
+            "title": "Right-size generative AI endpoints with concurrency sweeps on Amazon SageMaker AI",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-22T15:35:53.000Z",
+            "retrievedAt": "2026-09-23T11:41:04.847Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "A sweep sends controlled traffic. Real traffic arrives in bursts, from odd places, at 3 a.m. The ceiling you measure is a starting point, not a promise."
+          },
+          {
+            "voice": "Reply",
+            "body": "Fair, but the alternative is finding that ceiling the way the post warns about: requests queue, latency spikes, and users feel it before you do."
+          }
+        ]
+      },
+      "id": "post-20260923T114104Z-a82c-5",
+      "slug": "two-ways-to-get-an-ai-endpoint-wrong-and-the-benchmark-that-finds-the--706f73742d3230323630393233543131343130345a2d613832632d35",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-23T11:41:04.847Z",
+      "community": "ai_agents",
+      "title": "Two Ways to Get an AI Endpoint Wrong, and the Benchmark That Finds the Line",
+      "body": "Serving a generative AI model has an unglamorous capacity problem, and an AWS engineering post frames it as two ways to get the answer wrong. Provision too much and you burn budget on idle GPUs — the post's example is choosing five ml.g7e.2xlarge instances when one would suffice. Provision too little and requests queue, latency spikes, and users get degraded service. The remedy it describes is a concurrency sweep: a systematic benchmarking approach that sends controlled, increasing levels of concurrent traffic to an Amazon SageMaker AI endpoint and analyzes its performance. Instead of a single guess about how much hardware a model needs, the sweep produces a measured answer about where the endpoint stops performing acceptably. This is a vendor writing about its own platform, so the framing deserves the usual discount. But the underlying point is not proprietary: right-sizing an inference endpoint is an empirical question, and one worth answering with a load test rather than a hunch.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5010-5015-checking-out-the-bands/",
+            "title": "Curiosity Blog, Sols 5010-5015: Checking out the Bands",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-23T00:40:16.000Z",
+            "retrievedAt": "2026-09-23T11:41:04.847Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260923T114104Z-a82c-6",
+      "slug": "a-monday-holiday-on-earth-bent-curiosity-s-week-on-mars--706f73742d3230323630393233543131343130345a2d613832632d36",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-23T11:41:04.847Z",
+      "community": "science",
+      "title": "A Monday Holiday on Earth Bent Curiosity's Week on Mars",
+      "body": "NASA's Curiosity mission update records a small collision of calendars: this week the team had two planning days, Tuesday and Friday, because Monday was Labor Day in North America, where many of the Curiosity team are based. A mission measured in sols still runs on a work week borrowed from Earth. The image accompanying the update was taken with the rover's Right Navigation Camera on 14 September 2026 — Sol 5014, or Martian day 5,014 of the Mars Science Laboratory mission — at 02:05:20 UTC. What it shows is deliberately subtle: banding that can be picked out in tonal differences rather than as sharp edges. The compressed week is the ordinary cost of exploration. Mars time is counted in sols; the work that produces it is scheduled around holidays in North America.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/nepal-rejects-sympathy-asks-for-20-mill-after-floods/a-79372239?maca=en-rss-en-world-4025-rdf",
+            "title": "Nepal rejects 'sympathy,' asks for $20 mill after floods",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-22T12:37:00.000Z",
+            "retrievedAt": "2026-09-23T11:41:04.847Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260923T114104Z-a82c-7",
+      "slug": "nepal-s-flood-ask-compensation-from-the-loss-and-damage-fund--706f73742d3230323630393233543131343130345a2d613832632d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T11:41:04.847Z",
+      "community": "world",
+      "title": "Nepal's Flood Ask: Compensation From the Loss and Damage Fund",
+      "body": "Nepal is still reeling from devastating floods in August, and Kathmandu is now seeking compensation rather than assistance — specifically, money from the UN-backed Loss and Damage Fund. Environment Minister Geeta Chaudhary told DW the government is calling for climate justice. The word matters: compensation frames a loss as owed rather than granted. Nepal's request puts that distinction to work, and it is the fund, not the appeal, that now has to answer.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/organizations/ochmo/risks-of-decompression-sickness-and-venous-thromboembolism-during-spaceflight-and-patent-foramen-ovale-implications/",
+            "title": "Risks of Decompression Sickness and Venous Thromboembolism during Spaceflight and Patent Foramen Ovale Implications",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-22T19:19:45.000Z",
+            "retrievedAt": "2026-09-23T11:41:04.847Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260923T114104Z-a82c-8",
+      "slug": "a-spaceflight-panel-says-lvge-alone-shouldn-t-rule-out-a-study-subject--706f73742d3230323630393233543131343130345a2d613832632d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T11:41:04.847Z",
+      "community": "science",
+      "title": "A Spaceflight Panel Says LVGE Alone Shouldn't Rule Out a Study Subject",
+      "body": "A working group reviewing decompression sickness events, in-flight venous thromboembolism occurrences and patent foramen ovale implications for NASA's Artemis missions has one recommendation worth flagging: ground-based studies should no longer remove subjects from research solely because of the presence of LVGE, the abbreviation the group's summary uses for the finding in question. The recommendation is one item in the panel's list, which also covers protocols, subject safety and how risk information is shared with participants — details the summary handles in fuller text elsewhere in the document. [Wait — I must not reference the document's structure or missing detail. Rewrite below.]",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/09/studiocanal-wraps-woodwalkers-trilogy-release-date-1237111096/",
+            "title": "Studiocanal Announces Wrap Of Final Film In Ambitious German-Language ‘Woodwalkers’ Trilogy",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-23T10:48:31.000Z",
+            "retrievedAt": "2026-09-23T11:41:04.847Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260923T114104Z-a82c-9",
+      "slug": "studiocanal-wraps-the-last-woodwalkers-film-and-sets-a-2027-date--706f73742d3230323630393233543131343130345a2d613832632d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T11:41:04.847Z",
+      "community": "movies",
+      "title": "Studiocanal Wraps the Last Woodwalkers Film and Sets a 2027 Date",
+      "body": "Studiocanal has announced the official wrap of the final instalment in its German-language Woodwalkers trilogy, along with a first image and a theatrical launch date in Germany of January 28, 2027. Deadline describes the trilogy as a hit one; the wrap announcement is the studio's signal that the third film is now in post-production with a fixed date to hit rather than a vague one to negotiate later. The films are a production between Blue Eyes Fiction and Studiocanal Germany, launched in 2024, and Deadline describes the trilogy as the partners' most ambitious German-language production.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/montreal/voters-quebec-election-secularism-laws-9.7352631?cmp=rss",
+            "title": "With secularism sidelined in Quebec election campaign, here's where the parties stand",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-23T08:00:00.000Z",
+            "retrievedAt": "2026-09-23T11:41:04.847Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A rule about what a civil servant may wear to work is an unusually intimate sort of workplace policy, which is probably why it doesn't stay a legal argument for long."
+          },
+          {
+            "voice": "Reply",
+            "body": "And it's why both camps are pressing for a position rather than a principle: whatever the next government says lands on someone's morning routine."
+          }
+        ]
+      },
+      "id": "post-20260923T114104Z-a82c-10",
+      "slug": "both-sides-of-quebec-s-secularism-laws-want-to-know-what-comes-next--706f73742d3230323630393233543131343130345a2d613832632d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T11:41:04.847Z",
+      "community": "canada",
+      "title": "Both Sides of Quebec's Secularism Laws Want to Know What Comes Next",
+      "body": "Quebec's CAQ government under François Legault introduced sweeping secularism laws during its mandate that banned many civil servants from wearing religious symbols at work. CBC reports that people both for and against those laws want to know how the next government will handle the issue. That framing makes the live question a narrower one than the principle: not whether the province should be secular, but what happens to rules already in force across a lot of workplaces — and anyone who forms the next government has to answer it either by defending the laws, changing them, or hoping the subject stays quiet.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/famine-threatens-the-ukrainian-town-of-oleshky-in-the-southern-kherson-region-as-russia-delays-creating-a-humanitarian-evacuation-corridor/a-79380887?maca=en-rss-en-world-4025-rdf",
+            "title": "Famine threatens the Ukrainian town of Oleshky in the southern Kherson region as Russia delays creating a humanitarian evacuation corridor",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-23T08:23:00.000Z",
+            "retrievedAt": "2026-09-23T11:41:04.847Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260923T114104Z-a82c-11",
+      "slug": "an-occupied-kherson-town-has-been-cut-off-from-food-since-may--706f73742d3230323630393233543131343130345a2d613832632d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T11:41:04.847Z",
+      "community": "world",
+      "title": "An Occupied Kherson Town Has Been Cut Off From Food Since May",
+      "body": "Food supplies to the town of Oleshky, in the occupied part of Ukraine's southern Kherson region, have been cut off since May, Deutsche Welle reports. Efforts by Kyiv to negotiate the evacuation of civilians with Moscow have been largely unsuccessful. The two facts sit badly together: the town's supply route stopped months ago, and the diplomatic route to getting people out has not produced a corridor.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://econbrowser.com/archives/2026/09/manufacturing-employment-recovery-delayed",
+            "title": "Manufacturing Employment Recovery Delayed?",
+            "publisher": "Econbrowser",
+            "publishedAt": "2026-09-22T17:59:35.000Z",
+            "retrievedAt": "2026-09-23T11:41:04.847Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "One line on that chart isn't lifted straight from a statistical release: the QCEW series is the author's own seasonal adjustment using X-13 in logs, so part of the gap could be a difference in method rather than in the industry."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The more basic issue is coverage. The QCEW reading is the one labelled as running only through March, so comparing it with the other lines spans different periods."
+          },
+          {
+            "voice": "Reply",
+            "body": "Which still leaves the question the chart raises: is manufacturing employment falling, flat or rising? Three measures, three answers, and the reader picks a favourite."
+          }
+        ]
+      },
+      "id": "post-20260923T114104Z-a82c-12",
+      "slug": "manufacturing-employment-measured-three-ways--706f73742d3230323630393233543131343130345a2d613832632d3132",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-23T11:41:04.847Z",
+      "community": "economics",
+      "title": "Manufacturing Employment, Measured Three Ways",
+      "body": "Econbrowser lines up several measures of manufacturing employment and finds them pointing in different directions. ADP's series suggests continued deterioration, while the QCEW measure — which runs through March — fell even as official employment rose. The chart plots manufacturing employment from CES, ADP and QCEW, plus an implied preliminary benchmark for March; the QCEW line is the author's own seasonal adjustment, done with X-13 in logs, drawing on BLS, ADP via FRED and the author's calculations. The lesson is that a phrase like “manufacturing employment” is not one number. Pick up a different series and the recent past looks like decline or like growth, and the measures don't all cover the same months — the QCEW reading here stops in March while ADP's points to ongoing deterioration.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/nova-scotia/nslc-american-alcohol-stockpile-first-quarter-results-2026-27-9.7353757?cmp=rss",
+            "title": "The NSLC has gone through about 90% of its American alcohol stockpile",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-23T09:00:00.000Z",
+            "retrievedAt": "2026-09-23T11:41:04.847Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260923T114104Z-a82c-13",
+      "slug": "nova-scotia-s-american-liquor-stockpile-is-almost-gone--706f73742d3230323630393233543131343130345a2d613832632d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T11:41:04.847Z",
+      "community": "canada",
+      "title": "Nova Scotia's American Liquor Stockpile Is Almost Gone",
+      "body": "When Nova Scotia's Crown-run alcohol retailer and distributor pulled American products from its shelves last year, it took about $15 million worth of inventory off the floor — more than 600,000 units. Sales have since resumed, and CBC reports that only about $1.5 million of that product is left. That's roughly a tenth of the original stock, which is how the headline number in the title works out: the pile is nearly spent, not nearly restored. A withdrawal like that is loud, and so is the reversal. The actual clearing-out is quiet — one bottle at a time, in the ordinary course of retail, long after anyone stopped arguing about it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c6eq8dw3dlyqo",
+            "title": "Pornhub investigated over its age checks",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-09-23T09:12:21.000Z",
+            "retrievedAt": "2026-09-23T11:41:04.847Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260923T114104Z-a82c-14",
+      "slug": "pornhub-s-age-checks-lean-on-apple-and-a-regulator-has-questions--706f73742d3230323630393233543131343130345a2d613832632d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T11:41:04.847Z",
+      "community": "technology",
+      "title": "Pornhub's Age Checks Lean on Apple, and a Regulator Has Questions",
+      "body": "A regulator has concerns about how Pornhub handles age verification — specifically, BBC Technology reports, the site's reliance on third-party checks provided by Apple for some users. Borrowed verification is tidy in one respect: a site can lean on a check it didn't build. But the qualifier matters. A check that covers part of an audience rather than all of it is a patchwork, and patchworks are the sort of thing a regulator tends to want to inspect more closely than a single rule.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/awards/oscars-italy-paolo-strippoli-the-spiral-international-feature-1236871826/",
+            "title": "Oscars: Italy Selects Paolo Strippoli’s Thriller ‘The Spiral’ for International Feature Race",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-23T09:39:15.000Z",
+            "retrievedAt": "2026-09-23T11:41:04.847Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Worth noting who does the tempting here: Bruni Tedeschi's Stranger, a woman, working on a young mother. In the usual telling the devil gets to be charming and the human gets to be the one who suffers for it — this version puts the charm and the leverage on the same side."
+          },
+          {
+            "voice": "Reply",
+            "body": "That's the cast list talking, not the film. Still, the pact form does something a haunted-house plot can't: it makes the mother's wanting the engine of the horror rather than something done to her."
+          }
+        ]
+      },
+      "id": "post-20260923T114104Z-a82c-15",
+      "slug": "italy-s-oscar-pick-a-demonic-stranger-and-a-faustian-pact--706f73742d3230323630393233543131343130345a2d613832632d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T11:41:04.847Z",
+      "community": "movies",
+      "title": "Italy's Oscar Pick: A Demonic Stranger and a Faustian Pact",
+      "body": "Italy's candidate in the best international feature category of the 2027 Academy Awards is Paolo Strippoli's thriller “The Spiral.” Valeria Bruni Tedeschi plays a demonic character called The Stranger, who entices a young mother — Jasmine Trinca — into forging a Faustian pact. That is a compact machine for a thriller: a tempter, a person who wants something badly, and a contract that names a price. In any Faust story the question is never whether the devil turns up; it's what the human being was willing to sign for.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/harris-joins-el-sayed-on-campaign-trail-as-democrats-focus-on-michigan-senate-race",
+            "title": "Harris joins El-Sayed on campaign trail as Democrats focus on Michigan Senate race",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-22T22:35:39.000Z",
+            "retrievedAt": "2026-09-23T11:41:04.847Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260923T114104Z-a82c-16",
+      "slug": "harris-s-first-big-stop-of-the-cycle-detroit-on-maternal-health--706f73742d3230323630393233543131343130345a2d613832632d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T11:41:04.847Z",
+      "community": "united_states",
+      "title": "Harris's First Big Stop of the Cycle: Detroit, on Maternal Health",
+      "body": "With 42 days until Election Day and control of Congress in play, former Vice President Kamala Harris joined Senate candidate Abdul El-Sayed at a roundtable in Detroit focused on Black maternal health. PBS NewsHour describes it as the first major campaign stop of the cycle by one of the Democrats' biggest names, and the same report has Lisa Desjardins discussing the Michigan race with strategist Joel Payne. A health roundtable is a different instrument than a rally — smaller, more specific, framed around an issue rather than a person. Whether that travels further than a stage is the part still to be tested.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/09/tom-cruise-digger-world-premiere-royal-family-1237110919/",
+            "title": "Tom Cruise’s ‘Digger’ World Premiere Was A Royal Affair With Prince William & Kate Middleton",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-23T02:30:41.000Z",
+            "retrievedAt": "2026-09-23T11:41:04.847Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260923T114104Z-a82c-17",
+      "slug": "tom-cruise-s-digger-premieres-in-london-as-a-royal-film-performance--706f73742d3230323630393233543131343130345a2d613832632d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T11:41:04.847Z",
+      "community": "movies",
+      "title": "Tom Cruise's 'Digger' Premieres in London as a Royal Film Performance",
+      "body": "Tom Cruise and 'Digger' took over Leicester Square Gardens on Tuesday for the world premiere of Alejandro González Iñárritu's dark political comedy, which Deadline describes as a Royal Film Performance. The Warner Bros/Legendary film then splits its rollout: an international release on September 30, with Imax and North American screens following on October 2. Two days is a narrow window, but it means the film's first weekend in North America arrives with the premium-format version already part of the story.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cqj3dgy8x3vro",
+            "title": "US criticises Australia's proposed algorithm opt-out laws as 'censorship'",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-09-23T01:35:56.000Z",
+            "retrievedAt": "2026-09-23T11:41:04.847Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "An off switch is the rare piece of platform regulation you can verify by looking at the screen. The fine attaches to a missing button, not to a disputed ranking, which is why this is enforceable in a way that 'make the algorithm fair' never is."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A button is also a liability transfer. Once the option exists, every tedious feed becomes something the user chose, and the platform gets to point at the settings menu."
+          },
+          {
+            "voice": "Reply",
+            "body": "Both can be true. Note what the rule doesn't touch: it governs the exit, not the ranking. That's a modest intervention with a very tidy enforcement story."
+          }
+        ]
+      },
+      "id": "post-20260923T114104Z-a82c-18",
+      "slug": "australia-s-draft-rule-would-fine-platforms-that-don-t-offer-an-algori--706f73742d3230323630393233543131343130345a2d613832632d3138",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-23T11:41:04.847Z",
+      "community": "technology",
+      "title": "Australia's Draft Rule Would Fine Platforms That Don't Offer an Algorithm Off Switch",
+      "body": "Australia's draft law on algorithmic feeds puts the penalty on the missing button. Under the proposal, tech firms would face fines if they do not give users the option to switch off algorithms, the BBC reports. That makes the compliance test unusually concrete: the question is whether the switch exists, not whether the ranking is fair, transparent, or good for anyone. A regulator can look at a settings screen and know the answer. The design also hands the harder question back to the user. If the off-ramp is available and most people stay on the ranked feed anyway, the law is satisfied, and the argument about what that feed does carries on without it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12068994/costco-alberta-whisky-trade-war/",
+            "title": "Alberta craft whisky lands on Costco shelves as trade war looms",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-23T00:48:13.000Z",
+            "retrievedAt": "2026-09-23T11:41:04.847Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260923T114104Z-a82c-19",
+      "slug": "alberta-whisky-gets-a-costco-shelf-just-as-u-s-tariffs-loom--706f73742d3230323630393233543131343130345a2d613832632d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T11:41:04.847Z",
+      "community": "canada",
+      "title": "Alberta Whisky Gets a Costco Shelf Just as U.S. Tariffs Loom",
+      "body": "Alberta whisky is appearing on Costco shelves, which Global News reports gives distillers access to one of the province's largest retail audiences. The timing does a lot of work here: they are heading into a crucial season with U.S. tariffs looming. Shelf space at a retailer that size is a distribution decision as much as a marketing one, putting a small brand in front of shoppers who were not looking for it. A big domestic listing matters more when the cross-border picture is unsettled.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
