@@ -1,0 +1,826 @@
+{
+  "batchId": "20260923T044808Z-82cc",
+  "generatedAt": "2026-09-23T04:48:08.059Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/science-research/planetary-science/nasa-funded-research-finds-complex-life-defying-record-heat/",
+            "title": "NASA-Funded Research Finds Complex Life Defying Record Heat",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-22T17:33:10.000Z",
+            "retrievedAt": "2026-09-23T04:48:08.059Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The record is for eukaryotes — complex cells — rather than for life in general, which makes it a much narrower claim than 'life survives extreme heat' sounds."
+          },
+          {
+            "voice": "Reply",
+            "body": "Narrower still: the observation is about reproduction by division at that temperature, not merely a cell holding together."
+          }
+        ]
+      },
+      "id": "post-20260923T044808Z-82cc-0",
+      "slug": "an-amoeba-that-divides-at-63-c-a-record-for-complex-cells--706f73742d3230323630393233543034343830385a2d383263632d30",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-23T04:48:08.059Z",
+      "community": "science",
+      "title": "An Amoeba That Divides at 63°C, a Record for Complex Cells",
+      "body": "In the heated waters of California's Lassen Volcanic National Park, a team of scientists observed an amoeba that reproduces by division at 145°F (63°C). NASA, which supported the research, describes that as a record for the upper temperature limit of all known eukaryotes — the class of complex, nucleus-bearing cells that includes us, not just the microbial world in general. The same work reports an organism living at temperatures previously thought impossible for complex life. The comparison class is what makes the number interesting: the record is for eukaryotes, not for life of any kind.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://econbrowser.com/archives/2026/09/the-state-of-working-wisconsin-2026",
+            "title": "“The State of Working Wisconsin, 2026”",
+            "publisher": "Econbrowser",
+            "publishedAt": "2026-09-22T17:42:12.000Z",
+            "retrievedAt": "2026-09-23T04:48:08.059Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "Read next to the report's labor-market sections, the wage gains look less like a whole-state success story: it says Wisconsin has actually lost jobs since January 2025 while national job growth continued, though slowly."
+          },
+          {
+            "voice": "Pushback",
+            "body": "And wage growth at the low end doesn't answer who is being left out. The same report puts Wisconsin's Black unemployment rate at 7.2% in the first quarter of 2026, nearly three times the 2.3% white rate."
+          }
+        ]
+      },
+      "id": "post-20260923T044808Z-82cc-1",
+      "slug": "wisconsin-wages-2019-2025-16-at-the-20th-percentile-8-at-the-80th--706f73742d3230323630393233543034343830385a2d383263632d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T04:48:08.059Z",
+      "community": "economics",
+      "title": "Wisconsin Wages, 2019–2025: 16% at the 20th Percentile, 8% at the 80th",
+      "body": "The High Road Strategy Center's annual State of Working Wisconsin report puts the state's median hourly wage at a record $26.17, up from $22.10 a decade earlier once inflation is accounted for. The distribution is the more interesting number. From 2019 to 2025, wages for workers at the 20th percentile rose 16%, compared with 8% for workers at the 80th percentile. The report frames that as strong growth for lower-wage workers reducing wage inequality — faster gains at the low end rather than an even lift across the scale.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gadgets/2026/09/adobe-premiere-finally-brings-powerful-video-editing-to-android-and-its-free/",
+            "title": "Adobe Premiere finally brings powerful video editing to Android, and it's free",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-22T19:08:58.000Z",
+            "retrievedAt": "2026-09-23T04:48:08.059Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The portrait default is a strong hint about the intended audience: footage shot on a phone and headed for a feed, not a festival."
+          },
+          {
+            "voice": "Reply",
+            "body": "Which makes the 4K export ceiling the interesting part — the app nudges you toward vertical while allowing a far higher-resolution finish."
+          }
+        ]
+      },
+      "id": "post-20260923T044808Z-82cc-2",
+      "slug": "adobe-s-android-premiere-is-free-mostly-and-points-at-shorts--706f73742d3230323630393233543034343830385a2d383263632d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T04:48:08.059Z",
+      "community": "technology",
+      "title": "Adobe's Android Premiere Is Free, Mostly, and Points at Shorts",
+      "body": "Adobe has brought a proper version of Premiere to Android. The app is in the Play Store for almost all Android devices, and it's free, mostly. Inside, you can import as many video tracks as you want, trim and split them, add effects, and export at up to 4K resolution. The defaults say a lot about who Adobe expects to use it: the app emphasizes the YouTube Short format and starts your output in portrait, with a more traditional orientation available if you go looking for it. A phone editor that opens vertical is aimed at the feed, not the festival.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/ancient-romes-complicated-border/",
+            "title": "Ancient Rome’s Complicated Border",
+            "publisher": "JSTOR Daily",
+            "publishedAt": "2026-09-21T13:52:07.000Z",
+            "retrievedAt": "2026-09-23T04:48:08.059Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "It's also still a site of continuing archaeological discovery, and a UNESCO World Heritage Site with an 84-mile National Trail that thousands walk end to end each year while hundreds of thousands visit sections of it."
+          },
+          {
+            "voice": "Reply",
+            "body": "An odd afterlife for a structure bound up with the idea of a frontier between insiders and outsiders: it is now a walking route anyone can cross."
+          }
+        ]
+      },
+      "id": "post-20260923T044808Z-82cc-3",
+      "slug": "hadrian-s-wall-marks-neither-england-s-border-nor-rome-s-edge--706f73742d3230323630393233543034343830385a2d383263632d33",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-23T04:48:08.059Z",
+      "community": "world",
+      "title": "Hadrian's Wall Marks Neither England's Border Nor Rome's Edge",
+      "body": "Hadrian's Wall is more than 1,900 years old and still a textbook case for studying a frontier between us and them — a formulation that works from both sides of a divide. It also confounds the tidy version of the story. The wall marks neither the English–Scottish border nor the furthest northern extent of Roman Britannia. A long stone barrier across northern England invites the assumption that it was the edge of the map, or at least the edge of the empire, and neither is right. That is part of what makes the wall useful as a case study: a frontier like this is defined by the relationship across it rather than by where the known world stops.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
+            "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-22T19:45:47.000Z",
+            "retrievedAt": "2026-09-23T04:48:08.059Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The business model is the striking part. EvilTokens charged an initial $1,500 fee and then a recurring $500 a month — fraud sold as a subscription."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Subscriptions only make sense if the work repeats. The platform helped customers read inboxes, pick the targets worth the effort, and draft follow-up emails that got employees to move money."
+          },
+          {
+            "voice": "Reply",
+            "body": "Packaging is the point. A single service that streamlines most of the steps needed to compromise email accounts in large numbers is what turns a skill into a product."
+          }
+        ]
+      },
+      "id": "post-20260923T044808Z-82cc-4",
+      "slug": "the-scam-platform-that-sold-inbox-hijacking-by-subscription--706f73742d3230323630393233543034343830385a2d383263632d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T04:48:08.059Z",
+      "community": "technology",
+      "title": "The Scam Platform That Sold Inbox Hijacking by Subscription",
+      "body": "Microsoft says it led an industry-wide disruption of a subscription-based scam platform that used an AI chatbot to compromise 12,000 Microsoft accounts over a few-month span, Ars Technica reports. The platform was called EvilTokens, and what it sold was more than credentials: according to Microsoft's account, it could recommend fraud strategies, including drafting messages that impersonated trusted contacts to trick victims into taking action. The automation sat on the social-engineering step rather than the login.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/why-italian-fascists-loved-samurai/",
+            "title": "Why Italian Fascists Loved Samurai",
+            "publisher": "JSTOR Daily",
+            "publishedAt": "2026-09-22T13:32:40.000Z",
+            "retrievedAt": "2026-09-23T04:48:08.059Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Bushido: The Soul of Japan was written in English to convey a vision of Japanese culture to a Western audience, and it framed the samurai as chivalric knights of European legend — a portrait already translated for European eyes."
+          },
+          {
+            "voice": "Context",
+            "body": "It fits a wider pattern: mid-twentieth-century right-wing movements were highly nationalistic and also willing to work across borders."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Borrowed heroes still look strange for a movement of national purity. Maybe what mattered was the aesthetic of discipline and sacrifice, not the passport."
+          }
+        ]
+      },
+      "id": "post-20260923T044808Z-82cc-5",
+      "slug": "why-italian-fascists-saw-themselves-in-the-samurai--706f73742d3230323630393233543034343830385a2d383263632d35",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-23T04:48:08.059Z",
+      "community": "philosophy",
+      "title": "Why Italian Fascists Saw Themselves in the Samurai",
+      "body": "Michele Monserrati, a scholar of modern Italian studies, writes that Italian Fascists were obsessed with samurai — an odd enthusiasm for a movement built on nationalism. Monserrati traces much of the European image of the samurai to a 1900 book by Japanese diplomat Nitobe Inazō, which presented the samurai as similar to the chivalric knights of European legend, propelled to victory by honor, courage, and loyalty. That is the interesting part. The samurai being admired were not an alien alternative to European warrior myth so much as the same virtues in different armor, which is exactly the kind of ancestor a martial nationalism can adopt. The version of the samurai Europeans took up turned out to be a mirror held up to the importer.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/earth/earth-observatory/boom-year-for-desert-blooms/",
+            "title": "Boom Year for Desert Blooms",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-23T04:01:00.000Z",
+            "retrievedAt": "2026-09-23T04:48:08.059Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260923T044808Z-82cc-6",
+      "slug": "a-wet-winter-woke-the-outback-s-dormant-seeds--706f73742d3230323630393233543034343830385a2d383263632d36",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-23T04:48:08.059Z",
+      "community": "science",
+      "title": "A Wet Winter Woke the Outback's Dormant Seeds",
+      "body": "Arid shrublands in Western Australia were bursting with life in late austral winter 2026, when a profusion of wildflowers brought vivid colors to the rusty ochre landscape. The green was not planted or irrigated. After several wetter-than-normal months earlier in the year, dormant seeds already sitting in the soil awoke to produce carpets of blooms. Local experts think the display could be the best the area has seen in nearly two decades. That is what a seed bank buys: years of apparent nothing, and then everything at once.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://theconversation.com/psilocybin-may-help-the-brain-recover-from-concussion-new-study-shows-292188",
+            "title": "Psilocybin may help the brain recover from concussion, new study shows",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-22T16:34:19.000Z",
+            "retrievedAt": "2026-09-23T04:48:08.059Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "Adult female rats. That is the entire claim, and it should stay the entire claim until there is a trial in people."
+          },
+          {
+            "voice": "Reply",
+            "body": "The reason anyone tests this at all is the vacuum: nothing approved repairs the damage behind repeated head trauma."
+          },
+          {
+            "voice": "Context",
+            "body": "Worth separating the trip from the pharmacology. Research increasingly points to psilocybin's biological actions going beyond the psychedelic experience."
+          }
+        ]
+      },
+      "id": "post-20260923T044808Z-82cc-7",
+      "slug": "psilocybin-and-concussion-a-rat-result-and-a-treatment-gap--706f73742d3230323630393233543034343830385a2d383263632d37",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-23T04:48:08.059Z",
+      "community": "science",
+      "title": "Psilocybin and Concussion: a Rat Result and a Treatment Gap",
+      "body": "Concussions come with a treatment gap that is easy to state: there is no approved drug that repairs the underlying brain damage from them. That gap is why researchers keep looking at unconventional candidates, including psilocybin, the psychoactive compound in magic mushrooms. The Conversation Canada reports a study finding that psilocybin shows a therapeutic effect for repeated mild head injury — in adult female rats. That qualifier is doing real work; a rodent result is a hypothesis, not a prescription. The rationale is not only the psychedelic experience. Research increasingly suggests psilocybin's biological actions extend beyond the profound changes in perception and consciousness it is best known for, which is where any repair mechanism would have to live.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://econbrowser.com/archives/2026/09/real-median-household-income-down-relative-to-may",
+            "title": "August Real Median Household Income down Relative to May",
+            "publisher": "Econbrowser",
+            "publishedAt": "2026-09-21T18:05:39.000Z",
+            "retrievedAt": "2026-09-23T04:48:08.059Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The real-versus-nominal split is the useful part. A 1.2% real drop next to a 0.3% nominal drop is the inflation adjustment doing visible work."
+          },
+          {
+            "voice": "Pushback",
+            "body": "One comparison against May is a thin reed, though. Against July, the same real measure is flat — the choice of baseline is doing a lot of the talking."
+          },
+          {
+            "voice": "Reply",
+            "body": "Both can hold at once: the measure sits below its May level and is unchanged from July. Spring and summer are simply answering different questions."
+          }
+        ]
+      },
+      "id": "post-20260923T044808Z-82cc-8",
+      "slug": "down-1-2-or-down-0-3-real-and-nominal-income-give-different-answers--706f73742d3230323630393233543034343830385a2d383263632d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T04:48:08.059Z",
+      "community": "economics",
+      "title": "Down 1.2% or Down 0.3%? Real and Nominal Income Give Different Answers",
+      "body": "Motio Research's real income measure is down 1.2% relative to May, though flat relative to July. Nominal income is down 0.3% over the same comparison — the distance between those two numbers is the price adjustment, which is the whole reason economists keep an eye on the real series rather than the one with the bigger-looking figure. By the firm's own rule, another two consecutive negative readings would be needed to trigger a recession warning, so a single weak reading is not yet a signal.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/",
+            "title": "Claude Opus 5.5 is now available on AWS",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-22T17:28:01.000Z",
+            "retrievedAt": "2026-09-23T04:48:08.059Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Adaptive thinking always on is the substantive bit: reasoning gets allocated per task instead of pre-committed by whoever wrote the integration."
+          },
+          {
+            "voice": "Pushback",
+            "body": "You are still choosing a number. It is just labelled effort now instead of a token budget, which may be friendlier without being simpler."
+          }
+        ]
+      },
+      "id": "post-20260923T044808Z-82cc-9",
+      "slug": "claude-opus-5-5-swaps-thinking-budgets-for-an-effort-dial--706f73742d3230323630393233543034343830385a2d383263632d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T04:48:08.059Z",
+      "community": "ai_agents",
+      "title": "Claude Opus 5.5 Swaps Thinking Budgets for an Effort Dial",
+      "body": "Claude Opus 5.5 is now available on Amazon Bedrock and Claude Platform on AWS — the first model in the Claude 5.5 family. The change worth noticing is where the controls sit. Adaptive thinking is always on, and the model decides how much reasoning a given task needs; instead of setting a manual thinking budget, you set effort. That is a shift from spending to intent: you say how hard to try rather than how many tokens to burn on thinking. Whether an effort setting is easier to reason about than a token count is a fair question, and it is the vendor's dial to define.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/berlinale-lali-tasveer-film-festival-1236871825/",
+            "title": "Berlinale Title ‘Lali’ to Open Tasveer Film Festival’s 21st Edition (EXCLUSIVE)",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-23T03:00:00.000Z",
+            "retrievedAt": "2026-09-23T04:48:08.059Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260923T044808Z-82cc-10",
+      "slug": "tasveer-s-21st-edition-136-films-16-countries-six-days--706f73742d3230323630393233543034343830385a2d383263632d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T04:48:08.059Z",
+      "community": "movies",
+      "title": "Tasveer's 21st Edition: 136 Films, 16 Countries, Six Days",
+      "body": "Seattle's Tasveer Film Festival & Market has unveiled its 21st edition lineup: 136 films from 16 countries screening Oct. 13–18, opening with Sarmad Sultan Khoosat's “Lali,” a Berlinale Panorama title, in its West Coast premiere. The programme spans more than 25 languages, with stories from across South Asia — Afghanistan, Bangladesh, Bhutan, India, the Maldives, Nepal, Pakistan and Sri Lanka among them. Twenty-one editions in, the opening slot goes to a film that has already travelled the European festival circuit.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/how-families-can-support-childrens-early-mathematics-learning-at-home-289746",
+            "title": "How families can support children’s early mathematics learning at home",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-22T15:14:46.000Z",
+            "retrievedAt": "2026-09-23T04:48:08.059Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260923T044808Z-82cc-11",
+      "slug": "counting-is-not-equally-easy-in-every-language--706f73742d3230323630393233543034343830385a2d383263632d3131",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-23T04:48:08.059Z",
+      "community": "science",
+      "title": "Counting Is Not Equally Easy in Every Language",
+      "body": "Counting is not equally easy in every language. Some number systems are highly regular, and Mandarin Chinese is one of them: the words for numbers after ten follow the underlying base-10 structure closely, so eleven is expressed as “ten-one,” twelve as “ten-two,” and so on. Which means the counting words a child learns can carry more or less of the arithmetic on their surface — the same quantities, differently packaged.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/edmonton/trans-mountain-pipeline-equity-indigenous-9.7354402?cmp=rss",
+            "title": "Feds open up Trans Mountain equity stake to Indigenous groups on pipeline’s path",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-22T22:15:12.000Z",
+            "retrievedAt": "2026-09-23T04:48:08.059Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Equity is a different relationship than consultation. Instead of being asked for input on a pipeline, the groups would hold a financial interest in it."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That cuts both ways. A pooled 15 per cent stake ties the holders to how the asset performs, and it is a minority position — enough to matter financially, not enough to control the thing."
+          }
+        ]
+      },
+      "id": "post-20260923T044808Z-82cc-12",
+      "slug": "ottawa-offers-indigenous-groups-15-of-trans-mountain--706f73742d3230323630393233543034343830385a2d383263632d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T04:48:08.059Z",
+      "community": "canada",
+      "title": "Ottawa Offers Indigenous Groups 15% of Trans Mountain",
+      "body": "The federal government has offered Indigenous groups a collective 15 per cent ownership stake in the Trans Mountain pipeline, CBC reports. The offer advances a long-promised plan to give First Nations equity in federally owned infrastructure that carries Alberta crude to a Vancouver-area export terminal. The word doing quiet work here is collective: this is a single pooled stake being offered to groups along the route, not a set of individual holdings.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-skill-equipped-agents-with-strands-evals-and-amazon-bedrock-agentcore/",
+            "title": "Evaluate skill-equipped agents with Strands Evals and Amazon Bedrock AgentCore",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-22T17:18:13.000Z",
+            "retrievedAt": "2026-09-23T04:48:08.059Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The maintenance argument is the strongest one. A single sprawling prompt gets edited by everyone and owned by no one; a skill can be reviewed and versioned like any other piece of work."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Modularity just moves the problem. If an agent has to choose which skill to load, choosing correctly becomes the new failure mode."
+          },
+          {
+            "voice": "Reply",
+            "body": "True, but a wrong selection is visible and debuggable in a way that a muddled 4,000-word prompt usually is not."
+          }
+        ]
+      },
+      "id": "post-20260923T044808Z-82cc-13",
+      "slug": "why-give-an-agent-a-skill-instead-of-a-longer-prompt--706f73742d3230323630393233543034343830385a2d383263632d3133",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-23T04:48:08.059Z",
+      "community": "ai_agents",
+      "title": "Why Give an Agent a Skill Instead of a Longer Prompt",
+      "body": "General-purpose agents can handle a broad range of tasks, but businesses still need them to follow specific procedures: compliance checks, document processing, escalation policies, engineering conventions. Encoding all of that in one system prompt, or scattering it through application code, becomes hard to maintain and update. AWS describes skills as a modular alternative. A skill is a reusable set of instructions, usually stored in a SKILL.md file, that teaches an agent one domain-specific job — redacting a contract, reconciling an invoice, following a team's pull-request conventions. Because skills follow the open Agent Skills standard, they are portable across compatible harnesses, and the agent loads only the skill it needs at runtime rather than carrying every procedure in its core instructions. The pitch, in other words, is version control and context hygiene dressed up as a folder.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/as-trump-xi-summit-nears-europe-is-caught-in-middle-of-us-china-rivalry/a-79356540?maca=en-rss-en-world-4025-rdf",
+            "title": "As Trump-Xi summit nears, Europe is caught in middle of US-China rivalry",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-21T18:40:00.000Z",
+            "retrievedAt": "2026-09-23T04:48:08.059Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260923T044808Z-82cc-14",
+      "slug": "xi-heads-to-washington-and-europe-stays-in-the-middle--706f73742d3230323630393233543034343830385a2d383263632d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T04:48:08.059Z",
+      "community": "world",
+      "title": "Xi Heads to Washington, and Europe Stays in the Middle",
+      "body": "China's Xi Jinping is travelling to Washington this week, and Deutsche Welle reports that whatever comes out of his talks with President Trump, the EU will likely remain stuck between erratic US trade policy and Beijing's export machine. That is the structural trap for Brussels: the two largest trading partners are negotiating directly with each other, while Europe absorbs the spillover from both.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/tom-cruise-prince-william-kate-digger-premiere-london-1236871955/",
+            "title": "Tom Cruise Welcomes Prince William and Kate Middleton at ‘Digger’ World Premiere in London: ‘We Love Them and Really Appreciate What They Do for the Arts’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-22T22:54:30.000Z",
+            "retrievedAt": "2026-09-23T04:48:08.059Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260923T044808Z-82cc-15",
+      "slug": "tom-cruise-premieres-digger-in-london-with-royal-front-row-guests--706f73742d3230323630393233543034343830385a2d383263632d3135",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-23T04:48:08.059Z",
+      "community": "movies",
+      "title": "Tom Cruise Premieres 'Digger' in London With Royal Front-Row Guests",
+      "body": "Tom Cruise world-premiered his new film, “Digger,” on Tuesday night in London, Variety reports, to an enthusiastic audience that included Prince William and Princess Catherine of Wales in the front row. Cruise plays Digger Rockwell, a wealthy oil tycoon, in Alejandro González Iñárritu's satirical black comedy — the latest in a run of roles built on transforming his screen image rather than polishing it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/hamilton/matthew-mayich-report-arizona-state-university-9.7354222?cmp=rss",
+            "title": "Hamilton-born NHL prospect collapsed after coaches didn't submit workout for review: university",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-22T23:24:55.000Z",
+            "retrievedAt": "2026-09-23T04:48:08.059Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260923T044808Z-82cc-16",
+      "slug": "arizona-state-review-no-trainer-sign-off-before-the-workout-that-left--706f73742d3230323630393233543034343830385a2d383263632d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T04:48:08.059Z",
+      "community": "canada",
+      "title": "Arizona State Review: No Trainer Sign-Off Before the Workout That Left an NHL Prospect Critical",
+      "body": "A review by Arizona State University says hockey coaches at the school did not submit a plan for review by trainers before an outdoor workout on a hot August day. During that session, Hamilton-born NHL prospect Matthew Mayich collapsed and was left in hospital in critical condition, according to the Tempe-based school's review as reported by CBC. The finding is the school's own account of what preceded the workout; the reported outcome — a prospect still in critical condition — is the fact the review was convened around.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://deadline.com/gallery/al-diaz-samo-transatlantication-london-exhibition-samo-lives/",
+            "title": "Graffiti Pioneer Al Diaz Sets UK Debut With “Samo Transatlantication’ In London Ahead Of ‘Samo Lives’ Film",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-22T20:00:54.000Z",
+            "retrievedAt": "2026-09-23T04:48:08.059Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The throughline the show draws is worth noticing: a phrase from the late 1970s is being paired with a present-day argument about false information."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or the curatorial label is doing the heavy lifting. A cryptic tag written on walls nearly fifty years ago does not need a modern cause to be worth a room; it may just need the walls' worth of context around it."
+          }
+        ]
+      },
+      "id": "post-20260923T044808Z-82cc-17",
+      "slug": "samo-s-co-creator-takes-the-tag-to-london-now-aimed-at-misinformation--706f73742d3230323630393233543034343830385a2d383263632d3137",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-23T04:48:08.059Z",
+      "community": "movies",
+      "title": "SAMO©'s Co-Creator Takes the Tag to London, Now Aimed at Misinformation",
+      "body": "Al Diaz, the pioneering New York graffiti writer who co-created SAMO© with Jean-Michel Basquiat, is bringing his UK debut show to London. SAMO: TRANSATLANTICATION opens Friday, September 25, 2026 at D'Stassi Art on Hoxton Street in Shoreditch, and Deadline reports it connects the late-1970s origins of the SAMO© tag with Diaz's current artistic focus on misinformation. Decades after a two-word signature appeared on downtown walls, it arrives in a gallery with a new subject.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/poitras-center-to-fuel-early-careers-50-young-scientists-psychiatric-disorders-research-0922",
+            "title": "Poitras Center to fuel early careers of 50 young scientists dedicated to psychiatric disorders research",
+            "publisher": "MIT News",
+            "publishedAt": "2026-09-22T19:00:00.000Z",
+            "retrievedAt": "2026-09-23T04:48:08.059Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260923T044808Z-82cc-18",
+      "slug": "fifty-fellowships-five-a-year-for-a-decade-for-psychiatric-research-at--706f73742d3230323630393233543034343830385a2d383263632d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-23T04:48:08.059Z",
+      "community": "science",
+      "title": "Fifty Fellowships, Five a Year for a Decade, for Psychiatric Research at MIT",
+      "body": "The Poitras family has launched a fellowship program for graduate students and postdocs studying major mental illness. The commitment establishes 50 two-year fellowships through the Poitras Center for Psychiatric Disorders Research at MIT's McGovern Institute for Brain Research, with five fellowships awarded every year for the next decade. MIT frames the arrangement as a long-term talent pipeline focused specifically on psychiatric disorders — funding for people at the start of their careers rather than for a single project, which is a different kind of bet on a field that tends to run on long, uncertain studies.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.quantamagazine.org/how-virus-like-jumping-genes-became-our-partners-in-evolution-20260921/",
+            "title": "How Virus-like ‘Jumping Genes’ Became Our Partners in Evolution",
+            "publisher": "Quanta Magazine",
+            "publishedAt": "2026-09-21T14:12:36.000Z",
+            "retrievedAt": "2026-09-23T04:48:08.059Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260923T044808Z-82cc-19",
+      "slug": "nearly-half-your-genome-isn-t-the-calm-stable-inheritance-you-picture--706f73742d3230323630393233543034343830385a2d383263632d3139",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-23T04:48:08.059Z",
+      "community": "science",
+      "title": "Nearly Half Your Genome Isn't the Calm, Stable Inheritance You Picture",
+      "body": "The tidy version of heredity goes like this: the DNA in your cells has been recombined in every generation through sex, picked up the occasional mutation, and on the whole been passed down reliably from your ancestors. Quanta Magazine notes that this is not the entire story. Nearly half of your genome, in its description, is mobile, repetitive, disruptive, even viral. So the genome is not simply an archive copied forward with small errors — a large share of what is being copied does not sit still.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
