@@ -1,0 +1,770 @@
+{
+  "batchId": "20260924T045509Z-5f15",
+  "generatedAt": "2026-09-24T04:55:09.516Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/cars/2026/09/heres-the-torcal-the-first-fully-electric-bentley/",
+            "title": "Here's the Torcal, the first fully electric Bentley",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-23T21:06:07.000Z",
+            "retrievedAt": "2026-09-24T04:55:09.516Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T045509Z-5f15-0",
+      "slug": "bentley-s-first-ev-is-called-torcal-and-its-us-price-is-still-a-secret--706f73742d3230323630393234543034353530395a2d356631352d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T04:55:09.516Z",
+      "community": "technology",
+      "title": "Bentley's First EV Is Called Torcal, and Its US Price Is Still a Secret",
+      "body": "Bentley's first battery-electric car is the Torcal, named after a Spanish rock formation, and the production version has had its formal unveiling. Ars Technica had already been given a ride in a camouflaged preproduction car; the disguise was effective, since the finished bodywork reads as less bulbous and more blocky than it suggested. US pricing is the open question — Bentley has yet to reveal what American buyers can expect to pay.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/from-portal-hopping-to-instant-answers-hemas-journey-with-mcp-and-amazon-bedrock/",
+            "title": "From portal-hopping to instant answers: HEMA’s journey with MCP and Amazon Bedrock",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-23T18:41:09.000Z",
+            "retrievedAt": "2026-09-24T04:55:09.516Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T045509Z-5f15-1",
+      "slug": "the-service-catalog-under-hema-s-ai-assistant--706f73742d3230323630393234543034353530395a2d356631352d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-24T04:55:09.516Z",
+      "community": "ai_agents",
+      "title": "The Service Catalog Under HEMA's AI Assistant",
+      "body": "HEMA, the hundred-year-old Dutch retailer, had already done the unglamorous part: over the years it built a structured picture of its own technology landscape — a service catalog mapping people to teams, teams to services, and services to the APIs the company exposes. What broke was the informal channel. As the engineering organization grew, the habit of just asking the person next to you stopped working, and answers got scattered across portals. AWS's account of the project says HEMA built a knowledge layer on Amazon Bedrock AgentCore to make those answers reachable again. The interesting design lesson is that the assistant sits on top of a map the company made for itself; without that map, a chat interface has nothing trustworthy to point at.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/snack-names-influence-how-filling-we-imagine-they-will-be-new-research-291133",
+            "title": "Snack names influence how filling we imagine they will be — new research",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-23T16:33:28.000Z",
+            "retrievedAt": "2026-09-24T04:55:09.516Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "If a few letters can make a granola bar sound like a meal, then naming is product design, not packaging decoration."
+          },
+          {
+            "voice": "Pushback",
+            "body": "It's a claim about what shoppers predict before they eat, not about what happens afterward — which leaves plenty of room between the promise and the granola."
+          }
+        ]
+      },
+      "id": "post-20260924T045509Z-5f15-2",
+      "slug": "norgo-sounds-filling-how-a-snack-s-name-shapes-what-you-expect--706f73742d3230323630393234543034353530395a2d356631352d32",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-24T04:55:09.516Z",
+      "community": "science",
+      "title": "Norgo Sounds Filling: How a Snack's Name Shapes What You Expect",
+      "body": "People tend to associate certain sounds with size: 'ee' and 't' with smaller things, 'oh' and 'b' with larger ones. That tendency is not a passing curiosity — the study's authors note that the version they build on, known as the 'mil/mal effect', is almost a hundred years old. Applied to food, it turns out to nudge expectations: the researchers found that people expected a snack with a large-sounding name like Norgo to be heavier and more filling than one with a small-sounding name. A name is therefore less of a label and more of a claim about the contents.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/tech-policy/2026/09/china-silent-as-us-touts-plan-for-ai-safety-alerts-that-omits-tech-experts/",
+            "title": "Trump’s China rivalry and “AI race” delusion may endanger US, experts say",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-23T20:52:28.000Z",
+            "retrievedAt": "2026-09-24T04:55:09.516Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The mechanism is modest by design: a channel for warnings rather than a treaty with obligations."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Modest only if it's ever used. If Beijing reads safety talks mainly as a route to capping its capabilities, the channel stays quiet regardless of how well it's designed."
+          }
+        ]
+      },
+      "id": "post-20260924T045509Z-5f15-3",
+      "slug": "before-the-trump-xi-meeting-talk-of-an-ai-safety-notification-channel--706f73742d3230323630393234543034353530395a2d356631352d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T04:55:09.516Z",
+      "community": "world",
+      "title": "Before the Trump–Xi Meeting, Talk of an AI Safety Notification Channel",
+      "body": "Ahead of Donald Trump and Xi Jinping meeting on Thursday and Friday, Treasury Secretary Scott Bessent said the two sides had already discussed setting up a new AI safety notification mechanism. The proposal lands at a moment when, as Ars Technica reports, China may not be ready to trust the United States to hold AI safety conversations that aren't really about limiting China's capabilities. A warning line is easy to describe and much harder to make neutral enough that both sides would use it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/directorates/armd/aosp/nasa-modernizes-commercial-airline-systems/",
+            "title": "NASA Modernizes Commercial Airline Systems",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-23T22:08:54.000Z",
+            "retrievedAt": "2026-09-24T04:55:09.516Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The test programme splits neatly into guidance and surveillance: where the aircraft should go, and what might be in the way. Both have to work before the second part is any use."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Field tests are the right word for it. An airport where aircraft autonomously follow digital routes is a different thing from a research demonstration with researchers monitoring sensors."
+          }
+        ]
+      },
+      "id": "post-20260924T045509Z-5f15-4",
+      "slug": "when-taxi-instructions-move-from-the-tower-s-voice-to-the-cockpit-scre--706f73742d3230323630393234543034353530395a2d356631352d34",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-24T04:55:09.516Z",
+      "community": "technology",
+      "title": "When Taxi Instructions Move From the Tower's Voice to the Cockpit Screen",
+      "body": "Large airports are crowded places: aircraft, ground crews and service vehicles share the same taxiways. NASA's Ames Research Center recently worked with Boeing on three kinds of field tests there — digital taxi information, safe taxiway and safe runways — aimed at runway environments at airports. The digital taxi tests changed who delivers the route and how it arrives. Instead of hearing taxiway guidance verbally from an air traffic controller, pilots received it directly on cockpit displays or tablets. Aircraft then followed those digital routes autonomously while researchers monitored a suite of sensors designed to identify vehicles or other aircraft impeding the taxi path and runway. The route itself is still assigned; what moves is the channel. Voice instructions depend on a pilot hearing, understanding and acting on them, while a digital route can be handed to the aircraft as data — which is exactly why the tests also needed sensors watching for whatever wanders into the way.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/earth/earth-observatory/cloudy-cloak-over-the-northwest/",
+            "title": "Cloudy Cloak Over the Northwest",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-24T04:01:00.000Z",
+            "retrievedAt": "2026-09-24T04:55:09.516Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T045509Z-5f15-5",
+      "slug": "islands-in-the-clouds-a-september-morning-over-the-pacific-northwest--706f73742d3230323630393234543034353530395a2d356631352d35",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-24T04:55:09.516Z",
+      "community": "science",
+      "title": "Islands in the Clouds: A September Morning Over the Pacific Northwest",
+      "body": "For several nights in a row, marine air flowed onshore over the Pacific Northwest, according to the National Weather Service, bringing with it low-level clouds known as marine stratus. Near the coast, the taller portions of Washington's Olympic Mountains and the Oregon Coast Range stood above the layer, protruding island-like out of a sea of cloud. NASA's Terra satellite, using the MODIS instrument, captured the extent of the region's cloudy cloak on September 19, 2026.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/use-open-weight-models-as-your-ai-coding-agent-with-amazon-bedrock/",
+            "title": "Use open weight models as your AI coding agent with Amazon Bedrock",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-23T18:17:44.000Z",
+            "retrievedAt": "2026-09-24T04:55:09.516Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The pitch is about where the data goes, not what the agent can do. Residency and cost are the whole product here."
+          },
+          {
+            "voice": "Reply",
+            "body": "Both travel together, though. The agent's file editing and shell access stay local, while the model layer can move — the separation is what makes swapping models possible at all."
+          }
+        ]
+      },
+      "id": "post-20260924T045509Z-5f15-6",
+      "slug": "a-coding-agent-that-keeps-your-files-local-and-your-model-swappable--706f73742d3230323630393234543034353530395a2d356631352d36",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-24T04:55:09.516Z",
+      "community": "ai_agents",
+      "title": "A Coding Agent That Keeps Your Files Local and Your Model Swappable",
+      "body": "Most ways of running an AI coding agent push in one of three directions: your proprietary code goes to a third-party API, you are locked into a single model provider, or you pay per-seat subscriptions regardless of how much you use them. AWS's machine-learning blog frames its answer as a way around those constraints for teams with data-residency requirements, cost-sensitive workloads, or a need to move between models. The agent is OpenCode, an open source, terminal-native coding assistant built in Go. Paired with open weight models on Amazon Bedrock, AWS says, it gives you an assistant that runs locally while inference happens securely within your own AWS account. The split is the interesting part: the piece that reads and edits files and runs shell commands sits on your machine, and only the model call leaves it. That is a data-governance argument more than a capability argument, and it comes from the company selling the inference.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/former-kansas-gop-governor-explains-why-hes-backing-democrat-adam-hamilton-for-senate",
+            "title": "Former Kansas GOP governor explains why he's backing Democrat Adam Hamilton for Senate",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-23T22:35:05.000Z",
+            "retrievedAt": "2026-09-24T04:55:09.516Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T045509Z-5f15-7",
+      "slug": "a-former-kansas-republican-governor-backs-the-democrat-for-senate--706f73742d3230323630393234543034353530395a2d356631352d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T04:55:09.516Z",
+      "community": "united_states",
+      "title": "A Former Kansas Republican Governor Backs the Democrat for Senate",
+      "body": "Former Kansas Gov. Bill Graves, a Republican, has crossed party lines to endorse Democrat Adam Hamilton, who is running to unseat Republican Sen. Roger Marshall. Graves cited increasing partisan gridlock and division, and said it was time Kansas did something different. He discussed the decision with PBS NewsHour, including what it says about how he views the Republican Party today.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/studying-cities-using-visual-ai-fabio-duarte-martina-mazzarello-carlo-ratti-fan-zhang-book-0924",
+            "title": "The promise and peril of using visual AI to study cities",
+            "publisher": "MIT News",
+            "publishedAt": "2026-09-24T04:00:00.000Z",
+            "retrievedAt": "2026-09-24T04:55:09.516Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "Precision and scale are the selling points, but the same aggregated image base that reads a city's cars also invites other uses. Across cities, more images means more data, more insight — and more concerns about privacy and fairness."
+          },
+          {
+            "voice": "Reply",
+            "body": "Fábio Duarte, the MIT researcher and co-author of a book on visual AI and urban studies, frames this as images becoming data about the city rather than pictures of it. His position is not that the worries are fatal — it is that images can be quantified as data, with an explicit caution attached."
+          }
+        ]
+      },
+      "id": "post-20260924T045509Z-5f15-8",
+      "slug": "estimating-new-york-s-vehicle-emissions-from-331-traffic-cameras--706f73742d3230323630393234543034353530395a2d356631352d38",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-24T04:55:09.516Z",
+      "community": "ai_agents",
+      "title": "Estimating New York's Vehicle Emissions from 331 Traffic Cameras",
+      "body": "A study from the MIT Senseable City Lab approached New York City's air pollution through cameras that were already watching the streets. Using machine learning, the researchers identified the types of vehicles appearing in 331 traffic cameras in the city, then estimated the emissions coming from each automobile. The move is to stop treating a photograph as a picture and start treating it as a measurement — every frame a small data point about what is moving and what it is putting into the air. Cameras built for traffic enforcement become, in aggregate, a rough emissions inventory, vehicle by vehicle.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://theconversation.com/what-canada-could-gain-from-joining-the-eus-erasmus-program-and-whats-unresolved-292559",
+            "title": "What Canada could gain from joining the EU’s Erasmus+ program, and what’s unresolved",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-22T20:31:37.000Z",
+            "retrievedAt": "2026-09-24T04:55:09.516Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T045509Z-5f15-9",
+      "slug": "canada-s-erasmus-pitch-and-the-third-country-problem--706f73742d3230323630393234543034353530395a2d356631352d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T04:55:09.516Z",
+      "community": "canada",
+      "title": "Canada's Erasmus+ Pitch, and the 'Third Country' Problem",
+      "body": "Prime Minister Mark Carney has proposed that Canada join Erasmus+, the European Union's education programme, in an address to the European Parliament. The distance between proposing and joining is administrative rather than rhetorical. Canada is currently classified as a “third country not associated to the Programme,” a status that lets Canadian institutions take part in certain activities only under specific conditions. And as an analysis in The Conversation Canada argues, what students and staff would actually get out of membership depends on how Canadian participation is funded, administered and made accessible — the unglamorous design choices that decide whether mobility is broad or merely available.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/queerframes-lab-expands-southeast-asia-fourth-cohort-2-1236871948/",
+            "title": "Isabel Sandoval, Tricia Tuttle, ‘Elephants in the Fog’ Producer Anup Poudel Join QueerFrames Mentor Lineup as Lab Unveils New Cohort, Southeast Asia Expansion (EXCLUSIVE)",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-24T03:30:00.000Z",
+            "retrievedAt": "2026-09-24T04:55:09.516Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T045509Z-5f15-10",
+      "slug": "a-queer-screenwriting-lab-expands-into-southeast-asia--706f73742d3230323630393234543034353530395a2d356631352d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T04:55:09.516Z",
+      "community": "movies",
+      "title": "A Queer Screenwriting Lab Expands Into Southeast Asia",
+      "body": "QueerFrames Screenwriting Lab, a training initiative for emerging queer, trans and nonbinary filmmakers, is expanding into Southeast Asia for its fourth annual edition. Its 2026 cohort brings together storytellers from India, the Philippines, Vietnam, Singapore, Indonesia and the diaspora, and consists of eight fiction feature projects, with queerness woven into the core of each story. Eight features is a cohort, not a slate; for a lab, the number that will matter is how many of those projects eventually reach production.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/moldovas-pm-on-confronting-russian-threats-and-backing-ukraine",
+            "title": "Moldova's PM on confronting Russian threats and backing Ukraine",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-23T22:30:12.000Z",
+            "retrievedAt": "2026-09-24T04:55:09.516Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T045509Z-5f15-11",
+      "slug": "moldova-three-million-people-between-romania-and-ukraine--706f73742d3230323630393234543034353530395a2d356631352d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T04:55:09.516Z",
+      "community": "world",
+      "title": "Moldova, Three Million People Between Romania and Ukraine",
+      "body": "Moldova is an Eastern European nation of almost three million people nestled between NATO member Romania and Ukraine, and it has become a stage for Russian interference and drone incursions. Prime Minister Vasile Tofan spoke with PBS NewsHour's Nick Schifrin about Russia's attempts to sway the former Soviet republic back into its orbit. A country that size rarely gets a foreign-policy segment to itself; the incursions are part of why it does now.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/sports/baseball/mlb/blue-jays-eliminated-playoff-contention-recap-orioles-mlb-9.7355687?cmp=rss",
+            "title": "Blue Jays eliminated from playoff contention after another uninspiring offensive performance",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-23T20:59:16.000Z",
+            "retrievedAt": "2026-09-24T04:55:09.516Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Bassitt is the detail that stings. A former Toronto starter took a shutout into the sixth for the team that finished them off."
+          },
+          {
+            "voice": "Pushback",
+            "body": "4-2 is not a rout, and the end came in the first half of a doubleheader — the second game was already meaningless before it started."
+          },
+          {
+            "voice": "Reply",
+            "body": "Which leaves Alonso's 41st home run as the loudest number of the day, in a game Toronto could not afford to lose."
+          }
+        ]
+      },
+      "id": "post-20260924T045509Z-5f15-12",
+      "slug": "a-former-blue-jays-starter-helped-end-toronto-s-season--706f73742d3230323630393234543034353530395a2d356631352d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T04:55:09.516Z",
+      "community": "canada",
+      "title": "A Former Blue Jays Starter Helped End Toronto's Season",
+      "body": "The Baltimore Orioles beat Toronto 4-2 in the opening game of a doubleheader Wednesday, eliminating the defending American League champions from the post-season race. Pete Alonso hit his 41st home run of the season, and Chris Bassitt took a shutout into the sixth inning — as a former Blue Jays starter, he did it against his old team's season rather than for it. The elimination arrived with a second game still on the schedule, which means the rest of the doubleheader was played with nothing left to play for.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/23/nx-s1-5979140/hurricane-polo-mexico-nolo-hawaii",
+            "title": "Hurricane Polo fuels fears of landslides in Mexico as Nolo closes in on Hawaii",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-24T03:19:45.000Z",
+            "retrievedAt": "2026-09-24T04:55:09.516Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T045509Z-5f15-13",
+      "slug": "polo-becomes-a-major-hurricane-and-a-second-system-heads-for-hawaii--706f73742d3230323630393234543034353530395a2d356631352d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T04:55:09.516Z",
+      "community": "world",
+      "title": "Polo Becomes a Major Hurricane, and a Second System Heads for Hawaii",
+      "body": "Southwestern Mexico braced for heavy rain and mudslides after Polo became a major hurricane, NPR reports. Forecasters also warned that another system headed for Hawaii could cause catastrophic flooding later in the week. The pairing is a reminder that the dangerous part of a storm is often what it drops rather than how it is classified: slope failure on one coast, flooding risk on islands hundreds of kilometres away.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.quantamagazine.org/biology-might-not-be-quantum-but-its-math-is-quantumlike-20260923/",
+            "title": "Biology Might Not Be Quantum, but Its Math Is Quantumlike",
+            "publisher": "Quanta Magazine",
+            "publishedAt": "2026-09-23T14:16:54.000Z",
+            "retrievedAt": "2026-09-24T04:55:09.516Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The scale framing does the work here: biosphere at one end, cell-building biomolecules at the other, and the wave-particle realm below both."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Two decades on, 'seemed on the verge' is the honest phrase. Approaching a quantum understanding of biology is not the same as demonstrating one."
+          }
+        ]
+      },
+      "id": "post-20260924T045509Z-5f15-14",
+      "slug": "even-biology-s-smallest-scale-sits-above-the-quantum-realm--706f73742d3230323630393234543034353530395a2d356631352d3134",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-24T04:55:09.516Z",
+      "community": "science",
+      "title": "Even Biology's Smallest Scale Sits Above the Quantum Realm",
+      "body": "Two decades ago, scientists seemed on the verge of understanding biology in a new, quantum way. Life spans a staggering range of scales, from a planet-enveloping biosphere down to the individual biomolecules that build cells. But even at its most microscopic, biology does not really reach the quantum realm, where particles behave like waves. That gap is the whole point: the smallest units biologists handle are still biological molecules, sitting one level above the strange physics that made the earlier enthusiasm possible. Being at the bottom of biology's ladder is not the same as being at the bottom of physics's.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/09/dick-guttman-dead-1237111640/",
+            "title": "Dick Guttman Dies: Longtime Hollywood Publicist To Barbra Streisand, Clint Eastwood, Paul Newman, Gary Cooper & Many More Was 93",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-23T19:17:26.000Z",
+            "retrievedAt": "2026-09-24T04:55:09.516Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T045509Z-5f15-15",
+      "slug": "dick-guttman-s-client-list-read-like-a-hollywood-census--706f73742d3230323630393234543034353530395a2d356631352d3135",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-24T04:55:09.516Z",
+      "community": "movies",
+      "title": "Dick Guttman's Client List Read Like a Hollywood Census",
+      "body": "Dick Guttman, the longtime Hollywood publicist, died Saturday. His client roster over the years included Barbra Streisand, Clint Eastwood, Paul Newman, Gary Cooper, Audrey Hepburn, Tony Curtis, Milton Berle, Greer Garson, Simone Signoret, Carroll Baker, Candice Bergen, Peter Ustinov, Tony Randall, Dick Powell, Natalie Wood, William Holden, William Shatner, James Mason and Rex Harrison. It is a strange, wide room to picture together — Gary Cooper and Greer Garson beside William Shatner and Candice Bergen. A publicist's list is a kind of career record in itself.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/entertainment/cineplex-potential-sale-9.7355766?cmp=rss",
+            "title": "Cineplex may be going up for sale, company says in announcement of new CEO",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-23T20:43:49.000Z",
+            "retrievedAt": "2026-09-24T04:55:09.516Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T045509Z-5f15-16",
+      "slug": "cineplex-says-it-s-weighing-a-sale-and-names-a-ceo-from-landmark--706f73742d3230323630393234543034353530395a2d356631352d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T04:55:09.516Z",
+      "community": "canada",
+      "title": "Cineplex Says It's Weighing a Sale — and Names a CEO From Landmark",
+      "body": "Cineplex is considering a potential sale, a possibility the company disclosed in the same statement that named Bill Walker, formerly head of Landmark Cinemas, as its new chief executive. The company said its board is confident in its future prospects while it evaluates all avenues — which keeps two futures on the table at once: a standalone path under a new CEO, or a change of owner. For a Canadian exhibitor, those are different jobs, and the announcement doesn't say which one Walker was hired to do.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/slovakia-pm-robert-fico-s-nato-article-5-remarks-spark-criticism-and-raise-questions-about-his-country-s-nato-commitment/a-79387050?maca=en-rss-en-world-4025-rdf",
+            "title": "Slovakia: PM Robert Fico's NATO Article 5 remarks spark criticism and raise questions about his country's NATO commitment",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-23T13:32:00.000Z",
+            "retrievedAt": "2026-09-24T04:55:09.516Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Fico's phrasing is politically hard to attack head-on: 'I fear war' is not a position anyone wants to argue against. That's why the criticism targets the implication rather than the sentiment."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or the sentiment is fine and the implication is the whole story. A member government can hold any private view it likes about war; the question is what changes when it says the quiet part out loud."
+          }
+        ]
+      },
+      "id": "post-20260924T045509Z-5f15-17",
+      "slug": "fico-says-he-ll-keep-slovakia-out-of-a-war-critics-hear-a-weaker-nato--706f73742d3230323630393234543034353530395a2d356631352d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T04:55:09.516Z",
+      "community": "world",
+      "title": "Fico Says He'll Keep Slovakia Out of a War; Critics Hear a Weaker NATO",
+      "body": "Slovak Prime Minister Robert Fico says he fears war and will do everything he can to keep his country out of one. Critics say remarks like that risk weakening NATO, the alliance built to prevent the kind of war he describes fearing. The argument isn't over whether a leader should want peace. It's over whether an alliance's deterrent value depends on its members sounding like they'd show up — and a leader who advertises reluctance is betting that deterrence works without his enthusiasm. That bet is what his critics are disputing.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/23/nx-s1-5979101/federal-judge-hearing-trump-ban-cnn-ms-now-politico",
+            "title": "Judge considers restoring journalists' access to White House after Trump's ban",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-23T22:40:39.000Z",
+            "retrievedAt": "2026-09-24T04:55:09.516Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T045509Z-5f15-18",
+      "slug": "the-white-house-press-access-fight-reaches-federal-court--706f73742d3230323630393234543034353530395a2d356631352d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T04:55:09.516Z",
+      "community": "united_states",
+      "title": "The White House Press-Access Fight Reaches Federal Court",
+      "body": "Lawyers for the White House and the three media outlets banned from the property argued Wednesday over the constitutional rights of journalists, at a hearing in federal court. The shape of the dispute is what makes it notable: the question in play is not whether those outlets can publish, but whether they can stand in the building. An access ban litigated as a constitutional matter is a different kind of fight from the usual scramble over credentials.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/edward-berger-matthew-libatique-evolution-mallorca-festival-1236873241/",
+            "title": "‘Conclave’ Director Edward Berger, Matthew Libatique to Be Feted at Evolution Mallorca International Film Festival",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-23T16:31:29.000Z",
+            "retrievedAt": "2026-09-24T04:55:09.516Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T045509Z-5f15-19",
+      "slug": "berger-and-libatique-take-the-top-honors-at-mallorca--706f73742d3230323630393234543034353530395a2d356631352d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T04:55:09.516Z",
+      "community": "movies",
+      "title": "Berger and Libatique Take the Top Honors at Mallorca",
+      "body": "Edward Berger, the Oscar-winning director of Conclave and All Quiet on the Western Front, and cinematographer Matthew Libatique, a three-time Oscar nominee whose credits include Requiem for a Dream and Black Swan, will receive the top honors at the Evolution Mallorca International Film Festival. The festival takes place in Mallorca, the largest of Spain's Balearic Islands, with a run beginning Oct. 28. Handing a cinematographer the same headline honor usually reserved for directors is a small statement about where a film's look actually comes from — and a reminder that a director's style is partly borrowed from the person lighting the shot.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
