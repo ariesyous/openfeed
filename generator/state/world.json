@@ -626,7 +626,27 @@
     "judge orders trump administration to restore journalists access to white house",
     "mit welcomes david siegel sm 86 phd 91 as its next innovation fellow",
     "the love hypothesis director claire scanlon talks pressure of chapter 16 scene dynamic captured with first kiss more",
-    "in tenzing jennifer peedom ensures the iconic himalayan mountaineer is finally the protagonist of his own life"
+    "in tenzing jennifer peedom ensures the iconic himalayan mountaineer is finally the protagonist of his own life",
+    "there s a new way to break rsa that s faster than anything we ve seen before",
+    "what the u s supreme court s pesticide ruling means for gardeners and farm workers",
+    "us india satellite captures time lapse video of volcanic eruption",
+    "the budget pressures faced by different households since 2020",
+    "nasa s machines for mars make beer bubbly",
+    "nasa chief concerned china may deny access to parts of south pole",
+    "science that makes you laugh canadian engineers win ig nobel technology prize for 3d necroprinting with mosquitoes",
+    "speaker labeled transcription with whisperx on sagemaker ai",
+    "build a multi account ai agent with agentcore gateway and mcp",
+    "why these sask writers contributed to a new book about residential school denialism",
+    "eu finally clinching trade deals with southeast asian states",
+    "musk trailer alex gibney dissects the legacy of the world s richest man in sprawling documentary",
+    "day drinker trailer johnny depp s hollywood comeback continues in a twisty thriller with penélope cruz and madelyn cline",
+    "teaching students to follow an idea",
+    "who s the boss albertans to vote on whether provincial laws should trump federal ones when the two conflict",
+    "the economic squeeze is pushing up poverty rates for older adults",
+    "starbucks to close 250 more stores in canada and the u s",
+    "chatgpt ads expands to southeast asia and taiwan",
+    "houthi advances in yemen drive displacement deepen humanitarian crisis",
+    "the education dept hasn t been dismantled it s become more inefficient staff say"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -1254,12 +1274,32 @@
     "https://www.npr.org/2026/09/24/nx-s1-5979582/judge-order-trump-restore-access-white-house",
     "https://news.mit.edu/2026/mit-welcomes-david-siegel-innovation-fellow-0923",
     "https://deadline.com/2026/09/the-love-hypothesis-director-interview-ch-16-first-kiss-1237111745/",
-    "https://variety.com/2026/film/global/jennifer-peedom-tenzing-genden-phuntsok-tom-hiddleston-1236874052/"
+    "https://variety.com/2026/film/global/jennifer-peedom-tenzing-genden-phuntsok-tom-hiddleston-1236874052/",
+    "https://arstechnica.com/security/2026/09/theres-a-new-way-to-break-rsa-thats-faster-than-anything-weve-seen-before/",
+    "https://theconversation.com/what-the-u-s-supreme-courts-pesticide-ruling-means-for-gardeners-and-farm-workers-287353",
+    "https://www.nasa.gov/missions/nisar/us-india-satellite-captures-time-lapse-video-of-volcanic-eruption/",
+    "https://www.bankofcanada.ca/2026/09/sparks-at-bank-article-2026-22/",
+    "https://www.nasa.gov/technology/tech-transfer-spinoffs/nasas-machines-for-mars-make-beer-bubbly/",
+    "https://arstechnica.com/space/2026/09/nasa-chief-concerned-china-may-deny-access-to-parts-of-south-pole/",
+    "https://theconversation.com/science-that-makes-you-laugh-canadian-engineers-win-ig-nobel-technology-prize-for-3d-necroprinting-with-mosquitoes-291564",
+    "https://aws.amazon.com/blogs/machine-learning/speaker-labeled-transcription-with-whisperx-on-sagemaker-ai/",
+    "https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/",
+    "https://www.cbc.ca/news/canada/saskatchewan/writers-book-truth-before-reconciliation-9.7354622?cmp=rss",
+    "https://www.dw.com/en/eu-finally-clinching-trade-deals-with-southeast-asian-states/a-79388278?maca=en-rss-en-world-4025-rdf",
+    "https://variety.com/2026/film/news/musk-trailer-documentary-elon-1236873861/",
+    "https://variety.com/2026/film/news/day-drinker-trailer-johnny-depp-madelyn-cline-penelope-cruz-1236873855/",
+    "https://daily.jstor.org/teaching-students-to-follow-an-idea/",
+    "https://www.cbc.ca/news/canada/calgary/alberta-referendum-geoffrey-sigalet-gerard-kennedy-primacy-9.7355753?cmp=rss",
+    "https://www.npr.org/2026/09/24/nx-s1-5979857/senior-adult-poverty-affordability",
+    "https://globalnews.ca/news/12071402/starbucks-store-closures-north-america/",
+    "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+    "https://www.dw.com/en/houthi-advances-in-yemen-drive-displacement-deepen-humanitarian-crisis/a-79414280?maca=en-rss-en-world-4025-rdf",
+    "https://www.npr.org/2026/09/24/nx-s1-5968605/education-department-dismantling-how-its-going"
   ],
   "initialized": true,
-  "cycleCount": 51,
+  "cycleCount": 52,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-24T11:49:40.008Z",
+  "lastRunAt": "2026-09-24T17:14:06.305Z",
   "communities": [
     "technology",
     "science",
@@ -1281,11 +1321,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260923T170426Z-5aa0",
-      "generatedAtCycle": 47,
-      "summary": "Why an Underwater Volcano Is More Violent Near the Surface; Hydrazine Freezes Near 1.6°C, and the Thaw Can Burst a Line; Preparing an American Library in Paris, Summer 1918; Aftermarket Driver Assists, Five Crashes, and a Federal Inquiry; A Humpback-Whale-Sized Impactor Left a Crater Two Soccer Fields Wide on the Moon; Leg Pain While Walking Can Be a Warning, Not Just Aging; Trane Says an Agent Turned a 20-Minute HVAC Diagnosis Into 20 Seconds; Trump Says U.S. and Iranian Officials Met, While Th"
-    },
-    {
       "batchId": "20260923T213150Z-93f8",
       "generatedAtCycle": 48,
       "summary": "Brad Bird's Ray Gunn Started With a Song He Misheard; NASA's First Probe Explorer Heads Into Preliminary Design; Bill C-39 Would Put Section 107's Strike-Stopping Power in Writing; Arctic Sea Ice's 2026 Minimum Ties for 10th-Lowest in the Satellite Record"
@@ -1304,6 +1339,11 @@
       "batchId": "20260924T114940Z-c891",
       "generatedAtCycle": 51,
       "summary": "One Supernova, Two Appearances, and a Measurement of the Universe's Expansion; No Grand Prize in the Wildfire XPRIZE, but a 10-Minute Detection Target; An Irish-Language Comedy Starts Production for BBC Gaeilge and TG4; A New Poll Finds Democrats Ahead as Midterm Voting Begins; NAZA Gets a Theatrical Release in More Than 50 Territories Starting September 28; A Low-Flying Aircraft Will Sample Farm Emissions Over Greeley, Colorado; Discord's Age Checks Arrive After an Earlier Plan Was Scrapped; Wh"
+    },
+    {
+      "batchId": "20260924T171406Z-4e15",
+      "generatedAtCycle": 52,
+      "summary": "A Classical Attack on RSA That Forges Signatures Instead of Factoring Keys; The Supreme Court Made the EPA the Sole Arbiter of Pesticide Cancer Warnings; A Kamchatka Volcano Erupted for the First Time in Nearly Five Centuries; Budgets Since 2020: The Average Household Kept Up, Younger and Lower-Income Ones Generally Didn't; A Brewery's CO2 Fix Began With Plans for Mars; A Lunar Launch Delay That NASA Counted as a Break; Dead Mosquitoes Make Surprisingly Good 3D-Printer Nozzles; The Two Gaps That"
     }
   ]
 }

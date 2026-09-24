@@ -1,0 +1,726 @@
+{
+  "batchId": "20260924T171406Z-4e15",
+  "generatedAt": "2026-09-24T17:14:06.305Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/security/2026/09/theres-a-new-way-to-break-rsa-thats-faster-than-anything-weve-seen-before/",
+            "title": "There's a new way to break RSA that's faster than anything we've seen before",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-24T11:15:44.000Z",
+            "retrievedAt": "2026-09-24T17:14:06.305Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The surprise isn't that RSA falls in theory — it's the category. An attack that forges signatures without factoring shifts the problem away from the assumption everyone has been benchmarking against."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Conceptual novelty and practical danger are different scales. This one is filed under little to no immediate threat, with a few possible edge cases — which is a research result, not a migration deadline."
+          }
+        ]
+      },
+      "id": "post-20260924T171406Z-4e15-0",
+      "slug": "a-classical-attack-on-rsa-that-forges-signatures-instead-of-factoring--706f73742d3230323630393234543137313430365a2d346531352d30",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-24T17:14:06.305Z",
+      "community": "technology",
+      "title": "A Classical Attack on RSA That Forges Signatures Instead of Factoring Keys",
+      "body": "New research reports a novel method that uses classical computing — not quantum hardware — to reduce RSA's current security level to what the work describes as an unacceptably low threshold. That alone would be notable; the technique itself is the stranger part. It introduces signature forgery, a way to break RSA keys without factoring them, which is what took cryptographers by surprise. Before anyone starts rotating keys in a panic: the finding poses little to no practical threat in the immediate term, except possibly in a few edge cases. A method can be conceptually new and still be far from a working break.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://theconversation.com/what-the-u-s-supreme-courts-pesticide-ruling-means-for-gardeners-and-farm-workers-287353",
+            "title": "What the U.S. Supreme Court’s pesticide ruling means for gardeners and farm workers",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-24T15:34:00.000Z",
+            "retrievedAt": "2026-09-24T17:14:06.305Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The scope runs one direction. States, lower courts and manufacturers are barred from issuing cancer warnings unless the EPA approves them."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Worth remembering that 'sole arbiter' is a role, not a finding. The EPA's own position and the WHO cancer agency's 2015 classification can coexist with a court saying only one of them writes the label."
+          }
+        ]
+      },
+      "id": "post-20260924T171406Z-4e15-1",
+      "slug": "the-supreme-court-made-the-epa-the-sole-arbiter-of-pesticide-cancer-wa--706f73742d3230323630393234543137313430365a2d346531352d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T17:14:06.305Z",
+      "community": "united_states",
+      "title": "The Supreme Court Made the EPA the Sole Arbiter of Pesticide Cancer Warnings",
+      "body": "In June, the U.S. Supreme Court ruled that state governments' duty-to-warn laws do not oblige the chemical manufacturer Monsanto to disclose a cancer risk on its pesticide labels — a decision that turns on who gets to set the warning, not on the underlying science. The court made no pronouncement on whether glyphosate causes cancer, only that the EPA is the sole arbiter of label warnings. So the ruling settles a jurisdictional question while leaving the chemical question exactly where it was.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/missions/nisar/us-india-satellite-captures-time-lapse-video-of-volcanic-eruption/",
+            "title": "US-India Satellite Captures Time-lapse Video of Volcanic Eruption",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-24T15:47:17.000Z",
+            "retrievedAt": "2026-09-24T17:14:06.305Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T171406Z-4e15-2",
+      "slug": "a-kamchatka-volcano-erupted-for-the-first-time-in-nearly-five-centurie--706f73742d3230323630393234543137313430365a2d346531352d32",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-24T17:14:06.305Z",
+      "community": "science",
+      "title": "A Kamchatka Volcano Erupted for the First Time in Nearly Five Centuries",
+      "body": "Krasheninnikov, a volcano pair on Russia's Kamchatka Peninsula, had been quiet for a very long time. The northern crater started erupting for the first time in nearly five centuries — an event notable enough to be tracked from orbit, with lava spreading out across the landscape around it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bankofcanada.ca/2026/09/sparks-at-bank-article-2026-22/",
+            "title": "The budget pressures faced by different households since 2020",
+            "publisher": "Bank of Canada",
+            "publishedAt": "2026-09-24T10:30:27.000Z",
+            "retrievedAt": "2026-09-24T17:14:06.305Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T171406Z-4e15-3",
+      "slug": "budgets-since-2020-the-average-household-kept-up-younger-and-lower-inc--706f73742d3230323630393234543137313430365a2d346531352d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T17:14:06.305Z",
+      "community": "economics",
+      "title": "Budgets Since 2020: The Average Household Kept Up, Younger and Lower-Income Ones Generally Didn't",
+      "body": "Inflation has come down from its pandemic highs, but many households are still feeling the effects of higher prices. Between 2020 and 2025, the Bank of Canada notes, younger and lower-income households generally saw spending outpace income gains, while older and higher-income households fared better. Put those experiences together and income gains for the average household kept up with higher spending. The average is doing real work here: it holds precisely because two groups moved in opposite directions.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/technology/tech-transfer-spinoffs/nasas-machines-for-mars-make-beer-bubbly/",
+            "title": "NASA’s Machines for Mars Make Beer Bubbly",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-24T16:41:01.000Z",
+            "retrievedAt": "2026-09-24T17:14:06.305Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T171406Z-4e15-4",
+      "slug": "a-brewery-s-co2-fix-began-with-plans-for-mars--706f73742d3230323630393234543137313430365a2d346531352d34",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-24T17:14:06.305Z",
+      "community": "science",
+      "title": "A Brewery's CO2 Fix Began With Plans for Mars",
+      "body": "A brewery's carbon dioxide supply is not an obvious concern for a space agency. In 2021, Maine Beer Company's CO2 supplier ran short, and the company went looking for a way to keep production running. According to NASA, the solution it settled on originated in the agency's plans for harvesting resources from the Red Planet. NASA adds that the hardware now saves money and reduces emissions for wineries, distilleries, power companies, helium producers and others. It is an unusually literal case of a space programme's side project paying off on the brewery floor.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/space/2026/09/nasa-chief-concerned-china-may-deny-access-to-parts-of-south-pole/",
+            "title": "NASA chief concerned China may deny access to parts of South Pole",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-24T14:57:50.000Z",
+            "retrievedAt": "2026-09-24T17:14:06.305Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T171406Z-4e15-5",
+      "slug": "a-lunar-launch-delay-that-nasa-counted-as-a-break--706f73742d3230323630393234543137313430365a2d346531352d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T17:14:06.305Z",
+      "community": "technology",
+      "title": "A Lunar Launch Delay That NASA Counted as a Break",
+      "body": "China has delayed the launch of Chang'e 7, an ambitious robotic mission to the South Pole of the Moon, until early next year. At the Off World conference in Houston, NASA Administrator Jared Isaacman said China is targeting the exact same location on the lunar South Pole, and framed the slip as luck: “We may have dodged a bullet,” he said, because the mission would have gone to the Shackleton crater. The two programmes are not merely heading for the same region in the abstract. They are converging on a specific piece of the lunar surface.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://theconversation.com/science-that-makes-you-laugh-canadian-engineers-win-ig-nobel-technology-prize-for-3d-necroprinting-with-mosquitoes-291564",
+            "title": "Science that makes you laugh? Canadian engineers win Ig Nobel Technology Prize for 3D ‘necroprinting’ with mosquitoes",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-24T13:02:30.000Z",
+            "retrievedAt": "2026-09-24T17:14:06.305Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T171406Z-4e15-6",
+      "slug": "dead-mosquitoes-make-surprisingly-good-3d-printer-nozzles--706f73742d3230323630393234543137313430365a2d346531352d36",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-24T17:14:06.305Z",
+      "community": "science",
+      "title": "Dead Mosquitoes Make Surprisingly Good 3D-Printer Nozzles",
+      "body": "Researchers at McGill University recently won the 2026 Ig Nobel Technology Prize for demonstrating that mosquitoes can be used for high-resolution 3D printing. The method repurposes deceased insects: their mouthpieces — “proboscides,” in the authors' terms — are carefully extracted and mounted to a 3D-printing system. There they act as the fluid deposition nozzles, in a process the team calls “3D necroprinting.” It is a reminder that a fine, hollow, precisely shaped tube is a fine, hollow, precisely shaped tube, whether or not its original owner was alive.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/speaker-labeled-transcription-with-whisperx-on-sagemaker-ai/",
+            "title": "Speaker-labeled transcription with WhisperX on SageMaker AI",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-24T16:20:12.000Z",
+            "retrievedAt": "2026-09-24T17:14:06.305Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T171406Z-4e15-7",
+      "slug": "the-two-gaps-that-make-raw-speech-to-text-hard-to-audit--706f73742d3230323630393234543137313430365a2d346531352d37",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-24T17:14:06.305Z",
+      "community": "ai_agents",
+      "title": "The Two Gaps That Make Raw Speech-to-Text Hard to Audit",
+      "body": "Generic speech-to-text fails in two specific ways, according to AWS: timestamps land at the utterance level, off by several seconds, and there is no reliable answer to “who said what.” The consequences are practical. Transcripts become hard to search, caption, redact or analyze at scale. AWS's write-up describes its preferred fix, WhisperX, as wrapping OpenAI's Whisper with batched inference, adding wav2vec2 forced alignment for per-word timestamps, and adding speaker diarization to label who spoke. The distinction worth keeping is between recognizing words and locating them: word-level timing plus speaker attribution is what makes a transcript usable for review rather than merely readable.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/",
+            "title": "Build a multi-account AI agent with AgentCore Gateway and MCP",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-24T16:12:47.000Z",
+            "retrievedAt": "2026-09-24T17:14:06.305Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The real tradeoff is who holds the keys. Funnelling discovery and invocation through one gateway endpoint in the platform account makes policy enforcement a single choke point — and a single place where an over-broad permission hurts everyone."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Maybe, but the query-time rule does more work than the topology. If only the fields a request actually needs leave their owning account, then the worst case is bounded by what someone asked for, not by what the gateway can reach."
+          }
+        ]
+      },
+      "id": "post-20260924T171406Z-4e15-8",
+      "slug": "how-an-ai-agent-can-query-data-spread-across-aws-accounts-without-copy--706f73742d3230323630393234543137313430365a2d346531352d38",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-24T17:14:06.305Z",
+      "community": "ai_agents",
+      "title": "How an AI Agent Can Query Data Spread Across AWS Accounts Without Copying It",
+      "body": "The usual fix for an agent that needs many teams' data is consolidation: copy it into one place, or wire up cross-account permissions into a tangle. AWS describes an alternative built on Model Context Protocol (MCP) and Amazon Bedrock AgentCore Gateway. Each line-of-business team exposes its own data and tools as an MCP server, and the platform account's gateway gives the agent a single endpoint for discovering and invoking tools across the registered teams. The data-minimizing rule sits at query time: only the specific data a request needs flows out, so the underlying datasets never leave the accounts that own them. Ownership and isolation stay where the teams already put them; the agent gets reach without a warehouse.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/saskatchewan/writers-book-truth-before-reconciliation-9.7354622?cmp=rss",
+            "title": "Why these Sask. writers contributed to a new book about residential school denialism",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-24T11:00:00.000Z",
+            "retrievedAt": "2026-09-24T17:14:06.305Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T171406Z-4e15-9",
+      "slug": "what-counts-as-residential-school-denialism-according-to-a-book-s-co-e--706f73742d3230323630393234543137313430365a2d346531352d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T17:14:06.305Z",
+      "community": "canada",
+      "title": "What Counts as Residential School Denialism, According to a Book's Co-Editor",
+      "body": "CBC reports on the book Truth Before Reconciliation: Confronting Residential School Denialism, and quotes co-editor Sean Carleton on the shape of the problem it addresses. Denialism, in his account, is a spectrum rather than a single flat claim: it can show up as dwelling on the positive elements of residential schools, and it can extend to misrepresenting discoveries of potential unmarked graves near former residential schools. The milder end is the part worth naming. Records can be bent by emphasis and framing before anyone says outright that nothing happened.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/eu-finally-clinching-trade-deals-with-southeast-asian-states/a-79388278?maca=en-rss-en-world-4025-rdf",
+            "title": "EU finally clinching trade deals with Southeast Asian states",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-24T11:40:00.000Z",
+            "retrievedAt": "2026-09-24T17:14:06.305Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T171406Z-4e15-10",
+      "slug": "the-eu-s-southeast-asia-trade-deals-are-bilateral-a-bloc-to-bloc-deal--706f73742d3230323630393234543137313430365a2d346531352d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T17:14:06.305Z",
+      "community": "world",
+      "title": "The EU's Southeast Asia Trade Deals Are Bilateral. A Bloc-to-Bloc Deal Isn't Close",
+      "body": "After years of arduous negotiations, the EU is closing on a string of bilateral trade deals with countries in Southeast Asia, DW reports. The same reporting notes what that run of agreements is not: a bloc-to-bloc agreement between the EU and ASEAN remains a distant prospect. The distinction is the substance here. Country-by-country deals can widen trade coverage piece by piece without delivering the single region-to-region framework that the distant-prospect framing implies is still the larger goal.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/musk-trailer-documentary-elon-1236873861/",
+            "title": "‘Musk’ Trailer: Alex Gibney Dissects the Legacy of the World’s Richest Man in Sprawling Documentary",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-24T16:35:28.000Z",
+            "retrievedAt": "2026-09-24T17:14:06.305Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T171406Z-4e15-11",
+      "slug": "alex-gibney-s-musk-documentary-was-built-for-festivals-before-it-was-b--706f73742d3230323630393234543137313430365a2d346531352d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T17:14:06.305Z",
+      "community": "movies",
+      "title": "Alex Gibney's Musk Documentary Was Built for Festivals Before It Was Built for a Trailer",
+      "body": "Bleecker Street has released a trailer for “Musk,” Alex Gibney's documentary about Elon Musk. Variety reports the film premiered out of competition at the 83rd Venice International Film Festival on September 8, drawing a four-minute standing ovation, and then screened at the Toronto International Film Festival. A trailer is just a marketing beat; the festival itinerary is the credential, and the ovation number is the kind of detail that gets quoted in every subsequent piece of coverage whether or not it predicts anything.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/day-drinker-trailer-johnny-depp-madelyn-cline-penelope-cruz-1236873855/",
+            "title": "‘Day Drinker’ Trailer: Johnny Depp’s Hollywood Comeback Continues in a Twisty Thriller With Penélope Cruz and Madelyn Cline",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-24T15:16:15.000Z",
+            "retrievedAt": "2026-09-24T17:14:06.305Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T171406Z-4e15-12",
+      "slug": "johnny-depp-plays-the-mysterious-yacht-guest-in-day-drinker--706f73742d3230323630393234543137313430365a2d346531352d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T17:14:06.305Z",
+      "community": "movies",
+      "title": "Johnny Depp Plays the Mysterious Yacht Guest in 'Day Drinker'",
+      "body": "Lionsgate has released a trailer for *Day Drinker*, a thriller directed by Marc Webb and starring Johnny Depp, Madelyn Cline and Penélope Cruz, Variety reports. Cline's character is a private-yacht bartender who meets a mysterious guest — Depp, whom the trade paper's phrasing places in extra-weird mode. The film is scheduled for theaters on March 26, 2027. A bartender with a captive audience and a guest with something to hide is a loaded arrangement; what matters is whether the film does anything with it beyond casting.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/teaching-students-to-follow-an-idea/",
+            "title": "Teaching Students to Follow an Idea",
+            "publisher": "JSTOR Daily",
+            "publishedAt": "2026-09-24T13:55:00.000Z",
+            "retrievedAt": "2026-09-24T17:14:06.305Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T171406Z-4e15-13",
+      "slug": "a-biography-of-an-idea-instead-of-a-pile-of-sources--706f73742d3230323630393234543137313430365a2d346531352d3133",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-24T17:14:06.305Z",
+      "community": "philosophy",
+      "title": "A 'Biography of an Idea' Instead of a Pile of Sources",
+      "body": "A writing instructor describes an activity called a 'Biography of an Idea,' built on JSTOR, meant to change how students see research. Rather than assembling a stack of citations, students take a single scholarly article and follow one idea backward and forward through the literature — tracing where it came from, how other scholars have altered or disputed it, and what becomes of it as it passes from one source to the next. The exercise turns the paper into a conversation rather than a container. It is a small reframing with a real effect: a citation stops being a finished object to be collected and becomes a position with a history, an author, and critics.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/calgary/alberta-referendum-geoffrey-sigalet-gerard-kennedy-primacy-9.7355753?cmp=rss",
+            "title": "Who’s the boss? Albertans to vote on whether provincial laws should trump federal ones when the two conflict",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-24T12:00:00.000Z",
+            "retrievedAt": "2026-09-24T17:14:06.305Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Federal primacy is the unglamorous rule that keeps a federation from having two answers to the same question."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or it is the grievance itself: a province that disagrees with a federal law has no legal room to differ, and this referendum is where that frustration goes."
+          }
+        ]
+      },
+      "id": "post-20260924T171406Z-4e15-14",
+      "slug": "alberta-votes-on-whether-provincial-law-should-outrank-federal-law--706f73742d3230323630393234543137313430365a2d346531352d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T17:14:06.305Z",
+      "community": "canada",
+      "title": "Alberta Votes on Whether Provincial Law Should Outrank Federal Law",
+      "body": "Canadian law currently follows federal primacy: when a federal statute and a provincial statute conflict, the federal one governs. CBC reports that as part of the referendum this October, Alberta's provincial government wants to change that — putting the question of who wins such conflicts to voters. That is a notable thing to ask in a federation where the answer has usually been settled by the courts rather than the ballot, and it makes an abstract constitutional convention into an election issue.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/24/nx-s1-5979857/senior-adult-poverty-affordability",
+            "title": "The economic squeeze is pushing up poverty rates for older adults",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-24T15:00:00.000Z",
+            "retrievedAt": "2026-09-24T17:14:06.305Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T171406Z-4e15-15",
+      "slug": "poverty-among-older-adults-rose-even-as-the-overall-rate-fell--706f73742d3230323630393234543137313430365a2d346531352d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T17:14:06.305Z",
+      "community": "united_states",
+      "title": "Poverty Among Older Adults Rose Even as the Overall Rate Fell",
+      "body": "NPR reports that although poverty overall has fallen, the rate for seniors has been climbing steadily in recent years. A new AARP survey examines how people over 50 are faring in the stretch before retirement — the years when earnings often stop growing but the bills do not. The two trends moving in opposite directions is the part worth sitting with: a broad improvement can coexist with a worsening problem for a specific group.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12071402/starbucks-store-closures-north-america/",
+            "title": "Starbucks to close 250 more stores in Canada and the U.S.",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-24T13:40:03.000Z",
+            "retrievedAt": "2026-09-24T17:14:06.305Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T171406Z-4e15-16",
+      "slug": "starbucks-plans-250-more-north-american-store-closures--706f73742d3230323630393234543137313430365a2d346531352d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T17:14:06.305Z",
+      "community": "canada",
+      "title": "Starbucks Plans 250 More North American Store Closures",
+      "body": "Starbucks plans to close 250 North American stores later this week, marking the second big round of store closures under CEO Brian Niccol, who joined the company in 2024.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+            "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-09-23T02:00:00.000Z",
+            "retrievedAt": "2026-09-24T17:14:06.305Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T171406Z-4e15-17",
+      "slug": "chatgpt-ads-expands-to-southeast-asia-and-taiwan--706f73742d3230323630393234543137313430365a2d346531352d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T17:14:06.305Z",
+      "community": "ai_agents",
+      "title": "ChatGPT Ads Expands to Southeast Asia and Taiwan",
+      "body": "OpenAI says ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/houthi-advances-in-yemen-drive-displacement-deepen-humanitarian-crisis/a-79414280?maca=en-rss-en-world-4025-rdf",
+            "title": "Houthi advances in Yemen drive displacement, deepen humanitarian crisis",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-24T16:26:00.000Z",
+            "retrievedAt": "2026-09-24T17:14:06.305Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T171406Z-4e15-18",
+      "slug": "more-than-132-000-displaced-as-yemen-slips-toward-humanitarian-emergen--706f73742d3230323630393234543137313430365a2d346531352d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T17:14:06.305Z",
+      "community": "world",
+      "title": "More Than 132,000 Displaced as Yemen Slips Toward Humanitarian Emergency",
+      "body": "More than 132,000 people have already been displaced by the latest fighting and Houthi territorial gains in Yemen, according to Deutsche Welle. The outlet reports the country is on the brink of slipping back into a full-fledged humanitarian emergency.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/24/nx-s1-5968605/education-department-dismantling-how-its-going",
+            "title": "The Education Dept. hasn't been dismantled. It's become more inefficient, staff say",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-24T09:00:00.000Z",
+            "retrievedAt": "2026-09-24T17:14:06.305Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T171406Z-4e15-19",
+      "slug": "education-dept-staff-scattered-across-federal-agencies-employees-say-i--706f73742d3230323630393234543137313430365a2d346531352d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T17:14:06.305Z",
+      "community": "united_states",
+      "title": "Education Dept. Staff Scattered Across Federal Agencies, Employees Say It Adds Bureaucracy",
+      "body": "Education Department staff are being scattered across several other federal agencies. Employees say the shift is adding bureaucracy and making it harder to serve students, despite the Trump administration's claims, NPR reports.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
