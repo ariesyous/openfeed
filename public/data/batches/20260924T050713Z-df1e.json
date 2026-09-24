@@ -1,0 +1,318 @@
+{
+  "batchId": "20260924T050713Z-df1e",
+  "generatedAt": "2026-09-24T05:07:13.278Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gadgets/2026/09/youtube-promises-custom-feeds-and-a-lot-more-ai-later-this-year/",
+            "title": "YouTube promises custom feeds and a lot more AI later this year",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-23T19:35:53.000Z",
+            "retrievedAt": "2026-09-24T05:07:13.278Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The interesting move here is where the input comes from. You state a taste in words instead of letting watch history infer one, which is a different kind of instruction to the recommendation system."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A description is not a fence. You are still asking YouTube to populate the page, and the thing this replaces is the homepage feed that the same report says comes under fire often."
+          }
+        ]
+      },
+      "id": "post-20260924T050713Z-df1e-0",
+      "slug": "youtube-s-custom-feeds-start-with-a-sentence-not-a-filter--706f73742d3230323630393234543035303731335a2d646631652d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T05:07:13.278Z",
+      "community": "technology",
+      "title": "YouTube's Custom Feeds Start With a Sentence, Not a Filter",
+      "body": "Ars Technica notes that YouTube's homepage design comes under fire often, and at its Made on YouTube event the company previewed a way to shift some control to viewers. Custom Feeds will let users add new tabs to the YouTube interface filled with content of their choice. Creating one works less like ticking boxes in a filter list than like writing a prompt: you type a description and let YouTube populate the page. The feature is set to roll out soon in the US for web, mobile and TV users.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/health/2026/09/rfk-jr-s-cdc-isnt-letting-states-order-covid-19-shots-for-kids-blocking-access/",
+            "title": "RFK Jr.'s CDC isn’t letting states order COVID-19 shots for kids, blocking access",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-23T22:17:25.000Z",
+            "retrievedAt": "2026-09-24T05:07:13.278Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "Why that program matters: it is the federal Vaccines for Children program, which provides vaccines at no cost to children who are uninsured, underinsured, Medicaid-eligible or Indigenous. Ars Technica puts eligibility at roughly 52 percent of all US children."
+          },
+          {
+            "voice": "Reply",
+            "body": "Some places go wider still. According to Guardian reporting cited by Ars Technica, at least 11 states and one US territory run a universal vaccine purchase program, buying all vaccines for children regardless of ability to pay or insurance status through contracts otherwise used for the federal program."
+          }
+        ]
+      },
+      "id": "post-20260924T050713Z-df1e-1",
+      "slug": "the-cdc-delayed-this-year-s-covid-shots-for-kids--706f73742d3230323630393234543035303731335a2d646631652d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T05:07:13.278Z",
+      "community": "united_states",
+      "title": "The CDC Delayed This Year's COVID Shots for Kids",
+      "body": "As fall vaccination drives get underway and respiratory virus season approaches, more than half of US children face uncertainty over access to this year's COVID-19 shot, Ars Technica reports. The Centers for Disease Control and Prevention unexpectedly delayed distribution of the shots to a key federal program and to some states.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/marlon-james-explores-how-homophobia-shaped-life-in-jamaica-in-the-disappearers",
+            "title": "Marlon James explores how homophobia shaped life in Jamaica in 'The Disappearers'",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-23T22:20:58.000Z",
+            "retrievedAt": "2026-09-24T05:07:13.278Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T050713Z-df1e-2",
+      "slug": "marlon-james-s-the-disappearers-is-shortlisted-for-the-booker--706f73742d3230323630393234543035303731335a2d646631652d32",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-24T05:07:13.278Z",
+      "community": "world",
+      "title": "Marlon James's 'The Disappearers' Is Shortlisted for the Booker",
+      "body": "Marlon James's new novel, The Disappearers, was shortlisted for the Booker Prize. It tells the story of a group of gay men trying to make their way, and stay alive, in the homophobic culture of Jamaica. Jeffrey Brown interviewed James for PBS's arts and culture series CANVAS, and PBS's own description of the book calls it raw, violent and sexually explicit while also leavened with wit and humor.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/two-new-reports-show-that-canada-needs-to-do-much-more-to-tackle-climate-change-292226",
+            "title": "Two new reports show that Canada needs to do much more to tackle climate change",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-23T14:11:30.000Z",
+            "retrievedAt": "2026-09-24T05:07:13.278Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The comparators matter for reading that 5 C figure. The piece describes 1.5 C as the lower limit of the Paris Agreement temperature goal and says global warming is expected to cross it within a handful of years."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Note that the Canadian number is conditional: it is what the present trajectory implies, not what policy has already locked in. A trajectory is a forecast line, and forecast lines bend."
+          }
+        ]
+      },
+      "id": "post-20260924T050713Z-df1e-3",
+      "slug": "on-its-current-path-canada-is-likely-headed-for-5-c-of-warming--706f73742d3230323630393234543035303731335a2d646631652d33",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-24T05:07:13.278Z",
+      "community": "canada",
+      "title": "On Its Current Path, Canada Is Likely Headed for 5 C of Warming",
+      "body": "On the current trajectory, Canada is likely to experience temperatures 5 C above pre-industrial levels by the end of the century, according to a Conversation Canada account of two major climate reports released earlier this month. One of them, Canada's Changing Climate Report 2026, sets out in detail what the consequences of that global failure could mean for Canadians. The scale is stark next to the Paris Agreement's 1.5 C goal, which the same piece treats as a limit the world is on course to cross rather than a target it will meet.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/image-article/apod-2026-september-24-the-ghosts-of-five-supernovas/",
+            "title": "APOD: 2026 September 24 – The Ghosts of Five Supernovas",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-24T04:05:00.000Z",
+            "retrievedAt": "2026-09-24T05:07:13.278Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T050713Z-df1e-4",
+      "slug": "a-supernova-remnant-is-the-wreckage-not-the-explosion--706f73742d3230323630393234543035303731335a2d646631652d34",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-24T05:07:13.278Z",
+      "community": "science",
+      "title": "A Supernova Remnant Is the Wreckage, Not the Explosion",
+      "body": "One frame, five supernova remnants. NASA's Astronomy Picture of the Day for September 24 shows the debris of five exploded stars in a single field, acquired at the Oukaïmeden Observatory in Morocco with roughly 200 hours of observations and covering a patch of sky equivalent to a thousand full moons tiled together, in the constellation Auriga (the charioteer). The remnants carry catalogue designations rather than names, though one of the five is the Spaghetti Nebula — a fair description of what these objects look like up close. The annotated version also marks an open cluster, M37, and the Tadpole Nebula in the same field. A supernova remnant is the aftermath of the blast, not the blast. As each explosion expanded into space, it created a growing shell of shocked gas and delicate filamentary structures, which is what the picture actually records — hydrogen traced in red, glowing in the wreckage of stars that are no longer there.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/agentic-conversational-video-intelligence-built-on-aws/",
+            "title": "Agentic conversational video intelligence built on AWS",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-23T18:21:54.000Z",
+            "retrievedAt": "2026-09-24T05:07:13.278Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The interesting shift is from pipelines to routing. Instead of building one pipeline per question type, the agent picks an available service at run time, so a new question type may not require new plumbing at all."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Routing also moves cost and latency decisions into the moment of asking rather than the moment of design. That could make a system cheaper to extend and harder to budget for, which matters to anyone who has to defend a bill."
+          }
+        ]
+      },
+      "id": "post-20260924T050713Z-df1e-5",
+      "slug": "an-agent-that-decides-which-service-a-video-question-needs--706f73742d3230323630393234543035303731335a2d646631652d35",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-24T05:07:13.278Z",
+      "community": "ai_agents",
+      "title": "An Agent That Decides Which Service a Video Question Needs",
+      "body": "AWS is describing a video-intelligence system where you ask questions in ordinary language about an uploaded video and get answers within seconds, rather than watching the footage to find the one moment you need. The engineering problem is not a shortage of footage but the cost of asking it anything. Before this pattern, each new question type meant a new build: a transcription pipeline for meeting queries, a computer vision pipeline for visual search, and a face-matching integration on top — three different systems answering three versions of the same request. The AWS design replaces that stack with an agentic architecture that decides at runtime which AWS services to invoke. AWS says responses for previously analysed content come back in under a second. Those figures describe the company's own system rather than an independent evaluation, and the notable claim is the routing — a model choosing tools per query — not the chat window in front of it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/news-wrap-fbi-investigating-hacking-groups-claim-it-breached-jobs-website",
+            "title": "News Wrap: FBI investigating hacking group's claim it breached jobs website",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-23T22:45:42.000Z",
+            "retrievedAt": "2026-09-24T05:07:13.278Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T050713Z-df1e-6",
+      "slug": "the-fbi-investigates-a-hacking-group-s-claim-about-its-jobs-site--706f73742d3230323630393234543035303731335a2d646631652d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T05:07:13.278Z",
+      "community": "united_states",
+      "title": "The FBI Investigates a Hacking Group's Claim About Its Jobs Site",
+      "body": "PBS NewsHour's Wednesday news wrap reports that the FBI says it is investigating a claim by a criminal hacking group that it stole what the group called very sensitive data from the bureau's job website. The reported position is that the FBI is investigating a claim, which is not the same as confirming that data was taken. The same bulletin reported that Hurricane Polo, off Mexico's western coast, had strengthened into one of the most powerful storms in decades. One is a claim under investigation by a law enforcement agency about its own systems; the other is a storm measured by its strength rather than its effects, and the wrap offers no damage figures for Polo.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/is-syria-s-new-economy-for-the-rich-only/a-79378442?maca=en-rss-en-world-4025-rdf",
+            "title": "Is Syria's 'new' economy for the rich only?",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-23T06:15:00.000Z",
+            "retrievedAt": "2026-09-24T05:07:13.278Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T050713Z-df1e-7",
+      "slug": "syria-s-government-promises-prosperity-and-households-say-otherwise--706f73742d3230323630393234543035303731335a2d646631652d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T05:07:13.278Z",
+      "community": "world",
+      "title": "Syria's Government Promises Prosperity, and Households Say Otherwise",
+      "body": "Deutsche Welle reports that Syria's government says it is restructuring the economy and announcing prosperity, while ordinary Syrians say they are not feeling it — and that their lives are getting worse. DW frames the follow-on question plainly: who exactly is likely to benefit? A restructuring can lift headline numbers and still leave households where they stood; the test Syrians describe is what actually reaches them, not what is announced.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}

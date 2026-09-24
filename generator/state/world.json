@@ -598,7 +598,15 @@
     "cineplex may be going up for sale company says in announcement of new ceo",
     "slovakia pm robert fico s nato article 5 remarks spark criticism and raise questions about his country s nato commitment",
     "judge considers restoring journalists access to white house after trump s ban",
-    "conclave director edward berger matthew libatique to be feted at evolution mallorca international film festival"
+    "conclave director edward berger matthew libatique to be feted at evolution mallorca international film festival",
+    "youtube promises custom feeds and a lot more ai later this year",
+    "rfk jr s cdc isn t letting states order covid 19 shots for kids blocking access",
+    "marlon james explores how homophobia shaped life in jamaica in the disappearers",
+    "two new reports show that canada needs to do much more to tackle climate change",
+    "apod 2026 september 24 the ghosts of five supernovas",
+    "agentic conversational video intelligence built on aws",
+    "news wrap fbi investigating hacking group s claim it breached jobs website",
+    "is syria s new economy for the rich only"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -1198,12 +1206,20 @@
     "https://www.cbc.ca/news/entertainment/cineplex-potential-sale-9.7355766?cmp=rss",
     "https://www.dw.com/en/slovakia-pm-robert-fico-s-nato-article-5-remarks-spark-criticism-and-raise-questions-about-his-country-s-nato-commitment/a-79387050?maca=en-rss-en-world-4025-rdf",
     "https://www.npr.org/2026/09/23/nx-s1-5979101/federal-judge-hearing-trump-ban-cnn-ms-now-politico",
-    "https://variety.com/2026/film/global/edward-berger-matthew-libatique-evolution-mallorca-festival-1236873241/"
+    "https://variety.com/2026/film/global/edward-berger-matthew-libatique-evolution-mallorca-festival-1236873241/",
+    "https://arstechnica.com/gadgets/2026/09/youtube-promises-custom-feeds-and-a-lot-more-ai-later-this-year/",
+    "https://arstechnica.com/health/2026/09/rfk-jr-s-cdc-isnt-letting-states-order-covid-19-shots-for-kids-blocking-access/",
+    "https://www.pbs.org/newshour/show/marlon-james-explores-how-homophobia-shaped-life-in-jamaica-in-the-disappearers",
+    "https://theconversation.com/two-new-reports-show-that-canada-needs-to-do-much-more-to-tackle-climate-change-292226",
+    "https://science.nasa.gov/image-article/apod-2026-september-24-the-ghosts-of-five-supernovas/",
+    "https://aws.amazon.com/blogs/machine-learning/agentic-conversational-video-intelligence-built-on-aws/",
+    "https://www.pbs.org/newshour/show/news-wrap-fbi-investigating-hacking-groups-claim-it-breached-jobs-website",
+    "https://www.dw.com/en/is-syria-s-new-economy-for-the-rich-only/a-79378442?maca=en-rss-en-world-4025-rdf"
   ],
   "initialized": true,
-  "cycleCount": 49,
+  "cycleCount": 50,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-24T04:55:09.516Z",
+  "lastRunAt": "2026-09-24T05:07:13.278Z",
   "communities": [
     "technology",
     "science",
@@ -1225,11 +1241,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260923T044808Z-82cc",
-      "generatedAtCycle": 45,
-      "summary": "An Amoeba That Divides at 63°C, a Record for Complex Cells; Wisconsin Wages, 2019–2025: 16% at the 20th Percentile, 8% at the 80th; Adobe's Android Premiere Is Free, Mostly, and Points at Shorts; Hadrian's Wall Marks Neither England's Border Nor Rome's Edge; The Scam Platform That Sold Inbox Hijacking by Subscription; Why Italian Fascists Saw Themselves in the Samurai; A Wet Winter Woke the Outback's Dormant Seeds; Psilocybin and Concussion: a Rat Result and a Treatment Gap; Down 1.2% or Down 0."
-    },
-    {
       "batchId": "20260923T114104Z-a82c",
       "generatedAtCycle": 46,
       "summary": "A Fresh Take on Resident Evil, No Franchise Homework Required; A Minute of Juddering, and a Suspected Blood Fluke; AWS Adds Two GPT-6 Models to Bedrock, and Says They Cost Less to Run; Three Hockey Shows, Three Arguments With the Sport; Canada's Labour Bill Promises Fewer Interventions. A 'Special Mediator' Could Count as One; Two Ways to Get an AI Endpoint Wrong, and the Benchmark That Finds the Line; A Monday Holiday on Earth Bent Curiosity's Week on Mars; Nepal's Flood Ask: Compensation From "
@@ -1248,6 +1259,11 @@
       "batchId": "20260924T045509Z-5f15",
       "generatedAtCycle": 49,
       "summary": "Bentley's First EV Is Called Torcal, and Its US Price Is Still a Secret; The Service Catalog Under HEMA's AI Assistant; Norgo Sounds Filling: How a Snack's Name Shapes What You Expect; Before the Trump–Xi Meeting, Talk of an AI Safety Notification Channel; When Taxi Instructions Move From the Tower's Voice to the Cockpit Screen; Islands in the Clouds: A September Morning Over the Pacific Northwest; A Coding Agent That Keeps Your Files Local and Your Model Swappable; A Former Kansas Republican Go"
+    },
+    {
+      "batchId": "20260924T050713Z-df1e",
+      "generatedAtCycle": 50,
+      "summary": "YouTube's Custom Feeds Start With a Sentence, Not a Filter; The CDC Delayed This Year's COVID Shots for Kids; Marlon James's 'The Disappearers' Is Shortlisted for the Booker; On Its Current Path, Canada Is Likely Headed for 5 C of Warming; A Supernova Remnant Is the Wreckage, Not the Explosion; An Agent That Decides Which Service a Video Question Needs; The FBI Investigates a Hacking Group's Claim About Its Jobs Site; Syria's Government Promises Prosperity, and Households Say Otherwise"
     }
   ]
 }
