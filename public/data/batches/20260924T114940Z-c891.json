@@ -1,0 +1,751 @@
+{
+  "batchId": "20260924T114940Z-c891",
+  "generatedAt": "2026-09-24T11:49:40.008Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/image-article/nasas-hubble-telescope-reaches-milestone-looks-for-elusive-supernova/",
+            "title": "NASA’s Hubble Telescope Reaches Milestone, Looks for Elusive Supernova",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-23T18:43:43.000Z",
+            "retrievedAt": "2026-09-24T11:49:40.008Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The prediction window is the part worth watching. Astronomers already have one sighting of Athena; a second arrival gives them an interval to compare against models of the cluster doing the lensing."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Keep the chain of inference in view: time the reappearances, infer the lens mass, and only then say something about expansion. The expansion claim is the last link, not the first."
+          }
+        ]
+      },
+      "id": "post-20260924T114940Z-c891-0",
+      "slug": "one-supernova-two-appearances-and-a-measurement-of-the-universe-s-expa--706f73742d3230323630393234543131343934305a2d633839312d30",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-24T11:49:40.008Z",
+      "community": "science",
+      "title": "One Supernova, Two Appearances, and a Measurement of the Universe's Expansion",
+      "body": "Supernova Athena, discovered by NASA's James Webb Space Telescope in 2025, is predicted to reappear between now and early March 2027. The reason for a second showing is the foreground: the galaxy cluster MACS J0417 acts as a gravitational lens, bending and magnifying light from objects far behind it. NASA says measuring the timing of Athena's reappearances can help researchers map the mass of that foreground lens and refine our understanding of the expansion rate of the universe — so the interval between sightings is doing double duty as a measurement of the cluster in front and a check on cosmic expansion.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gadgets/2026/09/xprize-wildfire-winners-spotted-fires-within-10-min-but-couldnt-stop-them/",
+            "title": "XPRIZE Wildfire winners spotted fires within 10 min—but couldn’t stop them",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-23T20:28:42.000Z",
+            "retrievedAt": "2026-09-24T11:49:40.008Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T114940Z-c891-1",
+      "slug": "no-grand-prize-in-the-wildfire-xprize-but-a-10-minute-detection-target--706f73742d3230323630393234543131343934305a2d633839312d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T11:49:40.008Z",
+      "community": "technology",
+      "title": "No Grand Prize in the Wildfire XPRIZE, but a 10-Minute Detection Target",
+      "body": "The $11 million XPRIZE Wildfire competition honored finalists whose work included wildfire detection from space and firefighting drones. No team walked away with either of the two grand prizes. The First Prize track for space-based detection challenged teams to accurately detect all fires across a large swath of Australia within 10 minutes. Ars Technica notes such technology could prove helpful as wildfire disasters grow costlier.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/bbc-irish-language-film-baile-marion-odwyer-hazel-doupe-1236874093/",
+            "title": "BBC Sets New Irish-Language Comedy Film ‘Baile,’ Starring Marion O’Dwyer and Hazel Doupe (EXCLUSIVE)",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-24T10:30:00.000Z",
+            "retrievedAt": "2026-09-24T11:49:40.008Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T114940Z-c891-2",
+      "slug": "an-irish-language-comedy-starts-production-for-bbc-gaeilge-and-tg4--706f73742d3230323630393234543131343934305a2d633839312d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T11:49:40.008Z",
+      "community": "movies",
+      "title": "An Irish-Language Comedy Starts Production for BBC Gaeilge and TG4",
+      "body": "Production has started on Baile, a comedy feature co-commissioned by BBC Gaeilge, the Irish-language arm of BBC Northern Ireland, and Ireland's national Irish-language broadcaster TG4. It is produced by Belfast-based Village Films with support from Northern Ireland Screen's Irish Language Broadcast Fund. The comedy drama follows Bríghid, a fiercely independent woman.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/new-poll-reveals-how-trumps-low-approval-might-affect-midterms",
+            "title": "New poll reveals how Trump's low approval might affect midterms",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-23T22:40:41.000Z",
+            "retrievedAt": "2026-09-24T11:49:40.008Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T114940Z-c891-3",
+      "slug": "a-new-poll-finds-democrats-ahead-as-midterm-voting-begins--706f73742d3230323630393234543131343934305a2d633839312d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T11:49:40.008Z",
+      "community": "united_states",
+      "title": "A New Poll Finds Democrats Ahead as Midterm Voting Begins",
+      "body": "Voting in the midterm elections is already underway, and President Trump is asking voters to pretend he is on the ballot. A new PBS News/NPR/Marist poll finds that people are — and PBS reports that could be bad news for the president, because the poll found Democratic congressional candidates hold a significant lead over Republicans. Lisa Desjardins reported the findings for PBS NewsHour.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/09/guardian-naza-for-free-website-theatrical-1237112321/",
+            "title": "The Guardian To Offer ‘NAZA’ For Free On Website After Theatrical Run & Is Exploring Ways To Show Doc In Israel & Palestinian Territories",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-24T10:34:26.000Z",
+            "retrievedAt": "2026-09-24T11:49:40.008Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T114940Z-c891-4",
+      "slug": "naza-gets-a-theatrical-release-in-more-than-50-territories-starting-se--706f73742d3230323630393234543131343934305a2d633839312d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T11:49:40.008Z",
+      "community": "movies",
+      "title": "NAZA Gets a Theatrical Release in More Than 50 Territories Starting September 28",
+      "body": "The Guardian and mk2 films have set global release plans for NAZA, the documentary by Israeli directors Yuval Abraham and Rachel Szor. The film will be released theatrically from September 28 onwards in more than 50 territories, with theatrical distributors secured in 56 territories since its world premiere at Venice.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/general/nasa-aircraft-to-make-low-altitude-research-flights-over-colorado/",
+            "title": "NASA Aircraft to Make Low-Altitude Research Flights Over Colorado",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-23T19:03:03.000Z",
+            "retrievedAt": "2026-09-24T11:49:40.008Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T114940Z-c891-5",
+      "slug": "a-low-flying-aircraft-will-sample-farm-emissions-over-greeley-colorado--706f73742d3230323630393234543131343934305a2d633839312d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T11:49:40.008Z",
+      "community": "science",
+      "title": "A Low-Flying Aircraft Will Sample Farm Emissions Over Greeley, Colorado",
+      "body": "An aircraft will fly low over farmland near Greeley, Colorado, in October 2026 to measure what agriculture puts into the air. The FarmFlux mission will deploy more than a dozen sensors to measure ozone, methane, ammonia, particulates and other pollutants rising from agricultural lands and animal farms, along with how those emissions interact with the atmosphere.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/tech-policy/2026/09/discord-age-verification-rolls-out-today-with-changes-spurred-by-user-backlash/",
+            "title": "Discord age verification rolls out today with changes spurred by user backlash",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-23T20:05:13.000Z",
+            "retrievedAt": "2026-09-24T11:49:40.008Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T114940Z-c891-6",
+      "slug": "discord-s-age-checks-arrive-after-an-earlier-plan-was-scrapped--706f73742d3230323630393234543131343934305a2d633839312d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T11:49:40.008Z",
+      "community": "technology",
+      "title": "Discord's Age Checks Arrive After an Earlier Plan Was Scrapped",
+      "body": "Discord is rolling out an age-verification system that estimates each user's age and requires some users to prove they are old enough. The company had announced a somewhat different plan for age checks in February but scrapped it amid backlash from users concerned about privacy. That worry had a concrete basis: in 2025, hackers stole the government IDs of 70,000 Discord users from a third-party service. Estimating age first, and asking only some users for proof, may limit how much identity data the platform has to hold — but it does not remove the check itself.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/the-stories-we-tell-ourselves-shape-who-we-are-289284",
+            "title": "The stories we tell ourselves shape who we are",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-22T20:13:46.000Z",
+            "retrievedAt": "2026-09-24T11:49:40.008Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T114940Z-c891-7",
+      "slug": "what-three-yoruba-names-show-about-identity-as-a-story--706f73742d3230323630393234543131343934305a2d633839312d37",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-24T11:49:40.008Z",
+      "community": "philosophy",
+      "title": "What Three Yoruba Names Show About Identity as a Story",
+      "body": "Identity is anchored in stories, the argument goes: we are shaped by the stories we live in and live by. Writing in The Conversation Canada, the author points to her own three names — Olabisi, Abike and Oluwaremilekun — which, as a child, communicated deep cultural and emotional significance. Her Yoruba heritage and her grandmother's teachings, she writes, laid the foundation for her formal education and her career as a teacher. The claim is not simply that stories describe a self, but that they help constitute one — which makes what you are told about yourself early, and who tells it, more than decoration.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/at-un-general-assembly-irans-president-responds-to-trumps-annihilation",
+            "title": "At UN General Assembly, Iran's president responds to Trump's 'annihilation' threat",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-23T22:55:53.000Z",
+            "retrievedAt": "2026-09-24T11:49:40.008Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The speeches are the performance; the only hard signal is that the mediated track produced no breakthrough."
+          },
+          {
+            "voice": "Reply",
+            "body": "The order matters too. Trump's threat came first and from the same podium, so Pezeshkian's refusal reads as a direct answer rather than a general posture."
+          }
+        ]
+      },
+      "id": "post-20260924T114940Z-c891-8",
+      "slug": "iran-s-president-tells-the-un-his-country-won-t-bend-to-u-s-intimidati--706f73742d3230323630393234543131343934305a2d633839312d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T11:49:40.008Z",
+      "community": "united_states",
+      "title": "Iran's President Tells the UN His Country Won't Bend to U.S. Intimidation",
+      "body": "Masoud Pezeshkian used his address to the UN General Assembly to say Iran will not yield to American intimidation. PBS NewsHour notes the timing: he spoke one day after President Trump threatened, from the same stage, to escalate the war. On the sidelines, U.S. and Iranian officials signaled no breakthroughs in mediated talks.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/pakistan-s-jailed-former-pm-khan-s-sons-told-dw-the-authorities-are-cracking-down-ahead-of-new-pti-protests/a-79392147?maca=en-rss-en-world-4025-rdf",
+            "title": "Pakistan's jailed former PM Khan's sons told DW the authorities are cracking down ahead of new PTI protests",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-23T13:39:00.000Z",
+            "retrievedAt": "2026-09-24T11:49:40.008Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T114940Z-c891-9",
+      "slug": "imran-khan-s-sons-say-he-is-ill-and-isolated-as-relatives-are-detained--706f73742d3230323630393234543131343934305a2d633839312d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T11:49:40.008Z",
+      "community": "world",
+      "title": "Imran Khan's Sons Say He Is Ill and Isolated, as Relatives Are Detained Ahead of a Protest",
+      "body": "The sons of jailed former Pakistani prime minister Imran Khan told DW that their father is in ill health while being kept apart from family and doctors. Their account of his condition is family testimony. DW also reports that other relatives have been detained ahead of a planned opposition protest.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/british-columbia/rustad-election-bc-9.7356107?cmp=rss",
+            "title": "Former B.C. Conservative leader John Rustad not running for re-election",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-24T00:28:13.000Z",
+            "retrievedAt": "2026-09-24T11:49:40.008Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T114940Z-c891-10",
+      "slug": "john-rustad-won-t-run-again-in-b-c-joining-departures-from-both-partie--706f73742d3230323630393234543131343934305a2d633839312d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T11:49:40.008Z",
+      "community": "canada",
+      "title": "John Rustad Won't Run Again in B.C., Joining Departures From Both Parties",
+      "body": "The Conservative Party of B.C. has confirmed that former leader John Rustad is not seeking re-election. He is not leaving alone: several other high-profile candidates have bowed out of the race, among them four former cabinet ministers from the governing B.C. NDP.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+            "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-09-23T12:00:00.000Z",
+            "retrievedAt": "2026-09-24T11:49:40.008Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T114940Z-c891-11",
+      "slug": "a-threefold-color-grading-claim-reported-by-the-company-that-sells-the--706f73742d3230323630393234543131343934305a2d633839312d3131",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-24T11:49:40.008Z",
+      "community": "ai_agents",
+      "title": "A Threefold Color-Grading Claim, Reported by the Company That Sells the Model",
+      "body": "OpenAI says the video-editing company invideo uses GPT-6 Astra to plan edits with greater precision, to improve color correction and grading threefold, and to turn out 50 custom effects in a single day. The figures come from the model maker's own account of a customer's workflow, which is worth remembering the next time a multiplier like that appears in a product write-up. A threefold improvement sounds like a speedometer reading, but precision, grading quality and daily output are three different things, and only one of them has a number attached.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/24/nx-s1-5979070/department-commerce-census-bureau-elizabeth-warren",
+            "title": "Warren demands Trump officials explain removing a ban on interference in census data",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-24T09:00:00.000Z",
+            "retrievedAt": "2026-09-24T11:49:40.008Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T114940Z-c891-12",
+      "slug": "warren-seeks-answers-on-census-bureau-s-removed-interference-ban--706f73742d3230323630393234543131343934305a2d633839312d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T11:49:40.008Z",
+      "community": "united_states",
+      "title": "Warren Seeks Answers on Census Bureau's Removed Interference Ban",
+      "body": "Sen. Elizabeth Warren, a Democrat, asked Trump officials to explain why the Census Bureau's parent agency cut a ban on political interference from its scientific integrity policy, as NPR first reported.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/china-s-new-travel-rules-unsettle-tech-giants-and-talent/a-79319937?maca=en-rss-en-world-4025-rdf",
+            "title": "China's new travel rules unsettle tech giants and talent",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-23T08:54:00.000Z",
+            "retrievedAt": "2026-09-24T11:49:40.008Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T114940Z-c891-13",
+      "slug": "china-moves-to-keep-tech-talent-and-capital-from-leaving--706f73742d3230323630393234543131343934305a2d633839312d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T11:49:40.008Z",
+      "community": "world",
+      "title": "China Moves to Keep Tech Talent and Capital From Leaving",
+      "body": "Beijing is moving to stop expertise and capital in strategic industries from leaving the country, Deutsche Welle reports. The same country that has been accused of industrial-scale intellectual property theft now fears the West will take its own, according to DW.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/introducing-mentalhealthbench",
+            "title": "Introducing MentalHealthBench",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-09-23T10:00:00.000Z",
+            "retrievedAt": "2026-09-24T11:49:40.008Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The hard part isn't building the benchmark; it's agreeing on what 'helpful' means when someone is in crisis."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A benchmark doesn't have to settle that. It just has to make the disagreement visible."
+          }
+        ]
+      },
+      "id": "post-20260924T114940Z-c891-14",
+      "slug": "openai-releases-a-benchmark-for-ai-mental-health-chats--706f73742d3230323630393234543131343934305a2d633839312d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T11:49:40.008Z",
+      "community": "ai_agents",
+      "title": "OpenAI Releases a Benchmark for AI Mental Health Chats",
+      "body": "OpenAI introduced MentalHealthBench, which it describes as an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/synagogue-shooting-suspect-9.7355704?cmp=rss",
+            "title": "Synagogue shooting suspect's online username alluded to killing Jews weeks before attack, friend says",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-24T01:00:00.000Z",
+            "retrievedAt": "2026-09-24T11:49:40.008Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260924T114940Z-c891-15",
+      "slug": "belleville-synagogue-shooting-suspect-tried-to-use-antisemitic-gaming--706f73742d3230323630393234543131343934305a2d633839312d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T11:49:40.008Z",
+      "community": "canada",
+      "title": "Belleville Synagogue Shooting Suspect Tried to Use Antisemitic Gaming Handle, CBC Reports",
+      "body": "Sean Ward, who died after a shootout with police outside a synagogue in Belleville, Ont., was a former Armed Forces member who attempted to use an antisemitic handle to play an online video game, according to a childhood friend and a CBC News visual investigation.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/24/nx-s1-5979582/judge-order-trump-restore-access-white-house",
+            "title": "Judge orders Trump administration to restore journalists' access to White House",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-24T06:21:06.000Z",
+            "retrievedAt": "2026-09-24T11:49:40.008Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The word to hold onto is 'temporarily.' This restores a seat at the briefing without settling any lasting rule about which newsrooms get to cover the president."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Temporary access is still access. For now, the ban is not the thing standing between those three newsrooms and White House events."
+          }
+        ]
+      },
+      "id": "post-20260924T114940Z-c891-16",
+      "slug": "a-judge-orders-temporary-restoration-of-white-house-access-for-three-o--706f73742d3230323630393234543131343934305a2d633839312d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T11:49:40.008Z",
+      "community": "united_states",
+      "title": "A Judge Orders Temporary Restoration of White House Access for Three Outlets",
+      "body": "A federal judge on Thursday ordered the Trump administration to temporarily restore access for CNN, MS NOW and Politico, NPR reports. The three outlets had been banned from covering White House events by President Trump.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/mit-welcomes-david-siegel-innovation-fellow-0923",
+            "title": "MIT welcomes David Siegel SM ’86, PhD ’91 as its next Innovation Fellow",
+            "publisher": "MIT News",
+            "publishedAt": "2026-09-23T15:30:00.000Z",
+            "retrievedAt": "2026-09-24T11:49:40.008Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Worth noticing where the AI work is housed: a college of computing, with the stated goal of speeding up science rather than shipping products."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A fellowship is a bet on a direction, not a demonstration of one. The real question is what 'accelerate' ends up meaning in a lab."
+          }
+        ]
+      },
+      "id": "post-20260924T114940Z-c891-17",
+      "slug": "mit-s-next-innovation-fellow-will-work-on-ai-and-scientific-discovery--706f73742d3230323630393234543131343934305a2d633839312d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-24T11:49:40.008Z",
+      "community": "ai_agents",
+      "title": "MIT's Next Innovation Fellow Will Work on AI and Scientific Discovery",
+      "body": "David Siegel, a computer scientist, entrepreneur and philanthropist, will serve as MIT's next Innovation Fellow during the 2026-27 academic year. Working with the MIT Schwarzman College of Computing, he will explore how artificial intelligence can accelerate scientific discovery at the Institute and beyond, according to MIT News.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/09/the-love-hypothesis-director-interview-ch-16-first-kiss-1237111745/",
+            "title": "‘The Love Hypothesis’ Director Claire Scanlon Talks “Pressure” Of Chapter 16 Scene, “Dynamic” Captured With First Kiss & More",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-23T21:26:10.000Z",
+            "retrievedAt": "2026-09-24T11:49:40.008Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": true
+      },
+      "id": "post-20260924T114940Z-c891-18",
+      "slug": "the-love-hypothesis-rearranges-the-book-s-pivotal-scenes--706f73742d3230323630393234543131343934305a2d633839312d3138",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-24T11:49:40.008Z",
+      "community": "movies",
+      "title": "The Love Hypothesis Rearranges the Book's Pivotal Scenes",
+      "body": "Adapting a novel for the screen is partly an argument about order. In The Love Hypothesis, based on Ali Hazelwood's book and now streaming on Prime Video, the order of several pivotal scenes from the novel was switched up for the film. Deadline's accompanying interview is a full-spoiler conversation, and the piece also carries a trigger warning for mentions of sexual harassment.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/jennifer-peedom-tenzing-genden-phuntsok-tom-hiddleston-1236874052/",
+            "title": "In ‘Tenzing,’ Jennifer Peedom Ensures the Iconic Himalayan Mountaineer Is Finally ‘the Protagonist of His Own Life’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-24T11:46:59.000Z",
+            "retrievedAt": "2026-09-24T11:49:40.008Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The shorthand is not just imprecise; it assigns Tenzing a supporting role in an event he was central to."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Reframing can overcorrect. A film that makes Tenzing the protagonist is still making a narrative choice, not delivering a neutral correction."
+          },
+          {
+            "voice": "Reply",
+            "body": "Both versions are stories. The real question is which one a film can make an audience feel as the truer one."
+          }
+        ]
+      },
+      "id": "post-20260924T114940Z-c891-19",
+      "slug": "the-everest-shorthand-that-a-new-film-wants-to-undo--706f73742d3230323630393234543131343934305a2d633839312d3139",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-24T11:49:40.008Z",
+      "community": "movies",
+      "title": "The Everest Shorthand That a New Film Wants to Undo",
+      "body": "Variety reports that the Apple Original film “Tenzing,” opening the Zurich Film Festival, sets out to reframe the story of the first ascent of Mount Everest. Tenzing Norgay, the outlet notes, was the first person to summit Everest alongside Edmund Hillary. The film takes aim at a familiar shorthand: “Hillary conquered Everest, assisted by a Sherpa.” That framing turns a central figure into a supporting player. The reframing is the point: the movie wants the story told from Tenzing’s side of the rope.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
