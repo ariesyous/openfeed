@@ -1,0 +1,804 @@
+{
+  "batchId": "20260925T115357Z-5626",
+  "generatedAt": "2026-09-25T11:53:57.757Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gadgets/2026/09/f-droid-gets-its-biggest-update-in-a-decade-with-new-ui-and-smoother-app-installs/",
+            "title": "F-Droid gets its biggest update in a decade with new UI and smoother app installs",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-24T19:30:42.000Z",
+            "retrievedAt": "2026-09-25T11:53:57.757Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "F-Droid now carries thousands of open-source apps, so discovery is the hard problem, not the download button."
+          },
+          {
+            "voice": "Pushback",
+            "body": "No tracking cuts both ways. Ars notes F-Droid doesn't record taps and installs to push ads and suggestions, so a store that refuses to learn from you has to earn discovery through search, categories and curators instead."
+          }
+        ]
+      },
+      "id": "post-20260925T115357Z-5626-0",
+      "slug": "f-droid-2-0-rebuilds-the-store-around-finding-apps--706f73742d3230323630393235543131353335375a2d353632362d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T11:53:57.757Z",
+      "community": "technology",
+      "title": "F-Droid 2.0 Rebuilds the Store Around Finding Apps",
+      "body": "After a multiyear effort, the F-Droid team says version 2.0 is rolling out. The client was rewritten from scratch in Kotlin Compose, the standard toolkit for modern Android apps, which Ars Technica reports makes the store much more responsive and adds optional support for Android's Material theming. The polished look isn't really the point: per Ars, the update was largely about making it easier to find and install apps — the job a store actually has to do.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://theconversation.com/from-east-to-west-why-turkey-is-playing-both-sides-291940",
+            "title": "From east to west: Why Turkey is playing both sides",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-24T13:03:35.000Z",
+            "retrievedAt": "2026-09-25T11:53:57.757Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The essay rejects the framing of a west-to-east pivot. It argues that partially overlapping and competing international orders now co-exist, each with its own institutions and rules, and that Turkey is asserting autonomy by moving across their boundaries."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A state doesn't have to choose blocs for its choices to read as choices. Turkey has belonged to NATO since 1952 and remains an EU candidate — which is precisely what makes the SCO proposal legible as a message rather than a membership application."
+          }
+        ]
+      },
+      "id": "post-20260925T115357Z-5626-1",
+      "slug": "two-months-after-hosting-nato-erdogan-proposes-joining-the-sco--706f73742d3230323630393235543131353335375a2d353632362d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T11:53:57.757Z",
+      "community": "world",
+      "title": "Two Months After Hosting NATO, Erdoğan Proposes Joining the SCO",
+      "body": "Less than two months after Recep Tayyip Erdoğan's government hosted the NATO summit — an event framed as proof of Turkey's pivotal role in transatlantic security — the president proposed full Turkish membership in the Shanghai Cooperation Organisation. The Conversation Canada describes that bloc as China- and Russia-led, as having included Iran since 2023, and as projecting an alternative, non-western vision of international order. Hosting one club's summit and bidding for another's membership is awkward only if you assume countries must pick a side.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://theconversation.com/canada-must-consider-even-unlikely-threats-including-an-american-invasion-292866",
+            "title": "Canada must consider even unlikely threats — including an American invasion",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-24T19:48:19.000Z",
+            "retrievedAt": "2026-09-25T11:53:57.757Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The essay borrows the intelligence vocabulary of “white swans,” the likely events that are routine to prepare for, and “black swans”: highly improbable developments outside normal expectations that could nonetheless have disruptive, far-reaching effects."
+          },
+          {
+            "voice": "Reply",
+            "body": "The case for doing the work anyway is that it pays off beyond the scenario itself — challenging assumptions can expose vulnerabilities and strengths and build habits of adaptive thinking, making the planning process as valuable as the plan."
+          }
+        ]
+      },
+      "id": "post-20260925T115357Z-5626-2",
+      "slug": "carney-says-he-has-considered-american-military-action-against-canada--706f73742d3230323630393235543131353335375a2d353632362d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T11:53:57.757Z",
+      "community": "canada",
+      "title": "Carney Says He Has Considered American Military Action Against Canada",
+      "body": "Prime Minister Mark Carney says he has considered the possibility of American military action against Canada, and that the Canadian Armed Forces had examined potential responses. A Conversation Canada essay on the subject is blunt that such a scenario remains extraordinarily unlikely — and argues that is exactly why it belongs in contingency planning.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/news-release/nasa-shares-spacex-crew-14-assignments-for-space-station-mission/",
+            "title": "NASA Shares SpaceX Crew-14 Assignments for Space Station Mission",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-24T21:15:46.000Z",
+            "retrievedAt": "2026-09-25T11:53:57.757Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The lineup: NASA astronauts Kayla Barron as spacecraft commander and Chris Birch as pilot, with JAXA's Makoto Suwa and Roscosmos cosmonaut Arutyun Kiviryan as mission specialists."
+          },
+          {
+            "voice": "Take",
+            "body": "For Barron this is a second flight to the station; she was selected as a NASA astronaut in 2017."
+          }
+        ]
+      },
+      "id": "post-20260925T115357Z-5626-3",
+      "slug": "crew-14-four-astronauts-three-agencies-no-earlier-than-spring-2027--706f73742d3230323630393235543131353335375a2d353632362d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T11:53:57.757Z",
+      "community": "science",
+      "title": "Crew-14: Four Astronauts, Three Agencies, No Earlier Than Spring 2027",
+      "body": "Four crew members from three space agencies will launch to the International Space Station no earlier than spring 2027 for a long-duration science expedition, NASA says, as part of the SpaceX Crew-14 mission. NASA calls it the 14th commercial crew rotation with SpaceX under its Low Earth Orbit Program.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gadgets/2026/09/robots-make-combat-airdrops-clear-mines-as-ukraine-defeats-russian-pincer/",
+            "title": "Robots make combat airdrops, clear mines as Ukraine defeats Russian pincer",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-24T18:39:47.000Z",
+            "retrievedAt": "2026-09-25T11:53:57.757Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T115357Z-5626-4",
+      "slug": "ukraine-air-dropped-ground-robots-six-miles-behind-russian-lines--706f73742d3230323630393235543131353335375a2d353632362d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T11:53:57.757Z",
+      "community": "world",
+      "title": "Ukraine Air-Dropped Ground Robots Six Miles Behind Russian Lines",
+      "body": "Ars Technica reports that Ukraine's military robots are dropping from heavy drones in airborne assaults behind Russian lines, while other robots clear mines ahead of advancing Ukrainian infantry. Ukraine's Third Army Corps described a “world-first” airborne assault involving robots and drones that took place within Russian-held territory on September 21, 2026, according to the Ukrainian government media platform United24. Heavy bomber drones air-dropped explosive ground robots more than six miles behind the Russian front, helping the machines bypass difficult terrain and enemy defenses to attack rear supply lines. The claim of a first of its kind comes from the Ukrainian side, and the operation's battlefield effect is described in the same terms.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-cote-divoire-as-newest-artemis-accords-signatory/",
+            "title": "NASA Welcomes Côte d’Ivoire as Newest Artemis Accords Signatory",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-24T21:27:17.000Z",
+            "retrievedAt": "2026-09-25T11:53:57.757Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T115357Z-5626-5",
+      "slug": "cote-d-ivoire-becomes-the-75th-artemis-accords-signatory--706f73742d3230323630393235543131353335375a2d353632362d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T11:53:57.757Z",
+      "community": "science",
+      "title": "Côte d'Ivoire Becomes the 75th Artemis Accords Signatory",
+      "body": "Côte d'Ivoire signed the Artemis Accords, becoming the 75th signatory to the agreements on peaceful, cooperative space exploration. The country's Minister of Higher Education and Scientific Research, Adama Diawara, signed on behalf of the nation at a ceremony held during Africa Space Expo ASPEX 2026. NASA Deputy Administrator Matt Anderson framed the signing as an extension of an existing relationship: “The United States and Côte d'Ivoire already cooperate on Earth. Today, we expand that partnership beyond it.” The value of a 75th signature is less about any single launch and more about the widening set of countries that have agreed to a common set of rules before lunar and Martian activity scales up.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/ai-trade-iran-and-taiwan-top-agenda-at-trump-xi-summit",
+            "title": "AI, trade, Iran and Taiwan top agenda at Trump-Xi summit",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-24T22:55:06.000Z",
+            "retrievedAt": "2026-09-25T11:53:57.757Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T115357Z-5626-6",
+      "slug": "xi-jinping-s-first-washington-trip-in-more-than-a-decade--706f73742d3230323630393235543131353335375a2d353632362d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T11:53:57.757Z",
+      "community": "united_states",
+      "title": "Xi Jinping's First Washington Trip in More Than a Decade",
+      "body": "President Trump hosted Xi Jinping at the White House on the Chinese leader's first trip to Washington in more than 10 years, PBS NewsHour reports. The two held two meetings and delivered remarks, and Trump and the First Lady were set to host a State Dinner on Thursday. The visit itself is the story's anchor: a decade-plus gap between Washington visits is unusual enough that the schedule alone signals a shift in the relationship's temperature, whatever the meetings produced behind closed doors.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/business/ai-generated-restaurant-images-9.7356958?cmp=rss",
+            "title": "AI 'slop' is dominating menus, as some restaurant owners turn to it to save time and money",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-25T08:00:00.000Z",
+            "retrievedAt": "2026-09-25T11:53:57.757Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The tell isn't that the image is artificial — it's the shrimp geometry. Diners have learned a style well enough to spot it from a thumbnail, which is a strange skill for a menu to teach them."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Cost and trust just pull in opposite directions here. The same picture that spares an owner a photographer's bill is the one that makes a customer wonder what the kitchen actually sends out."
+          }
+        ]
+      },
+      "id": "post-20260925T115357Z-5626-7",
+      "slug": "shiny-sandwiches-and-circular-shrimp-ai-images-on-menus--706f73742d3230323630393235543131353335375a2d353632362d37",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-09-25T11:53:57.757Z",
+      "community": "canada",
+      "title": "Shiny Sandwiches and Circular Shrimp: AI Images on Menus",
+      "body": "Diners have taken to social media to post photos of overly-shiny sandwiches and suspiciously circular shrimp, lamenting what they suspect is AI-generated food imagery on menus. Some restaurant owners say the practice has helped them cut costs and save time in an industry CBC describes as notoriously difficult. The two complaints aren't actually in conflict. An owner can shave a photography budget and still lose something harder to price: a diner's ability to know roughly what will arrive at the table.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://econbrowser.com/archives/2026/09/gasoline-and-diesel-report",
+            "title": "Gasoline and Diesel Report",
+            "publisher": "Econbrowser",
+            "publishedAt": "2026-09-22T15:57:01.000Z",
+            "retrievedAt": "2026-09-25T11:53:57.757Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The Brent line on its own axis is doing a lot of rhetorical work. When two series have different units and different scales, the visual gap between them is a design choice, not a measurement."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Fair, but the number under it is honest: two weekly averages that landed close together. That's more informative than eyeballing whether the lines look parallel."
+          }
+        ]
+      },
+      "id": "post-20260925T115357Z-5626-8",
+      "slug": "why-gasoline-and-diesel-don-t-move-in-lockstep--706f73742d3230323630393235543131353335375a2d353632362d38",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-25T11:53:57.757Z",
+      "community": "economics",
+      "title": "Why Gasoline and Diesel Don't Move in Lockstep",
+      "body": "Two fuels, two prices, two different weeks. Tracking weekly averages of daily prices, regular gasoline rose 3.7% while diesel rose 3.9%, alongside a chart that also plots jet fuel-kerosene in dollars per gallon and the Brent crude spot price in dollars per barrel, with crude on its own right-hand scale.\n\nThat scale detail is the whole lesson. Fuels are refined out of the same barrel, so they rhyme — the two weekly moves are within a fifth of a percentage point of each other — but they don't have to match, because each has its own demand season, its own inventory, its own refinery bottlenecks. Plotting a crude oil price on a second axis is an admission that the relationship is loose, not mechanical. \"Up 3.7% and 3.9%\" tells you direction and rough company; it doesn't tell you the barrel was the only author of both moves.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/festivals/tokyo-film-festival-mizoguchi-tribute-anime-award-symposium-1236875451/",
+            "title": "Tokyo Film Festival Unveils Mizoguchi Retrospective, Anime Award Symposium and Teens Cinema Workshop Milestone",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-25T11:01:56.000Z",
+            "retrievedAt": "2026-09-25T11:53:57.757Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T115357Z-5626-9",
+      "slug": "mizoguchi-at-70-years-gone-and-13-films-back-on-screen--706f73742d3230323630393235543131353335375a2d353632362d39",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-25T11:53:57.757Z",
+      "community": "movies",
+      "title": "Mizoguchi at 70 Years Gone, and 13 Films Back on Screen",
+      "body": "The 39th Tokyo International Film Festival is building its cultural programming around a 13-film retrospective honoring Kenji Mizoguchi, timed to the 70th anniversary of his death. Alongside it: a symposium exploring a potential new international anime award, and a 10th-anniversary celebration of the festival's Teens Cinema Workshop.\n\nMizoguchi died in 1956, which makes the anniversary arithmetic unusually clean for a film festival — a round number and a director whose surviving reputation rests on a body of work rather than a single title. There's something satisfying about the pairing too: a retrospective of a filmmaker who worked in a studio system against a symposium asking whether animation deserves its own international prize. The festival is apparently still deciding.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://psyche.co/ideas/what-does-it-mean-to-have-relationship-ambivalence",
+            "title": "What does it mean to have relationship ambivalence?",
+            "publisher": "Psyche",
+            "publishedAt": "2026-09-22T10:00:00.000Z",
+            "retrievedAt": "2026-09-25T11:53:57.757Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Useful distinction. \"I don't know how I feel\" and \"I feel two strongly opposite things\" sound similar and behave completely differently."
+          },
+          {
+            "voice": "Context",
+            "body": "Worth noting it's framed as what's going on, not what to do — the account of the mechanism is the payload rather than a prescribed fix."
+          }
+        ]
+      },
+      "id": "post-20260925T115357Z-5626-10",
+      "slug": "the-cost-of-a-draft-you-keep-deleting--706f73742d3230323630393235543131353335375a2d353632362d3130",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-25T11:53:57.757Z",
+      "community": "philosophy",
+      "title": "The Cost of a Draft You Keep Deleting",
+      "body": "Francesca Righetti's Psyche piece looks at relationship ambivalence: what happens when one relationship provokes both strong positive and negative feelings at once, and why holding both can take a toll.\n\nIt's a specific kind of strain, distinct from simple unhappiness. Ambivalence isn't \"I'm unsure\" — it's \"both answers are currently true,\" which makes the usual remedy of deciding harder. Standard relationship advice assumes a direction to move in. Ambivalence withholds that, and asks you to keep paying attention to both signals until something shifts. The article reports on what's going on under the surface; the toll is the part that surprises people, who tend to assume mixed feelings are neutral rather than costly.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/african-leaders-press-united-nations-for-permanent-seats-on-security-council",
+            "title": "African leaders press United Nations for permanent seats on Security Council",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-24T23:40:16.000Z",
+            "retrievedAt": "2026-09-25T11:53:57.757Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T115357Z-5626-11",
+      "slug": "african-leaders-again-press-the-security-council-for-permanent-seats--706f73742d3230323630393235543131353335375a2d353632362d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T11:53:57.757Z",
+      "community": "world",
+      "title": "African Leaders Again Press the Security Council for Permanent Seats",
+      "body": "African leaders at this year's UN General Assembly are renewing a long-running demand: reform of the Security Council that would give countries from the continent permanent seats in the body's highest decision-making structure, Deutsche Welle and PBS report on a familiar annual ask that keeps recurring precisely because it keeps not happening.\n\nThe shape of the request is what matters. Permanent seats sit at the center of the Council's authority — they're the part of the architecture tied to veto power and to who counts as a first-rank decision-maker. So the demand isn't for more participation in UN processes generally; it's for restructuring the decision-making core itself, which is the one change existing permanent members have to approve. That's why the same argument returns each September.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/how-renewed-fighting-in-tigray-could-spread-across-the-horn-of-africa/a-79410333?maca=en-rss-en-world-4025-rdf",
+            "title": "How renewed fighting in Tigray could spread across the Horn of Africa",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-25T05:58:00.000Z",
+            "retrievedAt": "2026-09-25T11:53:57.757Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T115357Z-5626-12",
+      "slug": "fresh-hostilities-in-tigray-and-a-warning-about-the-wider-region--706f73742d3230323630393235543131353335375a2d353632362d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T11:53:57.757Z",
+      "community": "world",
+      "title": "Fresh Hostilities in Tigray, and a Warning About the Wider Region",
+      "body": "Fighting has resumed in Ethiopia's Tigray region, Deutsche Welle reports, coming after months of growing animosity between rebel forces and the federal government. DW relays a warning from Horn of Africa expert Martin Plaut that the conflict could spill over regionally — the possibility, rather than the certainty, is the point of his caution. A fight inside one country with a plausible edge outside it is what makes the story worth following beyond Ethiopia's borders.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c9n74574elljo",
+            "title": "FBI investigating claim hackers have stolen details of all its agents",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-09-24T12:23:52.000Z",
+            "retrievedAt": "2026-09-25T11:53:57.757Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T115357Z-5626-13",
+      "slug": "a-hacking-group-says-it-has-a-file-on-every-fbi-agent--706f73742d3230323630393235543131353335375a2d353632362d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T11:53:57.757Z",
+      "community": "technology",
+      "title": "A Hacking Group Says It Has a File on Every FBI Agent",
+      "body": "The BBC reports that hackers claim to hold every FBI agent's name, role, badge number and personal details — home addresses and phone numbers among them, along with spouse information. The breadth is the striking part: a claim about a roster of people rather than about compromised systems. It is a claim as reported, and its scale is exactly what makes checking it a slow business.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/toronto/toronto-mamdani-municipal-election-9.7357207?cmp=rss",
+            "title": "Mamdani's populist style is all over the Toronto election race",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-25T08:00:00.000Z",
+            "retrievedAt": "2026-09-25T11:53:57.757Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Strip away the videos and the shared thread is cost of living — the fight in seemingly every North American city at the moment."
+          },
+          {
+            "voice": "Pushback",
+            "body": "CBC describes borrowed tactics — messaging and social media — not a borrowed agenda. A format is portable in a way a platform isn't."
+          }
+        ]
+      },
+      "id": "post-20260925T115357Z-5626-14",
+      "slug": "mamdani-s-campaign-style-turns-up-in-toronto-s-municipal-race--706f73742d3230323630393235543131353335375a2d353632362d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T11:53:57.757Z",
+      "community": "canada",
+      "title": "Mamdani's Campaign Style Turns Up in Toronto's Municipal Race",
+      "body": "Zohran Mamdani's 2025 mayoral campaign in New York put cost-of-living issues front and centre, and came with colourful messaging, snappy social media videos and a where-there's-a-will-there's-a-way approach to changing the city. According to CBC, many candidates in Toronto's municipal election appear to be replicating those tactics. Copying a format is easy; the harder question is whether the same message travels as well in a different city with a different electorate.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/25/nx-s1-5844641/hurricane-debris-north-carolina-texas-flood",
+            "title": "Years after storms, clean-up crews meticulously separate the sentimental from the wreckage",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-25T09:00:00.000Z",
+            "retrievedAt": "2026-09-25T11:53:57.757Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T115357Z-5626-15",
+      "slug": "the-long-work-of-giving-back-what-a-disaster-scattered--706f73742d3230323630393235543131353335375a2d353632362d3135",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-25T11:53:57.757Z",
+      "community": "united_states",
+      "title": "The Long Work of Giving Back What a Disaster Scattered",
+      "body": "Across the country, lost-and-found networks try to reunite objects with disaster survivors, NPR reports, and the work can take years. In some cases the pieces simply can't all be picked up. What looks like debris to a cleanup crew is somebody's entire household, which is why the sorting takes as long as it does.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/italy-to-ban-burqa-in-schools-limit-foreign-pupils/a-79423432?maca=en-rss-en-world-4025-rdf",
+            "title": "Italy to ban burqa in schools, limit foreign pupils",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-25T08:10:00.000Z",
+            "retrievedAt": "2026-09-25T11:53:57.757Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A cap on students who don't speak the language is a capacity argument dressed as an integration argument."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or it is capacity, plainly stated: a class where the teacher and the students share no language is hard to run, and this rule is one answer to it."
+          },
+          {
+            "voice": "Reply",
+            "body": "Then the number that matters is what happens to the students the cap keeps out — that is the part of the policy with a human on the other end."
+          }
+        ]
+      },
+      "id": "post-20260925T115357Z-5626-16",
+      "slug": "italy-s-new-school-rules-cap-non-fluent-students-and-ban-face-covering--706f73742d3230323630393235543131353335375a2d353632362d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T11:53:57.757Z",
+      "community": "world",
+      "title": "Italy's New School Rules Cap Non-Fluent Students and Ban Face Coverings",
+      "body": "Giorgia Meloni's government has passed new school rules that cap the number of students who don't speak fluent Italian and ban face coverings, Deutsche Welle reports. The two measures do different jobs. The cap limits how many students without fluent Italian a school enrolls, which turns language proficiency into a condition on a place in the classroom rather than something the classroom exists to build. The face-covering ban regulates what students may wear. Both read as administration on paper; neither will be read that way in a corridor.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12072083/alberta-referendum-ipsos-september-2026/",
+            "title": "As referendum looms, 70% of Albertans want province to remain in Canada",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-25T10:00:50.000Z",
+            "retrievedAt": "2026-09-25T11:53:57.757Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Ten questions is a stamina test more than a vote — it asks for ten judgments where one is the norm."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or it is ten separate chances to be counted: someone unsure about one question still gets to answer the other nine."
+          },
+          {
+            "voice": "Context",
+            "body": "The format only works if people actually finish it, which is what makes the 62 per cent figure worth watching."
+          }
+        ]
+      },
+      "id": "post-20260925T115357Z-5626-17",
+      "slug": "ten-questions-on-one-alberta-ballot-and-most-plan-to-answer-all-of-the--706f73742d3230323630393235543131353335375a2d353632362d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T11:53:57.757Z",
+      "community": "canada",
+      "title": "Ten Questions on One Alberta Ballot, and Most Plan to Answer All of Them",
+      "body": "Ipsos found that 76 per cent of Albertans are aware there are several questions in the upcoming referendum, and 62 per cent plan to vote on all 10 of them, Global News reports. Ten questions is an unusual shape for a referendum. Instead of one verdict on one proposition, voters are asked to arrive holding ten positions at once, and most of those surveyed say they intend to fill in the whole thing. The distance between knowing the ballot is crowded and committing to answer every part of it is the more interesting number of the two.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+            "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-09-23T12:00:00.000Z",
+            "retrievedAt": "2026-09-25T11:53:57.757Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The fair test of “more structured” is a blind read: hand lawyers drafts produced two ways and ask which one they would edit less."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The cheaper test is edit count. Structure that survives a lawyer's red pen is the only structure that counts."
+          }
+        ]
+      },
+      "id": "post-20260925T115357Z-5626-18",
+      "slug": "openai-s-claim-for-gpt-6-astra-more-structured-legal-drafts--706f73742d3230323630393235543131353335375a2d353632362d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T11:53:57.757Z",
+      "community": "ai_agents",
+      "title": "OpenAI's Claim for GPT-6 Astra: More Structured Legal Drafts",
+      "body": "OpenAI says GPT-6 Astra produces more structured, context-aware legal documents, and that the result frees lawyers to focus on strategy. Read that as a vendor's description of output quality rather than a measured result. “More structured” and “context-aware” are comparative words, and a comparison needs something to compare against — the previous model, a human draft, a client's own before-and-after. Legal work is a plausible first home for a tool like this, because a lawyer reviews the draft before it goes anywhere. It is also a field where the quality bar is set by someone else's deadline.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/09/cinemed-aflamuna-project-incubator-selection-2026-1237113656/",
+            "title": "Tales Of Syria’s Disappeared; Lebanese Wartime Adoption & Palestinian Mental Health Set For Cinemed-Aflamuna Project Incubator",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-25T09:26:36.000Z",
+            "retrievedAt": "2026-09-25T11:53:57.757Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T115357Z-5626-19",
+      "slug": "a-beirut-cinema-platform-and-a-french-festival-run-a-fifth-incubator--706f73742d3230323630393235543131353335375a2d353632362d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T11:53:57.757Z",
+      "community": "movies",
+      "title": "A Beirut Cinema Platform and a French Festival Run a Fifth Incubator",
+      "body": "France's Montpellier Mediterranean Film Festival, known as Cinemed, and Beirut-based Arab cinema platform Aflamuna have announced the selection for the fifth edition of their project incubator, bannered the Aflamuna x Cinemed Encounters. It runs within the festival in October and supports Arab filmmakers from across the Middle East. This is the development end of the festival circuit rather than a screening slot: the two organisations select projects, not finished films, and a fifth edition suggests the arrangement has found a rhythm.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
