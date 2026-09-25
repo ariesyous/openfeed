@@ -706,7 +706,27 @@
     "watch trump greets xi as chinese leader s state visit wraps up",
     "the supreme court revives a controversial data system for citizenship checks",
     "students strike across germany in protest against military service",
-    "the gilded age musical is finally happening as a christmas album"
+    "the gilded age musical is finally happening as a christmas album",
+    "nonresidential fixed investment in the dotcom boom bust",
+    "ai was supposed to hit new grads hard so far unemployment data says otherwise",
+    "new mexico jury finds facebook liable of deceiving users about privacy protections",
+    "is solar s growth finally slowing in the us",
+    "2026 2027 dwu high school engineering challenge",
+    "marineland belugas that died in chicago had chronic inflammatory disease preliminary necropsy findings show",
+    "narrateai production ready llm quality assurance on amazon bedrock",
+    "lula or bolsonaro as president brazil gears up to vote",
+    "nasa tests dual mode propulsion cubesat ahead of launch",
+    "deploying real time personalized speech with qwen3 tts on amazon sagemaker ai",
+    "margaret qualley and sabrina carpenter join tom holland in fred astaire biopic as adele astaire ginger rogers",
+    "why eritrea matters as fighting returns to ethiopia s tigray",
+    "mit students gain a humanist lens on technical innovation in tulsa oklahoma",
+    "man city found guilty of breaking financial rules",
+    "report finds many security deficiencies at utah university where charlie kirk was killed",
+    "producers ross kauffman sarah sarandos scott veltri board they were good dogs lily blavin exposé on beagles used for research",
+    "russia targeting ordinary life with attacks on ukraine s data centres zelensky says",
+    "rcmp watchdog postpones report from 3 year review on b c protest policing due to snap election",
+    "jodie turner smith sued for allegedly enabling brother s sexual misconduct and drug dealing",
+    "sam altman s remarks at the united nations security council"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -1414,12 +1434,32 @@
     "https://www.pbs.org/newshour/world/watch-live-trump-greets-xi-as-chinese-leaders-state-visit-wraps-up",
     "https://www.npr.org/2026/09/25/nx-s1-5976804/supreme-court-trump-save-noncitizen-voting",
     "https://www.bbc.co.uk/news/articles/cxnvlnve52qdo",
-    "https://www.indiewire.com/news/breaking-news/gilded-age-christmas-album-cast-musical-episode-hbo-1235218372/"
+    "https://www.indiewire.com/news/breaking-news/gilded-age-christmas-album-cast-musical-episode-hbo-1235218372/",
+    "https://econbrowser.com/archives/2026/09/nonresidential-fixed-investment-in-the-dotcom-boom-bust",
+    "https://arstechnica.com/ai/2026/09/ai-was-supposed-to-hit-new-grads-hard-so-far-unemployment-data-says-otherwise/",
+    "https://www.pbs.org/newshour/nation/new-mexico-jury-finds-facebook-liable-of-deceiving-users-about-privacy-protections",
+    "https://arstechnica.com/science/2026/09/is-solars-growth-finally-slowing-in-the-us/",
+    "https://www.nasa.gov/aeronautics/aeronautics-stem/2026-2027-dwu-high-school-engineering-challenge/",
+    "https://www.cbc.ca/news/canada/marineland-beluga-deaths-preliminary-necropsy-findings-chicago-9.7358828?cmp=rss",
+    "https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/",
+    "https://www.dw.com/en/lula-or-bolsonaro-as-president-brazil-gears-up-to-vote/a-79437276?maca=en-rss-en-world-4025-rdf",
+    "https://www.nasa.gov/directorates/rtmd/nasa-tests-dual-mode-propulsion-cubesat-ahead-of-launch/",
+    "https://aws.amazon.com/blogs/machine-learning/deploying-real-time-personalized-speech-with-qwen3-tts-on-amazon-sagemaker-ai/",
+    "https://variety.com/2026/film/news/margaret-qualley-sabrina-carpenter-tom-holland-fred-astaire-biopic-1236850613/",
+    "https://www.dw.com/en/why-eritrea-matters-as-fighting-returns-to-ethiopia-s-tigray/a-79426582?maca=en-rss-en-world-4025-rdf",
+    "https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925",
+    "https://www.bbc.co.uk/sport/football/articles/cw7v44ezry5go",
+    "https://www.pbs.org/newshour/nation/report-finds-many-security-deficiencies-at-utah-university-where-charlie-kirk-was-killed",
+    "https://deadline.com/2026/09/they-were-good-dogs-beagle-documentary-project-1237113589/",
+    "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o",
+    "https://www.cbc.ca/news/indigenous/crcc-cirg-investigation-report-delay-9.7354107?cmp=rss",
+    "https://variety.com/2026/film/news/jodie-turner-smith-sued-brother-sexual-misconduct-drugs-1236875978/",
+    "https://openai.com/index/sam-altman-un-security-council-remarks"
   ],
   "initialized": true,
-  "cycleCount": 55,
+  "cycleCount": 56,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-25T17:14:36.842Z",
+  "lastRunAt": "2026-09-25T21:37:11.281Z",
   "communities": [
     "technology",
     "science",
@@ -1441,11 +1481,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260924T114940Z-c891",
-      "generatedAtCycle": 51,
-      "summary": "One Supernova, Two Appearances, and a Measurement of the Universe's Expansion; No Grand Prize in the Wildfire XPRIZE, but a 10-Minute Detection Target; An Irish-Language Comedy Starts Production for BBC Gaeilge and TG4; A New Poll Finds Democrats Ahead as Midterm Voting Begins; NAZA Gets a Theatrical Release in More Than 50 Territories Starting September 28; A Low-Flying Aircraft Will Sample Farm Emissions Over Greeley, Colorado; Discord's Age Checks Arrive After an Earlier Plan Was Scrapped; Wh"
-    },
-    {
       "batchId": "20260924T171406Z-4e15",
       "generatedAtCycle": 52,
       "summary": "A Classical Attack on RSA That Forges Signatures Instead of Factoring Keys; The Supreme Court Made the EPA the Sole Arbiter of Pesticide Cancer Warnings; A Kamchatka Volcano Erupted for the First Time in Nearly Five Centuries; Budgets Since 2020: The Average Household Kept Up, Younger and Lower-Income Ones Generally Didn't; A Brewery's CO2 Fix Began With Plans for Mars; A Lunar Launch Delay That NASA Counted as a Break; Dead Mosquitoes Make Surprisingly Good 3D-Printer Nozzles; The Two Gaps That"
@@ -1464,6 +1499,11 @@
       "batchId": "20260925T171436Z-462a",
       "generatedAtCycle": 55,
       "summary": "The 1953 Album That Made Earthquakes Audible; Disney's First Made-for-TV Character Was Partly Modeled on Space Age Rocket Scientists; Pope Leo XIV Warns of a 'Paradise of Machines'; The Aluminum Alloy in the Shuttle's Fuel Tanks Dates to 1954; New Jersey Fines a Data Center $1.1 Million Over Unpermitted Gas Generators; Ten Million Old Stars in a 150-Light-Year Globular Cluster; B.C.'s Attorney General Reacts to a Report on the Tumbler Ridge Shooter's ChatGPT Interactions; Sparsity Keeps MoE Infe"
+    },
+    {
+      "batchId": "20260925T213711Z-7a99",
+      "generatedAtCycle": 56,
+      "summary": "Same Boom, Two Numbers: 19.1% Then, 14.4% Now; Two Papers, Opposite Answers on AI and New Graduates; A New Mexico Jury Finds Facebook Liable for Deceiving Users on Privacy; US Electricity Use Rose 2 Percent, Slower Than a Year Earlier; Adding an Aircraft Fuel Is Also an Airport Problem; Two Belugas Were Already Sick When They Arrived in Chicago, Post-Mortems Indicate; Hallucinated Metrics and Throttled APIs: What Goes Wrong Once a Data Assistant Is Live; Brazil Votes on October 4, With Lula and "
     }
   ]
 }

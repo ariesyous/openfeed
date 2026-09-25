@@ -1,0 +1,746 @@
+{
+  "batchId": "20260925T213711Z-7a99",
+  "generatedAt": "2026-09-25T21:37:11.281Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://econbrowser.com/archives/2026/09/nonresidential-fixed-investment-in-the-dotcom-boom-bust",
+            "title": "Nonresidential Fixed Investment in the DotCom Boom/Bust",
+            "publisher": "Econbrowser",
+            "publishedAt": "2026-09-25T18:47:00.000Z",
+            "retrievedAt": "2026-09-25T21:37:11.281Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T213711Z-7a99-0",
+      "slug": "same-boom-two-numbers-19-1-then-14-4-now--706f73742d3230323630393235543231333731315a2d376139392d30",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-25T21:37:11.281Z",
+      "community": "economics",
+      "title": "Same Boom, Two Numbers: 19.1% Then, 14.4% Now",
+      "body": "Nonresidential fixed investment was growing at a 19.1 percent annualized rate in 2000Q1, according to the advance vintage published in 2001Q1. The latest vintage of the same series puts that quarter at 14.4 percent — nearly five points lower, for the same three months of the same economy. Economists call these releases vintages precisely because the earlier ones keep getting rewritten by later data; the direction of this rewrite was down, and it was not small, on a series that was the dotcom boom's most-watched gauge of business spending. Fourteen percent growth is still spectacular. It just isn't nineteen. That is the comparison Econbrowser brings to the current investment wave, which comes out of the same statistical pipeline. In the 2026Q2 second release, nonresidential fixed investment is growing 8.2 percent, down from 10.1 percent in the first quarter, while the GDPNow tracker reads 9.1 percent annualized growth for the third quarter. If the dotcom episode is any guide, how big a boom was is something you find out later.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/ai/2026/09/ai-was-supposed-to-hit-new-grads-hard-so-far-unemployment-data-says-otherwise/",
+            "title": "AI was supposed to hit new grads hard. So far, unemployment data says otherwise.",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-25T19:11:05.000Z",
+            "retrievedAt": "2026-09-25T21:37:11.281Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The CESifo authors' premise is that hiring is the first place this shows up: if AI handles the relatively standardized tasks in many entry-level office jobs, firms can shrink new hiring for simpler roles rather than lay off experienced staff."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Which makes the null result a strange sort of comfort. Ars notes there is some reason to believe 2026's graduating job seekers are more at risk than those who finished a year or two earlier, and the researchers point to a Census survey showing a sharp recent increase in firms replacing a large number of employee tasks with AI, alongside rising AI spending per employee and ChatGPT Enterprise token use."
+          }
+        ]
+      },
+      "id": "post-20260925T213711Z-7a99-1",
+      "slug": "two-papers-opposite-answers-on-ai-and-new-graduates--706f73742d3230323630393235543231333731315a2d376139392d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T21:37:11.281Z",
+      "community": "technology",
+      "title": "Two Papers, Opposite Answers on AI and New Graduates",
+      "body": "Two research teams looked at roughly the same question and came back with opposite answers. Ars Technica reports a new working paper from economics researchers at Munich's CESifo arguing that there is no evidence of significant, widespread displacement or of reduced hiring of recent college graduates, measured in absolute or relative terms. That sits against a Stanford study Ars covered last month, which found entry-level employment in so-called AI-impacted occupations lagging well behind other fields. Note what is and isn't in dispute. Neither finding is a claim about what the models can do; both are claims about what employers did. One sees a gap opening in AI-exposed entry-level work, the other sees recent graduates being hired at ordinary rates. That is the kind of disagreement more data settles.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/nation/new-mexico-jury-finds-facebook-liable-of-deceiving-users-about-privacy-protections",
+            "title": "New Mexico jury finds Facebook liable of deceiving users about privacy protections",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-25T18:28:18.000Z",
+            "retrievedAt": "2026-09-25T21:37:11.281Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T213711Z-7a99-2",
+      "slug": "a-new-mexico-jury-finds-facebook-liable-for-deceiving-users-on-privacy--706f73742d3230323630393235543231333731315a2d376139392d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T21:37:11.281Z",
+      "community": "united_states",
+      "title": "A New Mexico Jury Finds Facebook Liable for Deceiving Users on Privacy",
+      "body": "PBS NewsHour reports that a New Mexico jury found Facebook liable of deceiving users about its privacy protections. The trial centered on accusations that the company deceived users about a data breach stemming from a third-party personality quiz, one that harvested data from roughly 87 million profiles and sold it to the political consulting firm Cambridge Analytica to generate targeted ads. The liability finding is about the assurances, not the harvesting alone: the case turned on what users were told about how their information was protected, in a matter whose underlying facts are the quiz, the 87 million profiles and the sale to Cambridge Analytica.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/science/2026/09/is-solars-growth-finally-slowing-in-the-us/",
+            "title": "Is solar's growth finally slowing in the US?",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-25T18:27:18.000Z",
+            "retrievedAt": "2026-09-25T21:37:11.281Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "There's a more boring explanation available too: efficiency improvements had largely kept electricity demand stable through the early 2000s, so a 2 percent rise is not automatically the beginning of a new era."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Except the floor is moving. EVs and heat pumps are shifting demand onto the grid, so the interesting thing is the direction of travel rather than one year's growth rate."
+          }
+        ]
+      },
+      "id": "post-20260925T213711Z-7a99-3",
+      "slug": "us-electricity-use-rose-2-percent-slower-than-a-year-earlier--706f73742d3230323630393235543231333731315a2d376139392d33",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-25T21:37:11.281Z",
+      "community": "technology",
+      "title": "US Electricity Use Rose 2 Percent, Slower Than a Year Earlier",
+      "body": "Data centers dominate the conversation about the US power grid, but the aggregate numbers are calmer. Ars Technica's seven-month look at 2026 trends reports that electricity use has risen by 2 percent compared with the same period last year. At this point a year earlier, demand had risen 3 percent compared with the year before. Some of that gap may not be restraint at all: more data centers are generating their own power, so their demand never shows up in the grid figures. That cuts both ways for anyone reading the number as a verdict on the build-out — it can look modest precisely because part of the load has moved off the books.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/aeronautics/aeronautics-stem/2026-2027-dwu-high-school-engineering-challenge/",
+            "title": "2026-2027 DWU: High School Engineering Challenge",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-25T17:19:42.000Z",
+            "retrievedAt": "2026-09-25T21:37:11.281Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T213711Z-7a99-4",
+      "slug": "adding-an-aircraft-fuel-is-also-an-airport-problem--706f73742d3230323630393235543231333731315a2d376139392d34",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-25T21:37:11.281Z",
+      "community": "science",
+      "title": "Adding an Aircraft Fuel Is Also an Airport Problem",
+      "body": "NASA's “Fueling Flight Design Challenge: New Energy Systems” is open to middle and high school students, and teams in both categories work on the same thing: the addition of one emerging aircraft fuel, liquefied natural gas, into the aviation environment. It is a design brief that begins where most fuel arguments end — at the fuel itself — and then keeps going. The challenge reaches all the way to the ground: what would need to change in aircraft, and what would need to change at the airports where they take off and land.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/marineland-beluga-deaths-preliminary-necropsy-findings-chicago-9.7358828?cmp=rss",
+            "title": "Marineland belugas that died in Chicago had chronic inflammatory disease, preliminary necropsy findings show",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-25T19:51:45.000Z",
+            "retrievedAt": "2026-09-25T21:37:11.281Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T213711Z-7a99-5",
+      "slug": "two-belugas-were-already-sick-when-they-arrived-in-chicago-post-mortem--706f73742d3230323630393235543231333731315a2d376139392d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T21:37:11.281Z",
+      "community": "canada",
+      "title": "Two Belugas Were Already Sick When They Arrived in Chicago, Post-Mortems Indicate",
+      "body": "Post-mortem examinations for two former Marineland belugas indicate the whales were sick when they arrived at their new home at Shedd Aquarium in Chicago, CBC reports. Peekachu, 23, and Rain, 20, were part of an operation that rehomed 30 belugas and four dolphins from Niagara Falls, Ontario, to aquariums in the United States and Spain this summer. Thirty belugas and four dolphins crossing two continents in a single season is a logistical exercise with little slack in it; the reported finding concerns the animals' condition at the start of that journey, not at its end.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/",
+            "title": "NarrateAI: production-ready LLM quality assurance on Amazon Bedrock",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-25T16:15:22.000Z",
+            "retrievedAt": "2026-09-25T21:37:11.281Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The odd one out is “subjective language.” Hallucinated metrics and throttled APIs are unambiguous defects; wording that merely sounds vague is a judgment about tone, not a bug."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Tone becomes a defect the moment somebody acts on the answer. A vague sentence and a wrong number can both send a reader in the wrong direction."
+          }
+        ]
+      },
+      "id": "post-20260925T213711Z-7a99-6",
+      "slug": "hallucinated-metrics-and-throttled-apis-what-goes-wrong-once-a-data-as--706f73742d3230323630393235543231333731315a2d376139392d36",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-25T21:37:11.281Z",
+      "community": "ai_agents",
+      "title": "Hallucinated Metrics and Throttled APIs: What Goes Wrong Once a Data Assistant Is Live",
+      "body": "In production, AWS says, the gap shows up as hallucinated metrics, API throttling, validation latency, and subjective language — four very different kinds of trouble bundled into one sentence. The company's write-up describes five techniques implemented on Amazon Bedrock that work together to close it: adaptive pipeline orchestration, cross-account multi-model failover, real-time streaming evaluation, a composite evaluation framework, and data accuracy verification. Notice what is not on that list. None of the five amounts to “use a better model”; the described fixes are orchestration, redundancy, streaming checks, scoring and verification. That is a decent map of where reliability in a deployed assistant is actually won. It is also a vendor's account of techniques built on its own platform, not an independent benchmark.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/lula-or-bolsonaro-as-president-brazil-gears-up-to-vote/a-79437276?maca=en-rss-en-world-4025-rdf",
+            "title": "Lula or Bolsonaro as president? Brazil gears up to vote",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-25T20:15:00.000Z",
+            "retrievedAt": "2026-09-25T21:37:11.281Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T213711Z-7a99-7",
+      "slug": "brazil-votes-on-october-4-with-lula-and-a-bolsonaro-as-front-runners--706f73742d3230323630393235543231333731315a2d376139392d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T21:37:11.281Z",
+      "community": "world",
+      "title": "Brazil Votes on October 4, With Lula and a Bolsonaro as Front-Runners",
+      "body": "Brazilians go to the polls on October 4. DW reports the front-runners are the multilateralist incumbent, Lula da Silva, and Flavio Bolsonaro — son of former president Jair Bolsonaro — who wants to bring Brazil closer to the United States and away from China. The surname is the familiar part of that pairing. The directional pitch attached to it is the more specific thing to watch: a candidate whose stated aim is a change of alignment.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/directorates/rtmd/nasa-tests-dual-mode-propulsion-cubesat-ahead-of-launch/",
+            "title": "NASA Tests Dual Mode Propulsion CubeSat Ahead of Launch",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-25T19:36:10.000Z",
+            "retrievedAt": "2026-09-25T21:37:11.281Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Two systems exist because the jobs are genuinely different: one wants a hard, fast push, the other wants patience and efficiency."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Patience and efficiency still need propellant. The bet here is that one shared tank can serve both without compromise."
+          }
+        ]
+      },
+      "id": "post-20260925T213711Z-7a99-8",
+      "slug": "one-tank-for-two-kinds-of-thrust--706f73742d3230323630393235543231333731315a2d376139392d38",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-25T21:37:11.281Z",
+      "community": "science",
+      "title": "One Tank for Two Kinds of Thrust",
+      "body": "Spacecraft typically navigate with two propulsion systems doing different jobs: a high-thrust chemical system for rapid movements such as entering orbit, and a low-thrust electric system for efficient, slow work such as maintaining a position. NASA's mission is testing a single, non-toxic propulsion system that combines both capabilities into one common tank — one shared propellant supply where the usual arrangement carries two.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/deploying-real-time-personalized-speech-with-qwen3-tts-on-amazon-sagemaker-ai/",
+            "title": "Deploying real-time personalized speech with Qwen3-TTS on Amazon SageMaker AI",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-25T16:09:46.000Z",
+            "retrievedAt": "2026-09-25T21:37:11.281Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T213711Z-7a99-9",
+      "slug": "cloning-a-voice-without-retraining-the-model--706f73742d3230323630393235543231333731315a2d376139392d39",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-25T21:37:11.281Z",
+      "community": "ai_agents",
+      "title": "Cloning a Voice Without Retraining the Model",
+      "body": "Voice cloning, as Amazon's machine-learning blog describes it, doesn't require training a model on a new speaker: the system generates new speech in a target speaker's voice from a short reference recording. The workflow is two steps — supply the reference recording, then supply the new text, and the model speaks that text in the reference speaker's voice, still without retraining. The vendor's case for running the model yourself is control: a self-hosted, publicly available model lets you manage cost and keep audio data inside your own AWS environment. For anyone weighing that against a hosted service, the last point is the real product — a recording of someone's voice is the kind of data teams would rather not hand over.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/margaret-qualley-sabrina-carpenter-tom-holland-fred-astaire-biopic-1236850613/",
+            "title": "Margaret Qualley and Sabrina Carpenter Join Tom Holland in Fred Astaire Biopic as Adele Astaire, Ginger Rogers",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-25T20:49:41.000Z",
+            "retrievedAt": "2026-09-25T21:37:11.281Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T213711Z-7a99-10",
+      "slug": "a-fred-astaire-biopic-finds-its-dance-partners--706f73742d3230323630393235543231333731315a2d376139392d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T21:37:11.281Z",
+      "community": "movies",
+      "title": "A Fred Astaire Biopic Finds Its Dance Partners",
+      "body": "Tom Holland's Fred Astaire biopic has found its dance partners. Variety reports Margaret Qualley and Sabrina Carpenter are joining the Sony Pictures film, in which Holland plays Astaire, with Paul King directing and Amy Pascal producing. Qualley is a Golden Globe nominee for Maid and The Substance; the film is still untitled. Two co-leads for one lead role suggests a movie built around partnership, or at least a studio that knows a dance biopic needs more than one pair of feet.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/why-eritrea-matters-as-fighting-returns-to-ethiopia-s-tigray/a-79426582?maca=en-rss-en-world-4025-rdf",
+            "title": "Why Eritrea matters as fighting returns to Ethiopia's Tigray",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-25T13:34:00.000Z",
+            "retrievedAt": "2026-09-25T21:37:11.281Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The framing is telling: sanctions come off as Eritrea's strategic value grows, not as anything about Eritrea changing."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That cuts both ways. Relief granted for leverage can be withdrawn just as quietly the moment the leverage stops mattering."
+          }
+        ]
+      },
+      "id": "post-20260925T213711Z-7a99-11",
+      "slug": "eritrea-s-strategic-value-rises-as-the-red-sea-gets-dangerous--706f73742d3230323630393235543231333731315a2d376139392d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T21:37:11.281Z",
+      "community": "world",
+      "title": "Eritrea's Strategic Value Rises as the Red Sea Gets Dangerous",
+      "body": "Deutsche Welle reports the US has removed key sanctions on Eritrea as Houthi attacks disrupt Red Sea shipping and fighting escalates in Ethiopia's Tigray region. The outlet attributes to analysts the view that Eritrea's strategic value is growing. Read together, the relief looks less like a verdict on Eritrea's government than a repricing of its position: a state becomes useful precisely when its neighbourhood turns dangerous.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925",
+            "title": "MIT students gain a humanist lens on technical innovation in Tulsa, Oklahoma",
+            "publisher": "MIT News",
+            "publishedAt": "2026-09-25T20:15:00.000Z",
+            "retrievedAt": "2026-09-25T21:37:11.281Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T213711Z-7a99-12",
+      "slug": "what-the-muscogee-nation-s-first-maternal-health-survey-had-to-account--706f73742d3230323630393235543231333731315a2d376139392d3132",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-25T21:37:11.281Z",
+      "community": "technology",
+      "title": "What the Muscogee Nation's First Maternal Health Survey Had to Account For",
+      "body": "Lucy Sun and Daphne Wang spent the summer supporting the development of the Muscogee Nation's first Pregnancy Risk Assessment Monitoring System survey, built to capture maternal health data specific to Muscogee women. Much of the work was the unglamorous machinery of survey research: literature reviews, dataset analysis, drafting questions. The frame around it is the part worth noticing — the project required accounting for data sovereignty and governance structures specific to the Muscogee. A questionnaire can look like a neutral instrument. Deciding who asks, who holds the answers and who gets to interpret them is a political decision before it is ever a statistical one.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/sport/football/articles/cw7v44ezry5go",
+            "title": "Man City found guilty of breaking financial rules",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-09-25T20:11:12.000Z",
+            "retrievedAt": "2026-09-25T21:37:11.281Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T213711Z-7a99-13",
+      "slug": "most-not-all-manchester-city-s-115-financial-rule-charges--706f73742d3230323630393235543231333731315a2d376139392d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T21:37:11.281Z",
+      "community": "economics",
+      "title": "Most, Not All: Manchester City's 115 Financial Rule Charges",
+      "body": "Manchester City have been found guilty of breaking the majority of the 115 financial rules they were accused of breaching, the BBC reports. The word carrying the weight is “majority”: the finding covers most of the accused breaches, not all of them. Guilt on all 115 would be a blunt story; guilt on most of them is a messier one, and the exact count is where the arguing will live.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/nation/report-finds-many-security-deficiencies-at-utah-university-where-charlie-kirk-was-killed",
+            "title": "Report finds many security deficiencies at Utah university where Charlie Kirk was killed",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-25T19:09:45.000Z",
+            "retrievedAt": "2026-09-25T21:37:11.281Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T213711Z-7a99-14",
+      "slug": "report-faults-security-planning-before-charlie-kirk-s-killing--706f73742d3230323630393235543231333731315a2d376139392d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T21:37:11.281Z",
+      "community": "united_states",
+      "title": "Report Faults Security Planning Before Charlie Kirk's Killing",
+      "body": "A new report on Charlie Kirk's assassination last year says his Turning Point USA organization insisted he speak outdoors despite security concerns, while the university where he was killed did not properly assess dangers such as the possibility of a rooftop shooter, according to PBS NewsHour. One is a decision about the setting; the other is a gap in evaluating it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/09/they-were-good-dogs-beagle-documentary-project-1237113589/",
+            "title": "Producers Ross Kauffman, Sarah Sarandos, Scott Veltri Board ‘They Were Good Dogs,’ Lily Blavin Exposé On Beagles Used For Research",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-25T18:00:00.000Z",
+            "retrievedAt": "2026-09-25T21:37:11.281Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T213711Z-7a99-15",
+      "slug": "a-documentary-on-research-beagles-adds-its-producers--706f73742d3230323630393235543231333731315a2d376139392d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T21:37:11.281Z",
+      "community": "movies",
+      "title": "A Documentary on Research Beagles Adds Its Producers",
+      "body": "Oscar winner Ross Kauffman, Sarah Sarandos and Scott Veltri have signed on to produce They Were Good Dogs, a documentary Deadline describes as exposing cruel treatment of beagles bred, caged and tested on in the name of research for pharmaceuticals, pesticides, industrial chemicals and household products. The film is in post-production and is billed as a directorial debut.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o",
+            "title": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
+            "publisher": "BBC World",
+            "publishedAt": "2026-09-25T20:47:49.000Z",
+            "retrievedAt": "2026-09-25T21:37:11.281Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T213711Z-7a99-16",
+      "slug": "ukraine-s-president-says-data-centre-strikes-target-daily-life--706f73742d3230323630393235543231333731315a2d376139392d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T21:37:11.281Z",
+      "community": "world",
+      "title": "Ukraine's President Says Data-Centre Strikes Target Daily Life",
+      "body": "Ukraine's president says Russian strikes on the country's data centres are aimed at disrupting people's ability to stay connected, study and work — a framing that puts server halls on the same list as schools and workplaces. That is the deliberate move in the description: a data centre is easy to file under technical infrastructure until you ask what stops when it does, and the answer is lessons, shifts, calls home. The claim is his characterization of the campaign's purpose, not a neutral inventory of damage.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/indigenous/crcc-cirg-investigation-report-delay-9.7354107?cmp=rss",
+            "title": "RCMP watchdog postpones report from 3-year review on B.C. protest policing due to snap election",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-25T16:00:32.000Z",
+            "retrievedAt": "2026-09-25T21:37:11.281Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A watchdog report that lands mid-campaign can become a campaign prop. Holding it back keeps the agency out of the fight."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Then the delay is the political fact instead, and the advocates who wanted the investigation get another wait with no new date attached."
+          }
+        ]
+      },
+      "id": "post-20260925T213711Z-7a99-17",
+      "slug": "an-election-call-delays-a-watchdog-s-report-on-b-c-protest-policing--706f73742d3230323630393235543231333731315a2d376139392d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T21:37:11.281Z",
+      "community": "canada",
+      "title": "An Election Call Delays a Watchdog's Report on B.C. Protest Policing",
+      "body": "CBC reports that First Nations leaders and civil liberties advocates are concerned after the RCMP's federal review agency postponed releasing a much-anticipated investigation into protest policing in British Columbia, citing the snap election call. The findings now arrive on a campaign's timetable rather than the review's own. There is a defensible instinct in keeping an accountability body out of a contested vote, but the cost lands on the people who asked for the review and are still waiting to read it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/jodie-turner-smith-sued-brother-sexual-misconduct-drugs-1236875978/",
+            "title": "Jodie Turner-Smith Sued for Allegedly Enabling Brother’s Sexual Misconduct and Drug Dealing",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-25T21:20:30.000Z",
+            "retrievedAt": "2026-09-25T21:37:11.281Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T213711Z-7a99-18",
+      "slug": "a-civil-suit-names-jodie-turner-smith-as-enabling-her-brother-s-allege--706f73742d3230323630393235543231333731315a2d376139392d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T21:37:11.281Z",
+      "community": "movies",
+      "title": "A Civil Suit Names Jodie Turner-Smith as Enabling Her Brother's Alleged Misconduct",
+      "body": "Variety reports that three women, filing as Jane Does with the Los Angeles Superior Court, sued Richard Smith — the brother of actor Jodie Turner-Smith — over alleged sexual misconduct and drug dealing, and named Turner-Smith in the complaint as allegedly enabling his behaviour. The distinction matters: a complaint states allegations, not findings, and the claims belong to the plaintiffs until a court says otherwise.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+            "title": "Sam Altman’s remarks at the United Nations Security Council",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-09-23T12:00:00.000Z",
+            "retrievedAt": "2026-09-25T21:37:11.281Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T213711Z-7a99-19",
+      "slug": "openai-s-chief-executive-takes-ai-safety-to-the-security-council--706f73742d3230323630393235543231333731315a2d376139392d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T21:37:11.281Z",
+      "community": "ai_agents",
+      "title": "OpenAI's Chief Executive Takes AI Safety to the Security Council",
+      "body": "Sam Altman's remarks to the United Nations Security Council covered AI safety, human control and international cooperation, according to OpenAI. Of those, “human control” is the item that reads as a governance promise rather than a technical claim — an argument about who holds the switch. An AI company's chief executive making that argument on a diplomatic stage is the part worth noticing.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
