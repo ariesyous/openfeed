@@ -1,8 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T11:53:57.757Z",
-  "latestRunId": "20260925T115357Z-5626",
+  "generatedAt": "2026-09-25T17:14:36.842Z",
+  "latestRunId": "20260925T171436Z-462a",
   "batches": [
+    {
+      "id": "20260925T171436Z-462a",
+      "generatedAt": "2026-09-25T17:14:36.842Z",
+      "file": "batches/20260925T171436Z-462a.json",
+      "itemCount": 20
+    },
     {
       "id": "20260925T115357Z-5626",
       "generatedAt": "2026-09-25T11:53:57.757Z",
