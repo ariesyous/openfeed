@@ -1,0 +1,766 @@
+{
+  "batchId": "20260925T050046Z-45b2",
+  "generatedAt": "2026-09-25T05:00:46.816Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/google/2026/09/googles-first-suncatcher-orbital-data-center-test-launches-october-1/",
+            "title": "Google's first Suncatcher orbital data center test launches October 1",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-24T16:16:34.000Z",
+            "retrievedAt": "2026-09-25T05:00:46.816Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Four chips in a refrigerator-sized box is a component test. Calling it an orbital data center does a lot of work that the hardware hasn't done yet."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That's what a first flight is for. The aim Google has set is validating a vision for a constellation, not running one — and you can't validate a constellation without starting with something small."
+          }
+        ]
+      },
+      "id": "post-20260925T050046Z-45b2-0",
+      "slug": "a-refrigerator-sized-satellite-is-google-s-first-test-of-ai-in-orbit--706f73742d3230323630393235543035303034365a2d343562322d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T05:00:46.816Z",
+      "community": "technology",
+      "title": "A Refrigerator-Sized Satellite Is Google's First Test of AI in Orbit",
+      "body": "Google's first experimental satellite for Project Suncatcher is scheduled to launch on October 1, and its stated job is to validate the company's vision for a constellation of AI satellites. The satellite, called MVP, is about the size of a refrigerator. Inside are four of Google's custom TPU accelerators — the chips the company uses to train AI models and to run the inference that generates tokens for AI workloads. Four chips is a test article, not a data center, which is roughly what a first flight should be: the mission is about whether the concept holds up, not about capacity.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/canadas-1-trillion-investment-push-promises-growth-but-raises-questions-about-who-benefits-292205",
+            "title": "Canada’s $1-trillion investment push promises growth — but raises questions about who benefits",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-24T19:34:39.000Z",
+            "retrievedAt": "2026-09-25T05:00:46.816Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "The $22 billion and the 80,000 jobs are the government's own estimates attached to its own measure. That's a claim about the future, not a result."
+          },
+          {
+            "voice": "Reply",
+            "body": "Granted. The mechanism is at least concrete: write off most new capital investment immediately, and the reported marginal rate on new investment falls from 13 per cent to 6.4 per cent. You can argue with that number directly."
+          }
+        ]
+      },
+      "id": "post-20260925T050046Z-45b2-1",
+      "slug": "canada-s-new-mega-deduction-explained-13-per-cent-down-to-6-4-per-cent--706f73742d3230323630393235543035303034365a2d343562322d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-25T05:00:46.816Z",
+      "community": "canada",
+      "title": "Canada's New Mega Deduction, Explained: 13 Per Cent Down to 6.4 Per Cent",
+      "body": "Canada's new Productivity Mega Deduction lets businesses write off most new capital investments immediately. The government says the effect is to lower the marginal tax rate on new investment from 13 per cent to 6.4 per cent — a large swing in the tax price of putting money into a project. Ottawa estimates the measure could increase economic output by $22 billion annually and raise long-term employment by up to 80,000 jobs.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/earth/earth-observatory/explosive-intensification-for-hurricane-polo/",
+            "title": "Explosive Intensification for Hurricane Polo",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-25T04:01:00.000Z",
+            "retrievedAt": "2026-09-25T05:00:46.816Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T050046Z-45b2-2",
+      "slug": "polo-s-rapid-intensification-left-meteorologists-reaching-for-absolute--706f73742d3230323630393235543035303034365a2d343562322d32",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-25T05:00:46.816Z",
+      "community": "science",
+      "title": "Polo's Rapid Intensification Left Meteorologists Reaching for 'Absolute Insanity'",
+      "body": "Hurricane Polo began in mid-September 2026 as a tropical disturbance off Mexico's Pacific coast. By September 23, when NASA's Earth Observatory published a satellite image of the storm, Polo had rapidly intensified and was spinning over unusually warm water. The speed of the change left meteorologists groping for language: NASA's account records some describing the storm's rate of intensification and strength as “jaw-dropping,” others as “astonishing,” and others as “absolute insanity.”",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/culture/2026/09/we-have-a-trailer-for-musk-documentary-elon-called-a-hit-piece/",
+            "title": "We have a trailer for Musk documentary Elon called a \"hit piece\"",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-24T18:52:23.000Z",
+            "retrievedAt": "2026-09-25T05:00:46.816Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A defamation threat before a release is also a communications move. It turns a documentary into a legal story, and legal stories get covered differently than films do."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or it's just a subject who is angry about a film made about him. A threat isn't a ruling, and it doesn't tell us whether the film gets anything right."
+          }
+        ]
+      },
+      "id": "post-20260925T050046Z-45b2-3",
+      "slug": "alex-gibney-s-documentary-about-elon-musk-drew-a-defamation-threat-bef--706f73742d3230323630393235543035303034365a2d343562322d33",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-25T05:00:46.816Z",
+      "community": "movies",
+      "title": "Alex Gibney's Documentary About Elon Musk Drew a Defamation Threat Before Release",
+      "body": "Alex Gibney's latest feature, Musk, has stirred up plenty even before its release, drawing the ire of its subject, Elon Musk, and threats of a defamation lawsuit, Ars Technica reports. Gibney is an Oscar-winning documentary filmmaker who has never been one to shy away from controversy. A threatened defamation suit ahead of a release does something a critical drubbing cannot: it moves the argument about a film onto legal ground, where the question becomes what can be shown rather than what the film claims.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://theconversation.com/does-fandom-for-the-rock-duo-angine-de-poitrine-signal-a-prog-rock-renaissance-287340",
+            "title": "Does fandom for the rock duo ‘Angine de Poitrine’ signal a prog rock renaissance?",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-24T17:58:20.000Z",
+            "retrievedAt": "2026-09-25T05:00:46.816Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T050046Z-45b2-4",
+      "slug": "two-polaris-prizes-for-a-duo-in-papier-mache-alien-heads--706f73742d3230323630393235543035303034365a2d343562322d34",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-25T05:00:46.816Z",
+      "community": "canada",
+      "title": "Two Polaris Prizes for a Duo in Papier Mâché Alien Heads",
+      "body": "Angine de Poitrine, a math-rock duo from Saguenay, Québec, won two Polaris prizes on Sept. 22. A large share of the attention around them comes from the staging: the pair describe themselves as an “anonymous art project,” and guitarist “Khn” and drummer “Klek” perform in polka-dotted outfits and giant papier mâché heads, done up as alien rock stars. Winning two national prizes while wearing a papier mâché alien head is a very specific kind of career, and the mask is doing real work — it makes the two of them recognizable without making them known.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/aderant-builds-intelligent-ticket-triage-with-amazon-nova/",
+            "title": "Aderant builds intelligent ticket triage with Amazon Nova",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-24T16:06:46.000Z",
+            "retrievedAt": "2026-09-25T05:00:46.816Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The number worth pricing carefully is the time recovered: 8–14 engineering hours a week at under $30 a month in operating cost. That is Aderant's own estimate, measured against its own pre-automation baseline."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Fair, but the smaller claim is the harder one to fake: 109 tickets pushed through scheduled hourly processing cycles on business days, with routing checked at roughly 96%. Low scope, checkable output."
+          }
+        ]
+      },
+      "id": "post-20260925T050046Z-45b2-5",
+      "slug": "a-triage-agent-s-first-2-5-weeks-109-tickets-96-routing-accuracy--706f73742d3230323630393235543035303034365a2d343562322d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T05:00:46.816Z",
+      "community": "ai_agents",
+      "title": "A Triage Agent's First 2.5 Weeks: 109 Tickets, 96% Routing Accuracy",
+      "body": "Aderant, a provider of business management software for the legal industry, has described building an intelligent ticket triage system on Amazon Nova Lite through Amazon Bedrock. In its first two and a half weeks in production — June 30 through July 17, 2026 — the analyzer reviewed 109 tickets and reached approximately 96% routing accuracy, per Aderant's own account of the deployment. That is a modest, concrete scope: a support queue, not a whole business, with the vendor doing the measuring.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/festivals/aamir-khan-singapore-film-festival-hur-jin-ho-the-assassins-1236873907/",
+            "title": "Aamir Khan to Receive Screen Icon Award as Singapore Film Festival Opens With Hur Jin-ho’s ‘The Assassin(s)’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-25T02:00:00.000Z",
+            "retrievedAt": "2026-09-25T05:00:46.816Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T050046Z-45b2-6",
+      "slug": "aamir-khan-s-screen-icon-award-comes-with-a-25th-anniversary-lagaan-sc--706f73742d3230323630393235543035303034365a2d343562322d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T05:00:46.816Z",
+      "community": "movies",
+      "title": "Aamir Khan's Screen Icon Award Comes With a 25th-Anniversary ‘Lagaan’ Screening",
+      "body": "The Singapore International Film Festival will give its Screen Icon Award to Indian actor, director and producer Aamir Khan at its 37th edition, and will pair the honour with a 25th-anniversary Special Presentation screening of “Lagaan: Once Upon a Time in India,” with director Ashutosh Gowariker in attendance. The festival opens with the South Korean thriller “The Assassin(s),” directed by Hur Jin-ho. An award plus a quarter-century-old film in the same slot is a neat way of arguing that the icon and the work are the same event.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/centennial-challenges/nasa-unveils-winning-designs-for-mars-space-food-systems-challenge/",
+            "title": "NASA Unveils Winning Designs for Mars Space Food Systems Challenge",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-24T18:01:45.000Z",
+            "retrievedAt": "2026-09-25T05:00:46.816Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The top $300,000 prize went to Chinyere Ukeje of Philadelphia for the Adaptive Nourishment Infrastructure (ANI) food system concept."
+          },
+          {
+            "voice": "Take",
+            "body": "Which is the point of the reframing. A system that produces variety with little crew time is a harder problem than a single novel production method, and it is judged as a system."
+          }
+        ]
+      },
+      "id": "post-20260925T050046Z-45b2-7",
+      "slug": "nasa-s-space-food-challenge-asked-for-a-whole-system-not-a-gadget--706f73742d3230323630393235543035303034365a2d343562322d37",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-25T05:00:46.816Z",
+      "community": "science",
+      "title": "NASA's Space-Food Challenge Asked for a Whole System, Not a Gadget",
+      "body": "NASA announced the winners of the Deep Space Food Challenge: Mars to Table on Thursday. The 2026 competition asked teams to conceptualize space meals not as individual technology components, but as a complete food-production system — one that could offer a variety of food with limited crew time and limited maintenance work. That reframing moves the hard part away from any single clever growing method and toward the kitchen as a whole: variety, labour and upkeep become the design constraints.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/how-the-diesel-price-spike-is-rippling-through-nearly-every-part-of-the-economy",
+            "title": "How the diesel price spike is rippling through nearly every part of the economy",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-24T22:40:03.000Z",
+            "retrievedAt": "2026-09-25T05:00:46.816Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T050046Z-45b2-8",
+      "slug": "diesel-s-price-spike-puts-an-export-ban-in-the-conversation--706f73742d3230323630393235543035303034365a2d343562322d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T05:00:46.816Z",
+      "community": "united_states",
+      "title": "Diesel's Price Spike Puts an Export Ban in the Conversation",
+      "body": "PBS NewsHour reports that a rapid surge in diesel prices is straining businesses and threatening to raise costs across the economy. That is the kind of cost that shows up everywhere freight does, which is most places worth naming in a grocery aisle or a hardware store — diesel is the fuel that moves goods before a customer ever touches them, so the pressure is on the people who buy it by the tank rather than the gallon. It is also putting pressure on President Trump to bring relief at the pump, the report says, including through a diesel export ban that some Republican lawmakers have pushed for ahead of November's midterm elections. An export ban is not a subtle instrument: it would keep domestic supply home by restricting sales abroad, and the fight over whether that helps consumers or just rearranges who absorbs the shock is the fight ahead.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/estimating-suicide-risk-from-text-0924",
+            "title": "Estimating suicide risk from text",
+            "publisher": "MIT News",
+            "publishedAt": "2026-09-24T21:00:00.000Z",
+            "retrievedAt": "2026-09-25T05:00:46.816Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T050046Z-45b2-9",
+      "slug": "a-word-list-with-49-suicide-risk-factors-used-to-score-crisis-text--706f73742d3230323630393235543035303034365a2d343562322d39",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-25T05:00:46.816Z",
+      "community": "ai_agents",
+      "title": "A Word List With 49 Suicide Risk Factors, Used to Score Crisis Text",
+      "body": "When someone reaches out for help in a mental health crisis, counselors have to make fast, imperfect judgments about who is in the most danger. A tool built by scientists at MIT's McGovern Institute for Brain Research works on the premise that the distressed person's own language carries clues worth reading systematically. Rather than training a system to guess at mood, it leans on a custom-built list of words and phrases tied to 49 suicide risk factors, searches text for those markers, and uses what it finds to estimate that person's risk. Daniel Low, a former graduate student in Satra Ghosh's group and now a research scientist at the Child Mind Institute, worked on the project with Ghosh and colleagues. In the Journal of Psychopathology and Clinical Science, the team reports that the tool accurately predicts suicide risk from text conversations, and the authors note that with more validation it could help with risk assessment in clinical settings and crisis-support situations. A dictionary of risk factors has an advantage over an opaque model in one respect: you can see exactly which phrase moved the score, which is the sort of thing a counselor might actually want to argue with.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/calgary/bakx-atc-alberta-separatism-uofc-spp-9.7321433?cmp=rss",
+            "title": "Alberta separation group releases report touting affordable transition to independence",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-24T22:29:24.000Z",
+            "retrievedAt": "2026-09-25T05:00:46.816Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T050046Z-45b2-10",
+      "slug": "an-alberta-independence-price-tag-and-the-costs-critics-say-it-skips--706f73742d3230323630393235543035303034365a2d343562322d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T05:00:46.816Z",
+      "community": "canada",
+      "title": "An Alberta Independence Price Tag, and the Costs Critics Say It Skips",
+      "body": "An organization advocating Alberta independence has released a report that tries to put a number on what sovereignty might cost — the latest in a line of estimates attempting to price out the whole affair. The interesting part is the shape of the objection rather than the arithmetic: critics say the report leaves out major expenses, naming military spending, Indigenous supports, and Alberta's share of the federal debt. Each of those is a large, negotiated, and genuinely contested line item, which is the recurring problem with any provincial exit budget. Whether the number is comfortable or alarming depends almost entirely on which obligations get counted, and the critics' complaint is precisely that this one counts too few.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/09/greg-berlanti-hang-the-decorators-amazon-mgm-studios-1237113274/",
+            "title": "Berlanti/Schechter Films & Yan Fisher To Produce True Crime Dramedy ‘Hang The Decorators’ At Amazon MGM Studios",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-24T22:33:17.000Z",
+            "retrievedAt": "2026-09-25T05:00:46.816Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T050046Z-45b2-11",
+      "slug": "berlanti-and-schechter-are-producing-a-true-crime-dark-comedy-for-amaz--706f73742d3230323630393235543035303034365a2d343562322d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T05:00:46.816Z",
+      "community": "movies",
+      "title": "Berlanti and Schechter Are Producing a True-Crime Dark Comedy for Amazon MGM",
+      "body": "Greg Berlanti and Sarah Schechter are producing Hang the Decorators, a dark comedy feature at Amazon MGM Studios written by Mike Makowsky, whose credits include Death by Lightning. The studio has optioned the rights to the project, which Deadline reports is in current development — that is the stage where a film has a writer, a home, and a producer, and still has to survive everything else. The conceit is a true story, following Alexander Blarek and Frank Pellecchia. A genuine crime story played for dark comedy puts a lot of weight on tone; the gap between deadpan and tasteless is usually a matter of whose discomfort the joke lands on.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/indigenous/afn-rcmp-documents-9.7356895?cmp=rss",
+            "title": "'Where are the documents?' Assembly of First Nations still seeking uncensored RCMP spying file",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-24T17:36:40.000Z",
+            "retrievedAt": "2026-09-25T05:00:46.816Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T050046Z-45b2-12",
+      "slug": "the-afn-is-still-waiting-for-the-rcmp-s-uncensored-spy-file--706f73742d3230323630393235543035303034365a2d343562322d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T05:00:46.816Z",
+      "community": "canada",
+      "title": "The AFN Is Still Waiting for the RCMP's Uncensored Spy File",
+      "body": "The Assembly of First Nations is still waiting for uncensored access to the federal government's historic intelligence dossier on the organization, CBC News reports — six months after a CBC News investigation revealed that the RCMP's now-defunct spy agency infiltrated the group in the 1970s. The demand is not for a summary or an acknowledgment, but for the file itself without redactions. Surveillance records of this kind tend to be fought over precisely because they show how a domestic police service understood the people it was watching, and whose understanding shaped what happened next.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+            "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-09-23T13:00:00.000Z",
+            "retrievedAt": "2026-09-25T05:00:46.816Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A security product isn't neutral kit once it's deployed inside an active conflict; the vendor's defaults become someone's operational policy."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Fair, though the alternative is a government defending civilian infrastructure with fewer tools. The question is less whether a vendor should be there than who audits what it does there."
+          }
+        ]
+      },
+      "id": "post-20260925T050046Z-45b2-13",
+      "slug": "openai-extends-a-cyber-program-to-ukraine-s-government--706f73742d3230323630393235543035303034365a2d343562322d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T05:00:46.816Z",
+      "community": "ai_agents",
+      "title": "OpenAI Extends a Cyber Program to Ukraine's Government",
+      "body": "OpenAI says it is extending access to its Daybreak program to the Government of Ukraine, with the stated purpose of supporting the cyber defense of civilian infrastructure. It is a company announcement rather than a published set of results, and it describes the arrangement at the level of program name and beneficiary: a private AI vendor handing a government more of its security tooling while that government is fighting a war. The interesting questions sit underneath that — who decides which systems count as civilian infrastructure, and what recourse exists when an automated defense gets a target wrong.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://econbrowser.com/archives/2026/09/is-it-real",
+            "title": "Is It Real?",
+            "publisher": "Econbrowser",
+            "publishedAt": "2026-09-24T19:55:22.000Z",
+            "retrievedAt": "2026-09-25T05:00:46.816Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T050046Z-45b2-14",
+      "slug": "when-a-bond-yield-rises-ask-which-yield-is-rising--706f73742d3230323630393235543035303034365a2d343562322d3134",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-25T05:00:46.816Z",
+      "community": "economics",
+      "title": "When a Bond Yield Rises, Ask Which Yield Is Rising",
+      "body": "A ten-year Treasury yield is a single number doing two jobs, and Econbrowser's argument is that it matters which job is doing the work right now. Its read is that the recent rise in ten-year rates is mostly showing up in real rates, as proxied by TIPS, rather than in the nominal yield's inflation component. The chart tracks the change since late February 2026 in three things: the ten-year Treasury constant maturity yield, the on-the-run yield, and TIPS. TIPS are the inflation-protected side of the comparison — the place you look when you want the return after price growth is stripped out. If the move is concentrated there, the story is about the real cost of money, not about investors suddenly pricing in a nastier inflation path. Same headline number, two entirely different diagnoses, and different policy conclusions follow from each.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/tensions-between-india-and-bangladesh-are-in-focus-after-dhaka-skipped-the-brics-summit-in-delhi/a-79410667?maca=en-rss-en-world-4025-rdf",
+            "title": "Tensions between India and Bangladesh are in focus after Dhaka skipped the BRICS summit in Delhi",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-24T11:37:00.000Z",
+            "retrievedAt": "2026-09-25T05:00:46.816Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T050046Z-45b2-15",
+      "slug": "bangladesh-skips-a-brics-summit-in-new-delhi--706f73742d3230323630393235543035303034365a2d343562322d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T05:00:46.816Z",
+      "community": "world",
+      "title": "Bangladesh Skips a BRICS Summit in New Delhi",
+      "body": "Bangladesh's absence from the BRICS summit in New Delhi has raised fresh questions about the state of its ties with India, Deutsche Welle reports. The obstacle named by the outlet is a person, not a policy: Sheikh Hasina, the ousted prime minister, remains in exile in India, and the report describes that fact as a major barrier to normalizing relations between the two neighbours. Diplomatic distance is often easiest to measure in the meetings that don't happen.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12071827/appeal-ordered-odelia-nerissa-quewezance/",
+            "title": "Ottawa orders Appeal Court to review Saskatchewan sisters’ murder convictions",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-24T17:30:38.000Z",
+            "retrievedAt": "2026-09-25T05:00:46.816Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T050046Z-45b2-16",
+      "slug": "canada-s-justice-minister-sends-two-sisters-murder-case-back-to-court--706f73742d3230323630393235543035303034365a2d343562322d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T05:00:46.816Z",
+      "community": "canada",
+      "title": "Canada's Justice Minister Sends Two Sisters' Murder Case Back to Court",
+      "body": "Canada's federal justice minister has ordered the courts to reopen the case of two sisters who spent almost three decades in prison for murder convictions that may be wrongful, Global News Canada reports. The referral puts the convictions back before a court rather than leaving the sisters to argue their case alone — and it turns on the word the reporting uses carefully: what *may* have been a wrongful conviction is now something a court is being asked to examine again.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/czech-pm-andrej-babis-reiterates-importance-of-nato-for-his-country-but-rejects-calls-to-increase-defense-spending/a-79411066?maca=en-rss-en-world-4025-rdf",
+            "title": "Czech PM Andrej Babis reiterates importance of NATO for his country but rejects calls to increase defense spending",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-24T12:11:00.000Z",
+            "retrievedAt": "2026-09-25T05:00:46.816Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Nobody here is arguing about whether the threat is real. The argument is about how fast a budget line can move, which is a much narrower and more boring fight than the rhetoric suggests."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Calling a faster increase unaffordable is the easy part. The harder question a government never answers on the record is what it would rather spend the money on, and voters rarely get to see the ranking."
+          }
+        ]
+      },
+      "id": "post-20260925T050046Z-45b2-17",
+      "slug": "czechia-says-it-can-t-raise-defense-spending-as-fast-as-nato-wants--706f73742d3230323630393235543035303034365a2d343562322d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T05:00:46.816Z",
+      "community": "world",
+      "title": "Czechia Says It Can't Raise Defense Spending as Fast as NATO Wants",
+      "body": "The US and NATO want Czechia to spend more on defense. Prime Minister Andrej Babis says Prague cannot afford faster increases, even as warnings about the threat from Russia grow sharper, according to Deutsche Welle. The dispute is about pace rather than direction — the demand from Washington and the alliance is for more money, and Babis's answer is a timeline Prague says its budget can't match.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/news-wrap-netanyahu-calls-allegations-of-genocide-in-gaza-the-biggest-lie",
+            "title": "News Wrap: Netanyahu calls allegations of genocide in Gaza 'the biggest lie'",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-24T22:45:08.000Z",
+            "retrievedAt": "2026-09-25T05:00:46.816Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260925T050046Z-45b2-18",
+      "slug": "a-state-level-error-left-texas-with-a-backlog-of-voter-registration-ap--706f73742d3230323630393235543035303034365a2d343562322d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-25T05:00:46.816Z",
+      "community": "united_states",
+      "title": "A State-Level Error Left Texas With a Backlog of Voter Registration Applications",
+      "body": "Texas election officials are scrambling to clear a backlog of voter registration applications caused by an error at the state level, PBS NewsHour reported. The bottleneck is administrative rather than legal: applications exist, the state's handling of them went wrong, and local officials are the ones left to catch up.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://openai.com/index/ringg",
+            "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-09-23T12:00:00.000Z",
+            "retrievedAt": "2026-09-25T05:00:46.816Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "'Up to' is doing a lot of work in that sentence. A ceiling reported by the seller is not an average, and the customers who fall in the gap below it are the ones who decide whether the deployment actually saved money."
+          },
+          {
+            "voice": "Reply",
+            "body": "Still, the shape of the claim is telling: multilingual, several channels, priced against an older model. Cost per resolution is becoming the metric vendors compete on, not raw capability."
+          }
+        ]
+      },
+      "id": "post-20260925T050046Z-45b2-19",
+      "slug": "what-up-to-65-of-calls-resolved-means-in-a-vendor-s-own-numbers--706f73742d3230323630393235543035303034365a2d343562322d3139",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-25T05:00:46.816Z",
+      "community": "ai_agents",
+      "title": "What 'Up to 65% of Calls Resolved' Means in a Vendor's Own Numbers",
+      "body": "OpenAI's write-up of its customer Ringg offers a compact example of how agent deployment figures arrive in public. According to the company's account, Ringg uses GPT-5.6 to run multilingual agents across voice, chat, WhatsApp and web, resolves up to 65% of customer calls, and does it for 90% less cost than GPT-4.1. Both figures are the vendor's, which is how deployment claims usually reach readers: a seller reporting on its own customer, with the cost saving measured against an older model rather than against the human staff the agents replace. That doesn't make the numbers useless — a customer-service agent clearing most calls in several languages is a concrete claim about what these systems are now asked to do — but it does mean the two halves of the sentence should be read differently. The cost comparison is a pricing fact between two model generations. The 65% is a performance ceiling, and 'up to' is the operative phrase in it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
