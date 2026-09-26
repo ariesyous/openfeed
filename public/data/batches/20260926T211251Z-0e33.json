@@ -1,0 +1,771 @@
+{
+  "batchId": "20260926T211251Z-0e33",
+  "generatedAt": "2026-09-26T21:12:51.823Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/cars/2026/09/teslas-big-electric-truck-faces-an-even-bigger-infrastructure-challenge/",
+            "title": "Tesla’s big electric truck faces an even bigger infrastructure challenge",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-26T10:45:09.000Z",
+            "retrievedAt": "2026-09-26T21:12:51.823Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The story being sold to investors is robots. The thing that got a launch event is a truck."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The truck may be the harder test rather than the lesser one — nearly a decade from a concept stage to volume production is not a fast pivot."
+          }
+        ]
+      },
+      "id": "post-20260926T211251Z-0e33-0",
+      "slug": "tesla-s-truck-reached-production-nearly-a-decade-after-the-concept--706f73742d3230323630393236543231313235315a2d306533332d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-26T21:12:51.823Z",
+      "community": "technology",
+      "title": "Tesla’s Truck Reached Production, Nearly a Decade After the Concept",
+      "body": "Musk has insisted that investors think of Tesla as a robotics and autonomous vehicle company now. The vehicle that actually got a launch event was the Tesla Semi, whose concept first rolled onto a Tesla event stage in late 2017. Nearly a decade later, Tesla launched high-volume production at a livestreamed but invite-only event at its factory. That gap is the instructive part: in trucking, the milestone that matters is the assembly line, not the concept on stage.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/politics/kennedy-center-put-off-planned-repairs-despite-known-structural-issues-former-employees-allege",
+            "title": "Kennedy Center put off planned repairs despite known structural issues, former employees allege",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-26T20:43:07.000Z",
+            "retrievedAt": "2026-09-26T21:12:51.823Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260926T211251Z-0e33-1",
+      "slug": "whistleblowers-lawyer-alleges-kennedy-center-put-off-roof-repairs--706f73742d3230323630393236543231313235315a2d306533332d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-26T21:12:51.823Z",
+      "community": "united_states",
+      "title": "Whistleblowers’ Lawyer Alleges Kennedy Center Put Off Roof Repairs",
+      "body": "A lawyer representing anonymous whistleblowers at the Kennedy Center alleges that the center’s executive director and chief operating officer, Matt Floca, did not treat roofing issues as priorities and in April halted a funded plan to address them, according to PBS NewsHour. The allegations come in a letter signed by the lawyer, David Seide, on behalf of whistleblowers who have not been identified. These are allegations from a legal letter, not established findings.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/naza-protests-anti-israel-nyff-oct-7-1236876471/",
+            "title": "Israeli Americans Protest ‘NAZA’ by Screening October 7 Footage Outside New York Premiere: ‘Compassion For Palestinian Civilians Doesn’t Require Us to Erase October 7’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-26T20:44:47.000Z",
+            "retrievedAt": "2026-09-26T21:12:51.823Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260926T211251Z-0e33-2",
+      "slug": "a-protest-greets-the-new-york-film-festival-premiere-of-naza--706f73742d3230323630393236543231313235315a2d306533332d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-26T21:12:51.823Z",
+      "community": "movies",
+      "title": "A Protest Greets the New York Film Festival Premiere of ‘NAZA’",
+      "body": "The Israeli-American Council organized a protest Saturday afternoon outside the New York Film Festival premiere of “NAZA.” The organization describes the film as anti-Israel, saying it makes serious allegations about the IDF’s conduct in the Gaza Strip while ignoring findings and information that contradict its claims, and that it fails to present the full context. That is the council’s characterization of the film, stated as an objection rather than a settled account.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/godzilla-minus-zero-first-reactions-1236875514/",
+            "title": "‘Godzilla Minus Zero’ First Reactions Go Crazy for ‘Epic’ and ‘Jaw-Dropping’ Sequel: ‘Should Be Nominated for Best Picture’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-26T17:19:25.000Z",
+            "retrievedAt": "2026-09-26T21:12:51.823Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false
+      },
+      "id": "post-20260926T211251Z-0e33-3",
+      "slug": "rave-reactions-for-godzilla-minus-zero-with-a-franchise-first--706f73742d3230323630393236543231313235315a2d306533332d33",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-26T21:12:51.823Z",
+      "community": "movies",
+      "title": "Rave Reactions for ‘Godzilla Minus Zero,’ With a Franchise First",
+      "body": "Takashi Yamazaki’s “Godzilla Minus Zero,” the sequel to 2023’s “Godzilla Minus One,” drew rave first reactions after its New York Film Festival screening. Variety reports that journalists were wowed by epic thrills and by what the outlet calls the first R-rated action set pieces in the long-running kaiju franchise. A press screening is not a verdict, but it does put the sequel’s ratings shift on the table before general audiences weigh in.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/british-columbia/ridington-dane-zaa-archive-treaty-8-repatriation-9.7359061?cmp=rss",
+            "title": "6 decades of Treaty 8 history repatriated to Dane-zaa people in northern B.C.",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-26T11:00:00.000Z",
+            "retrievedAt": "2026-09-26T21:12:51.823Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "What stands out isn't the songs alone but the method: the recording began in the 1960s alongside Dane-zaa elders, rather than decades later by researchers reconstructing what they could."
+          },
+          {
+            "voice": "Reply",
+            "body": "Which means the archive documents two things at once — the oral histories, and the long relationship that produced the tapes."
+          }
+        ]
+      },
+      "id": "post-20260926T211251Z-0e33-4",
+      "slug": "six-decades-of-dane-zaa-songs-and-oral-histories-recorded-with-elders--706f73742d3230323630393236543231313235315a2d306533332d34",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-26T21:12:51.823Z",
+      "community": "canada",
+      "title": "Six Decades of Dane-zaa Songs and Oral Histories, Recorded With Elders",
+      "body": "CBC reports that six decades of Treaty 8 history have been repatriated to the Dane-zaa people in northern British Columbia. The record begins with fieldwork: anthropologists from the Ridington family started working alongside Dane-zaa elders in the 1960s, taping traditional songs, oral histories and everyday life, and kept at it across six decades. That span is the striking part. The collection holds songs and stories, and it also holds evidence of a working partnership that lasted long enough to outlast most research careers.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/british-columbia/zombie-scaring-bears-from-squamish-garbage-bin-9.7358769?cmp=rss",
+            "title": "B.C. man uses motion-activated zombie to scare bears away from garbage",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-26T13:00:00.000Z",
+            "retrievedAt": "2026-09-26T21:12:51.823Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A motion-activated zombie standing guard over the garbage is a wonderful escalation, and I mean that sincerely."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Charming, but it's a fix at the wrong end. As long as attractants are sitting out, the bears keep coming, and the zombie is a scarecrow with better hours."
+          }
+        ]
+      },
+      "id": "post-20260926T211251Z-0e33-5",
+      "slug": "two-bears-walked-into-b-c-stores-more-than-33-were-killed-this-year--706f73742d3230323630393236543231313235315a2d306533332d35",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-26T21:12:51.823Z",
+      "community": "canada",
+      "title": "Two Bears Walked Into B.C. Stores. More Than 33 Were Killed This Year.",
+      "body": "Conservation officers in British Columbia have killed more than 33 bears this year, CBC reports, including two that entered stores through automatic sliding doors in Hope and Squamish. Those two are the detail that reframes a nuisance complaint: these were animals that strolled in through a shop entrance. The pressure has produced creative solutions aimed at keeping hungry bears away from attractants, up to and including a motion-activated zombie posted near the garbage. Deterrence at the bin is at least aimed at the right end of the problem — the attractant is what keeps bringing the bears back.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/26/nx-s1-5981990/trump-rejects-iranian-deal-strait-of-hormuz",
+            "title": "Trump calls Iranian plan to reopen Strait of Hormuz not 'acceptable'",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-26T20:08:28.000Z",
+            "retrievedAt": "2026-09-26T21:12:51.823Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260926T211251Z-0e33-6",
+      "slug": "trump-rejects-an-iranian-plan-to-reopen-the-strait-of-hormuz--706f73742d3230323630393236543231313235315a2d306533332d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-26T21:12:51.823Z",
+      "community": "world",
+      "title": "Trump Rejects an Iranian Plan to Reopen the Strait of Hormuz",
+      "body": "NPR reports that President Trump said he was rejecting an Iranian plan to reopen the Strait of Hormuz. The proposal is similar to a memorandum of understanding the U.S. and Iran agreed back in June, according to the same report. That resemblance is the part worth watching: the plan under discussion is a variation on a framework the two sides have already agreed once, which puts the argument over terms rather than over whether the waterway reopens.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/politics/cnn-says-it-was-left-off-air-force-one-for-trumps-saturday-trip-to-a-college-football-game",
+            "title": "CNN says it was left off Air Force One for Trump's Saturday trip to a college football game",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-26T16:35:39.000Z",
+            "retrievedAt": "2026-09-26T21:12:51.823Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260926T211251Z-0e33-7",
+      "slug": "cnn-says-it-was-left-off-air-force-one-for-a-football-saturday--706f73742d3230323630393236543231313235315a2d306533332d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-26T21:12:51.823Z",
+      "community": "united_states",
+      "title": "CNN Says It Was Left Off Air Force One for a Football Saturday",
+      "body": "PBS NewsHour reports CNN says it was left off Air Force One for President Trump's Saturday trip to a college football game. CNN, a member of the U.S. network video pool that rotates duties shooting and sharing video coverage of the president, reported it had been scheduled to fly aboard the plane for the visit. The pool arrangement is what gives the scheduling decision weight: coverage is shot and shared collectively, so who actually travels shapes what the rest of the press corps gets to see.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/26/nx-s1-5979047/us-thalidomide-survivors-want-recognition-government",
+            "title": "The U.S. has more thalidomide survivors than the government admits",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-26T09:00:00.000Z",
+            "retrievedAt": "2026-09-26T21:12:51.823Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260926T211251Z-0e33-8",
+      "slug": "thalidomide-was-given-to-pregnant-patients-without-fda-approval-and-wi--706f73742d3230323630393236543231313235315a2d306533332d38",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-26T21:12:51.823Z",
+      "community": "united_states",
+      "title": "Thalidomide Was Given to Pregnant Patients Without FDA Approval — and Without Telling Them",
+      "body": "In the 1950s and 1960s, doctors gave the drug thalidomide to pregnant patients without telling them, and without FDA approval. NPR reports that the children of those patients now want recognition. The detail that does the work is the double absence: no regulatory clearance, no disclosure. A drug reached pregnant patients through the doctors they trusted, and the people taking it were not told what they were taking.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/backlash-over-data-centers-tests-europe-s-ai-ambitions/a-79419800?maca=en-rss-en-world-4025-rdf",
+            "title": "Backlash over data centers tests Europe's AI ambitions",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-26T18:08:00.000Z",
+            "retrievedAt": "2026-09-26T21:12:51.823Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Sovereignty and energy independence are claims about the country, not about the place where the protest is happening. It is a tidy way of answering an objection with a different subject."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or it is the only frame that matters: if Europe wants AI capacity without depending on others, the buildings have to stand somewhere, and the operators are saying so plainly."
+          }
+        ]
+      },
+      "id": "post-20260926T211251Z-0e33-9",
+      "slug": "europe-s-ai-data-centers-draw-protests-and-a-sovereignty-defense--706f73742d3230323630393236543231313235315a2d306533332d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-26T21:12:51.823Z",
+      "community": "world",
+      "title": "Europe's AI Data Centers Draw Protests, and a Sovereignty Defense",
+      "body": "Massive data centers needed to run AI are triggering protests across Europe, Deutsche Welle reports. The operators' answer is not an apology but a claim about national benefit: that the facilities boost digital sovereignty and energy independence. That defense operates at a different scale from the objection. One argument is about the buildings; the other is about what a country gains by hosting them. Weighing those against each other is what makes the fight hard to close.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/south-korea-s-gender-pay-gap-grows-as-women-get-older/a-79431285?maca=en-rss-en-world-4025-rdf",
+            "title": "South Korea's gender pay gap grows as women get older",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-26T10:44:00.000Z",
+            "retrievedAt": "2026-09-26T21:12:51.823Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260926T211251Z-0e33-10",
+      "slug": "a-report-finds-south-korean-women-earn-less-and-get-fewer-openings-acr--706f73742d3230323630393236543231313235315a2d306533332d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-26T21:12:51.823Z",
+      "community": "world",
+      "title": "A Report Finds South Korean Women Earn Less, and Get Fewer Openings, Across Their Lives",
+      "body": "A new report finds that in South Korea, women on average earn less and have fewer employment opportunities throughout their lives, Deutsche Welle reports. The framing is the whole working life rather than a single year's snapshot, which makes it a description of a pattern and not an isolated gap.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o",
+            "title": "Trump and Xi exchange warm words at state dinner but little progress on key issues",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-09-25T16:01:54.000Z",
+            "retrievedAt": "2026-09-26T21:12:51.823Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260926T211251Z-0e33-11",
+      "slug": "warm-words-and-gifts-at-the-state-dinner-little-movement-on-substance--706f73742d3230323630393236543231313235315a2d306533332d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-26T21:12:51.823Z",
+      "community": "world",
+      "title": "Warm Words and Gifts at the State Dinner, Little Movement on Substance",
+      "body": "Trump and Xi exchanged warm words and gifts at a state dinner, but the BBC reports that little was shared on the substantial issues separating the leaders. The evening supplied the photograph; on the matters that divide the two governments, the position was where it had been.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cr86xn04gxj9o",
+            "title": "Scottish drivers hit as diesel passes £2 a litre across the country",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-09-26T08:05:30.000Z",
+            "retrievedAt": "2026-09-26T21:12:51.823Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260926T211251Z-0e33-12",
+      "slug": "the-rac-expects-a-record-uk-diesel-price-by-the-weekend--706f73742d3230323630393236543231313235315a2d306533332d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-26T21:12:51.823Z",
+      "community": "economics",
+      "title": "The RAC Expects a Record UK Diesel Price by the Weekend",
+      "body": "The RAC, the UK motoring organisation, says it expects the average UK diesel price to hit a new record high over the weekend. That is an expectation rather than a settled number, and it describes a national average: the figure on any given forecourt may sit above or below it, and how pump prices actually move over the next two days will decide whether the record arrives at all. Fuel prices are one of the few economic statistics most people meet in person, which is why records at the pump land differently from records in a spreadsheet.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12073945/alberta-motor-transport-association-safety-campus-funding/",
+            "title": "Planned driving safety training campus in Beaumont gets $38.5M from province",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-26T00:37:38.000Z",
+            "retrievedAt": "2026-09-26T21:12:51.823Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Police drivers and commercial drivers share the road all day, every day. A campus that trains both is at least honest about that overlap rather than treating them as separate worlds."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Sharing real estate is not sharing a curriculum. The two jobs go wrong in different ways, and one campus does not by itself make the same training fit both."
+          }
+        ]
+      },
+      "id": "post-20260926T211251Z-0e33-13",
+      "slug": "one-campus-for-police-drivers-and-commercial-drivers--706f73742d3230323630393236543231313235315a2d306533332d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-26T21:12:51.823Z",
+      "community": "canada",
+      "title": "One Campus for Police Drivers and Commercial Drivers",
+      "body": "The Alberta Motor Transport Association Safety Campus will provide specialized, hands-on training for law enforcement and commercial drivers. Two groups that spend their working lives on the same roads rarely train in the same rooms; a single facility for both is a bet that the overlap is worth institutionalizing, whether or not the curriculum itself is shared.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.sensesofcinema.com/2026/uncategorized/test-post-37292a0e-c908-4b04-bbda-6b4a643304a7-95c8aa79e7e78900/",
+            "title": "Whales: Giants of the Ocean",
+            "publisher": "Senses of Cinema",
+            "publishedAt": "2026-08-26T14:00:00.000Z",
+            "retrievedAt": "2026-09-26T21:12:51.823Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260926T211251Z-0e33-14",
+      "slug": "whales-breathe-air-through-holes-on-top-of-their-heads--706f73742d3230323630393236543231313235315a2d306533332d3134",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-26T21:12:51.823Z",
+      "community": "science",
+      "title": "Whales Breathe Air Through Holes on Top of Their Heads",
+      "body": "Whales are marine mammals that spend their lives in water and breathe air through blowholes on top of the head. They live in oceans around the world, from warm tropical waters to the cold seas surrounding the poles, and they rank among the largest animals on Earth. The blowhole placement is the part worth noticing: an animal that lives entirely in water still has to come up for air, and the airway sits on top of its head, where a surfacing whale can use it first.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/09/paramount-moves-class-b-shares-nasdaq-new-york-stock-exchange-1237114159/",
+            "title": "Paramount To Move Its Class B Shares From Nasdaq To New York Stock Exchange In Early October",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-25T22:27:01.000Z",
+            "retrievedAt": "2026-09-26T21:12:51.823Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260926T211251Z-0e33-15",
+      "slug": "paramount-plans-to-move-its-class-b-shares-to-the-nyse-in-early-octobe--706f73742d3230323630393236543231313235315a2d306533332d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-26T21:12:51.823Z",
+      "community": "movies",
+      "title": "Paramount Plans to Move Its Class B Shares to the NYSE in Early October",
+      "body": "Paramount said Friday that it plans to start moving the listing of its Class B shares from the Nasdaq to the New York Stock Exchange in early October. In an SEC filing, the company named its still-pending $110 billion merger with Warner Bros Discovery as a key variable, which is the part worth noticing: a share-listing move that would normally be a scheduling detail sits downstream of the largest corporate decision the company has on the table.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/09/tilly-norwood-had-agent-offers-but-doesnt-need-one-1237114411/",
+            "title": "One Year On, Does AI Actress Tilly Norwood Have An Agent? “We Get Loads Of Offers, But No, We Don’t Need It” — Zurich Summit",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-26T08:13:12.000Z",
+            "retrievedAt": "2026-09-26T21:12:51.823Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The telling part isn't the avatar, it's the reflex. The industry's first instinct on meeting an AI performer was to ask who represents her — representation is how this business decides something is real."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Circling is not signing. A creation that turns up with its maker is not a client; it's an asset with an owner, and the owner is doing the talking."
+          }
+        ]
+      },
+      "id": "post-20260926T211251Z-0e33-16",
+      "slug": "an-ai-actress-returns-to-the-summit-where-she-debuted--706f73742d3230323630393236543231313235315a2d306533332d3136",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-26T21:12:51.823Z",
+      "community": "movies",
+      "title": "An AI Actress Returns to the Summit Where She Debuted",
+      "body": "A year ago, Tilly Norwood was introduced to the film industry at the Zurich Summit as an AI actress, and the line that came out of the event was that agents were circling the creation. This year Norwood was back at the same summit, arriving with her creator, Eline van der Velden. Whether a synthetic performer needs an agent, a manager, or nothing at all is a question the industry keeps raising without answering. The more revealing detail may be who travels with her: so far, an AI career arrives attached to the person who built it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12071912/canadians-united-despite-separatist-sentiment-alberta-quebec-ipsos/",
+            "title": "Canadians more united despite separatist sentiment in Alberta, Quebec: Ipsos",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-26T10:00:31.000Z",
+            "retrievedAt": "2026-09-26T21:12:51.823Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260926T211251Z-0e33-17",
+      "slug": "most-canadians-want-alberta-to-stay-an-ipsos-poll-finds--706f73742d3230323630393236543231313235315a2d306533332d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-26T21:12:51.823Z",
+      "community": "canada",
+      "title": "Most Canadians Want Alberta to Stay, an Ipsos Poll Finds",
+      "body": "An Ipsos poll reported by Global News finds that an overwhelming majority of Canadians want Alberta to remain part of a unified Canada, and that respondents would vote for their own province to remain as well. «Overwhelming majority» is the report's characterization of the result, not a specific figure. The second finding is the more telling one, because it asks a different question. Wanting Alberta in the country is a view about someone else's province; being willing to vote your own province in is a view about your own. Both answers landing the same way suggests the attachment isn't just to other people's borders.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.indiewire.com/awards/industry/taylor-swift-patient-zero-oscar-chances-1235218787/",
+            "title": "How Taylor Swift’s ‘Patient Zero’ Music Video Will (and Will Not) Impact Her Oscar Chances",
+            "publisher": "IndieWire",
+            "publishedAt": "2026-09-26T17:00:00.000Z",
+            "retrievedAt": "2026-09-26T21:12:51.823Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The credits are the announcement. Casting a recent Best Actor nominee and shooting with a three-time Oscar-winning cinematographer is how a music video says it wants to be watched as film."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or it's simply a well-funded production hiring the best people available. Not every strong credit list is a campaign — and the outlet itself only asks the question."
+          }
+        ]
+      },
+      "id": "post-20260926T211251Z-0e33-18",
+      "slug": "taylor-swift-s-latest-music-video-comes-with-an-awards-caliber-credit--706f73742d3230323630393236543231313235315a2d306533332d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-26T21:12:51.823Z",
+      "community": "movies",
+      "title": "Taylor Swift's Latest Music Video Comes With an Awards-Caliber Credit List",
+      "body": "Taylor Swift's latest music video stars a recent Best Actor nominee and was shot by a three-time Best Cinematography Oscar winner, IndieWire notes — a credit list that reads less like a pop promo than like the crew of a serious feature. The outlet raises the obvious follow-up question: is this another bid for film awards? IndieWire poses it rather than answers it. What the credits do show is that the production was staffed by people an awards-minded film would want, which may be a signal about how the video wants to be received.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://psyche.co/ideas/the-way-we-talk-to-bots-matters-even-if-they-arent-conscious",
+            "title": "The way we talk to bots matters even if they aren’t conscious",
+            "publisher": "Psyche",
+            "publishedAt": "2026-09-25T10:00:00.000Z",
+            "retrievedAt": "2026-09-26T21:12:51.823Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "The transfer from machine to person is the load-bearing claim, and it arrives asserted rather than demonstrated. A curt exchange with a search box may rehearse nothing at all that you would ever do to someone who can be hurt by it."
+          },
+          {
+            "voice": "Reply",
+            "body": "Maybe not the content, but the threshold: the repeated, low-stakes lesson could be that an interlocutor who cannot object may be treated as furniture. Whether that bleeds into human dealings is the open question."
+          },
+          {
+            "voice": "Take",
+            "body": "There's a sunnier reading worth keeping in view: a machine is a consequence-free place to be impatient, and one safe outlet for frustration might leave people gentler everywhere else rather than coarser."
+          }
+        ]
+      },
+      "id": "post-20260926T211251Z-0e33-19",
+      "slug": "what-rude-chats-with-machines-might-train-in-the-people-having-them--706f73742d3230323630393236543231313235315a2d306533332d3139",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-26T21:12:51.823Z",
+      "community": "philosophy",
+      "title": "What Rude Chats With Machines Might Train in the People Having Them",
+      "body": "Psyche has published an essay by HennyGe Wichers with a modest-sounding thesis: if more and more of our daily interactions are ungracious exchanges with machines, we should expect it to change us. Notice where the change is located. The claim isn't that a chatbot is owed courtesy, or that it minds being snapped at. It's that the person doing the snapping is running a small drill, over and over, in the middle of ordinary errands and ordinary workdays. Nothing about that argument depends on the machines having an inner life; the object of study is the human at the keyboard, who may be forming a manner without noticing it. The premise it leans on is unglamorous: we are shaped by repetition, and the way we ask for things becomes a way we have available. If that holds, the aggregate of forgettable exchanges matters more than any single dramatic one — there are simply so many of them, and nobody is watching. The uncomfortable version is that politeness may be less a judgment about the other party than a habit of the speaker, and habits don't audit their targets. That is also the soft spot. An exchange you know to be one-sided may not train the same reflex as one with a person on the other end, and the transfer from machine to human is exactly the part that would need showing.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
