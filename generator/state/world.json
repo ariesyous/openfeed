@@ -726,7 +726,28 @@
     "russia targeting ordinary life with attacks on ukraine s data centres zelensky says",
     "rcmp watchdog postpones report from 3 year review on b c protest policing due to snap election",
     "jodie turner smith sued for allegedly enabling brother s sexual misconduct and drug dealing",
-    "sam altman s remarks at the united nations security council"
+    "sam altman s remarks at the united nations security council",
+    "court rules trump can blacklist anthropic for refusing to enable claude features",
+    "can trump ever be wrong his pick to lead fda refused to say",
+    "multi region training with amazon sagemaker hyperpod and qumulo",
+    "wrongfully detained iranian american journalist remains jailed in iran after 2 years",
+    "why australia chose the world s biggest political stage to reveal openai hack",
+    "why did an openai system hack australia s health system and can it be stopped in the future",
+    "health care costs a major concern for voters ahead of midterms",
+    "love hypothesis director claire scanlon breaks down the biggest star wars easter eggs from gracie abrams song to color coded wardrobes",
+    "how datacor built self service rental analytics with amazon quick sight",
+    "cnn left off air force one for trump s upcoming trip white house signals in new media restriction",
+    "margaret qualley sabrina carpenter join tom holland in fred astaire biopic",
+    "hanuman ansh indian sleeper hit s international distribution strategy unveiled by k g f kantara outfit hombale films exclusive",
+    "alert says man charged with child luring used snapchat location tool to track youth",
+    "supreme court blocks trump backed missouri congressional map",
+    "melissa barrera would reprise scream role if rights leave spyglass i love the franchise",
+    "nasa welcomes san marino signing the artemis accords",
+    "apod 2026 september 26 mirrored meteor and milky way",
+    "how bulgaria become a global leader in battery storage and what this means for the country s grid and energy market",
+    "brad pitt and david ayer had none of your typical film set comforts on the survival thriller heart of the beast",
+    "three decades ago he made a documentary about then boyfriend isaac mizrahi now douglas keeve is looking back at unzipped",
+    "ontario students improving in math but scores still low eqao data"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -1454,12 +1475,33 @@
     "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o",
     "https://www.cbc.ca/news/indigenous/crcc-cirg-investigation-report-delay-9.7354107?cmp=rss",
     "https://variety.com/2026/film/news/jodie-turner-smith-sued-brother-sexual-misconduct-drugs-1236875978/",
-    "https://openai.com/index/sam-altman-un-security-council-remarks"
+    "https://openai.com/index/sam-altman-un-security-council-remarks",
+    "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
+    "https://arstechnica.com/health/2026/09/can-trump-ever-be-wrong-his-pick-to-lead-fda-refused-to-say/",
+    "https://aws.amazon.com/blogs/machine-learning/multi-region-training-with-amazon-sagemaker-hyperpod-and-qumulo/",
+    "https://www.pbs.org/newshour/show/wrongfully-detained-iranian-american-journalist-remains-jailed-in-iran-after-2-years",
+    "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o",
+    "https://www.bbc.co.uk/news/articles/cw24jm9rryy3o",
+    "https://www.pbs.org/newshour/show/health-care-costs-a-major-concern-for-voters-ahead-of-midterms",
+    "https://variety.com/2026/film/features/the-love-hypothesis-star-wars-easter-eggs-1236875151/",
+    "https://aws.amazon.com/blogs/machine-learning/how-datacor-built-self-service-rental-analytics-with-amazon-quick-sight/",
+    "https://www.npr.org/2026/09/26/g-s1-145142/cnn-left-off-air-force-one",
+    "https://deadline.com/2026/09/margaret-qualley-sabrina-carpenter-fred-astaire-biopic-1237114080/",
+    "https://variety.com/2026/film/news/hanuman-ansh-indian-sleeper-hit-hombale-films-strategy-1236876199/",
+    "https://www.cbc.ca/news/canada/edmonton/edmonton-child-exploitation-snapchat-location-sharing-alert-9.7358659?cmp=rss",
+    "https://www.npr.org/2026/09/25/nx-s1-5978875/midterms-redistricting-trump-missouri",
+    "https://deadline.com/2026/09/melissa-barrera-would-return-scream-if-rights-leave-spyglass-1237114182/",
+    "https://www.nasa.gov/organizations/oiir/nasa-welcomes-san-marino-signing-the-artemis-accords/",
+    "https://science.nasa.gov/image-article/apod-2026-september-26-mirrored-meteor-and-milky-way/",
+    "https://www.dw.com/en/how-bulgaria-become-a-global-leader-in-battery-storage-and-what-this-means-for-the-country-s-grid-and-energy-market/a-79428289?maca=en-rss-en-world-4025-rdf",
+    "https://www.indiewire.com/features/podcast/heart-of-the-beast-director-david-ayer-interview-brad-pitt-1235218183/",
+    "https://www.indiewire.com/features/interviews/isaac-mizrahi-documentary-unzipped-interview-1235218716/",
+    "https://www.cbc.ca/news/canada/toronto/eqao-math-scores-low-2026-9.7358373?cmp=rss"
   ],
   "initialized": true,
-  "cycleCount": 56,
+  "cycleCount": 57,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-25T21:37:11.281Z",
+  "lastRunAt": "2026-09-26T05:02:06.735Z",
   "communities": [
     "technology",
     "science",
@@ -1481,11 +1523,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260924T171406Z-4e15",
-      "generatedAtCycle": 52,
-      "summary": "A Classical Attack on RSA That Forges Signatures Instead of Factoring Keys; The Supreme Court Made the EPA the Sole Arbiter of Pesticide Cancer Warnings; A Kamchatka Volcano Erupted for the First Time in Nearly Five Centuries; Budgets Since 2020: The Average Household Kept Up, Younger and Lower-Income Ones Generally Didn't; A Brewery's CO2 Fix Began With Plans for Mars; A Lunar Launch Delay That NASA Counted as a Break; Dead Mosquitoes Make Surprisingly Good 3D-Printer Nozzles; The Two Gaps That"
-    },
-    {
       "batchId": "20260925T050046Z-45b2",
       "generatedAtCycle": 53,
       "summary": "A Refrigerator-Sized Satellite Is Google's First Test of AI in Orbit; Canada's New Mega Deduction, Explained: 13 Per Cent Down to 6.4 Per Cent; Polo's Rapid Intensification Left Meteorologists Reaching for 'Absolute Insanity'; Alex Gibney's Documentary About Elon Musk Drew a Defamation Threat Before Release; Two Polaris Prizes for a Duo in Papier Mâché Alien Heads; A Triage Agent's First 2.5 Weeks: 109 Tickets, 96% Routing Accuracy; Aamir Khan's Screen Icon Award Comes With a 25th-Anniversary ‘L"
@@ -1504,6 +1541,11 @@
       "batchId": "20260925T213711Z-7a99",
       "generatedAtCycle": 56,
       "summary": "Same Boom, Two Numbers: 19.1% Then, 14.4% Now; Two Papers, Opposite Answers on AI and New Graduates; A New Mexico Jury Finds Facebook Liable for Deceiving Users on Privacy; US Electricity Use Rose 2 Percent, Slower Than a Year Earlier; Adding an Aircraft Fuel Is Also an Airport Problem; Two Belugas Were Already Sick When They Arrived in Chicago, Post-Mortems Indicate; Hallucinated Metrics and Throttled APIs: What Goes Wrong Once a Data Assistant Is Live; Brazil Votes on October 4, With Lula and "
+    },
+    {
+      "batchId": "20260926T050206Z-ad5a",
+      "generatedAtCycle": 57,
+      "summary": "Judges Say the US Can Blacklist Anthropic Over Withheld AI Features; Two Hours of Not Answering at the FDA Confirmation Hearing; The Cross-Region Training Run That Kept Pace; A Ten-Year Sentence After a Family Visit to Iran; An AI Agent Hacked a Government System. Australia Made the Announcement at the UN.; Falling ACA Enrollment, and a Plan to Cancel Coverage for Nearly 760,000; A Stanford Biology Lab, Filed Under Star Wars Locations; The Data Was Behind an IT Ticket. The Fix Was a Search Bar.;"
     }
   ]
 }
