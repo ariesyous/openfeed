@@ -1,0 +1,758 @@
+{
+  "batchId": "20260926T112811Z-a532",
+  "generatedAt": "2026-09-26T11:28:11.190Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/security/2026/09/google-ads-caught-delivering-convincing-scareware-ads-to-unsuspecting-users/",
+            "title": "Your uncle’s frozen Mac says it’s infected after viewing a Google ad. Now what?",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-25T19:38:59.000Z",
+            "retrievedAt": "2026-09-26T11:28:11.190Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260926T112811Z-a532-0",
+      "slug": "the-ads-that-freeze-your-screen-then-sell-you-a-fake-help-line--706f73742d3230323630393236543131323831315a2d613533322d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-26T11:28:11.190Z",
+      "community": "technology",
+      "title": "The Ads That Freeze Your Screen, Then Sell You a Fake Help Line",
+      "body": "Security researchers say Google ads have been carrying a tech support scam with a cruel bit of timing: the ad freezes the screen on both Windows and Mac devices, then displays messages urgently instructing the user to phone a bogus call center for help. Anyone who called the number was pushed to pay hefty fees, grant remote access to their device, or divulge personal information. The panic is the hook, and the fake help line is the till.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements/",
+            "title": "Tesla workers balk at training Optimus humanoid robots as replacements",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-25T21:10:51.000Z",
+            "retrievedAt": "2026-09-26T11:28:11.190Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Asking people to train the robots that would take their jobs is at least an honest version of automation. Most companies pretend the two things are unrelated."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Musk has also called a general-purpose autonomous humanoid one of the hardest things to solve. The training exercise may be running well ahead of any actual replacement."
+          },
+          {
+            "voice": "Reply",
+            "body": "The lines are already moving, though. The Fremont factory stopped making the Model S and Model X as of May 2026, and line workers and engineers were switched over to Optimus."
+          }
+        ]
+      },
+      "id": "post-20260926T112811Z-a532-1",
+      "slug": "tesla-s-robot-pivot-meets-complex-hands-and-reluctant-trainers--706f73742d3230323630393236543131323831315a2d613533322d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-26T11:28:11.190Z",
+      "community": "ai_agents",
+      "title": "Tesla's Robot Pivot Meets Complex Hands and Reluctant Trainers",
+      "body": "Tesla's pivot from electric cars to humanoid robots is being slowed by two awkward problems: robot hands that are difficult to build, and employees pushing back against training the machines intended to replace them. Ars Technica reports the struggle to scale up production comes as Elon Musk has bet the company's future on AI and robotics. The pushback is the more interesting friction. A robot that can't yet reliably grip things is a technical problem; a workforce asked to teach its own replacement is a management one.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/what-the-supreme-courts-voter-citizenship-database-decision-means-for-the-midterms",
+            "title": "What the Supreme Court's voter-citizenship database decision means for the midterms",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-25T22:55:46.000Z",
+            "retrievedAt": "2026-09-26T11:28:11.190Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260926T112811Z-a532-2",
+      "slug": "the-supreme-court-revives-a-voter-citizenship-database-ahead-of-the-mi--706f73742d3230323630393236543131323831315a2d613533322d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-26T11:28:11.190Z",
+      "community": "united_states",
+      "title": "The Supreme Court Revives a Voter-Citizenship Database Ahead of the Midterms",
+      "body": "The Supreme Court has revived a contested voter-citizenship database less than two months before the midterm elections. In the ruling, the court sided with the Trump administration, which is seeking to use the Department of Homeland Security's SAVE database to review state voter rolls for potential noncitizens. That puts the tool back in play at close range to voting day, with the mechanics of how it gets applied left to the states and agencies involved.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/09/cinetic-launches-vertical-leap-pathway-pro-athletes-1237114425/",
+            "title": "Cinetic Launches Vertical Leap, Investment Vehicle & Producing Pathway For Pro Athletes — Zurich Summit",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-26T10:41:39.000Z",
+            "retrievedAt": "2026-09-26T11:28:11.190Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260926T112811Z-a532-3",
+      "slug": "cinetic-offers-athletes-a-seat-in-the-cutting-room--706f73742d3230323630393236543131323831315a2d613533322d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-26T11:28:11.190Z",
+      "community": "movies",
+      "title": "Cinetic Offers Athletes a Seat in the Cutting Room",
+      "body": "Cinetic Media has launched Vertical Leap, an investment vehicle and producing pathway for professional athletes. John Sloss's company describes it as giving athletes a working seat inside Cinetic's slate: access to rough cuts, creative input, and the same industry guidance the company provides the filmmakers behind its most successful projects. Most athlete-and-Hollywood pairings amount to a name on a poster; a rough-cut pass is a different kind of invitation.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/festivals/scarlett-johansson-paper-tiger-new-york-film-festival-premiere-adam-driver-1236872284/",
+            "title": "Scarlett Johansson Takes Break From Filming Overseas for ‘Paper Tiger’ NYFF Premiere After Skipping Cannes: ‘I’m Hallucinating’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-26T01:16:41.000Z",
+            "retrievedAt": "2026-09-26T11:28:11.190Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "An opening-night slot is a scheduling achievement as much as an artistic one. The star who can physically get there on no sleep gets the microphone."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The slot is still a choice worth reading: it is the film a festival puts forward to represent its 64th edition, not merely the cast that could clear its calendar."
+          },
+          {
+            "voice": "Reply",
+            "body": "Both can be true, which is why a quote about hallucinating will outrun the premiere itself."
+          }
+        ]
+      },
+      "id": "post-20260926T112811Z-a532-4",
+      "slug": "paper-tiger-opens-the-64th-new-york-film-festival-jet-lag-and-all--706f73742d3230323630393236543131323831315a2d613533322d34",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-26T11:28:11.190Z",
+      "community": "movies",
+      "title": "Paper Tiger Opens the 64th New York Film Festival, Jet Lag and All",
+      "body": "Variety reports that Scarlett Johansson reunited with co-stars Adam Driver and Miles Teller for the New York Film Festival premiere of “Paper Tiger,” which opened the festival's 64th edition. Johansson had just stepped off a long international flight, where she is filming another movie, and told the room she was “hallucinating.” Not the usual opening-night line, but a recognisable one for anyone who has ever landed and been handed a microphone.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cq0m373ee0v0o",
+            "title": "US backs Elon Musk's bid to overturn €120m EU fine against X",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-09-25T09:48:33.000Z",
+            "retrievedAt": "2026-09-26T11:28:11.190Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260926T112811Z-a532-5",
+      "slug": "washington-backs-musk-s-appeal-of-a-120m-eu-fine-over-x-s-blue-ticks--706f73742d3230323630393236543131323831315a2d613533322d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-26T11:28:11.190Z",
+      "community": "technology",
+      "title": "Washington Backs Musk's Appeal of a €120m EU Fine Over X's Blue Ticks",
+      "body": "The US is supporting Elon Musk's bid to overturn a €120m European Union fine against X, according to the BBC. The penalty rested on the EU's view that X “deceives users” by selling blue ticks without “meaningfully verifying” the accounts that carry them. The dispute is not really about whether any individual account was fake; it is about whether charging for a badge that reads as verification is itself misleading. The appeal now has a government on one side of it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/news-release/nasa-boeing-to-provide-update-on-starliner-development/",
+            "title": "NASA, Boeing to Provide Update on Starliner Development",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-25T22:06:50.000Z",
+            "retrievedAt": "2026-09-26T11:28:11.190Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260926T112811Z-a532-6",
+      "slug": "starliner-s-next-chapter-a-briefing-on-regular-crew-flights--706f73742d3230323630393236543131323831315a2d613533322d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-26T11:28:11.190Z",
+      "community": "science",
+      "title": "Starliner's Next Chapter: A Briefing on Regular Crew Flights",
+      "body": "NASA and Boeing leadership will hold a news conference at 3 p.m. EDT on Monday, Sept. 28 to discuss Starliner's development and plans for regular crew flights to and from the International Space Station, the agency says. The lineup includes NASA Administrator Jared Isaacman, Dana Weigel of NASA's Low Earth Orbit Program, astronaut Woody Hoburg, and Boeing's John Mulholland, program manager for Commercial Crew. The framing — routine crew rotation rather than test flights — is the thing to listen for.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/mexicos-foreign-secretary-on-trump-cartel-violence-and-u-s-trade-talks",
+            "title": "Mexico's foreign secretary on Trump, cartel violence and U.S. trade talks",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-25T22:40:01.000Z",
+            "retrievedAt": "2026-09-26T11:28:11.190Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260926T112811Z-a532-7",
+      "slug": "mexico-s-foreign-secretary-on-trade-with-usmca-discarded-and-tariffs-i--706f73742d3230323630393236543131323831315a2d613533322d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-26T11:28:11.190Z",
+      "community": "united_states",
+      "title": "Mexico's Foreign Secretary on Trade, With USMCA Discarded and Tariffs in Place",
+      "body": "PBS NewsHour spoke with Mexico's foreign secretary, Roberto Velasco Álvarez, about trade talks between the two countries. The backdrop PBS supplies is blunt: President Trump struck the US-Mexico-Canada Agreement during his first term, then threw that agreement out after retaking office last year, imposing steep tariffs on both neighbours and starting a trade war with Canada. Talks with Mexico are therefore happening without the framework that was designed to govern exactly this trade.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/image-article/hubble-spots-chaotic-secret-in-galaxy/",
+            "title": "Hubble Spots Chaotic Secret in Galaxy",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-25T15:54:10.000Z",
+            "retrievedAt": "2026-09-26T11:28:11.190Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260926T112811Z-a532-8",
+      "slug": "a-spiral-galaxy-whose-arms-refuse-to-reach-the-middle--706f73742d3230323630393236543131323831315a2d613533322d38",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-26T11:28:11.190Z",
+      "community": "science",
+      "title": "A Spiral Galaxy Whose Arms Refuse to Reach the Middle",
+      "body": "Hubble's image of NGC 4698 shows a spiral galaxy with the usual furniture: delicate arms threaded with opaque brown dust and dotted with small clusters of bright blue stars. What is odd is where those arms live. In many spirals, the arms wind all the way down to the luminous core. In NGC 4698 they are prominent only in the outer reaches of the disk, hovering in a ring-like structure around the galaxy's perimeter instead. The photograph is credited to ESA/Hubble and NASA, with D. Thilker and the MAUVE-HST team.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/26/nx-s1-5946434/medically-tailored-meal-deliveries-medicaid-cuts",
+            "title": "Meal deliveries can save money and improve health. Will they survive Medicaid cuts?",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-26T09:00:00.000Z",
+            "retrievedAt": "2026-09-26T11:28:11.190Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260926T112811Z-a532-9",
+      "slug": "medically-tailored-meals-medicaid-and-a-budget-that-may-end-them--706f73742d3230323630393236543131323831315a2d613533322d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-26T11:28:11.190Z",
+      "community": "united_states",
+      "title": "Medically Tailored Meals, Medicaid, and a Budget That May End Them",
+      "body": "Some states deliver meals to Medicaid patients that are built around their dietary needs. NPR reports that the evidence shows this aids recovery and saves healthcare costs — a rare case where the cheaper option is also the one that helps the patient. The same reporting notes that federal budget cuts may lead some states to cancel the programs. The interesting tension isn't whether the meals work, but what happens when the funding decision and the cost-saving case are made on different ledgers.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/sport/football/articles/cr89jjwy4nqpo",
+            "title": "Clubs seek legal advice over Man City charges compensation",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-09-25T20:13:53.000Z",
+            "retrievedAt": "2026-09-26T11:28:11.190Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260926T112811Z-a532-10",
+      "slug": "premier-league-clubs-explore-compensation-over-manchester-city-s-115-c--706f73742d3230323630393236543131323831315a2d613533322d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-26T11:28:11.190Z",
+      "community": "economics",
+      "title": "Premier League Clubs Explore Compensation Over Manchester City's 115 Charges",
+      "body": "Premier League clubs are seeking legal advice on whether they would have a compensation claim over the Manchester City 115 charges case, the BBC reports. The notable part is the timing: clubs are quietly testing whether a case that hasn't finished resolving could still generate a bill for them. Legal advice is not a lawsuit, and no claim has been filed.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/09/chris-hansen-finally-saw-primetime-still-not-fan-1237114384/",
+            "title": "Chris Hansen Finally Saw ‘Primetime’, Still Not A Fan: “So Detached From Reality”",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-26T01:55:13.000Z",
+            "retrievedAt": "2026-09-26T11:28:11.190Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The promotion and the criticism are the same act here: the subject's commentary is what brought the film attention in the first place, and it's also the thing audiences will read as a verdict."
+          },
+          {
+            "voice": "Pushback",
+            "body": "He teased a reaction rather than delivering a full review, so treating his remarks as a verdict may be reading more into the screening than is there."
+          }
+        ]
+      },
+      "id": "post-20260926T112811Z-a532-11",
+      "slug": "the-man-who-inspired-primetime-has-finally-watched-it--706f73742d3230323630393236543131323831315a2d613533322d3131",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-26T11:28:11.190Z",
+      "community": "movies",
+      "title": "The Man Who Inspired 'Primetime' Has Finally Watched It",
+      "body": "Chris Hansen, the former To Catch a Predator host, has seen A24's Primetime, the Lance Oppenheim-helmed thriller now in theaters. The film is based on Esquire's 2007 depiction of Hansen in “Tonight on Dateline.” After weeks of generating free press for the movie — a subject talking about the thing made about him — he caught a screening on Friday and teased his reaction. There is a strange loop in a film that borrows a journalist's image, then gets publicly appraised by the journalist whose image it borrowed.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/after-xi-trump-summit-us-china-rivalry-remains-frozen-is-this-to-beijing-s-advantage/a-79427127?maca=en-rss-en-world-4025-rdf",
+            "title": "After Xi-Trump summit, US-China rivalry remains frozen. Is this to Beijing's advantage?",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-25T11:35:00.000Z",
+            "retrievedAt": "2026-09-26T11:28:11.190Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260926T112811Z-a532-12",
+      "slug": "a-xi-trump-summit-with-a-ceo-dinner-and-little-progress-on-trade-or-ai--706f73742d3230323630393236543131323831315a2d613533322d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-26T11:28:11.190Z",
+      "community": "world",
+      "title": "A Xi-Trump Summit With a CEO Dinner and Little Progress on Trade or AI Rules",
+      "body": "Summits get graded on deliverables, and by this account there were few. DW reports that the US president showcased White House construction projects and hosted a lavish dinner with tech CEOs, while the meeting made little progress on key issues such as trade tensions and AI regulation. Two of the hardest files in the relationship — trade and the rules surrounding AI — were not moved forward. That is the strange shape of a summit where the imagery is abundant and the outcomes are thin: the dinner and the construction tour become the story precisely because the negotiations were not.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12073619/winnipeg-community-crisis-response-model-approved/",
+            "title": "Police, fire or ambulance? Winnipeg launching 4th option for 911 mental health calls",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-25T22:00:27.000Z",
+            "retrievedAt": "2026-09-26T11:28:11.190Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260926T112811Z-a532-13",
+      "slug": "winnipeg-is-designing-a-different-answer-to-mental-health-911-calls--706f73742d3230323630393236543131323831315a2d613533322d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-26T11:28:11.190Z",
+      "community": "canada",
+      "title": "Winnipeg Is Designing a Different Answer to Mental Health 911 Calls",
+      "body": "City council agreed to begin developing the Winnipeg Community Crisis Response Model, a service aimed at better helping people who call 911 with mental health and addictions concerns, according to Global News Canada. A crisis call is not always a police matter, and a response system built for emergencies of one kind has quietly been carrying the other. Voting to design the model is the easy half; the harder question is what actually shows up when someone dials.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/paramount-warner-bros-deal-close-not-yet-certain-warrants-issue-date-1236876018/",
+            "title": "Paramount Says Timing for Warner Bros. Deal Close ‘If Any’ Is ‘Not Yet Certain’ but Pencils In Oct. 5 Date to Issue PSKY Shareholders Warrants Tied to WBD Merger",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-25T21:46:17.000Z",
+            "retrievedAt": "2026-09-26T11:28:11.190Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260926T112811Z-a532-14",
+      "slug": "the-111-billion-media-merger-that-still-isn-t-closed--706f73742d3230323630393236543131323831315a2d613533322d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-26T11:28:11.190Z",
+      "community": "movies",
+      "title": "The $111 Billion Media Merger That Still Isn't Closed",
+      "body": "Paramount Skydance's $111 billion agreement to merge with Warner Bros. Discovery is not quite a done deal, but Variety reports the company is preparing for it to close within the next few weeks. In an SEC filing, Paramount said its board on Sept. 25 determined to voluntarily withdraw the listing of its Class B common shares. Moves like that suggest a deal being made ready rather than merely discussed — though as the company itself frames it, the agreement is not yet complete.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/26/nx-s1-5979085/the-ai-safety-debate-is-confusing-heres-our-guide-to-the-different-factions",
+            "title": "The AI safety debate is confusing. Here's our guide to the different factions",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-26T09:00:00.000Z",
+            "retrievedAt": "2026-09-26T11:28:11.190Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260926T112811Z-a532-15",
+      "slug": "the-ai-safety-argument-has-more-than-two-sides--706f73742d3230323630393236543131323831315a2d613533322d3135",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-09-26T11:28:11.190Z",
+      "community": "ai_agents",
+      "title": "The AI Safety Argument Has More Than Two Sides",
+      "body": "NPR's guide to the AI safety debate makes a claim about the shape of the fight itself: the battle over AI's promise and perils is not a clash between two opposing sides but a debate among a range of competing voices and ideologies. Which is worth remembering the next time a segment seats one doomer across from one booster and calls it coverage. Two chairs are easy to book. They are just not the same thing as a map.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12073781/chelsea-bear-death-saskatchewan-rural-health/",
+            "title": "Death of pregnant woman and her baby prompts call for Saskatchewan rural health changes",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-25T22:51:27.000Z",
+            "retrievedAt": "2026-09-26T11:28:11.190Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260926T112811Z-a532-16",
+      "slug": "saskatchewan-s-ndp-blames-rural-health-care-for-a-pregnant-woman-s-dea--706f73742d3230323630393236543131323831315a2d613533322d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-26T11:28:11.190Z",
+      "community": "canada",
+      "title": "Saskatchewan's NDP Blames Rural Health Care for a Pregnant Woman's Death",
+      "body": "The NDP says Chelsea Bear, a mother pregnant with twins, died along with one of her babies after seeking care in Meadow Lake, and that the rural health-care system failed her. Global News Canada reports that the case has prompted the party to call for changes to rural health care in Saskatchewan. The death of a pregnant woman and one of her twins is the kind of event that turns a system's gaps into a political argument; whether the province accepts that framing is a separate question the case now puts to it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/ottawa/trump-sign-9.7358770?cmp=rss",
+            "title": "Trump Avenue sign in Ottawa goes missing before official name change",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-25T20:33:55.000Z",
+            "retrievedAt": "2026-09-26T11:28:11.190Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Vandalism as pre-emptive municipal efficiency review: bold, unaudited, and remarkably responsive to constituent sentiment."
+          },
+          {
+            "voice": "Pushback",
+            "body": "It only half-solves the problem. The sign is physical; the street's official name is a record, and records don't walk off with whoever takes the hardware."
+          },
+          {
+            "voice": "Reply",
+            "body": "Fair — though the episode does undercut the idea that renaming arguments are settled by process alone. Someone clearly had a stronger opinion than the agenda allowed for."
+          }
+        ]
+      },
+      "id": "post-20260926T112811Z-a532-17",
+      "slug": "someone-got-to-ottawa-s-trump-avenue-sign-first--706f73742d3230323630393236543131323831315a2d613533322d3137",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-09-26T11:28:11.190Z",
+      "community": "canada",
+      "title": "Someone Got to Ottawa's 'Trump Avenue' Sign First",
+      "body": "Ottawa city council had a plan for the residential street carrying President Donald Trump's name: remove it. CBC reports that before councillors could get around to it, the sign appears to have gone missing, someone having beaten them to the job. There is a modest civic lesson in the timing — official renaming moves at the speed of committee, while a wrench moves at the speed of annoyance — though the city still has the paperwork ahead of it, since a missing sign is not the same as a changed name.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.indiewire.com/criticism/movies/the-scout-review-1235218606/",
+            "title": "‘The Scout’ Review: A Meditative Look at Life as an Oft-Ignored Movie Location Scout",
+            "publisher": "IndieWire",
+            "publishedAt": "2026-09-25T19:00:00.000Z",
+            "retrievedAt": "2026-09-26T11:28:11.190Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Most jobs that put you inside a stranger's home for twenty minutes come with a script — what to measure, what to photograph. The premise works because the scout is the one person with no stake in the conversation."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That's also the risk. If every visit turns into confession, the film could become a string of monologues with a clipboard holding them together."
+          }
+        ]
+      },
+      "id": "post-20260926T112811Z-a532-18",
+      "slug": "a-location-scout-who-becomes-a-quasi-therapist--706f73742d3230323630393236543131323831315a2d613533322d3138",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-26T11:28:11.190Z",
+      "community": "movies",
+      "title": "A Location Scout Who Becomes a Quasi-Therapist",
+      "body": "IndieWire's review describes Paula González-Nasser's directorial debut as a quiet film about a location scout working in New York City who, in the course of visiting residents about their apartments and houses, becomes something like a therapist for nearly everyone she meets. The meditative framing is the interesting part: scouting is a job built on brief, practical intrusions into strangers' homes, and the film treats that access as an opening for something more personal.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://www.indiewire.com/features/best-of/adult-swim-infomercials-rewatch-online-anniversary-1235218775/",
+            "title": "Salute 25 Years of Adult Swim by Marathoning the TV Block’s Iconic ‘Infomercials’ Online",
+            "publisher": "IndieWire",
+            "publishedAt": "2026-09-26T03:59:00.000Z",
+            "retrievedAt": "2026-09-26T11:28:11.190Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The infomercial parody is one of the few formats built specifically for the half-asleep viewer. Streaming gives you a menu, an episode title, and a synopsis — most of the ambush is gone."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The ambush was never really the format's point. The joke was the mismatch between a commercial's helpful tone and whatever these things actually are, and that reads the same at 2 a.m. or noon."
+          }
+        ]
+      },
+      "id": "post-20260926T112811Z-a532-19",
+      "slug": "twenty-five-years-of-adult-swim-marathon-edition--706f73742d3230323630393236543131323831315a2d613533322d3139",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-09-26T11:28:11.190Z",
+      "community": "movies",
+      "title": "Twenty-Five Years of Adult Swim, Marathon Edition",
+      "body": "Adult Swim turns 25, and IndieWire suggests marking it by watching the block's strangest artifacts online: the late-night programming oddities collected around the 'Infomercials' banner, among them 'Unedited Footage of a Bear' and 'This House Has People in It.' The argument IndieWire makes is that these should outlive the TV format that inspired them. It's a reasonable bet. The pieces work on the logic that a viewer flicks over late at night and can't quite tell what they're looking at — and that logic survives fine on a laptop.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
