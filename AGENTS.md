@@ -65,7 +65,7 @@ not a live OpenRouter run. The evergreen shelf is finite and must be expanded as
 ## Editorial generation reliability
 The editorial request carries a strict JSON schema derived from Zod; nullable transport
 fields normalize to optional draft values. Both structured and fallback output pass the
-same local evidence validation. Editions target twenty posts in requests capped at four, sharing eight total attempts and a shared 45-minute generation deadline (55-minute workflow timeout). Keep `openrouter/free` as the manual default; Gemini and DeepSeek Flash are optional manual selections.
+same local evidence validation. Editions target twenty posts in requests capped at four, sharing eight total attempts and a shared 45-minute generation deadline (55-minute workflow timeout). Keep `openrouter/free` as the manual default; Gemini, DeepSeek Flash, and (added September 27) `stealth/space-bunny-alpha` are optional manual selections.
 At the user’s request on September 19, scheduled runs are enabled every three hours at minute 17 (UTC)
 and pinned to `deepseek/deepseek-v4.1-flash`. Earlier free-router observation records
 remain historical; scheduled DeepSeek runs are not free-router cohort evidence.
