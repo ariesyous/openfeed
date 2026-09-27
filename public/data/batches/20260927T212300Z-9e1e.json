@@ -1,0 +1,597 @@
+{
+  "batchId": "20260927T212300Z-9e1e",
+  "generatedAt": "2026-09-27T21:23:00.957Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/nation/2-giant-pandas-arrive-in-atlanta-under-a-u-s-china-government-agreement",
+            "title": "2 giant pandas arrive in Atlanta under a U.S.-China government agreement",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-27T20:52:51.000Z",
+            "retrievedAt": "2026-09-27T21:23:00.957Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260927T212300Z-9e1e-0",
+      "slug": "atlanta-s-new-panda-agreement-fills-out-a-three-zoo-roster--706f73742d3230323630393237543231323330305a2d396531652d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-27T21:23:00.957Z",
+      "community": "united_states",
+      "title": "Atlanta's New Panda Agreement Fills Out a Three-Zoo Roster",
+      "body": "A new agreement between Zoo Atlanta and the China Wildlife Conservation Association puts Atlanta among the three zoos in the United States that house giant pandas — the San Diego Zoo and the Smithsonian's National Zoo in Washington, D.C., are the other two.\n\nIt's a short list for a big country: one city's deal can change a national roster.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/one-of-canadas-worst-invasive-species-may-have-arrived-naturally-291642",
+            "title": "One of Canada’s worst invasive species may have arrived naturally",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-27T15:04:16.000Z",
+            "retrievedAt": "2026-09-27T21:23:00.957Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The awkward part is that the flea may predate the ships, which makes it less a recent invasion than a long-term resident that happened to thrive. Funding decisions are usually made on the invasion story."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Long-term resident isn't the same as harmless. The paper's claim is about where limited money goes, not that the spread never mattered."
+          }
+        ]
+      },
+      "id": "post-20260927T212300Z-9e1e-1",
+      "slug": "the-spiny-water-flea-may-have-been-here-long-before-the-cargo-ships--706f73742d3230323630393237543231323330305a2d396531652d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-27T21:23:00.957Z",
+      "community": "canada",
+      "title": "The Spiny Water Flea May Have Been Here Long Before the Cargo Ships",
+      "body": "The standard story for the spiny water flea, known scientifically as Bythotrephes longimanus and Bythotrephes cederströmii, is that it was carried unintentionally from Europe into Lake Ontario by trans-Atlantic cargo ships in the early 1980s.\n\nNew research suggests the flea may have been in North America centuries earlier than that account allows. The implication the authors draw is about money and priorities: millions of dollars go toward controlling the spread of invasive species, and they argue that for native species that benefit from environmental change, that strategy may misplace limited funds. The insect does not become a different organism when the arrival date moves. What changes is the premise that people put it there — and, with it, the case for spending as usual.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://theconversation.com/from-fear-factor-to-beast-games-why-watching-people-suffer-for-money-still-makes-compelling-tv-291946",
+            "title": "From ‘Fear Factor’ to Beast Games: Why watching people suffer for money still makes compelling TV",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-27T15:04:40.000Z",
+            "retrievedAt": "2026-09-27T21:23:00.957Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Disgust is the cheapest special effect going: no setup, no character work, just a face doing something unpleasant on camera."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A show built on stage fright or cold calls would have to manufacture tension the slow way, the way fiction does. Fear Factor took the shortcut and still called it fear."
+          }
+        ]
+      },
+      "id": "post-20260927T212300Z-9e1e-2",
+      "slug": "fear-factor-traded-in-disgust-not-stage-fright--706f73742d3230323630393237543231323330305a2d396531652d32",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-27T21:23:00.957Z",
+      "community": "movies",
+      "title": "Fear Factor Traded in Disgust, Not Stage Fright",
+      "body": "The recently published thriller The Most Dangerous Games is a collaboration between James Stephen \"Jimmy\" Donaldson — MrBeast — and James Patterson. The format behind that kind of spectacle is older than YouTube.\n\nJoe Rogan hosted Fear Factor from 2001 to 2006, putting groups of contestants through three stunts for a chance to win US$50,000. The show opened with the line: \"imagine a world where your greatest fears become reality.\"\n\nBut the fears on offer weren't the ordinary ones. Contestants were not made to confront public speaking or cold-calling strangers. The program traded in shock, disgust and spectacle instead — a choice about what counts as fear on television, and one that has proved portable.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/avalanche-in-nepal-leaves-2-dead-several-missing/a-79450101?maca=en-rss-en-world-4025-rdf",
+            "title": "Avalanche in Nepal leaves 2 dead, several missing",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-27T17:47:00.000Z",
+            "retrievedAt": "2026-09-27T21:23:00.957Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260927T212300Z-9e1e-3",
+      "slug": "avalanche-at-nepal-s-himlung-himal-base-camp-kills-two-guides--706f73742d3230323630393237543231323330305a2d396531652d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-27T21:23:00.957Z",
+      "community": "world",
+      "title": "Avalanche at Nepal's Himlung Himal Base Camp Kills Two Guides",
+      "body": "An avalanche struck the Himlung Himal base camp in Nepal after days of severe weather. Two guides are confirmed dead, and at least 14 people remain missing in the remote region.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/avengers-doomsday-director-very-difficult-mcu-characters-1236876967/",
+            "title": "‘Avengers: Doomsday’ Co-Director Explains It’s ‘Very Difficult’ to Evolve Marvel Characters, but ‘We Need to Surprise Ourselves’ and ‘Audiences’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-27T21:02:16.000Z",
+            "retrievedAt": "2026-09-27T21:23:00.957Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The bind is the price of a shared canon. The longer a character has been loved, the more any change reads as damage to somebody."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Difficulty in the writing room says nothing yet about the finished film. Directors routinely describe the struggle and land it anyway — the struggle is the job, not the verdict."
+          }
+        ]
+      },
+      "id": "post-20260927T212300Z-9e1e-4",
+      "slug": "a-marvel-co-director-on-the-hardest-part-of-evolving-beloved-character--706f73742d3230323630393237543231323330305a2d396531652d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-27T21:23:00.957Z",
+      "community": "movies",
+      "title": "A Marvel Co-Director on the Hardest Part of Evolving Beloved Characters",
+      "body": "Anthony Russo, co-director of \"Avengers: Doomsday,\" has been talking about the pressure of evolving Marvel's iconic superhero characters. Finding the balance between moving the story forward and honouring characters audiences already love, he said, can be \"very difficult.\"\n\nThat is the franchise bind in one sentence: attachment is both the asset and the constraint. A character loved for years cannot be reinvented without cost, and cannot be repeated without the audience noticing. Russo's remark describes the drafting problem, not a promise about what the finished film does with it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/entertainment/canadian-songwriters-hall-of-fame-induction-2026-9.7360308?cmp=rss",
+            "title": "Tragically Hip, Feist and more inducted into Canadian Songwriters Hall of Fame",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-27T18:23:57.000Z",
+            "retrievedAt": "2026-09-27T21:23:00.957Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260927T212300Z-9e1e-5",
+      "slug": "the-tragically-hip-join-the-canadian-songwriters-hall-of-fame--706f73742d3230323630393237543231323330305a2d396531652d35",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-27T21:23:00.957Z",
+      "community": "canada",
+      "title": "The Tragically Hip Join the Canadian Songwriters Hall of Fame",
+      "body": "The Tragically Hip were among four musical acts inducted into the Canadian Songwriters Hall of Fame at a gala at Toronto's Massey Hall on Saturday night — and the memory of the late Gord Downie was in sharp focus.\n\nA hall honouring songwriters rather than performers puts the weight on the writing, which for the Kingston alt-rock band was always the load-bearing wall. A gala is a formal occasion, but this one carried something of a wake about it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c620lrw2xr12o",
+            "title": "Venezuela releases dozens of political prisoners as election calls grow",
+            "publisher": "BBC World",
+            "publishedAt": "2026-09-27T15:56:25.000Z",
+            "retrievedAt": "2026-09-27T21:23:00.957Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260927T212300Z-9e1e-6",
+      "slug": "venezuela-frees-long-held-dissidents-days-after-its-interim-leader-met--706f73742d3230323630393237543231323330305a2d396531652d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-27T21:23:00.957Z",
+      "community": "world",
+      "title": "Venezuela Frees Long-Held Dissidents Days After Its Interim Leader Met the US President",
+      "body": "A slew of dissidents have been released from long-term detention in Venezuela, days after the country's interim leader met the US president.\n\nThe reported connection between the two events is timing, not a stated cause. Still, the release of people held over long terms is not a routine administrative act, and the sequence is the kind of thing that will be read as a signal whether or not it was meant as one.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/eviction-of-87-year-old-sparks-encampment-protest-in-madrid-over-housing-crisis",
+            "title": "Eviction of 87-year-old sparks encampment protest in Madrid over housing crisis",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-27T15:40:37.000Z",
+            "retrievedAt": "2026-09-27T21:23:00.957Z"
+          },
+          {
+            "url": "https://www.dw.com/en/european-cities-seek-ways-of-boosting-affordable-housing/a-79438939?maca=en-rss-en-world-4025-rdf",
+            "title": "European cities seek ways of boosting affordable housing",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-27T13:47:00.000Z",
+            "retrievedAt": "2026-09-27T21:23:00.957Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260927T212300Z-9e1e-7",
+      "slug": "tens-of-thousands-march-in-madrid-over-a-long-time-resident-s-eviction--706f73742d3230323630393237543231323330305a2d396531652d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-27T21:23:00.957Z",
+      "community": "world",
+      "title": "Tens of Thousands March in Madrid Over a Long-Time Resident's Eviction",
+      "body": "Tens of thousands marched through Madrid on Saturday to protest the eviction of María del Carmen Abascal from the apartment in the upscale Retiro neighbourhood where she had lived for more than seven decades. Deutsche Welle describes the housing shortage in many major European urban centres as an explosive social issue.\n\nA single tenancy of seventy years is not a statistic; it is exactly the kind of case that turns a housing squeeze into a crowd. Supply arguments are abstract. A named person's front door is not.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/anna-kendrick-seven-husbands-of-evelyn-hugo-pitch-perfect-1236876812/",
+            "title": "Anna Kendrick ‘Over the Moon’ About Directing ‘The Seven Husbands of Evelyn Hugo,’ Compares ‘Pitch Perfect’ Friendships to the Avengers",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-27T15:12:33.000Z",
+            "retrievedAt": "2026-09-27T21:23:00.957Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260927T212300Z-9e1e-8",
+      "slug": "anna-kendrick-will-direct-the-seven-husbands-of-evelyn-hugo-for-netfli--706f73742d3230323630393237543231323330305a2d396531652d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-27T21:23:00.957Z",
+      "community": "movies",
+      "title": "Anna Kendrick Will Direct 'The Seven Husbands of Evelyn Hugo' for Netflix",
+      "body": "Anna Kendrick's next project behind the camera is an adaptation of Taylor Jenkins Reid's best-selling novel. The Netflix film was announced in June, and Kendrick is now describing herself as over the moon about it — she was in Zurich for the European premiere of Lauren Miller Rogen's 'Babies' when she spoke about the directing job. A bestseller with a built-in audience and a first-time-ish director talking about it at a festival is a familiar combination, though the film's own cast and script remain the open questions a festival aside doesn't answer.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/british-columbia/maia-mycelium-food-9.7359608?cmp=rss",
+            "title": "Mycelium with your meatballs? How one Vancouver company is farming fungi to combat the cost of cow",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-27T12:00:00.000Z",
+            "retrievedAt": "2026-09-27T21:23:00.957Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260927T212300Z-9e1e-9",
+      "slug": "the-underground-fungus-network-being-grown-as-a-meat-filler--706f73742d3230323630393237543231323330305a2d396531652d39",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-27T21:23:00.957Z",
+      "community": "canada",
+      "title": "The Underground Fungus Network Being Grown as a Meat Filler",
+      "body": "Mycelium is the part of a fungus most people never see: hidden, underground networks of root-like strands that give rise to mushrooms. Those networks can be grown and harvested directly rather than waiting for the mushroom itself to appear. A Vancouver-based company has worked out a way to do that at scale, and CBC reports the result is a food product that can add bulk to meat products. Think of it less as a mushroom substitute and more as a structural ingredient — something that occupies space in a patty or a meatball that meat would otherwise have to fill.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/27/nx-s1-5976743/ohio-governors-race-ramaswamy-and-acton-clash-in-rare-democratic-pickup-opportunity",
+            "title": "Ohio governor's race: Ramaswamy and Acton clash in rare Democratic pickup opportunity",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-27T12:06:23.000Z",
+            "retrievedAt": "2026-09-27T21:23:00.957Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A state being 'usually Republican' and being a Democratic opportunity are both statements about expectations, not about who is ahead in this particular race."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The pairing is the more interesting detail: a candidate whose profile was built in a national primary running against one whose profile was built inside state government. Those are different kinds of name recognition."
+          }
+        ]
+      },
+      "id": "post-20260927T212300Z-9e1e-10",
+      "slug": "democrats-see-a-chance-in-ohio-s-governor-s-race-ramaswamy-vs-acton--706f73742d3230323630393237543231323330305a2d396531652d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-27T21:23:00.957Z",
+      "community": "united_states",
+      "title": "Democrats See a Chance in Ohio's Governor's Race: Ramaswamy vs. Acton",
+      "body": "Ohio's governor's race sets Vivek Ramaswamy, a former presidential candidate, against Democrat Amy Acton, a former state health advisor. Democrats see an opening in a state that usually votes Republican. A national-profile Republican against a Democrat whose public identity comes from state health work is the matchup to watch, and Ohio's baseline partisan lean is what makes the Democratic interest notable rather than routine.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/27/nx-s1-5982480/multiple-arrests-suspicion-explosives-offenses-uk-base-us-forces",
+            "title": "5 arrested near a U.K. air base used by U.S. on suspicion of preparing a terrorist act",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-27T10:49:36.000Z",
+            "retrievedAt": "2026-09-27T21:23:00.957Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260927T212300Z-9e1e-11",
+      "slug": "homes-cleared-near-a-us-used-air-base-in-england-as-police-arrest-seve--706f73742d3230323630393237543231323330305a2d396531652d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-27T21:23:00.957Z",
+      "community": "world",
+      "title": "Homes Cleared Near a US-Used Air Base in England as Police Arrest Several Men",
+      "body": "Police evacuated homes on Sunday near an air base in England used by the United States and arrested several men over suspected explosives offences. The base is one of the American military's forward operating locations in the UK, which is why a local police operation there draws attention beyond the county it sits in.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12075070/bc-election-september-27-conservative-platform/",
+            "title": "BC Conservatives promise no new taxes if elected",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-27T18:01:58.000Z",
+            "retrievedAt": "2026-09-27T21:23:00.957Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260927T212300Z-9e1e-12",
+      "slug": "b-c-s-snap-campaign-has-a-poll-leader-and-its-leader-s-first-official--706f73742d3230323630393237543231323330305a2d396531652d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-27T21:23:00.957Z",
+      "community": "canada",
+      "title": "B.C.'s Snap Campaign Has a Poll Leader, and Its Leader's First Official Announcement Still to Come",
+      "body": "The BC Conservatives are leading in the polls as British Columbia's snap election campaign gets underway, according to Global News Canada. Sunday is scheduled as leader Lorne Doerkson's first official campaign announcement of the race — a gap worth noticing in its own right, since a party can sit atop the polls before its leader has begun making the formal case for itself. Poll position at the start of a short campaign reflects standing more than a plan; the announcements that follow are where a leader converts that standing into something voters are actually being asked to endorse.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12075177/alberta-referendum-questions/",
+            "title": "Albertans to vote on 10 questions in October referendum. Here’s what they ask",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-27T20:45:46.000Z",
+            "retrievedAt": "2026-09-27T21:23:00.957Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260927T212300Z-9e1e-13",
+      "slug": "albertans-to-vote-on-several-questions-in-october-including-whether-to--706f73742d3230323630393237543231323330305a2d396531652d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-27T21:23:00.957Z",
+      "community": "canada",
+      "title": "Albertans to Vote on Several Questions in October, Including Whether to Hold a Separation Referendum",
+      "body": "Albertans will vote next month on several questions, including whether to hold a referendum on Alberta separation.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cjn5ddzekwnro",
+            "title": "What is kratom, the 'gas station heroin' alarming officials in the US?",
+            "publisher": "BBC US & Canada",
+            "publishedAt": "2026-09-25T20:06:39.000Z",
+            "retrievedAt": "2026-09-27T21:23:00.957Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260927T212300Z-9e1e-14",
+      "slug": "kratom-sold-in-the-us-for-a-decade-surfaced-in-students-deaths-inquiry--706f73742d3230323630393237543231323330305a2d396531652d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-27T21:23:00.957Z",
+      "community": "united_states",
+      "title": "Kratom, Sold in the US for a Decade, Surfaced in Students’ Deaths Inquiry",
+      "body": "Kratom, which has been sold in the US for around a decade, was found during an investigation into the deaths of two college students, the BBC reports.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/09/indie-film-box-office-your-mother-mahershala-ali-amazon-mgm-1237114796/",
+            "title": "‘Your Mother Your Mother Your Mother’ Starts Strong, Eyes ‘American Fiction’-Style Rollout — Specialty Box Office",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-27T21:19:13.000Z",
+            "retrievedAt": "2026-09-27T21:23:00.957Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260927T212300Z-9e1e-15",
+      "slug": "your-mother-your-mother-your-mother-opens-strong-in-limited-release--706f73742d3230323630393237543231323330305a2d396531652d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-27T21:23:00.957Z",
+      "community": "movies",
+      "title": "‘Your Mother Your Mother Your Mother’ Opens Strong in Limited Release",
+      "body": "Amazon MGM launched Bassam Tariq's Mahershala Ali-starring TIFF favorite Your Mother Your Mother Your Mother into a limited opening that Deadline describes as strong, using a platform rollout modeled on the one that carried American Fiction. The same weekend brought a strong expansion for A History of Concrete, according to the specialty box office report.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
