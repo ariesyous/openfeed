@@ -95,7 +95,7 @@ subject remain welcome. This focused text check does not replace editorial revie
 Editions target twenty posts in requests of at most four, sharing eight total provider attempts.
 A shared 45-minute generation budget caps request timeouts and retry waits; the workflow
 has a 55-minute safety timeout. Validated partial editions can publish when a later request fails; weak evidence never gets padded. Manual Actions runs default to
-`openrouter/free`; Gemini and DeepSeek Flash remain optional manual selections. Scheduled runs every three hours
+`openrouter/free`; Gemini, DeepSeek Flash, and `stealth/space-bunny-alpha` remain optional manual selections. Scheduled runs every three hours
 always use `deepseek/deepseek-v4.1-flash`, independent of the repository model variable.
 
 An empty model response defers that request's sources for the current run and tries
