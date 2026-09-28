@@ -1,0 +1,766 @@
+{
+  "batchId": "20260928T211501Z-4480",
+  "generatedAt": "2026-09-28T21:15:01.477Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/science/2026/09/scientists-solve-1840s-space-weather-mystery/",
+            "title": "Scientists solve 1840s space weather mystery",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-28T17:56:36.000Z",
+            "retrievedAt": "2026-09-28T21:15:01.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "Space weather is often discussed as a modern challenge because of our dependence on satellites, communications systems and electricity networks. The paper's co-author notes that society has been experiencing its effects on technology for almost as long as electrical technologies have existed."
+          },
+          {
+            "voice": "Reply",
+            "body": "Which relocates the novelty to the wiring rather than the weather — and makes a misplaced digit from the 1840s feel like a thoroughly modern problem."
+          }
+        ]
+      },
+      "id": "post-20260928T211501Z-4480-0",
+      "slug": "a-train-stopping-magnetic-disturbance-with-the-wrong-date-on-it--706f73742d3230323630393238543231313530315a2d343438302d30",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-28T21:15:01.477Z",
+      "community": "science",
+      "title": "A Train-Stopping Magnetic Disturbance With the Wrong Date on It",
+      "body": "An anonymous report published in 1871 in Nature described a “very intense magnetic disturbance” that disrupted rail travel in Exeter, on the southern coast of England, in October 1841. Scholars found the report in 2013, and it sits oddly early in the record of space weather meddling with human technology — telegraph wires, railways, whatever else a storm can reach from the sky through the ground and the rails underfoot, long before anyone had satellites to worry about or a name for the phenomenon. It is a strange, specific, almost throwaway entry in that record: one anonymous account, one disrupted railway journey, one date attached to it, sitting at the far end of the timeline like a lone station on an otherwise empty stretch of track. That kind of solitary entry is easy to build a story on, because there is nothing else nearby to contradict it — no second report from the same storm, no independent log of the same disturbance, just a single voice describing a very bad day for the trains. It is also easy to lose. A paper in the journal Space Weather now concludes that the 1841 date is most likely a typo. The disturbance itself is not being questioned here — the year it is filed under is. This is the unglamorous end of historical geophysics: old storms are dated from letters, newspaper notices and stray reports, and the date is often the only thing pinning an entry down. Even the sun has citation errors.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://theconversation.com/how-canada-used-the-indian-act-to-target-indigenous-leaders-250484",
+            "title": "How Canada used the Indian Act to target Indigenous leaders",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-28T18:45:29.000Z",
+            "retrievedAt": "2026-09-28T21:15:01.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The effect is sometimes described as a legal blackout: across those years, land claims and sovereignty arguments were essentially barred from the courts."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The provision itself was no secret to scholars of Canada's settler colonial legal history. The archives are what show how it was aimed — internal memos, RCMP investigation reports and correspondence targeting leaders who challenged colonial authority."
+          }
+        ]
+      },
+      "id": "post-20260928T211501Z-4480-1",
+      "slug": "a-law-that-made-hiring-a-lawyer-depend-on-the-government-s-permission--706f73742d3230323630393238543231313530315a2d343438302d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-28T21:15:01.477Z",
+      "community": "canada",
+      "title": "A Law That Made Hiring a Lawyer Depend on the Government's Permission",
+      "body": "From 1927 to 1951, Section 141 of the Indian Act made it illegal for Indigenous Peoples to fundraise or hire lawyers to pursue land and rights claims against the Canadian government without permission from the Department of Indian Affairs. The provision is the kind of statute that reads like paperwork and works like a wall. The study found it was more than a bureaucratic rule: government records show it was also used to monitor, pressure and try to silence certain leaders. Nearly a quarter of a century in which the government named in the claims also decided who could fund a challenge to them.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://theconversation.com/how-does-a-bird-virus-infect-a-person-surprising-findings-from-b-c-s-human-case-of-h5n1-avian-flu-279225",
+            "title": "How does a bird virus infect a person? Surprising findings from B.C.’s human case of H5N1 avian flu",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-28T19:51:41.000Z",
+            "retrievedAt": "2026-09-28T21:15:01.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The patient was a thirteen-year-old British Columbian who developed severe symptoms including respiratory failure and recovered with intensive care in hospital."
+          },
+          {
+            "voice": "Reply",
+            "body": "Which is worth holding alongside the mutation finding: the mismatch says something about how the virus looks in a laboratory, not a verdict on how sick it makes a person."
+          }
+        ]
+      },
+      "id": "post-20260928T211501Z-4480-2",
+      "slug": "the-b-c-h5n1-case-that-didn-t-match-the-usual-warning-signs--706f73742d3230323630393238543231313530315a2d343438302d32",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-28T21:15:01.477Z",
+      "community": "canada",
+      "title": "The B.C. H5N1 Case That Didn't Match the Usual Warning Signs",
+      "body": "Canada confirmed a human case of H5N1 avian influenza in 2024, the first ever known to have been acquired in the country. Researchers went back through the virus from that case and examined its mutations, and reported an unexpected result: the effects of those mutations were inconsistent with the usual warning signs expected in a virus adapted to infect humans. The direction of the surprise is what makes it worth reading twice. A mutation pattern that fails to match the expected markers is not a quiet result — it asks whether the markers are asking the right question.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/build-real-time-voice-applications-with-vllm-omni-on-sagemaker-ai-part-1/",
+            "title": "Build real-time voice applications with vLLM-Omni on SageMaker AI – Part 1",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-28T16:15:46.000Z",
+            "retrievedAt": "2026-09-28T21:15:01.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260928T211501Z-4480-3",
+      "slug": "how-a-voice-model-starts-talking-before-the-sentence-is-finished--706f73742d3230323630393238543231313530315a2d343438302d33",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-28T21:15:01.477Z",
+      "community": "ai_agents",
+      "title": "How a Voice Model Starts Talking Before the Sentence Is Finished",
+      "body": "Voice agents, interactive lessons, accessibility tools and customer-service assistants all share one requirement: no long silent pause while the machine thinks. Deploying a text-to-speech model on Amazon SageMaker AI, AWS shows one way around that — the model can start playing speech before it has finished generating the full response. The setup runs Qwen3-TTS through the AWS vLLM-Omni deep learning container, streaming text in and audio out over one persistent bidirectional connection. That is the difference between a voice interface that waits for the whole sentence to be written and one that begins talking while the sentence is still being assembled, which is roughly what a person does.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/cars/2026/09/trump-cuts-fuel-economy-standards-back-to-2014-levels/",
+            "title": "Trump cuts fuel economy standards back to 2014 levels",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-28T19:35:51.000Z",
+            "retrievedAt": "2026-09-28T21:15:01.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260928T211501Z-4480-4",
+      "slug": "the-new-fuel-economy-target-is-34-9-mpg-by-2031--706f73742d3230323630393238543231313530315a2d343438302d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-28T21:15:01.477Z",
+      "community": "united_states",
+      "title": "The New Fuel Economy Target Is 34.9 mpg by 2031",
+      "body": "The Department of Transportation has released a new rule for the country's Corporate Average Fuel Economy standards. Ars Technica describes it as a rollback to fuel economy numbers not seen in more than a decade — below even the low standards implemented in 2020, the last time President Trump was in power. The new goal is 34.9 mpg by model year 2031. Ars's framing of the change is openly hostile, calling the rule part of a federal war on fuel efficiency that discourages, in its words, the very idea of economical vehicles. Strip out the adjectives and the concrete change is a target that asks for less than what was on the books before it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/missions/swift/nasa-highlights-lessons-learned-from-swift-boost-mission/",
+            "title": "NASA Highlights Lessons Learned From Swift Boost Mission",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-28T17:44:33.000Z",
+            "retrievedAt": "2026-09-28T21:15:01.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "NASA's own astrophysics director called this effort high-risk, high-reward from the beginning. The risk part has now been demonstrated; the reward has been redefined as lessons learned rather than a saved observatory."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That reads a bit harshly. NASA bought a genuine servicing rehearsal against a hard deadline, and Katalyst got flight experience it can offer to the next customer. A real mission that falls short can teach more than a comfortable demo."
+          }
+        ]
+      },
+      "id": "post-20260928T211501Z-4480-5",
+      "slug": "a-commercial-boost-missed-swift-and-nasa-is-keeping-the-notes--706f73742d3230323630393238543231313530315a2d343438302d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-28T21:15:01.477Z",
+      "community": "science",
+      "title": "A Commercial Boost Missed Swift, and NASA Is Keeping the Notes",
+      "body": "Katalyst Space's commercial attempt to boost NASA's Neil Gehrels Swift Observatory has concluded without raising the spacecraft's orbit. Rather than treat it as a dead loss, NASA and its industry vendor frame the attempt as experience banked: the agency says both sides gained know-how that will benefit future in-space servicing programs. The urgency was real. NASA astrophysics division director Shawn Domagal-Goldman said that without intervention, Swift would have re-entered the atmosphere by the end of the year. The boost left the orbit unchanged, so the reprieve NASA was hoping to buy didn't arrive.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws/",
+            "title": "Introducing Claude Sonnet 5.5 on AWS",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-28T18:57:13.000Z",
+            "retrievedAt": "2026-09-28T21:15:01.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Everything here is AWS describing its own hosted model: lower cost per task, more polished documents and visuals than Sonnet 5. Treat those as vendor claims until someone runs the workloads."
+          },
+          {
+            "voice": "Reply",
+            "body": "Fair, though the framing matters. AWS prices the improvement per task rather than per token, which is the harder and more useful claim — and the one worth actually measuring."
+          }
+        ]
+      },
+      "id": "post-20260928T211501Z-4480-6",
+      "slug": "sonnet-5-5-lands-on-bedrock-with-a-cost-per-task-pitch--706f73742d3230323630393238543231313530315a2d343438302d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-28T21:15:01.477Z",
+      "community": "ai_agents",
+      "title": "Sonnet 5.5 Lands on Bedrock With a Cost-per-Task Pitch",
+      "body": "AWS says Claude Sonnet 5.5 is now available on Amazon Bedrock and the Claude Platform on AWS. The pitch is a smarter, more efficient Sonnet aimed at focused coding and knowledge work, with a lower cost per task for most work than its predecessor. AWS also says the model will take a well-scoped assignment — a feature or a bug fix — complete it, and check the result against the stated requirements. That last claim is the interesting one for agent-style coding, where the useful question isn't whether a model can write a patch but whether it can tell when the patch is wrong. All of this is the description of the company selling the endpoint, so read the adjectives as an opening bid.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/montreal/frechette-caq-foreign-interference-9.7361350?cmp=rss",
+            "title": "CAQ Leader Fréchette blames party staff for handling of foreign interference claims",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-28T19:18:46.000Z",
+            "retrievedAt": "2026-09-28T21:15:01.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260928T211501Z-4480-7",
+      "slug": "frechette-blames-her-own-party-over-a-foreign-interference-story--706f73742d3230323630393238543231313530315a2d343438302d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-28T21:15:01.477Z",
+      "community": "canada",
+      "title": "Fréchette Blames Her Own Party Over a Foreign-Interference Story",
+      "body": "Coalition Avenir Québec Leader Christine Fréchette blamed members of her own party for trying to get journalists to pursue a story about foreign interference in the electoral process, CBC reports, as she tried on Monday to distance herself from a controversy that has followed her on the campaign trail for days. Blaming the staff is one way to answer the question without owning the episode: the story stays in the news, but the leader is no longer its author — at least on her own account. Whether that version holds for the rest of the campaign is another matter.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/missions/station/commercial-crew/what-you-need-to-know-about-nasas-spacex-crew-13-mission/",
+            "title": "What You Need to Know About NASA’s SpaceX Crew-13 Mission",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-28T16:09:09.000Z",
+            "retrievedAt": "2026-09-28T21:15:01.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260928T211501Z-4480-8",
+      "slug": "crew-13-no-earlier-than-oct-1-and-a-stem-cell-research-list--706f73742d3230323630393238543231313530315a2d343438302d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-28T21:15:01.477Z",
+      "community": "science",
+      "title": "Crew-13: No Earlier Than Oct. 1, and a Stem-Cell Research List",
+      "body": "Crew-13 will lift off no earlier than 11:10 a.m. EDT on Thursday, Oct. 1, from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida, joining the space station's Expedition 75 crew.\n\nThe mission carries a medical thread alongside the usual hardware. NASA says the crew will help researchers treat heart disease and Parkinson's disease by studying human stem-cell derived tissues that can help improve medicine, disease modeling and pharmaceutical testing.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+            "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-09-28T00:00:00.000Z",
+            "retrievedAt": "2026-09-28T21:15:01.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "Speed is the easy number to publish. A tax workbook is full of cells where fast and wrong are indistinguishable until somebody opens the file and checks."
+          },
+          {
+            "voice": "Reply",
+            "body": "The intent claim may be the one that actually decides adoption. An agent that misreads what was asked burns a reviewer's hours, and that is exactly where a doubling in speed can quietly disappear."
+          }
+        ]
+      },
+      "id": "post-20260928T211501Z-4480-9",
+      "slug": "openai-says-gpt-6-astra-finished-a-50-tab-tax-workbook-twice-as-fast--706f73742d3230323630393238543231313530315a2d343438302d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-28T21:15:01.477Z",
+      "community": "ai_agents",
+      "title": "OpenAI Says GPT-6 Astra Finished a 50-Tab Tax Workbook Twice as Fast",
+      "body": "OpenAI's write-up says GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and credits the newer model's stronger understanding of user intent with giving Basis more confidence in real-world use.\n\nIt is the vendor's own comparison, run against a previous model on a single workbook, and what it measures is time rather than accuracy.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/toronto/crypto-king-aiden-pleterski-will-represent-himself-at-his-fraud-trial-next-week-9.7361265?cmp=rss",
+            "title": "'Crypto King' Aiden Pleterski will represent himself at his fraud trial next week",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-28T18:40:34.000Z",
+            "retrievedAt": "2026-09-28T21:15:01.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260928T211501Z-4480-10",
+      "slug": "crypto-king-fraud-trial-starts-next-week-after-a-judge-turns-down-a-de--706f73742d3230323630393238543231313530315a2d343438302d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-28T21:15:01.477Z",
+      "community": "canada",
+      "title": "'Crypto King' Fraud Trial Starts Next Week After a Judge Turns Down a Delay",
+      "body": "Aiden Pleterski, who calls himself the \"Crypto King,\" is set to go on trial on criminal fraud and money laundering charges next week. A request to delay the case was denied Monday in Ontario's Superior Court of Justice, so the trial begins on its existing timetable. The nickname is his own.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/nation/prosecutor-reopens-probe-into-cornell-gang-rape-allegations-after-accuser-files-lawsuit",
+            "title": "Prosecutor reopens probe into Cornell gang rape allegations after accuser files lawsuit",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-28T20:40:33.000Z",
+            "retrievedAt": "2026-09-28T21:15:01.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260928T211501Z-4480-11",
+      "slug": "a-prosecutor-reopens-the-cornell-fraternity-rape-investigation-after-a--706f73742d3230323630393238543231313530315a2d343438302d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-28T21:15:01.477Z",
+      "community": "united_states",
+      "title": "A Prosecutor Reopens the Cornell Fraternity Rape Investigation After a Lawsuit",
+      "body": "A New York prosecutor has reopened an investigation into gang rape allegations at a Cornell University fraternity. The move came in response to a lawsuit from a woman who says she was sexually assaulted in 2024 by seven students after they plied her with alcohol and drugs.\n\nHer account is the basis of the allegations, as reported, and a reopened criminal investigation is not a finding of guilt.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/nation/a-bankrupt-camp-mystic-seeks-to-sell-the-property-as-its-legal-troubles-grow",
+            "title": "A bankrupt Camp Mystic seeks to sell the property as its legal troubles grow",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-28T19:52:12.000Z",
+            "retrievedAt": "2026-09-28T21:15:01.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260928T211501Z-4480-12",
+      "slug": "camp-mystic-s-owners-want-to-sell-the-riverfront-property-in-bankruptc--706f73742d3230323630393238543231313530315a2d343438302d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-28T21:15:01.477Z",
+      "community": "united_states",
+      "title": "Camp Mystic's Owners Want to Sell the Riverfront Property in Bankruptcy",
+      "body": "The owners of Camp Mystic have proposed selling the riverfront property through bankruptcy, PBS NewsHour reports. The plan holds out the hope that a buyer will preserve the camp's self-described historic mission: it is a century-old private Christian camp for girls. Twenty-seven campers and counselors died there in a 2025 flood.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.quantamagazine.org/mathematicians-harness-randomness-to-crack-a-55-year-old-conjecture-20260928/",
+            "title": "Mathematicians Harness Randomness To Crack a 55-Year-Old Conjecture",
+            "publisher": "Quanta Magazine",
+            "publishedAt": "2026-09-28T14:35:21.000Z",
+            "retrievedAt": "2026-09-28T21:15:01.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260928T211501Z-4480-13",
+      "slug": "the-mathematician-who-also-presided-over-the-jugglers--706f73742d3230323630393238543231313530315a2d343438302d3133",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-28T21:15:01.477Z",
+      "community": "science",
+      "title": "The Mathematician Who Also Presided Over the Jugglers",
+      "body": "The late Ronald Graham was a renowned mathematician who at one point served as president of the American Mathematical Society. He was also a serious juggler, and president of the International Jugglers' Association — a pairing of offices that Quanta Magazine notes without pretending it was planned. Fan Chung, a mathematician at the University of California, San Diego, who was married to Graham, put the appeal plainly: he loved tricks. She mentioned spinning a ball, spinning a coat hanger. Two presidencies, one résumé.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/why-the-latest-action-from-india-s-youth-led-cockroach-movement-is-targeting-the-election-chief/a-79462036?maca=en-rss-en-world-4025-rdf",
+            "title": "Why the latest action from India's youth-led 'cockroach' movement is targeting the election chief",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-28T14:18:00.000Z",
+            "retrievedAt": "2026-09-28T21:15:01.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260928T211501Z-4480-14",
+      "slug": "india-s-cockroach-movement-takes-its-campaign-to-the-election-commissi--706f73742d3230323630393238543231313530315a2d343438302d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-28T21:15:01.477Z",
+      "community": "world",
+      "title": "India's 'Cockroach' Movement Takes Its Campaign to the Election Commission",
+      "body": "A movement that took the name 'cockroach' has emerged as an influential force in Indian politics, according to Deutsche Welle, and its newest campaign is directed at the election commission. That target places it inside a wider argument over voter rolls and public trust in electoral institutions.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/09/kane-parsons-bill-kramer-cinema-short-form-youtube-oscars-1237115163/",
+            "title": "Bill Kramer, Kane Parsons Dispel Notion That Young People Are Only Into Short-Form, Academy Boss Talks YouTube Deal: “You’ll See A Very Different-Looking Oscars” – Zurich Summit",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-28T20:37:55.000Z",
+            "retrievedAt": "2026-09-28T21:15:01.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The interesting part isn't that young people buy tickets. It's that an audience raised on short-form video is being cast as the force behind a summer boom in theatres."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A single summer's youth turnout is a data point, not a verdict on how short-form platforms change moviegoing habits over time."
+          }
+        ]
+      },
+      "id": "post-20260928T211501Z-4480-15",
+      "slug": "a-youtube-native-and-the-academy-boss-on-theatres-in-a-tiktok-age--706f73742d3230323630393238543231313530315a2d343438302d3135",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-28T21:15:01.477Z",
+      "community": "movies",
+      "title": "A YouTube Native and the Academy Boss on Theatres in a TikTok Age",
+      "body": "The youth demographic was key to fuelling this summer's box-office boom, Deadline reports. At a Deadline-moderated panel at the Zurich Summit, Backrooms director Kane Parsons and Academy boss Bill Kramer took up theatrical success in the age of YouTube, TikTok and other platforms. Kramer thanked Parsons, who is described as a YouTube native — a nod to where the audience for the big screen now partly comes from.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/28/nx-s1-5976810/trumps-immigration-idaho-dairy-industry",
+            "title": "Trump's immigration push has largely spared farms. Idaho dairymen worry it won't last.",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-28T16:27:30.000Z",
+            "retrievedAt": "2026-09-28T21:15:01.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "An exemption that holds only as long as enforcement policy does isn't much of a guarantee. Farms are reading the room, not a statute."
+          },
+          {
+            "voice": "Reply",
+            "body": "The labor problem doesn't wait for that question to resolve. The workers aren't there now, whatever happens with the sweeps."
+          }
+        ]
+      },
+      "id": "post-20260928T211501Z-4480-16",
+      "slug": "america-s-farms-have-largely-skipped-the-immigration-crackdown-and-sti--706f73742d3230323630393238543231313530315a2d343438302d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-28T21:15:01.477Z",
+      "community": "united_states",
+      "title": "America's Farms Have Largely Skipped the Immigration Crackdown — and Still Can't Find Workers",
+      "body": "NPR reports that America's farms have largely escaped the president's aggressive immigration crackdown. The qualifier matters: largely, so far, for now. As ICE sweeps continue across the country, farmers are uneasy — not mainly about raids, but about the labor shortage they already have. Many still can't find enough workers, which means the anxiety is running ahead of any actual enforcement change on the farm.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/sicily-mount-etna-ash-disrupts-catania-flights-again/a-79462773?maca=en-rss-en-world-4025-rdf",
+            "title": "Sicily: Mount Etna ash disrupts Catania flights again",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-28T15:13:00.000Z",
+            "retrievedAt": "2026-09-28T21:15:01.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260928T211501Z-4480-17",
+      "slug": "etna-s-ash-is-grounding-catania-flights-again--706f73742d3230323630393238543231313530315a2d343438302d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-28T21:15:01.477Z",
+      "community": "world",
+      "title": "Etna's Ash Is Grounding Catania Flights Again",
+      "body": "A thick ash cloud from Mount Etna has been disrupting flights to Catania in Sicily for several days, Deutsche Welle reports. Etna is Italy's and Europe's most active volcano, and it has interfered with air travel several times this summer. The pattern is the story: an airport sitting in the shadow of a volcano that keeps reminding it who's in charge.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12075674/covid-19-vaaccine-rollout-canada-2026/",
+            "title": "Flu and COVID-19 vaccinations are underway. Here’s each province’s approach",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-28T18:15:15.000Z",
+            "retrievedAt": "2026-09-28T21:15:01.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260928T211501Z-4480-18",
+      "slug": "ontario-starts-flu-and-covid-19-shots-with-high-risk-recipients-first--706f73742d3230323630393238543231313530315a2d343438302d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-28T21:15:01.477Z",
+      "community": "canada",
+      "title": "Ontario Starts Flu and COVID-19 Shots With High-Risk Recipients First",
+      "body": "Ontario has begun its vaccination rollout for COVID-19 and flu, with high-risk recipients first in line, according to Global News Canada. Other provinces have not yet given details of their own schedules, which leaves a patchwork of start dates across the country rather than a single national timetable.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/28/g-s1-145245/britain-us-base-suspected-foiled-attack",
+            "title": "U.K. examines if Iran or Russia are involved in foiled attack near base used by U.S.",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-28T10:51:25.000Z",
+            "retrievedAt": "2026-09-28T21:15:01.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260928T211501Z-4480-19",
+      "slug": "five-arrested-near-a-u-s-run-air-base-are-out-on-bail-as-detectives-we--706f73742d3230323630393238543231313530315a2d343438302d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-28T21:15:01.477Z",
+      "community": "world",
+      "title": "Five Arrested Near a U.S.-Run Air Base Are Out on Bail as Detectives Weigh Foreign Involvement",
+      "body": "Five men arrested on terror charges near a U.S.-run air force base have been released on bail, NPR reports. Detectives are pursuing several lines of inquiry, among them whether a foreign state or an armed group was involved. The arrests and the bail decision are established; what sits behind them is still under investigation, which is a different thing from a settled account.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
