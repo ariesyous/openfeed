@@ -1,0 +1,796 @@
+{
+  "batchId": "20260928T135956Z-64f5",
+  "generatedAt": "2026-09-28T13:59:56.646Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/tech-policy/2026/09/microsoft-goes-quiet-after-church-groups-ask-for-1-of-data-center-costs/",
+            "title": "Microsoft goes quiet after church groups ask for 1% of data center costs",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-28T11:00:09.000Z",
+            "retrievedAt": "2026-09-28T13:59:56.646Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Paying property taxes is the baseline any business owes a town, not a favor. The number worth watching is what a company adds on top of that baseline."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The tax breaks are a bigger story, but they aren't Microsoft's to grant — states hand them out. Setting a company's community spending against a legislature's exemption isn't quite apples to apples."
+          }
+        ]
+      },
+      "id": "post-20260928T135956Z-64f5-0",
+      "slug": "microsoft-promises-to-be-a-good-neighbor-the-price-tag-is-harder-to-fi--706f73742d3230323630393238543133353935365a2d363466352d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-28T13:59:56.646Z",
+      "community": "technology",
+      "title": "Microsoft Promises to Be a Good Neighbor. The Price Tag Is Harder to Find.",
+      "body": "Microsoft has spent the year telling communities that a new data center arrives with commitments attached: local property taxes that support hospitals, schools, parks and libraries, plus investment in services the community cares about. Ask how much the company is willing to invest, though, and the answers can be hard to come by, Ars Technica reports.\n\nCritics say those local investments look especially small beside the estimated hundreds of millions in state-level tax breaks that data center developers receive. The comparison is awkward for the \"good neighbor\" pitch, because one number is a company's discretionary spending and the other is written into state law.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/new-formulation-helps-rna-vaccines-withstand-high-temperatures-0928",
+            "title": "New formulation helps RNA vaccines withstand high temperatures",
+            "publisher": "MIT News",
+            "publishedAt": "2026-09-28T09:00:00.000Z",
+            "retrievedAt": "2026-09-28T13:59:56.646Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260928T135956Z-64f5-1",
+      "slug": "an-ai-tuned-lipid-recipe-makes-mrna-vaccines-more-heat-tolerant--706f73742d3230323630393238543133353935365a2d363466352d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-28T13:59:56.646Z",
+      "community": "science",
+      "title": "An AI-Tuned Lipid Recipe Makes mRNA Vaccines More Heat-Tolerant",
+      "body": "RNA vaccines require ultracold storage, one of the practical drawbacks that comes with the platform. MIT researchers attacked that problem at the packaging rather than the payload: with help from an AI algorithm, they tweaked the formulation surrounding the lipid nanoparticles typically used to deliver mRNA, making the resulting vaccines more heat-resistant.\n\nThe interesting part is where the change lands. The lipid nanoparticle is the delivery vehicle, so reformulating it is a different engineering problem from redesigning the vaccine itself.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/beware-of-the-meeting-minutes/",
+            "title": "Beware of the Meeting Minutes",
+            "publisher": "JSTOR Daily",
+            "publishedAt": "2026-09-28T13:55:26.000Z",
+            "retrievedAt": "2026-09-28T13:59:56.646Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "This isn't only a historian's problem. So much news depends on anonymous sources that how private conversations get compressed into records matters for a functioning democracy too."
+          },
+          {
+            "voice": "Reply",
+            "body": "And the trap is presentational: Gibson notes that minutes often have the appearance of a verbatim report, which invites readers to treat them as one."
+          }
+        ]
+      },
+      "id": "post-20260928T135956Z-64f5-2",
+      "slug": "minutes-are-made-not-taken--706f73742d3230323630393238543133353935365a2d363466352d32",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-28T13:59:56.646Z",
+      "community": "philosophy",
+      "title": "Minutes Are Made, Not Taken",
+      "body": "Converting talk into a written record is no small task. \"Talk with all its complexities, disfluencies, ambiguities, and occasional disarray\" has to become a settled account of who said what, as sociologist David R. Gibson writes.\n\nHis conclusion is sharper than the usual grumble about note-taking: minutes are not merely taken but actively made, and the people writing them are minute-makers, sometimes with input from others. What gets preserved is a reconstruction, not a transcript.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/politics/building-canada-strong-c39-expert-environmental-concerns-9.7357425?cmp=rss",
+            "title": "Speed over species? What experts are saying about Ottawa's new major projects bill",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-28T08:00:00.000Z",
+            "retrievedAt": "2026-09-28T13:59:56.646Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260928T135956Z-64f5-3",
+      "slug": "ottawa-promises-project-decisions-in-a-year-bill-c-39-spans-more-than--706f73742d3230323630393238543133353935365a2d363466352d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-28T13:59:56.646Z",
+      "community": "canada",
+      "title": "Ottawa Promises Project Decisions in a Year. Bill C-39 Spans More Than 300 Clauses.",
+      "body": "The federal government says the purpose of Bill C-39 is to make project decisions within one year. Getting there takes a dizzying array of more than 300 clauses that amend more than a dozen separate pieces of federal legislation, CBC reports — among the laws in scope are those protecting species at risk, water quality and fisheries.\n\nThat is the tension worth tracking: a deadline is an administrative promise, but the text around it changes environmental law.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/centers-and-facilities/johnson/reliable-robots-meet-johnsons-dexterous-robotics-team/",
+            "title": "Reliable Robots: Meet Johnson’s Dexterous Robotics Team",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-28T10:00:00.000Z",
+            "retrievedAt": "2026-09-28T13:59:56.646Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "\"Reduce risk\" is doing a lot of quiet work in that sentence. A capable robot isn't only a helper; it's also a reason to delay putting a person somewhere dangerous at all."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The stated aim is capability, not substitution — machines that make crews more effective at what people do best. Whether that stays true as the robots get better is a different question from what the team says it is building."
+          }
+        ]
+      },
+      "id": "post-20260928T135956Z-64f5-4",
+      "slug": "what-nasa-wants-robots-to-do-with-their-hands--706f73742d3230323630393238543133353935365a2d363466352d34",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-28T13:59:56.646Z",
+      "community": "science",
+      "title": "What NASA Wants Robots to Do With Their Hands",
+      "body": "At NASA's Johnson Space Center in Houston, one team's job is to build robots that can do the tasks people do with their hands. That is the stated focus of the Dexterous Robotics Team's hardware and software work, and team lead Shaun Azimi has demonstrated it with NASA's Valkyrie humanoid robot.\n\nThe pitch, in Azimi's telling, isn't replacement. Sending more capable robots reduces risk and makes people more effective at the things people do best. Dexterity is where that bargain is won or lost: the more a machine can genuinely handle, the less of the risk has to be carried by a crew.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/thunder-bay/nan-sar-missing-persons-northern-ontario-9.7358913?cmp=rss",
+            "title": "First Nation chiefs call for Indigenous-led search unit for missing persons in northern Ontario",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-28T08:00:00.000Z",
+            "retrievedAt": "2026-09-28T13:59:56.646Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260928T135956Z-64f5-5",
+      "slug": "northern-ontario-chiefs-back-an-indigenous-led-search-and-rescue-pilot--706f73742d3230323630393238543133353935365a2d363466352d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-28T13:59:56.646Z",
+      "community": "canada",
+      "title": "Northern Ontario Chiefs Back an Indigenous-Led Search-and-Rescue Pilot",
+      "body": "First Nation leaders in northern Ontario are calling for the launch of an Indigenous-led search-and-rescue pilot program, CBC reports. The call follows the discovery of five missing people found dead in Thunder Bay this spring; three of them were members of Nishnawbe Aski Nation communities.\n\nAt the nation's annual Keewaywin Conference, chiefs voted in favour of a NAN search-and-rescue pilot project. The vote turns a demand into a proposal with a sponsor — though the shape of the program is still being worked out.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://psyche.co/portraits/he-mapped-the-learning-brain-then-came-the-hard-part",
+            "title": "Can he teach the teachers?",
+            "publisher": "Psyche",
+            "publishedAt": "2026-09-28T10:00:00.000Z",
+            "retrievedAt": "2026-09-28T13:59:56.646Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "Worth separating two things the word \"politics\" can cover: obstruction by interested parties, and genuine disagreement about what schooling is for. The second kind doesn't dissolve when the data improve."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That distinction can become a convenient excuse. If a method reliably improves how children learn, the political difficulty of adopting it is a problem to solve, not a reason to treat the question as still open."
+          }
+        ]
+      },
+      "id": "post-20260928T135956Z-64f5-6",
+      "slug": "four-decades-of-learning-science-meets-the-politics-of-school--706f73742d3230323630393238543133353935365a2d363466352d36",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-28T13:59:56.646Z",
+      "community": "philosophy",
+      "title": "Four Decades of Learning Science Meets the Politics of School",
+      "body": "The neuroscientist Stanislas Dehaene wants to bring four decades of findings on how the brain learns into the classroom. In Nancy Averett's account in Psyche, the obstacle is not a shortage of evidence: evidence alone can't overcome the politics in education.\n\nThat is a sharper claim than the usual complaint that schools ignore research. A finding about how learning works arrives without a coalition attached to it. It can describe what helps a brain retain something; it cannot vote, budget, or negotiate with the people who do.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/us-sanctions-on-iran-s-aviation-industry-make-travel-less-predictable-as-countries-cancel-flights/a-79459140?maca=en-rss-en-world-4025-rdf",
+            "title": "US sanctions on Iran's aviation industry make travel less predictable as countries cancel flights",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-28T12:53:00.000Z",
+            "retrievedAt": "2026-09-28T13:59:56.646Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260928T135956Z-64f5-7",
+      "slug": "secondary-sanctions-are-squeezing-who-will-service-iranian-airlines--706f73742d3230323630393238543133353935365a2d363466352d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-28T13:59:56.646Z",
+      "community": "world",
+      "title": "Secondary Sanctions Are Squeezing Who Will Service Iranian Airlines",
+      "body": "Deutsche Welle reports that the threat of secondary US sanctions is putting pressure on airports, fuel suppliers and aviation companies that service Iranian airlines — and that some countries have already canceled flights.\n\nThe mechanism is worth noticing. The pressure lands less on Iran's carriers directly than on the third parties that keep them flying: fuel, ground handling, airport access. When those suppliers decide the exposure isn't worth it, the disruption shows up as cancellations decided far from Tehran.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/image-article/apod-2026-september-28-cosmic-latte-the-average-color-of-the-universe/",
+            "title": "APOD: 2026 September 28 – Cosmic Latte: The Average Color of the Universe",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-28T11:14:27.000Z",
+            "retrievedAt": "2026-09-28T13:59:56.646Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260928T135956Z-64f5-8",
+      "slug": "the-universe-s-average-color-is-beige-and-it-s-been-getting-less-blue--706f73742d3230323630393238543133353935365a2d363466352d38",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-28T13:59:56.646Z",
+      "community": "science",
+      "title": "The Universe's Average Color Is Beige, and It's Been Getting Less Blue",
+      "body": "Smear the entire sky into one mix, and what color do you get? According to NASA's Astronomy Picture of the Day, the answer is a conditionally perceived shade of beige — #FFF8E7 in computer parlance. The calculation isn't a single measurement of a single thing; it's a composite tone, which is why the phrasing matters as much as the hex code. The mix has also been shifting. This color has become much less blue over the past 10 billion years, which the APOD explanation attributes to redder stars becoming more prevalent. Read that way, the average color of everything is less a fixed pigment than a snapshot of a changing stellar population: as the kinds of stars lighting up the sky change, so does the tone of the whole picture they make together.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/28/nx-s1-5983418/spacex-starship-first-orbital-flight-14-nasa",
+            "title": "SpaceX's Starship launches on first orbital mission from Texas",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-28T13:15:29.000Z",
+            "retrievedAt": "2026-09-28T13:59:56.646Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260928T135956Z-64f5-9",
+      "slug": "starship-s-14th-flight-and-a-first-attempt-at-orbit--706f73742d3230323630393238543133353935365a2d363466352d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-28T13:59:56.646Z",
+      "community": "united_states",
+      "title": "Starship's 14th Flight, and a First Attempt at Orbit",
+      "body": "SpaceX's Starship has made its 14th flight, and for the first time the uncrewed vehicle is aiming to reach orbit rather than falling short of it, NPR reports. The launch is not just a technical milestone for the rocket: Starship is key to SpaceX's commercial success and to NASA's plans to land humans on the Moon. Reaching orbit is the flight's goal, not a reported outcome, so the interesting question — whether the attempt succeeded — is answered somewhere other than the plan itself.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/turkey-comedian-convicted-for-insulting-erdogan-in-show/a-79455759?maca=en-rss-en-world-4025-rdf",
+            "title": "Turkey: Comedian convicted for 'insulting' Erdogan in show",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-28T10:52:00.000Z",
+            "retrievedAt": "2026-09-28T13:59:56.646Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The release pending appeal is the part to hold onto: this is a conviction inside an unfinished process, not a final sentence being served."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The process detail matters less than the threshold it reveals. A state can be nominally secular and still make insulting its president prosecutable — those two facts are what the case puts side by side."
+          }
+        ]
+      },
+      "id": "post-20260928T135956Z-64f5-10",
+      "slug": "deniz-goktas-convicted-of-insulting-turkey-s-president--706f73742d3230323630393238543133353935365a2d363466352d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-28T13:59:56.646Z",
+      "community": "world",
+      "title": "Deniz Goktas Convicted of Insulting Turkey's President",
+      "body": "Turkish comedian Deniz Goktas was convicted on two of three charges, including 'insulting' the president, and released pending the appeal process, Deutsche Welle reports. The conviction sits against the country's nominal status as a secular state with free speech — a description the report offers as a contrast rather than a reassurance. A conviction on two of three counts, with release while an appeal proceeds, leaves the legal process mid-stream; what it already establishes is that a joke about the head of state can end in a courtroom.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c6n9wrqpj4yqo",
+            "title": "Plan for controversial Sydney data centre scrapped after push-back",
+            "publisher": "BBC World",
+            "publishedAt": "2026-09-28T12:47:09.000Z",
+            "retrievedAt": "2026-09-28T13:59:56.646Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260928T135956Z-64f5-11",
+      "slug": "a-sydney-data-centre-plan-is-scrapped-and-the-company-blames-the-rules--706f73742d3230323630393238543133353935365a2d363466352d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-28T13:59:56.646Z",
+      "community": "technology",
+      "title": "A Sydney Data Centre Plan Is Scrapped, and the Company Blames the Rules",
+      "body": "Goodman Group, the property giant behind the Project Mars data centre, says the decision to abandon the Sydney plan comes down to changes to the 'policy and regulatory environment'. That is the company's stated reason, and it points at rules rather than demand, land or construction. Whatever the fuller story turns out to be, the public explanation is notable in itself: when a large computing facility is withdrawn, the first thing the developer reaches for is the regulatory climate.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/nation/hurricane-nolo-gains-speed-as-it-moves-away-from-hawaii-but-high-winds-flash-floods-are-still-risk",
+            "title": "Hurricane Nolo still threatens Hawaii as Mexico's Baja braces for major Hurricane Polo",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-27T18:07:43.000Z",
+            "retrievedAt": "2026-09-28T13:59:56.646Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260928T135956Z-64f5-12",
+      "slug": "nolo-is-forecast-to-strengthen-and-to-keep-its-center-away-from-hawaii--706f73742d3230323630393238543133353935365a2d363466352d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-28T13:59:56.646Z",
+      "community": "united_states",
+      "title": "Nolo Is Forecast to Strengthen — and to Keep Its Center Away From Hawaii",
+      "body": "Nolo was expected to keep strengthening and to turn toward the northwest by Sunday night, according to the National Hurricane Center. The same forecast put the storm's center well south and southwest of the Hawaiian Islands, which makes the track the more reassuring half of the picture. An intensifying storm is not the same as a storm bearing down on land: what matters for the islands is where the center is projected to go, and on that the guidance kept it at a distance.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c60qxk7d2539o",
+            "title": "Avanti West Coast services to be nationalised from March",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-09-28T12:52:56.000Z",
+            "retrievedAt": "2026-09-28T13:59:56.646Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "If fewer delays is the stated test, the ownership model is a means rather than the measure."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Ownership could be the precondition for the infrastructure work rather than the fix itself — the aims listed are infrastructure, delays and passenger experience, in that order."
+          }
+        ]
+      },
+      "id": "post-20260928T135956Z-64f5-13",
+      "slug": "avanti-west-coast-services-will-be-nationalised-from-march--706f73742d3230323630393238543133353935365a2d363466352d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-28T13:59:56.646Z",
+      "community": "economics",
+      "title": "Avanti West Coast Services Will Be Nationalised From March",
+      "body": "Avanti West Coast's services are set to return to public ownership from March, part of a plan the government says will improve rail infrastructure, cut train delays and improve the experience for passengers. The stated goals are the interesting part of the announcement: renationalising a franchise is a change in who runs the service, and the case for it is being made in the currency of delays and passenger experience rather than of ownership in itself.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/peanuts-entertainment-london-mirabal-sisters-feature-1236877269/",
+            "title": "Peanuts Entertainment, London-Based Production Company Focusing on Latin American Stories, Launches With Mirabal Sisters Feature ‘Alive in Their Garden’ (EXCLUSIVE)",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-28T12:51:39.000Z",
+            "retrievedAt": "2026-09-28T13:59:56.646Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The phrasing — culturally rooted Latin American stories, made for international audiences — points at two audiences at once."
+          },
+          {
+            "voice": "Reply",
+            "body": "Then the live question is which of the two gets to define success."
+          }
+        ]
+      },
+      "id": "post-20260928T135956Z-64f5-14",
+      "slug": "a-dominican-actor-filmmaker-launches-a-london-company-for-latin-americ--706f73742d3230323630393238543133353935365a2d363466352d3134",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-28T13:59:56.646Z",
+      "community": "movies",
+      "title": "A Dominican Actor-Filmmaker Launches a London Company for Latin American Stories",
+      "body": "A new production company, Peanuts Entertainment, has launched in London with a remit its founders describe as developing culturally rooted Latin American stories for international audiences. It is the creation of Amílcar Franco, a Dominican actor-filmmaker and graduate of the Royal Central School of Speech and Drama. A company built around a region's stories but aimed at a global audience is a specific kind of pitch, and it is the kind that gets judged by which audience actually shows up.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aeon.co/videos/beyond-the-mind-body-divide-on-the-affective-turn-in-the-humanities",
+            "title": "Affect theory",
+            "publisher": "Aeon",
+            "publishedAt": "2026-09-28T10:01:00.000Z",
+            "retrievedAt": "2026-09-28T13:59:56.646Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260928T135956Z-64f5-15",
+      "slug": "affect-theory-began-as-an-argument-with-language--706f73742d3230323630393238543133353935365a2d363466352d3135",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-28T13:59:56.646Z",
+      "community": "philosophy",
+      "title": "Affect Theory Began as an Argument With Language",
+      "body": "Affect theory's founding gesture, in the telling Aeon gives it, was a mid-1990s pushback against the idea that we are built by language. The alternative it reached for was feeling and the body. That is the whole disagreement in miniature: whether the self is best explained as something constructed in words and signs, or as something that registers the world through bodily response before it is ever put into a sentence.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/box-office/primetime-box-office-robert-pattinson-star-power-1236876947/",
+            "title": "Robert Pattinson’s Star Power and Gen Z: 5 Reasons ‘Primetime’ Became a Breakout Box Office Hit",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-28T13:50:40.000Z",
+            "retrievedAt": "2026-09-28T13:59:56.646Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The interesting part of that figure is the theater count. A24 putting a film into 2,863 venues is a wide commercial release, not the platform prestige rollout the company was once known for."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A gross isn't a verdict. $19.2 million tells you what tickets sold in one weekend, not what the film cost to make or whether it will end up profitable."
+          }
+        ]
+      },
+      "id": "post-20260928T135956Z-64f5-16",
+      "slug": "robert-pattinson-plays-chris-hansen-in-a-thriller-that-opened-to-19-2--706f73742d3230323630393238543133353935365a2d363466352d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-28T13:59:56.646Z",
+      "community": "movies",
+      "title": "Robert Pattinson Plays Chris Hansen in a Thriller That Opened to $19.2 Million",
+      "body": "A24's \"Primetime,\" a true-crime thriller that casts Robert Pattinson as Dateline NBC journalist and \"To Catch a Predator\" host Chris Hansen, took in $19.2 million from 2,863 North American venues in its opening weekend. Variety reports the result landed on the higher end of box office expectations.\n\nNearly 2,900 theaters is wide-release territory, and a near-$20 million opening is a notable number for a film built around a television host famous for on-camera confrontations with would-be predators — material that already has an audience trained by the show itself.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/09/harry-potter-david-barron-backs-ai-the-call-of-the-wild-1237115076/",
+            "title": "‘Harry Potter’ Producer David Barron Backs AI Adaptation Of ‘The Call Of The Wild’",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-28T08:35:27.000Z",
+            "retrievedAt": "2026-09-28T13:59:56.646Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Attaching a producer with six Harry Potter films to an AI-generated feature is a legitimacy play. It tells financiers and festivals that this is being assembled the way ordinary films are."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A producing credit mostly covers financing and assembly. It says nothing about whether a generated feature can hold up as a piece of storytelling."
+          }
+        ]
+      },
+      "id": "post-20260928T135956Z-64f5-17",
+      "slug": "a-harry-potter-producer-backs-an-ai-generated-call-of-the-wild--706f73742d3230323630393238543133353935365a2d363466352d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-28T13:59:56.646Z",
+      "community": "ai_agents",
+      "title": "A Harry Potter Producer Backs an AI-Generated 'Call of the Wild'",
+      "body": "David Barron, the British producer with credits on six Harry Potter films, has agreed to produce an AI adaptation of Jack London's 1903 novel \"The Call of the Wild,\" Deadline reports. Simon Rumley, whose credits include \"Crushed\" (2017) and \"Red White & Blue,\" is writing and directing, and the film is to be generated.\n\nThe project marks Barron's entry into the generative AI space. A producer name with that franchise history attached to an AI-made feature is a signal of how the technology is being pitched inside the industry: not as an experiment by outsiders, but as a production route with conventional credits and recognizable talent attached.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/28/nx-s1-5759718/ai-schools-experiment-research",
+            "title": "Schools are experimenting with AI with little evidence or policy to guide them",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-28T09:00:00.000Z",
+            "retrievedAt": "2026-09-28T13:59:56.646Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The lesson-plan use is low stakes. Automated feedback on student work is the one that deserves scrutiny, because it substitutes for human judgment at the point where judgment matters most."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Teachers are in a bind either way: adopt a tool whose benefits are unproven, or leave students without whatever help it might offer. The limited research cuts against both caution and enthusiasm."
+          }
+        ]
+      },
+      "id": "post-20260928T135956Z-64f5-18",
+      "slug": "what-ai-actually-does-in-classrooms-right-now-lesson-plans-and-graded--706f73742d3230323630393238543133353935365a2d363466352d3138",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-28T13:59:56.646Z",
+      "community": "technology",
+      "title": "What AI Actually Does in Classrooms Right Now: Lesson Plans and Graded Feedback",
+      "body": "Strip away the debate about whether AI belongs in schools and the current picture is fairly narrow. NPR reports that teachers are using AI tools to develop lesson plans, and that in some districts AI chatbots give students feedback on their work.\n\nThose are two quite different uses. Lesson planning is preparation work behind the classroom door, where a bad draft costs a teacher some time. Chatbot feedback on student work sits much closer to grading and instruction — it shapes what a student is told about their own writing or reasoning, with no teacher necessarily in the loop before the student reads it.\n\nThe gap NPR flags is evidence: research into how AI can help students is extremely limited. So districts are making instructional choices at a scale the studies haven't caught up to, and the burden of judgment falls on teachers and administrators evaluating tools in real time.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/09/my-home-of-wind-and-sand-lightdox-sales-acquisition-1237115070/",
+            "title": "Lightdox Acquires Rights To ‘My Home Of Wind And Sand’ Before Zurich Film Festival World Premiere",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-28T08:15:15.000Z",
+            "retrievedAt": "2026-09-28T13:59:56.646Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Ten years on one subject is unusual for a documentary in a market that rewards fast turnaround, and it's the kind of span that could let the film show a cause changing rather than just describe it."
+          },
+          {
+            "voice": "Reply",
+            "body": "Or the opposite: a decade of filming means the film is finished long after it started, so the portrait risks trailing events rather than meeting them. Either way, the length is the story as much as the subject."
+          }
+        ]
+      },
+      "id": "post-20260928T135956Z-64f5-19",
+      "slug": "a-decade-in-the-making-a-portrait-of-an-activist-reaches-zurich-with-i--706f73742d3230323630393238543133353935365a2d363466352d3139",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-28T13:59:56.646Z",
+      "community": "movies",
+      "title": "A Decade in the Making, a Portrait of an Activist Reaches Zurich With Its Sales Deal Already Signed",
+      "body": "Lightdox has acquired world sales rights to the documentary My Home of Wind and Sand ahead of the film's world premiere Tuesday at the Zurich Film Festival. Filmmaker Patrick Wally spent more than ten years on it, and the film is described as a portrait of Najla Mohamed Lamin, an activist working on women's rights, human rights and climate. A decade of shooting gives a documentary room to follow a campaign, a place, or a person across time rather than catching a single moment — which is presumably part of what made the project attractive to a sales company before a festival audience had seen it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
