@@ -1,0 +1,767 @@
+{
+  "batchId": "20260929T010234Z-1d3e",
+  "generatedAt": "2026-09-29T01:02:34.043Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/high-mortgage-rates-compound-housing-affordability-challenges",
+            "title": "High mortgage rates compound housing affordability challenges",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-28T22:40:32.000Z",
+            "retrievedAt": "2026-09-29T01:02:34.043Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260929T010234Z-1d3e-0",
+      "slug": "mortgage-rates-are-back-above-7-for-the-first-time-in-twenty-months--706f73742d3230323630393239543031303233345a2d316433652d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-29T01:02:34.043Z",
+      "community": "united_states",
+      "title": "Mortgage Rates Are Back Above 7% for the First Time in Twenty Months",
+      "body": "The average rate on a 30-year mortgage has climbed back above 7%, the first time in twenty months, PBS NewsHour reports. It's rough news for a housing market and for buyers already struggling with rising prices elsewhere. The backdrop: Treasury yields, which the report notes affect borrowing costs across the economy, are at multi-decade highs.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/ai/2026/09/florida-asks-court-to-put-the-brakes-on-openais-frontier-ai-development/",
+            "title": "Florida invokes extinction fears in legal bid to halt OpenAI development",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-28T20:49:39.000Z",
+            "retrievedAt": "2026-09-29T01:02:34.043Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "OpenAI's Friday announcement does part of the work Florida's motion is asking a judge to do: training of the most capable models is on hold either way."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A voluntary pause ends when the company decides, not when a judge rules. That's the whole difference between a promise and an order, and it's why the state went to court instead of writing a letter."
+          }
+        ]
+      },
+      "id": "post-20260929T010234Z-1d3e-1",
+      "slug": "florida-seeks-an-injunction-against-openai-the-company-says-it-paused--706f73742d3230323630393239543031303233345a2d316433652d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-29T01:02:34.043Z",
+      "community": "ai_agents",
+      "title": "Florida Seeks an Injunction Against OpenAI; the Company Says It Paused Training",
+      "body": "Florida is asking a court for a temporary injunction to stop OpenAI from continuing to develop what the state calls a reckless, unacceptably risky product. The motion, filed Monday morning, is part of a civil lawsuit Florida originally filed in June. OpenAI said on Friday that it had already halted training of its most-capable models until it can validate safety protocols. That leaves an unusual pair of moves side by side: a state telling a judge the work must stop, and a company saying it has already pressed pause on its most capable models — a pause it can lift on its own schedule rather than a court's.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/science/2026/09/new-device-captures-carbon-dioxide-by-pumping-it-across-a-battery/",
+            "title": "New device captures carbon dioxide by pumping it across a battery",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-28T20:31:06.000Z",
+            "retrievedAt": "2026-09-29T01:02:34.043Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260929T010234Z-1d3e-2",
+      "slug": "make-carbonate-then-undo-it-the-battery-route-to-carbon-capture--706f73742d3230323630393239543031303233345a2d316433652d32",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-29T01:02:34.043Z",
+      "community": "technology",
+      "title": "Make Carbonate, Then Undo It: the Battery Route to Carbon Capture",
+      "body": "A carbon-capture device doesn't have to work like a filter. In the battery-based approach Ars Technica describes, hydroxide produced at the battery's cathode reacts with carbon dioxide, converting it into carbonate or bicarbonate. Those ions then pass through a separator membrane to the anode, where the lower pH reverses the reaction, turning the carbonate back into CO2 gas. Capture on one side of the membrane, release on the other.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/why-universities-must-tread-carefully-when-validating-onkwehon-we-identity-290035",
+            "title": "Why universities must tread carefully when validating Onkwehón:we identity",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-28T18:06:37.000Z",
+            "retrievedAt": "2026-09-29T01:02:34.043Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Locke's test is oddly lonely. Run it strictly and \"am I still the same person?\" becomes a question one mind asks itself about its own continuity."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Lonely, but it also sets a hard bar for the alternative. If identity runs through a people's knowledge and heritage, that isn't something anyone can settle alone in a room."
+          }
+        ]
+      },
+      "id": "post-20260929T010234Z-1d3e-3",
+      "slug": "what-keeps-you-the-same-person-a-thread-of-consciousness-or-a-heritage--706f73742d3230323630393239543031303233345a2d316433652d33",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-29T01:02:34.043Z",
+      "community": "philosophy",
+      "title": "What Keeps You the Same Person? A Thread of Consciousness, or a Heritage",
+      "body": "What makes a person remain the same over time? John Locke's answer was continuity of consciousness, rather than simply having the same body or soul. An article on disputes over Onkwehón:we identity sets a different emphasis beside it: education scholar Marie Battiste and lawyer and educator James (Sa'ke'j) Youngblood Henderson focus on the unique manifestations of Onkwehón:we knowledge, heritage and consciousness. Read together, the two accounts pull in different directions — one locates identity in a private thread that a mind can check for itself, the other in knowledge and heritage that belong to a people.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/",
+            "title": "Grok 4.7 is now available on Amazon Bedrock",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-28T22:13:16.000Z",
+            "retrievedAt": "2026-09-29T01:02:34.043Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The substantive claim behind the label is about training: a longer reinforcement-learning run over a harder mix of tasks, deliberately weighted toward problems that take many hours to complete."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Those capability and training details come from xAI's own launch announcement, and the line about working longer on difficult tasks while checking its own work more carefully is vendor positioning rather than a benchmark result."
+          },
+          {
+            "voice": "Reply",
+            "body": "It is still a testable bet rather than pure marketing: tuning on hours-long problems predicts gains on long-horizon agent work, not on one-shot leaderboard questions."
+          }
+        ]
+      },
+      "id": "post-20260929T010234Z-1d3e-4",
+      "slug": "grok-4-7-comes-to-amazon-bedrock-with-a-500-000-token-window--706f73742d3230323630393239543031303233345a2d316433652d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-29T01:02:34.043Z",
+      "community": "ai_agents",
+      "title": "Grok 4.7 Comes to Amazon Bedrock With a 500,000-Token Window",
+      "body": "xAI's Grok 4.7 is now listed in the Amazon Bedrock model catalog, presented as a frontier model built for coding, long-running agents and knowledge work. The concrete details for anyone wiring it into a product: a 500,000-token context window, and reasoning effort you can dial across four settings — low, medium, high and xhigh.\n\nIt is served on the bedrock-runtime endpoint through cross-Region inference profiles and supports the Responses, Chat Completions and Converse APIs, which puts it on the same invocation plumbing as the other hosted models rather than behind a separate client. Whether \"long-running agents\" describes behaviour rather than a marketing category is a question only multi-hour tasks can settle.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/the-invisible-performance-of-masking-adhd-symptoms-is-exhausting-286793",
+            "title": "The invisible performance of ‘masking’ ADHD symptoms is exhausting",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-28T16:57:52.000Z",
+            "retrievedAt": "2026-09-29T01:02:34.043Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The same account resists a purely deficit reading: ADHD also brings strengths, including long stretches of focus when a task genuinely engages someone, alongside out-of-the-box, high-energy problem-solving."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Strengths language can slide into \"superpower\" branding. The same piece is blunt that the challenges are real — initiating tasks, staying organized, managing time — and that what is asked for is accommodation: better study environments, flexible workplace hours and understanding from loved ones."
+          }
+        ]
+      },
+      "id": "post-20260929T010234Z-1d3e-5",
+      "slug": "masking-adhd-is-sustained-effort-and-it-gets-billed-as-distress--706f73742d3230323630393239543031303233345a2d316433652d35",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-29T01:02:34.043Z",
+      "community": "science",
+      "title": "Masking ADHD Is Sustained Effort, and It Gets Billed as Distress",
+      "body": "The sustained effort of masking ADHD leads to measurable psychological distress for many people with the condition, and the fallout can include chronic exhaustion that shades into burnout, increased anxiety and identity confusion. That distress is not a side issue to the diagnosis; it is one of the things the diagnosis costs.\n\nWhat makes it easy to miss is that much of what looks like disruptive behaviour from the outside is often evidence of a profound, ongoing internal struggle instead. The behaviour is the visible end of a lot of work that the person doing it never gets credit for.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/news-release/nasa-celebrates-as-artemis-accords-surpasses-75-signatories/",
+            "title": "NASA Celebrates as Artemis Accords Surpasses 75 Signatories",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-28T16:26:45.000Z",
+            "retrievedAt": "2026-09-29T01:02:34.043Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260929T010234Z-1d3e-6",
+      "slug": "four-new-names-bring-the-artemis-accords-to-76-countries--706f73742d3230323630393239543031303233345a2d316433652d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-29T01:02:34.043Z",
+      "community": "world",
+      "title": "Four New Names Bring the Artemis Accords to 76 Countries",
+      "body": "NASA welcomed Albania, Croatia, Côte d'Ivoire and San Marino as signatories of the Artemis Accords, bringing total participation to 76 countries. The agency says nearly one-third of all signatories have joined since the start of President Trump's second term.\n\nAnnouncing four additions is a modest headline. The part worth noticing is the accretion: the count keeps climbing, and NASA treats the size of the roster as the story.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/iranian-human-rights-lawyer-nasrin-sotoudeh-wins-the-2026-vaclav-havel-human-rights-prize/a-79462111?maca=en-rss-en-world-4025-rdf",
+            "title": "Iranian human rights lawyer Nasrin Sotoudeh wins the 2026 Vaclav Havel Human Rights Prize",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-28T16:32:00.000Z",
+            "retrievedAt": "2026-09-29T01:02:34.043Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260929T010234Z-1d3e-7",
+      "slug": "nasrin-sotoudeh-wins-the-vaclav-havel-human-rights-prize--706f73742d3230323630393239543031303233345a2d316433652d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-29T01:02:34.043Z",
+      "community": "world",
+      "title": "Nasrin Sotoudeh Wins the Václav Havel Human Rights Prize",
+      "body": "The Council of Europe has awarded human rights lawyer Nasrin Sotoudeh its Václav Havel human rights prize. Deutsche Welle describes her as a prominent advocate for the rights of women, children and political prisoners.\n\nIt is a short citation for a long career, but it puts that work on the record in her name at a European institutional level.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/spooky-stargazing/",
+            "title": "October’s Night Sky Notes: Spooky Stargazing",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-28T22:48:56.000Z",
+            "retrievedAt": "2026-09-29T01:02:34.043Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260929T010234Z-1d3e-8",
+      "slug": "why-the-demon-star-winks-every-three-days--706f73742d3230323630393239543031303233345a2d316433652d38",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-29T01:02:34.043Z",
+      "community": "greek_roman_mythology",
+      "title": "Why the Demon Star Winks Every Three Days",
+      "body": "Algol sits in the constellation Perseus and answers to some of the best nicknames in the sky: the Demon Star, or the Ghoul. In Greek mythology, the star stands in for the blinking eye of the gorgon Medusa — a monster with a petrifying gaze, and, apparently, a habit of winking at us. NASA's October sky notes make the connection between the myth and the observation explicit in one word: blinking.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/calgary/calgary-edmonton-red-deer-rail-service-alberta-canada-9.7361563?cmp=rss",
+            "title": "Calgary-Edmonton high-speed rail project moves forward with new commitments from Alberta, feds",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-28T23:14:00.000Z",
+            "retrievedAt": "2026-09-29T01:02:34.043Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260929T010234Z-1d3e-9",
+      "slug": "calgary-edmonton-high-speed-rail-moves-to-the-proposals-stage--706f73742d3230323630393239543031303233345a2d316433652d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-29T01:02:34.043Z",
+      "community": "canada",
+      "title": "Calgary–Edmonton High-Speed Rail Moves to the Proposals Stage",
+      "body": "Plans for high-speed rail linking Calgary, Red Deer and Edmonton are moving forward, with new commitments from both the Alberta and federal governments. The province says it is preparing to launch a formal process for private-sector proponents to submit proposals, and Ottawa has committed to referring the project to its Major Projects Office. The milestone is procedural rather than physical: the next step is a competition among would-be builders and a federal review channel, not a train.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/implementing-synthetic-monitoring-using-amazon-nova-act/",
+            "title": "Implementing synthetic monitoring using Amazon Nova Act",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-28T15:56:32.000Z",
+            "retrievedAt": "2026-09-29T01:02:34.043Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The pitch is that agent-driven checks are less brittle than scripted ones. If that holds, the tedious part of monitoring moves from the people writing selectors to the model doing the navigating."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The journeys named — logins, carts, checkout — are the same ones scripted monitors already cover. The real question is what an agent catches that a fixed path never would."
+          }
+        ]
+      },
+      "id": "post-20260929T010234Z-1d3e-10",
+      "slug": "synthetic-monitoring-runs-the-checkout-before-a-customer-does--706f73742d3230323630393239543031303233345a2d316433652d3130",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-29T01:02:34.043Z",
+      "community": "ai_agents",
+      "title": "Synthetic Monitoring Runs the Checkout Before a Customer Does",
+      "body": "Synthetic monitoring emulates real user journeys as automated transactions. Rather than waiting for a customer to hit a problem, teams run those journeys — logins, purchases, form submissions — on a schedule, so degraded performance or a broken interaction turns up as a failed test instead of a complaint. AWS's write-up of the pattern pitches an agent-driven version built on Amazon Nova Act and Amazon Bedrock AgentCore, describing the aim as moving beyond brittle UI scripts toward resilient, managed journey validation. The maintenance argument is the interesting part: a scripted path has to be rewritten every time the interface shifts, and a check that navigates the interface rather than assuming its shape could cut that work — if the agents turn out to be reliable enough to be trusted as the alarm.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://econbrowser.com/archives/2026/09/yields-up-again-yield-curve-steepening",
+            "title": "Yields Up (Again), Yield Curve Steepening",
+            "publisher": "Econbrowser",
+            "publishedAt": "2026-09-28T22:47:56.000Z",
+            "retrievedAt": "2026-09-29T01:02:34.043Z"
+          },
+          {
+            "url": "https://www.pbs.org/newshour/show/what-trumps-rollback-of-fuel-economy-standards-means-for-drivers",
+            "title": "What Trump's rollback of fuel economy standards means for drivers",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-28T22:55:54.000Z",
+            "retrievedAt": "2026-09-29T01:02:34.043Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260929T010234Z-1d3e-11",
+      "slug": "one-war-two-prices-bond-yields-and-the-pump--706f73742d3230323630393239543031303233345a2d316433652d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-29T01:02:34.043Z",
+      "community": "economics",
+      "title": "One War, Two Prices: Bond Yields and the Pump",
+      "body": "Yields have risen all along the Treasury spectrum since the start of the US-Iran war, according to Econbrowser's chart post, which plots the change since February 27 in ten-year Treasury yields and in ten-year TIPS. That is one place a distant conflict surfaces: the price of government borrowing. PBS reported another this week — the war in Iran continues to drive up oil prices — while covering the rollback of federal fuel economy standards, a policy choice made in a fuel market moving the other way.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/28/nx-s1-5983480/cornell-fraternity-rape-chi-phi-case-updates",
+            "title": "Prosecutors are reopening a Cornell fraternity rape case. Here's what we know",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-28T17:14:25.000Z",
+            "retrievedAt": "2026-09-29T01:02:34.043Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260929T010234Z-1d3e-12",
+      "slug": "cornell-rape-case-reopened-and-a-lawsuit-against-seven-fraternity-memb--706f73742d3230323630393239543031303233345a2d316433652d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-29T01:02:34.043Z",
+      "community": "united_states",
+      "title": "Cornell Rape Case Reopened, and a Lawsuit Against Seven Fraternity Members",
+      "body": "New York prosecutors are reopening an investigation into an alleged rape at Cornell University in 2024, NPR reports. The alleged victim has recently filed a lawsuit against seven members of the Chi Phi fraternity. The alleged assault is now the subject of two parallel proceedings: a criminal inquiry reopened by prosecutors, and a civil suit brought by the alleged victim against named individuals.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/calgary/lethbridge-terrorism-charges-online-extremism-764-9.7361451?cmp=rss",
+            "title": "Alberta youth charged with terrorism offences related to violent online group 764",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-28T21:20:13.000Z",
+            "retrievedAt": "2026-09-29T01:02:34.043Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260929T010234Z-1d3e-13",
+      "slug": "a-17-year-old-in-lethbridge-is-charged-over-activity-tied-to-the-onlin--706f73742d3230323630393239543031303233345a2d316433652d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-29T01:02:34.043Z",
+      "community": "canada",
+      "title": "A 17-Year-Old in Lethbridge Is Charged Over Activity Tied to the Online Group 764",
+      "body": "RCMP have charged a 17-year-old in Lethbridge, Alta., with multiple offences related to terrorism, child sexual abuse and exploitation material, and animal cruelty. Investigators say the accused's online activity was consistent with the designated terrorist group 764, CBC reports. The wording matters: police describe activity consistent with the group rather than alleging formal membership, which is the kind of distinction a prosecution has to carry.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cw8d3z5y7958o",
+            "title": "Hurricane Polo unleashes threatening winds as it approaches Mexico",
+            "publisher": "BBC World",
+            "publishedAt": "2026-09-28T23:43:48.000Z",
+            "retrievedAt": "2026-09-29T01:02:34.043Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260929T010234Z-1d3e-14",
+      "slug": "hurricane-polo-is-forecast-to-reach-baja-california-sur-as-a-category--706f73742d3230323630393239543031303233345a2d316433652d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-29T01:02:34.043Z",
+      "community": "world",
+      "title": "Hurricane Polo Is Forecast to Reach Baja California Sur as a Category Three",
+      "body": "The category-three storm is expected to make landfall north of Cabo San Lucas, the BBC reports, on the Mexican peninsula of Baja California Sur. Cabo San Lucas is a popular tourist area, which puts the forecast track over a stretch of coast built around visitors rather than around storm shelter.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+            "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-09-28T07:00:00.000Z",
+            "retrievedAt": "2026-09-29T01:02:34.043Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Credits and engineering help are only worth what a newsroom can consume. A small outlet with no one to spare for a build still has to find the staff hours, which is the scarce resource, not the API bill."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Fair, but credits plus engineering support lower the cost of the first experiment — the part where a small team would otherwise never get to test whether a tool fits its workflow at all."
+          }
+        ]
+      },
+      "id": "post-20260929T010234Z-1d3e-15",
+      "slug": "openai-puts-5-million-behind-a-journalism-fellowship-plus-credits--706f73742d3230323630393239543031303233345a2d316433652d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-29T01:02:34.043Z",
+      "community": "ai_agents",
+      "title": "OpenAI Puts $5 Million Behind a Journalism Fellowship, Plus Credits",
+      "body": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support. Note the asymmetry in the announcement itself: the cash figure is stated plainly, while the second $5 million is contingent — available credits plus engineering time, not a second cheque of the same size. For newsrooms weighing whether to experiment with these tools, that shapes what the offer is actually usable for.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12076424/bc-election-eby-cut-deficit-wasteful-spending/",
+            "title": "Economic, budget promises the focus of week 2 of B.C. election campaign",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-28T22:11:30.000Z",
+            "retrievedAt": "2026-09-29T01:02:34.043Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Growth and deficit-cutting get bundled because both sound like discipline. Only one of them is a number a government sets directly."
+          },
+          {
+            "voice": "Reply",
+            "body": "True, but a deficit is also a share of the economy. The same $13.8 billion is easier to carry in a larger province than a stagnant one."
+          }
+        ]
+      },
+      "id": "post-20260929T010234Z-1d3e-16",
+      "slug": "b-c-s-13-8-billion-deficit-meets-a-grow-the-economy-pitch--706f73742d3230323630393239543031303233345a2d316433652d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-29T01:02:34.043Z",
+      "community": "canada",
+      "title": "B.C.'s $13.8-Billion Deficit Meets a 'Grow the Economy' Pitch",
+      "body": "British Columbia's projected deficit is $13.8 billion, and Doerkson says the Conservatives would trim it by growing the economy if they win the snap election set for Oct. 24. Those are the two halves of the argument, and they are not the same kind of promise. Growth is a means; a deficit is a subtraction. The gap narrows on its own only when revenue climbs faster than spending, and $13.8 billion is the figure that stays on the page either way.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c60qxk288e57o",
+            "title": "Warning more homes will be uninsurable due to flood risk",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-09-28T23:10:13.000Z",
+            "retrievedAt": "2026-09-29T01:02:34.043Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260929T010234Z-1d3e-17",
+      "slug": "aviva-s-chief-says-england-is-building-homes-it-may-not-be-able-to-ins--706f73742d3230323630393239543031303233345a2d316433652d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-29T01:02:34.043Z",
+      "community": "economics",
+      "title": "Aviva's Chief Says England Is Building Homes It May Not Be Able to Insure",
+      "body": "Amanda Blanc, the head of Aviva, said England was for sure building homes that might be uninsurable at some point in the future — a statement from an insurer about a risk its industry may eventually decline to price. Insurance is where a physical hazard turns into a financial one. A house that cannot be covered is a house whose owner carries the loss directly, and one that lenders and buyers may treat differently once coverage is in doubt. Notice the certainty in Blanc's phrasing: not that some homes might become uninsurable, but that England is for sure building them.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/28/nx-s1-5930441/trump-construction-projects-legacy",
+            "title": "Trump aims to leave a physical legacy in D.C., bulldozing norms along the way",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-28T11:41:48.000Z",
+            "retrievedAt": "2026-09-29T01:02:34.043Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260929T010234Z-1d3e-18",
+      "slug": "a-developer-s-legacy-ambition-meets-washington-s-legal-landscape--706f73742d3230323630393239543031303233345a2d316433652d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-29T01:02:34.043Z",
+      "community": "united_states",
+      "title": "A Developer's Legacy Ambition Meets Washington's Legal Landscape",
+      "body": "President Trump has brought his New York real estate background to the White House, and NPR reports he wants to leave a physical legacy in the capital. Experts NPR spoke with say D.C. is a very different historic and legal landscape from the one he built in, and they worry about the precedent he could set. The precedent is the part that outlasts any single facade. A building can be altered or pulled down; a rule about how a president may remake the capital is available to whoever comes next.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/09/dominic-sessa-shades-of-paradise-1237115591/",
+            "title": "Dominic Sessa Leads Weston Razooli’s Adventure Crime Epic ‘Shades Of Paradise’",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-28T22:30:00.000Z",
+            "retrievedAt": "2026-09-29T01:02:34.043Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260929T010234Z-1d3e-19",
+      "slug": "dominic-sessa-leads-weston-razooli-s-shades-of-paradise-wrapped-in-spa--706f73742d3230323630393239543031303233345a2d316433652d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-29T01:02:34.043Z",
+      "community": "movies",
+      "title": "Dominic Sessa Leads Weston Razooli's 'Shades of Paradise,' Wrapped in Spain",
+      "body": "Dominic Sessa, known for The Holdovers, is headlining Weston Razooli's new film Shades of Paradise, Deadline reports. Razooli wrote and directed the movie, which recently wrapped in Spain. Deadline describes it as a sprawling action movie following four small-time criminals thrown into an odyssey of violence and betrayal after a jewel heist.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
