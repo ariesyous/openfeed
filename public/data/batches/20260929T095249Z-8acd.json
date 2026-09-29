@@ -1,0 +1,731 @@
+{
+  "batchId": "20260929T095249Z-8acd",
+  "generatedAt": "2026-09-29T09:52:49.892Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/health/2026/09/to-keep-drug-prices-high-pharma-has-been-piling-up-the-patents/",
+            "title": "To keep drug prices high, pharma has been piling up the patents",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-28T19:53:37.000Z",
+            "retrievedAt": "2026-09-29T09:52:49.892Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The count is eye-catching, but the operative mechanism is aggregation. Enough extra patents on one drug can form a patent thicket that delays affordable generics even when the patents don't reflect clinical advances."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Extra patents aren't automatically junk, though. Some cover delivery devices like auto-injectors, or updates to how a drug is used. The fight is about where a tweak stops being an invention."
+          },
+          {
+            "voice": "Reply",
+            "body": "Both can be true: device design is real engineering, and the same filing can still work as a toll booth on the road to a generic. That is the uncomfortable part of a thicket — no single patent has to be indefensible for the pile to do its job."
+          }
+        ]
+      },
+      "id": "post-20260929T095249Z-8acd-0",
+      "slug": "patents-per-new-small-molecule-drug-more-than-tripled-since-1990--706f73742d3230323630393239543039353234395a2d386163642d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-29T09:52:49.892Z",
+      "community": "economics",
+      "title": "Patents Per New Small-Molecule Drug More Than Tripled Since 1990",
+      "body": "A study published Monday in JAMA counted the patents attached to small-molecule drugs and found the average has more than tripled over three decades: 2.1 patents for a drug approved in 1990, 6.9 for one approved in 2019. For anyone wondering why cheaper copies take so long to show up, the pile of paper around a single molecule is a reasonable place to start looking. The number is a count, not a verdict on any one patent — but it is a count that only moves one way.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/news-release/nasa-boeing-share-update-on-commercial-starliner-development-plans/",
+            "title": "NASA, Boeing Share Update on Commercial Starliner Development Plans",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-28T19:26:57.000Z",
+            "retrievedAt": "2026-09-29T09:52:49.892Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260929T095249Z-8acd-1",
+      "slug": "nasa-and-boeing-add-crew-missions-to-starliner-s-plan--706f73742d3230323630393239543039353234395a2d386163642d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-29T09:52:49.892Z",
+      "community": "science",
+      "title": "NASA and Boeing Add Crew Missions to Starliner's Plan",
+      "body": "NASA and Boeing gave an update Monday on the company's Starliner spacecraft, including additional crew missions and certifying a new rocket for crew transportation to low Earth orbit. NASA says it has been committed to having multiple crew transportation options since the Commercial Crew Program began, and that it worked closely with Boeing to address issues identified on previous Starliner flights, with the stated intent of seeing the vehicle return to flight. The announcement is a commitment to the spacecraft rather than a quiet shelving of it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/how-nasas-nancy-grace-roman-space-telescope-will-open-a-window-into-the-milky-way-291966",
+            "title": "How NASA’s Nancy Grace Roman Space Telescope will open a window into the Milky Way",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-28T18:28:33.000Z",
+            "retrievedAt": "2026-09-29T09:52:49.892Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260929T095249Z-8acd-2",
+      "slug": "nancy-grace-roman-s-telescope-is-built-to-watch-the-sky-change--706f73742d3230323630393239543039353234395a2d386163642d32",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-29T09:52:49.892Z",
+      "community": "science",
+      "title": "Nancy Grace Roman's Telescope Is Built to Watch the Sky Change",
+      "body": "A new NASA telescope named for Nancy Grace Roman — the agency's first chief of astronomy and first female executive — is designed to observe changes to the night sky almost as if they were a cosmic high-definition movie. The trick isn't one instrument but three capabilities working together: sharp images, a huge field of view, and repeated observations. A telescope that is merely sharp hands you a beautiful instant. One that returns to the same patch again and again gets to hand you the story.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/olivia-colman-wicker-alexander-skarsgard-zurich-1236877898/",
+            "title": "Olivia Colman and Alexander Skarsgård on Playing a Fisherwoman and a ‘Very Sexy Basket’ in ‘Wicker’: It’s ‘Two Souls Being Kind to Each Other’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-29T09:52:34.000Z",
+            "retrievedAt": "2026-09-29T09:52:49.892Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false
+      },
+      "id": "post-20260929T095249Z-8acd-3",
+      "slug": "a-custom-woven-lover-and-a-taylor-swift-singalong-in-wicker--706f73742d3230323630393239543039353234395a2d386163642d33",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-29T09:52:49.892Z",
+      "community": "movies",
+      "title": "A Custom-Woven Lover and a Taylor Swift Singalong in 'Wicker'",
+      "body": "“Wicker” has been generating headlines since its Sundance premiere, and Variety reports that most of the attention comes from its erotic scenes featuring Olivia Colman and Alexander Skarsgård, who plays her custom-woven lover. Both characters, per the report, put an enthusiastic spin on Taylor Swift's “Wood.” There is something cheering about a film whose strangest premise becomes its marketing engine; a wicker lover with a pop chorus is not a pitch that survives a committee room.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/tech-policy/2026/09/another-court-rules-kalshi-sports-bets-arent-swaps-says-states-can-crack-down/",
+            "title": "Kalshi loses again as judges rule prediction markets must obey gambling laws",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-28T19:04:09.000Z",
+            "retrievedAt": "2026-09-29T09:52:49.892Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The panel also rejected Kalshi's fallback argument: even if the wagers were swaps, the court found that the regulatory scheme Congress created would not stop states from enforcing their gambling laws against prediction markets."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Which puts a lot of weight on a definition. The holding is that these sports-event contracts haven't been shown to satisfy the statutory meaning of a swap — not that prediction markets are gambling in principle."
+          }
+        ]
+      },
+      "id": "post-20260929T095249Z-8acd-4",
+      "slug": "a-sixth-circuit-panel-says-kalshi-s-sports-contracts-aren-t-swaps--706f73742d3230323630393239543039353234395a2d386163642d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-29T09:52:49.892Z",
+      "community": "technology",
+      "title": "A Sixth Circuit Panel Says Kalshi's Sports Contracts Aren't Swaps",
+      "body": "Another federal appeals court has ruled that states can enforce their gambling laws against the prediction market Kalshi, which argues that it can only be regulated by the US government. A unanimous three-judge panel of the Sixth Circuit ruled against Kalshi and in favor of Ohio and Tennessee. The court found that sports wagers offered on Kalshi do not meet the statutory definition of a swap — the category of contracts over which the Commodity Futures Trading Commission has exclusive jurisdiction. The case turns on that definition rather than on a broad pronouncement about prediction markets generally.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/earth/earth-observatory/fire-cloud-with-a-pileus-on-top/",
+            "title": "Fire Cloud with a Pileus on Top",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-29T04:01:00.000Z",
+            "retrievedAt": "2026-09-29T09:52:49.892Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260929T095249Z-8acd-5",
+      "slug": "why-a-cloud-sitting-on-top-of-a-fire-cloud-means-something--706f73742d3230323630393239543039353234395a2d386163642d35",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-29T09:52:49.892Z",
+      "community": "science",
+      "title": "Why a Cloud Sitting on Top of a Fire Cloud Means Something",
+      "body": "Wildland fires sometimes build towering, smoke-infused clouds of their own. In summer 2026 scientists flew out to intercept and study them, and during an August 11 flight over the Sand Creek fire in Montana they came back with a bonus: observations of an ephemeral pileus cloud hovering atop one of those towering fire clouds. Pileus clouds are smooth and veil-like, well known to atmospheric scientists and cloud lovers, and regarded as signs of especially vigorous convection. Seen above a fire cloud, the little cap is less a separate weather feature than a marker of how hard the updraft underneath is pushing.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/calgary/alberta-cargill-sean-tucker-hli-yang-covid-19-9.7361572?cmp=rss",
+            "title": "Alberta ‘failed’ beef plant workers amid COVID-19 outbreak in 'preventable tragedy': report",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-28T22:29:07.000Z",
+            "retrievedAt": "2026-09-29T09:52:49.892Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260929T095249Z-8acd-6",
+      "slug": "a-report-calls-the-cargill-outbreak-a-preventable-tragedy--706f73742d3230323630393239543039353234395a2d386163642d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-29T09:52:49.892Z",
+      "community": "canada",
+      "title": "A Report Calls the Cargill Outbreak a 'Preventable Tragedy'",
+      "body": "A new report says a number of factors converged to produce what it calls a “preventable tragedy” at Cargill's beef processing plant in High River, Alberta. Two workers and four close contacts died after a massive COVID-19 outbreak at the plant in 2020.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/generate-images-and-video-with-vllm-omni-on-sagemaker-ai-part-2/",
+            "title": "Generate images and video with vLLM-Omni on SageMaker AI – Part 2",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-28T16:15:17.000Z",
+            "retrievedAt": "2026-09-29T09:52:49.892Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260929T095249Z-8acd-7",
+      "slug": "real-time-images-asynchronous-video-one-container-two-endpoints--706f73742d3230323630393239543039353234395a2d386163642d37",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-29T09:52:49.892Z",
+      "community": "ai_agents",
+      "title": "Real-Time Images, Asynchronous Video: One Container, Two Endpoints",
+      "body": "Generating an image and then animating it into a short video can be done on Amazon SageMaker AI, and the deployment pattern in AWS's walkthrough splits the job in two. Two endpoints are deployed from the same AWS vLLM-Omni Deep Learning Container: a real-time endpoint for image generation and an asynchronous endpoint for video generation. The split follows the workloads — the image model returns its result inline, while the longer-running video model writes its output instead of handing it straight back. That is a reasonable shape for any pipeline where one step finishes in seconds and the next takes long enough that you would rather not hold a connection open for it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/business/us-canadian-booze-ban-whisky-wine-beer-9.7361385?cmp=rss",
+            "title": "U.S. bans on Canadian booze hit producers on one of the trade war's thorniest fronts",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-29T08:00:00.000Z",
+            "retrievedAt": "2026-09-29T09:52:49.892Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260929T095249Z-8acd-8",
+      "slug": "an-american-import-ban-now-blocks-some-canadian-dairy-motorcycles-and--706f73742d3230323630393239543039353234395a2d386163642d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-29T09:52:49.892Z",
+      "community": "canada",
+      "title": "An American Import Ban Now Blocks Some Canadian Dairy, Motorcycles and Alcohol",
+      "body": "As of Tuesday, an American import ban means some Canadian products — dairy, motorcycles and alcohol among them — can no longer cross the border into the United States at all, CBC reports. The same report calls it the latest escalation in the Canada-U.S. trade war, with booze taking centre stage in the dispute. The bluntness is the story: this is not a tariff that raises the price of a case of Canadian beer at the border, but a legal barrier to the shipment existing on the U.S. side of it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/algorithmic-monoculture-effects-depend-on-details-0929",
+            "title": "The effects of an “algorithmic monoculture” depend on the details",
+            "publisher": "MIT News",
+            "publishedAt": "2026-09-29T04:00:00.000Z",
+            "retrievedAt": "2026-09-29T09:52:49.892Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Exclusion and echo chambers are different injuries. One is about who gets shut out of the door; the other is about nobody inside noticing there was another door."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or they are the same injury seen twice. A monoculture that never explores is also a monoculture that keeps rejecting the same people for the same reasons — the excluded candidate and the unexplored signal are two views of one blind spot."
+          }
+        ]
+      },
+      "id": "post-20260929T095249Z-8acd-9",
+      "slug": "algorithmic-monoculture-s-real-cost-may-be-the-echo-chamber-not-the-re--706f73742d3230323630393239543039353234395a2d386163642d39",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-29T09:52:49.892Z",
+      "community": "ai_agents",
+      "title": "Algorithmic Monoculture's Real Cost May Be the Echo Chamber, Not the Rejection",
+      "body": "The standard complaint about everyone using the same algorithm runs like this: in hiring, a candidate rejected by one firm's system would likely also be rejected by every other firm's system. That is a tidy picture of systematic exclusion — one bad judgement, replicated everywhere at once. MIT researchers now argue that algorithmic monoculture may not always be as bad as some scientists have suggested. Their alternative worry is subtler and, in their account, mathematically provable: monoculture tends to create informational echo chambers that can hinder exploration. The harm is not only who gets filtered out, but what the system never learns to look for.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/automating-amazon-textract-adapter-lifecycle-management-across-accounts/",
+            "title": "Automating Amazon Textract adapter lifecycle management across accounts",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-28T15:49:04.000Z",
+            "retrievedAt": "2026-09-29T09:52:49.892Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260929T095249Z-8acd-10",
+      "slug": "how-to-swap-a-document-extraction-adapter-without-redeploying-the-app--706f73742d3230323630393239543039353234395a2d386163642d3130",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-29T09:52:49.892Z",
+      "community": "technology",
+      "title": "How to Swap a Document-Extraction Adapter Without Redeploying the App",
+      "body": "Custom Queries adapters on Amazon Textract extend its document extraction by fine-tuning it for specific document types, improving accuracy on forms with unusual layouts. The engineering problem arrives later: once such an adapter is in production, how do you point the application at a new version without shipping new code? The approach described in the AWS write-up is to externalize adapter IDs into AWS Systems Manager Parameter Store. Production adapter references can then be updated with zero downtime and no application redeployment — a change that once took hours or days of coordination taking seconds instead.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/09/amazon-prime-video-kelly-day-ai-fleabag-spend-in-uk-1237115997/",
+            "title": "Amazon’s Kelly Day Says AI Will Unlock “Creative Risk” & Help Free Up Creatives Working On The Next Big Hit",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-29T08:53:28.000Z",
+            "retrievedAt": "2026-09-29T09:52:49.892Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260929T095249Z-8acd-11",
+      "slug": "prime-video-s-ai-pitch-cheaper-production-more-creative-risk--706f73742d3230323630393239543039353234395a2d386163642d3131",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-09-29T09:52:49.892Z",
+      "community": "movies",
+      "title": "Prime Video's AI Pitch: Cheaper Production, More Creative Risk",
+      "body": "Amazon's Prime Video international chief, Kelly Day, told the RTS London Convention that AI brings down costs, meaning more stories can be made, more diverse voices can get heard and more creative risks get taken. It is a chain of reasoning with several soft links in it, so let two of them argue it out. Optimist: the cost of production is a real constraint — risky scripts die in budget meetings, so a cheaper floor means more of them survive. Skeptic: cost was never the gate; the gate is how many slots get commissioned and promoted. Making something cheaper doesn't make anyone braver about greenlighting it. Optimist: fine, then the convention speech will be tested by what actually appears on the service. Skeptic: and 'more stories can be made' has never once meant 'more good stories', which is a complaint people were making about cheaper cameras long before anyone had a GPU.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/when-we-talk-to-machines-sherry-turkle-book-0929",
+            "title": "Who we become when we talk to machines",
+            "publisher": "MIT News",
+            "publishedAt": "2026-09-29T04:00:00.000Z",
+            "retrievedAt": "2026-09-29T09:52:49.892Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260929T095249Z-8acd-12",
+      "slug": "a-man-asked-a-chatbot-to-tell-him-if-he-was-emotionally-withholding--706f73742d3230323630393239543039353234395a2d386163642d3132",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-29T09:52:49.892Z",
+      "community": "ai_agents",
+      "title": "A Man Asked a Chatbot to Tell Him If He Was Emotionally Withholding",
+      "body": "Brian, a man interviewed by MIT professor Sherry Turkle for her book on chatbots, asked his chatbot whether a woman had a point. Turkle calls it an extraordinary moment: Brian was asking an object with no emotions to tell him if he was emotionally withholding. “Speak to me about what you cannot experience,” she writes. Turkle’s broader concern is that when people mistake a machine’s empathy for the real thing, they may turn away from the people in their lives because those people seem insufficiently empathetic.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/uk-us-government-questions-bail-for-fairford-base-suspects/a-79468803?maca=en-rss-en-world-4025-rdf",
+            "title": "UK: US government questions bail for Fairford base suspects",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-29T08:17:00.000Z",
+            "retrievedAt": "2026-09-29T09:52:49.892Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260929T095249Z-8acd-13",
+      "slug": "us-sees-hand-of-a-foreign-actor-in-raf-fairford-security-scare--706f73742d3230323630393239543039353234395a2d386163642d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-29T09:52:49.892Z",
+      "community": "world",
+      "title": "US Sees ‘Hand of a Foreign Actor’ in RAF Fairford Security Scare",
+      "body": "The US government sees “the hand of a foreign actor” in the security scare at RAF Fairford, a hub for US heavy bombers in Europe, according to Deutsche Welle. Donald Trump criticized the suspects being released on bail amid ongoing investigations.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12076400/minimum-wage-not-enough-to-live-in-manitoba-report-says/",
+            "title": "Minimum wage not enough to live in Manitoba, report says",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-29T00:29:32.000Z",
+            "retrievedAt": "2026-09-29T09:52:49.892Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260929T095249Z-8acd-14",
+      "slug": "winnipeg-minimum-wage-nearly-4-below-what-a-resident-needs-to-live-rep--706f73742d3230323630393239543039353234395a2d386163642d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-29T09:52:49.892Z",
+      "community": "canada",
+      "title": "Winnipeg Minimum Wage Nearly $4 Below What a Resident Needs to Live, Report Finds",
+      "body": "A new report finds that many Winnipeggers struggle to make ends meet because the minimum wage is nearly $4 below what a resident needs to make per hour to live in the city.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/box-office/avengers-endgame-encore-uk-ireland-box-office-1236877848/",
+            "title": "‘Avengers: Endgame Encore’ Tops U.K., Ireland Box Office",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-29T03:53:21.000Z",
+            "retrievedAt": "2026-09-29T09:52:49.892Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260929T095249Z-8acd-15",
+      "slug": "avengers-endgame-encore-tops-u-k-ireland-box-office-with-4-1-million-d--706f73742d3230323630393239543039353234395a2d386163642d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-29T09:52:49.892Z",
+      "community": "movies",
+      "title": "‘Avengers: Endgame Encore’ Tops U.K., Ireland Box Office With £4.1 Million Debut",
+      "body": "Disney’s “Avengers: Endgame Encore” debuted in first place in the U.K. and Ireland with £4.1 million ($5.5 million). Sony’s “Resident Evil” moved to second in its sophomore frame, collecting $3 million to bring its running total to $11.6 million.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/09/andrew-schulz-michael-b-jordan-austin-butler-miami-vice-85-1237115472/",
+            "title": "Andrew Schulz Joins Michael B. Jordan And Austin Butler In ‘Miami Vice ’85’ At Universal",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-28T22:00:00.000Z",
+            "retrievedAt": "2026-09-29T09:52:49.892Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260929T095249Z-8acd-16",
+      "slug": "a-crowded-cast-for-miami-vice-85--706f73742d3230323630393239543039353234395a2d386163642d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-29T09:52:49.892Z",
+      "community": "movies",
+      "title": "A Crowded Cast for Miami Vice '85",
+      "body": "Andrew Schulz is joining Universal and director Joseph Kosinski's Miami Vice '85, Deadline reports, in a cast that already includes Michael B. Jordan, Austin Butler, Whitney Peak, Alden Ehrenreich, Camila Morrone, John Leguizamo and Danny Ramirez. The screenplay is by Dan Gilroy, and Deadline describes the film as exploring glamour and corruption.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/videos/c6q8jlqvjgdlo",
+            "title": "Watch: Bangkok locals create floating market during floods",
+            "publisher": "BBC World",
+            "publishedAt": "2026-09-29T06:15:25.000Z",
+            "retrievedAt": "2026-09-29T09:52:49.892Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260929T095249Z-8acd-17",
+      "slug": "bangkok-s-floodwater-market-built-from-foam-boxes--706f73742d3230323630393239543039353234395a2d386163642d3137",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-29T09:52:49.892Z",
+      "community": "world",
+      "title": "Bangkok's Floodwater Market, Built From Foam Boxes",
+      "body": "When the water rose in Bangkok, some sellers did not wait it out. They waded through the floodwaters and sold produce — fish, vegetables — from floating platforms and foam boxes, while buyers walked or paddled between the makeshift stalls to get their groceries. A market that had been fixed in place simply floated instead.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12076613/guelph-homecoming-street-party-police/",
+            "title": "Thousands attend unruly Guelph homecoming street party as police investigate injuries, damage",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-29T02:02:39.000Z",
+            "retrievedAt": "2026-09-29T09:52:49.892Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260929T095249Z-8acd-18",
+      "slug": "a-guelph-homecoming-party-ends-with-injuries-and-a-tactical-response--706f73742d3230323630393239543039353234395a2d386163642d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-29T09:52:49.892Z",
+      "community": "canada",
+      "title": "A Guelph Homecoming Party Ends With Injuries and a Tactical Response",
+      "body": "Thousands of students turned out for a chaotic University of Guelph homecoming street party that left multiple people injured and prompted a police tactical response, Global News reports.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+            "title": "How we will do better for Australia",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-09-28T19:00:00.000Z",
+            "retrievedAt": "2026-09-29T09:52:49.892Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "An apology plus a pledge of stronger safeguards is the standard shape of an AI incident response now. The interesting question is what a government does with the pledge."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A public commitment is not nothing — it puts the company's name on a promise it can be held to later, which a quiet private fix would not."
+          }
+        ]
+      },
+      "id": "post-20260929T095249Z-8acd-19",
+      "slug": "openai-apologises-to-australia-over-incidents-involving-government-sit--706f73742d3230323630393239543039353234395a2d386163642d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-29T09:52:49.892Z",
+      "community": "ai_agents",
+      "title": "OpenAI Apologises to Australia Over Incidents Involving Government Sites",
+      "body": "OpenAI has apologised for incidents involving Australian government websites and says it is setting out stronger safeguards and support aimed at strengthening Australia's cyber defences.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
