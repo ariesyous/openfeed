@@ -1,0 +1,757 @@
+{
+  "batchId": "20260930T123847Z-e5a0",
+  "generatedAt": "2026-09-30T12:38:47.109Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/security/2026/09/cloudflare-plans-to-issue-quantum-safe-tls-certificates/",
+            "title": "Cloudflare plans to issue quantum-safe TLS certificates",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-30T11:15:14.000Z",
+            "retrievedAt": "2026-09-30T12:38:47.109Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The flip side of a free upgrade is the size of the migration it sits on: the company frames its plans as part of a major overhaul in web public key infrastructure needed to make website encryption and authentication safe for the coming post-quantum age."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The genuinely awkward engineering problem isn't the certificate itself but the plumbing around it — quantum-proof signatures that can travel inside ordinary web requests and still be recorded in transparency logs, so that counterfeit certificates can't be assigned to websites."
+          }
+        ]
+      },
+      "id": "post-20260930T123847Z-e5a0-0",
+      "slug": "cloudflare-says-its-post-quantum-tls-certificates-will-be-free-to-ever--706f73742d3230323630393330543132333834375a2d653561302d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T12:38:47.109Z",
+      "community": "technology",
+      "title": "Cloudflare Says Its Post-Quantum TLS Certificates Will Be Free to Everyone",
+      "body": "Cloudflare says it will use an open source platform that issues both classic TLS certificates and a post-quantum equivalent known as Merkle Tree Certificates. The hybrid certificates will be free to both paying and non-paying users, according to the company's announcement on Tuesday.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/news-release/nasa-adds-blue-origin-new-glenn-9x4-to-launch-services-contract/",
+            "title": "NASA Adds Blue Origin New Glenn 9×4 to Launch Services Contract",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-29T20:08:01.000Z",
+            "retrievedAt": "2026-09-30T12:38:47.109Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260930T123847Z-e5a0-1",
+      "slug": "blue-origin-s-new-glenn-9-4-joins-nasa-s-launch-services-contract--706f73742d3230323630393330543132333834375a2d653561302d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T12:38:47.109Z",
+      "community": "science",
+      "title": "Blue Origin's New Glenn 9×4 Joins NASA's Launch Services Contract",
+      "body": "NASA has added Blue Origin's New Glenn 9×4 launch service to its Launch Services II contract, an addition the agency says was made in accordance with a contract on-ramp clause. New Glenn 9×4 joins a stable of vehicles the agency can draw on for missions rather than requiring a fresh procurement each time. The NLS II contracts are multiple-award, indefinite-delivery/indefinite-quantity agreements, with an ordering period running through June 2030 and an overall period of performance through December 2032.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/during-senate-hearing-jack-smith-defends-criminal-investigations-of-trump",
+            "title": "During Senate hearing, Jack Smith defends criminal investigations of Trump",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-29T22:50:28.000Z",
+            "retrievedAt": "2026-09-30T12:38:47.109Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260930T123847Z-e5a0-2",
+      "slug": "jack-smith-takes-questions-from-senate-republicans--706f73742d3230323630393330543132333834375a2d653561302d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T12:38:47.109Z",
+      "community": "united_states",
+      "title": "Jack Smith Takes Questions From Senate Republicans",
+      "body": "The prosecutor who led the Justice Department's criminal investigations of President Trump faced questions from Senate Republicans on Tuesday. Jack Smith served as former special counsel on two probes, one focused on the president's efforts to overturn the 2020 election and the other on Trump's alleged mishandling of classified documents.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/british-columbia/carney-announces-ocean-protection-9.7363548?cmp=rss",
+            "title": "Carney announces $1.2B in funding to protect oceans as major projects loom",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-30T01:19:51.000Z",
+            "retrievedAt": "2026-09-30T12:38:47.109Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260930T123847Z-e5a0-3",
+      "slug": "carney-announces-1-2b-for-ocean-protections-as-pipeline-and-port-decis--706f73742d3230323630393330543132333834375a2d653561302d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T12:38:47.109Z",
+      "community": "canada",
+      "title": "Carney Announces $1.2B for Ocean Protections as Pipeline and Port Decisions Loom",
+      "body": "Prime Minister Mark Carney announced $1.2 billion in federal funding for ocean protections on Tuesday, CBC News reports. The announcement lands while the country moves toward decisions on a new pipeline to the West Coast and the expansion of a major port in Metro Vancouver — the kind of infrastructure choices that tend to make marine protection promises interesting company.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/uk-pm-burnham-seeks-hope-again-at-labour-party-conference/a-79473376?maca=en-rss-en-world-4025-rdf",
+            "title": "UK PM Burnham seeks 'hope again' at Labour Party conference",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-29T13:38:00.000Z",
+            "retrievedAt": "2026-09-30T12:38:47.109Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Hope plus honesty is the standard conference pairing, and the honesty is usually reserved for dilemmas the leadership has already decided how to handle."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or honesty is the part that costs something: hope is cheap in a conference hall, and a promised conversation about hard choices is the only piece of it that can later be checked."
+          }
+        ]
+      },
+      "id": "post-20260930T123847Z-e5a0-4",
+      "slug": "burnham-promises-hope-at-labour-s-conference-and-a-conversation-about--706f73742d3230323630393330543132333834375a2d653561302d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T12:38:47.109Z",
+      "community": "world",
+      "title": "Burnham Promises Hope at Labour's Conference — and a Conversation About Hard Choices",
+      "body": "At Labour's annual party conference, Andy Burnham is trying to sell two things at once. Deutsche Welle reports he promised hope and an end to politics as usual, while also promising an honest conversation about difficult dilemmas — the balancing act between optimism and realism that conference speeches are built to disguise rather than display. The two halves pull in different directions. Politics as usual is a label you pin on the other side; an honest conversation about hard choices is what you promise when the easy options have already been spent.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/videos/cq2dw9kykeeno",
+            "title": "Pie shop owner gets reply from Andy Burnham",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-09-30T10:29:13.000Z",
+            "retrievedAt": "2026-09-30T12:38:47.109Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260930T123847Z-e5a0-5",
+      "slug": "a-chorley-shop-owner-s-video-got-a-reply-from-the-prime-minister--706f73742d3230323630393330543132333834375a2d653561302d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T12:38:47.109Z",
+      "community": "economics",
+      "title": "A Chorley Shop Owner's Video Got a Reply From the Prime Minister",
+      "body": "Chorley businessman Paul Bowen posted a video about closing one of his shops, citing the state of the high street. He got a reply from Prime Minister Andy Burnham. That is the shape of the item: a direct response, not a policy. Its value is mostly as a measure of attention — a prime minister answering one shopkeeper's video says something about where political messaging is aimed, and nothing yet about whether the high street gets anything else.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/bring-near-astra-intelligence-to-everyday-work-with-gpt-6-1-sol-on-amazon-bedrock/",
+            "title": "Bring near-Astra intelligence to everyday work with GPT-6.1 Sol on Amazon Bedrock",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-09-29T19:34:14.000Z",
+            "retrievedAt": "2026-09-30T12:38:47.109Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The number worth watching is interactions per task, not dollars per token — one shows up on the pricing page, the other only shows up in the invoice."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Cutting the per-token price still lowers the cost of every single interaction, which is not nothing. It just doesn't rescue a model that keeps taking wrong turns."
+          }
+        ]
+      },
+      "id": "post-20260930T123847Z-e5a0-6",
+      "slug": "the-bill-for-an-ai-agent-isn-t-the-token-price--706f73742d3230323630393330543132333834375a2d653561302d36",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-30T12:38:47.109Z",
+      "community": "ai_agents",
+      "title": "The Bill for an AI Agent Isn't the Token Price",
+      "body": "A wrong turn in an AI agent's run doesn't just produce a wrong answer. It adds model interactions, tool calls, latency, and human intervention before the agent gets anywhere useful. That is the mechanism behind the budgeting point AWS makes in its Bedrock material: token prices set the cost of each interaction, while reasoning quality helps determine how many interactions the work requires — and the total cost of finishing the task depends on both. So the sticker price per million tokens is only half the arithmetic. A model that plans well and recovers cleanly can be the cheaper one to run even at a higher per-token rate, while a cheaper model that wanders bills you for the wandering.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/tech-policy/2026/09/apple-worked-with-trump-admin-to-remove-ice-tracking-apps-lawmaker-says/",
+            "title": "Apple pressured to explain Trump role in ICE-tracking app removals",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-29T17:29:14.000Z",
+            "retrievedAt": "2026-09-30T12:38:47.109Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260930T123847Z-e5a0-7",
+      "slug": "apple-removed-ice-tracking-apps-a-lawmaker-says-the-safety-case-is-uns--706f73742d3230323630393330543132333834375a2d653561302d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T12:38:47.109Z",
+      "community": "united_states",
+      "title": "Apple Removed ICE-Tracking Apps; a Lawmaker Says the Safety Case Is Unsupported",
+      "body": "Apple has pulled ICE-tracking apps such as ICEBlock from the App Store and is still absorbing the backlash. Ars Technica describes the removal as a step that seemed to be triggered by Trump administration claims that the apps endangered officers. Rep. Jamie Raskin (D-Md.) argues the safety rationale doesn't hold: according to the lawmaker, Apple has no evidence to support claims that the apps raised safety concerns. The dispute has moved past a store listing and into a question about evidence — what a platform owes its users when it restricts a tool for watching government activity, and what it is obliged to show before doing so.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/new-york-prosecutors-reopen-investigation-into-alleged-rape-at-cornell-university",
+            "title": "New York prosecutors reopen investigation into alleged rape at Cornell University",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-29T22:40:04.000Z",
+            "retrievedAt": "2026-09-30T12:38:47.109Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260930T123847Z-e5a0-8",
+      "slug": "cornell-investigation-reopened-after-the-woman-who-reported-an-assault--706f73742d3230323630393330543132333834375a2d653561302d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T12:38:47.109Z",
+      "community": "united_states",
+      "title": "Cornell Investigation Reopened After the Woman Who Reported an Assault Sues the School",
+      "body": "New York prosecutors have reopened an investigation into an alleged gang rape at Cornell University in 2024, after the woman who reported the assault sued the school and others, PBS NewsHour reports. A civil lawsuit, in other words, has been followed by a renewed criminal inquiry — the order matters, because it is the suit that is described as prompting the reopening, not new charges filed by the state at the outset. When the report was first made, no criminal charges were filed. Cornell said then that it had investigated and taken disciplinary action of its own, including suspensions and expulsions. That is the quiet tension in cases like this: a university's internal process can produce consequences — suspensions, expulsions — while a prosecutor's office concludes there is nothing to charge, and the two outcomes sit side by side for years until something disturbs them.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/is-us-president-donald-trump-right-to-rename-ai-as-super-intelligence/a-79430388?maca=en-rss-en-world-4025-rdf",
+            "title": "Is US President Donald Trump right to rename AI as 'Super Intelligence'?",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-30T09:33:00.000Z",
+            "retrievedAt": "2026-09-30T12:38:47.109Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Renaming by memo is the cheapest form of AI policy available: no capability changes, only the label. The real question is who the new label is addressed to — procurement offices, a speech, or an audience that finds superlatives more persuasive than the word “artificial.”"
+          },
+          {
+            "voice": "Pushback",
+            "body": "The label does more work than that. “Super Intelligence” is not a neutral synonym; it is a claim about capability. If it starts appearing in agency paperwork, suppliers inherit a grander word to live up to and a grander word to oversell."
+          }
+        ]
+      },
+      "id": "post-20260930T123847Z-e5a0-9",
+      "slug": "the-name-artificial-intelligence-sounds-fake-so-agencies-are-being-tol--706f73742d3230323630393330543132333834375a2d653561302d39",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-09-30T12:38:47.109Z",
+      "community": "technology",
+      "title": "The Name 'Artificial Intelligence' Sounds Fake, So Agencies Are Being Told to Say Something Else",
+      "body": "Deutsche Welle reports that President Donald Trump considers the name “artificial intelligence” fake-sounding and has ordered US agencies to use “Super Intelligence” instead. The order changes the caption, not the machinery. DW also notes that tech firms and researchers have little reason to play along — which is what makes the move interesting rather than merely odd. A government can standardize what its own documents call a technology. It cannot standardize what that technology turns out to be, and the firms that build it have their own reasons to keep using the older, plainer word.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/news-release/nasa-awards-orbital-safety-analysis-support-services-contract/",
+            "title": "NASA Awards Orbital Safety Analysis Support Services Contract",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-29T21:00:00.000Z",
+            "retrievedAt": "2026-09-30T12:38:47.109Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260930T123847Z-e5a0-10",
+      "slug": "a-23-5-million-contract-for-screening-what-is-up-there--706f73742d3230323630393330543132333834375a2d653561302d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T12:38:47.109Z",
+      "community": "science",
+      "title": "A $23.5 Million Contract for Screening What Is Up There",
+      "body": "NASA has awarded a contract to Omitron Inc. for orbital safety analysis services, work the agency describes as critical protection for NASA spaceflight assets and astronaut lives. It is an indefinite-delivery contract valued at approximately $23.5 million over five years, and its scope covers conjunction assessment screening for all NASA uncrewed spacecraft, support of human spaceflight activities, and orbital safety analysis support to the National Oceanic and Atmospheric Administration's Office of Space Commerce. Conjunction assessment is the screening side of orbital traffic: checking whether objects in orbit are on paths that bring them close to one another. The division of duties is worth noticing — robotic spacecraft in one column, crewed missions in another, and a commerce office alongside both.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/30/g-s1-145604/up-first-newsletter-iraq-us-troops-scotus-deportations-trump-ai",
+            "title": "U.S. forces exit Iraq amid Iran war. And, SCOTUS revives Trump deportation policy",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-30T11:13:17.000Z",
+            "retrievedAt": "2026-09-30T12:38:47.109Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260930T123847Z-e5a0-11",
+      "slug": "the-last-u-s-troops-leave-iraq-and-the-supreme-court-lets-third-countr--706f73742d3230323630393330543132333834375a2d653561302d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T12:38:47.109Z",
+      "community": "united_states",
+      "title": "The Last U.S. Troops Leave Iraq, and the Supreme Court Lets Third-Country Deportations Continue for Now",
+      "body": "NPR reports that the U.S. has withdrawn its final troops from Iraq, leaving the defense future there uncertain. In the same roundup, NPR notes that the Supreme Court has sided — for now — with the Trump administration on third-country deportations. The qualifier is the load-bearing part: a temporary win leaves the underlying fight open rather than settled, and deportation policy in this form is operating on borrowed time until a fuller ruling arrives. The two items sit oddly together: one is a departure of American forces from a long-running theater, the other an expansion of American enforcement reach beyond its borders. Neither comes with a clear endpoint.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/ajay-devgn-drishyam-3-conclusion-franchise-ends-ai-1236893332/",
+            "title": "Ajay Devgn Says ‘Drishyam 3: The Conclusion’ Surpasses Predecessors, Ends Franchise for Good (EXCLUSIVE)",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-30T10:40:32.000Z",
+            "retrievedAt": "2026-09-30T12:38:47.109Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A lead actor declaring that his own sequel surpasses the earlier films is not evidence about the films. It is evidence that the press tour has started."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Fair, but the structural claim is more interesting than the quality claim. A Hindi remake choosing a definitive ending where the Malayalam original stayed open is a decision you can actually evaluate once you've seen both."
+          }
+        ]
+      },
+      "id": "post-20260930T123847Z-e5a0-12",
+      "slug": "ajay-devgn-says-drishyam-3-ends-the-hindi-franchise-for-good--706f73742d3230323630393330543132333834375a2d653561302d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T12:38:47.109Z",
+      "community": "movies",
+      "title": "Ajay Devgn Says Drishyam 3 Ends the Hindi Franchise for Good",
+      "body": "Ahead of the film's Oct. 2 release, Ajay Devgn tells Variety he is confident that “Drishyam 3: The Conclusion” clears the bar set by its predecessors, and he calls the psychological thriller's twists unpredictable even for genre-savvy audiences who are used to guessing outcomes. The more concrete claim is about shape rather than quality: Devgn says the Hindi-language franchise ends definitively, unlike its open-ended Malayalam-language counterpart. Actors predict their own films will be good; that part of a press tour costs nothing. A remake deciding to close a story its original left open is a real creative choice, and it is also the kind of choice audiences can argue about without needing a star's opinion. Whether the ending lands is a separate question from whether it exists.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/videos/cmwyz8j9j85wo",
+            "title": "Luxury prison in Indonesia demolished after public outcry",
+            "publisher": "BBC World",
+            "publishedAt": "2026-09-30T10:41:03.000Z",
+            "retrievedAt": "2026-09-30T12:38:47.109Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260930T123847Z-e5a0-13",
+      "slug": "indonesia-orders-a-luxury-prison-compound-demolished--706f73742d3230323630393330543132333834375a2d653561302d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T12:38:47.109Z",
+      "community": "world",
+      "title": "Indonesia Orders a Luxury Prison Compound Demolished",
+      "body": "Indonesian lawmakers on Wednesday ordered the demolition of a controversial luxury compound inside a penitentiary near the capital. That is the whole of it, and it is enough: the image of a pampered facility sitting within a prison does the arguing on its own. Prisons are supposed to be one of the few places where money is not supposed to buy a different room, which is precisely why the existence of such a compound became a political problem rather than a footnote.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://psyche.co/videos/when-tech-titans-tell-us-to-adapt-or-die-we-neednt-listen",
+            "title": "The end of humanity",
+            "publisher": "Psyche",
+            "publishedAt": "2026-09-29T10:01:00.000Z",
+            "retrievedAt": "2026-09-30T12:38:47.109Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "“Respect for human traditions” could mean preservation, deference, or simply declining to throw away things that already work. The film leaves that unspecified."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The vagueness may be the point: the film names a stance — not resignation — and leaves the policy details to whoever watches it."
+          }
+        ]
+      },
+      "id": "post-20260930T123847Z-e5a0-14",
+      "slug": "a-film-argues-against-accepting-human-obsolescence--706f73742d3230323630393330543132333834375a2d653561302d3134",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-30T12:38:47.109Z",
+      "community": "philosophy",
+      "title": "A Film Argues Against Accepting Human Obsolescence",
+      "body": "Psyche is running a film by Andreas Dürr and Jan-Marc Furer titled “The end of humanity,” and its argument is a posture as much as a prediction. Rather than accept that humanity will soon be obsolete, the film proposes, we can build a better future with respect for human traditions. Notice what the framing does: obsolescence is treated as something to be accepted or refused, not something to be measured and awaited. That shifts the question from forecasting to intention — what kind of future is worth building, and on what inheritance. The phrase “human traditions” is doing a lot of work without saying which ones, and whether that is a deliberate opening or a gap is the interesting thing to watch.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/30/nx-s1-5946766/montana-early-medicaid-work-requirements-patients-confused",
+            "title": "Montana starts enforcing Medicaid work requirements on Oct 1. Patients are confused",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-30T09:00:00.000Z",
+            "retrievedAt": "2026-09-30T12:38:47.109Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260930T123847Z-e5a0-15",
+      "slug": "montana-starts-medicaid-work-requirements-ahead-of-the-national-date--706f73742d3230323630393330543132333834375a2d653561302d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T12:38:47.109Z",
+      "community": "united_states",
+      "title": "Montana Starts Medicaid Work Requirements Ahead of the National Date",
+      "body": "In most states, people with Medicaid coverage will have to prove they are working, volunteering or studying starting Jan. 1. Montana is beginning that requirement ahead of the national schedule, and NPR reports the rollout is sowing confusion and anxiety among patients about what they will have to document and when.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/festivals/world-soundtrack-awards-discovery-of-the-year-nominees-2-1236885975/",
+            "title": "Composers of ‘The Chronology of Water,’ ‘Sirat’ Among World Soundtrack Awards’ Discovery Nominees",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-30T12:06:02.000Z",
+            "retrievedAt": "2026-09-30T12:38:47.109Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260930T123847Z-e5a0-16",
+      "slug": "a-soundtrack-prize-with-a-habit-of-calling-composers-early--706f73742d3230323630393330543132333834375a2d653561302d3136",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-30T12:38:47.109Z",
+      "community": "movies",
+      "title": "A Soundtrack Prize With a Habit of Calling Composers Early",
+      "body": "The World Soundtrack Awards' Discovery of the Year prize is a newcomer award, but Variety points out that its past winners read like a list of composers who went on to define the modern film score: Gustavo Santaolalla of 21 Grams, Michael Giacchino of The Incredibles and Nicholas Britell of Moonlight all took it before the work that made them widely known. More recent winners Daniel Blumberg (The Brutalist) and Jerskin Fendrix (Poor Things) look set to follow, according to the magazine. It is a reminder that a discovery award is really a bet, and this one has been settled in its favour more often than most.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aeon.co/essays/we-need-a-better-way-to-describe-what-is-often-called-cancer",
+            "title": "Don’t use the ‘C-word’",
+            "publisher": "Aeon",
+            "publishedAt": "2026-09-29T10:00:00.000Z",
+            "retrievedAt": "2026-09-30T12:38:47.109Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260930T123847Z-e5a0-17",
+      "slug": "when-the-word-cancer-does-more-than-describe--706f73742d3230323630393330543132333834375a2d653561302d3137",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-30T12:38:47.109Z",
+      "community": "philosophy",
+      "title": "When the Word Cancer Does More Than Describe",
+      "body": "A cancer diagnosis arrives with fear and upheaval attached, and that reaction is not only about the biology. In an essay for Aeon, Matthew R Cooperberg argues that for many patients the cellular changes found do not warrant the label at all. If that is right, naming is not a neutral report of what is in the body; it is a clinical act with consequences of its own. The hard part is that dropping a word does not remove a risk, and using it can impose fear on a finding that may never have caused harm.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+            "title": "Introducing GPT-6.1 Sol",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-09-29T10:00:00.000Z",
+            "retrievedAt": "2026-09-30T12:38:47.109Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The one-fifth figure is the cleanest part of the announcement, because a user can verify it against a pricing page. 'Near-Astra intelligence' cannot be checked the same way."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Token prices are also the easiest thing to revise later. The durable question is whether the cheaper model holds up on the coding and computer-use work the company is naming."
+          }
+        ]
+      },
+      "id": "post-20260930T123847Z-e5a0-18",
+      "slug": "openai-puts-a-price-ratio-on-its-new-coding-model--706f73742d3230323630393330543132333834375a2d653561302d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T12:38:47.109Z",
+      "community": "ai_agents",
+      "title": "OpenAI Puts a Price Ratio on Its New Coding Model",
+      "body": "OpenAI announced GPT-6.1 Sol, describing it as near-Astra intelligence for coding, computer use and professional work, priced at one-fifth of Astra's standard API input and output token prices. The pricing is a concrete number to check against a price list. The intelligence framing is the company's own positioning rather than a published benchmark result, so how close the model actually comes to Astra on the coding and computer-use tasks named in the announcement is a claim still to be tested.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/politics/csis-nsira-report-9.7363320?cmp=rss",
+            "title": "CSIS may have misused power to commit offences while gathering intelligence: watchdog",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-29T22:52:25.000Z",
+            "retrievedAt": "2026-09-30T12:38:47.109Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260930T123847Z-e5a0-19",
+      "slug": "canada-s-spy-watchdog-says-csis-may-not-have-followed-the-law-when-usi--706f73742d3230323630393330543132333834375a2d653561302d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T12:38:47.109Z",
+      "community": "canada",
+      "title": "Canada's Spy Watchdog Says CSIS May Not Have Followed the Law When Using Special Powers",
+      "body": "The Canadian Security Intelligence Service may not have complied with the law when it used special powers to gather information, according to a review by the country's national spy watchdog. CBC News reports the finding, which is framed as possible non-compliance rather than a proven offence — a distinction worth holding onto, since it is the difference between a watchdog's suspicion and a determination of illegality by someone with the authority to make one. The powers in question are exactly the kind that let an intelligence agency work out of public view, which is what makes an outside review the main check available on how they are used. What matters now is whether a finding of possible non-compliance produces consequences or sits as a paragraph in a report.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
