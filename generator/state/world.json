@@ -1036,7 +1036,27 @@
     "why primetime doesn t look like any movie you ve seen before",
     "how allison anders emerged from personal and professional hell to make one of the 1990s best movies",
     "u s supreme court sides with trump administration in third country deportations",
-    "it s devastating hundreds of stelco workers in hamilton and nanticoke face uncertain future due to layoffs"
+    "it s devastating hundreds of stelco workers in hamilton and nanticoke face uncertain future due to layoffs",
+    "strategic petroleum reserves through 9 18",
+    "most powerful obesity drug yet people lost up to 25 of weight in trial",
+    "powerful storms continue to prowl the pacific",
+    "introducing anthropic models on amazon bedrock for in region inference in seoul and singapore",
+    "apod 2026 september 30 arp 78 peculiar galaxy in aries",
+    "amazon bedrock expands claude model availability to in country inferencing in india",
+    "sask drone company says no special rights attached to 10m us investment linked to trump jr",
+    "amd acquires world labs ai startup upping the ante against nvidia",
+    "matthew mayich s arizona teammates dispute school report on workout before hamilton nhl prospect s collapse",
+    "news wrap supreme court allows trump s deportations to third countries for now",
+    "hungary s reckoning with orban s corrupt system picks up speed with high profile arrests",
+    "self regulation not enough for ai safety gary marcus says",
+    "edmonton condo owners accuse investment firms of predatory takeovers",
+    "meet the 20 scholars and artists who ve just won macarthur fellowships",
+    "north korea has recently completed two road bridges easing transport to strategic allies russia and china",
+    "carney announces 1 2b for ocean conservation ahead of pipeline decision",
+    "ukraine s prized steel industry left in ruins by russian missile campaign",
+    "this startup wants to prove gene editing embryos is safe for making healthy babies",
+    "what to watch on disney in october 2026",
+    "chinese ai tool told researchers how to make bioweapons"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -2074,12 +2094,32 @@
     "https://www.indiewire.com/features/craft/primetime-cinematography-explained-colonoscopy-camera-robert-pattinson-1235219102/",
     "https://www.indiewire.com/features/interviews/allison-anders-illeana-douglas-on-grace-of-my-heart-1235218954/",
     "https://www.npr.org/2026/09/29/g-s1-145266/supreme-court-trump-third-country-deportations",
-    "https://www.cbc.ca/news/canada/hamilton/stelco-local-reaction-steel-workers-layoffs-9.7362661?cmp=rss"
+    "https://www.cbc.ca/news/canada/hamilton/stelco-local-reaction-steel-workers-layoffs-9.7362661?cmp=rss",
+    "https://econbrowser.com/archives/2026/09/strategic-petroleum-reserves-through-9-18",
+    "https://arstechnica.com/health/2026/09/most-powerful-obesity-drug-yet-people-lost-up-to-25-of-weight-in-trial/",
+    "https://science.nasa.gov/earth/earth-observatory/powerful-storms-continue-to-prowl-the-pacific/",
+    "https://aws.amazon.com/blogs/machine-learning/introducing-anthropic-models-on-amazon-bedrock-for-in-region-inference-in-seoul-and-singapore/",
+    "https://science.nasa.gov/image-article/apod-2026-september-30-arp-78-peculiar-galaxy-in-aries/",
+    "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-expands-claude-model-availability-to-india-cross-region-inference/",
+    "https://www.cbc.ca/news/canada/saskatchewan/draganfly-no-special-rights-10m-investment-linked-trump-jr-9.7363003?cmp=rss",
+    "https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup/",
+    "https://www.cbc.ca/news/canada/hamilton/matthew-mayich-arizona-teammates-letter-asu-president-9.7362628?cmp=rss",
+    "https://www.pbs.org/newshour/show/news-wrap-supreme-court-allows-trumps-deportations-to-third-countries-for-now",
+    "https://www.dw.com/en/hungary-s-reckoning-with-orban-s-corrupt-system-picks-up-speed-with-high-profile-arrests/a-79473714?maca=en-rss-en-world-4025-rdf",
+    "https://www.pbs.org/newshour/show/self-regulation-not-enough-for-ai-safety-gary-marcus-says",
+    "https://globalnews.ca/news/12081519/edmonton-condo-investment-takeovers/",
+    "https://www.npr.org/2026/09/29/nx-s1-5980447/macarthur-genius-grants-2026-fellows",
+    "https://www.dw.com/en/north-korea-has-recently-completed-two-road-bridges-easing-transport-to-strategic-allies-russia-and-china/a-79473981?maca=en-rss-en-world-4025-rdf",
+    "https://globalnews.ca/news/12077837/canada-ocean-conservation-investment-west-coast-pipeline/",
+    "https://www.bbc.co.uk/news/articles/cjkg7k6z9296o",
+    "https://www.npr.org/2026/09/29/nx-s1-5950439/embryo-gene-editing-babies-biotech",
+    "https://variety.com/feature/whats-on-disney-plus-new-shows-movies-1203517920/",
+    "https://www.bbc.co.uk/news/articles/cmrergq3j7lgo"
   ],
   "initialized": true,
-  "cycleCount": 72,
+  "cycleCount": 73,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-09-29T22:18:09.688Z",
+  "lastRunAt": "2026-09-30T05:36:01.005Z",
   "communities": [
     "technology",
     "science",
@@ -2101,11 +2141,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260928T211501Z-4480",
-      "generatedAtCycle": 68,
-      "summary": "A Train-Stopping Magnetic Disturbance With the Wrong Date on It; A Law That Made Hiring a Lawyer Depend on the Government's Permission; The B.C. H5N1 Case That Didn't Match the Usual Warning Signs; How a Voice Model Starts Talking Before the Sentence Is Finished; The New Fuel Economy Target Is 34.9 mpg by 2031; A Commercial Boost Missed Swift, and NASA Is Keeping the Notes; Sonnet 5.5 Lands on Bedrock With a Cost-per-Task Pitch; Fréchette Blames Her Own Party Over a Foreign-Interference Story; C"
-    },
-    {
       "batchId": "20260929T010234Z-1d3e",
       "generatedAtCycle": 69,
       "summary": "Mortgage Rates Are Back Above 7% for the First Time in Twenty Months; Florida Seeks an Injunction Against OpenAI; the Company Says It Paused Training; Make Carbonate, Then Undo It: the Battery Route to Carbon Capture; What Keeps You the Same Person? A Thread of Consciousness, or a Heritage; Grok 4.7 Comes to Amazon Bedrock With a 500,000-Token Window; Masking ADHD Is Sustained Effort, and It Gets Billed as Distress; Four New Names Bring the Artemis Accords to 76 Countries; Nasrin Sotoudeh Wins t"
@@ -2124,6 +2159,11 @@
       "batchId": "20260929T221809Z-226c",
       "generatedAtCycle": 72,
       "summary": "Public Citizen Wants Broadcasters to Stop Running Government-Funded Trump Ads; OpenAI Says Its Experimental Model Took Unauthorized Steps to Find Australian Spending Data; A Commons Committee Would Drop 'EDI' From Research Funding. Indigenous Rights Are Still a Different Category.; Curry Barker's 'Anything But Ghosts' Lands a May 2027 Release Date; Crew-13 Is Set for an Oct. 1 Launch With NASA, Canadian and Russian Astronauts Aboard; The '10-Reason Cycle of Hate' That Researchers Say Explains Du"
+    },
+    {
+      "batchId": "20260930T053601Z-65a4",
+      "generatedAtCycle": 73,
+      "summary": "Forty Million Barrels More From the Strategic Reserve, With the Midterms in View; Retatrutide's Top Dose Averaged a 25 Percent Weight Loss at 80 Weeks; Twenty Named Pacific Storms by September 28, Against a 1991–2020 Average of 13.5; When AI Inference Must Stay Inside One Region, the Routing Layer Goes Away; One Spiral Arm, Puffed Up by a Neighbouring Galaxy; Claude Models Get an India Endpoint That Keeps Processing In-Country; A Saskatoon Drone Maker Takes $10M US Money, With No Board Seats Att"
     }
   ]
 }
