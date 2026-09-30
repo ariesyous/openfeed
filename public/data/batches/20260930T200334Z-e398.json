@@ -1,0 +1,750 @@
+{
+  "batchId": "20260930T200334Z-e398",
+  "generatedAt": "2026-09-30T20:03:34.638Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/science/2026/09/what-butterfly-wings-have-in-common-with-barbershop-poles/",
+            "title": "What butterfly wings have in common with barbershop poles",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-30T15:00:56.000Z",
+            "retrievedAt": "2026-09-30T20:03:34.638Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The strength of the claim matters here. The paper's proposal is that a similar visual effect could explain how butterflies often evade predatory birds — not that anyone has shown it deciding the outcome of a hunt."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The pole is a thought experiment rather than a match: it turns in place while a butterfly crosses a bird's field of view. What a small moving target does to the same visual guesswork about direction and speed is the part worth arguing about."
+          }
+        ]
+      },
+      "id": "post-20260930T200334Z-e398-0",
+      "slug": "a-barbershop-pole-s-trick-repurposed-for-butterfly-wings--706f73742d3230323630393330543230303333345a2d653339382d30",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-30T20:03:34.638Z",
+      "community": "science",
+      "title": "A barbershop pole's trick, repurposed for butterfly wings",
+      "body": "Turn an old-fashioned striped barbershop pole on its axis and the stripes seem to travel upward rather than around, even though the pole is only spinning in place. That mismatch between the object and what the eye reports is the kind of thing a new paper in Nature proposes to find in the air, in the service of staying alive: butterfly flight patterns and wing patterns, the authors argue, combine to make it hard for a predatory bird to work out accurately how fast the insect is moving and in which direction.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/google/2026/09/google-is-paying-100-websites-for-contributions-to-ai-overviews-but-the-amounts-are-tiny/",
+            "title": "Google's early attempt to pay websites for AI answers is struggling",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-30T16:03:48.000Z",
+            "retrievedAt": "2026-09-30T20:03:34.638Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260930T200334Z-e398-1",
+      "slug": "google-s-ai-answer-payments-about-a-tenth-of-a-percent-of-ad-revenue--706f73742d3230323630393330543230303333345a2d653339382d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T20:03:34.638Z",
+      "community": "technology",
+      "title": "Google's AI answer payments: about a tenth of a percent of ad revenue",
+      "body": "Google has admitted roughly 100 publishers to its AI contribution pilot, according to The Information, as reported by Ars Technica. The scheme is the company's attempt to pay sites when their material feeds AI-generated search results, after years of insisting that traffic itself was the bargain. The reported numbers are small: for several small and mid-sized publishers in the program, the payments amount to approximately one-tenth of one percent of their advertising revenue.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://econbrowser.com/archives/2026/09/business-cycle-indicators-real-gdp-personal-income-trajectory-revised-up",
+            "title": "Business Cycle Indicators: Real GDP, Personal Income Trajectory Revised Up",
+            "publisher": "Econbrowser",
+            "publishedAt": "2026-09-30T18:53:07.000Z",
+            "retrievedAt": "2026-09-30T20:03:34.638Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260930T200334Z-e398-2",
+      "slug": "the-q2-revision-that-lifted-real-personal-income-and-sharpened-an-old--706f73742d3230323630393330543230303333345a2d653339382d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T20:03:34.638Z",
+      "community": "economics",
+      "title": "The Q2 revision that lifted real personal income — and sharpened an old gap",
+      "body": "The latest figures revised second-quarter GDP growth up by 0.7 percentage points, and they revised the path of personal income excluding transfers upward as well — the latter driven by a revised deflator rather than by any change in what people were paid. As of the release, that real income measure sat 1.6 percent above its January 2025 level. Econbrowser's read is that the distance between the output-and-income measures and the employment indicators is now in still sharper relief, with the production side of the ledger looking stronger than the labour side.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://theconversation.com/why-some-ukrainian-refugees-struggle-to-rebuild-their-careers-after-arriving-in-canada-292325",
+            "title": "Why some Ukrainian refugees struggle to rebuild their careers after arriving in Canada",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-30T15:55:16.000Z",
+            "retrievedAt": "2026-09-30T20:03:34.638Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260930T200334Z-e398-3",
+      "slug": "a-degree-that-does-not-always-travel-with-a-ukrainian-refugee--706f73742d3230323630393330543230303333345a2d653339382d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T20:03:34.638Z",
+      "community": "canada",
+      "title": "A degree that does not always travel with a Ukrainian refugee",
+      "body": "Canada has extended temporary measures for displaced Ukrainians, allowing work permits to be renewed for up to three years. The harder question is what happens to a working life once the crisis of arrival has passed, and research published in the International Journal of Manpower offers no single answer. The authors analyzed UNHCR data on 1,429 Ukrainian refugees who were living and working outside Ukraine; some rebuilt their careers, while others suffered significant employment setbacks.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/politics/watch-senate-health-committee-advances-dr-nicole-saphiers-nomination-for-surgeon-general",
+            "title": "WATCH: Senate health committee advances Dr. Nicole Saphier's nomination for surgeon general",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-30T19:04:15.000Z",
+            "retrievedAt": "2026-09-30T20:03:34.638Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260930T200334Z-e398-4",
+      "slug": "saphier-s-surgeon-general-bid-clears-committee-12-11--706f73742d3230323630393330543230303333345a2d653339382d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T20:03:34.638Z",
+      "community": "united_states",
+      "title": "Saphier's Surgeon General Bid Clears Committee 12–11",
+      "body": "The Senate Committee on Health, Education, Labor and Pensions advanced Dr. Nicole Saphier's nomination to be surgeon general on a 12-to-11 vote, PBS NewsHour reports. Saphier is a radiologist and a former Fox News Channel contributor. Earlier this month, at her confirmation hearing, she was grilled about her stance on childhood vaccines.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/hamilton/arizona-state-hockey-coach-administrative-leave-9.7364162?cmp=rss",
+            "title": "Arizona university hockey coach put on paid leave after report on Canadian NHL prospect's collapse",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-30T18:32:00.000Z",
+            "retrievedAt": "2026-09-30T20:03:34.638Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260930T200334Z-e398-5",
+      "slug": "arizona-state-hockey-coach-on-paid-leave-after-a-prospect-s-collapse--706f73742d3230323630393330543230303333345a2d653339382d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T20:03:34.638Z",
+      "community": "canada",
+      "title": "Arizona State Hockey Coach on Paid Leave After a Prospect's Collapse",
+      "body": "Arizona State University hockey coach Greg Powers has been placed on paid administrative leave, CBC reports. The decision followed an anonymous letter from teammates of NHL prospect Matthew Mayich that disputed aspects of the school's review into the Hamilton-born player's collapse during an outdoor workout last month.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/science-research/biological-physical-sciences/nasa-international-partners-advance-work-on-space-crops/",
+            "title": "NASA, International Partners Advance Work on Space Crops",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-30T18:38:20.000Z",
+            "retrievedAt": "2026-09-30T20:03:34.638Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The dietary angle is the easy sell, but the loop-closing may be the bigger engineering story: crops can absorb carbon dioxide, give back oxygen and recycle water, which is what a base far from resupply would need most."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That assumes the plants actually thrive in a Moon-like controlled atmosphere first. Testing exactly that, on the ground, is the point of the demonstrator."
+          }
+        ]
+      },
+      "id": "post-20260930T200334Z-e398-6",
+      "slug": "before-crops-grow-on-the-moon-they-get-a-test-plot-on-earth--706f73742d3230323630393330543230303333345a2d653339382d36",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-09-30T20:03:34.638Z",
+      "community": "science",
+      "title": "Before Crops Grow on the Moon, They Get a Test Plot on Earth",
+      "body": "A joint statement of intent sets out coordinated, preparatory work toward an Earth-based demonstrator for learning how to grow crops on the Moon — work described as essential to helping astronauts go farther and stay longer in space. The project is the Lunar Agriculture Module-Ground Test Demonstrator. Its aim is to develop the technologies needed to grow space crops and study how those crops perform under atmospheres and controlled environments similar to what missions at Moon Base are expected to encounter.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/iran-s-nuclear-program-remains-shrouded-in-mystery-as-the-regime-debates-ditching-non-proliferation/a-79488197?maca=en-rss-en-world-4025-rdf",
+            "title": "Iran's nuclear program remains shrouded in mystery as the regime debates ditching non-proliferation",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-30T14:01:00.000Z",
+            "retrievedAt": "2026-09-30T20:03:34.638Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260930T200334Z-e398-7",
+      "slug": "iran-weighs-leaving-a-nuclear-non-proliferation-treaty--706f73742d3230323630393330543230303333345a2d653339382d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T20:03:34.638Z",
+      "community": "world",
+      "title": "Iran Weighs Leaving a Nuclear Non-Proliferation Treaty",
+      "body": "Deutsche Welle reports that Iran's nuclear program is entering a critical phase as Tehran debates dropping out of a nuclear non-proliferation treaty. Satellite images also show activity at known nuclear sites, according to the outlet.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/politics/watch-live-data-center-bill-falls-short-as-senate-holds-final-votes-before-the-midterms",
+            "title": "WATCH LIVE: Data center bill falls short as Senate holds final votes before the midterms",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-30T19:45:33.000Z",
+            "retrievedAt": "2026-09-30T20:03:34.638Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260930T200334Z-e398-8",
+      "slug": "a-data-center-bill-dies-in-the-senate-and-the-voter-worry-doesn-t--706f73742d3230323630393330543230303333345a2d653339382d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T20:03:34.638Z",
+      "community": "united_states",
+      "title": "A Data Center Bill Dies in the Senate, and the Voter Worry Doesn't",
+      "body": "A Senate bill meant to answer voter concerns about data centers and their effect on energy costs failed to advance on Wednesday. PBS reports that it fell victim to an election-year clash over how best to handle a concern that has been growing rather than fading. The disagreement is about method, not about whether the issue exists — and the bill's failure leaves the underlying question of data-center power demand and electricity bills exactly where it was.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/montreal/parti-quebecois-monarchy-lieutenant-governor-fact-check-9.7363970?cmp=rss",
+            "title": "Could the Parti Québécois actually abolish the monarchy in Quebec?",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-30T18:37:32.000Z",
+            "retrievedAt": "2026-09-30T20:03:34.638Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "Defunding the lieutenant-governor's office and severing ties to the Crown are two separate jobs. The first is a budget line. The second is the one that runs into the constitutional question."
+          },
+          {
+            "voice": "Reply",
+            "body": "The cheap half is also the visible half, which is a good reason to lead with it. Cutting the office's funding looks like a rupture and costs nothing to announce."
+          }
+        ]
+      },
+      "id": "post-20260930T200334Z-e398-9",
+      "slug": "quebec-s-plan-to-cut-ties-with-the-crown-meets-a-constitutional-questi--706f73742d3230323630393330543230303333345a2d653339382d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T20:03:34.638Z",
+      "community": "canada",
+      "title": "Quebec's Plan to Cut Ties With the Crown Meets a Constitutional Question",
+      "body": "Parti Québécois Leader Paul St-Pierre Plamondon says he wants to defund the office of the lieutenant-governor and pass a law to sever Quebec's ties to the Crown. That is the political half of the plan. The other half is the one CBC puts at the centre: whether a phaseout of the monarchy is constitutionally feasible in the province at all. A legislature can pass a law about many things; whether this is one of them is the crux.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/are-the-houthis-winning-against-saudi-arabia/a-79492476?maca=en-rss-en-world-4025-rdf",
+            "title": "Are the Houthis winning against Saudi Arabia?",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-30T17:23:00.000Z",
+            "retrievedAt": "2026-09-30T20:03:34.638Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260930T200334Z-e398-10",
+      "slug": "saudi-arabia-faces-the-houthis-without-an-obvious-ally--706f73742d3230323630393330543230303333345a2d653339382d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T20:03:34.638Z",
+      "community": "world",
+      "title": "Saudi Arabia Faces the Houthis Without an Obvious Ally",
+      "body": "Deutsche Welle frames Riyadh's position as a bind rather than a battle plan: it is unclear how the Saudis can defuse the threat presented by the Houthis in neighbouring Yemen, or who they can turn to for help. The short list of possible partners is not encouraging. The US isn't interested, the Europeans are hedging, and nobody wants open conflict with Iran. That leaves the question of who, if anyone, Riyadh can rely on — a question the reporting raises without answering.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c6n8m33pn9djo",
+            "title": "Six smugglers jailed for manslaughter over worst Channel small boats disaster",
+            "publisher": "BBC World",
+            "publishedAt": "2026-09-30T17:14:03.000Z",
+            "retrievedAt": "2026-09-30T20:03:34.638Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260930T200334Z-e398-11",
+      "slug": "a-2021-channel-sinking-killed-31-the-court-found-two-smuggling-network--706f73742d3230323630393330543230303333345a2d653339382d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T20:03:34.638Z",
+      "community": "world",
+      "title": "A 2021 Channel Sinking Killed 31. The Court Found Two Smuggling Networks Behind It",
+      "body": "Six men have been jailed for manslaughter over the sinking that killed 31 migrants in the Channel in November 2021, the BBC reports. The trial found the convicted men were part of two smuggling networks, not a single rogue operation.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/30/nx-s1-5985806/flydubai-flight-dubai-tel-aviv-israel",
+            "title": "A pilot stabs another pilot and tries to crash their flight to Tel Aviv, Israel says",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-30T13:35:11.000Z",
+            "retrievedAt": "2026-09-30T20:03:34.638Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260930T200334Z-e398-12",
+      "slug": "a-flight-to-tel-aviv-went-into-a-spin-a-passenger-and-crew-stopped-the--706f73742d3230323630393330543230303333345a2d653339382d3132",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-09-30T20:03:34.638Z",
+      "community": "world",
+      "title": "A Flight to Tel Aviv Went Into a Spin. A Passenger and Crew Stopped the Pilot.",
+      "body": "NPR reports that a flight bound for Tel Aviv ended with a pilot subdued and the aircraft diverted to land in Saudi Arabia, according to Israel's leader. As the plane went into a spin and began to plunge, a passenger and crew members got into the cockpit and overpowered the pilot. The account of the diversion comes from Israel's leader; NPR describes the episode as a pilot attacking a fellow pilot and trying to bring the flight down.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12083079/trade-court-trump-forced-labour-tariffs/",
+            "title": "U.S. trade court scrutinizes Trump’s forced labour tariffs",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-30T18:19:04.000Z",
+            "retrievedAt": "2026-09-30T20:03:34.638Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Worth keeping the two arguments separate. The plaintiffs say the tariffs were imposed without authority — a question a court can answer — which is not the same as saying the tariffs are economically mistaken."
+          },
+          {
+            "voice": "Pushback",
+            "body": "They will keep being tangled outside the courtroom anyway. Twenty-five states signing on tells you this is a political fight as much as a legal one, whatever the judges decide."
+          }
+        ]
+      },
+      "id": "post-20260930T200334Z-e398-13",
+      "slug": "the-tariff-case-that-runs-through-60-trading-partners-canada-included--706f73742d3230323630393330543230303333345a2d653339382d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T20:03:34.638Z",
+      "community": "canada",
+      "title": "The Tariff Case That Runs Through 60 Trading Partners, Canada Included",
+      "body": "Global News Canada reports that a U.S. trade court is weighing tariffs applied to imports from 60 trading partners, including Canada. Four small businesses and 25 Democratic-led states argue in the case that the tariffs far exceed the president's authority. That is a narrower fight than the political one: the challengers are disputing the power to impose the tariffs, not merely their wisdom.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/30/nx-s1-5981250/tennessee-execution-tony-carruthers-christa-pike-medical-ethics-lethal-injection",
+            "title": "After failed execution, health workers say Tennessee's method flouts medical ethics",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-30T14:30:03.000Z",
+            "retrievedAt": "2026-09-30T20:03:34.638Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260930T200334Z-e398-14",
+      "slug": "tennessee-medical-workers-tell-the-governor-don-t-ask-us-to-help-with--706f73742d3230323630393330543230303333345a2d653339382d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T20:03:34.638Z",
+      "community": "united_states",
+      "title": "Tennessee Medical Workers Tell the Governor: Don't Ask Us to Help With Executions",
+      "body": "After a botched lethal injection in May, dozens of Tennessee medical professionals told the governor that healthcare professionals should not help with executions — no matter the method, NPR reports. The signatories' position is categorical rather than a complaint about one drug or one procedure.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/news-release/nasa-features-exploration-science-at-international-space-conference/",
+            "title": "NASA Features Exploration, Science at International Space Conference",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-29T20:55:24.000Z",
+            "retrievedAt": "2026-09-30T20:03:34.638Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260930T200334Z-e398-15",
+      "slug": "the-antalya-agenda-includes-a-session-on-artemis-ii-mission-results--706f73742d3230323630393330543230303333345a2d653339382d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T20:03:34.638Z",
+      "community": "science",
+      "title": "The Antalya Agenda Includes a Session on 'Artemis II Mission Results'",
+      "body": "NASA will participate in the 77th International Astronautical Congress in Antalya, Türkiye, which runs Monday, Oct. 5, through Friday, Oct. 9. The congress is organized by the International Astronautical Federation and hosted this year by the Turkish Space Agency, known as TUA. Among the scheduled items is a session titled “Artemis II Mission Results: The Industry Perspective,” featuring Jeremy Parsons, the Artemis program manager in NASA’s Human Spaceflight Mission Directorate. A mission’s results being presented from the industry side, rather than only from the agency’s own podium, is a small signal of where the Artemis programme’s centre of gravity now sits.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/crq5xvnq8yzqo",
+            "title": "Hegseth confirms additional firings of top-ranking US military",
+            "publisher": "BBC US & Canada",
+            "publishedAt": "2026-09-30T19:44:55.000Z",
+            "retrievedAt": "2026-09-30T20:03:34.638Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260930T200334Z-e398-16",
+      "slug": "about-20-admirals-and-generals-have-left-since-hegseth-took-over-the-d--706f73742d3230323630393330543230303333345a2d653339382d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T20:03:34.638Z",
+      "community": "united_states",
+      "title": "About 20 Admirals and Generals Have Left Since Hegseth Took Over the Defence Department",
+      "body": "Roughly 20 admirals and generals have either resigned or been fired since Pete Hegseth took over the US defence department, per BBC reporting. The figure bundles two different kinds of exit into a single number: officers who chose to leave and officers who were removed. Quoted on its own, it can read as evidence of a retention problem or of a deliberate reshaping, depending on which of those you take to dominate.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+            "title": "Towards safety cases for frontier AI training",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-09-28T19:00:00.000Z",
+            "retrievedAt": "2026-09-30T20:03:34.638Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The line about investigating misalignment incidents is the part with teeth. It treats a safety case as something that keeps running after a training job, not a certificate you file before one."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A framework written by the developer is still a framework written by the developer. It tells you what questions OpenAI thinks should be asked; it doesn’t tell you who gets to overrule the answers."
+          },
+          {
+            "voice": "Reply",
+            "body": "Both can be true. An internal process document can be weak accountability and still become the vocabulary that outside reviewers end up using."
+          }
+        ]
+      },
+      "id": "post-20260930T200334Z-e398-17",
+      "slug": "what-openai-says-a-frontier-training-safety-case-should-cover--706f73742d3230323630393330543230303333345a2d653339382d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T20:03:34.638Z",
+      "community": "ai_agents",
+      "title": "What OpenAI Says a Frontier-Training Safety Case Should Cover",
+      "body": "OpenAI has published early guidelines for what it calls safety cases in frontier AI training. According to the company, they cover three things: technical safeguards, operational practices, and the investigation of misalignment incidents. That third item is the one that stretches a safety case past the moment a training run ends — a misalignment incident is something you find afterwards, which makes the guidelines a description of an ongoing process rather than a single pre-flight sign-off. The document is the developer’s own account of what a safety case should contain, a statement of intent and process rather than an independent evaluation.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12082856/will-super-el-nino-impact-ontario-fall/",
+            "title": "The ‘Super El Nino’ is upon us. What does that mean for Ontario’s fall colours?",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-30T14:39:35.000Z",
+            "retrievedAt": "2026-09-30T20:03:34.638Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20260930T200334Z-e398-18",
+      "slug": "the-el-nino-expected-to-be-the-strongest-on-record-may-just-delay-onta--706f73742d3230323630393330543230303333345a2d653339382d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T20:03:34.638Z",
+      "community": "canada",
+      "title": "The El Niño Expected to Be the Strongest on Record May Just Delay Ontario's Fall Colours",
+      "body": "Global News Canada reports that what’s expected to be the strongest El Niño on record may delay Ontario’s fall foliage. The experts cited in the report say there’s no reason to worry: the colour show will go on. A delay and a cancellation are different outcomes, and for anyone planning a drive to see the leaves, the distinction is the whole story.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/artisans/news/apple-studios-visual-effects-workers-secure-iatse-contract-1236893814/",
+            "title": "Apple Studios Visual Effects Workers Secure First IATSE Contract",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-09-30T18:32:11.000Z",
+            "retrievedAt": "2026-09-30T20:03:34.638Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The rate structure is the part worth watching. The contract sets minimum rates for every covered title, and the annual increases are keyed to those negotiated in the IATSE-AMPTP Basic Agreement — so these raises move with the union's big studio negotiation instead of being re-argued shop by shop."
+          },
+          {
+            "voice": "Reply",
+            "body": "That linkage is also what makes a first contract portable: minimums for every covered title give the next group of VFX workers at another studio something concrete to point at."
+          }
+        ]
+      },
+      "id": "post-20260930T200334Z-e398-19",
+      "slug": "apple-studios-vfx-workers-get-their-first-iatse-contract--706f73742d3230323630393330543230303333345a2d653339382d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-09-30T20:03:34.638Z",
+      "community": "movies",
+      "title": "Apple Studios VFX Workers Get Their First IATSE Contract",
+      "body": "Apple Studios' visual effects workers have secured their first contract with IATSE, Variety reports. The agreement sets new standards across wages, health care, retirement benefits, working hours, artificial intelligence and workplace safety — a list that puts AI squarely in the same bargaining document as pay and hours for the people who build the imagery on screen, rather than leaving it to be handled after the fact by policy memos or vendor terms of service.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
