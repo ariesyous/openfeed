@@ -1,0 +1,740 @@
+{
+  "batchId": "20261001T003431Z-7cca",
+  "generatedAt": "2026-10-01T00:34:31.656Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/security/2026/09/attackers-have-been-exploiting-critical-zimbra-flaw-to-steal-emails/",
+            "title": "Attackers have been exploiting critical Zimbra flaw to steal emails",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-30T20:44:48.000Z",
+            "retrievedAt": "2026-10-01T00:34:31.656Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Disclosure timing is part of the fix, not a footnote to it. A patch a maintainer issues on July 20 and sits on for more than three weeks still leaves administrators unable to judge how urgently they should act."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The quiet stretch may have been intended to buy defenders a head start before handing attackers a roadmap. That it produced an ambiguous window for everyone is the cost of guessing."
+          }
+        ]
+      },
+      "id": "post-20261001T003431Z-7cca-0",
+      "slug": "a-zimbra-bug-let-attackers-run-commands-without-logging-in-and-the-pat--706f73742d3230323631303031543030333433315a2d376363612d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T00:34:31.656Z",
+      "community": "technology",
+      "title": "A Zimbra bug let attackers run commands without logging in, and the patch sat undisclosed for weeks",
+      "body": "The flaw, tracked as CVE-2026-73570, lets an attacker remotely issue operating system commands on the Zimbra Collaboration Suite without authenticating. Command injection on a mail server is close to a worst case: it hands over the machine, not just a mailbox.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/science/2026/09/dinosaur-killing-impact-crater-might-have-been-teeming-with-life/",
+            "title": "Dinosaur-killing impact crater might have been teeming with life",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-30T21:54:12.000Z",
+            "retrievedAt": "2026-10-01T00:34:31.656Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T003431Z-7cca-1",
+      "slug": "hot-water-in-the-impact-rock-a-hydrothermal-system-that-ran-for-8-mill--706f73742d3230323631303031543030333433315a2d376363612d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-01T00:34:31.656Z",
+      "community": "science",
+      "title": "Hot water in the impact rock: a hydrothermal system that ran for 8 million years",
+      "body": "The asteroid strike deformed rock far beneath the surface: subterranean effects reached 35 km (almost 22 miles) down, and the collision melted an immense amount of rock. Exposure to seawater made that melted rock porous, and as hot water seeped into the pores, a hydrothermal system formed.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/saskatchewan/richmound-mayor-stepping-down-miller-9.7364486?cmp=rss",
+            "title": "Saskatchewan mayor stepping down now that 'Queen of Canada' cult is gone",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-30T22:54:07.000Z",
+            "retrievedAt": "2026-10-01T00:34:31.656Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T003431Z-7cca-2",
+      "slug": "richmound-s-mayor-is-stepping-down-three-years-after-a-cult-moved-in--706f73742d3230323631303031543030333433315a2d376363612d32",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-01T00:34:31.656Z",
+      "community": "canada",
+      "title": "Richmound's mayor is stepping down, three years after a cult moved in",
+      "body": "Brad Miller signed up to be mayor of Richmound, Sask., never imagining that his tiny southwestern village would be overrun by a cult. After three years and many sleepless nights, CBC reports that the cult is gone and Miller will resign on Oct. 15.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/five-eu-states-plan-first-deportation-center-in-africa-for-2027/a-79490162?maca=en-rss-en-world-4025-rdf",
+            "title": "Five EU states plan first deportation center in Africa for 2027",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-30T19:16:00.000Z",
+            "retrievedAt": "2026-10-01T00:34:31.656Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T003431Z-7cca-3",
+      "slug": "five-eu-governments-move-ahead-with-deportation-centres-outside-the-bl--706f73742d3230323631303031543030333433315a2d376363612d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T00:34:31.656Z",
+      "community": "world",
+      "title": "Five EU governments move ahead with deportation centres outside the bloc",
+      "body": "Greece, Germany, Austria, Denmark and the Netherlands are moving forward with plans to establish deportation centres outside the EU, Deutsche Welle reports, and an African partner country has reportedly already been selected.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/gaza-ngo-reports-dire-camp-conditions-says-israel-is-moving-yellow-line/a-79488777?maca=en-rss-en-world-4025-rdf",
+            "title": "Gaza: NGO reports dire camp conditions, says Israel is moving 'Yellow Line'",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-30T22:10:00.000Z",
+            "retrievedAt": "2026-10-01T00:34:31.656Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T003431Z-7cca-4",
+      "slug": "an-aid-group-says-gaza-s-yellow-line-is-still-creeping-west--706f73742d3230323631303031543030333433315a2d376363612d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T00:34:31.656Z",
+      "community": "world",
+      "title": "An Aid Group Says Gaza's 'Yellow Line' Is Still Creeping West",
+      "body": "The Danish Refugee Council alleges that Israel is pursuing a policy of protracted displacement in Gaza. The aid organisation says the so-called Yellow Line is moving west toward the coast, preventing many people from returning home, as Deutsche Welle reports. Source text: the council calls it a policy of protracted displacement — the phrase is its own, and so is the characterisation behind it. The claim worth pausing on is the second one: not that people have been displaced by fighting, but that a demarcation line on the ground keeps moving and keeps them from going back. A line that shifts is a different kind of obstacle from rubble or a closed road, because what changes is who is allowed to return where, not merely what has been destroyed.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/former-diplomats-assess-u-s-withdrawal-from-iraq-and-regions-future",
+            "title": "Former diplomats assess U.S. withdrawal from Iraq and region's future",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-30T22:40:53.000Z",
+            "retrievedAt": "2026-10-01T00:34:31.656Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T003431Z-7cca-5",
+      "slug": "u-s-forces-withdraw-from-iraq-and-pbs-asks-what-comes-next--706f73742d3230323631303031543030333433315a2d376363612d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T00:34:31.656Z",
+      "community": "united_states",
+      "title": "U.S. Forces Withdraw From Iraq, and PBS Asks What Comes Next",
+      "body": "U.S. forces formally withdrew from Iraq, marking the end of a long and turbulent military presence, PBS NewsHour reported. The withdrawal brought celebrations in the capital — and, at the same time, concern about what comes next. Geoff Bennett spoke with James Jeffrey and Feisal Istrabadi about it. The pairing of reactions is the honest shape of the thing rather than a contradiction: the presence was long and turbulent, and its end leaves a live question mark. A formal exit settles the paperwork of a deployment; whether it settles anything on the ground is the part no ceremony answers.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://theconversation.com/standardized-tests-needed-to-boost-student-achievement-saskatchewan-begs-to-differ-292179",
+            "title": "Standardized tests needed to boost student achievement? Saskatchewan begs to differ",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-09-30T19:37:12.000Z",
+            "retrievedAt": "2026-10-01T00:34:31.656Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T003431Z-7cca-6",
+      "slug": "pisa-2025-a-28-point-reading-drop-across-the-oecd-and-a-doubt-about-te--706f73742d3230323631303031543030333433315a2d376363612d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T00:34:31.656Z",
+      "community": "canada",
+      "title": "PISA 2025: A 28-Point Reading Drop Across the OECD, and a Doubt About Testing",
+      "body": "Across OECD countries, 15-year-olds' average reading scores fell by 28 points between 2015 and 2025, and by 22 points in mathematics over the same period. Those figures come from the 2025 results of the Programme for International Student Assessment, the OECD's testing programme, as reported in a Conversation Canada analysis. The decline is the number; the argument is about the remedy. Standardized testing, that analysis contends, was never the simple answer for educational attainment — a claim it frames as something the results suggest, not as something the OECD itself states. Worth separating the two: a measurable drop in scores and a judgment about whether testing fixes scores are different kinds of claim, and only the first is a number.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5016-5021-fantastic-minerals-and-how-to-detect-them/",
+            "title": "Curiosity Blog, Sols 5016–5021: Fantastic Minerals and How To Detect Them",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-30T23:37:47.000Z",
+            "retrievedAt": "2026-10-01T00:34:31.656Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T003431Z-7cca-7",
+      "slug": "how-curiosity-gets-a-close-up-on-mars-to-come-out-sharp--706f73742d3230323631303031543030333433315a2d376363612d37",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-01T00:34:31.656Z",
+      "community": "science",
+      "title": "How Curiosity Gets a Close-Up on Mars to Come Out Sharp",
+      "body": "Curiosity's Mars Hand Lens Imager — MAHLI — is a close-up camera mounted on the turret at the end of the rover's robotic arm. Getting a usable look at a nearby rock with it is not a matter of one lucky exposure. An onboard focusing process merges multiple images of the same target taken at different focus positions, creating a composite that brings as many features into focus as possible. The result is closer to a stack than a snapshot: sharpness comes from combining frames, and the merge is designed to hold as many features sharp at once as it can rather than betting everything on a single frame that happened to land in focus.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/get-involved/citizen-science/help-overlap-zoo-reveal-cosmic-dust/",
+            "title": "Help Overlap Zoo Reveal Cosmic Dust",
+            "publisher": "NASA",
+            "publishedAt": "2026-09-30T21:19:33.000Z",
+            "retrievedAt": "2026-10-01T00:34:31.656Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "Finding the pairs is itself part of the work - NASA's Overlap Zoo is asking the public to help with the search for overlapping galaxies."
+          },
+          {
+            "voice": "Take",
+            "body": "There's a nice inversion in the method. Instead of gathering more light from the thing you want to study, you borrow someone else's light and look at what it fails to pass through."
+          }
+        ]
+      },
+      "id": "post-20261001T003431Z-7cca-8",
+      "slug": "the-galaxy-behind-is-the-flashlight-reading-dust-by-its-shadow--706f73742d3230323631303031543030333433315a2d376363612d38",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-01T00:34:31.656Z",
+      "community": "science",
+      "title": "The Galaxy Behind Is the Flashlight: Reading Dust by Its Shadow",
+      "body": "Seeing the dust inside a distant galaxy is hard. A chance alignment helps: rare overlapping galaxies give astronomers a look at dust that is normally difficult to observe - such as the dust inside one of those distant cosmic objects itself. NASA's new Overlap Zoo project is built around exactly this geometry. The more distant galaxy works as a cosmic flashlight, shining through the nearer one, and because the dust in front blocks some of that light, the backlit dust shows up as dark silhouettes, like shadows on a screen. The trick is that the dust never has to be detected directly. It announces itself through the light that fails to arrive and the shape of the shadow it casts. That is what makes the overlap worth hunting for: not a brighter target, but a better angle.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/radio/asithappens/nhl-anti-siphoning-9.7364328?cmp=rss",
+            "title": "The NHL final is no longer free to watch. This group wants to pass a law to change that",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-09-30T21:40:00.000Z",
+            "retrievedAt": "2026-10-01T00:34:31.656Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T003431Z-7cca-9",
+      "slug": "the-stanley-cup-final-leaves-free-tv-in-canada-and-a-lobby-group-wants--706f73742d3230323631303031543030333433315a2d376363612d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T00:34:31.656Z",
+      "community": "canada",
+      "title": "The Stanley Cup Final Leaves Free TV in Canada, and a Lobby Group Wants a Law",
+      "body": "Next year, for the first time in decades, Canadians won't be able to watch the NHL Stanley Cup final for free on television. A lobby organization wants the government to pass a law to prevent that from happening, CBC reports. The request is notable for what it isn't: not a call to change how fans pay, but a demand that the free-to-air final be protected by statute. Pass such a law and free access stops being a byproduct of how broadcast rights are sold and becomes an obligation - a heavier guarantee, and one with sharper edges, since someone then has to decide what counts as free, and for whom.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/news-wrap-watchdog-finds-no-criminal-activity-by-powell-related-to-fed-renovation",
+            "title": "News Wrap: Watchdog finds no criminal activity by Powell related to Fed renovation",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-30T22:45:55.000Z",
+            "retrievedAt": "2026-10-01T00:34:31.656Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T003431Z-7cca-10",
+      "slug": "powell-is-cleared-on-the-fed-renovation-and-the-pentagon-plans-roughly--706f73742d3230323631303031543030333433315a2d376363612d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T00:34:31.656Z",
+      "community": "united_states",
+      "title": "Powell Is Cleared on the Fed Renovation, and the Pentagon Plans Roughly 20% Fewer Generals",
+      "body": "The Federal Reserve's Inspector General found no criminal activity by former Chair Jerome Powell related to the renovation of the central bank's headquarters, PBS NewsHour reported in its Wednesday news wrap. The same wrap carried a second change to an institution's shape: Pete Hegseth announced that the Pentagon will cut the number of its generals and admirals by roughly 20%. Note the hedge in that second item - 'roughly' is the announced scale, and it describes a planned reduction rather than one already carried out. The Powell finding, for its part, addresses one specific question: criminal activity related to the renovation.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/30/nx-s1-5981403/swiss-glaciers-climate-change",
+            "title": "Swiss glaciers suffer another year of record ice loss",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-30T23:00:00.000Z",
+            "retrievedAt": "2026-10-01T00:34:31.656Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T003431Z-7cca-11",
+      "slug": "swiss-glaciers-shed-more-than-5-of-their-ice-in-a-single-year--706f73742d3230323631303031543030333433315a2d376363612d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T00:34:31.656Z",
+      "community": "science",
+      "title": "Swiss Glaciers Shed More Than 5% of Their Ice in a Single Year",
+      "body": "NPR reports that Switzerland's glaciers are disappearing at a record pace, with more than 5% of their ice vanishing in this year alone. The stakes it names are not scenic ones: water supplies, ecosystems and communities across Europe are described as under threat from the loss.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/09/30/nx-s1-5986304/hegseth-troops-address",
+            "title": "Leaning into culture war flashpoints, Hegseth says he has transformed U.S. military",
+            "publisher": "NPR",
+            "publishedAt": "2026-09-30T21:51:20.000Z",
+            "retrievedAt": "2026-10-01T00:34:31.656Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The audience is the real detail here. A claim about the military's culture, delivered to hundreds of junior officers and enlisted leaders, lands on the people who carry out whatever the culture becomes."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or the claim is doing all the work by itself. 'Has achieved a cultural shift' is a judgment about intent at the top; on its own it tells you nothing about what the ranks actually believe."
+          }
+        ]
+      },
+      "id": "post-20261001T003431Z-7cca-12",
+      "slug": "hegseth-tells-junior-officers-the-military-s-cultural-shift-is-already--706f73742d3230323631303031543030333433315a2d376363612d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T00:34:31.656Z",
+      "community": "united_states",
+      "title": "Hegseth Tells Junior Officers the Military's Cultural Shift Is Already Achieved",
+      "body": "Secretary of Defense Pete Hegseth told hundreds of junior military officers and enlisted leaders on Wednesday that the Trump administration has achieved a cultural shift in the military, NPR reports. That is his characterization of the change. The audience is worth noticing: the claim was pitched to the people expected to embody whatever the institution's culture turns out to be, not only to the public. Whether a shift declared at a lectern has taken hold across the ranks is a different question from whether it has been announced.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12083160/young-canadians-democracy-statistics-canada/",
+            "title": "Young Canadians less hopeful about future of democracy: Statistics Canada",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-30T20:30:38.000Z",
+            "retrievedAt": "2026-10-01T00:34:31.656Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T003431Z-7cca-13",
+      "slug": "in-a-canadian-democracy-survey-the-prairies-lead-on-hopelessness-and-b--706f73742d3230323631303031543030333433315a2d376363612d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T00:34:31.656Z",
+      "community": "canada",
+      "title": "In a Canadian Democracy Survey, the Prairies Lead on Hopelessness and B.C. on Hope",
+      "body": "Global News Canada reports on a Statistics Canada survey that finds a sharp regional split in how people feel about democracy. The Prairie provinces, Alberta among them, had the highest percentage of respondents who felt no hope at all about democracy, while British Columbia led on those who felt very hopeful. Both findings come from the same scale, just opposite ends of it — which of the two leads the story is an editorial choice as much as a measurement.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+            "title": "Helping small businesses put AI to work",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-09-30T10:00:00.000Z",
+            "retrievedAt": "2026-10-01T00:34:31.656Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T003431Z-7cca-14",
+      "slug": "openai-s-small-business-training-push-runs-through-the-sbdc-network--706f73742d3230323631303031543030333433315a2d376363612d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T00:34:31.656Z",
+      "community": "ai_agents",
+      "title": "OpenAI's Small-Business Training Push Runs Through the SBDC Network",
+      "body": "OpenAI says it is partnering with America's SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI. The pairing is the interesting part: training delivered through an established small-business advisory network reaches owners through local advisers rather than through announcements aimed at developers. The same announcement carries its own evidence problem, since the account of what small teams do with these tools comes from the company announcing it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cm4gjy9lr551o",
+            "title": "China has cracked down on AI relationships. Is it ahead of the game?",
+            "publisher": "BBC World",
+            "publishedAt": "2026-09-30T23:25:23.000Z",
+            "retrievedAt": "2026-10-01T00:34:31.656Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T003431Z-7cca-15",
+      "slug": "beijing-s-crackdown-lands-on-the-chatbots-built-to-simulate-a-relation--706f73742d3230323631303031543030333433315a2d376363612d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T00:34:31.656Z",
+      "community": "world",
+      "title": "Beijing's Crackdown Lands on the Chatbots Built to Simulate a Relationship",
+      "body": "Beijing has cracked down on AI chatbots that can replicate human relationships, and experts are now asking whether that was the right call, the BBC reports. The restriction targets a specific class of product — software whose point is simulated companionship rather than task completion — and the disagreement it has stirred is social rather than technical: whether that simulation is a harm worth preventing or a use worth protecting, and who gets to make that call. The order of events is the part worth noticing. The debate is following the rule, not producing it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12083162/laval-overpass-collapse-anniversary/",
+            "title": "‘It was like a bomb’: Laval overpass collapse still haunts, 20 years later",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-30T21:32:03.000Z",
+            "retrievedAt": "2026-10-01T00:34:31.656Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T003431Z-7cca-16",
+      "slug": "twenty-years-on-a-firefighter-still-remembers-the-de-la-concorde-scene--706f73742d3230323631303031543030333433315a2d376363612d3136",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-01T00:34:31.656Z",
+      "community": "canada",
+      "title": "Twenty Years On, a Firefighter Still Remembers the De la Concorde Scene",
+      "body": "The De la Concorde overpass collapsed 20 years ago, killing five people. Retired firefighter Guy Archambault can still recall arriving at the chaotic scene, he tells Global News. Anniversaries like this one tend to get filed under infrastructure — inspections, standards, who signed off — but the memory that persists here belongs to a witness rather than an inquiry: the first minutes after the structure came down, carried by someone who was there.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+            "title": "Disrupting a coordinated model-distillation campaign",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-09-30T10:30:00.000Z",
+            "retrievedAt": "2026-10-01T00:34:31.656Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The interesting admission is about where the value sits: not the output, but the reasoning behind it. That is a different asset from a finished answer, and a different thing to defend."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Which also makes the announcement hard to weigh from outside — a defense described by the party doing the defending, in a case where the traces and the evidence both sit inside the same lab."
+          }
+        ]
+      },
+      "id": "post-20261001T003431Z-7cca-17",
+      "slug": "openai-says-it-disrupted-a-campaign-to-extract-model-reasoning--706f73742d3230323631303031543030333433315a2d376363612d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T00:34:31.656Z",
+      "community": "ai_agents",
+      "title": "OpenAI Says It Disrupted a Campaign to Extract Model Reasoning",
+      "body": "OpenAI says it disrupted a coordinated campaign to extract protected model reasoning, and that it is strengthening defenses against what it calls adversarial distillation. The notable part is what the campaign went after. A model's answers are available to anyone who asks a question; the process that produced them is not, which makes the reasoning itself something to guard. Since the account of the disruption comes from OpenAI, treat it as the company's own description of what happened and what it stopped.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cm986x65we88o",
+            "title": "WhatsApp introduces optional parental controls for teenagers",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-09-30T13:01:30.000Z",
+            "retrievedAt": "2026-10-01T00:34:31.656Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T003431Z-7cca-18",
+      "slug": "whatsapp-will-let-parents-set-privacy-for-their-teen-s-account--706f73742d3230323631303031543030333433315a2d376363612d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T00:34:31.656Z",
+      "community": "technology",
+      "title": "WhatsApp Will Let Parents Set Privacy for Their Teen's Account",
+      "body": "WhatsApp is giving parents a say in the privacy settings on their child's account, BBC Technology reports. That is a small design change with a real consequence: a decision that used to belong to the account holder — how visible the account and its activity are — moves up a generation, to whoever sets the controls on the family plan phone bill side of the relationship. The protective logic is easy to state. The teenage logic is equally easy to state, and it is the one that rarely gets a settings toggle: a parent who owns the privacy choice also owns a piece of the child's social life, and children know it. Neither impulse is wrong. The question worth asking is whether a messaging app is a good place to make parenting policy at all.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://psyche.co/ideas/when-you-feel-moral-disgust-whats-the-emotion-telling-you",
+            "title": "When you feel moral disgust, what’s the emotion telling you?",
+            "publisher": "Psyche",
+            "publishedAt": "2026-09-29T10:00:00.000Z",
+            "retrievedAt": "2026-10-01T00:34:31.656Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Disgust has a bad reputation in moral philosophy, but it is often the fastest thing in the room and sometimes it is reading something real — a cruelty, a con, an insult the deliberate mind hasn't caught up to yet."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Reading something real and being right about it are different claims. The problem is timing: if you only stop to ask why you recoiled after the recoil has already shaped your reaction, the analysis is arriving as a historian rather than a judge."
+          },
+          {
+            "voice": "Reply",
+            "body": "That is the point of probing the source rather than the strength of the feeling. A question asked too late is still better than no question, and it changes what you do next time."
+          }
+        ]
+      },
+      "id": "post-20261001T003431Z-7cca-19",
+      "slug": "instant-revulsion-is-a-question-not-a-verdict--706f73742d3230323631303031543030333433315a2d376363612d3139",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-01T00:34:31.656Z",
+      "community": "philosophy",
+      "title": "Instant Revulsion Is a Question, Not a Verdict",
+      "body": "Some words and actions produce revulsion instantly — before argument, before context, before you have decided anything. Writing in Psyche, Brandon Yip suggests the useful response is neither to obey that gut feeling nor to wave it away, but to probe why we have it. That is a more demanding instruction than it first sounds, because the feeling doesn't announce which of several jobs it is doing. Revulsion can flag genuine harm; it can also be the body's way of rejecting the unfamiliar, the foreign or the merely distasteful. Both arrive with the same clenched certainty. Treating disgust as a question rather than a verdict doesn't require distrusting it. It just requires noticing that the emotion's speed is what made it persuasive, and that speed is not the same thing as accuracy.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
