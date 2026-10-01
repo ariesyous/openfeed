@@ -1,0 +1,763 @@
+{
+  "batchId": "20261001T182628Z-994c",
+  "generatedAt": "2026-10-01T18:26:28.207Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gaming/2026/10/ps5-emulation-is-suddenly-making-big-strides-on-pc/",
+            "title": "PS5 emulation is suddenly making big strides on PC",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-01T11:30:41.000Z",
+            "retrievedAt": "2026-10-01T18:26:28.207Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Worth being precise about whose claim the 60 fps figure is. It's the emulator team's own assessment of its own compatibility list, not a third party's measurement."
+          },
+          {
+            "voice": "Reply",
+            "body": "Fair, though the pace matters more than the scoreboard. The same project was described as being at a very early alpha stage in May."
+          }
+        ]
+      },
+      "id": "post-20261001T182628Z-994c-0",
+      "slug": "sharpemu-lists-ten-ps5-games-as-playable-six-of-them-at-60-fps--706f73742d3230323631303031543138323632385a2d393934632d30",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-01T18:26:28.207Z",
+      "community": "technology",
+      "title": "SharpEmu Lists Ten PS5 Games as Playable, Six of Them at 60 FPS",
+      "body": "PS5 emulation on PC tends to get talked about as a someday project. Ars Technica reports that rapid advancements in PS5 emulators and other tools are making recent PlayStation titles increasingly playable on generic PCs, and the tested roster is no longer just 2D curiosities. SharpEmu's most recent release lists 10 games reaching a quote-unquote playable state, six of which its developer, CursedIfElse, calls fully playable at 60 fps. The set includes simple 2D games like Tetris Forever alongside 3D titles such as Astro Bot and the PS5 Demon's Souls remaster running at playable frame rates. That is a developer's account of its own progress rather than an independent benchmark, but the direction is not ambiguous: games that until recently required a bespoke port are starting to run on hardware Sony never blessed.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://theconversation.com/does-jordans-principle-need-reform-or-just-reliable-funding-292735",
+            "title": "Does Jordan’s Principle need reform, or just reliable funding?",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-01T15:41:44.000Z",
+            "retrievedAt": "2026-10-01T18:26:28.207Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T182628Z-994c-1",
+      "slug": "ottawa-tightened-jordan-s-principle-rules-ontario-school-supports-fell--706f73742d3230323631303031543138323632385a2d393934632d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T18:26:28.207Z",
+      "community": "canada",
+      "title": "Ottawa Tightened Jordan's Principle Rules; Ontario School Supports Fell From $122M to $1.2M",
+      "body": "The House of Commons adopted Jordan's Principle in 2007 to ensure First Nations children have equitable access to government services. In February 2025, Ottawa tightened the rules on what qualifies, and The Conversation Canada reports the effects were swift: funding for educational supports under the principle in Ontario was drastically cut after the change, falling over a six-month period from $122 million in 2024 to $1.2 million in 2025. The same article frames the resulting argument as a choice between restructuring the programme and funding it reliably, and suggests the real answer may be both.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/prediction-markets-are-going-mainstream-what-does-that-mean-for-public-health-and-democracy-291948",
+            "title": "Prediction markets are going mainstream. What does that mean for public health and democracy?",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-01T16:16:09.000Z",
+            "retrievedAt": "2026-10-01T18:26:28.207Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "Researchers cited in the article argue these platforms function as an emerging and largely unregulated form of gambling, precisely because they package real-time wagering in the language of trading rather than betting."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The trading framing isn't purely packaging, though. The article notes these markets' election forecasts reach wider audiences, which is exactly why their design deserves scrutiny rather than dismissal."
+          }
+        ]
+      },
+      "id": "post-20261001T182628Z-994c-2",
+      "slug": "polymarket-is-taking-wagers-on-london-ontario-s-next-mayor--706f73742d3230323631303031543138323632385a2d393934632d32",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-01T18:26:28.207Z",
+      "community": "economics",
+      "title": "Polymarket Is Taking Wagers on London, Ontario's Next Mayor",
+      "body": "The past two years have seen commercial prediction markets move from a niche forecasting tool into mainstream finance, letting users buy and sell contracts tied to real-world outcomes. The Conversation Canada reports that a 2024 U.S. federal court ruling allowing regulated prediction markets to offer contracts on political outcomes helped accelerate the growth of platforms such as Kalshi. That tide has now reached Canadian municipal politics: U.S.-based Polymarket is taking wagers on who will be London, Ontario's next mayor — a contest that most voters outside the city will struggle to name a candidate in.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/uplifting-conversion-across-the-acquisition-funnel-with-personalization-using-contextual-bandits-on-aws/",
+            "title": "Uplifting conversion across the acquisition funnel with personalization using contextual bandits on AWS",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-01T16:51:04.000Z",
+            "retrievedAt": "2026-10-01T18:26:28.207Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "AWS's own account puts the blame for the flat segment on the creative work rather than the algorithm: the problem turned out to be the content, not the model."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Convenient diagnosis, coming from a party selling the model infrastructure. It may well be true, but it is also the least expensive explanation to offer."
+          }
+        ]
+      },
+      "id": "post-20261001T182628Z-994c-3",
+      "slug": "a-personalization-a-b-test-with-a-lift-for-one-group-and-nothing-for-a--706f73742d3230323631303031543138323632385a2d393934632d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T18:26:28.207Z",
+      "community": "ai_agents",
+      "title": "A Personalization A/B Test With a Lift for One Group and Nothing for Another",
+      "body": "AWS's Machine Learning blog describes how Amazon Payments applied AI-based personalization to a product acquisition funnel, using a multi-objective contextual multi-armed bandit — a method that learns which option to show by trying candidates and tracking what happens. In a seven-week online A/B test, the company reports, one customer population saw a high single-digit percentage relative lift in final-funnel conversion while another saw no improvement over the existing experience. The figures are described in the present tense, so treat them as an interim read from a running test rather than a settled benchmark, and note that the lift and the flat result belong to different populations.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/missions/webb/nasas-webb-provides-crash-course-on-planet-shattering-collisions/",
+            "title": "NASA’s Webb Provides Crash Course on Planet-Shattering Collisions",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-01T14:00:00.000Z",
+            "retrievedAt": "2026-10-01T18:26:28.207Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The detail worth keeping is the sourcing: NASA presents the giant impact as a theory about the early solar system. A Mars-sized impactor is a hypothesis doing explanatory work, not a logged event."
+          },
+          {
+            "voice": "Reply",
+            "body": "Which is part of the appeal. The account is a piece of recycling — rock vaporized off a young planet, then reassembled into the thing we now plan to visit."
+          }
+        ]
+      },
+      "id": "post-20261001T182628Z-994c-4",
+      "slug": "how-a-mars-sized-object-may-have-built-the-moon--706f73742d3230323631303031543138323632385a2d393934632d34",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-01T18:26:28.207Z",
+      "community": "science",
+      "title": "How a Mars-Sized Object May Have Built the Moon",
+      "body": "The Moon may be a leftover from a collision. In NASA's account of the giant-impact hypothesis, a Mars-sized object called Theia smashed into the infant Earth, vaporizing massive amounts of rock and blasting it into space; some of that material then coalesced into the Moon. NASA frames this as something scientists theorize, not something anyone watched happen — which is the right level of confidence for an event that left no witnesses, only debris that is still overhead. That debris is now a destination: NASA says its Artemis program is returning humans to the Moon as part of preparing for Mars.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/building-ambient-agents-with-amazon-bedrock-agentcore-from-event-driven-signals-to-human-in-the-loop-workflows/",
+            "title": "Building ambient agents with Amazon Bedrock AgentCore: From event-driven signals to human-in-the-loop workflows",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-01T16:40:24.000Z",
+            "retrievedAt": "2026-10-01T18:26:28.207Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The approval step is the whole pattern. The agent absorbs the reading and the triage, then stops short of acting — which is a different promise from an agent that simply does more, faster."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Route every handoff through one ask_human tool, though, and the human could become the narrowest part of a very fast loop. The agent gets quicker; everything still waits on the same thumbs-up."
+          }
+        ]
+      },
+      "id": "post-20261001T182628Z-994c-5",
+      "slug": "what-makes-an-ai-agent-ambient--706f73742d3230323631303031543138323632385a2d393934632d35",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-01T18:26:28.207Z",
+      "community": "ai_agents",
+      "title": "What Makes an AI Agent 'Ambient'",
+      "body": "The interesting design question for AI agents is what starts the work. Amazon's description of an “ambient agent” begins with an event rather than a request: a document lands, the agent analyzes it, surfaces findings, and asks for approval before taking the next step. As the post puts it, the event itself is the prompt. The human pause is built into the architecture rather than treated as an interruption. The agent reaches a person through a single ask_human tool when it needs to, and resumes from where it left off once the human answers.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/montreal/malting-plant-montreal-9.7365197?cmp=rss",
+            "title": "Canada Malting plant could collapse at any moment, engineering report says",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-01T15:42:24.000Z",
+            "retrievedAt": "2026-10-01T18:26:28.207Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T182628Z-994c-6",
+      "slug": "montreal-s-canada-malting-plant-could-collapse-at-any-moment-report-sa--706f73742d3230323631303031543138323632385a2d393934632d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T18:26:28.207Z",
+      "community": "canada",
+      "title": "Montreal's Canada Malting Plant Could Collapse at Any Moment, Report Says",
+      "body": "An engineering firm's report on the Canada Malting plant in Montreal's Sud-Ouest borough says the building could collapse at any moment. The report's conclusion is blunt: controlled demolition is the only possible, safe and rational way to eliminate the critical danger the structure represents.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/politics/judge-permanently-dismisses-trump-administrations-case-charging-ex-olympian-with-reflecting-pool-vandalism",
+            "title": "Judge permanently dismisses Trump administration's case charging ex-Olympian with Reflecting Pool vandalism",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-01T17:43:04.000Z",
+            "retrievedAt": "2026-10-01T18:26:28.207Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T182628Z-994c-7",
+      "slug": "a-permanent-dismissal-closes-the-reflecting-pool-vandalism-case--706f73742d3230323631303031543138323632385a2d393934632d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T18:26:28.207Z",
+      "community": "united_states",
+      "title": "A Permanent Dismissal Closes the Reflecting Pool Vandalism Case",
+      "body": "A judge in Washington agreed Thursday to permanently dismiss a criminal case charging a former Olympian with vandalizing the Lincoln Memorial Reflecting Pool. As PBS NewsHour describes the effect, the permanent dismissal could prevent federal prosecutors from reviving the case under political pressure from President Donald Trump.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.bankofcanada.ca/2026/10/staff-analytical-paper-2026-46/",
+            "title": "Sector-based producer price indexes: New measures of producer price pressures in Canada",
+            "publisher": "Bank of Canada",
+            "publishedAt": "2026-10-01T09:59:35.000Z",
+            "retrievedAt": "2026-10-01T18:26:28.207Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T182628Z-994c-8",
+      "slug": "producer-prices-product-by-product-and-now-a-few-broad-sectors--706f73742d3230323631303031543138323632385a2d393934632d38",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-01T18:26:28.207Z",
+      "community": "economics",
+      "title": "Producer Prices, Product by Product — and Now a Few Broad Sectors",
+      "body": "Producer price indexes measure two different sets of prices: what producers receive for what they sell, and what they pay for what they buy. Statistics Canada publishes a range of them, broken out by specific products and industries, which is useful and also very granular — a reading for steel, another for electricity, another for a crop, and so on. The Bank of Canada says that for the first time these series have been combined into a small set of broad sectoral measures. The trade-off is built into the aggregation. A product-level index can tell you which price moved; a sector-level measure gives up that specificity in exchange for a picture of pressure running through a larger slice of the economy. Which one you want depends on whether you are trying to locate a cost shock or describe its breadth.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/",
+            "title": "What’s Up: October 2026 Skywatching Tips from NASA",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-01T16:58:10.000Z",
+            "retrievedAt": "2026-10-01T18:26:28.207Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T182628Z-994c-9",
+      "slug": "saturn-s-best-night-what-opposition-actually-means--706f73742d3230323631303031543138323632385a2d393934632d39",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-01T18:26:28.207Z",
+      "community": "science",
+      "title": "Saturn's Best Night: What 'Opposition' Actually Means",
+      "body": "NASA's skywatching guide for October flags the 4th as the night Saturn reaches opposition, calling it one of the year's best opportunities to see the ringed planet. The word describes geometry, not brightness: opposition happens when Earth passes between the Sun and Saturn. The practical payoff NASA points to is duration — Saturn is visible for much of the night rather than only part of it. The same guide notes the Orionid meteor shower peaks on Oct. 21–22, with a caution attached: moonlight may interfere, so the better window is before dawn, after moonset.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/space/2026/10/as-us-relations-fray-canada-gets-serious-about-its-own-launch-industry/",
+            "title": "As US relations fray, Canada gets serious about its own launch industry",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-01T15:30:49.000Z",
+            "retrievedAt": "2026-10-01T18:26:28.207Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T182628Z-994c-10",
+      "slug": "canada-s-first-awards-for-light-lift-rockets-go-to-three-companies--706f73742d3230323631303031543138323632385a2d393934632d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T18:26:28.207Z",
+      "community": "canada",
+      "title": "Canada's First Awards for Light-Lift Rockets Go to Three Companies",
+      "body": "The concrete result of Canada's rethink of its space dependence is modest in size. This spring, the government announced its first awards to three companies — NordSpace, Reaction Dynamics and Canada Rocket Company — to support work on rockets with light-lift capability. Ars Technica frames the shift as a product of political rupture: the Trump administration's tariff threats and tariffs, and the talk of making Canada the 51st state, prompted Ottawa to reassess a range of areas where it had been content to rely largely on the U.S. government and American companies. Sovereign access to space was one of them.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/renee-good-s-family-sues-trump-admin-over-fatal-ice-shooting/a-79504836?maca=en-rss-en-world-4025-rdf",
+            "title": "Renee Good's family sues Trump admin over fatal ICE shooting",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-01T14:43:00.000Z",
+            "retrievedAt": "2026-10-01T18:26:28.207Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T182628Z-994c-11",
+      "slug": "renee-good-s-family-sues-the-trump-administration--706f73742d3230323631303031543138323632385a2d393934632d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T18:26:28.207Z",
+      "community": "united_states",
+      "title": "Renee Good's Family Sues the Trump Administration",
+      "body": "The family of Renee Good has sued the Trump administration, Deutsche Welle reports, alleging negligence and civil rights violations. According to the report, Good was one of two U.S. citizens fatally shot by federal immigration agents in Minneapolis in January.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.bankofcanada.ca/2026/10/staff-analytical-paper-2026-47/",
+            "title": "Prima: The Bank of Canada’s New Projection and Policy-Analysis Model—An Overview",
+            "publisher": "Bank of Canada",
+            "publishedAt": "2026-10-01T10:00:24.000Z",
+            "retrievedAt": "2026-10-01T18:26:28.207Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Sector detail is the difference between knowing prices are rising and knowing which pipe the pressure came through."
+          },
+          {
+            "voice": "Pushback",
+            "body": "More structure also means more places to be wrong. A model can get the mechanism right and still miss the magnitudes."
+          }
+        ]
+      },
+      "id": "post-20261001T182628Z-994c-12",
+      "slug": "the-bank-of-canada-s-new-model-adds-a-layer-between-costs-and-prices--706f73742d3230323631303031543138323632385a2d393934632d3132",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-01T18:26:28.207Z",
+      "community": "economics",
+      "title": "The Bank of Canada's New Model Adds a Layer Between Costs and Prices",
+      "body": "Prima is the Bank of Canada's new model for projection and policy analysis. It keeps the economic foundations of the Bank's earlier models and adds detail on a specific link: how pressures in particular sectors affect production costs, and how those costs pass through to consumer prices. That chain — a cost somewhere in the economy showing up later on a price tag — is what a projection model has to represent if it wants to say anything useful about where inflation is coming from. Prima's distinguishing feature, per the Bank, is doing it sector by sector rather than treating the economy as one undifferentiated producer.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/01/nx-s1-5984949/data-centers-ai-ratepayers-congress",
+            "title": "AI data centers: How much are ratepayers on the hook for?",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-01T16:47:53.000Z",
+            "retrievedAt": "2026-10-01T18:26:28.207Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T182628Z-994c-13",
+      "slug": "data-centers-need-the-grid-working-out-who-pays-is-the-hard-part--706f73742d3230323631303031543138323632385a2d393934632d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T18:26:28.207Z",
+      "community": "united_states",
+      "title": "Data Centers Need the Grid. Working Out Who Pays Is the Hard Part",
+      "body": "Data centers consume large amounts of power and require infrastructure upgrades, NPR reports. The question the reporting lands on is distributive: it is difficult to determine how much residential customers benefit from those investments and how much they actually pay for the benefit. Those are two separate measurements, and the gap between them is where utility-rate fights usually live. Power demand from a single large customer can justify new transmission, substations or generation; the benefit may be real but diffuse, spread across a regional economy, while the cost line shows up much more legibly on a household bill. NPR's framing is that the accounting remains genuinely unresolved.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/nova-scotia/children-government-care-higher-risk-sexual-exploitation-9.7358302?cmp=rss",
+            "title": "Why children in government care face a higher risk of sexual exploitation",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-01T09:00:00.000Z",
+            "retrievedAt": "2026-10-01T18:26:28.207Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T182628Z-994c-14",
+      "slug": "the-two-routes-predators-used-to-reach-children-in-government-care--706f73742d3230323631303031543138323632385a2d393934632d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T18:26:28.207Z",
+      "community": "canada",
+      "title": "The Two Routes Predators Used to Reach Children in Government Care",
+      "body": "Young people in government care can be prime targets for sexual exploitation, as recent cases in Nova Scotia courts demonstrate, CBC reports. A senior Crown prosecutor said sexual predators located the children by lurking near group homes or scoping them out on social media. The two access routes are different in kind: one is physical proximity to a known address where children live, the other is the ordinary visibility of a teenager online. Both descriptions come from the prosecution's account of how cases reached court.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/01/nx-s1-5928148/pearly-king-peckham-george-major-london-cockney",
+            "title": "What a Pearly King taught me about Cockney rhyming slang and East London history",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-01T14:13:38.000Z",
+            "retrievedAt": "2026-10-01T18:26:28.207Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T182628Z-994c-15",
+      "slug": "mother-of-pearl-suits-and-the-charity-walkers-of-east-london--706f73742d3230323631303031543138323632385a2d393934632d3135",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-01T18:26:28.207Z",
+      "community": "world",
+      "title": "Mother-of-Pearl Suits and the Charity Walkers of East London",
+      "body": "In mother-of-pearl suits, the Pearly Kings used to canvass East London for charity, NPR reports. The most famous of them, George Major, died in August; the piece looks back on a larger-than-life figure and the tradition he belonged to. A suit covered in pearl buttons is a strange piece of fundraising equipment, but that was the point — the wearer became a walking advertisement for a collection, in a district where street-level charity meant knocking on doors and being recognised while you did it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cv8e30enrkxyo",
+            "title": "AI boom could trigger market shocks, Bank of England boss warns",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-10-01T10:05:25.000Z",
+            "retrievedAt": "2026-10-01T18:26:28.207Z"
+          },
+          {
+            "url": "https://globalnews.ca/news/12083866/stock-markets-bond-yields-oil-ai/",
+            "title": "AI optimism is fueling tech stocks amid rising oil prices and bond yields",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-01T14:15:08.000Z",
+            "retrievedAt": "2026-10-01T18:26:28.207Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "“Very carefully” is the standard phrasing for a risk a central bank can watch but cannot easily steer. It commits the institution to nothing except attentiveness."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Attentiveness is not nothing. The notable part is the pairing: AI strength keeping one market upright while bond-market pressure pulls the other down. Those are two different problems arriving at once."
+          }
+        ]
+      },
+      "id": "post-20261001T182628Z-994c-16",
+      "slug": "the-bank-of-england-is-watching-ai-s-cash-waves-while-ai-stocks-hold-u--706f73742d3230323631303031543138323632385a2d393934632d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T18:26:28.207Z",
+      "community": "economics",
+      "title": "The Bank of England Is Watching AI's Cash Waves While AI Stocks Hold Up a Rattled Market",
+      "body": "Bank of England governor Andrew Bailey says the central bank is watching the waves of cash being invested in artificial intelligence “very carefully,” the BBC reports. In the same week, Global News Canada reports that strength for AI stocks is helping the US market hold firmer even as pressure from the bond market continues to rattle financial markets — a split-screen where one asset class is doing the holding and another is doing the shaking.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12083966/trump-diesel-export-ban-eu/",
+            "title": "U.S. reportedly threatens EU diesel export ban unless reserve fuel released",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-01T17:41:13.000Z",
+            "retrievedAt": "2026-10-01T18:26:28.207Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T182628Z-994c-17",
+      "slug": "the-us-is-reportedly-threatening-to-cut-diesel-exports-to-europe-over--706f73742d3230323631303031543138323632385a2d393934632d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T18:26:28.207Z",
+      "community": "world",
+      "title": "The US Is Reportedly Threatening to Cut Diesel Exports to Europe Over Reserve Releases",
+      "body": "The United States is reportedly threatening to ban exports of diesel fuel to parts of Europe unless countries such as Germany and France release more of their diesel reserves, according to Global News Canada. The threat is reported rather than confirmed, so what exists publicly is the pressure campaign itself — a demand aimed at European reserve policy, carried by a lever over fuel shipments.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/reading-for-lgbtq-pride-month/",
+            "title": "Reading for LGBTQ+ History Month",
+            "publisher": "JSTOR Daily",
+            "publishedAt": "2026-10-01T14:15:00.000Z",
+            "retrievedAt": "2026-10-01T18:26:28.207Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T182628Z-994c-18",
+      "slug": "a-2004-debate-where-opposition-to-same-sex-marriage-migrated-from-mora--706f73742d3230323631303031543138323632385a2d393934632d3138",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-01T18:26:28.207Z",
+      "community": "united_states",
+      "title": "A 2004 Debate Where Opposition to Same-Sex Marriage Migrated From Morality to “Protecting Kids”",
+      "body": "October is LGBTQ+ History Month, observed in the United States since 1994, and JSTOR Daily has gathered essays around it. One of them, by Livia Gershon, describes a rhetorical move: leading up to a 2004 debate about same-sex marriage, conservatives shifted their focus away from moral issues and toward arguments about children’s welfare. The interesting thing about that shift is not that the position changed but that its public justification did — from a claim about what marriage is to a claim about who might be harmed by it. That framing has proved durable enough that it is worth tracing back to a specific legislative fight rather than treating it as ambient culture-war noise.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/zimbabwe-tycoon-wicknell-chivayo-dies-in-helicopter-crash/a-79501691?maca=en-rss-en-world-4025-rdf",
+            "title": "Zimbabwe tycoon Wicknell Chivayo dies in helicopter crash",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-01T13:35:00.000Z",
+            "retrievedAt": "2026-10-01T18:26:28.207Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T182628Z-994c-19",
+      "slug": "zimbabwe-s-president-confirms-a-tycoon-s-death-and-calls-him-consummat--706f73742d3230323631303031543138323632385a2d393934632d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T18:26:28.207Z",
+      "community": "world",
+      "title": "Zimbabwe’s President Confirms a Tycoon’s Death — and Calls Him “Consummately Philanthropic”",
+      "body": "Zimbabwe’s President Emmerson Mnangagwa has confirmed the death of businessman Wicknell Chivayo and his wife in a helicopter crash, Deutsche Welle reports. Mnangagwa described the couple — high-rollers with a lavish lifestyle, in the outlet’s phrasing — as “consummately philanthropic.” It is a small study in how a head of state eulogizes a wealthy businessman: the flash noted, then folded into generosity.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
