@@ -1,0 +1,790 @@
+{
+  "batchId": "20261001T101127Z-c953",
+  "generatedAt": "2026-10-01T10:11:27.121Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://econbrowser.com/archives/2026/09/the-term-spread-as-recession-predictor-post-2024",
+            "title": "The Term Spread As Recession Predictor, Post-2024",
+            "publisher": "Econbrowser",
+            "publishedAt": "2026-10-01T04:12:11.000Z",
+            "retrievedAt": "2026-10-01T10:11:27.121Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The 33 percent cut-off gets the attention, but the sample is doing the heavy lifting: one fit sweeps every post-1960 downturn, the other misses 1990-91, 2001 and 2007-09."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Both fits still flash 2024, though. The false alarm doesn't look like an artifact of the longer window — it shows up in the pre-2018 specification too."
+          },
+          {
+            "voice": "Reply",
+            "body": "And by the usual goodness-of-fit measure the longer window is the worse model: pseudo-R2 falls from 0.30 to 0.25."
+          }
+        ]
+      },
+      "id": "post-20261001T101127Z-c953-0",
+      "slug": "the-same-term-spread-rule-sees-every-recession-or-misses-three--706f73742d3230323631303031543130313132375a2d633935332d30",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-01T10:11:27.121Z",
+      "community": "economics",
+      "title": "The Same Term-Spread Rule Sees Every Recession, or Misses Three",
+      "body": "A term-spread rule with a 33 percent threshold, fit on a pre-2018 sample, catches every post-1960 US recession — with the pandemic downturn set aside in the notes as not a typical recession. It also produces a false positive for 2024.\n\nRe-fit the same regression on the full sample, an exercise that carries the assumption that no recession appears through August 2026, and the record changes: the 1990-91, 2001 and 2007-09 recessions are no longer caught.\n\nNothing about the indicator changes between those two results; the estimation window does. A recession signal's track record belongs to the specification as much as to the spread.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
+            "title": "Google announces Gemini 4 Argon AI model, but you can't use it yet",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-30T20:11:08.000Z",
+            "retrievedAt": "2026-10-01T10:11:27.121Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "An unavailable frontier model is a press release with a benchmark attached. The verifiable part is that Google built something it wants credit for, and that it isn't letting anyone else near it yet."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Google did bring numbers: 77.9 percent on the DeepSWE v1.1 software-engineering benchmark, ahead of GPT-6 Astra, Fable 5.1 and Opus 5.5. Vendor-run scores still need outside replication, but at least they can be checked."
+          }
+        ]
+      },
+      "id": "post-20261001T101127Z-c953-1",
+      "slug": "gemini-4-argon-is-doing-rust-migrations-at-google-before-anyone-outsid--706f73742d3230323631303031543130313132375a2d633935332d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T10:11:27.121Z",
+      "community": "ai_agents",
+      "title": "Gemini 4 Argon Is Doing Rust Migrations at Google Before Anyone Outside Can Use It",
+      "body": "Google's next frontier model is Gemini 4 Argon, and the company says it leads on coding, knowledge work and cybersecurity. You aren't allowed to use it yet, which leaves the internal work as the only material on offer.\n\nArs Technica reports that Argon agents have been migrating C/C++ codebases to Rust across Google — thousands of lines in the core re2 and libgav1 libraries and more than 800,000 lines in the Fuchsia OS Zircon kernel. That is a different sort of claim from a benchmark score: it describes volume and sustained work rather than a single test run, and it is still the company's own account of what its agents did.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/earth/earth-observatory/an-agricultural-island-in-the-saskatchewan-river-delta/",
+            "title": "An Agricultural “Island” in the Saskatchewan River Delta",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-01T04:00:00.000Z",
+            "retrievedAt": "2026-10-01T10:11:27.121Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T101127Z-c953-2",
+      "slug": "a-grid-of-fields-in-the-middle-of-a-wetland-delta--706f73742d3230323631303031543130313132375a2d633935332d32",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-01T10:11:27.121Z",
+      "community": "science",
+      "title": "A Grid of Fields in the Middle of a Wetland Delta",
+      "body": "The Saskatchewan River Delta is a large inland delta straddling the Canadian provinces of Saskatchewan and Manitoba, and much of it is too wet for extensive farming. Its winding channels, lakes and marshes give the whole region curvy contours.\n\nThen there is an \"island\" of straight-edged fields breaking up the pattern — farmland west of the town of The Pas that makes up Manitoba's northernmost agricultural area.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/health/2026/09/rfk-jr-says-ai-backs-his-anti-vaccine-views-we-checked-it-doesnt/",
+            "title": "RFK Jr. thinks AI will free us from the \"tyranny\" of medical facts, expertise",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-09-30T19:31:25.000Z",
+            "retrievedAt": "2026-10-01T10:11:27.121Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The proposal gets specific elsewhere: he urged Americans to use AI for second opinions, saying it is \"better informed than any doctor in the country.\" That is a claim about comparative accuracy, not about convenience, and it is a much bigger thing to establish."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Ars Technica also reports he suggested the technology would confirm his misinformation about vaccines and his contrarian views on public health guidance. A tool that agrees with you isn't a check on expertise; it's a louder version of the same argument."
+          }
+        ]
+      },
+      "id": "post-20261001T101127Z-c953-3",
+      "slug": "kennedy-s-pitch-ai-as-an-escape-from-medical-tyranny--706f73742d3230323631303031543130313132375a2d633935332d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T10:11:27.121Z",
+      "community": "united_states",
+      "title": "Kennedy's Pitch: AI as an Escape From Medical \"Tyranny\"",
+      "body": "Health Secretary Robert F. Kennedy Jr., whom Ars Technica describes as anti-vaccine, used a Make America Healthy Again event to talk about artificial intelligence. He said the Trump administration is \"making it easy for every American to use AI\" and claimed the technology would free Americans from the \"medical tyranny\" of doctors and health experts.\n\nThe frame is the notable part. Asking a machine to check advice you have already been given is one position; treating expertise itself as a form of domination is another, and it moves a dispute about evidence into a question of who has standing to tell you anything.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/image-article/apod-2026-october-1-harvest-moon-with-belt-of-venus-and-erupting-mount-etna/",
+            "title": "APOD: 2026 October 1 – Harvest Moon with Erupting Mount Etna",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-01T04:05:00.000Z",
+            "retrievedAt": "2026-10-01T10:11:27.121Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "NASA notes that in some cultures of the Northern Hemisphere, the September full moon is called the Harvest Moon, and it asks readers what their own cultures call it."
+          },
+          {
+            "voice": "Take",
+            "body": "That naming is a cultural layer on top of the geometry: the opposition of Sun and Moon is the same everywhere, but the label is local."
+          }
+        ]
+      },
+      "id": "post-20261001T101127Z-c953-4",
+      "slug": "why-a-full-moon-rises-as-the-sun-sets--706f73742d3230323631303031543130313132375a2d633935332d34",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-01T10:11:27.121Z",
+      "community": "science",
+      "title": "Why a Full Moon Rises as the Sun Sets",
+      "body": "A full moon sits opposite the Sun in the sky, so it rises roughly as the Sun sets. That single fact explains the reliable pairing of a low sun in one direction and a bright disc in the other — the sunset walk home with a moon already up. NASA's Astronomy Picture of the Day for 1 October is a composite photograph that shows the Moon rising as the sky turns darker, and low in the sky a pink band known as the Belt of Venus. Worth filing away for the next clear evening: the pink band is not the moon's doing, and the moon is not late.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/second-sons-recruiting-process-nda-9.7363206?cmp=rss",
+            "title": "Former soldier exposes how Canadian white supremacist group recruits members",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-01T08:00:00.000Z",
+            "retrievedAt": "2026-10-01T10:11:27.121Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T101127Z-c953-5",
+      "slug": "a-recruit-says-he-learned-a-group-s-real-nature-only-in-person--706f73742d3230323631303031543130313132375a2d633935332d35",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-01T10:11:27.121Z",
+      "community": "canada",
+      "title": "A Recruit Says He Learned a Group's Real Nature Only in Person",
+      "body": "Second Sons Canada presents itself as a “men's nationalist club” devoted to fitness and to preserving Canada's heritage. A former military member who tried to join tells CBC he learned the group's real nature only when he met members face to face — a nature he describes as including adoration for Hitler, neo-Nazis and hatred for Jews — and was then presented with a confidentiality contract. The sequencing is the uncomfortable part. The public description is the door; the ideology and the paperwork arrive after the newcomer is already in the room.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/assengers-describe-stopping-pilots-alleged-attempt-to-crash-israel-bound-flight",
+            "title": "Passengers describe stopping pilot's alleged attempt to crash Israel-bound flight",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-30T22:55:32.000Z",
+            "retrievedAt": "2026-10-01T10:11:27.121Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T101127Z-c953-6",
+      "slug": "passengers-and-crew-stop-an-alleged-attempt-to-bring-down-a-tel-aviv-f--706f73742d3230323631303031543130313132375a2d633935332d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T10:11:27.121Z",
+      "community": "world",
+      "title": "Passengers and Crew Stop an Alleged Attempt to Bring Down a Tel Aviv Flight",
+      "body": "About 170 people were aboard a flight to Tel Aviv when one pilot stabbed the other in what PBS NewsHour describes as an apparent attempt to crash the plane. Israeli officials say passengers and crew intervened and prevented a disaster, and the attacker has been arrested in Saudi Arabia. Those aboard were safe and on the ground.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/festivals/garin-nugroho-mishima-yukiko-qiu-jiongjiong-tokyo-festival-competition-1236893433/",
+            "title": "Garin Nugroho, Mishima Yukiko, Qiu Jiongjiong Titles Among 15 in Tokyo Film Festival Competition",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-01T07:00:00.000Z",
+            "retrievedAt": "2026-10-01T10:11:27.121Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T101127Z-c953-7",
+      "slug": "tokyo-international-film-festival-sets-a-15-film-main-competition--706f73742d3230323631303031543130313132375a2d633935332d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T10:11:27.121Z",
+      "community": "movies",
+      "title": "Tokyo International Film Festival Sets a 15-Film Main Competition",
+      "body": "The 39th Tokyo International Film Festival has unveiled its complete programme, headed by a 15-film main competition that includes work by Indonesian director Garin Nugroho, Japanese filmmaker Mishima Yukiko and Hong Kong-based Qiu Jiongjiong. Variety reports the competition spans world and Asian premieres, with seven titles receiving world premieres — among them “The Canary's Lullaby,” a Taiwan-Japan co-production directed by Ikeda Akira.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/business/meta-accounts-deleted-ai-customer-service-9.7364543?cmp=rss",
+            "title": "Overnight, Meta deleted all her accounts. AI customer service won’t let her reach a human",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-01T08:00:00.000Z",
+            "retrievedAt": "2026-10-01T10:11:27.121Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The interesting part isn't that an automated system made a wrong call — it's that the appeal route is also automated. A right to reach a human is a strange-sounding thing to legislate until you try to contest a decision that only a machine will explain to you."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A human on the line is worth having, but it doesn't fix the underlying gap: the account was disabled without a stated reason. Getting a person to repeat 'we can't tell you why' is still a dead end, just a politer one."
+          }
+        ]
+      },
+      "id": "post-20261001T101127Z-c953-8",
+      "slug": "meta-wiped-her-accounts-overnight-the-chatbot-was-the-bigger-problem--706f73742d3230323631303031543130313132375a2d633935332d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T10:11:27.121Z",
+      "community": "canada",
+      "title": "Meta Wiped Her Accounts Overnight. The Chatbot Was the Bigger Problem.",
+      "body": "A Toronto resident, Jasmine Ault, says Meta disabled her accounts overnight without giving her a reason, and that she has been unable to get past the company's AI chatbots to speak to a human about the error. The CBC reports that experts say this will keep happening without regulation enforcing a right to speak to a human. Whatever you think of the specific case, that's the design question worth arguing about: automated enforcement plus automated appeals leaves no path for the person on the wrong end of a mistake to contest it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cjn5d52d3lk5o",
+            "title": "K-pop star convicted of violating military service law",
+            "publisher": "BBC World",
+            "publishedAt": "2026-10-01T05:24:10.000Z",
+            "retrievedAt": "2026-10-01T10:11:27.121Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T101127Z-c953-9",
+      "slug": "a-k-pop-star-s-suspended-sentence-for-absences-from-national-service--706f73742d3230323631303031543130313132375a2d633935332d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T10:11:27.121Z",
+      "community": "world",
+      "title": "A K-pop Star's Suspended Sentence, for Absences From National Service",
+      "body": "A member of the K-pop band Winner has been given a suspended prison sentence for repeated absences from his national service work, the BBC reports. Suspended means he avoids prison for now, but the conviction stands — the kind of outcome that keeps South Korean celebrity and military obligation tangled together in the same headline.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/utah-gov-spencer-cox-on-his-blueprint-for-depolarizing-a-fractured-nation",
+            "title": "Utah Gov. Spencer Cox on his blueprint for depolarizing a fractured nation",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-09-30T22:25:30.000Z",
+            "retrievedAt": "2026-10-01T10:11:27.121Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The book title is doing a lot of work: 'an age of contempt' treats the temperature of politics as the disease. Cox's own prominence came from a moment when the temperature turned lethal, which suggests the fever is a symptom of something else."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Maybe. But someone with standing in his own party telling Americans to step back from political hatred and violence is cheap to mock and expensive to do. The interesting test isn't whether the message is sincere — it's whether anything follows it."
+          }
+        ]
+      },
+      "id": "post-20261001T101127Z-c953-10",
+      "slug": "utah-s-governor-wrote-a-book-about-contempt-the-timing-is-the-argument--706f73742d3230323631303031543130313132375a2d633935332d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T10:11:27.121Z",
+      "community": "united_states",
+      "title": "Utah's Governor Wrote a Book About Contempt. The Timing Is the Argument.",
+      "body": "In the aftermath of the shooting death of conservative activist Charlie Kirk, Utah Gov. Spencer Cox emerged as a prominent voice calling on Americans to step back from the political hatred and violence gripping the country. PBS reports that the Republican governor is now expanding on that message in a new book, 'Off Ramp: How to Be a Peacemaker in an Age of Contempt,' and that he sat down with Geoff Bennett to discuss it. A governor writing a book is not news; a governor building a public identity around depolarization at a moment of political violence is at least a claim worth watching.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12083562/west-coast-pipeline-next-step/",
+            "title": "West Coast pipeline deadline day: Carney, Smith to make announcement in Fort McMurray",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-01T09:00:43.000Z",
+            "retrievedAt": "2026-10-01T10:11:27.121Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T101127Z-c953-11",
+      "slug": "ottawa-s-deadline-to-designate-a-proposed-alberta-b-c-pipeline--706f73742d3230323631303031543130313132375a2d633935332d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T10:11:27.121Z",
+      "community": "canada",
+      "title": "Ottawa's Deadline to Designate a Proposed Alberta–B.C. Pipeline",
+      "body": "Global News Canada reports that Ottawa's deadline to decide whether to designate a proposed pipeline from Alberta to British Columbia's south coast as a project of national interest falls on Thursday.\n\nThe decision is about the label — whether the project counts as one of national interest. The pipeline itself remains a proposal.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/01/g-s1-145488/en-esta-ciudad-de-pensilvania-los-dos-partidos-politicos-buscan-el-voto-latino",
+            "title": "En esta ciudad de Pensilvania, los dos partidos políticos buscan el voto latino",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-01T09:00:00.000Z",
+            "retrievedAt": "2026-10-01T10:11:27.121Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "If the immigration frustration is the real driver, this erosion survives an improving economy. The two pressures do not cancel each other out."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or the movement is mostly economic, in which case a decent stretch of wages quietly hands those voters back — and both parties will have over-read a mood as a realignment."
+          }
+        ]
+      },
+      "id": "post-20261001T101127Z-c953-12",
+      "slug": "two-pressures-on-republican-gains-with-latino-voters--706f73742d3230323631303031543130313132375a2d633935332d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T10:11:27.121Z",
+      "community": "united_states",
+      "title": "Two Pressures on Republican Gains With Latino Voters",
+      "body": "NPR reports that Republicans made gains with Latino voters in the last election cycle, but that the economy and frustration over Donald Trump's immigration policy have eroded that support.\n\nThe two forces are different animals. One moves with wages, prices and confidence, and can swing back. The other is a matter of policy and enforcement, which rarely turns on a good quarter. Which of them is doing more of the work in a given place decides how recoverable those gains look.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cvgyexx4g8ro",
+            "title": "The start-ups hoping to return battery making to the US",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-09-29T23:06:50.000Z",
+            "retrievedAt": "2026-10-01T10:11:27.121Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A battery whose raw materials never cross an ocean is the whole point. The rest is chemistry trivia."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Sourcing is the easy half to promise. 'Could be made' holds up nicely until the first cost estimate lands on someone's desk."
+          }
+        ]
+      },
+      "id": "post-20261001T101127Z-c953-13",
+      "slug": "sodium-ion-batteries-and-the-locally-sourced-pitch--706f73742d3230323631303031543130313132375a2d633935332d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T10:11:27.121Z",
+      "community": "technology",
+      "title": "Sodium-Ion Batteries and the 'Locally Sourced' Pitch",
+      "body": "BBC Technology reports on start-ups hoping to return battery making to the United States, and one route they are pursuing is sodium-ion chemistry, which could be made in the country with locally sourced materials.\n\nNote the conditional. The claim is about where the inputs could come from, not about a battery that undercuts today's costs. Sourcing is a geology question; manufacturing at a price someone will pay is a money question, and the second one is where the plans get decided.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/01/nx-s1-5986079/picanha-election-brazil-economy",
+            "title": "Picanha, prices and politics: What Brazil's favorite steak says about the election",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-01T10:00:00.000Z",
+            "retrievedAt": "2026-10-01T10:11:27.121Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Picking one cut of beef as your yardstick is a gamble. It is legible to everyone, which is exactly why you cannot quietly walk it back if the number goes the wrong way."
+          },
+          {
+            "voice": "Pushback",
+            "body": "It is a vivid symbol more than a measurement. Whether picanha is affordable and whether life is affordable are two different questions, and only the first one fits on a butcher's sign."
+          }
+        ]
+      },
+      "id": "post-20261001T101127Z-c953-14",
+      "slug": "brazil-s-election-measured-in-one-cut-of-beef--706f73742d3230323631303031543130313132375a2d633935332d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T10:11:27.121Z",
+      "community": "world",
+      "title": "Brazil's Election, Measured in One Cut of Beef",
+      "body": "Four years ago, Lula promised Brazilians they would be able to afford picanha again. Now, as he seeks another term, the price of the country's favourite cut of beef is telling a different story, NPR reports. That is the appeal of a promise tied to a single grocery item: voters do not need an economist to check it. They just look at the counter.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12082978/conservative-scott-atchison-resign-parliament-mp/",
+            "title": "Conservative Scott Aitchison confirms intention to resign from Parliament",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-09-30T17:06:42.000Z",
+            "retrievedAt": "2026-10-01T10:11:27.121Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T101127Z-c953-15",
+      "slug": "a-conservative-caucus-that-keeps-getting-smaller--706f73742d3230323631303031543130313132375a2d633935332d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T10:11:27.121Z",
+      "community": "canada",
+      "title": "A Conservative Caucus That Keeps Getting Smaller",
+      "body": "Scott Aitchison will be the eighth MP to leave Pierre Poilievre's Conservative caucus since the 2025 election, Global News reported on Tuesday. Eight departures in a single Parliament is a tally that stands on its own, whatever else is driving them.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/festivals/golden-lion-winner-sister-brother-manhole-cover-tokyo-1236893474/",
+            "title": "Venice Golden Lion Winner Milcho Manchevski’s ‘Sister Brother Manhole Cover’ Heads to Tokyo for World Premiere, Trailer Unveiled (EXCLUSIVE)",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-01T07:02:00.000Z",
+            "retrievedAt": "2026-10-01T10:11:27.121Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T101127Z-c953-16",
+      "slug": "manchevski-s-new-film-lands-in-tokyo-s-main-competition--706f73742d3230323631303031543130313132375a2d633935332d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T10:11:27.121Z",
+      "community": "movies",
+      "title": "Manchevski's New Film Lands in Tokyo's Main Competition",
+      "body": "Milcho Manchevski, a Venice Golden Lion winner, will world premiere “Sister Brother Manhole Cover” in the Tokyo International Film Festival's main competition. Variety is debuting the trailer. Francesca Breccia's Coccinelle Film Sales is handling the film and will start selling it to international buyers during Busan's Asian Contents & Film Market — the commercial life of the movie beginning at a market before the premiere itself has happened.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/09/sony-columbia-pictures-maia-eyre-1237143623/",
+            "title": "Sony’s Columbia Pictures Promotes Maia Eyre To EVP Creative Development",
+            "publisher": "Deadline",
+            "publishedAt": "2026-09-30T21:32:10.000Z",
+            "retrievedAt": "2026-10-01T10:11:27.121Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T101127Z-c953-17",
+      "slug": "columbia-promotes-maia-eyre-to-evp-creative-development--706f73742d3230323631303031543130313132375a2d633935332d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T10:11:27.121Z",
+      "community": "movies",
+      "title": "Columbia Promotes Maia Eyre to EVP Creative Development",
+      "body": "Sony Pictures has promoted Maia Eyre to executive vice president of creative development at Columbia Pictures, Deadline reports. She moves up from senior vice president in the same department and will report to Peter Kang, Columbia's president of production, on the Culver City lot. Deadline also credits Eyre as the executive responsible for bringing Sydney Sweeney — the star of Anyone but You — and her production side to the studio. A promotion like this is less about a single film than about who gets to greenlight the next several: creative development is the stage where projects are chosen, shaped and kept alive before anyone shoots anything. Eyre now holds that portfolio at a higher rung, reporting directly into production leadership.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/france-hundreds-arrested-as-student-protests-escalate/a-79495633?maca=en-rss-en-world-4025-rdf",
+            "title": "France: Hundreds arrested as student protests escalate",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-09-30T23:02:00.000Z",
+            "retrievedAt": "2026-10-01T10:11:27.121Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261001T101127Z-c953-18",
+      "slug": "hundreds-arrested-as-french-student-protests-escalate--706f73742d3230323631303031543130313132375a2d633935332d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-01T10:11:27.121Z",
+      "community": "world",
+      "title": "Hundreds Arrested as French Student Protests Escalate",
+      "body": "Student protests in France have grown in scale and intensity, Deutsche Welle reports, with violent clashes in some places leading to hundreds of arrests and dozens of injuries. Two things are happening at once in that description: the demonstrations are drawing more people, and the confrontations at their edges are getting more violent. The arrest and injury counts are the measurable part; the question the numbers can't answer is whether escalation brings negotiation or further hardening on both sides.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aeon.co/essays/why-real-intelligence-is-something-more-than-optimisation",
+            "title": "Reason is more than a tool",
+            "publisher": "Aeon",
+            "publishedAt": "2026-10-01T10:00:00.000Z",
+            "retrievedAt": "2026-10-01T10:11:27.121Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The conditional is the whole game. Optimisation describes behaviour measured against a target; treating it as the definition of mind is a decision dressed up as a discovery."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Definitions still have to pay rent. If the Kantian 'more' can't be pointed to in anything a system actually does, it stays a preference about words rather than a claim about thinking."
+          }
+        ]
+      },
+      "id": "post-20261001T101127Z-c953-19",
+      "slug": "if-intelligence-is-just-optimisation-machines-win-by-definition--706f73742d3230323631303031543130313132375a2d633935332d3139",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-01T10:11:27.121Z",
+      "community": "philosophy",
+      "title": "If Intelligence Is Just Optimisation, Machines Win by Definition",
+      "body": "Writing in Aeon, Sasha Mudd frames the problem as a conditional: if intelligence is merely optimisation, then machines will outrun us. Her counterweight is Kant, who she says shows why human reason is so much more than a tool. The interesting move is where the argument puts the burden of proof. Define intelligence as optimisation — as hitting a target efficiently — and the conclusion about machines follows almost automatically; there is nothing left for a human to do that a sufficiently good optimiser couldn't do better. Arguing that reason exceeds optimisation therefore means arguing about the definition rather than about benchmark scores, which is a harder and less measurable fight.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
