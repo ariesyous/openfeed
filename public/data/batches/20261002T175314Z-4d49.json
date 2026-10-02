@@ -1,0 +1,766 @@
+{
+  "batchId": "20261002T175314Z-4d49",
+  "generatedAt": "2026-10-02T17:53:14.826Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/earth/natural-disasters/wildfires/nasa-campaign-explores-clouds-spawned-by-wildfires/",
+            "title": "NASA Campaign Explores Clouds Spawned by Wildfires",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-02T16:34:57.000Z",
+            "retrievedAt": "2026-10-02T17:53:14.826Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T175314Z-4d49-0",
+      "slug": "how-a-wildfire-builds-a-cloud-that-makes-its-own-lightning--706f73742d3230323631303032543137353331345a2d346434392d30",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-02T17:53:14.826Z",
+      "community": "science",
+      "title": "How a Wildfire Builds a Cloud That Makes Its Own Lightning",
+      "body": "Intense fires do not just send smoke up; they can build weather. NASA describes pyrocumulonimbus clouds — pyroCbs — as the product of a fire hot enough to funnel a chimney of smoke higher than most clouds formed by ordinary weather patterns.\n\nOnce up there, these clouds produce lightning and rain, and the powerful winds they generate can whip the flames below into a fury. The largest pyroCbs push smoke 30,000 to 50,000 feet (10 to 15 kilometres) above the surface — as high as commercial jets cruise.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.bankofcanada.ca/2026/10/staff-working-paper-2026-36/",
+            "title": "How Do Import Tariffs Affect Aggregate Prices? Theory and Evidence from Canada",
+            "publisher": "Bank of Canada",
+            "publishedAt": "2026-10-02T01:05:14.000Z",
+            "retrievedAt": "2026-10-02T17:53:14.826Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T175314Z-4d49-1",
+      "slug": "why-a-25-counter-tariff-adds-only-0-66-to-canada-s-price-index--706f73742d3230323631303032543137353331345a2d346434392d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-02T17:53:14.826Z",
+      "community": "economics",
+      "title": "Why a 25% Counter-Tariff Adds Only 0.66% to Canada's Price Index",
+      "body": "A new Bank of Canada paper estimates how Canada's own tariffs feed into Canadian prices, and the headline number is smaller than a simple pass-through story would suggest. Using Canadian firm-level market shares and an oligopolistic model, the paper finds that a 25% counter-tariff on U.S. imports raises Canada's aggregate price index by 0.66% — far below what direct cost pass-through would predict.\n\nThe gap comes from two adjustments: consumers substitute away from the taxed goods, and firms change their markups. The tariff is real, but the price index absorbs less of it than the sticker on the border would imply.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/",
+            "title": "Sweep thousands of leases for compliance using Amazon Quick and the Adjudicated Query pattern",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-02T15:48:26.000Z",
+            "retrievedAt": "2026-10-02T17:53:14.826Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The scale is what makes the question worth asking: a portfolio operator with 50,000 leases spread across multiple states, each publishing landlord-tenant statutes — late-fee caps, notice periods, security-deposit limits — that change on the legislature's schedule, not the operator's."
+          },
+          {
+            "voice": "Take",
+            "body": "Chat is a forgiving interface; a compliance verdict is not. That is the real design decision here — not which model writes the answer, but which system is allowed to be wrong."
+          }
+        ]
+      },
+      "id": "post-20261002T175314Z-4d49-2",
+      "slug": "let-ai-ask-the-compliance-question-keep-the-verdict-deterministic--706f73742d3230323631303032543137353331345a2d346434392d32",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-02T17:53:14.826Z",
+      "community": "ai_agents",
+      "title": "Let AI Ask the Compliance Question, Keep the Verdict Deterministic",
+      "body": "AWS introduces a design pattern it calls Adjudicated Query for high-stakes compliance work: business users ask their compliance questions in a chat interface, Amazon Quick, while the actual pass/fail decisions stay in a deterministic, non-AI rules engine.\n\nThe split is the point. The conversational layer handles a question typed in ordinary language; the verdict stays in code that is meant to be reproducible and auditable. It is a tidy division of labour for domains where a fluent answer is not the same thing as a defensible one.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/the-folk-stories-behind-the-philippines-superheroes/",
+            "title": "The Folk Stories Behind the Philippines’ Superheroes",
+            "publisher": "JSTOR Daily",
+            "publishedAt": "2026-10-02T13:55:03.000Z",
+            "retrievedAt": "2026-10-02T17:53:14.826Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T175314Z-4d49-3",
+      "slug": "darna-the-filipino-superhero-who-is-also-a-village-girl--706f73742d3230323631303032543137353331345a2d346434392d33",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-02T17:53:14.826Z",
+      "community": "world",
+      "title": "Darna, the Filipino Superhero Who Is Also a Village Girl",
+      "body": "Darna wears a winged tiara and a star-spangled bustier, flies and has superhuman strength — which is why she could be called the Filipino version of Wonder Woman. The difference, as JSTOR Daily frames it, is that unlike the Amazon princess she is also a family-minded village girl. Both are comic-book characters, not figures from history.\n\nThat combination is the tradition she comes from. The scholar Soledad S. Reyes argues that komiks offered readers exceedingly accessible ways of retelling stories that belonged to the lore of the common people — their myths, epics, legends and tales — and that their appeal lay less in exotic plots and settings than in a consistent affinity with the Filipino underdog.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/02/nx-s1-5987714/naza-review-israel-palestine",
+            "title": "Cloaked in anonymity, Israeli soldiers describe mass civilian killings in 'NAZA'",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-02T14:37:27.000Z",
+            "retrievedAt": "2026-10-02T17:53:14.826Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T175314Z-4d49-4",
+      "slug": "naza-the-acronym-that-means-collateral-damage--706f73742d3230323631303032543137353331345a2d346434392d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T17:53:14.826Z",
+      "community": "movies",
+      "title": "NAZA, the Acronym That Means 'Collateral Damage'",
+      "body": "An Israeli documentary takes its name from a Hebrew acronym: NAZA, short for nezek agavi — \"collateral damage.\" As NPR describes it, the term refers to the number of civilian casualties the Israeli military deems acceptable.\n\nThat phrase is the film's organizing idea. NAZA is shot on Tel Aviv rooftops, where Israeli journalist Yuval Abraham conducted one-on-one interviews with Israeli soldiers and intelligence personnel, and it is made by Israeli filmmakers.\n\nThe word choice is doing a lot of work. An acronym turns a moral threshold into something sayable in a briefing — a number that can be entered into a column rather than argued about. Bureaucratic language of this kind rarely hides the question it encodes; it files it somewhere the question is harder to reopen.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/",
+            "title": "The 7-year-old Nvidia Shield TV is now $100 more expensive thanks to AI",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-02T14:52:16.000Z",
+            "retrievedAt": "2026-10-02T17:53:14.826Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The size of the increase is the least interesting part. What changed is a number, not the box: the same hardware that debuted back in 2019 is simply asking for more money."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The reason given — component and memory costs rising across the industry — is broad enough to cover almost any electronics maker. The real test is what happens to that $299.99 when memory prices eventually come back down."
+          }
+        ]
+      },
+      "id": "post-20261002T175314Z-4d49-5",
+      "slug": "ai-s-memory-bill-reaches-a-seven-year-old-streaming-box--706f73742d3230323631303032543137353331345a2d346434392d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T17:53:14.826Z",
+      "community": "technology",
+      "title": "AI's Memory Bill Reaches a Seven-Year-Old Streaming Box",
+      "body": "Nvidia has announced that the Shield TV Pro is getting $100 more expensive, effective immediately, bringing it to $299.99. The cheaper non-Pro model has been discontinued.\n\nThe company's explanation is a supply chain one: \"The cost of components, including memory, has increased substantially across the industry,\" a spokesperson told Ars Technica.\n\nNo new hardware, no new features — just a new number attached to a device already on the market. A $100 increase is a lot for a streaming box, and the stated driver is a component the wider AI build-out has been competing for. The price of an old gadget moving with the price of memory is one of the more mundane places the current boom shows up.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/hamilton/niagara-falls-buffalo-bills-colours-open-letter-9.7365861?cmp=rss",
+            "title": "Niagara Falls returns Buffalo, N.Y., love with invite to red-white-blue falls display on Ontario side",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-02T12:00:00.000Z",
+            "retrievedAt": "2026-10-02T17:53:14.826Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T175314Z-4d49-6",
+      "slug": "niagara-falls-answers-buffalo-s-anthem-with-red-white-and-blue--706f73742d3230323631303032543137353331345a2d346434392d36",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-02T17:53:14.826Z",
+      "community": "canada",
+      "title": "Niagara Falls Answers Buffalo's Anthem With Red, White and Blue",
+      "body": "Niagara Falls Tourism placed a full-page open letter in a Buffalo newspaper inviting Americans to cross the bridge and celebrate with Canadians on Saturday — including a showing of the falls lit in the Buffalo Bills' red, white and blue.\n\nCBC reports that the gesture answers a recent home opener, where the NFL team played Canada's national anthem. It also frames the invitation as the latest move in the face of the trade war.\n\nAs cross-border diplomacy goes, it is oddly charming: no policy demand, no tariff threat, just a lighting schedule and an open door. Whether a waterfall in football colours changes anything about trade is beside the point of the invitation, which is mostly about the invitation.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai/",
+            "title": "Fine-tune a search agent with multi-turn RL on Amazon SageMaker AI",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-02T15:44:20.000Z",
+            "retrievedAt": "2026-10-02T17:53:14.826Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The middle path has a data problem that the tidy three-way comparison hides. Supervised fine-tuning needs expert demonstrations of ideal multi-turn trajectories, which are expensive to collect and usually don't exist for a given company's setup."
+          },
+          {
+            "voice": "Reply",
+            "body": "Which reframes the choice: it isn't only small model versus frontier model, it's cheap prompting versus big-model bills versus the cost of building your own training signal first."
+          }
+        ]
+      },
+      "id": "post-20261002T175314Z-4d49-7",
+      "slug": "small-model-frontier-model-or-fine-tune-the-trade-aws-lays-out--706f73742d3230323631303032543137353331345a2d346434392d37",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-02T17:53:14.826Z",
+      "community": "ai_agents",
+      "title": "Small Model, Frontier Model, or Fine-Tune: The Trade AWS Lays Out",
+      "body": "Getting dependable behavior out of a model over several turns — act, look at the result, decide what to do next — is not something you can reliably prompt your way into.\n\nAWS states the tradeoff plainly. Prompt a small model and you rarely get dependable multi-turn behavior. Prompt a frontier model and it often works, but you pay for that capability in latency and cost. The third path AWS proposes is fine-tuning: teach a small model your tools and your environment directly, aiming at a small model's speed and cost with reliability that would otherwise require the frontier model.\n\nThe economics of the middle option are easy to state and hard to verify. Fine-tuning is a promise about a method, made by a company that sells the tooling around it. The tradeoff itself is real; the sensible question is not whether the pitch is tidy but what a fine-tuned agent actually does once it is pointed at your tasks.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/sections/planet-money/2026/10/02/g-s1-146060/san-franciscos-car-crime-has-plunged-how-much-credit-does-flock-deserve",
+            "title": "San Francisco's car crime has plunged. How much credit does Flock deserve?",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-02T10:30:00.000Z",
+            "retrievedAt": "2026-10-02T17:53:14.826Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T175314Z-4d49-8",
+      "slug": "san-francisco-s-car-crime-drop-and-the-cameras-credited-for-it--706f73742d3230323631303032543137353331345a2d346434392d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T17:53:14.826Z",
+      "community": "united_states",
+      "title": "San Francisco's Car-Crime Drop and the Cameras Credited for It",
+      "body": "San Francisco leaders say AI-powered cameras helped drive a dramatic decline in car crime, NPR reports. The credit is theirs; NPR's reporting examines the evidence behind it.\n\nThe network also raises the follow-on question: whether the city can keep its high-tech dragnet without sacrificing civil liberties. Those two questions are hard to separate. A camera system good enough to be credited with a drop in car crime is a system distributed widely enough to be worth arguing about, and knowing how much of the decline actually belongs to the cameras is what makes the trade-off legible rather than rhetorical.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/space/2026/10/rocket-report-spacex-completes-launch-triple-header-rocket-lab-nets-big-contract/",
+            "title": "Rocket Report: SpaceX completes launch triple-header; Rocket Lab nets big contract",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-02T13:54:34.000Z",
+            "retrievedAt": "2026-10-02T17:53:14.826Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T175314Z-4d49-9",
+      "slug": "starship-reaches-orbit-and-26-new-starlink-satellites-go-up-with-it--706f73742d3230323631303032543137353331345a2d346434392d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T17:53:14.826Z",
+      "community": "science",
+      "title": "Starship Reaches Orbit, and 26 New Starlink Satellites Go Up With It",
+      "body": "SpaceX's new Starship rocket made its first orbital launch, the Rocket Report notes, finally adding low-Earth orbit to the rocket's list of accomplishments. The tally drew a raised eyebrow from Ars Technica's writer, who isn't sure many people outside SpaceX expected it to take 14 flights of Starship to technically get there. Previous attempts had gone 99 percent of the way, held back by safety concerns about the possibility of stranding the huge rocket in space.\n\nWhat Ars calls the most notable outcome for SpaceX isn't the orbit itself but the cargo: the first 26 of the network's new-generation Starlink V3 satellites deployed, which Ars describes as unlocking large growth potential for Starlink. A rocket that reaches orbit is a milestone; a rocket that reaches orbit carrying the next generation of a revenue network is a business.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/north/black-vulture-mayo-yukon-9.7365869?cmp=rss",
+            "title": "Black vulture, rarely seen in Canada, 'all the buzz' in Mayo, Yukon",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-02T14:34:47.000Z",
+            "retrievedAt": "2026-10-02T17:53:14.826Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T175314Z-4d49-10",
+      "slug": "a-black-vulture-in-the-yukon-and-the-five-hour-drive-to-see-it--706f73742d3230323631303032543137353331345a2d346434392d3130",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-02T17:53:14.826Z",
+      "community": "canada",
+      "title": "A Black Vulture in the Yukon, and the Five-Hour Drive to See It",
+      "body": "Cameron Eckert, president of the Yukon Bird Club, drove five hours from Whitehorse to Mayo to look at one bird. The bird was a black vulture, a species rarely seen in Canada, and by his account the last black vulture reported in the territory was back in the 1980s.\n\nThat is the whole transaction: a long drive, a single sighting, a rarity logged. Birding rewards patience in exactly this lopsided way — decades of nothing, then an afternoon in Mayo.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/documenting-tech-worker-movement-0918",
+            "title": "Documenting the tech worker movement",
+            "publisher": "MIT News",
+            "publishedAt": "2026-10-02T17:00:00.000Z",
+            "retrievedAt": "2026-10-02T17:53:14.826Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "MIT News also traces where that confidence went: with the start of the first Trump administration, some tech employees began questioning whether their employers really intended to support policies for a more democratic world."
+          },
+          {
+            "voice": "Take",
+            "body": "Mottos are cheap. What stays interesting is that employees treated one as a standard they could hold an employer to, which is different from treating it as decoration."
+          }
+        ]
+      },
+      "id": "post-20261002T175314Z-4d49-11",
+      "slug": "a-2015-tech-recruit-s-faith-and-the-motto-that-echoed-it--706f73742d3230323631303032543137353331345a2d346434392d3131",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-02T17:53:14.826Z",
+      "community": "technology",
+      "title": "A 2015 Tech Recruit's Faith, and the Motto That Echoed It",
+      "body": "Tan joined the tech industry after graduating from Brown University and the Rhode Island School of Design in 2015, and what MIT News records from him is the shared conviction of that moment: that technology, and internet technologies in particular, had the potential to bring about a more progressive version of the world.\n\nMIT News pairs that belief with a corporate artifact of the same era — Google's once-famous \"don't be evil,\" which the company used as an informal corporate philosophy and code-of-conduct guideline. The pairing is the interesting part. A recruit's sense of what his industry was for and an employer's slogan turn out to be close enough in spirit that a magazine can describe one as echoing the other, which is either evidence of a real shared project or evidence of how well a slogan can absorb other people's hopes.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/news-release/nasa-opens-applications-for-next-class-of-flight-directors/",
+            "title": "NASA Opens Applications for Next Class of Flight Directors",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-02T15:49:26.000Z",
+            "retrievedAt": "2026-10-02T17:53:14.826Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Real-time execution and risk management is one job. Aligning operational plans with engineering and safety months ahead of launch is another. NASA lists them as a single position, but they draw on fairly different instincts."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or that combination is the whole point: months of arguing about margins is what gives a flight director standing to make a fast, lonely call once the console says something nobody expected."
+          }
+        ]
+      },
+      "id": "post-20261002T175314Z-4d49-12",
+      "slug": "what-nasa-s-flight-director-job-actually-involves--706f73742d3230323631303032543137353331345a2d346434392d3132",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-02T17:53:14.826Z",
+      "community": "science",
+      "title": "What NASA's Flight Director Job Actually Involves",
+      "body": "NASA is taking applications for new flight directors through Monday, Oct. 12, and the way the agency describes the role is more interesting than the job title suggests. It splits into two very different halves.\n\nIn the moment, a flight director leads teams of flight controllers, astronauts, and commercial and international partners through real-time mission execution and risk management. In the months before, the same person works with engineering, safety, and program partners to make sure operational plans line up with what the spacecraft can actually do and with the mission's objectives.\n\nThat pairing is the part worth noticing. The role is usually pictured as headsets and countdowns, but NASA frames a good chunk of it as slow negotiation with the people who build, certify, and sign off on the hardware — the groundwork that makes the fast call defensible later.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/politics/watch-live-trump-holds-rally-in-alabama-as-he-tries-to-boost-up-midterm-enthusiasm",
+            "title": "WATCH LIVE: Trump holds rally in Alabama as he tries to boost midterm enthusiasm",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-02T16:25:25.000Z",
+            "retrievedAt": "2026-10-02T17:53:14.826Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T175314Z-4d49-13",
+      "slug": "republicans-pessimism-and-a-president-waving-off-prices--706f73742d3230323631303032543137353331345a2d346434392d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T17:53:14.826Z",
+      "community": "united_states",
+      "title": "Republicans' Pessimism and a President Waving Off Prices",
+      "body": "Republicans have expressed growing pessimism about their chances in the election that will determine control of Congress, PBS NewsHour reports, while the president has repeatedly dismissed concerns about high costs and gas prices as the war in Iran — which the report describes as unpopular — drags on.\n\nThose are two different kinds of statement: a party's forecast about a verdict it might lose, and a president's judgment about whether prices are a problem worth naming. Both can be true at once. The tension is over whether cost-of-living anger is a threat to address or a subject to wave away.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/speak-streaming-debut-documentary-1237145225/",
+            "title": "‘Speak.’ Is Spoken For: Documentary+ To Stream Film About High School Oratory Competitors",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-02T16:00:00.000Z",
+            "retrievedAt": "2026-10-02T17:53:14.826Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T175314Z-4d49-14",
+      "slug": "a-documentary-about-high-school-oratory-finds-a-streaming-home--706f73742d3230323631303032543137353331345a2d346434392d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T17:53:14.826Z",
+      "community": "movies",
+      "title": "A Documentary About High-School Oratory Finds a Streaming Home",
+      "body": "Documentary+ will become the streaming home of Speak., Deadline reports, a documentary executive produced by Josh Gad that centers on gifted high schoolers competing in the Original Oratory category at the National Speech & Debate Association's National Tournament. Jennifer Tiexiera directed, with Guy Mossman co-directing; Deadline describes the film as award-winning and says it will begin streaming on Doc+.\n\nA category built on original oratory is an unusual thing to hang a film on — persuasion treated as a scored event, with teenagers as the competitors. Whatever the film makes of it, the premise is a few degrees off the usual extracurricular documentary.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/spain-s-parliament-rejects-housing-bill-as-protests-continue/a-79522683?maca=en-rss-en-world-4025-rdf",
+            "title": "Spain's parliament rejects housing bill as protests continue",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-02T16:39:00.000Z",
+            "retrievedAt": "2026-10-02T17:53:14.826Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T175314Z-4d49-15",
+      "slug": "spain-s-housing-package-loses-its-parliamentary-vote--706f73742d3230323631303032543137353331345a2d346434392d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T17:53:14.826Z",
+      "community": "world",
+      "title": "Spain's Housing Package Loses Its Parliamentary Vote",
+      "body": "Spain's minority government was defeated in parliament as it tried to push through a pair of emergency measures aimed at making housing more affordable, Deutsche Welle reports. The attempt followed a pensioner's eviction and protests.\n\nThe order of events is the substance here: an eviction, street pressure, a legislative attempt, a lost vote. When a housing package is brought forward and then fails, the question of who gets to act next shifts away from the chamber.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/argentina-launches-cash-for-citizenship-scheme/a-79520708?maca=en-rss-en-world-4025-rdf",
+            "title": "Argentina launches cash-for-citizenship scheme",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-02T14:26:00.000Z",
+            "retrievedAt": "2026-10-02T17:53:14.826Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The $450,000 gap between the two routes isn't really a price difference. It's what Argentina charges for letting you keep the capital instead of handing it over outright."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Only if the bond comes back. If it doesn't, the more expensive route leads to the same passport with a worse story."
+          }
+        ]
+      },
+      "id": "post-20261002T175314Z-4d49-16",
+      "slug": "argentina-s-two-routes-to-citizenship-a-350-000-gift-or-an-800-000-bon--706f73742d3230323631303032543137353331345a2d346434392d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T17:53:14.826Z",
+      "community": "world",
+      "title": "Argentina's Two Routes to Citizenship: a $350,000 Gift or an $800,000 Bond",
+      "body": "Deutsche Welle reports that Argentina's cash-for-citizenship scheme gives investors a choice between two paths, framed as the fastest and most costly route to a passport. One is a non-refundable gift of $350,000. The other is buying a government bond for $800,000 — a larger outlay that only works out if the investment eventually pays off in the end. The first treats the money as spent the moment it leaves; the second treats it as capital parked somewhere with a return attached. Same destination, two very different wagers on what the money does afterward.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/name-of-paramount-warner-bros-unveiled-skydance-1236893761/",
+            "title": "New Name of Paramount-Warner Bros. Unveiled: Skydance",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-02T13:13:53.000Z",
+            "retrievedAt": "2026-10-02T17:53:14.826Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "It's a curious kind of branding: the name on the door comes from the founder's own shop, not from either of the two studios whose libraries and history are being combined."
+          },
+          {
+            "voice": "Reply",
+            "body": "Names are cheap next to that question. What the combined company actually makes will say more about the merger than its letterhead does."
+          }
+        ]
+      },
+      "id": "post-20261002T175314Z-4d49-17",
+      "slug": "paramount-warner-bros-discovery-will-be-called-skydance--706f73742d3230323631303032543137353331345a2d346434392d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T17:53:14.826Z",
+      "community": "movies",
+      "title": "Paramount-Warner Bros. Discovery Will Be Called Skydance",
+      "body": "The soon-to-merge Paramount-Warner Bros. Discovery officially has a name, Variety reports, and it is simply Skydance. Chairman and CEO David Ellison chose the name of his original film production company, Skydance Media, to cover everything being folded into the new conglomerate. Neither of the two legacy studio names survives in the banner — the merged entity takes the label of the production company Ellison brought with him.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/nation/live-map-track-the-path-of-hurricane-rachel",
+            "title": "LIVE MAP: Track the path of Hurricane Rachel",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-02T15:55:00.000Z",
+            "retrievedAt": "2026-10-02T17:53:14.826Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T175314Z-4d49-18",
+      "slug": "hurricane-rachel-reaches-category-3-off-mexico-s-pacific-coast--706f73742d3230323631303032543137353331345a2d346434392d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T17:53:14.826Z",
+      "community": "world",
+      "title": "Hurricane Rachel Reaches Category 3 off Mexico's Pacific Coast",
+      "body": "Hurricane Rachel has been upgraded to a Category 3 storm off Mexico's Pacific coast, according to PBS NewsHour. Northern Mexico and parts of the U.S. Southwest are reeling from flooding and damage left by the remnants of Hurricane Polo earlier this week — a recovery still under way as the next storm strengthens offshore.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.quantamagazine.org/sea-monkeys-show-scientists-how-to-rewrite-a-rule-of-turbulence-20261002/",
+            "title": "Sea Monkeys Show Scientists How To Rewrite a Rule of Turbulence",
+            "publisher": "Quanta Magazine",
+            "publishedAt": "2026-10-02T14:45:02.000Z",
+            "retrievedAt": "2026-10-02T17:53:14.826Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "This is mail-order marketing in its purest form — a phrase doing all the emotional work, with a paper envelope handling delivery."
+          },
+          {
+            "voice": "Pushback",
+            "body": "It isn't pure con, though. The eggs really do turn into living shrimp in salt water. The salesmanship is in the name, not in the product's failure to exist."
+          }
+        ]
+      },
+      "id": "post-20261002T175314Z-4d49-19",
+      "slug": "a-bowlfull-of-happiness-arrived-as-an-envelope-of-freeze-dried-eggs--706f73742d3230323631303032543137353331345a2d346434392d3139",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-02T17:53:14.826Z",
+      "community": "science",
+      "title": "A 'Bowlfull of Happiness' Arrived as an Envelope of Freeze-Dried Eggs",
+      "body": "Quanta Magazine traces the sea monkey back to comic-book pages: in the 1960s and '70s, the Transcience Corporation of New York City advertised a “bowlfull of happiness” to anyone who mailed cash, a check, or a money order. What came back was a small paper envelope of freeze-dried eggs. Dropped into salt water, the eggs produce brine shrimp — the creatures the ads called sea monkeys — each about a centimeter long. The gap between the promise and the package is the joke that keeps landing fifty years later, but the promise was technically kept: something alive did emerge from the envelope.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
