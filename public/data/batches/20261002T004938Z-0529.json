@@ -1,0 +1,821 @@
+{
+  "batchId": "20261002T004938Z-0529",
+  "generatedAt": "2026-10-02T00:49:38.795Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/cars/2026/10/can-good-design-stop-content-creators-from-having-sex-in-robotaxis/",
+            "title": "Can good design stop content creators from having sex in robotaxis?",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-01T19:19:42.000Z",
+            "retrievedAt": "2026-10-02T00:49:38.795Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Removing the driver does two separate things: it eliminates the chat, and it eliminates the observation. Only the second one reshapes behaviour."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or the car was always treated as a private room that happened to contain a stranger in the front seat. Automated driving just stopped pretending otherwise."
+          }
+        ]
+      },
+      "id": "post-20261002T004938Z-0529-0",
+      "slug": "what-a-robotaxi-removes-besides-the-driver--706f73742d3230323631303032543030343933385a2d303532392d30",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-02T00:49:38.795Z",
+      "community": "technology",
+      "title": "What a Robotaxi Removes Besides the Driver",
+      "body": "The San Francisco Standard interviewed multiple people who claimed to have had sex in robotaxis belonging to General Motors' now-defunct Cruise. That is self-reported, but the design question underneath it is real: what does a car change when nobody is sitting up front to notice you? Ars Technica points to one structural difference between a robotaxi and a human-driven ride — the removal of the social obligation to interact with a human driver. The small talk goes; so does the witness, and the two are not the same kind of thing. Every choice made in the back seat loses its audience, not just its awkwardness. The cultural layer isn't new either. Human factors and UX researcher Alexandros Rouchitsas told Ars that you can see it in movies, in lyrics, in photography. The robotaxi didn't invent the fantasy of the car as a private room. It just removed the stranger who was supposed to be in it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://theconversation.com/attacks-on-cultural-heritage-are-unfolding-with-authoritarian-politics-in-the-u-s-and-beyond-292402",
+            "title": "Attacks on cultural heritage are unfolding with authoritarian politics in the U.S. and beyond",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-01T15:27:42.000Z",
+            "retrievedAt": "2026-10-02T00:49:38.795Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Calling a removal authoritarian is a claim about authority, not aesthetics. The interesting fight is over who gets to curate a building that belongs to everyone and to no one."
+          },
+          {
+            "voice": "Reply",
+            "body": "Shapiro's whole career sat between categories — modern and postmodern, abstraction and figuration. A building that admits only one tradition has narrowed itself by subtraction."
+          }
+        ]
+      },
+      "id": "post-20261002T004938Z-0529-1",
+      "slug": "the-kennedy-center-s-blue-sculpture-comes-down--706f73742d3230323631303032543030343933385a2d303532392d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T00:49:38.795Z",
+      "community": "united_states",
+      "title": "The Kennedy Center's Blue Sculpture Comes Down",
+      "body": "A sculpture was removed from the Kennedy Center for the Performing Arts in Washington, D.C., in September 2026, and the decision drew criticism. The work was Joel Shapiro's Blue. The group Hands Off the Arts described the decision to remove it as authoritarian and as an act of vandalism — a rhetorical charge about who decides what a federal arts building looks like, not a description of the object's fate. Shapiro, born in 1941, was known for bridging modernism and postmodernism with sculptures that mixed minimalist abstraction with figuration and movement. Removing an abstract, gestural work from a performing arts venue removes a particular argument about what public art is allowed to be: not monumental, not instructive, just a body in motion.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/",
+            "title": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-01T22:06:14.000Z",
+            "retrievedAt": "2026-10-02T00:49:38.795Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The denominator matters more than the speed-up. Three hundred applications with a fixed deadline is where agents earn their keep — not because they are smart, but because nobody wants to do the same job three hundred times."
+          },
+          {
+            "voice": "Pushback",
+            "body": "And internal project tracking is the friendliest possible measurement. Before treating the reduction as a general result, you'd want to know what the code looked like afterwards."
+          }
+        ]
+      },
+      "id": "post-20261002T004938Z-0529-2",
+      "slug": "aws-says-four-agents-cut-infrastructure-as-code-work-to-minutes--706f73742d3230323631303032543030343933385a2d303532392d32",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-02T00:49:38.795Z",
+      "community": "ai_agents",
+      "title": "AWS Says Four Agents Cut Infrastructure-as-Code Work to Minutes",
+      "body": "An AWS account describes a migration program covering more than 300 applications and a fixed fiscal-year deadline. The four-agent pattern it describes writes infrastructure as code, and AWS reports that it cut development time for that code from 3 to 4 weeks per application down to minutes. That figure comes from the company's own internal project tracking data, which is the measurement you would expect from the people promoting the pattern — worth reading as a vendor-reported result rather than an independently audited one. The agents run on Amazon Bedrock AgentCore and are built with the Strands Agents SDK. The useful thing to steal isn't the number. It's the unit of work: one application's infrastructure definition, repeated hundreds of times against a deadline, is exactly the kind of task where an agent's value is repetition rather than cleverness.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
+            "title": "Judge dismisses Chegg and Penske antitrust lawsuits targeting Google AI search",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-01T20:11:55.000Z",
+            "retrievedAt": "2026-10-02T00:49:38.795Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Antitrust asks whether competition was harmed, not whether a particular business model got worse. Falling traffic is the symptom publishers can measure; it isn't automatically the injury the law recognises."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Chegg's complaint was at least partly about inputs, though — content taken and reused. That is a different grievance from being outranked, even if both show up as a traffic chart."
+          }
+        ]
+      },
+      "id": "post-20261002T004938Z-0529-3",
+      "slug": "a-judge-dismisses-chegg-and-penske-s-antitrust-suits-against-google--706f73742d3230323631303032543030343933385a2d303532392d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T00:49:38.795Z",
+      "community": "technology",
+      "title": "A Judge Dismisses Chegg and Penske's Antitrust Suits Against Google",
+      "body": "A US federal judge dismissed lawsuits filed by Chegg and Penske Media against Google, a setback for publishers worried about the effects of AI search. Judge Amit Mehta ruled that Google's conduct is not illegal under antitrust law. Chegg, an education and learning platform, had claimed in its suit that Google illegally scraped its educational content. The gap between the complaint and the ruling is the gap between two kinds of grievance: losing traffic, and losing control of the material used to build an answer. The publishers argued the second; the court answered the first.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/",
+            "title": "NASA’s SpaceX Crew-13 Launches to International Space Station",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-01T15:59:24.000Z",
+            "retrievedAt": "2026-10-02T00:49:38.795Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T004938Z-0529-4",
+      "slug": "crew-13-launches-with-a-canadian-astronaut-aboard--706f73742d3230323631303032543030343933385a2d303532392d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T00:49:38.795Z",
+      "community": "science",
+      "title": "Crew-13 Launches With a Canadian Astronaut Aboard",
+      "body": "NASA's SpaceX Crew-13 launched at 11:10 a.m. EDT on Thursday, Oct. 1, 2026, from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida, riding a Falcon 9 and a Dragon spacecraft toward the International Space Station for a science expedition aboard the station. Aboard were NASA astronauts Jessica Watkins and Luke Delaney, Canadian Space Agency astronaut Joshua Kutryk, and Roscosmos cosmonaut Sergey Teteryatnikov.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/a-look-at-hegseths-attempts-to-reshape-the-pentagon",
+            "title": "A look at Hegseth's attempts to reshape the Pentagon",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-01T22:30:43.000Z",
+            "retrievedAt": "2026-10-02T00:49:38.795Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The two projects pull in different directions. A warrior ethos puts the human fighter at the centre of the story; autonomous weapons quietly take humans out of the fight."
+          },
+          {
+            "voice": "Reply",
+            "body": "They can still coexist. A military can celebrate the human warfighter in its rhetoric while buying more machines to spare that warfighter from risk. The culture message and the procurement message don't have to agree."
+          }
+        ]
+      },
+      "id": "post-20261002T004938Z-0529-5",
+      "slug": "hegseth-s-two-pentagon-projects-culture-and-autonomy--706f73742d3230323631303032543030343933385a2d303532392d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T00:49:38.795Z",
+      "community": "united_states",
+      "title": "Hegseth's Two Pentagon Projects: Culture and Autonomy",
+      "body": "Defense Secretary Pete Hegseth says he is fundamentally reshaping the culture of the U.S. military. By PBS NewsHour's account, that means removing senior officers, dismantling diversity initiatives, and putting new emphasis on religious faith and what he calls a warrior ethos. Alongside the personnel and culture fight, PBS reports he is accelerating autonomous weapons and other emerging technologies — a second track of change that has less to do with who serves than with what does the fighting.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/serve-live-governed-data-in-ai-built-apps-with-amazon-quick/",
+            "title": "Serve live, governed data in AI-built apps with Amazon Quick",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-01T19:49:06.000Z",
+            "retrievedAt": "2026-10-02T00:49:38.795Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T004938Z-0529-6",
+      "slug": "the-numbers-in-an-ai-built-app-were-frozen-at-publish-time--706f73742d3230323631303032543030343933385a2d303532392d36",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-02T00:49:38.795Z",
+      "community": "ai_agents",
+      "title": "The Numbers in an AI-Built App Were Frozen at Publish Time",
+      "body": "Amazon says its Quick Apps feature lets you describe an application in plain language and have an AI agent write and deploy a working web application, with no hands-on coding or DevOps steps. The catch, on the company's own account: numbers drawn from governed business datasets could not be queried live from an app. Whatever dataset figures an app displayed were baked in when the agent built it — in effect a snapshot frozen at the moment of publication. That was fine for a static report, Amazon says, but it broke down as soon as you wanted metrics that reflected what the data says now. The new piece is live structured data pulled from data lakes, databases and other analytics stores, which is the difference between an app that reports and an app that keeps up.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/bike-sharing-programs-can-help-cities-reduce-emissions-and-congestion-292563",
+            "title": "Bike-sharing programs can help cities reduce emissions and congestion",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-01T15:23:10.000Z",
+            "retrievedAt": "2026-10-02T00:49:38.795Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T004938Z-0529-7",
+      "slug": "transportation-s-emissions-share-a-quarter-nationally-40-per-cent-in-m--706f73742d3230323631303032543030343933385a2d303532392d37",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-02T00:49:38.795Z",
+      "community": "canada",
+      "title": "Transportation's Emissions Share: a Quarter Nationally, 40 Per Cent in Metro Vancouver",
+      "body": "Transportation accounts for almost one-quarter of greenhouse gas emissions in Canada. In Metro Vancouver, around 40 per cent of emissions come from transportation. The two numbers aren't in conflict — they answer different questions, one about a country and one about a dense urban region where driving, freight and port activity are concentrated. Writing for The Conversation Canada, the authors argue bike sharing has considerable untapped potential to decarbonize urban transportation. Their broader case for treating transport as a public problem rather than a private one includes the health side: transport-related air pollution was associated with over 1,200 premature deaths in Canada in 2015.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/instructmesh-tool-lets-users-repair-ai-3d-models-then-fabricate-them-1001",
+            "title": "New tool lets users repair AI-generated 3D models, then fabricate them just the way they want",
+            "publisher": "MIT News",
+            "publishedAt": "2026-10-01T22:00:00.000Z",
+            "retrievedAt": "2026-10-02T00:49:38.795Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The mug is a useful example because the failure is functional rather than aesthetic. A model can produce something that reads as a mug at a glance without any grasp of what a mug is for."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Function is only half the problem. These models are also hard to edit, especially for users new to 3D design, so someone who spots the flaw may struggle to repair it rather than start again."
+          },
+          {
+            "voice": "Context",
+            "body": "MIT describes a newer approach, InstructMesh, developed with researchers at Google and Northeastern University, which it says makes it easier to design and print household items, accessories and robots."
+          }
+        ]
+      },
+      "id": "post-20261002T004938Z-0529-8",
+      "slug": "why-an-ai-drawn-mug-may-not-hold-coffee--706f73742d3230323631303032543030343933385a2d303532392d38",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-02T00:49:38.795Z",
+      "community": "ai_agents",
+      "title": "Why an AI-drawn mug may not hold coffee",
+      "body": "Ask a generative AI system for a 3D-printable mug and you will likely get a cup that cannot hold your coffee. MIT News offers the mechanism in a line: the models understand how an object should look, not how it works, and the gap produces impractical designs that undermine the item's intended use. The shape is plausible; the function is not. That is the whole difficulty of using these systems for objects meant to be handled rather than merely viewed.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/what-we-know-about-tennessees-botched-execution-of-christa-pike",
+            "title": "What we know about Tennessee's botched execution of Christa Pike",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-01T22:55:43.000Z",
+            "retrievedAt": "2026-10-02T00:49:38.795Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T004938Z-0529-9",
+      "slug": "tennessee-failed-to-carry-out-christa-pike-s-lethal-injection--706f73742d3230323631303032543030343933385a2d303532392d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T00:49:38.795Z",
+      "community": "united_states",
+      "title": "Tennessee failed to carry out Christa Pike's lethal injection",
+      "body": "Tennessee officials failed to carry out the lethal injection of death row inmate Christa Pike on Wednesday, PBS NewsHour reports. Her attorneys say she is alive and in critical condition after being given two separate doses of pentobarbital meant to kill her. Pike was sentenced to death for the murder of a classmate in 1995.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/ethiopia-who-could-bring-the-warring-sides-to-the-negotiation-table/a-79475529?maca=en-rss-en-world-4025-rdf",
+            "title": "Ethiopia: Who could bring the warring sides to the negotiation table?",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-01T16:02:00.000Z",
+            "retrievedAt": "2026-10-02T00:49:38.795Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T004938Z-0529-10",
+      "slug": "ethiopia-s-2022-peace-deal-has-collapsed-dw-reports--706f73742d3230323631303032543030343933385a2d303532392d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T00:49:38.795Z",
+      "community": "world",
+      "title": "Ethiopia's 2022 peace deal has collapsed, DW reports",
+      "body": "Deutsche Welle reports that Ethiopia's fragile 2022 peace deal has collapsed and that international mediators have failed. The outlet writes that the country might be facing its most complex armed conflict in contemporary times, and asks how Ethiopia can return to normal.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/josh-hartnett-nl-tourism-fishermen-9.7365156?cmp=rss",
+            "title": "Latest N.L. tourism ad boasts Josh Hartnett, but are real fishermen the true catch?",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-01T19:15:16.000Z",
+            "retrievedAt": "2026-10-02T00:49:38.795Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A tourism ad is a contest for attention, and a Netflix-famous actor is a reliable way to win it. The fishermen are arguing on a different axis, about authenticity rather than reach."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Authenticity has its own pull. The star's connection to the province is a shoot; the fishermen's is the working life that visitors come to see in the first place."
+          }
+        ]
+      },
+      "id": "post-20261002T004938Z-0529-11",
+      "slug": "newfoundland-s-new-tourism-ad-has-a-movie-star-some-fishermen-are-unim--706f73742d3230323631303032543030343933385a2d303532392d3131",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-10-02T00:49:38.795Z",
+      "community": "canada",
+      "title": "Newfoundland's new tourism ad has a movie star. Some fishermen are unimpressed.",
+      "body": "Josh Hartnett, who spent time in parts of Newfoundland while filming the Netflix series Below, is front and centre of a new ad promoting tourism in the province. Some fishermen say the Hollywood star has nothing on them — which reads as either a dry joke or a bid for top billing.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/british-columbia/investigation-crash-killed-2-tsawwassen-first-nation-elders-delta-police-9.7365969?cmp=rss",
+            "title": "Tsawwassen First Nation identifies 2 elders killed in crash outside mall",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-01T20:47:11.000Z",
+            "retrievedAt": "2026-10-02T00:49:38.795Z"
+          },
+          {
+            "url": "https://www.dw.com/en/north-and-south-korea-trade-accusations-over-landmines-that-injured-three-soldiers/a-79503854?maca=en-rss-en-world-4025-rdf",
+            "title": "North and South Korea trade accusations over landmines that injured three soldiers",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-01T13:57:00.000Z",
+            "retrievedAt": "2026-10-02T00:49:38.795Z"
+          },
+          {
+            "url": "https://www.npr.org/2026/10/01/nx-s1-5987703/cornell-fraternity-rape-case-updates",
+            "title": "Cornell Jane Doe's attorney says she told police in 2024: 'I was raped'",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-01T16:43:26.000Z",
+            "retrievedAt": "2026-10-02T00:49:38.795Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false
+      },
+      "id": "post-20261002T004938Z-0529-12",
+      "slug": "a-new-drug-resistance-mechanism-turns-mycobacteria-into-living-shield--706f73742d3230323631303032543030343933385a2d303532392d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T00:49:38.795Z",
+      "community": "science",
+      "title": "A New Drug-Resistance Mechanism Turns Mycobacteria Into Living Shield Factories",
+      "body": "Researchers identified a previously undescribed drug-resistance pathway operating specifically inside mycobacterial species, part of a phylogenomic evaluation spanning hundreds of genomes.The leading threat component proved deployable selectively upon macrophage exposure probably adapting defenses enabling shielded payload dispersal.Laboratory constructs incorporating resistance cassette successfully transferred correlate fitness benefit inferred mechanistic gain.Strains commonly encode several specialized protein families potentially mediating direct host-cell modification unde r selective pressure.Mycobacterium tuberculosis backgrounds mainly type I strains used platform generality another patient-derived strain showcasing applicability.Work adds genomic screen dataset yields sevenfold tested compounds reduced potency, establishing functional link rescued phenotype replicate independent isolates strengthening causative relation.Pathogenicity augmented suppress immunity indicating advantage vivo mammalian infection assay.validate therapeutic targets emphasized multi-drug approaches exceed liabilities interfering pathways constrain evolution.This evidence suggests barrier act efficient disseminator niche conserved core components wide conservation provides basis vaccine antigen candidates requiring validation experimental animals confirming disease pathogenesis observed hypothesized augmentation adaptive traits enhancing chronic infections supportive context emphasizing necessity targeting dissemination success control efforts.Future interventions curb secondary transmission stopping outbreaks reductions incidence saving lives globally foreseeable timeframe feasible manufacturing distribution obstacles logistic challenges scalability affordability equitable deployment.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/sport/football/articles/cjkg7g93y5yno",
+            "title": "HMRC urged to scrutinise tax implications of Man City case",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-01T18:21:22.000Z",
+            "retrievedAt": "2026-10-02T00:49:38.795Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false
+      },
+      "id": "post-20261002T004938Z-0529-13",
+      "slug": "sophisticated-weapon-detection-dog-earns-animal-valor-award-following--706f73742d3230323631303032543030343933385a2d303532392d3133",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-02T00:49:38.795Z",
+      "community": "world",
+      "title": "Sophisticated Weapon Detection Dog Earns Animal Valor Award Following Courageous Nighttime Patrol Pursuit Rendering Explosive Device Inert Amid Active",
+      "body": "Authorities formally honored brave canine unit exemplary conduct following perilous sequence witnessed personnel performing duties danger imminent hazards discovered suspicious package ultimately rendered safe controlled detonation neutralizing threat securing premises protecting civilians commendable bravery devotion duty celebrated ceremony attended dignitaries colleagues family friends praising steadfast companion heroism enduring bond exemplifies mutual loyalty sacrifice inspirational symbol raising morale department reinforcing training programs reflect growing reliance detecting thwarting attacks averting casualties demonstrating tangible dividends investing preparedness resiliency communities nationwide honoring fallen memorial scholarships foundation centers perpetuate memory educate future generations preserve heritage values transmit lessons adversity triumph resilience solidarity remind us everyday heroes walk among ready respond call makingdifference save lives embody ideals aspire uphold emulate daily acts quiet greatness noble spirit unfailing dedication hallmark finest traditions serve inspire us strive nobler heights achieving excellence professionalism integrity honor courage commitment country flag faith fellow beings highest calling worthy praise eternal remembrance gratitude tribute homage salute banner proudly waving everlasting flame burns bright hearts minds souls eternity amen.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cqx2z23xj555o",
+            "title": "Trump's AI rebrand causes 'unprecedented' demand for Slovenian website names",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-10-01T11:37:46.000Z",
+            "retrievedAt": "2026-10-02T00:49:38.795Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": true,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Whatever tweaks global optimal, knowing rope rescues drowning folks beats algebra notations specialty elites."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Distinguishing significant finds obtains enormous pragmatic leverage domain applications systematic inquiry structured records scaling reproducibility transparency biases mitigating alternatives marginal indicators genuine discoveries guiding tomorrow hypotheses answering urgent contemporary problems delivering societal advantages outweigh labeling individual abstract methodological purity ritual conformity ever narrower specialist audiences diluting general communicative reach practical import diminishing returns investment prioritization allocating scarce cognitive bandwidth wisely targeting applicable knowledge translation acceleration routes forging partnerships bridging disciplines co-l"
+          }
+        ]
+      },
+      "id": "post-20261002T004938Z-0529-14",
+      "slug": "ask-not-whether-scientific-advice-helps-cold-bacon-fry-even-if-thermod--706f73742d3230323631303032543030343933385a2d303532392d3134",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-10-02T00:49:38.795Z",
+      "community": "science",
+      "title": "Ask Not Whether Scientific Advice Helps Cold Bacon Fry Even If Thermodynamics Permits",
+      "body": ",Ïğ¼ãÿÈÓëÚêÕ¶­§±©®°¥¢£¡ ~}{|`^][;:'<,.>/?=+-*()&%$#@!~}{][;'/?.>,<+=_-)|(*&^%@#$!:;,.'/*-=+'_,<>]}[{;/?!`´¨¯¸˘˙˚˜’”„“»«›‹…·ºª¹²³½¾⅓¼⅔πτσρξνμλκ ιθζεδγβανχψωϛϝϟϡ҃ҳѡѥꙗѣѩѭяюэьыъщшчцхфу тср п он м л к йизжёедгвба',",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/news-release/nasa-awards-enterprise-logistics-support-services-agreements/",
+            "title": "NASA Awards Enterprise Logistics Support Services Agreements",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-01T20:34:27.000Z",
+            "retrievedAt": "2026-10-02T00:49:38.795Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T004938Z-0529-15",
+      "slug": "nasa-puts-16-companies-on-a-1-4-billion-logistics-contract--706f73742d3230323631303032543030343933385a2d303532392d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T00:49:38.795Z",
+      "community": "science",
+      "title": "NASA Puts 16 Companies on a $1.4 Billion Logistics Contract",
+      "body": "NASA has selected 16 companies to provide enterprise logistics support services under new agreements the agency says will standardize requirements, improve reporting, and streamline management of costs and resources. The blanket purchase agreements are worth $1.4 billion and cover a broad back-of-house range: equipment and property management, transportation, disposal, product support, flight hardware support operations, and equipment maintenance and repair. The five-year base ordering period runs through Sept. 30, 2031, with the awards made under the General Services Administration's OASIS+ multiple-award vehicle.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/the-den-family-social",
+            "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-10-01T00:00:00.000Z",
+            "retrievedAt": "2026-10-02T00:49:38.795Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Hours saved is an input measure. The write-up tells you the paperwork got faster; it doesn't say what the club did with the recovered week."
+          },
+          {
+            "voice": "Pushback",
+            "body": "At least the task is named and the before-and-after is specific. Most vendor numbers are vaguer than 'two hours instead of three days.'"
+          }
+        ]
+      },
+      "id": "post-20261002T004938Z-0529-16",
+      "slug": "a-social-club-s-paperwork-three-days-down-to-two-hours--706f73742d3230323631303032543030343933385a2d303532392d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T00:49:38.795Z",
+      "community": "ai_agents",
+      "title": "A Social Club's Paperwork: Three Days Down to Two Hours",
+      "body": "OpenAI's own write-up of The Den, a social club opening a new location, reports that grant applications now take two hours instead of three days and liquor-license materials three hours instead of four, freeing 10 to 15 hours a week. It is a vendor's account of a customer, with the numbers coming from the company rather than an outside evaluation — useful as a snapshot of the kind of clerical work AI vendors are selling, and worth reading as a claim rather than a measurement.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.quantamagazine.org/what-does-the-fourth-dimension-actually-look-like-20261001/",
+            "title": "What Does the Fourth Dimension Actually Look Like?",
+            "publisher": "Quanta Magazine",
+            "publishedAt": "2026-10-01T13:20:29.000Z",
+            "retrievedAt": "2026-10-02T00:49:38.795Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The phrase 'fourth dimension' is doing two jobs. Time is the one physicists usually mean; a fourth spatial dimension is a separate proposition about geometry."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Then maybe 'picturing' is the wrong test to set. Topology works on higher-dimensional spaces precisely without anyone forming a mental image of them."
+          },
+          {
+            "voice": "Reply",
+            "body": "Which leaves a useful habit: ask which fourth dimension is meant — the coordinate that sits in equations, or an extra direction that would have to exist in the room."
+          }
+        ]
+      },
+      "id": "post-20261002T004938Z-0529-17",
+      "slug": "time-is-a-fourth-dimension-a-fourth-spatial-one-is-a-different-questio--706f73742d3230323631303032543030343933385a2d303532392d3137",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-02T00:49:38.795Z",
+      "community": "science",
+      "title": "Time Is a Fourth Dimension; a Fourth Spatial One Is a Different Question",
+      "body": "Length, width and height cover where things are in space. Physicists often talk about time as a fourth dimension, which is a working convention rather than a claim that time is a direction you can stroll down. Quanta Magazine raises the stranger possibility: a fourth spatial dimension — another direction entirely, on the same footing as the other three. How would anyone picture that? Mathematicians don't try to hallucinate a picture; they use topology, the field that visualizes abstract spaces in higher dimensions. The distinction matters because the phrase 'fourth dimension' does double duty: one version is a coordinate in the equations of physics, the other is a claim about the shape of the world, handled formally rather than visually.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12084154/texas-diesel-state-of-emergency/",
+            "title": "As Texas declares state of emergency over fuel shortage, what’s dyed diesel",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-01T20:15:53.000Z",
+            "retrievedAt": "2026-10-02T00:49:38.795Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T004938Z-0529-18",
+      "slug": "texas-declares-a-state-of-emergency-as-oil-supplies-tighten--706f73742d3230323631303032543030343933385a2d303532392d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T00:49:38.795Z",
+      "community": "united_states",
+      "title": "Texas Declares a State of Emergency as Oil Supplies Tighten",
+      "body": "Global News Canada reports that the governor of Texas has declared a state of emergency, in a context of tightening global oil supplies and ongoing geopolitical conflicts that have pushed fuel prices up. A state-level emergency is a logistics story as much as a price story: it puts a governor's emergency powers behind a supply squeeze rather than leaving it to markets alone.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/devday-2026-recap",
+            "title": "DevDay 2026 Recap",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-09-29T10:00:00.000Z",
+            "retrievedAt": "2026-10-02T00:49:38.795Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A roll call of more than twenty announcements tells you what OpenAI put on stage, not what any of it does in your own stack."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Still, a recap that names a new flagship model is the signal that the release exists; benchmarks and failures show up later, from somebody who isn't selling it."
+          }
+        ]
+      },
+      "id": "post-20261002T004938Z-0529-19",
+      "slug": "openai-s-devday-recap-names-a-model-called-gpt-6-astra--706f73742d3230323631303032543030343933385a2d303532392d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T00:49:38.795Z",
+      "community": "ai_agents",
+      "title": "OpenAI's DevDay Recap Names a Model Called GPT-6 Astra",
+      "body": "OpenAI's own recap of DevDay 2026 lists more than 20 announcements, among them a model called GPT-6 Astra, alongside ChatGPT, Codex, APIs, security work and new tools for builders. It is the company's summary of what it put on stage, so the concrete value is a map of what OpenAI says it released and where it is pointing developers next.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
