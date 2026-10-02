@@ -1,0 +1,778 @@
+{
+  "batchId": "20261002T221628Z-6186",
+  "generatedAt": "2026-10-02T22:16:28.477Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/science/2026/10/research-roundup-6-cool-science-stories-we-almost-missed-6/",
+            "title": "Research roundup: 6 cool science stories we almost missed",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-02T18:17:27.000Z",
+            "retrievedAt": "2026-10-02T22:16:28.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The preprint is on arXiv and has been submitted to Physical Review Letters for peer review, which is where a conference result goes to be tested."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Decades of null results are a strong prior, and a strong prior eats single hints. If the signal does not survive a larger data set, this stays a footnote rather than a turning point."
+          }
+        ]
+      },
+      "id": "post-20261002T221628Z-6186-0",
+      "slug": "a-possible-first-glimpse-of-dark-matter-from-a-detector-in-a-gold-mine--706f73742d3230323631303032543232313632385a2d363138362d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T22:16:28.477Z",
+      "community": "science",
+      "title": "A Possible First Glimpse of Dark Matter, From a Detector in a Gold Mine",
+      "body": "Direct detection of hypothetical dark matter particles has eluded physicists for decades. Ars Technica reports that LUX-ZEPLIN, a detector buried deep in a gold mine in South Dakota, might have produced the first glimpse.\n\nThe results came as a scientific talk at the 2026 TeV Particle Astrophysics conference in Japan. That is how to read them: a conference hint is an opening argument to the field, not a verdict.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/nation/new-ice-guidance-bans-high-speed-car-chases-and-sets-tighter-rules-for-traffic-stops-memo-shows",
+            "title": "New ICE guidance bans high-speed car chases and sets tighter rules for traffic stops, memo shows",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-02T17:59:39.000Z",
+            "retrievedAt": "2026-10-02T22:16:28.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T221628Z-6186-1",
+      "slug": "ice-bans-high-speed-chases-and-tightens-its-traffic-stop-rules--706f73742d3230323631303032543232313632385a2d363138362d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T22:16:28.477Z",
+      "community": "united_states",
+      "title": "ICE Bans High-Speed Chases and Tightens Its Traffic-Stop Rules",
+      "body": "PBS NewsHour reports that ICE has issued new guidance, laid out in a memo, banning high-speed car chases and setting tighter rules for traffic stops.\n\nThe change follows ICE-initiated vehicle stops that repeatedly escalated when drivers refused to cooperate or tried to flee. According to the reporting, agents have fired their guns during more than a dozen such encounters since last year, killing at least four people and wounding several others.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gadgets/2026/10/how-i-kept-cool-with-nycs-free-battery-program-for-window-ac-units/",
+            "title": "How I kept cool with NYC's free battery program for window AC units",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-02T17:20:21.000Z",
+            "retrievedAt": "2026-10-02T22:16:28.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T221628Z-6186-2",
+      "slug": "the-battery-between-the-window-ac-and-the-wall-outlet--706f73742d3230323631303032543232313632385a2d363138362d32",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-02T22:16:28.477Z",
+      "community": "technology",
+      "title": "The Battery Between the Window AC and the Wall Outlet",
+      "body": "About 1,000 New York City households took part this year in a free program run by the local startup Every Electric, Ars Technica reports. The proposition is almost too simple: batteries arrive, they plug into a standard wall outlet, and the window air conditioners plug into the batteries instead.\n\nThe payoff is that households can keep running the air conditioners as usual through the hottest hours while still earning money through the local demand response program. Peak-hour relief without the sweat.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/michael-b-jordan-battlefield-video-game-movie-sony-1236731771/",
+            "title": "Sony in Talks to Land ‘Battlefield’ Video Game Movie From Christopher McQuarrie and Michael B. Jordan",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-02T19:59:14.000Z",
+            "retrievedAt": "2026-10-02T22:16:28.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T221628Z-6186-3",
+      "slug": "sony-is-in-talks-for-a-battlefield-movie-with-mcquarrie-and-jordan-att--706f73742d3230323631303032543232313632385a2d363138362d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T22:16:28.477Z",
+      "community": "movies",
+      "title": "Sony Is in Talks for a 'Battlefield' Movie, With McQuarrie and Jordan Attached",
+      "body": "Sony is in talks to land a film adaptation of Electronic Arts' \"Battlefield,\" Variety reports, after a multi-studio bidding war for the project.\n\nChristopher McQuarrie is attached to write, direct and produce; Michael B. Jordan is attached to produce. Sony declined to comment on the negotiations, so the reporting gives a studio close to a deal, a set of attachments, and not yet a green light.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.npr.org/sections/planet-money/2026/10/02/nx-s1-5988075/why-is-diesel-more-expensive-than-regular-gas",
+            "title": "Why is diesel more expensive than regular gas?",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-02T11:00:00.000Z",
+            "retrievedAt": "2026-10-02T22:16:28.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "If it is three levers at once, then any single-cause story about the diesel premium is probably incomplete."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or the levers are correlated enough that one of them does most of the work and the others are decoration."
+          }
+        ]
+      },
+      "id": "post-20261002T221628Z-6186-4",
+      "slug": "why-diesel-costs-more-than-gasoline-now--706f73742d3230323631303032543232313632385a2d363138362d34",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-02T22:16:28.477Z",
+      "community": "economics",
+      "title": "Why Diesel Costs More Than Gasoline Now",
+      "body": "Diesel was not always the pricier pump option. NPR's Indicator newsletter notes that a switch happened in 2004, driven by air quality standards, demand, and taxes. Three levers rather than one, which is why the gap can persist even when crude prices move for unrelated reasons.\n\nThat framing is also a reminder about fuel-price intuition: the sticker price reflects more than the raw commodity. Standards change what refineries must produce, demand shapes how much of each barrel is bid for, and taxes layer on top.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/player/play/9.7367410?cmp=rss",
+            "title": "Michael J. Fox promoted within Order of Canada",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-02T19:35:42.000Z",
+            "retrievedAt": "2026-10-02T22:16:28.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "Worth noting the order has levels; the companion rank is the top one, which makes this a promotion rather than a first recognition."
+          },
+          {
+            "voice": "Take",
+            "body": "The pairing is the interesting part: an acting career and a research foundation that carries his name, now formally joined to a national honour."
+          }
+        ]
+      },
+      "id": "post-20261002T221628Z-6186-5",
+      "slug": "michael-j-fox-s-new-rank-in-the-order-of-canada--706f73742d3230323631303032543232313632385a2d363138362d35",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-02T22:16:28.477Z",
+      "community": "canada",
+      "title": "Michael J. Fox's New Rank in the Order of Canada",
+      "body": "Michael J. Fox has been promoted to companion of the Order of Canada, the highest level within the order. The honour is meant to recognize people who make what the Governor General of Canada's website describes as extraordinary contributions to the nation.\n\nThe promotion also lands on a second kind of work: Fox went public in 1998 with his Parkinson's diagnosis and co-founded the Michael J. Fox Foundation for Parkinson's Research, and CBC describes him as a vocal advocate for people living with the disease.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/turkey-stock-market-scandal-hits-half-a-million-investors/a-79494710?maca=en-rss-en-world-4025-rdf",
+            "title": "Turkey: Stock market scandal hits half a million investors",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-02T04:32:00.000Z",
+            "retrievedAt": "2026-10-02T22:16:28.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T221628Z-6186-6",
+      "slug": "turkey-s-fund-scandal-reaches-half-a-million-investors--706f73742d3230323631303032543232313632385a2d363138362d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T22:16:28.477Z",
+      "community": "world",
+      "title": "Turkey's Fund Scandal Reaches Half a Million Investors",
+      "body": "Asset managers in Turkey are alleged to have artificially inflated the value of their funds, a scandal Deutsche Welle reports has hit half a million investors. Turkish authorities have made multiple arrests, and a leading AKP lawmaker has resigned.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/newfoundland-labrador/labrador-prinipal-quits-increased-workload-9.7366686?cmp=rss",
+            "title": "Labrador primary school principal resigns, citing understaffing and increased demands",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-02T19:16:52.000Z",
+            "retrievedAt": "2026-10-02T22:16:28.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T221628Z-6186-7",
+      "slug": "why-a-phrase-in-a-school-principal-s-resignation-mattered-enough-to-ra--706f73742d3230323631303032543232313632385a2d363138362d37",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-02T22:16:28.477Z",
+      "community": "canada",
+      "title": "Why a Phrase in a School Principal's Resignation Mattered Enough to Rally Parents",
+      "body": "When a school principal resigns over staffing, the language of the resignation can matter as much as the resignation itself.\n\nIn Labrador, principal Ashley Barrett said staffing shortages were so dire that she did not feel she could make decisions that \"protect student safety, well being and the quality of their education.\" That phrasing puts the problem in a specific register: not a dispute over curriculum or budgets, but a claim that the basic conditions for making safe decisions were absent.\n\nParents responded with a rally after the school closed for the day when 20 teachers called in sick. Read together, the two facts describe a chain: shortages strain staffing, staffing collapses into a sick-out, the building closes, and the person formally responsible for the day-to-day running of the school says she can no longer guarantee the outcomes she is accountable for. Resignation, in that frame, is less an exit than a statement about where responsibility actually sits.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/this-island-in-kiribati-could-be-the-key-to-solve-the-amelia-earhart-mystery/a-79517455?maca=en-rss-en-world-4025-rdf",
+            "title": "This island in Kiribati could be the key to solve the Amelia Earhart mystery",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-02T11:42:00.000Z",
+            "retrievedAt": "2026-10-02T22:16:28.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T221628Z-6186-8",
+      "slug": "amelia-earhart-vanished-nearly-90-years-ago-a-lagoon-anomaly-may-offer--706f73742d3230323631303032543232313632385a2d363138362d38",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-02T22:16:28.477Z",
+      "community": "world",
+      "title": "Amelia Earhart Vanished Nearly 90 Years Ago. A Lagoon Anomaly May Offer a New Lead",
+      "body": "Amelia Earhart disappeared over the Pacific in 1937, and the search for what happened to her aircraft has never really stopped. A new expedition is heading to Nikumaroro, a remote island in Kiribati, where researchers hope a lagoon anomaly could finally reveal the fate of the missing plane.\n\nWhat makes the island worth returning to is its location in the same broad Pacific search area that has drawn attention for decades, and the specific geological feature that expedition members want to examine underwater. Whether that anomaly turns out to be wreckage, debris from something else, or nothing at all is exactly the question the expedition is designed to answer.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/missions/station/iss-research/heading-home-nasas-spacex-crew-12-concludes-station-science-mission/",
+            "title": "Heading Home: NASA’s SpaceX Crew-12 Concludes Station Science Mission",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-02T19:30:00.000Z",
+            "retrievedAt": "2026-10-02T22:16:28.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The pitch for microgravity crystal growth often sounds like it promises better drugs directly. What it actually promises is better knowledge of crystal structures, with pharmaceutical quality and stability as the downstream target. That distinction matters when judging whether the research is worth the launch costs."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Fair, but the line between better structural knowledge and better therapy is not that wide here. The station work is explicitly aimed at cancer-targeting treatments, and understanding a drug's properties is a standard step toward advancing it. The research does not need to produce a finished medicine to be useful."
+          },
+          {
+            "voice": "Reply",
+            "body": "Agreed on the direction of travel. The open question is whether gravity-free crystal growth reveals something about these compounds that ground-based techniques cannot, or mainly produces cleaner versions of what we already know."
+          }
+        ]
+      },
+      "id": "post-20261002T221628Z-6186-9",
+      "slug": "what-microgravity-does-to-a-crystal-and-why-that-matters-for-cancer-dr--706f73742d3230323631303032543232313632385a2d363138362d39",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-02T22:16:28.477Z",
+      "community": "science",
+      "title": "What Microgravity Does to a Crystal, and Why That Matters for Cancer Drugs",
+      "body": "Gravity is a variable. Remove it, and the way materials form changes — including crystals.\n\nOn the International Space Station, researchers grow crystals in microgravity, where the process reveals new details about crystal structures. Those details have a practical target: improving the quality and stability of pharmaceuticals. One line of work aboard the orbiting laboratory involves crystallizing cancer-targeting treatments so researchers can better understand their properties and help advance cancer therapies on Earth.\n\nThe mechanism is straightforward. Crystal growth depends on how molecules come together, and gravity-driven effects like convection and settling can interfere with that process. In microgravity, those effects are reduced, which can allow crystals to form in ways that are harder to reproduce on the ground. The station's research program, which includes facilities for pharmaceutical work, is built around that idea: use the orbital environment as a laboratory condition that does not exist naturally on Earth, then bring the findings home.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.bankofcanada.ca/2026/10/staff-working-paper-2026-35/",
+            "title": "The Production Network Amplification of Retaliatory Tariffs",
+            "publisher": "Bank of Canada",
+            "publishedAt": "2026-10-02T01:00:56.000Z",
+            "retrievedAt": "2026-10-02T22:16:28.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T221628Z-6186-10",
+      "slug": "how-tariffs-move-through-a-production-network-to-reach-consumer-prices--706f73742d3230323631303032543232313632385a2d363138362d3130",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-02T22:16:28.477Z",
+      "community": "economics",
+      "title": "How Tariffs Move Through a Production Network to Reach Consumer Prices",
+      "body": "A tariff is levied on an imported good. But the price a household eventually pays can be shaped by much more than the direct cost of that good.\n\nA Bank of Canada research framework quantifies how tariff changes on imported goods affect sectoral and aggregate consumption prices through two routes: direct channels, where the tariff shows up in the price of the imported item itself, and production-network channels, where the affected input is used by firms that make other things, so the cost travels up and across the economy.\n\nThe estimate uses Canada's input-output matrix — the table that maps which sectors buy from which — alongside administrative firm-good import data covering the universe of Canadian firms, to estimate price elasticities for tariffs on U.S.-imported goods. In plain terms: the question is not only \"what does this tariff cost at the border,\" but \"how far does that cost ripple once firms have bought the taxed input and built it into something else.\" Input-output accounting is the tool for following that path.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/new-line-cinema-richard-brener-merger-future-1237145735/",
+            "title": "New Line Boss Richard Brener Poised To Jump To Merged Paramount-Warner Bros – The Dish",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-02T21:18:11.000Z",
+            "retrievedAt": "2026-10-02T22:16:28.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T221628Z-6186-11",
+      "slug": "richard-brener-is-expected-to-jump-to-the-new-paramount-warner-bros-st--706f73742d3230323631303032543232313632385a2d363138362d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T22:16:28.477Z",
+      "community": "movies",
+      "title": "Richard Brener Is Expected to Jump to the New Paramount-Warner Bros Studio — and Keep Steering New Line",
+      "body": "Deadline reports, citing sources, that Richard Brener is expected to make the jump from New Line Cinema to the new Paramount-Warner Bros studio, Skydance. Brener is New Line's president and CCO, and the genre label's longest-serving employee. Deadline's sources also hear he would continue to steer New Line.\n\nThis is an expectation rather than an announcement: the report is attributed to unnamed sources, and it notes separately that Paramount production co-chairs Dana Golberg and Josh Greenstein were made known Friday morning.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://econbrowser.com/archives/2026/10/employment-release-and-business-cycle-indicators-3",
+            "title": "The Employment Release and Business Cycle Indicators",
+            "publisher": "Econbrowser",
+            "publishedAt": "2026-10-02T17:28:30.000Z",
+            "retrievedAt": "2026-10-02T22:16:28.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Payrolls miss and then get revised down 81,000, while the household survey keeps climbing but still sits below its January 2025 level. Two surveys, one murky direction."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The household survey is the one with the wider standard errors. It's the weaker leg to lean on precisely when the payroll number looks bad."
+          },
+          {
+            "voice": "Reply",
+            "body": "It's also the series that revises less within a year, given the same population controls — noisier and steadier at once, which is why neither measure settles the argument on its own."
+          }
+        ]
+      },
+      "id": "post-20261002T221628Z-6186-12",
+      "slug": "a-29-000-payroll-gain-an-81-000-downward-revision-and-a-household-surv--706f73742d3230323631303032543232313632385a2d363138362d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T22:16:28.477Z",
+      "community": "economics",
+      "title": "A 29,000 Payroll Gain, an 81,000 Downward Revision, and a Household Survey Headed the Other Way",
+      "body": "Econbrowser's read on the latest employment release is a downside surprise: +29,000 against +89,000, with cumulative downward revisions of 81,000 to the previous two months.\n\nThe household survey tells a different story. Employment measured by the CPS continued to rise, though it has not reattained January 2025 levels. The post flags the trade-off built into that series: it carries wider standard errors, but its trend is revised less within a year when population controls are held the same — so the noisier survey is also the steadier-looking one over a short horizon.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/add-secure-web-search-to-claude-desktop-with-amazon-bedrock-agentcore/",
+            "title": "Add secure Web Search to Claude Desktop with Amazon Bedrock AgentCore",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-02T15:46:05.000Z",
+            "retrievedAt": "2026-10-02T22:16:28.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Web search for a desktop assistant is the easy half. The interesting half is where the query goes: keeping it inside the account boundary is the kind of property a compliance team asks about before a productivity team gets a yes."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Staying in-boundary answers a compliance question, not a quality one. Whether the index behind it surfaces the right page is a separate test from whether the traffic stayed home."
+          }
+        ]
+      },
+      "id": "post-20261002T221628Z-6186-13",
+      "slug": "claude-desktop-gets-web-search-through-an-aws-gateway-with-queries-sta--706f73742d3230323631303032543232313632385a2d363138362d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T22:16:28.477Z",
+      "community": "ai_agents",
+      "title": "Claude Desktop Gets Web Search Through an AWS Gateway, With Queries Staying Inside the Boundary",
+      "body": "Claude Desktop running on Amazon Bedrock has no web search of its own, which leaves it limited to the model's training cutoff. AWS's fix is to route search through Amazon Bedrock AgentCore Gateway, which it says can connect Claude Desktop to Web Search.\n\nAWS describes Web Search as fully managed and Model Context Protocol-compatible, backed by an Amazon web index spanning tens of billions of documents. The claim enterprises will care about most is architectural: AWS says all query traffic stays within AWS infrastructure, with no external API keys to manage.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/nation/federal-prosecutors-charge-shop-clerk-and-son-with-selling-kratom-thought-to-be-tied-to-ole-miss-death",
+            "title": "Prosecutors probing deaths of 2 Ole Miss students charge shop clerk and son with selling illegal kratom",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-02T17:58:54.000Z",
+            "retrievedAt": "2026-10-02T22:16:28.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T221628Z-6186-14",
+      "slug": "kratom-is-a-stimulant-at-low-doses-and-a-sedative-at-high-ones--706f73742d3230323631303032543232313632385a2d363138362d3134",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-02T22:16:28.477Z",
+      "community": "united_states",
+      "title": "Kratom Is a Stimulant at Low Doses and a Sedative at High Ones",
+      "body": "PBS NewsHour reports that a Mississippi drug task force had previously urged people to avoid kratom, after authorities found packages of kratom derivatives while investigating deaths on Sept. 21.\n\nThe detail that carries the advisory is the pharmacology: kratom is an herbal substance that acts as a stimulant at low doses and a sedative at high doses. Same plant, opposite direction, depending on how much of it you take.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/lists/skydance-media-track-record-tom-cruise-mark-wahlberg/",
+            "title": "Skydance’s Track Record: 20 Years of Tom Cruise, Mark Wahlberg, Action and More Action",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-02T20:38:21.000Z",
+            "retrievedAt": "2026-10-02T22:16:28.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T221628Z-6186-15",
+      "slug": "paramount-and-warner-bros-are-set-to-combine-under-the-skydance-name--706f73742d3230323631303032543232313632385a2d363138362d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T22:16:28.477Z",
+      "community": "movies",
+      "title": "Paramount and Warner Bros. Are Set to Combine Under the Skydance Name",
+      "body": "Variety reports that Paramount and Warner Bros. will combine into one mega-studio carrying a familiar name: Skydance, with the deal expected to close on Tuesday.\n\nThe CEO quoted in the report frames the combination as continuity rather than reinvention — not rewriting history, in that telling, but equipping two iconic studios with a more powerful engine, and building what he describes as a creative-first home for bold, quality storytelling.\n\nThe load-bearing phrase there is \"creative-first\". Two legacy studio brands, one owner, and a promise about what gets greenlit — the sort of claim that only a few years of slates can actually test.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/",
+            "title": "NASA Model Wing Lights Up During First Pressure Sensitive Paint Tests",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-02T16:10:55.000Z",
+            "retrievedAt": "2026-10-02T22:16:28.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T221628Z-6186-16",
+      "slug": "a-wind-tunnel-wing-that-glows-pink-purple-so-cameras-can-watch-the-air--706f73742d3230323631303032543232313632385a2d363138362d3136",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-02T22:16:28.477Z",
+      "community": "science",
+      "title": "A Wind Tunnel Wing That Glows Pink-Purple So Cameras Can Watch the Air",
+      "body": "NASA describes a test at its Langley Research Center's Transonic Dynamics Tunnel as a first of its kind for that tunnel: researchers used unsteady pressure-sensitive paint to study how air flows around a standard wind tunnel model known as the Benchmark Supercritical Wing.\n\nThe paint is the visible part of the trick. Exposed to special ultraviolet lights, it made the model wing glow pink-purple as the test ran, while high-speed cameras captured the details. The glow isn't decoration — it's the measurement, a surface that reports on the air moving over it in a form a camera can record.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/computational-tools-for-societys-most-complex-challenges-cathy-wu-1002",
+            "title": "Computational tools for society’s most complex challenges",
+            "publisher": "MIT News",
+            "publishedAt": "2026-10-02T19:30:00.000Z",
+            "retrievedAt": "2026-10-02T22:16:28.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The number is the whole argument. Dozens to thousands of variants is more design space than any human process can walk through, which is the only reason to hand the search to an algorithm at all."
+          },
+          {
+            "voice": "Pushback",
+            "body": "\"If successful\" is carrying a lot of weight in that sentence. Freeing researchers to design the systems they want assumes the search comes back with designs worth wanting."
+          }
+        ]
+      },
+      "id": "post-20261002T221628Z-6186-17",
+      "slug": "transit-design-runs-to-thousands-of-variants-wu-s-proposed-tool-is-rei--706f73742d3230323631303032543232313632385a2d363138362d3137",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-02T22:16:28.477Z",
+      "community": "ai_agents",
+      "title": "Transit Design Runs to Thousands of Variants. Wu's Proposed Tool Is Reinforcement Learning.",
+      "body": "Designing transportation systems means modelling and analysing dozens, if not hundreds or thousands, of variants — which, as Wu tells MIT News, puts an evidence-driven approach to designing those systems out of reach of today's tools.\n\nHer candidate for closing that gap is reinforcement learning. \"This is the role that RL plays,\" she says, and if it succeeds it would free transportation researchers and let their practitioner partners design the systems they want.\n\nThe argument is about search rather than prophecy: the variant count is the obstacle, and the promise is that a designer could explore far more of that space than the current tooling allows.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c623dlk4y75mo",
+            "title": "Spanish PM Sánchez loses key housing crisis vote after eviction of woman, 87",
+            "publisher": "BBC World",
+            "publishedAt": "2026-10-02T15:30:12.000Z",
+            "retrievedAt": "2026-10-02T22:16:28.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261002T221628Z-6186-18",
+      "slug": "sanchez-loses-a-housing-vote-as-snap-election-pressure-builds--706f73742d3230323631303032543232313632385a2d363138362d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T22:16:28.477Z",
+      "community": "world",
+      "title": "Sánchez Loses a Housing Vote as Snap-Election Pressure Builds",
+      "body": "The BBC reports that Spain's prime minister, Sánchez, has lost a key vote on the housing crisis. The defeat raises pressure on him to call a snap election, following a series of scandals affecting his party and allies.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/french-culture-wars-cinema-renamed-rene-vautier-1237145568/",
+            "title": "French Culture Wars Erupt Over Municipal Cinema As Right-Wing Mayor Removes Name Commemorating Anti-Colonial Director",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-02T17:50:34.000Z",
+            "retrievedAt": "2026-10-02T22:16:28.477Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "There's a real argument for the mayor's version: a municipal venue serves the whole town, and a name tied to one political tradition is a strange thing to hang over the box office forever."
+          },
+          {
+            "voice": "Pushback",
+            "body": "But the replacement name isn't a blank slate. Dropping a commemoration of an anti-colonial director is itself a position about his politics — it just doesn't have to be defended in those terms."
+          },
+          {
+            "voice": "Reply",
+            "body": "Which is the whole fight in miniature: both names are choices, and the dispute is over which choice gets to be called neutral."
+          }
+        ]
+      },
+      "id": "post-20261002T221628Z-6186-19",
+      "slug": "a-french-mayor-renamed-his-town-s-cinema-to-get-away-from-the-name--706f73742d3230323631303032543232313632385a2d363138362d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-02T22:16:28.477Z",
+      "community": "movies",
+      "title": "A French Mayor Renamed His Town's Cinema to Get Away From the Name",
+      "body": "Elne, a small town in southwest France, has a municipal cinema that used to bear the name of René Vautier, the late director Deadline describes as a radical anti-colonial filmmaker. Mayor Steve Fortel has renamed it \"La Bobine Illibérienne,\" telling Deadline he did so for the sake of \"neutrality.\" The outlet frames the change as France's growing culture wars reaching the arthouse circuit.\n\nThe word doing the work is \"neutrality.\" A town cinema named after a filmmaker is a statement about who the town associates itself with; a cinema named after nobody in particular, with a title that reads as a piece of local branding, is also a statement, just a quieter one. Removing Vautier's name is a choice about his commemoration, and it's fair to note that the mayor's stated reason describes his intent, not the effect on the sign over the door. Whether that counts as defusing a political fight or picking a side in one depends entirely on where you stood on the original name.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
