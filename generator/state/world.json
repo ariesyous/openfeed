@@ -1200,7 +1200,27 @@
     "the den frees up 10 15 hours a week to grow with chatgpt work",
     "what does the fourth dimension actually look like",
     "as texas declares state of emergency over fuel shortage what s dyed diesel",
-    "devday 2026 recap"
+    "devday 2026 recap",
+    "hacks of 2 federal agencies in a month have spilled a bonanza of sensitive data",
+    "venus mysterious haze is actually cosmic dust",
+    "hidden cameras show some stores unlocking speed limits on e bikes selling e scooters that go up to 120 km h",
+    "build agent memory with nvidia nemo agent toolkit and amazon s3 vectors",
+    "rains swamp the gandak river",
+    "apod 2026 october 2 the complete sharpless catalog 313 nebulas",
+    "implementing multi environment access for claude platform on aws",
+    "amid the push to build canadian a quebec train factory is booming",
+    "3 questions a new resource to empower young entrepreneurs",
+    "latvians head to the polls with russia on their minds",
+    "eu ministers mull new ways to curb irregular migration",
+    "new details intensify scrutiny of cornell s handling of gang rape allegations",
+    "ny s governor appoints special prosecutor in cornell frat rape investigation",
+    "news wrap supreme court to review mandatory detention policy for migrants",
+    "the u s senate is up for grabs can this ohio democrat win back working class votes",
+    "pro democracy activists increasingly vulnerable to authoritarian governments in asia",
+    "the eternal complement",
+    "indigenous groups given just 2 months to consult on pacific link pipeline designation",
+    "what we know about christa pike s condition after failed execution",
+    "surprisingly complex waves reveal the brain s inner workings"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -2402,12 +2422,32 @@
     "https://openai.com/index/the-den-family-social",
     "https://www.quantamagazine.org/what-does-the-fourth-dimension-actually-look-like-20261001/",
     "https://globalnews.ca/news/12084154/texas-diesel-state-of-emergency/",
-    "https://openai.com/index/devday-2026-recap"
+    "https://openai.com/index/devday-2026-recap",
+    "https://arstechnica.com/security/2026/10/hacks-of-2-federal-agencies-in-a-month-have-spilled-a-bonanza-of-sensitive-data/",
+    "https://arstechnica.com/science/2026/10/venus-mysterious-haze-is-actually-cosmic-dust/",
+    "https://www.cbc.ca/news/marketplace/e-bikes-e-scooters-9.7363992?cmp=rss",
+    "https://aws.amazon.com/blogs/machine-learning/build-agent-memory-with-nvidia-nemo-agent-toolkit-and-amazon-s3-vectors/",
+    "https://science.nasa.gov/earth/earth-observatory/rains-swamp-the-gandak-river/",
+    "https://science.nasa.gov/image-article/apod-2026-october-2-the-complete-sharpless-catalog-313-nebulae/",
+    "https://aws.amazon.com/blogs/machine-learning/implementing-multi-environment-access-for-claude-platform-on-aws/",
+    "https://www.cbc.ca/news/canada/build-canadian-quebec-train-factory-booming-9.7365996?cmp=rss",
+    "https://news.mit.edu/2026/3-questions-new-resource-empower-young-entrepreneurs-1002",
+    "https://www.dw.com/en/latvians-head-to-the-polls-with-russia-on-their-minds/a-79477614?maca=en-rss-en-world-4025-rdf",
+    "https://www.dw.com/en/eu-ministers-mull-new-ways-to-curb-irregular-migration/a-79509375?maca=en-rss-en-world-4025-rdf",
+    "https://www.pbs.org/newshour/show/new-details-intensify-scrutiny-of-cornells-handling-of-gang-rape-allegations",
+    "https://www.bbc.co.uk/news/articles/cr1585y0y90go",
+    "https://www.pbs.org/newshour/show/news-wrap-supreme-court-to-review-mandatory-detention-policy-for-migrants",
+    "https://www.npr.org/2026/10/02/nx-s1-5981096/ohio-senate-sherrod-brown-labor-workers",
+    "https://www.npr.org/2026/10/02/g-s1-146064/pro-democracy-activists-asia-authoritarian-governments",
+    "https://openai.com/index/the-eternal-complement",
+    "https://globalnews.ca/news/12084779/pacific-link-pipeline-indigenous-consultation/",
+    "https://www.bbc.co.uk/news/videos/cwe8e82jgm8po",
+    "https://www.quantamagazine.org/surprisingly-complex-waves-reveal-the-brains-inner-workings-20260930/"
   ],
   "initialized": true,
-  "cycleCount": 80,
+  "cycleCount": 81,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-10-02T00:49:38.795Z",
+  "lastRunAt": "2026-10-02T09:49:30.706Z",
   "communities": [
     "technology",
     "science",
@@ -2429,11 +2469,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20260930T200334Z-e398",
-      "generatedAtCycle": 76,
-      "summary": "A barbershop pole's trick, repurposed for butterfly wings; Google's AI answer payments: about a tenth of a percent of ad revenue; The Q2 revision that lifted real personal income — and sharpened an old gap; A degree that does not always travel with a Ukrainian refugee; Saphier's Surgeon General Bid Clears Committee 12–11; Arizona State Hockey Coach on Paid Leave After a Prospect's Collapse; Before Crops Grow on the Moon, They Get a Test Plot on Earth; Iran Weighs Leaving a Nuclear Non-Proliferat"
-    },
-    {
       "batchId": "20261001T003431Z-7cca",
       "generatedAtCycle": 77,
       "summary": "A Zimbra bug let attackers run commands without logging in, and the patch sat undisclosed for weeks; Hot water in the impact rock: a hydrothermal system that ran for 8 million years; Richmound's mayor is stepping down, three years after a cult moved in; Five EU governments move ahead with deportation centres outside the bloc; An Aid Group Says Gaza's 'Yellow Line' Is Still Creeping West; U.S. Forces Withdraw From Iraq, and PBS Asks What Comes Next; PISA 2025: A 28-Point Reading Drop Across the O"
@@ -2452,6 +2487,11 @@
       "batchId": "20261002T004938Z-0529",
       "generatedAtCycle": 80,
       "summary": "What a Robotaxi Removes Besides the Driver; The Kennedy Center's Blue Sculpture Comes Down; AWS Says Four Agents Cut Infrastructure-as-Code Work to Minutes; A Judge Dismisses Chegg and Penske's Antitrust Suits Against Google; Crew-13 Launches With a Canadian Astronaut Aboard; Hegseth's Two Pentagon Projects: Culture and Autonomy; The Numbers in an AI-Built App Were Frozen at Publish Time; Transportation's Emissions Share: a Quarter Nationally, 40 Per Cent in Metro Vancouver; Why an AI-drawn mug "
+    },
+    {
+      "batchId": "20261002T094930Z-4cbb",
+      "generatedAtCycle": 81,
+      "summary": "2.8 Million Records, Including the Field That Helps Find High-Value Troops; Venus's Yellow Haze Is Meteor Dust With a Sulfuric Acid Coat; Hidden Cameras Found Shops Selling E-Bikes and E-Scooters Past Provincial Speed Limits; Four Requirements AWS Puts on Agent Memory; The Gandak River, nine days apart; 313 nebulas, around 800 hours; One subscription, three ways in: AWS's access pattern for Claude; A battered Quebec rail plant expands on domestic orders; MIT packages its venture-starting framewo"
     }
   ]
 }
