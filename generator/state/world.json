@@ -1280,7 +1280,27 @@
     "the next canada groceries and essentials benefit goes out on monday",
     "indie filmmakers push back against claims that there aren t enough movies to buy",
     "october 1 ushered in a new era in u s foreign aid what s the plan will it work",
-    "a model guide for the gpt 6 family"
+    "a model guide for the gpt 6 family",
+    "patient zero drill put health facilities to the test 40 of them failed",
+    "nasa s davinci probe can stand the heat",
+    "us arrests tech ceo accused of smuggling 300m in nvidia chips into china",
+    "all s fair in love and war a well cast classy trashy divorce drama",
+    "skydance shuffle david ellison addresses troops about new name says adieu to mike and pam and sets table for barbie 2",
+    "chatham scales its capital markets expertise with openai",
+    "stephen harper warns alberta separatism will bring no benefit",
+    "morocco s first female head of government symbol or real reform",
+    "nasa astronaut christina koch to join nfl fans in philadelphia",
+    "what does elections alberta s compliance agreement with forever canadian mean",
+    "another oilsands boom smith carney say this time canada will be ready",
+    "17 best new movies streaming in october the invite disclosure day evil dead burn and more",
+    "behemoth review pedro pascal hits all the right notes in tony gilroy s lyrical love letter to the music of the movies new york film festival",
+    "dedicated river valley space for homeless encampments debated in edmonton",
+    "news wrap new york ag appointed as special prosecutor in cornell rape case",
+    "michael de luca pamela abdy when they are leaving warner bros what s next for them",
+    "judge halts border wall construction in texas big bend region for now",
+    "what has the last decade at netflix done for david fincher",
+    "rising energy costs add to cost of living for northern ireland s consumers",
+    "openai fires workers for mishandling sensitive information"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -2562,12 +2582,32 @@
     "https://globalnews.ca/news/12085607/canada-groceries-and-essentials-benefit-october/",
     "https://www.indiewire.com/features/interviews/indie-filmmakers-push-back-movie-shortage-claims-1235219759/",
     "https://www.npr.org/2026/10/02/g-s1-146042/foreign-aid-united-states-healthcare-america-first",
-    "https://openai.com/index/practical-guide-building-gpt-6"
+    "https://openai.com/index/practical-guide-building-gpt-6",
+    "https://arstechnica.com/health/2026/10/patient-zero-drill-put-health-facilities-to-the-test-40-of-them-failed/",
+    "https://www.nasa.gov/image-article/nasas-davinci-probe-can-stand-the-heat/",
+    "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/",
+    "https://www.npr.org/2026/10/03/nx-s1-5983443/war-hbo-divorce-dominic-west-sienna-miller",
+    "https://variety.com/2026/film/news/david-ellison-skydance-name-mike-pam-barbie-2-1236897929/",
+    "https://openai.com/index/chatham-financial",
+    "https://www.cbc.ca/news/canada/calgary/stephen-harper-alberta-separatism-9.7367419?cmp=rss",
+    "https://www.dw.com/en/morocco-s-first-female-head-of-government-symbol-or-real-reform/a-79521808?maca=en-rss-en-world-4025-rdf",
+    "https://www.nasa.gov/news-release/nasa-astronaut-christina-koch-to-join-nfl-fans-in-philadelphia/",
+    "https://www.cbc.ca/news/canada/edmonton/forever-canadian-elections-alberta-compliance-agreement-9.7368023?cmp=rss",
+    "https://globalnews.ca/news/12085908/pacific-link-pipeline-alberta-oilsands-prosperity/",
+    "https://variety.com/lists/best-movies-streaming-october-2026/",
+    "https://deadline.com/2026/10/behemoth-review-pedro-pascal-tony-gilroy-olivia-wilde-nyff-1237144011/",
+    "https://globalnews.ca/news/12086351/edmonton-river-valley-homeless-encampments/",
+    "https://www.pbs.org/newshour/show/news-wrap-new-york-ag-appointed-as-special-prosecutor-in-cornell-rape-case",
+    "https://deadline.com/2026/10/warner-bros-michael-de-luca-pam-abdy-whats-next-1237145671/",
+    "https://www.pbs.org/newshour/nation/judge-halts-border-wall-construction-in-texas-big-bend-region-for-now",
+    "https://www.indiewire.com/news/analysis/david-fincher-netflix-deal-expiring-mindhunter-cliff-booth-1235219429/",
+    "https://www.bbc.co.uk/news/articles/c5j9x99yep92o",
+    "https://www.bbc.co.uk/news/articles/c6y9z9r4ejzwo"
   ],
   "initialized": true,
-  "cycleCount": 84,
+  "cycleCount": 85,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-10-03T05:21:47.339Z",
+  "lastRunAt": "2026-10-03T11:42:23.487Z",
   "communities": [
     "technology",
     "science",
@@ -2589,11 +2629,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20261002T004938Z-0529",
-      "generatedAtCycle": 80,
-      "summary": "What a Robotaxi Removes Besides the Driver; The Kennedy Center's Blue Sculpture Comes Down; AWS Says Four Agents Cut Infrastructure-as-Code Work to Minutes; A Judge Dismisses Chegg and Penske's Antitrust Suits Against Google; Crew-13 Launches With a Canadian Astronaut Aboard; Hegseth's Two Pentagon Projects: Culture and Autonomy; The Numbers in an AI-Built App Were Frozen at Publish Time; Transportation's Emissions Share: a Quarter Nationally, 40 Per Cent in Metro Vancouver; Why an AI-drawn mug "
-    },
-    {
       "batchId": "20261002T094930Z-4cbb",
       "generatedAtCycle": 81,
       "summary": "2.8 Million Records, Including the Field That Helps Find High-Value Troops; Venus's Yellow Haze Is Meteor Dust With a Sulfuric Acid Coat; Hidden Cameras Found Shops Selling E-Bikes and E-Scooters Past Provincial Speed Limits; Four Requirements AWS Puts on Agent Memory; The Gandak River, nine days apart; 313 nebulas, around 800 hours; One subscription, three ways in: AWS's access pattern for Claude; A battered Quebec rail plant expands on domestic orders; MIT packages its venture-starting framewo"
@@ -2612,6 +2647,11 @@
       "batchId": "20261003T052147Z-84c8",
       "generatedAtCycle": 84,
       "summary": "Apple Curbs a macOS Permission It Says Developers Misused to Reach Message Histories; Doom at 35 Frames a Second, Computed in Database Queries; Brazil's Presidential Election: Lula Against Flávio Bolsonaro; A Festival Built So Muslim Filmmakers Can Tell Their Own Stories; NASA Is Hiring Flight Directors for the Space Station, Artemis and, Later, Mars; Iranians Tell DW Their SIM Cards and Bank Access Were Blocked Until They Deleted Critical Content; A Daily Wire Production in Montana Drew Protest"
+    },
+    {
+      "batchId": "20261003T114223Z-ffe6",
+      "generatedAtCycle": 85,
+      "summary": "Only 60 Percent of Facilities Passed a Regional Outbreak Drill; Heating a Venus Probe at the Pace of Its Own Descent; The US Arrested a CEO Over Servers Worth $300M That Were Allegedly China-Bound; HBO's 'War' Opens With Two Law Firms and One Very Nasty Divorce; The Paramount Lot's Busy Week Before Skydance Closes on Warner Bros. Discovery; Chatham Says It Cut Trade Validation From 30 Minutes to Under 4; Harper's Warning Targets the 'Message' Vote, Not Just Separation; Morocco's First Female Pri"
     }
   ]
 }

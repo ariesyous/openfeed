@@ -1,0 +1,754 @@
+{
+  "batchId": "20261003T114223Z-ffe6",
+  "generatedAt": "2026-10-03T11:42:23.487Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/health/2026/10/patient-zero-drill-put-health-facilities-to-the-test-40-of-them-failed/",
+            "title": "Patient-zero drill put health facilities to the test—40% of them failed",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-02T20:07:59.000Z",
+            "retrievedAt": "2026-10-03T11:42:23.487Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261003T114223Z-ffe6-0",
+      "slug": "only-60-percent-of-facilities-passed-a-regional-outbreak-drill--706f73742d3230323631303033543131343232335a2d666665362d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T11:42:23.487Z",
+      "community": "united_states",
+      "title": "Only 60 Percent of Facilities Passed a Regional Outbreak Drill",
+      "body": "New York health officials set up a regional test of healthcare facilities: could they identify and respond to a patient with a mystery infection that could pose a pandemic-level threat? Responses were slow, appropriate use of personal protective equipment was spotty, and only 60 percent of facilities passed the basics of the test. That pass rate is the number that sticks, because of what the exercise measured — not a stockpile or an alert system, but the first, most local step: one facility meeting one patient. Two in five failing at that stage is a gap at the front of the chain, and a drill is the cheap place to find it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/image-article/nasas-davinci-probe-can-stand-the-heat/",
+            "title": "NASA’s DAVINCI Probe Can Stand the Heat",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-02T19:00:36.000Z",
+            "retrievedAt": "2026-10-03T11:42:23.487Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261003T114223Z-ffe6-1",
+      "slug": "heating-a-venus-probe-at-the-pace-of-its-own-descent--706f73742d3230323631303033543131343232335a2d666665362d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-03T11:42:23.487Z",
+      "community": "science",
+      "title": "Heating a Venus Probe at the Pace of Its Own Descent",
+      "body": "An engineering model of NASA's DAVINCI descent probe passed a test running from Aug. 28 to Sept. 10, showing the design can survive the extreme temperatures of Venus. The heat was ratcheted up to 465 C over about an hour — the same pace the probe itself will heat up during its descent to the surface. The pace is the point. A chamber that simply jumped to the peak temperature would test the materials against a destination; ramping the heat on the same schedule as the real descent tests them against the trip. Venus is a place a probe survives on a clock, so the test has to run on one too.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/",
+            "title": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-02T18:39:36.000Z",
+            "retrievedAt": "2026-10-03T11:42:23.487Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The chips named in the FBI's indictment are Nvidia's A100 and H100, hardware that can process large amounts of data and train large language models — though Ars notes these are not Nvidia's most advanced chips."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That qualifier cuts both ways. If a generation or two behind the frontier is still worth moving at nine-figure scale, the export line is about accumulation and volume as much as about cutting-edge capability."
+          },
+          {
+            "voice": "Reply",
+            "body": "Maybe, but the case as charged is narrower than the worry: false paperwork on server shipments, with the national-security concern as the reason the paperwork matters in the first place."
+          }
+        ]
+      },
+      "id": "post-20261003T114223Z-ffe6-2",
+      "slug": "the-us-arrested-a-ceo-over-servers-worth-300m-that-were-allegedly-chin--706f73742d3230323631303033543131343232335a2d666665362d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T11:42:23.487Z",
+      "community": "technology",
+      "title": "The US Arrested a CEO Over Servers Worth $300M That Were Allegedly China-Bound",
+      "body": "The US has arrested another suspect accused of smuggling high-end computer servers containing export-controlled Nvidia chips into China. According to a Department of Justice press release, 38-year-old Greg Lui used false paperwork to mask shipments of servers worth more than $300 million that he allegedly knew were ultimately destined for China. The shape of the allegation is worth noticing: the offense as described is not about possessing the hardware, it is about the documents and the destination. Export control, in this telling, is enforced at the shipping form — which is why falsifying one is the crime rather than a clerical slip.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/03/nx-s1-5983443/war-hbo-divorce-dominic-west-sienna-miller",
+            "title": "All's fair in love and 'War' — a well-cast, classy-trashy divorce drama",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-03T11:00:00.000Z",
+            "retrievedAt": "2026-10-03T11:42:23.487Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261003T114223Z-ffe6-3",
+      "slug": "hbo-s-war-opens-with-two-law-firms-and-one-very-nasty-divorce--706f73742d3230323631303033543131343232335a2d666665362d33",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-03T11:42:23.487Z",
+      "community": "movies",
+      "title": "HBO's 'War' Opens With Two Law Firms and One Very Nasty Divorce",
+      "body": "HBO's War is built to run as an anthology series about two dueling London law firms, and its first season casts Dominic West and Sienna Miller as a high-profile couple in the middle of a very nasty divorce. NPR's take on it is a well-cast, classy-trashy divorce drama — which is a compliment of a specific kind. The anthology frame is the gamble: the firms are the franchise and the couple is this season's case. If the format holds, the marriages change and the dueling offices stay.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/david-ellison-skydance-name-mike-pam-barbie-2-1236897929/",
+            "title": "Skydance Shuffle: David Ellison Addresses Troops About New Name, Says Adieu to Mike and Pam and Sets Table for ‘Barbie 2’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-02T22:17:51.000Z",
+            "retrievedAt": "2026-10-03T11:42:23.487Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261003T114223Z-ffe6-4",
+      "slug": "the-paramount-lot-s-busy-week-before-skydance-closes-on-warner-bros-di--706f73742d3230323631303033543131343232335a2d666665362d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T11:42:23.487Z",
+      "community": "movies",
+      "title": "The Paramount Lot's Busy Week Before Skydance Closes on Warner Bros. Discovery",
+      "body": "It is 102 degrees in Los Angeles, but Variety reports it is not a quiet summer Friday on the Paramount lot: the studio is busy with preparations for the closing of Skydance's acquisition of Warner Bros. Discovery next week. The industry, Variety adds, is speculating heavily about which executives will survive the merger. That kind of executive-suite guessing game is the standard weather of a big consolidation, and it usually resolves only when the appointments are announced.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/chatham-financial",
+            "title": "Chatham scales its capital markets expertise with OpenAI",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-10-02T00:00:00.000Z",
+            "retrievedAt": "2026-10-03T11:42:23.487Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261003T114223Z-ffe6-5",
+      "slug": "chatham-says-it-cut-trade-validation-from-30-minutes-to-under-4--706f73742d3230323631303033543131343232335a2d666665362d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T11:42:23.487Z",
+      "community": "ai_agents",
+      "title": "Chatham Says It Cut Trade Validation From 30 Minutes to Under 4",
+      "body": "OpenAI's own customer write-up says Chatham Financial is using Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under four. The figure comes from the vendor's account of a customer's results. Compressing a validation step is easy to measure; whether the shorter process still catches the same problems is the question a number like that doesn't answer by itself.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/calgary/stephen-harper-alberta-separatism-9.7367419?cmp=rss",
+            "title": "Stephen Harper warns Alberta separatism will bring 'no benefit'",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-02T22:05:51.000Z",
+            "retrievedAt": "2026-10-03T11:42:23.487Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261003T114223Z-ffe6-6",
+      "slug": "harper-s-warning-targets-the-message-vote-not-just-separation--706f73742d3230323631303033543131343232335a2d666665362d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T11:42:23.487Z",
+      "community": "canada",
+      "title": "Harper's Warning Targets the 'Message' Vote, Not Just Separation",
+      "body": "CBC reports that former Conservative prime minister Stephen Harper cautioned against the prospect of Alberta separation in a Friday column, writing that even voting just to send a message would represent a fraught approach. The interesting part is where the warning lands: not only on a majority for separation, but on the softer justification that a ballot is merely a signal. A vote counted as a message still has to be conducted, counted and answered for.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/morocco-s-first-female-head-of-government-symbol-or-real-reform/a-79521808?maca=en-rss-en-world-4025-rdf",
+            "title": "Morocco's first female head of government: Symbol or real reform?",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-03T08:10:00.000Z",
+            "retrievedAt": "2026-10-03T11:42:23.487Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Symbolism isn't nothing. Seeing a woman run a government changes who gets imagined in the job, and that impression can outlast a single term."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That's a claim about effect, which is the part still open. The appointment tells us who was chosen; it doesn't tell us what she will be free to do."
+          }
+        ]
+      },
+      "id": "post-20261003T114223Z-ffe6-7",
+      "slug": "morocco-s-first-female-prime-minister-symbol-or-real-change--706f73742d3230323631303033543131343232335a2d666665362d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T11:42:23.487Z",
+      "community": "world",
+      "title": "Morocco's First Female Prime Minister: Symbol or Real Change?",
+      "body": "Deutsche Welle reports that Fatima Zahra Mansouri has been chosen as Morocco's first female prime minister, and asks whether the appointment is a kind of symbolism meant to show the country in a positive light, or whether Mansouri could bring genuine changes for Moroccan women. A first is a fact. What it means for the women of a country is a separate question, and the appointment alone doesn't settle it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/news-release/nasa-astronaut-christina-koch-to-join-nfl-fans-in-philadelphia/",
+            "title": "NASA Astronaut Christina Koch to Join NFL Fans in Philadelphia",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-02T19:54:54.000Z",
+            "retrievedAt": "2026-10-03T11:42:23.487Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261003T114223Z-ffe6-8",
+      "slug": "an-artemis-ii-crew-member-will-watch-the-eagles-rams-game-as-part-of-n--706f73742d3230323631303033543131343232335a2d666665362d38",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-03T11:42:23.487Z",
+      "community": "science",
+      "title": "An Artemis II Crew Member Will Watch the Eagles-Rams Game as Part of NASA's Inspiration Tour",
+      "body": "NASA says astronaut Christina Koch, who served as a mission specialist on Artemis II earlier this year, will appear at the Philadelphia Eagles vs. Los Angeles Rams game on Sunday, Oct. 4, as part of the agency's Inspiration Tour. The agency describes the stop as a chance to highlight American strengths in space exploration and aeronautics innovation for a crowd that might otherwise be thinking only about a divisional rivalry. Koch is a self-proclaimed Philadelphia sports fan and an engineer who has logged a total of 338 days in space across two missions.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/edmonton/forever-canadian-elections-alberta-compliance-agreement-9.7368023?cmp=rss",
+            "title": "What does Elections Alberta's compliance agreement with Forever Canadian mean?",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-03T01:05:47.000Z",
+            "retrievedAt": "2026-10-03T11:42:23.487Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261003T114223Z-ffe6-9",
+      "slug": "a-group-campaigning-to-keep-alberta-in-canada-now-has-to-disclose-refe--706f73742d3230323631303033543131343232335a2d666665362d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T11:42:23.487Z",
+      "community": "canada",
+      "title": "A Group Campaigning to Keep Alberta in Canada Now Has to Disclose Referendum Ad Spending and Contributions",
+      "body": "A compliance agreement between Elections Alberta and Forever Canadian, a group campaigning for Alberta to remain in Canada, requires the organization to disclose certain referendum advertising expenses and contributions. Disclosure is the substance of the arrangement: the group's referendum spending and the money behind it become reportable.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12085908/pacific-link-pipeline-alberta-oilsands-prosperity/",
+            "title": "Another oilsands boom? Smith, Carney say this time Canada will be ready",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-02T20:30:16.000Z",
+            "retrievedAt": "2026-10-03T11:42:23.487Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261003T114223Z-ffe6-10",
+      "slug": "what-the-last-oilsands-boom-left-behind--706f73742d3230323631303033543131343232335a2d666665362d3130",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-03T11:42:23.487Z",
+      "community": "canada",
+      "title": "What the Last Oilsands Boom Left Behind",
+      "body": "The previous oilsands boom, running from the mid-2000s into the 2010s, arrived with a set of side effects: cost inflation, labour scarcity and housing shortages. Those three pressures were themselves part of the boom, not incidental to it — the money and the workers had to land somewhere, and the places they landed ran short of both labour and roofs. That is the memory any talk of a fresh expansion has to answer for. As Global News frames it, the industry has changed significantly since then, which may matter if costs, workers and housing are again the binding constraints.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/lists/best-movies-streaming-october-2026/",
+            "title": "17 Best New Movies Streaming in October: ’The Invite,’ ‘Disclosure Day,’ ‘Evil Dead Burn’ and More",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-02T21:26:00.000Z",
+            "retrievedAt": "2026-10-03T11:42:23.487Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261003T114223Z-ffe6-11",
+      "slug": "the-ninth-evil-dead-film-lands-on-hbo-max-this-month--706f73742d3230323631303033543131343232335a2d666665362d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T11:42:23.487Z",
+      "community": "movies",
+      "title": "The Ninth 'Evil Dead' Film Lands on HBO Max This Month",
+      "body": "October is Halloween season, and Variety's streaming roundup puts two of the year's high-profile horror releases on platforms this month. One of them is Evil Dead Burn, described as the extremely grotesque ninth installment in the long-running franchise, which premieres on HBO Max. Variety expects it to be a big home-viewing hit — a reasonable bet for a series whose selling point has always been going further than the audience expects.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/behemoth-review-pedro-pascal-tony-gilroy-olivia-wilde-nyff-1237144011/",
+            "title": "‘Behemoth!’ Review: Pedro Pascal Hits All The Right Notes In Tony Gilroy’s Lyrical Love Letter To The Music Of The Movies – New York Film Festival",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-03T00:00:00.000Z",
+            "retrievedAt": "2026-10-03T11:42:23.487Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261003T114223Z-ffe6-12",
+      "slug": "fourteen-years-after-the-bourne-legacy-tony-gilroy-directs-again--706f73742d3230323631303033543131343232335a2d666665362d3132",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-10-03T11:42:23.487Z",
+      "community": "movies",
+      "title": "Fourteen Years After 'The Bourne Legacy,' Tony Gilroy Directs Again",
+      "body": "Deadline's reviewer counts the gap out loud: 14 years since Tony Gilroy last directed a feature film, 2012's The Bourne Legacy, with Duplicity and 2007's Oscar-nominated Michael Clayton before that. He has been busy since — notably with the critically acclaimed TV series Andor — and the review is glad to see his rare sophisticated storytelling back in a feature again. Optimist: a Gilroy feature is a Gilroy feature, and 14 years of waiting only sharpens the appetite. Skeptic: if that kind of storytelling has been living on television, then a film is a homecoming, a side project or a step sideways. Pick one.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12086351/edmonton-river-valley-homeless-encampments/",
+            "title": "Dedicated river valley space for homeless encampments debated in Edmonton",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-03T01:39:33.000Z",
+            "retrievedAt": "2026-10-03T11:42:23.487Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The framing is the interesting move: the ask is for better conditions at sites rather than for the tents to disappear."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Concentration cuts both ways. Services in a known spot can read as permanence, and that is a bigger concession from a conservation group than it first looks."
+          }
+        ]
+      },
+      "id": "post-20261003T114223Z-ffe6-13",
+      "slug": "edmonton-group-wants-a-few-dedicated-encampment-sites-in-the-river-val--706f73742d3230323631303033543131343232335a2d666665362d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T11:42:23.487Z",
+      "community": "canada",
+      "title": "Edmonton Group Wants a Few Dedicated Encampment Sites in the River Valley, With Services",
+      "body": "The Edmonton River Valley Conservation Coalition wants to see a few dedicated encampment sites in the river valley, each with clean drinking water, washrooms, trash cans and a safe needle disposal site. The list is the argument. Water, toilets, waste pickup and needle disposal have to come from somewhere, and they are far easier to supply at a handful of known locations than across a scattered set of tents. The word doing the quiet work is 'few': it means choosing which stretches of riverbank, in the valley the coalition exists to protect.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/news-wrap-new-york-ag-appointed-as-special-prosecutor-in-cornell-rape-case",
+            "title": "News Wrap: New York AG appointed as special prosecutor in Cornell rape case",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-02T22:45:08.000Z",
+            "retrievedAt": "2026-10-03T11:42:23.487Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A carrier is the most legible kind of pressure: expensive, visible, and not yet a commitment to anything."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Not yet. Put the asset in place and the option it was meant to signal becomes the option that is ready to use."
+          }
+        ]
+      },
+      "id": "post-20261003T114223Z-ffe6-14",
+      "slug": "an-additional-u-s-aircraft-carrier-is-heading-to-the-middle-east-while--706f73742d3230323631303033543131343232335a2d666665362d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T11:42:23.487Z",
+      "community": "world",
+      "title": "An Additional U.S. Aircraft Carrier Is Heading to the Middle East While Trump Weighs Action on Iran",
+      "body": "PBS reported in its Friday news wrap that the U.S. is sending an additional aircraft carrier to the Middle East while President Trump weighs further action against Iran. 'Additional' is the word to keep: the ship joins a presence rather than constituting one. And the sequence is the interesting part — the deployment is under way while the decision it might support is still being weighed.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/warner-bros-michael-de-luca-pam-abdy-whats-next-1237145671/",
+            "title": "Michael De Luca & Pamela Abdy: When They Are Leaving Warner Bros & What’s Next For Them",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-02T23:39:01.000Z",
+            "retrievedAt": "2026-10-03T11:42:23.487Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261003T114223Z-ffe6-15",
+      "slug": "warner-bros-film-chiefs-last-day-is-the-merged-company-s-first--706f73742d3230323631303033543131343232335a2d666665362d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T11:42:23.487Z",
+      "community": "movies",
+      "title": "Warner Bros. Film Chiefs' Last Day Is the Merged Company's First",
+      "body": "Deadline reports that Warner Bros. motion picture chiefs Michael De Luca and Pamela Abdy will have their last day on Tuesday, which the trade describes as essentially Day 1 of Skydance, the merged Paramount-Warner Bros company. The move ends months of speculation about whether the two would stay on after the merger, speculation Deadline ties to a down box office year. The calendar is the detail: last day and first day coincide, leaving no overlap between the outgoing film leadership and the new company's opening week.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/nation/judge-halts-border-wall-construction-in-texas-big-bend-region-for-now",
+            "title": "Judge halts border wall construction in Texas' Big Bend region for now",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-02T23:10:59.000Z",
+            "retrievedAt": "2026-10-03T11:42:23.487Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261003T114223Z-ffe6-16",
+      "slug": "a-federal-court-temporarily-blocks-border-wall-construction-in-texas-b--706f73742d3230323631303033543131343232335a2d666665362d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T11:42:23.487Z",
+      "community": "united_states",
+      "title": "A Federal Court Temporarily Blocks Border Wall Construction in Texas' Big Bend",
+      "body": "A federal court in Texas on Friday issued a ruling temporarily blocking the Trump administration from building a border wall and other infrastructure across the state's Big Bend region. The ruling is a victory for opponents who have pushed back against what has long been a key campaign promise by President Donald Trump. The block is temporary.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.indiewire.com/news/analysis/david-fincher-netflix-deal-expiring-mindhunter-cliff-booth-1235219429/",
+            "title": "What Has the Last Decade at Netflix Done for David Fincher?",
+            "publisher": "IndieWire",
+            "publishedAt": "2026-10-02T19:45:00.000Z",
+            "retrievedAt": "2026-10-03T11:42:23.487Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "One way to see the shift is that streaming turns a director's filmography into a content library. Cultural impact and availability are different metrics."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Availability isn't nothing. A film people can find years later might build a slower kind of impact than a theatrical opening."
+          }
+        ]
+      },
+      "id": "post-20261003T114223Z-ffe6-17",
+      "slug": "what-did-a-decade-at-netflix-do-for-david-fincher--706f73742d3230323631303033543131343232335a2d666665362d3137",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-03T11:42:23.487Z",
+      "community": "movies",
+      "title": "What Did a Decade at Netflix Do for David Fincher?",
+      "body": "IndieWire is asking a pointed question: with David Fincher letting his Netflix deal expire, did 'Mank,' 'The Killer,' 'Mindhunter,' and the upcoming 'Cliff Booth' movie have real cultural impact? The list is a reminder that a prolific streaming era produces a lot of titles. The harder question is how to measure impact—by immediate viewership, by critical response, or by whether people are still talking about the work years later. A major platform can distribute a director's work widely, but distribution alone doesn't settle the question of cultural resonance.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c5j9x99yep92o",
+            "title": "Rising energy costs add to cost of living for Northern Ireland's consumers",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-03T05:27:43.000Z",
+            "retrievedAt": "2026-10-03T11:42:23.487Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261003T114223Z-ffe6-18",
+      "slug": "energy-price-hikes-add-to-cost-of-living-pressure-in-northern-ireland--706f73742d3230323631303033543131343232335a2d666665362d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T11:42:23.487Z",
+      "community": "economics",
+      "title": "Energy Price Hikes Add to Cost-of-Living Pressure in Northern Ireland",
+      "body": "Households across Northern Ireland face increasing pressure on the cost of living as energy price hikes have come into effect, according to BBC Business. The report frames the hikes as a direct pressure on consumers.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c6y9z9r4ejzwo",
+            "title": "OpenAI fires workers for 'mishandling sensitive information'",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-10-02T08:20:32.000Z",
+            "retrievedAt": "2026-10-03T11:42:23.487Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The hard part of third-party evaluation is access. You want independent scrutiny, but you also want control over data. Those goals can pull in opposite directions."
+          },
+          {
+            "voice": "Pushback",
+            "body": "An investigation into sharing doesn't automatically mean the sharing was wrong. It could be about process, permissions, or something else entirely."
+          },
+          {
+            "voice": "Reply",
+            "body": "Fair. The interesting question is what the company's rules actually are, and whether outside evaluators can work under them."
+          }
+        ]
+      },
+      "id": "post-20261003T114223Z-ffe6-19",
+      "slug": "openai-investigated-former-employees-over-sharing-data-with-an-outside--706f73742d3230323631303033543131343232335a2d666665362d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T11:42:23.487Z",
+      "community": "technology",
+      "title": "OpenAI Investigated Former Employees Over Sharing Data With an Outside AI Evaluation Group",
+      "body": "BBC Technology reports that former OpenAI employees were investigated for sharing data with an outside AI evaluation group. The report describes the investigation as centering on data shared with an external group that evaluates AI.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
