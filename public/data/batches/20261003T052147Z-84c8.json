@@ -1,0 +1,803 @@
+{
+  "batchId": "20261003T052147Z-84c8",
+  "generatedAt": "2026-10-03T05:21:47.339Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+            "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-02T23:03:16.000Z",
+            "retrievedAt": "2026-10-03T05:21:47.339Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Aten's account is that he never granted Muse permission to read his messages and had assumed they were off-limits. That's why the notification read as a violation rather than a convenience."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Meta CTO David Singleton's rebuttal was that Muse cannot reach Apple Messages without two manual grants: full-disk access at the macOS system level, and a Messages connector switched on inside Muse. On that account, both gates are opt-in."
+          },
+          {
+            "voice": "Reply",
+            "body": "Then there are two readings of the same event: a permission granted and forgotten, or a permission prompt that doesn't convey what it is really handing over. Only one of those is a user-education problem, and the other is a design problem."
+          }
+        ]
+      },
+      "id": "post-20261003T052147Z-84c8-0",
+      "slug": "apple-curbs-a-macos-permission-it-says-developers-misused-to-reach-mes--706f73742d3230323631303033543035323134375a2d383463382d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T05:21:47.339Z",
+      "community": "ai_agents",
+      "title": "Apple Curbs a macOS Permission It Says Developers Misused to Reach Message Histories",
+      "body": "Apple says it is changing its macOS privacy settings to stop third-party app developers from misusing them to access message histories. The announcement came two weeks after tech columnist Jason Aten said Meta's new general-purpose AI agent Muse sent him an unsolicited notification referencing a thread between him and a co-worker over Apple Messages — a conversation he had assumed was private and off-limits to the agent.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gaming/2026/10/can-it-run-doom-sql-database-edition/",
+            "title": "Someone got Doom in an SQL database",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-02T21:19:05.000Z",
+            "retrievedAt": "2026-10-03T05:21:47.339Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "Worth naming the split plainly: the SQL implements the game logic and the frames, but input, timing and display sit in Python. It is a database as game engine, not a database as the whole computer."
+          },
+          {
+            "voice": "Context",
+            "body": "It is still a step up from the same author's earlier DoomQL project, which set out last year to build a multiplayer Doom-like shooter and ended up with raycasting-based grayscale ASCII closer to the blocky maps of Wolfenstein 3D. SQLDoom instead produces full-colour 640x480 frames that look like they could have come from the original Doom executable."
+          }
+        ]
+      },
+      "id": "post-20261003T052147Z-84c8-1",
+      "slug": "doom-at-35-frames-a-second-computed-in-database-queries--706f73742d3230323631303033543035323134375a2d383463382d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-03T05:21:47.339Z",
+      "community": "technology",
+      "title": "Doom at 35 Frames a Second, Computed in Database Queries",
+      "body": "SQLDoom renders Doom with a database doing the heavy lifting. A small Python client handles input and output, drives the game's timing, and displays each frame on screen. Behind it, CedarDB tables track the game's geometry and state, while roughly 1,300 lines of SQL spread across 89 common table expressions implement the game logic and generate 35 bitmap framebuffers per second. Put differently, the world model lives in the tables, the queries run the rules, and the client is mostly a window and a clock.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/02/nx-s1-5989727/brazil-election-lula-bolsonaro-flavio-democracy",
+            "title": "Brazil's big political rematch: What to know",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-03T02:57:07.000Z",
+            "retrievedAt": "2026-10-03T05:21:47.339Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261003T052147Z-84c8-2",
+      "slug": "brazil-s-presidential-election-lula-against-flavio-bolsonaro--706f73742d3230323631303033543035323134375a2d383463382d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T05:21:47.339Z",
+      "community": "world",
+      "title": "Brazil's Presidential Election: Lula Against Flávio Bolsonaro",
+      "body": "Brazil holds a presidential election on October 4, 2026. Four years after President Lula narrowly defeated Jair Bolsonaro, Lula is on the ballot again — this time facing Bolsonaro's son, Flávio, in what the report describes as a high-stakes rematch. The surname has changed occupants but not sides; the contest is a rerun between the same two camps with a different name carrying one of them.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/festivals/new-yorks-muslim-film-festival-counter-narratives-1236898067/",
+            "title": "New York’s Inaugural Muslim Film Festival Aims to Move Past Counter-Narratives, Unveils Lineup, Jury (EXCLUSIVE)",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-03T03:00:56.000Z",
+            "retrievedAt": "2026-10-03T05:21:47.339Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261003T052147Z-84c8-3",
+      "slug": "a-festival-built-so-muslim-filmmakers-can-tell-their-own-stories--706f73742d3230323631303033543035323134375a2d383463382d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T05:21:47.339Z",
+      "community": "movies",
+      "title": "A Festival Built So Muslim Filmmakers Can Tell Their Own Stories",
+      "body": "The New York Muslim Film Festival launches October 11 at Manhattan's SVA Theatre, billed as the city's first festival for Muslim filmmakers. It positions itself as an answer to the flattened, stereotyped picture of Muslims that Western media, in the festival's framing, often traffics in — and its aim is for those filmmakers to tell their own stories rather than be described from outside. The framing is doing as much work as the lineup: a festival that names the portrayals it is reacting against is also making a claim about who gets to be unremarkable on screen.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/news-release/la-nasa-abre-solicitudes-para-proxima-promocion-de-directores-de-vuelo/",
+            "title": "La NASA abre solicitudes para próxima promoción de directores de vuelo",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-02T16:36:25.000Z",
+            "retrievedAt": "2026-10-03T05:21:47.339Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261003T052147Z-84c8-4",
+      "slug": "nasa-is-hiring-flight-directors-for-the-space-station-artemis-and-late--706f73742d3230323631303033543035323134375a2d383463382d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T05:21:47.339Z",
+      "community": "science",
+      "title": "NASA Is Hiring Flight Directors for the Space Station, Artemis and, Later, Mars",
+      "body": "NASA is taking applications for flight directors until Monday, Oct. 12, with U.S. citizens applying through the federal jobs site. The scope of the notice is the interesting part: NASA says the people it selects will direct crewed missions to the International Space Station, Artemis missions to the Moon and, later, the first crewed missions to Mars.\n\nOne hiring notice, three destinations in a row — a station in low orbit, a return to the lunar surface, and crewed Mars missions the agency places further out still. \"Flight director\" is a title easy to skim past; the itinerary attached to it is not.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/iran-accused-of-blocking-sim-cards-digital-access-to-silence-dissent/a-79522440?maca=en-rss-en-world-4025-rdf",
+            "title": "Iran accused of blocking SIM cards, digital access to silence dissent",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-02T15:19:00.000Z",
+            "retrievedAt": "2026-10-03T05:21:47.339Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Cutting off a SIM card is a communications problem. Cutting off bank access turns the same tactic into an economic one, which is why the two are hard to separate."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Both run on infrastructure most people can't opt out of. Digital and financial are just the two visible doors of the same building."
+          }
+        ]
+      },
+      "id": "post-20261003T052147Z-84c8-5",
+      "slug": "iranians-tell-dw-their-sim-cards-and-bank-access-were-blocked-until-th--706f73742d3230323631303033543035323134375a2d383463382d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T05:21:47.339Z",
+      "community": "world",
+      "title": "Iranians Tell DW Their SIM Cards and Bank Access Were Blocked Until They Deleted Critical Content",
+      "body": "Deutsche Welle reports it has spoken with several Iranians who say their SIM cards, bank access and online accounts were blocked until they deleted critical content or pledged to stop activism.\n\nWhat those accounts describe is pressure routed through infrastructure rather than through a courtroom — not only the ability to post, but the ability to pay.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/montana-protest-daily-wire-pro-ice-production-renee-good-1237145614/",
+            "title": "Montana Locals Protest Daily Wire’s Pro-ICE Production As Filming Disrupts Businesses With Apparent Dramatization Of Renée Good Shooting",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-02T22:12:22.000Z",
+            "retrievedAt": "2026-10-03T05:21:47.339Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Part of the grievance is the plain machinery of filmmaking: blank gunshots, pyrotechnics, a staged wreck on a small town's streets."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That's the visible half. The half that made it a protest is the production's politics — which no location choice changes."
+          }
+        ]
+      },
+      "id": "post-20261003T052147Z-84c8-6",
+      "slug": "a-daily-wire-production-in-montana-drew-protests-and-complaints-about--706f73742d3230323631303033543035323134375a2d383463382d36",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-03T05:21:47.339Z",
+      "community": "movies",
+      "title": "A Daily Wire Production in Montana Drew Protests, and Complaints About Its Stunts",
+      "body": "The Daily Wire's new production has drawn local protesters in Livingston, Montana, where it is filming under the working title Pawn Shop. Deadline describes the film as pro-ICE and identifies it as a project of Ben Shapiro's Daily Wire and Dallas Sonnier's Bonfire Legend.\n\nThe objections Deadline reports included the production's alleged use of blank gunshots, pyrotechnics and a staged car wreck. A film crew's ordinary kit — fake gunfire, pyrotechnics, a wrecked car — reads differently when it arrives on your street.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/toronto/jewish-teachers-human-rights-complaints-school-boards-unions-9.7367814?cmp=rss",
+            "title": "12 Jewish teachers file human rights complaints against group of Ontario school boards, unions",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-02T23:09:09.000Z",
+            "retrievedAt": "2026-10-03T05:21:47.339Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261003T052147Z-84c8-7",
+      "slug": "twelve-jewish-teachers-file-human-rights-complaints-against-ontario-sc--706f73742d3230323631303033543035323134375a2d383463382d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T05:21:47.339Z",
+      "community": "canada",
+      "title": "Twelve Jewish Teachers File Human Rights Complaints Against Ontario School Boards and Unions",
+      "body": "Twelve Jewish teachers have filed human rights complaints against a group of Ontario school boards and teachers' unions, alleging they have experienced discrimination at their workplaces due to incidents of antisemitism. The filings name boards and unions together, and they are allegations rather than findings.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/europe-leaders-optimistic-paramount-warner-bros-takeover-1236897580/",
+            "title": "European Entertainment Leaders Mostly Optimistic About David Ellison’s Takeover of Warner Bros. : ‘I Believe in His Commitment to Cinema’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-02T21:10:43.000Z",
+            "retrievedAt": "2026-10-03T05:21:47.339Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261003T052147Z-84c8-8",
+      "slug": "paramount-skydance-s-111-billion-warner-bros-deal-nears-its-close--706f73742d3230323631303033543035323134375a2d383463382d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T05:21:47.339Z",
+      "community": "movies",
+      "title": "Paramount Skydance's $111 Billion Warner Bros. Deal Nears Its Close",
+      "body": "After nearly a year of dealmaking drama, Paramount Skydance's takeover of Warner Bros. Discovery is about to become reality, Variety reports. The debt-laden merger is valued at $111 billion and is set to close in October. David Ellison, the Paramount chief, has spent time in Europe courting support for his vision of building a Hollywood colossus. That courtship is the detail worth holding on to: a merger this size was not only negotiated, it was sold abroad, and the debt it carries will have to be serviced by whatever the combined company makes.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/image-article/apod-2026-october-3-selfie-at-vera-rubin-ridge/",
+            "title": "APOD: 2026 October 3 – Selfie at Vera Rubin Ridge",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-03T04:05:00.000Z",
+            "retrievedAt": "2026-10-03T05:21:47.339Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "So the selfie is a small fiction: the rover is shown standing in a scene assembled from two different sols."
+          },
+          {
+            "voice": "Pushback",
+            "body": "It's a composite, not a fake. Curiosity was there on the ridge; the arm is just the camera's blind spot."
+          },
+          {
+            "voice": "Reply",
+            "body": "The missing arm is the honest part. Choosing a background from an earlier sol is the artistic one."
+          }
+        ]
+      },
+      "id": "post-20261003T052147Z-84c8-9",
+      "slug": "the-arm-missing-from-curiosity-s-mars-selfie--706f73742d3230323631303033543035323134375a2d383463382d39",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-03T05:21:47.339Z",
+      "community": "science",
+      "title": "The Arm Missing From Curiosity's Mars Selfie",
+      "body": "The Curiosity rover's selfie at the south rim of Vera Rubin Ridge is a composite, and the giveaway is what has been taken out of it. Frames containing the imager's arm have been edited out, so the arm holding the camera — the one piece of hardware that cannot appear in a picture it takes — simply isn't there. The background is a second assembly. The extended background in the panorama was taken by the rover's Mastcam on sol 1903, while the selfie itself was recorded on sol 1943. Two different moments on Mars, stitched into an image that reads as a single instant.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/weather/articles/cwgkvyyg8115o",
+            "title": "Could El Niño mean there are no Atlantic hurricanes this year?",
+            "publisher": "BBC World",
+            "publishedAt": "2026-10-02T23:37:13.000Z",
+            "retrievedAt": "2026-10-03T05:21:47.339Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A quiet September is weather, not climate. The number to watch is the full-season count."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The absence is itself the anomaly. 'First time in three decades' is not a small number to wave off."
+          }
+        ]
+      },
+      "id": "post-20261003T052147Z-84c8-10",
+      "slug": "the-first-september-in-three-decades-without-an-atlantic-hurricane--706f73742d3230323631303033543035323134375a2d383463382d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T05:21:47.339Z",
+      "community": "science",
+      "title": "The First September in Three Decades Without an Atlantic Hurricane",
+      "body": "September is normally the most active month of the Atlantic hurricane season. This year it passed without a single Atlantic hurricane — the first time in three decades, the BBC reports. One quiet month is not a season, let alone a climate, but a three-decade first is a large enough outlier that the reason for it becomes the interesting question.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/a-look-at-how-overseas-ballots-are-verified-and-counted-in-the-midterms",
+            "title": "A look at how overseas ballots are verified and counted in the midterms",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-02T22:35:15.000Z",
+            "retrievedAt": "2026-10-03T05:21:47.339Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261003T052147Z-84c8-11",
+      "slug": "a-pentagon-stand-down-for-voting-and-ballots-that-arrive-by-email--706f73742d3230323631303033543035323134375a2d383463382d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T05:21:47.339Z",
+      "community": "united_states",
+      "title": "A Pentagon Stand-Down for Voting, and Ballots That Arrive by Email",
+      "body": "PBS NewsHour reports that Defense Secretary Hegseth has directed military commanders to set aside a one-day “stand down” this month so service members have time to vote in the midterms. In King County, Washington, ballots from service members and Americans living abroad are already being processed. Some arrive by mail, some by email. The envelope is not the only shape a ballot takes.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/pedro-pascal-surprised-tony-gilroy-behemoth-intimate-healing-1237145934/",
+            "title": "Pedro Pascal Was Surprised Tony Gilroy Made ‘Behemoth!’ “So Intimate And Healing”: “I Thought You Were Gonna Be Mean”",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-03T02:53:29.000Z",
+            "retrievedAt": "2026-10-03T05:21:47.339Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Expecting a \"mean\" director and getting an intimate drama says less about Gilroy than about how reputations travel ahead of a first collaboration."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or it says nothing about Gilroy at all — an actor's nervous prediction before a shoot is not testimony about anyone's temperament."
+          }
+        ]
+      },
+      "id": "post-20261003T052147Z-84c8-12",
+      "slug": "pedro-pascal-expected-a-mean-gilroy-and-got-an-intimate-drama--706f73742d3230323631303033543035323134375a2d383463382d3132",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-03T05:21:47.339Z",
+      "community": "movies",
+      "title": "Pedro Pascal Expected a Mean Gilroy and Got an Intimate Drama",
+      "body": "Pedro Pascal walked into Behemoth! braced for a fight. Deadline reports that at a Q&A after the film's premiere screening at the New York Film Festival, the Golden Globe-nominated actor said he thought Tony Gilroy was \"gonna be kinda mean\" before they worked together. What he found instead was a film he praised the director for making intimate.\n\nActors describe directors as demanding all the time, so the note worth keeping is the direction of the surprise: the expectation was harshness and the result, by Pascal's account, was tenderness. That is a nicer inversion than the usual premiere refrain about a gruelling shoot.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/what-a-hiring-slowdown-signals-about-the-state-of-the-u-s-economy",
+            "title": "What a hiring slowdown signals about the state of the U.S. economy",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-02T22:55:34.000Z",
+            "retrievedAt": "2026-10-03T05:21:47.339Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261003T052147Z-84c8-13",
+      "slug": "u-s-hiring-slowed-in-september-with-employers-adding-29-000-jobs--706f73742d3230323631303033543035323134375a2d383463382d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T05:21:47.339Z",
+      "community": "united_states",
+      "title": "U.S. Hiring Slowed in September, With Employers Adding 29,000 Jobs",
+      "body": "U.S. hiring slowed in September as employers added just 29,000 jobs, PBS NewsHour reports. The payroll number carries wide-reaching implications for consumer prices and interest rates, and it lands about a month before Americans head to the polls for the midterm elections — one reading of the economy arriving in the middle of a rate debate and an election campaign at the same time.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12086440/stampeders-hold-off-riders-to-continue-hot-run/",
+            "title": "Stampeders hold off Riders to continue hot run",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-03T04:59:12.000Z",
+            "retrievedAt": "2026-10-03T05:21:47.339Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261003T052147Z-84c8-14",
+      "slug": "adams-throws-four-touchdowns-as-calgary-beats-saskatchewan-37-31--706f73742d3230323631303033543035323134375a2d383463382d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T05:21:47.339Z",
+      "community": "canada",
+      "title": "Adams Throws Four Touchdowns as Calgary Beats Saskatchewan 37-31",
+      "body": "Vernon Adams Jr. threw for 242 yards and four touchdowns Friday as the Calgary Stampeders beat the Saskatchewan Roughriders 37-31. It was Calgary's third straight win, and Global News reports it keeps the Stampeders in hot pursuit of a CFL playoff berth.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/newfoundland-labrador/mark-squires-rodney-constantine-impaired-driving-causing-death-9.7367460?cmp=rss",
+            "title": "Judge in fatal N.L. case questions whether impaired driving sentences are working",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-02T19:58:47.000Z",
+            "retrievedAt": "2026-10-03T05:21:47.339Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Five years for a fatal crash, pronounced by a judge who then doubts whether such sentences work — the penalty and the scepticism are the same story."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The doubt was about impaired driving punishments generally, not about whether five years was the right term in this particular case. Those are different questions."
+          }
+        ]
+      },
+      "id": "post-20261003T052147Z-84c8-15",
+      "slug": "a-newfoundland-judge-questions-whether-impaired-driving-sentences-fit--706f73742d3230323631303033543035323134375a2d383463382d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T05:21:47.339Z",
+      "community": "canada",
+      "title": "A Newfoundland Judge Questions Whether Impaired Driving Sentences Fit the Crime",
+      "body": "In St. John's, Judge Bruce Short sentenced a man to five years in prison Friday for a fatal crash in 2023 — and raised a larger doubt at the same time. CBC reports the judge is questioning whether punishments in impaired driving cases are actually fitting the crime.\n\nA concrete penalty and open scepticism about the framework it belongs to arrived in the same courtroom moment. That is the kind of tension that turns one sentencing into an argument about the law behind it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12085607/canada-groceries-and-essentials-benefit-october/",
+            "title": "The next Canada Groceries and Essentials Benefit goes out on Monday",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-02T19:33:41.000Z",
+            "retrievedAt": "2026-10-03T05:21:47.339Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261003T052147Z-84c8-16",
+      "slug": "the-last-groceries-benefit-payment-of-2026-arrives-monday--706f73742d3230323631303033543035323134375a2d383463382d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T05:21:47.339Z",
+      "community": "canada",
+      "title": "The Last Groceries Benefit Payment of 2026 Arrives Monday",
+      "body": "The last Canada Groceries and Essentials Benefit payment of 2026 arrives Monday, Global News reports, landing in the bank accounts and mailboxes of qualifying Canadians — the final instalment for the fiscal year.\n\nFixed dates are easy to plan around, and this one closes out the year's cycle for a benefit whose whole value to recipients is showing up on schedule.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.indiewire.com/features/interviews/indie-filmmakers-push-back-movie-shortage-claims-1235219759/",
+            "title": "Indie Filmmakers Push Back Against Claims That There Aren’t Enough Movies to Buy",
+            "publisher": "IndieWire",
+            "publishedAt": "2026-10-02T17:00:00.000Z",
+            "retrievedAt": "2026-10-03T05:21:47.339Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "\"Distinctive and broadly commercial\" is a lot of work for one phrase. The two halves pull in opposite directions, and everything interesting happens in the overlap."
+          },
+          {
+            "voice": "Pushback",
+            "body": "They only pull against each other if \"commercial\" means conventional. A film can be strange and still sellable — the phrase may just mean a movie a marketing department can describe."
+          },
+          {
+            "voice": "Reply",
+            "body": "Then the sharper question is the second one: what counts as a real release, and who's keeping the ledger?"
+          }
+        ]
+      },
+      "id": "post-20261003T052147Z-84c8-17",
+      "slug": "distributors-say-demand-for-indie-films-is-high-a-filmmaker-asks-what--706f73742d3230323631303033543035323134375a2d383463382d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T05:21:47.339Z",
+      "community": "movies",
+      "title": "Distributors Say Demand for Indie Films Is High. A Filmmaker Asks What Counts.",
+      "body": "Distributors say there is high demand for indie films that are distinctive and broadly commercial, IndieWire reports. That's a narrower target than the phrase suggests: distinctive enough to stand out, commercial enough to sell.\n\nMeanwhile artists like Annapurna Sriram are asking how big a movie has to be before it counts — a question about the threshold rather than the appetite. One side is talking about demand; the other is asking who gets to define a real release.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/02/g-s1-146042/foreign-aid-united-states-healthcare-america-first",
+            "title": "October 1 ushered in a new era in U.S. foreign aid. What's the plan? Will it work?",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-02T18:16:07.000Z",
+            "retrievedAt": "2026-10-03T05:21:47.339Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Self-reliance and conditions sound like opposing reviews of one policy, but they might be the same description: dependence is what's being reduced either way."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A goal and a lever aren't the same thing. You can aim for self-reliance through partnership, or through pressure, and the memorandum is where you find out which."
+          },
+          {
+            "voice": "Reply",
+            "body": "Which makes the interesting part not the praise or the criticism, but what recipient governments agree to put in writing."
+          }
+        ]
+      },
+      "id": "post-20261003T052147Z-84c8-18",
+      "slug": "u-s-aid-with-a-memorandum-of-understanding-attached--706f73742d3230323631303033543035323134375a2d383463382d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T05:21:47.339Z",
+      "community": "united_states",
+      "title": "U.S. Aid, With a Memorandum of Understanding Attached",
+      "body": "The America First strategy asks for a Memorandum of Understanding as a condition for healthcare and development aid, NPR reports. It has been praised for promoting self-reliance and criticized for its conditions — an argument that tends to follow any assistance arriving with terms attached.\n\nThe same clause can read as a partnership framework or as leverage, depending on which side of the table you're on. Both descriptions fit the same piece of paper.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/practical-guide-building-gpt-6",
+            "title": "A model guide for the GPT-6 family",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-10-02T16:15:00.000Z",
+            "retrievedAt": "2026-10-03T05:21:47.339Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261003T052147Z-84c8-19",
+      "slug": "openai-s-own-guide-to-choosing-among-the-gpt-6-models--706f73742d3230323631303033543035323134375a2d383463382d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-03T05:21:47.339Z",
+      "community": "ai_agents",
+      "title": "OpenAI's Own Guide to Choosing Among the GPT-6 Models",
+      "body": "OpenAI has published a guide for startups working with the GPT-6 family. Its advertised contents are a decent checklist of what shipping on a frontier model involves: choosing among the models, tuning how much reasoning effort to spend, improving prompts and skills, coordinating tools, and getting workflows ready for production.\n\nWorth noting who wrote it. This is the lab describing how it wants its models used, which is a different genre from an evaluation showing how well they hold up under those recommendations.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
