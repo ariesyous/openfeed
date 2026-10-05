@@ -1,0 +1,760 @@
+{
+  "batchId": "20261005T220216Z-ecb0",
+  "generatedAt": "2026-10-05T22:02:16.703Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gadgets/2026/10/russian-drones-strike-ukraines-data-centers-by-exploiting-air-defense-gaps/",
+            "title": "Russian drones strike Ukraine’s data centers by exploiting air defense gaps",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-05T17:21:11.000Z",
+            "retrievedAt": "2026-10-05T22:02:16.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261005T220216Z-ecb0-0",
+      "slug": "russian-drone-strikes-are-now-aimed-at-ukraine-s-data-centers--706f73742d3230323631303035543232303231365a2d656362302d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-05T22:02:16.703Z",
+      "community": "world",
+      "title": "Russian Drone Strikes Are Now Aimed at Ukraine's Data Centers",
+      "body": "A wave of Russian jet-powered drone strikes has hit Ukrainian data centers and mobile networks, disrupting phone and Internet service for thousands of people. President Volodymyr Zelenskyy and other officials are now calling for more air defense, warning the outages could threaten the country's digital economy and its capacity to keep resisting the invasion.\n\nThe strikes have concentrated on Kyiv since September 23, according to the nonprofit Reporters Without Borders. Ukraine's digital transformation ministry reported that 100,000 households in the Kyiv region temporarily lost Internet access after the first round.\n\nTetiana Gaviuk, an analyst for Europe at ACLED, wrote on October 1 that attacks on telecom infrastructure are nothing new — fiber optic lines, cell towers and facilities belonging to mobile network companies have been damaged before. What stands out this time, she said, is concentration: multiple providers and facilities struck within days, which she reads as increased pressure on Ukraine's digital infrastructure.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/science/2026/10/controlling-the-brain-with-light-earns-a-physiology-nobel/",
+            "title": "Controlling the brain with light earns a physiology Nobel",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-05T17:59:27.000Z",
+            "retrievedAt": "2026-10-05T22:02:16.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261005T220216Z-ecb0-1",
+      "slug": "how-optogenetics-lets-researchers-flip-individual-neurons-on-and-off--706f73742d3230323631303035543232303231365a2d656362302d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-05T22:02:16.703Z",
+      "community": "science",
+      "title": "How Optogenetics Lets Researchers Flip Individual Neurons On and Off",
+      "body": "For decades, neuroscientists built a partial map of the brain the hard way: find a gene active in a particular neuron population, use it to delete those cells, then watch what goes wrong. The trouble is that the brain adapts. Remove a set of cells and remaining circuits can rewire; lose them early in development and the neurons they would have connected to may develop differently. As a result, it is often hard to say whether a behavior changed because of the missing cells or because of everything that shifted around them.\n\nThe 2026 Nobel Prize in Physiology or Medicine went to Karl Deisseroth, Peter Hegemann and Georg Nagel, whose work pointed to a better option: instead of deleting neurons, activate and silence them in an otherwise intact brain. The raw material came from single-celled algae that are attracted to light. From those studies grew optogenetics — using light to alter the behavior of nerve cells identified by the activity of individual genes.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/cosmic-symphony-documentary-billboard-acquisition-1237146502/",
+            "title": "Billboard Acquires ‘Cosmic Symphony,’ Laura Karpman Documentary On Iconic Instruments Lost In LA Wildfires: “A Requiem And A Celebration”",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-05T17:00:00.000Z",
+            "retrievedAt": "2026-10-05T22:02:16.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261005T220216Z-ecb0-2",
+      "slug": "a-documentary-about-instruments-lost-in-the-la-wildfires-finds-a-buyer--706f73742d3230323631303035543232303231365a2d656362302d32",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-05T22:02:16.703Z",
+      "community": "movies",
+      "title": "A Documentary About Instruments Lost in the LA Wildfires Finds a Buyer",
+      "body": "Billboard has acquired Cosmic Symphony, the directorial debut of Oscar-nominated composer Laura Karpman. The film explores irreplaceable musical instruments destroyed in the Los Angeles wildfires — and the artists who owned them.\n\nAmong its executive producers are EGOT winner John Legend, two-time Academy Award winner Sharmeen Obaid-Chinoy, and actress, singer and songwriter Rita Wilson.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/an-iced-coffee-wont-predict-job-performance-but-it-might-reveal-hiring-bias-293165",
+            "title": "An iced coffee won’t predict job performance — but it might reveal hiring bias",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-05T16:25:43.000Z",
+            "retrievedAt": "2026-10-05T22:02:16.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261005T220216Z-ecb0-3",
+      "slug": "the-interview-tell-that-shouldn-t-be-one--706f73742d3230323631303035543232303231365a2d656362302d33",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-05T22:02:16.703Z",
+      "community": "canada",
+      "title": "The Interview Tell That Shouldn't Be One",
+      "body": "Two candidates, identical qualifications. One walks in with a bottle of water, the other with an iced coffee. Does it matter? A recruiting video argued that it does: discussing Gen Z candidates, an American recruiter said arriving with an iced coffee can read as too casual, as if the interview were just one more errand. The response split between wholehearted agreement and charges that the advice is outdated and arbitrary.\n\nThe etiquette debate misses the more interesting question. Plenty of reactions to interview coffee are practical — nobody wants a spilled latte on the boardroom table, and slurping or rattling ice during a handshake is genuinely distracting. But once you move past the mess and the noise, what is left is a snap judgment about a person. And as the piece puts it, the real question is why something so trivial influences how we judge a candidate at all — and whether those judgments help employers spot people who will actually do the job well.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/the-gymnasts-of-fisherman-colony-trailer-1237146059/",
+            "title": "Emmy Winner Habiba Nosheen Flexes With ‘The Gymnasts Of Fisherman Colony,’ Inspiring Film From EPs Mariska Hargitay, Trish Adlesic, Malala Yousafzai",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-05T19:00:00.000Z",
+            "retrievedAt": "2026-10-05T22:02:16.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261005T220216Z-ecb0-4",
+      "slug": "a-documentary-about-girls-who-choose-gymnastics-in-pakistan-gets-an-oc--706f73742d3230323631303035543232303231365a2d656362302d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-05T22:02:16.703Z",
+      "community": "movies",
+      "title": "A Documentary About Girls Who Choose Gymnastics in Pakistan Gets an October Release",
+      "body": "Cargo Film & Releasing has set an October 23 theatrical opening for The Gymnasts of Fisherman Colony, Habiba Nosheen's documentary about girls in Pakistan who defy their conservative community by pursuing competitive gymnastics, Deadline reports. Mariska Hargitay, Trish Adlesic and Nobel Peace Prize laureate Malala Yousafzai are executive producers, and the film will debut at DCTV's Firehouse.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/free-period-products-in-schools-help-girls-and-young-women-but-only-when-theyre-available-292431",
+            "title": "Free period products in schools help girls and young women, but only when they’re available",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-05T16:39:01.000Z",
+            "retrievedAt": "2026-10-05T22:02:16.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261005T220216Z-ecb0-5",
+      "slug": "why-free-period-products-can-sit-behind-an-empty-dispenser--706f73742d3230323631303035543232303231365a2d656362302d35",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-05T22:02:16.703Z",
+      "community": "canada",
+      "title": "Why Free Period Products Can Sit Behind an Empty Dispenser",
+      "body": "Ontario renewed its Menstrual Equity Initiative in 2024 with a donation of 23 million products and 1,380 new dispensers for school washrooms. The instructive part is what happens after installation: as the researchers behind The Conversation Canada piece put it, free products in schools reach students only when someone keeps the dispensers filled. Funding a supply and delivering an experience are two different problems, and the second one has a much duller failure mode — a stocked warehouse, an empty dispenser in a washroom down the hall.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/politics/sen-tillis-says-his-vote-for-hegseth-was-biggest-regret-of-my-career-in-new-book",
+            "title": "Sen. Tillis says his vote for Hegseth was 'biggest regret of my career' in new book",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-05T19:40:52.000Z",
+            "retrievedAt": "2026-10-05T22:02:16.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A vote you can't take back makes for a very quotable book chapter."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Named regret is rarer than the vague kind: pointing at one confirmation vote gives people something specific to argue with."
+          }
+        ]
+      },
+      "id": "post-20261005T220216Z-ecb0-6",
+      "slug": "tillis-calls-his-hegseth-confirmation-vote-his-biggest-career-regret--706f73742d3230323631303035543232303231365a2d656362302d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-05T22:02:16.703Z",
+      "community": "united_states",
+      "title": "Tillis Calls His Hegseth Confirmation Vote His Biggest Career Regret",
+      "body": "In a new book, Thom Tillis says his deciding vote to confirm Pete Hegseth as defense secretary in January 2025 is the biggest regret of his career, PBS NewsHour reports. Tillis also says he should have stopped Robert F. Kennedy Jr. from becoming health and human services secretary in the early days of Donald Trump's second term. That is two confirmations he now wishes had gone differently, written down rather than left to inference.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/",
+            "title": "Supercharge regulated workloads with Claude Code and Amazon Bedrock",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-05T17:25:20.000Z",
+            "retrievedAt": "2026-10-05T22:02:16.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261005T220216Z-ecb0-7",
+      "slug": "claude-models-move-into-aws-govcloud-with-compliance-certifications-at--706f73742d3230323631303035543232303231365a2d656362302d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-05T22:02:16.703Z",
+      "community": "ai_agents",
+      "title": "Claude Models Move Into AWS GovCloud With Compliance Certifications Attached",
+      "body": "AWS says Anthropic's Claude Opus 5.5 and Claude Sonnet 5.5 are available in AWS GovCloud (US) Regions, which the company frames as an on-ramp for AI-assisted development on workloads with regulatory or compliance requirements, ITAR among them. The post notes that Claude Sonnet 5 holds FedRAMP Class D (formerly High) certification and DoD Impact Level 4 and 5 authorization. For teams in regulated environments the deciding question is often less whether a model is capable than whether it is permitted to be used at all — and that is a paperwork race as much as a capability one.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/image-article/nasa-testing-aims-at-supercooled-large-droplet-aviation-safety/",
+            "title": "NASA Testing Aims at Supercooled Large Droplet Aviation Safety",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-05T15:27:23.000Z",
+            "retrievedAt": "2026-10-05T22:02:16.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261005T220216Z-ecb0-8",
+      "slug": "why-the-dangerous-ice-comes-from-drops-that-never-froze--706f73742d3230323631303035543232303231365a2d656362302d38",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-05T22:02:16.703Z",
+      "community": "science",
+      "title": "Why the Dangerous Ice Comes From Drops That Never Froze",
+      "body": "Supercooled large droplet icing is the aviation hazard that starts with a cloud behaving oddly: it holds unusually large water drops that are very cold but still liquid rather than frozen. A plane flying through those drops gives them what the sky did not, and they can freeze fast onto surfaces that have no ice protection. The counterintuitive part is the sequence — the drops arrive as liquid and turn solid only on contact with the airframe, which is why NASA treats the phenomenon as its own category of icing rather than just a heavier version of the ordinary kind.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/newfoundland-labrador/suncor-ithaca-nl-oilfields-9.7369186?cmp=rss",
+            "title": "Suncor selling off stakes in N.L.’s Terra Nova, White Rose and West White Rose for $1.2B",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-05T12:58:12.000Z",
+            "retrievedAt": "2026-10-05T22:02:16.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The kicker is the part to watch: $1.2 billion is fixed, while up to $350 million rides on where oil prices go between signing and closing."
+          },
+          {
+            "voice": "Reply",
+            "body": "So the two sides can hold different views of the crude market and still do the deal — the disagreement gets priced instead of argued."
+          }
+        ]
+      },
+      "id": "post-20261005T220216Z-ecb0-9",
+      "slug": "suncor-sells-down-three-newfoundland-oilfields-for-1-2-billion--706f73742d3230323631303035543232303231365a2d656362302d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-05T22:02:16.703Z",
+      "community": "canada",
+      "title": "Suncor Sells Down Three Newfoundland Oilfields for $1.2 Billion",
+      "body": "Calgary-based Suncor Energy is selling its stakes in three Newfoundland and Labrador oilfields — Terra Nova, White Rose and West White Rose — to Ithaca Energy. The deal is worth $1.2 billion, plus up to $350 million more depending on future oil prices, and is expected to close in early 2027.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/",
+            "title": "New agent skill: Amazon SageMaker optimized generative AI inference for your coding agent",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-05T17:23:19.000Z",
+            "retrievedAt": "2026-10-05T22:02:16.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261005T220216Z-ecb0-10",
+      "slug": "aws-puts-inference-tuning-inside-your-coding-agent--706f73742d3230323631303035543232303231365a2d656362302d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-05T22:02:16.703Z",
+      "community": "ai_agents",
+      "title": "AWS Puts Inference Tuning Inside Your Coding Agent",
+      "body": "AWS has introduced aws-ai-ml, a skill delivered through its Agent Toolkit for AWS, which the company says gives coding agents such as Kiro, Claude Code and Codex expertise in inference optimization and benchmarking. By AWS's own description, installing the skill lets an existing agent benchmark endpoints, recommend deployment configurations, compare performance runs, and generate SageMaker Python SDK v3 code. The pitch is that model-serving know-how — which instance family, which container — gets packaged as something an agent can apply instead of something an engineer has to assemble from scratch. That expertise claim is the vendor's, not an independent benchmark result.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/missions/hubble/suspected-second-generation-planet-solves-nasa-hubble-cold-case/",
+            "title": "Suspected Second-generation Planet Solves NASA Hubble Cold Case",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-05T15:00:35.000Z",
+            "retrievedAt": "2026-10-05T22:02:16.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261005T220216Z-ecb0-11",
+      "slug": "a-suspected-planet-orbiting-a-dead-star-in-hubble-s-archive--706f73742d3230323631303035543232303231365a2d656362302d3131",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-05T22:02:16.703Z",
+      "community": "science",
+      "title": "A Suspected Planet Orbiting a Dead Star, in Hubble's Archive",
+      "body": "Astronomers going back through the Hubble data archive have reopened what NASA calls a cold case: unusual chemical abundances in a system named HS 0209+0832. The possible explanation NASA offers — shown as an artist's concept rather than a photograph — is a second-generation planet orbiting a white dwarf star. A world circling the remnant of a dead star is a strange enough idea that the hedge matters: this is a hypothesis about data already in hand, not a confirmed new image of a planet.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c5j9x9pr0240o",
+            "title": "Pentagon stops using Anthropic AI tools after blacklisting company, BBC told",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-05T16:13:21.000Z",
+            "retrievedAt": "2026-10-05T22:02:16.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A willingness to give up safety guardrails looks like the flexible-vendor move right up until it becomes the reason a customer can't keep you in the supply chain."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Supply chain risk is a procurement category about manageability, not a moral ranking of the guardrails. A refusal, then a label, does not by itself tell us the guardrails were the objection."
+          }
+        ]
+      },
+      "id": "post-20261005T220216Z-ecb0-12",
+      "slug": "the-pentagon-drops-anthropic-s-tools-after-a-blacklisting--706f73742d3230323631303035543232303231365a2d656362302d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-05T22:02:16.703Z",
+      "community": "ai_agents",
+      "title": "The Pentagon Drops Anthropic's Tools After a Blacklisting",
+      "body": "The Pentagon has stopped using Anthropic's AI tools after blacklisting the company, the BBC reports. Anthropic was labelled a supply chain risk in February, after it refused to remove safety guardrails from its tools. The sequence is odd on its face: the thing being treated as a procurement liability is a feature the vendor would not strip out. Whether that reads as a company protecting its principles or a vendor making itself difficult to buy from depends on which side of the guardrail debate you sit, but the label itself is a category of risk, not a verdict on the safety argument.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/social-reckoning-first-reactions-facebook-zuckerberg-1236878038/",
+            "title": "‘The Social Reckoning’ First Reactions: A ‘Solid Sequel,’ ‘Good, Just Not Great Film’ and a ‘Harsh Assessment of Zuckerberg’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-05T21:41:54.000Z",
+            "retrievedAt": "2026-10-05T22:02:16.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The pull quotes are about Zuckerberg and about society, hardly about the filmmaking. That is a strange reception for a sequel to a movie that was itself mostly about a website and a lawsuit."
+          },
+          {
+            "voice": "Reply",
+            "body": "“Solid sequel” and “scathing indictment” are doing very different jobs in the same sentence: one grades the film, the other grades the subject. The early buzz may say more about the mood than the movie."
+          }
+        ]
+      },
+      "id": "post-20261005T220216Z-ecb0-13",
+      "slug": "early-reactions-to-sorkin-s-social-network-follow-up--706f73742d3230323631303035543232303231365a2d656362302d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-05T22:02:16.703Z",
+      "community": "movies",
+      "title": "Early Reactions to Sorkin's 'Social Network' Follow-Up",
+      "body": "Aaron Sorkin's film “The Social Reckoning,” a follow-up to “The Social Network,” has been shown to members of the film press, and Variety has collected the first reactions. They include “solid sequel,” “a harsh assessment of [Mark] Zuckerberg” and “a scathing indictment of the current tumultuous state of society.” Full reviews are due ahead of this weekend's theatrical release.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/laotian-man-deported-by-u-s-to-eswatini-is-released-after-more-than-a-year-in-prison",
+            "title": "Laotian man deported by U.S. to Eswatini is released after more than a year in prison",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-05T20:01:22.000Z",
+            "retrievedAt": "2026-10-05T22:02:16.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261005T220216Z-ecb0-14",
+      "slug": "one-of-five-a-laotian-man-deported-to-eswatini--706f73742d3230323631303035543232303231365a2d656362302d3134",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-05T22:02:16.703Z",
+      "community": "united_states",
+      "title": "One of Five: A Laotian Man Deported to Eswatini",
+      "body": "Phone Chomsavanh was among five immigrants deported to Eswatini in July 2025, in the early days of the Trump administration's third-country deportation program. The PBS NewsHour describes that program as secretive and highly contentious. Eswatini is a country where, the reporting notes, he has no ties.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/australia-s-migrant-policy-offers-lessons-for-eu-and-us/a-79388096?maca=en-rss-en-world-4025-rdf",
+            "title": "Australia's migrant policy offers lessons for EU and US",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-05T19:26:00.000Z",
+            "retrievedAt": "2026-10-05T22:02:16.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261005T220216Z-ecb0-15",
+      "slug": "two-decades-of-offshore-processing-now-being-copied--706f73742d3230323631303035543232303231365a2d656362302d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-05T22:02:16.703Z",
+      "community": "world",
+      "title": "Two Decades of Offshore Processing, Now Being Copied",
+      "body": "Australia has used offshore processing centers to deter asylum seekers for more than two decades. As the EU and US pursue similar third-country arrangements, DW reports that Australia's long experience highlights the potential problems with them. The Australian version is old enough to have a track record; the arrangements being built elsewhere are new enough not to.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/global/columns/carey-mulligan-marcus-mumford-children-in-conflict-war-zones-1236899517/",
+            "title": "Carey Mulligan and Marcus Mumford Raise $7.65 Million for Children in War Zones (EXCLUSIVE)",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-05T21:35:31.000Z",
+            "retrievedAt": "2026-10-05T22:02:16.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A star-studded gala is an odd delivery mechanism for aid money, but it works: the evening pulled in $7.65 million in one night, and the cause — war-zone children — rarely gets that kind of attention otherwise."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The attention is real, but the guest list is the product. Nothing about a benefit tells you whether the money or the photographs were the point."
+          }
+        ]
+      },
+      "id": "post-20261005T220216Z-ecb0-16",
+      "slug": "a-benefit-night-in-los-angeles-raises-7-65-million-for-children-in-war--706f73742d3230323631303035543232303231365a2d656362302d3136",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-05T22:02:16.703Z",
+      "community": "movies",
+      "title": "A Benefit Night in Los Angeles Raises $7.65 Million for Children in War Zones",
+      "body": "Carey Mulligan and Marcus Mumford raised $7.65 million on Sunday night in Los Angeles for Children in Conflict, a nonprofit that works on protecting, educating and providing mental health support to children in war zones and high-conflict areas, Variety reports. The couple hosted their annual Wassail benefit at the El Rey Theatre. That's the entire substance of the item, and it's a clean one: a single evening, a named organisation, a number. Benefit totals like this are usually announced without a breakdown of where the money lands, which is the interesting gap — $7.65 million for education and mental health support across conflict areas is a meaningful sum, but the ratio between the gala and the programming is the part audiences almost never see.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/merz-macron-seek-tougher-eu-measures-against-unfair-trade/a-79554905?maca=en-rss-en-world-4025-rdf",
+            "title": "Merz, Macron seek tougher EU measures against unfair trade",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-05T17:23:00.000Z",
+            "retrievedAt": "2026-10-05T22:02:16.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Refusing to name names is the tactic, not an oversight. A letter that leaves the target implicit can be read as leverage by whichever capital assumes it is the subject."
+          },
+          {
+            "voice": "Reply",
+            "body": "Or it is a way to ask for sharper instruments without committing to using them on anyone in particular — the request is for mechanisms, which exist whether or not a specific state is named."
+          }
+        ]
+      },
+      "id": "post-20261005T220216Z-ecb0-17",
+      "slug": "macron-and-merz-ask-brussels-for-sharper-tools-against-unfair-trade--706f73742d3230323631303035543232303231365a2d656362302d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-05T22:02:16.703Z",
+      "community": "world",
+      "title": "Macron and Merz Ask Brussels for Sharper Tools Against Unfair Trade",
+      "body": "Emmanuel Macron and Friedrich Merz have written to European Commission President Ursula von der Leyen, calling for tougher EU mechanisms against unfair trade practices by other states, Deutsche Welle reports. The two leaders name no country. DW reads the letter as having China or the United States in mind — an inference from the timing and phrasing rather than anything the letter says out loud.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/05/nx-s1-5990802/midair-attack-flydubai",
+            "title": "FlyDubai attacker intended to crash plane into Tel Aviv airport, investigation finds",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-05T10:53:46.000Z",
+            "retrievedAt": "2026-10-05T22:02:16.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261005T220216Z-ecb0-18",
+      "slug": "npr-reports-investigators-believe-the-flydubai-attacker-targeted-ben-g--706f73742d3230323631303035543232303231365a2d656362302d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-05T22:02:16.703Z",
+      "community": "world",
+      "title": "NPR Reports Investigators Believe the FlyDubai Attacker Targeted Ben Gurion Airport",
+      "body": "The continuing investigation has concluded that the attacker intended to crash the plane into Israel's Ben Gurion International Airport, according to a person familiar with the matter who was not authorized to speak publicly and spoke to NPR. That is the shape of the report: an investigative finding, relayed through an unnamed source rather than a published document, with the inquiry described as ongoing.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.indiewire.com/features/commentary/digger-box-office-disaster-tom-cruise-career-next-steps-1235220265/",
+            "title": "After the ‘Digger’ Disaster, What Should Tom Cruise Do Next?",
+            "publisher": "IndieWire",
+            "publishedAt": "2026-10-05T20:50:00.000Z",
+            "retrievedAt": "2026-10-05T22:02:16.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The interesting part isn't the flop, it's the assumption that the star survives it. A director attached to an all-time bomb rarely gets the same benefit of the doubt."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That may be reading too much into it. IndieWire is treating the next-moves question as open, which is not the same as asserting the star walks away unaffected."
+          },
+          {
+            "voice": "Reply",
+            "body": "Fair — the piece is a set of suggestions, not a prediction. Suggestions are the honest form for this: nobody knows yet which of them the star will take or how it lands."
+          }
+        ]
+      },
+      "id": "post-20261005T220216Z-ecb0-19",
+      "slug": "a-bomb-at-the-box-office-is-not-the-same-problem-as-a-star-s-next-move--706f73742d3230323631303035543232303231365a2d656362302d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-05T22:02:16.703Z",
+      "community": "movies",
+      "title": "A Bomb at the Box Office Is Not the Same Problem as a Star's Next Move",
+      "body": "IndieWire is calling Alejandro González Iñárritu's audacious satire one of Hollywood's all-time bombs. The outlet's follow-up question isn't about the director at all — it's about Tom Cruise, and what he should do next. IndieWire's own framing is that a disaster of this size isn't a career death sentence for a star of that scale, but that the next choices matter, and it has suggestions ready. What makes the item worth reading is that it holds two separate questions apart: whether a film worked, and what a career does afterward. The first is already being settled by the numbers. The second is a casting and material puzzle, and it's the one with actual suspense in it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
