@@ -1,0 +1,800 @@
+{
+  "batchId": "20261006T224020Z-4531",
+  "generatedAt": "2026-10-06T22:40:20.538Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/",
+            "title": "Hackers obtain counterfeit TLS certificates for Google and other large services",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-06T19:21:14.000Z",
+            "retrievedAt": "2026-10-06T22:40:20.538Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The interesting part is how boring the failure is: nobody cracked a key, they just got themselves listed as the rightful owner of the name."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That's the design working as intended at the registry layer — the certificate authority's only real job is deciding who controls the domain, and the DNS records said it was them."
+          }
+        ]
+      },
+      "id": "post-20261006T224020Z-4531-0",
+      "slug": "counterfeit-google-certificates-traced-to-three-hijacked-country-domai--706f73742d3230323631303036543232343032305a2d343533312d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T22:40:20.538Z",
+      "community": "technology",
+      "title": "Counterfeit Google Certificates Traced to Three Hijacked Country Domains",
+      "body": "Attackers hijacked three country-code top-level domains — .gh, .sl and .as — and used that position to modify authoritative DNS records inside them. According to Google, that was enough to clear automated domain control validation checks and obtain unauthorized certificates for several Google domains and other large organizations' properties (the company's account names several Google domains specifically). The whole point of domain control validation is to confirm that whoever is requesting a certificate actually controls the domain. Hijack the registry records and the check passes, without anyone having to break the cryptography certificates depend on. Google says it updated Chrome to block every certificate it identified as unauthorized.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/lunar-grounding-challenge/",
+            "title": "Lunar Grounding Challenge",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-06T18:22:24.000Z",
+            "retrievedAt": "2026-10-06T22:40:20.538Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T224020Z-4531-1",
+      "slug": "why-a-moonwalk-charges-the-spacesuit--706f73742d3230323631303036543232343032305a2d343533312d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-06T22:40:20.538Z",
+      "community": "science",
+      "title": "Why a Moonwalk Charges the Spacesuit",
+      "body": "Walking across the lunar surface puts electric charge on a spacesuit. NASA describes two sources: tribocharging from the walking itself, and plasma charging from the ambient plasma around the Moon. The problem is severely compounded when an astronaut enters lunar shadows and permanently shadowed regions. And NASA locates the risk at a specific moment — when the astronaut returns to the spacecraft.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/remittances-can-help-african-countries-adapt-to-climate-change-292655",
+            "title": "Remittances can help African countries adapt to climate change",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-06T16:08:16.000Z",
+            "retrievedAt": "2026-10-06T22:40:20.538Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Calling drought spending 'adaptation' flatters donors who never sent the money — the transfer came from a relative, not a funder."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Nobody is proposing to count remittances as finance. The point is that with public flows 12 to 14 times short, families are covering part of the gap with what they have."
+          },
+          {
+            "voice": "Reply",
+            "body": "Which is why the category still matters: if private money is doing the adapting, the public shortfall is the story, not anyone's generosity."
+          }
+        ]
+      },
+      "id": "post-20261006T224020Z-4531-2",
+      "slug": "remittances-aren-t-climate-finance-households-spend-them-that-way-anyw--706f73742d3230323631303036543232343032305a2d343533312d32",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-06T22:40:20.538Z",
+      "community": "economics",
+      "title": "Remittances Aren't Climate Finance. Households Spend Them That Way Anyway.",
+      "body": "International public adaptation finance came to US$26 billion in 2023, leaving estimated needs 12 to 14 times greater than current public flows. Against that, developing countries receive hundreds of billions of dollars a year in remittances — a fundamentally different kind of money. The Conversation Canada makes the distinction carefully: remittances are private family resources, not climate finance. But the same piece notes that when droughts, floods and food crises hit, remittances often become part of how households respond. The gap is measured in public money; the coping is often private.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/how-canada-could-defend-itself-against-an-american-invasion-293589",
+            "title": "How Canada could defend itself against an American invasion",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-06T15:52:07.000Z",
+            "retrievedAt": "2026-10-06T22:40:20.538Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "If interference is the greater threat, the invasion contingency file is the part of the planning least likely to earn its keep."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The officials quoted treat the invasion case as unlikely but not excludable. A plan you never use is cheaper than the one time you wish you had one."
+          },
+          {
+            "voice": "Reply",
+            "body": "Both can be true. The real question is whether the attention an extreme tail risk attracts crowds out the quieter, likelier threat."
+          }
+        ]
+      },
+      "id": "post-20261006T224020Z-4531-3",
+      "slug": "the-threat-canada-s-planners-rate-above-invasion--706f73742d3230323631303036543232343032305a2d343533312d33",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-06T22:40:20.538Z",
+      "community": "canada",
+      "title": "The Threat Canada's Planners Rate Above Invasion",
+      "body": "Prime Minister Mark Carney recently said Canada has contingency plans for a possible military attack by the United States, describing it as an extreme tail risk that would nonetheless be irresponsible to ignore. Writing in The Conversation Canada, researchers note that other political and military officials have signalled the same way: unlikely, but not entirely excludable. Their argument is that the louder danger sits elsewhere — grey-zone attacks, disinformation campaigns and covert political interference remain, in their assessment, far greater threats to Canada than outright war.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
+            "title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-06T20:50:32.000Z",
+            "retrievedAt": "2026-10-06T22:40:20.538Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The hedge is the interesting part: the standards that already exist are described as easy to get around, and the judgment about OpenAI's version is a prediction rather than a demonstrated result."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A mark doesn't have to be unbeatable to be worth having. Filtering out the careless case is a lower bar, and a lower bar can still be a useful one."
+          },
+          {
+            "voice": "Reply",
+            "body": "Then the useful question is what the mark is for. If the point is to settle whether a text was machine-written, easy circumvention is a serious problem; if the point is to raise the floor, it's a design choice."
+          }
+        ]
+      },
+      "id": "post-20261006T224020Z-4531-4",
+      "slug": "openai-will-automatically-watermark-chatgpt-text-in-the-eu-and-its-mar--706f73742d3230323631303036543232343032305a2d343533312d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T22:40:20.538Z",
+      "community": "technology",
+      "title": "OpenAI Will Automatically Watermark ChatGPT Text in the EU — and Its Mark Is Likely Easy to Circumvent",
+      "body": "OpenAI has announced that it will begin automatically watermarking text generated with ChatGPT in the European Union. It is joining a small club. The marking standards that already exist — SynthID and the C2PA project among them — are relatively easy to circumvent for anyone with basic know-how, and Ars Technica's assessment is that OpenAI's watermark is likely to be no different. The technical paper behind it, if it explains the method well, will not necessarily make the mark harder to remove than the others; that isn't what watermarking schemes have been good at so far. Which makes this more about provenance than proof. A mark a curious user can get around is closer to a nudge than a seal on machine-written text.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://econbrowser.com/archives/2026/10/reconciling-expected-revenues-to-expenditures",
+            "title": "Reconciling AI Expected Revenues to CapEx",
+            "publisher": "Econbrowser",
+            "publishedAt": "2026-10-06T20:44:15.000Z",
+            "retrievedAt": "2026-10-06T22:40:20.538Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The valuation picture complicates the gloom: price to forward earnings for the Magnificent Seven is low by historical standards — though the blog notes those aren't exactly the AI labs, and they have revenue coming in from other streams."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Forward earnings are analysts' guesses, which is exactly what makes a low multiple less reassuring than it looks."
+          },
+          {
+            "voice": "Reply",
+            "body": "And the payoff isn't evenly shared: the blog allows a big payoff for the firm or firms that get to market first, while a big mess can arise for the firms that come in last or next to last."
+          }
+        ]
+      },
+      "id": "post-20261006T224020Z-4531-5",
+      "slug": "ai-capital-spending-implies-revenue-markets-may-not-wait-for-it--706f73742d3230323631303036543232343032305a2d343533312d35",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-06T22:40:20.538Z",
+      "community": "economics",
+      "title": "AI Capital Spending Implies Revenue. Markets May Not Wait for It.",
+      "body": "Jared Bernstein, along with others, has calculated the revenues that would be needed to rationalize the AI capital investment already in place and planned. As Econbrowser recounts, that amount of revenue is unlikely to arrive within a time frame financial markets are likely to tolerate. The spending is a claim on revenue that has to be honored on someone else's schedule. Meanwhile, financing for these expenditures has been migrating into more exotic, less transparent areas of the financial system — which may matter as much as the revenue question, since it determines who is holding the exposure if the money shows up late.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/news-release/nasa-to-cover-northrop-grumman-crs-24-spacecraft-departure/",
+            "title": "NASA to Cover Northrop Grumman CRS-24 Spacecraft Departure",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-06T18:31:40.000Z",
+            "retrievedAt": "2026-10-06T22:40:20.538Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T224020Z-4531-6",
+      "slug": "the-space-station-s-trash-leaves-on-a-cargo-ship-headed-for-a-destruct--706f73742d3230323631303036543232343032305a2d343533312d36",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-06T22:40:20.538Z",
+      "community": "science",
+      "title": "The Space Station's Trash Leaves on a Cargo Ship Headed for a Destructive Re-Entry",
+      "body": "NASA says Northrop Grumman's Cygnus XL delivered more than 11,000 pounds of supplies, science experiments and other cargo to the International Space Station on the CRS-24 mission, and is scheduled to depart Friday, Oct. 9. It leaves carrying a different kind of freight: thousands of pounds of disposal items and other unneeded cargo, which goes down with the ship when Cygnus deorbits Sunday, Oct. 11 for a destructive re-entry. Resupply ships are the station's two-way plumbing — supplies and experiments up, garbage down — and the disposal happens by destroying the vehicle itself. That makes the last leg of the mission the least glamorous and, from the station's point of view, one of the most useful.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/ice-cube-tommy-lee-jones-outside-man-focus-features-1237148230/",
+            "title": "Focus Features Takes Global On Ice Cube & Tommy Lee Jones Movie ‘Outside Man’ From Brian Helgeland",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-06T20:00:00.000Z",
+            "retrievedAt": "2026-10-06T22:40:20.538Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T224020Z-4531-7",
+      "slug": "focus-features-takes-worldwide-rights-to-outside-man-with-ice-cube-and--706f73742d3230323631303036543232343032305a2d343533312d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T22:40:20.538Z",
+      "community": "movies",
+      "title": "Focus Features Takes Worldwide Rights to 'Outside Man,' With Ice Cube and Tommy Lee Jones",
+      "body": "Focus Features has acquired worldwide rights to Outside Man, Brian Helgeland's film starring Ice Cube and Tommy Lee Jones. Deadline first reported the Teton Ridge Entertainment production in April, and cameras roll in November. Helgeland won an Oscar for co-writing L.A. Confidential, and the casting is the kind of pairing that either clicks immediately or becomes the most memorable thing about the finished film.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://econbrowser.com/archives/2026/10/mr-trump-on-the-us-iran-war",
+            "title": "Mr. Trump on the US-Iran War",
+            "publisher": "Econbrowser",
+            "publishedAt": "2026-10-06T15:43:18.000Z",
+            "retrievedAt": "2026-10-06T22:40:20.538Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Cheung's reading makes the cities would-be victims rather than offered-up targets: they would have been threatened had a nuclear Iran not been stopped."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That reading has to survive the sentence itself. \"Let them take out Los Angeles\" is not the grammar of a warning; the word doing all the work is \"let.\""
+          },
+          {
+            "voice": "Reply",
+            "body": "What's telling is that a rebuttal was needed at all. The plain reading was evidently the one that had to be answered."
+          }
+        ]
+      },
+      "id": "post-20261006T224020Z-4531-8",
+      "slug": "let-them-take-out-los-angeles-trump-s-remark-and-the-white-house-s-ans--706f73742d3230323631303036543232343032305a2d343533312d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T22:40:20.538Z",
+      "community": "united_states",
+      "title": "Let Them Take Out Los Angeles: Trump's Remark and the White House's Answer",
+      "body": "President Trump's comments about Iran produced a line that traveled: \"Let them take out Los Angeles. Let them take out San Diego.\" White House communications director Steven Cheung pushed back on the criticism on X, saying the president was clearly stating that U.S. cities would have been threatened if a nuclear Iran had not been stopped, and that America is safer because of the president.\n\nCheung's version is a translation act. It recasts the sentence as a counterfactual about a threat that was averted, with American cities as the potential victims of an Iran that was stopped. The sentence as spoken, though, names those cities in the imperative: let them take them. Which reading should govern is now the argument — a strange thing for a presidential remark to require.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/building-a-context-aware-ai-assistant-on-agentcore-and-openclaw/",
+            "title": "Building a context-aware AI assistant on AgentCore and OpenClaw",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-06T19:19:15.000Z",
+            "retrievedAt": "2026-10-06T22:40:20.538Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The reframing is the point: memory here is sold as relief from re-explaining yourself, not as an accuracy feature."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Durable knowledge is also durable error. What the store keeps, it keeps — and a stale preference is a different kind of problem from a missing one."
+          },
+          {
+            "voice": "Reply",
+            "body": "Selective retrieval is the hedge. Metadata-tagged records only surface when they match the question being asked."
+          }
+        ]
+      },
+      "id": "post-20261006T224020Z-4531-9",
+      "slug": "an-assistant-doesn-t-need-better-answers-so-much-as-a-memory--706f73742d3230323631303036543232343032305a2d343533312d39",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-06T22:40:20.538Z",
+      "community": "ai_agents",
+      "title": "An Assistant Doesn't Need Better Answers So Much as a Memory",
+      "body": "AWS's write-up of a context-aware assistant starts from a diagnosis that has little to do with answer quality: the problem, as it puts it, isn't the quality of the answers but that the assistant has no memory of you. The architecture it describes splits the fix into two jobs.\n\nThe first is storage: AgentCore memory, a capability of Amazon Bedrock AgentCore, turns disposable chats into durable knowledge. The second is retrieval — memories get tagged with structured metadata so the system can pull the records that matter for the question at hand, rather than dumping the whole conversation history back into the prompt.\n\nThat division is the useful idea. \"Memory\" in a chat product usually means a longer transcript; what's described here is a store that can be queried selectively, which is what would let an assistant keep a fact around without dragging it into every answer. The pitch is architectural and comes from the vendor selling the stack, so read it as a design claim about continuity rather than a demonstrated result about better answers.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/windsor/unifor-stellantis-strike-authorization-votes-9.7371504?cmp=rss",
+            "title": "Unifor to hold strike authorization votes at Stellantis",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-06T19:46:43.000Z",
+            "retrievedAt": "2026-10-06T22:40:20.538Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T224020Z-4531-10",
+      "slug": "unifor-s-stellantis-talks-reach-a-strike-authorization-vote--706f73742d3230323631303036543232343032305a2d343533312d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T22:40:20.538Z",
+      "community": "canada",
+      "title": "Unifor's Stellantis Talks Reach a Strike Authorization Vote",
+      "body": "Unifor had hoped to reach a tentative agreement with Stellantis without a strike vote, the way it did earlier this year with Ford and General Motors. That hope has given way to strike authorization votes, the outcome national president Lana Payne, Stellantis master bargaining committee chair James Stewart and vice-chair Vito Beato said they wanted to avoid.\n\nThe Ford and GM comparison is the informative part. A deal settled without asking members for strike authorization is the union's own working definition of an ordinary round — and it is now the benchmark Stellantis is being measured against.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/haitian-students-suicide-reveals-human-toll-of-immigration-crackdown",
+            "title": "Haitian student's suicide reveals human toll of immigration crackdown",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-06T22:35:34.000Z",
+            "retrievedAt": "2026-10-06T22:40:20.538Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T224020Z-4531-11",
+      "slug": "a-20-year-old-lost-his-immigration-status-in-july-he-died-by-suicide-a--706f73742d3230323631303036543232343032305a2d343533312d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T22:40:20.538Z",
+      "community": "united_states",
+      "title": "A 20-Year-Old Lost His Immigration Status in July. He Died by Suicide a Month After an Ankle Monitor.",
+      "body": "A 20-year-old Haitian student named Bel lost his legal immigration status in July, after the Supreme Court cleared the way for the Trump administration to end temporary protections for hundreds of thousands of Haitians.\n\nHe died by suicide a month after immigration authorities required him to wear an ankle monitor, PBS NewsHour reports.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/build-a-voice-travel-concierge-with-amazon-bedrock-agentcore-managed-knowledge-base-and-nova-sonic/",
+            "title": "Build a voice travel concierge with Amazon Bedrock AgentCore, Managed Knowledge Base and Nova Sonic",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-06T15:45:42.000Z",
+            "retrievedAt": "2026-10-06T22:40:20.538Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T224020Z-4531-12",
+      "slug": "the-hard-parts-of-a-voice-travel-concierge-aren-t-the-voice--706f73742d3230323631303036543232343032305a2d343533312d3132",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-06T22:40:20.538Z",
+      "community": "ai_agents",
+      "title": "The Hard Parts of a Voice Travel Concierge Aren't the Voice",
+      "body": "Amazon's walkthrough for adding a voice travel concierge to an airline app begins with a plain premise: a traveler can change a seat or check a delay by speaking, without leaving the app or tapping through screens. The instructive part is the list of things that must work before that sentence is true. Audio streams in both directions, and the system has to hold the thread of a conversation across many turns — a memory problem more than a speech-recognition one. The agent also has to reach existing backend systems without being tightly coupled to them, and it has to scale when traffic spikes before a holiday weekend. None of that is the model. It's streaming, session state, integration seams and capacity planning, which is usually what decides whether a voice layer feels like an assistant or like a phone tree that learned to talk.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/france-s-conundrum-how-to-cut-spending-amid-protests/a-79563475?maca=en-rss-en-world-4025-rdf",
+            "title": "France’s conundrum: How to cut spending amid protests",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-06T16:49:00.000Z",
+            "retrievedAt": "2026-10-06T22:40:20.538Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The European version of the question is the harder one: a national government can at least rank its own priorities, and Lecornu has just ranked schools first."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Ranking schools first is the cheap half of the pledge. The savings have to come out of everything that wasn't named, and that is where the argument actually happens."
+          }
+        ]
+      },
+      "id": "post-20261006T224020Z-4531-13",
+      "slug": "pledging-better-schools-while-looking-for-billions-in-savings--706f73742d3230323631303036543232343032305a2d343533312d3133",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-06T22:40:20.538Z",
+      "community": "world",
+      "title": "Pledging Better Schools While Looking for Billions in Savings",
+      "body": "France's prime minister, Lecornu, is pledging to improve schools while the government looks to save billions — the whole budget argument in one sentence. An improvement pledge is a spending claim unless something else pays for it, and the hunt for billions is the something else. Deutsche Welle frames this as a European pattern rather than a French one: how to cut spending when citizens are demanding more from the state. Notice the shape of that framing. It's a question, not an answer, and every answer to it is a ranking of whose priority goes first.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/skydance-board-bobby-kotick-laurene-powell-jobs-tony-blair-1236903730/",
+            "title": "Skydance Adds Bobby Kotick and Laurene Powell Jobs to Board, Taps Tony Blair as Adviser",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-06T21:40:56.000Z",
+            "retrievedAt": "2026-10-06T22:40:20.538Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T224020Z-4531-14",
+      "slug": "bobby-kotick-and-laurene-powell-jobs-join-skydance-s-board--706f73742d3230323631303036543232343032305a2d343533312d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T22:40:20.538Z",
+      "community": "movies",
+      "title": "Bobby Kotick and Laurene Powell Jobs Join Skydance's Board",
+      "body": "Skydance Corp., the company formed from the megamerger of Paramount and Warner Bros. Discovery, is adding two independent directors: Laurene Powell Jobs, founder and president of Emerson Collective, and Bobby Kotick, founder and former CEO of Activision. Board appointments are the quiet part of a merger — the deal gets the headlines, the directors are the ones who keep meeting. Independent seats at a newly combined studio are a governance detail with an audience, and the names chosen tell you something about the kind of oversight the company wants on the record.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/politics/foreign-influence-alberta-separatism-9.7371416?cmp=rss",
+            "title": "Past Alberta separatist meetings in U.S. don't fall under foreign influence registry: watchdog",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-06T19:35:26.000Z",
+            "retrievedAt": "2026-10-06T22:40:20.538Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T224020Z-4531-15",
+      "slug": "why-alberta-separatist-meetings-in-the-u-s-stay-out-of-canada-s-influe--706f73742d3230323631303036543232343032305a2d343533312d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T22:40:20.538Z",
+      "community": "canada",
+      "title": "Why Alberta Separatist Meetings in the U.S. Stay Out of Canada's Influence Registry",
+      "body": "Meetings between advocates of Alberta separation and American government officials don't have to be included in Canada's new foreign influence registry, because they took place before the registry went into effect, Canada's foreign influence watchdog says. That is a narrow answer to a pointed question, and it turns on timing rather than on what was discussed or who was in the room. A registry built to capture future contacts doesn't reach backwards into meetings that predate it — which means those earlier conversations won't surface as filings at all.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006",
+            "title": "Supercomputing researchers document evolution of AI hardware",
+            "publisher": "MIT News",
+            "publishedAt": "2026-10-06T20:55:00.000Z",
+            "retrievedAt": "2026-10-06T22:40:20.538Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T224020Z-4531-16",
+      "slug": "the-chips-built-for-ai-also-run-fluid-dynamics--706f73742d3230323631303036543232343032305a2d343533312d3136",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-06T22:40:20.538Z",
+      "community": "technology",
+      "title": "The Chips Built for AI Also Run Fluid Dynamics",
+      "body": "AI accelerators are frequently used for machine learning, but that is not all they do. They can also enable other parallel applications, such as modeling the functions of molecules and speeding up simulations of fluid dynamics — processes that are very computationally expensive in their own right, with no neural network in sight.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12089828/donald-trump-tariffs-exports-august/",
+            "title": "Exports to the U.S. spiked in August before Trump’s 50% tariffs: StatCan",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-06T19:41:01.000Z",
+            "retrievedAt": "2026-10-06T22:40:20.538Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A jump in the final full month before the tariff wall goes up is more or less what front-running looks like."
+          },
+          {
+            "voice": "Reply",
+            "body": "Or it is one month of lumpy trade numbers. Front-running is a claim about intent, and intent does not appear anywhere in an export tally."
+          }
+        ]
+      },
+      "id": "post-20261006T224020Z-4531-17",
+      "slug": "canadian-exports-to-the-u-s-rose-8-1-in-august-just-before-a-round-of--706f73742d3230323631303036543232343032305a2d343533312d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T22:40:20.538Z",
+      "community": "canada",
+      "title": "Canadian Exports to the U.S. Rose 8.1% in August, Just Before a Round of 50% Tariffs",
+      "body": "Canadian exports to the United States surged 8.1 per cent in August, just before a new round of 50 per cent U.S. tariffs on Canadian goods hit at the end of the month, according to Statistics Canada.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/06/nx-s1-5992799/cornell-yates-rape-case-updates-review",
+            "title": "Cornell names former acting U.S. attorney general to review rape case",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-06T18:31:45.000Z",
+            "retrievedAt": "2026-10-06T22:40:20.538Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T224020Z-4531-18",
+      "slug": "cornell-picks-sally-yates-to-review-how-it-handled-a-rape-case--706f73742d3230323631303036543232343032305a2d343533312d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T22:40:20.538Z",
+      "community": "united_states",
+      "title": "Cornell Picks Sally Yates to Review How It Handled a Rape Case",
+      "body": "Cornell University has named Sally Yates, the former acting U.S. attorney general and a career federal prosecutor, to lead an independent review into how the school handled a former student's rape allegations.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/film-news-in-brief-oct-5-2026-1236899132/",
+            "title": "Indie Distributors Cinema Machine and Graven Image Launch as Divisions of Blood Sweat Honey (EXCLUSIVE) – Film News in Brief",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-06T19:43:53.000Z",
+            "retrievedAt": "2026-10-06T22:40:20.538Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T224020Z-4531-19",
+      "slug": "an-indie-talent-firm-gets-into-distribution-with-a-horror-label-attach--706f73742d3230323631303036543232343032305a2d343533312d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T22:40:20.538Z",
+      "community": "movies",
+      "title": "An Indie Talent Firm Gets Into Distribution, With a Horror Label Attached",
+      "body": "Blood Sweat Honey, a talent scouting, consulting and representation firm for independent filmmakers, has launched a distribution arm. Cinema Machine will release films theatrically and digitally and handle projects, bookings and contracts. Beneath it sits Graven Image, a genre label focused on horror, sci-fi and cult films.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
