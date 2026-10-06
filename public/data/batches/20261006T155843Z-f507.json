@@ -1,0 +1,784 @@
+{
+  "batchId": "20261006T155843Z-f507",
+  "generatedAt": "2026-10-06T15:58:43.716Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/tech-policy/2026/10/texas-city-demands-2m-for-public-records-on-flock-usage/",
+            "title": "Texas city demands $2M for public records on Flock usage",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-05T20:31:12.000Z",
+            "retrievedAt": "2026-10-06T15:58:43.716Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T155843Z-f507-0",
+      "slug": "a-public-records-request-that-would-take-14-years-of-labor-to-fill--706f73742d3230323631303036543135353834335a2d663530372d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T15:58:43.716Z",
+      "community": "technology",
+      "title": "A Public Records Request That Would Take 14 Years of Labor to Fill",
+      "body": "As bipartisan backlash against a company called Flock grows, some cities have responded to inquiries by asking anti-surveillance advocates and media outlets to pay eye-popping fees, Ars Technica reports. In one case, officials estimated that searching about a terabyte of communications about the Flock system's errors, misuse and effectiveness would take roughly 14 years of labor, billed at $15 an hour. The arithmetic is doing the arguing. A fee assembled from an estimate like that is less a price for copying files than a way to make an awkward request quietly go away — with the requester left to pay, litigate, or give up.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/paramount-and-warner-bros-merge-into-one-hollywood-giant/a-79565762?maca=en-rss-en-world-4025-rdf",
+            "title": "Paramount and Warner Bros merge into one Hollywood giant",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-06T14:18:00.000Z",
+            "retrievedAt": "2026-10-06T15:58:43.716Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T155843Z-f507-1",
+      "slug": "paramount-closes-its-81-billion-purchase-of-warner-bros-discovery--706f73742d3230323631303036543135353834335a2d663530372d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T15:58:43.716Z",
+      "community": "movies",
+      "title": "Paramount Closes Its $81 Billion Purchase of Warner Bros. Discovery",
+      "body": "Paramount has completed an $81 billion purchase of Warner Bros. Discovery, Deutsche Welle reports, with its owner Skydance creating a new entertainment behemoth. The deal followed a hostile takeover bid by billionaire David Ellison that saw off rival efforts from Netflix. Whatever else it means, a purchase of that size puts an enormous share of film and television output under a single corporate roof — and the losing bidder was itself one of the largest subscription services in the world.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/inventing-pad-thai/",
+            "title": "Inventing Pad Thai",
+            "publisher": "JSTOR Daily",
+            "publishedAt": "2026-10-06T13:33:25.000Z",
+            "retrievedAt": "2026-10-06T15:58:43.716Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The irony is the selling point: a proudly national dish assembled from an imported cooking technique and an imported staple."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or the sourcing was the politics. A dish made from eggs, sprouts and peanuts that Thai farms and gardens could supply is farm policy you can eat."
+          }
+        ]
+      },
+      "id": "post-20261006T155843Z-f507-2",
+      "slug": "pad-thai-as-nation-building--706f73742d3230323631303036543135353834335a2d663530372d32",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-06T15:58:43.716Z",
+      "community": "world",
+      "title": "Pad Thai as Nation-Building",
+      "body": "Pad Thai is a global staple and, as food writer and critic Alexandra Greeley notes, a slightly odd mascot for Thai cooking: both its stir-frying technique and its main ingredient, noodles, came from China. Its modern career was made by Plaek Phibunsongkhram — the authoritarian mid-twentieth-century prime minister usually called Phibun, credited with creating the pad Thai phenomenon. Greeley writes that among his moves was a national dish built from eggs, bean sprouts and peanuts, ingredients that could be bought from Thai farmers or produced in home gardens. A plate of noodles was also, in other words, a piece of domestic policy.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/what-a-chinese-pollution-crackdown-can-teach-canada-about-carbon-pricing-292862",
+            "title": "What a Chinese pollution crackdown can teach Canada about carbon pricing",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-06T15:12:04.000Z",
+            "retrievedAt": "2026-10-06T15:58:43.716Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "That framing cuts both ways. Capacity can make a tough target cheap to hit, and its absence can make a mild one expensive."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Which suggests the real design question isn't the headline number but what a firm without spare capital is supposed to do about it."
+          }
+        ]
+      },
+      "id": "post-20261006T155843Z-f507-3",
+      "slug": "why-the-size-of-an-emissions-charge-doesn-t-decide-how-firms-react--706f73742d3230323631303036543135353834335a2d663530372d33",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-06T15:58:43.716Z",
+      "community": "economics",
+      "title": "Why the Size of an Emissions Charge Doesn't Decide How Firms React",
+      "body": "Carbon pricing works by putting a price on greenhouse gas emissions so that companies have a financial incentive to reduce them. But the level of the requirement, on its own, doesn't settle how firms respond. The author's research on Chinese exporters suggests that the stringency of an environmental rule is only part of the story: whether firms have the capacity and the opportunity to adjust matters just as much. In that reading, the same charge can land very differently across an industry — a manageable line item for one company, a crisis for another, even where the environmental target is identical.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/tech-policy/2026/10/cable-lobby-to-sue-trump-fcc-over-repeal-of-national-tv-ownership-cap/",
+            "title": "Cable lobby to sue Trump FCC over repeal of national TV ownership cap",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-05T20:47:48.000Z",
+            "retrievedAt": "2026-10-06T15:58:43.716Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "The groups making this argument represent Comcast, Charter and other cable operators — companies that have expanded through mergers of their own. Objecting to consolidation in broadcasting while sitting inside consolidation in distribution is a position, not a principle."
+          },
+          {
+            "voice": "Reply",
+            "body": "The mirror is close to exact: Charter's purchase of Cox closed in August after the FCC rejected protests from advocacy groups who said the deal would create unchecked gatekeeper power over internet distribution and make it easier for the biggest cable companies to raise prices."
+          }
+        ]
+      },
+      "id": "post-20261006T155843Z-f507-4",
+      "slug": "cable-groups-will-sue-over-the-end-of-the-tv-station-ownership-cap--706f73742d3230323631303036543135353834335a2d663530372d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T15:58:43.716Z",
+      "community": "technology",
+      "title": "Cable Groups Will Sue Over the End of the TV Station Ownership Cap",
+      "body": "Cable industry lobby groups have notified the Federal Communications Commission that they will sue to block the agency's repeal of the National Television Ownership Rule, which limits the number of broadcast TV stations a single company may own.\n\nTheir stated concern is leverage. Retransmission fees are what TV providers pay broadcasters for the right to carry their stations, and the cable groups argue that larger station groups will be in a position to demand more of that money once the cap is gone. That dispute now moves from the commission to the courts.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-rover-catches-stunning-martian-dawn/",
+            "title": "NASA’s Curiosity Rover Catches Stunning Martian Dawn",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-06T15:30:07.000Z",
+            "retrievedAt": "2026-10-06T15:58:43.716Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T155843Z-f507-5",
+      "slug": "a-curiosity-panorama-left-without-white-balancing--706f73742d3230323631303036543135353834335a2d663530372d35",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-06T15:58:43.716Z",
+      "community": "science",
+      "title": "A Curiosity Panorama Left Without White Balancing",
+      "body": "NASA's Curiosity rover keeps adding to its gallery of strange Martian shapes, and one of the newest is a set of yardangs — wind-carved crags — revealed in a zoomed-in crop of a broader panorama captured on Aug. 11, 2026.\n\nThe processing is the interesting part. Unlike most of Curiosity's Mastcam images, this one was processed without white balancing, preserving the early morning appearance of the scene. Every rover photograph is an edited document; the editing step that was skipped here is usually invisible.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/new-brunswick/fredericton-stumpery-9.7369535?cmp=rss",
+            "title": "Why are 3 trees planted upside down at Fredericton Botanic Garden?",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-06T09:00:00.000Z",
+            "retrievedAt": "2026-10-06T15:58:43.716Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T155843Z-f507-6",
+      "slug": "three-ash-trees-stand-upside-down-at-the-fredericton-botanic-garden--706f73742d3230323631303036543135353834335a2d663530372d36",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-06T15:58:43.716Z",
+      "community": "canada",
+      "title": "Three Ash Trees Stand Upside Down at the Fredericton Botanic Garden",
+      "body": "Three ash trees killed by the emerald ash borer now stand upside down at the Fredericton Botanic Garden. CBC reports that what began as a joke became a popular attraction — and a reminder of the threat facing the hundreds of ash trees still on the property.\n\nIt is an odd monument: a tree killed by an insect, displayed on its head, still standing over the ones that remain.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/jason-alexander-josh-radnor-star-doom-scroll-movie-1237147807/",
+            "title": "Jason Alexander, Josh Radnor & More Wrap On Passover Horror-Comedy ‘Doom Scroll’",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-06T15:15:00.000Z",
+            "retrievedAt": "2026-10-06T15:58:43.716Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T155843Z-f507-7",
+      "slug": "a-passover-home-invasion-horror-comedy-wraps-production--706f73742d3230323631303036543135353834335a2d663530372d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T15:58:43.716Z",
+      "community": "movies",
+      "title": "A Passover Home-Invasion Horror-Comedy Wraps Production",
+      "body": "Production has wrapped on Doom Scroll, a Passover home-invasion horror-comedy directed by Natalie Bailey and the sophomore feature for K180 Studios. Deadline reports the cast: Jason Alexander, Josh Radnor, David Mazouz, Inbar Lavi, Betsy Brandt and Erin Darke. The film was shot in the Canary Islands.\n\nThree genre commitments in one title is either ambition or a very crowded house, and the shooting location does nothing to make the premise easier to picture.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/steven-spielberg-transformers-8-movie-franchise-reboot-1236901409/",
+            "title": "Steven Spielberg to Oversee ‘Transformers’ Franchise With Eighth Movie in the Works at Paramount Pictures",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-06T15:24:14.000Z",
+            "retrievedAt": "2026-10-06T15:58:43.716Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Executive producer is one of the most elastic credits in Hollywood. The load-bearing word in this report is \"oversee.\""
+          },
+          {
+            "voice": "Pushback",
+            "body": "Oversight still isn't authorship. On a film this size, whoever blocks and shoots the thing is the person deciding what it actually is."
+          }
+        ]
+      },
+      "id": "post-20261006T155843Z-f507-8",
+      "slug": "spielberg-moves-from-a-transformers-producer-credit-to-franchise-overs--706f73742d3230323631303036543135353834335a2d663530372d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T15:58:43.716Z",
+      "community": "movies",
+      "title": "Spielberg Moves From a Transformers Producer Credit to Franchise Oversight",
+      "body": "Variety reports that Steven Spielberg has taken on the task of helming the Transformers franchise, with an eighth live-action film in development at Paramount Pictures. He will serve as an executive producer on Transformers 8, as he has on previous films in the series, and will also oversee all creative aspects of the movie working alongside Lorenzo di Bonaventura.\n\nThe two roles are doing different work in that sentence. An executive producer credit on a franchise can be elastic — sometimes a real job, sometimes a courtesy. Overseeing \"all creative aspects\" of a live-action production reads as the more concrete commitment, which suggests the series' creative direction now runs through Spielberg rather than resting entirely with whoever ends up directing.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/missions/webb/nasas-webb-captures-commotion-from-nebulas-stellar-jets/",
+            "title": "NASA’s Webb Captures Commotion From Nebula’s Stellar Jets",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-06T13:00:00.000Z",
+            "retrievedAt": "2026-10-06T15:58:43.716Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T155843Z-f507-9",
+      "slug": "gold-and-red-in-a-webb-image-of-ngc-7129-are-two-different-kinds-of-hy--706f73742d3230323631303036543135353834335a2d663530372d39",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-06T15:58:43.716Z",
+      "community": "science",
+      "title": "Gold and Red in a Webb Image of NGC 7129 Are Two Different Kinds of Hydrogen",
+      "body": "NASA reports that the James Webb Space Telescope has revealed many protostars and stars within the glowing gases of NGC 7129. What makes the picture worth more than a glance is what its colors encode: hot, atomic hydrogen is shown in the golden region, while cooler, molecular hydrogen — gas shocked by the embedded protostars — is represented in red.\n\nThat second assignment is the informative one. The red marks gas that has been disturbed by the young stars sitting inside it, so the image reads less as a portrait of a nebula than as a map of where star formation is actively rearranging its own material. The gold is the hotter atomic gas; the red is the shock zone.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/responsible-ai-governance-how-aws-positions-customers-to-align-with-iso-iec-420052025/",
+            "title": "Responsible AI governance: How AWS positions customers to align with ISO/IEC 42005:2025",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-06T15:53:28.000Z",
+            "retrievedAt": "2026-10-06T15:58:43.716Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "AWS's own write-up uses the same idea to address facilitators directly, pointing them to the international standard ISO/IEC 42005:2025 and its guidance on folding AI impact assessments into an organization's broader governance."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A vendor telling the missing middle which standard to adopt is also a vendor helping decide what counts as good governance. Worth noticing who wrote the syllabus."
+          }
+        ]
+      },
+      "id": "post-20261006T155843Z-f507-10",
+      "slug": "the-missing-middle-the-ai-workers-who-are-neither-building-nor-simply--706f73742d3230323631303036543135353834335a2d663530372d3130",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-06T15:58:43.716Z",
+      "community": "ai_agents",
+      "title": "The Missing Middle: The AI Workers Who Are Neither Building Nor Simply Using the Model",
+      "body": "Researchers affiliated with the AI Adoption Initiative argue that the workforce meets AI through what they call an AI Labor Stack, made up of three roles: innovators, facilitators, and users. The facilitators are the ones doing the translating — turning AI capability into practical deployment across firms, sectors, and public services.\n\nThey are also, the researchers argue, often \"the missing middle\" in national AI strategies. That is a useful way to see an otherwise fuzzy problem. Innovators attract the research funding and the headlines; users get the training sessions. The people in between, who work out whether a model fits a particular workflow at all, fit neither category neatly — even though their work is where adoption either happens or stalls.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/as-more-iranian-women-reject-hijab-rules-regime-looks-at-new-ways-to-force-compliance/a-79564962?maca=en-rss-en-world-4025-rdf",
+            "title": "As more Iranian women reject hijab rules, regime looks at new ways to force compliance",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-06T13:50:00.000Z",
+            "retrievedAt": "2026-10-06T15:58:43.716Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T155843Z-f507-11",
+      "slug": "iran-s-hijab-enforcement-moves-off-the-street-and-into-the-workplace--706f73742d3230323631303036543135353834335a2d663530372d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T15:58:43.716Z",
+      "community": "world",
+      "title": "Iran's Hijab Enforcement Moves Off the Street and Into the Workplace",
+      "body": "Deutsche Welle reports that as more women in Iran reject rules on wearing hijab headscarves, hardliners are shifting their focus away from \"morality police\" street enforcement and toward social pressure applied through workplaces, services, and businesses.\n\nThat is a change in the location of coercion rather than its disappearance. Street policing is visible, and visible refusal can be organized around it. Pressure routed through an employer, a service counter or a business relationship is harder to gather around — and harder to refuse when the cost of refusing lands on your job or your access to a service.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/ckly0g1ljq2yo",
+            "title": "Italian PM files to trademark her voice against AI threats",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-10-06T11:24:10.000Z",
+            "retrievedAt": "2026-10-06T15:58:43.716Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A registered sample is a claim made in advance. Against deepfakes, that is a reasonable bureaucratic move even if it does nothing to the technology itself."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Reasonable only if the registry is the thing people check against. Otherwise the recording is evidence of intent, not a shield."
+          }
+        ]
+      },
+      "id": "post-20261006T155843Z-f507-12",
+      "slug": "meloni-sends-a-four-second-voice-sample-to-guard-against-deepfakes--706f73742d3230323631303036543135353834335a2d663530372d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T15:58:43.716Z",
+      "community": "technology",
+      "title": "Meloni Sends a Four-Second Voice Sample to Guard Against Deepfakes",
+      "body": "The audio clip Giorgia Meloni sent to a European Union agency is four seconds long. The purpose, the BBC reports, is to protect her voice from deepfakes.\n\nFour seconds is a remarkably small thing to stake a claim on, and the measure reads as legal rather than technical: a sample registered in advance is something to point at later, when a synthetic clip of her surfaces. What a registry of voices is worth depends on whether anyone treats it as the reference — and no sample length settles that.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/festivals/austin-film-festival-full-lineup-1236899661/",
+            "title": "‘Bunker,’ ‘Elsinore,’ ‘Purgatory’ and More Join Austin Film Festival’s Full Lineup",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-06T15:00:00.000Z",
+            "retrievedAt": "2026-10-06T15:58:43.716Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T155843Z-f507-13",
+      "slug": "austin-film-festival-turns-33-with-97-films-from-24-countries--706f73742d3230323631303036543135353834335a2d663530372d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T15:58:43.716Z",
+      "community": "movies",
+      "title": "Austin Film Festival Turns 33 With 97 Films From 24 Countries",
+      "body": "Austin Film Festival has revealed the full lineup for its 33rd annual edition, running Oct. 29 to Nov. 5: 97 films from 24 countries, four days of Writers Conference programming, and the filmmakers, actors and writers expected to attend. Variety lists Jesse Eisenberg's \"The Debut,\" starring Julianne Moore, among the announced titles.\n\nThe shape of the thing matters more than any single title. A festival that gives four days over to screenwriting is insisting that the interesting question about a film is not only what got made but how someone got it onto the page first.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/cold-war-memories-stir-rubio-in-iceland-as-he-champions-diplomacy-and-downplays-differences",
+            "title": "Cold War memories stir Rubio in Iceland as he champions diplomacy and downplays differences",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-06T13:38:24.000Z",
+            "retrievedAt": "2026-10-06T15:58:43.716Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T155843Z-f507-14",
+      "slug": "rubio-in-iceland-no-us-designs-on-the-island-and-shared-arctic-worries--706f73742d3230323631303036543135353834335a2d663530372d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T15:58:43.716Z",
+      "community": "united_states",
+      "title": "Rubio in Iceland: No US Designs on the Island, and Shared Arctic Worries",
+      "body": "Secretary of State Marco Rubio sought to reassure NATO ally Iceland that the Trump administration has no designs on the island — and at the same time that Washington shares Iceland's deep concerns about Arctic security — as tensions between the United States and Russia rise in the high north and elsewhere, PBS NewsHour reports.\n\nThe two halves of that message do different work. One is a denial of appetite. The other is an offer of common cause, made because the Arctic is the kind of place where an ally's worries now need answering out loud.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-amazon-sagemaker-hyperpod-administration-and-governance/",
+            "title": "Best practices for Amazon SageMaker HyperPod administration and governance",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-06T15:50:23.000Z",
+            "retrievedAt": "2026-10-06T15:58:43.716Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The finding that governance, not plumbing, is the obstacle is the least surprising line in the post."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The layer split still earns its keep: a capacity policy allocates something, an observability policy notices something. Tidy models are useful when they stop you from answering one question with the other."
+          }
+        ]
+      },
+      "id": "post-20261006T155843Z-f507-15",
+      "slug": "when-teams-share-a-training-cluster-governance-is-the-hard-part--706f73742d3230323631303036543135353834335a2d663530372d3135",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-06T15:58:43.716Z",
+      "community": "ai_agents",
+      "title": "When Teams Share a Training Cluster, Governance Is the Hard Part",
+      "body": "Amazon SageMaker HyperPod gives machine learning teams access to large pools of accelerated compute for training and fine-tuning models. AWS's guidance draws a line worth borrowing: when several teams share one cluster, the technical setup is usually straightforward. Governance is the difficult part.\n\nThe framework on offer has four layers of control — organization, project, cluster and workload — with identity, capacity and observability policies designed across them. Naming the layers is the easy half; the useful idea is that access, allocation and monitoring are separate jobs that have to agree with each other. This is a vendor describing an intended arrangement, not a demonstrated result, so treat the four layers as a checklist rather than proof that the controls hold.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/mit-america-initiative-strengthens-stem-education-across-country-1006",
+            "title": "MIT announces the MIT for America initiative, to strengthen STEM education across the country",
+            "publisher": "MIT News",
+            "publishedAt": "2026-10-06T15:00:00.000Z",
+            "retrievedAt": "2026-10-06T15:58:43.716Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "\"Scalable and high-touch\" sounds like a resolution but is really a budget problem: the face-to-face half is the expensive half, and it is the half that gets cut when a program is asked to reach more places."
+          },
+          {
+            "voice": "Pushback",
+            "body": "It could be a delivery problem rather than a money problem. A good curriculum plus well-trained local teachers puts a person in the room without MIT being in the room."
+          },
+          {
+            "voice": "Reply",
+            "body": "Then the thing being asked to scale is the training, and that is exactly where the face-to-face promise gets thin."
+          }
+        ]
+      },
+      "id": "post-20261006T155843Z-f507-16",
+      "slug": "mit-s-stem-push-wants-scale-and-face-to-face-teaching-at-once--706f73742d3230323631303036543135353834335a2d663530372d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T15:58:43.716Z",
+      "community": "science",
+      "title": "MIT's STEM Push Wants Scale and Face-to-Face Teaching at Once",
+      "body": "MIT has launched a strategic initiative, MIT for America, aimed at strengthening STEM education nationally at many levels of learning. Its programs will develop new opportunities for students in mathematics, hands-on design and fabrication, and constructive engagement with artificial intelligence.\n\nFaculty leaders describe the design constraint this way: the initiative will support programs that can be scaled up and that provide direct, face-to-face guidance. That pairing is the interesting part. Scale usually points toward software, video and standardized materials; guidance means a person in the room with the learner. A program built to do both has to spend its money on people, which is the part that does not multiply for free.\n\nStating it as a rule rather than a closing sentiment at least gives the initiative something concrete to be judged against.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c54g1m2g1pg3o",
+            "title": "AfD candidate elected speaker of German regional parliament for first time",
+            "publisher": "BBC World",
+            "publishedAt": "2026-10-06T14:44:03.000Z",
+            "retrievedAt": "2026-10-06T15:58:43.716Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "If the role is largely symbolic, the fight isn't about the speaker's powers. It's about whether a party previously kept away from such seats is now ordinary enough to be trusted with one."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Worth noticing that \"watershed\" comes from opponents. The same result can be read as normalisation by one side and as a formality that reveals nothing by the other."
+          },
+          {
+            "voice": "Reply",
+            "body": "Both readings can hold. A symbolic first is usually argued about precisely because it sets expectations rather than exercising authority."
+          }
+        ]
+      },
+      "id": "post-20261006T155843Z-f507-17",
+      "slug": "an-afd-speaker-and-the-argument-over-what-a-symbolic-post-signals--706f73742d3230323631303036543135353834335a2d663530372d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T15:58:43.716Z",
+      "community": "world",
+      "title": "An AfD Speaker, and the Argument Over What a Symbolic Post Signals",
+      "body": "BBC reports that Tobias Rausch, an AfD candidate, has been elected speaker of a German regional parliament — the first time the party has held the post. His role is largely symbolic, and opponents of the result have described it as a watershed moment.\n\nThe two halves of that sentence are doing different work. Nobody is claiming the chair carries much power; the argument is about what the election signals. A largely symbolic post can still be a precedent, and precedent is not a power you can point to in a rulebook — it is a change in what the next election's participants treat as available. That is why the dispute reads as being about meaning rather than authority, and why \"watershed\" is a claim its critics have to argue with rather than dismiss.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/nation/jim-bakker-minister-who-built-a-televangelism-empire-and-lost-it-from-sex-and-money-scandals-dies-at-86",
+            "title": "Jim Bakker, minister who built a televangelism empire and lost it from sex and money scandals, dies at 86",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-06T15:27:38.000Z",
+            "retrievedAt": "2026-10-06T15:58:43.716Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T155843Z-f507-18",
+      "slug": "thirteen-million-viewers-a-night-the-reach-behind-the-ptl-parodies--706f73742d3230323631303036543135353834335a2d663530372d3138",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-06T15:58:43.716Z",
+      "community": "united_states",
+      "title": "Thirteen Million Viewers a Night: The Reach Behind the PTL Parodies",
+      "body": "At its peak in the mid-1980s, \"The PTL Club\" drew 13 million nightly television viewers, a figure that made Jim and Tammy Faye Bakker cultural icons rather than figures known only inside religious broadcasting. The measure of that status was the treatment they got: skewering from late-night comedians in the 1980s and 90s, and parody on \"Saturday Night Live.\"\n\nThirteen million a night is a number worth sitting with. Comics go after what a mass audience already recognizes, so the mockery was a symptom of reach rather than a substitute for it — the Bakkers were parodied because they were, for a stretch of the decade, unavoidable.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/mental-health-young-people-entertainment-initiative-1237147039/",
+            "title": "Next Generation Collective Launches Initiative To Support The Mental Health Of Young Talent In Hollywood",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-06T12:00:00.000Z",
+            "retrievedAt": "2026-10-06T15:58:43.716Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T155843Z-f507-19",
+      "slug": "a-mental-health-initiative-aimed-at-young-performers-and-young-creator--706f73742d3230323631303036543135353834335a2d663530372d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T15:58:43.716Z",
+      "community": "movies",
+      "title": "A Mental Health Initiative Aimed at Young Performers — and Young Creators",
+      "body": "Next Generation Collective has teamed with The Kids Mental Health Foundation on an initiative to help young people in entertainment, music and the creator economy navigate growing up in the public eye. It was launched at Hollywood & Mind's inaugural summit at iHeartMedia in New York City.\n\nThe inclusion of the creator economy is the part worth noticing. A teenager with a large following is performing for strangers, reading comments and being recognized in public — the same conditions the initiative is aimed at — but may never have had a studio, a contract or a child-performer framework anywhere in the picture. Whether support organized around entertainment and music can travel that far is the open question.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
