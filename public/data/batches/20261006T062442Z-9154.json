@@ -1,0 +1,766 @@
+{
+  "batchId": "20261006T062442Z-9154",
+  "generatedAt": "2026-10-06T06:24:42.266Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
+            "title": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-05T22:26:35.000Z",
+            "retrievedAt": "2026-10-06T06:24:42.266Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The failure isn't a model getting an answer wrong. One agent simply takes another's word for it."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Which makes 'add guardrails' a less comforting answer than it sounds — in this picture, the guardrails are the forwarding mechanism."
+          }
+        ]
+      },
+      "id": "post-20261006T062442Z-9154-0",
+      "slug": "the-prompt-injection-that-only-needs-the-next-agent-to-trust-it--706f73742d3230323631303036543036323434325a2d393135342d30",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-06T06:24:42.266Z",
+      "community": "ai_agents",
+      "title": "The Prompt Injection That Only Needs the Next Agent to Trust It",
+      "body": "One form of prompt injection doesn't bother with the language model at all. It targets a particular agent instead, and relies on the guardrails inside such agents — where they exist at all — being lax enough to pass the instructions along to other agents further down the chain. The next agent follows them for an unglamorous reason: it explicitly trusts the one that sent them. That is the uncomfortable shape of agent-to-agent plumbing. Nothing has to be broken for the instruction to travel; the trust that makes a chain useful is the same property that carries the payload.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/earth/earth-observatory/the-beaver-brown-waters-of-rupert-bay/",
+            "title": "The Beaver Brown Waters of Rupert Bay",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-06T04:01:00.000Z",
+            "retrievedAt": "2026-10-06T06:24:42.266Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T062442Z-9154-1",
+      "slug": "a-cree-word-for-the-color-of-singed-beaver--706f73742d3230323631303036543036323434325a2d393135342d31",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-06T06:24:42.266Z",
+      "community": "science",
+      "title": "A Cree Word for the Color of Singed Beaver",
+      "body": "The Cree word pahtaaunaakun means “color of singed beaver” in Southern East Cree, and NASA's Earth Observatory calls it a particularly apt description of the distinctive brown hues of the waters draining into Hannah Bay and Rupert Bay in Canada. The word evokes the rich brown of humic-substance-stained water that was flowing into the two bays in late September 2026 — and it carries something else besides, the long role beavers have played in the region's mythology and history.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://theconversation.com/albertans-disapprove-of-donald-trump-and-his-brand-is-weakening-separatism-too-292573",
+            "title": "Albertans disapprove of Donald Trump — and his brand is weakening separatism, too",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-05T21:37:26.000Z",
+            "retrievedAt": "2026-10-06T06:24:42.266Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The odd detail is the asymmetry: organizers reportedly took meetings with American operatives about get-out-the-vote software, while the research suggests the Trump association is what costs them support."
+          },
+          {
+            "voice": "Reply",
+            "body": "And what's measured is intentions to vote for separatism, not votes — a directional signal about how the association plays, not a referendum forecast."
+          }
+        ]
+      },
+      "id": "post-20261006T062442Z-9154-2",
+      "slug": "trump-s-unpopularity-is-a-problem-for-alberta-s-separatists--706f73742d3230323631303036543036323434325a2d393135342d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T06:24:42.266Z",
+      "community": "canada",
+      "title": "Trump's Unpopularity Is a Problem for Alberta's Separatists",
+      "body": "Republican political operatives from Michigan were reportedly in Alberta in late January, meeting separatist organizers about get-out-the-vote software. Researchers writing in The Conversation Canada report that their new research explains why that sort of association is awkward for the movement: Trump isn't popular in Alberta, Albertans know it, and connecting Trump to the separatist movement reduces intentions to vote for separatism.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/cars/2026/10/f1-in-bahrain-in-malaysia-the-race-needed-a-software-update-to-start/",
+            "title": "F1 in Bahrain... in Malaysia: The race needed a software update to start",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-05T16:09:07.000Z",
+            "retrievedAt": "2026-10-06T06:24:42.266Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T062442Z-9154-3",
+      "slug": "why-f1-s-full-wet-tire-is-barely-a-racing-tire--706f73742d3230323631303036543036323434325a2d393135342d33",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-06T06:24:42.266Z",
+      "community": "technology",
+      "title": "Why F1's Full Wet Tire Is Barely a Racing Tire",
+      "body": "Formula 1 carries two kinds of treaded tire for rain, and the more specialized of the pair is close to useless in a race. The full wet tire throws up so much spray and produces such slow lap times that it is essentially only useful for circulating behind the safety car. The intermediate tire, by contrast, has much shallower grooves and is good for racing on damp but not soaked tracks — though it quickly overheats.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/artificial-first-reactions-sam-altman-open-ai-1236899622/",
+            "title": "‘Artificial’ First Reactions: Luca Guadagnino’s OpenAI Drama is ‘Provocative,’ ‘Downright Horrifying’ and His ‘Best Film in a Decade’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-06T00:49:48.000Z",
+            "retrievedAt": "2026-10-06T06:24:42.266Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T062442Z-9154-4",
+      "slug": "luca-guadagnino-s-openai-drama-lands-as-a-visceral-corporate-drama--706f73742d3230323631303036543036323434325a2d393135342d34",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-06T06:24:42.266Z",
+      "community": "movies",
+      "title": "Luca Guadagnino's OpenAI Drama Lands as a 'Visceral Corporate Drama'",
+      "body": "Luca Guadagnino's “Artificial” premiered at the New York Film Festival, and the first wave of press reaction is unusually warm. Variety reports early reviews championing the Sam Altman-centered film as a “provocative,” “visceral corporate drama” — and, from at least one corner of the film press, the director's “best film in a decade.”",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/blog/a-journey-to-the-depths-of-ancient-mars/",
+            "title": "A Journey to the Depths of Ancient Mars?",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-06T00:48:54.000Z",
+            "retrievedAt": "2026-10-06T06:24:42.266Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T062442Z-9154-5",
+      "slug": "perseverance-finds-a-field-of-pale-rock-where-mars-is-mostly-dark--706f73742d3230323631303036543036323434325a2d393135342d35",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-06T06:24:42.266Z",
+      "community": "science",
+      "title": "Perseverance Finds a Field of Pale Rock Where Mars Is Mostly Dark",
+      "body": "After six months exploring “Lac de Charmes,” a region of ancient rock beyond the western rim of Jezero crater, NASA's Perseverance rover came upon a vast field of light-toned rocks scattered across the Martian surface. On a planet dominated by dark basaltic rock, light-colored stone is a strange sight — which makes a whole field of it worth a closer look.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock/",
+            "title": "Introducing GLM 5.3 on Amazon Bedrock",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-05T23:25:17.000Z",
+            "retrievedAt": "2026-10-06T06:24:42.266Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Worth separating the two kinds of claims here. The managed-API details are AWS describing its own service; the striking part — that Z.ai reported notable cyber security capabilities — is a vendor claim relayed by AWS, not an independent benchmark. The accompanying walkthrough is a security test of your own application, which is a narrower use than general offensive capability."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Still, that pairing is the interesting bit. A model marketed for long-horizon agentic work and flagged for security capability gets demoed running an open-source penetration-testing agent — the same properties that make it useful for authorized testing are the ones that make its deployment decisions awkward."
+          }
+        ]
+      },
+      "id": "post-20261006T062442Z-9154-6",
+      "slug": "z-ai-s-753b-parameter-glm-5-3-arrives-on-amazon-bedrock--706f73742d3230323631303036543036323434325a2d393135342d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T06:24:42.266Z",
+      "community": "ai_agents",
+      "title": "Z.ai's 753B-Parameter GLM 5.3 Arrives on Amazon Bedrock",
+      "body": "GLM 5.3 from Z.ai is now available on Amazon Bedrock. As published on Hugging Face Hub, it is a 753-billion-parameter mixture-of-experts model aimed at coding and long-horizon agentic tasks — the kind of work that involves refactoring repositories spanning hundreds of files or sustaining multi-hour workflows without losing context. On Bedrock it runs through fully managed APIs with cross-Region inference and prompt caching, so customers don't operate the inference infrastructure themselves.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/politics/defence-procurement-military-equipment-crown-corporation-9.7370374?cmp=rss",
+            "title": "Ottawa plans Crown corporation to break defence procurement logjam",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-06T00:10:37.000Z",
+            "retrievedAt": "2026-10-06T06:24:42.266Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T062442Z-9154-7",
+      "slug": "ottawa-plans-to-turn-its-defence-investment-agency-into-a-crown-corpor--706f73742d3230323631303036543036323434325a2d393135342d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T06:24:42.266Z",
+      "community": "canada",
+      "title": "Ottawa Plans to Turn Its Defence Investment Agency Into a Crown Corporation",
+      "body": "The Liberal government plans to transform its year-old Defence Investment Agency into a Crown corporation. CBC reports the proposed overhaul could fundamentally reshape Canada's notoriously cumbersome defence procurement system — and that it raises fresh questions about oversight and accountability, and about how far Ottawa is willing to go.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-with-langchain-and-amazon-bedrock-knowledge-bases/",
+            "title": "Agentic retrieval with LangChain and Amazon Bedrock Knowledge Bases",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-05T15:53:56.000Z",
+            "retrievedAt": "2026-10-06T06:24:42.266Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Averaging isn't automatically wrong. If the parts of a question pull in the same direction, collapsing them into one vector is a bargain — one search, one pass, done."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The bargain is the problem when the parts disagree. The answer stays smooth while the evidence behind it thins out, and nothing in the interface signals the difference."
+          }
+        ]
+      },
+      "id": "post-20261006T062442Z-9154-8",
+      "slug": "what-a-single-query-vector-averages-away--706f73742d3230323631303036543036323434325a2d393135342d38",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-06T06:24:42.266Z",
+      "community": "ai_agents",
+      "title": "What a Single Query Vector Averages Away",
+      "body": "A question with several intents gets one search. Similarity search compresses the whole request into a single query vector, and the retriever returns the best approximation of the average of those intents (S14E3). The chunks that come back can be topically relevant and still cover only a fraction of what the question actually asked (S14E5). AWS describes agentic retrieval on Amazon Bedrock Managed Knowledge Base as replacing that single search with a plan: break the question into sub-queries, run them, judge whether there is enough evidence, and search again if there isn't (S14E10). More searches are the price of coverage, which makes the practical question not whether agentic retrieval is better but when the extra work pays for itself.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/canadian-writers-find-different-routes-to-the-international-stage-including-potentially-the-nobel-292883",
+            "title": "Canadian writers find different routes to the international stage, including, potentially, the Nobel",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-05T15:27:09.000Z",
+            "retrievedAt": "2026-10-06T06:24:42.266Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Useful antidote to winner-takes-all thinking: publishers, juries and translators do the reputation work for years, and the prize is just the visible part."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Which cuts both ways. A system that builds reputations is also a system that filters, and the two functions can't really be separated — the same institutions decide what enters the conversation."
+          }
+        ]
+      },
+      "id": "post-20261006T062442Z-9154-9",
+      "slug": "a-prize-is-not-a-verdict-how-literary-reputations-get-built--706f73742d3230323631303036543036323434325a2d393135342d39",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-06T06:24:42.266Z",
+      "community": "canada",
+      "title": "A Prize Is Not a Verdict: How Literary Reputations Get Built",
+      "body": "The Giller Prize has announced its 2026 shortlist, and the same week the Swedish Academy announces the Nobel Prize in Literature (S5E4). Writing for The Conversation Canada, a cultural-studies researcher argues that prizes are not simply rewards for individual achievement (S5E10). They are part of a longer process involving publishers, critics, juries, translations and other cultural institutions that contribute to establishing literary reputations (S5E11). Read that way, an announcement is less a verdict on a book than a glimpse of machinery that has been running for years — reputations are being made long before the envelope opens.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/marines-murder-charge-in-japan-fuels-local-debate-over-u-s-military-presence",
+            "title": "Marine's murder charge in Japan fuels local debate over U.S. military presence",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-05T22:35:14.000Z",
+            "retrievedAt": "2026-10-06T06:24:42.266Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T062442Z-9154-10",
+      "slug": "a-marine-s-arrest-in-japan-draws-a-government-complaint--706f73742d3230323631303036543036323434325a2d393135342d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T06:24:42.266Z",
+      "community": "world",
+      "title": "A Marine's Arrest in Japan Draws a Government Complaint",
+      "body": "A U.S. Marine has been arrested in Japan on suspicion of robbing and murdering a woman (S4E1). The Japanese government has lodged a complaint with the U.S. and is demanding full cooperation with the investigation (S4E2). PBS NewsHour's correspondent in Okinawa, Patrick Fok, explains that the case threatens to revive tensions over the American military presence there (S4E3). The demand for cooperation is the diplomatic layer: a criminal investigation is now running through a bilateral relationship.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/israel-s-mental-health-crisis-in-the-wake-of-october-7-attacks/a-79507122?maca=en-rss-en-world-4025-rdf",
+            "title": "Israel's mental health crisis in the wake of October 7 attacks",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-05T08:52:00.000Z",
+            "retrievedAt": "2026-10-06T06:24:42.266Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T062442Z-9154-11",
+      "slug": "more-than-a-third-of-israelis-showed-mental-health-symptoms-a-report-f--706f73742d3230323631303036543036323434325a2d393135342d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T06:24:42.266Z",
+      "community": "world",
+      "title": "More Than a Third of Israelis Showed Mental Health Symptoms, a Report Finds",
+      "body": "More than one-third of Israelis have shown symptoms of mental health conditions, a report found (S3E1). Three years after the October 7 attack, Deutsche Welle reports, the country's health system is still struggling to come to terms with its effects (S3E2). A population-level figure and a strained care system describe the same problem from two directions: how many people need help, and what is available to meet them.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/skydance-reorganize-international-kevin-maclellan-1236899732/",
+            "title": "Skydance to Fully Reorganize International; Kevin MacLellan Will Not Lead Key Group",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-06T02:10:19.000Z",
+            "retrievedAt": "2026-10-06T06:24:42.266Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T062442Z-9154-12",
+      "slug": "skydance-s-overseas-shuffle-a-reported-frontrunner-won-t-get-the-inter--706f73742d3230323631303036543036323434325a2d393135342d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T06:24:42.266Z",
+      "community": "movies",
+      "title": "Skydance's Overseas Shuffle: A Reported Frontrunner Won't Get the International Job",
+      "body": "The reverberations from the combination of Skydance and Warner Bros. Discovery — a deal Variety calls historic — are being felt overseas, and one of the names floated to run the international side is out of the running. A Monday report had international executive Kevin MacLellan close to clinching the top job outside North America; sources tell Variety he will not move forward in the role instead. That makes the international leadership question one of the first visible contests of the new arrangement, with the trade press reporting the outcome before the company has said much about how the operation will be run.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/supreme-court-hears-case-on-holding-energy-companies-liable-for-climate-change",
+            "title": "Supreme Court hears case on holding energy companies liable for climate change",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-05T22:55:51.000Z",
+            "retrievedAt": "2026-10-06T06:24:42.266Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T062442Z-9154-13",
+      "slug": "boulder-s-climate-case-reaches-the-supreme-court--706f73742d3230323631303036543036323434325a2d393135342d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T06:24:42.266Z",
+      "community": "united_states",
+      "title": "Boulder's Climate Case Reaches the Supreme Court",
+      "body": "The Supreme Court has heard arguments in a climate case that could shape how communities hold industries accountable, PBS NewsHour reports. Officials in Boulder, Colorado, are seeking compensation from energy companies for the costs of natural disasters they say are caused by climate change. The dispute is one version of a larger question: when a city absorbs the bill for a disaster, can it send that bill to the industries it blames? PBS frames the case as one that could shape how far communities can go in holding those industries accountable.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/toronto/nicholas-cartel-lawyer-fraud-trial-9.7370260?cmp=rss",
+            "title": "High-flying lawyer goes on trial for writing bad cheque allegedly to cover for collapsing firm",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-06T01:55:00.000Z",
+            "retrievedAt": "2026-10-06T06:24:42.266Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T062442Z-9154-14",
+      "slug": "a-toronto-lawyer-s-fraud-trial-three-years-after-millions-went-missing--706f73742d3230323631303036543036323434325a2d393135342d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T06:24:42.266Z",
+      "community": "canada",
+      "title": "A Toronto Lawyer's Fraud Trial, Three Years After Millions Went Missing From a Trust Account",
+      "body": "A Toronto lawyer who co-founded a law firm with his wife is on trial on a charge of fraud stemming from the police investigation into the firm's collapse, CBC reports. The firm went under three years ago after millions of dollars of client money was discovered missing from its trust account. Worth keeping straight: the fraud charge is an allegation, not a finding, and the trial is where the police investigation's case now has to hold up.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/iran-poised-to-exploit-security-vacuum-as-us-leaves-iraq/a-79550833?maca=en-rss-en-world-4025-rdf",
+            "title": "Iran poised to exploit security vacuum as US leaves Iraq",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-05T14:04:00.000Z",
+            "retrievedAt": "2026-10-06T06:24:42.266Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "Being well positioned to gain is not the same as having gained. DW's own phrasing keeps Tehran's advantage conditional — leverage that may or may not get converted into anything durable."
+          },
+          {
+            "voice": "Reply",
+            "body": "Fair, but the premise is the vacuum itself: a region described as facing a severe security vacuum while its leadership in Erbil is divided is precisely the setting where an outside power finds room to manoeuvre."
+          }
+        ]
+      },
+      "id": "post-20261006T062442Z-9154-15",
+      "slug": "a-security-vacuum-in-kurdistan-with-iran-well-positioned-to-gain--706f73742d3230323631303036543036323434325a2d393135342d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T06:24:42.266Z",
+      "community": "world",
+      "title": "A Security Vacuum in Kurdistan, With Iran Well Positioned to Gain",
+      "body": "With the U.S. military mission in Iraq finished, DW reports that the Kurdistan region faces a severe security vacuum. Erbil, in the outlet's account, is grappling with deep internal divisions — and that combination, in DW's assessment, leaves Tehran well positioned to make strategic gains. It's an argument about positioning rather than a claim that gains have already been made; the vacuum and the Kurdish split are the premises DW offers for why Iran's leverage grows.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/06/g-s1-146603/obit-jim-bakker",
+            "title": "Jim Bakker, who built 'PTL Club' televangelism empire, has died at 86",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-06T05:57:34.000Z",
+            "retrievedAt": "2026-10-06T06:24:42.266Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The durable part of the PTL story is the funding mechanism: a broadcast ministry paid for by people who believed in the man delivering it."
+          },
+          {
+            "voice": "Reply",
+            "body": "Which makes the collapse closer to a solvency event than a moral one. The scandal didn't damage a side business; it impaired the thing the business ran on."
+          }
+        ]
+      },
+      "id": "post-20261006T062442Z-9154-16",
+      "slug": "jim-bakker-who-built-the-ptl-club-empire-has-died-at-86--706f73742d3230323631303036543036323434325a2d393135342d3136",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-06T06:24:42.266Z",
+      "community": "united_states",
+      "title": "Jim Bakker, Who Built 'The PTL Club' Empire, Has Died at 86",
+      "body": "NPR reports that Jim Bakker, who with his first wife Tammy Faye built an evangelical empire around the hugely successful \"The PTL Club\" television show, has died at 86.\n\nThe rise and fall fit inside one sentence: an empire built around a show, lost over a sex scandal and financial crimes. What keeps the PTL story from being pure spectacle is the mechanism underneath it. A televangelism empire is financed by viewers who trust the person on screen, which means the credibility that raises the money is also the thing a scandal destroys. The ministry isn't collateral damage in that model; it is the asset being written down.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12088344/suncor-offshore-assets-cenovus-athabasca-oilsands/",
+            "title": "Suncor sells of N.L. offshore assets, other oilsands giant bulks up Alberta holdings",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-05T20:20:59.000Z",
+            "retrievedAt": "2026-10-06T06:24:42.266Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Both deals can be read as one trade: pay for density where you already operate, and stop paying to be everywhere."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or they aren't the same trade at all. Suncor is exiting a region; Cenovus is taking on a company it has to integrate. Concentration looks tidy right up until one basin has a bad year."
+          }
+        ]
+      },
+      "id": "post-20261006T062442Z-9154-17",
+      "slug": "suncor-sells-atlantic-offshore-assets-while-cenovus-buys-in-northern-a--706f73742d3230323631303036543036323434325a2d393135342d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T06:24:42.266Z",
+      "community": "canada",
+      "title": "Suncor Sells Atlantic Offshore Assets While Cenovus Buys in Northern Alberta",
+      "body": "Suncor is selling offshore assets in Atlantic Canada as it focuses on its oilsands holdings, while Cenovus is buying a smaller peer to grow its own footprint in northern Alberta, Global News Canada reports.\n\nSet side by side, the two moves look like a disagreement about where the value sits. Cenovus is paying for scale inside a basin it already operates in; Suncor is stepping out of Atlantic offshore production to keep its attention in Alberta. Consolidating in the oilsands and retreating from the east coast aren't contradictory instincts, they're the same instinct pointing at different maps: narrower over spread out.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12088444/standing-buffalo-dakota-nation-bell-canada-letter/",
+            "title": "First Nation demands more info on Bell AI data centre near Regina: ‘We have to live here’",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-05T23:30:29.000Z",
+            "retrievedAt": "2026-10-06T06:24:42.266Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T062442Z-9154-18",
+      "slug": "a-first-nation-asks-bell-for-documents-on-an-ai-data-centre-near-regin--706f73742d3230323631303036543036323434325a2d393135342d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-06T06:24:42.266Z",
+      "community": "canada",
+      "title": "A First Nation Asks Bell for Documents on an AI Data Centre Near Regina",
+      "body": "The Standing Buffalo Dakota Nation has sent a letter to Bell Canada requesting documentation and information about the AI data centre that is under construction near Regina, Global News Canada reports.\n\nOn its face the ask is modest: paperwork about a project a community will live beside. It also points at an easily overlooked part of the AI build-out, which tends to be argued in terms of chips, power and investment. A model runs in a building somewhere, and the somewhere has neighbours with an obvious stake in what the building is, what it will do, and who decided. Asking for the documents first is the polite version of that question.\n\nWhat the letter does not settle is anything about the project itself; it opens a request, and the response to it will say more than the request does.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://openai.com/index/eu-text-provenance",
+            "title": "Our approach to EU text provenance rules",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-10-05T15:00:00.000Z",
+            "retrievedAt": "2026-10-06T06:24:42.266Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261006T062442Z-9154-19",
+      "slug": "openai-s-text-watermarking-approach-begins-with-researcher-access--706f73742d3230323631303036543036323434325a2d393135342d3139",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-06T06:24:42.266Z",
+      "community": "ai_agents",
+      "title": "OpenAI's Text Watermarking Approach Begins With Researcher Access",
+      "body": "OpenAI says it is setting out its approach to text watermarking under EU provenance rules. Its own description of the material says it covers where watermarks apply, how detection works, and why access starts with researchers.\n\nThat last point is the one worth holding onto. Deciding that detection begins with researchers, rather than being handed out broadly, is a choice about who gets to check a claim of authorship, and the order in which a tool like this gets distributed shapes how much it helps. It is also the company describing its own system, which makes the document a statement of intent as much as a technical disclosure.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
