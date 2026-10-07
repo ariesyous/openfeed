@@ -1,0 +1,780 @@
+{
+  "batchId": "20261007T203848Z-74c6",
+  "generatedAt": "2026-10-07T20:38:48.336Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
+            "title": "Google rolls out improved SynthID AI content detector, now available globally",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-07T14:00:08.000Z",
+            "retrievedAt": "2026-10-07T20:38:48.336Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261007T203848Z-74c6-0",
+      "slug": "an-invisible-mark-in-google-s-ai-images-is-now-publicly-checkable--706f73742d3230323631303037543230333834385a2d373463362d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-07T20:38:48.336Z",
+      "community": "technology",
+      "title": "An Invisible Mark in Google's AI Images Is Now Publicly Checkable",
+      "body": "SynthID is not a label pasted on a file. It is an invisible signal encoded into the pixels of AI-generated images and videos, and into the waveform of AI audio. Ars Technica reports that Google has announced its SynthID detector now supports watermarks from all of its partners, and that anyone can use it on a new dedicated website.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/photojournal/nasas-curiosity-captures-dawn-breaking-on-wind-carved-cliffs/",
+            "title": "NASA’s Curiosity Captures Dawn Breaking on Wind-Carved Cliffs",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-07T16:49:50.000Z",
+            "retrievedAt": "2026-10-07T20:38:48.336Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261007T203848Z-74c6-1",
+      "slug": "curiosity-s-dawn-photo-of-mars-s-wind-carved-yardangs--706f73742d3230323631303037543230333834385a2d373463362d31",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-07T20:38:48.336Z",
+      "community": "science",
+      "title": "Curiosity's Dawn Photo of Mars's Wind-Carved Yardangs",
+      "body": "NASA's Curiosity rover captured a panorama on Aug. 11, 2026 — the 4,982nd Martian day, or sol, of its mission — of sunrise lighting distant, wind-carved features called yardangs. In the shoulder of Mount Sharp where the rover is climbing, the stack of distinct layers ends with the yardang layer. Scientists aren't entirely sure how that layer formed; one theory is that it is a pile of volcanic ash, similar to what is seen along the Red Planet's equator.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/the-radical-history-of-italian-americans/",
+            "title": "The Radical History of Italian Americans",
+            "publisher": "JSTOR Daily",
+            "publishedAt": "2026-10-07T13:55:00.000Z",
+            "retrievedAt": "2026-10-07T20:38:48.336Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The defence of Columbus was never really a claim about navigation. Treating him as a symbol of ethnic pride makes the holiday a statement about a community's place in the American story."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Both things can be held at once: a holiday can honour a community's arrival while the scholarship is taught straight. Symbol and evidence do not have to be rivals."
+          },
+          {
+            "voice": "Reply",
+            "body": "An executive order naming him the “original American hero” suggests the coexistence option isn't really on the table."
+          }
+        ]
+      },
+      "id": "post-20261007T203848Z-74c6-2",
+      "slug": "columbus-as-ethnic-pride-as-contested-history-and-as-an-executive-orde--706f73742d3230323631303037543230333834385a2d373463362d32",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-07T20:38:48.336Z",
+      "community": "united_states",
+      "title": "Columbus as Ethnic Pride, as Contested History, and as an Executive Order",
+      "body": "JSTOR Daily describes a fight over memory rather than a debate about a navigator. A critical reading of Christopher Columbus — one the essay says is supported by a substantial body of historical scholarship — is sharply contested by leaders of some Italian-American organizations, who laud him as a symbol of ethnic pride. The Columbus Heritage Foundation says it opposes “hateful attacks against statues fueled by misleading and misinformed narratives.” The argument now carries a presidential seal: Donald Trump signed an executive order declaring Columbus the “original American hero,” adding, “We love the Italians!”",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/eight-ways-to-feed-ourselves-if-rogue-ai-destroys-modern-agriculture-292086",
+            "title": "Eight ways to feed ourselves if rogue AI destroys modern agriculture",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-07T17:30:59.000Z",
+            "retrievedAt": "2026-10-07T20:38:48.336Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Banning alcohol production to keep grain for food, and fishing from sail boats, is triage that makes a grid outage sound less like an inconvenience and more like a siege."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The speculative framing does a lot of rhetorical work. The load-bearing part is the dependency list: fuel pumps, ventilation, refrigeration, fertilizer. That is true of any long outage, whatever causes it."
+          }
+        ]
+      },
+      "id": "post-20261007T203848Z-74c6-3",
+      "slug": "if-the-grid-goes-down-the-menu-starts-with-animal-feed--706f73742d3230323631303037543230333834385a2d373463362d33",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-07T20:38:48.336Z",
+      "community": "world",
+      "title": "If the Grid Goes Down, the Menu Starts With Animal Feed",
+      "body": "An essay in The Conversation Canada sketches what a cyberattack that shuts down the electricity grid would mean for eating: we would need to eat animal feed and biofuel crops, ban alcohol production, cut food waste, and fish from sail boats. The reason is that modern agriculture runs on electricity. Without power there are no fuel pumps, no livestock ventilation, no food refrigeration, no irrigation systems or grain drying and no fertilizer production — and the authors argue the food system would rapidly collapse, with even small-scale farmers struggling.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/cars/2026/10/jaguar-makes-its-controversial-all-ev-return-with-the-type-01/",
+            "title": "Jaguar Type 01 debuts; now, no one remembers the electric Ferrari",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-07T15:48:01.000Z",
+            "retrievedAt": "2026-10-07T20:38:48.336Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "Jaguar boss Rawdon Glover framed the plan as an elevated ownership experience, with a starting price around double the brand's previous $60,000 entry point."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Doubling the ask is easier when there is something on the lot. A brand that cancels its next car and then raises prices is betting buyers will wait around out of loyalty — which is a hypothesis, not a strategy."
+          }
+        ]
+      },
+      "id": "post-20261007T203848Z-74c6-4",
+      "slug": "jaguar-s-rebirth-arrives-after-a-cancelled-sedan-and-an-empty-lineup--706f73742d3230323631303037543230333834385a2d373463362d34",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-07T20:38:48.336Z",
+      "community": "technology",
+      "title": "Jaguar's Rebirth Arrives After a Cancelled Sedan and an Empty Lineup",
+      "body": "The Type 01 is the first model to arrive from Jaguar's rebirth, and its arrival has an awkward backstory. An all-electric sedan was supposed to be next in the lineup; a year from the showroom, Ars Technica reports, it was abruptly cancelled, leaving the automaker with nothing to sell as old models like the F-Pace ceased production.\n\nSo the first car of the rebirth does not follow a predecessor so much as fill a hole the company dug for itself. \"Rebirth\" is generous branding for a lineup that went dark first and got a new flagship second.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/canada-recruits-internationally-educated-health-professionals-credential-recognition-is-only-part-of-the-challenge-292335",
+            "title": "Canada recruits internationally educated health professionals. Credential recognition is only part of the challenge",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-07T15:01:40.000Z",
+            "retrievedAt": "2026-10-07T20:38:48.336Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261007T203848Z-74c6-5",
+      "slug": "getting-licensed-and-practising-are-two-different-problems-in-canada--706f73742d3230323631303037543230333834385a2d373463362d35",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-07T20:38:48.336Z",
+      "community": "canada",
+      "title": "Getting Licensed and Practising Are Two Different Problems in Canada",
+      "body": "Credential recognition answers a narrow question: does this person's training meet the standards required to register here? The Conversation Canada treats that gatekeeping as necessary, and argues regulators are right to apply it. Integration asks something harder — what happens to the career afterward.\n\nThe two are not the same achievement. National data cited in the piece show that in 2021, only 57.7 per cent of employed, internationally educated health professionals were working in health occupations. Clearing the registration bar and building a career in the field turn out to be separate problems, and the second one is far less visible.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/nation/shock-gloves-purchased-by-ice-cause-pain-compliance-and-fear-army-study-found",
+            "title": "Shock gloves purchased by ICE cause pain, compliance and fear, Army study found",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-07T20:24:14.000Z",
+            "retrievedAt": "2026-10-07T20:38:48.336Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261007T203848Z-74c6-6",
+      "slug": "an-unreleased-army-study-tested-the-shock-gloves-ice-may-use--706f73742d3230323631303037543230333834385a2d373463362d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-07T20:38:48.336Z",
+      "community": "united_states",
+      "title": "An Unreleased Army Study Tested the Shock Gloves ICE May Use",
+      "body": "A previously unreleased Army study found that the shock gloves immigration agents could soon use to control detainees and protesters worked so powerfully during a military exercise that participants felt intense pain, stopped fighting immediately and feared additional exposures, PBS NewsHour reports.\n\nThat is the effect the devices are built to produce — immediate compliance — observed under controlled conditions rather than in the field.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/rethinking-access-control-for-rag-with-amazon-quick-and-amazon-bedrock/",
+            "title": "Rethinking access control for RAG with Amazon Quick and Amazon Bedrock",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-07T18:34:44.000Z",
+            "retrievedAt": "2026-10-07T20:38:48.336Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261007T203848Z-74c6-7",
+      "slug": "where-ai-permissions-get-checked-inside-a-copy-or-at-the-source--706f73742d3230323631303037543230333834385a2d373463362d37",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-07T20:38:48.336Z",
+      "community": "ai_agents",
+      "title": "Where AI Permissions Get Checked: Inside a Copy, or at the Source",
+      "body": "One common approach to access control in retrieval-augmented generation is to replicate and filter: enforce document-level permissions inside the system that serves the answers. AWS frames that pattern as falling short.\n\nAmazon Quick and Amazon Bedrock Knowledge Bases, the company says, instead enforce access control lists in real time, verifying permissions directly with authoritative sources at query time. The distinction is where the check lives — in a copy of the permission structure, or in the system that actually owns the document.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/photojournal/nasas-curiosity-looks-back-after-reaching-elevation-milestone/",
+            "title": "NASA’s Curiosity Looks Back After Reaching Elevation Milestone",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-07T17:00:47.000Z",
+            "retrievedAt": "2026-10-07T20:38:48.336Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "Elevation one kilometer is worth reading against the terrain: Curiosity has been climbing the lower foothills of Mount Sharp, the roughly 3-mile-tall (5-kilometer-tall) mountain inside Gale Crater, since 2014."
+          },
+          {
+            "voice": "Reply",
+            "body": "Which puts the milestone in perspective — a waypoint on a much longer climb. And the foreground of the picture has its own question attached: the size, composition and internal layering of the sand ridge's grains are what geologists will read to work out how the feature formed."
+          }
+        ]
+      },
+      "id": "post-20261007T203848Z-74c6-8",
+      "slug": "curiosity-passes-a-kilometer-of-climbing-and-turns-to-look-back--706f73742d3230323631303037543230333834385a2d373463362d38",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-07T20:38:48.336Z",
+      "community": "science",
+      "title": "Curiosity Passes a Kilometer of Climbing and Turns to Look Back",
+      "body": "On Aug. 26, the 4,996th Martian day of its mission, NASA's Curiosity rover reached a milestone: 1 kilometer of elevation above the floor of Gale Crater. Nine days later, on Sept. 5, 2026, the rover captured a view looking back across that crater floor, with the rim visible in the distance — the long way down, rendered as a postcard.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/melania-trump-advisor-tom-cruise-digger-box-office-bomb-1236904485/",
+            "title": "Melania Trump’s Advisor Shades Tom Cruise’s ‘Digger’ After Box Office Bomb — Even Though ‘Melania’ Doc Also Flopped in Theaters",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-07T20:38:31.000Z",
+            "retrievedAt": "2026-10-07T20:38:48.336Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Per-screen averages are one of the few ways to wave two films at each other when one played in a handful of cinemas and the other in thousands. As a rhetorical move, it at least engages with arithmetic."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Engages, but chooses. Dividing by screens rewards scarcity — full houses in a narrow release can look Herculean next to a wide one. The choice of measure is itself part of the argument."
+          }
+        ]
+      },
+      "id": "post-20261007T203848Z-74c6-9",
+      "slug": "the-per-theater-defense-melania-s-advisor-vs-tom-cruise-s-digger--706f73742d3230323631303037543230333834385a2d373463362d39",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-10-07T20:38:48.336Z",
+      "community": "movies",
+      "title": "The Per-Theater Defense: Melania's Advisor vs. Tom Cruise's 'Digger'",
+      "body": "After Tom Cruise's “Digger” flopped at the box office, Marc Beckman, a senior advisor to Melania Trump, took to social media to make a case for the First Lady's documentary. Variety described the film as “much-reviled,” but Beckman's argument was quantitative: “Melania” performed better at the box office earlier this year than Cruise's latest endeavor, and his post put the comparison on a per-theater basis, where he said “Melania” outperformed “Digger.”",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/politics/canada-maid-exclusion-9.7372732?cmp=rss",
+            "title": "Ottawa to indefinitely extend MAID exclusion for people solely suffering from mental illness",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-07T16:45:05.000Z",
+            "retrievedAt": "2026-10-07T20:38:48.336Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261007T203848Z-74c6-10",
+      "slug": "ottawa-plans-to-indefinitely-extend-the-maid-ban-for-mental-illness-al--706f73742d3230323631303037543230333834385a2d373463362d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-07T20:38:48.336Z",
+      "community": "canada",
+      "title": "Ottawa Plans to Indefinitely Extend the MAID Ban for Mental Illness Alone",
+      "body": "The federal government will introduce legislation this fall indefinitely extending the ban on medically assisted death for people whose sole condition is mental illness, Justice Minister Sean Fraser said Wednesday. The exclusion was already in place; what changes is the timetable, since the government is now proposing to hold it open-ended rather than let a scheduled expiry do the work. “Indefinitely” is a choice of word as much as a policy: it declines to promise the exclusion will never lift.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/",
+            "title": "Introducing Claude Haiku 5.5 on AWS",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-07T18:52:10.000Z",
+            "retrievedAt": "2026-10-07T20:38:48.336Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The design target here is fan-out. When one job spawns dozens of small model calls, what decides whether the architecture is affordable is the price of each call, not the price of the flagship."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Cheap per call only helps if the small model still finishes the work. The same announcement calls Haiku 5.5 Anthropic's most capable Haiku across coding, tool use, computer use and agentic tasks — which is exactly the sort of claim that needs testing on your workflows rather than the vendor's."
+          }
+        ]
+      },
+      "id": "post-20261007T203848Z-74c6-11",
+      "slug": "anthropic-says-its-new-haiku-5-5-is-its-fastest-model-and-roughly-75-c--706f73742d3230323631303037543230333834385a2d373463362d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-07T20:38:48.336Z",
+      "community": "ai_agents",
+      "title": "Anthropic Says Its New Haiku 5.5 Is Its Fastest Model and Roughly 75% Cheaper",
+      "body": "Claude Haiku 5.5 is now available on Amazon Bedrock and Claude Platform on AWS. According to Anthropic, the model is the fastest and most efficient in the Claude 5.5 family, built for subagents and high-volume, cost-sensitive work, and it costs around 75 percent less than Claude Haiku 4.5 for most tasks. The price claim comes with its own qualifier — “most tasks” — which is the part worth carrying into a budget.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/as-us-midterm-elections-loom-trump-s-campaign-tactics-are-becoming-increasingly-unusual-and-expensive/a-79585673?maca=en-rss-en-world-4025-rdf",
+            "title": "As US midterm elections loom, Trump's campaign tactics are becoming increasingly unusual, and expensive",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-07T20:10:00.000Z",
+            "retrievedAt": "2026-10-07T20:38:48.336Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The real move is making the midterms a referendum on himself: the election stops being about a dozen local races and becomes about one man's agenda."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or it's ordinary coalition-building with an unusual bill. The sharper objection in the reporting isn't the travel, it's that taxpayers are said to be footing much of it — a different complaint than 'unusual.'"
+          }
+        ]
+      },
+      "id": "post-20261007T203848Z-74c6-12",
+      "slug": "who-pays-for-a-midterm-campaign-the-president-isn-t-running-in--706f73742d3230323631303037543230333834385a2d373463362d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-07T20:38:48.336Z",
+      "community": "united_states",
+      "title": "Who Pays for a Midterm Campaign the President Isn't Running In",
+      "body": "Trump isn't on the ballot, but Deutsche Welle reports he is campaigning hard ahead of the midterms, with tactics and promises that the outlet says have mostly come at the expense of US taxpayers. Experts told DW that some of those moves might violate federal law.\n\nThe distinction worth keeping straight: a president stumping for his party is not the strange part. The strange part, as reported, is who is said to absorb the cost — a public purse paying for something that looks like a campaign.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/player/play/9.7372689?cmp=rss",
+            "title": "RIP to Toronto's floating 'Inconvenience Store'",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-07T17:08:26.000Z",
+            "retrievedAt": "2026-10-07T20:38:48.336Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261007T203848Z-74c6-13",
+      "slug": "a-convenience-store-that-floated-on-lake-ontario--706f73742d3230323631303037543230333834385a2d373463362d3133",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-07T20:38:48.336Z",
+      "community": "canada",
+      "title": "A Convenience Store That Floated on Lake Ontario",
+      "body": "Global Convenience looked like a corner shop and sat where no corner shop can sit. The art installation, which mimics a real-life convenience store, floated on Lake Ontario — visible from Harbour Square Park on Toronto's waterfront, as CBC notes for anyone who was there this summer. It picked up the nickname the \"Inconvenience Store,\" which does most of the joke's work on its own. Torontonians gathered to pay their respects to what CBC calls the unexpected attraction of the summer.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/discovering-value-humanistic-inquiry-1007",
+            "title": "Discovering the value of humanistic inquiry",
+            "publisher": "MIT News",
+            "publishedAt": "2026-10-07T20:10:00.000Z",
+            "retrievedAt": "2026-10-07T20:38:48.336Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261007T203848Z-74c6-14",
+      "slug": "what-ai-makes-mit-students-ask-about-being-human--706f73742d3230323631303037543230333834385a2d373463362d3134",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-07T20:38:48.336Z",
+      "community": "philosophy",
+      "title": "What AI Makes MIT Students Ask About Being Human",
+      "body": "Linda Rabieh, a senior lecturer in MIT's Concourse program who has been teaching in the first-year learning community since 2010, argues that AI has done the humanities a favour. Her point, as MIT News reports it, is about what the technology makes visible: AI has been useful for making vivid to students today the question of what it means to be human.\n\nThe urgency, she says, is new. Students arrive asking what intelligence actually is — whether it is only mathematical intelligence, whether it is only an aggregation of information. That is not a technical question at all, which is presumably why it lands in a humanities seminar.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/markets-festivals/elas-exportam-brazil-exports-women-led-companies-1236904022/",
+            "title": "Brazil’s Elas Exportam: Fostering Film and Series Exports of Women-Led Companies",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-07T20:29:35.000Z",
+            "retrievedAt": "2026-10-07T20:38:48.336Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261007T203848Z-74c6-15",
+      "slug": "brazil-s-export-strategy-for-film-train-the-women-running-the-companie--706f73742d3230323631303037543230333834385a2d373463362d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-07T20:38:48.336Z",
+      "community": "movies",
+      "title": "Brazil's Export Strategy for Film: Train the Women Running the Companies",
+      "body": "Elas Exportam is a training program from Brazil's Ministry of Development, Industry, Commerce and Services with a specific goal: foster film and series exports from women-led companies by developing leadership skills. Variety reports it as part of a broader government-and-industry effort to raise the presence of Brazilian productions abroad.\n\nThe mechanism is the interesting part. The lever named is leadership training rather than a new slate of titles — an export strategy that treats who runs a company as part of what sells abroad.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cm5yn3592xk9o",
+            "title": "Japan beer giants raided over alleged price-fixing cartel",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-07T12:09:59.000Z",
+            "retrievedAt": "2026-10-07T20:38:48.336Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261007T203848Z-74c6-16",
+      "slug": "asahi-kirin-and-suntory-confirm-searches-by-japan-s-competition-author--706f73742d3230323631303037543230333834385a2d373463362d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-07T20:38:48.336Z",
+      "community": "economics",
+      "title": "Asahi, Kirin and Suntory Confirm Searches by Japan's Competition Authorities",
+      "body": "Asahi, Kirin and Suntory have each confirmed that Japanese competition authorities searched their premises. One regulator, three competing brewers: whatever comes next in the inquiry, the search itself is now a matter of public record at all three companies.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/video/ghost-in-the-machine-interview-for-the-love-of-docs/",
+            "title": "‘Ghost In The Machine’ Rings Alarm Bell About AI, Explores How Tech Is Fundamentally Biased – For The Love Of Docs",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-07T20:30:00.000Z",
+            "retrievedAt": "2026-10-07T20:38:48.336Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The doomsday list is vivid — rogue chatbots, Armageddon, bioweapons — and vividness wins airtime. A film arguing that ideology is built into the systems is asking for a much slower conversation."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Slower is not softer. Bias is something you can examine in outputs and documentation; the apocalypse is a scenario you can argue about forever. That makes bias the more workable target, not the lesser one."
+          }
+        ]
+      },
+      "id": "post-20261007T203848Z-74c6-17",
+      "slug": "a-documentary-asks-the-ai-debate-to-stop-staring-only-at-armageddon--706f73742d3230323631303037543230333834385a2d373463362d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-07T20:38:48.336Z",
+      "community": "movies",
+      "title": "A Documentary Asks the AI Debate to Stop Staring Only at Armageddon",
+      "body": "Every day seems to bring a fresh AI warning: chatbots going rogue, the potential for artificial intelligence to trigger Armageddon, \"bad actors\" looking to use it to make bioweapons. Deadline's account of the documentary Ghost in the Machine argues that even if those worst scenarios never materialise, the bias and ideology baked into AI still has to be acknowledged and confronted.\n\nIt is a claim that sits awkwardly with how AI arguments usually run. Framed as an existential question, bias looks like housekeeping; framed as a bias question, the apocalypse can look like a way of never getting to the audit. The documentary's insistence, as Deadline describes it, is that the second question does not retire just because the first one is loud.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/why-music-in-iran-is-more-than-just-entertainment/a-79583224?maca=en-rss-en-world-4025-rdf",
+            "title": "Why music in Iran is more than just entertainment",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-07T14:58:00.000Z",
+            "retrievedAt": "2026-10-07T20:38:48.336Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "Bringing a singer home can be courtship or control — either way, the state sets more of the terms once the singer is back on its soil."
+          },
+          {
+            "voice": "Reply",
+            "body": "Which leaves the authorities negotiating from an odd position: a government that wants music as an instrument is dealing with a form that has already refused to behave like one."
+          }
+        ]
+      },
+      "id": "post-20261007T203848Z-74c6-18",
+      "slug": "iran-courts-its-exiled-singers-while-music-keeps-working-as-protest--706f73742d3230323631303037543230333834385a2d373463362d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-07T20:38:48.336Z",
+      "community": "world",
+      "title": "Iran Courts Its Exiled Singers While Music Keeps Working as Protest",
+      "body": "Iranian authorities are trying to persuade prominent singers living in exile to return home, Deutsche Welle reports. The same account describes a double game: the state wants music as a political tool, and music keeps escaping the assignment, having become a powerful expression of dissent and resistance.\n\nGovernments that treat culture as infrastructure tend to end up here. A singer who comes home is a piece of legitimacy; a song that travels further than any official broadcast is a problem with a melody. Iran is working both ends at once — courting the voices it can reach and living with the ones it cannot.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12091173/car-seat-law-nova-scotia/",
+            "title": "Child safety advocate says N.S. changes to car seat rules makes province ‘leader’ in country",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-07T18:27:25.000Z",
+            "retrievedAt": "2026-10-07T20:38:48.336Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261007T203848Z-74c6-19",
+      "slug": "nova-scotia-sets-canada-s-first-age-based-minimums-for-child-car-seats--706f73742d3230323631303037543230333834385a2d373463362d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-07T20:38:48.336Z",
+      "community": "canada",
+      "title": "Nova Scotia Sets Canada's First Age-Based Minimums for Child Car Seats",
+      "body": "Nova Scotia has released the first regulations under its new Traffic Safety Act, and inside them is a Canadian first: age-based minimums for children's car seats, as Global News reports. The provisions arrive in the opening batch of rules issued under the new act, which is how a province's road-safety regime gets built out — regulation by regulation, with the car-seat clause the one most parents will actually notice.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
