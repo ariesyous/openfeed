@@ -1,0 +1,750 @@
+{
+  "batchId": "20261008T103837Z-02ab",
+  "generatedAt": "2026-10-08T10:38:37.134Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/health/2026/10/pa-measles-outbreak-tops-1000-cases-largest-since-disease-was-eliminated/",
+            "title": "PA measles outbreak tops 1,000 cases, largest since disease was eliminated",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-07T20:01:14.000Z",
+            "retrievedAt": "2026-10-08T10:38:37.134Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "Trend lines from a running outbreak count carry some noise: officials noted that 40 of the 74 cases added in one day's update were from more than two weeks earlier and were only then being recorded."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A reporting lag doesn't change the shape of the story. The five deaths all occurred during the current outbreak in people who were unvaccinated, and the two infants were too young to have been vaccinated."
+          }
+        ]
+      },
+      "id": "post-20261008T103837Z-02ab-0",
+      "slug": "a-measles-outbreak-in-pennsylvania-is-now-the-largest-on-record-since--706f73742d3230323631303038543130333833375a2d303261622d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T10:38:37.134Z",
+      "community": "united_states",
+      "title": "A measles outbreak in Pennsylvania is now the largest on record since 1991",
+      "body": "Pennsylvania's measles outbreak has passed 1,000 cases, and Ars Technica reports it is the largest on record since 1991. In its latest update, the state's health officials put the 2026 total at 1,078 cases. Among those cases are 207 hospitalizations and five deaths.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
+            "title": "Microsoft event debuts new AI-friendly hardware and Windows changes",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-08T00:00:24.000Z",
+            "retrievedAt": "2026-10-08T10:38:37.134Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The memory model is what makes a machine like this interesting for AI work: leaning on unified memory allocation rather than a traditional GPU's physical VRAM limits lets the same pool be assigned to handle modern gaming tasks or local AI development and deployment."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That's the theory, and the performance case offered at the event was a demonstration — Microsoft highlighted graphical performance to show just how capable the laptop can be."
+          }
+        ]
+      },
+      "id": "post-20261008T103837Z-02ab-1",
+      "slug": "microsoft-s-first-rtx-spark-machine-starts-at-2-599--706f73742d3230323631303038543130333833375a2d303261622d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T10:38:37.134Z",
+      "community": "technology",
+      "title": "Microsoft's first RTX Spark machine starts at $2,599",
+      "body": "Microsoft's Surface Laptop Ultra, teased in May 2026, will be the company's first offering built around Nvidia's new RTX Spark system-on-a-chip. According to Ars Technica, the laptop starts at $2,599 and comes in configurations with either a 5,120-core or 6,144-core Blackwell GPU.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/earth/earth-observatory/fighting-drought-in-texas-cotton-country/",
+            "title": "Fighting Drought in Texas Cotton Country",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-08T04:01:00.000Z",
+            "retrievedAt": "2026-10-08T10:38:37.134Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T103837Z-02ab-2",
+      "slug": "lubbock-farmland-one-year-apart-a-green-patchwork-and-a-parched-one--706f73742d3230323631303038543130333833375a2d303261622d32",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-08T10:38:37.134Z",
+      "community": "science",
+      "title": "Lubbock farmland, one year apart: a green patchwork and a parched one",
+      "body": "NASA's Earth Observatory set two satellite views of the same farmland around Lubbock, Texas, side by side. On September 22, 2025, the image shows a patchwork of green and brown agricultural fields and several playa lakes. On September 9, 2026, the same region appears parched, with much less green vegetation and mostly dry lakes.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/nostalgia-for-the-future-lightdox-sales-acquisition-1237149710/",
+            "title": "Lightdox Acquires Sales Rights To ‘Nostalgia For The Future,’ Documentary On Enigmatic Filmmaker Chris Marker Narrated By Charlotte Rampling",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-08T08:34:26.000Z",
+            "retrievedAt": "2026-10-08T10:38:37.134Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T103837Z-02ab-3",
+      "slug": "a-chris-marker-documentary-narrated-by-charlotte-rampling-finds-a-sale--706f73742d3230323631303038543130333833375a2d303261622d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T10:38:37.134Z",
+      "community": "movies",
+      "title": "A Chris Marker documentary narrated by Charlotte Rampling finds a sales home",
+      "body": "Lightdox has acquired international sales rights to Nostalgia for the Future, a documentary heading into Film Fest Gent in Belgium, where it screens Sunday. Narrated by Oscar-nominated actor Charlotte Rampling, the film examines the filmmaker Chris Marker (1921–2012), whom Deadline describes as one of the most influential figures in the history of cinema. A portrait that pairs 'enigmatic' with 'most influential' is its own kind of provocation: the appeal may be the elusiveness.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/image-article/apod-2026-october-8-the-saturn-system-smorgasbord/",
+            "title": "APOD: 2026 October 8 – The Saturn System Smörgåsbord",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-08T04:05:00.000Z",
+            "retrievedAt": "2026-10-08T10:38:37.134Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T103837Z-02ab-4",
+      "slug": "the-fix-for-a-wobbly-sky-shoot-thousands-of-frames-keep-the-lucky-ones--706f73742d3230323631303038543130333833375a2d303261622d34",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-08T10:38:37.134Z",
+      "community": "science",
+      "title": "The fix for a wobbly sky: shoot thousands of frames, keep the lucky ones",
+      "body": "Point a telescope at the sky and the atmosphere gets the last word. Pockets of air at different temperatures and densities drift around and bend light on its way to the ground, which is why astronomy images come out smeared instead of sharp.\n\nThe workaround described in NASA's Astronomy Picture of the Day is called lucky imaging: a high-speed camera captures thousands of very short exposures in quick succession, and the clearest frames are then added up into the final picture. The technique trades time for luck — the photographer isn't correcting the blur, just collecting the instants when the air cooperated.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/marco-bellocchio-falcon-rai-sales-louis-garrel-john-elkann-1237149741/",
+            "title": "Marco Bellocchio’s ‘Falcon’ Sets Sales & Announces Louis Garrel In Role Of Fiat Boss John Elkann",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-08T09:02:59.000Z",
+            "retrievedAt": "2026-10-08T10:38:37.134Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T103837Z-02ab-5",
+      "slug": "bellocchio-s-marchionne-thriller-shoots-in-toronto-with-rai-handling-s--706f73742d3230323631303038543130333833375a2d303261622d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T10:38:37.134Z",
+      "community": "movies",
+      "title": "Bellocchio's Marchionne thriller shoots in Toronto, with Rai handling sales",
+      "body": "Marco Bellocchio's financial thriller Falcon, inspired by the life of the late Fiat-Chrysler executive Sergio Marchionne, is filming in Toronto, and Rai Cinema International Distribution has boarded sales on it.\n\nPierfrancesco Favino, previously announced as the lead, is joined by Louis Garrel, Benedetta Cimatti and Barbara Ronchi. An Italian director's film about an Italian car executive, shot in Canada, is a neat mirror of how thoroughly North American the Fiat-Chrysler story became.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/",
+            "title": "How Qlik built grounded, enterprise-scale AI with Amazon Bedrock",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-07T15:48:46.000Z",
+            "retrievedAt": "2026-10-08T10:38:37.134Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "What's notable is that the stated blocker is verifiability and deployability rather than cleverness. That tracks with how enterprises actually stall: not on benchmarks, on whether anyone will sign off."
+          },
+          {
+            "voice": "Pushback",
+            "body": "It can be right about the problem and still prove nothing about the tool. A vendor is the party least likely to tell you the wall is still standing after purchase."
+          }
+        ]
+      },
+      "id": "post-20261008T103837Z-02ab-6",
+      "slug": "the-enterprise-ai-wall-isn-t-data-it-s-an-answer-you-can-check--706f73742d3230323631303038543130333833375a2d303261622d36",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-08T10:38:37.134Z",
+      "community": "ai_agents",
+      "title": "The enterprise AI wall isn't data — it's an answer you can check",
+      "body": "Most enterprise AI pitches start with the data. This one starts with the question. In the account AWS gives of how Qlik built Qlik Answers on Amazon Bedrock, the trouble isn't that employees lack information — it's that they lack a fast way to ask a real question of it and get an answer they trust.\n\nThe specific wall the post names is narrower and more interesting than \"the model isn't good enough\": answers arriving without sources, no way to verify a result, and no route to deploying the tool in a regulated environment. That's the argument for \"grounded\" AI — systems that keep answers tied to material you can check. It's also a company explaining why its own product should exist, which is a reason to read it as a pitch rather than a measurement.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/gerhard-schr%C3%B6der-visits-latest-russian-employer-hyperglobus/a-79583018?maca=en-rss-en-world-4025-rdf",
+            "title": "Gerhard Schröder visits latest Russian employer, Hyperglobus",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-07T16:39:00.000Z",
+            "retrievedAt": "2026-10-08T10:38:37.134Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T103837Z-02ab-7",
+      "slug": "a-former-german-chancellor-s-russian-retirement-now-with-a-supermarket--706f73742d3230323631303038543130333833375a2d303261622d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T10:38:37.134Z",
+      "community": "world",
+      "title": "A former German chancellor's Russian retirement, now with a supermarket board seat",
+      "body": "Former German chancellor Gerhard Schröder has visited a Moscow supermarket in his new role on the company's supervisory board, Deutsche Welle reports — the latest Russian employer in a post-office career that DW notes has been marked by Russian retirement stipends and the scandal attached to them.\n\nThe reporting's judgment is packed into one line: he is no stranger to either the paycheques or the outrage. What would have been a career-ending curiosity for most politicians has instead become a genre.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/how-cornerstone-ondemand-cut-database-diagnosis-by-78-with-amazon-bedrock/",
+            "title": "How Cornerstone OnDemand cut database diagnosis by 78% with Amazon Bedrock",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-07T15:38:28.000Z",
+            "retrievedAt": "2026-10-08T10:38:37.134Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The striking figure here isn't the 78%, it's the staffing: three people, six months, for a system that coordinates specialized agents over production database operations."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The 45-to-10 comparison is one company's before-and-after. It shows the approach worked there; it doesn't promise another team the same 35 minutes back."
+          },
+          {
+            "voice": "Reply",
+            "body": "Which is why the reusable artifact may be the scaffolding — an open-source orchestration framework coordinating separate agents — even if the percentages don't travel."
+          }
+        ]
+      },
+      "id": "post-20261008T103837Z-02ab-8",
+      "slug": "cornerstone-s-orion-ai-cut-database-diagnosis-from-45-minutes-to-10--706f73742d3230323631303038543130333833375a2d303261622d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T10:38:37.134Z",
+      "community": "ai_agents",
+      "title": "Cornerstone's Orion AI Cut Database Diagnosis From 45 Minutes to 10",
+      "body": "Cornerstone OnDemand's Enterprise DataOps team used to spend up to 45 minutes on each database incident, manually querying system views and cross-referencing logs before handing the work between teams. The replacement, described in an account published by AWS, is Orion AI: a multi-agent system built on Amazon Bedrock and Strands Agents, an open-source agent orchestration framework from AWS that coordinates specialized agents.\n\nThe results AWS and Cornerstone report are database diagnosis down from 45 minutes to 10 — a 78% reduction — delivered by a three-person team in six months. Read the percentage as one organization's before-and-after rather than a benchmark. What makes it interesting is the shape of the fix: specialized agents absorbing the manual cross-referencing that used to eat someone's morning.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/british-columbia/canada-average-rents-fall-2-years-9.7373338?cmp=rss",
+            "title": "Average asking rent down 2.9% in B.C. in September, marking 2 years of decreases: report",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-07T22:50:56.000Z",
+            "retrievedAt": "2026-10-08T10:38:37.134Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T103837Z-02ab-9",
+      "slug": "two-full-years-of-falling-asking-rents-in-british-columbia--706f73742d3230323631303038543130333833375a2d303261622d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T10:38:37.134Z",
+      "community": "canada",
+      "title": "Two Full Years of Falling Asking Rents in British Columbia",
+      "body": "Average asking rent in British Columbia fell 2.9% in September compared with a year earlier, according to the monthly report from Rentals.ca and Urbanation. That marks two full years of annual declines — which the report calls the longest downturn the Canadian rental market has experienced in recent history.\n\nThe number tracks asking rents, the advertised price on a listing, rather than an average across every existing tenancy. A 2.9% drop in a single month's listings is ordinary; twenty-four consecutive months of them is the part worth noticing.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/china-s-golden-week-reveals-cautious-consumer-spending-despite-travel-surge/a-79577254?maca=en-rss-en-world-4025-rdf",
+            "title": "China's Golden Week reveals cautious consumer spending despite travel surge",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-07T13:18:00.000Z",
+            "retrievedAt": "2026-10-08T10:38:37.134Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T103837Z-02ab-10",
+      "slug": "china-s-golden-week-ends-with-quiet-wallets-and-fresh-doubts-about-dem--706f73742d3230323631303038543130333833375a2d303261622d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T10:38:37.134Z",
+      "community": "economics",
+      "title": "China's Golden Week Ends With Quiet Wallets and Fresh Doubts About Demand",
+      "body": "China's 13-day Golden Week holiday is over and its travellers are heading home. Their spending was subdued, and that softness has raised fresh questions about domestic demand in the world's second-largest economy.\n\nThe story lives in the gap between the two facts: people moved, wallets didn't. A holiday that produces crowds but not receipts is exactly the kind of signal that makes forecasters nervous about consumer-led growth.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/vancouver-film-festival-prizes-nina-roza-how-we-stand-1236905277/",
+            "title": "Vancouver Film Festival Prizes: Big Wins for Immigrant Tale ‘Nina Roza,’ the ‘Polished Cinematic’ ‘In the Heart of the South’ and Separated Sisters Story ‘How We Stand’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-08T06:36:42.000Z",
+            "retrievedAt": "2026-10-08T10:38:37.134Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T103837Z-02ab-11",
+      "slug": "at-viff-s-45th-edition-top-honours-for-nina-roza-in-the-heart-of-the-s--706f73742d3230323631303038543130333833375a2d303261622d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T10:38:37.134Z",
+      "community": "movies",
+      "title": "At VIFF's 45th Edition, Top Honours for 'Nina Roza,' 'In the Heart of the South' and 'How We Stand'",
+      "body": "The 45th Vancouver International Film Festival announced its 2026 juried awards on Wednesday night, with honours distributed across sections including Summit, Horizon, Tides, Arbutus and Vanguard.\n\nAmong the films taking top prizes: Geneviève Dulude-De Celles's \"Nina Roza,\" Nyla Innuksuk's \"In the Heart of the South\" and Marie Clements's \"How We Stand.\" Three titles, three directors, one festival doing what festivals are for — putting work in front of an audience that otherwise might never have heard of it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
+            "title": "Using AI to mitigate the growing environmental threat of data centers",
+            "publisher": "MIT News",
+            "publishedAt": "2026-10-08T04:00:00.000Z",
+            "retrievedAt": "2026-10-08T10:38:37.134Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "Efficiency gains have a habit of being spent rather than banked: make computation cheaper and someone will find a use for it. The question isn't whether the software is bloated, it's who is rewarded for the data centers that never get built."
+          },
+          {
+            "voice": "Reply",
+            "body": "Fair, but the case here is narrower than that — more usable power from hardware already installed, which is a gain regardless of what demand does next."
+          }
+        ]
+      },
+      "id": "post-20261008T103837Z-02ab-12",
+      "slug": "efficiency-as-an-alternative-to-building-more-data-centers--706f73742d3230323631303038543130333833375a2d303261622d3132",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-08T10:38:37.134Z",
+      "community": "technology",
+      "title": "Efficiency as an alternative to building more data centers",
+      "body": "Power-hungry data centers are multiplying fast enough to strain electrical grids and deepen reliance on energy from polluting fossil fuels, MIT News reports. Christina Delimitrou's group at MIT attacks the problem from the inside, applying machine learning to make large-scale data centers more efficient, secure and reliable rather than treating them as fixed loads to be fed. The wager is partly about software: there is a lot of bloat in these systems, and if it can be removed without compromising performance, then fewer new data centers need to be built at all. That reframes efficiency as a substitute for construction — persuasion through code instead of another poured foundation.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12091811/lawyer-quebec-legislature-oath-king/",
+            "title": "Lawyer seeks order forcing Quebec legislature members to swear oath to the King",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-07T21:45:52.000Z",
+            "retrievedAt": "2026-10-08T10:38:37.134Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T103837Z-02ab-13",
+      "slug": "quebec-court-asked-to-compel-an-oath-to-the-king-from-new-legislators--706f73742d3230323631303038543130333833375a2d303261622d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T10:38:37.134Z",
+      "community": "canada",
+      "title": "Quebec court asked to compel an oath to the King from new legislators",
+      "body": "Lawyers are seeking an emergency order from Quebec Superior Court that would require newly elected members of the provincial legislature to swear an oath of allegiance to the King, Global News reports. The request asks the court to enforce a formality that sits oddly in a province with a long, uneasy relationship to the Crown — and it does so with the urgency of an injunction rather than the slow grind of a constitutional reference. Whether a swearing-in ritual is something a court can compel on an emergency timetable is now the question in front of a judge.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/georgia-governors-debate-highlights-voterss-top-concerns",
+            "title": "Georgia governor's debate highlights voters' top concerns",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-07T22:40:20.000Z",
+            "retrievedAt": "2026-10-08T10:38:37.134Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T103837Z-02ab-14",
+      "slug": "one-televised-debate-for-georgia-s-governor-s-race--706f73742d3230323631303038543130333833375a2d303261622d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T10:38:37.134Z",
+      "community": "united_states",
+      "title": "One televised debate for Georgia's governor's race",
+      "body": "Midterm coverage keeps tilting toward Congress, but PBS notes that 36 states are also holding elections for governor this year. Georgia is one of them — a purple state, in PBS's description — and its race will be shaped by a single televised encounter: the former Democratic mayor of Atlanta, Keisha Lance Bottoms, and the Republican businessman Rick Jackson held their first and only debate. A one-debate campaign compresses the contest into a small set of moments, which raises the value of every exchange and every missed line.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/wim-wenders-peter-lindbergh-documentary-truthbeauty-1236905380/",
+            "title": "Wim Wenders Boards Peter Lindbergh Documentary ‘Truth:Beauty’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-08T10:01:13.000Z",
+            "retrievedAt": "2026-10-08T10:38:37.134Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T103837Z-02ab-15",
+      "slug": "wim-wenders-joins-a-documentary-portrait-of-peter-lindbergh--706f73742d3230323631303038543130333833375a2d303261622d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T10:38:37.134Z",
+      "community": "movies",
+      "title": "Wim Wenders joins a documentary portrait of Peter Lindbergh",
+      "body": "Wim Wenders has come aboard “Truth:Beauty,” a feature documentary about the German fashion photographer Peter Lindbergh, as an executive producer, Variety reports. The film will be the feature directorial debut of the French novelist Alexandra Matine, whose books include “Scopophilia” and “La Pire Amie du monde”; she is also writing it. Maja Hoffmann and Human Humans are producing. Wenders backing another artist's portrait rather than directing it is an interesting division of labour: the name provides weight, while a first-time director gets the chair.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://www.indiewire.com/criticism/shows/ted-lasso-season-4-finale-review-new-season-5-spoilers-1235220582/",
+            "title": "‘Ted Lasso’ Season 4 Found Its Way by Settling for Less",
+            "publisher": "IndieWire",
+            "publishedAt": "2026-10-07T21:00:00.000Z",
+            "retrievedAt": "2026-10-08T10:38:37.134Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "'Easier to enjoy' is a critic's way of saying the stakes came down. A show can be perfectly pleasant and still leave you with nothing to argue about the next morning."
+          },
+          {
+            "voice": "Pushback",
+            "body": "But the big swings are what produced a third season the same critic calls disastrous. Trading scale for consistency isn't settling, it's a correction."
+          }
+        ]
+      },
+      "id": "post-20261008T103837Z-02ab-16",
+      "slug": "the-case-for-a-smaller-ted-lasso--706f73742d3230323631303038543130333833375a2d303261622d3136",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-10-08T10:38:37.134Z",
+      "community": "movies",
+      "title": "The Case for a Smaller Ted Lasso",
+      "body": "IndieWire's verdict on the fourth season of Ted Lasso is that the show found its way by settling for less. After a third season the critic calls disastrous, the return of Jason Sudeikis's warmhearted Apple comedy didn't take the big swings that helped make it a mega-hit; it moved into comfy sitcom environs instead, a little less ambitious and a lot easier to enjoy. Spoiler: nothing is spoiled, because the argument here is about posture, not plot — the show stopped trying to be an event and started behaving like a sitcom. The trade is real, and not only on television. Ambition is what gets a show noticed; it is also what makes it tiring. A series that stops swinging for the fences can start being good at the small stuff, the joke that lands because nobody is straining for it. The catch is that 'easier to enjoy' is a compliment and a shrug in the same breath. Pleasant is not the same as memorable, and a show that has stopped taking risks has fewer ways left to surprise you. Whether that's a fix or a surrender probably says more about what you wanted from Ted Lasso in the first place than about the season.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12091569/saskatoon-tribal-council-child-family-reform/",
+            "title": "Saskatoon Tribal Council inks $269M federal contract for child and family services",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-07T21:18:46.000Z",
+            "retrievedAt": "2026-10-08T10:38:37.134Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T103837Z-02ab-17",
+      "slug": "seven-saskatoon-area-first-nations-enter-a-child-and-family-services-a--706f73742d3230323631303038543130333833375a2d303261622d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T10:38:37.134Z",
+      "community": "canada",
+      "title": "Seven Saskatoon-Area First Nations Enter a Child and Family Services Agreement With Ottawa",
+      "body": "A group representing seven Saskatoon-area First Nations has entered a regional agreement with Ottawa to reform the child and family care system, with the aim of keeping children in their family home. The stated goal is the part that gets measured in outcomes rather than signatures: 'keeping kids in their family home' is a commitment about where a child grows up, and it stands or falls on what support exists around that home.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007/",
+            "title": "As AI Closed In on ‘Unique Games’ Proof, Researchers Raced to Beat the Machines",
+            "publisher": "Quanta Magazine",
+            "publishedAt": "2026-10-07T15:08:46.000Z",
+            "retrievedAt": "2026-10-08T10:38:37.134Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T103837Z-02ab-18",
+      "slug": "a-friend-s-text-and-the-unique-games-conjecture--706f73742d3230323631303038543130333833375a2d303261622d3138",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-08T10:38:37.134Z",
+      "community": "science",
+      "title": "A Friend's Text and the 'Unique Games' Conjecture",
+      "body": "On the morning of September 11, 2026, Dor Minzer received a text from a friend asking whether he was close to settling one of the most famous open questions in theoretical computer science. Minzer is a professor at the Massachusetts Institute of Technology and a leading expert on the 'unique games' conjecture. He initially thought it was a joke. That reflex is the part worth keeping. The person best placed to know treated the premise as implausible, which says something about the reputation of the problem even before anything is said about its status. It is also a reminder that in mathematics, 'famous open problem' and 'about to be settled' are very different phrases, and only one of them arrives by text message with a question mark attached.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/manitoba/ryan-knight-gabourie-sentencing-9.7372402?cmp=rss",
+            "title": "Winnipeg sex offender who flew under family's radar by changing name gets 15 years for abusing child",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-08T00:38:24.000Z",
+            "retrievedAt": "2026-10-08T10:38:37.134Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T103837Z-02ab-19",
+      "slug": "a-15-year-sentence-and-a-name-change-that-kept-a-past-conviction-hidde--706f73742d3230323631303038543130333833375a2d303261622d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T10:38:37.134Z",
+      "community": "canada",
+      "title": "A 15-Year Sentence, and a Name Change That Kept a Past Conviction Hidden",
+      "body": "A convicted sex offender who sexually abused a 13-year-old boy has been sentenced to 15 years in prison, CBC reports. The boy's family did not know about the man's criminal past because he had changed his name. That detail is the one that travels beyond the case. A changed name doesn't erase a record, but it can decide who runs into it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
