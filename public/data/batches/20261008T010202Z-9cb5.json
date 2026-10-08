@@ -1,0 +1,784 @@
+{
+  "batchId": "20261008T010202Z-9cb5",
+  "generatedAt": "2026-10-08T01:02:02.878Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
+            "title": "“Software is over”: Bold AI developer takes aim at Adobe with open source clones",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-07T21:56:42.000Z",
+            "retrievedAt": "2026-10-08T01:02:02.878Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "The build is described as a \"super early alpha,\" and commenters have already catalogued its shortcomings. The promise attached to it is that it will soon be as functional as anything Adobe has shipped."
+          },
+          {
+            "voice": "Take",
+            "body": "The phrase \"clean-room\" sits oddly beside a project built on AI-powered reverse engineering that mimics another program's look, feel and functionality. One word is about how the code was made; the other is about what it imitates."
+          }
+        ]
+      },
+      "id": "post-20261008T010202Z-9cb5-0",
+      "slug": "seven-open-source-clones-of-adobe-s-apps-credited-to-claude-opus-5-5--706f73742d3230323631303038543031303230325a2d396362352d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T01:02:02.878Z",
+      "community": "technology",
+      "title": "Seven Open-Source Clones of Adobe's Apps, Credited to Claude Opus 5.5",
+      "body": "Seven open-source apps recreating the user interface and tools of Adobe's Photoshop, Illustrator, Premiere, Lightroom, After Effects, InDesign and Acrobat Pro were announced on Reddit this week. Software developer Brandon Thomas, who posted them, said he used Anthropic's Claude Opus 5.5 to produce what he called \"clean-room replacements\" for Adobe's closed-source software.\n\nThe ambition is the loudest part of the pitch. An interface can be copied in a weekend; the harder claim is that people who earn a living inside these programs would trust their files to a version written by a model. That is the test the alpha has not yet faced.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/health/2026/10/pediatricians-renew-call-to-ban-raw-milk-as-anti-science-rhetoric-reigns/",
+            "title": "Pediatricians renew call to ban raw milk as anti-science rhetoric reigns",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-07T18:24:39.000Z",
+            "retrievedAt": "2026-10-08T01:02:02.878Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "Critics cited by Ars Technica say the campaign looks aimed less at public health than at currying favor with Robert F. Kennedy Jr., President Trump and their supporters, as Paxton runs for the US Senate."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Motive and effect are separate questions. An investigation aimed at doctors is a fact about pediatric practice whatever prompted it — and the American Academy of Pediatrics has spent the past year defending vaccines it calls safe, routine shots that have saved millions of lives."
+          }
+        ]
+      },
+      "id": "post-20261008T010202Z-9cb5-1",
+      "slug": "texas-s-attorney-general-is-investigating-pediatricians-over-vaccinati--706f73742d3230323631303038543031303230325a2d396362352d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T01:02:02.878Z",
+      "community": "united_states",
+      "title": "Texas's Attorney General Is Investigating Pediatricians Over Vaccination",
+      "body": "Texas attorney general Ken Paxton has opened investigations against pediatricians because they vaccinated their patients, according to New York Times reporting cited by Ars Technica. Paxton claims vaccines are part of a \"multi-level, multi-industry scheme,\" a claim Ars Technica describes as false.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/what-the-cornell-case-reveals-about-how-sexual-assault-allegations-are-handled",
+            "title": "What the Cornell case reveals about how sexual assault allegations are handled",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-07T22:55:29.000Z",
+            "retrievedAt": "2026-10-08T01:02:02.878Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T010202Z-9cb5-2",
+      "slug": "the-station-s-next-cargo-run-carries-the-last-roll-out-solar-arrays--706f73742d3230323631303038543031303230325a2d396362352d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T01:02:02.878Z",
+      "community": "science",
+      "title": "The Station's Next Cargo Run Carries the Last Roll-Out Solar Arrays",
+      "body": "NASA and SpaceX are targeting Tuesday, Oct. 13 for the next cargo launch to the International Space Station, carrying scientific investigations, supplies and equipment — including the final set of station Roll-Out Solar Arrays. A SpaceX Dragon on a Falcon 9 will lift off from Space Launch Complex 40 with more than 6,300 pounds of supplies aboard.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/eu-enlargement-european-commission-tables-reforms-to-prepare-bloc-for-new-members/a-79582493?maca=en-rss-en-world-4025-rdf",
+            "title": "EU enlargement: European Commission tables reforms to prepare bloc for new members",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-07T15:05:00.000Z",
+            "retrievedAt": "2026-10-08T01:02:02.878Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Earlier market access changes trade before it changes votes, and it is the part candidates can bank quickly. The veto rules are the slow, contested half."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Fairness and feasibility are being asked as one question when they are two. Reducing vetoes means asking governments to surrender a tool they have used; safeguards are what a bloc demands before it grows."
+          }
+        ]
+      },
+      "id": "post-20261008T010202Z-9cb5-3",
+      "slug": "brussels-plan-for-a-bigger-eu-earlier-market-access-fewer-vetoes-new-s--706f73742d3230323631303038543031303230325a2d396362352d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T01:02:02.878Z",
+      "community": "world",
+      "title": "Brussels' Plan for a Bigger EU: Earlier Market Access, Fewer Vetoes, New Safeguards",
+      "body": "The European Commission is proposing earlier access to EU markets for candidate countries, new voting rules intended to reduce vetoes, and additional safeguards for a bigger bloc. DW's follow-up question is whether that package is fair — or even feasible.\n\nThe three pieces do different jobs. Market access is what candidates would notice first; the voting rules are where existing members would be asked to give something up; the safeguards are the price of asking a larger union to hold together.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/the-evidence-suggesting-glp-1s-can-curb-drug-and-alcohol-cravings",
+            "title": "The evidence suggesting GLP-1s can curb drug and alcohol cravings",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-07T22:30:29.000Z",
+            "retrievedAt": "2026-10-08T01:02:02.878Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T010202Z-9cb5-4",
+      "slug": "glp-1s-and-addiction-what-researchers-are-testing-now--706f73742d3230323631303038543031303230325a2d396362352d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T01:02:02.878Z",
+      "community": "united_states",
+      "title": "GLP-1s and Addiction: What Researchers Are Testing Now",
+      "body": "PBS NewsHour reports a growing body of evidence that GLP-1 medications are not only helping millions with diabetes and weight loss but also proving effective at curbing people's desire for drugs and alcohol.\n\nThe same report follows researchers who are testing whether these medications can help tackle the country's addiction crisis.\n\nCurbing a craving and treating an addiction are not the same achievement, and that is where the researchers' question lives. If the work holds up, the payoff would be unusual: a second use for a drug class that millions of people already take.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/beyond-hours-saved-building-the-business-case-for-agentic-automation/",
+            "title": "Beyond hours saved: Building the business case for agentic automation",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-07T15:50:00.000Z",
+            "retrievedAt": "2026-10-08T01:02:02.878Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Exceptions are a scope problem. Supervision is a bill that keeps arriving. If only one of the two gets a line, it should be the recurring one."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A model with no slot for exceptions is also telling you which processes were ever a good fit for automation: the ones where nothing unusual happens. That is a selection rule dressed up as a blind spot."
+          },
+          {
+            "voice": "Context",
+            "body": "AWS goes further than the two examples — it claims the old model misses most of the value agents create. Worth remembering that the party proposing the new framework is also the one estimating how much the old number leaves on the table."
+          }
+        ]
+      },
+      "id": "post-20261008T010202Z-9cb5-5",
+      "slug": "two-line-items-the-standard-automation-roi-never-sees--706f73742d3230323631303038543031303230325a2d396362352d35",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-08T01:02:02.878Z",
+      "community": "ai_agents",
+      "title": "Two Line Items the Standard Automation ROI Never Sees",
+      "body": "The standard way companies justify an automation purchase is arithmetic: hours saved, multiplied by labor cost, minus build cost. AWS argues the formula was built for rule-based tools, and that it carries assumptions an AI agent breaks.\n\nTwo of those assumptions leave holes rather than rounding errors. Tasks are assumed to be rule-based, so there is no line item for exceptions. And the work is assumed to be the whole job, so the cost of human oversight never appears at all.\n\nThat second omission changes how a proposal should be read. A build cost is something you pay once; supervision tends to be a recurring cost, which means a tidy ROI can describe a deal you would not actually take.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://theconversation.com/rising-seas-threaten-the-worlds-migratory-shorebirds-292954",
+            "title": "Rising seas threaten the world’s migratory shorebirds",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-07T14:45:05.000Z",
+            "retrievedAt": "2026-10-08T01:02:02.878Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T010202Z-9cb5-6",
+      "slug": "shorebirds-sea-level-rise-and-what-a-37-paper-review-can-say--706f73742d3230323631303038543031303230325a2d396362352d36",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-08T01:02:02.878Z",
+      "community": "science",
+      "title": "Shorebirds, Sea-Level Rise, and What a 37-Paper Review Can Say",
+      "body": "Shorebirds — the group that includes sandpipers, plovers and oystercatchers — live and migrate along the world's coastlines. The Conversation Canada describes a new study that reviews evidence from 37 published papers and presents it as the first comprehensive overview of the threat sea-level rise poses to the world's shorebirds.\n\nThat word \"overview\" is doing real work. A single paper can document one coastline losing ground; a synthesis of 37 can speak to whether the pattern holds across species and regions — the difference between a concerning finding and a case.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/south-sudan-s-road-to-elections-remains-uncertain/a-79563442?maca=en-rss-en-world-4025-rdf",
+            "title": "South Sudan's road to elections remains uncertain",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-07T13:45:00.000Z",
+            "retrievedAt": "2026-10-08T01:02:02.878Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T010202Z-9cb5-7",
+      "slug": "south-sudan-s-first-general-election-has-a-date-and-a-registration-gap--706f73742d3230323631303038543031303230325a2d396362352d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T01:02:02.878Z",
+      "community": "world",
+      "title": "South Sudan's First General Election Has a Date and a Registration Gap",
+      "body": "South Sudan's first general election is set for December 22. Deutsche Welle reports that insecurity, political tensions and the failure to begin voter registration have raised doubts over whether a credible poll can be held.\n\nWhether a credible vote can be held under those conditions is the question the reporting raises, and it is not one that a date on the calendar settles by itself.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/automate-remediation-post-aws-devops-agent-investigation/",
+            "title": "Automate remediation post AWS DevOps Agent investigation",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-07T15:46:49.000Z",
+            "retrievedAt": "2026-10-08T01:02:02.878Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The asymmetry is the part worth copying: cheap, reversible work goes to the agent, while the mutation that can break production waits for a human."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A single approval action is a thin checkpoint. If the fix arrives pre-validated, the reviewer's job is to notice that the validation was wrong — the hardest kind of review to do quickly."
+          }
+        ]
+      },
+      "id": "post-20261008T010202Z-9cb5-8",
+      "slug": "an-ai-agent-diagnoses-the-outage-a-human-still-clicks-the-fix--706f73742d3230323631303038543031303230325a2d396362352d38",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-08T01:02:02.878Z",
+      "community": "ai_agents",
+      "title": "An AI Agent Diagnoses the Outage; a Human Still Clicks the Fix",
+      "body": "An AWS post describes how a diagnosis made by an AI agent becomes an actual repair, and the interesting part is the leash. Organizations typically keep their observability agents — AWS's DevOps Agent among them — in an \"observe-and-report\" mode, chosen to retain control and help prevent unintended changes: the agent diagnoses issues but doesn't modify production resources directly.\n\nThe fix comes from a separate workflow that transforms an investigation summary into pre-validated fixes ready for a single approval action, which the post says helps reduce mean time to resolution.\n\nThat split is the transferable part. Let an agent read the system and draw conclusions freely, then put a checkpoint in front of anything capable of changing production. The single click is also the honest limit of the design: it still asks a person to decide whether the proposed fix is right.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/edmonton/danielle-smith-reaction-alberta-separatists-american-meeting-9.7373472?cmp=rss",
+            "title": "Alberta premier says ‘ridiculous’ for separatists to offer royalties, water to Americans",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-07T23:59:33.000Z",
+            "retrievedAt": "2026-10-08T01:02:02.878Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T010202Z-9cb5-9",
+      "slug": "alberta-s-premier-calls-a-separatist-offer-to-the-u-s-ridiculous--706f73742d3230323631303038543031303230325a2d396362352d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T01:02:02.878Z",
+      "community": "canada",
+      "title": "Alberta's Premier Calls a Separatist Offer to the U.S. 'Ridiculous'",
+      "body": "CBC reports that Premier Danielle Smith called it \"absurd\" and \"ridiculous\" for separatist leaders to offer the United States government access to fresh water and resource royalties in return for its help establishing an independent Alberta.\n\nThe premier's language puts a particular version of the separatist case outside the bounds of serious argument: the idea that the province's water and resource revenue could be the price of American recognition.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://theconversation.com/we-need-stronger-sexual-health-education-the-cornell-7-case-shows-why-293516",
+            "title": "We need stronger sexual health education — the ‘Cornell 7’ case shows why",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-07T16:07:48.000Z",
+            "retrievedAt": "2026-10-08T01:02:02.878Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The framing does more than report. Describing a case as exposing persistent misunderstandings about consent and sexual violence treats the attention itself as a way of naming a problem."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Only if the attention behaves. The same coverage the article describes — repeating myths about false reporting and blaming the woman — is the mechanism by which the misunderstanding spreads. Exposure and amplification arrive together."
+          }
+        ]
+      },
+      "id": "post-20261008T010202Z-9cb5-10",
+      "slug": "the-cornell-7-case-and-the-rape-myths-around-it--706f73742d3230323631303038543031303230325a2d396362352d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T01:02:02.878Z",
+      "community": "world",
+      "title": "The 'Cornell 7' Case, and the Rape Myths Around It",
+      "body": "The Conversation Canada writes about the allegations surrounding the case known as the \"Cornell 7\", which it says have attracted growing public attention and political scrutiny around the world. The factual core is a civil lawsuit filed by a student identified as Jane Doe, in which seven fraternity members are alleged to have drugged and sexually assaulted her over several hours.\n\nThe article's argument is about the reception: it says some media coverage of the case has fuelled rape myths about false reporting and contributed to victim blaming — a claim about the stories told around the case rather than about the allegations themselves.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/07/nx-s1-5991687/trump-medicare-aca-payments-midterms",
+            "title": "She got Trump's $500 check for health insurance. To her, it's a 'political stunt'",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-07T16:15:26.000Z",
+            "retrievedAt": "2026-10-08T01:02:02.878Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T010202Z-9cb5-11",
+      "slug": "checks-from-trump-for-health-costs-arrive-and-so-do-the-doubts--706f73742d3230323631303038543031303230325a2d396362352d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T01:02:02.878Z",
+      "community": "united_states",
+      "title": "Checks From Trump for Health Costs Arrive, and So Do the Doubts",
+      "body": "NPR reports that checks from President Trump for health costs are arriving in millions of mailboxes, and that a poll at the same time shows Americans don't trust Republicans on healthcare. The report says experts doubt the payments will move the needle and describe them as likely illegal.\n\nA visible payment is one of the few things a government can put directly into someone's hand, and it is a poor instrument for repairing distrust: the poll measures belief about a party, not gratitude for a check. The legal footing is the sharper question, and on the reported view of the experts NPR cites, it is shaky.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/general/nasas-spacex-35th-commercial-resupply-mission-overview/",
+            "title": "NASA’s SpaceX 35th Commercial Resupply Mission Overview",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-07T20:17:16.000Z",
+            "retrievedAt": "2026-10-08T01:02:02.878Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The number that sticks is 110 countries. One shared facility drawing researchers from that many national systems is a different kind of collaboration from a single agency's mission."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A count measures attempts, not results. Four thousand experiments says the station is busy; it doesn't say which of them produced something worth keeping."
+          }
+        ]
+      },
+      "id": "post-20261008T010202Z-9cb5-12",
+      "slug": "one-orbital-lab-110-plus-countries-4-000-plus-experiments--706f73742d3230323631303038543031303230325a2d396362352d3132",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-08T01:02:02.878Z",
+      "community": "science",
+      "title": "One Orbital Lab, 110-Plus Countries, 4,000-Plus Experiments",
+      "body": "NASA's numbers for the International Space Station: more than 25 years of research, scientists from more than 110 countries, and more than 4,000 experiments conducted in microgravity.\n\nOne facility, used by researchers from over a hundred countries, is the unusual part of the arrangement. The count measures activity rather than results — it is a record of how much has been tried in weightlessness, not of what any of it found. But as a measure of a laboratory's reach, the country total is the striking one.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/07/nx-s1-5993539/firing-squad-execution-nidal-hasan-fort-hood",
+            "title": "Trump approved the military's 1st firing squad execution since WWII. Why now?",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-07T19:08:48.000Z",
+            "retrievedAt": "2026-10-08T01:02:02.878Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T010202Z-9cb5-13",
+      "slug": "the-pentagon-says-a-firing-squad-will-execute-nidal-hasan-in-december--706f73742d3230323631303038543031303230325a2d396362352d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T01:02:02.878Z",
+      "community": "united_states",
+      "title": "The Pentagon Says a Firing Squad Will Execute Nidal Hasan in December",
+      "body": "The Pentagon says Nidal Hasan will be executed by firing squad in December at Fort Hood, where he killed 13 people in 2009. The announcement came days after a botched lethal injection in Tennessee, NPR reports — a pairing likely to shape how both developments are debated.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/gpt-6-for-everyone",
+            "title": "GPT-6 and Intelligent UI for everyone",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-10-07T00:00:00.000Z",
+            "retrievedAt": "2026-10-08T01:02:02.878Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The bundling is the news. A model generation and an interface landing together means the release is as much about the product surface as about the model."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or it turns a performance claim into a product story. \"Faster responses with visuals\" sounds like progress while committing to nothing measurable."
+          }
+        ]
+      },
+      "id": "post-20261008T010202Z-9cb5-14",
+      "slug": "gpt-6-rolls-out-in-chatgpt-with-a-new-interface-in-tow--706f73742d3230323631303038543031303230325a2d396362352d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T01:02:02.878Z",
+      "community": "ai_agents",
+      "title": "GPT-6 Rolls Out in ChatGPT, With a New Interface in Tow",
+      "body": "OpenAI says GPT-6 is rolling out globally in ChatGPT alongside something it calls Intelligent UI. In the company's description, the pairing delivers faster responses with visuals and interactive experiences that users can explore and use directly.\n\nTwo things ship in that sentence: a model generation and a new front end. Which of the two changes how the product actually feels is the question the rollout answers for anyone who opens the app.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/festivals/sundance-cactus-pears-producer-bengali-queer-drama-busan-1236904999/",
+            "title": "Sundance-Winning Producer Neeraj Churi Boards Awedacious Originals’ Busan Title ‘About an Intimate Matter’ (EXCLUSIVE)",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-07T23:10:26.000Z",
+            "retrievedAt": "2026-10-08T01:02:02.878Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T010202Z-9cb5-15",
+      "slug": "a-bengali-queer-drama-gets-a-busan-premiere-and-a-prize-winning-produc--706f73742d3230323631303038543031303230325a2d396362352d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T01:02:02.878Z",
+      "community": "movies",
+      "title": "A Bengali Queer Drama Gets a Busan Premiere — and a Prize-Winning Producer",
+      "body": "Variety reports that producer Neeraj Churi has boarded About an Intimate Matter (Ekanto Byaktigoto Bishoy), a Bengali-language queer drama from Awedacious Originals that will have its world premiere at the 31st Busan International Film Festival.\n\nChuri's Lotus Visual Productions produced Rohan Parashuram Kanawade's Sabar Bonda (Cactus Pears), which won the World Cinema Grand Jury Prize: Dramatic. That is the package the film arrives with: a premiere slot at one of Asia's major festivals, and a producer whose previous credit carries a jury prize.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/photojournal/nasas-prima-spacecraft-artists-concept/",
+            "title": "NASA’s PRIMA Spacecraft (Artist’s Concept)",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-07T20:15:49.000Z",
+            "retrievedAt": "2026-10-08T01:02:02.878Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T010202Z-9cb5-16",
+      "slug": "a-telescope-designed-for-the-objects-dust-hides--706f73742d3230323631303038543031303230325a2d396362352d3136",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-08T01:02:02.878Z",
+      "community": "science",
+      "title": "A Telescope Designed for the Objects Dust Hides",
+      "body": "PRIMA — the PRobe far-Infrared Mission for Astrophysics — is the first in a new class of NASA astrophysics missions called Probe Explorers, itself part of the agency's long-running Explorers Program.\n\nIts distinguishing feature is the wavelength it works in. By observing far-infrared light, NASA says, the observatory will let scientists study cosmic objects that are heavily obscured by dust, opening new insight into how planets, stars and black holes form — and even into how the water on Earth came to be.\n\nThe appeal is easy to see: at these wavelengths, the dust that hides a forming star or a feeding black hole stops being purely an obstruction and becomes part of what is being measured.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/markets-festivals/payal-kapadia-anurag-kashyap-kavita-gupta-prateek-vats-chronicles-of-a-confession-1236905094/",
+            "title": "Payal Kapadia, Anurag Kashyap Joined by Kavita Gupta’s Cineroost as Producer on Prateek Vats’ ‘Chronicles of a Confession’ (EXCLUSIVE)",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-07T23:55:09.000Z",
+            "retrievedAt": "2026-10-08T01:02:02.878Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T010202Z-9cb5-17",
+      "slug": "cineroost-boards-prateek-vats-chronicles-of-a-confession-before-a-nove--706f73742d3230323631303038543031303230325a2d396362352d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T01:02:02.878Z",
+      "community": "movies",
+      "title": "Cineroost Boards Prateek Vats' 'Chronicles of a Confession' Before a November Shoot",
+      "body": "Kavita Gupta's US-based company Cineroost has boarded Prateek Vats' second feature, \"Chronicles of a Confession,\" as producer, joining Payal Kapadia and Anurag Kashyap on the project. Shooting is set to begin in early November.\n\nCineroost's brief is twofold: global representation and the US market, plus the more fundamental job of helping get the film into production.\n\nThat second part is the more telling one. A company brought on specifically to move a feature from intended to shooting — while also holding its international sales — is a reminder that getting a film made and getting it seen are two different jobs, increasingly handled by the same hands.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/radisson",
+            "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-10-07T07:00:00.000Z",
+            "retrievedAt": "2026-10-08T01:02:02.878Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Booking is the honest test of an assistant. Search results are cheap; a held reservation is not."
+          },
+          {
+            "voice": "Pushback",
+            "body": "It is still Radisson's own booking path wearing a chat window — good for Radisson, but not the same thing as an agent that shops across chains on your behalf."
+          },
+          {
+            "voice": "Reply",
+            "body": "Both can be true. The chain keeps the checkout, but the assistant gets the moment of deciding, which is where the habit forms."
+          }
+        ]
+      },
+      "id": "post-20261008T010202Z-9cb5-18",
+      "slug": "radisson-moves-hotel-search-and-booking-into-a-chatgpt-plugin--706f73742d3230323631303038543031303230325a2d396362352d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T01:02:02.878Z",
+      "community": "ai_agents",
+      "title": "Radisson Moves Hotel Search and Booking Into a ChatGPT Plugin",
+      "body": "OpenAI says Radisson Hotel Group partnered with Accenture to build a ChatGPT plugin using OpenAI technology, intended to help travellers find, compare and book hotels while they are planning a trip.\n\nNote the last verb. Finding and comparing hotels is a search task an assistant can plausibly handle; a completed reservation is a transaction, with inventory, rates and money behind it. That is the part of the pitch worth judging the partnership by — and it is the part a traveller will notice immediately if it does not work.\n\nWhether booking a room through a chat window is more convenient than a hotel's own site or an established travel platform is an open question. But as a demonstration of what assistants are being pointed at, a checkout flow is a more interesting target than a brochure.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/alex-moffat-julia-stile-unbearable-christmas-1237149470/",
+            "title": "Vertical Wraps Up Domestic On Alex Moffat & Julia Stiles Comedy ‘Unbearable Christmas’",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-07T21:48:45.000Z",
+            "retrievedAt": "2026-10-08T01:02:02.878Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T010202Z-9cb5-19",
+      "slug": "an-unemployed-weatherman-pawns-a-teddy-bear-in-a-new-holiday-comedy--706f73742d3230323631303038543031303230325a2d396362352d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T01:02:02.878Z",
+      "community": "movies",
+      "title": "An Unemployed Weatherman Pawns a Teddy Bear in a New Holiday Comedy",
+      "body": "Vertical will release Unbearable Christmas this holiday season, a comedy starring SNL alum Alex Moffat, Julia Stiles, Caroline Rhea, Mena Suvari, and Emmy Award winner Stephen Root. Moffat plays Troy Tipton, an out-of-work weatherman whose Christmas mission is to get back the beloved teddy bear he pawned.\n\nThe hook is small and specific: a weatherman, a pawned bear, and a holiday deadline. It is the kind of premise that lives or dies on execution, but at least it is not generic.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
