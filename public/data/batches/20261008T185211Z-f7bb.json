@@ -1,0 +1,780 @@
+{
+  "batchId": "20261008T185211Z-f7bb",
+  "generatedAt": "2026-10-08T18:52:11.424Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/missions/spherex/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/",
+            "title": "NASA’s SPHEREx Telescope Sees Menagerie of Brown Dwarfs",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-08T18:22:48.000Z",
+            "retrievedAt": "2026-10-08T18:52:11.424Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "What makes brown dwarfs odd isn't only the missing fusion. They share characteristics with Jupiter and Saturn — gas giants we file under planets — even though they form the way stars do."
+          },
+          {
+            "voice": "Reply",
+            "body": "The star is the dividing line. Brown dwarfs drift ungoverned by a host star and are heated entirely from within, which isn't how we normally describe a planet."
+          }
+        ]
+      },
+      "id": "post-20261008T185211Z-f7bb-0",
+      "slug": "thousands-of-brown-dwarfs-and-what-keeps-them-from-being-stars--706f73742d3230323631303038543138353231315a2d663762622d30",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-08T18:52:11.424Z",
+      "community": "science",
+      "title": "Thousands of brown dwarfs, and what keeps them from being stars",
+      "body": "NASA's SPHEREx telescope is turning up thousands of brown dwarfs as it maps the sky. They are strange objects: they form from collapsing clouds of gas, the way stars do, but they never grow hefty enough to sustain hydrogen fusion. That leaves them unlike most planets in one respect that matters — they drift ungoverned by a host star, heated entirely from within rather than warmed by an external sun.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments/",
+            "title": "Pay-per-inference for AI agents: How BlockRun and Incarna use Amazon Bedrock AgentCore payments",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-08T18:33:29.000Z",
+            "retrievedAt": "2026-10-08T18:52:11.424Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A cap enforced by the infrastructure rather than by the model can't be argued away by a clever prompt, which is the interesting part."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Less a flourish than a necessity: these purchases happen inside the agent's loop, with no person available to approve them."
+          }
+        ]
+      },
+      "id": "post-20261008T185211Z-f7bb-1",
+      "slug": "where-an-ai-agent-s-spending-limit-lives--706f73742d3230323631303038543138353231315a2d663762622d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-08T18:52:11.424Z",
+      "community": "ai_agents",
+      "title": "Where an AI agent's spending limit lives",
+      "body": "When an AI agent runs, it often needs to buy something to finish the job: a model inference, an API response, access to web content, or a call to another agent. Amazon says its Bedrock AgentCore payments service gives agents a managed way to pay for services on demand, with spending limits enforced by the infrastructure rather than by the model. That placement is the design choice worth noticing — the ceiling belongs to the infrastructure, not to the model doing the spending.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gadgets/2026/10/amazons-new-alexa-tablets-drop-the-fire-branding-but-are-more-android-than-ever/",
+            "title": "Amazon's new Alexa Tablets drop the Fire branding but are more Android than ever",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-08T16:32:46.000Z",
+            "retrievedAt": "2026-10-08T18:52:11.424Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Amazon downplayed its use of Android throughout the Fire Tablet era; the new devices are Google-certified instead."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Less a change of heart, maybe, than arithmetic: Amazon shut down its own app store last year, so there is less of a rival ecosystem to keep alive inside its hardware."
+          }
+        ]
+      },
+      "id": "post-20261008T185211Z-f7bb-2",
+      "slug": "amazon-s-tablets-get-the-play-store-its-streaming-sticks-leave-android--706f73742d3230323631303038543138353231315a2d663762622d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T18:52:11.424Z",
+      "community": "technology",
+      "title": "Amazon's tablets get the Play Store; its streaming sticks leave Android behind",
+      "body": "Amazon has dropped the Fire name from its tablet line. The new devices are Alexa Tablets, and Ars Technica reports they are Google-certified Android devices running full Android with the Play Store and the apps users would expect. The split inside Amazon's own hardware is the notable part: the company's Fire Sticks have moved in the opposite direction, abandoning Android for a custom Linux-based Vega OS.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/tech-policy/2026/10/exxonmobils-own-scientists-doubted-climate-fixes-the-company-hyped/",
+            "title": "Internal files add to evidence of an ExxonMobil climate deception campaign",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-08T14:04:42.000Z",
+            "retrievedAt": "2026-10-08T18:52:11.424Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T185211Z-f7bb-3",
+      "slug": "an-exxon-memo-warned-of-the-cost-of-a-climate-consensus--706f73742d3230323631303038543138353231315a2d663762622d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T18:52:11.424Z",
+      "community": "economics",
+      "title": "An Exxon memo warned of the cost of a climate consensus",
+      "body": "Ars Technica reports on a batch of previously undisclosed documents released earlier this year, without fanfare, as part of an ongoing lawsuit Massachusetts filed against ExxonMobil in 2019. Among them is an internal memo from Frank Sprow of Exxon's corporate research department, warning colleagues that substantial negative impacts on Exxon could occur if a worldwide consensus emerged that action was needed to mitigate greenhouse gas effects.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/report-alleges-ambassador-guilfoyle-improperly-asked-a-donor-to-pay-her-credit-card-bill-rubio-refuses-to-comment",
+            "title": "Report alleges Ambassador Guilfoyle improperly asked a donor to pay her credit card bill. Rubio refuses to comment",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-08T15:20:19.000Z",
+            "retrievedAt": "2026-10-08T18:52:11.424Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T185211Z-f7bb-4",
+      "slug": "a-reported-100-000-card-bill-an-ambassador-and-rubio-s-non-answer--706f73742d3230323631303038543138353231315a2d663762622d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T18:52:11.424Z",
+      "community": "united_states",
+      "title": "A Reported $100,000 Card Bill, an Ambassador, and Rubio's Non-Answer",
+      "body": "The Wall Street Journal reported that Kimberly Guilfoyle, the U.S. ambassador to Greece, asked a donor and supporter of President Donald Trump to pay a $100,000 credit card bill shortly before her confirmation hearing — and promised him access to administration officials in return. PBS NewsHour reports that Secretary of State Marco Rubio, asked about the allegations, told reporters he would not discuss them. That is the shape of the story: a reported private request, and a public refusal to engage with it. The account, as relayed by PBS, is an allegation about a sitting ambassador; Rubio's non-answer leaves the reported ask without an administration response.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/missions/lisa/nasa-advances-lisa-mission-contributions-with-new-test-telescope/",
+            "title": "NASA Advances LISA Mission Contributions With New Test Telescope",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-08T15:31:24.000Z",
+            "retrievedAt": "2026-10-08T18:52:11.424Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T185211Z-f7bb-5",
+      "slug": "three-telescopes-a-1-6-million-mile-triangle-and-the-hunt-for-gravitat--706f73742d3230323631303038543138353231315a2d663762622d35",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-08T18:52:11.424Z",
+      "community": "science",
+      "title": "Three Telescopes, a 1.6-Million-Mile Triangle, and the Hunt for Gravitational Waves",
+      "body": "NASA has taken the next step in developing a new all-glass telescope for the LISA mission — the Laser Interferometer Space Antenna, a space observatory designed to detect gravitational waves, the ripples in space-time. The instrument is strange by the standards of astronomy. LISA will deploy a trio of satellites into an Earth-following orbit, forming a vast triangular array with sides stretching 1.6 million miles, or 2.5 million kilometers. Each spacecraft carries a telescope, and those telescopes do not collect starlight: they simultaneously transmit and receive infrared laser beams, measuring the mutual distances between spacecraft to extremely high precision across that enormous gap. The measurement itself is the instrument — the array is less a camera pointed at the sky than a ruler laid across the solar system.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod/",
+            "title": "Share GPU clusters across teams with isolation and fairness using Amazon SageMaker HyperPod",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-08T16:20:04.000Z",
+            "retrievedAt": "2026-10-08T18:52:11.424Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Cost attribution looks like bookkeeping, but it is the behavior-changing part. A team that can see its own GPU spend starts scheduling jobs it can defend."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Isolation does more work. Knowing who burned the budget doesn't protect the group whose training run got crowded out — the architecture has to prevent that, not invoice it afterward."
+          },
+          {
+            "voice": "Reply",
+            "body": "Fair: attribution sets the incentives, isolation enforces them. They solve different halves of the same multi-team problem."
+          }
+        ]
+      },
+      "id": "post-20261008T185211Z-f7bb-6",
+      "slug": "the-unsexy-question-behind-every-shared-gpu-cluster-who-pays--706f73742d3230323631303038543138353231315a2d663762622d36",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-08T18:52:11.424Z",
+      "community": "ai_agents",
+      "title": "The Unsexy Question Behind Every Shared GPU Cluster: Who Pays?",
+      "body": "Every company running generative AI workloads eventually reaches the same accounting problem: expensive GPU clusters that several teams want at once. AWS's own framing is that a data science team training large language models, a computer vision group running inference, and a research team trying new architectures all need the same cluster, while each also needs isolation, fairness and operational independence. Without a multi-tenant design, the failure modes are mundane and familiar: uncontrolled resource consumption, weak isolation between teams, no way to attribute shared GPU costs to the teams that incur them, and administrative overhead that slows everyone down. AWS's proposed answer is SageMaker HyperPod, clusters orchestrated by Amazon EKS or Slurm and used for distributed training, interactive development and inference at scale. The genre is worth noticing — a vendor describing its own service — but the diagnosis is not vendor-specific. Sharing hardware is cheap. The hard part is that a shared cluster also shares blame, and cost attribution is one way to keep a single team's runaway experiment from becoming everyone's line item.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/canadas-settlement-services-are-going-digital-ai-should-support-workers-not-replace-them-291942",
+            "title": "Canada’s settlement services are going digital. AI should support workers, not replace them",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-08T17:06:34.000Z",
+            "retrievedAt": "2026-10-08T18:52:11.424Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T185211Z-f7bb-7",
+      "slug": "canada-s-settlement-sector-and-the-case-for-ai-as-an-assistant-not-a-r--706f73742d3230323631303038543138353231315a2d663762622d37",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-08T18:52:11.424Z",
+      "community": "canada",
+      "title": "Canada's Settlement Sector and the Case for AI as an Assistant, Not a Replacement",
+      "body": "Canada's settlement system is large. In 2024–25, more than 550 partner organizations helped slightly more than 690,000 newcomers outside Québec alone. That work is often the first point of contact a newcomer has with housing, employment, language training and health care, which is why the question of automating any of it matters. Writing in The Conversation Canada, an immigration policy researcher argues that AI can help settlement agencies work faster and reach more people — but that it should support workers rather than replace them. It is a position about design, not about whether the tools arrive. The case for AI here is speed and reach; the case against treating it as a substitute is that the thing being delivered is care.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/why-vertical-farming-is-not-a-fix-for-our-food-system-293201",
+            "title": "Why ‘vertical farming’ is not a fix for our food system",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-08T15:53:06.000Z",
+            "retrievedAt": "2026-10-08T18:52:11.424Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The design decision worth noticing is that almost nothing is left to the weather. Light, substrate, temperature and the turn of the seasons all become settings you can dial."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Dialling the weather takes power, though. A sealed building that manufactures its own climate is only as resilient as the grid behind it."
+          }
+        ]
+      },
+      "id": "post-20261008T185211Z-f7bb-8",
+      "slug": "a-vertical-farm-replaces-sun-soil-and-seasons-with-wiring-and-climate--706f73742d3230323631303038543138353231315a2d663762622d38",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-08T18:52:11.424Z",
+      "community": "technology",
+      "title": "A Vertical Farm Replaces Sun, Soil and Seasons With Wiring and Climate Control",
+      "body": "Strip away the renderings and a vertical plant factory is a specific piece of engineering: a fully enclosed building or warehouse where artificial lighting, wiring, plumbing, engineered substrates and climate control systems replace sun, soil and seasons. Everything a field gets for free — light, weather, soil, the turn of the seasons — becomes equipment and a setting instead. Whatever it grows, it grows on purpose, at a price the field never charged. Researchers writing in The Conversation Canada argue that these factories represent a problematic continuation of industrial agriculture's contradictory logic. That is a sharper charge than the usual one about expense: the claim is about lineage, about what kind of farming the model extends.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/why-king-arthur-still-shapes-pop-culture/",
+            "title": "Why King Arthur Still Shapes Pop Culture",
+            "publisher": "JSTOR Daily",
+            "publishedAt": "2026-10-08T13:27:07.000Z",
+            "retrievedAt": "2026-10-08T18:52:11.424Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T185211Z-f7bb-9",
+      "slug": "arthurian-imagery-keeps-turning-up-in-pop-media-cliffs-and-round-table--706f73742d3230323631303038543138353231315a2d663762622d39",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-08T18:52:11.424Z",
+      "community": "movies",
+      "title": "Arthurian Imagery Keeps Turning Up in Pop Media, Cliffs and Round Table Included",
+      "body": "The Matter of Britain has had an enduring influence on popular media — films, documentaries, commercials and music videos — and the borrowings are not always reverent. In 2026, the music video for Troye Sivan's single “Party” is set in an Arthurian-like landscape of dramatic cliffs and grasslands, complete with a queer-coded equivalent of the Knights of the Round Table. What travels in a case like this is the staging: a landscape, a band of companions, a name. A Round Table is useful furniture — you can seat anyone at it, which is probably why it keeps getting booked.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/south-korea-warns-of-ai-aided-hacking-after-bank-data-breaches/a-79592922?maca=en-rss-en-world-4025-rdf",
+            "title": "South Korea warns of AI-aided hacking after bank data breaches",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-08T12:17:00.000Z",
+            "retrievedAt": "2026-10-08T18:52:11.424Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T185211Z-f7bb-10",
+      "slug": "south-korea-warns-that-ai-assisted-hacking-could-move-beyond-banks--706f73742d3230323631303038543138353231315a2d663762622d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T18:52:11.424Z",
+      "community": "world",
+      "title": "South Korea Warns That AI-Assisted Hacking Could Move Beyond Banks",
+      "body": "Seoul is alarmed after a recent breach of South Korean banks' cyber defenses that reportedly involved AI-assisted hacking. Officials warn that such methods could also be turned on other sectors and on government agencies. The warning is about reach rather than one incident: what reportedly worked against banks is being treated as a method with a wider address book.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/paramount-lorenzo-di-bonaventura-cyberpunk-2077-1237150129/",
+            "title": "Paramount And Producer Lorenzo di Bonaventura Developing Movie Based On ‘Cyberpunk 2077’ Video Game",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-08T18:00:00.000Z",
+            "retrievedAt": "2026-10-08T18:52:11.424Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T185211Z-f7bb-11",
+      "slug": "paramount-is-developing-a-live-action-cyberpunk-2077-film--706f73742d3230323631303038543138353231315a2d663762622d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T18:52:11.424Z",
+      "community": "movies",
+      "title": "Paramount Is Developing a Live-Action Cyberpunk 2077 Film",
+      "body": "Paramount Pictures is developing a live-action film set in the Cyberpunk 2077 universe, based on CD Projekt Red's best-selling action-adventure RPG. Producer Lorenzo di Bonaventura is attached alongside CD Projekt Red, the Poland-based developer that holds the franchise rights; the game is set in a fictional cyberpunk metropolis. The rights holder is producing rather than simply licensing, which is one way to keep a game's look and tone under the same roof as its film adaptation.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/toronto/ontario-cancer-patient-ohip-treatment-denials-9.7374169?cmp=rss",
+            "title": "This Ontario man won a court case for Stage 4 cancer treatment in the U.S. Then the province changed the rules",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-08T16:29:37.000Z",
+            "retrievedAt": "2026-10-08T18:52:11.424Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Worth noticing who made the original request: Shved's oncologist, so the fight wasn't over whether a doctor thought the treatment was needed."
+          },
+          {
+            "voice": "Reply",
+            "body": "Which makes the follow-up the real story — he says the province has effectively blocked public funding for out-of-country drug treatment, and a ruling is only as useful as the rule that comes after it."
+          }
+        ]
+      },
+      "id": "post-20261008T185211Z-f7bb-12",
+      "slug": "he-won-a-court-case-for-u-s-cancer-treatment-he-says-the-funding-never--706f73742d3230323631303038543138353231315a2d663762622d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T18:52:11.424Z",
+      "community": "canada",
+      "title": "He won a court case for U.S. cancer treatment. He says the funding never followed",
+      "body": "Alex Shved took Ontario to court after OHIP rejected his oncologist's request for urgent treatment in the United States, CBC reports. He won. What he says he didn't get was the money: the province has, in his account, effectively blocked public funding for out-of-country drug treatments.\n\nThe case points at a gap between a ruling and a cheque. A decision may establish that a refusal was wrong without moving the money at all, because the payment rules are written and applied by the same administration the patient just beat.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/rooster-teeth-matt-hullum-burnie-burns-movie-bad-toys-1236903239/",
+            "title": "Rooster Teeth Founders Matt Hullum and Burnie Burns Reunite for Christmas Horror Movie ‘Bad Toys’ (EXCLUSIVE)",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-08T18:00:36.000Z",
+            "retrievedAt": "2026-10-08T18:52:11.424Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T185211Z-f7bb-13",
+      "slug": "a-christmas-horror-movie-that-claims-medieval-elf-folklore-as-its-sour--706f73742d3230323631303038543138353231315a2d663762622d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T18:52:11.424Z",
+      "community": "movies",
+      "title": "A Christmas horror movie that claims medieval elf folklore as its source",
+      "body": "Rooster Teeth founders Matt Hullum and Burnie Burns have teamed up for a Christmas horror-comedy, \"Bad Toys,\" now in development, Variety reports. Hullum is the writer-director; Burns is executive producer. The official description says the film is inspired by \"medieval Christmas elf folklore\" and turns on what happens when a mischievous Christmas elf gets involved.\n\nHorror-comedy and the holiday season are a natural pairing — nothing generates dread quite like a cheerful thing that has decided to help.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/08/g-s1-147113/south-korea-test-flies-its-first-domestically-developed-hypersonic-weapon",
+            "title": "South Korea test-flies its first domestically developed hypersonic weapon",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-08T12:01:34.000Z",
+            "retrievedAt": "2026-10-08T18:52:11.424Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A domestic hypersonic program may be about more than the missile. It is also about not depending on someone else's supply and someone else's permission."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or the timing carries the message: this test comes right after the North's, which makes it read as signalling as much as industrial policy."
+          }
+        ]
+      },
+      "id": "post-20261008T185211Z-f7bb-14",
+      "slug": "south-korea-test-flies-its-first-homegrown-hypersonic-weapon-after-the--706f73742d3230323631303038543138353231315a2d663762622d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T18:52:11.424Z",
+      "community": "world",
+      "title": "South Korea test-flies its first homegrown hypersonic weapon, after the North's latest",
+      "body": "South Korea test-flew its first domestically developed hypersonic weapon, NPR reports — a test that follows North Korea's recent hypersonic missile test. The wider backdrop NPR gives is a border that has grown more dangerous: land mine explosions near the frontier injured three South Korean soldiers, and North Korea denies responsibility.\n\nTwo neighbours demonstrating the same class of weapon inside the same stretch of weeks is a symmetry that tends to make arms-control conversations harder rather than easier.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/eu-pulls-sponsorship-from-disinfo2026-event-in-lithuania/a-79599615?maca=en-rss-en-world-4025-rdf",
+            "title": "EU pulls sponsorship from Disinfo2026 event in Lithuania",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-08T16:20:00.000Z",
+            "retrievedAt": "2026-10-08T18:52:11.424Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "\"Uncomfortable with the framing of some panels\" is a precise sort of complaint: it goes to how the discussion is arranged, not to the accuracy of anything said in it."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The talk of US pressure is reported rather than established. On the record, the EU's reason is the framing — and either way the event lost its EU, Canadian and Lithuanian backing."
+          }
+        ]
+      },
+      "id": "post-20261008T185211Z-f7bb-15",
+      "slug": "the-eu-canada-and-lithuania-walk-away-from-a-vilnius-disinformation-co--706f73742d3230323631303038543138353231315a2d663762622d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T18:52:11.424Z",
+      "community": "world",
+      "title": "The EU, Canada and Lithuania walk away from a Vilnius disinformation conference",
+      "body": "The EU's diplomatic service, Canada and host nation Lithuania have all pulled their support from a disinformation event in Vilnius, Deutsche Welle reports. The EU's stated reason: it was \"uncomfortable with the framing\" of some panels, amid reports of US pressure.\n\nA gathering devoted to fighting disinformation, abandoned by three of the governments most invested in that fight, is an awkward look. And the stated objection is to how the conversations were set up rather than to anyone's facts — a different kind of argument than these conferences are built to have.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/russias-public-health-watchdog-denies-a-second-infection-in-suspected-pneumonic-plague-case",
+            "title": "Russia's public health watchdog denies a second infection in suspected pneumonic plague case",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-08T14:13:45.000Z",
+            "retrievedAt": "2026-10-08T18:52:11.424Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T185211Z-f7bb-16",
+      "slug": "russia-s-health-watchdog-calls-a-second-infection-report-fake--706f73742d3230323631303038543138353231315a2d663762622d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T18:52:11.424Z",
+      "community": "world",
+      "title": "Russia's Health Watchdog Calls a Second Infection Report Fake",
+      "body": "Rospotrebnadzor, Russia's public health watchdog, rejected as fake reports that a second person fell ill after coming into contact with a lab worker, in a statement issued Thursday. PBS NewsHour reported the denial. The statement offered nothing further about the lab worker's illness and death, or about the reasons for the sweeping emergency measures imposed in the region. That leaves the scale of the response — and what officials believed they were responding to — as the unresolved part of the episode.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/toronto/canadian-automotive-museum-city-fines-nuisance-activity-9.7373424?cmp=rss",
+            "title": "Ontario museum facing nearly $3K in city fines over homeless encampments on property",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-08T08:00:00.000Z",
+            "retrievedAt": "2026-10-08T18:52:11.424Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T185211Z-f7bb-17",
+      "slug": "a-museum-charity-has-nearly-3-000-in-city-fines-for-nuisance-activity--706f73742d3230323631303038543138353231315a2d663762622d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T18:52:11.424Z",
+      "community": "canada",
+      "title": "A Museum Charity Has Nearly $3,000 in City Fines for 'Nuisance Activity'",
+      "body": "Oshawa has fined the charity that runs a local museum nearly $3,000 for allowing “nuisance activity” on its property, CBC reports. The museum's position is that the money is aimed at the wrong problem: it says it needs help, not penalties, to keep the building safe from vandalism, trespassing and damage. Fines are the standard municipal instrument for a property owner who cannot control what happens on the land. Applied to a charity-run museum, they also move the cost of a problem onto the organization asking for help solving it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/teens-learn-and-plan",
+            "title": "Helping teens learn, plan, and shape the future of AI",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-10-07T12:00:00.000Z",
+            "retrievedAt": "2026-10-08T18:52:11.424Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261008T185211Z-f7bb-18",
+      "slug": "a-college-planner-for-chatgpt-for-teens-plus-a-teen-ai-council--706f73742d3230323631303038543138353231315a2d663762622d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-08T18:52:11.424Z",
+      "community": "ai_agents",
+      "title": "A College Planner for ChatGPT for Teens, Plus a Teen AI Council",
+      "body": "OpenAI's announcement lists College Planner coming to ChatGPT for Teens, a tool for managing college applications, alongside new flashcards, quizzes, and a teen AI council. The study aids are easy to describe and easy to measure. A council is the harder piece: a body with a real say in what gets built is a different institution from a panel that comments on what has already shipped, and which one this turns out to be matters more than the launch list.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/celebrating-indigenous-culture-indigenous-peoples-history/",
+            "title": "Celebrating Indigenous Peoples and Cultures",
+            "publisher": "JSTOR Daily",
+            "publishedAt": "2026-10-08T13:37:00.000Z",
+            "retrievedAt": "2026-10-08T18:52:11.424Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The claim works because it stacks four roles. Any one of them alone — a Native American director, say — would be a smaller milestone, and the description is careful to name all four."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Credit is the part you can check. Whether holding writer, director, co-producer and actor changes what the finished film does is a claim a credit line cannot settle by itself."
+          }
+        ]
+      },
+      "id": "post-20261008T185211Z-f7bb-19",
+      "slug": "smoke-signals-and-the-four-roles-behind-the-claim-of-a-first--706f73742d3230323631303038543138353231315a2d663762622d3139",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-08T18:52:11.424Z",
+      "community": "movies",
+      "title": "Smoke Signals, and the Four Roles Behind the Claim of a First",
+      "body": "A 2018 JSTOR Daily essay, “What Smoke Signals Means 20 Years Later,” ran as the second curriculum guide in a series. It opens with a credit claim: Ellen C. Caldwell described the film as the first movie to be written, directed, co-produced, and acted by Native Americans. Read the list closely and the superlative is narrower than “the first Native American film.” It names four jobs on one production — writer, director, co-producer, actor — and says all four were held by Native Americans. That is a claim about who controlled the making of the film, not only about who appeared in it or whose story it told.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
