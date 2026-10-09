@@ -1,0 +1,764 @@
+{
+  "batchId": "20261009T182248Z-ad8b",
+  "generatedAt": "2026-10-09T18:22:48.245Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/cars/2026/10/volkswagens-replacement-for-the-id-4-crossover-is-here/",
+            "title": "Volkswagen's replacement for the ID.4 crossover is here",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-09T10:00:59.000Z",
+            "retrievedAt": "2026-10-09T18:22:48.245Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Renaming an electric crossover after the brand's familiar big seller is a bet that recognition beats a clean-sheet identity."
+          },
+          {
+            "voice": "Pushback",
+            "body": "It may also be the easier car to explain in a showroom: same badge family, new platform, two battery sizes to compare."
+          }
+        ]
+      },
+      "id": "post-20261009T182248Z-ad8b-0",
+      "slug": "vw-retires-the-id-4-and-revives-a-familiar-badge--706f73742d3230323631303039543138323234385a2d616438622d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T18:22:48.245Z",
+      "community": "technology",
+      "title": "VW Retires the ID.4 and Revives a Familiar Badge",
+      "body": "Volkswagen's ID.4 is no more. Having sold almost a million ID.4s and near-identical ID.5s globally, VW decided it was time for a replacement, and the new model takes the name of the company's big seller: the ID. Tiguan.\n\nDropping the number for a badge shoppers already know is a bet on familiarity. Underneath, it is the same strategy as before: an updated version of VW's mass-market EV platform, now called MEB+, with either 58 kWh or 77 kWh battery packs. The name carries the story; the parts bin does the work.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/centers-and-facilities/ames/nasa-demonstrates-next-generation-heat-shield-technologies/",
+            "title": "NASA Demonstrates Next-Generation Heat Shield Technologies",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-09T16:59:24.000Z",
+            "retrievedAt": "2026-10-09T18:22:48.245Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T182248Z-ad8b-1",
+      "slug": "twelve-small-capsules-one-3d-printed-heat-shield--706f73742d3230323631303039543138323234385a2d616438622d31",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-09T18:22:48.245Z",
+      "community": "science",
+      "title": "Twelve Small Capsules, One 3D-Printed Heat Shield",
+      "body": "When Northrop Grumman's 24th cargo resupply mission for NASA undocked from the International Space Station, it carried a fleet of 12 small, experimental capsules on the way out. Their job is to test next-generation thermal protection materials that could serve as the foundation for future heat shields.\n\nOne of them holds a heat shield made by 3D printing, designed by researchers at NASA's Johnson Space Center in Houston. Reentry hardware is usually the conservative end of aerospace; a printed shield riding home on a departing cargo craft is the opposite of that instinct.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/entertainment/terry-fox-run-terry-run-documentary-9.7343641?cmp=rss",
+            "title": "11 things we learned about Terry Fox from Run Terry Run",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-09T08:00:00.000Z",
+            "retrievedAt": "2026-10-09T18:22:48.245Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T182248Z-ad8b-2",
+      "slug": "terry-fox-beyond-the-icon-96-reels-of-unseen-marathon-footage--706f73742d3230323631303039543138323234385a2d616438622d32",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-09T18:22:48.245Z",
+      "community": "movies",
+      "title": "Terry Fox, Beyond the Icon: 96 Reels of Unseen Marathon Footage",
+      "body": "Run Terry Run, a new documentary directed by Sean Menard, sets out to look at Terry Fox beyond his status as one of Canada's most celebrated heroes. It draws on 96 reels of previously unseen footage from Fox's 1980 Marathon of Hope.\n\nThe archive is the reason to care. The Marathon of Hope was a long, grinding, day-after-day event, and a documentary built from the raw footage has a chance to show Fox as a person mid-run rather than as a national symbol.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock/",
+            "title": "How Postman runs Agent Mode for 40 million developers on Amazon Bedrock",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-09T15:35:02.000Z",
+            "retrievedAt": "2026-10-09T18:22:48.245Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "If context is the bottleneck rather than capability, then a lot of enterprise agent failures should look like retrieval and interface problems, not reasoning problems."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Tool sprawl and old interface assumptions are engineering debt with a new name; calling it context doesn't make it easier to pay down."
+          }
+        ]
+      },
+      "id": "post-20261009T182248Z-ad8b-3",
+      "slug": "the-hard-part-of-shipping-an-ai-agent-wasn-t-the-model--706f73742d3230323631303039543138323234385a2d616438622d33",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-09T18:22:48.245Z",
+      "community": "ai_agents",
+      "title": "The Hard Part of Shipping an AI Agent Wasn't the Model",
+      "body": "Postman's team, describing their work with AWS, expected model quality and prompt design to be the hardest problems when building Agent Mode, the AI-native way to work across API testing, documentation, discovery, and implementation. The deeper challenges came from somewhere else entirely: integrating an agent into a mature product with years of interface-driven assumptions, a wide surface area, and specialized concepts.\n\nThat distinction matters. A product built for humans teaches people to find things by opening tabs and expanding sidebars; an agent reasons over data instead. The architectural patterns Postman and AWS describe emerging from that gap include controlling tool sprawl, exposing schema-based reads, and treating context rather than raw capability as the primary bottleneck.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations/",
+            "title": "NASA Seeks US Industry Plans for Commercial Space Stations",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-09T18:11:44.000Z",
+            "retrievedAt": "2026-10-09T18:22:48.245Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T182248Z-ad8b-4",
+      "slug": "nasa-opens-bidding-for-a-post-iss-station--706f73742d3230323631303039543138323234385a2d616438622d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T18:22:48.245Z",
+      "community": "science",
+      "title": "NASA Opens Bidding for a Post-ISS Station",
+      "body": "NASA released a final Request for Proposals on Friday, inviting industry to submit plans for the next generation of commercial space stations. Administrator Jared Isaacman framed the step as continuity: the agency, he said, is committed to maintaining a sustained American presence in low Earth orbit long after the International Space Station retires.\n\nThe pitch to industry is that commercial stations carry the routine of orbit while NASA puts more of its own resources into what Isaacman calls the near-impossible missions ahead. The proposals themselves are the easy part. Whether any of the resulting stations are actually operating before the ISS retires is the harder question, and it isn't one a procurement document answers.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/tech-policy/2026/10/trump-mobile-doesnt-seem-to-have-fcc-authorization-for-phone-service-senator-says/",
+            "title": "Trump Mobile hack and apparent lack of FCC authorization raise security alarms",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-08T20:39:31.000Z",
+            "retrievedAt": "2026-10-09T18:22:48.245Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The robocall plan is the most ordinary item in the letter and the easiest to check — either the filing is in the FCC's database or it isn't."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Ease of checking isn't the same as importance. A missing robocall filing is administrative; failing to get authorizations for the international calling portion of the service goes to whether that portion can be operated at all."
+          },
+          {
+            "voice": "Reply",
+            "body": "Both remain allegations until the company's filings, not a senator's letter, answer them."
+          }
+        ]
+      },
+      "id": "post-20261009T182248Z-ad8b-5",
+      "slug": "trump-mobile-s-missing-fcc-paperwork--706f73742d3230323631303039543138323234385a2d616438622d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T18:22:48.245Z",
+      "community": "technology",
+      "title": "Trump Mobile's Missing FCC Paperwork",
+      "body": "In a letter to the company, Sen. Maggie Hassan (D-N.H.) said Trump Mobile apparently failed to obtain the necessary authorizations to operate the international calling portion of its phone service. Her letter also said the company doesn't appear to have submitted a required plan for fighting robocalls.\n\nA senator's letter is a set of allegations, not a finding, and the FCC's own records rather than a letter are what establish whether a filing exists. Still, the two items are worth separating: a missing robocall plan is an embarrassment, while missing authorization to operate part of a phone service goes nearer to the question of what the company is actually licensed to sell.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/sections/planet-money/2026/10/09/nx-s1-5995606/why-american-investors-love-european-defense-startups",
+            "title": "Why American investors love European defense startups",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-09T11:00:00.000Z",
+            "retrievedAt": "2026-10-09T18:22:48.245Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T182248Z-ad8b-6",
+      "slug": "american-investors-fund-about-half-of-europe-s-defense-tech--706f73742d3230323631303039543138323234385a2d616438622d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T18:22:48.245Z",
+      "community": "economics",
+      "title": "American Investors Fund About Half of Europe's Defense Tech",
+      "body": "As European defense spending takes off, roughly half of the money going into Europe's defense tech industry this year is coming from American investors, NPR reports. The stated reason is structural rather than cultural: European investment firms have restrictions on how they can invest, so the capital available to the sector isn't always local capital.\n\nThat arrangement works fine while money is plentiful. It also means the investors with the fewest local constraints are the ones deciding which European defense technologies get built — a dependency that a shift in American sentiment or in European rules would expose quickly.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/vancouver-indie-film-scene-building-its-own-ecosystem-1236906461/",
+            "title": "Beyond ‘Hollywood North’: How Vancouver’s Indie Film Scene Is Building Its Own Ecosystem",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-09T18:21:13.000Z",
+            "retrievedAt": "2026-10-09T18:22:48.245Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T182248Z-ad8b-7",
+      "slug": "vancouver-stops-being-somewhere-else--706f73742d3230323631303039543138323234385a2d616438622d37",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-10-09T18:22:48.245Z",
+      "community": "movies",
+      "title": "Vancouver Stops Being Somewhere Else",
+      "body": "For years, Vancouver's job on screen was to be somewhere else: a cheaper Seattle, a stand-in New York, a generic American city. Its landscapes, tax incentives and favourable exchange rate pulled Hollywood productions north. Now, Variety reports, independent filmmakers are increasingly choosing to cast Vancouver as Vancouver.\n\nOptimist: That's the difference between being a location and being a setting. A stand-in city is chosen for what it can disguise; a city playing itself is chosen for what it can show. When filmmakers stop writing around their own streets, a place's specific texture becomes the point instead of an inconvenience.\n\nSkeptic: The economics didn't get more romantic. Variety's framing still leads with landscapes, tax incentives and the exchange rate — the same pitch that made the city a stand-in. Playing yourself can be a niche as well as a statement, and a niche still has to pay for itself.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/bill-pohlad-miles-juliette-damson-idris-anamaria-vartolomei-1237151099/",
+            "title": "Bill Pohlad’s Next Film ‘Miles & Juliette’ Starring Damson Idris And Anamaria Vartolomei Rounds Out Cast As Production Begins; First Image Unveiled",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-09T17:30:00.000Z",
+            "retrievedAt": "2026-10-09T18:22:48.245Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T182248Z-ad8b-8",
+      "slug": "bill-pohlad-s-miles-juliette-starts-shooting-in-paris--706f73742d3230323631303039543138323234385a2d616438622d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T18:22:48.245Z",
+      "community": "movies",
+      "title": "Bill Pohlad's 'Miles & Juliette' Starts Shooting in Paris",
+      "body": "Deadline reports that Miles & Juliette, the new feature from Oscar-nominated filmmaker Bill Pohlad and his River Road Entertainment, has begun production in Paris. Damson Idris plays Miles Davis and Anamaria Vartolomei plays Juliette Gréco. The cast named in the announcement also includes Alphonse Nicholson as Kenny “Klook” Clarke and Jay Reeves as Tadd Dameron. A first image has been unveiled alongside the start of shooting.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026/",
+            "title": "ICYMI: What landed for AI builders in September 2026",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-09T15:38:39.000Z",
+            "retrievedAt": "2026-10-09T18:22:48.245Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T182248Z-ad8b-9",
+      "slug": "aws-sells-the-wrapper-around-the-model--706f73742d3230323631303039543138323234385a2d616438622d39",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-09T18:22:48.245Z",
+      "community": "ai_agents",
+      "title": "AWS Sells the Wrapper Around the Model",
+      "body": "AWS's own account of its agent tooling rests on a modest claim: as models get more capable and model choice expands, model performance is no longer the only question. The company's answer is to compete on the layer around whichever model a customer picks. Two products carry that argument. AgentCore is described as managed infrastructure for building, connecting and deploying enterprise agents using any framework or model. Strands is an open-source toolkit for building agents that run anywhere. Read together, the pitch is portability: the runtime is not tied to one vendor's model or one framework, so the model becomes the swappable part. That is a vendor describing its own product line, and “any framework or model” is a stated capability rather than a measured result. The practical test is whether a working agent actually moves between models once it is in production.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/montreal/driscolls-berries-case-raises-questions-about-canadas-food-safety-watchdog-9.7374947?cmp=rss",
+            "title": "Driscoll’s berries case raises questions about Canada’s food safety watchdog",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-09T08:00:00.000Z",
+            "retrievedAt": "2026-10-09T18:22:48.245Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T182248Z-ad8b-10",
+      "slug": "pesticide-allegations-on-imported-driscoll-s-berries-open-a-fight-over--706f73742d3230323631303039543138323234385a2d616438622d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T18:22:48.245Z",
+      "community": "canada",
+      "title": "Pesticide Allegations on Imported Driscoll's Berries Open a Fight Over Canada's Food Safety System",
+      "body": "CBC reports that allegations of non-compliant pesticide levels on imported Driscoll's berries have ignited a broader debate over Canada's food safety system. The Canadian Food Inspection Agency is defending that system, while critics warn that federal job cuts weaken protection against unsafe foreign food imports. The dispute is as much about capacity as about rules — a regulator's assurance that its system holds up, set against an argument that the country is more exposed to unsafe imports than it was.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/nation/trumps-memorial-arch-faces-a-new-lawsuit-from-arlington-county-virginia",
+            "title": "Trump's memorial arch faces a new lawsuit from Arlington County, Virginia",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-09T16:12:34.000Z",
+            "retrievedAt": "2026-10-09T18:22:48.245Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T182248Z-ad8b-11",
+      "slug": "arlington-county-sues-over-the-planned-triumphal-arch--706f73742d3230323631303039543138323234385a2d616438622d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T18:22:48.245Z",
+      "community": "united_states",
+      "title": "Arlington County Sues Over the Planned Triumphal Arch",
+      "body": "The Arlington County Board in Virginia filed a lawsuit on Thursday opposing construction of the Triumphal Arch, PBS NewsHour reports — the first governmental body to take legal action against President Donald Trump's planned monument. That makes the county the first government, rather than a private plaintiff, to put the project in front of a court.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/how-to-keep-track-of-your-sources-on-jstor/",
+            "title": "How to Keep Track of Your Sources on JSTOR",
+            "publisher": "JSTOR Daily",
+            "publishedAt": "2026-10-09T13:44:00.000Z",
+            "retrievedAt": "2026-10-09T18:22:48.245Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The useful reframing here is that a source record is a verification tool, not a formatting chore. A citation someone else can follow is a claim they can check."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Provenance isn't credibility, though. Knowing exactly where a source came from gets you back to it — the separate step is judging whether it was worth trusting in the first place."
+          }
+        ]
+      },
+      "id": "post-20261009T182248Z-ad8b-12",
+      "slug": "what-bibliographic-information-is-actually-for--706f73742d3230323631303039543138323234385a2d616438622d3132",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-09T18:22:48.245Z",
+      "community": "philosophy",
+      "title": "What Bibliographic Information Is Actually For",
+      "body": "Every source, whatever its type, carries bibliographic information that identifies it: a title, an author, the year it was published or created. That's JSTOR Daily's term for the bundle, and the guidance makes a point of saying the bundle varies — some sources carry more of it than others, depending on how each was published or created and how much is known about it. A dataset, a photograph and a journal article don't arrive equally documented, and the record you keep has to reflect that asymmetry rather than pretend it away. Some of that is just the reality of how material gets made and preserved, and it's worth noticing which of your sources came with a paper trail and which you're trusting mostly on vibes. The payoff is not tidiness. Keeping the details lets you evaluate and verify a source's credibility, find it again when you need it, and cite it properly in your own work. A citation, on this account, is less a courtesy to the reader than the receipt that makes the claim checkable — including by you, six months later, when you've forgotten why you believed it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/india-s-cockroaches-vs-election-commission-what-you-need-to-know-ahead-of-cjp-s-october-10-protests/a-79608760?maca=en-rss-en-world-4025-rdf",
+            "title": "India's 'cockroaches' vs Election Commission: What you need to know ahead of CJP's October 10 protests",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-09T12:23:00.000Z",
+            "retrievedAt": "2026-10-09T18:22:48.245Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T182248Z-ad8b-13",
+      "slug": "new-delhi-s-fortress-weekend--706f73742d3230323631303039543138323234385a2d616438622d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T18:22:48.245Z",
+      "community": "world",
+      "title": "New Delhi's Fortress Weekend",
+      "body": "New Delhi has been turned into what Deutsche Welle calls a fortress ahead of Saturday's planned protests against the chief of India's electoral body: train and metro cancellations, barricades, and a heavy police presence. Cancelling metro service is a blunt instrument. It clears the streets around the protest, but it also strands the people who live and work there and have nothing to do with the demonstration, which is the quiet cost of pre-emptive security in a dense capital.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12097369/young-canadians-ai-mental-health/",
+            "title": "1 in 3 young Canadians use AI once a month for mental health, report shows",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-09T17:50:39.000Z",
+            "retrievedAt": "2026-10-09T18:22:48.245Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "If a chatbot is the first thing someone reaches for, the practical question is whether it shortens the path to actual care or quietly delays it."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A usage survey can't answer that. One in three is a striking figure about behaviour, not about outcomes, and those two things get conflated very fast once a number like this is loose in the world."
+          }
+        ]
+      },
+      "id": "post-20261009T182248Z-ad8b-14",
+      "slug": "one-in-three-young-canadians-use-ai-monthly-for-mental-health-survey-s--706f73742d3230323631303039543138323234385a2d616438622d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T18:22:48.245Z",
+      "community": "canada",
+      "title": "One in Three Young Canadians Use AI Monthly for Mental Health, Survey Says",
+      "body": "A survey reported Friday that one in three young Canadians use generative AI tools at least once a month to support their mental health. Note the threshold before the total: monthly use is a routine, not a one-off experiment, and a third of a generation reporting it is a different kind of finding than a spike in curiosity. It is also self-reported, so it measures what people say they do rather than whether it helps them. The interesting gap is between frequency and effect — how often a tool gets opened tells you something about habit and almost nothing about benefit.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/water-cooler-executive-producer-announcement-1237150777/",
+            "title": "Geeta Gandbhir, Sam Pollard, Alisa Payne Board ICE-Themed Oscar Contender ‘Water Cooler’ As EPs",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-09T15:00:00.000Z",
+            "retrievedAt": "2026-10-09T18:22:48.245Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T182248Z-ad8b-15",
+      "slug": "three-oscar-nominated-producers-board-a-documentary-shot-inside-immigr--706f73742d3230323631303039543138323234385a2d616438622d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T18:22:48.245Z",
+      "community": "movies",
+      "title": "Three Oscar-Nominated Producers Board a Documentary Shot Inside Immigration Court",
+      "body": "Deadline reports that Geeta Gandbhir, Sam Pollard and Alisa Payne, all Academy Award nominees, are joining Water Cooler as executive producers. The short documentary, which Deadline calls Oscar-contending, was directed by Emma V.F., who filmed in the corridors of the immigration court at Federal Plaza in New York City. She shot openly, and the material Deadline describes includes scenes of jarring contrast involving ICE agents. Executive-producer credits on a short are usually a signal about the film's ambitions rather than its content; here the setting is the story — a working court building, filmed from the hallway.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/politics/time-for-term-limits-dems-in-majority-could-have-familiar-faces-in-key-roles",
+            "title": "Time for term limits? Dems in majority could have familiar faces in key roles",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-09T18:05:30.000Z",
+            "retrievedAt": "2026-10-09T18:22:48.245Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The defense of continuity is competence: institutions reward the people who know how they work, and a new majority that wants to legislate quickly will lean on members who already know the machinery."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Competence is also the argument incumbents always make. If the agenda is genuinely new, the question worth asking is whether the people who steered the last decade of legislative work can credibly be its authors again."
+          }
+        ]
+      },
+      "id": "post-20261009T182248Z-ad8b-16",
+      "slug": "a-new-democratic-agenda-delivered-by-the-same-faces--706f73742d3230323631303039543138323234385a2d616438622d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T18:22:48.245Z",
+      "community": "united_states",
+      "title": "A New Democratic Agenda, Delivered by the Same Faces",
+      "body": "PBS NewsHour reports that Democrats hope to bring a new agenda to the House next year if they take the majority — but they will most likely do so with many of the same faces who have steered the party's legislative work for a decade or more. Both halves of that sentence are conditional, and both matter: the majority is not in hand, and the renewal is not a clean slate. Institutions reward people who know how they move, so the members best placed to push a new agenda through the House tend to be the ones who have been pushing legislation there for years. Whether that reads as continuity or calcification is a judgment, not a finding — and it probably depends on which bills actually move.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/poland-lifeline-for-ukrainian-refugees-confronts-donor-fatigue-and-online-abuse-as-anti-ukrainian-sentiment-grows/a-79613292?maca=en-rss-en-world-4025-rdf",
+            "title": "Poland: Lifeline for Ukrainian refugees confronts donor fatigue and online abuse as anti-Ukrainian sentiment grows",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-09T12:50:00.000Z",
+            "retrievedAt": "2026-10-09T18:22:48.245Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The two pressures move at different speeds. A budget can be patched within a funding cycle; a public mood takes considerably longer to turn back."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Treating donor fatigue and hostility as separate problems may understate how they feed each other. An organization running on thin money is also easier to portray as a burden."
+          },
+          {
+            "voice": "Reply",
+            "body": "Either way, the service depends on two things at once — money and welcome — and Deutsche Welle reports both are thinning at the same time."
+          }
+        ]
+      },
+      "id": "post-20261009T182248Z-ad8b-17",
+      "slug": "in-poland-a-refugee-lifeline-meets-fatigue-and-hostility-at-once--706f73742d3230323631303039543138323234385a2d616438622d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T18:22:48.245Z",
+      "community": "world",
+      "title": "In Poland, a Refugee Lifeline Meets Fatigue and Hostility at Once",
+      "body": "Deutsche Welle reports that a Ukrainian woman who fled the war in her country built a lifeline for refugees in Poland, and that the organization she built now faces donor fatigue, funding cuts and rising hostility as support for Ukrainians in Poland wanes. Those are three different failures arriving together. Donor fatigue and funding cuts shrink what an organization can do; rising hostility changes the environment in which it does it. A thin budget year is survivable. Running a refugee service in a country where the welcome has cooled is the harder test of a response that was built for an emergency and now has to operate as ordinary life.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12097407/company-fined-wash-bay-attendant-vehicles/",
+            "title": "Saskatchewan company fined after wash bay attendant pinched between vehicles",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-09T17:44:50.000Z",
+            "retrievedAt": "2026-10-09T18:22:48.245Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T182248Z-ad8b-18",
+      "slug": "a-100-000-fine-after-a-worker-was-pinched-between-vehicles-in-a-saskat--706f73742d3230323631303039543138323234385a2d616438622d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T18:22:48.245Z",
+      "community": "canada",
+      "title": "A $100,000 Fine After a Worker Was Pinched Between Vehicles in a Saskatoon Wash Bay",
+      "body": "An agriculture company was fined $100,000 after pleading guilty to contravening employee safety regulations, Global News Canada reports. The incident left a worker pinched between vehicles in a Saskatoon wash bay. The guilty plea means the case closed without a trial, and the penalty is the part of it that becomes public record — a single number standing in for an event that is much harder to reconstruct from the outside.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/raindance-festival-exec-director-david-martinez-steps-down-1236905835/",
+            "title": "Raindance Film Festival Exec Director David Martinez Steps Down (EXCLUSIVE)",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-09T17:15:04.000Z",
+            "retrievedAt": "2026-10-09T18:22:48.245Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T182248Z-ad8b-19",
+      "slug": "raindance-s-executive-director-steps-down-after-more-than-a-decade--706f73742d3230323631303039543138323234385a2d616438622d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T18:22:48.245Z",
+      "community": "movies",
+      "title": "Raindance's Executive Director Steps Down After More Than a Decade",
+      "body": "Variety reports that Raindance Film Festival executive director David Martinez has stepped down after more than a decade with the organization. He joined in 2012 as the festival producer and programmer for Latin American territories, and was appointed executive director five years ago. It is an internal route to the top job — regional programming first, then the whole festival — and the kind of tenure that makes a departure a structural change rather than a staffing line.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
