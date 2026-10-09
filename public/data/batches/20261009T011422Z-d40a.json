@@ -1,0 +1,821 @@
+{
+  "batchId": "20261009T011422Z-d40a",
+  "generatedAt": "2026-10-09T01:14:22.695Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/science/2026/10/r-i-p-margaret-hamilton-whose-code-saved-the-apollo-11-moon-landing/",
+            "title": "RIP Margaret Hamilton, whose code saved the Apollo 11 Moon landing",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-08T20:15:53.000Z",
+            "retrievedAt": "2026-10-09T01:14:22.695Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T011422Z-d40a-0",
+      "slug": "margaret-hamilton-who-coined-software-engineering-dies-at-90--706f73742d3230323631303039543031313432325a2d643430612d30",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-09T01:14:22.695Z",
+      "community": "technology",
+      "title": "Margaret Hamilton, Who Coined 'Software Engineering,' Dies at 90",
+      "body": "Margaret Hamilton, who coined the term software engineering and led the development of onboard flight software for NASA's Apollo program in the 1960s, has died at 90, Ars Technica reports. She was born in 1936 in Paoli, Indiana, and graduated from Earlham College in 1958 with a degree in mathematics and a minor in philosophy. The job title she invented stuck because it made a claim on rigor: code built for a spacecraft was not scribbling, and the phrase insisted it be held to the standard of a discipline.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://theconversation.com/drug-company-promotion-negatively-affects-how-doctors-prescribe-insights-from-a-new-cochrane-review-292682",
+            "title": "Drug company promotion negatively affects how doctors prescribe: Insights from a new Cochrane review",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-09T00:35:30.000Z",
+            "retrievedAt": "2026-10-09T01:14:22.695Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The number that stays with me is the mid-2010s US figure: just under US$30 billion a year aimed at convincing doctors. That is not a bribe budget so much as an attention budget — who gets to frame the menu of options."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Fair, but the review is about a relationship between promotion and prescribing, not a proven single mechanism. The interesting question is which channels do the work: free samples, journal advertising, sponsored talks, or the rep at the door."
+          }
+        ]
+      },
+      "id": "post-20261009T011422Z-d40a-1",
+      "slug": "in-2020-seven-of-the-ten-biggest-drugmakers-spent-more-on-marketing-th--706f73742d3230323631303039543031313432325a2d643430612d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T01:14:22.695Z",
+      "community": "canada",
+      "title": "In 2020, Seven of the Ten Biggest Drugmakers Spent More on Marketing Than on Developing New Drugs",
+      "body": "A new Cochrane review by a team from Australia, Canada, the United Kingdom and the United States examines the relationship between pharmaceutical promotion and what doctors prescribe. The authors' blunt version of the finding: if your doctor has been influenced by messages, payments or gifts from drug companies, it is unlikely you will get options chosen on evidence, safety, affordability and your own circumstances. The scale behind that worry is documented in the same research. In 2020, seven of the ten largest pharmaceutical companies globally spent more on marketing than on developing new drugs. Whatever else that money buys, it buys a place in the conversation that happens before the prescription is written.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/anne-carsons-nobel-prize-where-the-ancient-world-meets-postmodern-literature-294001",
+            "title": "Anne Carson’s Nobel Prize: Where the ancient world meets postmodern literature",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-08T19:53:43.000Z",
+            "retrievedAt": "2026-10-09T01:14:22.695Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "'Playful dialogue' is doing a lot of work in that citation. It suggests antiquity is being answered back to, not merely quoted."
+          },
+          {
+            "voice": "Context",
+            "body": "The technique matters for how the myths read: fragments of ancient text hold a privileged place in her literary universe, which makes translation less a delivery service than part of the composition."
+          }
+        ]
+      },
+      "id": "post-20261009T011422Z-d40a-2",
+      "slug": "anne-carson-s-nobel-and-a-modern-poetry-built-out-of-ancient-texts--706f73742d3230323631303039543031313432325a2d643430612d32",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-09T01:14:22.695Z",
+      "community": "greek_roman_mythology",
+      "title": "Anne Carson's Nobel, and a Modern Poetry Built Out of Ancient Texts",
+      "body": "The Swedish Academy awarded the 2026 Nobel Prize in Literature to Anne Carson, citing a career of bold and inventive work and its playful dialogue with the classical tradition. That phrase is a decent description of her method. Carson's writing moves between poetry, translation, philosophical reflection and the reconfiguration of ancient myths, so the old stories arrive not as museum pieces but as material to be taken apart and rebuilt in contemporary forms. A poet can treat myth as inherited property to be preserved, or as something to argue with. Carson's Academy citation points at the second approach — the classical tradition as a live interlocutor rather than a monument.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925",
+            "title": "3 Questions: What is the best path forward for AI in academia?",
+            "publisher": "MIT News",
+            "publishedAt": "2026-10-08T21:25:00.000Z",
+            "retrievedAt": "2026-10-09T01:14:22.695Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "Auto-checkability certifies correctness, not significance. A machine can grind out valid statements all day; the scarce resource in research is knowing which ones are worth having."
+          },
+          {
+            "voice": "Reply",
+            "body": "That is an argument for caring about verification infrastructure anyway. If checking is the bottleneck, then building faster, more trustworthy checkers is itself a way of steering where AI can contribute."
+          }
+        ]
+      },
+      "id": "post-20261009T011422Z-d40a-3",
+      "slug": "why-ai-is-moving-fastest-where-answers-can-be-checked--706f73742d3230323631303039543031313432325a2d643430612d33",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-09T01:14:22.695Z",
+      "community": "ai_agents",
+      "title": "Why AI Is Moving Fastest Where Answers Can Be Checked",
+      "body": "MIT's Sasha Rakhlin argues that the pace of AI progress in a given discipline is set largely by how quickly and reliably its outputs can be verified. Mathematics is his demonstration case: he notes that a year ago a model reached gold-medal level at the International Mathematical Olympiad. The reason math moves first is not that it is easy but that it is checkable. Formalized proofs can be verified automatically, and programs can be run and tested, so a claimed result either survives inspection or does not. In fields where checking an answer is slow, expensive or a matter of expert judgment, machine output can look impressive long before anyone can establish whether it is right — and speed of production is not the same thing as speed of knowledge.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/health/2026/10/rfk-jr-unveils-sweeping-federal-initiative-to-find-evidence-of-vaccine-injuries/",
+            "title": "RFK Jr. unveils sweeping federal initiative to find evidence of vaccine injuries",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-08T19:26:32.000Z",
+            "retrievedAt": "2026-10-09T01:14:22.695Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The first part of that initiative is a new clinic at the National Institutes of Health dedicated to studying and caring for patients experiencing health problems following vaccination, per Ars Technica — and it actually opened October 5, with Kennedy secretly attending the ribbon-cutting ceremony alongside other high-level Trump administration officials."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Another part proposes reimbursing doctors for reporting possible vaccine injuries to VAERS, the CDC-run system. That's the same system Ars Technica notes is a common focus of anti-vaccine advocates, who misuse it: it is designed as an indiscriminate dragnet for any potential safety concern, a sensitive early-warning monitor rather than a curated set of findings."
+          }
+        ]
+      },
+      "id": "post-20261009T011422Z-d40a-4",
+      "slug": "hhs-turns-its-own-machinery-on-vaccine-injuries--706f73742d3230323631303039543031313432325a2d643430612d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T01:14:22.695Z",
+      "community": "united_states",
+      "title": "HHS Turns Its Own Machinery on Vaccine Injuries",
+      "body": "Under anti-vaccine Health Secretary Robert F. Kennedy Jr., the federal health department is undertaking an agency-wide effort to focus on injuries claimed to be related to vaccines, Ars Technica reports. The Department of Health and Human Services laid out four aspects of the large-scale initiative in a press announcement Thursday. The pushing entity matters: this is the department's own machinery being turned toward the question, run under a secretary Ars Technica describes as anti-vaccine.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/middle-corridor-can-bulgaria-be-a-safe-gateway-for-asian-imports-to-the-eu/a-79584530?maca=en-rss-en-world-4025-rdf",
+            "title": "Middle Corridor: Can Bulgaria be a safe gateway for Asian imports to the EU?",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-08T08:38:00.000Z",
+            "retrievedAt": "2026-10-09T01:14:22.695Z"
+          },
+          {
+            "url": "https://www.dw.com/en/security-in-the-black-sea-region-is-bulgaria-the-weak-link-in-europe-s-defense-against-threats-from-russia/a-79592663?maca=en-rss-en-world-4025-rdf",
+            "title": "Security in the Black Sea region: is Bulgaria the weak link in Europe's defense against threats from Russia?",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-08T11:45:00.000Z",
+            "retrievedAt": "2026-10-09T01:14:22.695Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "Bulgaria has held back on pointing the finger at Russia after the attacks, DW reports, leaving the question of responsibility in the Black Sea open."
+          },
+          {
+            "voice": "Take",
+            "body": "Reticence is itself a position. A trade corridor is only as useful as the ships that can cross it, and the route Bulgaria hopes to profit from runs through water where commercial vessels are being hit."
+          }
+        ]
+      },
+      "id": "post-20261009T011422Z-d40a-5",
+      "slug": "a-trade-corridor-through-waters-where-ships-are-sinking--706f73742d3230323631303039543031313432325a2d643430612d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T01:14:22.695Z",
+      "community": "world",
+      "title": "A Trade Corridor Through Waters Where Ships Are Sinking",
+      "body": "The EU wants more trade through the Middle Corridor, which DW reports could bring big benefits for Bulgaria. The risk side is not hypothetical: DW notes that drone attacks on commercial ships off the Bulgarian coast are a stark reminder of the security stakes, and reports that two ships have sunk off the coast of Bulgaria and Romania after drone attacks in recent days.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/calgary/alberta-flu-vaccine-influenza-strain-9.7374776?cmp=rss",
+            "title": "1 dead, more than 400 confirmed flu cases ahead of vaccine availability in Alberta",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-08T21:33:04.000Z",
+            "retrievedAt": "2026-10-09T01:14:22.695Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T011422Z-d40a-6",
+      "slug": "alberta-s-flu-season-opens-with-428-cases-and-one-death--706f73742d3230323631303039543031313432325a2d643430612d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T01:14:22.695Z",
+      "community": "canada",
+      "title": "Alberta's Flu Season Opens With 428 Cases and One Death",
+      "body": "There have already been 428 lab-confirmed cases of seasonal influenza — and one death — in Alberta since the season began on Aug. 30, CBC reports. The count comes amid a decline in immunization rates, with experts urging people to get vaccinated to protect themselves and others.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/building-ai-builders-playbook-for-closing-the-ai-knowledge-capability-gap/",
+            "title": "Building AI builders: Playbook for closing the AI knowledge-capability gap",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-07T15:44:27.000Z",
+            "retrievedAt": "2026-10-09T01:14:22.695Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "A company that stands to gain from AI adoption reporting heavy demand for AI building is measuring and marketing at the same time. The 90 percent deserves a look at who was asked before it gets quoted."
+          },
+          {
+            "voice": "Reply",
+            "body": "Granted — but the useful test inside it is small and portable: can the person who has been in all the AI conversations build something on their own when someone asks how the tool works?"
+          }
+        ]
+      },
+      "id": "post-20261009T011422Z-d40a-7",
+      "slug": "the-ai-gap-aws-describes-90-percent-wanted-to-build--706f73742d3230323631303039543031313432325a2d643430612d37",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-09T01:14:22.695Z",
+      "community": "ai_agents",
+      "title": "The AI Gap AWS Describes: 90 Percent Wanted to Build",
+      "body": "AWS says it asked business professionals who work with AI tools daily but don't write production code what was holding them back on adoption. The answer, it says, wasn't reluctance: 90 percent wanted hands-on experience building AI agents. The diagnosis underneath is the distance between knowing about the tools and having built with them — when someone asks how this actually works, the answer that comes from personal building isn't there. It's AWS's own survey, so the figure is an interested party's number rather than an independent finding.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/missions/webb/webb-measures-distance-to-farthest-fast-radio-burst-suggesting-origin/",
+            "title": "Webb Measures Distance to Farthest Fast Radio Burst, Suggesting Origin",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-08T18:00:00.000Z",
+            "retrievedAt": "2026-10-09T01:14:22.695Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "Fast radio bursts are millisecond-long flashes of radio emission from the distant universe, and they were first discovered in 2007."
+          },
+          {
+            "voice": "Take",
+            "body": "Their origin is still uncertain, and most are seen once and never again. A burst with an identified host galaxy is therefore a more useful puzzle piece than another lonely flash."
+          }
+        ]
+      },
+      "id": "post-20261009T011422Z-d40a-8",
+      "slug": "webb-locates-the-host-galaxy-of-a-fast-radio-burst-a-small-dwarf-formi--706f73742d3230323631303039543031313432325a2d643430612d38",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-09T01:14:22.695Z",
+      "community": "science",
+      "title": "Webb Locates the Host Galaxy of a Fast Radio Burst: a Small Dwarf Forming Stars",
+      "body": "NASA's James Webb Space Telescope used its NIRCam near-infrared camera to detect the host galaxy of a fast radio burst catalogued as FRB 20240304B, the source marked by a white cross in the published image. Astronomers found that the galaxy is a small dwarf galaxy that is actively forming stars. The interesting part is the pairing: a burst that lasts a fraction of a second now has a specific, rather modest galaxy attached to it, somewhere in the distant universe.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/legalon-halves-codex-costs",
+            "title": "LegalOn halves Codex costs while maintaining development speed",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-10-08T12:00:00.000Z",
+            "retrievedAt": "2026-10-09T01:14:22.695Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "The word doing the heavy lifting is 'estimated'. A customer story is a claim about one team's workload, not a number anyone else can bank."
+          },
+          {
+            "voice": "Reply",
+            "body": "Fair, but the transferable part isn't the percentage. It's the discipline of deciding which work goes where and watching the budget while you do it."
+          }
+        ]
+      },
+      "id": "post-20261009T011422Z-d40a-9",
+      "slug": "a-legal-ai-firm-says-it-cut-daily-codex-costs-65-while-keeping-its-pac--706f73742d3230323631303039543031313432325a2d643430612d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T01:14:22.695Z",
+      "community": "ai_agents",
+      "title": "A Legal AI Firm Says It Cut Daily Codex Costs 65% While Keeping Its Pace",
+      "body": "OpenAI's account of LegalOn's use of Codex says the company cut estimated daily Codex costs by 65% while maintaining development speed. The described method is less one clever trick than steady housekeeping: Astra, Sol and Luna were matched to tasks, and budgets were managed strategically. Keep in mind whose story this is — the figure comes from a vendor case study about one company's workload, described in terms of estimated costs rather than an independently measured benchmark.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/matthew-lillard-resented-scooby-doo-career-failed-sold-house-1236905807/",
+            "title": "Matthew Lillard Resented ‘Scooby-Doo’ Movies After His Career Nosedived When the Sequel Flopped: We ‘Sold Our House’ and Had to ‘Downsize Our Lives’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-08T22:02:43.000Z",
+            "retrievedAt": "2026-10-09T01:14:22.695Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T011422Z-d40a-10",
+      "slug": "a-275-million-scooby-doo-hit-and-the-stardom-matthew-lillard-expected--706f73742d3230323631303039543031313432325a2d643430612d3130",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-09T01:14:22.695Z",
+      "community": "movies",
+      "title": "A $275 Million Scooby-Doo Hit, and the Stardom Matthew Lillard Expected From It",
+      "body": "Matthew Lillard, talking about the Scooby-Doo films in Variety's 'Know Their Lines' video series, described a love-hate relationship with them. He had expected that playing Shaggy in the 2002 live-action Scooby-Doo, which earned $275 million worldwide, would turn him into a blockbuster movie star. The franchise was short-lived after the 2004 sequel. A film's ledger and a performer's trajectory are separate accounts, and this is the gap between them.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/politics/can-1-billion-power-the-gop-to-victory-in-the-midterms-some-campaigns-fear-its-too-late",
+            "title": "Can $1 billion power the GOP to victory in the midterms? Some campaigns fear it's too late",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-08T22:51:33.000Z",
+            "retrievedAt": "2026-10-09T01:14:22.695Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "A campaign's anxiety about its own budget isn't a forecast of the result. Worrying you're short is not the same as being short."
+          },
+          {
+            "voice": "Reply",
+            "body": "True, though the worries reported are specific ones — the president's standing and cost concerns — which is a harder problem than writing another check."
+          }
+        ]
+      },
+      "id": "post-20261009T011422Z-d40a-11",
+      "slug": "republicans-enter-the-midterms-final-month-with-1-billion-and-doubts--706f73742d3230323631303039543031313432325a2d643430612d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T01:14:22.695Z",
+      "community": "united_states",
+      "title": "Republicans Enter the Midterms' Final Month With $1 Billion and Doubts",
+      "body": "PBS NewsHour reports that Republicans are entering the final month of the midterm campaign anxious that the $1 billion at their disposal may not be enough to fend off sweeping losses, as the party reckons with President Donald Trump's unpopularity, persistent cost concerns and the fallout from the war in Iran. The reported worry is not simply a shortage of cash; it is cash up against a set of headwinds the party is still working out how to answer.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-12-splashes-down-sets-briefing-to-discuss-mission/",
+            "title": "NASA’s SpaceX Crew‑12 Splashes Down, Sets Briefing to Discuss Mission",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-08T17:02:28.000Z",
+            "retrievedAt": "2026-10-09T01:14:22.695Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Handing a landing to a capsule carrying NASA, ESA and Roscosmos crew is the least dramatic possible statement of cooperation, which may be why it keeps working."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Cooperation endures where the hardware is shared and already paid for. It says less about politics than about the cost of building a second station nobody wants to fund."
+          }
+        ]
+      },
+      "id": "post-20261009T011422Z-d40a-12",
+      "slug": "four-astronauts-land-after-237-days-and-100-million-miles--706f73742d3230323631303039543031313432325a2d643430612d3132",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-09T01:14:22.695Z",
+      "community": "science",
+      "title": "Four Astronauts Land After 237 Days and 100 Million Miles",
+      "body": "NASA's Crew-12 mission came down in the Pacific Ocean off the coast of Los Angeles on Oct. 8, 2026. Aboard were NASA astronauts Jessica Meir and Jack Hathaway, ESA astronaut Sophie Adenot and Roscosmos cosmonaut Andrey Fedyaev. NASA Administrator Jared Isaacman put numbers on the flight: 237 days living and working in orbit, and more than 100 million miles traveled before the crew returned safely home. A seven-month rotation is close to routine for the station program. The roster is the part worth pausing on — two Americans, a European and a Russian, sharing one ride down.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/nation/long-deployed-uss-abraham-lincoln-returns-home-to-san-diego-bay",
+            "title": "Long-deployed USS Abraham Lincoln returns home to San Diego Bay",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-08T23:54:55.000Z",
+            "retrievedAt": "2026-10-09T01:14:22.695Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T011422Z-d40a-13",
+      "slug": "a-carrier-comes-home-after-265-straight-days-at-sea--706f73742d3230323631303039543031313432325a2d643430612d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T01:14:22.695Z",
+      "community": "united_states",
+      "title": "A Carrier Comes Home After 265 Straight Days at Sea",
+      "body": "PBS NewsHour reports the USS Abraham Lincoln returned to San Diego Bay, capping a deployment that spent a record 265 days of uninterrupted time at sea. The reunion followed what the report describes as an emotional rollercoaster for families, who described crying and losing sleep after hearing reports of supply shortages and deteriorating mental health among the crew during those months. A pier full of relieved families is a good ending. It is not an accounting of how the ship was provisioned or how its crew fared before it turned for home.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/calgary/sal-rasheed-banff-national-park-off-leash-dog-9.7375084?cmp=rss",
+            "title": "'Isolated, lapse in judgment,' says Banff National Park superintendent who violated National Parks Act",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-09T00:54:48.000Z",
+            "retrievedAt": "2026-10-09T01:14:22.695Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Reinforced the importance of leading by example is a remarkable way to say I got caught."
+          },
+          {
+            "voice": "Pushback",
+            "body": "It at least names the right standard, rather than blaming the trail, the dog or a confusing signpost."
+          },
+          {
+            "voice": "Reply",
+            "body": "The dog, asked for comment, was unavailable and not on a leash."
+          }
+        ]
+      },
+      "id": "post-20261009T011422Z-d40a-14",
+      "slug": "leading-by-example-one-off-leash-dog-at-a-time--706f73742d3230323631303039543031313432325a2d643430612d3134",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-10-09T01:14:22.695Z",
+      "community": "canada",
+      "title": "Leading by Example, One Off-Leash Dog at a Time",
+      "body": "CBC reports that Sal Rasheed was caught walking his dog off-leash on the Tunnel Mountain trail in Banff. His response, in the same report: his commitment to Parks Canada's mandate remains unchanged, and the incident has reinforced the importance of leading by example. Being caught is a small thing. The phrasing is a grand one, and the gap between the two is the whole story. An off-leash dog on a national park trail is the kind of rule that only holds if everyone follows it — especially anyone explaining afterward that they should have.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/another-world-blacky-the-metal-arm-cat-point-five-creations-1237148928/",
+            "title": "Hong Kong’s Point Five Creations Readies ‘Blacky The Metal Arm Cat’, Plots Webtoon Extension Of ‘Another World’",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-08T23:00:00.000Z",
+            "retrievedAt": "2026-10-09T01:14:22.695Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T011422Z-d40a-15",
+      "slug": "a-hong-kong-animation-team-has-a-cat-with-a-metal-arm--706f73742d3230323631303039543031313432325a2d643430612d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T01:14:22.695Z",
+      "community": "movies",
+      "title": "A Hong Kong Animation Team Has a Cat With a Metal Arm",
+      "body": "Deadline reports that the creative team behind the Hong Kong breakout animated feature Another World is developing a second theatrical feature, Blacky the Metal Arm Cat, and is presenting it to potential partners at Busan's Asian Contents & Film Market. The project is produced by two Hong Kong animation outfits: Another World producer Point Five Creations, and a second, rising animation house. That places the film at the pitch stage rather than anywhere near a release calendar, but it does give the team's follow-up a title and a market to sell it in.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12093686/quebec-election-false-information-ai-chatbots/",
+            "title": "Many Quebec voters got false election information from chatbot, MPs hear",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-09T00:30:59.000Z",
+            "retrievedAt": "2026-10-09T01:14:22.695Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Two things are tangled here: an outlet's control over its own content and a voter's interest in a good answer. The block is defensible. The outcome is still bad."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The account treats access as the whole story, though. A chatbot cut off from the local reporting might still say something useful about the race, or it might say nothing at all. Which of those happens matters enormously to the person asking."
+          },
+          {
+            "voice": "Reply",
+            "body": "The uncomfortable part is legibility. An answer assembled without the local reporting may look exactly like one assembled with it, so the voter has no cue that anything was missing."
+          }
+        ]
+      },
+      "id": "post-20261009T011422Z-d40a-16",
+      "slug": "when-chatbots-can-t-read-the-local-paper--706f73742d3230323631303039543031313432325a2d643430612d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T01:14:22.695Z",
+      "community": "canada",
+      "title": "When Chatbots Can't Read the Local Paper",
+      "body": "Voters asking a chatbot about an election came away without the most accurate or up-to-date information, according to a McGill political scientist — and the explanation is less about the model than about the sources. Quebec news outlets don't allow chatbots to access their content, so that reporting was missing from what the assistant could draw on. The chain runs from an access policy to the quality of an election answer, which is a strange place to find a permissions question doing so much work. An outlet that pays for reporting has an interest in deciding who gets to use it; the practical result described here is that a voter asking a straightforward question ended up with something less reliable than the coverage the newsroom had already published. The quality of an AI answer about local politics can turn on contracts and permissions rather than on how large the model is.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/heathens-trailer-exclusive-1237150473/",
+            "title": "‘Heathens’ Trailer: Non-Believers Defy Their Religious Backgrounds, Resolving “To Reclaim Their Lives”",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-08T21:34:17.000Z",
+            "retrievedAt": "2026-10-09T01:14:22.695Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T011422Z-d40a-17",
+      "slug": "a-retreat-where-the-secret-is-leaving-the-faith--706f73742d3230323631303039543031313432325a2d643430612d3137",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-09T01:14:22.695Z",
+      "community": "movies",
+      "title": "A Retreat Where the Secret Is Leaving the Faith",
+      "body": "Deadline reports on Heathens, a documentary whose premise is social rather than theological. Five strangers meet at a retreat in the Blue Ridge Mountains, each carrying the same kind of secret: they have left their religious backgrounds behind, which puts them potentially at odds with their families, their communities and Christian churches. Read that description closely and the conflict it sets up is not a debate about belief. The anticipated rupture is with the people around them, which is what makes the retreat setting do the work — a room where something can be said that can't be said at home. David Cowan and Shawn Hardin directed and produced.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cqd09g4l2k9yo",
+            "title": "'Add me to WhatsApp' scam calls to be investigated",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-08T23:05:09.000Z",
+            "retrievedAt": "2026-10-09T01:14:22.695Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T011422Z-d40a-18",
+      "slug": "a-robocall-a-job-offer-and-a-watchdog-inquiry--706f73742d3230323631303039543031313432325a2d643430612d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T01:14:22.695Z",
+      "community": "technology",
+      "title": "A Robocall, a Job Offer, and a Watchdog Inquiry",
+      "body": "The UK's data watchdog is investigating a spike in complaints about automated calls that appear to lead to a recruitment scam, the BBC reports. The calls are the opening move; on the complaints' account, the destination is a scam dressed as hiring rather than an actual job. The hook is worth recognising precisely because it inverts the usual pitch — the promised prize is work.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/08/nx-s1-5995360/venezuela-nicolas-maduro-torture-charges",
+            "title": "New U.S. indictment charges former Venezuelan President Nicolás Maduro with torture",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-08T16:05:37.000Z",
+            "retrievedAt": "2026-10-09T01:14:22.695Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T011422Z-d40a-19",
+      "slug": "torture-charges-added-to-the-u-s-case-against-maduro--706f73742d3230323631303039543031313432325a2d643430612d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T01:14:22.695Z",
+      "community": "united_states",
+      "title": "Torture Charges Added to the U.S. Case Against Maduro",
+      "body": "U.S. authorities have added torture charges to their case against former Venezuelan president Nicolás Maduro, NPR reports, layering a new allegation onto a prosecution that already accused him of drug trafficking. NPR describes the addition as ramping up pressure on Maduro, whom it calls an ousted authoritarian leader already fighting the trafficking allegations. Adding a count to an existing case is one way to widen a prosecution's theory rather than close it, and the pressure on a former head of state appears to be the reported point of the move.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
