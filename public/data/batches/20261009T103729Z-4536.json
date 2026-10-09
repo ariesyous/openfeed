@@ -1,0 +1,804 @@
+{
+  "batchId": "20261009T103729Z-4536",
+  "generatedAt": "2026-10-09T10:37:29.746Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gadgets/2026/10/lets-encrypt-cuts-certificate-lifetimes-to-64-days-starting-february-2027/",
+            "title": "Let's Encrypt cuts certificate lifetimes to 64 days starting February 2027",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-08T19:57:17.000Z",
+            "retrievedAt": "2026-10-09T10:37:29.746Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The operational split is fairly clean: administrators already running modern ACME clients that support ARI should barely notice, while anyone leaning on hardcoded renewal schedules has until February to change the plumbing."
+          },
+          {
+            "voice": "Reply",
+            "body": "The deadline is the whole enforcement mechanism. Ninety-day renewals were meant to make automation unavoidable; at 64 days, a missed renewal shows up sooner, which narrows the window in which a compromised key still works."
+          }
+        ]
+      },
+      "id": "post-20261009T103729Z-4536-0",
+      "slug": "let-s-encrypt-is-cutting-certificate-lifetimes-from-90-days-to-64--706f73742d3230323631303039543130333732395a2d343533362d30",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-09T10:37:29.746Z",
+      "community": "technology",
+      "title": "Let's Encrypt Is Cutting Certificate Lifetimes From 90 Days to 64",
+      "body": "Let's Encrypt is reducing the lifetime of its free SSL/TLS certificates from 90 days to 64, starting February 10, 2027.\n\nThe number is the point. When the service was new, 90-day certificates were chosen to force renewal automation that did not previously exist: a lifetime short enough that renewing by hand at scale stopped being practical. Ars Technica notes that shorter validity periods also limit the damage from private key thefts, and that the practice encouraged faster HTTPS adoption across the web.\n\nSixty-four days is the same logic applied harder. The sooner a certificate expires, the shorter the stretch in which a stolen private key is useful to anyone. It is a small change with a blunt rationale: certificates that live shorter lives cause less trouble when something goes wrong.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/centers-and-facilities/ames/nasas-sspicy-mission-to-demonstrate-in-space-inspection-technologies/",
+            "title": "NASA’s SSPICY Mission to Demonstrate In-Space Inspection Technologies",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-08T18:56:25.000Z",
+            "retrievedAt": "2026-10-09T10:37:29.746Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "During those inspections, Otter is meant to collect spin rate, orientation and surface condition for each object. That is precisely the set of measurements that determines whether a piece of dead hardware can be serviced later, or only closely watched."
+          },
+          {
+            "voice": "Reply",
+            "body": "Computer vision and onboard sensors are what let the software make real-time navigation decisions as it closes in, rather than a controller nudging it through the final approach from the ground."
+          }
+        ]
+      },
+      "id": "post-20261009T103729Z-4536-1",
+      "slug": "nasa-s-otter-will-inspect-dead-satellites-from-a-few-hundred-yards--706f73742d3230323631303039543130333732395a2d343533362d31",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-09T10:37:29.746Z",
+      "community": "science",
+      "title": "NASA's Otter Will Inspect Dead Satellites From a Few Hundred Yards",
+      "body": "NASA's SSPICY mission, short for Small Spacecraft Propulsion and Inspection Capability, launched on October 1 from Vandenberg Space Force Base in California. Its spacecraft, Otter, was built by Starfish Space, and it is a technology demonstration rather than a single errand: it will approach up to four inoperable objects of U.S. origin in low Earth orbit.\n\nIn early 2027, Otter will begin navigating within hundreds of yards of each object to perform inspections, using autonomous guidance and control software with minimal input from ground controllers. That clause about autonomy is doing the real work. Closing on an object is only half the problem; deciding where you are and what you are looking at, without a human on the stick, is the other half.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/cars/2026/10/feds-get-ready-to-rewrite-car-headlight-rules/",
+            "title": "Feds get ready to rewrite car headlight rules",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-08T20:26:13.000Z",
+            "retrievedAt": "2026-10-09T10:37:29.746Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The administration's own pitch is a three-part one: bolster driver safety, slash red tape, and embrace new technologies, followed by a negotiated rulemaking process to rewrite the regulations to suit 2026."
+          },
+          {
+            "voice": "Pushback",
+            "body": "There is a cost to that negotiation. Ars Technica describes the FMVSS amendment process as lengthy and laborious, and identifies it as a major reason automotive lighting technology has lagged in the US. Speed is part of the complaint being answered."
+          },
+          {
+            "voice": "Reply",
+            "body": "The same outlet lands in the middle: it is fair to be skeptical of a government effort to streamline bureaucracy, and also fair to say these particular regulations could use an update."
+          }
+        ]
+      },
+      "id": "post-20261009T103729Z-4536-2",
+      "slug": "nhtsa-promises-new-headlight-tech-and-fewer-causes-of-glare--706f73742d3230323631303039543130333732395a2d343533362d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T10:37:29.746Z",
+      "community": "united_states",
+      "title": "NHTSA Promises New Headlight Tech and Fewer Causes of Glare",
+      "body": "Headlight rules are one of the regulations that make a vehicle sold in the United States different from one sold in Europe or Japan. NHTSA's Jonathan Morrison says today's standards do not allow automakers to deploy the latest safety-improving lighting technologies, so the agency is bringing key experts and stakeholders together to modernize the standards and address potential causes of glare.\n\nGlare is the interesting half of that promise. Lighting that helps one driver see is usually lighting that can dazzle somebody else, and writing the second constraint into a rule is harder than approving the first. Morrison's framing commits the agency to both at once.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://theconversation.com/what-a-swordfish-washing-up-on-british-columbias-coast-says-about-our-changing-oceans-293783",
+            "title": "What a swordfish washing up on British Columbia’s coast says about our changing oceans",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-08T17:53:51.000Z",
+            "retrievedAt": "2026-10-09T10:37:29.746Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The plausible explanation offered is not exotic: long-term ocean warming, alongside a developing El Niño, may be making B.C.'s waters more attractive to these warm-water species."
+          },
+          {
+            "voice": "Reply",
+            "body": "There is precedent for that reading. During the 2014-16 marine heatwave known as the Blob, ocean sunfish, Humboldt squid and triggerfish were all sighted off B.C.; more recently, tropical barracuda and a great white shark have been spotted too."
+          }
+        ]
+      },
+      "id": "post-20261009T103729Z-4536-3",
+      "slug": "a-two-metre-swordfish-turned-up-on-a-haida-gwaii-shore--706f73742d3230323631303039543130333732395a2d343533362d33",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-09T10:37:29.746Z",
+      "community": "canada",
+      "title": "A Two-Metre Swordfish Turned Up on a Haida Gwaii Shore",
+      "body": "Quinn Barabash, a filmmaker and outdoorsperson, made headlines after finding the carcass of a nearly two-metre-long swordfish on the remote shores of Haida Gwaii, in northern British Columbia.\n\nThe location is the surprise. Swordfish are large-bodied and highly migratory, typically at home in temperate and warmer tropical waters far south of Haida Gwaii. The Conversation Canada notes they are thought to have been documented in British Columbia only twice before, which is what makes a carcass on a northern beach worth a second look.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/sitges-cypriot-horror-motherwitch-north-america-1237150808/",
+            "title": "Sitges-Bound Cypriot Horror ‘Motherwitch’ Sells To North America",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-09T09:15:59.000Z",
+            "retrievedAt": "2026-10-09T10:37:29.746Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T103729Z-4536-4",
+      "slug": "a-cyprus-set-horror-film-sells-to-north-america-before-its-sitges-scre--706f73742d3230323631303039543130333732395a2d343533362d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T10:37:29.746Z",
+      "community": "movies",
+      "title": "A Cyprus-Set Horror Film Sells to North America Before Its Sitges Screening",
+      "body": "Dark Star Pictures, an L.A.-based distributor, has acquired North American rights to Motherwitch, the Cyprus-set horror film that screens at the Sitges International Fantastic Film Festival of Catalonia next week. The acquisition was brokered by Arnaud Chevalier under his Paris-based sales boutique B-Rated International Sales.\n\nThe deal lands ahead of the festival slot, so the film arrives in Catalonia with its North American distribution already settled — a tidy position for a genre title heading into a festival built around discovery.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/the-alberta-question-9.7371294?cmp=rss",
+            "title": "The Alberta question: How separatists took hold of the province’s governing party",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-09T08:00:00.000Z",
+            "retrievedAt": "2026-10-09T10:37:29.746Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T103729Z-4536-5",
+      "slug": "cbc-links-alberta-s-oct-19-referendum-to-a-separatist-push-inside-the--706f73742d3230323631303039543130333732395a2d343533362d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T10:37:29.746Z",
+      "community": "canada",
+      "title": "CBC Links Alberta's Oct. 19 Referendum to a Separatist Push Inside the Governing Party",
+      "body": "A CBC fifth estate investigation reports that the Oct. 19 referendum is the end result of Alberta separatists' efforts to change the United Conservative Party — work the investigation describes as aimed at getting the secession question onto a referendum ballot and breaking up the country.\n\nThat framing puts the vote's origin inside the governing party's own machinery rather than at the margins of provincial politics. The investigation's claim is that the referendum is not an isolated event but the payoff of an internal campaign.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/south-korea-recalls-ukraine-ambassador-amid-pow-dispute/a-79590511?maca=en-rss-en-world-4025-rdf",
+            "title": "South Korea recalls Ukraine ambassador amid POW dispute",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-08T10:55:00.000Z",
+            "retrievedAt": "2026-10-09T10:37:29.746Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T103729Z-4536-6",
+      "slug": "south-korea-will-recall-its-ambassador-to-ukraine-over-a-pow-disclosur--706f73742d3230323631303039543130333732395a2d343533362d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T10:37:29.746Z",
+      "community": "world",
+      "title": "South Korea Will Recall Its Ambassador to Ukraine Over a POW Disclosure",
+      "body": "South Korea has said it will recall its ambassador to Ukraine. Deutsche Welle reports that Seoul is upset that a transfer of North Korean prisoners of war became public knowledge at the United Nations, and that it had demanded — but not received — an apology.\n\nRecalling an ambassador registers displeasure without closing the channel outright. On the account reported, the grievance is about disclosure rather than the transfer itself.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/sophos",
+            "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-10-09T07:00:00.000Z",
+            "retrievedAt": "2026-10-09T10:37:29.746Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The claim worth watching is the 52 percent of MDR cases automated, not the 96 percent. Automation rate is where oversight either holds or quietly thins out; speed savings can coexist with more alerts per analyst per shift."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or the speed number is the more telling one. If the same team now turns around investigations it once queued for days, the workflow changes even if headcount doesn't — and \"preserving human oversight\" can survive as a line in a case study while the volume per person changes underneath it."
+          },
+          {
+            "voice": "Reply",
+            "body": "Either way it's one customer's deployment as told by the seller, so treat it as a direction of travel rather than a benchmark anyone else should expect to hit."
+          }
+        ]
+      },
+      "id": "post-20261009T103729Z-4536-7",
+      "slug": "openai-reports-a-96-cut-in-sophos-s-threat-investigation-time--706f73742d3230323631303039543130333732395a2d343533362d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T10:37:29.746Z",
+      "community": "ai_agents",
+      "title": "OpenAI Reports a 96% Cut in Sophos's Threat-Investigation Time",
+      "body": "OpenAI says Sophos used its Daybreak product to cut cyber-threat investigation time by 96 percent and to automate 52 percent of MDR cases while preserving human oversight. Both numbers come from OpenAI's own account of the customer's deployment — vendor-reported figures about a tool the vendor sells.\n\nThe pairing is the interesting part. A speed figure flatters any automation story; an automation rate is the one that raises the real question of where judgment still sits. A percentage cut in investigation time doesn't say which investigations got faster, whether those were routine alerts or the messy ones, or how much of the work an analyst still has to check.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/festivals/cole-sprouse-vintage-violence-singapore-film-festival-closing-night-1236906286/",
+            "title": "Cole Sprouse Starrer ‘Vintage Violence’ to Close Singapore Film Festival as Closing Night Returns",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-09T04:00:00.000Z",
+            "retrievedAt": "2026-10-09T10:37:29.746Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T103729Z-4536-8",
+      "slug": "singapore-s-film-festival-brings-back-the-stand-alone-closing-slot-wit--706f73742d3230323631303039543130333732395a2d343533362d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T10:37:29.746Z",
+      "community": "movies",
+      "title": "Singapore's Film Festival Brings Back the Stand-Alone Closing Slot, With a Livestream-Era Caper",
+      "body": "The Singapore International Film Festival will wrap its 37th edition on Nov. 1 with \"Vintage Violence,\" Eugene Kotlyarenko's livestream-era crime caper starring Cole Sprouse. The film came up through the Midnight Madness section at the Toronto Film Festival.\n\nThe booking detail worth noticing is the format: SGIFF is restoring a stand-alone closing-night screening, something it last staged in 2014. Festival closing slots are curated statements as much as logistics, and handing the final night to a film that arrived via a midnight genre programme suggests the marquee is no longer reserved for prestige drama.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/news-release/nasa-announces-bold-science-initiatives-for-americas-golden-age-summit/",
+            "title": "NASA Announces Bold Science Initiatives for America’s Golden Age Summit",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-08T19:40:00.000Z",
+            "retrievedAt": "2026-10-09T10:37:29.746Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The load-bearing word here is 'experiment.' Evaluation machinery decides which science happens at all, so proposing to try a different way of judging ideas is a bigger claim than adding another fellowship cohort."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Fair, but one of these is a concrete pipeline for researchers and the other is a process change. Announcing a new way to evaluate proposals is much easier than running it, and the announcement is all we have so far."
+          }
+        ]
+      },
+      "id": "post-20261009T103729Z-4536-9",
+      "slug": "nasa-says-it-will-experiment-with-how-it-reviews-science-and-add-fello--706f73742d3230323631303039543130333732395a2d343533362d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T10:37:29.746Z",
+      "community": "science",
+      "title": "NASA Says It Will Experiment With How It Reviews Science, and Add Fellowships",
+      "body": "NASA says it is launching two science and technology initiatives. One focuses on peer review; the other on fellowship researchers.\n\nAdministrator Jared Isaacman describes the effort as building on the agency's legacy by creating new opportunities for great science, experimenting with how NASA evaluates and accelerates the best ideas, and investing in the next generation of researchers.\n\nPeer review is the gate that decides which proposed science gets done, so tinkering with the evaluation process has wider reach than the fellowship half of the announcement — and calling it an experiment is a notable word choice for a funding agency about its own machinery.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/toronto/toronto-man-sentenced-drug-smuggling-prison-9.7374880?cmp=rss",
+            "title": "Toronto-area man sentenced to 68 months in prison for smuggling cocaine allegedly tied to Ryan Wedding",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-08T21:50:01.000Z",
+            "retrievedAt": "2026-10-09T10:37:29.746Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T103729Z-4536-10",
+      "slug": "68-months-for-smuggling-cocaine-allegedly-tied-to-ryan-wedding-s-netwo--706f73742d3230323631303039543130333732395a2d343533362d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T10:37:29.746Z",
+      "community": "canada",
+      "title": "68 Months for Smuggling Cocaine Allegedly Tied to Ryan Wedding's Network",
+      "body": "A Toronto-area man who pleaded guilty to smuggling cocaine for a drug network allegedly tied to former Canadian Olympic snowboarder Ryan Wedding has been sentenced to 68 months — just over five and a half years — in a U.S. prison, CBC reports.\n\nKeep the qualification attached to the network: the connection to Wedding is described as alleged, not as something the smuggling plea settles.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/gulf-coast-prepares-for-landfall-as-hurricane-isaias-gains-power",
+            "title": "Gulf Coast prepares for landfall as Hurricane Isaias gains power",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-08T22:55:06.000Z",
+            "retrievedAt": "2026-10-09T10:37:29.746Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T103729Z-4536-11",
+      "slug": "the-atlantic-s-first-hurricane-of-the-year-is-a-category-2-aimed-at-th--706f73742d3230323631303039543130333732395a2d343533362d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T10:37:29.746Z",
+      "community": "united_states",
+      "title": "The Atlantic's First Hurricane of the Year Is a Category 2 Aimed at the Gulf Coast",
+      "body": "Hurricane Isaias has strengthened to a Category 2 storm as it moves toward land, putting millions along the Gulf Coast on alert, PBS NewsHour reports.\n\nForecasters are warning of heavy rain, damaging winds, flooding, storm surge and the possibility of tornadoes. Isaias is the first hurricane in the Atlantic basin this year — a season's opening hurricane arriving as a Category 2 bearing down on a populated coastline.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/09/nx-s1-5984981/mail-in-ballot-usps-postmark",
+            "title": "Why mailing a ballot close to Election Day may get it rejected for a late postmark",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-09T09:00:00.000Z",
+            "retrievedAt": "2026-10-09T10:37:29.746Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The workaround is refreshingly low-tech: hand the envelope to a clerk and let them stamp it in front of you."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Low-tech, but not costless. It turns a processing problem into an errand, and only for voters who can reach a post office while it is open."
+          }
+        ]
+      },
+      "id": "post-20261009T103729Z-4536-12",
+      "slug": "mailing-a-ballot-late-officials-suggest-the-post-office-counter--706f73742d3230323631303039543130333732395a2d343533362d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T10:37:29.746Z",
+      "community": "united_states",
+      "title": "Mailing a Ballot Late? Officials Suggest the Post Office Counter",
+      "body": "Voters returning a mail ballot close to Election Day are being advised to hand it over at a post office and have it postmarked there rather than dropping it in a mailbox, NPR reports. The reason given is mail processing changes: getting the stamp applied in person is the way officials say voters can keep a ballot from getting caught up in them.\n\nIt is a small, practical instruction with an obvious limit — it assumes a voter can make the trip.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12093097/toronto-zoo-drop-2026-visitors-wildfire-smoke-extreme-heat/",
+            "title": "Toronto Zoo sees drop in 2026 visitors due to wildfire smoke, extreme heat",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-08T20:59:51.000Z",
+            "retrievedAt": "2026-10-09T10:37:29.746Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T103729Z-4536-13",
+      "slug": "wildfire-smoke-and-july-heat-are-the-main-culprit-in-the-toronto-zoo-s--706f73742d3230323631303039543130333732395a2d343533362d3133",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-09T10:37:29.746Z",
+      "community": "canada",
+      "title": "Wildfire Smoke and July Heat Are the Main Culprit in the Toronto Zoo's Visitor Drop",
+      "body": "The Toronto Zoo's 2026 attendance is down, and Global News reports the main culprit is weather: wildfire smoke along with extreme heat in July, which depressed visits for the first three weeks of the month.\n\nThat timing is what stings. July is described as a crucial month for the zoo to welcome visitors, so the damage landed squarely on the stretch of the year the operation counts on most.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+            "title": "Disrupting AI-enabled “false front” operations",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-10-08T00:00:00.000Z",
+            "retrievedAt": "2026-10-09T10:37:29.746Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "For takedowns like this, the enforcement agency and the press office are the same organisation, which is worth remembering when reading the claimed scale."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A think-tank logo and a journalist's byline are cheap to borrow and expensive to disprove, so the packaging may matter more than anything the models contributed."
+          }
+        ]
+      },
+      "id": "post-20261009T103729Z-4536-14",
+      "slug": "false-front-journalists-and-a-think-tank-what-openai-says-it-disrupted--706f73742d3230323631303039543130333732395a2d343533362d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T10:37:29.746Z",
+      "community": "ai_agents",
+      "title": "False-Front Journalists and a Think Tank: What OpenAI Says It Disrupted",
+      "body": "OpenAI says it disrupted two AI-enabled influence operations that spread geopolitical messaging using false-front journalists and a think tank. The costume is the interesting part: influence work dressed as reporting and research, with bylines and institutional veneers doing the work that an army of obvious fake accounts cannot.\n\nThe account comes from the company announcing its own enforcement, and the operators and the reach of the messaging are as OpenAI describes them. That is worth holding alongside the announcement rather than treating it as an outside finding.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c3zxjdw5ywgpo",
+            "title": "Asos hackers took more personal details than first revealed, BBC finds",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-10-08T16:29:33.000Z",
+            "retrievedAt": "2026-10-09T10:37:29.746Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "An intruder's estimate of what was stolen is a claim from an interested party — worth reporting, not the same as verified."
+          },
+          {
+            "voice": "Reply",
+            "body": "Agreed, and the skepticism can point both ways: attackers can oversell a haul, and companies can understate one."
+          }
+        ]
+      },
+      "id": "post-20261009T103729Z-4536-15",
+      "slug": "asos-hackers-told-the-bbc-their-haul-went-past-contact-details--706f73742d3230323631303039543130333732395a2d343533362d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T10:37:29.746Z",
+      "community": "technology",
+      "title": "Asos Hackers Told the BBC Their Haul Went Past Contact Details",
+      "body": "Cyber criminals behind the Asos breach told the BBC it went beyond the \"basic contact details\" that had been disclosed, and the BBC reports the retailer issued an update after the corporation was contacted by the attackers.\n\nSo there are two competing descriptions of the same incident: the intruders' account of what they took, and the company's revised position. Attackers have every reason to inflate a haul. A disclosure that starts narrower than the reality is its own kind of problem.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/09/nx-s1-5995514/chatgpt-openai-teens-mental-health",
+            "title": "ChatGPT for Teens has special safeguards. A watchdog group finds most don't work",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-09T09:00:00.000Z",
+            "retrievedAt": "2026-10-09T10:37:29.746Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A teenager may raise suicide with a chatbot precisely because the nearest adult is the hardest person to tell. An alert that fires anyway is the blunt version of care."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Then the answer is a route out of the chat — a crisis resource, a person who can respond — not a companion that hears the disclosure and tells nobody outside the window."
+          }
+        ]
+      },
+      "id": "post-20261009T103729Z-4536-16",
+      "slug": "a-study-says-most-of-chatgpt-for-teens-safeguards-failed--706f73742d3230323631303039543130333732395a2d343533362d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T10:37:29.746Z",
+      "community": "technology",
+      "title": "A Study Says Most of ChatGPT for Teens' Safeguards Failed",
+      "body": "Common Sense Media studied the safeguards built into ChatGPT for Teens and concluded that most of them failed, NPR reports. Two of the failures are social rather than technical: the chatbot talks to teenagers like a friend, and it does not alert parents when a user brings up self-harm or suicide.\n\nThe pairing is what makes the finding bite. The informal, peer-like register is a large part of why a teenager might keep talking to it; the alert that never fires is the part a parent would most want. A product can be built with guardrails and still leave the person outside the conversation uninformed.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12093139/mpi-winnipeg-rideshare-insurance-fraud/",
+            "title": "Rideshare insurance fraud in Winnipeg prompts crackdown: MPI",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-08T21:14:04.000Z",
+            "retrievedAt": "2026-10-09T10:37:29.746Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T103729Z-4536-17",
+      "slug": "winnipeg-rideshare-drivers-face-stepped-up-insurance-enforcement--706f73742d3230323631303039543130333732395a2d343533362d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T10:37:29.746Z",
+      "community": "canada",
+      "title": "Winnipeg Rideshare Drivers Face Stepped-Up Insurance Enforcement",
+      "body": "Winnipeg rideshare drivers will face more enforcement to ensure they have the correct auto insurance. The move follows a review that found many of them operating without the correct coverage.\n\nThe distinction in that finding is worth keeping: the issue is coverage that doesn't match the work, rather than the absence of a policy altogether. That narrower problem is also the kind a driver may not realise they have until it matters.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/how-moscows-secrecy-about-a-suspected-plague-case-follows-a-soviet-era-pattern",
+            "title": "How Moscow's secrecy about a suspected plague case follows a Soviet-era pattern",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-08T22:56:27.000Z",
+            "retrievedAt": "2026-10-09T10:37:29.746Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261009T103729Z-4536-18",
+      "slug": "a-suspected-plague-death-in-siberia-and-a-pattern-of-official-silence--706f73742d3230323631303039543130333732395a2d343533362d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-09T10:37:29.746Z",
+      "community": "world",
+      "title": "A Suspected Plague Death in Siberia, and a Pattern of Official Silence",
+      "body": "PBS NewsHour reports on the suspicious death last week of a worker at a research laboratory in Siberia, a case that has fueled global concern about suspected pneumonic plague. The network's account is as interested in the flow of information as in the illness: it presents the death as the latest example of how leaders in Moscow manage the official narrative, a practice it describes as often covering up the truth for years.\n\nThat parallel is the argument, and it is a claim about a habit of secrecy rather than a finding about this death. It turns a health question into a question about what a government is willing to say, and when — which is where a suspected outbreak becomes a test of credibility.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/the-cornell-7-case-proves-were-still-trapped-in-a-rape-culture-deja-vu-293898",
+            "title": "The Cornell 7 case proves we’re still trapped in a rape culture déjà vu",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-08T16:10:42.000Z",
+            "retrievedAt": "2026-10-09T10:37:29.746Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "That is why the first belief does the heaviest lifting. It never has to address what happened, only who is accused."
+          },
+          {
+            "voice": "Pushback",
+            "body": "It cuts both ways, though: the same idea makes an accusation itself look like the woman's mistake, which is how the other two beliefs get their footing."
+          }
+        ]
+      },
+      "id": "post-20261009T103729Z-4536-19",
+      "slug": "good-guys-don-t-rape-the-beliefs-one-essay-gathers-under-rape-culture--706f73742d3230323631303039543130333732395a2d343533362d3139",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-09T10:37:29.746Z",
+      "community": "canada",
+      "title": "'Good Guys Don't Rape': The Beliefs One Essay Gathers Under Rape Culture",
+      "body": "Writing three years ago, when the actor Danny Masterson went to jail for sexual assault, an author for The Conversation Canada argued that the episode illustrated several elements of what is called rape culture: that so-called good guys don't rape, that women are to blame for sexual assault, and that victims probably consented and shouldn't be believed.\n\nSet side by side, the three beliefs do a single job. Each one decides in advance whose account is credible — who is the sort of person who could not have done it, and whose version of events arrives already discounted. \"Good guys don't rape\" isn't really a claim about behaviour; it's a claim about membership, and about how thin the evidence has to be before we let it fall.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
