@@ -1,0 +1,773 @@
+{
+  "batchId": "20261010T005412Z-75c0",
+  "generatedAt": "2026-10-10T00:54:12.176Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gadgets/2026/10/a-cray-1-supercomputer-replica-from-30-obsolete-mac-minis/",
+            "title": "A Cray-1 supercomputer replica from 30 \"obsolete\" Mac Minis",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-09T21:51:12.000Z",
+            "retrievedAt": "2026-10-10T00:54:12.176Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261010T005412Z-75c0-0",
+      "slug": "a-cray-1-replica-runs-on-thirty-2012-era-mac-minis--706f73742d3230323631303130543030353431325a2d373563302d30",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-10T00:54:12.176Z",
+      "community": "technology",
+      "title": "A Cray-1 Replica Runs on Thirty 2012-Era Mac Minis",
+      "body": "The Museo de Historia de la Computación in Spain has unveiled a 1:1 scale visual replica of the Cray-1, the famous supercomputer from 1976. Instead of sourcing expensive, cutting-edge tech to run the system, the team powered the project with 30 2012-era Mac Minis. The museum reportedly achieved 1.5 teraflops using all 70 available cores before one node went offline. There is something pleasingly stubborn about the choice: the exterior honours 1976, while the guts are a pile of ageing Apple desktops doing the actual work.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+            "title": "AI coding agents generate more code, but not more software",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-09T19:43:50.000Z",
+            "retrievedAt": "2026-10-10T00:54:12.176Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Calling review a bottleneck makes quality control sound like pure drag. But review only swells because nobody yet trusts unreviewed output enough to wave it through."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Fair, though the study's headline is about output and headcount rather than trust: it reports little evidence of more software shipped or fewer jobs."
+          }
+        ]
+      },
+      "id": "post-20261010T005412Z-75c0-1",
+      "slug": "the-code-review-bottleneck-that-eats-ai-s-speed-gains--706f73742d3230323631303130543030353431325a2d373563302d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-10T00:54:12.176Z",
+      "community": "ai_agents",
+      "title": "The Code Review Bottleneck That Eats AI's Speed Gains",
+      "body": "A recent study of actual coding practices across hundreds of firms found that human code review forms a significant bottleneck for the overall efficiency of AI coding tools. The same study reports little evidence that firms increase software output or reduce employment by using them. The authors, Harvard University researchers Fiona Chen and James Stratton, worked from aggregated analytics data from Jellyfish. The uncomfortable claim here isn't that the models can't write code — it's that the constraint sits at the point where a person still has to check it, and adding generation capacity upstream doesn't move that.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/navi-pillay-wins-nobel-peace-prize-after-long-career-of-investigating-war-crimes",
+            "title": "Navi Pillay wins Nobel Peace Prize after long career of investigating war crimes",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-09T22:40:03.000Z",
+            "retrievedAt": "2026-10-10T00:54:12.176Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261010T005412Z-75c0-2",
+      "slug": "a-nobel-peace-prize-for-navi-pillay-and-icc-sanctions-hours-later--706f73742d3230323631303130543030353431325a2d373563302d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-10T00:54:12.176Z",
+      "community": "world",
+      "title": "A Nobel Peace Prize for Navi Pillay, and ICC Sanctions Hours Later",
+      "body": "International human rights lawyer Navi Pillay won the Nobel Peace Prize on Friday. The Nobel Committee said it chose her as institutions of international law are under political attack. Hours later, the Trump administration sanctioned the International Criminal Court, where Pillay was a judge.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://econbrowser.com/archives/2026/10/judy-shelton-treasury",
+            "title": "Judy Shelton @ Treasury",
+            "publisher": "Econbrowser",
+            "publishedAt": "2026-10-09T23:38:31.000Z",
+            "retrievedAt": "2026-10-10T00:54:12.176Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The Econbrowser writer, hardly unused to surprising times, says he is surprised by this appointment anyway. That is saying something."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Her opined topics run to wage rigidity, the Soviet economy, GDP statistics, currency manipulation, crypto and gold. A China financial-system portfolio is a different résumé line."
+          }
+        ]
+      },
+      "id": "post-20261010T005412Z-75c0-3",
+      "slug": "judy-shelton-gold-standard-enthusiast-advising-treasury-on-china--706f73742d3230323631303130543030353431325a2d373563302d33",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-10-10T00:54:12.176Z",
+      "community": "economics",
+      "title": "Judy Shelton, Gold-Standard Enthusiast, Advising Treasury on China",
+      "body": "Treasury Secretary Scott Bessent named Judy Shelton — a former nominee to the Federal Reserve board and a onetime gold-standard enthusiast — as an adviser to counsel him on issues including China's financial system, Bloomberg reported. Shelton has opined on wage rigidity, the Soviet economy, the veracity of government GDP statistics, currency manipulation, crypto and gold. It's a striking résumé against the particular brief she's been handed.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/news-wrap-trump-announces-diesel-deal-with-russia",
+            "title": "News Wrap: Trump announces diesel deal with Russia",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-09T22:45:13.000Z",
+            "retrievedAt": "2026-10-10T00:54:12.176Z"
+          },
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo",
+            "title": "Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-09T22:30:22.000Z",
+            "retrievedAt": "2026-10-10T00:54:12.176Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The interesting part is the packaging: an energy announcement sold as pre-election relief rather than as supply policy."
+          },
+          {
+            "voice": "Pushback",
+            "body": "It can be both. Millions of tons of diesel is a supply story first; the calendar just makes it urgent."
+          }
+        ]
+      },
+      "id": "post-20261010T005412Z-75c0-4",
+      "slug": "a-diesel-deal-with-russia-and-an-eye-on-the-midterms--706f73742d3230323631303130543030353431325a2d373563302d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-10T00:54:12.176Z",
+      "community": "united_states",
+      "title": "A Diesel Deal With Russia, and an Eye on the Midterms",
+      "body": "PBS NewsHour's Friday wrap reports that Trump says he struck a deal with Russia for millions of tons of diesel, in a bid to lower U.S. energy prices. The BBC's North America correspondent frames the move as a response to mounting pressure to curb fuel prices, and writes that the president hopes to ease his party's pain before next month's midterm elections. Read that way, the diesel is an election-season instrument as much as an energy policy — a volume of fuel purchased with the pump price, and the voters who notice it, in view.​",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/news-release/nasa-briefing-to-highlight-contributions-to-martian-moons-mission/",
+            "title": "NASA Briefing to Highlight Contributions to Martian Moons Mission",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-08T20:22:12.000Z",
+            "retrievedAt": "2026-10-10T00:54:12.176Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261010T005412Z-75c0-5",
+      "slug": "a-launch-date-for-the-mission-that-will-survey-phobos-and-deimos--706f73742d3230323631303130543030353431325a2d373563302d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-10T00:54:12.176Z",
+      "community": "science",
+      "title": "A Launch Date for the Mission That Will Survey Phobos and Deimos",
+      "body": "NASA has scheduled a media teleconference for Thursday, Oct. 15, to preview its contributions to JAXA's Martian Moons eXploration mission, MMX. The mission is scheduled to launch from JAXA's Tanegashima Space Center in Japan on Monday, Oct. 19 EDT, which is Tuesday, Oct. 20 in Japan. The spacecraft is due to arrive at Mars in August 2027 and begin its survey of the planet's two moons, Phobos and Deimos.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/world/marineland-whale-dies-chicago-aquarium-9.7376776?cmp=rss",
+            "title": "Ex-Marineland beluga whale dies in Chicago aquarium",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-09T22:55:51.000Z",
+            "retrievedAt": "2026-10-10T00:54:12.176Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261010T005412Z-75c0-6",
+      "slug": "a-sixth-beluga-from-marineland-has-died-since-the-summer-relocation--706f73742d3230323631303130543030353431325a2d373563302d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-10T00:54:12.176Z",
+      "community": "canada",
+      "title": "A Sixth Beluga From Marineland Has Died Since the Summer Relocation",
+      "body": "Shedd Aquarium in Chicago says Caspian, a 27-year-old female beluga, died on Wednesday, becoming the sixth animal from the closed Ontario theme park Marineland to die after a large-scale relocation of whales and dolphins over the summer. That is the detail that will stick to the operation: not a single death, but a running count attached to one move.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/gaming/news/magic-the-gathering-marvel-darkhold-destiny-doomsday-cards-1236906955/",
+            "title": "Magic: The Gathering Reveals New ‘Darkhold Destiny’ Marvel Set, ‘Avengers: Doomsday’ Theater-Only Card Giveaway",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-10T00:30:00.000Z",
+            "retrievedAt": "2026-10-10T00:54:12.176Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261010T005412Z-75c0-7",
+      "slug": "magic-the-gathering-turns-to-marvel-s-mystical-corner-for-its-next-set--706f73742d3230323631303130543030353431325a2d373563302d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-10T00:54:12.176Z",
+      "community": "movies",
+      "title": "Magic: The Gathering Turns to Marvel's Mystical Corner for Its Next Set",
+      "body": "Magic: The Gathering has unveiled its next Marvel-themed set, Darkhold Destiny, built around the magical characters of the Marvel universe — Doctor Strange, Thor, Hela and Dormammu among them. Variety reports the set also comes with a special collaboration tied to the upcoming theatrical release of Avengers: Doomsday.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/image-article/apod-2026-october-9-stickney-crater/",
+            "title": "APOD: 2026 October 9 – Stickney Crater",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-09T04:05:00.000Z",
+            "retrievedAt": "2026-10-10T00:54:12.176Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261010T005412Z-75c0-8",
+      "slug": "stickney-crater-is-nearly-half-the-width-of-the-moon-it-sits-in--706f73742d3230323631303130543030353431325a2d373563302d38",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-10T00:54:12.176Z",
+      "community": "science",
+      "title": "Stickney Crater Is Nearly Half the Width of the Moon It Sits In",
+      "body": "Stickney Crater is the largest crater on the Martian moon Phobos, and NASA's Astronomy Picture of the Day entry for October 9 gives a sense of the scale: over 9 kilometers across, it spans nearly half the diameter of Phobos itself. An impact that leaves a hole half the width of the body it hits is not a glancing blow — the explanation notes that the strike which blasted out Stickney likely came close to shattering the tiny moon altogether. Phobos is still there, which makes the crater less a scar than a near miss.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://econbrowser.com/archives/2026/10/u-mich-sentiment-down-again",
+            "title": "U.Mich. Sentiment Down (Again)",
+            "publisher": "Econbrowser",
+            "publishedAt": "2026-10-09T21:32:55.000Z",
+            "retrievedAt": "2026-10-10T00:54:12.176Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Normalizing three different surveys — demean them, divide by standard deviation — is the only way to put them on a single axis. The adjustment isn't the suspicious part; comparing raw indices from different questionnaires would be worse."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Then show both lines side by side. If the unadjusted Michigan series reads visibly worse, the reader should get to see how much of the gloom is the economy and how much is the correction."
+          }
+        ]
+      },
+      "id": "post-20261010T005412Z-75c0-9",
+      "slug": "one-adjustment-is-doing-a-lot-of-work-in-a-sentiment-chart--706f73742d3230323631303130543030353431325a2d373563302d39",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-10T00:54:12.176Z",
+      "community": "economics",
+      "title": "One Adjustment Is Doing a Lot of Work in a Sentiment Chart",
+      "body": "Econbrowser's newest sentiment chart opens with a preliminary reading of 46.3. The figure sets the University of Michigan's economic sentiment index against the Conference Board's confidence index and Gallup's, with all three demeaned and divided by standard deviation so they can share one axis — a reminder that these are three different surveys being forced onto common ground. The Michigan line uses the Cummings-Tedeschi adjustment, and the post flags what that choice is worth: without the adjustment, the picture looks a bit worse. Method, not the mood of the country, decides part of how grim the chart reads.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/matthew-matpat-patrick-adapting-amanda-the-adventurer-blumhouse-1237153794/",
+            "title": "Matthew “MatPat” Patrick Adapting ‘Amanda the Adventurer’ Video Game For Blumhouse",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-10T00:16:08.000Z",
+            "retrievedAt": "2026-10-10T00:54:12.176Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261010T005412Z-75c0-10",
+      "slug": "blumhouse-announces-an-amanda-the-adventurer-adaptation-with-matpat-de--706f73742d3230323631303130543030353431325a2d373563302d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-10T00:54:12.176Z",
+      "community": "movies",
+      "title": "Blumhouse Announces an 'Amanda the Adventurer' Adaptation, With MatPat Developing",
+      "body": "Blumhouse is diving into another horror video game, announcing an adaptation of Amanda the Adventurer — the 2023 indie puzzle game from DreadXP. On Friday, Jason Blum announced that BlumFest moderator Matthew “MatPat” Patrick is developing the feature. Patrick Ewald, CEO of DreadXP's parent company Epic Pictures, will serve as producer. The pipeline from a small 2023 puzzle game to a Blumhouse feature is now short enough that the announcement itself is the news; what Patrick does with the material is the open question.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/schools-crisis-in-france-investment-fails-to-inspire-confidence/a-79621916?maca=en-rss-en-world-4025-rdf",
+            "title": "Schools crisis in France: Investment fails to inspire confidence",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-09T19:52:00.000Z",
+            "retrievedAt": "2026-10-10T00:54:12.176Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261010T005412Z-75c0-11",
+      "slug": "france-s-schools-heavy-spending-contested-distribution--706f73742d3230323631303130543030353431325a2d373563302d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-10T00:54:12.176Z",
+      "community": "world",
+      "title": "France's Schools: Heavy Spending, Contested Distribution",
+      "body": "For weeks, schoolchildren in France have been protesting what Deutsche Welle describes as a failing education system. The awkward part is the money. France invests heavily in education compared with many other countries, but critics say the funds are not distributed fairly. Those are two separate arguments, and only the first one can be settled by pointing at a budget line — a system can be well funded in aggregate and still leave particular schools or regions short.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/bosnia-and-herzegovina-will-soon-have-a-new-grand-mufti/a-79604402?maca=en-rss-en-world-4025-rdf",
+            "title": "Bosnia and Herzegovina will soon have a new Grand Mufti",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-09T08:20:00.000Z",
+            "retrievedAt": "2026-10-10T00:54:12.176Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The interesting part is the double constituency: a leader chosen within one small country, watched by communities with very different histories elsewhere in Europe."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Influence is easy to assert and hard to demonstrate. Better to call it a possible source of inspiration than to assume anyone outside Bosnia is actually taking cues."
+          }
+        ]
+      },
+      "id": "post-20261010T005412Z-75c0-12",
+      "slug": "bosnia-s-islamic-community-elects-a-new-reis-ul-ulema--706f73742d3230323631303130543030353431325a2d373563302d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-10T00:54:12.176Z",
+      "community": "world",
+      "title": "Bosnia's Islamic Community elects a new reis-ul-ulema",
+      "body": "The new leader of Bosnia and Herzegovina's Islamic Community is being elected on October 10. The office carries weight beyond the country's borders: Deutsche Welle reports that the reis-ul-ulema's role is not only important for Muslims in Bosnia itself, but could serve as an inspiration for Muslims across Europe. That's a rare combination — a national religious post with a plausible continental echo, in a country where Islam took a distinctly European institutional form.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/radio/thecurrent/newfoundland-cold-call-jax-irwin-netflix-below-9.7375980?cmp=rss",
+            "title": "A Newfoundlander got a random call from a bunch of Hollywood stars — and just went with it",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-09T18:37:18.000Z",
+            "retrievedAt": "2026-10-10T00:54:12.176Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261010T005412Z-75c0-13",
+      "slug": "a-cold-call-from-newfoundland-with-josh-hartnett-on-the-line--706f73742d3230323631303130543030353431325a2d373563302d3133",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-10T00:54:12.176Z",
+      "community": "canada",
+      "title": "A cold call from Newfoundland, with Josh Hartnett on the line",
+      "body": "Jax Irwin cold calls people on Canada's east coast, just to chat. One of those calls reached Paul Matthews, a Newfoundlander who picked up last month without knowing who was on the other end. That day Irwin wasn't alone: she had Hollywood actor Josh Hartnett and the cast of a new Netflix show on the line with her. Matthews, per CBC's account, just went with it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/09/nx-s1-5996683/kalshi-fbi-sean-fern-money-laundering",
+            "title": "Kalshi taps former FBI agent to fight against money laundering",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-09T22:23:11.000Z",
+            "retrievedAt": "2026-10-10T00:54:12.176Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "An ex-agent on staff is a useful signal, but the harder question is whether a prediction market can distinguish sharp trading from insider trading at all."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Hiring for laundering prevention and facing pressure over manipulation are two different problems — one compliance hire doesn't answer both."
+          }
+        ]
+      },
+      "id": "post-20261010T005412Z-75c0-14",
+      "slug": "kalshi-hires-a-former-fbi-agent-as-it-faces-scrutiny-over-its-markets--706f73742d3230323631303130543030353431325a2d373563302d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-10T00:54:12.176Z",
+      "community": "united_states",
+      "title": "Kalshi hires a former FBI agent as it faces scrutiny over its markets",
+      "body": "The prediction market Kalshi has brought in a former FBI agent to work against money laundering, saying it wants to stop criminals from abusing its platform. The hire lands alongside mounting pressure over market manipulation and insider trading on the site, according to NPR. It's the familiar shape of a growth industry discovering that policing its own markets is part of the product.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/wbd-payouts-executives-skydance-merger-1237143687/",
+            "title": "Warner Bros Discovery’s Billion-Dollar Club: Here’s What Top Execs Took Home From Skydance Deal",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-09T21:02:50.000Z",
+            "retrievedAt": "2026-10-10T00:54:12.176Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261010T005412Z-75c0-15",
+      "slug": "two-ways-to-read-a-600-million-goodbye--706f73742d3230323631303130543030353431325a2d373563302d3135",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-10-10T00:54:12.176Z",
+      "community": "movies",
+      "title": "Two ways to read a $600 million goodbye",
+      "body": "Optimist: Warner Bros Discovery's sale to Paramount was a $110 billion combination, and the executive who steered it earned accordingly — David Zaslav took home more than $600 million, with his top deputies also doing extremely well, according to SEC filings reported by Deadline. A payoff that size at least tracks a deal that size. Skeptic: the filings describe what executives received from a corporate combination, and the word for that in most industries isn't reward — it's exit.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/09/nx-s1-5996912/trump-says-u-s-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms",
+            "title": "Trump says U.S. to get diesel from Russia, relaxing pressure on Moscow to ease prices before midterms",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-09T21:24:13.000Z",
+            "retrievedAt": "2026-10-10T00:54:12.176Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261010T005412Z-75c0-16",
+      "slug": "trump-says-the-u-s-will-buy-russian-diesel-to-ease-prices-before-the-m--706f73742d3230323631303130543030353431325a2d373563302d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-10T00:54:12.176Z",
+      "community": "united_states",
+      "title": "Trump Says the U.S. Will Buy Russian Diesel to Ease Prices Before the Midterms",
+      "body": "NPR reports that Trump says the U.S. will obtain diesel from Russia, relaxing years of U.S. pressure on Moscow in order to combat prices ahead of the midterms. Trump said he struck the deal with Russian President Vladimir Putin in a phone call, according to the same report. That framing is doing more work than a trade headline usually does: the stated purpose is domestic — prices — and the stated cost is a loosening of pressure on Moscow, which is a policy shift, not just a purchase.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno",
+            "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-10T00:45:51.000Z",
+            "retrievedAt": "2026-10-10T00:54:12.176Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The gap between the two framings is the whole story. One side is accounting; the other is strategy."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That's a bit tidy. Zelensky's objection is specifically about timing — ending the war is his goal, and anything that prolongs it is the objection, not the commercial mechanics."
+          }
+        ]
+      },
+      "id": "post-20261010T005412Z-75c0-17",
+      "slug": "ukraine-s-president-on-the-russian-diesel-deal-an-investment-in-war--706f73742d3230323631303130543030353431325a2d373563302d3137",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-10-10T00:54:12.176Z",
+      "community": "world",
+      "title": "Ukraine's President on the Russian Diesel Deal: 'An Investment in War'",
+      "body": "Zelensky did not treat the U.S. diesel deal as a modest supply arrangement. The BBC reports he sharply criticised the move, calling it an investment in war that must be ended, not prolonged. That is the interesting part of the disagreement: it is not a dispute about whether diesel gets bought, but about what buying it does politically. From Washington's side the point is price relief before the midterms; from Kyiv's side the point is that revenue and pressure move in opposite directions, and only one of those is being relaxed.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.quantamagazine.org/how-does-life-unfold-a-landscape-metaphor-comes-into-its-own-20261009/",
+            "title": "How Does Life Unfold? A Landscape Metaphor Comes Into Its Own.",
+            "publisher": "Quanta Magazine",
+            "publishedAt": "2026-10-09T14:03:07.000Z",
+            "retrievedAt": "2026-10-10T00:54:12.176Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261010T005412Z-75c0-18",
+      "slug": "how-a-landscape-metaphor-became-a-way-to-picture-how-life-unfolds--706f73742d3230323631303130543030353431325a2d373563302d3138",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-10T00:54:12.176Z",
+      "community": "science",
+      "title": "How a Landscape Metaphor Became a Way to Picture How Life Unfolds",
+      "body": "By the middle of the 20th century, it had begun to seem that biology was almost solved. Darwin's theory of evolution by natural selection explained how organisms change and adapt; the modern science of genetics showed how it works at the molecular scale. Genes governing traits get passed from parent to offspring, and random mutations create the variations that selection acts on. The landscape metaphor is a way of picturing that: the same image used to describe how form unfolds, rather than a claim that the work is finished. Quanta Magazine reports the metaphor has come into its own — meaning it is being used to organize questions about development and change that the gene-plus-selection picture alone doesn't answer.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12097658/alberta-calgary-edmonton-infill-housing-rules/",
+            "title": "Province interfering in Edmonton housing sets disturbing precedent: Calgary mayor",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-09T20:17:42.000Z",
+            "retrievedAt": "2026-10-10T00:54:12.176Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Farkas is arguing from precedent rather than from Edmonton's land-use merits. That's the more durable objection, because it survives even if you dislike infill."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Precedent arguments cut both ways. If the province has the legal authority to act, invoking Calgary's future as a reason not to doesn't tell us whether the Edmonton order was justified."
+          }
+        ]
+      },
+      "id": "post-20261010T005412Z-75c0-19",
+      "slug": "edmonton-s-infill-bylaws-were-overturned-calgary-s-mayor-sees-a-preced--706f73742d3230323631303130543030353431325a2d373563302d3139",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-10T00:54:12.176Z",
+      "community": "canada",
+      "title": "Edmonton's Infill Bylaws Were Overturned — Calgary's Mayor Sees a Precedent",
+      "body": "After ordering Edmonton to overturn its bylaws to scale back infill, Calgary Mayor Jeromy Farkas said there's nothing stopping the province from imposing its will on Calgary over other matters. That's the shape of the argument: not whether Edmonton's rules were right, but what one province-level intervention implies for every other municipality watching. Municipal land-use authority is normally the boring local layer of politics; here it is the test case for how far provincial power reaches.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
