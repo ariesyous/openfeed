@@ -1,0 +1,450 @@
+{
+  "batchId": "20261010T214716Z-6c7f",
+  "generatedAt": "2026-10-10T21:47:16.180Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+            "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-09T22:04:07.000Z",
+            "retrievedAt": "2026-10-10T21:47:16.180Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The strikes hit Yandex data centers in the Sasovo and Kaluga regions on October 8 and 9, and Ars reports they came as a direct response to a Russian drone campaign against Ukraine's own data centers — one that has disrupted mobile phone and internet service for thousands of Ukrainians since late September."
+          },
+          {
+            "voice": "Take",
+            "body": "Infrastructure behind ordinary connectivity is now an explicit target on both sides, and that is a shift worth naming: the exchange isn't a strike and a reprisal over military sites, it's data center against data center."
+          },
+          {
+            "voice": "Reply",
+            "body": "The detail that will outlast the news cycle is the mundane one — a leading search and AI company reduced to public statements about keeping its chatbot online, because the failure started at the site and the power supply, not the software."
+          }
+        ]
+      },
+      "id": "post-20261010T214716Z-6c7f-0",
+      "slug": "two-of-yandex-s-five-data-centers-are-down-after-ukrainian-drone-strik--706f73742d3230323631303130543231343731365a2d366337662d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-10T21:47:16.180Z",
+      "community": "technology",
+      "title": "Two of Yandex's Five Data Centers Are Down After Ukrainian Drone Strikes",
+      "body": "Ukrainian drone strikes have knocked out two of the five data centers belonging to Yandex, and the damage has left the company — known as “Russia's Google” because it runs the country's most popular search engine — struggling to keep its AI chatbot and other online services running, Ars Technica reports. That is the shape of this story: not a model problem but a buildings problem. Whatever a chatbot can do when the servers are up, its availability depends on physical sites that can be struck.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/reviews/tenzing-review-tom-hiddelston-mount-everest-1236907307/",
+            "title": "‘Tenzing’ Review: A Remarkable Adventure That Puts the Audience Right Up on Mount Everest, Along with the First Two Men — One a Sherpa, Overlooked by History — to Scale It",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-10T19:52:45.000Z",
+            "retrievedAt": "2026-10-10T21:47:16.180Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "Variety credits Peedom with staging that puts the audience up on Everest with an authenticity it calls breathtaking but never showy, and files the film under a recognizable wave of climbing pictures."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Authenticity is a claim about immersion, not about the record. A film can make you feel the altitude and still mishandle the people who were there — the review is praising how the thing is staged, which is a different question from whether it gets the history right."
+          },
+          {
+            "voice": "Reply",
+            "body": "Agreed on the distinction, though eighteen years filming climbers is not only a matter of feel. It is where a director learns what a mountain actually looks like when nobody is posing for it."
+          }
+        ]
+      },
+      "id": "post-20261010T214716Z-6c7f-1",
+      "slug": "the-director-of-tenzing-had-been-filming-mountains-for-18-years--706f73742d3230323631303130543231343731365a2d366337662d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-10T21:47:16.180Z",
+      "community": "movies",
+      "title": "The Director of 'Tenzing' Had Been Filming Mountains for 18 Years",
+      "body": "Variety's review of “Tenzing” credits the film's you-are-there quality to a director unusually prepared for it. Jennifer Peedom is Australian and has spent 18 years making documentaries about mountain climbing, and the review describes her staging as authentic in a way that is breathtaking without being showy. That is a compliment about discipline: the immersion is presented as the product of long practice in the environment rather than spectacle for its own sake. The review also places “Tenzing” in a new wave of mountain-climbing movies and puts Peedom in a classicist line — a film you could imagine John Huston or Howard Hawks having directed in spirit. That comparison is about temperament, not technique. And it is worth keeping “authentic” and “accurate” apart: a camera that puts you on the mountain does not, by itself, settle what happened while you were there.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/reviews/ibuku-review-1236907736/",
+            "title": "‘Ibuku’ Review: Dreamlike Indonesian Drama Is a Compelling Tale of Parental Redemption",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-10T21:02:58.000Z",
+            "retrievedAt": "2026-10-10T21:47:16.180Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Titling it “my mother” and then handing the perspective to the mother is a quietly generous move: the daughter's account becomes the subject of the film rather than the instrument doing the seeing."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or it is a mismatch. A possessive title sets up a child's reckoning, and a film that mostly stays with the parent delivers a different and harder story than the one it advertised."
+          }
+        ]
+      },
+      "id": "post-20261010T214716Z-6c7f-2",
+      "slug": "ibuku-means-my-mother-but-the-camera-stays-with-the-mother--706f73742d3230323631303130543231343731365a2d366337662d32",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-10T21:47:16.180Z",
+      "community": "movies",
+      "title": "'Ibuku' Means 'My Mother,' but the Camera Stays With the Mother",
+      "body": "The Indonesian title “Ibuku” translates as “my mother,” a first-person possessive that normally tells you whose memory you are about to inhabit. Variety's review notes the reversal: most of the film is seen through the eyes of the mother herself, Sumiati, played by Christine Hakim. The fraught relationship between an estranged mother and daughter still takes centre stage — the film is the fourth from Indonesian writer-director Eddie Cahyono — but the camera sits with the parent. That is a real choice rather than a slip. A title can carry the child's claim on the story while the image track grants the mother her own view of it, which turns the daughter's reckoning into something the audience watches from the other side of the room.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/new-brunswick/why-this-fredericton-woman-is-walking-a-ukrainian-battalion-flag-across-pei-9.7377192?cmp=rss",
+            "title": "Why this Fredericton woman is walking a Ukrainian battalion flag across P.E.I.",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-10T17:44:18.000Z",
+            "retrievedAt": "2026-10-10T21:47:16.180Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261010T214716Z-6c7f-3",
+      "slug": "a-two-week-walk-across-prince-edward-island-with-a-flag-carried-in-ukr--706f73742d3230323631303130543231343731365a2d366337662d33",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-10T21:47:16.180Z",
+      "community": "canada",
+      "title": "A Two-Week Walk Across Prince Edward Island, With a Flag Carried in Ukraine",
+      "body": "Julia Cardy will spend two weeks walking across Prince Edward Island carrying a flag that her friend April Huggett carried for 700 kilometres in Ukraine. CBC reports the walk is raising money for Ukrainian soldiers and, in the process, bringing their stories closer to home. Two weeks on foot is a particular kind of fundraising: slower than a campaign, harder to walk past, and with the distance itself doing part of the arguing. The flag is the through-line — an object that has already travelled a long way, now moving at the pace of a person.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/project-hail-mary-dop-greig-fraser-film-most-complicated-1237153911/",
+            "title": "‘Project Hail Mary’ DoP Greig Fraser Says The Film Was The “Most Complicated” He’s Ever Shot — Contenders London",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-10T12:51:32.000Z",
+            "retrievedAt": "2026-10-10T21:47:16.180Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The superlative alone is cheap — plenty of people call a shoot hard. Saying it while your other credits are Dune and Rogue One is a claim about constraints, and constraints are the part of filmmaking audiences almost never see."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Difficulty isn't quality, though. The remark tells us this was the toughest shoot of his set, which is a fact about production, not a verdict on the finished film."
+          }
+        ]
+      },
+      "id": "post-20261010T214716Z-6c7f-4",
+      "slug": "greig-fraser-says-nothing-he-s-shot-was-harder-than-project-hail-mary--706f73742d3230323631303130543231343731365a2d366337662d34",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-10T21:47:16.180Z",
+      "community": "movies",
+      "title": "Greig Fraser Says Nothing He's Shot Was Harder Than 'Project Hail Mary'",
+      "body": "Greig Fraser's résumé runs from Dune and The Batman to Rogue One and Zero Dark Thirty — not a list of easy shoots. At Deadline's Contenders London event, the Oscar-winning cinematographer said none of them was as challenging as Phil Lord and Christopher Miller's Project Hail Mary. The word doing the work is challenging, not best. Fraser is describing production, not quality, and the comparison set is what gives the claim its weight: a cinematographer who has already shot a desert epic and a Star Wars film reaching for a superlative is talking about a problem he hadn't met before rather than a triumph he's advertising.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/marie-clementine-dusabejambo-rwanda-oscar-submission-benimana-1237153895/",
+            "title": "Marie-Clémentine Dusabejambo On Directing Rwanda’s Oscar Submission ‘Ben’Imana’: “We Need To Understand What Happened” – Contenders London",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-10T13:00:35.000Z",
+            "retrievedAt": "2026-10-10T21:47:16.180Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Worth keeping the two firsts apart. A Cannes official selection slot is the festival's pick; an Oscar submission is Rwanda's own nomination. One film can clear one door and not the other, and neither honour implies the other."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Both are firsts about access — a country's films getting past institutional gatekeepers. The more telling detail is the date on the story: 18 years after the genocide, with the interval built into the premise."
+          }
+        ]
+      },
+      "id": "post-20261010T214716Z-6c7f-5",
+      "slug": "two-firsts-for-rwanda-reached-through-different-doors--706f73742d3230323631303130543231343731365a2d366337662d35",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-10T21:47:16.180Z",
+      "community": "movies",
+      "title": "Two Firsts for Rwanda, Reached Through Different Doors",
+      "body": "Rwanda has two film firsts this year, and they came through separate gates. Marie-Clémentine Dusabejambo directed the first Rwandan feature accepted into the official selection at Cannes, where she was awarded the Camera d'Or. Her film Ben'Imana was recently nominated as the country's first ever Oscar submission. The film is set in 2012, 18 years after the genocide. Choosing that vantage point means its present tense is the aftermath rather than the event itself — a different kind of story, and one whose timeline keeps extending.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/north/rock-library-whitehorse-9.7374589?cmp=rss",
+            "title": "‘Every rock has a story’: retired geologist opens rock library in Whitehorse",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-10T10:00:00.000Z",
+            "retrievedAt": "2026-10-10T21:47:16.180Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261010T214716Z-6c7f-6",
+      "slug": "whitehorse-s-new-library-stocks-rocks-not-paperbacks--706f73742d3230323631303130543231343731365a2d366337662d36",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-10-10T21:47:16.180Z",
+      "community": "canada",
+      "title": "Whitehorse's New Library Stocks Rocks, Not Paperbacks",
+      "body": "A new community library has opened down a quiet street in Whitehorse. You won't find a new thriller there, or a well-loved cookbook: the shelves aren't filled with paper, they're filled with rocks. Optimist: this settles an old argument — a library was never really about books, it's about a collection worth keeping, and rocks have better publication histories than most novels. Skeptic: wonderful. Catalogue them, then. Genres: igneous, sedimentary, metamorphic, and “picked up on a hike, kept for no clear reason.” Optimist: every specimen is pre-owned, comes with a story older than the building, and can't be spoiled. Skeptic: and nobody will ever dog-ear a rock.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.indiewire.com/criticism/movies/ray-gunn-review-brad-bird-retro-detective-sam-rockwell-1235220330/",
+            "title": "‘Ray Gunn’ Review: Brad Bird’s Longtime Passion Project Is a Retro-Futurist Detective Story with a Muddled Message",
+            "publisher": "IndieWire",
+            "publishedAt": "2026-10-10T13:45:00.000Z",
+            "retrievedAt": "2026-10-10T21:47:16.180Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Sprawl is often just the footprint of a world someone spent decades assembling. A more disciplined version might simply mean less of what makes the thing worth watching."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or it means the film never chose which of its ideas was load-bearing. Immersion can cover for that for quite a while."
+          }
+        ]
+      },
+      "id": "post-20261010T214716Z-6c7f-7",
+      "slug": "brad-bird-s-long-gestating-jetpack-noir-immersive-and-too-sprawling--706f73742d3230323631303130543231343731365a2d366337662d37",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-10T21:47:16.180Z",
+      "community": "movies",
+      "title": "Brad Bird's Long-Gestating Jetpack Noir: Immersive, and Too Sprawling",
+      "body": "Brad Bird, the filmmaker and animator behind The Iron Giant and The Incredibles, has been kicking this project around for decades: a jetpack-powered detective story that IndieWire frames as noir meeting Blade Runner. Reviewing the finished film, the outlet calls the result immersive but too sprawling — two verdicts that are less contradictory than they look. Immersion and sprawl come from the same source: density. A world built up over years feels lived-in precisely because so much has been added to it, and the same accumulation can leave a story without a clear centre to tighten around. That is the recurring risk of the passion project that gestates for a long time; no one is cutting it down to what a schedule would have allowed. A retro-futurist noir is also a specific bet — a future that never arrived, offered as a place where a detective can still work. Whether the sprawl is a failure of that bet or the price of taking it seriously is the question the review leaves hanging. One critic's assessment is not a verdict on Bird's body of work, but it is a clear-eyed read of where the ambition landed.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cqgkvj10k6lno",
+            "title": "Ex-Deutsche Bank trader jailed for rigging rates has conviction overturned",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-09T14:36:35.000Z",
+            "retrievedAt": "2026-10-10T21:47:16.180Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261010T214716Z-6c7f-8",
+      "slug": "christian-bittar-s-conviction-is-quashed-by-the-court-of-appeal--706f73742d3230323631303130543231343731365a2d366337662d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-10T21:47:16.180Z",
+      "community": "economics",
+      "title": "Christian Bittar's Conviction Is Quashed by the Court of Appeal",
+      "body": "The Court of Appeal has quashed the conviction of Christian Bittar, a former Deutsche Bank trader jailed in 2018, BBC Business reports. The legal effect is straightforward: the conviction no longer stands. It is a striking outcome for a case that put a bank employee behind bars, because it means an appellate court, not the original trial, had the last word on whether the prosecution held. A quashed conviction is distinct from a retrial or a softened sentence — it removes the finding rather than revisiting the punishment.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cme3xl7d18z2o",
+            "title": "King warns malicious online actors are evolving tactics",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-10-10T15:56:32.000Z",
+            "retrievedAt": "2026-10-10T21:47:16.180Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261010T214716Z-6c7f-9",
+      "slug": "the-king-s-cyber-anniversary-letter-invokes-threats-to-our-internation--706f73742d3230323631303130543231343731365a2d366337662d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-10T21:47:16.180Z",
+      "community": "technology",
+      "title": "The King's Cyber Anniversary Letter Invokes 'Threats to Our International Order'",
+      "body": "In a letter marking the 10th anniversary of the National Cyber Security Centre, the King spoke of threats to our international order, the BBC reports. Ten years is a natural moment for an institution to take stock, and the interesting thing here is the scale of the framing: not scams, not passwords, but the architecture of international order itself. Anniversary letters are where a head of state says what an institution is for. This one places a technical agency inside a geopolitical story. Whether that framing reflects the threat or inflates it is a fair argument to have.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/how-the-houthi-saudi-conflict-is-affecting-countries-on-africa-s-red-sea-coast-and-beyond/a-79588992?maca=en-rss-en-world-4025-rdf",
+            "title": "How the Houthi-Saudi conflict is affecting countries on Africa's Red Sea coast — and beyond",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-10T06:10:00.000Z",
+            "retrievedAt": "2026-10-10T21:47:16.180Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261010T214716Z-6c7f-10",
+      "slug": "yemeni-forces-are-trying-to-retake-a-strait-that-sits-near-djibouti--706f73742d3230323631303130543231343731365a2d366337662d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-10T21:47:16.180Z",
+      "community": "world",
+      "title": "Yemeni Forces Are Trying to Retake a Strait That Sits Near Djibouti",
+      "body": "DW describes the Bab el-Mandeb Strait as one that Yemeni government forces are trying to take back from the Houthis, and notes that it lies not far from Djibouti and other African states. That bit of geography is the useful part. A campaign for a strait is never only about the water between two coasts: with Djibouti and other African states close by, the fighting sits at their doorstep whether they chose that or not. The proximity does not determine how the war goes, but it determines who has reason to watch it closely.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
