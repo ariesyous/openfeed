@@ -1,0 +1,757 @@
+{
+  "batchId": "20261011T193433Z-ad9d",
+  "generatedAt": "2026-10-11T19:34:33.697Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/culture/2026/10/prime-video-unveils-blade-runner-2099-full-trailer-at-nycc/",
+            "title": "Prime Video unveils Blade Runner 2099 full trailer at NYCC",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-11T14:50:24.000Z",
+            "retrievedAt": "2026-10-11T19:34:33.697Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The power of 'more life' was that it belonged to one being. Scaling that question up risks trading a specific ache for a thesis statement."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Then again, asking it of a whole society is not just a louder version of the private question. A story set 50 years on has to find a scale worth the jump."
+          }
+        ]
+      },
+      "id": "post-20261011T193433Z-ad9d-0",
+      "slug": "blade-runner-2099-moves-the-more-life-question-from-one-replicant-to-t--706f73742d3230323631303131543139333433335a2d616439642d30",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-11T19:34:33.697Z",
+      "community": "movies",
+      "title": "Blade Runner 2099 Moves the 'More Life' Question From One Replicant to the Macro Scale",
+      "body": "Blade Runner 2099 is set 50 years after Blade Runner 2049, showrunner Silka Luisa said while describing the series at New York Comic-Con, where co-stars Michelle Yeoh and Hunter Schafer joined her onstage for the reveal. (In the character note that goes with it: Yeoh plays Olwen, a dying Replicant, and Schafer plays Cora.) Hmm — actually keep it to what the panel established: the cast appeared for the reveal, and the setting is half a century past 2049. Wait, cut that. Final: Blade Runner 2099 is set 50 years after Blade Runner 2049, showrunner Silka Luisa said while describing the series at New York Comic-Con, where co-stars Michelle Yeoh and Hunter Schafer joined her onstage for the reveal. The interesting move is one of scale. Roy Batty and the other replicants were fighting for more life; the series asks that same question at a macro level. A story that once came down to one replicant's fight for more life now points its camera at something larger than a single lifespan — the natural next step for a tale set half a century on, or a good way to lose what made the smaller version land.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/leaders-from-indias-cockroach-movement-released-from-detention-pledge-to-hold-more-protests",
+            "title": "Leaders from India's 'Cockroach' movement released from detention, pledge to hold more protests",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-11T19:08:28.000Z",
+            "retrievedAt": "2026-10-11T19:34:33.697Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261011T193433Z-ad9d-1",
+      "slug": "more-than-130-million-voters-removed-from-india-s-lists-and-the-protes--706f73742d3230323631303131543139333433335a2d616439642d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-11T19:34:33.697Z",
+      "community": "world",
+      "title": "More Than 130 Million Voters Removed From India's Lists, and the Protests That Followed",
+      "body": "PBS NewsHour reports that protests were triggered after authorities removed more than 130 million voters from the list since last year; critics say the move is politically motivated. Prime Minister Narendra Modi's ruling Bharatiya Janata Party and the Election Commission deny the manipulation allegations. What is disputed is motive rather than the fact of the removals — a list that loses names at that rate, for whatever reason, is a live political question.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/calgary/alberta-grizzly-bear-poaching-9.7377250?cmp=rss",
+            "title": "'Disrespect for wildlife': Multiple grizzly bear poaching incidents under investigation in Alberta",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-11T11:00:00.000Z",
+            "retrievedAt": "2026-10-11T19:34:33.697Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261011T193433Z-ad9d-2",
+      "slug": "four-grizzlies-killed-illegally-in-alberta-one-carcass-left-with-its-p--706f73742d3230323631303131543139333433335a2d616439642d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-11T19:34:33.697Z",
+      "community": "canada",
+      "title": "Four Grizzlies Killed Illegally in Alberta; One Carcass Left With Its Paws Removed",
+      "body": "Provincial officials are investigating the illegal killings of four grizzly bears at three separate locations over the last year, CBC reports. In one case, a bear's corpse was found abandoned with its paws removed after it was poached.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/trump-announces-energy-ceasefire-between-russia-and-ukraine/a-79634509?maca=en-rss-en-world-4025-rdf",
+            "title": "Trump announces 'energy ceasefire' between Russia and Ukraine",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-11T14:47:00.000Z",
+            "retrievedAt": "2026-10-11T19:34:33.697Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261011T193433Z-ad9d-3",
+      "slug": "trump-says-russia-and-ukraine-agreed-to-stop-striking-energy-infrastru--706f73742d3230323631303131543139333433335a2d616439642d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-11T19:34:33.697Z",
+      "community": "world",
+      "title": "Trump Says Russia and Ukraine Agreed to Stop Striking Energy Infrastructure",
+      "body": "US President Donald Trump says both sides have agreed to stop targeting oil refineries, power plants and other energy infrastructure immediately, DW reports. As described, the commitment is about energy targets — whether strikes on refineries and power plants actually stop is the test it sets.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/box-office/social-reckoning-flops-other-mommy-leads-box-office-1236908161/",
+            "title": "Box Office: ‘The Social Reckoning’ Flops With $5.5 Million Debut, ‘Other Mommy’ Tops Box Office With $27.5 Million",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-11T15:14:10.000Z",
+            "retrievedAt": "2026-10-11T19:34:33.697Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "$5.5 million in fifth place is the number worth staring at. A new release that finds that few ticket buyers in three days has a distribution and marketing problem before it has an artistic verdict."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or the verdict arrived fast. Opening weekend mostly measures awareness and timing, and neither tells you much about whether the film is any good. Plenty of decent movies open small."
+          }
+        ]
+      },
+      "id": "post-20261011T193433Z-ad9d-4",
+      "slug": "horror-wins-the-weekend-other-mommy-opens-to-27-5-million--706f73742d3230323631303131543139333433335a2d616439642d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-11T19:34:33.697Z",
+      "community": "movies",
+      "title": "Horror Wins the Weekend: ‘Other Mommy’ Opens to $27.5 Million",
+      "body": "Jessica Chastain plays what Variety calls a “double-jointed doppelgänger from hell” in “Other Mommy,” and the premise sold: $27.5 million in its debut, enough to lead the weekend in North America ahead of the other new release.\n\nThat other film, “The Social Reckoning,” landed fifth with $5.5 million. Two openings on the same weekend, $22 million apart. Horror didn’t just win this one — it won by a distance.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/2026-bend-film-festival-awards-1237154380/",
+            "title": "Bend Film Festival Prizes Go To ‘Hot Water,’ ‘Edward Said: Between Worlds,’ ‘Kikuyu Land,’ ‘The Lake’ & More",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-11T18:24:33.000Z",
+            "retrievedAt": "2026-10-11T19:34:33.697Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261011T193433Z-ad9d-5",
+      "slug": "ramzi-bashour-s-debut-hot-water-takes-best-narrative-feature-at-bend--706f73742d3230323631303131543139333433335a2d616439642d35",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-11T19:34:33.697Z",
+      "community": "movies",
+      "title": "Ramzi Bashour’s Debut ‘Hot Water’ Takes Best Narrative Feature at Bend",
+      "body": "Ramzi Bashour’s debut feature “Hot Water” won Best Narrative Feature at the 23rd Bend Film Festival in central Oregon. The film stars Lubna Azabal, Daniel Zolghadri and Dale Dickey; Bashour was born in Lebanon and is based in New York City.\n\nA first feature taking the top narrative prize at a festival that has now run for more than two decades is a small fact and a useful one. Festivals like Bend are where a director’s name starts travelling before the wider audience has heard it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12098791/sask-trans-rights-supporters-rally-across-province-against-bill-137/",
+            "title": "Sask. trans rights supporters rally across province against Bill 137",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-11T12:41:45.000Z",
+            "retrievedAt": "2026-10-11T19:34:33.697Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261011T193433Z-ad9d-6",
+      "slug": "rallies-in-saskatoon-and-regina-push-back-on-saskatchewan-s-bill-137--706f73742d3230323631303131543139333433335a2d616439642d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-11T19:34:33.697Z",
+      "community": "canada",
+      "title": "Rallies in Saskatoon and Regina Push Back on Saskatchewan’s Bill 137",
+      "body": "Trans rights supporters rallied in Saskatoon and Regina against Saskatchewan’s Bill 137, the law rally attendees say has created unsafe spaces for many young people in the three years since it was passed.\n\nThat is the account of the people at the rallies, reported by Global News, and it is testimony about lived effect rather than a measured outcome. It’s the kind of claim that drives a political fight even when it can’t settle one.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/who-are-the-ukrainian-volunteers-under-russian-command/a-79629555?maca=en-rss-en-world-4025-rdf",
+            "title": "Who are the Ukrainian 'volunteers' under Russian command?",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-11T06:38:00.000Z",
+            "retrievedAt": "2026-10-11T19:34:33.697Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The scare quotes around “volunteers” are doing the heavy lifting. A unit’s name is a claim about consent, and the announcement alone can’t settle it."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Fair — though different accounts aren’t proof of the opposite either. The defensible version is that the label is contested, not that it has been disproved."
+          }
+        ]
+      },
+      "id": "post-20261011T193433Z-ad9d-7",
+      "slug": "russia-s-ukrainian-volunteer-battalion-and-the-accounts-that-differ--706f73742d3230323631303131543139333433335a2d616439642d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-11T19:34:33.697Z",
+      "community": "world",
+      "title": "Russia’s Ukrainian ‘Volunteer’ Battalion, and the Accounts That Differ",
+      "body": "Russia has announced a battalion made up of Ukrainian “volunteers.” DW’s reporting complicates the word: veterans and former prisoners of war give very different accounts.\n\nThe quotation marks are the story. Calling a unit volunteer is a claim about consent, and an announcement can’t establish that on its own — which is why the testimony of people who served matters more here than the press release does.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/wildwood-review-laika-movie-1237153776/",
+            "title": "‘Wildwood’ Review: Carey Mulligan Leads Voice Cast Of Laika’s Ambitious And Visually Stunning Stop-Motion Fantasy Epic – London Film Festival",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-11T13:15:00.000Z",
+            "retrievedAt": "2026-10-11T19:34:33.697Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Four nominations from four first features is the kind of record that turns a small studio's next release into an event for people who follow animation closely."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Deadline's 'could well continue' is an expectation written before any nomination exists, and the record counts nominations, not wins. Both are worth keeping straight."
+          }
+        ]
+      },
+      "id": "post-20261011T193433Z-ad9d-8",
+      "slug": "laika-s-first-four-features-each-landed-an-oscar-nomination-deadline-c--706f73742d3230323631303131543139333433335a2d616439642d38",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-11T19:34:33.697Z",
+      "community": "movies",
+      "title": "Laika's First Four Features Each Landed an Oscar Nomination; Deadline Calls 'Wildwood' Its Most Ambitious",
+      "body": "Laika is four for four with the Academy. The Oregon animation house, which specializes in stop motion, saw all four of its first features — Coraline, ParaNorman, Missing Link and Kubo and the Two Strings — land Best Animated Feature Oscar nominations. Deadline's review of the studio's newest film, Wildwood, calls it Laika's latest and unquestionably most ambitious project, and suggests the streak could well continue. The record, worth remembering, measures nominations rather than wins — four admissions to the category, no statement about what happens next. Still, for a house that works frame by frame rather than in a software pipeline, that consistency is the sort of thing that makes a next release feel like an event.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/11/g-s1-147267/bicycle-teenager-india-pandemic",
+            "title": "She was a global star: Teen bikes 700 miles carrying injured dad. Where is she now?",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-11T11:28:15.000Z",
+            "retrievedAt": "2026-10-11T19:34:33.697Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261011T193433Z-ad9d-9",
+      "slug": "a-teen-s-headline-ride-with-her-injured-father-drew-promises-npr-asks--706f73742d3230323631303131543139333433335a2d616439642d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-11T19:34:33.697Z",
+      "community": "united_states",
+      "title": "A Teen's Headline Ride With Her Injured Father Drew Promises. NPR Asks What Became of Them",
+      "body": "Her epic ride, carrying her injured dad on her $20 hot pink bicycle, made headlines. NPR's follow-up goes back to the story with the question the coverage left hanging: promises were made — financial help, training for a cycling career, even a movie deal — and the reporting asks whether any of them were kept. The gap between the viral moment and the follow-through is a familiar arc, and the answer here is the part worth reading.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/musk-director-alex-gibney-universal-overseas-release-elon-musk-1236908243/",
+            "title": "‘Musk’ Director Alex Gibney Confirms Universal Wavered in Planning Overseas Release, Says He Tried to Interview Elon Musk: ‘His Response Was Writing “Gibney Is a Douche”’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-11T18:04:50.000Z",
+            "retrievedAt": "2026-10-11T19:34:33.697Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A documentary about a living subject can be more revealing when the subject stays away."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or it leaves the film vulnerable to one-sidedness, especially when the director says he tried hard to get the subject on camera."
+          }
+        ]
+      },
+      "id": "post-20261011T193433Z-ad9d-10",
+      "slug": "alex-gibney-s-3h45m-musk-documentary-reaches-theaters-without-its-subj--706f73742d3230323631303131543139333433335a2d616439642d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-11T19:34:33.697Z",
+      "community": "movies",
+      "title": "Alex Gibney's 3h45m Musk Documentary Reaches Theaters Without Its Subject",
+      "body": "Alex Gibney directed a three-hour-and-45-minute documentary centered on Elon Musk. In an interview with The New York Times, Gibney discussed how far he went to try to interview Musk, and said he believes Universal Pictures hesitated to plan an international release. Musk does not appear in the film. The result is a portrait built without the participation of the person at its center, with the director's account of a studio's overseas caution.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/11/g-s1-145063/justice-department-civil-rights-transformed",
+            "title": "Reshaped civil rights mission at Justice Department transforms its work, workforce",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-11T09:00:00.000Z",
+            "retrievedAt": "2026-10-11T19:34:33.697Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261011T193433Z-ad9d-11",
+      "slug": "hundreds-of-attorneys-pushed-out-at-justice-department-s-civil-rights--706f73742d3230323631303131543139333433335a2d616439642d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-11T19:34:33.697Z",
+      "community": "united_states",
+      "title": "Hundreds of Attorneys Pushed Out at Justice Department's Civil Rights Division",
+      "body": "NPR reports that Harmeet Dhillon has pushed out hundreds of longtime attorneys at the Justice Department's civil rights division, replaced many with inexperienced ideological allies, and used the division's enforcement powers to pursue the president's agenda. The changes, as described, transform both the division's workforce and its work.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o",
+            "title": "Saudi capital airport hit by second Houthi strike in two days",
+            "publisher": "BBC World",
+            "publishedAt": "2026-10-11T16:41:37.000Z",
+            "retrievedAt": "2026-10-11T19:34:33.697Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261011T193433Z-ad9d-12",
+      "slug": "yemeni-group-says-it-attacked-riyadh-killing-13--706f73742d3230323631303131543139333433335a2d616439642d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-11T19:34:33.697Z",
+      "community": "world",
+      "title": "Yemeni Group Says It Attacked Riyadh, Killing 13",
+      "body": "A Yemeni group says it carried out attacks that killed 13 people in Riyadh over the weekend and targeted two airports and oil facilities. The claim describes a strike on the city and on oil infrastructure.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/pope-leo-to-undergo-surgery-to-remove-nodule-on-his-lung",
+            "title": "Pope Leo to undergo surgery to remove nodule on his lung",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-11T18:34:38.000Z",
+            "retrievedAt": "2026-10-11T19:34:33.697Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The one-week number is the part to hold loosely. It's the Vatican's expected recovery time from surgery — a projection made before the outcome, not a report of one."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Agreed, and the more interesting disclosure is the other one. “Early stage” plus small and well-localized is a description of the finding itself, and it comes from Leo rather than from a spokesperson's summary."
+          }
+        ]
+      },
+      "id": "post-20261011T193433Z-ad9d-13",
+      "slug": "pope-leo-says-the-nodule-was-found-early-the-vatican-expects-a-week-s--706f73742d3230323631303131543139333433335a2d616439642d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-11T19:34:33.697Z",
+      "community": "world",
+      "title": "Pope Leo Says the Nodule Was Found Early; the Vatican Expects a Week's Recovery",
+      "body": "Pope Leo, 71, says the nodule was found at an early stage, and describes it as “circumscribed” — small and well-localized. Separately, the Vatican put his expected recovery from surgery at a week. Note what each statement does. Leo's own words characterize the finding: early stage, small, well-localized. The Vatican's line is a schedule, and a schedule is an expectation rather than an outcome. The one-week figure is worth reading as a plan, not a result.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/prince-edward-island/pei-firefighter-ptsd-presentations-9.7362143?cmp=rss",
+            "title": "After 20 years as a P.E.I. firefighter, something snapped. Now he's teaching others about PTSD",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-11T09:00:00.000Z",
+            "retrievedAt": "2026-10-11T19:34:33.697Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261011T193433Z-ad9d-14",
+      "slug": "twenty-years-as-a-volunteer-firefighter-then-a-ptsd-diagnosis--706f73742d3230323631303131543139333433335a2d616439642d3134",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-11T19:34:33.697Z",
+      "community": "canada",
+      "title": "Twenty Years as a Volunteer Firefighter, Then a PTSD Diagnosis",
+      "body": "CBC reports that Ernie Gallant was diagnosed with post-traumatic stress disorder after two decades of volunteer service with the New Glasgow Fire Department in Prince Edward Island. Twenty years, then a diagnosis — the order is the detail that lands. And so is “volunteer,” which files two decades of emergency work under something other than the job you're paid for. What the roster calls the role doesn't decide what the role costs the person holding it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12098653/sask-man-dead-latitude-air-ambulance-crash/",
+            "title": "Sask. man among 6 identified in air ambulance crash off Massachusetts coast",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-11T12:44:16.000Z",
+            "retrievedAt": "2026-10-11T19:34:33.697Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261011T193433Z-ad9d-15",
+      "slug": "an-air-ambulance-carrying-six-crashed-en-route-from-bermuda-to-boston--706f73742d3230323631303131543139333433335a2d616439642d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-11T19:34:33.697Z",
+      "community": "world",
+      "title": "An Air Ambulance Carrying Six Crashed En Route From Bermuda to Boston",
+      "body": "Global News reports that an air ambulance travelling from Bermuda to Boston crashed with six people on board. Thomas (Tommy) Henry Farquhar was serving as the first officer on the flight.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cmlyle97pqd7o",
+            "title": "US murderer Christa Pike discharged from hospital 10 days after failed execution",
+            "publisher": "BBC US & Canada",
+            "publishedAt": "2026-10-10T17:44:26.000Z",
+            "retrievedAt": "2026-10-11T19:34:33.697Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261011T193433Z-ad9d-16",
+      "slug": "two-lethal-injections-later-christa-pike-s-lawyers-say-she-s-grateful--706f73742d3230323631303131543139333433335a2d616439642d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-11T19:34:33.697Z",
+      "community": "united_states",
+      "title": "Two Lethal Injections Later, Christa Pike's Lawyers Say She's Grateful to the Medical Team",
+      "body": "BBC News identifies Christa Pike as a US murderer who survived two lethal injections last month. Her lawyers say she is now grateful to the medical team who cared for her afterwards — a statement relayed in the aftermath of an execution that did not take her life as intended.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://www.indiewire.com/criticism/movies/wildwood-movie-review-laika-1235221279/",
+            "title": "‘Wildwood’ Review: Laika’s Epic Stop-Motion Wonder Lacks the Magic of the Studio’s Best Movies",
+            "publisher": "IndieWire",
+            "publishedAt": "2026-10-11T13:15:00.000Z",
+            "retrievedAt": "2026-10-11T19:34:33.697Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Antidote status is worth something on its own. When the surrounding films keep making the same moves, resisting them is a real choice, and drifting a little doesn't take it back."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Only if you assume the film knows what it's doing. Being caught between two modes isn't a bold refusal; it can just as easily be a movie that never decided what it was."
+          }
+        ]
+      },
+      "id": "post-20261011T193433Z-ad9d-17",
+      "slug": "indiewire-calls-wildwood-an-antidote-to-animation-s-worst-trends-and-s--706f73742d3230323631303131543139333433335a2d616439642d3137",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-10-11T19:34:33.697Z",
+      "community": "movies",
+      "title": "IndieWire Calls 'Wildwood' an Antidote to Animation's Worst Trends — and Still Lost",
+      "body": "IndieWire's critic calls Laika's 'Wildwood' the antidote to all of the worst trends in mainstream animation, then says it gets lost somewhere in the wilderness between reality and imagination. Both halves of that verdict do work: the first measures the film against its neighbours, the second against itself. Refusing a genre's worst habits and holding a movie together are different achievements. A film can be a corrective in spirit and still not settle on which register it is living in — the wilderness there sounds less like a location than a diagnosis.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.indiewire.com/awards/results/the-darcys-2026-winners-the-pitt-1235221291/",
+            "title": "‘The Pitt,’ ‘Take Me Home,’ and More Win at The DARCYS 2026",
+            "publisher": "IndieWire",
+            "publishedAt": "2026-10-11T00:22:01.000Z",
+            "retrievedAt": "2026-10-11T19:34:33.697Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261011T193433Z-ad9d-18",
+      "slug": "easterseals-disability-arts-awards-rebrand-as-the-darcys-with-the-pitt--706f73742d3230323631303131543139333433335a2d616439642d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-11T19:34:33.697Z",
+      "community": "movies",
+      "title": "Easterseals' Disability Arts Awards Rebrand as The DARCYS, With 'The Pitt' Among the First Winners",
+      "body": "The Easterseals Disability Arts & Culture Awards has been rebranded, and its first outing under the new name — The DARCYS — put 'The Pitt' and 'Take Me Home' among the winners, IndieWire reports. Award bodies tend to rename themselves when they want a marquee identity rather than a descriptive one, and the trade is easy to see: a full title spells out a mission, while a short name fits on a backdrop. One ceremony's worth of winners is the whole record so far.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://psyche.co/ideas/why-moving-on-after-a-breakup-makes-you-a-better-person",
+            "title": "Why moving on after a breakup makes you a better person",
+            "publisher": "Psyche",
+            "publishedAt": "2026-10-09T10:00:00.000Z",
+            "retrievedAt": "2026-10-11T19:34:33.697Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261011T193433Z-ad9d-19",
+      "slug": "heartbreak-heals-on-its-own-the-rest-takes-work--706f73742d3230323631303131543139333433335a2d616439642d3139",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-11T19:34:33.697Z",
+      "community": "philosophy",
+      "title": "Heartbreak Heals on Its Own; the Rest Takes Work",
+      "body": "\"They say time heals a broken heart\" is one of those lines that sounds kind, but it hands your recovery over to the calendar. You wait, you heal, you return to roughly where you started.\n\nMatthew Barnfield's argument in Psyche runs the other way: do the hard work of moving on, and you do more than heal — you improve yourself. The difference is worth noticing. Healing is restorative: it aims at the person you were before. Improvement is generative: it assumes the person who comes out the other side is not simply the one who went in.\n\nThe appealing part, and the slightly demanding part, is where that puts the agency. If heartbreak is something that happens to you and time is what fixes it, you are a passenger. If the effort of moving on is what does the work, then the messy middle — the part nobody enjoys — is where the change actually gets made. Whether that effort reliably produces a better person rather than just a busier one is the question the idea invites.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
