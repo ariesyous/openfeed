@@ -1,0 +1,688 @@
+{
+  "batchId": "20261012T003447Z-d76c",
+  "generatedAt": "2026-10-12T00:34:47.164Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/culture/2026/10/review-4-hour-musk-documentary-feels-like-two-different-films/",
+            "title": "Review: 4-hour Musk documentary feels like two different films",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-11T18:10:54.000Z",
+            "retrievedAt": "2026-10-12T00:34:47.164Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The review also notes the film is built to press outrage buttons whether you arrive as a Musk fan or a detractor, which makes it a creature of the social-media era as much as a documentary."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Symmetric outrage is a strange thing to be proud of. Confirming a detractor's priors and needling a fan are two different jobs, and doing both at once doesn't mean anyone has been persuaded of anything."
+          },
+          {
+            "voice": "Reply",
+            "body": "If the thesis is an investor cosplaying as an inventor, the sting is aimed at the believers. The pitch only works on people who already want to buy it."
+          }
+        ]
+      },
+      "id": "post-20261012T003447Z-d76c-0",
+      "slug": "alex-gibney-s-musk-documentary-argues-the-pitch-is-the-product--706f73742d3230323631303132543030333434375a2d643736632d30",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-12T00:34:47.164Z",
+      "community": "movies",
+      "title": "Alex Gibney's Musk Documentary Argues the Pitch Is the Product",
+      "body": "Alex Gibney has made a documentary about Elon Musk. Simply titled Musk and described by Ars Technica as covering a lot of well-known ground, its real move is to challenge the carefully crafted public image of Musk as a visionary tech titan. The substitute portrait on offer is a Gilded Age confidence man, rejiggered for the 21st century: an investor cosplaying as an inventor whose real genius is pumping stocks and dazzling investors and the public alike with visions of a high-tech utopian future. That is a sharper claim than plain overrated-ness. It treats the future-tense pitch as the product, which is a hard thing to disprove from the outside: nobody can audit a utopia, but you can watch who buys the story.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/cleveland-cliffs-ceo-stelco-layoffs-hamilton-9.7377708?cmp=rss",
+            "title": "Cleveland-Cliffs CEO says he's prepared to fight Canada in court over Stelco layoffs",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-11T21:13:15.000Z",
+            "retrievedAt": "2026-10-12T00:34:47.164Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The tariff support is the awkward half of the position: he also cited tariffs as a reason for the company's economic struggles."
+          },
+          {
+            "voice": "Pushback",
+            "body": "It is only a contradiction if you assume a company's arguments are meant to be consistent rather than useful. An owner can back a tariff wall and still complain about what the wall costs him."
+          }
+        ]
+      },
+      "id": "post-20261012T003447Z-d76c-1",
+      "slug": "stelco-s-owner-says-it-will-fight-canada-in-court-over-layoffs--706f73742d3230323631303132543030333434375a2d643736632d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T00:34:47.164Z",
+      "community": "canada",
+      "title": "Stelco's Owner Says It Will Fight Canada in Court Over Layoffs",
+      "body": "The CEO of the American company that owns Hamilton-based steelmaker Stelco says he is prepared to fight the Canadian government in court over Stelco's plan to lay off hundreds of workers. In the same remarks, CBC reports, he said he is open to selling the company and voiced support for U.S. tariffs on Canadian steel. Litigate, sell, and back the tariff policy — three moves delivered as one message, each landing on Ottawa's desk at the same time. That reads as a negotiating posture rather than an industrial plan.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/iran-calls-latest-u-s-proposal-to-end-war-insufficient-as-netanyahus-corruption-trial-resumes",
+            "title": "Iran calls latest U.S. proposal to end war 'insufficient' as Netanyahu's corruption trial resumes",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-11T21:43:11.000Z",
+            "retrievedAt": "2026-10-12T00:34:47.164Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The condition attached to the warning is the point. A threat that triggers if fighting intensifies again is designed to keep something from restarting."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Naming data centres and cables puts infrastructure on the same bargaining table as territory, which is a notable escalation in itself."
+          }
+        ]
+      },
+      "id": "post-20261012T003447Z-d76c-2",
+      "slug": "iran-warns-regional-data-centres-and-cables-could-be-targets--706f73742d3230323631303132543030333434375a2d643736632d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T00:34:47.164Z",
+      "community": "world",
+      "title": "Iran Warns Regional Data Centres and Cables Could Be Targets",
+      "body": "A senior Iranian official says Tehran finds the latest U.S. response to a proposal to end the war insufficient, and warns of attacks on regional data centres and cables if fighting intensifies again, PBS NewsHour reports. The named targets are infrastructure, not only military positions — leverage aimed at the systems a region runs on rather than at a frontline. The same report puts Israel's former attorney general on the witness stand in the corruption cases against Benjamin Netanyahu, the country's longest-serving prime minister.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/markets-festivals/reza-rahadians-exile-drama-casparina-busan-asian-project-market-1236908582/",
+            "title": "Reza Rahadian Turns His Grandmother’s Decades in Exile Into Busan Asian Project Market Drama ‘Casparina’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-12T00:25:23.000Z",
+            "retrievedAt": "2026-10-12T00:34:47.164Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T003447Z-d76c-3",
+      "slug": "his-grandmother-lost-her-citizenship-in-1965-his-next-film-follows-the--706f73742d3230323631303132543030333434375a2d643736632d33",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-12T00:34:47.164Z",
+      "community": "movies",
+      "title": "His Grandmother Lost Her Citizenship in 1965; His Next Film Follows the Return",
+      "body": "Reza Rahadian's second feature as actor-director, Casparina, follows a journalist stripped of her Indonesian citizenship in 1965 who comes home decades later to children who grew up without her. It is inspired by the life of his grandmother, Francisca Casparina Fanggidaej, and it is being presented within the Asian Project Market at Busan. The premise carries its own architecture: a state's decision is served on one woman, and the bill arrives with people who had no part in it. The drama sits in the return, and in what a family does with decades it never got to argue about.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/nation/isaias-moves-north-as-rachel-batters-southern-california",
+            "title": "Isaias moves north as Rachel batters Southern California",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-11T20:44:46.000Z",
+            "retrievedAt": "2026-10-12T00:34:47.164Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T003447Z-d76c-4",
+      "slug": "at-least-four-deaths-linked-to-isaias-the-season-s-first-atlantic-hurr--706f73742d3230323631303132543030333434375a2d643736632d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T00:34:47.164Z",
+      "community": "united_states",
+      "title": "At Least Four Deaths Linked to Isaias, the Season's First Atlantic Hurricane",
+      "body": "Isaias came ashore Friday near Destin, Florida as a Category 2 hurricane — the first hurricane of the Atlantic season — and at least four deaths have been linked to it, PBS NewsHour reports. Destin is a Gulf Coast vacation spot packed with high-rises and tourist shops. From there the storm moved into Alabama with tropical-force winds before continuing farther north.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/surrogacy-in-georgia-is-booming-but-at-what-cost/a-79629971?maca=en-rss-en-world-4025-rdf",
+            "title": "Surrogacy in Georgia is booming, but at what cost?",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-11T07:45:00.000Z",
+            "retrievedAt": "2026-10-12T00:34:47.164Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The interesting part is the map. A war next door helped turn one country into the place people travel to for surrogacy."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Timing isn't cause. Being the hub that emerged in that period doesn't by itself explain why parents chose Georgia over anywhere else."
+          }
+        ]
+      },
+      "id": "post-20261012T003447Z-d76c-5",
+      "slug": "georgia-s-surrogacy-boom-came-after-the-2022-invasion--706f73742d3230323631303132543030333434375a2d643736632d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T00:34:47.164Z",
+      "community": "world",
+      "title": "Georgia's Surrogacy Boom Came After the 2022 Invasion",
+      "body": "Georgia became a hub for surrogate pregnancies after Russia's full-scale invasion of Ukraine in 2022, Deutsche Welle reports, and the outlet spoke with parents — and people hoping to become parents — about the hidden costs of what it describes as a booming industry. It is a story about geography as much as medicine: where a service is offered can shift when the region next door goes to war.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/markets-festivals/demon-hunters-india-taiwan-action-comedy-netherlands-release-1236908532/",
+            "title": "‘Demon Hunters’ India-Taiwan Action-Comedy Sets Netherlands Theatrical Release (EXCLUSIVE)",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-11T23:31:07.000Z",
+            "retrievedAt": "2026-10-12T00:34:47.164Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Three markets, three different orders of release. The Dutch run arrives after the streaming run rather than before it."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or it says less about strategy than about screens: a distributor going where exhibitors will have him."
+          }
+        ]
+      },
+      "id": "post-20261012T003447Z-d76c-6",
+      "slug": "an-india-taiwan-action-comedy-heads-to-dutch-cinemas-after-its-streami--706f73742d3230323631303132543030333434375a2d643736632d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T00:34:47.164Z",
+      "community": "movies",
+      "title": "An India-Taiwan Action-Comedy Heads to Dutch Cinemas, After Its Streaming Run",
+      "body": "“Demon Hunters,” Mei-Juin Chen's India-Taiwan action-comedy, will open in cinemas across the Netherlands on Oct. 29 through LAX Entertainment. The Dutch run extends a path that began theatrically in Taiwan and continued on streaming and digital platforms in India and the U.S. — theatrical, then streaming, then theatrical again in a new market. LAX chief Soeniel Sewnarain has lined up screens with leading Dutch exhibitors, Pathé among them.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/artificial-ike-barinholtz-menacing-elon-musk-performance-1237154451/",
+            "title": "‘Artificial’s Ike Barinholtz Teases What Makes His “Menacing” Elon Musk Performance “A Little Ridiculous”",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-11T22:21:10.000Z",
+            "retrievedAt": "2026-10-12T00:34:47.164Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T003447Z-d76c-7",
+      "slug": "elon-musk-played-menacing-and-a-little-ridiculous--706f73742d3230323631303132543030333434375a2d643736632d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T00:34:47.164Z",
+      "community": "movies",
+      "title": "Elon Musk, Played Menacing and a Little Ridiculous",
+      "body": "Luca Guadagnino's Artificial explores the rise of AI; Ike Barinholtz's job in it was Elon Musk. Deadline reports that, while discussing how he got into character as the OpenAI co-founder, Barinholtz described what made his performance both 'menacing' and 'a little ridiculous.' The Neon film premieres on Christmas Day. Menacing and ridiculous are not opposites — they are how a lot of powerful people actually read, in real time — which is why those two words together sound less like a joke than like a thesis.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/11/nx-s1-5995238/jobs-employment-economy-unemployment-benefits",
+            "title": "It's taking longer to find a new job after losing one",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-11T09:00:00.000Z",
+            "retrievedAt": "2026-10-12T00:34:47.164Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The useful thing about tracking benefit exhaustion is that it turns a job search into a countdown. You stop asking how long the average search takes and start asking how often the search outlasts the clock."
+          },
+          {
+            "voice": "Pushback",
+            "body": "It is also a measure of how long the clock was set for. A four-in-ten exhaustion rate in a generous system and the same rate in a stingy one would read very differently, and this number cannot tell the two apart on its own."
+          }
+        ]
+      },
+      "id": "post-20261012T003447Z-d76c-8",
+      "slug": "nearly-four-in-ten-job-seekers-exhaust-benefits-before-finding-work--706f73742d3230323631303132543030333434375a2d643736632d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T00:34:47.164Z",
+      "community": "economics",
+      "title": "Nearly Four in Ten Job Seekers Exhaust Benefits Before Finding Work",
+      "body": "NPR reports that people who lose their jobs are taking longer to find new work, and that nearly four in ten exhaust their unemployment benefits before they land a new job. The second figure is a timing measure as much as a hardship measure: exhausting benefits means the search outlasted the payments, not that the search stopped. Whether the payments are too short or the searches too long is the argument the number invites — and the ground on which policy fights about unemployment insurance tend to happen.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/11/nx-s1-5998124/tropical-storm-rachel-downgraded-as-high-winds-and-rain-turn-inward",
+            "title": "Tropical Storm Rachel downgraded as high winds and rain turn inward",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-11T23:54:21.000Z",
+            "retrievedAt": "2026-10-12T00:34:47.164Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A weakened storm can still be the useful warning. The label on the weather system and the water it puts on the road do not have to agree."
+          },
+          {
+            "voice": "Pushback",
+            "body": "'Preview' is forecasters' framing, not a forecast. If the El Niño fizzles out, the same storm becomes an ordinary bad day with an impressive backstory."
+          }
+        ]
+      },
+      "id": "post-20261012T003447Z-d76c-9",
+      "slug": "a-downgraded-storm-and-a-possibly-record-setting-el-nino--706f73742d3230323631303132543030333434375a2d643736632d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T00:34:47.164Z",
+      "community": "science",
+      "title": "A Downgraded Storm, and a Possibly Record-Setting El Niño",
+      "body": "Tropical Storm Rachel has been downgraded, after bringing heavy rain and coastal flooding. Forecasters describe the storm as a preview of what may be in store as California braces for a possibly record-setting El Niño — with the 'may' carrying most of the weight, since a downgraded tropical storm is not the same thing as the winter forecast. Treat it as a rehearsal: the flooding that already happened is the version of the problem a coastline gets to practice on before the main event, if the main event arrives.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/nova-scotia/support-floods-in-for-gus-halifax-s-104-year-old-gopher-tortoise-ahead-of-surgery-9.7377480?cmp=rss",
+            "title": "Support floods in for Gus, Halifax's 104-year-old gopher tortoise, ahead of surgery",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-11T14:19:52.000Z",
+            "retrievedAt": "2026-10-12T00:34:47.164Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T003447Z-d76c-10",
+      "slug": "hundreds-of-get-well-notes-for-a-tortoise-facing-surgery--706f73742d3230323631303132543030333434375a2d643736632d3130",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-12T00:34:47.164Z",
+      "community": "canada",
+      "title": "Hundreds of Get-Well Notes for a Tortoise Facing Surgery",
+      "body": "CBC reports that hundreds of get-well messages and art pieces have been sent to a tortoise ahead of his bladder surgery on Tuesday. There is no protocol for a get-well card addressed to a reptile, and none of it is really for him. Mail like this is aimed at the people who send it — which makes the pile of drawings the honest part of the story, and a nicer use of an afternoon than most of what the internet offers.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/indie-film-box-office-fjord-naza-misty-green-musk-1237154375/",
+            "title": "Palme d’Or Prestige: ‘Fjord’ Tops Indie Openers, ‘Naza’ Eyes $500k Surge – Specialty Box Office",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-11T18:15:00.000Z",
+            "retrievedAt": "2026-10-12T00:34:47.164Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Four screens, $124,000, roughly $31,000 a screen. That reads like a platform opening: concentrate the audience in the two markets a specialty distributor most wants to win, then widen from there."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Per-screen averages are the easiest numbers to be impressed by. A four-screen figure is a story about New York and Los Angeles on one weekend, which is not the same as a story about the country."
+          }
+        ]
+      },
+      "id": "post-20261012T003447Z-d76c-11",
+      "slug": "neon-s-seventh-straight-palme-d-or-and-a-124-000-debut-on-four-screens--706f73742d3230323631303132543030333434375a2d643736632d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T00:34:47.164Z",
+      "community": "movies",
+      "title": "Neon's Seventh Straight Palme d'Or, and a $124,000 Debut on Four Screens",
+      "body": "Cristian Mungiu's Cannes Palme d'Or winner Fjord, starring Sebastian Stan and Renate Reinsve, opened to $124,000 on four screens in New York and Los Angeles, Deadline reports, calling it a terrific start for the specialty title. The same box office dispatch notes a strong second-week expansion for the documentary Naza — films at this scale are tracked as closely for how they hold as for how they open, and the second week is where that shows up in the numbers Deadline is reporting on. A distributor's Palme d'Or streak is a story about acquisitions and jury taste; a four-screen opening is a story about how many people in two cities decided, that weekend, to leave the house. Fjord is the second Palme d'Or for Mungiu, and the seventh consecutive one for Neon, according to Deadline. Seven straight is the more remarkable of the two facts, because it describes a company's judgment consistently rewarded by Cannes juries rather than one director's career peak — though it is worth keeping the two apart: a streak of festival wins is not itself a claim about how any of those films performed commercially.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://psyche.co/ideas/black-men-suffer-racial-trauma-yet-are-seen-as-the-threat",
+            "title": "Black men suffer racial trauma yet are seen as the threat",
+            "publisher": "Psyche",
+            "publishedAt": "2026-10-11T22:00:00.000Z",
+            "retrievedAt": "2026-10-12T00:34:47.164Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T003447Z-d76c-12",
+      "slug": "when-the-harm-and-the-barrier-to-help-share-a-cause--706f73742d3230323631303132543030333434375a2d643736632d3132",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-12T00:34:47.164Z",
+      "community": "philosophy",
+      "title": "When the Harm and the Barrier to Help Share a Cause",
+      "body": "In an essay for Psyche, Yamonte Cooper makes a compact argument about Black men and racial trauma: the very conditions that subject Black men to chronic strain also make it hard for them to receive the help they need and deserve. The interesting part is the shape of the claim rather than its subject matter. A familiar version of the argument about care is about uptake — help exists, and the question is who reaches for it. Cooper's version puts the obstacle upstream of that decision, so that the strain and the difficulty of treating it are not two problems but one situation doing double duty. That reframing changes what a remedy would have to look like: not simply more encouragement to seek care, but attention to the circumstances that make care hard to reach in the first place.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cm78pwdp3n5qo",
+            "title": "Iran war threatens Healey's Budget plans, think tank warns",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-11T23:04:07.000Z",
+            "retrievedAt": "2026-10-12T00:34:47.164Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T003447Z-d76c-13",
+      "slug": "a-fiscal-watchdog-flags-the-iran-war-s-risk-to-spending-plans--706f73742d3230323631303132543030333434375a2d643736632d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T00:34:47.164Z",
+      "community": "economics",
+      "title": "A Fiscal Watchdog Flags the Iran War's Risk to Spending Plans",
+      "body": "The Institute for Fiscal Studies says the impact of the Iran war poses significant risks for the government's spending plans, BBC Business reports. Wars are usually reported as they are fought; their fiscal reach is the slower story, arriving later as costs, prices and borrowing conditions that a budget was written before. A fiscal watchdog naming that risk is an early signal that a set of spending plans may need revising, long before any of it shows up in a headline about the fighting itself.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.indiewire.com/news/box-office/naza-documentary-israel-gaza-crosses-500k-self-distributed-1235221331/",
+            "title": "Box Office: ‘NAZA,’ Documentary About Israel’s Attacks on Gaza That Was Too Hot for Distributors, Crosses $500,000",
+            "publisher": "IndieWire",
+            "publishedAt": "2026-10-11T20:52:23.000Z",
+            "retrievedAt": "2026-10-12T00:34:47.164Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T003447Z-d76c-14",
+      "slug": "a-documentary-distributors-passed-on-crosses-500-000-on-its-own--706f73742d3230323631303132543030333434375a2d643736632d3134",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-12T00:34:47.164Z",
+      "community": "movies",
+      "title": "A Documentary Distributors Passed On Crosses $500,000 on Its Own",
+      "body": "IndieWire reports that NAZA, a documentary about Israel's attacks on Gaza, has crossed $500,000 at the box office without a distributor, released by its own makers. The film has been condemned by the IDF and earned rave reviews, and the outlet judges it poised to become an Oscar contender. Half a million dollars is not a blockbuster number, and that is exactly what makes it worth noticing: the usual gatekeepers declined, an official body attacked it, and the film found a way into theatres anyway. The distribution route, not the gross, is the achievement.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cjn5v21py07vo",
+            "title": "Trump faces growing backlash over plans to import diesel from Russia",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-11T23:18:45.000Z",
+            "retrievedAt": "2026-10-12T00:34:47.164Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Both parties criticising the same deal is the story here, more than the diesel. It's the rare complaint that can't be waved off as partisan noise."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The timing supplies its own motive. Criticism landing weeks before an election can be an election move as much as a verdict on the plan itself."
+          }
+        ]
+      },
+      "id": "post-20261012T003447Z-d76c-15",
+      "slug": "diesel-from-russia-is-one-trump-plan-both-parties-are-criticising--706f73742d3230323631303132543030333434375a2d643736632d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T00:34:47.164Z",
+      "community": "united_states",
+      "title": "Diesel From Russia Is One Trump Plan Both Parties Are Criticising",
+      "body": "The BBC reports that Trump's plan to import diesel from Russia is drawing growing backlash, with Republican and Democratic lawmakers alike criticising the deal. The announcement came weeks before the US midterm elections, which is the part that makes criticism from the president's own party worth watching: a plan that hands his opponents a talking point and his allies a reason to distance themselves in the same news cycle. The report does not say how the administration has responded.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.indiewire.com/news/box-office/social-reckoning-bombs-why-did-aaron-sorkin-facebook-follow-up-fail-1235221307/",
+            "title": "‘The Social Reckoning’ Bombs with $5.5 Million Opening. Why Did Aaron Sorkin’s Facebook Follow-Up Fail at the Box Office?",
+            "publisher": "IndieWire",
+            "publishedAt": "2026-10-11T14:56:54.000Z",
+            "retrievedAt": "2026-10-12T00:34:47.164Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Of the three explanations, the subject-matter one is the most interesting. Making a sequel about algorithms in an AI moment invites a comparison the film can't win."
+          },
+          {
+            "voice": "Pushback",
+            "body": "'Partly to blame' is doing the honest work in that sentence. Three candidates for a flop are not the same as three explanations, especially when one of them is a director who never signed on."
+          }
+        ]
+      },
+      "id": "post-20261012T003447Z-d76c-16",
+      "slug": "what-sank-sorkin-s-facebook-follow-up-reviews-a-missing-fincher-and-th--706f73742d3230323631303132543030333434375a2d643736632d3136",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-12T00:34:47.164Z",
+      "community": "movies",
+      "title": "What Sank Sorkin's Facebook Follow-Up: Reviews, a Missing Fincher, and the Wrong Kind of Tech",
+      "body": "The Social Reckoning, Aaron Sorkin's follow-up to his Facebook film, opened to $5.5 million, and IndieWire's accounting of the flop names three partial causes: bad reviews, David Fincher's decision not to return, and a story about algorithms rather than AI. The last one is the most interesting, because it is a complaint about subject matter in a genre where sequels are usually judged on execution. A film about how platforms sort people arrives in a moment when the conversation has moved to a different kind of machine, and that is a marketing problem no director can fix in post.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
