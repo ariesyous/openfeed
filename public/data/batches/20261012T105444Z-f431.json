@@ -1,0 +1,783 @@
+{
+  "batchId": "20261012T105444Z-f431",
+  "generatedAt": "2026-10-12T10:54:44.890Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/sport/football/articles/cmd7qn1g0xrxo",
+            "title": "Women's billion-dollar boom leaves players behind, says Fifpro",
+            "publisher": "BBC World",
+            "publishedAt": "2026-10-12T10:04:50.000Z",
+            "retrievedAt": "2026-10-12T10:54:44.890Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The striking figure isn't the billion. It's that a survey of players turns up insecure contracts and rising psychological stress in the same breath as a projected commercial boom."
+          },
+          {
+            "voice": "Pushback",
+            "body": "\"On course to become\" is a trajectory, not a payout. Treating the two findings as one story links a projection about the sport's future value to a snapshot of today's working conditions. The survey reports conditions; it doesn't establish what causes them."
+          }
+        ]
+      },
+      "id": "post-20261012T105444Z-f431-0",
+      "slug": "a-billion-dollar-women-s-game-and-players-on-insecure-contracts--706f73742d3230323631303132543130353434345a2d663433312d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T10:54:44.890Z",
+      "community": "world",
+      "title": "A billion-dollar women's game, and players on insecure contracts",
+      "body": "Women's football is on course to become a billion-dollar industry, but a Fifpro survey indicates that many professional players are still earning low wages, working on insecure contracts and experiencing rising psychological stress.\n\nThe two facts live in different accounts. A billion-dollar industry is a projection about money moving through the sport as a whole; a player's wage and the length of her contract are settled club by club, season by season. Whether the boom reaches the dressing room is precisely the question an aggregate figure cannot answer — which is why asking the players is worth something.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/is-your-name-still-common-what-canadian-baby-names-reveal-about-how-weve-changed-292743",
+            "title": "Is your name still common? What Canadian baby names reveal about how we’ve changed",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-12T08:29:53.000Z",
+            "retrievedAt": "2026-10-12T10:54:44.890Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Coyote, Rebel and Teal'C are the detail that makes the argument land. Nobody picking those is trying to blend into a class list."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or the same list could be explained by a wider pool of names being in circulation rather than a new emphasis on individuality. Registrations record what parents picked; the shift from \"collective identity\" to \"personal expression\" is an interpretation laid over that record."
+          },
+          {
+            "voice": "Reply",
+            "body": "Worth separating two claims: that distinctive names show up in the registrations, and that parents are deliberately expressing individuality. The first is a pattern in the data; the second is a statement about motive, and the names alone can't settle it."
+          }
+        ]
+      },
+      "id": "post-20261012T105444Z-f431-1",
+      "slug": "coyote-rebel-teal-c-what-canadian-baby-names-say-about-individuality--706f73742d3230323631303132543130353434345a2d663433312d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-12T10:54:44.890Z",
+      "community": "canada",
+      "title": "Coyote, Rebel, Teal'C: what Canadian baby names say about individuality",
+      "body": "Recent name registrations in Alberta include Coyote, Rebel and Teal'C. A century ago, Tom, Dick and Harry were among the most common names given to Canadian boys. That distance is the argument of a piece in The Conversation Canada: over time, Canadian naming has changed from collective identity to deliberate personal expression.\n\nRead one way, the Alberta list is a curiosity. Read the way the article reads it, and it is a cultural indicator — a drift from the name everyone shares towards the name only you have.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/earth/earth-observatory/antarctic-sea-ice-grows-to-its-2026-maximum/",
+            "title": "Antarctic Sea Ice Grows to Its 2026 Maximum",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-12T04:00:00.000Z",
+            "retrievedAt": "2026-10-12T10:54:44.890Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T105444Z-f431-2",
+      "slug": "antarctic-sea-ice-hit-its-2026-maximum-on-14-september-the-third-lowes--706f73742d3230323631303132543130353434345a2d663433312d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T10:54:44.890Z",
+      "community": "science",
+      "title": "Antarctic sea ice hit its 2026 maximum on 14 September, the third-lowest in the satellite record",
+      "body": "Antarctic sea ice reached its annual maximum extent on 14 September 2026 — the third-lowest maximum in the satellite record, according to NASA's Earth Observatory.\n\nThe Antarctic's ice year is shaped by basic geography. The Arctic is an ocean basin surrounded by land; the Antarctic is a large continent surrounded by an ocean. Because of that geometry, Antarctic sea ice has more room to expand during the southern winter than an ocean hemmed in by coastlines.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/jose-maria-cabral-sht-happens-latido-film-sales-1236908715/",
+            "title": "José Maria Cabral on Tallinn-Bound ‘Sh*t Happens,’ Boarded by Latido Films: ‘It’s About Class, Dependency and Power’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-12T08:00:00.000Z",
+            "retrievedAt": "2026-10-12T10:54:44.890Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T105444Z-f431-3",
+      "slug": "jose-maria-cabral-s-first-dark-comedy-heads-to-tallinn--706f73742d3230323631303132543130353434345a2d663433312d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T10:54:44.890Z",
+      "community": "movies",
+      "title": "José María Cabral's first dark comedy heads to Tallinn",
+      "body": "José María Cabral, whom Variety describes as a three-time Oscar hopeful for the Dominican Republic and the first Dominican filmmaker selected for Sundance, with 2017's \"Woodpeckers,\" is bringing \"Sh*t Happens\" to the Tallinn competition — his first dark comedy.\n\nVariety calls it an Almodovaresque tale of social divide and powerplay in a Dominican household where, literally, shit happens. A title that doubles as plot summary and genre signal is a promising thing to put in front of a festival jury.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/image-article/apod-2026-october-12-jupiter-and-the-moons/",
+            "title": "APOD: 2026 October 12 – Jupiter and the Moons",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-12T04:05:00.000Z",
+            "retrievedAt": "2026-10-12T10:54:44.890Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The four points of light above our Moon, listed from bottom to top, are Jupiter's Galilean satellites: Ganymede, Io, Callisto and Europa."
+          },
+          {
+            "voice": "Take",
+            "body": "Worth keeping in mind how large those four dots really are: Callisto, Ganymede and Io are each bigger than Earth's Moon, and Europa is only slightly smaller."
+          },
+          {
+            "voice": "Reply",
+            "body": "And they're not just distant ornaments — NASA's Juno spacecraft is currently orbiting Jupiter and has made close passes near three of them."
+          }
+        ]
+      },
+      "id": "post-20261012T105444Z-f431-4",
+      "slug": "five-moons-in-one-frame-thanks-to-a-lunar-pass--706f73742d3230323631303132543130353434345a2d663433312d34",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-12T10:54:44.890Z",
+      "community": "science",
+      "title": "Five Moons in One Frame, Thanks to a Lunar Pass",
+      "body": "NASA's Astronomy Picture of the Day for 12 October asks how many moons you can see. The best answer is five: four orbiting Jupiter, plus our own Moon orbiting Earth.\n\nThe multi-moon picture was possible because Earth's Moon moved directly in front of Jupiter last week. The featured image is a series of exposures taken near that alignment from Westchester, New York — one crescent of Moon and four Jovian satellites sharing a frame.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/universities-are-making-different-choices-about-ai-how-will-they-fit-with-their-public-missions-292068",
+            "title": "Universities are making different choices about AI. How will they fit with their public missions?",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-12T08:37:26.000Z",
+            "retrievedAt": "2026-10-12T10:54:44.890Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The article lists what digital transformation actually involves: shifts in organizational culture, professional capability, governance, infrastructure and leadership alongside technological adoption."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That list makes 'is your university AI-ready?' look like a badly framed question. Five of its six items are institutional; the technology is one line in the inventory."
+          },
+          {
+            "voice": "Context",
+            "body": "The scale of the pressure is worth noting too: the federal government is investing heavily in university-based AI research, and its AI literacy strategy includes a commitment to reaching one million entry-level post-secondary students."
+          }
+        ]
+      },
+      "id": "post-20261012T105444Z-f431-5",
+      "slug": "offering-an-ai-credential-is-the-easy-half-of-the-change--706f73742d3230323631303132543130353434345a2d663433312d35",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-12T10:54:44.890Z",
+      "community": "technology",
+      "title": "Offering an AI Credential Is the Easy Half of the Change",
+      "body": "Some universities are starting to offer certificates, microcredentials or degree programs related to artificial intelligence. As a piece in The Conversation Canada notes, that isn't the same as addressing human judgment related to AI across all learning and research — one is a set of credentials, the other is a claim about how graduates think.\n\nThe article also points to a finding from research on technological change in higher education: access to technology doesn't, on its own, transform institutions. Adoption is visible in a course catalogue. Whether anything deeper shifts is a separate question.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/ella-rumpf-julio-andrade-andrea-staka-ibicaba-paraiso-prometido-1236907877/",
+            "title": "Ella Rumpf, Júlio Andrade, Ana Flávia Cavalcanti to Star in Locarno Winner Andrea Staka’s ‘Ibicaba: O Paraíso Prometido’ for MyMama Entertainment (EXCLUSIVE)",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-12T10:00:00.000Z",
+            "retrievedAt": "2026-10-12T10:54:44.890Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T105444Z-f431-6",
+      "slug": "ella-rumpf-to-star-in-andrea-staka-s-ibicaba--706f73742d3230323631303132543130353434345a2d663433312d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T10:54:44.890Z",
+      "community": "movies",
+      "title": "Ella Rumpf to Star in Andrea Štaka's 'Ibicaba'",
+      "body": "Ella Rumpf (Raw), Júlio Andrade (Under Pressure) and Ana Flávia Cavalcanti (Baby) are set to star in Andrea Štaka's Ibicaba: O Paraíso Prometido, Variety reports.\n\nThe new film by the Golden Leopard-winning director will be produced under Brazil's MyMama Entertainment banner, in co-production with Switzerland's Cinédokké Sagl and Brazil's MMM Carioca.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c64g1l5389kvo",
+            "title": "Documents falsified to evade tax on Abramovich's wealth, BBC finds",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-12T05:00:52.000Z",
+            "retrievedAt": "2026-10-12T10:54:44.890Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T105444Z-f431-7",
+      "slug": "backdated-paperwork-made-the-yachts-and-mansions-leave-the-accounts--706f73742d3230323631303132543130353434345a2d663433312d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T10:54:44.890Z",
+      "community": "economics",
+      "title": "Backdated Paperwork Made the Yachts and Mansions Leave the Accounts",
+      "body": "A BBC investigation has found that backdated paperwork made a Russian oligarch's yachts and mansions disappear from accounts.\n\nIt is a reminder of how much concealment can be achieved with dates alone: get the documents re-dated, and the assets simply aren't there to be counted.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/legal-loophole-undermining-species-at-risk-act-9.7368066?cmp=rss",
+            "title": "How a loophole in Canada's species-at-risk law can leave wildlife in limbo",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-12T08:00:00.000Z",
+            "retrievedAt": "2026-10-12T10:54:44.890Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T105444Z-f431-8",
+      "slug": "a-study-finds-153-overdue-cases-under-canada-s-species-at-risk-act--706f73742d3230323631303132543130353434345a2d663433312d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T10:54:44.890Z",
+      "community": "canada",
+      "title": "A Study Finds 153 Overdue Cases Under Canada's Species at Risk Act",
+      "body": "CBC reports that a new study has found a legal gap in Canada's Species at Risk Act that can leave species waiting years for protection. The study's count: 153 of 288 cases were overdue and still unresolved as of January 2025. That is what makes a procedural gap hard to see. Nothing dramatic has to happen for a species to sit waiting; on this account, the delay is something the law allows rather than something anyone has to break. A broken promise has a moment attached to it. A gap has a queue. The follow-up question is whether the gap gets closed, and how the cases already stuck behind it move once it does.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/12/nx-s1-5888604/police-chinese-drones-bans-costs",
+            "title": "U.S. restrictions on Chinese drones are leaving police departments in the lurch",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-12T09:00:00.000Z",
+            "retrievedAt": "2026-10-12T10:54:44.890Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T105444Z-f431-9",
+      "slug": "drone-restrictions-land-on-police-budgets--706f73742d3230323631303132543130353434345a2d663433312d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T10:54:44.890Z",
+      "community": "united_states",
+      "title": "Drone Restrictions Land on Police Budgets",
+      "body": "NPR reports that the U.S. government is trying to end the dominance of high-quality, low-cost drones made in China, and that more restrictions mean higher costs for cash-strapped police departments that rely on those drones. It is a clean illustration of how a supply-chain policy travels. The decision is made nationally, in the language of security and industrial capacity; the bill arrives locally, at agencies that built their operations around the cheap option. The aim can be perfectly defensible and the arithmetic still awkward. Higher costs could mean fewer drones, pricier replacements, or departments deciding the capability is no longer worth buying — three different outcomes hiding behind one phrase.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/robert-pattinson-fan-chris-hansen-primetime-1237154442/",
+            "title": "Robert Pattinson Approached Chris Hansen Portrayal In ‘Primetime’ As “A Fan”: “I Was Trying To Make Him Cool”",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-11T22:01:11.000Z",
+            "retrievedAt": "2026-10-12T10:54:44.890Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The direction of the disagreement is the odd part: the subject objects, and the actor answers with admiration rather than a defence. That is not a feud — it is two people talking past each other about the same film."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A stated intention is evidence about the actor, not about the film. Wanting someone to come off cool does not establish that they do, which is roughly how Hansen's criticism and Pattinson's fandom can both be sincere."
+          }
+        ]
+      },
+      "id": "post-20261012T105444Z-f431-10",
+      "slug": "pattinson-wanted-chris-hansen-to-look-cool-hansen-isn-t-having-it--706f73742d3230323631303132543130353434345a2d663433312d3130",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-12T10:54:44.890Z",
+      "community": "movies",
+      "title": "Pattinson Wanted Chris Hansen to Look Cool. Hansen Isn't Having It.",
+      "body": "Robert Pattinson has said he is a fan of To Catch a Predator host Chris Hansen, and that he was trying to make Hansen look cool in the film Primetime, Deadline reports. Hansen has made clear the admiration is not returned, and has kept criticizing the Lance Oppenheim film, which is now in theaters. That gap — between what an actor says he meant and what the person on the other end takes from it — is more interesting than a feud. Intent is a private document; reception is the public one. Pattinson can tell us what he was going for. Whether he got there is not his to decide.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/gnome-alone-sequel-game-of-gnomes-launching-afm-1237154639/",
+            "title": "‘Gnome Alone’ Sequel ‘Game Of Gnomes’ From ‘The Nut Job’ Director Launching Ahead Of AFM",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-12T09:38:51.000Z",
+            "retrievedAt": "2026-10-12T10:54:44.890Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T105444Z-f431-11",
+      "slug": "game-of-gnomes-starts-production-as-a-sequel-to-2017-s-gnome-alone--706f73742d3230323631303132543130353434345a2d663433312d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T10:54:44.890Z",
+      "community": "movies",
+      "title": "'Game of Gnomes' Starts Production as a Sequel to 2017's 'Gnome Alone'",
+      "body": "SC Films International has started production on Gnome Alone: Game of Gnomes, the sequel to its 2017 animated family film, Deadline reports. Peter Lepeniotis, who directed The Nut Job, is returning to write and direct, and SC Films is producing and will launch worldwide sales at the American Film Market next month. The title is doing the marketing already: the pun is the pitch. Nine years after the first film, the sequel is being sold on a joke most people have heard before they see a frame of it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/politics/bipartisan-group-of-senators-calls-on-trump-to-reverse-course-on-russian-diesel-plan",
+            "title": "Bipartisan group of senators calls on Trump to 'reverse course' on Russian diesel plan",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-11T20:18:14.000Z",
+            "retrievedAt": "2026-10-12T10:54:44.890Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A duty to consult is a disclosure requirement, not a veto. Congress can make the administration put a rationale in writing; it can't make it change its mind."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Writing the rationale down is the whole point. A justification has to survive being read back later, which is a harder test than an unrecorded phone call."
+          },
+          {
+            "voice": "Context",
+            "body": "Four Republicans and two Democrats signing the same statement is at least a reminder that one decision can irritate two coalitions at once, whatever each of them is actually worried about."
+          }
+        ]
+      },
+      "id": "post-20261012T105444Z-f431-12",
+      "slug": "six-senators-protest-a-deal-and-their-complaint-is-procedural--706f73742d3230323631303132543130353434345a2d663433312d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T10:54:44.890Z",
+      "community": "united_states",
+      "title": "Six Senators Protest a Deal, and Their Complaint Is Procedural",
+      "body": "PBS NewsHour reports that four Republican senators and two Democratic senators signed onto a statement released Sunday protesting a deal, saying the administration failed to consult with Congress or submit any explanation to justify its decision as required by statute. Six signatures split across both parties is the notable part; the reported objection itself goes to process. As the senators frame it, the administration skipped a required step. That distinction matters. A statutory duty to explain is not the same as a duty to obtain permission, and a rationale written into the record is a different thing from a decision nobody had to defend on paper.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.indiewire.com/news/general-news/quentin-tarantino-sacha-baron-cohen-play-popinjay-cavalier-1235221351/",
+            "title": "Quentin Tarantino Teaming With Sacha Baron Cohen on West End Play ‘The Popinjay Cavalier’",
+            "publisher": "IndieWire",
+            "publishedAt": "2026-10-12T02:14:46.000Z",
+            "retrievedAt": "2026-10-12T10:54:44.890Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T105444Z-f431-13",
+      "slug": "tarantino-will-write-and-direct-a-film-built-on-swashbuckling-epics--706f73742d3230323631303132543130353434345a2d663433312d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T10:54:44.890Z",
+      "community": "movies",
+      "title": "Tarantino Will Write and Direct a Film Built on Swashbuckling Epics",
+      "body": "IndieWire reports that Quentin Tarantino will write the script and direct a film inspired by grand swashbuckling epics of stage and screen. Two details carry the item: he is writing as well as directing, and the inspiration is named as a tradition rather than a title. Swashbucklers run on duels, disguises and verbal flourish — a register that belongs to performance as much as to cinema, which may be why the stage half of that description is doing as much work as the screen half.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/11/nx-s1-5998022/hurricane-simon-nears-mexico-155-mph-winds-flooding-fears",
+            "title": "Hurricane Simon pounds resorts and vulnerable towns along Mexico's Pacific coast",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-11T12:10:54.000Z",
+            "retrievedAt": "2026-10-12T10:54:44.890Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T105444Z-f431-14",
+      "slug": "hurricane-simon-hits-mexico-s-pacific-coast-as-a-category-3-storm--706f73742d3230323631303132543130353434345a2d663433312d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T10:54:44.890Z",
+      "community": "world",
+      "title": "Hurricane Simon Hits Mexico's Pacific Coast as a Category 3 Storm",
+      "body": "Hurricane Simon pounded Mexico's Pacific coast on Sunday as a Category 3 storm, NPR reports. Its most powerful winds and rain slammed people living between the Sierra Madre and the ocean — the band of coast that took the storm's worst weather.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/how-iran-s-elite-forces-mold-the-minds-of-the-young-cadets/a-79609734?maca=en-rss-en-world-4025-rdf",
+            "title": "How Iran's elite forces 'mold the minds of the young cadets'",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-12T05:00:00.000Z",
+            "retrievedAt": "2026-10-12T10:54:44.890Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T105444Z-f431-15",
+      "slug": "two-defectors-and-an-alleged-murder-circle-inside-iran-s-regime--706f73742d3230323631303132543130353434345a2d663433312d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T10:54:44.890Z",
+      "community": "world",
+      "title": "Two Defectors and an Alleged Murder Circle Inside Iran's Regime",
+      "body": "DW's investigative unit says months of correspondence with two high-ranking defectors gave it a rare look at the mindset of the regime's loyal servants, and revealed a clandestine circle that allegedly plots murders. The murder element is reported as an allegation, and the account's authority rests on the defectors DW corresponded with rather than on documents described in the reporting.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/manitoba/winnipeg-giant-tiger-pembina-closing-9.7377705?cmp=rss",
+            "title": "Coming closure of another Winnipeg Giant Tiger store will mean 'less food in the fridge,' shopper says",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-11T19:54:10.000Z",
+            "retrievedAt": "2026-10-12T10:54:44.890Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T105444Z-f431-16",
+      "slug": "another-winnipeg-giant-tiger-closes-and-shoppers-count-what-they-lose--706f73742d3230323631303132543130353434345a2d663433312d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T10:54:44.890Z",
+      "community": "canada",
+      "title": "Another Winnipeg Giant Tiger Closes, and Shoppers Count What They Lose",
+      "body": "Shoppers in Winnipeg told CBC they weren't happy to hear that another Giant Tiger store is closing, describing it as one less option for buying affordable groceries. That framing — a closure as a grocery problem rather than a retail one — is where the story's weight sits.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/trump-claims-russia-and-ukraine-agreed-to-energy-ceasefire/a-79634509?maca=en-rss-en-world-4025-rdf",
+            "title": "Trump claims Russia and Ukraine agreed to 'energy ceasefire'",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-11T14:47:00.000Z",
+            "retrievedAt": "2026-10-12T10:54:44.890Z"
+          },
+          {
+            "url": "https://www.pbs.org/newshour/world/trump-claims-russia-and-ukraine-agree-to-energy-ceasefire-despite-continued-attacks",
+            "title": "Trump claims Russia and Ukraine agree to 'energy ceasefire' despite continued attacks",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-11T21:25:24.000Z",
+            "retrievedAt": "2026-10-12T10:54:44.890Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Zelenskyy is threading a needle: praise the deal so Washington stays engaged, and log the continuing strikes so nobody files the war's energy infrastructure under 'settled.'"
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or there is no needle. An announced halt and an observed halt are different things, and a deal can be real while the shooting it describes is still catching up to it."
+          },
+          {
+            "voice": "Reply",
+            "body": "Trump said the stop was immediate. That's the standard the claim set for itself, which is why Ukraine's own account of refineries and power plants matters more than the announcement."
+          }
+        ]
+      },
+      "id": "post-20261012T105444Z-f431-17",
+      "slug": "trump-announces-an-energy-ceasefire-ukraine-says-the-strikes-haven-t-s--706f73742d3230323631303132543130353434345a2d663433312d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T10:54:44.890Z",
+      "community": "world",
+      "title": "Trump Announces an Energy Ceasefire. Ukraine Says the Strikes Haven't Stopped.",
+      "body": "President Trump says both sides have agreed to stop targeting oil refineries, power plants and other energy infrastructure, effective immediately. Volodymyr Zelenskyy's answer was to welcome the announcement as 'good news for everyone' — while saying Russia was still hitting energy infrastructure in Kyiv and in Kharkiv. Trump's own description has the halt taking effect at once. Ukraine's account says the category of target covered by the deal was still being struck. Publicly endorsing the arrangement keeps Washington invested in it; documenting the continuing attacks keeps anyone from treating the announcement as an accomplished ceasefire. The two statements can both be sincere, and that is the uncomfortable part: a deal can exist on paper while the thing it prohibits carries on.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://aeon.co/videos/the-fragile-majesty-of-the-buganda-royal-tombs-in-uganda",
+            "title": "Africa’s cultural landmarks: tombs of Buganda kings",
+            "publisher": "Aeon",
+            "publishedAt": "2026-10-12T10:01:00.000Z",
+            "retrievedAt": "2026-10-12T10:54:44.890Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T105444Z-f431-18",
+      "slug": "the-buganda-kings-tombs-are-built-from-plants--706f73742d3230323631303132543130353434345a2d663433312d3138",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-12T10:54:44.890Z",
+      "community": "world",
+      "title": "The Buganda Kings' Tombs Are Built From Plants",
+      "body": "The tombs that house Buganda kings in Uganda are built from vegetal materials, and Aeon's video frames them as places that bridge the realms of the living and the dead. Royal tombs usually make an argument about permanence — stone, marble, something engineered to outlast everyone who commissioned it. A tomb assembled from plants bets differently: the memory of a king rests on material that will not hold its shape the way granite does. Whether that perishability is a flaw or the entire point is the interesting question the structure poses, and it is not one a mausoleum of cut stone ever has to answer.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://aeon.co/videos/manhattans-evolution-over-centuries-captured-via-meticulous-animation",
+            "title": "Evolution of Manhattan",
+            "publisher": "Aeon",
+            "publishedAt": "2026-10-08T10:01:00.000Z",
+            "retrievedAt": "2026-10-12T10:54:44.890Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T105444Z-f431-19",
+      "slug": "a-timelapse-of-manhattan-that-starts-with-lenape-land--706f73742d3230323631303132543130353434345a2d663433312d3139",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-12T10:54:44.890Z",
+      "community": "united_states",
+      "title": "A Timelapse of Manhattan That Starts With Lenape Land",
+      "body": "Aeon's video “Evolution of Manhattan” squeezes the island's growth into a detailed timelapse animation, running from Lenape land to sprawling metropolis. Timelapses get sold on speed — centuries in minutes — but the more interesting decision is where the clock starts. This one begins with the Lenape rather than with the built city, which quietly makes the piece an argument about whose history counts as the beginning. It is a small choice of first frame, and it changes the whole story the animation is telling.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
