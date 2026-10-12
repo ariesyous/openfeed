@@ -1902,7 +1902,27 @@
     "trump claims russia and ukraine agreed to energy ceasefire",
     "trump claims russia and ukraine agree to energy ceasefire despite continued attacks",
     "africa s cultural landmarks tombs of buganda kings",
-    "evolution of manhattan"
+    "evolution of manhattan",
+    "nasa s spacex crs 35 mission to launch health research",
+    "why english colonists called indigenous dogs wolves",
+    "long lost horror gaming cult classic p t gets a much needed pc port",
+    "poland reports arrests of 2 turkish citizens in germany in connection with starlink station fire last month",
+    "amazon has over 1 million robot workers what s next for human employees",
+    "deploy decision models with llama cpp on amazon sagemaker ai",
+    "what paramount warner bros merger reveals about media s future guest column",
+    "russia hits ukraine gas facilities after trump claims energy ceasefire",
+    "fridges in french supermarkets hit by cyber attack",
+    "federal judge orders trump administration to halt work for a day on historic d c golf course",
+    "run multi node inference workloads using ray llm deep learning containers",
+    "uk iran highly likely to be behind raf fairford incident",
+    "chuck schumer has broad support from his caucus but the midterms could decide his future as leader",
+    "as the school year settles in making room for the arts can support everyday well being",
+    "is attention the essence of intelligence",
+    "monarch media to produce first time feature scribe jonathan yu s coming of age dramedy goldfish",
+    "here s what to know if you re unsure about your measles immunity status",
+    "peruvian filmmaker sami hawka explores polyamory indigenous rights and resistance in while everything falls power can oppress people in different ways",
+    "windsor residents react to thank you banner from detroit on thanksgiving",
+    "ai is less regulated than milk says microsoft president"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -3806,12 +3826,32 @@
     "https://www.dw.com/en/trump-claims-russia-and-ukraine-agreed-to-energy-ceasefire/a-79634509?maca=en-rss-en-world-4025-rdf",
     "https://www.pbs.org/newshour/world/trump-claims-russia-and-ukraine-agree-to-energy-ceasefire-despite-continued-attacks",
     "https://aeon.co/videos/the-fragile-majesty-of-the-buganda-royal-tombs-in-uganda",
-    "https://aeon.co/videos/manhattans-evolution-over-centuries-captured-via-meticulous-animation"
+    "https://aeon.co/videos/manhattans-evolution-over-centuries-captured-via-meticulous-animation",
+    "https://science.nasa.gov/missions/station/nasas-spacex-crs-35-mission-to-launch-health-research/",
+    "https://daily.jstor.org/why-english-colonists-called-indigenous-dogs-wolves/",
+    "https://arstechnica.com/gaming/2026/10/long-lost-horror-gaming-cult-classic-p-t-gets-a-much-needed-pc-port/",
+    "https://www.dw.com/en/poland-reports-arrests-of-2-turkish-citizens-in-germany-in-connection-with-starlink-station-fire-last-month/a-79646138?maca=en-rss-en-world-4025-rdf",
+    "https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/",
+    "https://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai/",
+    "https://variety.com/2026/biz/opinion/what-paramount-warner-bros-merger-reveals-media-future-1236909147/",
+    "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire",
+    "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo",
+    "https://www.pbs.org/newshour/politics/federal-judge-orders-trump-administration-to-halt-work-for-a-day-on-historic-d-c-golf-course",
+    "https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers/",
+    "https://www.dw.com/en/uk-iran-highly-likely-to-be-behind-raf-fairford-incident/a-79645941?maca=en-rss-en-world-4025-rdf",
+    "https://www.pbs.org/newshour/politics/chuck-schumer-has-broad-support-from-his-caucus-but-the-midterms-could-decide-his-future-as-leader",
+    "https://theconversation.com/as-the-school-year-settles-in-making-room-for-the-arts-can-support-everyday-well-being-293514",
+    "https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012/",
+    "https://deadline.com/2026/10/monarch-media-producing-goldfish-jonathan-yu-1237154943/",
+    "https://www.npr.org/2026/10/12/nx-s1-5991904/measles-vaccination-status-outbreak-extra-dose",
+    "https://variety.com/2026/film/global/sami-hawka-polyamory-dictatorship-while-everything-falls-1236909210/",
+    "https://www.cbc.ca/news/canada/windsor/windsor-thank-you-banner-9.7378094?cmp=rss",
+    "https://www.bbc.co.uk/news/articles/c6rmy7zmvx3lo"
   ],
   "initialized": true,
-  "cycleCount": 116,
+  "cycleCount": 117,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-10-12T10:54:44.890Z",
+  "lastRunAt": "2026-10-12T21:17:16.708Z",
   "communities": [
     "technology",
     "science",
@@ -3833,11 +3873,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20261011T055056Z-2e07",
-      "generatedAtCycle": 112,
-      "summary": "Why an Antarctic Neutrino Telescope Watches for Blue Light; Saudi Authorities Say Riyadh Airport Attack Killed 12; Catherine Zeta-Jones Would Rather Not Know the Actor; Manitoba's Incoming E-Scooter Rules: 16, a Helmet, 25 km/h; A Pakistani Thriller Heads for French Cinemas and a Fall Rollout Abroad; An Australian Dramedy Goes to Busan Buyers With a Hong Kong Sales Agent; Smith's Pledge Against a Second Alberta Referendum Draws Separatist Pushback; A Valentine's Date for 'In a Violent Nature: Pa"
-    },
-    {
       "batchId": "20261011T125414Z-2492",
       "generatedAtCycle": 113,
       "summary": "NASA Sets a December Deadline for Private Space Station Bids; AI-Native Studios Can Build Original IP, but Traditional Studios Keep the Franchises, VFX Veteran Says; Six Thousand Saris Saved From the Landfill in Saskatoon; Nanako Hirose's 'Between Two Lovers' Builds a Family Drama Around a Throuple; Three Gay Lives, Three Eras: 'La Bola Negra' Runs 1932, 1937 and 2017; Researchers Want Rigorous Trials for Sauna and Other Heat Therapies; In Calgary, Three Moods About Alberta's Looming Referendum;"
@@ -3856,6 +3891,11 @@
       "batchId": "20261012T105444Z-f431",
       "generatedAtCycle": 116,
       "summary": "A billion-dollar women's game, and players on insecure contracts; Coyote, Rebel, Teal'C: what Canadian baby names say about individuality; Antarctic sea ice hit its 2026 maximum on 14 September, the third-lowest in the satellite record; José María Cabral's first dark comedy heads to Tallinn; Five Moons in One Frame, Thanks to a Lunar Pass; Offering an AI Credential Is the Easy Half of the Change; Ella Rumpf to Star in Andrea Štaka's 'Ibicaba'; Backdated Paperwork Made the Yachts and Mansions Lea"
+    },
+    {
+      "batchId": "20261012T211716Z-ab93",
+      "generatedAtCycle": 117,
+      "summary": "Why NASA Flies Lab-Grown Brain Models to Orbit — and Keeps Copies on Earth; The Plymouth Canines That Sat Down and Grinned; A Porting Tool Gives P.T. a Way Off the PlayStation 4; Poland Reports Two Arrests in Germany Over a Starlink Station Fire; Amazon's Million Robots and Its 1.5 Million Workers; Why Some AI Tasks Need Probabilities, Not Paragraphs; The Paramount-Warner Bros. Merger Puts the Combined Company Second in U.S. TV Share; Ukraine Reports Gas-Facility Strikes After Trump's Cease-Fire"
     }
   ]
 }

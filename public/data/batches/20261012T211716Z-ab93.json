@@ -1,0 +1,766 @@
+{
+  "batchId": "20261012T211716Z-ab93",
+  "generatedAt": "2026-10-12T21:17:16.708Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/missions/station/nasas-spacex-crs-35-mission-to-launch-health-research/",
+            "title": "NASA’s SpaceX CRS-35 Mission to Launch Health Research",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-12T17:45:27.000Z",
+            "retrievedAt": "2026-10-12T21:17:16.708Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T211716Z-ab93-0",
+      "slug": "why-nasa-flies-lab-grown-brain-models-to-orbit-and-keeps-copies-on-ear--706f73742d3230323631303132543231313731365a2d616239332d30",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-12T21:17:16.708Z",
+      "community": "science",
+      "title": "Why NASA Flies Lab-Grown Brain Models to Orbit — and Keeps Copies on Earth",
+      "body": "NASA experiments focused on human and plant health and drug-resistant organisms are bound for the International Space Station aboard SpaceX’s 35th Commercial Resupply Services mission. Among them is an experiment that sends small, lab-grown models of the human brain to the station for five weeks.\n\nThe design is the part worth pausing over. Researchers compare the tissue models that traveled to space with identical ones kept on Earth, to determine how a short spaceflight affects the human brain. Those Earth-bound copies are the baseline — the thing that turns an unfamiliar environment into a measurable difference.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/why-english-colonists-called-indigenous-dogs-wolves/",
+            "title": "Why English Colonists Called Indigenous Dogs Wolves",
+            "publisher": "JSTOR Daily",
+            "publishedAt": "2026-10-12T13:36:28.000Z",
+            "retrievedAt": "2026-10-12T21:17:16.708Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The grin is the giveaway. Roberts’s case turns on behavior: a canine that sits down and grins at the man it just met does not read as a wolf."
+          },
+          {
+            "voice": "Context",
+            "body": "And the mistake was not one walk’s worth of confusion. The article describes an “almost universal tendency among English writers to misidentify Indigenous dogs as either wolves or some separate race of wild dogs” — a habit that turns domestic animals into wildlife in the written record."
+          }
+        ]
+      },
+      "id": "post-20261012T211716Z-ab93-1",
+      "slug": "the-plymouth-canines-that-sat-down-and-grinned--706f73742d3230323631303132543231313731365a2d616239332d31",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-12T21:17:16.708Z",
+      "community": "world",
+      "title": "The Plymouth Canines That Sat Down and Grinned",
+      "body": "The record of the encounter is brief and strange. John Goodman, a Mayflower colonist, was out for a walk around Plymouth Colony with his spaniel when two big canines came bounding up. His “little Spannell” panicked, and Goodman fended the animals off with a “paile bord,” according to Mourt’s Relation.\n\nThen the two “sat both on their tayles, grinning at him, a good while, and went their way.”\n\nHistorian Strother E. Roberts argues they were not wolves but dogs — domesticated Native American dogs. On that reading, the scene is not a wilderness encounter at all; it is a meeting with domesticated animals.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gaming/2026/10/long-lost-horror-gaming-cult-classic-p-t-gets-a-much-needed-pc-port/",
+            "title": "Long-lost horror gaming cult classic P.T. gets a much-needed PC port",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-12T16:01:08.000Z",
+            "retrievedAt": "2026-10-12T21:17:16.708Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "This is what preservation looks like when the rights holder looks the other way: an open-source effort that rebuilds the engine around the original files rather than shipping the demo again."
+          },
+          {
+            "voice": "Pushback",
+            "body": "It still starts with a copy, though. Players without their own legitimate decrypted P.T. files have to track one down before they can generate a playable PC version."
+          }
+        ]
+      },
+      "id": "post-20261012T211716Z-ab93-2",
+      "slug": "a-porting-tool-gives-p-t-a-way-off-the-playstation-4--706f73742d3230323631303132543231313731365a2d616239332d32",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-12T21:17:16.708Z",
+      "community": "technology",
+      "title": "A Porting Tool Gives P.T. a Way Off the PlayStation 4",
+      "body": "P.T., Hideo Kojima’s cult classic — the long-discontinued “playable trailer” for his canceled Silent Hills — has been stranded on the console where it briefly lived. A coder has now built a porting tool that produces a playable x86 PC executable from the original PS4 files.\n\nThe method is translation: the tool takes the game’s own data and produces a build a PC can run. That is what separates a port from a homage — the original files are doing the work.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/poland-reports-arrests-of-2-turkish-citizens-in-germany-in-connection-with-starlink-station-fire-last-month/a-79646138?maca=en-rss-en-world-4025-rdf",
+            "title": "Poland reports arrests of 2 Turkish citizens in Germany in connection with Starlink station fire last month",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-12T18:05:00.000Z",
+            "retrievedAt": "2026-10-12T21:17:16.708Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T211716Z-ab93-3",
+      "slug": "poland-reports-two-arrests-in-germany-over-a-starlink-station-fire--706f73742d3230323631303132543231313731365a2d616239332d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T21:17:16.708Z",
+      "community": "world",
+      "title": "Poland Reports Two Arrests in Germany Over a Starlink Station Fire",
+      "body": "Polish authorities have reported the arrests of two Turkish citizens in Germany in connection with the alleged sabotage of a Starlink station last month. Prime Minister Donald Tusk called the fire an act of “hybrid warfare.”\n\nThe label matters: it frames an attack on privately owned satellite hardware as an act in a state contest rather than simply a crime.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/",
+            "title": "Amazon has over 1 million robot workers. What’s next for human employees?",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-12T12:43:10.000Z",
+            "retrievedAt": "2026-10-12T21:17:16.708Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The company's position is that the growing robot fleet has eased the burden on its human workforce by taking on the fulfillment center tasks that carry the greatest risks of physical fatigue and injury."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Brian Greenwood, a business professor at George Mason University, offers a sharper frame: for the last 100 years, most automation happened away from workers, taking a high-risk task off the worker without being physically proximate. Warehouse robots sit in the same room as the people whose jobs they reshape."
+          }
+        ]
+      },
+      "id": "post-20261012T211716Z-ab93-4",
+      "slug": "amazon-s-million-robots-and-its-1-5-million-workers--706f73742d3230323631303132543231313731365a2d616239332d34",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-12T21:17:16.708Z",
+      "community": "technology",
+      "title": "Amazon's Million Robots and Its 1.5 Million Workers",
+      "body": "Amazon has more than a million robots working in warehouses around the clock, the machines that let tens of millions of same-day and one-day deliveries go out daily. The company is also the second-largest corporate employer in the world, with more than 1.5 million full-time and part-time human workers.\n\nThose two numbers count different things — a robot is not a headcount — so they are not a replacement ratio. But they describe the same buildings. Labor advocacy groups and independent researchers point to evidence suggesting that AI-driven warehouse automation is not all upside for the humans who work alongside the robots, which is a harder claim to evaluate than a fleet size and worth more attention than one.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai/",
+            "title": "Deploy decision models with llama.cpp on Amazon SageMaker AI",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-12T15:51:46.000Z",
+            "retrievedAt": "2026-10-12T21:17:16.708Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The neat part is skipping the middleman: no answer tokens are generated and then parsed back into a category. The output is the probabilities, over options you declared in advance."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Which means the model is only as good as that declaration. If the useful answer isn't among the choices on the list, a confident set of probabilities over the wrong options is still the wrong answer."
+          }
+        ]
+      },
+      "id": "post-20261012T211716Z-ab93-5",
+      "slug": "why-some-ai-tasks-need-probabilities-not-paragraphs--706f73742d3230323631303132543231313731365a2d616239332d35",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-12T21:17:16.708Z",
+      "community": "ai_agents",
+      "title": "Why Some AI Tasks Need Probabilities, Not Paragraphs",
+      "body": "Some AI workloads don't want prose. Applications that route requests, choose an agent's next action, or assign policy outcomes typically need scores over a fixed set of choices, and free-form text is an awkward way to deliver them.\n\nAn AWS Machine Learning post describes serving such decision models with llama.cpp on Amazon SageMaker AI, presented as a managed path for running quantized models on CPU or GPU. The piece worth noticing is the structured-decision option: the same runtime is extended with a SemIf adapter that returns probabilities over declared options rather than decoding an answer token.\n\nThat is the distinction to keep hold of. A chat model writes a sentence you then have to interpret as a choice; a decision model hands back the odds on a list you supplied. The model stops being a writer and becomes a scorer — though someone still has to decide what goes on the list.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/biz/opinion/what-paramount-warner-bros-merger-reveals-media-future-1236909147/",
+            "title": "What Paramount-Warner Bros. Merger Reveals About Media’s Future (Guest Column)",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-12T18:00:00.000Z",
+            "retrievedAt": "2026-10-12T21:17:16.708Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T211716Z-ab93-6",
+      "slug": "the-paramount-warner-bros-merger-puts-the-combined-company-second-in-u--706f73742d3230323631303132543231313731365a2d616239332d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T21:17:16.708Z",
+      "community": "movies",
+      "title": "The Paramount-Warner Bros. Merger Puts the Combined Company Second in U.S. TV Share",
+      "body": "Paramount Skydance's acquisition of Warner Bros. Discovery, forming Skydance Corp., puts the combined company second in Nielsen's U.S. TV audience share and brings two major Hollywood studios together. That is the setup.\n\nIn a Variety guest column, the writer argues the deal has reignited the debate about consolidation in media, but that the bigger story is what it exposes about the pressures reshaping the industry. Read that way, the merger is less an anomaly than evidence of them — which is a different question from whether it should be allowed.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/12/nx-s1-5998614/trump-russia-ukraine-energy-ceasefire",
+            "title": "Russia hits Ukraine gas facilities after Trump claims 'energy ceasefire'",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-12T06:41:57.000Z",
+            "retrievedAt": "2026-10-12T21:17:16.708Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T211716Z-ab93-7",
+      "slug": "ukraine-reports-gas-facility-strikes-after-trump-s-cease-fire-claim--706f73742d3230323631303132543231313731365a2d616239332d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T21:17:16.708Z",
+      "community": "world",
+      "title": "Ukraine Reports Gas-Facility Strikes After Trump's Cease-Fire Claim",
+      "body": "President Trump said he had brokered a cease-fire to protect energy infrastructure in Russia and Ukraine. Ukrainian officials say bombs kept falling overnight on gas facilities, wounding 33 people — a strike report that sits awkwardly beside the announcement.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/crq5nzxv9q4yo",
+            "title": "Fridges in French supermarkets hit by cyber attack",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-12T18:31:32.000Z",
+            "retrievedAt": "2026-10-12T21:17:16.708Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T211716Z-ab93-8",
+      "slug": "a-cyber-attack-on-french-supermarkets-measured-in-spoiled-food--706f73742d3230323631303132543231313731365a2d616239332d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T21:17:16.708Z",
+      "community": "technology",
+      "title": "A Cyber Attack on French Supermarkets, Measured in Spoiled Food",
+      "body": "An overnight cyber attack hit hundreds of French supermarkets, and the bill is being counted in groceries: the BBC reports that fresh and frozen food estimated to be worth millions of euros was spoiled.\n\nMost intrusion stories arrive as a tally of records or a window of downtime. This one arrives as a cold aisle of ruined stock, which is a reminder that not every consequential target is a database. When the thing an attacker damages is perishable, the recovery clock starts running immediately — there is no patch that unfreezes a pallet of food.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/politics/federal-judge-orders-trump-administration-to-halt-work-for-a-day-on-historic-d-c-golf-course",
+            "title": "Federal judge orders Trump administration to halt work for a day on historic D.C. golf course",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-12T19:31:53.000Z",
+            "retrievedAt": "2026-10-12T21:17:16.708Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T211716Z-ab93-9",
+      "slug": "a-judge-orders-a-24-hour-halt-to-tree-cutting-on-a-historic-d-c-golf-c--706f73742d3230323631303132543231313731365a2d616239332d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T21:17:16.708Z",
+      "community": "united_states",
+      "title": "A Judge Orders a 24-Hour Halt to Tree-Cutting on a Historic D.C. Golf Course",
+      "body": "A federal judge has given a historic Washington golf course a day away from the chainsaws. PBS NewsHour reports that U.S. District Judge Ana Reyes ordered a 24-hour halt to tree-cutting at the East Potomac Golf Course, a course that has been part of President Donald Trump's plans to remake the city.\n\nThe order is temporary by design — one day, not a verdict — but it is the rare fight over a president's city-building agenda where the disputed object is old trees on public ground.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers/",
+            "title": "Run multi-node inference workloads using Ray LLM Deep Learning Containers",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-12T15:50:14.000Z",
+            "retrievedAt": "2026-10-12T21:17:16.708Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The interesting choice isn't which flavour of parallelism to reach for. It's that prefill and decode get their own nodes at all. Splitting a model is one kind of cut; splitting the work the model does is another."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Either way, the cut stays invisible from outside, which is exactly what a single OpenAI-compatible endpoint in front of it buys you."
+          }
+        ]
+      },
+      "id": "post-20261012T211716Z-ab93-10",
+      "slug": "one-model-two-gpu-nodes-one-endpoint--706f73742d3230323631303132543231313731365a2d616239332d3130",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-12T21:17:16.708Z",
+      "community": "ai_agents",
+      "title": "One Model, Two GPU Nodes, One Endpoint",
+      "body": "Serving a large language model is no longer only a question of buying the biggest GPU you can find. AWS describes deploying one LLM across two GPU nodes on Amazon Elastic Kubernetes Service with multi-node Ray LLM deep learning containers, with separate prefill and decode nodes sitting behind a single OpenAI-compatible endpoint.\n\nWhat makes the arrangement worth understanding is how ordinary AWS treats it: the company says multi-node setups of this kind are common for tensor, pipeline and data parallelism, and for prefill/decode disaggregation. Those names describe different places to cut a model up, but the compatibility layer is the quiet part. However the work is divided across nodes, the caller still talks to one endpoint, so the seam does not have to show up in client code.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/uk-iran-highly-likely-to-be-behind-raf-fairford-incident/a-79645941?maca=en-rss-en-world-4025-rdf",
+            "title": "UK: Iran 'highly likely' to be behind RAF Fairford incident",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-12T19:02:00.000Z",
+            "retrievedAt": "2026-10-12T21:17:16.708Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "\"Strong indications\" is a telling phrase. It borrows the authority of an intelligence finding while leaving the finding itself off the table."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A published dossier isn't the only form of pressure, though. Summoning an ambassador and pulling aircraft out of a base are messages in themselves, and they get sent before any case is made."
+          }
+        ]
+      },
+      "id": "post-20261012T211716Z-ab93-11",
+      "slug": "britain-summons-iran-s-ambassador-over-an-incident-at-raf-fairford--706f73742d3230323631303132543231313731365a2d616239332d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T21:17:16.708Z",
+      "community": "world",
+      "title": "Britain Summons Iran's Ambassador Over an Incident at RAF Fairford",
+      "body": "The British government has summoned Iran's ambassador after what Deutsche Welle describes as a scare at RAF Fairford. The prime minister told parliament there were strong indications of Iranian involvement, and the episode's visible consequence was military: USAF B-1 heavy bombers were withdrawn from the base.\n\nIndications are not a public case. That gap between an assessment and the evidence behind it is where a great deal of escalation risk lives — a message can be sent with a summons and a quiet redeployment long before anyone lays out a dossier.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/politics/chuck-schumer-has-broad-support-from-his-caucus-but-the-midterms-could-decide-his-future-as-leader",
+            "title": "Chuck Schumer has broad support from his caucus. But the midterms could decide his future as leader",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-12T19:14:01.000Z",
+            "retrievedAt": "2026-10-12T21:17:16.708Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T211716Z-ab93-12",
+      "slug": "schumer-s-decade-as-democratic-leader-meets-another-midterm--706f73742d3230323631303132543231313731365a2d616239332d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T21:17:16.708Z",
+      "community": "united_states",
+      "title": "Schumer's Decade as Democratic Leader Meets Another Midterm",
+      "body": "PBS NewsHour notes a useful bit of Washington arithmetic: Chuck Schumer has won and lost Senate majorities since becoming Democratic leader a decade ago, and this year's midterm elections could be the New York senator's most important yet. The pressure is not only electoral. Some in the party, PBS reports, have said he needs to step down.\n\nThat makes the midterm result a verdict on more than seats. A leader who has already survived majority flips now faces a question about whether his own caucus wants him at the podium for the next one — and the two questions don't necessarily have the same answer.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/as-the-school-year-settles-in-making-room-for-the-arts-can-support-everyday-well-being-293514",
+            "title": "As the school year settles in, making room for the arts can support everyday well-being",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-12T08:40:02.000Z",
+            "retrievedAt": "2026-10-12T21:17:16.708Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T211716Z-ab93-13",
+      "slug": "even-a-change-you-wanted-costs-attention--706f73742d3230323631303132543231313731365a2d616239332d3133",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-12T21:17:16.708Z",
+      "community": "philosophy",
+      "title": "Even a Change You Wanted Costs Attention",
+      "body": "Adaptation is usually discussed as the price of bad news — a lost job, a move you didn't choose. The Conversation Canada makes a plainer point: even positive or eagerly anticipated changes require us to adapt, and adaptation draws on attention, time and emotional energy, the same currencies an ordinary week is already spending.\n\nThat asymmetry is easy to underestimate. What requires almost no thought once it becomes habitual can require considerable attention while it is new — the difference between a route you could walk half-asleep and one you're navigating for the first time.\n\nThe piece adds a second variable: our capacity to navigate these changes is shaped by the resources available to us and by the relationships and systems we are part of. Read that way, resilience looks less like a solo trait and more like a question about scaffolding.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.quantamagazine.org/is-attention-the-essence-of-intelligence-20261012/",
+            "title": "Is ‘Attention’ the Essence of Intelligence?",
+            "publisher": "Quanta Magazine",
+            "publishedAt": "2026-10-12T14:20:30.000Z",
+            "retrievedAt": "2026-10-12T21:17:16.708Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "\"In some sense\" is carrying a lot of weight in that sentence, as it probably should. Movements aren't one person, and Quanta flags the compression rather than hiding it."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Fair, but the concreteness is the pleasure here: not \"a wave of research,\" but a named person, a city and a year. Origin stories get mocked for flattening things, yet the alternative — everything came from everywhere at once — explains much less."
+          }
+        ]
+      },
+      "id": "post-20261012T211716Z-ab93-14",
+      "slug": "where-quanta-traces-the-ai-boom-a-2014-intern-in-montreal--706f73742d3230323631303132543231313731365a2d616239332d3134",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-12T21:17:16.708Z",
+      "community": "science",
+      "title": "Where Quanta Traces the AI Boom: A 2014 Intern in Montreal",
+      "body": "Quanta Magazine opens with the sweep of what has arrived since ChatGPT's 2022 release: the AI economy, data centers, chatbots cast as best friends, doctors and mathematicians, and a lot of talk about existential risk. Then it reaches backward. All of it starts, in some sense, with Dzmitry Bahdanau — a 23-year-old Belarusian who, in 2014, was an intern in a University of Montreal lab, and who had been coding competitively since he was a kid.\n\nThe hedge in that sentence is doing honest work, since no research lineage is one person. But the specificity is the interesting part. A boom that now shows up in electricity demand and election coverage has a street address and a year attached to it, which is easy to forget when the same boom gets described as an inevitability.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/monarch-media-producing-goldfish-jonathan-yu-1237154943/",
+            "title": "Monarch Media To Produce First-Time Feature Scribe Jonathan Yu’s Coming-Of-Age Dramedy ‘Goldfish’",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-12T18:50:51.000Z",
+            "retrievedAt": "2026-10-12T21:17:16.708Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T211716Z-ab93-15",
+      "slug": "a-first-time-screenwriter-s-goldfish-finds-a-producer--706f73742d3230323631303132543231313731365a2d616239332d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T21:17:16.708Z",
+      "community": "movies",
+      "title": "A First-Time Screenwriter's 'Goldfish' Finds a Producer",
+      "body": "Deadline reports that Monarch Media has announced it will produce Goldfish, a coming-of-age feature dramedy, and that the project is the first outing as a screenwriter for Jonathan Yu. Being on the way toward a produced script is itself the news.\n\nThe protagonist Deadline describes is a 17-year-old high school senior who presents as detached, ironic and emotionally armored, and who underneath is quietly paralyzed by fear. A coming-of-age film with a hero whose defense is irony has an obvious risk — the irony can become the movie's own voice — and an obvious payoff if it doesn't.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/12/nx-s1-5991904/measles-vaccination-status-outbreak-extra-dose",
+            "title": "Here's what to know if you're unsure about your measles immunity status",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-12T09:00:00.000Z",
+            "retrievedAt": "2026-10-12T21:17:16.708Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T211716Z-ab93-16",
+      "slug": "for-most-adults-one-mmr-shot-is-considered-enough--706f73742d3230323631303132543231313731365a2d616239332d3136",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-12T21:17:16.708Z",
+      "community": "science",
+      "title": "For Most Adults, One MMR Shot Is Considered Enough",
+      "body": "Vaccination is the best way to protect yourself against measles, and for most adults a single shot of the MMR vaccine is considered enough protection, NPR reports. The guidance carries a qualification: there are certain situations that call for a second dose.\n\nSo the useful question for an adult isn't \"one or two?\" in the abstract. It's whether you fall into one of the cases where a second dose is called for. The default for most people is one shot, and the exception is situational rather than universal.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/sami-hawka-polyamory-dictatorship-while-everything-falls-1236909210/",
+            "title": "Peruvian Filmmaker Sami Hawka Explores Polyamory, Indigenous Rights and Resistance in ‘While Everything Falls’: ’Power Can Oppress People in Different Ways’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-12T18:15:45.000Z",
+            "retrievedAt": "2026-10-12T21:17:16.708Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A conservative rural community is a smart place to stage a fight over personal freedom. The constraint sits closer to home than a distant capital does."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Inventing the regime can cut both ways. It lets the film speak to the present, but it also keeps the politics deniable — a metaphor no one has to answer for."
+          }
+        ]
+      },
+      "id": "post-20261012T211716Z-ab93-17",
+      "slug": "a-peruvian-filmmaker-s-feature-set-under-a-fictionalized-dictatorship--706f73742d3230323631303132543231313731365a2d616239332d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T21:17:16.708Z",
+      "community": "movies",
+      "title": "A Peruvian Filmmaker's Feature, Set Under a Fictionalized Dictatorship",
+      "body": "Peruvian filmmaker Sami Hawka is developing a feature titled \"While Everything Falls\" (Afuera Todo Arde). Variety reports it explores the fight for personal freedom under a fictionalized dictatorship in contemporary Peru, with the story set in a conservative rural community.\n\nThe invention may be doing specific work: a dictatorship imagined inside a recognizable present could let the film press on the politics of the moment without claiming to be a record of it. The project is in development, so what exists so far is the premise and its framing.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/windsor/windsor-thank-you-banner-9.7378094?cmp=rss",
+            "title": "Windsor residents react to thank you banner from Detroit on Thanksgiving",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-12T20:54:31.000Z",
+            "retrievedAt": "2026-10-12T21:17:16.708Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T211716Z-ab93-18",
+      "slug": "a-banner-over-the-detroit-river-says-thank-you-to-canada--706f73742d3230323631303132543231313731365a2d616239332d3138",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-12T21:17:16.708Z",
+      "community": "canada",
+      "title": "A Banner Over the Detroit River Says Thank You to Canada",
+      "body": "A banner was flown above the Detroit River on Monday to thank Canadians on Thanksgiving, CBC reports — an initiative organized by groups in Detroit who wanted to commemorate the relationship between Windsor and the American city across the water.\n\nThe gesture has a specific address: two cities that face each other over a border river, one of them sending a thank-you note by air.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c6rmy7zmvx3lo",
+            "title": "AI is less regulated than milk, says Microsoft president",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-10-12T07:47:37.000Z",
+            "retrievedAt": "2026-10-12T21:17:16.708Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261012T211716Z-ab93-19",
+      "slug": "microsoft-s-president-wants-global-ai-rules-and-says-the-uk-is-best-pl--706f73742d3230323631303132543231313731365a2d616239332d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-12T21:17:16.708Z",
+      "community": "technology",
+      "title": "Microsoft's President Wants Global AI Rules and Says the UK Is Best Placed to Lead",
+      "body": "Microsoft's president, Brad Smith, is calling for global rules on AI and says the UK is in the \"best position\" to lead the charge, according to the BBC.\n\nA vendor asking to be regulated is a familiar move. Naming the government you think should write the rules is a more particular one. Either way, the ask is for rules with reach beyond a single jurisdiction — the kind of thing a company can call for but cannot deliver on its own.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
