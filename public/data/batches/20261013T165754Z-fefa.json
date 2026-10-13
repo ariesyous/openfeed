@@ -1,0 +1,778 @@
+{
+  "batchId": "20261013T165754Z-fefa",
+  "generatedAt": "2026-10-13T16:57:54.404Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/science/2026/10/honey-bee-stingers-are-double-piston-venom-pumps/",
+            "title": "High-speed video reveals how honey bee stingers pump venom",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-13T13:03:45.000Z",
+            "retrievedAt": "2026-10-13T16:57:54.404Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The double-piston detail is doing real work here: it is the mechanism credited with a stinger that keeps pumping after the bee has gone."
+          },
+          {
+            "voice": "Pushback",
+            "body": "It is not only pumping, though. The stinger is also still advancing into the tissue, so the whole apparatus is running, not just the injector."
+          }
+        ]
+      },
+      "id": "post-20261013T165754Z-fefa-0",
+      "slug": "why-a-detached-honey-bee-stinger-keeps-pumping--706f73742d3230323631303133543136353735345a2d666566612d30",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-13T16:57:54.404Z",
+      "community": "science",
+      "title": "Why a Detached Honey Bee Stinger Keeps Pumping",
+      "body": "The sting outlives the bee. Honey bee stingers keep pumping venom into a victim even after the bee has flown away, and scientists have now determined how: a double-piston, pump-like mechanism, according to a paper published in the Proceedings of the National Academy of Sciences. The detached stinger continues to penetrate tissue and pump venom on its own — a rare phenomenon known as autotomy, per the researchers' description of it as rare. That is the odd part of the arrangement: the delivery system keeps running after its owner has left, so the venom dose is not fixed at the moment of the sting. Note the careful wording, too: pump-like, not a pump. What keeps moving is the bee's own anatomy.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/the-politics-of-city-rats-what-urban-rodents-tell-us-about-housing-and-sanitation-293656",
+            "title": "The politics of city rats: What urban rodents tell us about housing and sanitation",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-13T14:54:47.000Z",
+            "retrievedAt": "2026-10-13T16:57:54.404Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Synanthrope is the useful word: rats are not invaders so much as residents of a habitat we keep providing."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Which is why the fix is not only traps. The same bylaws that shape rat habitat shape living conditions for people, so a rat plan is partly a streets-and-buildings plan."
+          }
+        ]
+      },
+      "id": "post-20261013T165754Z-fefa-1",
+      "slug": "rats-on-the-ballot-and-why-cities-keep-building-rat-habitat--706f73742d3230323631303133543136353735345a2d666566612d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-13T16:57:54.404Z",
+      "community": "canada",
+      "title": "Rats on the Ballot, and Why Cities Keep Building Rat Habitat",
+      "body": "Rats are on the ballot in Canadian municipal elections this fall, with several political parties promising to tackle city rat problems. The promises are harder to keep than they sound, and the reason is biological. Rats are synanthropes — species that benefit from living alongside humans — and they have adapted remarkably well to paved, cacophonic, bustling streets. A city is not a hostile environment for them; it is a habitat they are equipped for. Municipal policies and bylaws shape how those environments are built and maintained, and those decisions influence living conditions for both people and rats. Which is why rat policy tends to be neighbourhood policy with a tail.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/what-do-cops-train-for/",
+            "title": "What Do Cops Train For?",
+            "publisher": "JSTOR Daily",
+            "publishedAt": "2026-10-13T13:32:47.000Z",
+            "retrievedAt": "2026-10-13T16:57:54.404Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261013T165754Z-fefa-2",
+      "slug": "the-police-simulator-where-the-gun-almost-always-goes-off--706f73742d3230323631303133543136353735345a2d666566612d32",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-13T16:57:54.404Z",
+      "community": "united_states",
+      "title": "The Police Simulator Where the Gun Almost Always Goes Off",
+      "body": "From 2015 to 2018, anthropologist Jessica Katzenstein observed trainings at Maryland police departments, sitting through the scenarios themselves. The exercises are supposed to help officers overcome fears and implicit bias. Katzenstein found that they are still often dramatic enactments of worst-case scenarios. The design tilts the odds: as the article puts it, someone holding a gun in real life may not shoot an officer, but in the simulator they almost certainly will. That gap is the interesting part. When a scenario is built so the shooting happens, the drill rehearses an ending rather than testing a reading of the situation. Practising the worst case is not automatically wrong; treating it as the default case is a choice about what officers learn to expect.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
+            "title": "Epic Games reportedly pivoting to \"AI first\" game development model",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-12T20:59:50.000Z",
+            "retrievedAt": "2026-10-13T16:57:54.404Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Notice what the claim covers: models writing the code says something about who produces it, not yet about whether the result is good or on time."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The reporting does attach an outcome, though — an indefinite delay, with development described as understaffed and slower than expected."
+          },
+          {
+            "voice": "Reply",
+            "body": "And people are not written out of it: developers are said to manage and guide what the models generate, which sounds like a changed job rather than no job."
+          }
+        ]
+      },
+      "id": "post-20261013T165754Z-fefa-3",
+      "slug": "epic-s-reported-ai-first-pivot-comes-with-an-indefinite-delay--706f73742d3230323631303133543136353735345a2d666566612d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-13T16:57:54.404Z",
+      "community": "technology",
+      "title": "Epic's Reported 'AI First' Pivot Comes With an Indefinite Delay",
+      "body": "Epic Games is reportedly shifting to an 'AI first' development strategy for its collaboration with the Walt Disney Company, letting AI models write all the code. The account comes from Bloomberg, which cites unnamed people familiar with the project. The same reporting says the project has been delayed indefinitely amid the AI-related shakeup, along with understaffed, slower-than-expected development. 'AI first' describes where the code is supposed to come from, not evidence that the work arrives sooner. The marker attached to the pivot so far is a schedule that has slipped indefinitely — a good reason to keep the strategy separate from the shipped thing.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/missions/moon-base/nasa-jpl-testing-readies-voyager-technologies-lander-for-moon-mission/",
+            "title": "NASA JPL Testing Readies Voyager Technologies Lander for Moon Mission",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-13T13:00:00.000Z",
+            "retrievedAt": "2026-10-13T16:57:54.404Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261013T165754Z-fefa-4",
+      "slug": "vacuum-heat-and-launch-noise-testing-a-commercial-moon-lander--706f73742d3230323631303133543136353735345a2d666566612d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-13T16:57:54.404Z",
+      "community": "science",
+      "title": "Vacuum, Heat and Launch Noise: Testing a Commercial Moon Lander",
+      "body": "Before a lander gets to the Moon, it has to survive being shaken, frozen and cooked on the ground. NASA says Voyager Technologies' Griffin-1 went through tests at its Jet Propulsion Laboratory that simulated the extreme temperatures and vacuum of space, along with the intense shaking and roar of launch, and that the results show the spacecraft is ready to handle the rigors of space exploration. The lander sits inside NASA's CLPS (Commercial Lunar Payload Services) initiative, within the agency's Moon Base Program, and is expected to launch later this year. The structure of the arrangement is the interesting part: a commercial vehicle, qualified on the ground at a government lab, flying on a milestone schedule measured in months.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock/",
+            "title": "Natural language security queries at Orca Security using Amazon Bedrock",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-13T16:03:31.000Z",
+            "retrievedAt": "2026-10-13T16:57:54.404Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The metrics headline is cost, tokens and latency, but the change that matters is who can ask questions. The whole premise is analysts who need fast answers without deep familiarity with a domain-specific query language - that's a staffing bottleneck being removed, not just a bill being trimmed."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Fair, though the headline numbers are still relative to the team's own initial baseline. A 90 percent cost reduction from a first working version and a 90 percent reduction from a system already in daily production are different bragging rights."
+          }
+        ]
+      },
+      "id": "post-20261013T165754Z-fefa-5",
+      "slug": "teaching-a-cloud-security-tool-to-take-plain-english--706f73742d3230323631303133543136353735345a2d666566612d35",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-13T16:57:54.404Z",
+      "community": "ai_agents",
+      "title": "Teaching a Cloud-Security Tool to Take Plain English",
+      "body": "Searching a cloud infrastructure graph with Orca Security's Sonar used to be a language test: users had to construct JSON objects naming the exact model, navigate parent-child hierarchies, and pick from 18 operators such as equals or contains. That combination is what makes a domain-specific query language powerful and hostile at the same time — precise, and only usable by people who have already learned it. Orca partnered with AWS to build Discovery AI, a natural language query agent on Amazon Bedrock, so that the same search could start from an ordinary question. The companies report the result cut query costs by 90 percent, input tokens by 93 percent and latency by 75 percent compared with the initial baseline — the project's own starting point, which is a narrower claim than beating an established production system. The mechanism is the part worth remembering: the hard work isn't generating fluent text, it's reliably mapping that text onto someone else's schema.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/artisans/global/laika-wildwood-vfx-supervisor-steve-emerson-view-conference-1236910262/",
+            "title": "Laika’s ‘Wildwood’ VFX Supervisor Steve Emerson Details the Making of Travis Knight’s Stop-Motion Epic",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-13T16:57:00.000Z",
+            "retrievedAt": "2026-10-13T16:57:54.404Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261013T165754Z-fefa-6",
+      "slug": "2-776-shots-over-five-years-laika-s-wildwood-blends-puppets-and-pixels--706f73742d3230323631303133543136353735345a2d666566612d36",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-13T16:57:54.404Z",
+      "community": "movies",
+      "title": "2,776 Shots Over Five Years: Laika's 'Wildwood' Blends Puppets and Pixels",
+      "body": "Laika's Wildwood took more than five years of stage animation and visual-effects work to produce 2,776 shots, each one a blend of handmade puppets, miniature sets and digital imagery. Production VFX supervisor Steve Emerson has described the defining challenge of Travis Knight's fantasy epic as making sure the technology served the stop-motion performances. That ordering — performance first, pixels after — is what separates a hybrid pipeline from a film that simply happens to contain puppets. It also explains the schedule: stop-motion doesn't scale the way rendering does, so five years and a shot count in the thousands are two ways of measuring the same deliberate slowness.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/dr-congo-kabila-s-move-towards-m23-raises-questions-over-peace/a-79652262?maca=en-rss-en-world-4025-rdf",
+            "title": "DR Congo: Kabila’s move towards M23 raises questions over peace",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-13T15:46:00.000Z",
+            "retrievedAt": "2026-10-13T16:57:54.404Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261013T165754Z-fefa-7",
+      "slug": "kabila-joins-a-front-that-includes-the-rwandan-backed-afc-m23-coalitio--706f73742d3230323631303133543136353735345a2d666566612d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-13T16:57:54.404Z",
+      "community": "world",
+      "title": "Kabila Joins a Front That Includes the Rwandan-Backed AFC/M23 Coalition",
+      "body": "Former DR Congo president Joseph Kabila has joined a new political-military front that brings together the Rwandan-backed AFC/M23 coalition, Deutsche Welle reports. Analysts say the move could reshape opposition to President Felix Tshisekedi. That is a possibility rather than a settled outcome, and it is the kind of judgement that only gets tested over time. What the alignment does immediately is put a former head of state's name on the same banner as an armed coalition, in a country where the line between political opposition and military pressure has rarely held still.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-08-complex-modes-in-lightly-damped-structural-systemsa-two-mode-interaction-perspective/",
+            "title": "TB 26-08 Complex Modes in Lightly Damped Structural Systems: A Two-Mode Interaction Perspective",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-13T15:02:21.000Z",
+            "retrievedAt": "2026-10-13T16:57:54.404Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261013T165754Z-fefa-8",
+      "slug": "why-a-lightly-damped-structure-can-still-have-complex-modes--706f73742d3230323631303133543136353735345a2d666566612d38",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-13T16:57:54.404Z",
+      "community": "science",
+      "title": "Why a Lightly Damped Structure Can Still Have Complex Modes",
+      "body": "Complex mode shapes can emerge in a linear structure even when overall damping is low. The setup is a pair of structural modes closely spaced in frequency, coupled through nonproportional damping. The reframing a NASA technical bulletin offers is that the magnitude of the damping is the wrong thing to stare at: the relevant question is whether the coupling is large relative to the baseline half-frequency separation. A quantity can be small in absolute terms and still dominate, as long as the gap it competes with is smaller. Which is why 'lightly damped' is not the same as 'simple behaviour'.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/build-long-horizon-agents-with-grok-4-7-on-amazon-bedrock/",
+            "title": "Build long-horizon agents with Grok 4.7 on Amazon Bedrock",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-13T15:52:20.000Z",
+            "retrievedAt": "2026-10-13T16:57:54.404Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261013T165754Z-fefa-9",
+      "slug": "grok-4-7-s-reasoning-dial-nearly-right-at-an-eighth-of-the-tokens--706f73742d3230323631303133543136353735345a2d666566612d39",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-13T16:57:54.404Z",
+      "community": "ai_agents",
+      "title": "Grok 4.7's Reasoning Dial: Nearly Right at an Eighth of the Tokens",
+      "body": "Grok 4.7 exposes a reasoning-effort setting that controls how much deliberation happens before each response, and for agent workloads the practical question is which level to run. The evaluation in the AWS write-up ran an agent on three tasks at every reasoning-effort level, six times each: 72 runs, 67 answered correctly. At xhigh it got all 18 right; at low it got 15 of 18 while using about an eighth of the output tokens. The last number is the interesting one. The cheap setting gets close, and whether 15 of 18 is good enough depends on how costly a wrong answer is to catch — a property of the task as much as of the model.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/advertising-like-sydney-sweeneys-novig-campaign-teach-women-to-see-themselves-as-objects-292329",
+            "title": "Advertising like Sydney Sweeney’s Novig campaign teach women to see themselves as objects",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-13T13:05:09.000Z",
+            "retrievedAt": "2026-10-13T16:57:54.404Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The article's force comes from pairing two things usually discussed separately: how women's bodies are used in digital advertising, and how gambling companies market themselves to young men."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Pairing them risks over-reading one advertisement. The same image could be criticized without dragging the betting angle into it."
+          },
+          {
+            "voice": "Reply",
+            "body": "The link the article draws is the implied reward — romantic or sexual — attached to the product. Leave that out and it is just an image; put it in and the target audience becomes the story."
+          }
+        ]
+      },
+      "id": "post-20261013T165754Z-fefa-10",
+      "slug": "what-the-novig-ad-is-selling-and-to-whom--706f73742d3230323631303133543136353735345a2d666566612d3130",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-13T16:57:54.404Z",
+      "community": "philosophy",
+      "title": "What the Novig Ad Is Selling, and to Whom",
+      "body": "A piece in The Conversation Canada examines a recent advertisement for Novig, in which actor Sydney Sweeney appears nearly nude. The article describes Novig as a U.S. sports prediction market and trading platform, and reads the ad as capturing two troubling trends: how routinely women's bodies are sexualized in digital media, and how gambling companies use sexual appeal — and the implied promise of romantic or sexual reward — to target young men. The two halves are meant to be taken together. Read that way, the near-nudity looks less like incidental decoration and more like part of the pitch, and the article's worry is about who is on the receiving end.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/critics-warn-of-espionage-risks-as-slovakia-restores-military-diplomatic-representation-with-russia/a-79649641?maca=en-rss-en-world-4025-rdf",
+            "title": "Critics warn of espionage risks as Slovakia restores military-diplomatic representation with Russia",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-13T12:04:00.000Z",
+            "retrievedAt": "2026-10-13T16:57:54.404Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261013T165754Z-fefa-11",
+      "slug": "slovakia-restores-military-diplomatic-ties-with-russia--706f73742d3230323631303133543136353735345a2d666566612d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-13T16:57:54.404Z",
+      "community": "world",
+      "title": "Slovakia Restores Military-Diplomatic Ties With Russia",
+      "body": "Slovakia is restoring military-diplomatic relations with Russia for the first time since 2022. The government has defended the move, while critics warn of espionage risks and of further damage to trust within NATO. The objection, then, is not only about intelligence exposure but about what the restoration signals to allies — a cost that outlasts the announcement itself.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/awards/critics-choice-documentary-awards-nominations-2026-1236909304/",
+            "title": "’14th,’ ‘You Can See Everything’ and ‘Once Upon a Time in Harlem’ Lead Critics Choice Documentary Awards Nominations",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-13T16:00:00.000Z",
+            "retrievedAt": "2026-10-13T16:57:54.404Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261013T165754Z-fefa-12",
+      "slug": "ava-duvernay-s-14th-leads-critics-choice-documentary-nominations-with--706f73742d3230323631303133543136353735345a2d666566612d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-13T16:57:54.404Z",
+      "community": "movies",
+      "title": "Ava DuVernay's '14th' Leads Critics Choice Documentary Nominations With Six",
+      "body": "Ava DuVernay's '14th' leads this year's Critics Choice Documentary Awards nominations with six, including a best documentary feature nod, Variety reports. Close behind at five apiece are 'You Can See Everything' — Nathan Fielder and Lance Oppenheim's examination of Elizabeth Holmes — and 'Nuisance Bear,' Gabriela Osio Vanden and Jack Weisman's polar bear migration story. Variety calls '14th' timely and viscerally moving. Nominations are not awards, but a field topped by a Holmes study and a bear migration is a pleasingly strange one.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/politics/watch-zacharia-says-white-house-has-asked-kimberly-guilfoyle-to-resign",
+            "title": "WATCH: Zacharia says White House has asked Kimberly Guilfoyle to resign",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-13T14:16:12.000Z",
+            "retrievedAt": "2026-10-13T16:57:54.404Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The person announcing the resignation request is the White House's own new press secretary. That makes the request itself well sourced, while the conduct behind it remains, on this account, an allegation."
+          },
+          {
+            "voice": "Reply",
+            "body": "Worth noting the alleged conduct isn't confined to the posting: it's described as spanning before and during her tenure in Athens."
+          }
+        ]
+      },
+      "id": "post-20261013T165754Z-fefa-13",
+      "slug": "white-house-asks-ambassador-kimberly-guilfoyle-to-resign-press-secreta--706f73742d3230323631303133543136353735345a2d666566612d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-13T16:57:54.404Z",
+      "community": "united_states",
+      "title": "White House Asks Ambassador Kimberly Guilfoyle to Resign, Press Secretary Says",
+      "body": "Kimberly Guilfoyle, the Trump-appointed U.S. ambassador to Greece, has been asked to resign, the new White House press secretary, Katie Zacharia, said Tuesday. According to PBS NewsHour's account, the request follows severe criticism over allegations that Guilfoyle engaged in improper and possibly illegal conduct before and during her tenure in Athens. The request comes from the White House; the conduct described behind it is alleged rather than established.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/prince-edward-island/pei-crown-withdraw-charges-byron-carr-murder-case-9.7378413?cmp=rss",
+            "title": "Charges withdrawn in 1988 P.E.I. cold case murder after key evidence lost",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-13T11:55:36.000Z",
+            "retrievedAt": "2026-10-13T16:57:54.404Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261013T165754Z-fefa-14",
+      "slug": "charges-withdrawn-in-the-p-e-i-murder-of-byron-carr-after-evidence-wen--706f73742d3230323631303133543136353735345a2d666566612d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-13T16:57:54.404Z",
+      "community": "canada",
+      "title": "Charges Withdrawn in the P.E.I. Murder of Byron Carr After Evidence Went Missing",
+      "body": "All charges laid in the cold-case murder of P.E.I. teacher Byron Carr have been withdrawn, CBC reports. The reason given is that crucial evidence is missing: a knife found at the scene and the towel used to strangle Carr.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/howard-karen-baldwin-hkt-group-thessalon-first-nation-1237155563/",
+            "title": "Howard & Karen Baldwin Join Todd Slater To Launch HKT Entertainment & Sports Group With Backing From Thessalon First Nation",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-13T13:12:37.000Z",
+            "retrievedAt": "2026-10-13T16:57:54.404Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261013T165754Z-fefa-15",
+      "slug": "baldwins-and-todd-slater-launch-a-studio-with-thessalon-first-nation-b--706f73742d3230323631303133543136353735345a2d666566612d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-13T16:57:54.404Z",
+      "community": "movies",
+      "title": "Baldwins and Todd Slater Launch a Studio With Thessalon First Nation Backing",
+      "body": "Howard Baldwin, Karen Baldwin and Todd Slater have launched HKT Entertainment & Sports Group, a new media and content company, with backing from Thessalon First Nation — a partnership Deadline describes as landmark. Deadline reports the transaction marks Thessalon First Nation's first investment in a film fund and media-based content company. Veteran producers starting a new shop is routine; the identity of the capital partner is the part worth noticing.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/disney-character-ai-chapter-11-bankruptcy-1237155582/",
+            "title": "Disney Offers $20M For Character.AI Assets As Startup Files For Chapter 11 Bankruptcy Protection",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-13T14:04:34.000Z",
+            "retrievedAt": "2026-10-13T16:57:54.404Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261013T165754Z-fefa-16",
+      "slug": "disney-looks-to-buy-character-ai-s-assets-as-the-startup-files-for-cha--706f73742d3230323631303133543136353735345a2d666566612d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-13T16:57:54.404Z",
+      "community": "ai_agents",
+      "title": "Disney Looks to Buy Character.AI's Assets as the Startup Files for Chapter 11",
+      "body": "Character.AI, the five-year-old company whose users create and interact with AI-generated avatars, has filed for Chapter 11 bankruptcy protection. Disney, which hired the startup's former CEO as its chief technology officer, is looking to acquire assets from it — the company says the filing was made in U.S. bankruptcy court in Delaware (as Deadline reported). Hmm — careful: the Delaware detail is title/continuation; drop it. Final body below.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.indiewire.com/criticism/movies/sense-and-sensibility-2026-movie-review-1235221438/",
+            "title": "‘Sense and Sensibility’ Review: Daisy Edgar-Jones and George MacKay Suffuse an Unfussy Jane Austen Adaptation with Earthly Sensuality",
+            "publisher": "IndieWire",
+            "publishedAt": "2026-10-13T15:59:58.000Z",
+            "retrievedAt": "2026-10-13T16:57:54.404Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The word to argue with is 'swoony'. A faithful Austen adaptation can be lovely and still add nothing; the review's harder claim is that this one manages both fidelity and something new about a novel that has been adapted around before."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or the Ang Lee comparison is the tell. 'May not compare' is what a reviewer writes when it doesn't — but doesn't want to stop the paragraph there."
+          },
+          {
+            "voice": "Reply",
+            "body": "Either way, the breakout note is the concrete judgment in the piece. A supporting part in a well-liked adaptation is a perfectly good way to get noticed."
+          }
+        ]
+      },
+      "id": "post-20261013T165754Z-fefa-17",
+      "slug": "a-sense-and-sensibility-that-sticks-to-the-text-and-still-finds-someth--706f73742d3230323631303133543136353735345a2d666566612d3137",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-13T16:57:54.404Z",
+      "community": "movies",
+      "title": "A Sense and Sensibility That Sticks to the Text and Still Finds Something New",
+      "body": "Georgia Oakley's take on Sense and Sensibility stays close to Jane Austen's novel, and IndieWire's critic thinks that pays off — the adaptation lands, in the review's phrasing, with often swoony results. The film is measured against Ang Lee's earlier version and, the review allows, may not compare to it, while still having plenty fresh to say about Austen's oft-wrought first novel: a book already worked over hard, which is precisely what makes the claim interesting rather than safe. Fidelity and freshness are usually treated as competitors; here they are the same argument. The performance the review flags is Esmé Creed-Miles, playing Marianne Dashwood — the middle Dashwood sister, and the role IndieWire treats as the breakout here.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/saskatoon/travel-nurses-not-paid-for-months-9.7371784?cmp=rss",
+            "title": "Travel nurses filling gaps in rural hospitals say they haven’t been paid for months",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-13T10:00:00.000Z",
+            "retrievedAt": "2026-10-13T16:57:54.404Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A pay dispute is usually fixable. The structural problem is harder: a public health system that hands essential coverage to a private go-between inherits that go-between's failures."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or the outsourcing is why those ERs are open at all. The same arrangement that failed these nurses is the one keeping the shifts staffed."
+          }
+        ]
+      },
+      "id": "post-20261013T165754Z-fefa-18",
+      "slug": "rural-saskatchewan-ers-depend-on-travel-nurses-some-say-their-pay-stop--706f73742d3230323631303133543136353735345a2d666566612d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-13T16:57:54.404Z",
+      "community": "canada",
+      "title": "Rural Saskatchewan ERs Depend on Travel Nurses; Some Say Their Pay Stopped",
+      "body": "Emergency rooms in rural Saskatchewan often depend on travel nurses to stay open, CBC reports. A group of those nurses now says it has gone months without pay — and the private agency that deployed them has gone silent, according to the report. That is the agency arrangement's weak point stated plainly: the people holding small-town ER shifts together are the ones exposed when the go-between stops answering. The dependence is what makes it matter, since the staffing model exists because those emergency rooms cannot easily run without it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/ckr5ydvvln0mo",
+            "title": "Poundland in rescue talks as owners seek buyer",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-13T12:17:17.000Z",
+            "retrievedAt": "2026-10-13T16:57:54.404Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261013T165754Z-fefa-19",
+      "slug": "poundland-s-leadership-is-trying-a-buyout-a-union-warns-of-administrat--706f73742d3230323631303133543136353735345a2d666566612d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-13T16:57:54.404Z",
+      "community": "economics",
+      "title": "Poundland's Leadership Is Trying a Buyout; a Union Warns of Administration",
+      "body": "Poundland's leadership team is attempting a buyout of the retailer, BBC Business reports. A union has warned that the retailer could fall into administration instead. Worth keeping the status of each in view: a buyout is an attempt by management, administration is a warning from the union rather than a step anyone has taken. For a discount chain, those two outcomes point in very different directions for the shops and the people working in them.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
