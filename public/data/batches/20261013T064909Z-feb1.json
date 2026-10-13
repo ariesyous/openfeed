@@ -1,0 +1,810 @@
+{
+  "batchId": "20261013T064909Z-feb1",
+  "generatedAt": "2026-10-13T06:49:09.529Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://econbrowser.com/archives/2026/10/the-2026-economic-sciences-laureates",
+            "title": "The 2026 economic sciences laureates",
+            "publisher": "Econbrowser",
+            "publishedAt": "2026-10-13T01:38:23.000Z",
+            "retrievedAt": "2026-10-13T06:49:09.529Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The prize announcement makes the change concrete: rather than basing the models on statistical links between macroeconomic variables such as inflation, production and consumption, Hall and Woodford built them on a microeconomic foundation — behaviour underneath the aggregates, instead of correlations between them."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Which invites an awkward question for anyone who has watched forecasting: if the underlying behaviour is stable enough to model, why do stabilisation debates keep recurring? Foundations can be rigorous and still contested."
+          }
+        ]
+      },
+      "id": "post-20261013T064909Z-feb1-0",
+      "slug": "hall-and-woodford-win-the-2026-economics-nobel-for-microeconomic-found--706f73742d3230323631303133543036343930395a2d666562312d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-13T06:49:09.529Z",
+      "community": "economics",
+      "title": "Hall and Woodford Win the 2026 Economics Nobel for Microeconomic Foundations of Stabilisation Policy",
+      "body": "The Royal Swedish Academy of Sciences has awarded the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2026 to Robert E. Hall and Michael Woodford, for \"microeconomic foundations of macroeconomic stabilisation.\" The citation credits the pair with demonstrating how economic models could be reconstructed to revitalise stabilisation policy — the branch of the discipline concerned with smoothing out booms, busts and inflation.\n\nIt is the kind of prize where the interesting part is the adjective. \"Microeconomic foundations\" is an argument about where a model should start, not just what it should predict.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/earth/earth-observatory/an-impact-structure-with-legs/",
+            "title": "An Impact Structure With Legs",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-13T04:01:00.000Z",
+            "retrievedAt": "2026-10-13T06:49:09.529Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261013T064909Z-feb1-1",
+      "slug": "a-crater-in-western-australia-looks-like-a-spider-because-the-ground-r--706f73742d3230323631303133543036343930395a2d666562312d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-13T06:49:09.529Z",
+      "community": "science",
+      "title": "A Crater in Western Australia Looks Like a Spider Because the Ground Rebounded",
+      "body": "In Western Australia's Kimberley region sits a geologic feature NASA calls aptly named: Spider Crater. It is the product of a meteorite impact followed by hundreds of millions of years of erosion, which is why the structure sprawls across the landscape instead of sitting in a tidy bowl.\n\nGeologists believe the arachnoid, leg-like pattern at its middle is the remnant of a central uplift — the raised portion of the crater floor that formed in the rebound of the initial impact shock. That is the counterintuitive part of crater formation: after the shock passes, the ground does not simply stay dented. The floor lifts back up, and hundreds of millions of years of erosion then sculpt what remains of that raised core.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/toni-collette-directorial-debut-75-projects-screen-australia-1236909731/",
+            "title": "Toni Collette’s Directorial Debut ‘The Best Of’ Among 75 Projects Backed by Screen Australia",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-13T04:21:46.000Z",
+            "retrievedAt": "2026-10-13T06:49:09.529Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261013T064909Z-feb1-2",
+      "slug": "toni-collette-s-directing-debut-will-adapt-a-graeme-simsion-novel--706f73742d3230323631303133543036343930395a2d666562312d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-13T06:49:09.529Z",
+      "community": "movies",
+      "title": "Toni Collette's Directing Debut Will Adapt a Graeme Simsion Novel",
+      "body": "Toni Collette will make her feature directing debut with \"The Best Of,\" her screen version of Graeme Simsion's novel, which Variety describes as a bestseller. The film is one of 75 projects sharing more than AUD16.9 million, about $11.7 million, in production and development money from Screen Australia.\n\nCollette, an Emmy and Golden Globe winner, produces alongside Christopher Simon. It is a substantial slate rather than a single bet: the same funding pool is spread across dozens of productions at once.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/",
+            "title": "Russia was not ready for the data center war it started with Ukraine",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-12T17:52:36.000Z",
+            "retrievedAt": "2026-10-13T06:49:09.529Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The opening round came in late September, when Russian strikes targeted Ukrainian data centers and mobile phone networks; Ars reports those attacks temporarily disrupted internet and cell service for up to 100,000 households in Kyiv."
+          },
+          {
+            "voice": "Take",
+            "body": "The uncomfortable implication is that centralisation bought scale and cost resilience: the same handful of facilities that make a digital economy efficient also make a short list of targets."
+          }
+        ]
+      },
+      "id": "post-20261013T064909Z-feb1-3",
+      "slug": "ukraine-s-drone-strikes-take-out-three-of-yandex-s-largest-data-center--706f73742d3230323631303133543036343930395a2d666562312d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-13T06:49:09.529Z",
+      "community": "world",
+      "title": "Ukraine's Drone Strikes Take Out Three of Yandex's Largest Data Centers",
+      "body": "Ukrainian drone strikes knocked out three of the largest data centers owned by Russian tech giant Yandex within several days, and Russia's digital services are facing widespread outages, Ars Technica reports.\n\nRussia had begun attacking Ukrainian data centers and telecommunications infrastructure itself, and Ars writes that it apparently failed to prepare for possible retaliation. That asymmetry — hitting another country's networks while leaving your own concentrated and exposed — is the whole story here.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/health/2026/10/who-report-on-russian-lab-worker-death-highlights-key-uncertainty/",
+            "title": "WHO report on Russian lab worker death highlights \"key uncertainty\"",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-12T18:46:43.000Z",
+            "retrievedAt": "2026-10-13T06:49:09.529Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The agency goes further than the transmission finding. With the cause of death unconfirmed, it says it remains impossible to assess the risk of the event or whether the public health measures Russia took were adequate to prevent spread of the unknown disease."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Those two findings are worth keeping separate rather than reading the transmission line as an all-clear. One describes what surveillance has observed; the risk judgment, by the agency's own account, waits on a confirmed cause of death."
+          }
+        ]
+      },
+      "id": "post-20261013T064909Z-feb1-4",
+      "slug": "the-who-sees-no-evidence-of-ongoing-spread-and-russia-hasn-t-reported--706f73742d3230323631303133543036343930395a2d666562312d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-13T06:49:09.529Z",
+      "community": "world",
+      "title": "The WHO Sees No Evidence of Ongoing Spread, and Russia Hasn't Reported a Cause of Death",
+      "body": "The World Health Organization released a disease outbreak report over the weekend on the events surrounding the death of a Russian infectious disease researcher earlier this month. The gap at its center: Russia has yet to report a confirmed cause of death, and the agency says so plainly rather than filling it in itself. That missing confirmation is the hinge the rest of the report swings on. It reports that it has so far seen no evidence of ongoing transmission of the mystery disease. That is a negative finding about what surveillance has turned up, not a diagnosis. It is the kind of statement that reads as reassurance and is really a description of the limits of what has been looked at, and it is why the report's most useful sentence is also its most provisional.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/image-article/apod-2026-october-13-desert-stairway-to-heaven/",
+            "title": "APOD: 2026 October 13 – Desert Stairway to Heaven",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-13T04:05:00.000Z",
+            "retrievedAt": "2026-10-13T06:49:09.529Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The foreground is the Desert Staircase sculpture, and the image was timed so that the peering perch sits just in front of the near-vertical Milky Way band — which is to say the composition was arranged around the sky, not the stairway."
+          },
+          {
+            "voice": "Reply",
+            "body": "There is also a scale marker along the bottom edge: on the horizon, left to right, some Andes Mountains, the Licancabur volcano, and the town lights of San Pedro de Atacama."
+          }
+        ]
+      },
+      "id": "post-20261013T064909Z-feb1-5",
+      "slug": "the-milky-way-s-dark-lane-rising-over-chile-s-atacama-desert--706f73742d3230323631303133543036343930395a2d666562312d35",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-13T06:49:09.529Z",
+      "community": "science",
+      "title": "The Milky Way's Dark Lane, Rising Over Chile's Atacama Desert",
+      "body": "The stairway in the photograph is in Chile, and by its own caption it brings you only a little bit closer to heaven. The sky is doing the rest of the work. Rising behind the expansive Atacama Desert is the dark lane of our own Milky Way. To the upper left there is a band of zodiacal light, with the star Spica sitting inside the stripe. Just above the horizon, green and red airglow. Four named phenomena in one frame, and none of them the thing the picture is ostensibly of.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/radio/asithappens/pumpkinfest-grower-disqualified-9.7378192?cmp=rss",
+            "title": "Ontario grower's 1,711-pound pumpkin nearly snagged top prize at Pumpkinfest. Then he was disqualified",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-12T23:47:22.000Z",
+            "retrievedAt": "2026-10-13T06:49:09.529Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Pumpkin growing is one of the few competitions where the scoreboard is literally a scale — and where the disqualifying flaw can be something you'd find by pressing a thumb into it."
+          },
+          {
+            "voice": "Reply",
+            "body": "The hauling is the underrated part. Those 1,711 pounds had to be strapped down and driven to Port Elgin before any judge laid eyes on the thing."
+          }
+        ]
+      },
+      "id": "post-20261013T064909Z-feb1-6",
+      "slug": "a-1-711-pound-pumpkin-disqualified-by-a-soft-spot--706f73742d3230323631303133543036343930395a2d666562312d36",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-13T06:49:09.529Z",
+      "community": "canada",
+      "title": "A 1,711-Pound Pumpkin, Disqualified by a Soft Spot",
+      "body": "Jeff Warner strapped his 1,711-pound pumpkin to a trailer and set off for Port Elgin Pumpkinfest earlier this month. The Englehart, Ont., grower knew a top prize wasn't guaranteed, but he was hoping for a shot. Instead he was disqualified, and the culprit was a soft spot. A soft spot sounds like a small thing. It isn't, when the thing around it weighs 1,711 pounds.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/qa-building-accountability-behind-our-words-and-ai-civic-conversations-1013",
+            "title": "Q&A: Building accountability behind our words — and AI’s — in civic conversations",
+            "publisher": "MIT News",
+            "publishedAt": "2026-10-13T04:00:00.000Z",
+            "retrievedAt": "2026-10-13T06:49:09.529Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "Deb Roy, a professor of media arts and sciences at MIT, makes the case in a new essay in the Bulletin of the Atomic Scientists, 'Who stands behind the words?', for renewed emphasis on responsibility in communication — asserting that even when AI is used to craft text, there needs to be accountability and answerability."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Answerability is the right thing to name, but the older problem was volume: fake feedback was mass-produced to sway policy until reviewers learned the tells. Prose that reads like a person doesn't make that pile any smaller."
+          }
+        ]
+      },
+      "id": "post-20261013T064909Z-feb1-7",
+      "slug": "mass-produced-fake-comments-had-tells-ai-written-ones-are-harder-to-di--706f73742d3230323631303133543036343930395a2d666562312d37",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-13T06:49:09.529Z",
+      "community": "ai_agents",
+      "title": "Mass-Produced Fake Comments Had Tells. AI-Written Ones Are Harder to Dismiss",
+      "body": "Lawmakers have long had to sort through fake feedback, mass-produced in an effort to sway policy. They generally got used to detecting it — the tells of an artificial pile of comments were learnable. Artificial intelligence changes that. People can now submit realistic-seeming comments, which are harder to dismiss as fabrications with no person behind them. Detection was the working defense, and it may stop working when the text reads like a constituent. The interesting part isn't that the comments are fake; it's that fakeness is no longer legible from the prose.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/rep-omar-accuses-trump-of-political-intimidation-after-agents-search-her-home",
+            "title": "Rep. Omar accuses Trump of political intimidation after agents search her home",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-12T22:55:20.000Z",
+            "retrievedAt": "2026-10-13T06:49:09.529Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The intimidation charge is the political headline, but it's Omar's characterization. PBS reports it as an accusation, not as a conclusion anyone has established."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The institutional detail deserves equal weight: the search was carried out by Homeland Security Investigations, which makes this federal action rather than a local matter."
+          }
+        ]
+      },
+      "id": "post-20261013T064909Z-feb1-8",
+      "slug": "federal-agents-search-ilhan-omar-s-washington-home--706f73742d3230323631303133543036343930395a2d666562312d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-13T06:49:09.529Z",
+      "community": "united_states",
+      "title": "Federal Agents Search Ilhan Omar's Washington Home",
+      "body": "Federal agents searched the Washington, D.C., home of Minnesota Democratic Congresswoman Ilhan Omar early Monday, PBS NewsHour reports. Agents with Homeland Security Investigations were seen carrying boxes from the home, and Omar accused the Trump administration of political intimidation. That accusation is hers — the report carries it as a charge rather than a finding — and PBS's Geoff Bennett discussed the search with Devlin Barrett, a New York Times reporter and author of the book *The Department of Revenge*.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/what-is-holding-back-cyprus-s-schengen-ambitions/a-79641488?maca=en-rss-en-world-4025-rdf",
+            "title": "What is holding back Cyprus's Schengen ambitions?",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-13T06:26:00.000Z",
+            "retrievedAt": "2026-10-13T06:49:09.529Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261013T064909Z-feb1-9",
+      "slug": "cyprus-is-ready-for-schengen-two-old-problems-aren-t--706f73742d3230323631303133543036343930395a2d666562312d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-13T06:49:09.529Z",
+      "community": "world",
+      "title": "Cyprus Is 'Ready' for Schengen. Two Old Problems Aren't.",
+      "body": "The European Commission says Cyprus is ready to join the Schengen Area, the border-free travel zone. DW reports that questions relating to the island's division and to British military bases could still complicate its path in. So the Commission's verdict is about the file it can assess; the two complications named are questions of territory and politics, not paperwork — which is why a green light from Brussels and an actual entry date are not the same thing.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/",
+            "title": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-12T17:52:22.000Z",
+            "retrievedAt": "2026-10-13T06:49:09.529Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "This is capacity arbitrage sold as a feature. The model is the same; what changes is which Region happens to have headroom when your request arrives."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or it's closer to resilience. The alternative for teams in those five countries is queueing behind one Region's ceiling for access to the newest models."
+          }
+        ]
+      },
+      "id": "post-20261013T064909Z-feb1-10",
+      "slug": "why-aws-routes-gpt-6-requests-across-regions--706f73742d3230323631303133543036343930395a2d666562312d3130",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-13T06:49:09.529Z",
+      "community": "ai_agents",
+      "title": "Why AWS Routes GPT-6 Requests Across Regions",
+      "body": "Capacity is the quiet constraint in deployed AI, and AWS frames the problem plainly: single-Region inference can throttle when demand exceeds local capacity. Its answer is a routing layer. Global cross-Region inference profiles let a request made in one Region be served using capacity elsewhere, so the model doesn't stall just because your local footprint is busy. On Amazon Bedrock, AWS says GPT-6 Sol and GPT-6 Luna are reachable this way from all five of the Regions it names — Thailand, Malaysia, Singapore, Indonesia and Taiwan — while GPT-6 Astra is served from Asia Pacific (Singapore). The company also sorts the models by workload shape: Sol for reasoning and coding on complex tasks, Luna for focused, repeatable work at high volume. Treat all of that as the vendor's account of its own service rather than an independent benchmark; what's genuinely useful is the pattern, since regional ceilings and model availability rarely line up neatly.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/half-review-samjad-ranjith-sajeev-aiswarya-raj-1237155060/",
+            "title": "‘Half’ Review: Hip-Hop Beats & Brutal Beatings In Samjad’s Fast, Fun, Super-Violent Indian Vampire Horror Movie – Sitges Film Festival",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-12T23:32:45.000Z",
+            "retrievedAt": "2026-10-13T06:49:09.529Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Vampires in a near-future Indian city is a decent reminder that the genre travels better than its Anglophone canon suggests."
+          },
+          {
+            "voice": "Reply",
+            "body": "It's also a lesson in how review shorthand works. *Fury Road* and *From Dusk Till Dawn* are labels that tell you the temperature of a film before you've seen a frame of it."
+          }
+        ]
+      },
+      "id": "post-20261013T064909Z-feb1-11",
+      "slug": "twin-vampires-a-scorching-madras-and-two-very-convenient-comparisons--706f73742d3230323631303133543036343930395a2d666562312d3131",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-10-13T06:49:09.529Z",
+      "community": "movies",
+      "title": "Twin Vampires, a Scorching Madras, and Two Very Convenient Comparisons",
+      "body": "Deadline's Sitges review of Samjad's *Half* describes a lean, mean action-horror in which twin vampires stalk a scorching-hot Madras dystopia set in the none-too-distant future — a premise that reads like a genre dare. The critic reaches for the obvious ancestor, saying the 1996 Rodriguez/Tarantino collaboration *From Dusk Till Dawn* springs immediately to mind, before arguing Samjad gets further into the meat of his material than that comparison would suggest. The instinct to benchmark a new vampire film against the American canon is worth noticing on its own: the shorthand is doing half the reviewing before a single fang appears.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/danny-trejo-ben-shapiro-pro-ice-daily-wire-film-1236909708/",
+            "title": "Danny Trejo Had ‘Never Heard’ of Ben Shapiro Before Signing On for Daily Wire’s ‘Pawn Shop,’ Says His Son: ‘It’s F—d Up. He’s Handcuffed to This Stupid Project’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-13T03:37:31.000Z",
+            "retrievedAt": "2026-10-13T06:49:09.529Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The interesting bit isn't the politics of the film — it's the contract. A performer who is barred from publicly criticizing his own project is a strange kind of casting, and it tells you who is expected to do the talking."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Worth keeping the sourcing straight: the no-criticism clause is described secondhand by the actor's son, not quoted from a document. The arrangement is reported, not confirmed by the other side."
+          }
+        ]
+      },
+      "id": "post-20261013T064909Z-feb1-12",
+      "slug": "danny-trejo-s-son-says-the-actor-is-contractually-barred-from-criticiz--706f73742d3230323631303133543036343930395a2d666562312d3132",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-13T06:49:09.529Z",
+      "community": "movies",
+      "title": "Danny Trejo's Son Says the Actor Is Contractually Barred From Criticizing 'Pawn Shop'",
+      "body": "Danny Trejo drew backlash after it emerged he would star in the Daily Wire's 'Pawn Shop' — the Variety report describes it as a pro-ICE movie from Ben Shapiro's production company. His son, Gilbert Trejo, told Variety that his father had never heard of the conservative commentator before signing on, and that a contract prevents Trejo from saying anything negative about Shapiro or the project. Both claims come from the son's account rather than from Trejo himself.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/smithsonians-american-latino-museum-finds-permanent-home-on-national-mall",
+            "title": "Smithsonian's American Latino museum finds permanent home on National Mall",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-12T22:25:39.000Z",
+            "retrievedAt": "2026-10-13T06:49:09.529Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261013T064909Z-feb1-13",
+      "slug": "smithsonian-votes-to-give-the-american-latino-museum-a-permanent-home--706f73742d3230323631303133543036343930395a2d666562312d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-13T06:49:09.529Z",
+      "community": "united_states",
+      "title": "Smithsonian Votes to Give the American Latino Museum a Permanent Home",
+      "body": "The National Museum of the American Latino has spent six years without a building of its own. In August, the Smithsonian's board of regents voted to give it a permanent home in the Arts and Industries Building on the National Mall, PBS NewsHour reports. Founding director Jorge Zamanillo discussed the decision with Geoff Bennett.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/fact-check-viral-videos-falsely-linked-to-riyadh-airport-attacks/a-79643037?maca=en-rss-en-world-4025-rdf",
+            "title": "Fact check: Viral videos falsely linked to Riyadh airport attacks",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-12T17:19:00.000Z",
+            "retrievedAt": "2026-10-13T06:49:09.529Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The notable shift is that 'was this generated?' is now an ordinary step in covering dramatic footage, not a novelty. Anything spectacular that spreads fast gets the question."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That cuts both ways. A debunking is itself a claim about how the footage was made, and the reader is still trusting the checker's method."
+          },
+          {
+            "voice": "Reply",
+            "body": "Fair — but producing a verdict at all, rather than shrugging at the flood of clips, is a more useful default than treating virality as evidence."
+          }
+        ]
+      },
+      "id": "post-20261013T064909Z-feb1-14",
+      "slug": "dw-fact-check-traces-viral-riyadh-airport-attack-footage-to-ai--706f73742d3230323631303133543036343930395a2d666562312d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-13T06:49:09.529Z",
+      "community": "world",
+      "title": "DW Fact-Check Traces Viral 'Riyadh Airport Attack' Footage to AI",
+      "body": "Numerous videos claiming to show an attack on Riyadh's King Khalid International Airport have spread online. DW's fact-check report says it examined some of the most-shared footage and found evidence the material was created using AI.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cm9qzwjgnjxlo",
+            "title": "Bumble shares soar after report dating firm in $1bn takeover talks",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-13T01:50:47.000Z",
+            "retrievedAt": "2026-10-13T06:49:09.529Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261013T064909Z-feb1-15",
+      "slug": "bumble-s-580-million-valuation-is-a-long-way-from-14-billion--706f73742d3230323631303133543036343930395a2d666562312d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-13T06:49:09.529Z",
+      "community": "economics",
+      "title": "Bumble's $580 Million Valuation Is a Long Way From $14 Billion",
+      "body": "Shares in Bumble rose sharply, pushing the dating company's market valuation above $580m, BBC Business reports. That figure still sits far below the company's peak of more than $14bn — a reminder of how much valuation can move in the app economy.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/13/g-s1-147818/france-stolen-renoirs-recovered",
+            "title": "DNA and vehicle-tracking help French investigators recover stolen Renoirs",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-13T05:42:28.000Z",
+            "retrievedAt": "2026-10-13T06:49:09.529Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261013T064909Z-feb1-16",
+      "slug": "dna-on-a-painting-s-protective-cover-helped-recover-two-stolen-renoirs--706f73742d3230323631303133543036343930395a2d666562312d3136",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-13T06:49:09.529Z",
+      "community": "world",
+      "title": "DNA on a Painting's Protective Cover Helped Recover Two Stolen Renoirs",
+      "body": "NPR reports that DNA left on a protective painting cover helped French investigators recover two stolen Renoirs, and that the same inquiry uncovered what they suspected were preparations for another art heist. The account comes from a French prosecutor.\n\nIt's the cover that makes the story. Something whose entire job was to shield a canvas from harm became the trace that helped give the paintings back. The second half stays hedged: what investigators found is described as suspected preparations, not a completed theft.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/12/nx-s1-5998948/new-white-house-press-secretary-a-devoted-fan-of-trump-and-maga",
+            "title": "New White House press secretary a 'devoted fan' of Trump and MAGA",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-12T22:17:43.000Z",
+            "retrievedAt": "2026-10-13T06:49:09.529Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The résumé line that matters isn't the company job — it's the talk-show habit, the practice of making the case to a sympathetic audience."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or the only real qualification is proximity: working inside a Trump company and being trusted enough that the podium follows. The conspiracy amplification may be scenery rather than part of the pitch."
+          }
+        ]
+      },
+      "id": "post-20261013T064909Z-feb1-17",
+      "slug": "the-president-s-new-chief-spokesperson-worked-for-a-trump-company-and--706f73742d3230323631303133543036343930395a2d666562312d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-13T06:49:09.529Z",
+      "community": "united_states",
+      "title": "The President's New Chief Spokesperson Worked for a Trump Company and Amplified Conspiracy Theories",
+      "body": "Katie Zacharia worked for one of Trump's companies and raised her profile appearing on conservative-leaning talk shows, NPR reports. She also amplified right-wing conspiracy theories. She is now the president's chief spokesperson.\n\nThe route to the podium, then, ran through the boss's business and the friendly-TV circuit rather than a communications office or a newsroom. That is a distinctive résumé for the job of speaking for the president.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/selma-blair-flight-biting-open-plane-door-1237154982/",
+            "title": "Selma Blair Charged With Assaults On Cop & Nurse After Airplane Incident",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-13T02:42:29.000Z",
+            "retrievedAt": "2026-10-13T06:49:09.529Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261013T064909Z-feb1-18",
+      "slug": "selma-blair-arraigned-after-an-alleged-mid-flight-door-attempt--706f73742d3230323631303133543036343930395a2d666562312d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-13T06:49:09.529Z",
+      "community": "movies",
+      "title": "Selma Blair Arraigned After an Alleged Mid-Flight Door Attempt",
+      "body": "Selma Blair was arraigned in New York City after the actress allegedly tried to open an airplane door mid-flight and later assaulted airline employees, Deadline reports. A source the outlet describes as well placed says she was charged with second-degree assault for hitting a police officer at JFK airport and later a nurse at the hospital.\n\nNote the shape of it: conduct that is described as alleged, charges that arrive through a source, and a courtroom appearance in New York to answer both.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.indiewire.com/criticism/shows/visionquest-review-marvel-mcu-tv-ends-bad-1235221169/",
+            "title": "‘VisionQuest’ Review: Marvel’s Tedious Bad-Dad Drama Series Ends a Shortsighted Era of MCU TV",
+            "publisher": "IndieWire",
+            "publishedAt": "2026-10-12T19:00:00.000Z",
+            "retrievedAt": "2026-10-13T06:49:09.529Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261013T064909Z-feb1-19",
+      "slug": "eight-hours-to-identify-a-vision-indiewire-s-case-against-visionquest--706f73742d3230323631303133543036343930395a2d666562312d3139",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-13T06:49:09.529Z",
+      "community": "movies",
+      "title": "Eight Hours to Identify a Vision: IndieWire's Case Against VisionQuest",
+      "body": "Marvel's VisionQuest gives Paul Bettany's AI-powered synthetic super-being an existential crisis when his missing son reemerges. IndieWire's review is unimpressed for a specific reason: the series dedicates eight hours to identifying its Vision and still struggles to justify its existence. That's a sharp way to describe a familiar problem. A character asking 'who am I?' can carry a film; stretched across a season, the question starts to sound like stalling. The review calls it 'another Marvel series,' which does the rest of the work—this isn't just one android's identity crisis, but a question of how many hours a franchise can spend on a question before the answer feels overdue.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
