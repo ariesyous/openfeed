@@ -2044,7 +2044,27 @@
     "researchers improve weather forecasts looking two to six weeks out",
     "steve hilton republican candidate for governor rolls out expanded hollywood plan",
     "the skincare scheme that led to consumer complaints lawsuits and a federal investigation",
-    "seniors displaced by fatal fire in fort frances ont won t be able to return until next year"
+    "seniors displaced by fatal fire in fort frances ont won t be able to return until next year",
+    "inflation upside surprise",
+    "researchers use ai to design proteins that cut up other proteins",
+    "nasa s chandra breaks down treble clef s galaxy cluster collision",
+    "ai can predict intimate partner violence before survivors disclose but should it",
+    "greta gerwig channels bowie in psychedelic the magician s nephew trailer",
+    "nasa to host news conference previewing us spacewalks 100 101",
+    "canada could save millions by developing its own operating system instead of relying on microsoft windows",
+    "iran backed houthis strike saudi oil company aramco s headquarters officials say",
+    "how tamnoon built ai powered cloud security remediation with amazon bedrock",
+    "how proposed cuts to this major national health survey could disadvantage americans with disabilities",
+    "ex marineland beluga that died in spain developed complex clinical condition aquarium says",
+    "climate change and drone attacks exacerbate the humanitarian crisis in war torn sudan",
+    "deploy and evaluate models with amazon sagemaker jumpstart",
+    "everything is on the table joly says as ottawa weighs legal action over stelco layoffs",
+    "why zelensky s meeting with burnham matters",
+    "red sonja producer christa campbell launches film tv company xta media",
+    "what if you could turn off your algorithm australia is about to try",
+    "liberals allege ford government has political ties to career colleges under osap probe",
+    "nuisance bear trailer in oscar contending documentary polar bears and humans collide in frigid north",
+    "how third moment research runs 10 000 agents for 36 hours"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -4090,12 +4110,32 @@
     "https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014",
     "https://variety.com/2026/politics/news/steve-hilton-hollywood-plan-1236912024/",
     "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
-    "https://www.cbc.ca/news/canada/thunder-bay/rose-manor-fort-frances-update-9.7379584?cmp=rss"
+    "https://www.cbc.ca/news/canada/thunder-bay/rose-manor-fort-frances-update-9.7379584?cmp=rss",
+    "https://econbrowser.com/archives/2026/10/inflation-upside-surprise",
+    "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/",
+    "https://science.nasa.gov/missions/chandra/nasas-chandra-breaks-down-treble-clefs-galaxy-cluster-collision/",
+    "https://theconversation.com/ai-can-predict-intimate-partner-violence-before-survivors-disclose-but-should-it-290014",
+    "https://arstechnica.com/culture/2026/10/greta-gerwig-channels-bowie-in-psychedelic-the-magicians-nephew-trailer/",
+    "https://www.nasa.gov/news-release/nasa-to-host-news-conference-previewing-us-spacewalks-100-101/",
+    "https://theconversation.com/canada-could-save-millions-by-developing-its-own-operating-system-instead-of-relying-on-microsoft-windows-294027",
+    "https://www.pbs.org/newshour/world/iran-backed-houthis-strike-saudi-oil-company-aramcos-headquarters-officials-say",
+    "https://aws.amazon.com/blogs/machine-learning/how-tamnoon-built-ai-powered-cloud-security-remediation-with-amazon-bedrock/",
+    "https://www.pbs.org/newshour/health/how-proposed-cuts-to-this-major-national-health-survey-could-disadvantage-americans-with-disabilities",
+    "https://www.cbc.ca/news/canada/hamilton/marineland-jelly-bean-echo-oceanografic-valencia-necropsy-9.7380137?cmp=rss",
+    "https://www.dw.com/en/climate-change-and-drone-attacks-exacerbate-the-humanitarian-crisis-in-war-torn-sudan/a-79659603?maca=en-rss-en-world-4025-rdf",
+    "https://aws.amazon.com/blogs/machine-learning/deploy-and-evaluate-models-with-amazon-sagemaker-jumpstart/",
+    "https://www.cbc.ca/news/canada/hamilton/stelco-layoffs-ottawa-weighs-legal-action-9.7380840?cmp=rss",
+    "https://www.bbc.co.uk/news/videos/c65yngxdzdd5o",
+    "https://deadline.com/2026/10/red-sonja-producer-christa-campbell-launches-xta-media-1237156630/",
+    "https://www.bbc.co.uk/news/videos/ck78pj2qy42po",
+    "https://globalnews.ca/news/12102367/liberals-allege-ford-government-has-political-ties-to-career-colleges-under-osap-probe/",
+    "https://deadline.com/2026/10/nuisance-bear-trailer-exclusive-1237156595/",
+    "https://openai.com/index/third-moment-research"
   ],
   "initialized": true,
-  "cycleCount": 123,
+  "cycleCount": 124,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-10-14T17:13:59.698Z",
+  "lastRunAt": "2026-10-14T21:43:38.205Z",
   "communities": [
     "technology",
     "science",
@@ -4117,11 +4157,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20261013T165754Z-fefa",
-      "generatedAtCycle": 119,
-      "summary": "Why a Detached Honey Bee Stinger Keeps Pumping; Rats on the Ballot, and Why Cities Keep Building Rat Habitat; The Police Simulator Where the Gun Almost Always Goes Off; Epic's Reported 'AI First' Pivot Comes With an Indefinite Delay; Vacuum, Heat and Launch Noise: Testing a Commercial Moon Lander; Teaching a Cloud-Security Tool to Take Plain English; 2,776 Shots Over Five Years: Laika's 'Wildwood' Blends Puppets and Pixels; Kabila Joins a Front That Includes the Rwandan-Backed AFC/M23 Coalition;"
-    },
-    {
       "batchId": "20261013T224724Z-5f2e",
       "generatedAtCycle": 120,
       "summary": "ESA asks USTR to label Anbernic a 'Notorious Market' over ROM-stuffed handhelds; The HTTP status code that swallowed a payment: how agents stalled on 402; Ontario's LCBO returns fell $358 million as alcohol sales spread to corner stores; Testing a moon lander in the chamber that once baked Mariner; Gemini 4 Argon's Wide Rollout Arrives Behind the Paywall; When Higher U.S. Yields Stopped Lifting the Dollar; What Fishing Fleets Can Teach Us About Orbital Traffic; Perseverance Rolls Past Opportunit"
@@ -4140,6 +4175,11 @@
       "batchId": "20261014T171359Z-bb79",
       "generatedAtCycle": 123,
       "summary": "Most Internet Traffic Still Goes Through the Ocean, and 60 Percent of Cable Damage Is Accidental; Why a Battery for the Moon's South Pole Is a Cold-Start Problem; Anthropic Warns Self-Replicating AI Malware Could Spread Across Smart Devices — With Its Own Caveats; A Realistic Voice for the Frog Who Croaked for a Drink; Artemis III Will Send Four Astronauts to Earth Orbit, Not the Moon's Surface; The Teen-Safety Rules Target Platforms. AI Chatbots Aren't in Them.; A Judge Extends the Order Blocki"
+    },
+    {
+      "batchId": "20261014T214338Z-c3c0",
+      "generatedAtCycle": 124,
+      "summary": "Whether Core Inflation Beat Expectations Depends on the Yardstick; AI Design Keeps a Protease's Cutting Core and Replaces Everything Else; The Radio \"Treble Clef\" Is Likely a Black Hole's Outburst, Then a Cluster Collision; A Health Record That Flags Partner Violence Three Years Before a Patient Enrolls in a Program; The Lamppost Question That Produced a Narnia Prequel; U.S. Spacewalk 100 Will Install the Station's Seventh Solar Array; A National Operating System, and the U.S. Law That Follows t"
     }
   ]
 }

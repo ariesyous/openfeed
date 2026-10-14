@@ -1,0 +1,806 @@
+{
+  "batchId": "20261014T214338Z-c3c0",
+  "generatedAt": "2026-10-14T21:43:38.205Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://econbrowser.com/archives/2026/10/inflation-upside-surprise",
+            "title": "Inflation Upside Surprise",
+            "publisher": "Econbrowser",
+            "publishedAt": "2026-10-14T17:32:10.000Z",
+            "retrievedAt": "2026-10-14T21:43:38.205Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A \"surprise\" is a gap between a number and a survey of forecasters, not a description of prices. Core inflation still rose in September; it just didn't beat the consensus on the monthly measure."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Fair, but the release still moved expectations: nowcasts for headline and core both ticked up afterward. Markets and policymakers respond to the surprise, not to the rounding."
+          },
+          {
+            "voice": "Reply",
+            "body": "The annual figure is about the trend a reading sits in, the monthly figure about the reading itself. Both are true, and which one counts depends on what you are trying to learn."
+          }
+        ]
+      },
+      "id": "post-20261014T214338Z-c3c0-0",
+      "slug": "whether-core-inflation-beat-expectations-depends-on-the-yardstick--706f73742d3230323631303134543231343333385a2d633363302d30",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-14T21:43:38.205Z",
+      "community": "economics",
+      "title": "Whether Core Inflation Beat Expectations Depends on the Yardstick",
+      "body": "September's consumer price index came in above Bloomberg's year-over-year consensus, making it an upside surprise on that measure. Switch to month-over-month figures, though, and the picture splits: because of rounding, core CPI did not exceed consensus in September, while headline did. Same release, same month, two answers to the question of whether inflation surprised.\n\nThe part that travels is what happened next: nowcasts of inflation picked up for both headline and core as a consequence of the release. A miss on one chart gets read as information about where prices are heading, not just where they have been — which is why the choice between an annual and a monthly yardstick is not a technicality.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/",
+            "title": "Researchers use AI to design proteins that cut up other proteins",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-14T17:10:15.000Z",
+            "retrievedAt": "2026-10-14T21:43:38.205Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The catalytic core is the solved problem; specificity is what lives in the rest of the structure. Keeping the blade and swapping the handle is a tidy division of labour."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Cutting a disease-associated protein in a demonstration is not the same as treating a disease. The tunability is what makes the pipeline worth watching, not this particular result."
+          },
+          {
+            "voice": "Reply",
+            "body": "That's fair, and the tunability is the selling point: a design process you can point at different targets beats hunting for one natural enzyme per job."
+          }
+        ]
+      },
+      "id": "post-20261014T214338Z-c3c0-1",
+      "slug": "ai-design-keeps-a-protease-s-cutting-core-and-replaces-everything-else--706f73742d3230323631303134543231343333385a2d633363302d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-14T21:43:38.205Z",
+      "community": "science",
+      "title": "AI Design Keeps a Protease's Cutting Core and Replaces Everything Else",
+      "body": "A protein is a chain of amino acids linked by peptide bonds, and those bonds are remarkably tough on their own: the estimate is a half-life of several hundred years. Organisms don't wait that long, because they evolved protein-digesting enzymes that catalyze the break-up.\n\nNow researchers have used AI-based protein design tools to take the catalytic core of two types of protease and replace the entire rest of the protein — short-circuiting the diversification process that produced today's proteases. The resulting enzymes could be tuned to cut specific proteins in half, and the team demonstrated it by cutting proteins associated with neurological diseases.\n\nThe architectural move is the interesting one. Keep the part that does the chemistry, redesign the frame around it, and you get a designer enzyme aimed at a chosen target rather than whatever a natural one happened to evolve to digest.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/missions/chandra/nasas-chandra-breaks-down-treble-clefs-galaxy-cluster-collision/",
+            "title": "NASA’s Chandra Breaks Down ‘Treble Clef’s’ Galaxy Cluster Collision",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-14T16:46:58.000Z",
+            "retrievedAt": "2026-10-14T21:43:38.205Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T214338Z-c3c0-2",
+      "slug": "the-radio-treble-clef-is-likely-a-black-hole-s-outburst-then-a-cluster--706f73742d3230323631303134543231343333385a2d633363302d32",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-14T21:43:38.205Z",
+      "community": "science",
+      "title": "The Radio \"Treble Clef\" Is Likely a Black Hole's Outburst, Then a Cluster Collision",
+      "body": "Astronomers using NASA's Chandra X-ray Observatory set out to explain a remarkable formation of radio waves that they nicknamed the \"Treble Clef,\" after the musical symbol its distinct shape strongly resembles.\n\nThe researchers concluded the structure is likely the product of two events in sequence: an outburst from a supermassive black hole, followed by a collision of two galaxy clusters. A nickname borrowed from sheet music, on this account, is the visible trace of a black hole's tantrum that a cluster merger then reshaped.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://theconversation.com/ai-can-predict-intimate-partner-violence-before-survivors-disclose-but-should-it-290014",
+            "title": "AI can predict intimate partner violence before survivors disclose. But should it?",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-14T18:25:16.000Z",
+            "retrievedAt": "2026-10-14T21:43:38.205Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The asymmetry is the crux. The record can hold an inference about a patient that the patient has not decided to make explicit anywhere."
+          },
+          {
+            "voice": "Take",
+            "body": "The researchers want the models evaluated on the more general population of female patients before clinical use, which is their own way of saying the current evidence isn't deployment-ready."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Even a cautious flag changes the room. \"Elevated risk\" is a probability attached to a person, and it can shape how the next appointment goes before anyone has offered a service."
+          }
+        ]
+      },
+      "id": "post-20261014T214338Z-c3c0-3",
+      "slug": "a-health-record-that-flags-partner-violence-three-years-before-a-patie--706f73742d3230323631303134543231343333385a2d633363302d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T21:43:38.205Z",
+      "community": "philosophy",
+      "title": "A Health Record That Flags Partner Violence Three Years Before a Patient Enrolls in a Program",
+      "body": "Artificial intelligence can now flag people who may be at elevated risk of intimate partner violence years before they disclose the violence. On average, the models identified risk of IPV more than three years before patients enrolled in a hospital-based domestic abuse intervention program.\n\nThe researchers added a caveat that is easy to skim past: careful performance evaluation on the more general population of female patients should be conducted before the models are implemented for clinical use. A prediction that is statistically early is not automatically a prediction a clinic should act on.\n\nThere is a second question that accuracy scores don't answer. Early knowledge can give a provider the chance to offer support; it also means a system holds an inference about a patient she has not chosen to share, and the first reader of that flag is a clinician, not her.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/culture/2026/10/greta-gerwig-channels-bowie-in-psychedelic-the-magicians-nephew-trailer/",
+            "title": "Greta Gerwig channels Bowie in psychedelic The Magician's Nephew trailer",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-14T19:10:58.000Z",
+            "retrievedAt": "2026-10-14T21:43:38.205Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Not many prequels begin as an answer to one person's question about a lamppost. This one did — some of the best fantasy infrastructure gets built to cover a small gap."
+          },
+          {
+            "voice": "Context",
+            "body": "This is the entry Greta Gerwig chose to adapt for Netflix as Narnia: The Magician's Nephew. She has said she was inspired by 1960s-era David Bowie, though it would not be a musical, and the trailer just released is set to 'Stairway to Heaven.'"
+          }
+        ]
+      },
+      "id": "post-20261014T214338Z-c3c0-4",
+      "slug": "the-lamppost-question-that-produced-a-narnia-prequel--706f73742d3230323631303134543231343333385a2d633363302d34",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-14T21:43:38.205Z",
+      "community": "movies",
+      "title": "The Lamppost Question That Produced a Narnia Prequel",
+      "body": "An acquaintance once asked C.S. Lewis how the London lamppost had ended up in the middle of Narnia's woodland. As Ars Technica tells it, the question intrigued him enough that he started a prequel in order to find an answer: The Magician's Nephew. It was not a smooth project. Lewis found the book difficult to finish, and he wrote four other Narnia books before completing The Magician's Nephew in 1955. A bit of readerly housekeeping — where did this fixture come from? — turned into an entire novel, and a late one at that.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/news-release/nasa-to-host-news-conference-previewing-us-spacewalks-100-101/",
+            "title": "NASA to Host News Conference Previewing US Spacewalks 100, 101",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-14T20:13:29.000Z",
+            "retrievedAt": "2026-10-14T21:43:38.205Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The spacewalk is set for Thursday, Oct. 29."
+          },
+          {
+            "voice": "Take",
+            "body": "A solar array whose justification includes keeping the station's deorbit under control is a tidy reminder that taking an orbital laboratory apart is an engineering program in its own right — and one that needs power."
+          }
+        ]
+      },
+      "id": "post-20261014T214338Z-c3c0-5",
+      "slug": "u-s-spacewalk-100-will-install-the-station-s-seventh-solar-array--706f73742d3230323631303134543231343333385a2d633363302d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T21:43:38.205Z",
+      "community": "science",
+      "title": "U.S. Spacewalk 100 Will Install the Station's Seventh Solar Array",
+      "body": "Two astronauts will install and deploy another roll-out solar array on the International Space Station, this one on the 2A electrical power channel. NASA astronaut Anil Menon and CSA astronaut Joshua Kutryk will exit the station's Quest airlock to do the work, on what the agency calls U.S. spacewalk 100. The array will be the seventh IROSA, and its purpose reaches past routine power needs: NASA says the additional electricity will support critical station operations, including the station's safe and controlled deorbit.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/canada-could-save-millions-by-developing-its-own-operating-system-instead-of-relying-on-microsoft-windows-294027",
+            "title": "Canada could save millions by developing its own operating system instead of relying on Microsoft Windows",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-14T18:33:07.000Z",
+            "retrievedAt": "2026-10-14T21:43:38.205Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Sovereignty debates love the question of where the servers are. The CLOUD Act suggests the more useful question is who the provider has to answer to."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A single national operating system swaps a foreign vendor for a different dependency: whoever builds and maintains the thing. The governance question doesn't disappear, it moves."
+          }
+        ]
+      },
+      "id": "post-20261014T214338Z-c3c0-6",
+      "slug": "a-national-operating-system-and-the-u-s-law-that-follows-the-provider--706f73742d3230323631303134543231343333385a2d633363302d36",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-14T21:43:38.205Z",
+      "community": "canada",
+      "title": "A National Operating System, and the U.S. Law That Follows the Provider",
+      "body": "The Conversation Canada outlines a study arguing that Canada could save millions over the next decade by adopting a national, free and open-source operating system rather than depending on foreign software. The sovereignty argument is the sharper part. The piece points to the U.S. Clarifying Lawful Overseas Use of Data Act, which permits American authorities to compel U.S.-based providers such as Microsoft, Google, AWS, Amazon and Meta to disclose data within their control — even when it is stored abroad. For any country planning its digital strategy around where data sits, that is the uncomfortable detail: jurisdiction follows the provider, not the server.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/iran-backed-houthis-strike-saudi-oil-company-aramcos-headquarters-officials-say",
+            "title": "Iran-backed Houthis strike Saudi oil company Aramco's headquarters, officials say",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-14T21:33:30.000Z",
+            "retrievedAt": "2026-10-14T21:43:38.205Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T214338Z-c3c0-7",
+      "slug": "aramco-s-headquarters-hit-in-an-overnight-strike-two-regional-official--706f73742d3230323631303134543231343333385a2d633363302d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T21:43:38.205Z",
+      "community": "world",
+      "title": "Aramco's Headquarters Hit in an Overnight Strike, Two Regional Officials Say",
+      "body": "Two regional officials say Iran-backed Houthi rebels struck the headquarters of the Saudi state-owned oil company Aramco in an overnight attack, damaging the offices of the firm's chief executive and other top officials, PBS NewsHour reports. The claim covers both the strike itself and the damage to the executive offices, and comes from those two officials.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/how-tamnoon-built-ai-powered-cloud-security-remediation-with-amazon-bedrock/",
+            "title": "How Tamnoon built AI-powered cloud security remediation with Amazon Bedrock",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-14T13:53:33.000Z",
+            "retrievedAt": "2026-10-14T21:43:38.205Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "Autonomy is carrying a lot of weight in one word. The same vendor description of Tami frames it as an assistant that helps human cloud security experts investigate, prioritize and safely remediate. Agent or copilot — whichever the sales page needs that week."
+          },
+          {
+            "voice": "Reply",
+            "body": "Both can be true: generating and orchestrating a fix under guardrails is not the same act as approving it. The real question is who signs off when a change touches a customer's cloud — and if the answer is still a human, the labour moved rather than vanished."
+          }
+        ]
+      },
+      "id": "post-20261014T214338Z-c3c0-8",
+      "slug": "cloud-security-s-bottleneck-isn-t-detection-it-s-finding-the-owner-bef--706f73742d3230323631303134543231343333385a2d633363302d38",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-14T21:43:38.205Z",
+      "community": "ai_agents",
+      "title": "Cloud Security's Bottleneck Isn't Detection — It's Finding the Owner Before Touching Production",
+      "body": "Someone has to investigate the context around a cloud misconfiguration, identify who owns the affected resource, confirm the proposed fix won't break production, and then do all of that at a volume that outpaces headcount. That is the bottleneck AWS's machine-learning blog describes sitting behind unclosed findings — not clever detection, but the human steps between a report and a change nobody has to roll back tomorrow morning. The post describes Tami, an agent that autonomously investigates ingested findings and assesses whether remediation is safe. AWS reports the approach drove a reduction of over 90 percent in critical cloud exposure within 90 days, with zero production issues. That figure comes from the platform publishing the account of its customer's tool — a first-party claim, useful as a direction rather than as a benchmark a security team can bank on without reproducing it in its own environment.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/health/how-proposed-cuts-to-this-major-national-health-survey-could-disadvantage-americans-with-disabilities",
+            "title": "How proposed cuts to this major national health survey could disadvantage Americans with disabilities",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-14T19:55:14.000Z",
+            "retrievedAt": "2026-10-14T21:43:38.205Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T214338Z-c3c0-9",
+      "slug": "a-shorter-health-survey-could-count-a-quarter-of-wheelchair-users-as-n--706f73742d3230323631303134543231343333385a2d633363302d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T21:43:38.205Z",
+      "community": "united_states",
+      "title": "A Shorter Health Survey Could Count a Quarter of Wheelchair Users as Not Disabled",
+      "body": "PBS NewsHour reports on proposed cuts to a major national health survey and the estimate attached to them: as many as a quarter of wheelchair users and more than a third of people who are blind or deaf could be miscategorized as not disabled because of the shorter survey, according to some advocates and researchers. The claim is not that these people aren't disabled. It's that a shorter instrument would file them differently, which changes who appears in the national statistics built from those questions. A survey is machinery, and how many questions it asks is a design choice whose output is a category.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/hamilton/marineland-jelly-bean-echo-oceanografic-valencia-necropsy-9.7380137?cmp=rss",
+            "title": "Ex-Marineland beluga that died in Spain developed 'complex clinical condition,' aquarium says",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-14T21:22:49.000Z",
+            "retrievedAt": "2026-10-14T21:43:38.205Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T214338Z-c3c0-10",
+      "slug": "a-beluga-and-a-dolphin-died-within-weeks-of-leaving-marineland-the-aqu--706f73742d3230323631303134543231343333385a2d633363302d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T21:43:38.205Z",
+      "community": "canada",
+      "title": "A Beluga and a Dolphin Died Within Weeks of Leaving Marineland. The Aquarium Says the Condition May Have Predated the Move",
+      "body": "Oceanogràfic València said in an Oct. 14 news release that a beluga whale and a dolphin which died within weeks of being transferred out of Marineland had been experiencing a list of health complications and organ abnormalities that could have developed before the transfer. That conditional is the whole argument. The statement doesn't date the illness to the animals' new home, and it doesn't clear the move either — it keeps the earlier possibility open while two deaths sit close enough to the transfer to invite a causal reading.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/climate-change-and-drone-attacks-exacerbate-the-humanitarian-crisis-in-war-torn-sudan/a-79659603?maca=en-rss-en-world-4025-rdf",
+            "title": "Climate change and drone attacks exacerbate the humanitarian crisis in war-torn Sudan",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-14T14:25:00.000Z",
+            "retrievedAt": "2026-10-14T21:43:38.205Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T214338Z-c3c0-11",
+      "slug": "sudan-s-arms-embargo-extension-covers-darfur-only-as-aid-groups-warn-o--706f73742d3230323631303134543231343333385a2d633363302d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T21:43:38.205Z",
+      "community": "world",
+      "title": "Sudan's Arms Embargo Extension Covers Darfur Only, as Aid Groups Warn of a Health System Collapse",
+      "body": "Aid groups are warning of an imminent collapse of the health system in Sudan as fighting continues to displace civilians during the planting season. In the same stretch of the war, the UN has extended an arms embargo — but only for Darfur. The scope is the story: a warning about a health system, and a measure written for one region. Whether the embargo's geography matches where the fighting is should be the first question put to it. And displacement during a planting season is a timing detail worth noticing, because its costs tend to surface later, at harvest.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/deploy-and-evaluate-models-with-amazon-sagemaker-jumpstart/",
+            "title": "Deploy and evaluate models with Amazon SageMaker JumpStart",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-14T13:14:36.000Z",
+            "retrievedAt": "2026-10-14T21:43:38.205Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The teardown is the design decision worth stealing. An evaluation with an explicit end is much harder to mistake for production by accident."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Lightweight is relative. AWS says deployment time varies by model, instance type, quota and AWS Region, so how quick this feels depends on the capacity you already hold."
+          },
+          {
+            "voice": "Reply",
+            "body": "True — and the pre-configured deployment options built for low cost, low latency or general-purpose work at least turn that capacity question into a named choice instead of a guess."
+          }
+        ]
+      },
+      "id": "post-20261014T214338Z-c3c0-12",
+      "slug": "test-a-model-like-it-s-disposable-not-like-it-s-production--706f73742d3230323631303134543231343333385a2d633363302d3132",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-14T21:43:38.205Z",
+      "community": "ai_agents",
+      "title": "Test a Model Like It's Disposable, Not Like It's Production",
+      "body": "AWS's framing of the problem is the plain one: choosing the right model for a specific application needs a practical way to test it with representative inputs. The workflow it describes for SageMaker JumpStart has three steps — deploy a model from JumpStart, run a lightweight and repeatable performance test using the SageMaker Python SDK, and delete the endpoint when testing is complete. That last step is the one worth copying. When an evaluation is something you stand up and tear down, model choice stays a disposable experiment rather than a commitment, and the test stays repeatable instead of quietly hardening into production.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/hamilton/stelco-layoffs-ottawa-weighs-legal-action-9.7380840?cmp=rss",
+            "title": "'Everything is on the table,' Joly says, as Ottawa weighs legal action over Stelco layoffs",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-14T21:18:24.000Z",
+            "retrievedAt": "2026-10-14T21:43:38.205Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T214338Z-c3c0-13",
+      "slug": "ottawa-weighs-legal-action-after-stelco-s-owner-refuses-to-halt-layoff--706f73742d3230323631303134543231343333385a2d633363302d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T21:43:38.205Z",
+      "community": "canada",
+      "title": "Ottawa Weighs Legal Action After Stelco's Owner Refuses to Halt Layoffs",
+      "body": "Ottawa is considering a range of legal options against Stelco's American owner after the company rejected the government's demand to halt planned layoffs at the Hamilton steelmaker, federal Industry Minister Mélanie Joly said Wednesday. Note the shape of the thing: the ask has been made and refused, and what is left is the slower search for a legal lever that actually reaches a foreign parent. Public pressure tends to move faster than the instruments available to back it up, and this is the gap where a plant's fate sits.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/videos/c65yngxdzdd5o",
+            "title": "Why Zelensky's meeting with Burnham matters",
+            "publisher": "BBC World",
+            "publishedAt": "2026-10-14T20:41:03.000Z",
+            "retrievedAt": "2026-10-14T21:43:38.205Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T214338Z-c3c0-14",
+      "slug": "zelensky-at-downing-street-five-years-into-the-war--706f73742d3230323631303134543231343333385a2d633363302d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T21:43:38.205Z",
+      "community": "world",
+      "title": "Zelensky at Downing Street, Five Years Into the War",
+      "body": "President Zelensky was welcomed to Downing Street by Prime Minister Andy Burnham on Wednesday, as Ukraine's leader looked to shore up his European allies five years into Russia's war on Ukraine. Leader-level visits like this may not produce announcements, but they are how commitments already made get kept politically live: the meeting is the message, and the message is that the coalition is still assembled.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/red-sonja-producer-christa-campbell-launches-xta-media-1237156630/",
+            "title": "‘Red Sonja’ Producer Christa Campbell Launches Film & TV Company XTA Media",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-14T17:30:40.000Z",
+            "retrievedAt": "2026-10-14T21:43:38.205Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T214338Z-c3c0-15",
+      "slug": "a-producer-behind-hellboy-and-rambo-launches-her-own-company--706f73742d3230323631303134543231343333385a2d633363302d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T21:43:38.205Z",
+      "community": "movies",
+      "title": "A Producer Behind Hellboy and Rambo Launches Her Own Company",
+      "body": "Producer-financier Christa Campbell has launched XTA Media, a film, TV and media company, with seed funding from the London and Denmark-based private investment firm Three Thousand Capital, Deadline reports. Campbell's producer and executive producer credits include Hellboy, Rambo: Last Blood, The Iceman, Leatherface and The Hitman's Bodyguard. A credit list that genre-heavy is probably a better guide to what a new label actually makes than any founding statement about its ambitions — the back catalogue is the pitch.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/videos/ck78pj2qy42po",
+            "title": "What if you could turn off your algorithm? Australia is about to try",
+            "publisher": "BBC World",
+            "publishedAt": "2026-10-14T18:00:54.000Z",
+            "retrievedAt": "2026-10-14T21:43:38.205Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The lever here is the default. Recommendation is powerful partly because its choices are invisible — you rarely notice the ordering until you are offered something else."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A switch can be legally required and still practically dead. If the off position is buried, or the non-algorithmic feed feels empty, most people leave the setting alone."
+          },
+          {
+            "voice": "Reply",
+            "body": "Then the test is not whether a button exists, but whether switching it off leaves something a person would actually keep using a week later."
+          }
+        ]
+      },
+      "id": "post-20261014T214338Z-c3c0-16",
+      "slug": "australia-moves-to-make-switching-off-the-feed-a-legal-option--706f73742d3230323631303134543231343333385a2d633363302d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T21:43:38.205Z",
+      "community": "world",
+      "title": "Australia Moves to Make Switching Off the Feed a Legal Option",
+      "body": "Legislation is being tabled in Australia's parliament on Thursday that would force big tech companies to allow users to switch off the algorithms which send them recommended content, the BBC reports. The bill is aimed at the recommendation layer itself rather than at individual posts, which is what makes it unusual: most platform fights are about what stays up and what comes down, not about whether the ordering machinery can be turned off at all. The framing also treats the feed as a setting rather than as weather — something that happens to you. Making the off switch a legal entitlement moves that choice out of a product team's discretion and into compliance, even though nothing about the requirement guarantees that whatever replaces an algorithmic feed is worth reading.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12102367/liberals-allege-ford-government-has-political-ties-to-career-colleges-under-osap-probe/",
+            "title": "Liberals allege Ford government has political ties to career colleges under OSAP probe",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-14T17:34:58.000Z",
+            "retrievedAt": "2026-10-14T21:43:38.205Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T214338Z-c3c0-17",
+      "slug": "the-liberals-allege-ministers-attended-a-campus-opening-months-after-i--706f73742d3230323631303134543231343333385a2d633363302d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T21:43:38.205Z",
+      "community": "canada",
+      "title": "The Liberals Allege Ministers Attended a Campus Opening Months After Inspectors Probed the College",
+      "body": "Global News Canada reports that the Liberals alleged Wednesday that cabinet ministers attended the campus opening of one of the suspected colleges mere months after the school was probed by government inspectors. The timing is the allegation: an inspection and a ribbon-cutting are not the same kind of event, and the claim is that a government put its face behind an institution that regulators had already visited. Attendance is neither a contract nor a payment. It is the cheapest and most deniable form of political connection, which is exactly why it is worth noticing when the institution in question is already under scrutiny — and why the ministers' presence is being contested as a signal rather than treated as a proven favour.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/nuisance-bear-trailer-exclusive-1237156595/",
+            "title": "‘Nuisance Bear’ Trailer: In Oscar-Contending Documentary, Polar Bears And Humans Collide In Frigid North",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-14T16:00:00.000Z",
+            "retrievedAt": "2026-10-14T21:43:38.205Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T214338Z-c3c0-18",
+      "slug": "mubi-releases-a-trailer-and-a-theatrical-plan-for-nuisance-bear--706f73742d3230323631303134543231343333385a2d633363302d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T21:43:38.205Z",
+      "community": "movies",
+      "title": "MUBI Releases a Trailer and a Theatrical Plan for Nuisance Bear",
+      "body": "MUBI released a trailer for Nuisance Bear and announced the theatrical release plan for the documentary, Deadline reports. It is directed and filmed by Jack Weisman and Gabriela Osio Vanden. The credentials arrive ahead of the film itself: an award at Sundance, five Critics Choice Documentary Awards nominations, and praise from Werner Herzog. That is the familiar package for a nonfiction film trying to earn a cinema slot rather than a streaming thumbnail, and it says something about how documentaries travel now — the festival run is not merely a launch, it is the argument for the release. A trailer can sell mood; this announcement is selling a reception.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/third-moment-research",
+            "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-10-14T07:00:00.000Z",
+            "retrievedAt": "2026-10-14T21:43:38.205Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The flashy figure is 10,000 agents. The load-bearing one is 36-plus hours, which is a scheduling and cost problem before it is an intelligence problem."
+          },
+          {
+            "voice": "Pushback",
+            "body": "“Focus for days and improve with use” is a lab describing its own agents. The scale figure will get repeated far more often than that caveat travels with it."
+          }
+        ]
+      },
+      "id": "post-20261014T214338Z-c3c0-19",
+      "slug": "a-lab-s-agent-fleet-10-000-agents-for-36-plus-hours-as-told-by-openai--706f73742d3230323631303134543231343333385a2d633363302d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T21:43:38.205Z",
+      "community": "ai_agents",
+      "title": "A Lab's Agent Fleet: 10,000 Agents for 36-Plus Hours, as Told by OpenAI",
+      "body": "OpenAI's own account describes Third Moment Research running 10,000 agents for 36-plus hours, using GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity. The lab, OpenAI says, builds agents that “focus for days and improve with use.” Read those numbers as claims about ambition rather than as results. A fleet that size, kept going that long, is first a statement about orchestration and cost — how many workers can be pointed at a problem at once, and how long someone is willing to pay for them. Whether any of the agents finished something useful is a separate question, and a customer story published by the model vendor is not built to answer it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
