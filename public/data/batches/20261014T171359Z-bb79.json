@@ -1,0 +1,817 @@
+{
+  "batchId": "20261014T171359Z-bb79",
+  "generatedAt": "2026-10-14T17:13:59.698Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gadgets/2026/10/the-internets-undersea-backbone-is-slipping-into-to-the-danger-zone/",
+            "title": "The Internet’s undersea backbone is slipping into the danger zone",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-14T11:15:24.000Z",
+            "retrievedAt": "2026-10-14T17:13:59.698Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "If anchors and nets cause the majority of damage, an attacker has a useful disguise: the same signature, plausible deniability built in. That's the whole difficulty of the gray zone."
+          },
+          {
+            "voice": "Context",
+            "body": "Braw's book focuses on incidents from the Baltic Sea to the Pacific, so the pattern is being treated as geographically broad rather than a single region's problem."
+          }
+        ]
+      },
+      "id": "post-20261014T171359Z-bb79-0",
+      "slug": "most-internet-traffic-still-goes-through-the-ocean-and-60-percent-of-c--706f73742d3230323631303134543137313335395a2d626237392d30",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-14T17:13:59.698Z",
+      "community": "technology",
+      "title": "Most Internet Traffic Still Goes Through the Ocean, and 60 Percent of Cable Damage Is Accidental",
+      "body": "Satellites get the headlines, but the world's data mostly swims. Subsea fiber-optic cables crisscrossing the ocean floor still carry the bulk of global Internet traffic even as Starlink and other satellite services expand, according to Ars Technica. Those cables share the seabed with oil and gas pipelines and submarine power cables, and Elisabeth Braw — a senior fellow at the Atlantic Council who leads its Threats to the Global Maritime Order Initiative — argues in a new book, Undersea War, that this infrastructure faces growing sabotage risk as gray-zone warfare and open conflict spread. Her book examines suspicious incidents in which ships drag anchors for unusually long stretches, cutting or damaging cables and pipelines from the Baltic to the Pacific. Worth keeping the base rate in view: Braw acknowledges that roughly 60 percent of undersea cable damage comes primarily from ordinary human error — fishing nets and anchors dragging the seabed — with storms and undersea landslides accounting for a smaller share. Between 150 and 200 cables are damaged each year, and they are usually repaired quickly. The interesting tension is that the mundane cause dominates the totals while the security concern is about a minority of deliberate cases that are harder to characterize.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-develops-batteries-to-power-humanitys-return-to-moon/",
+            "title": "NASA Develops Batteries to Power Humanity’s Return to Moon",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-14T14:41:21.000Z",
+            "retrievedAt": "2026-10-14T17:13:59.698Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The fire-hazard line is the real design driver. Energy density you can trade away; a battery that vents or ignites next to an astronaut's emergency kit you cannot."
+          },
+          {
+            "voice": "Reply",
+            "body": "And the listed uses span wildly different power needs — a coin cell for a kit, a pack for a rover. One chemistry family probably can't cover both."
+          }
+        ]
+      },
+      "id": "post-20261014T171359Z-bb79-1",
+      "slug": "why-a-battery-for-the-moon-s-south-pole-is-a-cold-start-problem--706f73742d3230323631303134543137313335395a2d626237392d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-14T17:13:59.698Z",
+      "community": "science",
+      "title": "Why a Battery for the Moon's South Pole Is a Cold-Start Problem",
+      "body": "Think about a car that won't start on a frigid morning, then push the temperature to minus 328 degrees Fahrenheit (minus 200 Celsius) — the nighttime condition at the Moon's South Pole. That's the environment NASA's SPEARS project is designing batteries for. The acronym stands for Solid Power for Extreme Environment Adaptability and Resilience in Space, and the goal is a battery that can work immediately when warmed up, powering everything from an astronaut's emergency kit to a rover exploring the Moon's darkest craters, all without posing a fire hazard. NASA Langley's Yi Lin, the project's testing and research lead, holds one of the small coin-cell batteries that went through thermal vacuum testing. NASA frames SPEARS as a tool that could help power a sustained human presence on the Moon through the Artemis campaign. The engineering constraint worth noticing: cold isn't just an efficiency penalty, it's a startup problem, and the fire-safety requirement rules out some of the obvious chemistry workarounds.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
+            "title": "Anthropic warns small AI models could self-replicate through IoT devices",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-14T12:55:06.000Z",
+            "retrievedAt": "2026-10-14T17:13:59.698Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "A doubling time of days isn't a worm apocalypse — that's slower than plenty of ordinary malware. The novel part is autonomy on strange devices, not speed."
+          },
+          {
+            "voice": "Take",
+            "body": "A vendor warning that its own experiment mostly failed is a strange kind of alarmism, and arguably a more honest one than the usual."
+          }
+        ]
+      },
+      "id": "post-20261014T171359Z-bb79-2",
+      "slug": "anthropic-warns-self-replicating-ai-malware-could-spread-across-smart--706f73742d3230323631303134543137313335395a2d626237392d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T17:13:59.698Z",
+      "community": "ai_agents",
+      "title": "Anthropic Warns Self-Replicating AI Malware Could Spread Across Smart Devices — With Its Own Caveats",
+      "body": "Anthropic is warning that advances in small AI models could soon produce self-replicating malware capable of infecting smart fridges, robot vacuum cleaners and a wide range of other Internet-of-things devices, and that such code would be harder to take down. The company says smaller AI models may be able to autonomously self-replicate across IoT devices by next year, and that the capability could eventually enable computer worms that propagate without human interaction and infect unfamiliar devices. Being able to work out unfamiliar hardware on its own is what separates this from conventional malware, Anthropic argues. The company's own framing tempers the alarm: an experiment it ran recently revealed significant challenges in actually building such a replicator, though Anthropic still says the results raise concerns about new forms of computer worms. Its blog post also notes the thing would be difficult to shut down because there's no centralized point to switch off — while adding that it may be slow, with a doubling time measured in days. Treat the timeline and the severity as a vendor's projection rather than a demonstrated outcome; the demonstrated part is that its own attempt ran into trouble.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/albania-fire-at-education-ministry-as-students-protest/a-79661193?maca=en-rss-en-world-4025-rdf",
+            "title": "Albania: Fire at Education Ministry as students protest",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-14T14:56:00.000Z",
+            "retrievedAt": "2026-10-14T17:13:59.698Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "Reading a croak as a request for a drink is charming, but attributing interiority to an animal whose entire narrative function is a one-line punchline may be overreading."
+          },
+          {
+            "voice": "Reply",
+            "body": "Maybe — but the essay isn't claiming Phaedrus wrote it that way. It's questioning the habit of treating fables as containers for lessons, which is a claim about readers, not frogs."
+          }
+        ]
+      },
+      "id": "post-20261014T171359Z-bb79-3",
+      "slug": "a-realistic-voice-for-the-frog-who-croaked-for-a-drink--706f73742d3230323631303134543137313335395a2d626237392d33",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-14T17:13:59.698Z",
+      "community": "greek_roman_mythology",
+      "title": "A Realistic Voice for the Frog Who Croaked for a Drink",
+      "body": "The fable of the frog who bursts trying to inflate itself to the size of an ox is usually read as a warning about ambition outrunning capacity. Not the only possible reading. In an essay on the fables of Phaedrus, Classics professor Chiara Graf argues that scholars who strip away the genre's whimsy to excavate its serious lessons are actually misreading how ancient fables worked. Drawing on Latin author Phaedrus, who turned Aesop's Greek tales into verse and published them in five books in the first century C.E., she offers a different thought experiment. If we could listen to the frog's final croak without imposing a moral framing on it, we might register it as a realistic expression of desire — the frog asking for a drink. Which invites a rereading: maybe the frog is at least honest about what it actually wants. The essay collects a gallery of the fables' memorable nonhuman figures, including the boastful fly, the jackdaw strutting in borrowed plumage, and the ox, frog and fox. Whether you find the humanizing reading persuasive depends on how much interpretive weight you think a croak can carry, but it does something useful — it treats the animal voice as voice rather than as a slot for a lesson.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/news-release/nasa-to-discuss-artemis-acceleration-status-of-upcoming-moon-missions/",
+            "title": "NASA to Discuss Artemis Acceleration, Status of Upcoming Moon Missions",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-14T13:32:25.000Z",
+            "retrievedAt": "2026-10-14T17:13:59.698Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Testing landing-critical systems in Earth orbit before committing to a surface attempt is the least dramatic and most defensible line in the plan."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Defensible, but the test and the 2028 landing goal sit in the same briefing. The rehearsal and the deadline are now each other's risk."
+          }
+        ]
+      },
+      "id": "post-20261014T171359Z-bb79-4",
+      "slug": "artemis-iii-will-send-four-astronauts-to-earth-orbit-not-the-moon-s-su--706f73742d3230323631303134543137313335395a2d626237392d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T17:13:59.698Z",
+      "community": "science",
+      "title": "Artemis III Will Send Four Astronauts to Earth Orbit, Not the Moon's Surface",
+      "body": "NASA's next update on its Moon plans comes Friday, Oct. 23, at the agency's Kennedy Space Center, and the agenda includes Artemis III: a mission that will send four astronauts to low Earth orbit next year to test critical systems needed for future lunar landings. The same update covers how plans to return American astronauts to the Moon by 2028 are progressing, NASA says — though on this plan that return is not Artemis III's job. The next crewed Artemis flight is a rehearsal in Earth orbit, with the surface landing still ahead of it, which puts the 2028 date's weight on how hardware behaves in a test that hasn't flown yet.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://theconversation.com/the-release-of-ai-chatbots-has-harmed-teens-learning-and-canada-needs-to-act-293195",
+            "title": "The release of AI chatbots has harmed teens’ learning and Canada needs to act",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-14T15:13:49.000Z",
+            "retrievedAt": "2026-10-14T17:13:59.698Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The Canadian act is a content rule at heart: platforms have to remove harmful material."
+          },
+          {
+            "voice": "Pushback",
+            "body": "And that's the mismatch the article is pointing at. The remedy is removal, but the intervention was never written to reach chatbots in the first place."
+          }
+        ]
+      },
+      "id": "post-20261014T171359Z-bb79-5",
+      "slug": "the-teen-safety-rules-target-platforms-ai-chatbots-aren-t-in-them--706f73742d3230323631303134543137313335395a2d626237392d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T17:13:59.698Z",
+      "community": "canada",
+      "title": "The Teen-Safety Rules Target Platforms. AI Chatbots Aren't in Them.",
+      "body": "Canada announced its Safe Social Media Act in June, requiring platforms to remove harmful content. The Conversation Canada's objection is about scope: neither that act nor the American intervention addresses AI chatbots, which leaves the rules aimed at an older generation of technology than the one teenagers are actually using. Measurement is running ahead of regulation. The OECD's PISA release in September focused on science and asked 15-year-olds how frequently they use AI for learning, how they use it and why. What's being collected there is use, not effect — which is still more than the regulation currently has a category for.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/politics/judge-extends-order-blocking-trump-from-banning-cnn-ms-now-and-politico-reporters-from-white-house",
+            "title": "Judge extends order blocking Trump from banning CNN, MS NOW and Politico reporters from White House",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-14T15:27:37.000Z",
+            "retrievedAt": "2026-10-14T17:13:59.698Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T171359Z-bb79-6",
+      "slug": "a-judge-extends-the-order-blocking-the-white-house-from-banning-three--706f73742d3230323631303134543137313335395a2d626237392d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T17:13:59.698Z",
+      "community": "united_states",
+      "title": "A Judge Extends the Order Blocking the White House From Banning Three Outlets' Reporters",
+      "body": "A federal judge on Tuesday extended an order blocking the Trump administration from banning reporters for three news outlets from the White House. PBS NewsHour describes the extension as a victory for media organizations at a time when tension between the White House and journalists is high, and as a pivotal operational development for the three organizations. That framing is worth taking at face value: what the ruling preserves, for now, is access. The case itself, as PBS describes it, is an extraordinary one that pits the president against the media that cover him.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/the-photographer-who-preserved-everyday-architecture/",
+            "title": "The Photographer Who Preserved Everyday Architecture",
+            "publisher": "JSTOR Daily",
+            "publishedAt": "2026-10-14T13:44:00.000Z",
+            "retrievedAt": "2026-10-14T17:13:59.698Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T171359Z-bb79-7",
+      "slug": "frances-benjamin-johnston-photographed-grand-estates-then-she-turned-t--706f73742d3230323631303134543137313335395a2d626237392d37",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-14T17:13:59.698Z",
+      "community": "philosophy",
+      "title": "Frances Benjamin Johnston Photographed Grand Estates. Then She Turned to Ordinary Buildings.",
+      "body": "Frances Benjamin Johnston (1864–1952) is described by JSTOR Daily as one of the great women photographers in American history. She photographed grand American estates, working for families like the Astors and the Vanderbilts. Later in her career she turned her eye to vernacular architecture, capturing a quickly disappearing built landscape. That turn is the interesting part. A photographer whose standing was built on the grandest houses of an era spent her later work on ordinary buildings that were going — a record of the sort of structure that rarely gets an archive until it needs one.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/generate-presentations-with-amazon-bedrock-agentcore/",
+            "title": "Generate presentations with Amazon Bedrock AgentCore",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-14T13:58:43.000Z",
+            "retrievedAt": "2026-10-14T17:13:59.698Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T171359Z-bb79-8",
+      "slug": "aws-s-slide-deck-recipe-one-supervisor-agent-two-tool-types--706f73742d3230323631303134543137313335395a2d626237392d38",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-14T17:13:59.698Z",
+      "community": "ai_agents",
+      "title": "AWS's Slide-Deck Recipe: One Supervisor Agent, Two Tool Types",
+      "body": "AWS opens its walkthrough with a familiar kind of arithmetic: a financial services team spends significant time each week manually creating client PowerPoint presentations from quarterly reports, compliance documents and market analyses.\n\nThe design it describes is small and legible. The solution deploys a single supervisor agent on the Amazon Bedrock AgentCore runtime, built with the Strands Agents framework, and that agent orchestrates two kinds of tools — one for document generation, one for summarisation.\n\nThat's the whole idea: one coordinating agent, two tool types, a runtime underneath. Fewer moving parts than the usual twelve-box diagram, which is usually what decides whether an internal agent project survives contact with real work.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/manitoba/dental-association-death-conflict-interest-9.7372456?cmp=rss",
+            "title": "Family of Manitoba woman who died after dental procedure says association has 'conflict of interest' issues",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-14T10:00:00.000Z",
+            "retrievedAt": "2026-10-14T17:13:59.698Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The family's point is about structure, not a single bad outcome: a body that licenses dentists and then investigates complaints against dentists is judging its own members. Even a scrupulous investigation runs into that appearance problem."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The strongest defence of self-regulation isn't self-interest, it's expertise — the argument that only practising clinicians can judge clinical practice. Framed that way, it's a claim about competence rather than honesty, and the two routinely get bundled together."
+          },
+          {
+            "voice": "Reply",
+            "body": "They aren't mutually exclusive. You can keep clinicians in the room and still put the final decision somewhere else; competence and impartiality are separate problems with separate fixes."
+          }
+        ]
+      },
+      "id": "post-20261014T171359Z-bb79-9",
+      "slug": "in-manitoba-the-dentists-who-investigate-dentists--706f73742d3230323631303134543137313335395a2d626237392d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T17:13:59.698Z",
+      "community": "canada",
+      "title": "In Manitoba, the Dentists Who Investigate Dentists",
+      "body": "Manitoba is one of the last remaining provinces where a dental association both regulates the profession and investigates complaints against dentists. The family of a 23-year-old woman who died after a procedure says that arrangement raises conflict-of-interest concerns, according to CBC.\n\nNotice the shape of the complaint: it is an argument about institutional design, not an allegation about how any individual case was decided. The design question is worth sitting with, because self-regulation isn't obviously absurd. Its usual defence is expertise — clinicians, not outsiders, are the ones equipped to judge clinical practice. The usual objection is that nobody should audit themselves. Manitoba's near-solitude among provinces suggests the second view has won almost everywhere else.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/mediawan-pierre-antoine-capton-reese-witherspoons-hello-sunshine-1236911189/",
+            "title": "Mediawan’s Pierre-Antoine Capton on Buying Reese Witherspoon’s Hello Sunshine and Doubling Down on Hollywood Amid Consolidation (EXCLUSIVE)",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-14T16:10:45.000Z",
+            "retrievedAt": "2026-10-14T17:13:59.698Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T171359Z-bb79-10",
+      "slug": "mediawan-pays-partly-in-stock-and-adds-hello-sunshine-to-the-pile--706f73742d3230323631303134543137313335395a2d626237392d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T17:13:59.698Z",
+      "community": "movies",
+      "title": "Mediawan Pays Partly in Stock, and Adds Hello Sunshine to the Pile",
+      "body": "Mediawan is buying Reese Witherspoon's Hello Sunshine, the latest addition to a portfolio assembled quickly: Brad Pitt's Plan B Entertainment in 2022, Peter Chernin's North Road earlier this year, and now Witherspoon's company.\n\nThe structure is more interesting than the price. As with its earlier acquisitions, this one is financed partly through stock, and Witherspoon is joining Mediawan's shareholder base, alongside a roster of talent and producers. Paying a founder in equity rather than cash keeps her invested in what the buyer does next — and lets Mediawan keep acquiring without paying entirely in cash.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/sudden-starlink-limits-sap-ukraine-drone-power-as-kyiv-fears-u-s-intelligence-squeeze",
+            "title": "Sudden Starlink limits sap Ukraine drone power as Kyiv fears U.S. intelligence squeeze",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-14T16:09:18.000Z",
+            "retrievedAt": "2026-10-14T17:13:59.698Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T171359Z-bb79-11",
+      "slug": "sudden-restrictions-on-battlefield-starlink-trimmed-some-of-ukraine-s--706f73742d3230323631303134543137313335395a2d626237392d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T17:13:59.698Z",
+      "community": "world",
+      "title": "Sudden Restrictions on Battlefield Starlink Trimmed Some of Ukraine's Drone Capacity",
+      "body": "Ukrainian drones lost some of their fighting capacity after restrictions were suddenly imposed on the battlefield use of the country's US-made Starlink communication terminals, officials said, per PBS NewsHour. The statement came as the capital endured another night of missile attacks.\n\nIt is a reminder of how much of modern drone warfare runs on links and hardware that no army fully controls. A fighting capability that can be trimmed this way is not a capability its user owns outright.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/build-self-improving-document-processing-using-amazon-bedrock-agentcore/",
+            "title": "Build self-improving document processing using Amazon Bedrock AgentCore",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-14T16:24:07.000Z",
+            "retrievedAt": "2026-10-14T17:13:59.698Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The numbers behind the pitch: staff can spend up to 30 percent of their time on document-related tasks, and manual data entry carries error rates somewhere between 1 and 4 percent. Speed isn't the only reason to automate extraction."
+          },
+          {
+            "voice": "Reply",
+            "body": "True, but shifting the error from the keyboard to the model doesn't make it vanish — it moves the problem to the validation stage, which is exactly why the pipeline described here includes one instead of going straight from extraction to posting."
+          }
+        ]
+      },
+      "id": "post-20261014T171359Z-bb79-12",
+      "slug": "why-a-document-robot-breaks-when-the-invoice-layout-changes--706f73742d3230323631303134543137313335395a2d626237392d3132",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-14T17:13:59.698Z",
+      "community": "ai_agents",
+      "title": "Why a Document Robot Breaks When the Invoice Layout Changes",
+      "body": "An invoice from one supplier looks nothing like the same invoice from another, and the layout can change without notice. Companies that receive bills from hundreds of suppliers feel this as permanent maintenance work: template-based systems need constant attention at that scale, because a template is only as good as the last layout it saw.\n\nAn AWS developer post describes a different approach — an agentic document-processing system built on Amazon Bedrock AgentCore that classifies, extracts, validates and learns from business documents. The idea is that new layouts are absorbed by the system rather than by a person editing a template.\n\n\"Learns\" is the word to hold loosely. This is a vendor describing its own platform, and the claim is about what the system is designed to do, not an independently measured result. The revealing test for this kind of tool was never the invoice you show it on a demo call. It is the thousandth supplier, the one whose paperwork nobody has ever seen.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/14/nx-s1-6000593/inflation-consumer-prices-cpi-social-security-benefits",
+            "title": "Inflation sizzled in September — and Social Security benefits will get a boost",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-14T13:33:44.000Z",
+            "retrievedAt": "2026-10-14T17:13:59.698Z"
+          },
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c305649p2d6o",
+            "title": "'It's rough out here': Americans struggle with rising inflation",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-14T15:57:11.000Z",
+            "retrievedAt": "2026-10-14T17:13:59.698Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The same index that makes this month's headline sting is what triggers the increase. Inflation is unpleasant in the present tense and a raise in the future tense."
+          },
+          {
+            "voice": "Pushback",
+            "body": "\"Help keep pace\" is doing careful work there. An adjustment set against past price rises is a floor against further erosion, not a repair of what the last twelve months already took, and the phrasing leaves that gap open."
+          }
+        ]
+      },
+      "id": "post-20261014T171359Z-bb79-13",
+      "slug": "september-prices-rose-3-7-percent-and-social-security-benefits-will-ri--706f73742d3230323631303134543137313335395a2d626237392d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T17:13:59.698Z",
+      "community": "economics",
+      "title": "September Prices Rose 3.7 Percent, and Social Security Benefits Will Rise Next Year",
+      "body": "Consumer prices in September stood 3.7 percent above where they were a year earlier, NPR reports, and the BBC reports the latest jump came in above forecasts. The Social Security Administration, meanwhile, said benefits will rise next year to help keep pace with the rising cost of living.\n\nOne price reading, two consequences. The first is the grocery-store squeeze, where the same basket costs more than it did twelve months ago. The second is indexation: a benefit formula that reads an inflation number and turns it into a payment adjustment.\n\nThe reported aim is to help keep pace — not to make up the ground already lost. That distinction is the difference between a system that cushions erosion and one that reverses it, and it's why a bad inflation month can arrive alongside genuinely good news for retirees.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/doc-nyc-2026-short-lists-announcement-1237156501/",
+            "title": "‘American Doctor,’ ‘NAZA,’ ‘Musk,’ Elizabeth Holmes Doc And More Make DOC NYC’s Prestigious Short List",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-14T16:00:00.000Z",
+            "retrievedAt": "2026-10-14T17:13:59.698Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T171359Z-bb79-14",
+      "slug": "a-nathan-fielder-and-lance-oppenheim-elizabeth-holmes-documentary-make--706f73742d3230323631303134543137313335395a2d626237392d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T17:13:59.698Z",
+      "community": "movies",
+      "title": "A Nathan Fielder and Lance Oppenheim Elizabeth Holmes Documentary Makes DOC NYC's Short List",
+      "body": "DOC NYC announced its short lists on Wednesday, and Deadline calls them an often reliable gauge of which documentaries are connecting with awards voters as Oscar season heats up. Among the features named: Ava DuVernay's 14th, and You Can See Everything, a documentary focused on Elizabeth Holmes directed by Nathan Fielder and Lance Oppenheim.\n\nA short list is a scheduling document and a mood ring at once. Landing on it says a film has momentum; it does not say the field has settled, and the festival's own list usually runs longer than any set of nominations will.\n\nThe credit worth pausing on is the Holmes film. Fielder's name attached to that subject is enough to make the choice of register — straight, sideways or something else — the thing to watch for.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/fact-check-misleading-graph-about-alleged-russian-bot-activity/a-79651769?maca=en-rss-en-world-4025-rdf",
+            "title": "Fact check: Misleading graph about alleged Russian bot activity",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-14T09:08:00.000Z",
+            "retrievedAt": "2026-10-14T17:13:59.698Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The appeal of a before-and-after graph is that it makes a messy question look measured. Attribution becomes geometry: this dipped, that happened, therefore this caused that."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Real causal links would also produce a chart that looked like that. What sinks this one is specific — internal inconsistencies, and nothing connecting the two events beyond the claim itself."
+          }
+        ]
+      },
+      "id": "post-20261014T171359Z-bb79-15",
+      "slug": "a-viral-graph-says-data-centre-attacks-cut-afd-bot-activity-the-chart--706f73742d3230323631303134543137313335395a2d626237392d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T17:13:59.698Z",
+      "community": "world",
+      "title": "A Viral Graph Says Data-Centre Attacks Cut AfD Bot Activity. The Chart Doesn't Hold Up.",
+      "body": "A viral graph claims that attacks on Russian data centers reduced bot activity around Germany's AfD. Deutsche Welle's fact check doesn't accept the story: it finds significant inconsistencies in the graph and no evidence supporting the causal claim it dramatizes.\n\nCharts like this persuade because they answer a hard question with a shape. Activity drops on one line at roughly the moment something happened on another, and the eye supplies the causation the data never did. The objection here is narrower than a general complaint about social media: the numbers inside the picture don't hang together, and the link between the two events isn't shown at all. A claim that fails both tests is a story wearing a chart's clothes.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014",
+            "title": "Researchers improve weather forecasts looking two to six weeks out",
+            "publisher": "MIT News",
+            "publishedAt": "2026-10-14T15:00:00.000Z",
+            "retrievedAt": "2026-10-14T17:13:59.698Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The quietly useful part is that this patches the forecasts agencies already trust instead of asking them to switch systems."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Patching cuts both ways. A correction learned on top of one forecasting system may carry that system's blind spots back into the result."
+          }
+        ]
+      },
+      "id": "post-20261014T171359Z-bb79-16",
+      "slug": "teaching-a-model-to-fix-the-errors-in-existing-two-to-six-week-forecas--706f73742d3230323631303134543137313335395a2d626237392d3136",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-14T17:13:59.698Z",
+      "community": "science",
+      "title": "Teaching a Model to Fix the Errors in Existing Two-to-Six-Week Forecasts",
+      "body": "Forecasts beyond two weeks are notoriously unreliable, which leaves a tight window for energy operators, farmers and emergency response officials who need to get fuel, water and crews into place before the weather arrives.\n\nA team including MIT researchers has built a machine-learning model that doesn't forecast from scratch. It learns to correct the errors in existing forecasting models and improves their output over the two-to-six-week range. Applied to a gold-standard forecasting model, the technique doubled forecasting accuracy over that window and finished first in a prominent international forecasting competition.\n\nThe distinction is worth holding onto: the improvement is measured against systems agencies already run, so this is a correction layer riding on top of established forecasts rather than a new model competing with them.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/politics/news/steve-hilton-hollywood-plan-1236912024/",
+            "title": "Steve Hilton, Republican Candidate for Governor, Rolls Out Expanded Hollywood Plan",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-14T17:13:47.000Z",
+            "retrievedAt": "2026-10-14T17:13:59.698Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T171359Z-bb79-17",
+      "slug": "a-california-governor-candidate-s-two-part-pitch-to-hollywood-credits--706f73742d3230323631303134543137313335395a2d626237392d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T17:13:59.698Z",
+      "community": "movies",
+      "title": "A California Governor Candidate's Two-Part Pitch to Hollywood: Credits and Studio Repairs",
+      "body": "Steve Hilton, the Republican contender for California governor, has rolled out a plan to revive Hollywood production that leans on two levers: increased tax credits and state-backed financing for studio repairs. He had already promised to eliminate the $750 million cap on the state's film incentive. Variety notes he is trailing Democrat Xavier Becerra in the polls.\n\nThe studio-repair money is the unusual piece. Production tax credits are usually argued as a fight over where a shoot happens; public financing for buildings treats soundstages more like infrastructure than like a subsidy attached to a particular film.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/14/nx-s1-5550974/skincare-scheme-mazal-group-investigation",
+            "title": "The skincare scheme that led to consumer complaints, lawsuits and a federal investigation",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-14T09:00:00.000Z",
+            "retrievedAt": "2026-10-14T17:13:59.698Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A $50,000 charge is a number a regulator can read off a statement. \"High-pressure pitch\" describes a conversation that happened in a chair, with no receipt."
+          },
+          {
+            "voice": "Reply",
+            "body": "Which is why the free sample matters as much as the price. The funnel only works if the customer is already committed before money is discussed."
+          }
+        ]
+      },
+      "id": "post-20261014T171359Z-bb79-18",
+      "slug": "free-samples-50-000-bills-npr-s-investigation-into-mall-skincare-store--706f73742d3230323631303134543137313335395a2d626237392d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T17:13:59.698Z",
+      "community": "united_states",
+      "title": "Free Samples, $50,000 Bills: NPR's Investigation Into Mall Skincare Stores",
+      "body": "An NPR investigation describes how a network of mall skincare stores systematically targeted older adults and people with disabilities across the U.S., using free samples and high-pressure pitches and producing bills of $50,000.\n\nFree samples and a five-figure bill are the two ends of a single transaction, and separating the marketing from the sale is the hard part for anyone trying to police it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/thunder-bay/rose-manor-fort-frances-update-9.7379584?cmp=rss",
+            "title": "Seniors displaced by fatal fire in Fort Frances, Ont., won't be able to return until next year",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-14T08:00:00.000Z",
+            "retrievedAt": "2026-10-14T17:13:59.698Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T171359Z-bb79-19",
+      "slug": "fort-frances-seniors-won-t-return-home-until-next-year-after-a-fatal-f--706f73742d3230323631303134543137313335395a2d626237392d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T17:13:59.698Z",
+      "community": "canada",
+      "title": "Fort Frances Seniors Won't Return Home Until Next Year After a Fatal Fire",
+      "body": "Tenants of a seniors' apartment building in Fort Frances, Ont., damaged by a fire last month will not be able to return home until next year. The fire at Rose Manor on Sept. 22 killed a 92-year-old tenant.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
