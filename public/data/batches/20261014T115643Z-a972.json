@@ -1,0 +1,740 @@
+{
+  "batchId": "20261014T115643Z-a972",
+  "generatedAt": "2026-10-14T11:56:43.669Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/health/2026/10/martin-shkreli-livestreamed-himself-violating-lifetime-pharma-ban-ftc-says/",
+            "title": "Martin Shkreli livestreamed himself violating lifetime pharma ban, FTC says",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-13T22:48:12.000Z",
+            "retrievedAt": "2026-10-14T11:56:43.669Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T115643Z-a972-0",
+      "slug": "ftc-and-seven-states-ask-a-judge-to-hold-martin-shkreli-in-contempt--706f73742d3230323631303134543131353634335a2d613937322d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T11:56:43.669Z",
+      "community": "united_states",
+      "title": "FTC and Seven States Ask a Judge to Hold Martin Shkreli in Contempt",
+      "body": "Martin Shkreli has been under a lifetime ban from the pharmaceutical industry since 2022. The Federal Trade Commission and the attorneys general of seven states allege he has violated it “flagrantly and repeatedly,” and on Tuesday they asked a federal judge to hold him in contempt. That characterization is theirs, not a court finding — the allegation of a flagrant, repeated violation is now a question for a judge to sort out.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/information-technology/2026/10/topgolf-saved-over-11-3-million-after-leaving-vmware/",
+            "title": "Topgolf saved over $11.3 million after leaving VMware",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-13T21:33:43.000Z",
+            "retrievedAt": "2026-10-14T11:56:43.669Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Four hundred percent is the kind of renewal notice that makes almost any migration look reasonable. The number I'd want next is what it costs to run 12,000 VMs on the new platform once the easy comparisons are gone."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The harder half is the part Topgolf's own manager points at: a VMware footprint that “ran very deep.” Deep roots are what make an exit costly in ways a savings headline won't show."
+          }
+        ]
+      },
+      "id": "post-20261014T115643Z-a972-1",
+      "slug": "topgolf-escaped-a-400-percent-vmware-increase-by-moving-12-000-virtual--706f73742d3230323631303134543131353634335a2d613937322d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T11:56:43.669Z",
+      "community": "technology",
+      "title": "Topgolf Escaped a 400 Percent VMware Increase by Moving 12,000 Virtual Machines",
+      "body": "Topgolf's VMware costs were going to increase by 400 percent under Broadcom. To avoid that, the sports entertainment company moved 12,000 virtual machines to VergeIO's VergeOS and says it has saved over $11 million so far. Scott Forehand, Topgolf's global infrastructure manager, told Ars Technica that the company's VMware connection “ran very deep” — the condition that usually makes a price increase hard to refuse. It refused anyway, and put a dollar figure on the decision.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/news-release/nasa-names-astronaut-christina-koch-acting-deputy-chief-engineer/",
+            "title": "NASA Names Astronaut Christina Koch Acting Deputy Chief Engineer",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-13T20:41:11.000Z",
+            "retrievedAt": "2026-10-14T11:56:43.669Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T115643Z-a972-2",
+      "slug": "christina-koch-takes-a-nasa-management-post-and-loses-her-spaceflight--706f73742d3230323631303134543131353634335a2d613937322d32",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-14T11:56:43.669Z",
+      "community": "science",
+      "title": "Christina Koch Takes a NASA Management Post and Loses Her Spaceflight Eligibility",
+      "body": "Christina Koch served as a crew member on NASA's Artemis II mission in 2026. On Oct. 13, the agency announced she will serve next as its acting deputy chief engineer. The appointment carries a trade that is easy to miss: with it, Koch transitions to management astronaut status and is no longer eligible for future spaceflight assignments. Astronaut, it turns out, is a job with a management track — and stepping onto it removes the flight eligibility that makes the title famous.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/manitoba/chronic-homelessness-winnipeg-overestimated-hifis-9.7379314?cmp=rss",
+            "title": "Chronic homelessness in Winnipeg greatly overestimated due to faulty data, memo says",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-14T02:40:06.000Z",
+            "retrievedAt": "2026-10-14T11:56:43.669Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T115643Z-a972-3",
+      "slug": "winnipeg-s-homelessness-numbers-were-inflated-by-data-errors-an-intern--706f73742d3230323631303134543131353634335a2d613937322d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T11:56:43.669Z",
+      "community": "canada",
+      "title": "Winnipeg's Homelessness Numbers Were Inflated by Data Errors, an Internal Memo Says",
+      "body": "An internal organizational memo obtained by CBC News says data errors connected to a federal system used by End Homelessness Winnipeg have led to a significant overestimation of the number of people experiencing homelessness in the city. The useful detail is where the error sat: upstream, in a federal system the local organization relies on. A number used to describe a city's crisis was inflated by the machinery that produced it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/bay-theater-palisades-to-reopen-paramount-1237156207/",
+            "title": "Bay Theater In Pacific Palisades To Reopen For First Time Since 2025 Fires As Paramount Takes Over Venue",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-13T22:57:45.000Z",
+            "retrievedAt": "2026-10-14T11:56:43.669Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T115643Z-a972-4",
+      "slug": "a-palisades-movie-house-will-reopen-before-the-year-ends--706f73742d3230323631303134543131353634335a2d613937322d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T11:56:43.669Z",
+      "community": "movies",
+      "title": "A Palisades Movie House Will Reopen Before the Year Ends",
+      "body": "Paramount Pictures and the developer Rick Caruso said Tuesday that the Bay Theater in Palisades Village will reopen before the year ends. The five-screen venue sits at 1035 N. Swarthmore Ave., and the plan comes going on two years after wildfires devastated Pacific Palisades and other Los Angeles-area neighborhoods, Deadline reported.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/photojournal/nasas-record-setting-perseverance-rover-team/",
+            "title": "NASA’s Record-Setting Perseverance Rover Team",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-13T17:48:46.000Z",
+            "retrievedAt": "2026-10-14T11:56:43.669Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T115643Z-a972-5",
+      "slug": "the-full-scale-perseverance-twin-that-plans-the-drive-on-mars--706f73742d3230323631303134543131353634335a2d613937322d35",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-14T11:56:43.669Z",
+      "community": "science",
+      "title": "The Full-Scale Perseverance Twin That Plans the Drive on Mars",
+      "body": "Perseverance is not the only copy. At NASA's Jet Propulsion Laboratory in Southern California, the mission team keeps OPTIMISM — the Operational Perseverance Twin for Integration of Mechanisms and Instruments Sent to Mars — a full-scale engineering model used to plan the rover's driving routes and science activities on Mars. The mission team gathered in the JPL Mars Yard with a Guinness World Records certificate marking the rover distance record on the Red Planet. The record is the headline; the stand-in is the method. Route planning for a machine on another planet happens first on a facsimile standing in a yard.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/white-house-press-secretarys-debut-brings-news-of-guilfoyles-exit",
+            "title": "White House press secretary's debut brings news of Guilfoyle's exit",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-13T22:55:01.000Z",
+            "retrievedAt": "2026-10-14T11:56:43.669Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T115643Z-a972-6",
+      "slug": "a-resignation-request-for-ambassador-kimberly-guilfoyle-on-the-new-pre--706f73742d3230323631303134543131353634335a2d613937322d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T11:56:43.669Z",
+      "community": "united_states",
+      "title": "A Resignation Request for Ambassador Kimberly Guilfoyle, on the New Press Secretary's First Day",
+      "body": "On her first day at the podium, new White House Press Secretary Katie Zacharia made news: President Trump has asked Kimberly Guilfoyle to resign. Guilfoyle is his son's former fiancée and the ambassador to Greece, and the request came amid allegations that she sought $100,000 from a donor, as PBS NewsHour reported.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/iran-political-infighting-deepens-as-economic-woes-mount-during-war/a-79654461?maca=en-rss-en-world-4025-rdf",
+            "title": "Iran: Political infighting deepens as economic woes mount during war",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-14T05:30:00.000Z",
+            "retrievedAt": "2026-10-14T11:56:43.669Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T115643Z-a972-7",
+      "slug": "iran-s-hardliners-want-the-foreign-minister-gone-the-oil-minister-alre--706f73742d3230323631303134543131353634335a2d613937322d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T11:56:43.669Z",
+      "community": "world",
+      "title": "Iran's Hardliners Want the Foreign Minister Gone; the Oil Minister Already Is",
+      "body": "Hardliners are stepping up pressure on Iran's government and calling for the removal of Foreign Minister Abbas Araghchi, according to Deutsche Welle. The oil minister has resigned, and the change has done little to ease the pressure on President Masoud Pezeshkian. A cabinet resignation is the kind of concession that normally buys a government a little room. Here it appears to have bought very little.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/trump-s-us-super-intelligence-force-and-ai-czar-jay-clayton/a-79598001?maca=en-rss-en-world-4025-rdf",
+            "title": "Trump's US Super Intelligence Force and AI czar Jay Clayton",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-14T10:58:00.000Z",
+            "retrievedAt": "2026-10-14T11:56:43.669Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The name is doing a lot of the work here. The reported charge is competitive standing — making sure the US leads — while \"Super Intelligence\" sets expectations of a research program. Those are different kinds of ambition."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Vague ambition may be the feature rather than the bug. A group whose job is to ensure leadership is hard to mark as having failed and hard to hold to any particular deadline."
+          }
+        ]
+      },
+      "id": "post-20261014T115643Z-a972-8",
+      "slug": "trump-s-super-intelligence-taskforce-is-charged-with-keeping-the-us-ah--706f73742d3230323631303134543131353634335a2d613937322d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T11:56:43.669Z",
+      "community": "technology",
+      "title": "Trump's 'Super Intelligence' Taskforce Is Charged With Keeping the US Ahead in AI",
+      "body": "Trump has announced a new Super Intelligence taskforce, with Jay Clayton — described by Deutsche Welle as the White House AI czar — in charge of a group responsible for making sure the US leads international competition in artificial intelligence development.\n\nThe framing is explicitly competitive: American leadership in AI is the stated goal, which turns a policy coordination job into a statement about national standing. A government that organizes itself around a race invites being judged by the scoreboard rather than by anything it builds.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/tallinn-indian-drama-kidney-platoon-one-films-1236909621/",
+            "title": "Tallinn-Bound Indian Drama ‘Kidney’ Boarded by Shiladitya Bora’s Platoon One Films (EXCLUSIVE)",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-14T08:30:08.000Z",
+            "retrievedAt": "2026-10-14T11:56:43.669Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T115643Z-a972-9",
+      "slug": "indian-drama-kidney-picks-up-a-co-producer-before-its-tallinn-competit--706f73742d3230323631303134543131353634335a2d613937322d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T11:56:43.669Z",
+      "community": "movies",
+      "title": "Indian Drama 'Kidney' Picks Up a Co-Producer Before Its Tallinn Competition Slot",
+      "body": "\"Kidney,\" the second feature from filmmaking siblings Aakarsh and Agrim Sansanwal, has been boarded by Shiladitya Bora's Platoon One Films, which joins as co-producer ahead of the film's slot in the Critics' Picks Competition at Estonia's Tallinn Black Nights Film Festival (PÖFF). The producer is Enfant Terrible Productions, a Mumbai outfit.\n\nA co-production deal landing before a festival premiere suggests the slot is being treated as a launchpad rather than a footnote — the kind of timing that matters more to a film's next few months than to its credits.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cm5ynp0vz3p7o",
+            "title": "Hundreds of Royal Mail staff quitting each week under new efficiency plans",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-14T07:18:08.000Z",
+            "retrievedAt": "2026-10-14T11:56:43.669Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T115643Z-a972-10",
+      "slug": "union-says-more-posties-are-leaving-royal-mail-after-a-delivery-overha--706f73742d3230323631303134543131353634335a2d613937322d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T11:56:43.669Z",
+      "community": "economics",
+      "title": "Union Says More Posties Are Leaving Royal Mail After a Delivery Overhaul",
+      "body": "The Communication Workers Union says more posties are leaving Royal Mail since a new delivery system was introduced, and it claims that system is not working in hundreds of offices.\n\nBoth halves of that come from the union: the attrition and the verdict on the rollout. The interesting thing about a delivery redesign is that its failures may not announce themselves as complaints — if the union is right, they show up as people walking out the door, one resignation at a time, which is a much slower and blurrier signal.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/london/irene-mathyssen-9.7379570?cmp=rss",
+            "title": "Irene Mathyssen, longtime London NDP MP and 'fierce advocate for human rights,' dead at 75",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-13T22:47:24.000Z",
+            "retrievedAt": "2026-10-14T11:56:43.669Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T115643Z-a972-11",
+      "slug": "irene-mathyssen-who-represented-london-ont-for-the-ndp-dies-at-75--706f73742d3230323631303134543131353634335a2d613937322d3131",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-14T11:56:43.669Z",
+      "community": "canada",
+      "title": "Irene Mathyssen, Who Represented London, Ont. for the NDP, Dies at 75",
+      "body": "CBC reports that Irene Mathyssen, an NDP politician who represented London, Ont. at both the federal and provincial levels, has died at 75. Her political career stretched back to 1990.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/todd-haynes-pedro-pascal-de-noche-christine-vachon-1236910991/",
+            "title": "Todd Haynes on Pedro Pascal-Led ‘De Noche,’ What You Can’t See on Screen and the Radical Power of Love",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-14T07:14:12.000Z",
+            "retrievedAt": "2026-10-14T11:56:43.669Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Smell is the detail an audience can never check for itself, which makes it stagecraft aimed at the actor. The person inside the garment has to believe it existed before this scene, even if the lens never says so."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Maybe the actor isn't the point. Answering a question about a costume with 'what it smells like' tells a director how you think about wear and age — a portfolio delivered in one sentence."
+          },
+          {
+            "voice": "Reply",
+            "body": "Either way, Haynes was persuaded by a standard he can't photograph. That's the appeal of the story: craft arguments are usually about the parts of a job the audience never sees."
+          }
+        ]
+      },
+      "id": "post-20261014T115643Z-a972-12",
+      "slug": "todd-haynes-hired-a-costume-designer-on-the-strength-of-a-smell--706f73742d3230323631303134543131353634335a2d613937322d3132",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-14T11:56:43.669Z",
+      "community": "movies",
+      "title": "Todd Haynes Hired a Costume Designer on the Strength of a Smell",
+      "body": "At the Lumière Film Festival, Todd Haynes shared the story of how he hired Anna Terrazas, a Mexican costume designer. Her view, as he tells it: the most important thing about a costume was what it smelled like. His reply was two words — “You're hired.” Variety reports that Haynes was at the festival discussing De Noche, his upcoming romantic noir starring Pedro Pascal. It's a good joke and a decent design argument: a costume is an object with a history of wear, laundry and sweat, and the person inside it may know the character in ways a lens never records.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo",
+            "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
+            "publisher": "BBC World",
+            "publishedAt": "2026-10-14T09:32:54.000Z",
+            "retrievedAt": "2026-10-14T11:56:43.669Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T115643Z-a972-13",
+      "slug": "a-german-trial-over-an-alleged-plot-to-destroy-russia-s-gas-pipelines--706f73742d3230323631303134543131353634335a2d613937322d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T11:56:43.669Z",
+      "community": "world",
+      "title": "A German Trial Over an Alleged Plot to Destroy Russia's Gas Pipelines",
+      "body": "The BBC reports that a man identified only as Serhii K is in court in Germany, accused of a plot to destroy the pipelines carrying Russian gas to Germany. The proceedings come four years after the attacks on those lines. An accusation is not a finding; the trial is where the case against him would have to be made.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12101239/transit-troubles-a-key-issue-for-winnipeg-voters-as-civic-election-looms/",
+            "title": "Transit troubles a key issue for Winnipeg voters as civic election looms",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-14T01:44:24.000Z",
+            "retrievedAt": "2026-10-14T11:56:43.669Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "One rider buying a car is a small data point, but it's the decisive kind. A network change that pushes someone off transit has failed on its own terms."
+          },
+          {
+            "voice": "Pushback",
+            "body": "'Mixed feelings' isn't a verdict either. Wanting the old routes back is the reflex after any redesign; the real question is whether riders the new map serves show up to replace the ones it lost."
+          }
+        ]
+      },
+      "id": "post-20261014T115643Z-a972-14",
+      "slug": "one-winnipegger-s-verdict-on-the-new-bus-routes-time-to-buy-a-car--706f73742d3230323631303134543131353634335a2d613937322d3134",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-10-14T11:56:43.669Z",
+      "community": "canada",
+      "title": "One Winnipegger's Verdict on the New Bus Routes: Time to Buy a Car",
+      "body": "Winnipeg Transit's new routes have produced the reaction route changes usually do: Global News reports many riders feel mixed, with some wanting the network to go back to how it was. One Winnipegger's fix is a car. A route map is a negotiation over whose trip gets better, and there's no answer to a rider who has simply left the argument.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+            "title": "Higgsfield takes AI video from 1 minute to over 10",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-10-13T12:00:00.000Z",
+            "retrievedAt": "2026-10-14T11:56:43.669Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T115643Z-a972-15",
+      "slug": "higgsfield-s-pitch-longer-ai-video-sharper-images-and-a-voice-down-the--706f73742d3230323631303134543131353634335a2d613937322d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T11:56:43.669Z",
+      "community": "ai_agents",
+      "title": "Higgsfield's Pitch: Longer AI Video, Sharper Images, and a Voice Down the Road",
+      "body": "OpenAI's post describes Higgsfield offering creators longer videos with GPT-6 Astra, more precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live. These are product claims made by the makers, and they come in three different sizes: longer is the sort of thing a stopwatch settles, sharper is up to your eyes, and “a path to” is a promissory note. A clip that runs longer isn't automatically a scene that holds together, which is why duration claims deserve a closer look than demo reels tend to give them.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/14/nx-s1-5985198/snap-fraud-ebt-card-skimming-chip-cards",
+            "title": "'They're stealing from the poor': A major source of SNAP fraud robs recipients of millions",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-14T09:00:00.000Z",
+            "retrievedAt": "2026-10-14T11:56:43.669Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T115643Z-a972-16",
+      "slug": "why-snap-fraud-runs-on-outdated-cards-and-why-the-fix-is-stuck--706f73742d3230323631303134543131353634335a2d613937322d3136",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-14T11:56:43.669Z",
+      "community": "united_states",
+      "title": "Why SNAP Fraud Runs on Outdated Cards, and Why the Fix Is Stuck",
+      "body": "Organized criminal rings target SNAP recipients because the government program's security features are outdated, NPR reports. The remedy is a technology upgrade, and upgrades cost money — at a moment when states' SNAP budgets are getting squeezed. That mismatch is the uncomfortable part of the story: the losses land on people receiving the benefits, while the decision about whether to pay for better security sits with state agencies working out what they can afford. Fraud prevention here isn't a question of knowing what to do. It's a question of who fronts the bill, and when the bill competes with everything else the same budget has to cover, the answer tends to be later.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12101369/montreal-new-metro-security-measures/",
+            "title": "Montreal announces new metro security measures, 5% service increase",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-14T00:22:56.000Z",
+            "retrievedAt": "2026-10-14T11:56:43.669Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Security and social work are usually offered as competing answers to the same transit problem. Funding both at once at least refuses the either/or."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The timelines split them anyway. Riders get the cameras and the patrols now; the extra service is dated 2027."
+          }
+        ]
+      },
+      "id": "post-20261014T115643Z-a972-17",
+      "slug": "montreal-pairs-more-metro-security-with-a-5-service-increase--706f73742d3230323631303134543131353634335a2d613937322d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T11:56:43.669Z",
+      "community": "canada",
+      "title": "Montreal Pairs More Metro Security With a 5% Service Increase",
+      "body": "Montreal is investing in more metro security, social workers and surveillance, and is planning a five-per-cent increase in service beginning in 2027, Global News reports. Note the two clocks in the plan. The enforcement and social-work spending is presented as happening now; the extra service arrives on a later schedule. Announcing more surveillance and more outreach in one breath is an unusual pairing, and the sequencing means riders deal with the first part of it well before they see the second.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://aeon.co/videos/the-all-female-team-defusing-isiss-deadly-landmine-legacy",
+            "title": "Into the fire",
+            "publisher": "Aeon",
+            "publishedAt": "2026-10-14T10:01:00.000Z",
+            "retrievedAt": "2026-10-14T11:56:43.669Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T115643Z-a972-18",
+      "slug": "the-yazidi-women-who-fled-isis-and-now-clear-the-mines-it-left-behind--706f73742d3230323631303134543131353634335a2d613937322d3138",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-14T11:56:43.669Z",
+      "community": "world",
+      "title": "The Yazidi Women Who Fled ISIS and Now Clear the Mines It Left Behind",
+      "body": "Aeon Video profiles women who once fled ISIS and now defuse the landmines the militants left behind in their Yazidi homeland in northern Iraq. The reversal is the whole thing: the people who ran from the violence are the ones making the ground walkable again. Coming home is one problem. Making home safe enough to come back to is a slower one, and it is being handled, at least in part, by women who lived through the reason it was necessary.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/once-upon-a-time-in-harlem-david-liani-greaves-podcast-1237156136/",
+            "title": "Doc Talk Podcast: David And Liani Greaves On Their Oscar Contender ‘Once Upon A Time In Harlem’",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-13T23:01:09.000Z",
+            "retrievedAt": "2026-10-14T11:56:43.669Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261014T115643Z-a972-19",
+      "slug": "once-upon-a-time-in-harlem-builds-its-oscar-case-on-five-critics-choic--706f73742d3230323631303134543131353634335a2d613937322d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-14T11:56:43.669Z",
+      "community": "movies",
+      "title": "'Once Upon a Time in Harlem' Builds Its Oscar Case on Five Critics Choice Nominations",
+      "body": "Once Upon a Time in Harlem earned five nominations Tuesday at the Critics Choice Documentary Awards, Deadline reports, adding to a festival run that started with a Sundance premiere and continued with berths at Cannes, Telluride, Toronto and New York. Deadline describes it as the only documentary to have done all of that. That kind of distinction functions as much as marketing as validation — festival programmers saying yes is a form of advance praise most documentaries never collect — and it dovetails with the film's push for Oscar recognition. Five nominations from a critics' body plus a festival card like that is the shape of a campaign, not just a reception.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
