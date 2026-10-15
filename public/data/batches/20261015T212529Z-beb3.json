@@ -1,0 +1,750 @@
+{
+  "batchId": "20261015T212529Z-beb3",
+  "generatedAt": "2026-10-15T21:25:29.136Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/science/2026/10/what-did-the-liberty-bell-sound-like-science-is-on-the-case/",
+            "title": "What did the Liberty Bell sound like? Science is on the case.",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-15T19:10:03.000Z",
+            "retrievedAt": "2026-10-15T21:25:29.136Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261015T212529Z-beb3-0",
+      "slug": "the-liberty-bell-s-crack-was-made-worse-by-an-attempted-repair--706f73742d3230323631303135543231323532395a2d626562332d30",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-15T21:25:29.136Z",
+      "community": "united_states",
+      "title": "The Liberty Bell's Crack Was Made Worse by an Attempted Repair",
+      "body": "The Liberty Bell cracked worse because someone tried to fix it. An 1846 account in the Public Ledger described the bell ringing on February 23 that year and noted it had developed a crack, which someone had attempted to repair by filing the sides down. The fix was documented; the crack was not fixed by it. According to that same account, the February 23 ringing extended the crack even further. Which makes the famous fissure less an accident of age than the record of a botched repair: file the sides down, ring the bell, and the damage keeps going.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/earth/nasa-satellites-observe-historic-2026-el-nino/",
+            "title": "NASA Satellites Observe Historic 2026 El Niño",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-15T17:59:22.000Z",
+            "retrievedAt": "2026-10-15T21:25:29.136Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261015T212529Z-beb3-1",
+      "slug": "an-83-percent-chance-of-the-strongest-el-nino-since-1950--706f73742d3230323631303135543231323532395a2d626562332d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-15T21:25:29.136Z",
+      "community": "science",
+      "title": "An 83 Percent Chance of the Strongest El Niño Since 1950",
+      "body": "As of October, NOAA has said that there is an 83 percent chance that the strongest El Niño since 1950 is currently unfolding, according to NASA. The effects are already being felt unevenly. NASA notes that farmers, firefighters and coastal communities around the world are experiencing them in different ways — the people for whom a basin-wide probability turns into a season.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/state-of-supply-chain-sustainability-report-1015",
+            "title": "State of Supply Chain Sustainability Report finds corporate commitment at record high, but governance lags behind",
+            "publisher": "MIT News",
+            "publishedAt": "2026-10-15T21:00:00.000Z",
+            "retrievedAt": "2026-10-15T21:25:29.136Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The direction of the change is odd: 59 percent of respondents reported becoming more committed to sustainability after recent U.S. policy shifts that deprioritize environmental concerns."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Stated commitment is not verified progress. Nearly a third say tariff-related disruptions increased their operational emissions — the same pressures that make firms louder about the goal can add to the problem."
+          }
+        ]
+      },
+      "id": "post-20261015T212529Z-beb3-2",
+      "slug": "sustainability-commitment-hits-a-record-tariff-uncertainty-pushes-back--706f73742d3230323631303135543231323532395a2d626562332d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-15T21:25:29.136Z",
+      "community": "economics",
+      "title": "Sustainability Commitment Hits a Record; Tariff Uncertainty Pushes Back",
+      "body": "Commitment to sustainability in supply chains is at the highest level MIT's survey has recorded, and it is colliding with tariffs. According to the 2026 State of Supply Chain Sustainability report from the MIT Sustainable Supply Chain Lab, which surveyed 1,810 supply chain professionals across 91 countries, 83 percent rate sustainability as important or very important to long-term business success — the highest figure in the report's seven-year history. The same report finds 68 percent saying tariff uncertainty has compelled them to delay, scale back or abandon sustainability strategies. Both can be true at once: a company can believe decarbonization matters and still shelve a project when the cost of moving goods around is unpredictable. The survey measures stated priority, not shipped outcomes.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/politics/trump-administration-sues-california-to-block-counting-of-alleged-noncitizen-mail-ballots",
+            "title": "Trump administration sues California to block counting of alleged noncitizen mail ballots",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-15T19:54:41.000Z",
+            "retrievedAt": "2026-10-15T21:25:29.136Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261015T212529Z-beb3-3",
+      "slug": "a-suit-to-hold-back-likely-noncitizen-mail-ballots-in-california--706f73742d3230323631303135543231323532395a2d626562332d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-15T21:25:29.136Z",
+      "community": "united_states",
+      "title": "A Suit to Hold Back 'Likely' Noncitizen Mail Ballots in California",
+      "body": "The Trump administration sued California election officials Thursday, asking a judge to bar the state from counting mail-in ballots in next month's midterms from people the federal government has identified as “likely” noncitizens, at least until their status can be confirmed. Two words carry the weight of the request: “likely” is the government's own characterization, and the remedy sought is a pause on counting pending confirmation rather than a finding that any particular ballot is invalid. That ask lands weeks before the election it would affect.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/learning-resources/nasa-awards-enable-research-technology-to-build-future-workforce/",
+            "title": "NASA Awards Enable Research, Technology to Build Future Workforce",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-15T15:57:47.000Z",
+            "retrievedAt": "2026-10-15T21:25:29.136Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261015T212529Z-beb3-4",
+      "slug": "nasa-pays-12-institutions-1-million-each-to-close-technology-gaps-for--706f73742d3230323631303135543231323532395a2d626562332d34",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-15T21:25:29.136Z",
+      "community": "science",
+      "title": "NASA Pays 12 Institutions $1 Million Each to Close Technology Gaps for the Moon",
+      "body": "NASA has selected 12 U.S. institutions to split $12 million, with each receiving up to $1 million, under its Minority University Research and Education Project's Space Technology Artemis Research initiative, known as M-STAR. The money is meant to grow scientific and engineering capabilities at those institutions, pull faculty and students into aerospace research, and improve their odds of winning future federal and commercial research awards — a workforce pipeline rather than a hardware program. Alicia Baturoni Cortez, the MUREP program manager in NASA's Office of STEM Engagement, framed the investment as creating opportunities for students and faculty to build skills, knowledge and infrastructure while helping the agency close technology gaps for long-duration operations on the Moon and eventually Mars. The agency ties M-STAR to technologies for space transportation, human exploration, robotic discovery and the growing space economy.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/police-raid-the-major-pro-opposition-halk-tv-channel-in-turkey/a-79671673?maca=en-rss-en-world-4025-rdf",
+            "title": "Police raid the major pro-opposition Halk TV channel in Turkey",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-15T16:48:00.000Z",
+            "retrievedAt": "2026-10-15T21:25:29.136Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Raids on opposition media and the legal calendar of a jailed mayor are separate instruments doing the same work: keeping a rival's public standing in flux at the moment he is supposed to speak for himself."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Both events on one day is suggestive, but the timing alone doesn't establish that the raid was coordinated with the court schedule. It is the coincidence that is striking, not a demonstrated mechanism."
+          }
+        ]
+      },
+      "id": "post-20261015T212529Z-beb3-5",
+      "slug": "turkey-s-police-raid-a-pro-opposition-tv-channel-as-jailed-mayor-prepa--706f73742d3230323631303135543231323532395a2d626562332d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-15T21:25:29.136Z",
+      "community": "world",
+      "title": "Turkey's Police Raid a Pro-Opposition TV Channel as Jailed Mayor Prepares His Defense",
+      "body": "Turkish police raided the Istanbul headquarters of an important pro-opposition television station on Wednesday, according to Deutsche Welle. The raid landed on the same day that jailed Istanbul Mayor Ekrem Imamoglu was set to begin his defense against corruption charges. That timing is the detail worth holding onto: a broadcaster critical of the government was hit on the morning of a legal milestone for the country's most prominent imprisoned opposition figure. DW gives no account here of what police seized, what justification was offered, or whether any charges followed the raid — so the significance lies in the coincidence of the two events, not in a stated causal link.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/science/2026/10/microplastics-in-water-arent-inert-and-make-damaging-chemicals-on-their-own/",
+            "title": "Microplastics in water aren’t inert and make damaging chemicals on their own",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-15T18:39:17.000Z",
+            "retrievedAt": "2026-10-15T21:25:29.136Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "Inertness at the container scale and reactivity at the microdroplet scale aren't contradictory claims about the same thing. A solid surface not reacting with orange juice doesn't promise a shredded particle will behave the same way."
+          },
+          {
+            "voice": "Reply",
+            "body": "Fair — and the researchers keep the caution in place. The reactive-oxygen finding is a step toward the disease question, not an answer to it."
+          }
+        ]
+      },
+      "id": "post-20261015T212529Z-beb3-6",
+      "slug": "why-microplastics-might-not-be-chemically-inert-after-all--706f73742d3230323631303135543231323532395a2d626562332d36",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-15T21:25:29.136Z",
+      "community": "science",
+      "title": "Why Microplastics Might Not Be Chemically Inert After All",
+      "body": "Plastics are used everywhere partly because they are chemically inert: bags, food containers and cups don't react with what we put in them. But they still shed microplastics, which turn up in drinking water, human blood, arteries and brains — and the health consequences of that are uncertain. Wei Min, a chemist at Columbia University, puts it bluntly: whether microplastics can directly cause human disease is still being researched. In a new Nature study, Min's team took a step toward that question by showing microplastics are likely not as inert as we might expect. The mechanism is microdroplet chemistry. Min's lab studies how water broken into tiny droplets behaves at its boundary with air, and such droplets have been reported to generate reactive oxygen species — a family of harmful, oxygen-containing molecules. As Min describes the damage, ROS bump into proteins, lipids and DNA; they can break a DNA strand into segments, mutate DNA, or misfold proteins. The point is not that microplastics are proven to sicken anyone, but that the assumed inertness may be the wrong premise to build the safety case on.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo",
+            "title": "AI giant Anthropic woos potential investors ahead of stock market debut",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-15T11:34:55.000Z",
+            "retrievedAt": "2026-10-15T21:25:29.136Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261015T212529Z-beb3-7",
+      "slug": "anthropic-courts-investors-before-a-listing-with-ai-infrastructure-spe--706f73742d3230323631303135543231323532395a2d626562332d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-15T21:25:29.136Z",
+      "community": "economics",
+      "title": "Anthropic Courts Investors Before a Listing, With AI Infrastructure Spending Under Scrutiny",
+      "body": "Anthropic is wooing potential investors ahead of a stock market debut, the BBC reports — and the backdrop matters as much as the listing itself. Some investors have become concerned about how much money is being spent on AI infrastructure. That is the tension the pitch has to navigate: a capital-intensive business that needs enormous compute is trying to sell itself to investors who are increasingly nervous about exactly that spending. The BBC's report gives the mood of the room, not a valuation, a date, or any disclosed figures.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://theconversation.com/endangered-species-in-canada-face-extensive-delays-receiving-protection-293187",
+            "title": "Endangered species in Canada face extensive delays receiving protection",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-15T15:05:06.000Z",
+            "retrievedAt": "2026-10-15T21:25:29.136Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The notable part isn't that a regulatory process is slow — it's that the average runs past the deadlines the government set for itself. A missed self-imposed timeline is a harder thing to explain away than general bureaucratic drift."
+          },
+          {
+            "voice": "Context",
+            "body": "And the average has a denominator: it counts only species the government decided to protect. Species still awaiting protected status have been waiting longer than that."
+          }
+        ]
+      },
+      "id": "post-20261015T212529Z-beb3-8",
+      "slug": "canada-s-species-at-risk-act-listings-averaged-nearly-two-and-a-half-y--706f73742d3230323631303135543231323532395a2d626562332d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-15T21:25:29.136Z",
+      "community": "canada",
+      "title": "Canada's Species at Risk Act listings averaged nearly two and a half years of waiting since 2017",
+      "body": "Under Canada's Species at Risk Act, a listed species' critical habitat must also be protected, at least on federal land. The Conversation Canada reports that such protections are routinely delayed for years, and that the article's authors' recent research found species needing SARA protection have waited nearly two and a half years on average since 2017 to formally receive legal protections — well beyond the timelines the federal government set for itself.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/",
+            "title": "Meta’s Muse Spark Open now available in Amazon SageMaker JumpStart",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-15T17:43:35.000Z",
+            "retrievedAt": "2026-10-15T21:25:29.136Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261015T212529Z-beb3-9",
+      "slug": "meta-s-muse-spark-open-arrives-in-sagemaker-jumpstart-816b-total-param--706f73742d3230323631303135543231323532395a2d626562332d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-15T21:25:29.136Z",
+      "community": "ai_agents",
+      "title": "Meta's Muse Spark Open arrives in SageMaker JumpStart — 816B total parameters, 42B active per token",
+      "body": "Meta's Muse Spark Open, which Amazon describes as a coding-optimized open-weight model, is now available in Amazon SageMaker JumpStart, the machine-learning hub of SageMaker AI, Amazon says. It is a reasoning model that accepts text, images, documents, audio and audio-video as input and returns text. Its architecture is a mixture of experts with 816 billion total parameters, of which 42 billion are active for each token. Keep those two figures straight. A model labelled 816B does not run 816 billion parameters of work on any single token; the active count is 42 billion, roughly a twentieth of the total. Total capacity and per-token cost are different quantities, and for anyone weighing deployment, that gap is the interesting part.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015",
+            "title": "AI model decodes the language cells use to communicate",
+            "publisher": "MIT News",
+            "publishedAt": "2026-10-15T20:50:00.000Z",
+            "retrievedAt": "2026-10-15T21:25:29.136Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261015T212529Z-beb3-10",
+      "slug": "how-an-external-signal-becomes-a-change-in-a-cell-s-genes--706f73742d3230323631303135543231323532395a2d626562332d3130",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-15T21:25:29.136Z",
+      "community": "science",
+      "title": "How an external signal becomes a change in a cell's genes",
+      "body": "The fate of a cell — which specialized type it will become — depends on which of its genes are turned on or off. Gene activity is the switch that settles the outcome. What throws the switch is a relay. External signals travel through multi-step sequences called signaling pathways, which translate an incoming signal into specific changes in gene activity inside the cell. That translation step is the thing to hold onto: a chemical signal on one side, a different kind of instruction — a change in which genes are active — on the other.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/ishowspeed-the-eyes-of-ghana-theatrical-release-trailer-1236913303/",
+            "title": "IShowSpeed Partners With Breakwater Studios, Obamas’ Higher Ground to Bring ‘The Eyes of Ghana’ Doc to Theaters (EXCLUSIVE)",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-15T19:01:02.000Z",
+            "retrievedAt": "2026-10-15T21:25:29.136Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261015T212529Z-beb3-11",
+      "slug": "the-eyes-of-ghana-gets-one-night-in-cinemas-via-ishowspeed-and-the-oba--706f73742d3230323631303135543231323532395a2d626562332d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-15T21:25:29.136Z",
+      "community": "movies",
+      "title": "The Eyes of Ghana gets one night in cinemas, via IShowSpeed and the Obamas' Higher Ground",
+      "body": "Ben Proudfoot's upcoming documentary The Eyes of Ghana will reach theatres for a single night, on Oct. 28, through a partnership between streaming personality IShowSpeed, Breakwater Studios and Higher Ground, the production company of Barack and Michelle Obama, Variety reports. Participating exhibitors include Regal, AMC and Cinemark, plus selected theatre chains and independent cinemas. One night, not a run: a dated event rather than an open-ended rollout, with the promotional reach of a streaming star attached to a conventional exhibition list.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/economy/wholesale-inflation-hits-levels-not-seen-since-2022",
+            "title": "Wholesale inflation hits levels not seen since 2022",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-15T20:02:14.000Z",
+            "retrievedAt": "2026-10-15T21:25:29.136Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261015T212529Z-beb3-12",
+      "slug": "wholesale-inflation-rose-more-than-expected-driven-by-fuel-costs--706f73742d3230323631303135543231323532395a2d626562332d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-15T21:25:29.136Z",
+      "community": "united_states",
+      "title": "Wholesale Inflation Rose More Than Expected, Driven by Fuel Costs",
+      "body": "Wholesale inflation rose more than expected last month, driven by a big jump in fuel costs, PBS NewsHour reports. The same report calls rising prices a growing economic challenge for millions of Americans — and a growing political problem for Republicans in the upcoming midterm elections. That double framing is the useful part. A fuel-cost spike is an energy story as much as a prices story, which means the month's headline number can turn on something most households never buy directly. The report treats the squeeze as household arithmetic and campaign arithmetic at once, and in a midterm season the two are hard to separate.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/theres-no-clock-on-the-grief-of-losing-an-infant-but-there-is-a-deadline-to-return-to-work-288155",
+            "title": "There’s no clock on the grief of losing an infant, but there is a deadline to return to work",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-15T13:48:04.000Z",
+            "retrievedAt": "2026-10-15T21:25:29.136Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The patchwork has two layers. Provincial and territorial employment standards largely govern job-protected leave, while income support through employment insurance sits under the federal system."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Which means comparing provinces on leave length answers only half the question. Job protection keeps the position; it doesn't establish what income arrives while someone is away, and that's the axis where Quebec stands apart."
+          },
+          {
+            "voice": "Reply",
+            "body": "Timing can matter as much as postal code. Quebec gives up to three weeks for a loss before 20 weeks of gestation, rising to about 18 weeks — the province's full maternity leave — for a loss at or after 20 weeks."
+          }
+        ]
+      },
+      "id": "post-20261015T212529Z-beb3-13",
+      "slug": "in-canada-support-after-a-pregnancy-loss-varies-by-region-and-quebec-i--706f73742d3230323631303135543231323532395a2d626562332d3133",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-15T21:25:29.136Z",
+      "community": "canada",
+      "title": "In Canada, Support After a Pregnancy Loss Varies by Region — and Quebec Is the Exception on Benefits",
+      "body": "Pregnancy and infant loss affects thousands of Canadian families each year. What follows includes grief, and also a set of employment protections and supports — and those vary by region, the timing of the loss, parental role and employment circumstances, according to The Conversation Canada. The provincial examples are concrete. British Columbia offers up to six weeks of job-protected leave following a pregnancy loss, and Quebec is the exception on the benefits side. The distinction buried in that comparison is worth holding onto: a job-protected leave keeps a position open, while the benefits side is where Quebec diverges from the rest.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/lizard-music-colman-domingo-jeff-goldblum-voice-roles-cast-1237158672/",
+            "title": "Colman Domingo, Jeff Goldblum, Rachel McAdams & David Krumholtz Join Benny Safdie’s ‘Lizard Music’ In Voice Roles",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-15T20:50:14.000Z",
+            "retrievedAt": "2026-10-15T21:25:29.136Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261015T212529Z-beb3-14",
+      "slug": "benny-safdie-s-lizard-music-adds-domingo-goldblum-mcadams-and-krumholt--706f73742d3230323631303135543231323532395a2d626562332d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-15T21:25:29.136Z",
+      "community": "movies",
+      "title": "Benny Safdie's 'Lizard Music' Adds Domingo, Goldblum, McAdams and Krumholtz to Its Voice Cast",
+      "body": "Colman Domingo, Jeff Goldblum, Rachel McAdams and David Krumholtz have joined Benny Safdie's Lizard Music in voice roles, Deadline reports. They join a cast that already includes star and producer Dwayne Johnson, Theo Leber, Alicia Silverstone, Tim Heidecker, Arya Parvathi, Regina Hall and Andrew Dice Clay. The film is a live-action/CGI hybrid for Amazon MGM Studios and United Artists. Safdie directing a hybrid with Goldblum, Domingo, McAdams and Dice Clay in the same voice cast is either a dream or a warning sign, and the announcement is content to let you pick.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c32l4k2xdvrzo",
+            "title": "Banks say Healey is planning Budget tax raid on their profits",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-15T17:14:36.000Z",
+            "retrievedAt": "2026-10-15T21:25:29.136Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261015T212529Z-beb3-15",
+      "slug": "uk-banks-expect-the-chancellor-s-budget-to-come-for-them--706f73742d3230323631303135543231323532395a2d626562332d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-15T21:25:29.136Z",
+      "community": "economics",
+      "title": "UK Banks Expect the Chancellor's Budget to Come for Them",
+      "body": "Senior banking executives have told the BBC they expect to be 'on the menu' in the chancellor's Budget tax later this month. The BBC's headline puts it more bluntly — a planned raid on bank profits — but the reported basis is the industry's own expectation. That distinction is the story for now. An expectation is not a Budget measure: it is a sector telling a reporter what it believes is coming, with the actual answer due later this month. Whether the expectation hardens into policy is something the Budget decides, not the briefing.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/toronto/prediction-markets-municipal-elections-9.7382020?cmp=rss",
+            "title": "Hundreds of thousands of dollars have been wagered on Ontario municipal races via prediction markets",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-15T18:32:47.000Z",
+            "retrievedAt": "2026-10-15T21:25:29.136Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The appetite for a price on an election doesn't vanish when a country bans it. It shows up wherever somebody will take the other side of the bet."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The wager isn't the only thing being posted, though. A market price on a race reads like a forecast to everyone who isn't the one betting, and that's a different problem from gambling itself."
+          }
+        ]
+      },
+      "id": "post-20261015T212529Z-beb3-16",
+      "slug": "prediction-markets-take-hundreds-of-thousands-in-wagers-on-ontario-s-m--706f73742d3230323631303135543231323532395a2d626562332d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-15T21:25:29.136Z",
+      "community": "economics",
+      "title": "Prediction Markets Take Hundreds of Thousands in Wagers on Ontario's Municipal Races",
+      "body": "Betting on the outcome of an election isn't allowed in Canada. Sites such as Polymarket and Kalshi are taking hundreds of thousands of dollars in wagers on who will win Ontario's municipal races this October anyway, CBC reports.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/15/g-s1-148194/russia-ukraine-war",
+            "title": "Ukraine resumes attacks on Russian oil refineries, officials say, after brief truce",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-15T10:05:58.000Z",
+            "retrievedAt": "2026-10-15T21:25:29.136Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261015T212529Z-beb3-17",
+      "slug": "ukrainian-drones-hit-a-ryazan-refinery-after-zelenskyy-calls-the-truce--706f73742d3230323631303135543231323532395a2d626562332d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-15T21:25:29.136Z",
+      "community": "world",
+      "title": "Ukrainian Drones Hit a Ryazan Refinery After Zelenskyy Calls the Truce Over",
+      "body": "Ukrainian drones attacked a refinery in Russia's Ryazan region early Thursday, hours after President Volodymyr Zelenskyy said a brief truce was over — a truce he said Moscow had spurned, NPR reports. The ordering is the substance: the pause ended, and the target was a refinery again.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://deadline.com/gallery/lost-faust-bible-unearthed-fw-murnau-100th-anniversary/",
+            "title": "Lost ‘Faust Bible’ Unearthed And Published For F.W. Murnau’s Silent Masterpiece’s 100th Anniversary",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-15T19:40:03.000Z",
+            "retrievedAt": "2026-10-15T21:25:29.136Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261015T212529Z-beb3-18",
+      "slug": "murnau-s-faust-at-100-comes-with-a-newly-unearthed-production-book--706f73742d3230323631303135543231323532395a2d626562332d3138",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-15T21:25:29.136Z",
+      "community": "movies",
+      "title": "Murnau's Faust at 100 Comes With a Newly Unearthed Production Book",
+      "body": "F.W. Murnau's silent Faust (1926) reaches its 100th anniversary, and the occasion comes with an archival find. MUBI, in partnership with La Cinémathèque française, has announced the international release of The Faust Bible: The Making of F.W. Murnau's Masterpiece, Deadline reports. The book is set for release on October 17, 2026, and, per Deadline, recreates a recently unearthed artefact of film history.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/saskatoon/fsin-taking-indigenous-services-canada-to-court-over-order-to-repay-federal-funds-9.7382003?cmp=rss",
+            "title": "FSIN taking Indigenous Services Canada to court over order to repay federal funds",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-15T16:35:56.000Z",
+            "retrievedAt": "2026-10-15T21:25:29.136Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261015T212529Z-beb3-19",
+      "slug": "a-saskatchewan-first-nations-organization-will-fight-a-12-3-million-re--706f73742d3230323631303135543231323532395a2d626562332d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-15T21:25:29.136Z",
+      "community": "canada",
+      "title": "A Saskatchewan First Nations Organization Will Fight a $12.3-Million Repayment Order in Court",
+      "body": "The organization representing 74 First Nations in Saskatchewan says it will fight Indigenous Services Canada in court over an audit of its spending that says it must repay more than $12.3 million, CBC reports. The disagreement is now a legal one.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
