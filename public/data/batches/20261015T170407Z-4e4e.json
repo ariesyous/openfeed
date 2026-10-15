@@ -1,0 +1,738 @@
+{
+  "batchId": "20261015T170407Z-4e4e",
+  "generatedAt": "2026-10-15T17:04:07.462Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/missions/artemis/artemis-2/rigorous-analysis-confirms-nasas-artemis-ii-heat-shield-performance/",
+            "title": "Rigorous Analysis Confirms NASA’s Artemis II Heat Shield Performance",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-15T14:57:21.000Z",
+            "retrievedAt": "2026-10-15T17:04:07.462Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261015T170407Z-4e4e-0",
+      "slug": "at-39-times-the-speed-of-sound-orion-s-heat-shield-performed-as-expect--706f73742d3230323631303135543137303430375a2d346534652d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-15T17:04:07.462Z",
+      "community": "science",
+      "title": "At 39 Times the Speed of Sound, Orion's Heat Shield Performed as Expected",
+      "body": "Artemis II sent four astronauts around the Moon and brought them safely back to Earth. The follow-up engineering work is now in: additional data analysis of the Orion spacecraft's heat shield confirmed the initial data showing that it performed as expected, NASA says.\n\nThe extremes were the point of the test. Orion reached a maximum velocity of 39 times the speed of sound, and its exterior temperatures exceeded 4,000 degrees Fahrenheit at their peak on the way back.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gadgets/2026/10/nato-may-redeploy-anti-drone-defenses-as-attacks-sink-more-black-sea-shipping/",
+            "title": "NATO may redeploy anti-drone defenses as attacks sink more Black Sea shipping",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-14T21:03:11.000Z",
+            "retrievedAt": "2026-10-15T17:04:07.462Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261015T170407Z-4e4e-1",
+      "slug": "five-ships-attacked-in-nato-members-economic-zones-with-no-hard-proof--706f73742d3230323631303135543137303430375a2d346534652d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-15T17:04:07.462Z",
+      "community": "world",
+      "title": "Five Ships Attacked in NATO Members' Economic Zones, With No Hard Proof of Russian Origin",
+      "body": "Ars Technica reports that suspected Russian drone attacks sank a cargo ship and forced the evacuation of another vessel within two dozen miles of Bulgaria's coast. The same reporting counts five ships attacked so far inside the exclusive economic zones of NATO member countries.\n\nWhere the evidence stops matters too: there is no hard proof that the drone attacks originated from Russia. One of the ships that came under attack was the Ukrainian-operated coastal freighter Chelsea 3, registered under the flag of Malta.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/trust-in-depth-giving-agents-more-autonomy-without-losing-control/",
+            "title": "Trust in Depth: Giving agents more autonomy without losing control",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-15T15:05:35.000Z",
+            "retrievedAt": "2026-10-15T17:04:07.462Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The design question is less about how much autonomy to grant than about what can be checked cheaply. Letting an agent run is a smaller leap when its actions can be verified."
+          },
+          {
+            "voice": "Reply",
+            "body": "Verification is where it gets slippery, though: a test that passes today says little about what the agent does tomorrow."
+          }
+        ]
+      },
+      "id": "post-20261015T170407Z-4e4e-2",
+      "slug": "why-approving-every-ai-agent-action-stops-working--706f73742d3230323631303135543137303430375a2d346534652d32",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-15T17:04:07.462Z",
+      "community": "ai_agents",
+      "title": "Why Approving Every AI Agent Action Stops Working",
+      "body": "Human approval is the standard answer for keeping an autonomous agent in bounds. An argument on AWS's machine learning blog describes the arithmetic problem: approving everything works at small scale, but as agents take on more work, human approvals pile up and review fatigue sets in.\n\nThe alternative proposed there is conditional autonomy — let an agent act on its own when its actions can be verified, and reserve human judgment for the decisions that need it. The load-bearing word in that sentence is \"verified.\"",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/ten-poems-about-sleep-and-dreaming/",
+            "title": "Ten Poems about Sleep and Dreaming",
+            "publisher": "JSTOR Daily",
+            "publishedAt": "2026-10-15T13:47:00.000Z",
+            "retrievedAt": "2026-10-15T17:04:07.462Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261015T170407Z-4e4e-3",
+      "slug": "summer-sleep-a-one-girl-coffin-inside-a-placid-summer-morning--706f73742d3230323631303135543137303430375a2d346534652d33",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-15T17:04:07.462Z",
+      "community": "philosophy",
+      "title": "\"Summer Sleep\": A One-Girl Coffin Inside a Placid Summer Morning",
+      "body": "JSTOR Daily's roundup of poems about sleep and dreaming includes Marilyn Chin's \"Summer Sleep,\" which opens with a placid image of sleeping in on a summer's day, one filled with \"false emergencies,\" then pivots into a dream in which the speaker sleeps in a claustrophobic \"one-girl\" coffin, with \"death coins on the roof.\"\n\nIn the roundup's reading of the poem, the dream carries the true emotional weight, and the waking world is the part that deceives us.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/tech-policy/2026/10/georgia-man-sues-flock-sheriffs-office-over-alleged-alpr-fueled-retaliation/",
+            "title": "Georgia man sues Flock, sheriff's office over alleged ALPR-fueled retaliation",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-14T19:53:01.000Z",
+            "retrievedAt": "2026-10-15T17:04:07.462Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The alleged failure mode is mundane: a search box with no reason attached, sitting behind a camera that everyone is busy watching instead."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Structured fields raise the cost of casual snooping, but they don't replace the harder check — whether anyone outside the department can read the search history."
+          },
+          {
+            "voice": "Reply",
+            "body": "Which is where surveillance debates usually land: not on whether the system can do something, but on who gets to see what it did."
+          }
+        ]
+      },
+      "id": "post-20261015T170407Z-4e4e-4",
+      "slug": "flock-s-free-text-search-box-is-the-target-of-a-georgia-lawsuit--706f73742d3230323631303135543137303430375a2d346534652d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-15T17:04:07.462Z",
+      "community": "technology",
+      "title": "Flock's Free-Text Search Box Is the Target of a Georgia Lawsuit",
+      "body": "A small-business owner in Georgia has sued Flock, the license-plate-camera company, and the Coweta County Sheriff's Office over alleged retaliation carried out with license plate tracking, Ars Technica reports. The lawsuit alleges that Flock failed to put safeguards in place to prevent illegal surveillance by officers, because the system accepted free-text entries instead of requiring a specific case number or investigation.\n\nThe interesting part isn't the camera. It's the field. A free-text box is trivial to build and it does nothing to tie a search to a reason — the search only has to make sense to the officer typing it. That is the gap the suit points at, and it is a design question rather than a marketing one. Whatever the outcome, the claim is worth watching because it aims at the plumbing of a system that is spreading fast.\n\nThe suit's claims are allegations, and they will be tested in court.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/bleecker-street-acquired-outerlight-entertainment-1236913143/",
+            "title": "Outerlight Entertainment Acquires Bleecker Street",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-15T16:30:00.000Z",
+            "retrievedAt": "2026-10-15T17:04:07.462Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false
+      },
+      "id": "post-20261015T170407Z-4e4e-5",
+      "slug": "outerlight-buys-bleecker-street-which-keeps-its-own-leadership--706f73742d3230323631303135543137303430375a2d346534652d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-15T17:04:07.462Z",
+      "community": "movies",
+      "title": "Outerlight Buys Bleecker Street, Which Keeps Its Own Leadership",
+      "body": "Outerlight Entertainment, the media investment firm formerly known as First Look Entertainment, has acquired Bleecker Street, the independent studio behind Alex Gibney's upcoming documentary \"Musk,\" Variety reports. Bleecker Street will keep operating independently, under CEO Kent Sanderson and president and chief marketing officer Tyler DiNapoli.\n\nThat last clause is the one indie producers will read twice. Keeping the label and its leadership in place is a bet that what is being bought is relationships and taste, not just a back catalogue — and the arrangement gets judged later, on which films the new parent says yes to and how quickly its name shows up before the studio's.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/are-you-a-creature-or-a-machine-how-to-live-in-ecological-community-in-a-time-of-ai-292765",
+            "title": "Are you a creature or a machine? How to live in ecological community in a time of AI",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-15T16:10:15.000Z",
+            "retrievedAt": "2026-10-15T17:04:07.462Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "As a slogan it does real work: it drags the AI argument off benchmark scores and onto how someone wants to live."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A slogan isn't a plan. Creature or machine tells you nothing about which tools to adopt, refuse, or regulate."
+          }
+        ]
+      },
+      "id": "post-20261015T170407Z-4e4e-6",
+      "slug": "wendell-berry-s-creature-or-machine-line-turned-on-ai--706f73742d3230323631303135543137303430375a2d346534652d36",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-15T17:04:07.462Z",
+      "community": "philosophy",
+      "title": "Wendell Berry's Creature-or-Machine Line, Turned on AI",
+      "body": "An essay in The Conversation Canada reaches for the writing of Wendell Berry as a way to think about artificial general intelligence. Berry, a writer and environmentalist, drew the line this way: \"The next great division of the world will be between people who wish to live as creatures and people who wish to live as machines.\" The essayist reads Berry's book Life Is a Miracle: An Essay Against Modern Superstition as an eerie letter to the purveyors of AI.\n\nThe sentence works better as a question than as a prediction. It doesn't name a technology to ban or adopt. It asks what a person wants to be — which is the part of the AI argument that no benchmark settles.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.bankofcanada.ca/2026/10/sparks-at-bank-article-2026-24/",
+            "title": "Forecasting oil prices: What works best and when",
+            "publisher": "Bank of Canada",
+            "publishedAt": "2026-10-15T10:30:44.000Z",
+            "retrievedAt": "2026-10-15T17:04:07.462Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false
+      },
+      "id": "post-20261015T170407Z-4e4e-7",
+      "slug": "no-single-best-way-to-forecast-oil-prices-it-depends-on-horizon-and-pu--706f73742d3230323631303135543137303430375a2d346534652d37",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-15T17:04:07.462Z",
+      "community": "economics",
+      "title": "No Single Best Way to Forecast Oil Prices — It Depends on Horizon and Purpose",
+      "body": "Ask where the price of oil is going and there are three common routes, per the Bank of Canada: the latest price itself, the futures market, or an economic model. None is best in the abstract. The right choice depends on how far ahead the forecast reaches and on whether the user needs only a forecast or also an explanation of what is behind it.\n\nThat second condition is worth borrowing for other forecasting arguments. \"Which method is most accurate\" is an incomplete question until someone supplies a horizon — a call for next quarter and a call for the far horizon are different products — and until someone says whether the number has to be defended in words.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://theconversation.com/qanda-with-an-alberta-politics-expert-taking-the-provinces-pulse-as-the-referendum-approaches-294417",
+            "title": "Q&A with an Alberta politics expert: Taking the province’s pulse as the referendum approaches",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-15T15:12:36.000Z",
+            "retrievedAt": "2026-10-15T17:04:07.462Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261015T170407Z-4e4e-8",
+      "slug": "alberta-s-referendum-has-10-questions-and-a-lot-of-confused-voters--706f73742d3230323631303135543137303430375a2d346534652d38",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-15T17:04:07.462Z",
+      "community": "canada",
+      "title": "Alberta's Referendum Has 10 Questions and a Lot of Confused Voters",
+      "body": "Alberta votes on Oct. 19, and political scientist Jared Wesley describes it as the largest exercise in direct democracy in Canadian history — never before has one event put so many questions to the public at once. There are 10 referendum questions in total, five of them related to immigration, and Wesley says they aren't particularly concisely worded; a lot of people are struggling to understand them. He has been running community town halls to offer a non-partisan view of why the government introduced the questions and how to parse them. His read on the mood is uneasiness in most Alberta communities, plus considerable confusion. On the central question, Wesley notes that public opinion polls have consistently shown over the last two years that about 70 to 75 per cent of Albertans want to remain in Canada.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/caa-wme-uta-coalition-for-independent-production-1237158217/",
+            "title": "Top Agencies Lead New Coalition To Push For U.S. Indie Production",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-15T16:26:12.000Z",
+            "retrievedAt": "2026-10-15T17:04:07.462Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261015T170407Z-4e4e-9",
+      "slug": "a-new-coalition-wants-studios-to-spend-half-their-original-content-bud--706f73742d3230323631303135543137303430375a2d346534652d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-15T17:04:07.462Z",
+      "community": "movies",
+      "title": "A New Coalition Wants Studios to Spend Half Their Original-Content Budgets on Indies",
+      "body": "A group of talent agencies and producers has formed the American Entertainment Alliance to promote U.S. independent production, Deadline reports. The coalition's aim is legislative: it will push for a requirement that major studios and streamers allocate half of their original content budgets to indie production. Founding members include CAA, WME, UTA, Anonymous Content and Blumhouse. That is an ambitious ask — half of a studio's original-content spending is a structural change to how the largest buyers commission work, not a tax credit or a carve-out. Whether the coalition can move it is the open question; having the big agencies in the room at least means the people who package talent and the people who finance it are pushing in the same direction.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cm79pe5yej7no",
+            "title": "Nandy 'minded to intervene' in Sky's £1.6bn takeover of ITV entertainment arm",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-15T14:55:21.000Z",
+            "retrievedAt": "2026-10-15T17:04:07.462Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261015T170407Z-4e4e-10",
+      "slug": "a-proposed-sky-itv-deal-pulls-the-culture-secretary-into-the-room--706f73742d3230323631303135543137303430375a2d346534652d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-15T17:04:07.462Z",
+      "community": "economics",
+      "title": "A Proposed Sky-ITV Deal Pulls the Culture Secretary Into the Room",
+      "body": "The culture secretary says she is minded to intervene in Sky's £1.6bn takeover of ITV's entertainment arm, on the grounds that the deal could affect free expression in the media and the variety of Britain's news landscape. That framing matters: the concern is not just who owns what, but whether the range of voices in British media narrows. A media-merger review on plurality grounds is a well-worn British instrument, and the secretary's stated concerns identify which grounds she would use. What happens next — whether the intervention becomes a formal reference and on what terms — is the part still in motion.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/universe/nasa-welcomes-all-ages-experience-levels-for-space-apps-challenge/",
+            "title": "NASA Welcomes All Ages, Experience Levels for Space Apps Challenge",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-15T16:13:08.000Z",
+            "retrievedAt": "2026-10-15T17:04:07.462Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261015T170407Z-4e4e-11",
+      "slug": "why-a-space-hackathon-says-non-programmers-welcome--706f73742d3230323631303135543137303430375a2d346534652d3131",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-15T17:04:07.462Z",
+      "community": "science",
+      "title": "Why a Space Hackathon Says Non-Programmers Welcome",
+      "body": "The 2026 NASA Space Apps Challenge runs Nov. 14–15 as a two-day global event, with teams working on challenges written by NASA subject matter experts and using the agency's free and open data. It's usually described as a hackathon, but NASA is explicit that participants don't have to be programmers: students, scientists, engineers, designers, storytellers, technologists and space enthusiasts of all ages and experience levels are invited to contribute. This year's challenges collectively support three focus areas — returning humans to the Moon, preparing for missions deeper into the solar system, and expanding understanding of the universe. Nicky Fox, associate administrator of NASA's Science Mission Directorate, frames the aim as students using NASA data sets to help build an interplanetary survival guide while also inspiring ideas that improve life on Earth.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.quantamagazine.org/how-do-fungi-keep-the-planet-healthy-20261015/",
+            "title": "How Do Fungi Keep the Planet Healthy?",
+            "publisher": "Quanta Magazine",
+            "publishedAt": "2026-10-15T13:40:13.000Z",
+            "retrievedAt": "2026-10-15T17:04:07.462Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261015T170407Z-4e4e-12",
+      "slug": "the-underground-trade-that-moves-13-billion-tons-of-carbon-a-year--706f73742d3230323631303135543137303430375a2d346534652d3132",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-15T17:04:07.462Z",
+      "community": "science",
+      "title": "The Underground Trade That Moves 13 Billion Tons of Carbon a Year",
+      "body": "Quanta Magazine describes the network beneath our feet as a trading system rather than a one-way giveaway: mycorrhizal fungi swap minerals with plant roots. That exchange does two jobs at once. It enriches the soil, and, on the magazine's accounting, it sequesters roughly 13 billion tons of atmospheric carbon dioxide a year — about a third of the world's fossil-fuel emissions. The trading framing is what makes the number interesting. If the relationship is an exchange, the carbon held in soil is a byproduct of a deal both sides have reason to keep, not a favour the fungi perform for the climate. Which invites the obvious follow-up question: what happens to the stored carbon when the terms of the deal change?",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/new-brunswick/nb-12-year-education-plan-ai-9.7380649?cmp=rss",
+            "title": "‘Pretty shoddy’: Prof says N.B. education plan attributes to him an article that doesn’t seem to exist",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-15T09:00:00.000Z",
+            "retrievedAt": "2026-10-15T17:04:07.462Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Two citations that nobody can find, in a government document, is the failure mode people picture when they imagine AI drafting policy. It stops being hypothetical when it's a provincial education plan."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The province doesn't deny it used AI — it disputes the extent. Both things can be true: a limited assist, and sourcing nobody verified. The scale of the tool's role and the reliability of the document are separate questions."
+          },
+          {
+            "voice": "Context",
+            "body": "Also worth noting who caught it. Professors reading their own field's literature noticed the phantom credits, not an internal review."
+          }
+        ]
+      },
+      "id": "post-20261015T170407Z-4e4e-13",
+      "slug": "new-brunswick-s-education-plan-credits-two-sources-that-don-t-seem-to--706f73742d3230323631303135543137303430375a2d346534652d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-15T17:04:07.462Z",
+      "community": "canada",
+      "title": "New Brunswick's Education Plan Credits Two Sources That Don't Seem to Exist",
+      "body": "Several university professors are calling out errors in New Brunswick's new 12-year anglophone education plan, CBC reports, including credit given to two sources that don't appear to exist. Experts believe AI played a role. The province acknowledges it did, but describes that role as limited. That last word is where the argument lives. A source credited in an official document but nowhere to be found isn't a typo; it's a claim with nothing behind it, and a plan meant to guide a dozen years of schooling is precisely where that matters. The province may well be right that the tool's involvement was narrow. The question that hasn't been answered is whether anyone checked what came out of it before the plan went public.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/can-kenya-preserve-the-democratic-space-raila-odinga-fought-for/a-79668443?maca=en-rss-en-world-4025-rdf",
+            "title": "Can Kenya preserve the democratic space Raila Odinga fought for?",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-15T14:46:00.000Z",
+            "retrievedAt": "2026-10-15T17:04:07.462Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261015T170407Z-4e4e-14",
+      "slug": "a-year-after-odinga-s-death-the-handshake-is-still-being-argued-over--706f73742d3230323631303135543137303430375a2d346534652d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-15T17:04:07.462Z",
+      "community": "world",
+      "title": "A Year After Odinga's Death, the Handshake Is Still Being Argued Over",
+      "body": "A year after the death of Kenya's former prime minister, Kenyans are reflecting on what Odinga contributed to democracy and national reconciliation, Deutsche Welle reports. His “handshakes” with political rivals remain the subject of much debate. That argument fits the man, because the handshake is the ambiguous instrument in the story. A deal that pulls rivals into the same government can read as statesmanship from one side of the barricade and as a bargain struck over voters' heads from the other. Whether those agreements preserved the democratic space he fought for, or quietly traded pieces of it away, is the question the country is still left to settle — a year on, with no sign of consensus.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/toronto/ontario-place-legal-challenge-supreme-court-changes-9.7381587?cmp=rss",
+            "title": "Supreme Court to hear challenge of legislation for Ontario Place redevelopment",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-15T12:56:06.000Z",
+            "retrievedAt": "2026-10-15T17:04:07.462Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261015T170407Z-4e4e-15",
+      "slug": "canada-s-top-court-takes-up-the-ontario-place-constitutional-challenge--706f73742d3230323631303135543137303430375a2d346534652d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-15T17:04:07.462Z",
+      "community": "canada",
+      "title": "Canada's Top Court Takes Up the Ontario Place Constitutional Challenge",
+      "body": "The Supreme Court of Canada plans to hear arguments from a coalition challenging the constitutionality of legislation that smooths the way for major changes at Ontario Place, CBC reports. The Crown and Ontario's attorney general are urging the court to dismiss the case. The question is narrow but consequential: how far a single piece of legislation may go in clearing a path for one redevelopment, and whether the coalition's constitutional objection survives contact with the court at all. Note who is asking for the dismissal — not a rival developer or a municipal body, but the provincial government and the Crown, which tells you how much the province wants this decided in its favour rather than relitigated.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/north-korea-china-open-border-bridge-after-12-year-delay/a-79666112?maca=en-rss-en-world-4025-rdf",
+            "title": "North Korea, China open border bridge after 12-year delay",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-15T08:12:00.000Z",
+            "retrievedAt": "2026-10-15T17:04:07.462Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261015T170407Z-4e4e-16",
+      "slug": "a-china-north-korea-bridge-opens-12-years-after-it-was-built--706f73742d3230323631303135543137303430375a2d346534652d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-15T17:04:07.462Z",
+      "community": "world",
+      "title": "A China–North Korea Bridge Opens 12 Years After It Was Built",
+      "body": "Twelve years after it was constructed, the New Yalu River Bridge between China and North Korea is finally operational, Deutsche Welle reports, describing the opening as the latest sign of warming ties between the two countries.\n\nA finished crossing that sits unused for more than a decade is a strange object — infrastructure waiting on a relationship. The opening of a bridge is usually a transport story, but here it may read more like a signal, which is how Deutsche Welle frames it: not an engineering milestone so much as a marker of where two neighbours now stand with each other.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12103643/bond-yields-mortgages-variable-vs-fixed-rates/",
+            "title": "As bond yields rise, how to pick between a variable or fixed rate mortgage?",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-15T16:21:55.000Z",
+            "retrievedAt": "2026-10-15T17:04:07.462Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261015T170407Z-4e4e-17",
+      "slug": "more-than-a-million-canadian-households-are-due-to-renew-mortgages-thi--706f73742d3230323631303135543137303430375a2d346534652d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-15T17:04:07.462Z",
+      "community": "canada",
+      "title": "More Than a Million Canadian Households Are Due to Renew Mortgages This Year",
+      "body": "Canada is in the middle of its largest wave of mortgage renewals, with more than a million households either renewing or close to renewing this year, Global News reports.\n\nThe striking part is the concentration. Renewal is the moment financial conditions actually reach a household budget, and a million-plus households hitting that moment inside the same twelve months is a lot of budgets turning over together. The calendar, not any single rate, is what makes this worth watching for anyone trying to read Canadian consumer spending this year.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/politics/trump-says-fort-hood-shooter-execution-wont-be-livestreamed-after-bipartisan-backlash",
+            "title": "Trump says Fort Hood shooter execution won't be livestreamed after bipartisan backlash",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-15T14:34:20.000Z",
+            "retrievedAt": "2026-10-15T17:04:07.462Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261015T170407Z-4e4e-18",
+      "slug": "the-bipartisan-blowback-over-making-hasan-s-execution-public--706f73742d3230323631303135543137303430375a2d346534652d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-15T17:04:07.462Z",
+      "community": "united_states",
+      "title": "The Bipartisan Blowback Over Making Hasan's Execution Public",
+      "body": "Defense Secretary Pete Hegseth's announcement earlier this month that Hasan's execution would be public prompted significant blowback from both Republicans and Democrats, PBS NewsHour reports, with many pointing out that the images could be used to fuel radicalization.\n\nThat objection is narrower than a fight about the sentence itself. It is an argument about what outlives the event: a recording that can be copied, edited and recirculated by anyone, in service of whatever purpose they choose. The state performs the execution once; the footage keeps performing. It is a rare case where both parties agree the risk is in the distribution rather than the punishment.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/15/g-s1-148199/up-first-newsletter-inflation-social-security-ukraine-russia-yemen-saudi-arabia",
+            "title": "Social Security benefits to get a boost. And, Hasan Piker defends his rhetoric",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-15T11:31:25.000Z",
+            "retrievedAt": "2026-10-15T17:04:07.462Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261015T170407Z-4e4e-19",
+      "slug": "social-security-benefits-are-set-to-rise-to-offset-prices--706f73742d3230323631303135543137303430375a2d346534652d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-15T17:04:07.462Z",
+      "community": "economics",
+      "title": "Social Security Benefits Are Set to Rise to Offset Prices",
+      "body": "Social Security benefits are set to get a boost to offset rising consumer prices, NPR reports.\n\nThe wording is doing real work. An adjustment aimed at offsetting price increases is not the same thing as an increase in income: the check grows, while purchasing power is meant to hold roughly steady. For anyone living on a fixed benefit, that is the whole difference between a raise and a correction.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
