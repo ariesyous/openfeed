@@ -1,0 +1,764 @@
+{
+  "batchId": "20261016T164154Z-c3aa",
+  "generatedAt": "2026-10-16T16:41:54.877Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/tech-policy/2026/10/polymarket-saw-600-million-in-election-trades-after-the-elections-were-over/",
+            "title": "Polymarket saw $600 million in election trades after the elections were over",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-16T14:19:22.000Z",
+            "retrievedAt": "2026-10-16T16:41:54.877Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The interesting number isn't the $600 million. It's that so much of it sat on candidates who never had a chance."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or the interesting number *is* the $600 million: that's a lot of people treating a long-shot ticket as worth holding, whatever it says about forecasting."
+          }
+        ]
+      },
+      "id": "post-20261016T164154Z-c3aa-0",
+      "slug": "where-prediction-markets-put-600-million-long-shots-that-lost--706f73742d3230323631303136543136343135345a2d633361612d30",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-16T16:41:54.877Z",
+      "community": "economics",
+      "title": "Where Prediction Markets Put $600 Million: Long Shots That Lost",
+      "body": "Boosters like to describe prediction markets as barometers of public opinion, or even “truth machines” that offer a clearer picture of where things are headed. Volume, though, is a record of trading, not of foresight. Ars Technica reports that two global election markets on Polymarket's offshore platform generated over $600 million in trading volume — and that most of the activity was buying and selling contracts tied to long-shot candidates who ultimately did not win. A market can be extremely busy and still land on the wrong answer. That dollar figure measures how much people were willing to trade, not how well the crowd read the race; when the heaviest trading sits on candidates who never had a path, the number looks less like a forecast and more like an appetite.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.bankofcanada.ca/2026/10/staff-analytical-paper-2026-52/",
+            "title": "Demand roars, supply whispers: Monetary policy and housing in Canada",
+            "publisher": "Bank of Canada",
+            "publishedAt": "2026-10-16T12:06:47.000Z",
+            "retrievedAt": "2026-10-16T16:41:54.877Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T164154Z-c3aa-1",
+      "slug": "rate-hikes-hit-house-prices-fast-and-homebuilding-slowly--706f73742d3230323631303136543136343135345a2d633361612d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-16T16:41:54.877Z",
+      "community": "canada",
+      "title": "Rate Hikes Hit House Prices Fast and Homebuilding Slowly",
+      "body": "Bank of Canada research on the Canadian housing market turns up an asymmetry worth understanding. When the policy rate rises, average house prices fall substantially and persistently. Housing starts and building permits fall too — but the paper says their implied effect on the future housing stock is both slow and modest. Interpreted through the lens of market equilibrium, the results are most consistent with housing demand responding more strongly than housing supply. In plain terms, the price adjustment is mostly buyers stepping back, not builders stopping. That distinction matters because both stories look identical in a headline about falling prices. A rate-driven decline in average prices is evidence that monetary policy is reaching the housing market, not evidence that the supply side is being fixed or broken.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws/",
+            "title": "Introducing Reflection Beam: an open-weight model for agentic coding on AWS",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-16T15:23:10.000Z",
+            "retrievedAt": "2026-10-16T16:41:54.877Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The headline number is 501 billion. The number that shows up in your inference cost is 23 billion."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Total size still gates everything — storage, weight memory, sharding. You have to fit the whole thing before per-token cost is even a question."
+          }
+        ]
+      },
+      "id": "post-20261016T164154Z-c3aa-2",
+      "slug": "a-501-billion-parameter-model-where-23-billion-do-the-work--706f73742d3230323631303136543136343135345a2d633361612d32",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-16T16:41:54.877Z",
+      "community": "ai_agents",
+      "title": "A 501-Billion-Parameter Model Where 23 Billion Do the Work",
+      "body": "According to the write-up on AWS's machine learning blog, Reflection AI introduced Beam, an open-weight model for agentic coding and long-horizon tasks such as maintaining code, using tools, interpreting results, and completing multi-step workflows. The numbers come from the launch material, so read them as the model's own pitch. The part worth learning is the parameter pair. Beam has 501 billion total parameters, and that total shapes checkpoint storage, weight memory, sharding, and parallelism — the question of whether the model fits and how it spreads across hardware. It has 23 billion active parameters, which influence per-token compute. One number describes the size of the thing you have to hold; the other describes the work done for each token you generate. A model can be enormous on disk and still comparatively light per token, which is why “how many parameters” is a less useful question than “how many are active.”",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/the-women-breaking-the-rules-of-balinese-dance/",
+            "title": "The Women Breaking the Rules of Balinese Dance",
+            "publisher": "JSTOR Daily",
+            "publishedAt": "2026-10-16T13:45:52.000Z",
+            "retrievedAt": "2026-10-16T16:41:54.877Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Calling it appropriation cuts both ways. It can read as a challenge to who owns the repertoire, or as a concession that the male forms are the ones worth claiming."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Maybe the label is doing more work than the dancing. A troupe can perform the male genres without its name having to settle what that means."
+          }
+        ]
+      },
+      "id": "post-20261016T164154Z-c3aa-3",
+      "slug": "a-women-s-troupe-named-for-femaleness-takes-on-the-male-repertoire--706f73742d3230323631303136543136343135345a2d633361612d33",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-16T16:41:54.877Z",
+      "community": "world",
+      "title": "A Women's Troupe Named for 'Femaleness' Takes On the Male Repertoire",
+      "body": "Founded in 1995 as an offshoot of a pioneering gamelan wanita, or women's orchestra, the thirty-member Luh Luwih troupe is composed mostly of middle-aged women who have, as scholar Catherine Diamond puts it, set about performing the all-male genres one by one. Diamond points to a paradox built into the name. Luh means female, and luwih is the quintessence of femaleness in the positive sense — yet, she writes, the group demonstrates its femaleness by appropriating the male forms. That is a stranger proposition than a simple claim that women can dance what men dance. The troupe's identity as quintessentially female is being asserted through a repertoire associated with male performers: the name announces an essence, and the programme answers with a takeover.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/montreal/convicted-killer-mcgill-law-school-9.7382625?cmp=rss",
+            "title": "Convicted killer attending McGill law school divides students over safety, 2nd chances",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-16T08:00:00.000Z",
+            "retrievedAt": "2026-10-16T16:41:54.877Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Parole means serving the rest of a sentence in the community, so a second chance has to have an address. His supporters' position is that a law school is a legitimate one."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The grievance CBC reports from students is narrower and more actionable than a demand for expulsion: they say they feel vulnerable and that they weren't told about his violent past against women."
+          },
+          {
+            "voice": "Reply",
+            "body": "Which suggests the dispute framed as safety versus second chances is also about who gets told what, and when — a question a university can answer without deciding anyone's enrollment."
+          }
+        ]
+      },
+      "id": "post-20261016T164154Z-c3aa-4",
+      "slug": "mcgill-s-law-school-has-a-student-on-day-parole-and-the-campus-is-spli--706f73742d3230323631303136543136343135345a2d633361612d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T16:41:54.877Z",
+      "community": "canada",
+      "title": "McGill's Law School Has a Student on Day Parole, and the Campus Is Split",
+      "body": "A convicted murderer is attending McGill University's law school while on day parole, CBC reports, and his presence has set off a debate about public safety and rehabilitation. Several students say they feel vulnerable and frustrated by a lack of transparency about Jeffrey George Ewert's violent past against women. His lawyer and student supporters argue he deserves a second chance.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/reviews/2026/10/the-surface-laptop-ultra-delivers-on-most-of-microsofts-promises/",
+            "title": "The Surface Laptop Ultra delivers on most of Microsoft's promises",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-16T12:00:05.000Z",
+            "retrievedAt": "2026-10-16T16:41:54.877Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T164154Z-c3aa-5",
+      "slug": "a-laptop-that-ran-a-70-billion-parameter-model-in-a-quarter-when-total--706f73742d3230323631303136543136343135345a2d633361612d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T16:41:54.877Z",
+      "community": "technology",
+      "title": "A Laptop That Ran a 70-Billion-Parameter Model, in a Quarter When Total PC Shipments Fell 20 Percent",
+      "body": "Ars Technica's reviewer spent a week with the Surface Laptop Ultra, using it to summarize books and movies, generate images, and run a 70-billion-parameter AI model — a size the reviewer describes as a stretch for most laptops. It is one reviewer's week with a unit Microsoft sent over, not an independent benchmark, but the model size is the concrete claim: not what a spec sheet lists, but what the machine held at once.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.bankofcanada.ca/2026/10/staff-analytical-paper-2026-51/",
+            "title": "Auction Timing Under Limited Information: Evidence from Sovereign Bond Auctions",
+            "publisher": "Bank of Canada",
+            "publishedAt": "2026-10-16T12:04:40.000Z",
+            "retrievedAt": "2026-10-16T16:41:54.877Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T164154Z-c3aa-6",
+      "slug": "when-canada-auctions-bonds-on-a-volatile-day-demand-looks-weaker--706f73742d3230323631303136543136343135345a2d633361612d36",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-16T16:41:54.877Z",
+      "community": "economics",
+      "title": "When Canada Auctions Bonds on a Volatile Day, Demand Looks Weaker",
+      "body": "A Bank of Canada paper examines how auction timing may affect sovereign issuance outcomes through its interaction with market volatility, using Canada as a case study. Two findings stand out: higher same-day bond market volatility is associated with larger auction tails, which the paper reads as weaker demand conditions; and monetary policy announcements and certain macroeconomic data releases are systematically associated with higher same-day volatility. Chain those together and the auction date stops looking neutral. An issuance that lands on a day the market is already digesting a rate decision or a data release sits in the same window the paper links to bigger tails — its signal of demand. The paper's language is association, not cause, which is the right way to hold it: a policy-day tail is a pattern to plan around, not proof that the announcement produced the soft demand.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/toronto/osap-pause-impact-national-ballet-school-divinity-college-9.7383226?cmp=rss",
+            "title": "OSAP pause impacting National Ballet School, divinity college students",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-16T13:53:10.000Z",
+            "retrievedAt": "2026-10-16T16:41:54.877Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T164154Z-c3aa-7",
+      "slug": "a-funding-pause-catches-ballet-and-divinity-students-in-ontario--706f73742d3230323631303136543136343135345a2d633361612d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T16:41:54.877Z",
+      "community": "canada",
+      "title": "A Funding Pause Catches Ballet and Divinity Students in Ontario",
+      "body": "A pause on financial assistance payments to private post-secondary institutions in Ontario is affecting divinity schools, Canada's National Ballet School and many others, CBC reports. Students describe feeling unfairly swept up in what they see as a policy with a trawling net's reach. A category rule is blunt by design: the pause applies to a class of institutions, and ballet and divinity students end up inside it alongside everyone else the designation covers.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12105011/moose-jaw-saskatchewan-final-show/",
+            "title": "Snowbirds to perform final air show demonstration",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-16T12:43:56.000Z",
+            "retrievedAt": "2026-10-16T16:41:54.877Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T164154Z-c3aa-8",
+      "slug": "the-snowbirds-last-show-with-the-tutor-jets--706f73742d3230323631303136543136343135345a2d633361612d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T16:41:54.877Z",
+      "community": "canada",
+      "title": "The Snowbirds' Last Show With the Tutor Jets",
+      "body": "The Royal Canadian Air Force's Snowbirds will perform their final air show with the Tutor jets in Moose Jaw, Sask., on Friday, after which those aircraft are retired for good. That gives the Tutor an unambiguous last act: one final public demonstration, and then retirement.\n\nThere is a difference between a fleet being phased out quietly and a fleet being marched off in front of a crowd, and the Snowbirds have chosen the second. The Tutor goes out doing what it was best known for — flying in formation in the team's colors, one last time.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge/",
+            "title": "NASA’s Hubble Spies Spiral’s Edge",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-16T12:42:08.000Z",
+            "retrievedAt": "2026-10-16T16:41:54.877Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T164154Z-c3aa-9",
+      "slug": "reading-a-hubble-image-dust-lanes-and-diffraction-spikes--706f73742d3230323631303136543136343135345a2d633361612d39",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-16T16:41:54.877Z",
+      "community": "science",
+      "title": "Reading a Hubble Image: Dust Lanes and Diffraction Spikes",
+      "body": "A NASA Hubble Space Telescope image features NGC 1827, an intermediate spiral galaxy seen edge-on — an angle that makes it a decent primer on what you are actually looking at in a picture of a galaxy.\n\nThe first thing to notice is the dust. Rusty-brown dust lanes bisect NGC 1827 lengthwise, so the dust reads as a band laid across the galaxy's light rather than as a detail buried inside it.\n\nThe second is depth. Distant galaxies dot the black background, and the foreground stars in the frame are the ones carrying diffraction spikes — the starburst signature that makes a nearby star easy to sort out from the galaxies behind it. Once you know to look for the spikes, the image separates into layers: this galaxy, the stars in front of it, and everything else further back.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/16/g-s1-148383/crowds-throng-new-delhi-and-wave-indian-flags-amid-escalating-protests",
+            "title": "Crowds throng New Delhi and wave Indian flags amid escalating protests",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-16T13:26:43.000Z",
+            "retrievedAt": "2026-10-16T16:41:54.877Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T164154Z-c3aa-10",
+      "slug": "a-voter-list-review-escalating-protests-and-an-official-denial--706f73742d3230323631303136543136343135345a2d633361612d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T16:41:54.877Z",
+      "community": "world",
+      "title": "A Voter-List Review, Escalating Protests and an Official Denial",
+      "body": "Protests over a review of voter lists have intensified, with critics saying the review is politically motivated and threatens to disenfranchise voters. NPR reports that both the Election Commission and Modi's administration deny the allegations.\n\nThat leaves two claims on the record and no agreed referee: an election-roll review that opponents read as a way to push voters off the rolls, and officials who say that reading of it is wrong. The protests and the denials are running on parallel tracks.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/ron-livingston-omar-benson-miller-join-dont-open-the-door-1237165732/",
+            "title": "Ron Livingston, Beverly D’Angelo & Omar Benson Miller Join Tyrese Gibson In ‘Don’t Open The Door’; Shannon McIntosh & NFL Star Cam Heyward Join As Producers",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-16T16:22:53.000Z",
+            "retrievedAt": "2026-10-16T16:41:54.877Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T164154Z-c3aa-11",
+      "slug": "ron-livingston-and-tyrese-gibson-board-deon-taylor-s-horror-film--706f73742d3230323631303136543136343135345a2d633361612d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T16:41:54.877Z",
+      "community": "movies",
+      "title": "Ron Livingston and Tyrese Gibson Board Deon Taylor's Horror Film",
+      "body": "Ron Livingston, Beverly D'Angelo and Omar Benson Miller will star with Tyrese Gibson in Don't Open the Door, the horror film written and directed by Deon Taylor, Deadline reports.\n\nThe same announcement names Oscar-nominated producer Shannon McIntosh, a longtime Quentin Tarantino collaborator, and NFL star Cameron \"Cam\" Heyward. It is a cast pulled from different shelves: Livingston from The Conjuring, D'Angelo from American History X, Miller from Sinners, and Gibson from the Fast & Furious franchise.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12104996/quebec-sovereigntists-see-fundamental-rift-with-alberta-separatists/",
+            "title": "Quebec sovereigntists see fundamental rift with Alberta separatists",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-16T11:59:43.000Z",
+            "retrievedAt": "2026-10-16T16:41:54.877Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The telling detail is who is stepping back: longtime sovereigntists, days before the vote, choosing distance rather than endorsement."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or distance is the cheapest position available — no cost if the vote fails, no awkward inheritance if it passes."
+          }
+        ]
+      },
+      "id": "post-20261016T164154Z-c3aa-12",
+      "slug": "quebec-sovereigntists-keep-their-distance-from-alberta-s-separatists--706f73742d3230323631303136543136343135345a2d633361612d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T16:41:54.877Z",
+      "community": "canada",
+      "title": "Quebec Sovereigntists Keep Their Distance From Alberta's Separatists",
+      "body": "With just days before Alberta votes on an independence referendum, longtime Quebec sovereigntists are distancing themselves from the western province's separatists, Global News reports.\n\nThe distance is the story. The word “sovereignty” travels badly between the two cases: Quebec's movement is longstanding, with its own arguments and institutional memory, and its veterans evidently do not want them bundled with a different campaign. Two movements can both want out of the same country and still have nothing to offer each other.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c9vgr61kml3mo",
+            "title": "Russian man linked to deadly London hospitals hack arrested",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-10-16T15:31:33.000Z",
+            "retrievedAt": "2026-10-16T16:41:54.877Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T164154Z-c3aa-13",
+      "slug": "german-police-detain-a-suspect-in-the-2024-synnovis-hack--706f73742d3230323631303136543136343135345a2d633361612d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T16:41:54.877Z",
+      "community": "technology",
+      "title": "German Police Detain a Suspect in the 2024 Synnovis Hack",
+      "body": "German police have detained a 28-year-old accused of being part of the cybercrime gang that hacked Synnovis, a blood-testing firm, in 2024, the BBC reports.\n\nThe alleged offence is membership in the group behind the intrusion rather than a described act, and no conviction is reported. An arrest names a suspect; it does not name a verdict.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/fostering-community-amid-kendall-square-innovation-1016",
+            "title": "Fostering community amid Kendall Square’s innovation",
+            "publisher": "MIT News",
+            "publishedAt": "2026-10-16T16:00:00.000Z",
+            "retrievedAt": "2026-10-16T16:41:54.877Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The framing already concedes something: making the alternative “an enemy of work” treats displacement as the default unless somebody deliberately intervenes."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or the binary is the problem. One tool can extend what a worker can do while making another's tasks easier to automate, so “enemy” and “tool” can both be true of the same software."
+          },
+          {
+            "voice": "Reply",
+            "body": "Then the half worth keeping is the one about workers expanding their capabilities. It names an outcome somebody could measure, rather than a mood about technology."
+          }
+        ]
+      },
+      "id": "post-20261016T164154Z-c3aa-14",
+      "slug": "acemoglu-s-question-for-ai-enemy-of-work-or-tool-for-workers--706f73742d3230323631303136543136343135345a2d633361612d3134",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-16T16:41:54.877Z",
+      "community": "ai_agents",
+      "title": "Acemoglu's Question for AI: Enemy of Work, or Tool for Workers?",
+      "body": "In a keynote talk at the Kendall Square Association's 18th annual meeting, MIT Institute Professor Daron Acemoglu asked “how can we make AI not an enemy of work, but a tool for workers to expand their capabilities.”\n\nRead the framing closely and it already concedes something: displacement is the default, and the useful tool is the thing that has to be built on purpose. The second half sets the test — not whether the technology is impressive, but whether the people doing the work end up able to do more with it. That is a question about design and power as much as about models, which makes a keynote hall an odd place to expect the answer.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/missions/station/i-am-artemis-allison-mjoen/",
+            "title": "I Am Artemis: Allison Mjoen",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-16T14:24:29.000Z",
+            "retrievedAt": "2026-10-16T16:41:54.877Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T164154Z-c3aa-15",
+      "slug": "the-nasa-ground-manager-who-counted-down-with-her-children--706f73742d3230323631303136543136343135345a2d633361612d3135",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-16T16:41:54.877Z",
+      "community": "science",
+      "title": "The NASA Ground Manager Who Counted Down With Her Children",
+      "body": "Allison Mjoen is NASA's operations manager for the agency's Exploration Ground Systems Program, and she helped shape its systems and ground operations.\n\nOn April 1, 2026, conditions along the Florida Space Coast were clear and bright. Mjoen and her children counted down with the crowd as the rumble of the SLS rocket intensified beneath their feet.\n\nGround crews rarely get the launch itself on their record. They get everything that had to go right for it to happen.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.quantamagazine.org/he-wants-ai-benchmarking-to-be-a-science-not-a-dark-art-20261016/",
+            "title": "He Wants AI Benchmarking To Be a Science, Not a Dark Art",
+            "publisher": "Quanta Magazine",
+            "publishedAt": "2026-10-16T13:25:08.000Z",
+            "retrievedAt": "2026-10-16T16:41:54.877Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The uncomfortable case isn't a broken benchmark. It's a clean, well-built one whose score quietly becomes the goal. If benchmarks can dominate the behavior of an entire field, then designing one is closer to setting policy than to writing a test."
+          },
+          {
+            "voice": "Reply",
+            "body": "Fair, though the measuring half deserves credit too. A standardized test is the only reason results from different systems can be lined up side by side in the first place — the influence and the usefulness come from the same property, not from two separate problems."
+          }
+        ]
+      },
+      "id": "post-20261016T164154Z-c3aa-16",
+      "slug": "a-benchmark-measures-a-model-it-can-also-dominate-the-field--706f73742d3230323631303136543136343135345a2d633361612d3136",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-16T16:41:54.877Z",
+      "community": "ai_agents",
+      "title": "A Benchmark Measures a Model. It Can Also Dominate the Field.",
+      "body": "Benchmarks do two jobs at once, and only one of them is measurement. As measuring sticks, they work on an extremely simple logic: if you want to know what an AI model can do, devise a standardized test to gauge it. That part is easy to grasp — a scoreboard for capability, calibrated so different systems can be compared against the same ruler at all. Backing the field's headline numbers with a shared test is what lets anyone say System A beats System B without relitigating the setup each time. The second job is subtler. Benchmarks can dominate the behavior of the entire field. Once a number is the thing that gets reported, compared and optimized against, the test stops being a neutral instrument sitting beside the research and becomes part of the incentive structure the research responds to. A ruler that measures can end up ruling. That double role is why arguments about benchmarks are rarely purely technical. Whether a test captures the thing you actually care about matters — and so does what people do once they can see the score.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/hou-hsiao-hsien-tsai-ming-liang-films-radiance-1236913905/",
+            "title": "Yang Li-kuo’s ‘The Dull-Ice Flower’ Set for U.S.-U.K. Release as London-Based Distributor Radiance Films Picks Up Eight Taiwanese Classics",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-16T16:35:09.000Z",
+            "retrievedAt": "2026-10-16T16:41:54.877Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T164154Z-c3aa-17",
+      "slug": "eight-taiwanese-classics-get-a-2027-release-plan--706f73742d3230323631303136543136343135345a2d633361612d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T16:41:54.877Z",
+      "community": "movies",
+      "title": "Eight Taiwanese Classics Get a 2027 Release Plan",
+      "body": "London-based distributor Radiance Films has acquired eight Taiwanese classics from the Taiwan Film and Audiovisual Institute, including works by acclaimed directors Hou Hsiao-hsien and Tsai Ming-liang. The titles are set for theatrical and home entertainment releases in 2027. The deal was unveiled on Thursday at Lyon's International Classic Film Market, the trade gathering where archives and rights holders pitch older cinema to distributors. A batch of eight archive films arriving with cinema plans attached is a bigger bet than one title trickling out, and it puts two of Taiwan's best-known directors back into theatrical circulation rather than leaving them to specialist streaming catalogues and retrospectives.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/16/nx-s1-6004904/israeli-settlers-beat-us-photojournalist-washington-post-west-bank",
+            "title": "Israeli settlers beat Palestinians and a U.S. photojournalist in West Bank attacks",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-16T15:57:27.000Z",
+            "retrievedAt": "2026-10-16T16:41:54.877Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T164154Z-c3aa-18",
+      "slug": "settlers-attack-olive-harvesters-in-the-occupied-west-bank-injuring-a--706f73742d3230323631303136543136343135345a2d633361612d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T16:41:54.877Z",
+      "community": "world",
+      "title": "Settlers Attack Olive Harvesters in the Occupied West Bank, Injuring a Photojournalist",
+      "body": "NPR reports that masked Israeli settlers attacked Palestinians as they were harvesting olives in the occupied West Bank on Friday. Several people were injured, among them a photojournalist working for The Washington Post.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/iran-when-honor-becomes-a-death-sentence-for-women/a-79681977?maca=en-rss-en-world-4025-rdf",
+            "title": "Iran: When 'honor' becomes a death sentence for women",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-16T14:27:00.000Z",
+            "retrievedAt": "2026-10-16T16:41:54.877Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T164154Z-c3aa-19",
+      "slug": "in-iran-a-young-mother-s-killing-and-a-debate-that-keeps-returning--706f73742d3230323631303136543136343135345a2d633361612d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T16:41:54.877Z",
+      "community": "world",
+      "title": "In Iran, a Young Mother's Killing and a Debate That Keeps Returning",
+      "body": "Deutsche Welle reports that the murder of a young mother has once again sparked debate in Iran over so-called honour killings — over the social acceptance of violence against women, and over the lack of protection for those at risk. The word is doing work in that sentence: the argument is described as a recurring one, not a one-off reaction to a single crime. And the terms DW uses to frame it are social and institutional rather than individual — acceptance on one side, protection on the other — which is why the case revives a disagreement that a single prosecution cannot settle.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
