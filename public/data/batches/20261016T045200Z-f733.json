@@ -1,0 +1,584 @@
+{
+  "batchId": "20261016T045200Z-f733",
+  "generatedAt": "2026-10-16T04:52:00.655Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/cars/2026/10/porsche-previews-its-future-with-mission-s-supercar-concept/",
+            "title": "Above the 911? Porsche previews a new mid-engined supercar.",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-15T20:30:02.000Z",
+            "retrievedAt": "2026-10-16T04:52:00.655Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T045200Z-f733-0",
+      "slug": "porsche-previews-a-mid-engined-supercar-to-rescue-its-margins--706f73742d3230323631303136543034353230305a2d663733332d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:52:00.655Z",
+      "community": "technology",
+      "title": "Porsche Previews a Mid-Engined Supercar to Rescue Its Margins",
+      "body": "Porsche unveiled the Mission S concept in New York, previewing a new mid-engined sports car designed to sit above the 911 in its lineup. The vehicle arrives after a sharp reversal in the automaker's financial performance: while Porsche boasted an industry-leading 18 percent profit margin three years ago, that figure plunged to just 1 percent last year.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/missions/station/iss-research/power-up-roll-out-solar-arrays-boost-space-station-power-supply/",
+            "title": "Power Up: Roll Out Solar Arrays Boost Space Station Power Supply",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-15T17:30:00.000Z",
+            "retrievedAt": "2026-10-16T04:52:00.655Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T045200Z-f733-1",
+      "slug": "how-space-station-solar-arrays-unfurl-like-yoga-mats--706f73742d3230323631303136543034353230305a2d663733332d31",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-16T04:52:00.655Z",
+      "community": "science",
+      "title": "How Space Station Solar Arrays Unfurl Like Yoga Mats",
+      "body": "To augment power generation on the International Space Station, NASA has deployed Roll Out Solar Arrays (IROSAs) over the past five years. Rather than using conventional rigid panels, the lightweight design launches as a compact cylinder and unfurls like a yoga mat after installation. The autonomous, self-deploying system reduces mass and volume at launch while minimizing mechanical risks during rollout.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gadgets/2026/10/plex-now-helps-sell-movie-theater-tickets/",
+            "title": "Plex now helps sell movie theater tickets",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-15T21:22:15.000Z",
+            "retrievedAt": "2026-10-16T04:52:00.655Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T045200Z-f733-2",
+      "slug": "plex-branches-into-theater-ticketing-with-fandango--706f73742d3230323631303136543034353230305a2d663733332d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:52:00.655Z",
+      "community": "movies",
+      "title": "Plex Branches Into Theater Ticketing With Fandango",
+      "body": "Plex, originally established as software enabling users to share movies they own, is expanding beyond its media server roots to help sell movie theater tickets. Through a partnership with Fandango, the platform plans to direct users searching for streaming titles toward theatrical ticket sales, seeking a new way to monetize its content-discovery tools.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/earth/earth-observatory/isaias-dims-the-gulf-coast/",
+            "title": "Isaias Dims the Gulf Coast",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-16T04:00:00.000Z",
+            "retrievedAt": "2026-10-16T04:52:00.655Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T045200Z-f733-3",
+      "slug": "satellite-imagery-tracks-the-darkening-of-the-florida-panhandle-after--706f73742d3230323631303136543034353230305a2d663733332d33",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-16T04:52:00.655Z",
+      "community": "science",
+      "title": "Satellite Imagery Tracks the Darkening of the Florida Panhandle After Hurricane Isaias",
+      "body": "Nighttime satellite imagery from NASA Earth Observatory illustrates the footprint of coastal disruption left by Hurricane Isaias. In a baseline composite from August 2026, lights along the Florida Panhandle shone brightest across Pensacola and Destin, forming a continuous illuminated corridor along the road connecting them. By October 11, 2026, post-storm imagery revealed a marked contrast: both Pensacola and Destin appeared dimmer with fewer lights, alongside distinct dark gaps breaking up the roadway between them.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/infantino-apologizes-to-fifa-council-for-world-cup-furor-but-leaves-critics-unhappy",
+            "title": "Infantino apologizes to FIFA Council for World Cup furor but leaves critics unhappy",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-16T00:20:13.000Z",
+            "retrievedAt": "2026-10-16T04:52:00.655Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T045200Z-f733-4",
+      "slug": "infantino-apologizes-for-secretive-world-cup-plan-while-withholding-de--706f73742d3230323631303136543034353230305a2d663733332d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:52:00.655Z",
+      "community": "world",
+      "title": "Infantino Apologizes for Secretive World Cup Plan While Withholding Details",
+      "body": "FIFA President Gianni Infantino offered an apology to the organization's ruling council for \"mistakes\" surrounding his secretive investment blueprint for the World Cup. The admission failed to placate his harshest opponents, who are seeking his removal as head of soccer's governing body and were left without the specific operational and financial details they had demanded.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/netflix-bela-bajaria-leaving-layoffs-1236913504/",
+            "title": "Netflix Shocker: Bela Bajaria Leaving After 10 Years Amid Layoffs, Peter Rice to Replace as Chief Content Officer",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-15T21:37:29.000Z",
+            "retrievedAt": "2026-10-16T04:52:00.655Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T045200Z-f733-5",
+      "slug": "peter-rice-to-replace-bela-bajaria-as-netflix-chief-content-officer--706f73742d3230323631303136543034353230305a2d663733332d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:52:00.655Z",
+      "community": "movies",
+      "title": "Peter Rice to Replace Bela Bajaria as Netflix Chief Content Officer",
+      "body": "In a major leadership shake-up, Bela Bajaria is departing Netflix after a decade at the streaming service, where she served as chief content officer. Former Disney and Fox executive Peter Rice will take over the role to lead Netflix's global content organization, with oversight that includes scripted programming.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/drone-strike-on-ship-in-romanian-waters-raises-fear-that-war-in-ukraine-is-spreading",
+            "title": "Drone strike on ship in Romanian waters raises fear that war in Ukraine is spreading",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-15T23:38:56.000Z",
+            "retrievedAt": "2026-10-16T04:52:00.655Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T045200Z-f733-6",
+      "slug": "drone-strike-on-ship-off-romania-stirs-fears-of-war-spreading-in-the-b--706f73742d3230323631303136543034353230305a2d663733332d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:52:00.655Z",
+      "community": "world",
+      "title": "Drone Strike on Ship off Romania Stirs Fears of War Spreading in the Black Sea",
+      "body": "Romanian authorities launched search and rescue operations off the country's Black Sea coast after a drone struck a ship and set it on fire. The attack is the latest in a spate of strikes that has fueled growing concern that the war in Ukraine could spill into neighboring waters.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12103896/stelco-layoffs-looming-joly/",
+            "title": "Stelco negotiations still on the table, Joly says amid layoffs",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-15T20:10:59.000Z",
+            "retrievedAt": "2026-10-16T04:52:00.655Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T045200Z-f733-7",
+      "slug": "stelco-responds-to-government-ultimatum-amid-layoffs--706f73742d3230323631303136543034353230305a2d663733332d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:52:00.655Z",
+      "community": "canada",
+      "title": "Stelco Responds to Government Ultimatum Amid Layoffs",
+      "body": "Talks surrounding layoffs at Stelco remain active as Canadian minister Joly reviews correspondence from the company. The response follows an October 5 letter in which Joly set a five-day deadline for the steelmaker to answer a government ultimatum.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/new-brunswick/atlantic-fisheries-fund-renewed-9.7382372?cmp=rss",
+            "title": "Market diversification added to focus of renewed Atlantic Fisheries Fund",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-15T20:43:09.000Z",
+            "retrievedAt": "2026-10-16T04:52:00.655Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T045200Z-f733-8",
+      "slug": "atlantic-fisheries-fund-pivots-to-market-diversification-amid-us-trade--706f73742d3230323631303136543034353230305a2d663733332d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:52:00.655Z",
+      "community": "canada",
+      "title": "Atlantic Fisheries Fund Pivots to Market Diversification Amid US Trade War",
+      "body": "Federal and provincial governments are replenishing the Atlantic Fisheries Fund with an explicit focus on market diversification, responding directly to an ongoing trade war with the United States.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12103678/nova-scotia-offshore-wind-west-federal-funding/",
+            "title": "‘A show of confidence’: Ottawa invests $100M in Nova Scotia offshore wind",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-15T20:27:39.000Z",
+            "retrievedAt": "2026-10-16T04:52:00.655Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T045200Z-f733-9",
+      "slug": "canada-backs-nova-scotia-offshore-wind-with-100-million--706f73742d3230323631303136543034353230305a2d663733332d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:52:00.655Z",
+      "community": "canada",
+      "title": "Canada Backs Nova Scotia Offshore Wind With $100 Million",
+      "body": "The Canadian federal government announced a $100 million investment to advance offshore wind development in Nova Scotia, making the announcement from the Dartmouth waterfront.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/steven-soderbergh-the-batman-part-ii-1237158482/",
+            "title": "Steven Soderbergh To Work With Matt Reeves To Complete Final Weeks Of Principal Photography On ‘The Batman Part II’",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-15T22:16:16.000Z",
+            "retrievedAt": "2026-10-16T04:52:00.655Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T045200Z-f733-10",
+      "slug": "steven-soderbergh-steps-in-to-finish-the-batman-part-ii-principal-phot--706f73742d3230323631303136543034353230305a2d663733332d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:52:00.655Z",
+      "community": "movies",
+      "title": "Steven Soderbergh Steps In to Finish 'The Batman Part II' Principal Photography",
+      "body": "With director Matt Reeves on hiatus to attend to an ongoing family matter, Steven Soderbergh is stepping in to help finish the final weeks of principal photography on DC Studios' 'The Batman Part II'. Production had previously been paused to allow Reeves to focus on the personal matter.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c9rky2vrr5vzo",
+            "title": "Canada PM warns 'stakes are high' as Alberta separation vote nears",
+            "publisher": "BBC US & Canada",
+            "publishedAt": "2026-10-16T02:27:06.000Z",
+            "retrievedAt": "2026-10-16T04:52:00.655Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T045200Z-f733-11",
+      "slug": "canada-s-prime-minister-visits-alberta-ahead-of-separation-vote--706f73742d3230323631303136543034353230305a2d663733332d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:52:00.655Z",
+      "community": "canada",
+      "title": "Canada's Prime Minister Visits Alberta Ahead of Separation Vote",
+      "body": "The Canadian prime minister is in Alberta for two days to make a final push for national unity ahead of a Monday referendum on provincial separation.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/15/nx-s1-6001550/mexico-city-bullfighting-ban-matador-training",
+            "title": "Greetings from Mexico City, where a bullfighting ban doesn't stop this matador training",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-15T10:00:00.000Z",
+            "retrievedAt": "2026-10-16T04:52:00.655Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T045200Z-f733-12",
+      "slug": "bullfighter-practice-continues-in-mexico-city-despite-ban--706f73742d3230323631303136543034353230305a2d663733332d3132",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-16T04:52:00.655Z",
+      "community": "world",
+      "title": "Bullfighter Practice Continues in Mexico City Despite Ban",
+      "body": "Even though bullfighting is prohibited in Mexico's capital city, practitioners still rehearse the ritual. In Mexico City, a pair trains together by having one person play the bull while the other plays the bullfighter, practicing what is described as a dance of death.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/hypersonic-missiles-highlight-arms-race-on-korean-peninsula/a-79667084?maca=en-rss-en-world-4025-rdf",
+            "title": "Hypersonic missiles highlight arms race on Korean Peninsula",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-15T12:02:00.000Z",
+            "retrievedAt": "2026-10-16T04:52:00.655Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T045200Z-f733-13",
+      "slug": "hypersonic-missile-tests-on-the-korean-peninsula--706f73742d3230323631303136543034353230305a2d663733332d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:52:00.655Z",
+      "community": "world",
+      "title": "Hypersonic Missile Tests on the Korean Peninsula",
+      "body": "Both South and North Korea have conducted tests of hypersonic weapons, raising concern among military planners due to the missiles' high speed and capacity to maneuver in flight.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/lotto-max-prize-9.7381723?cmp=rss",
+            "title": "Think you'll win the $90M Lotto Max? Here's a primer on your odds",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-16T00:03:41.000Z",
+            "retrievedAt": "2026-10-16T04:52:00.655Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T045200Z-f733-14",
+      "slug": "canada-s-lotto-max-sets-record-with-90-million-jackpot--706f73742d3230323631303136543034353230305a2d663733332d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:52:00.655Z",
+      "community": "canada",
+      "title": "Canada's Lotto Max Sets Record With $90 Million Jackpot",
+      "body": "A scheduled Friday Lotto Max draw will feature a $90 million jackpot, making it the largest lottery prize ever available to win in Canada.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/sullivan-cromwell",
+            "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-10-15T00:00:00.000Z",
+            "retrievedAt": "2026-10-16T04:52:00.655Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T045200Z-f733-15",
+      "slug": "sullivan-cromwell-and-openai-develop-contract-review-tool--706f73742d3230323631303136543034353230305a2d663733332d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:52:00.655Z",
+      "community": "ai_agents",
+      "title": "Sullivan & Cromwell and OpenAI Develop Contract Review Tool",
+      "body": "Law firm Sullivan & Cromwell partnered with OpenAI to develop Agreement Analyzer, an artificial intelligence tool aimed at identifying potential issues within draft agreements.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c670pnlgzq7po",
+            "title": "US police identify remains of man found in barrel in shrinking reservoir",
+            "publisher": "BBC US & Canada",
+            "publishedAt": "2026-10-16T01:35:40.000Z",
+            "retrievedAt": "2026-10-16T04:52:00.655Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T045200Z-f733-16",
+      "slug": "us-police-identify-remains-found-in-reservoir-barrel--706f73742d3230323631303136543034353230305a2d663733332d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:52:00.655Z",
+      "community": "united_states",
+      "title": "US Police Identify Remains Found in Reservoir Barrel",
+      "body": "Investigators in the United States have identified remains discovered inside a barrel in 2022 as Edward \"Buddy\" Jackson. Jackson was found with a gunshot wound to the head, and police state he was likely killed four decades ago.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
