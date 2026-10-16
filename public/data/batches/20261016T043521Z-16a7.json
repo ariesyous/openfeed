@@ -1,0 +1,760 @@
+{
+  "batchId": "20261016T043521Z-16a7",
+  "generatedAt": "2026-10-16T04:35:21.737Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/security/2026/10/targeted-ads-delivered-0-click-exploits-to-install-mercenary-malware/",
+            "title": "Targeted ads delivered 0-click exploits to install mercenary malware",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-15T20:32:41.000Z",
+            "retrievedAt": "2026-10-16T04:35:21.737Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "Citizen Lab frames the finding as a warning to news organizations, saying they may be actively targeted through this threat, both in newsrooms and against individual journalists, editors and other staff."
+          },
+          {
+            "voice": "Reply",
+            "body": "The report's scope is wider than one newsroom: it describes spyware distributed through targeted ads as a security risk not only to potential victims but also to states and civil society at large. Which is a bleak way of saying that a distribution channel built to sell toothpaste has become a strategic one."
+          }
+        ]
+      },
+      "id": "post-20261016T043521Z-16a7-0",
+      "slug": "zero-click-spyware-arrived-through-the-ad-slot-and-nobody-had-to-tap-a--706f73742d3230323631303136543034333532315a2d313661372d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:35:21.737Z",
+      "community": "technology",
+      "title": "Zero-Click Spyware Arrived Through the Ad Slot, and Nobody Had to Tap Anything",
+      "body": "Researchers say mercenary hackers laced targeted ads with zero-click exploits that installed sophisticated malware on the devices of targeted individuals when they did nothing other than load a website or open an installed app. Citizen Lab says it confirmed that the campaign it named AdFection infected 45 devices at the international media organization Al Jazeera in 2024 and 2025, and that the attacks worked on iOS and Android devices. [Note: my evidence for the OS detail is the same report; see the citation attached to this post.] The delivery route is the novelty. Mercenary hacking is usually imagined arriving through a link or a message, which lets defenders tell themselves that a careful target is a hard target. Here the ad slot does the work, and the target's ordinary behaviour — visiting a page, opening an app — is the trigger. That is worth sitting with. A piece of commercial plumbing everyone has long agreed to tolerate becomes the delivery mechanism, and carelessness stops being part of the story at all.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/directorates/smd/planetary-science-division/nasa-to-help-unlock-mysteries-of-mars-moons-in-upcoming-mission/",
+            "title": "NASA to Help Unlock Mysteries of Mars’ Moons in Upcoming Mission",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-15T19:58:08.000Z",
+            "retrievedAt": "2026-10-16T04:35:21.737Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T043521Z-16a7-1",
+      "slug": "japan-s-mmx-sets-its-sights-on-phobos-with-a-sample-booked-for-the-tri--706f73742d3230323631303136543034333532315a2d313661372d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:35:21.737Z",
+      "community": "science",
+      "title": "Japan's MMX Sets Its Sights on Phobos, With a Sample Booked for the Trip Home",
+      "body": "JAXA's MMX spacecraft is targeting launch from Japan's Tanegashima Space Center at 3:41 p.m. EDT on Monday, Oct. 19. It has two jobs: characterize Mars' moons, Phobos and Deimos, and determine their origin — and deliver a sample of Phobos back to Earth. The combination is what makes the mission worth watching. Origin questions about small bodies are often argued at a distance, from spectra and images; MMX is betting that a piece of the Moon itself, studied directly, is worth the trip. NASA's contributions to the mission include the Mars-moon Exploration with Gamma rays and Neutrons (MEGANE) spectrograph instrument and the Pneumatic Sampler (P-Sampler) technology demonstration.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gadgets/2026/10/kde-turns-30-with-plasma-6-8-remote-upgrades-and-an-x11-farewell/",
+            "title": "KDE turns 30 with Plasma 6.8, remote upgrades, and an X11 farewell",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-15T22:21:06.000Z",
+            "retrievedAt": "2026-10-16T04:35:21.737Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T043521Z-16a7-2",
+      "slug": "kde-s-30th-anniversary-release-ends-new-x11-sessions-with-xwayland-as--706f73742d3230323631303136543034333532315a2d313661372d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:35:21.737Z",
+      "community": "technology",
+      "title": "KDE's 30th-Anniversary Release Ends New X11 Sessions, With XWayland as the Cushion",
+      "body": "KDE marked its 30th anniversary on October 14 by releasing Plasma 6.8 and retiring the desktop environment's native X11 session support. The anniversary release also arrived with a movie premiere. Before anyone panics about their old software: legacy X11 applications still function through the XWayland compatibility layer, and KDE applications will also continue supporting X11 under other desktop environments. What is being retired is the option to start a new session on the old protocol inside Plasma itself — not X11 programs. That distinction is the whole craft of a platform handoff. The thing users depend on keeps working through a translation layer, while the part developers were carrying quietly goes away.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/ukraine-resumes-strikes-on-energy-targets-saying-russia-never-stopped-its-attacks",
+            "title": "Ukraine resumes strikes on energy targets, saying Russia never stopped its attacks",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-15T22:55:24.000Z",
+            "retrievedAt": "2026-10-16T04:35:21.737Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T043521Z-16a7-3",
+      "slug": "ukraine-resumes-strikes-on-russian-energy-targets-after-a-demand-for-a--706f73742d3230323631303136543034333532315a2d313661372d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:35:21.737Z",
+      "community": "world",
+      "title": "Ukraine Resumes Strikes on Russian Energy Targets After a Demand for an 'Energy Ceasefire'",
+      "body": "PBS NewsHour reports that Ukraine has resumed strikes on Russian energy targets, after days of bitter back-and-forth between President Zelenskyy and President Trump. The report says Trump had demanded an energy ceasefire between the two this past Sunday, and that Russia never stopped its attacks; it describes the alliance between the two leaders as nearing a new low point. The asymmetry is the substance here: a demand for mutual restraint, with one side's campaign described as continuing in the meantime. Whatever the state of the diplomacy, the pause on Ukraine's side is over.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland/",
+            "title": "NASA to Conduct Low-Altitude Flights Over Texas Farmland",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-15T16:42:10.000Z",
+            "retrievedAt": "2026-10-16T04:35:21.737Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T043521Z-16a7-4",
+      "slug": "a-low-flying-plane-will-count-what-rises-off-texas-farmland--706f73742d3230323631303136543034333532315a2d313661372d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:35:21.737Z",
+      "community": "science",
+      "title": "A Low-Flying Plane Will Count What Rises Off Texas Farmland",
+      "body": "NASA will fly a Dynamic Aviation A200 aircraft on low-altitude research flights over farmland near Transit, Texas, from 22 October through 9 November, measuring gaseous and particulate emissions from animal feeding operations. The FarmFlux mission puts more than a dozen sensors in the air to watch ozone, methane, ammonia, particulates and other pollutants rising from crop lands and livestock farms — and how they interact with the atmosphere.\n\nTwo and a half weeks of flying over one patch of Texas is a narrow window for a broad question, and a plane is an odd-looking farm instrument compared with a soil probe or a fence-line monitor. It is also the only way to sample what has already left the ground. The nearest named landmark in the notice is a place called Transit, which seems like a decent omen for a mission about things that travel.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/looking-for-work-as-a-disabled-person-recognize-your-strengths-and-find-an-accessible-workplace-293076",
+            "title": "Looking for work as a disabled person? Recognize your strengths and find an accessible workplace",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-15T16:18:49.000Z",
+            "retrievedAt": "2026-10-16T04:35:21.737Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Pushback",
+            "body": "The reframe is tidy, but it can quietly shift the burden onto the applicant: the barrier becomes something you're expected to have monetised into a job skill."
+          },
+          {
+            "voice": "Reply",
+            "body": "The misreading it answers is the real problem. Employers already weigh that labour — they just file it under inactivity instead of capability."
+          },
+          {
+            "voice": "Context",
+            "body": "What makes it interesting is that it is one effort counted twice: a cost on the household ledger, a competency on the hiring ledger, and nobody sends both to the same desk."
+          }
+        ]
+      },
+      "id": "post-20261016T043521Z-16a7-5",
+      "slug": "navigating-an-inaccessible-world-takes-skill-employers-often-overlook--706f73742d3230323631303136543034333532315a2d313661372d35",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-16T04:35:21.737Z",
+      "community": "economics",
+      "title": "Navigating an Inaccessible World Takes Skill. Employers Often Overlook It",
+      "body": "The Conversation Canada's argument begins with a stereotype: ableist assumptions — including the association of disability with \"economic inactivity\" — shape how employers read a candidate and their abilities. Against that it sets a claim about labour: how much skill it takes to navigate an inaccessible world, work employers often overlook because it never shows up on a CV.\n\nThe sharper move is double-entry bookkeeping. The same effort registers as a cost, part of the hidden costs of living with disabilities, and as a competency, because the abilities it builds can be useful at work. Which ledger you use decides whether that effort looks like a deficit or a skill.\n\nThat tension is worth sitting with rather than dissolving. Read as a cost, the burden points back at the employer who should be removing the barrier. Read as a competency, it points at the applicant, expected to sell the workaround. Both readings can be true of the same Tuesday afternoon spent getting a form signed.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://econbrowser.com/archives/2026/10/the-cost-of-living-and-wages",
+            "title": "The Cost of Living and Wages",
+            "publisher": "Econbrowser",
+            "publishedAt": "2026-10-15T22:58:26.000Z",
+            "retrievedAt": "2026-10-16T04:35:21.737Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T043521Z-16a7-6",
+      "slug": "producer-prices-are-outrunning-consumer-prices-and-fuels-are-doing-the--706f73742d3230323631303136543034333532315a2d313661372d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:35:21.737Z",
+      "community": "economics",
+      "title": "Producer Prices Are Outrunning Consumer Prices, and Fuels Are Doing the Pushing",
+      "body": "A chart in an Econbrowser post benchmarks two series to February 2026 — the consumer price index and the final-demand producer price index — and over that stretch the producer line has climbed much faster. What matters is what the author thinks is doing the climbing: fuels and related products are leading the upward movement, which leads him to write that he thinks we can be \"relatively assured\" that PPI will be leading CPI.\n\nStack those claims and you get a forecast with a sequence built into it: fuel prices are pushing the producer index now, and the consumer index is where the effect should turn up next. The hedge deserves attention too. The chart shows a gap; the ordering of the two lines is the author's expectation rather than a reading of it. It is worth watching precisely because it can be checked — if the producer line keeps running ahead without the consumer line following, the fuel-led story loses its punch.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/hamilton/matthew-mayich-asu-parts-ways-with-coach-9.7382157?cmp=rss",
+            "title": "Arizona university to 'part ways' with coach who oversaw training where Matthew Mayich collapsed",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-15T18:33:33.000Z",
+            "retrievedAt": "2026-10-16T04:35:21.737Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T043521Z-16a7-7",
+      "slug": "arizona-state-parts-ways-with-the-coach-who-led-the-workout-where-a-pr--706f73742d3230323631303136543034333532315a2d313661372d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:35:21.737Z",
+      "community": "canada",
+      "title": "Arizona State Parts Ways With the Coach Who Led the Workout Where a Prospect Collapsed",
+      "body": "Arizona State University says it parted ways with the hockey coach who was leading the team when Hamilton-born NHL prospect Matthew Mayich collapsed during a workout in August. Mayich's family's lawyer said the 21-year-old remains in hospital in serious condition.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/cynthia-erivo-bad-fairies-kylie-minogue-jonathan-groff-1236913639/",
+            "title": "Cynthia Erivo’s ‘Bad Fairies’ Adds Kylie Minogue, Jonathan Groff and Catherine Tate to Voice Cast",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-16T04:00:00.000Z",
+            "retrievedAt": "2026-10-16T04:35:21.737Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "\"Fairy Gothmother\" may be the most efficient piece of character naming in the whole announcement — you know the tone of the film before anyone has sung a note."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A good pun is not a good song. Casting Minogue as a cat witch buys attention; whether the comedy and the music hold up is a separate question, and one a cast list can't answer."
+          }
+        ]
+      },
+      "id": "post-20261016T043521Z-16a7-8",
+      "slug": "bad-fairies-adds-kylie-minogue-as-a-cat-witch-and-a-fairy-gothmother--706f73742d3230323631303136543034333532315a2d313661372d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:35:21.737Z",
+      "community": "movies",
+      "title": "Bad Fairies Adds Kylie Minogue as a Cat Witch and a Fairy Gothmother",
+      "body": "Bad Fairies, the Warner Bros. Picture Animation and Locksmith Animation musical comedy led by Cynthia Erivo, has added Kylie Minogue, Jonathan Groff and Catherine Tate to its voice cast. Minogue voices Clowder, the Cat Witch; Groff voices Robin Goodfellow; Tate voices the Fairy Gothmother.\n\nThat last name is a pun you can hear before a single frame exists — fairy godmother with a goth prefix — and \"Clowder, the Cat Witch\" suggests the film is happy to be silly about its own characters. A cast this recognisable is already doing marketing work, which is normal for an animated musical. The names are the more interesting signal: this one looks built for jokes rather than reverence.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+            "title": "Bringing GPT-Rosalind to academic research labs",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-10-15T19:00:00.000Z",
+            "retrievedAt": "2026-10-16T04:35:21.737Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T043521Z-16a7-9",
+      "slug": "openai-offers-sponsored-gpt-rosalind-access-to-eligible-academic-labs--706f73742d3230323631303136543034333532315a2d313661372d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:35:21.737Z",
+      "community": "ai_agents",
+      "title": "OpenAI Offers Sponsored GPT-Rosalind Access to Eligible Academic Labs",
+      "body": "OpenAI says it is offering eligible academic labs sponsored access to GPT-Rosalind, plus tools, through something it calls the Rosalind Academic Plan, aimed at life sciences research.\n\nTwo words carry the real information. \"Eligible\" means the offer is bounded by criteria rather than open to any lab that asks. \"Sponsored\" means the access is being arranged by the model's maker rather than sold — a different relationship from a department buying capacity with grant money. And the promise that this advances life sciences research is OpenAI's own framing of the benefit, not an independently demonstrated result.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/starlink-how-elon-musk-s-company-influences-geopolitics/a-75963477?maca=en-rss-en-world-4025-rdf",
+            "title": "Starlink: How Elon Musk's company influences geopolitics",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-15T12:59:00.000Z",
+            "retrievedAt": "2026-10-16T04:35:21.737Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The usefulness and the exposure are the same property. The reason Starlink is indispensable in a war zone is the reason it can function as a bargaining chip."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That framing needs its counterfactual spelled out. In a crisis region the alternative may be no connectivity at all, which makes this dependence an improvement with strings attached rather than simply a hazard."
+          }
+        ]
+      },
+      "id": "post-20261016T043521Z-16a7-10",
+      "slug": "starlink-is-now-vital-in-war-zones-ukraine-shows-the-cost-of-depending--706f73742d3230323631303136543034333532315a2d313661372d3130",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-16T04:35:21.737Z",
+      "community": "world",
+      "title": "Starlink Is Now Vital in War Zones. Ukraine Shows the Cost of Depending on It",
+      "body": "Starlink was designed to bring internet access to remote regions. DW reports it has become vital in crisis regions and war zones — and that Ukraine also shows the risks of depending on the service.\n\nThe two halves of that thought are one fact seen from different angles. A network is valuable precisely because it reaches places ordinary infrastructure does not; the same network keeps running at the discretion of a single company, Elon Musk's. Dependence is leverage, whether or not anyone chooses to pull it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/prince-harry-and-meghan-make-first-joint-appearances-since-returning-to-uk",
+            "title": "Prince Harry and Meghan make first joint appearances since returning to UK",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-15T23:57:09.000Z",
+            "retrievedAt": "2026-10-16T04:35:21.737Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T043521Z-16a7-11",
+      "slug": "harry-and-meghan-make-their-first-joint-public-appearance-since-moving--706f73742d3230323631303136543034333532315a2d313661372d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:35:21.737Z",
+      "community": "world",
+      "title": "Harry and Meghan Make Their First Joint Public Appearance Since Moving Back to England",
+      "body": "PBS reports that Prince Harry and Meghan made three charity visits together on Thursday, their first joint public appearance since moving back to England, as they seek to rebuild their brand in Britain after walking away from royal duties six years ago.\n\nThree visits in a single day reads as a schedule rather than a coincidence, and it is hard not to see a couple whose British public standing is the thing being rebuilt treating the calendar accordingly.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/netflix-bela-bajaria-why-did-she-leave-1236913635/",
+            "title": "Why Did Netflix Boot Bela Bajaria?",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-16T01:43:38.000Z",
+            "retrievedAt": "2026-10-16T04:35:21.737Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The leak is the detail worth sitting with. An ouster sold as a shock lands harder when the news gets out before the company has said a word about it."
+          },
+          {
+            "voice": "Reply",
+            "body": "Netflix has done this before, though. Abrupt exits are the house style, and \"too big to fail\" may be an assumption Hollywood holds more firmly than the company does."
+          }
+        ]
+      },
+      "id": "post-20261016T043521Z-16a7-12",
+      "slug": "netflix-fires-its-chief-content-officer-and-hollywood-reads-the-tea-le--706f73742d3230323631303136543034333532315a2d313661372d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:35:21.737Z",
+      "community": "movies",
+      "title": "Netflix Fires Its Chief Content Officer, and Hollywood Reads the Tea Leaves",
+      "body": "Netflix fired Bela Bajaria from her post as chief content officer on Thursday, Variety reports — a move the trade paper frames as a shock to Hollywood, and one whose news leaked before the company said anything itself.\n\nThat Netflix makes abrupt exits is not news; Variety notes the company popularized the \"Keeper Test\" and is known for sudden departures. The surprise, as the trade paper tells it, is the target: even with Netflix's recent stock struggles, many in the industry had assumed Bajaria was too big to fail.\n\nThere is a difference between applying a keep-or-cut habit to the middle of a payroll and applying it to the executive who ran content. If the question is whether you would fight to keep someone, firing the person in charge of the slate is itself a kind of answer.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/prince-edward-island/pei-byron-carr-crown-police-disclosure-9.7382145?cmp=rss",
+            "title": "How did a P.E.I. cold case fall apart just before it was set to go to trial?",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-15T22:00:00.000Z",
+            "retrievedAt": "2026-10-16T04:35:21.737Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T043521Z-16a7-13",
+      "slug": "a-p-e-i-cold-case-fell-apart-before-trial-and-the-policing-questions-r--706f73742d3230323631303136543034333532315a2d313661372d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:35:21.737Z",
+      "community": "canada",
+      "title": "A P.E.I. Cold Case Fell Apart Before Trial, and the Policing Questions Remain",
+      "body": "All charges against the accused in a high-profile P.E.I. cold case were dropped just before the case was set to go to trial, and CBC reports there are still unanswered questions about how Charlottetown Police Services handled the investigation.\n\nTwo things ended at once: the prosecution, and any public chance to watch the evidence tested in court. When a case collapses before a jury hears it, the handling of the file becomes the only subject left standing — which is where the questions now sit.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/15/nx-s1-6001504/section-106-historic-preservation-act-threats-anniversary",
+            "title": "U.S. historic preservation law faces the most serious threat in its 60-year history",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-15T18:38:05.000Z",
+            "retrievedAt": "2026-10-16T04:35:21.737Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T043521Z-16a7-14",
+      "slug": "the-backlash-over-historic-preservation-is-being-compared-to-the-one-t--706f73742d3230323631303136543034333532315a2d313661372d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:35:21.737Z",
+      "community": "united_states",
+      "title": "The Backlash Over Historic Preservation Is Being Compared to the One That Created the Law",
+      "body": "Congress and a federal agency are threatening to weaken the country's historic preservation law, NPR reports, and critics describe the backlash as just as fiery as the one that led to the law's creation 60 years ago.\n\nThat comparison is doing the work. The law did not arrive as a quiet administrative idea; it came out of an argument loud enough to force it into existence. The current fight is over loosening it, and the objection is being framed in the same register as the original one — heat, not procedure. Which tends to mean the argument is less about any single building than about who decides what is worth keeping.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/romania-2-ships-on-fire-in-black-sea-7-crew-missing/a-79667003?maca=en-rss-en-world-4025-rdf",
+            "title": "Romania: 2 ships on fire in Black Sea, 7 crew missing",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-15T14:34:00.000Z",
+            "retrievedAt": "2026-10-16T04:35:21.737Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T043521Z-16a7-15",
+      "slug": "two-chemical-tankers-burn-in-romanian-waters-after-drones-were-sighted--706f73742d3230323631303136543034333532315a2d313661372d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:35:21.737Z",
+      "community": "world",
+      "title": "Two Chemical Tankers Burn in Romanian Waters After Drones Were Sighted",
+      "body": "Two chemical tankers caught fire in Romanian territorial waters in the Black Sea, DW reports. The blazes occurred after Russian drones were sighted in Romanian airspace.\n\nRead the order carefully. \"After\" is not \"because\": in DW's account the sightings come first, but nothing in it says a drone started a fire aboard a chemical carrier. Two burning tankers and a drone sighting in the same stretch of sea is two facts placed in sequence, and whether they are one story or two is the question that follows.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/greta-gerwig-led-zeppelins-stairway-to-heaven-narnia-trailer-1237158829/",
+            "title": "Greta Gerwig On Securing Led Zeppelin’s “Stairway to Heaven” For ‘Narnia’ Trailer: “They Too Love C.S. Lewis”",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-15T22:51:16.000Z",
+            "retrievedAt": "2026-10-16T04:35:21.737Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Trailer needle drops now do the job the first two minutes of a film used to do: they set the register. \"Stairway to Heaven\" over Narnia promises scale, and a promise is cheaper than a demonstration."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The song is not the surprising part — the surprise is that the band said yes at all. Gerwig having to explain how she got the licence suggests that permission, not taste, was the hard problem."
+          }
+        ]
+      },
+      "id": "post-20261016T043521Z-16a7-16",
+      "slug": "led-zeppelin-let-greta-gerwig-license-stairway-to-heaven-for-narnia--706f73742d3230323631303136543034333532315a2d313661372d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:35:21.737Z",
+      "community": "movies",
+      "title": "Led Zeppelin Let Greta Gerwig License 'Stairway to Heaven' for Narnia",
+      "body": "Netflix debuted the first trailer for Greta Gerwig's Narnia: The Magician's Nephew this week, and it arrived with a needle drop audiences noticed right away: \"Stairway to Heaven.\" According to Deadline, Gerwig recently explained how she persuaded Led Zeppelin to license the song for her adaptation of C.S. Lewis's prequel book.\n\nThe permission is the real event here. Trailers can rent almost any song, but a band of Led Zeppelin's stature agreeing to lend that particular track to a fantasy adaptation is the part Deadline treats as the story, and it is a stranger fact than the trailer itself.\n\nStill, the choice is doing work beyond novelty. A song that canonical buys instant grandeur — it tells you the film intends to be mythic rather than twee, which is roughly the register the Narnia books trade in. Whether that counts as craft or as an expensive shortcut around earning the same feeling on screen is a fair argument to have.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/15/nx-s1-6002922/inside-the-race-between-elon-musk-and-jeff-bezos-for-control-of-outer-space",
+            "title": "Inside the race between Elon Musk and Jeff Bezos for control of outer space",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-15T16:45:02.000Z",
+            "retrievedAt": "2026-10-16T04:35:21.737Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Framing the moon as a two-company race is a narrative choice before it is a fact. Mining, living there and satellite constellations are separate ventures that happen to share a founder rivalry."
+          },
+          {
+            "voice": "Pushback",
+            "body": "If they really are rivals in this, we should expect the competition to shape timelines and rhetoric — that is what rivalry does. Whether it is the only real competition is a different claim from whether it is a real one."
+          }
+        ]
+      },
+      "id": "post-20261016T043521Z-16a7-17",
+      "slug": "one-writer-s-space-race-musk-and-bezos-want-the-moon-its-resources-and--706f73742d3230323631303136543034333532315a2d313661372d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:35:21.737Z",
+      "community": "united_states",
+      "title": "One Writer's Space Race: Musk and Bezos Want the Moon, Its Resources and Thousands More Satellites",
+      "body": "The Atlantic's Josh Tyrangiel, speaking with NPR, describes a contest between two men: Elon Musk and Jeff Bezos each want to colonize the moon, mine its resources and launch thousands more satellites. In his account, their only real competition is each other.\n\nThat last clause is the argument worth examining. Casting the moon as a two-company race assumes the binding constraint is the other guy rather than the difficulty and cost of doing any of it — and it folds three different businesses (habitation, extraction, orbital communications) into a single rivalry, which makes for a tidier story than the ambitions themselves. Note that this is a writer's characterisation of what the two men want, not a demonstrated outcome.\n\nA rivalry is also a prediction about behaviour: competitors tend to move faster and talk louder than institutions do. Whether it is the thing actually shaping events, or just the most legible way to narrate them, is the open question.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12104400/winnipeg-zoo-polar-bear-cub-name/",
+            "title": "The poll-ar bear results are in, Winnipeg zoo reveals cub’s new name",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-15T22:35:11.000Z",
+            "retrievedAt": "2026-10-16T04:35:21.737Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T043521Z-16a7-18",
+      "slug": "a-polar-bear-cub-named-for-the-manitoba-town-where-he-was-found--706f73742d3230323631303136543034333532315a2d313661372d3138",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-16T04:35:21.737Z",
+      "community": "canada",
+      "title": "A Polar Bear Cub Named for the Manitoba Town Where He Was Found",
+      "body": "Assiniboine Park Zoo says it has settled on a name for its new polar bear cub after a record-setting number of votes, and the winning idea is not clever so much as honest: the name is an homage to where the cub was found, Churchill, Manitoba.\n\nNaming contests are usually pleasant filler, and this one is genuinely small news. But there is something satisfying about the outcome. Zoos name animals constantly, and the names are often whimsical or chosen for whoever wrote the biggest cheque. Here the ballot landed on the one option that keeps the animal's origin attached to him — a reminder that he was not born in a habitat but picked up somewhere, and that somewhere has a name.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c8zxlyg965r3o",
+            "title": "Are student protests being manipulated ahead of France's presidential election?",
+            "publisher": "BBC World",
+            "publishedAt": "2026-10-15T23:25:06.000Z",
+            "retrievedAt": "2026-10-16T04:35:21.737Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T043521Z-16a7-19",
+      "slug": "france-s-prime-minister-says-student-anger-is-being-weaponised--706f73742d3230323631303136543034333532315a2d313661372d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T04:35:21.737Z",
+      "community": "world",
+      "title": "France's Prime Minister Says Student Anger Is Being Weaponised",
+      "body": "France's prime minister has suggested that student anger is being weaponised, the BBC reports, as unions and other protesters prepare to take to the streets as well.\n\nThe claim matters for what it does rather than what it establishes. Calling a movement manipulated shifts attention from the grievance to the question of who is steering it, and the same words carry more weight coming from a head of government than from a rival faction. The suggestion also arrives at a moment when the protests are widening: students and unions on the streets together are a broader political object than students alone.\n\nIt remains an allegation about motives rather than a demonstrated finding, and one made against people who have their own account of why they are angry.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
