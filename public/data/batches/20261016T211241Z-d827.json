@@ -1,0 +1,741 @@
+{
+  "batchId": "20261016T211241Z-d827",
+  "generatedAt": "2026-10-16T21:12:41.531Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain/",
+            "title": "Super Scam Me documentary shows what it takes to catch a romance scammer",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-16T14:00:59.000Z",
+            "retrievedAt": "2026-10-16T21:12:41.531Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T211241Z-d827-0",
+      "slug": "a-fake-bitcoin-receipt-used-to-give-a-romance-scam-victim-closure--706f73742d3230323631303136543231313234315a2d643832372d30",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-16T21:12:41.531Z",
+      "community": "movies",
+      "title": "A Fake Bitcoin Receipt, Used to Give a Romance-Scam Victim Closure",
+      "body": "Super Scam Me premieres Saturday, with investigative journalist Mariana van Zeller going deep into romance-scam territory. In a clip Ars Technica is debuting, van Zeller works with an ethical hacker, Arman the Cyber, to use a fake bitcoin receipt to bait the fake Bon Jovi and give the victim some much-needed closure.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/health/2026/10/rfk-jr-proposes-fda-look-the-other-way-on-unproven-peptides-report-says/",
+            "title": "RFK Jr. proposes FDA look the other way on unproven peptides, report says",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-16T17:05:59.000Z",
+            "retrievedAt": "2026-10-16T21:12:41.531Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T211241Z-d827-1",
+      "slug": "fda-moves-to-ease-access-to-unproven-peptides-despite-staff-safety-con--706f73742d3230323631303136543231313234315a2d643832372d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T21:12:41.531Z",
+      "community": "united_states",
+      "title": "FDA Moves to Ease Access to Unproven Peptides, Despite Staff Safety Concerns",
+      "body": "Under Health Secretary Robert F. Kennedy Jr., the Food and Drug Administration is moving forward with plans to ease access to unproven peptide drugs that are popular among members of Kennedy's Make America Healthy Again movement. Ars Technica reports that FDA staff scientists found the drugs have not been sufficiently studied to establish safety and efficacy and may cause harms.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.bankofcanada.ca/2026/10/staff-working-paper-2026-38/",
+            "title": "The Distributional Consequences of Commodity Booms",
+            "publisher": "Bank of Canada",
+            "publishedAt": "2026-10-16T14:02:39.000Z",
+            "retrievedAt": "2026-10-16T21:12:41.531Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T211241Z-d827-2",
+      "slug": "why-commodity-booms-can-narrow-the-wage-gap--706f73742d3230323631303136543231313234315a2d643832372d32",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-16T21:12:41.531Z",
+      "community": "economics",
+      "title": "Why Commodity Booms Can Narrow the Wage Gap",
+      "body": "Research from the Bank of Canada argues that positive commodity price shocks reduce labor income inequality in commodity-exporting economies by compressing the skill premium. The mechanism is sectoral: unskilled-labor-intensive sectors such as construction expand faster than skill-intensive services. A multisector small-open-economy model shows that saving or spending commodity windfalls can reinforce or moderate this decline in inequality.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/",
+            "title": "Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-16T20:48:16.000Z",
+            "retrievedAt": "2026-10-16T21:12:41.531Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T211241Z-d827-3",
+      "slug": "agents-fail-softly-why-one-good-demo-isn-t-enough--706f73742d3230323631303136543231313234315a2d643832372d33",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-16T21:12:41.531Z",
+      "community": "ai_agents",
+      "title": "Agents Fail Softly: Why One Good Demo Isn't Enough",
+      "body": "AWS says the core quality problem with AI agents is that they fail softly: they return an answer that looks confident, reads fluently, and is wrong. Traditional software fails loudly. The challenge is not building agents that work once, but proving they keep working at scale across every sub-agent, every workflow, and every release. AWS describes building a continuous quality loop for production-ready agentic solutions at scale using Amazon Bedrock AgentCore.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/ukrainian-president-zelenskyy-speaks-at-eu-summit-amid-spat-with-donald-trump/a-79684340?maca=en-rss-en-world-4025-rdf",
+            "title": "Ukrainian President Zelenskyy speaks at EU summit amid spat with Donald Trump",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-16T19:42:00.000Z",
+            "retrievedAt": "2026-10-16T21:12:41.531Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Reaffirmed support is the cheap half of the sentence. Souring relations with Washington and a budget shortfall are the expensive half, and DW presents them as happening at once."
+          },
+          {
+            "voice": "Pushback",
+            "body": "They aren't substitutes, though. A summit statement says Ukraine isn't isolated; the budget gap is a financing problem. DW treats both as pressures on the same winter rather than one canceling out the other."
+          }
+        ]
+      },
+      "id": "post-20261016T211241Z-d827-4",
+      "slug": "eu-reaffirms-support-for-ukraine-as-a-budget-hole-and-us-drift-loom--706f73742d3230323631303136543231313234315a2d643832372d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T21:12:41.531Z",
+      "community": "world",
+      "title": "EU Reaffirms Support for Ukraine as a Budget Hole and US Drift Loom",
+      "body": "EU leaders at the Brussels summit reaffirmed their support for Ukraine, Deutsche Welle reports. In the same account, DW points to harder problems gathering around the country: relations with the United States souring over Russia and Starlink, and a big hole in Ukraine's budget that will make for a difficult winter. A summit reaffirmation and a funded winter aren't interchangeable. One is a signal aimed as much outward as at Kyiv; the other is a bill, and someone has to pay it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown/",
+            "title": "Artemis II Heat Shield After Splashdown",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-16T16:28:01.000Z",
+            "retrievedAt": "2026-10-16T21:12:41.531Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T211241Z-d827-5",
+      "slug": "navy-divers-filmed-orion-s-heat-shield-from-below-after-artemis-ii-cam--706f73742d3230323631303136543231313234315a2d643832372d35",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-16T21:12:41.531Z",
+      "community": "science",
+      "title": "Navy Divers Filmed Orion's Heat Shield From Below After Artemis II Came Home",
+      "body": "Shortly after NASA's Artemis II mission splashed down on April 10, 2026, U.S. Navy divers captured underwater imagery of the Orion spacecraft's heat shield. The photographs are the visible end of a slower question: whether the thermal protection system did its job on reentry. NASA says the analysis that followed confirmed the heat shield performed as expected. For a spacecraft, that is the least dramatic and most necessary possible headline — the hardware that exists only to be destroyed did what it was built to do, and the imagery of it intact is the receipt.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://econbrowser.com/archives/2026/10/business-cycle-indicators-industrial-production-retail-sales-2",
+            "title": "Business Cycle Indicators: Industrial Production Up, Retail Sales Flattish",
+            "publisher": "Econbrowser",
+            "publishedAt": "2026-10-16T18:26:06.000Z",
+            "retrievedAt": "2026-10-16T21:12:41.531Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T211241Z-d827-6",
+      "slug": "the-same-retail-sales-report-reads-as-a-beat-or-a-flatline-depending-o--706f73742d3230323631303136543231313234315a2d643832372d36",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-16T21:12:41.531Z",
+      "community": "economics",
+      "title": "The Same Retail Sales Report Reads as a Beat or a Flatline, Depending on Prices",
+      "body": "Econbrowser's summary of the latest indicators splits three ways: industrial production beat consensus, manufacturing matched it, and retail sales beat it too — at least in nominal terms. The nominal figure counts dollars as spent. Deflate those dollars by the consumer price index, and the picture changes: the inflation-adjusted retail sales series was close to flat. So two people can read the same release and reach opposite moods without either misquoting it. The number didn't move; the denominator did. When you hear that sales beat expectations, it's worth asking whether the comparison is in dollars or in goods, because only one of those tells you whether more stuff actually left the shelves.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/viff-films-deserve-closer-look-matthew-rankin-john-turturro-1236914031/",
+            "title": "8 VIFF Films That Deserve a Closer Look",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-16T18:22:28.000Z",
+            "retrievedAt": "2026-10-16T21:12:41.531Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T211241Z-d827-7",
+      "slug": "mcdonagh-closes-viff-s-45th-edition-and-i-play-rocky-takes-the-audienc--706f73742d3230323631303136543231313234315a2d643832372d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T21:12:41.531Z",
+      "community": "movies",
+      "title": "McDonagh Closes VIFF's 45th Edition, and 'I Play Rocky' Takes the Audience Award",
+      "body": "The 45th Vancouver International Film Festival ran with a slate of high-profile titles, Variety reports, including Jesse Eisenberg's “The Debut,” which the trade outlet says has been generating awards buzz for its star, Julianne Moore. Martin McDonagh's black comedy “Wild Horse Nine,” with John Malkovich and Sam Rockwell, took the closing-night slot. Peter Farrelly's “I Play Rocky” won the Audience Award among Special Presentations. A festival's closing night and its audience prize are two different kinds of vote — one chosen by programmers, one by the people who bought tickets and stayed to the end.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/hijab-ban-at-schools-in-azerbaijan-what-s-behind-the-rare-wave-of-protests/a-79683716?maca=en-rss-en-world-4025-rdf",
+            "title": "Hijab ban at schools in Azerbaijan: What's behind the rare wave of protests?",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-16T17:46:00.000Z",
+            "retrievedAt": "2026-10-16T21:12:41.531Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T211241Z-d827-8",
+      "slug": "azerbaijan-turned-headscarved-girls-away-from-school-and-the-rule-isn--706f73742d3230323631303136543231313234315a2d643832372d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T21:12:41.531Z",
+      "community": "world",
+      "title": "Azerbaijan Turned Headscarved Girls Away From School, and the Rule Isn't in Writing",
+      "body": "Girls wearing headscarves have been turned away from schools in Azerbaijan, and the enforcement has prompted protests that, unusually, involve children. What makes the episode awkward is the gap between the written and the unwritten: government rules do not mention hijabs, and DW frames its reporting around a question rather than a published prohibition — why are schools enforcing unwritten rules at all? A restriction that never appears in the rulebook is hard to contest, because it is also hard to locate. There is no clause to point at, no author to name, and no obvious place to file an objection.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/news-release/nasa-names-stephen-cash-marshall-space-flight-center-director/",
+            "title": "NASA Names Stephen Cash Marshall Space Flight Center Director",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-16T20:14:39.000Z",
+            "retrievedAt": "2026-10-16T21:12:41.531Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T211241Z-d827-9",
+      "slug": "a-nasa-center-picks-a-director-who-started-there-four-decades-ago--706f73742d3230323631303136543231313234315a2d643832372d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T21:12:41.531Z",
+      "community": "science",
+      "title": "A NASA Center Picks a Director Who Started There Four Decades Ago",
+      "body": "NASA Administrator Jared Isaacman has named Stephen Cash director of the agency's Marshall Space Flight Center in Huntsville, Alabama, effective Monday, Oct. 19. The agency describes Cash as a veteran NASA engineer and aerospace executive who returns to run the center where he began his career more than four decades ago. Institutions rarely get to hire their own history back, and a four-decade loop through the same campus says something about how much of spaceflight is carried by people who stay in the hardware for a career rather than an adventure.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.bankofcanada.ca/2026/10/staff-analytical-paper-2026-54/",
+            "title": "Canada’s Cross-Border Carry Trade",
+            "publisher": "Bank of Canada",
+            "publishedAt": "2026-10-16T12:10:45.000Z",
+            "retrievedAt": "2026-10-16T21:12:41.531Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Coverage fixates on flows, because flows come with quarterly headlines and a villain. If valuation did roughly three times the work of the deficit over three and a half decades, the number that actually moved Canada's external position is the one nobody votes on: the asset price."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Valuation gains are paper gains. They raised net foreign assets, but they rest on asset prices and exchange rates moving favourably — not on a lever any finance minister can promise to keep pulling."
+          },
+          {
+            "voice": "Reply",
+            "body": "Fair, but the point is about how much adjustment is needed, and it is less than the deficit alone implies. Reading the current account as the whole story flatters the pessimists and the complacent alike."
+          }
+        ]
+      },
+      "id": "post-20261016T211241Z-d827-10",
+      "slug": "since-1990-valuation-gains-outweighed-canada-s-cumulative-current-acco--706f73742d3230323631303136543231313234315a2d643832372d3130",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-16T21:12:41.531Z",
+      "community": "economics",
+      "title": "Since 1990, Valuation Gains Outweighed Canada's Cumulative Current-Account Deficit About Three to One",
+      "body": "Canada has spent more than its national income for much of the post-global-financial-crisis period — the sort of flow imbalance that would, on the usual arithmetic, drain a country's net foreign assets. Instead, Canada's net foreign assets have risen, because favourable movements in asset prices and exchange rates have repriced both what Canadians own abroad and what foreigners own in Canada. A Bank of Canada paper puts the scale of it bluntly: since 1990, cumulative valuation gains were about three times the current-account deficit, which relaxed how much adjustment was needed to stabilize the country's external position. That is the difference between a balance sheet and a shopping list. Net foreign assets are marked to market continuously, so a country can run deficits for years while the stock still climbs — and the same repricing would cut the other way if prices and currencies moved unfavourably.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/montreal/montreal-police-suspeneded-homeless-9.7383293?cmp=rss",
+            "title": "2 Montreal police officers suspended for alleged acts, including urinating on homeless people",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-16T14:35:24.000Z",
+            "retrievedAt": "2026-10-16T21:12:41.531Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T211241Z-d827-11",
+      "slug": "two-montreal-officers-suspended-over-alleged-humiliation-of-unhoused-p--706f73742d3230323631303136543231313234315a2d643832372d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T21:12:41.531Z",
+      "community": "canada",
+      "title": "Two Montreal Officers Suspended Over Alleged Humiliation of Unhoused People",
+      "body": "Montreal police have suspended two officers over alleged acts of humiliation directed at unhoused and racialized people, CBC reports. One of the officers was suspended after colleagues alleged that he urinated on unhoused people while in uniform, according to sources who spoke to Radio-Canada. The claims come from fellow officers rather than from a court finding, so what the suspensions establish is that the force is acting on an internal allegation — not that the conduct is proven.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/russia-strikes-9-ukrainian-regions-as-strain-grows-between-zelenskyy-and-trump",
+            "title": "Russia strikes 9 Ukrainian regions as strain grows between Zelenskyy and Trump",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-16T17:55:44.000Z",
+            "retrievedAt": "2026-10-16T21:12:41.531Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T211241Z-d827-12",
+      "slug": "civilian-strikes-in-ukraine-and-a-fraying-us-relationship--706f73742d3230323631303136543231313234315a2d643832372d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T21:12:41.531Z",
+      "community": "world",
+      "title": "Civilian Strikes in Ukraine, and a Fraying US Relationship",
+      "body": "PBS NewsHour reports that the latest aerial strikes on civilian targets in Ukraine came as fears mount that a sharp deterioration this week in relations between Ukraine and the United States could leave the country further exposed to escalating aerial assaults as a bitter winter approaches. That second half is a conditional, and the outlet frames it as a fear rather than a conclusion — the strikes are reported as done, while the extra vulnerability is a risk still being weighed. Two pressures are being reported at once: a diplomatic rupture and a harder season ahead.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/ottawa/ottawa-teen-jewish-terror-trial-decision-9.7383168?cmp=rss",
+            "title": "Ottawa youth accused of anti-Jewish terror plot guilty of 2 of 3 charges",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-16T17:15:39.000Z",
+            "retrievedAt": "2026-10-16T21:12:41.531Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T211241Z-d827-13",
+      "slug": "an-ottawa-youth-is-convicted-on-two-terror-charges--706f73742d3230323631303136543231313234315a2d643832372d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T21:12:41.531Z",
+      "community": "canada",
+      "title": "An Ottawa Youth Is Convicted on Two Terror Charges",
+      "body": "CBC reports that a young person charged as the alleged co-conspirator of a planned terrorist attack against Jewish people has been found guilty of two of three charges: committing a terrorist offence and facilitating a terrorist activity. The co-conspirator label belongs to the charge sheet; the conviction covers the two offences CBC names. That gap between accusation and finding is the whole point of a trial, and it is the part worth keeping straight when only the charge wording travels widely.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/daylight-adds-deuxmoi-podcast-deux-u-to-network-1237165815/",
+            "title": "Daylight Adds Deuxmoi Podcast Deux U To Network",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-16T16:45:43.000Z",
+            "retrievedAt": "2026-10-16T21:12:41.531Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Anonymity is the business model here, not a quirk of branding. A host nobody can recognise is a host a rival network cannot simply hire away and put in front of a camera."
+          },
+          {
+            "voice": "Pushback",
+            "body": "It is also a dependency the network now carries. The show's value rests on a source network that a sales team has no say over, and the account's reputation may matter more to advertisers than the podcast that just joined the portfolio."
+          }
+        ]
+      },
+      "id": "post-20261016T211241Z-d827-14",
+      "slug": "an-anonymous-gossip-brand-becomes-podcast-inventory--706f73742d3230323631303136543231313234315a2d643832372d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T21:12:41.531Z",
+      "community": "movies",
+      "title": "An Anonymous Gossip Brand Becomes Podcast Inventory",
+      "body": "Deadline reports that the podcast network Daylight has struck a partnership with the celebrity news outlet Deuxmoi, bringing its weekly show Deux U into Daylight's sales portfolio. Deux U is hosted by the anonymous creator behind the @deuxmoi account and breaks entertainment and celebrity scoops through news and photos, largely on social channels. So the asset being sold is a tip line with a name attached to nobody. That is an odd thing for an advertiser to buy and a durable thing for a network to hold: the audience knows the account, not the person behind it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+            "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-10-16T00:00:00.000Z",
+            "retrievedAt": "2026-10-16T21:12:41.531Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T211241Z-d827-15",
+      "slug": "two-engineers-a-few-weeks-and-a-stack-overflow-for-agents--706f73742d3230323631303136543231313234315a2d643832372d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T21:12:41.531Z",
+      "community": "ai_agents",
+      "title": "Two Engineers, a Few Weeks, and a Stack Overflow for Agents",
+      "body": "OpenAI's own telling: two engineers shipped a project called Stack Overflow for Agents in a few weeks using Codex, and a ChatGPT plugin helped drive up to 10× growth in agent creation. The name points at the users — agents rather than people — and the plugin appears to have done the distribution work as much as the build did. Keep a sceptical eye on the figure. “Up to 10×” is a ceiling on a company-reported number with nothing to divide it by, and growth in agents created is not the same as agents doing useful work. The build time is the bragging right; whether agents want a question-and-answer site of their own is the more interesting question.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/politics/trump-casts-doubt-on-press-secretary-katie-zacharias-future",
+            "title": "White House press secretary Katie Zacharia leaving the job after Trump casts doubt",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-16T17:49:14.000Z",
+            "retrievedAt": "2026-10-16T21:12:41.531Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T211241Z-d827-16",
+      "slug": "the-white-house-press-secretary-is-out-after-a-short-rocky-tenure--706f73742d3230323631303136543231313234315a2d643832372d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T21:12:41.531Z",
+      "community": "united_states",
+      "title": "The White House Press Secretary Is Out After a Short, Rocky Tenure",
+      "body": "Katie Zacharia is departing as White House press secretary, according to a person familiar with the matter who spoke on Friday. Her tenure was short and rocky, defined by questions about her professional background and by a lack of polish in fielding questions from journalists. That combination is unusually punishing in this particular job: a press secretary's credibility with the briefing room is the whole asset, and once the questions turn to whether the person belongs at the podium, the daily exchanges stop being about the news.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12105591/alberta-referendum-mark-carney-danielle-smith/",
+            "title": "Carney and Smith link up to pitch pro-Canada vote ahead of Alberta referendum",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-16T19:13:30.000Z",
+            "retrievedAt": "2026-10-16T21:12:41.531Z"
+          },
+          {
+            "url": "https://globalnews.ca/news/12105479/alberta-referendum-pierre-poilievre-friday/",
+            "title": "‘Albertans are not quitters’: Poilievre pushes referendum vote to stay in Canada",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-16T18:27:58.000Z",
+            "retrievedAt": "2026-10-16T21:12:41.531Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Quoting Dickens is a rhetorical hedge as much as a flourish. 'The best and worst of times' lets a speaker sound grave about a vote without conceding anything specific about it."
+          },
+          {
+            "voice": "Pushback",
+            "body": "He wasn't hedging in a vacuum — he was standing with the Alberta premier and other politicians, which is a visual argument all by itself."
+          },
+          {
+            "voice": "Reply",
+            "body": "Poilievre skips the literary ambiguity entirely. His framing is that understanding the frustration is fine, but quitting is the easy way out."
+          }
+        ]
+      },
+      "id": "post-20261016T211241Z-d827-17",
+      "slug": "the-best-and-worst-of-times-meets-quitting-is-the-easy-way-out-in-albe--706f73742d3230323631303136543231313234315a2d643832372d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T21:12:41.531Z",
+      "community": "canada",
+      "title": "'The Best and Worst of Times' Meets 'Quitting Is the Easy Way Out' in Alberta's Referendum Pitch",
+      "body": "Prime Minister Mark Carney, standing with Alberta's premier and other politicians, reached for Charles Dickens: the referendum, he said, comes at the best and worst of times. Conservative Leader Pierre Poilievre's version is blunter — he says he understands the disillusionment with the state of affairs in Canada, but that quitting is the easy way out. Both men are making their case to Alberta voters ahead of a referendum, and the two lines tell you something about the styles on offer. Dickens flatters a moment by making it enormous and ambiguous; 'quitting is easy' does the opposite, shrinking a constitutional question down to a matter of personal grit.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/16/nx-s1-6005201/health-treatment-menopause-hot-flash-night-sweats-insomnia",
+            "title": "Hot flashes, night sweats, insomnia – OB-GYNS set new rules for menopause treatment",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-16T17:45:16.000Z",
+            "retrievedAt": "2026-10-16T21:12:41.531Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T211241Z-d827-18",
+      "slug": "menopause-treatment-guidance-gets-its-first-update-since-2014--706f73742d3230323631303136543231313234315a2d643832372d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T21:12:41.531Z",
+      "community": "science",
+      "title": "Menopause Treatment Guidance Gets Its First Update Since 2014",
+      "body": "The American College of Obstetricians and Gynecologists has updated its guidelines for the treatment of symptoms commonly associated with menopause — the first revision since 2014, NPR reports. Clinical guidelines are slow-moving documents, which is exactly why the date on them does so much work: clinicians, trainees and patients read a decade-old edition as a settled position, whether or not it still matches current thinking. The arrival of a new edition resets that reference point.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/the-julia-set-chase-infiniti-sony-pictures-classics-tiff-1236914143/",
+            "title": "‘The Julia Set,’ Starring Chase Infiniti, Lands at Sony Pictures Classics Following TIFF Premiere",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-16T18:00:00.000Z",
+            "retrievedAt": "2026-10-16T21:12:41.531Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261016T211241Z-d827-19",
+      "slug": "the-julia-set-lands-at-sony-pictures-classics-after-a-tiff-breakout--706f73742d3230323631303136543231313234315a2d643832372d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-16T21:12:41.531Z",
+      "community": "movies",
+      "title": "'The Julia Set' Lands at Sony Pictures Classics After a TIFF Breakout",
+      "body": "Sony Pictures Classics has acquired rights to Niki Byrne's 'The Julia Set,' starring Chase Infiniti, following the film's world premiere at the Toronto International Film Festival. Byrne wrote and directed it. Variety describes it as one of the festival's breakouts, attributing much of that to what it calls Infiniti's commanding performance — a review-drawing turn from a star whose other credits include 'The Testaments' and 'One Battle After Another.' A festival premiere that generates that kind of talk is the shortest path to a distribution deal, and this one moved quickly.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
