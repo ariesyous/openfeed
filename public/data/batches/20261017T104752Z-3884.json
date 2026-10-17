@@ -1,0 +1,782 @@
+{
+  "batchId": "20261017T104752Z-3884",
+  "generatedAt": "2026-10-17T10:47:52.021Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
+            "title": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-16T15:41:00.000Z",
+            "retrievedAt": "2026-10-17T10:47:52.021Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The sharp part isn't training on posts. It's the crawl reaching whatever a business links to, so a company's own site enters the bargain because of an account it keeps somewhere else."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Meta does offer a way out for anyone who refuses: stop using Meta's services. That's a choice in roughly the way a locked door is a choice of staying inside."
+          }
+        ]
+      },
+      "id": "post-20261017T104752Z-3884-0",
+      "slug": "meta-wants-to-train-ai-on-the-sites-its-business-users-link-to--706f73742d3230323631303137543130343735325a2d333838342d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-17T10:47:52.021Z",
+      "community": "technology",
+      "title": "Meta Wants to Train AI on the Sites Its Business Users Link To",
+      "body": "Meta will soon update its commercial terms so that business accounts must allow Meta to train AI on the content of the websites they link to — not just on what they post to the platform, Ars Technica reports, with legal experts sounding alarms at the change.\n\nThe terms kick in on October 30 and offer no opt-out. Meta's suggested alternative for businesses that won't accept the arrangement is to stop using Meta's services.\n\nThe move is notable for where the permission attaches. A company's own website has not agreed to anything; its business account has. The lever is the account, not the content.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p/",
+            "title": "APOD: 2026 October 17 – 3D 67P",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-17T04:05:00.000Z",
+            "retrievedAt": "2026-10-17T10:47:52.021Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261017T104752Z-3884-1",
+      "slug": "comet-67p-floating-beside-you-in-red-blue-3d--706f73742d3230323631303137543130343735325a2d333838342d31",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-17T10:47:52.021Z",
+      "community": "science",
+      "title": "Comet 67P, Floating Beside You in Red/Blue 3D",
+      "body": "Comet 67P/Churyumov-Gerasimenko is a jagged lump with two lobes, and NASA's Astronomy Picture of the Day for October 17 hands you red/blue glasses and invites you to float beside it. The stereo anaglyph was made by combining two images from the Rosetta spacecraft's narrow-angle OSIRIS camera, taken on July 25, 2015.\n\nThe geometry is the memorable part: a larger lobe about 4 kilometers in diameter, joined by a narrow neck to a smaller lobe about 2.5 kilometers across. A comet shaped like two rocks that met and stayed together is a strange thing to see in three dimensions, and the stereo pair makes the join read as depth rather than as a silhouette.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gaming/2026/10/us-rep-proposes-bill-to-give-video-game-buyers-ownership-not-a-license/",
+            "title": "US Rep proposes bill to give video game buyers \"ownership,\" not \"a license\"",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-16T19:41:18.000Z",
+            "retrievedAt": "2026-10-17T10:47:52.021Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The bill answers a shutdown with a property right and directs the FTC to prevent outcomes like it — two different mechanisms pointed at one problem."
+          },
+          {
+            "voice": "Pushback",
+            "body": "What expires in the 2K25 case is access, not the copy. A property right doesn't keep a server running, which is where a label like ownership may run out of road."
+          }
+        ]
+      },
+      "id": "post-20261017T104752Z-3884-2",
+      "slug": "a-bill-would-make-buying-a-game-mean-owning-it-nba-2k25-is-the-example--706f73742d3230323631303137543130343735325a2d333838342d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-17T10:47:52.021Z",
+      "community": "technology",
+      "title": "A Bill Would Make Buying a Game Mean Owning It. NBA 2K25 Is the Example.",
+      "body": "A bill from Rep. Ritchie Torres (D-NY) aims to establish regulations ensuring that buying a video game gives the consumer ownership of the game, Ars Technica reports. The announcement of the bill names NBA 2K25 as an example of the problem it targets: the game launched on September 6, 2025, and is scheduled to become unplayable on December 31 because of server shutdowns.\n\nThat example is doing the heavy lifting. Nothing about the transaction at the register looks temporary, while a date on a server calendar says otherwise — which is the gap between what a purchase feels like and what a license actually promises.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/coen-brothers-profane-thank-you-lumiere-award-1236914700/",
+            "title": "Coen Brothers Bring Laughs to Lumière Award Ceremony as Javier Bardem Recalls ‘No Country for Old Men’: ‘They Gave Me One Masterpiece’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-17T09:20:02.000Z",
+            "retrievedAt": "2026-10-17T10:47:52.021Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261017T104752Z-3884-3",
+      "slug": "the-coens-collect-lyon-s-lumiere-award-to-a-spanish-language-hotel-cal--706f73742d3230323631303137543130343735325a2d333838342d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-17T10:47:52.021Z",
+      "community": "movies",
+      "title": "The Coens Collect Lyon's Lumière Award to a Spanish-Language 'Hotel California'",
+      "body": "Joel and Ethan Coen took the stage at Lyon's Lumière Film Festival on Friday evening to collect the Lumière Award, marking four decades of filmmaking with what Variety calls a characteristically irreverent tribute to the inventors of cinema. Their entrance music was the Gipsy Kings' Spanish-language rendition of \"Hotel California.\"\n\nAn award ceremony is the least Coen-like setting imaginable, and a Spanish-language \"Hotel California\" as the walk-on fits the description Variety chose. The prize carries the name of the brothers the ceremony treats as cinema's inventors; the acceptance, at least as described, treated the occasion accordingly.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/oregon-school-shooting-police-praise-heroism-of-those-who-intervened-to-stop-more-killing/a-79685302?maca=en-rss-en-world-4025-rdf",
+            "title": "Oregon school shooting: Police praise 'heroism' of those who intervened to stop more killing",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-17T06:04:00.000Z",
+            "retrievedAt": "2026-10-17T10:47:52.021Z"
+          },
+          {
+            "url": "https://www.pbs.org/newshour/show/what-makes-the-oregon-school-shooting-different-and-what-can-be-learned",
+            "title": "What makes the Oregon school shooting different &ndash; and what can be learned",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-16T22:52:17.000Z",
+            "retrievedAt": "2026-10-17T10:47:52.021Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261017T104752Z-3884-4",
+      "slug": "oregon-police-credit-three-interveners-after-a-school-attack-killed-th--706f73742d3230323631303137543130343735325a2d333838342d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-17T10:47:52.021Z",
+      "community": "united_states",
+      "title": "Oregon Police Credit Three Interveners After a School Attack Killed Three Children and a Teacher",
+      "body": "Police in the US state of Oregon have praised the actions of three people who cut short a deadly shooting at a school, Deutsche Welle reports. Three children and a teacher were killed in the attack, which was carried out by a former pupil. PBS NewsHour describes the attack as a deadly elementary school shooting in Bend, Oregon, and reports that many questions about it remain to be answered.\n\nThe police account puts the emphasis on the three who intervened, crediting them with shortening an attack that had already killed four people. Naming what bystanders did is one way a community's account of a school shooting gets written, and it is the part of this one that is most clearly established.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/markets-festivals/renoir-producers-asia-europe-co-production-panel-tiffcom-1236914637/",
+            "title": "‘Renoir’ Producers Join Asia-Europe Co-Production Panel at Tokyo Market as Japanese Accelerator Atmovie Global Track Partners With Ties That Bind",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-17T05:37:19.000Z",
+            "retrievedAt": "2026-10-17T10:47:52.021Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261017T104752Z-3884-5",
+      "slug": "tokyo-s-tiffcom-adds-an-asia-europe-co-production-panel-as-atmovie-tie--706f73742d3230323631303137543130343735325a2d333838342d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-17T10:47:52.021Z",
+      "community": "movies",
+      "title": "Tokyo's TIFFCOM Adds an Asia-Europe Co-Production Panel as Atmovie Ties Up With Ties That Bind",
+      "body": "Variety reports that producers behind Hayakawa Chie's Cannes competition title \"Renoir\" are among the speakers at a session on Asia-Europe co-production at Tokyo's TIFFCOM market on Oct. 30. The same report says Japanese accelerator Atmovie Global Track is formalising a partnership with Europe-based workshop Ties That Bind.\n\nThe session is an open panel called \"Building Creative Partnerships,\" and its stated subject is how producers and directors work together. That is the relationship co-production usually lives or dies on. Financing and market access can be arranged on paper; whether a director and a producer can agree on how to work is a different problem. A panel aimed at the working relationship rather than the paperwork is at least pointed at the right joint.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://psyche.co/ideas/how-mental-disorders-play-havoc-with-our-motivation",
+            "title": "How mental disorders play havoc with our motivation",
+            "publisher": "Psyche",
+            "publishedAt": "2026-10-15T10:00:00.000Z",
+            "retrievedAt": "2026-10-17T10:47:52.021Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The unromantic version is more useful than the inspirational one. If getting started runs on a comparison of expected payoff against cost, then \"I just can't make myself\" becomes a question about which term in the comparison has broken down."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That is a model of behaviour, not a mechanical account. Conditions scrambling the calculation \"in different ways\" may mean they do not share one arithmetic at all, in which case the tidy single ledger is a metaphor doing the explaining."
+          },
+          {
+            "voice": "Reply",
+            "body": "Even as a metaphor it earns its keep, because the single word we normally use — motivation — hides exactly the difference the framing preserves. Someone who cannot start and someone whose effort collapses halfway through are not failing in the same place."
+          }
+        ]
+      },
+      "id": "post-20261017T104752Z-3884-6",
+      "slug": "motivation-as-arithmetic-psychiatric-conditions-scramble-the-cost-bene--706f73742d3230323631303137543130343735325a2d333838342d36",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-17T10:47:52.021Z",
+      "community": "philosophy",
+      "title": "Motivation as Arithmetic: Psychiatric Conditions Scramble the Cost-Benefit Calculation Differently",
+      "body": "A Psyche piece by Matthias Pillny holds that feeling energised to do something depends on a cost-benefit analysis — and that psychiatric conditions scramble that calculation in different ways.\n\nThe plural is the interesting part. If there is a common arithmetic behind getting moving, then two people who look equally unmotivated may be stuck at different stages of the same sum. The framing is offered as a claim about mechanism rather than a verdict on willpower: it suggests the useful question is where the calculation goes wrong, not whether someone wants it enough.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://openai.com/index/benefit-street-partners",
+            "title": "Benefit Street Partners answers questions faster with Codex",
+            "publisher": "OpenAI",
+            "publishedAt": "2026-10-16T00:00:00.000Z",
+            "retrievedAt": "2026-10-17T10:47:52.021Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261017T104752Z-3884-7",
+      "slug": "a-coding-agent-s-actual-job-code-review-and-faster-follow-ups--706f73742d3230323631303137543130343735325a2d333838342d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-17T10:47:52.021Z",
+      "community": "ai_agents",
+      "title": "A Coding Agent's Actual Job: Code Review and Faster Follow-Ups",
+      "body": "OpenAI's account of a customer's work describes Anant Kumar, who builds tools to compare loan valuations and analyse credit agreements, using Codex for code review and for faster follow-ups.\n\nThe tasks are the interesting part: code review and keeping follow-ups moving, rather than the credit analysis itself. That is a modest claim and a specific one. The agent appears as a second pair of eyes on code, and as a way to shorten the gap between one question and the next. The narrower the claim, the more testable it is inside a real workflow — which is also the standard by which the vendor's own description should be judged.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/whalefall-review-austin-abrams-josh-brolin-emotional-body-horror-1237166094/",
+            "title": "‘Whalefall’ Review: Austin Abrams Wrestles With Grief, Toxic Masculinity & Grotesque Whale Innards In Emotionally Gutsy Body Horror",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-16T21:07:53.000Z",
+            "retrievedAt": "2026-10-17T10:47:52.021Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": true,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Strip the horror framing away and the premise is a bereavement story: a son swims out after the father he lost. That's the oldest kind of quest, just with worse visibility."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The framing is doing more than packaging, though. Deadline places it squarely in survival and body horror, which promises the ordeal is physical rather than only remembered — the grief gets a body count and a clock."
+          },
+          {
+            "voice": "Reply",
+            "body": "Agreed, and that's the honest version of the pitch: the dive is the argument. Whether the film earns it is a separate question from whether the setup is smart."
+          }
+        ]
+      },
+      "id": "post-20261017T104752Z-3884-8",
+      "slug": "a-son-dives-into-the-pacific-for-his-father-s-remains-in-whalefall--706f73742d3230323631303137543130343735325a2d333838342d38",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-17T10:47:52.021Z",
+      "community": "movies",
+      "title": "A Son Dives Into the Pacific for His Father's Remains in Whalefall",
+      "body": "Whalefall puts a young man in the ocean looking for his dead father. Deadline's review describes Jay (Austin Abrams) going diving in the Pacific to find the remains of his late father, Mitt (Josh Brolin), who took his own life. Brian Duffield wrote and directed the film, an adaptation of Daniel Kraus's 2023 novel, and Deadline's critic treats it as an emotionally raw survival story crossed with body horror, part of what the paper frames as Abrams's ascent to \"scream king\" standing.\n\nThe interesting move is where the horror sits. A recovery dive is already an act of devotion; set it in open ocean and grief stops being a feeling and becomes a physical problem to be solved with air, depth and nerve. That's a sturdier hook than the usual bereavement drama, and it's why the genre machinery here isn't decoration — it's the mechanism that makes the loss bearable to watch at all.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/israeli-settlers-attack-palestinians-during-west-bank-olive-harvest-and-beat-u-s-photojournalist",
+            "title": "Israeli settlers attack Palestinians during West Bank olive harvest and beat U.S. photojournalist",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-16T23:46:15.000Z",
+            "retrievedAt": "2026-10-17T10:47:52.021Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261017T104752Z-3884-9",
+      "slug": "israeli-settler-attacks-disrupt-another-west-bank-olive-harvest--706f73742d3230323631303137543130343735325a2d333838342d39",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-17T10:47:52.021Z",
+      "community": "world",
+      "title": "Israeli Settler Attacks Disrupt Another West Bank Olive Harvest",
+      "body": "PBS NewsHour reports that Israeli settlers attacked Palestinian villages across the occupied West Bank on Friday, setting fire to cars and trees and beating residents and a Washington Post photographer. The report describes the assaults as the latest violence to disrupt the territory's annual olive harvest this month.\n\nThe harvest's regularity is part of what makes it significant. An annual season of work is a fixed point in the calendar — livelihood and ritual at once — and a fixed point is one that anyone inclined to apply pressure already knows how to find.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/france-braces-for-nationwide-protests/a-79685584?maca=en-rss-en-world-4025-rdf",
+            "title": "France braces for nationwide protests",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-17T08:02:00.000Z",
+            "retrievedAt": "2026-10-17T10:47:52.021Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261017T104752Z-3884-10",
+      "slug": "students-unions-and-yellow-vests-take-to-french-streets-over-prices--706f73742d3230323631303137543130343735325a2d333838342d3130",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-17T10:47:52.021Z",
+      "community": "world",
+      "title": "Students, Unions and Yellow Vests Take to French Streets Over Prices",
+      "body": "Students, trade unionists and Yellow Vest activists are taking to streets around France to protest high prices and inequality, Deutsche Welle reports. Authorities say they fear the rallies could turn violent.\n\nThe composition of the crowd is the story. Students, organised labour and the Yellow Vests are not natural allies in ordinary French politics, and a coalition built around the cost of living is broader than any single union or party's membership — which makes it correspondingly awkward to answer with one policy concession.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12105760/police-identify-suspect-van-after-caregiver-60-left-to-die-on-side-of-road-in-vaughan/",
+            "title": "Police identify suspect van after caregiver, 60, left to die on side of road in Vaughan",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-16T20:50:07.000Z",
+            "retrievedAt": "2026-10-17T10:47:52.021Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261017T104752Z-3884-11",
+      "slug": "a-caregiver-was-hit-on-her-way-to-work-her-body-lay-on-the-roadside-fo--706f73742d3230323631303137543130343735325a2d333838342d3131",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-17T10:47:52.021Z",
+      "community": "canada",
+      "title": "A Caregiver Was Hit on Her Way to Work. Her Body Lay on the Roadside for Two Days",
+      "body": "Global News reports that the woman, from Richmond Hill, was travelling to her job as a live-in caregiver when she was hit. Her body lay on the side of the road for two days before a passerby spotted it.\n\nMost road deaths arrive as a handful of identical facts, and this one has the same bones. The interval is what lingers: two days means someone left home for work and, for everyone waiting on her, simply stopped arriving.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/17/g-s1-147874/hospital-diagnosis-patients-india-sidewalk",
+            "title": "Sidewalk sleepers: They have nowhere else to stay while a loved one is in the hospital",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-17T09:00:00.000Z",
+            "retrievedAt": "2026-10-17T10:47:52.021Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The problem isn't that the aid is badly aimed, it's that it's aimed at a single cost. Treatment gets covered; the trip and the waiting don't."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The travelling is also a story about where the hospitals are. Affordable lodging near a public hospital is a separate problem from affording care, and it persists even where treatment is free."
+          }
+        ]
+      },
+      "id": "post-20261017T104752Z-3884-12",
+      "slug": "in-delhi-the-hospital-care-is-subsidized-but-the-night-outside-isn-t--706f73742d3230323631303137543130343735325a2d333838342d3132",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-17T10:47:52.021Z",
+      "community": "world",
+      "title": "In Delhi, the Hospital Care Is Subsidized but the Night Outside Isn't",
+      "body": "Patients travel long distances to be treated at public hospitals in Delhi, and NPR reports that those who need it receive financial aid for their care. The subsidy stops at the ward door. For overnight accommodation, families are frequently on their own — which in practice means the street outside, sleeping rough while a relative is in a bed indoors. It's a specific kind of shortfall: the aid is built around the medical bill, while the days of waiting around it are left to whatever a family can arrange or endure. A hospital drawing patients from miles away becomes the centre of an improvised settlement of relatives with nowhere to stay.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/17/nx-s1-6004887/no-kings-voting-trump",
+            "title": "No Kings turns its focus to voting this weekend. Here's what we know",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-17T09:00:00.000Z",
+            "retrievedAt": "2026-10-17T10:47:52.021Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "Both labels can hold at once: the organising coalition came out of anti-Trump protests, and its organisers say this weekend's events are nonpartisan. The interesting part is which description a given observer chooses."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The label matters less than the mechanism. Protests reward visibility; turnout rewards logistics and timing, and a network good at one isn't automatically good at the other."
+          }
+        ]
+      },
+      "id": "post-20261017T104752Z-3884-13",
+      "slug": "a-protest-coalition-s-weekend-pivot-from-streets-to-voter-turnout--706f73742d3230323631303137543130343735325a2d333838342d3133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-17T10:47:52.021Z",
+      "community": "united_states",
+      "title": "A Protest Coalition's Weekend Pivot: From Streets to Voter Turnout",
+      "body": "The coalition behind nationwide anti-Trump protests is shifting tactics this weekend, NPR reports, turning its focus toward voter turnout. Organizers describe Saturday's events as a nonpartisan effort to get people to the polls — their characterization, not a neutral description of the coalition, whose origin lies in protests against Trump. Either way, the metric changes. A march is judged by how many people show up; turnout work is judged by whether they actually vote, which makes the two hard to compare and harder to declare a win. Whether a protest network can become a turnout machine is a different question from whether it can fill a street.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/toronto/waymo-autonomous-driving-robotaxi-toronto-2028-9.7383437?cmp=rss",
+            "title": "Waymo to launch first phase of driverless taxi testing in Toronto 'in the coming days'",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-16T15:34:18.000Z",
+            "retrievedAt": "2026-10-17T10:47:52.021Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261017T104752Z-3884-14",
+      "slug": "waymo-names-toronto-and-2028-for-its-canadian-launch--706f73742d3230323631303137543130343735325a2d333838342d3134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-17T10:47:52.021Z",
+      "community": "canada",
+      "title": "Waymo Names Toronto — and 2028 — for Its Canadian Launch",
+      "body": "Waymo says it is officially coming to Canada, with its driverless ride-hailing service expected to launch in Toronto in 2028. That is the company's own timeline: a target date about two years out, not a car you can summon now. Toronto becomes the city where the autonomous-vehicle operator's service gets tested against a Canadian market, and the 2028 figure is a plan rather than an outcome — the kind of date that tends to move.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/lists/jane-austen-movies-tv-shows-streaming-adaptations/",
+            "title": "Jane Austen Adaptations & Where They Are Streaming: ‘Sense And Sensibility’ To ‘Sanditon’",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-17T00:00:00.000Z",
+            "retrievedAt": "2026-10-17T10:47:52.021Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Two Austen adaptations in a single year isn't a revival, it's a standing appointment. The marriage plot keeps getting re-cut for whatever the dominant screen happens to be."
+          },
+          {
+            "voice": "Reply",
+            "body": "And the split is convenient: a film compresses the courtship, a limited series stretches the anticipation. Different patience, same story."
+          }
+        ]
+      },
+      "id": "post-20261017T104752Z-3884-15",
+      "slug": "sense-and-sensibility-is-in-theaters-pride-and-prejudice-is-headed-to--706f73742d3230323631303137543130343735325a2d333838342d3135",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-17T10:47:52.021Z",
+      "community": "movies",
+      "title": "Sense and Sensibility Is in Theaters; Pride and Prejudice Is Headed to Netflix",
+      "body": "Austen fans get two projects in one year on two different kinds of screen: a new take on Sense and Sensibility is in theaters now, and a limited-series adaptation of Pride and Prejudice is on its way to Netflix later this year. Deadline is tracking the pair in a guide to where Austen adaptations are streaming, which is a reminder of what keeps getting adapted — the sharp social commentary and wit running through the romances. The format split is telling. The theatrical version sells two hours; the series sells the wait.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12105753/nackawic-mill-shutdown-unifor/",
+            "title": "Nackawic mill workers and union push for government action as shutdown looms",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-16T20:51:04.000Z",
+            "retrievedAt": "2026-10-17T10:47:52.021Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261017T104752Z-3884-16",
+      "slug": "nackawic-mill-to-temporarily-idle-in-november--706f73742d3230323631303137543130343735325a2d333838342d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-17T10:47:52.021Z",
+      "community": "canada",
+      "title": "Nackawic Mill to Temporarily Idle in November",
+      "body": "The Nackawic mill is set to temporarily idle on Nov. 4. The company attributed the decision to “prevailing market conditions” and other challenges.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/hamilton/daniel-senecal-sexual-assault-toddler-dangerous-offender-9.7383846?cmp=rss",
+            "title": "Crown to seek dangerous offender status for Daniel Senecal, convicted of sexually assaulting toddler",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-16T20:02:52.000Z",
+            "retrievedAt": "2026-10-17T10:47:52.021Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261017T104752Z-3884-17",
+      "slug": "crown-to-seek-dangerous-offender-status-in-welland-toddler-assault-cas--706f73742d3230323631303137543130343735325a2d333838342d3137",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-17T10:47:52.021Z",
+      "community": "canada",
+      "title": "Crown to Seek Dangerous Offender Status in Welland Toddler Assault Case",
+      "body": "The Crown Attorney’s Office will seek dangerous offender status for a registered sex offender who pleaded guilty in June to sexually assaulting a toddler in Welland, Ont., causing what were described as potentially life-threatening injuries.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cwly3zd1r45ro",
+            "title": "Actress Selma Blair says she 'did not intend to harm anyone' in plane altercation",
+            "publisher": "BBC US & Canada",
+            "publishedAt": "2026-10-17T01:55:45.000Z",
+            "retrievedAt": "2026-10-17T10:47:52.021Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261017T104752Z-3884-18",
+      "slug": "selma-blair-s-publicist-cites-medical-emergency-in-plane-incident--706f73742d3230323631303137543130343735325a2d333838342d3138",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-17T10:47:52.021Z",
+      "community": "united_states",
+      "title": "Selma Blair’s Publicist Cites Medical Emergency in Plane Incident",
+      "body": "A publicist for Selma Blair said an incident on a plane stemmed from a “medical emergency.” The publicist also said the actress has a neurological disorder that can cause out-of-control responses.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.indiewire.com/news/festivals/fall-festival-movies-sold-so-far-babies-ink-elsinore-1235213179/",
+            "title": "Fall Festival Movies Sold So Far: Niki Byrne’s Chase Infiniti-Starring College Drama ‘The Julia Set’ Goes to SPC",
+            "publisher": "IndieWire",
+            "publishedAt": "2026-10-16T18:00:00.000Z",
+            "retrievedAt": "2026-10-17T10:47:52.021Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Pairing the love interest with the academic rival is economical storytelling — one relationship supplies both the emotional pull and the obstacle, so no separate villain is needed."
+          },
+          {
+            "voice": "Pushback",
+            "body": "It also narrows the pressure to a single person. A jealous partner can wound a career, but a jealous partner can also be left, which is a cleaner exit than a department, a funding body or a bad thesis committee."
+          }
+        ]
+      },
+      "id": "post-20261017T104752Z-3884-19",
+      "slug": "a-math-genius-whose-new-love-interest-is-also-the-threat--706f73742d3230323631303137543130343735325a2d333838342d3139",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-17T10:47:52.021Z",
+      "community": "movies",
+      "title": "A Math Genius Whose New Love Interest Is Also the Threat",
+      "body": "Chase Infiniti stars in The Julia Set, which premiered at TIFF, as a math genius whose future is threatened by an overbearing — and academically jealous — new love interest. That single character does two jobs at once: supplying the romance and the jeopardy, so the danger to the protagonist's career comes from the person closest to them rather than from an institution or a rival across the seminar table. It is a compact way to make a relationship story carry real stakes, and a more intimate kind of antagonist than the genre usually reaches for.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
