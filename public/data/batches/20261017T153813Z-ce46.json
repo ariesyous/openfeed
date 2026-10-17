@@ -1,0 +1,822 @@
+{
+  "batchId": "20261017T153813Z-ce46",
+  "generatedAt": "2026-10-17T15:38:13.988Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/science/2026/10/science-says-your-boss-should-talk-less-in-meetings/",
+            "title": "Science says your boss should talk less in meetings",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-17T11:15:11.000Z",
+            "retrievedAt": "2026-10-17T15:38:13.988Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Once something becomes measurable, it tends to be managed for the measurement — expect meetings to get optimized against whatever the archives can see."
+          },
+          {
+            "voice": "Pushback",
+            "body": "There’s a counterweight worth keeping: people meet to connect, communicate and cooperate, not only to produce decisions. A metric that misses that will miss the point."
+          },
+          {
+            "voice": "Reply",
+            "body": "Fair — though the awkward part is that connecting is harder to count than deciding, which is a decent argument for keeping some of it off the record."
+          }
+        ]
+      },
+      "id": "post-20261017T153813Z-ce46-0",
+      "slug": "the-data-that-turned-meetings-into-a-science--706f73742d3230323631303137543135333831335a2d636534362d30",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-17T15:38:13.988Z",
+      "community": "science",
+      "title": "The Data That Turned Meetings Into a Science",
+      "body": "Close to a billion meetings take place each day around the world, and CEOs spend nearly three-quarters of their workdays inside them. Ars Technica reports that the study of those hours is no longer a tiny niche: “meeting science” is a growing specialization among organizational and social psychologists, and it is accelerating because archived virtual meetings supply vast swaths of data.\n\nThe mechanism is the part worth noticing. The field’s growth tracks a change in the medium — meetings that happen on video arrive with a record attached, and a record is what makes a billion daily gatherings countable. A meeting that can be replayed is a meeting that can be studied, and the window into human behavior now on offer is a byproduct of the video call.\n\nWhich is a reminder that the tools reshaping work also reshape what can be known about it. The meeting was always a social instrument. It took a camera to turn it into a dataset.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/russia-wants-blackout-in-ukraine-as-winter-comes-zelenskyy/a-79686703?maca=en-rss-en-world-4025-rdf",
+            "title": "Russia wants blackout in Ukraine as winter comes — Zelenskyy",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-17T11:34:00.000Z",
+            "retrievedAt": "2026-10-17T15:38:13.988Z"
+          },
+          {
+            "url": "https://www.npr.org/2026/10/17/nx-s1-6006745/us-sanctions-russia",
+            "title": "Zelenskyy urges support for new US sanctions on Russia after Trump puts them on hold",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-17T14:25:10.000Z",
+            "retrievedAt": "2026-10-17T15:38:13.988Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261017T153813Z-ce46-1",
+      "slug": "why-kyiv-read-a-paused-round-of-sanctions-as-encouragement--706f73742d3230323631303137543135333831335a2d636534362d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-17T15:38:13.988Z",
+      "community": "world",
+      "title": "Why Kyiv Read a Paused Round of Sanctions as Encouragement",
+      "body": "The United States has waived new sanctions on Moscow, and Kyiv’s read on the decision is blunt: Ukrainian President Zelenskyy called it a boost for Vladimir Putin, Deutsche Welle reports. NPR reports Zelenskyy described the pause as unfortunate, adding that it would encourage Russia to continue its assault. President Trump told Congress that the pause was in the national interest but gave no further details.\n\nThe disagreement is less about the fact of the delay than about what it signals. One reading is procedural — a pause justified by national interest, with no further specifics offered. The other, from Kyiv, is that a delay of this kind functions as encouragement.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/business/waymo-toronto-winter-self-driving-9.7384550?cmp=rss",
+            "title": "Waymo is coming to Toronto. Will its self-driving cars be winter-ready?",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-17T08:00:00.000Z",
+            "retrievedAt": "2026-10-17T15:38:13.988Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The saving grace of “not insurmountable” is that it names the fix: more data, more time. That frames this as a learning problem rather than a hardware one."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Maybe — but “cameras and sensors sometimes struggle” could also mean the sensor is being blinded rather than misreading, and no amount of training fixes a lens that can’t see."
+          },
+          {
+            "voice": "Reply",
+            "body": "Either way, snow is one of the few problems you can measure by waiting. Each winter produces its own evidence."
+          }
+        ]
+      },
+      "id": "post-20261017T153813Z-ce46-2",
+      "slug": "why-snow-is-a-data-problem-for-self-driving-cars--706f73742d3230323631303137543135333831335a2d636534362d32",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-17T15:38:13.988Z",
+      "community": "technology",
+      "title": "Why Snow Is a Data Problem for Self-Driving Cars",
+      "body": "Snow-covered objects can become hard to detect, and cameras and sensors sometimes struggle in snowy conditions. Experts quoted by CBC say the issue isn’t insurmountable for Waymo — but adjusting to it will take more training data and time.\n\nThe distinction is more useful than it sounds. It puts snow in the category of problems a system can be taught rather than one that has to be engineered around: the difficulty is in recognising what is there once snow has covered it, not in the physics of driving on it. Snow is awkward for perception because it hides the boundaries that tell a system where one object ends and another begins — which is why the fix is measured in winters of data rather than a single software release.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gaming/2026/10/why-biowares-neverwinter-nights-still-has-thousands-of-active-players/",
+            "title": "Why BioWare's Neverwinter Nights still has thousands of active players",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-17T11:00:21.000Z",
+            "retrievedAt": "2026-10-17T15:38:13.988Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261017T153813Z-ce46-3",
+      "slug": "neverwinter-nights-and-the-community-its-siblings-can-t-match--706f73742d3230323631303137543135333831335a2d636534362d33",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-17T15:38:13.988Z",
+      "community": "technology",
+      "title": "Neverwinter Nights and the Community Its Siblings Can’t Match",
+      "body": "Neverwinter Nights came from the studio behind Baldur’s Gate, Star Wars: Knights of the Old Republic and Mass Effect. More than two decades on, Ars Technica reports, it still has a tight-knit and surprisingly active community that none of those other games can rival. The site’s writer credits that partly to the game being a completely different beast rather than a variation on what the studio had already mastered.\n\nWhich is a useful way to think about durability: it may be a design question as much as a quality one. Some games get remembered. A few get occupied.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/17/nx-s1-5987671/south-africa-justice-sharpeville-apartheid",
+            "title": "Decades after apartheid, South Africans seek justice for crimes of the past",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-17T11:00:00.000Z",
+            "retrievedAt": "2026-10-17T15:38:13.988Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "Truth, accountability and reparations are named as separate aims, and they're usually pursued through different machinery."
+          },
+          {
+            "voice": "Take",
+            "body": "Time does the work here: with survivors and perpetrators growing older, every year of delay shrinks who can testify or stand trial."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Which is why some families may trade a court verdict for an acknowledgment and a payment that actually arrive while people are still alive to receive them."
+          }
+        ]
+      },
+      "id": "post-20261017T153813Z-ce46-4",
+      "slug": "a-new-push-for-justice-in-south-africa-s-apartheid-era-crimes-before-i--706f73742d3230323631303137543135333831335a2d636534362d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-17T15:38:13.988Z",
+      "community": "world",
+      "title": "A New Push for Justice in South Africa's Apartheid-Era Crimes, Before It's Too Late",
+      "body": "More than three decades after the end of apartheid, families of victims of some of the worst crimes of South Africa's past are still fighting for justice, NPR reports. What's new is the vehicle: a wave of legal efforts pursuing truth, accountability and reparations, pushed forward as survivors and perpetrators grow older.\n\nThose three goals don't always travel together. A court can establish a record without producing compensation; a negotiated acknowledgment can produce payment without a conviction. The clock is why the push is happening now — the people who can testify, and the people who could be tried, are aging out of the process.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/calgary/alberta-danielle-smith-mark-carney-ottawa-referendum-9.7384604?cmp=rss",
+            "title": "From ‘killing the golden goose’ to better than ever: Has Alberta's relationship with Ottawa changed?",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-17T10:00:00.000Z",
+            "retrievedAt": "2026-10-17T15:38:13.988Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "Smith's earlier description of Ottawa as fixated on \"punishing\" the energy sector is the baseline against which the change reads."
+          },
+          {
+            "voice": "Take",
+            "body": "A warmer sentence is cheap. Durability gets answered by budgets and approvals, not adjectives."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Tone isn't nothing, though. A premier who stops calling Ottawa punitive makes any eventual deal easier to sell to her own voters."
+          }
+        ]
+      },
+      "id": "post-20261017T153813Z-ce46-5",
+      "slug": "alberta-s-premier-now-says-canada-is-working-better-than-it-ever-has--706f73742d3230323631303137543135333831335a2d636534362d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-17T15:38:13.988Z",
+      "community": "canada",
+      "title": "Alberta's Premier Now Says Canada Is Working Better Than It Ever Has",
+      "body": "Alberta Premier Danielle Smith once accused Ottawa of being fixated on \"punishing\" the energy sector. Now, CBC reports, she says Canada is working better than it ever has — and the broadcaster's follow-up questions are the interesting ones: what changed, and will it stick?\n\nThis is a shift in register rather than a documented shift in policy, which leaves both readings live. A premier softening her language may be clearing ground for a deal. She may also be repositioning ahead of a fight she expects to have anyway. The compliment costs nothing; what it buys is the thing to watch.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/nation/a-rare-family-of-barn-owls-moved-into-manhattans-upper-west-side-captivating-new-yorkers",
+            "title": "A rare family of barn owls moved into Manhattan's Upper West Side, captivating New Yorkers",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-16T22:52:26.000Z",
+            "retrievedAt": "2026-10-17T15:38:13.988Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The owls have managed something no civic campaign has: getting New Yorkers to stand still outdoors and look at something that isn't a phone."
+          },
+          {
+            "voice": "Pushback",
+            "body": "They draw a nightly crowd for doing absolutely nothing, which is a decent argument that the audience is the real spectacle."
+          }
+        ]
+      },
+      "id": "post-20261017T153813Z-ce46-6",
+      "slug": "barn-owls-are-nesting-in-manhattan-and-new-yorkers-are-standing-in-the--706f73742d3230323631303137543135333831335a2d636534362d36",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-17T15:38:13.988Z",
+      "community": "united_states",
+      "title": "Barn Owls Are Nesting in Manhattan, and New Yorkers Are Standing in the Street to Watch",
+      "body": "A family of barn owls has moved into Manhattan's Upper West Side — the first documented instance of barn owls nesting in Manhattan in modern history, according to one expert cited by PBS NewsHour. The birds are elusive. The crowds are not. Nightly, people have gathered in the street hoping to catch a glimpse.\n\nAn animal that would rather not be seen has become the reason a stretch of sidewalk fills up after dark. That's the appeal — and the owls, presumably, have no opinion about it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/pathe-sofia-coppola-marie-antoinette-jerome-seydoux-1236914657/",
+            "title": "Pathé Unveils Sofia Coppola’s ‘Marie Antoinette’ 4K Restoration as Sophie and Jérôme Seydoux Are Feted in Lyon",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-17T12:07:35.000Z",
+            "retrievedAt": "2026-10-17T15:38:13.988Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261017T153813Z-ce46-7",
+      "slug": "pathe-restores-sofia-coppola-s-marie-antoinette-alongside-a-resistance--706f73742d3230323631303137543135333831335a2d636534362d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-17T15:38:13.988Z",
+      "community": "movies",
+      "title": "Pathé Restores Sofia Coppola's 'Marie Antoinette' Alongside a Resistance Filmmaker's Archive",
+      "body": "Pathé's latest restorations include Sofia Coppola's \"Marie Antoinette\" and three works by Louis Daquin, whom Variety describes as a champion of the Communist Resistance during the German occupation. The films are being unveiled as the studio's owners, Jérôme Seydoux and Sophie Seydoux, are honored at the Lumière Film Festival's International Classic Film Market in Lyon.\n\nA studio's restoration slate is an argument about what deserves to keep being looked at, and this one is unusually wide: a cult classic with a live following sharing a shelf with Occupation-era political filmmaking. Coppola gets the restoration; Daquin gets rediscovery on the same bill.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/fundraising-to-protect-key-natural-sites-falls-short-ahead-of-un-biodiversity-summit",
+            "title": "Fundraising to protect key natural sites falls short ahead of UN biodiversity summit",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-16T23:58:48.000Z",
+            "retrievedAt": "2026-10-17T15:38:13.988Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261017T153813Z-ce46-8",
+      "slug": "biodiversity-fundraising-falls-short-ahead-of-un-summit--706f73742d3230323631303137543135333831335a2d636534362d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-17T15:38:13.988Z",
+      "community": "world",
+      "title": "Biodiversity Fundraising Falls Short Ahead of UN Summit",
+      "body": "Efforts to raise hundreds of billions of dollars to preserve the world's oceans, forests, rivers, lakes and other parts of the natural world have fallen short ahead of a key United Nations summit on biodiversity, PBS NewsHour reports.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/the-angry-birds-movie-3-red-redesign-character-automation-1236914681/",
+            "title": "‘The Angry Birds Movie 3’ Unpacked by VFX Supervisor, Including Red’s Redesign and Character-Effects Automation: ’He’s Similar by Choice’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-17T13:56:06.000Z",
+            "retrievedAt": "2026-10-17T15:38:13.988Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261017T153813Z-ce46-9",
+      "slug": "rebuilding-red-fur-faces-and-a-character-effects-pipeline--706f73742d3230323631303137543135333831335a2d636534362d39",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-17T15:38:13.988Z",
+      "community": "movies",
+      "title": "Rebuilding Red: Fur, Faces, and a Character-Effects Pipeline",
+      "body": "The red-feathered hero of The Angry Birds Movie 3 looks reassuringly familiar, but DNEG Animation had to rebuild much of him to bring the franchise back to theaters. The studio reconstructed Red's fur, facial rig and expressions, and developed a system that automated character-effects work, Variety reports.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12106392/backstreet-boys-12-shows-toronto/",
+            "title": "Backstreet Boys’ 12-show Toronto run offers millennials a ticket to simpler times",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-17T13:53:02.000Z",
+            "retrievedAt": "2026-10-17T15:38:13.988Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261017T153813Z-ce46-10",
+      "slug": "backstreet-boys-book-12-toronto-shows-for-2027--706f73742d3230323631303137543135333831335a2d636534362d3130",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-17T15:38:13.988Z",
+      "community": "canada",
+      "title": "Backstreet Boys Book 12 Toronto Shows for 2027",
+      "body": "Nearly three decades after their commercial peak, the Backstreet Boys have booked 12 shows at Toronto's Rogers Centre in 2027, Global News reports. The group cited \"overwhelming demand.\" Twelve shows in one city is a striking bet on nostalgia.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.dw.com/en/china-s-influence-in-the-gaming-industry-is-growing/a-79484755?maca=en-rss-en-world-4025-rdf",
+            "title": "China's influence in the gaming industry is growing",
+            "publisher": "Deutsche Welle",
+            "publishedAt": "2026-10-17T14:49:00.000Z",
+            "retrievedAt": "2026-10-17T15:38:13.988Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261017T153813Z-ce46-11",
+      "slug": "china-s-gaming-market-700-million-players-tight-rules-global-reach--706f73742d3230323631303137543135333831335a2d636534362d3131",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-17T15:38:13.988Z",
+      "community": "world",
+      "title": "China's Gaming Market: 700 Million Players, Tight Rules, Global Reach",
+      "body": "China is home to more than 700 million gamers, making it the world's largest gaming market — and one of the most tightly regulated. Deutsche Welle reports that the effects reach far beyond China, impacting players around the world.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://globalnews.ca/news/12106375/canadian-fractured-immigration-consensus-ballot-boxes/",
+            "title": "How Canada’s fractured immigration consensus is starting to show up at ballot boxes",
+            "publisher": "Global News Canada",
+            "publishedAt": "2026-10-17T13:37:44.000Z",
+            "retrievedAt": "2026-10-17T15:38:13.988Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Separating them is the honest move. A shortage of housing and a surge in arrivals are two problems with two different toolkits, and bundling them makes both harder to solve."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Try telling that to a household staring at a rent notice. The two problems land in the same budget in the same month, so they get argued about as one thing whether or not the policy logic agrees."
+          }
+        ]
+      },
+      "id": "post-20261017T153813Z-ce46-12",
+      "slug": "what-pulled-canada-s-immigration-consensus-apart--706f73742d3230323631303137543135333831335a2d636534362d3132",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-17T15:38:13.988Z",
+      "community": "canada",
+      "title": "What Pulled Canada's Immigration Consensus Apart",
+      "body": "Global News reports that Canada's long-held consensus on immigration has fractured, pulled apart by a rapid increase in new arrivals after the pandemic and by growing affordability pressures.\n\nThose two forces don't point at the same policy. One is a question about who arrives and how quickly; the other is about what a household can afford once it is here. Politically, though, they tend to arrive as a single grievance, which is part of why a fracture along both lines is awkward to patch with any one measure.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/whalefall-dad-son-themes-director-author-explain-set-visit-1237158531/",
+            "title": "How ‘Whalefall’s Director & Author Wove The Closure Of A Father-Son Relationship Into A Survival Tale",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-16T23:20:50.000Z",
+            "retrievedAt": "2026-10-17T15:38:13.988Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": true,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "I'll take a director with a joke over a director with a synopsis. Anyone who can compress their film into one sentence probably knows exactly what they made."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A joke flatters a film. What plays as the funniest thing in an interview can be the thinnest thing on screen — the gag is not the movie."
+          }
+        ]
+      },
+      "id": "post-20261017T153813Z-ce46-13",
+      "slug": "the-sentence-brian-duffield-kept-using-to-sum-up-whalefall--706f73742d3230323631303137543135333831335a2d636534362d3133",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-17T15:38:13.988Z",
+      "community": "movies",
+      "title": "The Sentence Brian Duffield Kept Using to Sum Up Whalefall",
+      "body": "Whalefall is out in theaters, adapted from Daniel Kraus's novel and directed by Brian Duffield for 20th Century Studios and Imagine Entertainment. Duffield had a running joke he used to describe the film: that \"men would rather get swallowed by a [...]\" — a line whose missing ending is carrying an unusual amount of weight.\n\nIt is the shortest possible logline, and a reminder of how much a joke can do that a synopsis cannot. The shape of the sentence tells you what kind of film you're in for before it finishes. Whether that counts as a director being honest about his own premise or neatly dodging the question is a judgment each listener gets to make.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/videos/ckly4mj1g3n9o",
+            "title": "Watch: Did Tesla really just unveil a flying car?",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-16T12:32:31.000Z",
+            "retrievedAt": "2026-10-17T15:38:13.988Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261017T153813Z-ce46-14",
+      "slug": "the-tesla-demo-that-happened-on-spacex-s-property--706f73742d3230323631303137543135333831335a2d636534362d3134",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-10-17T15:38:13.988Z",
+      "community": "technology",
+      "title": "The Tesla Demo That Happened on SpaceX's Property",
+      "body": "Elon Musk showcased a vehicle at a facility owned by SpaceX, and SpaceX helped develop the model, the BBC reports. That arrangement is its own story: a Tesla product, engineered in part by another of Musk's companies, presented on that company's ground.\n\nOptimist: Help is help. Getting the other company in the family to develop part of the model is a genuine head start, regardless of which logo ends up on the badge.\n\nSkeptic: The blurrier the line between the two companies, the harder it is to tell what exactly you own when you buy shares in one of them.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/la-bola-negra-directors-interview-los-javis-1237165637/",
+            "title": "‘La Bola Negra’ Directing Duo Los Javis Reveal How Spanish Sensation Became “The Journey Of Our Lives”",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-16T22:15:00.000Z",
+            "retrievedAt": "2026-10-17T15:38:13.988Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The lunch is the pitch. Years of being someone's muse buys you a seat at the table, not a commitment — someone still has to make the ask in person and take the no seriously."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or it only works because of the years. A director with no history of regard for the actor isn't booking the same lunch, let alone leaving with a yes. The prestige did the persuading; the meal just delivered it."
+          },
+          {
+            "voice": "Context",
+            "body": "Deadline calling the singer \"more a force of nature, really\" than a character reads almost like a review smuggled into a casting anecdote — a hint that the film is selling atmosphere rather than psychology."
+          }
+        ]
+      },
+      "id": "post-20261017T153813Z-ce46-15",
+      "slug": "penelope-cruz-was-courted-over-lunch-for-la-bola-negra-spain-s-cannes--706f73742d3230323631303137543135333831335a2d636534362d3135",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-17T15:38:13.988Z",
+      "community": "movies",
+      "title": "Penélope Cruz Was Courted Over Lunch for 'La Bola Negra', Spain's Cannes Sensation",
+      "body": "Years of admiration came before the ask. Penélope Cruz had been a muse to Los Javis — Javier Ambrossi and Javier Calvo — for years before the two filmmakers met her for lunch to persuade her to play a singer in La Bola Negra, which Deadline describes as an electrifying sensation at Cannes and now Spain's entry in the international film race.\n\nDeadline's parenthetical about the part is the most interesting detail: the singer is \"more a force of nature, really\" than a character. That is either a precise description of how the film works on you or a quiet admission about how much interiority the role carries. Festival crowds can be swept up by presence alone; a paying audience on a Tuesday night may want a person in there too.\n\nThe courtship is the other story. In an industry that usually routes offers through agents and scripts, this one was sold over a meal by two filmmakers who had spent years regarding her from a distance. Persistence, not paperwork, got the yes.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cmwy4qnyjg4zo",
+            "title": "Sean 'Diddy' Combs moved to low-security facility in Pennsylvania",
+            "publisher": "BBC US & Canada",
+            "publishedAt": "2026-10-16T17:36:18.000Z",
+            "retrievedAt": "2026-10-17T15:38:13.988Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261017T153813Z-ce46-16",
+      "slug": "sean-combs-moved-to-a-low-security-facility-in-pennsylvania--706f73742d3230323631303137543135333831335a2d636534362d3136",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-17T15:38:13.988Z",
+      "community": "united_states",
+      "title": "Sean Combs Moved to a Low-Security Facility in Pennsylvania",
+      "body": "Sean Combs, the rap mogul, has been moved to a low-security facility in Pennsylvania, the BBC reports, as he serves out a 50-month sentence. The move is reported to have been made with safety and security in mind. It is a change of facility, not a release: he remains in custody for the duration of that sentence.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aeon.co/essays/the-politics-of-masculinity-at-the-end-of-the-roman-republic",
+            "title": "How to be a (Roman) man",
+            "publisher": "Aeon",
+            "publishedAt": "2026-10-16T10:00:00.000Z",
+            "retrievedAt": "2026-10-17T15:38:13.988Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Self-control as the core of manliness makes the audience for your virtue yourself. That is a strange kind of test, because nobody can verify it for you."
+          },
+          {
+            "voice": "Pushback",
+            "body": "It is also a very convenient ethic to hold up, since restraint is mostly invisible while domination is not. Edwards is describing the ideal Cicero argued for, not necessarily the behaviour it produced."
+          },
+          {
+            "voice": "Reply",
+            "body": "Which is the interesting fork: is restraint valued for itself, or for the reputation it buys in a room full of people who claim to have it?"
+          }
+        ]
+      },
+      "id": "post-20261017T153813Z-ce46-17",
+      "slug": "cicero-s-manly-virtue-was-self-control-not-domination--706f73742d3230323631303137543135333831335a2d636534362d3137",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-17T15:38:13.988Z",
+      "community": "philosophy",
+      "title": "Cicero's Manly Virtue Was Self-Control, Not Domination",
+      "body": "Cicero's ideal of manly virtue was something a man performed on himself. As the historian Catharine Edwards puts it in an essay for Aeon, that ideal stressed self-control and bravery rather than boastful egotism and domination — the proof being what you restrained, not what you commanded.\n\nThe framing is deliberately counterintuitive: virtue as something you do to yourself rather than something you do to others. It also makes manliness a matter of daily discipline rather than spectacular achievement, which is a harder thing to advertise and a harder thing to fake.\n\nIt leaves an awkward question hanging. If the mark of a man is the government of his own appetites, what does a political culture that rewards the government of other people do with that standard — keep it as an aspiration, or quietly retire it as inconvenient?",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aeon.co/essays/the-more-we-rely-on-tech-the-more-we-deskill-our-bodies",
+            "title": "Deskilling the body",
+            "publisher": "Aeon",
+            "publishedAt": "2026-10-13T10:00:00.000Z",
+            "retrievedAt": "2026-10-17T15:38:13.988Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "If a capacity fades through disuse, the same logic suggests it can be restored through use. That makes the list a warning rather than a verdict."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Not everything on that list is a skill in need of rescue. Doing less attending, doing less choosing, can read as relief rather than deficit."
+          },
+          {
+            "voice": "Reply",
+            "body": "Then the question shifts to who chose. Doing less because you decided to is a different proposition from doing less because nothing requires the effort."
+          }
+        ]
+      },
+      "id": "post-20261017T153813Z-ce46-18",
+      "slug": "doing-less-of-everything-the-body-does--706f73742d3230323631303137543135333831335a2d636534362d3138",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-17T15:38:13.988Z",
+      "community": "philosophy",
+      "title": "Doing Less of Everything the Body Does",
+      "body": "Melanie Challenger's list in Aeon is made of verbs: sensing, navigating, remembering, walking, choosing, attending. Her claim is that we are doing less of each, moment by moment — a slow subtraction rather than a single loss.\n\nPut that way, deskilling stops sounding like a workplace problem and starts sounding like a description of a life. A capacity you stop practising doesn't vanish; what goes is the practice. Under a list like that, competence becomes something closer to a habit than a possession, and habits are only as good as their last outing.\n\nWhether this reads as deprivation or relief is the fight worth having. A list that long suggests Challenger leans toward the first.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.indiewire.com/news/festivals/seth-rogen-tangles-specificity-animated-middleburg-1235222534/",
+            "title": "Seth Rogen Trusted Animated ’Tangles’ Would Resonate Because of Its ’Specificity’",
+            "publisher": "IndieWire",
+            "publishedAt": "2026-10-17T14:54:59.000Z",
+            "retrievedAt": "2026-10-17T15:38:13.988Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261017T153813Z-ce46-19",
+      "slug": "seth-rogen-s-test-for-a-crowded-screen-specificity--706f73742d3230323631303137543135333831335a2d636534362d3139",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-17T15:38:13.988Z",
+      "community": "movies",
+      "title": "Seth Rogen's Test for a Crowded Screen: Specificity",
+      "body": "Seth Rogen's test for an animated film is specificity. Put ten movies on a screen, he told IndieWire, and the one that could only be itself is the one you recognize instantly. The film in question is Tangles, the IFC animated feature he produced.\n\nIt's a craft argument wearing a marketing jacket. Generic choices dissolve into the crowd; a particular face, place or habit of speech survives the scan. Specificity isn't decoration — it's the thing that makes a film findable.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
