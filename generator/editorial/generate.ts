@@ -7,6 +7,7 @@ import { prepareEvidence, type EvidenceEntry } from "./evidence";
 import { logEditorialAttempt, redactEditorialDiagnostic } from "./diagnostics";
 import { coverageTitle } from "./coverage";
 import { editorialVoiceIssues } from "./voice";
+import { discussionRepetitionIssues } from "./discussion";
 import { buildAuditChunk, type EditorialAuditChunk, type DiscussionOmissionReason } from "./audit";
 import { FORMATS, TOPICS } from "./accounts";
 import type { SourcePacket } from "./sources";
@@ -42,7 +43,7 @@ const DraftSchema = z.object({
             }),
           )
           .min(1)
-          .max(3),
+          .max(6),
       }),
     )
     .max(20),
@@ -56,7 +57,7 @@ function responseSchema(evidenceId: z.ZodType<string>, maxPosts = EDITORIAL_REQU
     sourceIds: true, evidence: true, discussion: true,
   }).extend({
     topic: z.enum(TOPICS).nullable(),
-    evidenceIds: EvidenceIds,
+    evidenceIds: z.array(evidenceId).min(1).max(6),
     discussion: z.array(DiscussionTurn.omit({ evidence: true }).extend({
       evidenceIds: EvidenceIds,
     }).strict()).min(2).max(4).nullable(),
@@ -209,6 +210,11 @@ export function validateCitedDraft(
     new Set(post.discussion.map(turn => turn.voice)).size < 2 ||
     new Set(post.discussion.map(turn => turn.body.trim().toLocaleLowerCase("en"))).size !== post.discussion.length)) {
     return { ok: false, issues: ["Every published post needs a valid 2–4-turn AI exchange with distinct perspectives; revise the whole post or omit it"] };
+  }
+  if (requireDiscussion) {
+    const repetition = checked.value.posts.flatMap((post, index) =>
+      discussionRepetitionIssues(post.body, post.discussion ?? []).map(issue => `posts.${index}.${issue}`));
+    if (repetition.length) return { ok: false, issues: repetition };
   }
   // No IDs are repaired and no individual turns/sentences are rewritten.
   return { ok: true, value: checked.value, selection };

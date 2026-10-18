@@ -143,6 +143,13 @@ export function prepareEvidence(packets: SourcePacket[]) {
     return {
       publisher: source.publisher, title: source.title, topic: source.topic,
       publishedAt: source.publishedAt ?? null, evergreen: source.evergreen ?? false,
+      // Reading context constrains interpretation even when the snippet budget
+      // cannot offer every neighbouring qualification as a selectable citation.
+      // Keep original section/paragraph order; never manufacture a joined passage.
+      ...(source.sections && source.sections.join("\n\n").length <= 6000 &&
+        source.sections.every(text => source.excerpt.includes(text)) ? {
+          readingContext: source.sections.map((text, section) => ({ section: section + 1, text })),
+        } : {}),
       contextKind: source.contextKind ?? (source.evergreen ? "evergreen" : "feed"), contextTruncated, evidence,
     };
   }).filter((source) => source.evidence.length > 0);

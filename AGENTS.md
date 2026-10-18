@@ -265,3 +265,14 @@ Sectioned requests offer at most eight sources and 24 snippets per sectioned sou
 legacy/evergreen evidence retains its prior bounds and fixtures. Never join across omitted
 modules or split a long-sentence group at the cap. Eight attempts and the shared generation
 deadline remain unchanged. No historical posts, schedule or model settings were changed.
+
+## Qualifications and discussion contribution — October 18, 2026
+Read docs/editorial-qualifications.md. Sectioned requests now include bounded readingContext
+(6,000 characters/source, at most eight sources), preserving section and paragraph order.
+It constrains interpretation but never authorizes facts without numbered evidence IDs.
+Body support allows six IDs; turns retain three. The audit's selected-support cap is 72
+per four-post chunk; never retain full readingContext in audits or public data.
+Prefer two worthwhile turns; extra turns must add a detail, challenge, interpretation or
+joke. Keep banter. A conservative near-copy guard retries repetition against the body or
+earlier turns, only for new generation. It is not a semantic novelty or fact-checking gate.
+Keep all existing source/provenance and shared generation budgets; preserve history.

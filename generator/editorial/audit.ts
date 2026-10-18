@@ -25,9 +25,9 @@ const AuditChunkSchema = z.object({
   requestedModel: z.string().min(1).max(200), resolvedModel: z.string().min(1).max(200).nullable(),
   redactionsApplied: z.boolean(),
   sources: z.array(SourceSchema).min(1).max(12),
-  evidence: z.array(z.object({ id: evidenceId, sourceId: id, quote: z.string().min(1).max(512) }).strict()).min(1).max(60),
+  evidence: z.array(z.object({ id: evidenceId, sourceId: id, quote: z.string().min(1).max(512) }).strict()).min(1).max(72),
   posts: z.array(z.object({
-    postId: id, evidenceIds,
+    postId: id, evidenceIds: z.array(evidenceId).min(1).max(6),
     discussionOmission: DiscussionOmissionSchema.optional(),
     discussion: z.array(z.object({
       turnIndex: z.number().int().min(0).max(3),

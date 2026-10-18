@@ -132,6 +132,14 @@ selected across topics; snippets preserve section and sentence boundaries.
 Excerpts preserve original text and stay within 25 words/300 characters. The
 model must ground claims in these excerpts, not fill gaps from its memory.
 
+Sectioned sources also supply their bounded reading context (at most 6,000 characters
+per source) in original order, so the writer can see qualifications beyond the selectable
+snippet cap. This context can rule out an interpretation; it does not authorize uncited
+facts. Bodies may select up to six evidence IDs, while discussion turns retain three.
+The prompt favors two worthwhile turns and requires extra turns to add a distinct idea,
+challenge or joke. Near-verbatim repetition triggers bounded correction. This is copy
+detection, not a semantic quality guarantee; see [the qualification update](docs/editorial-qualifications.md).
+
 Evergreen extraction now retains a coherent prose section rather than combining page
 features. Numbered excerpts preserve sentence/paragraph context and flag truncation.
 Generation saves bounded selected-support records as 14-day Actions artifacts before
