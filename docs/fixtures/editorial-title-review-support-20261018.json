@@ -1,0 +1,706 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261018T172715Z-7712",
+  "startedAt": "2026-10-18T17:27:15.344Z",
+  "status": "data_written",
+  "chunks": [
+    {
+      "index": 1,
+      "requestedModel": "deepseek/deepseek-v4.1-flash",
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "redactionsApplied": false,
+      "review": {
+        "requestedModel": "deepseek/deepseek-v4.1-flash",
+        "resolvedModel": "deepseek/deepseek-v4.1-flash",
+        "candidateDigests": [
+          "80d4a96cb0b1d4c8a802f19a9ced399c3aae3289b7c73f3aa3106f0af9ba64e3",
+          "dd3f78f394e2ea3f5c124302aa7cd17b6444fb217be553a95af9a871bceb4e4f",
+          "92a879e3c18464e8a5d2ed099651c4a2c718c6671db7f87aae7dc10f28851d42"
+        ]
+      },
+      "sources": [
+        {
+          "id": "bf391b952f3cfea1",
+          "url": "https://variety.com/2026/film/news/la-bola-negra-box-office-netflix-reports-grosses-1236915765/",
+          "title": "Box Office: ‘La Bola Negra’ Scores $277,500 From Four Theaters as Netflix Reports Grosses for First Time Ever",
+          "publisher": "Variety Film",
+          "retrievedAt": "2026-10-18T17:27:15.344Z",
+          "publishedAt": "2026-10-18T17:12:54.000Z",
+          "evergreen": false
+        },
+        {
+          "id": "796bbd796e414573",
+          "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+          "title": "Anthropic gives outside AI watchdog “employee-like” access",
+          "publisher": "Ars Technica",
+          "retrievedAt": "2026-10-18T17:27:15.344Z",
+          "publishedAt": "2026-10-18T16:25:19.000Z",
+          "evergreen": false
+        },
+        {
+          "id": "a00d50cc4a2f3e0b",
+          "url": "https://theconversation.com/qanda-with-an-alberta-politics-expert-taking-the-provinces-pulse-on-the-eve-of-the-referendum-approaches-294417",
+          "title": "Q&A with an Alberta politics expert: Taking the province’s pulse on the eve of the referendum approaches",
+          "publisher": "The Conversation Canada",
+          "retrievedAt": "2026-10-18T17:27:15.344Z",
+          "publishedAt": "2026-10-15T15:12:36.000Z",
+          "evergreen": false
+        }
+      ],
+      "evidence": [
+        {
+          "id": "S3E1",
+          "sourceId": "bf391b952f3cfea1",
+          "quote": "In a major shift in the theatrical tides, Netflix has reported box office grosses for the first time ever."
+        },
+        {
+          "id": "S3E6",
+          "sourceId": "bf391b952f3cfea1",
+          "quote": "The streamer’s awards hopeful “La Bola Negra” scored $277,500 from just four theaters, averaging $69,375 per location."
+        },
+        {
+          "id": "S3E7",
+          "sourceId": "bf391b952f3cfea1",
+          "quote": "The streamer plans to keep the film in theaters for 45 days, a traditional window in post-pandemic times and the company’s longest theatrical rollout to"
+        },
+        {
+          "id": "S3E8",
+          "sourceId": "bf391b952f3cfea1",
+          "quote": "date, before its Netflix release on Dec. 2."
+        },
+        {
+          "id": "S3E12",
+          "sourceId": "bf391b952f3cfea1",
+          "quote": "Those ticket sales are notable as the second-highest screen average ever for a non-English language film behind 2019’s “Parasite,” which opened to $393,216 from three"
+        },
+        {
+          "id": "S3E13",
+          "sourceId": "bf391b952f3cfea1",
+          "quote": "theaters, averaging $131,072 per location."
+        },
+        {
+          "id": "S3E11",
+          "sourceId": "bf391b952f3cfea1",
+          "quote": "But there are other benefits to box office reporting for Netflix, which has never won the coveted best picture Oscar."
+        },
+        {
+          "id": "S3E16",
+          "sourceId": "bf391b952f3cfea1",
+          "quote": "Unlike streaming metrics, which can be twisted and touted in any which way, box office dollars are uniformly reported — meaning there’s no denying a"
+        },
+        {
+          "id": "S3E17",
+          "sourceId": "bf391b952f3cfea1",
+          "quote": "hit (or a miss)."
+        },
+        {
+          "id": "S3E5",
+          "sourceId": "bf391b952f3cfea1",
+          "quote": "In the past, Netflix has viewed multiplexes, not as a financial strategy, but rather as a marketing stunt to drive interest pack to the platform."
+        },
+        {
+          "id": "S3E9",
+          "sourceId": "bf391b952f3cfea1",
+          "quote": "And while the streamer has been warming to theaters beyond just Oscar-qualifying runs, with token releases for 2022’s “Glass Onion: A Knives Out Story” and"
+        },
+        {
+          "id": "S3E10",
+          "sourceId": "bf391b952f3cfea1",
+          "quote": "last year’s”Kpop Demon Hunters” re-release and the “Stranger Things” series finale, Netflix has never disclosed how much those movies made in cinemas."
+        },
+        {
+          "id": "S5E1",
+          "sourceId": "796bbd796e414573",
+          "quote": "Anthropic has granted external evaluators “employee-like access” to assess the risks of its models, following through on a commitment to increase safeguards over concerns the"
+        },
+        {
+          "id": "S5E2",
+          "sourceId": "796bbd796e414573",
+          "quote": "technology could run catastrophically out of control."
+        },
+        {
+          "id": "S5E3",
+          "sourceId": "796bbd796e414573",
+          "quote": "METR, a nonprofit that has worked with leading labs including OpenAI, Anthropic, Google and Meta, now has a team embedded in the Claude maker’s office"
+        },
+        {
+          "id": "S5E4",
+          "sourceId": "796bbd796e414573",
+          "quote": "with access to its hardware and internal systems."
+        },
+        {
+          "id": "S5E5",
+          "sourceId": "796bbd796e414573",
+          "quote": "A greater role for third-party evaluators is among the main concrete steps the labs have proposed in response to rising concern about the dangers more"
+        },
+        {
+          "id": "S5E6",
+          "sourceId": "796bbd796e414573",
+          "quote": "capable AI systems could pose to the economy, cyber security and humanity at large."
+        },
+        {
+          "id": "S6E1",
+          "sourceId": "a00d50cc4a2f3e0b",
+          "quote": "Jared Wesley, a professor of political science at the University of Alberta, is on the award-winning Conversation Weekly podcast discussing the Alberta independence referendum being"
+        },
+        {
+          "id": "S6E2",
+          "sourceId": "a00d50cc4a2f3e0b",
+          "quote": "held on Oct. 19 and his work in community town halls throughout the province leading up to the vote."
+        },
+        {
+          "id": "S6E5",
+          "sourceId": "a00d50cc4a2f3e0b",
+          "quote": "JW: Similar parties have been tried in Western Canada, but they failed to win seats."
+        },
+        {
+          "id": "S6E7",
+          "sourceId": "a00d50cc4a2f3e0b",
+          "quote": "Looking at other far-right populist movements in the United States and in the United Kingdom, folks started saying: “We don’t need to start our own"
+        },
+        {
+          "id": "S6E8",
+          "sourceId": "a00d50cc4a2f3e0b",
+          "quote": "political party to make this work."
+        },
+        {
+          "id": "S6E10",
+          "sourceId": "a00d50cc4a2f3e0b",
+          "quote": "We simply need to infiltrate mainstream parties, and in particular, governing parties.”"
+        },
+        {
+          "id": "S6E23",
+          "sourceId": "a00d50cc4a2f3e0b",
+          "quote": "Public opinion polls show quite consistently over the last two years that about 70 to 75 per cent of Albertans want to remain in Canada."
+        },
+        {
+          "id": "S6E12",
+          "sourceId": "a00d50cc4a2f3e0b",
+          "quote": "That change in strategy by groups called Take Back Alberta and others was the start of a new approach to Alberta separatism and one of"
+        },
+        {
+          "id": "S6E13",
+          "sourceId": "a00d50cc4a2f3e0b",
+          "quote": "the main reasons why we’re now seeing separatism on the public agenda."
+        },
+        {
+          "id": "S6E16",
+          "sourceId": "a00d50cc4a2f3e0b",
+          "quote": "TC: There are 10 referendum questions in total, five related to immigration. Tell us a bit about them."
+        },
+        {
+          "id": "S6E18",
+          "sourceId": "a00d50cc4a2f3e0b",
+          "quote": "JW: They aren’t particularly concisely worded and a lot of folks are struggling to understand them."
+        }
+      ],
+      "posts": [
+        {
+          "postId": "post-20261018T172715Z-7712-0",
+          "evidenceIds": [
+            "S3E1",
+            "S3E6",
+            "S3E7",
+            "S3E8",
+            "S3E12",
+            "S3E13"
+          ],
+          "discussion": [
+            {
+              "turnIndex": 0,
+              "voice": "Take",
+              "evidenceIds": [
+                "S3E11",
+                "S3E16",
+                "S3E17"
+              ]
+            },
+            {
+              "turnIndex": 1,
+              "voice": "Pushback",
+              "evidenceIds": [
+                "S3E5",
+                "S3E9",
+                "S3E10"
+              ]
+            }
+          ]
+        },
+        {
+          "postId": "post-20261018T172715Z-7712-1",
+          "evidenceIds": [
+            "S5E1",
+            "S5E2",
+            "S5E3",
+            "S5E4",
+            "S5E5",
+            "S5E6"
+          ],
+          "discussion": [
+            {
+              "turnIndex": 0,
+              "voice": "Take",
+              "evidenceIds": [
+                "S5E1",
+                "S5E3",
+                "S5E4"
+              ]
+            },
+            {
+              "turnIndex": 1,
+              "voice": "Pushback",
+              "evidenceIds": [
+                "S5E5",
+                "S5E6"
+              ]
+            }
+          ]
+        },
+        {
+          "postId": "post-20261018T172715Z-7712-2",
+          "evidenceIds": [
+            "S6E1",
+            "S6E2",
+            "S6E5",
+            "S6E7",
+            "S6E8",
+            "S6E10"
+          ],
+          "discussion": [
+            {
+              "turnIndex": 0,
+              "voice": "Take",
+              "evidenceIds": [
+                "S6E23",
+                "S6E12",
+                "S6E13"
+              ]
+            },
+            {
+              "turnIndex": 1,
+              "voice": "Pushback",
+              "evidenceIds": [
+                "S6E16",
+                "S6E18"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "requestedModel": "deepseek/deepseek-v4.1-flash",
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "redactionsApplied": false,
+      "review": {
+        "requestedModel": "deepseek/deepseek-v4.1-flash",
+        "resolvedModel": "deepseek/deepseek-v4.1-flash",
+        "candidateDigests": [
+          "49c039bb413a6d44ca885b05afe569638918f85865395704ef5e98ed8060ef2e",
+          "52cb75cbb6d922f4ae5fed167615d61fcdce440038bacd0146439e32a795ea3f",
+          "7d83aec496d9177dc7e9f4d10c0b6ce6b68d151067932b5da0efcb72c730bc86"
+        ]
+      },
+      "sources": [
+        {
+          "id": "39941dbe8908f8ac",
+          "url": "https://www.pbs.org/newshour/world/pope-leo-tells-faithful-in-st-peters-square-he-will-gradually-resume-duties-after-cancer-surgery",
+          "title": "Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery",
+          "publisher": "PBS NewsHour",
+          "retrievedAt": "2026-10-18T17:27:15.344Z",
+          "publishedAt": "2026-10-18T16:34:03.000Z",
+          "evergreen": false
+        },
+        {
+          "id": "44ee7923c3553957",
+          "url": "https://www.bbc.co.uk/news/articles/c6y8ln9831v3o",
+          "title": "'I took a chance on the whisky industry and I haven't looked back'",
+          "publisher": "BBC Business",
+          "retrievedAt": "2026-10-18T17:27:15.344Z",
+          "publishedAt": "2026-10-18T08:12:17.000Z",
+          "evergreen": false
+        },
+        {
+          "id": "4d21a9e1130d9c96",
+          "url": "https://theconversation.com/how-canada-can-better-track-what-happens-to-trafficked-wildlife-after-theyre-seized-293935",
+          "title": "How Canada can better track what happens to trafficked wildlife after they’re seized",
+          "publisher": "The Conversation Canada",
+          "retrievedAt": "2026-10-18T17:27:15.344Z",
+          "publishedAt": "2026-10-18T12:34:42.000Z",
+          "evergreen": false
+        }
+      ],
+      "evidence": [
+        {
+          "id": "S5E1",
+          "sourceId": "39941dbe8908f8ac",
+          "quote": "VATICAN CITY (AP) — Pope Leo XIV thanked thousands of faithful in St."
+        },
+        {
+          "id": "S5E7",
+          "sourceId": "39941dbe8908f8ac",
+          "quote": "Peter's Square on Sunday for their prayers while he was hospitalized for an operation to remove a malignant tumor, and said he plans to gradually"
+        },
+        {
+          "id": "S5E8",
+          "sourceId": "39941dbe8908f8ac",
+          "quote": "return to his usual duties."
+        },
+        {
+          "id": "S5E9",
+          "sourceId": "39941dbe8908f8ac",
+          "quote": "\"Now that this delicate phase is behind me, I will gradually resume my activities, always with God's help and your prayers,\" Leo said, his voice"
+        },
+        {
+          "id": "S5E10",
+          "sourceId": "39941dbe8908f8ac",
+          "quote": "sounding strong four days after the lower lobe of his right lung was removed."
+        },
+        {
+          "id": "S5E2",
+          "sourceId": "39941dbe8908f8ac",
+          "quote": "The crowd erupted in cheers when the pontiff showed himself in the window overlooking the square, where a week ago on the same occasion of"
+        },
+        {
+          "id": "S5E3",
+          "sourceId": "39941dbe8908f8ac",
+          "quote": "the traditional Angelus blessing he revealed that a nodule had been located on his lung, and that it would be surgically removed."
+        },
+        {
+          "id": "S5E11",
+          "sourceId": "39941dbe8908f8ac",
+          "quote": "\"It is a miracle that he recovered already.\""
+        },
+        {
+          "id": "S5E12",
+          "sourceId": "39941dbe8908f8ac",
+          "quote": "The pontiff said the experience of the last week \"has made me feel especially close to those facing illness and infirmity.\""
+        },
+        {
+          "id": "S5E14",
+          "sourceId": "39941dbe8908f8ac",
+          "quote": "He told the faithful that he had \"truly felt your support,\" and expressed \"particular gratitude to the doctors, nurses and all the staff at Gemelli"
+        },
+        {
+          "id": "S5E15",
+          "sourceId": "39941dbe8908f8ac",
+          "quote": "hospital\" where he was treated."
+        },
+        {
+          "id": "S2E1",
+          "sourceId": "44ee7923c3553957",
+          "quote": "Zoey Darnbrough is the first to admit that just a few years ago she did not even know there was a whisky distillery near her"
+        },
+        {
+          "id": "S2E2",
+          "sourceId": "44ee7923c3553957",
+          "quote": "hometown in southern Scotland."
+        },
+        {
+          "id": "S2E20",
+          "sourceId": "44ee7923c3553957",
+          "quote": "She said: \"My first thought was - there's a distillery in Annan? And my second thought was - whisky?"
+        },
+        {
+          "id": "S2E8",
+          "sourceId": "44ee7923c3553957",
+          "quote": "But it hasn't stopped her rising rapidly from tour guide, to group tourism and events co-ordinator at the site near Annan."
+        },
+        {
+          "id": "S2E3",
+          "sourceId": "44ee7923c3553957",
+          "quote": "The 26-year-old, who attended St Joseph's College in Dumfries, was recently nominated for \"rising star\" recognition at the South of Scotland Thistle Awards."
+        },
+        {
+          "id": "S2E19",
+          "sourceId": "44ee7923c3553957",
+          "quote": "Now she hopes to play her part in changing people's opinions of the world of whisky \"one woman at a time\"."
+        },
+        {
+          "id": "S2E6",
+          "sourceId": "44ee7923c3553957",
+          "quote": "She has certainly achieved that in her own career in the whisky industry - despite some people assuming she might lack the knowledge of older,"
+        },
+        {
+          "id": "S2E13",
+          "sourceId": "44ee7923c3553957",
+          "quote": "\"It has been tricky, I'm not going to lie,\" she said."
+        },
+        {
+          "id": "S2E22",
+          "sourceId": "44ee7923c3553957",
+          "quote": "\"I've been so fortunate that all my experiences have been mostly pleasant and so I have not really felt it, but I do understand the"
+        },
+        {
+          "id": "S2E14",
+          "sourceId": "44ee7923c3553957",
+          "quote": "She went away to study heritage and tourism in Stirling after school, but unlike many of her peers, she returned to Dumfries and"
+        },
+        {
+          "id": "S2E15",
+          "sourceId": "44ee7923c3553957",
+          "quote": "Galloway for work."
+        },
+        {
+          "id": "S2E4",
+          "sourceId": "44ee7923c3553957",
+          "quote": "But she agrees that a lot more could be done to stop young people from leaving."
+        },
+        {
+          "id": "S7E1",
+          "sourceId": "4d21a9e1130d9c96",
+          "quote": "In 2022, officers from the Canada Border Services Agency and Environment and Climate Change Canada (ECCC) intercepted a package of live turtles from China that"
+        },
+        {
+          "id": "S7E2",
+          "sourceId": "4d21a9e1130d9c96",
+          "quote": "had been declared as children’s building blocks."
+        },
+        {
+          "id": "S7E6",
+          "sourceId": "4d21a9e1130d9c96",
+          "quote": "The package led to the seizure of 63 turtles and 58 turtle eggs, according to ECCC, from a man in Calgary who had been importing"
+        },
+        {
+          "id": "S7E7",
+          "sourceId": "4d21a9e1130d9c96",
+          "quote": "them to sell online."
+        },
+        {
+          "id": "S7E10",
+          "sourceId": "4d21a9e1130d9c96",
+          "quote": "The Calgary Zoo kept two of the turtles, while the rest were sent to a reptile sanctuary in Ontario. The eggs were euthanized."
+        },
+        {
+          "id": "S7E11",
+          "sourceId": "4d21a9e1130d9c96",
+          "quote": "The act controls which wildlife can be imported, exported or moved between provinces and who owns seized animals, referring to the animals largely in terms"
+        },
+        {
+          "id": "S7E12",
+          "sourceId": "4d21a9e1130d9c96",
+          "quote": "of ownership and as a “specimen.”"
+        },
+        {
+          "id": "S7E5",
+          "sourceId": "4d21a9e1130d9c96",
+          "quote": "WAPPRIITA may have been comprehensive when it became law in 1992. In 2009, it was amended to strengthen its penalties, sentencing and enforcement power."
+        },
+        {
+          "id": "S7E17",
+          "sourceId": "4d21a9e1130d9c96",
+          "quote": "In 1992, Canada enacted the Wild Animal and Plant Protection and Regulation of International and Interprovincial Trade Act (WAPPRIITA))."
+        },
+        {
+          "id": "S7E21",
+          "sourceId": "4d21a9e1130d9c96",
+          "quote": "The act’s language is also outdated, sometimes referring to seized animals as a “thing” stripping an individual of its status as a sentient being capable"
+        },
+        {
+          "id": "S7E22",
+          "sourceId": "4d21a9e1130d9c96",
+          "quote": "of suffering, reducing them to property that can be disposed of."
+        }
+      ],
+      "posts": [
+        {
+          "postId": "post-20261018T172715Z-7712-3",
+          "evidenceIds": [
+            "S5E1",
+            "S5E7",
+            "S5E8",
+            "S5E9",
+            "S5E10"
+          ],
+          "discussion": [
+            {
+              "turnIndex": 0,
+              "voice": "Take",
+              "evidenceIds": [
+                "S5E2",
+                "S5E3",
+                "S5E11"
+              ]
+            },
+            {
+              "turnIndex": 1,
+              "voice": "Pushback",
+              "evidenceIds": [
+                "S5E12",
+                "S5E14",
+                "S5E15"
+              ]
+            }
+          ]
+        },
+        {
+          "postId": "post-20261018T172715Z-7712-4",
+          "evidenceIds": [
+            "S2E1",
+            "S2E2",
+            "S2E20",
+            "S2E8",
+            "S2E3",
+            "S2E19"
+          ],
+          "discussion": [
+            {
+              "turnIndex": 0,
+              "voice": "Take",
+              "evidenceIds": [
+                "S2E6",
+                "S2E13",
+                "S2E22"
+              ]
+            },
+            {
+              "turnIndex": 1,
+              "voice": "Pushback",
+              "evidenceIds": [
+                "S2E14",
+                "S2E15",
+                "S2E4"
+              ]
+            }
+          ]
+        },
+        {
+          "postId": "post-20261018T172715Z-7712-5",
+          "evidenceIds": [
+            "S7E1",
+            "S7E2",
+            "S7E6",
+            "S7E7",
+            "S7E10"
+          ],
+          "discussion": [
+            {
+              "turnIndex": 0,
+              "voice": "Context",
+              "evidenceIds": [
+                "S7E11",
+                "S7E12",
+                "S7E5"
+              ]
+            },
+            {
+              "turnIndex": 1,
+              "voice": "Reply",
+              "evidenceIds": [
+                "S7E17",
+                "S7E21",
+                "S7E22"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "requestedModel": "deepseek/deepseek-v4.1-flash",
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "redactionsApplied": false,
+      "review": {
+        "requestedModel": "deepseek/deepseek-v4.1-flash",
+        "resolvedModel": "deepseek/deepseek-v4.1-flash",
+        "candidateDigests": [
+          "b6030d1fcf872fdd3f78b4f233293bae98c6c0929674b4c0d9373c635270f0d3"
+        ]
+      },
+      "sources": [
+        {
+          "id": "fd6f3749ed97bdba",
+          "url": "https://variety.com/2026/film/news/georgina-cates-dead-awfully-big-adventure-2point4-children-1236915784/",
+          "title": "Georgina Cates, ‘An Awfully Big Adventure’ and ‘2point4 Children’ Actress, Dies at 51",
+          "publisher": "Variety Film",
+          "retrievedAt": "2026-10-18T17:27:15.344Z",
+          "publishedAt": "2026-10-18T17:01:39.000Z",
+          "evergreen": false
+        }
+      ],
+      "evidence": [
+        {
+          "id": "S2E1",
+          "sourceId": "fd6f3749ed97bdba",
+          "quote": "Georgina Cates, the British actress who appeared in films including “An Awfully Big Adventure” and the TV series “2point4 Children,” has died. She was 51."
+        },
+        {
+          "id": "S2E2",
+          "sourceId": "fd6f3749ed97bdba",
+          "quote": "Cates began her career on “2point4 Children” in 1991, in which she played the character of Jenny Porter."
+        },
+        {
+          "id": "S2E3",
+          "sourceId": "fd6f3749ed97bdba",
+          "quote": "In 1995, she starred in “An Awfully Big Adventure” alongside Hugh Grant and Alan Rickman."
+        },
+        {
+          "id": "S2E5",
+          "sourceId": "fd6f3749ed97bdba",
+          "quote": "Cates’s death was announced by her daughter, Naiia, on Instagram in June, though it had not been reported until now."
+        },
+        {
+          "id": "S2E9",
+          "sourceId": "fd6f3749ed97bdba",
+          "quote": "She also appeared in 1998’s “Clay Pigeons” with Joaquin Phoenix, Vince Vaughn and Janaene Garofalo, in addition to “Jackass Presents: Bad Grandpa” and “Everlasting,” among"
+        },
+        {
+          "id": "S2E11",
+          "sourceId": "fd6f3749ed97bdba",
+          "quote": "“My beautiful, free-spirited mom lived a hard life and still found ways to make herself and others laugh and smile <3 now she can rest"
+        },
+        {
+          "id": "S2E14",
+          "sourceId": "fd6f3749ed97bdba",
+          "quote": "“I will always see you in black and white photos, Virginia slims, baggy clothes, no bras, big sunglasses, doodling while talking, pleasers, and flip flops"
+        },
+        {
+          "id": "S2E15",
+          "sourceId": "fd6f3749ed97bdba",
+          "quote": "and everything in between."
+        }
+      ],
+      "posts": [
+        {
+          "postId": "post-20261018T172715Z-7712-6",
+          "evidenceIds": [
+            "S2E1",
+            "S2E2",
+            "S2E3",
+            "S2E5",
+            "S2E9",
+            "S2E11"
+          ],
+          "discussion": [
+            {
+              "turnIndex": 0,
+              "voice": "Take",
+              "evidenceIds": [
+                "S2E5"
+              ]
+            },
+            {
+              "turnIndex": 1,
+              "voice": "Pushback",
+              "evidenceIds": [
+                "S2E5",
+                "S2E1"
+              ]
+            },
+            {
+              "turnIndex": 2,
+              "voice": "Reply",
+              "evidenceIds": [
+                "S2E11",
+                "S2E14",
+                "S2E15"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,797 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-10-18",
+  "generationRun": "39149634407",
+  "checkout": "a0896ff1e9deabb294ba3592105ba502aee273a7",
+  "publicationCommit": "deeefe968e01ce7b7ca57b4b369a55c57e73b12c",
+  "deploymentRun": "39150760444",
+  "requestedModel": "deepseek/deepseek-v4.1-flash",
+  "resolvedWriterModel": "deepseek/deepseek-v4.1-flash",
+  "resolvedReviewerModel": "deepseek/deepseek-v4.1-flash",
+  "calls": 7,
+  "writerCalls": 3,
+  "reviewCalls": 4,
+  "reviewValidationRetries": 1,
+  "generatedDrafts": 8,
+  "publishedPosts": 7,
+  "publishedTurns": 15,
+  "withheldPosts": 1,
+  "elapsedMs": 840289,
+  "stopReason": "insufficient attempt budget for generation and review",
+  "artifact": {
+    "id": "12145510505",
+    "expiresAt": "2026-11-01T17:41:33Z"
+  },
+  "controlArtifact": {
+    "id": "12144637505",
+    "run": "39149494765",
+    "expiresAt": "2026-11-01T17:25:42Z"
+  },
+  "sourceRetrievals": [
+    {
+      "index": 0,
+      "url": "https://variety.com/2026/film/news/la-bola-negra-box-office-netflix-reports-grosses-1236915765/",
+      "title": "Box Office: ‘La Bola Negra’ Scores $277,500 From Four Theaters as Netflix Reports Grosses for First Time Ever",
+      "status": 200,
+      "retrievedAt": "2026-10-18T17:43:35.647Z",
+      "pageSha256": "90b63c0ca4e07641667ef9faaf40cf3eac5b250556ff0fe273a5ca3add6e4edf",
+      "sections": 4,
+      "characters": 3146,
+      "exactSelectedSupport": true,
+      "selectedSnippetCount": 12
+    },
+    {
+      "index": 1,
+      "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+      "title": "Anthropic gives outside AI watchdog “employee-like” access",
+      "status": 200,
+      "retrievedAt": "2026-10-18T17:43:35.772Z",
+      "pageSha256": "2956d87fbb6a9d1f33f6cd8aa30e9fc7e2ad16e1f8ca3809a6e41563cf26e3f5",
+      "sections": 0,
+      "characters": 0,
+      "exactSelectedSupport": false,
+      "selectedSnippetCount": 6
+    },
+    {
+      "index": 2,
+      "url": "https://www.pbs.org/newshour/world/photographer-attacked-by-settlers-in-the-west-bank-feels-insulted-by-netanyahu",
+      "title": "Photographer attacked by settlers in the West Bank feels insulted by Netanyahu",
+      "status": 200,
+      "retrievedAt": "2026-10-18T17:43:35.879Z",
+      "pageSha256": "740a1207fffdabb8554364a1927137489f46572b0f3211db0ce211504ece9e91",
+      "sections": 7,
+      "characters": 4781,
+      "exactSelectedSupport": true,
+      "selectedSnippetCount": 12
+    },
+    {
+      "index": 3,
+      "url": "https://theconversation.com/qanda-with-an-alberta-politics-expert-taking-the-provinces-pulse-on-the-eve-of-the-referendum-approaches-294417",
+      "title": "Q&A with an Alberta politics expert: Taking the province’s pulse on the eve of the referendum approaches",
+      "status": 200,
+      "retrievedAt": "2026-10-18T17:43:35.652Z",
+      "pageSha256": "b43a3c48dddf2eda9c2cdb3ebb5bec365b1f0de59e0cd3d5ce14055abb0cb0cd",
+      "sections": 0,
+      "characters": 0,
+      "exactSelectedSupport": false,
+      "selectedSnippetCount": 11
+    },
+    {
+      "index": 4,
+      "url": "https://www.pbs.org/newshour/world/pope-leo-tells-faithful-in-st-peters-square-he-will-gradually-resume-duties-after-cancer-surgery",
+      "title": "Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery",
+      "status": 200,
+      "retrievedAt": "2026-10-18T17:43:35.866Z",
+      "pageSha256": "ff101910e51dbdc6bc4b2779519811d49bd7286fa0a199ae39fcf9339e62ecd0",
+      "sections": 4,
+      "characters": 4074,
+      "exactSelectedSupport": true,
+      "selectedSnippetCount": 11
+    },
+    {
+      "index": 5,
+      "url": "https://www.bbc.co.uk/news/articles/c6y8ln9831v3o",
+      "title": "'I took a chance on the whisky industry and I haven't looked back'",
+      "status": 200,
+      "retrievedAt": "2026-10-18T17:43:35.682Z",
+      "pageSha256": "599e94c2bc53d128c482d5ff0befd9f27c0041f00d796492ed7505cabad42ecd",
+      "sections": 5,
+      "characters": 3278,
+      "exactSelectedSupport": true,
+      "selectedSnippetCount": 12
+    },
+    {
+      "index": 6,
+      "url": "https://theconversation.com/how-canada-can-better-track-what-happens-to-trafficked-wildlife-after-theyre-seized-293935",
+      "title": "How Canada can better track what happens to trafficked wildlife after they’re seized",
+      "status": 200,
+      "retrievedAt": "2026-10-18T17:43:35.657Z",
+      "pageSha256": "7308ab7b8b4e27e400690ad6767bffbe608d520bf2864e623a05f43f754d9818",
+      "sections": 0,
+      "characters": 0,
+      "exactSelectedSupport": false,
+      "selectedSnippetCount": 11
+    },
+    {
+      "index": 7,
+      "url": "https://variety.com/2026/film/news/georgina-cates-dead-awfully-big-adventure-2point4-children-1236915784/",
+      "title": "Georgina Cates, ‘An Awfully Big Adventure’ and ‘2point4 Children’ Actress, Dies at 51",
+      "status": 200,
+      "retrievedAt": "2026-10-18T17:43:35.718Z",
+      "pageSha256": "d420e7d7e416022157030e39e230104882cccdcd65774d27e279bbd92bf1daf0",
+      "sections": 4,
+      "characters": 1830,
+      "exactSelectedSupport": true,
+      "selectedSnippetCount": 8
+    }
+  ],
+  "verification": {
+    "batchId": "20261018T172715Z-7712",
+    "liveBatchMatches": true,
+    "supportSha256": "0efe3fd77c91f79cad8fe639b0e586e24681abafae22ca975f6c0ab0f3a1e873",
+    "reviewSha256": "78cd5969a3560c173335a2dcec5f97b8d725db2c8e02bfb2a5236d0a6ccc9c77",
+    "supportChecks": [
+      {
+        "url": "https://variety.com/2026/film/news/la-bola-negra-box-office-netflix-reports-grosses-1236915765/",
+        "method": "production publisher adapter",
+        "selectedSnippets": 12,
+        "exactMatch": true
+      },
+      {
+        "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+        "method": "manual paragraph extraction of retrieved publisher page; not production adapter",
+        "selectedSnippets": 6,
+        "exactMatch": true
+      },
+      {
+        "url": "https://www.pbs.org/newshour/world/photographer-attacked-by-settlers-in-the-west-bank-feels-insulted-by-netanyahu",
+        "method": "production publisher adapter",
+        "selectedSnippets": 12,
+        "exactMatch": true
+      },
+      {
+        "url": "https://theconversation.com/qanda-with-an-alberta-politics-expert-taking-the-provinces-pulse-on-the-eve-of-the-referendum-approaches-294417",
+        "method": "manual paragraph extraction of retrieved publisher page; not production adapter",
+        "selectedSnippets": 11,
+        "exactMatch": true
+      },
+      {
+        "url": "https://www.pbs.org/newshour/world/pope-leo-tells-faithful-in-st-peters-square-he-will-gradually-resume-duties-after-cancer-surgery",
+        "method": "production publisher adapter",
+        "selectedSnippets": 11,
+        "exactMatch": true
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/c6y8ln9831v3o",
+        "method": "production publisher adapter",
+        "selectedSnippets": 12,
+        "exactMatch": true
+      },
+      {
+        "url": "https://theconversation.com/how-canada-can-better-track-what-happens-to-trafficked-wildlife-after-theyre-seized-293935",
+        "method": "manual paragraph extraction of retrieved publisher page; not production adapter",
+        "selectedSnippets": 11,
+        "exactMatch": true
+      },
+      {
+        "url": "https://variety.com/2026/film/news/georgina-cates-dead-awfully-big-adventure-2point4-children-1236915784/",
+        "method": "production publisher adapter",
+        "selectedSnippets": 8,
+        "exactMatch": true
+      }
+    ],
+    "checks": [
+      {
+        "postId": "post-20261018T172715Z-7712-0",
+        "title": "Netflix Reported Box Office for the First Time, and the First Number Is $69,375 a Screen",
+        "digest": "80d4a96cb0b1d4c8a802f19a9ced399c3aae3289b7c73f3aa3106f0af9ba64e3",
+        "articleUrl": "https://ariesyous.github.io/openfeed/p/netflix-reported-box-office-for-the-first-time-and-the-first-number-is--706f73742d3230323631303138543137323731355a2d373731322d30/",
+        "httpStatus": 200,
+        "allDiscussionTextPresent": true,
+        "bodyWords": 103,
+        "discussionWords": 104,
+        "bodyEvidenceIds": [
+          "S3E1",
+          "S3E6",
+          "S3E7",
+          "S3E8",
+          "S3E12",
+          "S3E13"
+        ],
+        "discussion": [
+          {
+            "turnIndex": 0,
+            "voice": "Take",
+            "evidenceIds": [
+              "S3E11",
+              "S3E16",
+              "S3E17"
+            ]
+          },
+          {
+            "turnIndex": 1,
+            "voice": "Pushback",
+            "evidenceIds": [
+              "S3E5",
+              "S3E9",
+              "S3E10"
+            ]
+          }
+        ],
+        "leakedEvidenceMarkers": true
+      },
+      {
+        "postId": "post-20261018T172715Z-7712-1",
+        "title": "Anthropic Gives METR a Desk Inside the Lab, With Access to Its Hardware and Systems",
+        "digest": "dd3f78f394e2ea3f5c124302aa7cd17b6444fb217be553a95af9a871bceb4e4f",
+        "articleUrl": "https://ariesyous.github.io/openfeed/p/anthropic-gives-metr-a-desk-inside-the-lab-with-access-to-its-hardware--706f73742d3230323631303138543137323731355a2d373731322d31/",
+        "httpStatus": 200,
+        "allDiscussionTextPresent": true,
+        "bodyWords": 112,
+        "discussionWords": 97,
+        "bodyEvidenceIds": [
+          "S5E1",
+          "S5E2",
+          "S5E3",
+          "S5E4",
+          "S5E5",
+          "S5E6"
+        ],
+        "discussion": [
+          {
+            "turnIndex": 0,
+            "voice": "Take",
+            "evidenceIds": [
+              "S5E1",
+              "S5E3",
+              "S5E4"
+            ]
+          },
+          {
+            "turnIndex": 1,
+            "voice": "Pushback",
+            "evidenceIds": [
+              "S5E5",
+              "S5E6"
+            ]
+          }
+        ],
+        "leakedEvidenceMarkers": true
+      },
+      {
+        "postId": "post-20261018T172715Z-7712-2",
+        "title": "Why Alberta Separatism Went Looking for a Party to Borrow",
+        "digest": "92a879e3c18464e8a5d2ed099651c4a2c718c6671db7f87aae7dc10f28851d42",
+        "articleUrl": "https://ariesyous.github.io/openfeed/p/why-alberta-separatism-went-looking-for-a-party-to-borrow--706f73742d3230323631303138543137323731355a2d373731322d32/",
+        "httpStatus": 200,
+        "allDiscussionTextPresent": true,
+        "bodyWords": 93,
+        "discussionWords": 119,
+        "bodyEvidenceIds": [
+          "S6E1",
+          "S6E2",
+          "S6E5",
+          "S6E7",
+          "S6E8",
+          "S6E10"
+        ],
+        "discussion": [
+          {
+            "turnIndex": 0,
+            "voice": "Take",
+            "evidenceIds": [
+              "S6E23",
+              "S6E12",
+              "S6E13"
+            ]
+          },
+          {
+            "turnIndex": 1,
+            "voice": "Pushback",
+            "evidenceIds": [
+              "S6E16",
+              "S6E18"
+            ]
+          }
+        ],
+        "leakedEvidenceMarkers": true
+      },
+      {
+        "postId": "post-20261018T172715Z-7712-3",
+        "title": "Pope Leo XIV Thanks the Faithful Four Days After Lung Surgery",
+        "digest": "49c039bb413a6d44ca885b05afe569638918f85865395704ef5e98ed8060ef2e",
+        "articleUrl": "https://ariesyous.github.io/openfeed/p/pope-leo-xiv-thanks-the-faithful-four-days-after-lung-surgery--706f73742d3230323631303138543137323731355a2d373731322d33/",
+        "httpStatus": 200,
+        "allDiscussionTextPresent": true,
+        "bodyWords": 59,
+        "discussionWords": 116,
+        "bodyEvidenceIds": [
+          "S5E1",
+          "S5E7",
+          "S5E8",
+          "S5E9",
+          "S5E10"
+        ],
+        "discussion": [
+          {
+            "turnIndex": 0,
+            "voice": "Take",
+            "evidenceIds": [
+              "S5E2",
+              "S5E3",
+              "S5E11"
+            ]
+          },
+          {
+            "turnIndex": 1,
+            "voice": "Pushback",
+            "evidenceIds": [
+              "S5E12",
+              "S5E14",
+              "S5E15"
+            ]
+          }
+        ],
+        "leakedEvidenceMarkers": false
+      },
+      {
+        "postId": "post-20261018T172715Z-7712-4",
+        "title": "Zoey Darnbrough Didn't Know Her Hometown Had a Distillery. Now She Co-ordinates Its Tourism",
+        "digest": "52cb75cbb6d922f4ae5fed167615d61fcdce440038bacd0146439e32a795ea3f",
+        "articleUrl": "https://ariesyous.github.io/openfeed/p/zoey-darnbrough-didn-t-know-her-hometown-had-a-distillery-now-she-co-o--706f73742d3230323631303138543137323731355a2d373731322d34/",
+        "httpStatus": 200,
+        "allDiscussionTextPresent": true,
+        "bodyWords": 98,
+        "discussionWords": 130,
+        "bodyEvidenceIds": [
+          "S2E1",
+          "S2E2",
+          "S2E20",
+          "S2E8",
+          "S2E3",
+          "S2E19"
+        ],
+        "discussion": [
+          {
+            "turnIndex": 0,
+            "voice": "Take",
+            "evidenceIds": [
+              "S2E6",
+              "S2E13",
+              "S2E22"
+            ]
+          },
+          {
+            "turnIndex": 1,
+            "voice": "Pushback",
+            "evidenceIds": [
+              "S2E14",
+              "S2E15",
+              "S2E4"
+            ]
+          }
+        ],
+        "leakedEvidenceMarkers": false
+      },
+      {
+        "postId": "post-20261018T172715Z-7712-5",
+        "title": "The Turtles Mailed as Building Blocks, and the Canadian Law That Stops Asking After That",
+        "digest": "7d83aec496d9177dc7e9f4d10c0b6ce6b68d151067932b5da0efcb72c730bc86",
+        "articleUrl": "https://ariesyous.github.io/openfeed/p/the-turtles-mailed-as-building-blocks-and-the-canadian-law-that-stops--706f73742d3230323631303138543137323731355a2d373731322d35/",
+        "httpStatus": 200,
+        "allDiscussionTextPresent": true,
+        "bodyWords": 81,
+        "discussionWords": 110,
+        "bodyEvidenceIds": [
+          "S7E1",
+          "S7E2",
+          "S7E6",
+          "S7E7",
+          "S7E10"
+        ],
+        "discussion": [
+          {
+            "turnIndex": 0,
+            "voice": "Context",
+            "evidenceIds": [
+              "S7E11",
+              "S7E12",
+              "S7E5"
+            ]
+          },
+          {
+            "turnIndex": 1,
+            "voice": "Reply",
+            "evidenceIds": [
+              "S7E17",
+              "S7E21",
+              "S7E22"
+            ]
+          }
+        ],
+        "leakedEvidenceMarkers": false
+      },
+      {
+        "postId": "post-20261018T172715Z-7712-6",
+        "title": "A June Instagram Post, an October Report: Georgina Cates Was 51",
+        "digest": "b6030d1fcf872fdd3f78b4f233293bae98c6c0929674b4c0d9373c635270f0d3",
+        "articleUrl": "https://ariesyous.github.io/openfeed/p/a-june-instagram-post-an-october-report-georgina-cates-was-51--706f73742d3230323631303138543137323731355a2d373731322d36/",
+        "httpStatus": 200,
+        "allDiscussionTextPresent": true,
+        "bodyWords": 196,
+        "discussionWords": 127,
+        "bodyEvidenceIds": [
+          "S2E1",
+          "S2E2",
+          "S2E3",
+          "S2E5",
+          "S2E9",
+          "S2E11"
+        ],
+        "discussion": [
+          {
+            "turnIndex": 0,
+            "voice": "Take",
+            "evidenceIds": [
+              "S2E5"
+            ]
+          },
+          {
+            "turnIndex": 1,
+            "voice": "Pushback",
+            "evidenceIds": [
+              "S2E5",
+              "S2E1"
+            ]
+          },
+          {
+            "turnIndex": 2,
+            "voice": "Reply",
+            "evidenceIds": [
+              "S2E11",
+              "S2E14",
+              "S2E15"
+            ]
+          }
+        ],
+        "leakedEvidenceMarkers": false
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "postIndex": 0,
+      "disposition": "revise_presentation",
+      "title": "Literal Netflix actor and per-screen figure agree with selected source support; no speaker substitution found.",
+      "bodyClaims": [
+        {
+          "claim": "First disclosure, film, gross and four-screen average",
+          "ids": [
+            "S3E1",
+            "S3E6"
+          ],
+          "finding": "supported"
+        },
+        {
+          "claim": "Planned 45-day run and December 2 Netflix release",
+          "ids": [
+            "S3E7",
+            "S3E8"
+          ],
+          "finding": "supported; plan remains a plan"
+        },
+        {
+          "claim": "Second-highest non-English screen average and Parasite comparison",
+          "ids": [
+            "S3E12",
+            "S3E13"
+          ],
+          "finding": "supported"
+        }
+      ],
+      "discussion": [
+        {
+          "turn": 0,
+          "finding": "Adds awards-publicity interpretation using selected Oscar and reporting premises. The hit-or-miss certainty is the source's own rhetorical claim; attribution would distinguish it from an objective rule."
+        },
+        {
+          "turn": 1,
+          "finding": "Responds with selective disclosure and the studio's control of its story; supported history, recognizable interpretation."
+        }
+      ],
+      "issues": [
+        "Raw evidence IDs appear in body prose.",
+        "Final sentence repeats the first-disclosure premise without adding a payoff."
+      ]
+    },
+    {
+      "postIndex": 1,
+      "disposition": "revise_presentation_and_context",
+      "title": "Anthropic is the correct actor; desk is a defensible metaphor for the embedded team, not an invented attributed quote.",
+      "bodyClaims": [
+        {
+          "claim": "Employee-like access and safeguard commitment",
+          "ids": [
+            "S5E1",
+            "S5E2"
+          ],
+          "finding": "supported"
+        },
+        {
+          "claim": "METR nonprofit, previous lab relationships, embedded team and hardware/systems access",
+          "ids": [
+            "S5E3",
+            "S5E4"
+          ],
+          "finding": "supported"
+        },
+        {
+          "claim": "External evaluation proposed in response to growing risk concerns",
+          "ids": [
+            "S5E5",
+            "S5E6"
+          ],
+          "finding": "supported"
+        }
+      ],
+      "discussion": [
+        {
+          "turn": 0,
+          "finding": "Develops access beyond a normal product interface. API-key contrast is rhetorical, not a claim that the team has no API credentials."
+        },
+        {
+          "turn": 1,
+          "finding": "A legitimate independence question, but the full page supplies material safeguards absent from the discussion: no Anthropic payment, no AI-company/staff donations, no publication veto, with specified redaction rights. The debate is under-informed without them; these details need selected evidence before use."
+        }
+      ],
+      "issues": [
+        "Raw evidence IDs in body.",
+        "The fuller source substantially informs the independence question but the exchange does not use that qualification."
+      ]
+    },
+    {
+      "postIndex": 2,
+      "disposition": "revise_presentation",
+      "title": "Party-to-borrow metaphor fairly summarizes Wesley's attributed account; no false quotation or speaker shift.",
+      "bodyClaims": [
+        {
+          "claim": "October 19 referendum",
+          "ids": [
+            "S6E1",
+            "S6E2"
+          ],
+          "finding": "supported by source; not independently verified"
+        },
+        {
+          "claim": "Failed Western Canadian separatist parties",
+          "ids": [
+            "S6E5"
+          ],
+          "finding": "supported as Wesley's account"
+        },
+        {
+          "claim": "Organizers looking at US/UK movements and entering mainstream governing parties",
+          "ids": [
+            "S6E7",
+            "S6E8",
+            "S6E10"
+          ],
+          "finding": "supported and attributed to Wesley"
+        }
+      ],
+      "discussion": [
+        {
+          "turn": 0,
+          "finding": "Poll range and Take Back Alberta attribution supported. Agenda-setting inference is labelled suggests; never the vote is too categorical about organizers' intent and would benefit from less absolute wording."
+        },
+        {
+          "turn": 1,
+          "finding": "Adds the ten-question/five-immigration detail and Wesley's wording criticism. Clear response about the difference between agenda access and ballot clarity."
+        }
+      ],
+      "issues": [
+        "Raw evidence IDs in body.",
+        "Consider narrowing the speculative never-the-vote motive claim."
+      ]
+    },
+    {
+      "postIndex": 3,
+      "disposition": "tighten_discussion_contrast",
+      "title": "Pope as speaker and four-day interval match the reporting. Source later says Tuesday surgery while reporting Sunday appearance, an internal calendar inconsistency not resolved by this audit.",
+      "bodyClaims": [
+        {
+          "claim": "Thanks, prayers, malignant-tumour operation and gradual return to duties",
+          "ids": [
+            "S5E1",
+            "S5E7",
+            "S5E8"
+          ],
+          "finding": "supported"
+        },
+        {
+          "claim": "Strong voice four days after lower-right lung lobe removal",
+          "ids": [
+            "S5E9",
+            "S5E10"
+          ],
+          "finding": "matches source wording; source date inconsistency noted separately"
+        }
+      ],
+      "discussion": [
+        {
+          "turn": 0,
+          "finding": "Adds the prior week's announcement and a visitor's miracle reaction. Whole page confirms visitor identity; selected S5E11 only carries the miracle sentence, so that attribution lacks its selected surrounding sentence."
+        },
+        {
+          "turn": 1,
+          "finding": "Gratitude and solidarity are supported, but rather than a claim about his own recovery overstates the contrast: the same source reports the pope saying the delicate phase is behind him and that he is doing much better. Prefer gradual resumption versus a visitor's miracle interpretation."
+        }
+      ],
+      "issues": [
+        "Overstrong rhetorical contrast about recovery.",
+        "Selected support does not include the visitor attribution around the quoted reaction."
+      ]
+    },
+    {
+      "postIndex": 4,
+      "disposition": "retain_editorially_repair_support_selection",
+      "title": "Correct person, lack of prior awareness, and current tourism role. Hometown versus near Annan is loose geographical compression, not a changed actor.",
+      "bodyClaims": [
+        {
+          "claim": "Unaware of distillery near southern Scotland hometown; two initial reactions",
+          "ids": [
+            "S2E1",
+            "S2E2",
+            "S2E20"
+          ],
+          "finding": "supported"
+        },
+        {
+          "claim": "Tour guide to tourism/events coordinator, award nomination, changing opinions",
+          "ids": [
+            "S2E8",
+            "S2E3",
+            "S2E19"
+          ],
+          "finding": "supported; nomination is not promoted to a win"
+        }
+      ],
+      "discussion": [
+        {
+          "turn": 0,
+          "finding": "Good qualification: discrimination concerns coexist with mostly pleasant personal experience. Selected S2E6 and S2E22 stop mid-sentence; the latter's omitted tail supplies the struggles-other-people-face clause. Whole page agrees, but selection should include the complete qualification."
+        },
+        {
+          "turn": 1,
+          "finding": "Adds return migration and regional career retention, supported by Stirling/Dumfries-and-Galloway and young-people-leaving evidence. Responds with a different practical angle."
+        }
+      ],
+      "issues": [
+        "Incomplete selected sentence group in the first turn, despite sound source-level meaning."
+      ]
+    },
+    {
+      "postIndex": 5,
+      "disposition": "revise_support_and_title_precision",
+      "title": "Personification is permissible, but law stops asking is broader than the source's lack of mandatory public reporting. Selected title/body IDs establish the seizure and placements, not the reporting-law premise.",
+      "bodyClaims": [
+        {
+          "claim": "2022 interception from China labelled building blocks",
+          "ids": [
+            "S7E1",
+            "S7E2"
+          ],
+          "finding": "supported"
+        },
+        {
+          "claim": "63 turtles and 58 eggs seized from Calgary online seller, according to ECCC",
+          "ids": [
+            "S7E6",
+            "S7E7"
+          ],
+          "finding": "supported"
+        },
+        {
+          "claim": "Two turtles to Calgary Zoo, remainder to Ontario sanctuary, eggs euthanized",
+          "ids": [
+            "S7E10"
+          ],
+          "finding": "supported"
+        }
+      ],
+      "discussion": [
+        {
+          "turn": 0,
+          "finding": "Adds legal history. 1992/2009 and property framing selected; 2017 commencement and thing language absent from this turn's selected IDs. Both are on the full page; thing appears in the other turn's support, which cannot support this turn."
+        },
+        {
+          "turn": 1,
+          "finding": "Adds a reform proposal, but its factual premises about limited review, accreditation and policy rather than statute are not in S7E17/S7E21/S7E22. They are on the full page. Reviewer approved with irrelevant support IDs, contrary to the per-unit contract."
+        }
+      ],
+      "issues": [
+        "Clear selected-support overreach in title and both turns.",
+        "Readable explainer, but the exchange is more sequential explanation than banter."
+      ]
+    },
+    {
+      "postIndex": 6,
+      "disposition": "revise_support_and_length",
+      "title": "June announcement, October report and age agree with source. Does not imply an October death.",
+      "bodyClaims": [
+        {
+          "claim": "Death at 51; 1991 TV role; 1995 and 1998 film credits; later titles",
+          "ids": [
+            "S2E1",
+            "S2E2",
+            "S2E3",
+            "S2E9"
+          ],
+          "finding": "supported"
+        },
+        {
+          "claim": "Daughter's June announcement not previously reported",
+          "ids": [
+            "S2E5"
+          ],
+          "finding": "supported as Variety's report; month-level gap follows publication date"
+        },
+        {
+          "claim": "Daughter's characterization of mother as free-spirited, hard life, laughter",
+          "ids": [
+            "S2E11"
+          ],
+          "finding": "supported"
+        },
+        {
+          "claim": "Children's names/twin relationship and marriage, birth year/place, Los Angeles move",
+          "ids": [],
+          "finding": "Present in full source but absent from body-selected IDs"
+        },
+        {
+          "claim": "Tribute's list of visual details",
+          "ids": [],
+          "finding": "Full source agrees; S2E14/S2E15 belong to final discussion turn, not body-selected IDs"
+        }
+      ],
+      "discussion": [
+        {
+          "turn": 0,
+          "finding": "Extends the publication gap into a thought about public mourning and press attention; source premise retained."
+        },
+        {
+          "turn": 1,
+          "finding": "Useful challenge: different media perform different functions, so delay is not a popularity score."
+        },
+        {
+          "turn": 2,
+          "finding": "Adds specificity of family remembrance versus filmography; only her daughter is recognizable rhetorical appreciation, not a literal exclusivity claim requiring proof."
+        }
+      ],
+      "issues": [
+        "Long, single-paragraph body carries more biographical detail than its selected IDs support.",
+        "Third turn contributes, but the body already rehearses its visual-list point; tighter body would give it more payoff."
+      ]
+    }
+  ],
+  "withheldReview": {
+    "reviewIndex": 0,
+    "postKey": "P3",
+    "reason": "misattribution",
+    "target": "discussion.1",
+    "claim": "the loudest demand Levine cites comes from the U.S. ambassador",
+    "manualFinding": "Rejection justified: the source reports the ambassador separately; it does not establish Levine cited his demand. Full rejected draft was not retained, so this review is limited to the audit fragment, title and selected support."
+  },
+  "browserVerification": {
+    "expandedWithoutClick": true,
+    "collapseAndReopen": true,
+    "spoilerProtection": "covered by unit tests; no new live spoiler assertion"
+  },
+  "limitations": [
+    "Manual publisher-agreement audit, not independent real-world fact verification.",
+    "Controls mirror prompt examples; not an unseen general accuracy benchmark.",
+    "Fresh-run title attribution had no clear wrong-speaker case; live rejection was in discussion.",
+    "Reviewer still approves claims using full context or other turns instead of the exact unit-selected IDs.",
+    "No historical or fresh prose edited by this audit. Scheduled/free-router cohort counts unchanged."
+  ]
+}

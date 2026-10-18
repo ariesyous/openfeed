@@ -1,0 +1,477 @@
+{
+  "schemaVersion": 2,
+  "synthetic": true,
+  "scope": "Four deliberately wrong controls and four supported or opinionated counterparts across two bounded suites; no publication.",
+  "elapsedMs": 16487,
+  "passed": true,
+  "suites": [
+    {
+      "name": "reversal_and_unsupported_absolute",
+      "requestedModel": "deepseek/deepseek-v4.1-flash",
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "attempts": 1,
+      "expectedRejected": [
+        "P1",
+        "P2"
+      ],
+      "actualRejected": [
+        "P1",
+        "P2"
+      ],
+      "passed": true,
+      "decisions": {
+        "posts": [
+          {
+            "key": "P1",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Descriptive headline; it makes no claim attributed to any actor and matches the source's theme of a mistaken expectation.",
+                "evidenceIds": [
+                  "S1E1"
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Directly matches S1E1: the prevention officer says children expect dangerous people to be nasty from the start.",
+                "evidenceIds": [
+                  "S1E1"
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "reject",
+                "reason": "reversed_fact",
+                "claim": "The officer says children expect friendliness at the start rather than nastiness.",
+                "explanation": "S1E1 has the officer saying children expect dangerous people to be NASTY from the start. This turn reverses it to friendliness, and a friendly opening is not what children expect per the source; it is presented as the unexpected case.",
+                "evidenceIds": [
+                  "S1E1"
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "A preference about teaching boundaries; its premise (children expect obvious villainy) rests on the supported source claim.",
+                "evidenceIds": [
+                  "S1E1"
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "A misleading expectation of danger",
+              "titleActor": null,
+              "sourceActor": null,
+              "sourceEvidenceId": null,
+              "relation": "no_attributed_claim"
+            }
+          },
+          {
+            "key": "P2",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Descriptive phrase about referrals; assigns no action or evaluation to an actor, and matches the source topic.",
+                "evidenceIds": [
+                  "S2E1"
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Both lines track S2E1 and S2E2 exactly: professional referrers who know the families, and applications from teachers, doctors and social workers.",
+                "evidenceIds": [
+                  "S2E1",
+                  "S2E2"
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "A subjective preference for referrers who know the family, grounded in the supported S2E1 premise.",
+                "evidenceIds": [
+                  "S2E1"
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "reject",
+                "reason": "unsupported_claim",
+                "claim": "A household out of contact with these professionals has no route to help at all.",
+                "explanation": "The sources only say the charity works through professional referrers and considers teacher/doctor/social-worker applications. They never establish that being out of contact with these professionals leaves no possible route to help.",
+                "evidenceIds": [
+                  "S2E1",
+                  "S2E2"
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "Knowing the family through a professional referral",
+              "titleActor": null,
+              "sourceActor": null,
+              "sourceEvidenceId": null,
+              "relation": "no_attributed_claim"
+            }
+          },
+          {
+            "key": "P3",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Descriptive headline with no attributed actor; consistent with the source's mistaken-expectation theme.",
+                "evidenceIds": [
+                  "S1E1"
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Matches S1E1 word for word in meaning: children often expect dangerous people to be nasty from the start.",
+                "evidenceIds": [
+                  "S1E1"
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "Hedged ('may') reading of the supported premise, with a joke about the costume; no new unsupported empirical assertion.",
+                "evidenceIds": [
+                  "S1E1"
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "A boundary-teaching preference whose premise rests on the supported expectation of obvious villainy.",
+                "evidenceIds": [
+                  "S1E1"
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "A misleading expectation of danger",
+              "titleActor": null,
+              "sourceActor": null,
+              "sourceEvidenceId": null,
+              "relation": "no_attributed_claim"
+            }
+          },
+          {
+            "key": "P4",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Descriptive phrase about referral-based knowledge; no actor claim, and consistent with the source.",
+                "evidenceIds": [
+                  "S2E1"
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Both lines faithfully restate S2E1 and S2E2 without adding facts.",
+                "evidenceIds": [
+                  "S2E1",
+                  "S2E2"
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "Subjective appreciation of knowing referrers, grounded in the supported S2E1 premise.",
+                "evidenceIds": [
+                  "S2E1"
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "A clearly hedged ('may') critical inference about blind spots, a new perspective consistent with the referral-based sources; not asserted as established fact.",
+                "evidenceIds": [
+                  "S2E1",
+                  "S2E2"
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "Knowing the family through a professional referral",
+              "titleActor": null,
+              "sourceActor": null,
+              "sourceEvidenceId": null,
+              "relation": "no_attributed_claim"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "title_attribution_and_editorial_voice",
+      "requestedModel": "deepseek/deepseek-v4.1-flash",
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "attempts": 1,
+      "expectedRejected": [
+        "P1",
+        "P2"
+      ],
+      "actualRejected": [
+        "P1",
+        "P2"
+      ],
+      "passed": true,
+      "decisions": {
+        "posts": [
+          {
+            "key": "P1",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "reject",
+                "reason": "misattribution",
+                "claim": "the Documentary That Praises Quiet Resilience",
+                "explanation": "The relative clause assigns the praise to the documentary, but S1E2 assigns it to the festival jury, which praised the family's resilience. The film received the award; the source never says the documentary itself praises anyone.",
+                "evidenceIds": [
+                  "S1E2"
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Both sentences match S1E1 (jury gave The Long Road an award) and S1E2 (jury praised the family's quiet resilience).",
+                "evidenceIds": [
+                  "S1E1",
+                  "S1E2"
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "A stated preference about awards starting arguments; the factual premise that the jury gave an award and praised resilience is supported by S1E1/S1E2.",
+                "evidenceIds": [
+                  "S1E1",
+                  "S1E2"
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "Expresses a subjective wish that quiet not be equated with passivity; no unsupported empirical claim, premise of jury praise drawn from S1E2.",
+                "evidenceIds": [
+                  "S1E2"
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "A Prize for the Documentary That Praises Quiet Resilience",
+              "titleActor": "the Documentary",
+              "sourceActor": "The jury",
+              "sourceEvidenceId": "S1E2",
+              "relation": "mismatch"
+            }
+          },
+          {
+            "key": "P2",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "reject",
+                "reason": "misattribution",
+                "claim": "The Director Praises the Family's Quiet Resilience",
+                "explanation": "The title credits the director with the praise of the family's quiet resilience, but S1E2 attributes that praise to the festival jury. No director appears anywhere in the selected evidence.",
+                "evidenceIds": [
+                  "S1E2"
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Both sentences match S1E1 and S1E2; the jury both gave the award and praised the family's resilience.",
+                "evidenceIds": [
+                  "S1E1",
+                  "S1E2"
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "Subjective preference about awards opening debate; supported premise from S1E1/S1E2.",
+                "evidenceIds": [
+                  "S1E1",
+                  "S1E2"
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "A subjective caution about dignity versus passivity; premise of the jury's praise is supported by S1E2.",
+                "evidenceIds": [
+                  "S1E2"
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "The Director Praises the Family's Quiet Resilience",
+              "titleActor": "The Director",
+              "sourceActor": "The jury",
+              "sourceEvidenceId": "S1E2",
+              "relation": "mismatch"
+            }
+          },
+          {
+            "key": "P3",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Jury as praiser matches S1E2, quiet resilience matches 'the family's quiet resilience,' and the award status matches S1E1.",
+                "evidenceIds": [
+                  "S1E1",
+                  "S1E2"
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Both sentences match S1E1 and S1E2 exactly in actor, action and object.",
+                "evidenceIds": [
+                  "S1E1",
+                  "S1E2"
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "A stated preference about awards provoking debate; factual premise supported by the jury award and praise in S1E1/S1E2.",
+                "evidenceIds": [
+                  "S1E1",
+                  "S1E2"
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "Subjective view that quiet should not be an obligation; no unsupported empirical claim, premise from S1E2.",
+                "evidenceIds": [
+                  "S1E2"
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "Jury Praises Quiet Resilience in Award-Winning Documentary",
+              "titleActor": "Jury",
+              "sourceActor": "The jury",
+              "sourceEvidenceId": "S1E2",
+              "relation": "aligned"
+            }
+          },
+          {
+            "key": "P4",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "A playful editorial slogan rather than a report of what anyone said; its premise (quiet resilience and an award) rests on S1E1/S1E2.",
+                "evidenceIds": [
+                  "S1E1",
+                  "S1E2"
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Both sentences match S1E1 (jury gave The Long Road an award) and S1E2 (jury praised the family's quiet resilience).",
+                "evidenceIds": [
+                  "S1E1",
+                  "S1E2"
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "A preference for awards that spark argument; the underlying jury award and praise are supported by S1E1/S1E2.",
+                "evidenceIds": [
+                  "S1E1",
+                  "S1E2"
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "A subjective caution against equating dignity with passivity; premise of jury praise comes from S1E2.",
+                "evidenceIds": [
+                  "S1E2"
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "Quiet Resilience Deserves a Louder Conversation",
+              "titleActor": null,
+              "sourceActor": null,
+              "sourceEvidenceId": null,
+              "relation": "no_attributed_claim"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
