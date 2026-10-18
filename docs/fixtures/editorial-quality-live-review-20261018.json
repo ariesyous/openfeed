@@ -1,0 +1,444 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-10-18",
+  "timezone": "America/New_York",
+  "scope": "Unblinded census of all six posts and 19 discussion turns; selected evidence and all six current publisher pages checked.",
+  "generatorCommit": "0c5af0ded1d80ff006102eeedaa71a09e89cc2c1",
+  "publicationCommit": "954232c7a0390836958ebb4bb92f0aec4810ae01",
+  "runId": 39098215670,
+  "event": "workflow_dispatch",
+  "model": "deepseek/deepseek-v4.1-flash",
+  "resolvedModels": [
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "codeDeployment": 39098121521,
+  "editionDeployment": 39098708103,
+  "artifact": {
+    "id": 12126050724,
+    "expiresAt": "2026-11-01T04:54:16Z",
+    "sha256": "31988e1d851eef0b2d12c6cf9b31ffbe73bb72751cf7f5388f3b7f7c8ab8e924"
+  },
+  "diagnostics": {
+    "unusedFeedCandidates": 27,
+    "contextCandidates": 9,
+    "acceptedSources": 7,
+    "availableEvergreen": 9,
+    "acceptedEvergreen": 0,
+    "ceiling": 8,
+    "posts": 6,
+    "attempts": 5,
+    "generatedDraftObjects": 6,
+    "providerFailures": 2,
+    "rejectedResponses": 0,
+    "discussionOmissions": 0,
+    "elapsedGenerationMs": 485093,
+    "stopReason": "insufficient unused evidence or publisher diversity"
+  },
+  "counts": {
+    "retain": 2,
+    "revise": 4,
+    "correct": 0,
+    "posts": 6,
+    "discussionTurns": 19,
+    "bodyWords": 667,
+    "discussionWords": 809,
+    "selectedSupportSnippets": 23
+  },
+  "limits": [
+    "Editorial decisions are subjective, not accuracy percentages.",
+    "Different-source, same-model editions do not isolate a causal improvement.",
+    "Selected support is not the whole live prompt; current evidence reconstruction is explicitly retrospective.",
+    "Publisher agreement is not independent verification of every real-world assertion.",
+    "Psyche video not watched; its description was checked.",
+    "Manual run; historical observation-gate counts remain unchanged.",
+    "No published content was corrected in this review."
+  ],
+  "posts": [
+    {
+      "postId": "post-20261018T044607Z-39d1-0",
+      "title": "The Free-Fruit Trial Judged by Wastage, Not Grocery Bills",
+      "articleUrl": "https://ariesyous.github.io/openfeed/p/the-free-fruit-trial-judged-by-wastage-not-grocery-bills--706f73742d3230323631303138543034343630375a2d333964312d30/",
+      "bodyWords": 102,
+      "discussionWords": 120,
+      "turns": 3,
+      "selectedBodySupportWords": 50,
+      "selectedSupportExactOnCurrentPage": true,
+      "selectedSupportCount": 3,
+      "sourceCharacters": 2332,
+      "sourceSections": 1,
+      "sourceUrls": [
+        "https://www.bbc.co.uk/news/articles/cqde8zk6d916o"
+      ],
+      "retrieval": {
+        "postId": "post-20261018T044607Z-39d1-0",
+        "url": "https://www.bbc.co.uk/news/articles/cqde8zk6d916o",
+        "status": 200,
+        "retrievedAt": "2026-10-18T04:55:55.239Z",
+        "sha256": "27a7b5e620e136f0a363a0a827770970837f2fa93eb1c75456d91b6c0515329f",
+        "sections": 1,
+        "textCharacters": 2332
+      },
+      "decision": "revise",
+      "payoff": "Competing measures of a school-food programme's success.",
+      "claims": [
+        [
+          "Trial ended with wastage given as the reason",
+          "supported",
+          "Chunk 1 S2E6 and BBC page."
+        ],
+        [
+          "Cost-of-living effects never entered the decision",
+          "attribution_overreach",
+          "S2E1–E2 establishes a politician's belief, not an independently established account of the decision."
+        ],
+        [
+          "Ending the trial removed the help being discussed",
+          "missing_material_context",
+          "The page reports fruit being incorporated into a different school-food programme; the post omits this."
+        ],
+        [
+          "The measurement conflict is how such disputes usually start",
+          "unsupported_generalization",
+          "The selected support covers this dispute, not the usual cause of policy disputes."
+        ]
+      ],
+      "discussion": [
+        [
+          0,
+          "mixed",
+          "Interesting visibility-versus-value lens, but assumes the programme was saving household money without selected evidence of actual savings."
+        ],
+        [
+          1,
+          "useful_reasoning",
+          "Directly challenges the first turn using reported wastage; its banana is an illustrative example, not an invented reported event."
+        ],
+        [
+          2,
+          "needs_qualification",
+          "Useful evaluation question, but says one side counts savings when the source reports a concern that savings were not measured."
+        ]
+      ]
+    },
+    {
+      "postId": "post-20261018T044607Z-39d1-1",
+      "title": "Starshield Loses the Connection Above 100 mph",
+      "articleUrl": "https://ariesyous.github.io/openfeed/p/starshield-loses-the-connection-above-100-mph--706f73742d3230323631303138543034343630375a2d333964312d31/",
+      "bodyWords": 111,
+      "discussionWords": 107,
+      "turns": 3,
+      "selectedBodySupportWords": 56,
+      "selectedSupportExactOnCurrentPage": true,
+      "selectedSupportCount": 3,
+      "sourceCharacters": 5866,
+      "sourceSections": 8,
+      "sourceUrls": [
+        "https://www.pbs.org/newshour/world/zelenskyy-urges-support-for-new-u-s-sanctions-on-russia-put-on-hold-by-trump"
+      ],
+      "retrieval": {
+        "postId": "post-20261018T044607Z-39d1-1",
+        "url": "https://www.pbs.org/newshour/world/zelenskyy-urges-support-for-new-u-s-sanctions-on-russia-put-on-hold-by-trump",
+        "status": 200,
+        "retrievedAt": "2026-10-18T04:55:55.411Z",
+        "sha256": "6c2dfc4b5fb48976a47a37e081dc14f97a356ec167a17ab0a32cb6b9d657224c",
+        "sections": 8,
+        "textCharacters": 5866
+      },
+      "decision": "revise",
+      "payoff": "A specific movement threshold interrupting connectivity in Ukraine.",
+      "claims": [
+        [
+          "Investigation, Starshield identity and operational role",
+          "supported",
+          "Chunk 1 S3E7–E8."
+        ],
+        [
+          "Connections cut above 160 kph / 100 mph without warning on Thursday",
+          "supported",
+          "Chunk 1 S3E17."
+        ],
+        [
+          "Bandwidth caps and data quotas are familiar controls",
+          "not_in_selected_support",
+          "Background introduced without a supporting ID; unnecessary to explain the reported threshold."
+        ],
+        [
+          "The filter selects by movement rather than user",
+          "overgeneralized_scope",
+          "Selected evidence describes one restriction, not the absence of other filters. The current page reports Ukraine-specific application."
+        ]
+      ],
+      "discussion": [
+        [
+          0,
+          "scope_overreach",
+          "The suggestion that identity does not matter is stronger than the evidence and overlooks the reported geographic restriction."
+        ],
+        [
+          1,
+          "useful_pushback",
+          "Separates intent from effect and correctly avoids asserting the designer's motive."
+        ],
+        [
+          2,
+          "reasonable_inference_with_support_gap",
+          "Dependence on another party is a useful lens. Ownership is not in its selected S3E7–E8; the current source separately attributes US government ownership/control to Musk."
+        ]
+      ]
+    },
+    {
+      "postId": "post-20261018T044607Z-39d1-2",
+      "title": "The Postwar Slump That Had Jimmy Stewart Eyeing the Family Store",
+      "articleUrl": "https://ariesyous.github.io/openfeed/p/the-postwar-slump-that-had-jimmy-stewart-eyeing-the-family-store--706f73742d3230323631303138543034343630375a2d333964312d32/",
+      "bodyWords": 96,
+      "discussionWords": 131,
+      "turns": 3,
+      "selectedBodySupportWords": 45,
+      "selectedSupportExactOnCurrentPage": true,
+      "selectedSupportCount": 3,
+      "sourceCharacters": 5383,
+      "sourceSections": 13,
+      "sourceUrls": [
+        "https://variety.com/2026/film/columns/kj-apa-jimmy-stewart-mr-fantasy-addictions-recovery-1236912309/"
+      ],
+      "retrieval": {
+        "postId": "post-20261018T044607Z-39d1-2",
+        "url": "https://variety.com/2026/film/columns/kj-apa-jimmy-stewart-mr-fantasy-addictions-recovery-1236912309/",
+        "status": 200,
+        "retrievedAt": "2026-10-18T04:55:55.362Z",
+        "sha256": "46da36c65a180987625dae2d9b46ac433e23ac5928f345a2f47a41b27045cd32",
+        "sections": 13,
+        "textCharacters": 5383
+      },
+      "decision": "retain",
+      "payoff": "Stewart considered his father's shop as a concrete alternative to acting.",
+      "claims": [
+        [
+          "Director and wartime subject of Jimmy",
+          "supported",
+          "Chunk 1 S5E2."
+        ],
+        [
+          "Postwar uncertainty and possible return to Indiana, Pennsylvania",
+          "supported",
+          "Chunk 1 S5E3 and S5E17; the current page confirms both."
+        ],
+        [
+          "A more difficult, melancholy dramatic shape than a simple ascent",
+          "editorial_interpretation",
+          "Recognizable criticism about the premise, not a claim to have watched the film."
+        ]
+      ],
+      "discussion": [
+        [
+          0,
+          "useful_interpretation",
+          "Frames a tension between service and career uncertainty. Hero is an evaluative description; the fuller source supplies wartime service details beyond the selected IDs."
+        ],
+        [
+          1,
+          "useful_pushback",
+          "Challenges the source's forgotten framing and focuses on the concrete fallback."
+        ],
+        [
+          2,
+          "useful_film_opinion",
+          "Develops what an actor would need to convey; does not claim the film achieved it."
+        ]
+      ]
+    },
+    {
+      "postId": "post-20261018T044607Z-39d1-3",
+      "title": "A Post Referencing Palestine Action Didn't Meet the Criminal Threshold, Police Say",
+      "articleUrl": "https://ariesyous.github.io/openfeed/p/a-post-referencing-palestine-action-didn-t-meet-the-criminal-threshold--706f73742d3230323631303138543034343630375a2d333964312d33/",
+      "bodyWords": 95,
+      "discussionWords": 97,
+      "turns": 3,
+      "selectedBodySupportWords": 51,
+      "selectedSupportExactOnCurrentPage": true,
+      "selectedSupportCount": 3,
+      "sourceCharacters": 1498,
+      "sourceSections": 1,
+      "sourceUrls": [
+        "https://www.bbc.co.uk/news/articles/cv8ez40yz950o"
+      ],
+      "retrieval": {
+        "postId": "post-20261018T044607Z-39d1-3",
+        "url": "https://www.bbc.co.uk/news/articles/cv8ez40yz950o",
+        "status": 200,
+        "retrievedAt": "2026-10-18T04:55:55.272Z",
+        "sha256": "9708f504fa0710213dd4091a460930069d83fb77d6d31c09a9c0b4b3ee46969a",
+        "sections": 1,
+        "textCharacters": 1498
+      },
+      "decision": "revise",
+      "payoff": "A police threshold assessment is distinct from approval of a statement.",
+      "claims": [
+        [
+          "No further action and specialist assessment",
+          "supported",
+          "Chunk 1 S1E1–E2 and S1E6."
+        ],
+        [
+          "Criminal threshold is distinct from wisdom or defensibility",
+          "reasonable_interpretation",
+          "Useful but repeated at length rather than developed with source detail."
+        ],
+        [
+          "Who spoke and what was said",
+          "missing_reader_context",
+          "The page names Sarah Helm and describes her statement and its context; none appears in the body."
+        ]
+      ],
+      "discussion": [
+        [
+          0,
+          "reasonable_but_repetitive",
+          "Restates the body's criminality-versus-defensibility distinction."
+        ],
+        [
+          1,
+          "overbroad_paraphrase",
+          "A decision not to pursue this post is narrower than saying the law had nothing to say about it."
+        ],
+        [
+          2,
+          "weak_addition",
+          "Offers an institutional rationale, but mostly repeats the threshold point and speaks generally about how files arise without supporting evidence."
+        ]
+      ]
+    },
+    {
+      "postId": "post-20261018T044607Z-39d1-4",
+      "title": "Bettany: We Hadn't Spoken in Years When the Texts Were Read in Court",
+      "articleUrl": "https://ariesyous.github.io/openfeed/p/bettany-we-hadn-t-spoken-in-years-when-the-texts-were-read-in-court--706f73742d3230323631303138543034343630375a2d333964312d34/",
+      "bodyWords": 144,
+      "discussionWords": 211,
+      "turns": 4,
+      "selectedBodySupportWords": 56,
+      "selectedSupportExactOnCurrentPage": true,
+      "selectedSupportCount": 9,
+      "sourceCharacters": 1952,
+      "sourceSections": 2,
+      "sourceUrls": [
+        "https://variety.com/2026/film/news/paul-bettany-johnny-depp-hadnt-spoken-in-years-libel-trial-1236915108/"
+      ],
+      "retrieval": {
+        "postId": "post-20261018T044607Z-39d1-4",
+        "url": "https://variety.com/2026/film/news/paul-bettany-johnny-depp-hadnt-spoken-in-years-libel-trial-1236915108/",
+        "status": 200,
+        "retrievedAt": "2026-10-18T04:55:55.312Z",
+        "sha256": "1e61f847552d0c07eee5da4d3ebe95f504ed5fb2fc903786dcf76e472d3338a8",
+        "sections": 2,
+        "textCharacters": 1952
+      },
+      "decision": "revise",
+      "payoff": "Distance in a relationship does not answer responsibility for a person's messages.",
+      "claims": [
+        [
+          "Bettany's account of estrangement and the interview's provenance",
+          "supported",
+          "Chunk 2 S2E1–E2 and S2E4."
+        ],
+        [
+          "Transcripts cannot establish ongoing contact, frequency or how people address one another",
+          "sweeping_claim",
+          "A limited historical exchange cannot establish the whole relationship; the generalized claim about transcripts is unnecessarily broad."
+        ],
+        [
+          "Every reader fills every gap in the record",
+          "unsupported_generalization",
+          "Rhetorical universal, not an established result of the reporting."
+        ]
+      ],
+      "discussion": [
+        [
+          0,
+          "repetitive_and_overbroad",
+          "Repeats the body's travelling-evidence metaphor; asserts what the courtroom needed and makes an absolute claim about context."
+        ],
+        [
+          1,
+          "substantive_supported_pushback",
+          "Uses S2E10–E12 to introduce what Bettany wrote and separates its content from later estrangement."
+        ],
+        [
+          2,
+          "supported_development",
+          "Uses S2E13 for Depp's escalation and distinguishes easier relationship questions from responsibility for the words."
+        ],
+        [
+          3,
+          "supported_fact_plus_labelled_inference",
+          "S2E3 and S2E5 support his silence, marriage duration and self-described quiet life; the reputation strategy is clearly a reading of those remarks."
+        ]
+      ]
+    },
+    {
+      "postId": "post-20261018T044607Z-39d1-5",
+      "title": "The Creative Prompts Aimed at Perfectionism, Not Inspiration",
+      "articleUrl": "https://ariesyous.github.io/openfeed/p/the-creative-prompts-aimed-at-perfectionism-not-inspiration--706f73742d3230323631303138543034343630375a2d333964312d35/",
+      "bodyWords": 119,
+      "discussionWords": 143,
+      "turns": 3,
+      "selectedBodySupportWords": 47,
+      "selectedSupportExactOnCurrentPage": true,
+      "selectedSupportCount": 2,
+      "sourceCharacters": 715,
+      "sourceSections": 1,
+      "sourceUrls": [
+        "https://psyche.co/videos/ten-crafty-ideas-to-escape-the-doom-scroll-and-start-making-things"
+      ],
+      "retrieval": {
+        "postId": "post-20261018T044607Z-39d1-5",
+        "url": "https://psyche.co/videos/ten-crafty-ideas-to-escape-the-doom-scroll-and-start-making-things",
+        "status": 200,
+        "retrievedAt": "2026-10-18T04:55:55.444Z",
+        "sha256": "d116d18fe59d83acb40a1a27ea66d10e2a1fdda99d7e9553df8bece32bf9f67b",
+        "sections": 1,
+        "textCharacters": 715
+      },
+      "decision": "retain",
+      "payoff": "Two usable creative prompts and an interpretation of why they lower the barrier to starting.",
+      "claims": [
+        [
+          "Ten prompts, two examples and the named obstacles",
+          "supported",
+          "Chunk 3 S1E5–E6 and the Psyche video description."
+        ],
+        [
+          "Recasting a mistake as material and a question as a starting container",
+          "editorial_interpretation",
+          "Useful explanation of the named prompts; not a separately measured psychological effect."
+        ],
+        [
+          "The opening move rather than lack of ideas is what stops people",
+          "qualification_advisable",
+          "Framed as the writer's interpretation of the list; should remain a possible lens rather than a universal causal claim."
+        ],
+        [
+          "Walker identity",
+          "clarity_edit",
+          "Introduce Campbell Walker by full name. No video-content claims beyond the description were verified."
+        ]
+      ],
+      "discussion": [
+        [
+          0,
+          "useful_opinion",
+          "Compares how the two prompts tackle perfectionism; ease is an opinion, not an asserted study result."
+        ],
+        [
+          1,
+          "responsive",
+          "Challenges the ease judgment and distinguishes starting from tolerating a mediocre result."
+        ],
+        [
+          2,
+          "useful_synthesis",
+          "Draws a shared principle and marks the interpretation of the author's priorities with suggests."
+        ]
+      ]
+    }
+  ]
+}
