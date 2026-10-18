@@ -22,16 +22,18 @@ describe("qualifications alongside selectable evidence", () => {
   it("keeps a later scope qualification beside the mechanism even beyond the snippet cap", () => {
     // Synthetic counterpart of the observed multi-section report: the previous
     // interleaving could expose a threshold but omit the following scope paragraph.
-    const lead = Array.from({ length: 8 }, (_, i) => `Officials described development number ${i} in their latest report about the ongoing negotiations.`).join("\n\n");
+    const lead = Array.from({ length: 8 }, (_, i) => `Officials described development number ${i} and said the teams would continue to meet local representatives while considering the next steps in the talks before deciding what to do.`).join("\n\n");
     const qualification = "The restriction applied only in the northern region. Responsibility for the change remained disputed.";
     const mechanism = [packet.excerpt, "A connection stopped when a terminal exceeded the trial's stated movement threshold.", qualification].join("\n\n");
     const sections = Array.from({ length: 8 }, (_, i) => i === 4 ? mechanism : lead);
     const rich = { ...packet, sections, excerpt: sections.join("\n\n") };
     // Stay within the real extraction cap while retaining many competing groups.
-    rich.sections = rich.sections.map((text, i) => i === 4 ? text : text.split("\n\n").slice(0, 5).join("\n\n"));
+    rich.sections = rich.sections.map((text, i) => i === 4 ? text : text.split("\n\n").slice(0, 4).join("\n\n"));
     rich.excerpt = rich.sections.join("\n\n");
     const offered = prepareEvidence([rich]).sources[0];
     expect(offered.evidence.length).toBeLessThanOrEqual(24);
+    expect(offered.evidence.some(e => e.text.includes("movement threshold"))).toBe(true);
+    expect(offered.evidence.some(e => e.text.includes("only in the northern region"))).toBe(false);
     expect(offered.readingContext?.[4]).toEqual({ section: 5, text: mechanism });
     expect(offered.readingContext?.[4].text).toContain(qualification);
     expect(offered.readingContext?.map(s => s.text)).toEqual(rich.sections);
