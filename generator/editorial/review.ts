@@ -46,6 +46,19 @@ export const LiveReviewResponseSchema = ReviewResponseSchema.extend({ posts: z.a
     checks: z.array(CheckSchema.extend({ segments: z.array(SegmentSchema).min(1).max(32) })).min(4).max(6),
   }),
 ).min(1).max(4) });
+// Nested bounded arrays can exceed provider schema complexity limits. Keep the
+// transport's shape/required fields/enums, and enforce all bounds locally below.
+export function reviewTransportSchema(): Record<string, unknown> {
+  const simplify = (value: unknown): unknown => {
+    if (Array.isArray(value)) return value.map(simplify);
+    if (value && typeof value === "object") return Object.fromEntries(
+      Object.entries(value).filter(([key]) => !["minLength", "maxLength", "minItems", "maxItems"].includes(key))
+        .map(([key, child]) => [key, simplify(child)]),
+    );
+    return value;
+  };
+  return simplify(z.toJSONSchema(LiveReviewResponseSchema)) as Record<string, unknown>;
+}
 export type ReviewInput = ReturnType<typeof buildReviewInput>;
 export const reviewDigest = (post: ReviewPost) => createHash("sha256").update(JSON.stringify({
   title: post.title, body: post.body, evidenceIds: post.evidenceIds,
@@ -147,7 +160,7 @@ export async function reviewEditorial(options: {
     ...options,
     systemPrompt: readFileSync(new URL("./review-prompt.md", import.meta.url), "utf8"),
     initialUserPrompt: JSON.stringify(input),
-    jsonSchema: { name: "editorial_review", schema: z.toJSONSchema(LiveReviewResponseSchema) },
+    jsonSchema: { name: "editorial_review", schema: reviewTransportSchema() },
     maxTokens: ADVANCE_WORLD_MAX_TOKENS, timeoutMs: ADVANCE_WORLD_TIMEOUT_MS,
     parse: json => validateReview(json, input),
   });

@@ -2,6 +2,14 @@ name: Check editorial reviewer
 
 on:
   workflow_dispatch:
+    inputs:
+      model:
+        description: Model for isolated reviewer controls
+        type: choice
+        default: deepseek/deepseek-v4.1-flash
+        options:
+          - deepseek/deepseek-v4.1-flash
+          - google/gemini-3.8-flash
 
 permissions:
   contents: read
@@ -21,7 +29,7 @@ jobs:
       - name: Check known error patterns and preserve opinion
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          OPENROUTER_MODEL: deepseek/deepseek-v4.1-flash
+          OPENROUTER_MODEL: ${{ inputs.model }}
         run: pnpm exec tsx scripts/checkEditorialReview.ts
       - uses: actions/upload-artifact@v4
         if: always() && hashFiles('artifacts/editorial-review-check.json') != ''
