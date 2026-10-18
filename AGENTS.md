@@ -316,3 +316,7 @@ Manual controls have three four-post suites, at most six calls/shared 15 minutes
 and parenthesized TV episode notation remains valid. The three exact label-only corrections
 in scripts/correctEvidenceLabels.ts use the guarded publisher; preserve original audits,
 permanent identities, dates, discussions and the exact correction record.
+After two live runs exhausted review attempts on empty length-limited completions,
+ordinary writing requests are capped at two posts so each detailed review is smaller.
+The transport/historical four-post bound remains compatible. Four writer/review pairs
+can reach the eight-post ceiling only without retries; keep the shared budget unchanged.

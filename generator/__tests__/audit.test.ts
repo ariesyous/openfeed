@@ -141,7 +141,7 @@ describe("audit through the real bounded generation path", () => {
       calls++;
       if (partial && calls > 1) return new Response("unavailable", { status: 503 });
       const input = JSON.parse(JSON.parse(String(init?.body)).messages[1].content);
-      const posts = input.sources.slice(0, 4).map((source: { title: string; evidence: { id: string }[] }) => ({
+      const posts = input.sources.slice(0, input.maxPosts).map((source: { title: string; evidence: { id: string }[] }) => ({
         title: source.title, body: "The trial supports a cautious interpretation of the finding.", format: "news", topic: null, spoilers: null,
         evidenceIds: [source.evidence[0].id], discussion: [
           { voice: "Take", body: "A limited trial can still be a useful first step.", evidenceIds: [source.evidence[0].id] },
@@ -155,11 +155,11 @@ describe("audit through the real bounded generation path", () => {
   }
   it("scopes reused evidence IDs per accepted chunk and maps final post IDs and resolved models", async () => {
     const { chunks, items, calls } = await generate(false);
-    expect(calls).toBe(2); expect(items).toHaveLength(8); expect(chunks).toHaveLength(2);
-    expect(chunks.map(chunk => chunk.evidence[0].id)).toEqual(["S1E1", "S1E1"]);
+    expect(calls).toBe(4); expect(items).toHaveLength(8); expect(chunks).toHaveLength(4);
+    expect(chunks.map(chunk => chunk.evidence[0].id)).toEqual(["S1E1", "S1E1", "S1E1", "S1E1"]);
     expect(chunks[0].evidence[0].sourceId).not.toBe(chunks[1].evidence[0].sourceId);
-    expect(chunks.map(chunk => chunk.requestedModel)).toEqual(["openrouter/free", "openrouter/free"]);
-    expect(chunks.map(chunk => chunk.resolvedModel)).toEqual(["resolved/model-1", "resolved/model-2"]);
+    expect(chunks.map(chunk => chunk.requestedModel)).toEqual(Array(4).fill("openrouter/free"));
+    expect(chunks.map(chunk => chunk.resolvedModel)).toEqual(["resolved/model-1", "resolved/model-2", "resolved/model-3", "resolved/model-4"]);
     expect(chunks.flatMap(chunk => chunk.posts.map(post => post.postId))).toEqual(items.map(item => item.id));
     expect(JSON.stringify(items)).not.toMatch(/evidenceIds|redactionsApplied|resolved\/model/);
     expect(() => serializeEditorialAudit(envelope(chunks))).not.toThrow();
@@ -167,13 +167,13 @@ describe("audit through the real bounded generation path", () => {
   it("records null resolved model when the provider does not identify the model", async () => {
     const { chunks, items } = await generate(false, false);
     expect(items).toHaveLength(8);
-    expect(chunks.map(chunk => chunk.resolvedModel)).toEqual([null, null]);
-    expect(chunks.map(chunk => chunk.requestedModel)).toEqual(["openrouter/free", "openrouter/free"]);
+    expect(chunks.map(chunk => chunk.resolvedModel)).toEqual([null, null, null, null]);
+    expect(chunks.map(chunk => chunk.requestedModel)).toEqual(Array(4).fill("openrouter/free"));
     expect(() => serializeEditorialAudit(envelope(chunks))).not.toThrow();
   });
   it("keeps only accepted support when later provider attempts exhaust the shared budget", async () => {
     const { chunks, items, calls } = await generate(true);
-    expect(calls).toBe(7); expect(items).toHaveLength(4); expect(chunks).toHaveLength(1);
+    expect(calls).toBe(7); expect(items).toHaveLength(2); expect(chunks).toHaveLength(1);
     expect(chunks[0].posts.map(post => post.postId)).toEqual(items.map(item => item.id));
   });
 });

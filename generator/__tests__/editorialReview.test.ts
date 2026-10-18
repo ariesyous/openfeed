@@ -144,6 +144,20 @@ describe("review coverage and source boundaries", () => {
 });
 
 describe("mandatory editorial gate", () => {
+  it("reviews two-post requests and reaches eight only within the shared eight calls", async () => {
+    let calls = 0;
+    const items = await generateEditorial("secret", packets, now, "small-chunks", [], {
+      fetchImpl: async (_url, init) => {
+        calls++;
+        const request = JSON.parse(String(init?.body));
+        const input = JSON.parse(request.messages[1].content);
+        if (isReview(request)) { expect(input.posts).toHaveLength(2); return completion(pass(input)); }
+        expect(input.maxPosts).toBe(2);
+        return completion({ posts: input.sources.slice(0, input.maxPosts).map((s: { title: string; evidence: { id: string }[] }) => makePost(s.title, s.evidence[0].id)) });
+      },
+    });
+    expect(calls).toBe(8); expect(items).toHaveLength(8);
+  });
   // These fixtures simulate reviewer judgments; they do not claim an offline test
   // can determine whether a live model recognizes semantic mistakes.
   it.each(["reversed_fact", "unsupported_claim"] as const)("withholds the whole %s post and preserves the neighboring joke unchanged", async category => {
@@ -244,10 +258,10 @@ describe("mandatory editorial gate", () => {
         if (calls >= 4) return new Response("unavailable", { status: 503 });
         const input = JSON.parse(request.messages[1].content);
         if (isReview(request)) return completion(pass(input));
-        return completion({ posts: input.sources.slice(0, 4).map((s: { title: string; evidence: { id: string }[] }) => makePost(s.title, s.evidence[0].id)) });
+        return completion({ posts: input.sources.slice(0, input.maxPosts).map((s: { title: string; evidence: { id: string }[] }) => makePost(s.title, s.evidence[0].id)) });
       },
     });
-    expect(items).toHaveLength(4); expect(calls).toBe(5);
+    expect(items).toHaveLength(2); expect(calls).toBe(5);
   });
   it("stops before publication when the review audit cannot be persisted", async () => {
     await expect(generateEditorial("secret", packets.slice(0, 1), now, "audit-failure", [], {

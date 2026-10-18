@@ -68,6 +68,14 @@ responses require no review. There is no separate unlimited review or rewrite bu
 Eight posts remains a ceiling rather than a target. Review can yield an empty edition,
 which preserves existing content and durable coverage state.
 
+Ordinary writer requests now ask for at most two posts, so their detailed reviews also
+have at most two candidates. This follows two live runs with valid writer output but
+two empty, length-limited reviewer completions each. The transport/historical schema
+still supports up to four. Four flawless writer/review pairs can reach eight posts;
+retries reduce that achievable count. Model, token limit, source context, total attempt
+budget and deadline remain unchanged. This is a latency/reliability mitigation to
+observe, not proof that smaller batches resolve provider failures.
+
 ## Inspecting review decisions
 
 When `EDITORIAL_AUDIT_DIR` is set, `editorial-review.json` persists each completed

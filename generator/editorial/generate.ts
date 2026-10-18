@@ -16,6 +16,9 @@ import type { SourcePacket } from "./sources";
 // A ceiling, not a quota. Historical validation still accepts twenty-post batches.
 export const EDITORIAL_MAX_POSTS = 8;
 export const EDITORIAL_REQUEST_POSTS = 4;
+// Keep the transport/historical bound at four, but give detailed claim review
+// smaller ordinary batches after repeated live length-limit failures.
+export const EDITORIAL_GENERATION_POSTS = 2;
 export const EDITORIAL_MAX_ATTEMPTS = 8;
 export const EDITORIAL_TIME_BUDGET_MS = 45 * 60_000;
 const publisherKey = (publisher: string) => publisher.startsWith("BBC") ? "BBC" : publisher;
@@ -313,7 +316,7 @@ export async function generateEditorial(
     }
     const offeredIds = new Set([...prepared.evidenceById.values()].map(entry => entry.sourceId));
     console.log(`[editorial] candidates=${distinctSources.length} offered=${offeredIds.size} deferred=${deferredSources.size} accepted=${accepted.length}/${EDITORIAL_MAX_POSTS}`);
-    const maxPosts = Math.min(EDITORIAL_REQUEST_POSTS, EDITORIAL_MAX_POSTS - accepted.length);
+    const maxPosts = Math.min(EDITORIAL_GENERATION_POSTS, EDITORIAL_MAX_POSTS - accepted.length);
     const requestSources = prepared.sources.map(source => ({
       ...source,
       publisherGroup: publisherKey(source.publisher),

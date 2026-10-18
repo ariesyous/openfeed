@@ -40,7 +40,7 @@ describe("editorial structured generation", () => {
       };
       const items = await generateEditorial("secret", [source], now, "test", [], {fetchImpl});
       expect(requests[0].response_format).toEqual({type: "json_schema", json_schema: {
-        name: "editorial_edition", strict: true, schema: editorialJsonSchema([...prepareEvidence([source]).evidenceById.keys()], 4).schema,
+        name: "editorial_edition", strict: true, schema: editorialJsonSchema([...prepareEvidence([source]).evidenceById.keys()], 2).schema,
       }});
       const schema = editorialJsonSchema([...prepareEvidence([source]).evidenceById.keys()], 4).schema;
       const walk = (node: unknown) => {
@@ -112,13 +112,13 @@ describe("eight-post edition ceiling", () => {
     const input = JSON.parse(request.messages[1].content.split("\n\nYour previous")[0]);
     return input.sources.slice(0, input.maxPosts).map((entry: { title: string; evidence: { id: string }[] }) => ({ ...post, title: entry.title, evidenceIds: [entry.evidence[0].id], discussion: post.discussion.map(turn => ({ ...turn, evidenceIds: [entry.evidence[0].id] })) }));
   }
-  it("produces at most eight distinct posts in two four-post chunks with one total attempt budget", async () => {
+  it("produces at most eight distinct posts in four two-post chunks with one total attempt budget", async () => {
     const sizes: number[] = [];
     const fetchImpl: typeof fetch = async (_url, init) => {
       const posts = chunk(init); sizes.push(posts.length); return completion({ posts });
     };
     const items = await generateEditorial("secret", packets, now, "ten", [], { fetchImpl });
-    expect(sizes).toEqual([4, 4]);
+    expect(sizes).toEqual([2, 2, 2, 2]);
     expect(items).toHaveLength(8);
     expect(new Set(items.flatMap(item => item.editorial!.sources.map(entry => entry.url))).size).toBe(8);
   });
@@ -130,7 +130,7 @@ describe("eight-post edition ceiling", () => {
     };
     const items = await generateEditorial("secret", packets, now, "partial", [], { fetchImpl, sleepImpl: async () => {} });
     expect(calls).toBe(7); // One provider call is reserved for mandatory review.
-    expect(items).toHaveLength(4);
+    expect(items).toHaveLength(2);
   });
   it("rejects a cross-chunk repeated title and leaves the accepted chunk intact", async () => {
     let calls = 0;
@@ -143,7 +143,7 @@ describe("eight-post edition ceiling", () => {
     };
     const items = await generateEditorial("secret", packets, now, "duplicate", [], { fetchImpl, sleepImpl: async () => {} });
     expect(calls).toBe(7); // One provider call is reserved for mandatory review.
-    expect(items).toHaveLength(4);
+    expect(items).toHaveLength(2);
   });
   it("retains valid chunks when the shared deadline leaves no room for another request", async () => {
     let elapsed = 0;
@@ -157,7 +157,7 @@ describe("eight-post edition ceiling", () => {
       fetchImpl, nowImpl: () => elapsed,
     });
     expect(calls).toBe(1);
-    expect(items).toHaveLength(4);
+    expect(items).toHaveLength(2);
   });
   it("reaches the ceiling despite three transient provider failures", async () => {
     let calls = 0;
@@ -166,7 +166,7 @@ describe("eight-post edition ceiling", () => {
       return completion({ posts: chunk(init) });
     };
     const items = await generateEditorial("secret", packets, now, "retry", [], { fetchImpl, sleepImpl: async () => {} });
-    expect(calls).toBe(5);
+    expect(calls).toBe(7);
     expect(items).toHaveLength(8);
   });
 
@@ -178,7 +178,7 @@ describe("eight-post edition ceiling", () => {
       const request = JSON.parse(String(init?.body));
       const input = JSON.parse(request.messages[1].content);
       const titles = input.sources.map((entry: { title: string }) => entry.title);
-      if (calls === 0) firstTitles = titles.slice(0, 4);
+      if (calls === 0) firstTitles = titles.slice(0, 2);
       if (++calls === 2) {
         declined = titles;
         return completion({ posts: [] });
@@ -187,9 +187,9 @@ describe("eight-post edition ceiling", () => {
       return completion({ posts: chunk(init) });
     };
     const items = await generateEditorial("secret", packets, now, "empty-second", [], { fetchImpl });
-    expect(calls).toBe(3);
+    expect(calls).toBe(5);
     expect(items).toHaveLength(8);
-    expect(items.slice(0, 4).map(item => item.title)).toEqual(firstTitles);
+    expect(items.slice(0, 2).map(item => item.title)).toEqual(firstTitles);
     expect(items.every(item => !declined.includes(item.title!))).toBe(true);
     // Deferral is run-local: these sources can be selected on a later run.
     const next = await generateEditorial("secret", packets.filter(packet => declined.includes(packet.title)), now, "later", [], {
@@ -228,7 +228,7 @@ describe("eight-post edition ceiling", () => {
       posts: ++calls === 1 ? [] : chunk(init),
     });
     const items = await generateEditorial("secret", many, now, "initial-empty", [], { fetchImpl });
-    expect(calls).toBe(3);
+    expect(calls).toBe(5);
     expect(items).toHaveLength(8);
     expect(new Set(items.map(item => item.editorial!.sources[0].url)).size).toBe(8);
   });
@@ -247,7 +247,7 @@ describe("eight-post edition ceiling", () => {
     };
     const items = await generateEditorial("secret", many, now, "bounded-empty", [], { fetchImpl, sleepImpl: async () => {} });
     expect(calls).toBe(7); // One provider call is reserved for mandatory review.
-    expect(items).toHaveLength(4);
+    expect(items).toHaveLength(2);
   });
 
   it("does not reset the shared deadline after an empty selection", async () => {
@@ -266,7 +266,7 @@ describe("eight-post edition ceiling", () => {
       fetchImpl, nowImpl: () => elapsed,
     });
     expect(calls).toBe(2);
-    expect(items).toHaveLength(4);
+    expect(items).toHaveLength(2);
   });
 
 });
@@ -317,12 +317,14 @@ describe("run 31 validation regressions", () => {
       const request = JSON.parse(String(init?.body));
       const input = JSON.parse(request.messages[1].content.split("\n\nYour previous")[0]);
       calls++;
-      expect(input.publisherSlotsRemaining).toEqual({BBC: calls === 1 ? 2 : 1, OpenAI: calls === 1 ? 2 : 1, "Global News Canada": calls === 1 ? 2 : 1});
+      expect(input.publisherSlotsRemaining).toEqual(calls === 4 ? {"Global News Canada": 2} :
+        {BBC: calls === 1 ? 2 : 1, OpenAI: calls === 1 ? 2 : 1, "Global News Canada": 2});
       for (const entry of input.sources) {
         expect(entry.publisherGroup).toBe(entry.publisher.startsWith("BBC") ? "BBC" : entry.publisher);
       }
-      // First chunk uses one source per group; the next improperly selects two OpenAI sources.
-      const indices = calls === 1 ? [0, 3, 6] : calls === 2 ? [4, 5] : [1, 4, 7];
+      // First chunk uses two groups; the next improperly selects two OpenAI sources.
+      // The unused publisher keeps both slots until the final two-post request.
+      const indices = calls === 1 ? [0, 3] : calls === 2 ? [4, 5] : calls === 3 ? [1, 4] : [6, 7];
       if (calls === 3) expect(request.messages[1].content).toContain("Too many posts from OpenAI");
       return completion({posts: indices.map(i => {
         const entry = input.sources.find((entry: {title: string}) => entry.title === `Article ${i}`);
@@ -330,7 +332,7 @@ describe("run 31 validation regressions", () => {
       })});
     };
     const items = await generateEditorial("secret", packets, now, "publishers", [], {fetchImpl, sleepImpl: async () => {}});
-    expect(calls).toBe(3);
+    expect(calls).toBe(4);
     expect(items).toHaveLength(6);
     expect(items.map(item => item.title)).not.toContain("Article 5");
   });
