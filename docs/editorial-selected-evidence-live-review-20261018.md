@@ -107,3 +107,17 @@ retrieved October 18 lists `max`, `high`, `low`, `none`, with `high` as default.
 The empty-at-length responses with reasoning present are consistent with budget
 exhaustion, though the logs do not include a measured reasoning-token breakdown.
 This is a reliability adjustment whose editorial quality still needs observation.
+
+### Retired low-reasoning experiment
+
+Commit `588a4f2` deployed with all 326 Linux tests passing. Its controls
+[39158146087](https://github.com/ariesyous/openfeed/actions/runs/39158146087)
+passed the reversal suite after a retry, then exhausted both title-suite attempts
+on missing selected premises, inconsistent title judgments and altered/incomplete
+text accounting. It did not complete the controls and was not used for a fresh edition.
+Low reasoning was retired rather than relaxing validation.
+
+The final configuration restores DeepSeek's default reasoning and the full bounded
+provider schema. Review calls allow 48,000 tokens; writer calls retain 24,000.
+The shared eight-call/45-minute budget and all evidence/review checks are unchanged.
+This supplies headroom for reasoning plus the expanded claim-accounting response.

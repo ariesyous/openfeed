@@ -315,10 +315,10 @@ and stale `OPENROUTER_MODEL` settings are ignored. This supersedes all older mod
 selection instructions, including the comparison option above. Preserve historical
 model identities and audits. Hosting is now CoBanter.com; preserve the concurrent
 domain/routing changes and use the current domain for live verification.
-DeepSeek writer/reviewer calls use supported low reasoning effort after repeated
-empty-at-length review responses under the default high setting. The 24,000-token
-cap, shared call/deadline limits, full context and strict review rules are unchanged.
-Controls and a fresh manual quality review must distinguish reliability from accuracy.
+DeepSeek uses default reasoning. Review calls allow 48,000 tokens after repeated
+empty-at-length responses at 24,000; writers retain 24,000. A low reasoning experiment
+failed controls and was retired. Shared call/deadline limits, full context and strict
+review rules remain unchanged. Distinguish reliability from accuracy in live review.
 
 ## Complete claim accounting and evidence labels — October 18, 2026
 Live reviews require ordered segments covering each complete unchanged unit, classified

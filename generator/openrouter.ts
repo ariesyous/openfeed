@@ -53,10 +53,6 @@ export async function callOpenRouter(opts: CallOpenRouterOptions): Promise<OpenR
     messages: opts.messages,
     stream: false,
   };
-  // DeepSeek's default high reasoning repeatedly exhausted the entire completion
-  // budget before returning review JSON. Keep reasoning enabled at its supported
-  // low effort, with the same output cap and strict publication checks.
-  if (model === "deepseek/deepseek-v4.1-flash") body.reasoning = { effort: "low" };
   if (opts.maxTokens) {
     body.max_tokens = opts.maxTokens;
   }

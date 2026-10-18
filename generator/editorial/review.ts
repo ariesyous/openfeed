@@ -2,7 +2,7 @@ import { createHash } from "node:crypto";
 import { readFileSync } from "node:fs";
 import { z } from "zod";
 import { generateValidated, type GenerateValidatedOptions, type ParseOutcome } from "../retry";
-import { ADVANCE_WORLD_MAX_TOKENS, ADVANCE_WORLD_TIMEOUT_MS } from "../config";
+import { ADVANCE_WORLD_TIMEOUT_MS } from "../config";
 import { prepareEvidence } from "./evidence";
 
 export interface ReviewPost {
@@ -148,7 +148,9 @@ export async function reviewEditorial(options: {
     systemPrompt: readFileSync(new URL("./review-prompt.md", import.meta.url), "utf8"),
     initialUserPrompt: JSON.stringify(input),
     jsonSchema: { name: "editorial_review", schema: z.toJSONSchema(LiveReviewResponseSchema) },
-    maxTokens: ADVANCE_WORLD_MAX_TOKENS, timeoutMs: ADVANCE_WORLD_TIMEOUT_MS,
+    // Complete-text review plus DeepSeek's default reasoning repeatedly exhausted
+    // the writer's 24k cap. Keep review reasoning quality and allow output headroom.
+    maxTokens: 48_000, timeoutMs: ADVANCE_WORLD_TIMEOUT_MS,
     parse: json => validateReview(json, input),
   });
   return result;
