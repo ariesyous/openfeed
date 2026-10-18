@@ -140,6 +140,13 @@ The prompt favors two worthwhile turns and requires extra turns to add a distinc
 challenge or joke. Near-verbatim repetition triggers bounded correction. This is copy
 detection, not a semantic quality guarantee; see [the qualification update](docs/editorial-qualifications.md).
 
+New candidates also receive a separate [prepublication source review](docs/editorial-prepublication-review.md).
+Every title, body and discussion turn must pass; rejected posts are withheld whole,
+while approved banter stays unchanged. Writer and reviewer calls share the existing
+eight-attempt/45-minute budget. Bounded decisions are saved in `editorial-review.json`
+alongside the selected-support artifact, including runs that publish nothing. This
+model judgment is an additional editorial gate, not a factual-accuracy guarantee.
+
 Evergreen extraction now retains a coherent prose section rather than combining page
 features. Numbered excerpts preserve sentence/paragraph context and flag truncation.
 Generation saves bounded selected-support records as 14-day Actions artifacts before

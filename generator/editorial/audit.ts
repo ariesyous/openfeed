@@ -3,8 +3,10 @@ import path from "node:path";
 import { z } from "zod";
 import type { EvidenceEntry } from "./evidence";
 import type { SourcePacket } from "./sources";
+import { ReviewResponseSchema } from "./review";
 
 export const AUDIT_FILE_NAME = "editorial-audit.json";
+export const REVIEW_FILE_NAME = "editorial-review.json";
 export const MAX_AUDIT_BYTES = 512 * 1024;
 const id = z.string().min(1).max(256);
 const evidenceId = z.string().min(1).max(40);
@@ -24,6 +26,10 @@ const AuditChunkSchema = z.object({
   index: z.number().int().min(1).max(8),
   requestedModel: z.string().min(1).max(200), resolvedModel: z.string().min(1).max(200).nullable(),
   redactionsApplied: z.boolean(),
+  review: z.object({
+    requestedModel: z.string().min(1).max(200), resolvedModel: z.string().min(1).max(200).nullable(),
+    candidateDigests: z.array(z.string().regex(/^[a-f0-9]{64}$/)).min(1).max(4),
+  }).strict().optional(),
   sources: z.array(SourceSchema).min(1).max(12),
   evidence: z.array(z.object({ id: evidenceId, sourceId: id, quote: z.string().min(1).max(512) }).strict()).min(1).max(72),
   posts: z.array(z.object({
@@ -36,6 +42,17 @@ const AuditChunkSchema = z.object({
   }).strict()).min(1).max(4),
 }).strict();
 export type EditorialAuditChunk = z.infer<typeof AuditChunkSchema>;
+const ReviewRecordSchema = z.object({
+  support: AuditChunkSchema,
+  decisions: ReviewResponseSchema,
+  candidates: z.array(z.object({ title: z.string().max(150), digest: z.string().regex(/^[a-f0-9]{64}$/) }).strict()).min(1).max(4),
+}).strict();
+export type EditorialReviewRecord = z.infer<typeof ReviewRecordSchema>;
+export const EditorialReviewAuditSchema = z.object({
+  schemaVersion: z.literal(1), runId: id, startedAt: z.string().datetime(),
+  // These decisions do not claim a publication, deployment, or infallible fact check.
+  reviews: z.array(ReviewRecordSchema).max(8),
+}).strict();
 export const EditorialAuditSchema = z.object({
   schemaVersion: z.literal(1), runId: id, startedAt: z.string().datetime(),
   // Neither status claims a Git commit, a push, or a successful Pages deployment.
@@ -47,6 +64,8 @@ export const EditorialAuditSchema = z.object({
     ctx.addIssue({ code: "custom", message: "Invalid audit post count or duplicate post IDs" });
   audit.chunks.forEach((chunk, index) => {
     if (chunk.index !== index + 1) ctx.addIssue({ code: "custom", message: "Nonsequential audit chunks" });
+    if (chunk.review && chunk.review.candidateDigests.length !== chunk.posts.length)
+      ctx.addIssue({ code: "custom", message: "Review digest count does not match accepted posts" });
     const sources = new Set(chunk.sources.map(source => source.id));
     const evidence = new Map(chunk.evidence.map(entry => [entry.id, entry]));
     if (sources.size !== chunk.sources.length || evidence.size !== chunk.evidence.length ||
@@ -144,6 +163,11 @@ export function createEditorialAudit(options: { directory: string; runId: string
   // A local no-op/failure must never upload a previous run's artifact.
   rmSync(file, { force: true });
   rmSync(temporary, { force: true });
+  const reviewFile = path.join(directory, REVIEW_FILE_NAME);
+  const reviewTemporary = `${reviewFile}.tmp`;
+  rmSync(reviewFile, { force: true });
+  rmSync(reviewTemporary, { force: true });
+  const reviews: EditorialReviewRecord[] = [];
   const chunks: EditorialAuditChunk[] = [];
   let candidateRecorded = false;
   const write = (status: "validated_candidate" | "data_written") => {
@@ -152,6 +176,18 @@ export function createEditorialAudit(options: { directory: string; runId: string
     renameSync(temporary, file);
   };
   return {
+    onReviewedChunk(record: EditorialReviewRecord, apiKey: string) {
+      // Redact every string, including reviewer explanations and exact claim fragments.
+      const safe = JSON.parse(JSON.stringify(record, (_key, value: unknown) => typeof value === "string"
+        ? (apiKey ? value.split(apiKey).join("[REDACTED]") : value)
+          .replace(/Bearer\s+[^\s"',;]+/gi, "Bearer [REDACTED]").replace(/sk-or-[\w-]+/g, "[REDACTED]") : value));
+      reviews.push(ReviewRecordSchema.parse(safe));
+      const serialized = JSON.stringify(EditorialReviewAuditSchema.parse({ schemaVersion: 1,
+        runId: options.runId, startedAt: options.now.toISOString(), reviews }), null, 2) + "\n";
+      if (Buffer.byteLength(serialized, "utf8") > MAX_AUDIT_BYTES) throw new Error("Editorial review audit exceeds byte limit");
+      writeFileSync(reviewTemporary, serialized, { flag: "wx" });
+      renameSync(reviewTemporary, reviewFile);
+    },
     onAcceptedChunk(chunk: EditorialAuditChunk) {
       if (candidateRecorded || chunks.length >= 8) throw new Error("Editorial audit no longer accepts chunks");
       const parsed = AuditChunkSchema.safeParse(chunk);

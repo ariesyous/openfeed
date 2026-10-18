@@ -37,6 +37,7 @@ async function main() {
   }
   const items = await generateEditorial(getApiKey(), sources, now, runId, previous.recentBatchSummaries.map((batch) => batch.summary), {
     onAcceptedChunk: audit?.onAcceptedChunk,
+    onReviewedChunk: audit?.onReviewedChunk,
   });
   if (!items.length) {
     console.log("[editorial] No publishable posts; existing feed preserved.");

@@ -6,6 +6,11 @@ import { editorialJsonSchema, generateEditorial, validateCitedDraft } from "../e
 import { buildAuditChunk, EditorialAuditSchema } from "../editorial/audit";
 import type { SourcePacket } from "../editorial/sources";
 
+vi.mock("../editorial/review", async importOriginal => ({
+  ...await importOriginal<typeof import("../editorial/review")>(),
+  reviewEditorial: (await import("./helpers/review")).approveReview,
+}));
+
 const now = new Date("2026-10-18T00:00:00Z");
 const packet: SourcePacket = { id: "report", title: "A limited service trial", publisher: "Publisher", topic: "technology",
   url: "https://example.com/report", publishedAt: now.toISOString(), retrievedAt: now.toISOString(),

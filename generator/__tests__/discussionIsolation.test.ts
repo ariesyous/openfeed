@@ -12,6 +12,11 @@ import { prepareEvidence } from "../editorial/evidence";
 import type { EditorialAuditChunk } from "../editorial/audit";
 import type { SourcePacket } from "../editorial/sources";
 
+vi.mock("../editorial/review", async importOriginal => ({
+  ...await importOriginal<typeof import("../editorial/review")>(),
+  reviewEditorial: (await import("./helpers/review")).approveReview,
+}));
+
 const now = new Date("2026-09-18T00:00:00Z");
 const packets: SourcePacket[] = Array.from({ length: 6 }, (_, i) => ({
   id: `source${i}`, title: `Trial number ${i}`, publisher: `Publisher ${i}`,
@@ -150,10 +155,10 @@ describe("optional discussion isolation", () => {
         })) });
       },
     });
-    expect(calls).toBe(8);
+    expect(calls).toBe(7); // One provider call is reserved for mandatory review.
     expect(items).toHaveLength(1);
     expect(audits).toHaveLength(1);
-    expect(logs.mock.calls.flat().join(" ")).toContain("discussionOmissions=0 providerFailures=0 rejectedResponses=7");
+    expect(logs.mock.calls.flat().join(" ")).toContain("discussionOmissions=0 providerFailures=0 rejectedResponses=6");
   });
 
   it.each(["attempts", "deadline"])("preserves complete partial success at the shared %s limit", async limit => {
@@ -169,7 +174,7 @@ describe("optional discussion isolation", () => {
         return new Response("unavailable", { status: 503 });
       },
     });
-    expect(calls).toBe(limit === "deadline" ? 1 : 8);
+    expect(calls).toBe(limit === "deadline" ? 1 : 7);
     expect(items).toHaveLength(1);
     expect(audits).toHaveLength(1);
   });
@@ -211,8 +216,8 @@ describe("optional discussion isolation", () => {
         calls++;
         return new Response(JSON.stringify({ choices: [{ message: { content: '{"posts":["secret malformed' } }] }));
       },
-    })).rejects.toThrow("all 8 attempts failed");
-    expect(calls).toBe(8);
+    })).rejects.toThrow("all 7 attempts failed");
+    expect(calls).toBe(7); // One provider call is reserved for mandatory review.
     expect(errors).not.toHaveBeenCalled();
     expect(logs.mock.calls.flat().join(" ")).not.toContain("secret malformed");
   });

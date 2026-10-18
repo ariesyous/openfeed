@@ -7,6 +7,11 @@ import { AUDIT_FILE_NAME, buildAuditChunk, createEditorialAudit, publishWithAudi
 import { generateEditorial, validateDraft } from "../editorial/generate";
 import type { SourcePacket } from "../editorial/sources";
 
+vi.mock("../editorial/review", async importOriginal => ({
+  ...await importOriginal<typeof import("../editorial/review")>(),
+  reviewEditorial: (await import("./helpers/review")).approveReview,
+}));
+
 const now = new Date("2026-09-18T12:00:00Z");
 const packet: SourcePacket = {
   id: "source-1", topic: "science", publisher: "Publisher", title: "A measured trial",
@@ -168,7 +173,7 @@ describe("audit through the real bounded generation path", () => {
   });
   it("keeps only accepted support when later provider attempts exhaust the shared budget", async () => {
     const { chunks, items, calls } = await generate(true);
-    expect(calls).toBe(8); expect(items).toHaveLength(4); expect(chunks).toHaveLength(1);
+    expect(calls).toBe(7); expect(items).toHaveLength(4); expect(chunks).toHaveLength(1);
     expect(chunks[0].posts.map(post => post.postId)).toEqual(items.map(item => item.id));
   });
 });

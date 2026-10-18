@@ -29,7 +29,7 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    # At most four posts per request, eight per edition, eight total provider attempts.
+    # At most four posts per request, eight per edition, eight total writer/reviewer attempts.
     # Generation has a shared 45-minute budget, leaving time to publish and deploy.
     # Source intake has its own short timeouts and skips unavailable feeds.
     timeout-minutes: 55
@@ -61,11 +61,13 @@ jobs:
       # data_written means local publisher writes, not a successful commit or deployment.
       # Upload failure blocks the subsequent publication commit and deploy dispatch.
       - name: Upload editorial support audit
-        if: always() && hashFiles('artifacts/editorial-audit.json') != ''
+        if: always() && (hashFiles('artifacts/editorial-audit.json') != '' || hashFiles('artifacts/editorial-review.json') != '')
         uses: actions/upload-artifact@v4
         with:
           name: editorial-support-${{ github.run_id }}-${{ github.run_attempt }}
-          path: artifacts/editorial-audit.json
+          path: |
+            artifacts/editorial-audit.json
+            artifacts/editorial-review.json
           retention-days: 14
           if-no-files-found: error
 

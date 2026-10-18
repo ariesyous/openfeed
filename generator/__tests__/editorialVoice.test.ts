@@ -1,10 +1,15 @@
 // @vitest-environment node
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 import { editorialVoiceIssues, hasSourceProcessCommentary } from "../editorial/voice";
 import { generateEditorial, validateDraft } from "../editorial/generate";
 import type { SourcePacket } from "../editorial/sources";
 import { prepareEvidence } from "../editorial/evidence";
 import { validateCitedDraft } from "../editorial/generate";
+
+vi.mock("../editorial/review", async importOriginal => ({
+  ...await importOriginal<typeof import("../editorial/review")>(),
+  reviewEditorial: (await import("./helpers/review")).approveReview,
+}));
 
 const now = new Date("2026-09-18T00:00:00Z");
 const source: SourcePacket = {

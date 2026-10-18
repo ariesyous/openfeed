@@ -276,3 +276,17 @@ Prefer two worthwhile turns; extra turns must add a detail, challenge, interpret
 joke. Keep banter. A conservative near-copy guard retries repetition against the body or
 earlier turns, only for new generation. It is not a semantic novelty or fact-checking gate.
 Keep all existing source/provenance and shared generation budgets; preserve history.
+
+## Mandatory prepublication review — October 18, 2026
+Read docs/editorial-prepublication-review.md. Every new candidate receives a separate
+source-based model review of title, body and all discussion turns after provenance
+validation. Review must cover every unit exactly once. Withhold whole rejected posts;
+never rewrite or strip approved banter. Opinions and jokes need supported premises,
+not a source expressing the opinion. Review is fallible, not certified fact checking.
+Writer and reviewer share eight provider calls and the 45-minute deadline; reserve a
+review call before starting generation, with at most two attempts per review. Failed
+review cannot publish its candidate; retain only previously reviewed accepted chunks.
+Persist bounded editorial-review.json decisions outside public/build paths, including
+all-rejected runs, with credential redaction and 14-day workflow artifact retention.
+No raw completions or full readingContext in audits. Accepted support records contain
+reviewer model identity and candidate digests; historical audit compatibility remains.

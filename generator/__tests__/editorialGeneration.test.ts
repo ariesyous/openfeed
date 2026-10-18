@@ -5,6 +5,11 @@ import { prepareEvidence } from "../editorial/evidence";
 import { logEditorialAttempt } from "../editorial/diagnostics";
 import type { SourcePacket } from "../editorial/sources";
 
+vi.mock("../editorial/review", async importOriginal => ({
+  ...await importOriginal<typeof import("../editorial/review")>(),
+  reviewEditorial: (await import("./helpers/review")).approveReview,
+}));
+
 const now = new Date("2026-09-16T00:00:00Z");
 const source: SourcePacket = {
   id: "source1", topic: "ai_agents", publisher: "Publisher",
@@ -124,7 +129,7 @@ describe("eight-post edition ceiling", () => {
       return new Response("unavailable", { status: 503 });
     };
     const items = await generateEditorial("secret", packets, now, "partial", [], { fetchImpl, sleepImpl: async () => {} });
-    expect(calls).toBe(8);
+    expect(calls).toBe(7); // One provider call is reserved for mandatory review.
     expect(items).toHaveLength(4);
   });
   it("rejects a cross-chunk repeated title and leaves the accepted chunk intact", async () => {
@@ -137,7 +142,7 @@ describe("eight-post edition ceiling", () => {
       return completion({ posts });
     };
     const items = await generateEditorial("secret", packets, now, "duplicate", [], { fetchImpl, sleepImpl: async () => {} });
-    expect(calls).toBe(8);
+    expect(calls).toBe(7); // One provider call is reserved for mandatory review.
     expect(items).toHaveLength(4);
   });
   it("retains valid chunks when the shared deadline leaves no room for another request", async () => {
@@ -241,7 +246,7 @@ describe("eight-post edition ceiling", () => {
       return completion({ posts: [] });
     };
     const items = await generateEditorial("secret", many, now, "bounded-empty", [], { fetchImpl, sleepImpl: async () => {} });
-    expect(calls).toBe(8);
+    expect(calls).toBe(7); // One provider call is reserved for mandatory review.
     expect(items).toHaveLength(4);
   });
 

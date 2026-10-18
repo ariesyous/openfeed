@@ -8,7 +8,8 @@ import { logEditorialAttempt, redactEditorialDiagnostic } from "./diagnostics";
 import { coverageTitle } from "./coverage";
 import { editorialVoiceIssues } from "./voice";
 import { discussionRepetitionIssues } from "./discussion";
-import { buildAuditChunk, type EditorialAuditChunk, type DiscussionOmissionReason } from "./audit";
+import { buildAuditChunk, type EditorialAuditChunk, type EditorialReviewRecord, type DiscussionOmissionReason } from "./audit";
+import { reviewEditorial, reviewDigest } from "./review";
 import { FORMATS, TOPICS } from "./accounts";
 import type { SourcePacket } from "./sources";
 
@@ -273,7 +274,7 @@ export async function generateEditorial(
   now: Date,
   runId: string,
   recentEditions: string[] = [],
-  dependencies: { fetchImpl?: typeof fetch; sleepImpl?: (ms: number) => Promise<void>; nowImpl?: () => number; onAcceptedChunk?: (chunk: EditorialAuditChunk) => void } = {},
+  dependencies: { fetchImpl?: typeof fetch; sleepImpl?: (ms: number) => Promise<void>; nowImpl?: () => number; onAcceptedChunk?: (chunk: EditorialAuditChunk) => void; onReviewedChunk?: (record: EditorialReviewRecord, apiKey: string) => void } = {},
 ): Promise<FeedItem[]> {
   const clock = dependencies.nowImpl ?? Date.now;
   const started = clock();
@@ -288,9 +289,14 @@ export async function generateEditorial(
   let rejectedResponses = 0;
   let attempts = 0;
   let acceptedChunks = 0;
+  let reviewCalls = 0;
+  let reviewedChunks = 0;
+  let reviewRejectedPosts = 0;
   let reason = "edition ceiling reached";
   const models = new Set<string>();
   while (accepted.length < EDITORIAL_MAX_POSTS && attempts < EDITORIAL_MAX_ATTEMPTS) {
+    // A candidate must have at least one remaining call for its mandatory review.
+    if (EDITORIAL_MAX_ATTEMPTS - attempts < 2) { reason = "insufficient attempt budget for generation and review"; break; }
     const used = new Set(accepted.flatMap(post => post.sourceIds));
     const usedTitles = new Set(packets.filter(packet => used.has(packet.id)).map(packet => coverageTitle(packet.title)));
     const publishers = new Map<string, number>();
@@ -318,7 +324,7 @@ export async function generateEditorial(
     let selected: CitedSelection[] | undefined;
     try {
       const result = await generateValidated({
-        ...dependencies, apiKey, deadlineMs, maxAttempts: EDITORIAL_MAX_ATTEMPTS - attempts,
+        ...dependencies, apiKey, deadlineMs, maxAttempts: EDITORIAL_MAX_ATTEMPTS - attempts - 1,
         jsonSchema: editorialJsonSchema([...prepared.evidenceById.keys()], maxPosts),
         systemPrompt: readFileSync(new URL("./prompt.md", import.meta.url), "utf8"),
         initialUserPrompt: JSON.stringify({
@@ -359,8 +365,43 @@ export async function generateEditorial(
         console.log(`[editorial] empty selection: deferred ${offeredIds.size} sources for this run; checking other evidence within the remaining budget`);
         continue;
       }
-      acceptedChunks++;
       if (!selected) throw new Error("Accepted editorial evidence selection is missing");
+      const review = await reviewEditorial({
+        ...dependencies, apiKey, posts: selected, prepared, deadlineMs,
+        maxAttempts: Math.min(2, EDITORIAL_MAX_ATTEMPTS - attempts),
+        onAttempt: info => {
+          reviewCalls++;
+          if (["retryable", "fatal", "unsupported_structured_output"].includes(info.outcomeKind)) providerFailures++;
+          logEditorialAttempt({ ...info, attempt: attempts + info.attempt, outcomeKind: `review_${info.outcomeKind}` }, apiKey, clock() - started);
+        },
+      });
+      attempts += review.attempts;
+      models.add(review.modelUsed);
+      reviewedChunks++;
+      dependencies.onReviewedChunk?.({
+        support: buildAuditChunk({ index: reviewedChunks, runId: `review-${runId}-${reviewedChunks}`, postOffset: 0,
+          requestedModel: review.requestedModel, resolvedModel: review.resolvedModel, apiKey,
+          posts: selected, evidenceById: prepared.evidenceById, packets: available }),
+        decisions: review.value,
+        candidates: selected.map(post => ({ title: post.title, digest: reviewDigest(post) })),
+      }, apiKey);
+      const passed: number[] = [];
+      for (const index of selected.keys()) {
+        const decision = review.value.posts.find(p => p.key === `P${index + 1}`)!;
+        const rejected = decision.checks.filter(check => check.verdict === "reject");
+        if (!rejected.length) { passed.push(index); continue; }
+        reviewRejectedPosts++;
+        for (const id of result.value.posts[index].sourceIds) deferredSources.add(id);
+        logEditorialAttempt({ attempt: attempts, outcomeKind: "review_withheld",
+          detail: `candidate=${index} reasons=${rejected.map(check => `${check.target}:${check.reason}`).join(",")}` }, apiKey, clock() - started);
+      }
+      // Filter whole posts only. Never let review rewrite, strip or flatten the exchange.
+      const reviewedPosts = passed.map(index => result.value.posts[index]);
+      selected = passed.map(index => selected![index]);
+      if (!reviewedPosts.length) continue;
+      const finalCheck = validateDraft({ posts: [...accepted, ...reviewedPosts] }, packets, now);
+      if (!finalCheck.ok) throw new Error("Reviewed candidate failed publication validation");
+      acceptedChunks++;
       for (const [index, post] of selected.entries()) {
         if (!post.discussionOmission) continue;
         discussionOmissions++;
@@ -369,13 +410,17 @@ export async function generateEditorial(
         }, apiKey, clock() - started);
       }
       if (dependencies.onAcceptedChunk) {
-        dependencies.onAcceptedChunk(buildAuditChunk({
+        const chunk = buildAuditChunk({
           index: acceptedChunks, runId, postOffset: accepted.length,
           requestedModel: result.requestedModel, resolvedModel: result.resolvedModel, apiKey,
           posts: selected, evidenceById: prepared.evidenceById, packets: available,
-        }));
+        });
+        chunk.review = { requestedModel: redactEditorialDiagnostic(review.requestedModel, apiKey).slice(0, 200),
+          resolvedModel: review.resolvedModel === null ? null : redactEditorialDiagnostic(review.resolvedModel, apiKey).slice(0, 200),
+          candidateDigests: selected.map(reviewDigest) };
+        dependencies.onAcceptedChunk(chunk);
       }
-      accepted.push(...result.value.posts);
+      accepted.push(...reviewedPosts);
     } catch (error) {
       if (!(error instanceof GenerationFailedError)) throw error;
       attempts += error.attempts;
@@ -386,7 +431,7 @@ export async function generateEditorial(
   }
   if (accepted.length < EDITORIAL_MAX_POSTS && reason === "edition ceiling reached") reason = "edition attempt budget exhausted";
   const items = enrichEditorial({ posts: accepted }, packets, now, runId);
-  const summary = `[editorial] ceiling=${EDITORIAL_MAX_POSTS} actual=${items.length} attempts=${attempts}/${EDITORIAL_MAX_ATTEMPTS} generatedDrafts=${generatedDrafts} discussionOmissions=${discussionOmissions} providerFailures=${providerFailures} rejectedResponses=${rejectedResponses} emptySelections=${emptySelections} deferredSources=${deferredSources.size} elapsedMs=${clock() - started}; ${reason}`;
+  const summary = `[editorial] ceiling=${EDITORIAL_MAX_POSTS} actual=${items.length} attempts=${attempts}/${EDITORIAL_MAX_ATTEMPTS} generatedDrafts=${generatedDrafts} discussionOmissions=${discussionOmissions} providerFailures=${providerFailures} rejectedResponses=${rejectedResponses} emptySelections=${emptySelections} deferredSources=${deferredSources.size} reviewCalls=${reviewCalls} reviewRejectedPosts=${reviewRejectedPosts} elapsedMs=${clock() - started}; ${reason}`;
   console.log(summary);
   if (process.env.GITHUB_STEP_SUMMARY) {
     const safe = (text: string) => redactEditorialDiagnostic(text, apiKey).replace(/[<>`|]/g, " ").slice(0, 200);
