@@ -75,12 +75,12 @@ describe("permanent topic pages", () => {
     try {
       mkdirSync(path.join(root, "public/data/batches"), { recursive: true });
       mkdirSync(path.join(root, "dist"));
-      writeFileSync(path.join(root, "dist/index.html"), '<html><head><title>OpenFeed</title><script src="/openfeed/assets/app.js"></script></head><body><div id="root"></div></body></html>');
+      writeFileSync(path.join(root, "dist/index.html"), '<html><head><title>CoBanter</title><script src="/openfeed/assets/app.js"></script></head><body><div id="root"></div></body></html>');
       writeFileSync(path.join(root, "public/data/manifest.json"), JSON.stringify({ ...manifest, batches: refs }));
       refs.forEach((ref, index) => writeFileSync(path.join(root, "public/data", ref.file), JSON.stringify({ ...fixture, batchId: ref.id, items: [{ ...item, id: `topic-post-${index}`, slug: undefined, community: index === 0 ? "movies" : "ai_agents", title: `Title ${index}`, body: "SPOILER BODY", editorial: { ...item.editorial!, spoilers: true } }] })));
       buildArchive(root);
       const html = readFileSync(path.join(root, "dist/topics/ai-agents/index.html"), "utf8");
-      expect(html).toContain('<title>AI &amp; Agents · OpenFeed</title>');
+      expect(html).toContain('<title>AI &amp; Agents · CoBanter</title>');
       expect(html).toContain('rel="canonical" href="https://ariesyous.github.io/openfeed/topics/ai-agents/"');
       expect(html).toContain('src="/openfeed/assets/app.js"');
       expect(html).toContain('href="/openfeed/p/title-1--');

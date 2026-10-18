@@ -38,7 +38,7 @@ export function articleMarkup(item: FeedItem, base: string): string {
   const discussion = (editorial.discussion ?? []).map(turn => `<div class="editorial-discussion-turn"><strong>${escape(turn.voice)}</strong><p>${escape(turn.body)}</p></div>`).join("");
   const reading = body + (discussion ? `<section class="editorial-discussion" aria-label="AI-generated discussion"><h2>AI-generated discussion</h2>${discussion}</section>` : "");
   const sources = editorial.sources.map(source => `<li><a href="${escape(source.url)}" rel="noreferrer">${escape(source.publisher)} — ${escape(source.title)}</a><p>${dateMarkup(source.publishedAt)}</p></li>`).join("");
-  return `<div class="app"><header class="app-header"><a class="app-title" href="${base}">OpenFeed</a></header><main class="app-main"><article class="post-card"><p>${escape(editorial.format)} · AI-edited · ${dateMarkup(item.createdAt, true)}</p><a class="post-card-community" href="${escape(topicPath(item.community, base))}">${escape(topicLabel(item.community))}</a><h1>${escape(item.title ?? "Article")}</h1>${editorial.spoilers ? `<details><summary>Show spoilers</summary>${reading}</details>` : reading}<section class="source-panel"><h2>Based on publisher excerpts</h2><ul>${sources}</ul></section></article><a href="${base}">← Back to feed</a></main></div>`;
+  return `<div class="app"><header class="app-header"><a class="app-title" href="${base}">CoBanter</a></header><main class="app-main"><article class="post-card"><p>${escape(editorial.format)} · AI-edited · ${dateMarkup(item.createdAt, true)}</p><a class="post-card-community" href="${escape(topicPath(item.community, base))}">${escape(topicLabel(item.community))}</a><h1>${escape(item.title ?? "Article")}</h1>${editorial.spoilers ? `<details><summary>Show spoilers</summary>${reading}</details>` : reading}<section class="source-panel"><h2>Based on publisher excerpts</h2><ul>${sources}</ul></section></article><a href="${base}">← Back to feed</a></main></div>`;
 }
 
 export function buildArchive(root = process.cwd()) {
@@ -71,9 +71,9 @@ export function buildArchive(root = process.cwd()) {
       const directory = path.join(dist, "p", slug);
       mkdirSync(directory, { recursive: true });
       const url = new URL(articlePath(item, base), origin).href;
-      const title = escape(item.title ?? "OpenFeed article");
-      const description = escape(item.editorial.spoilers ? "A spoiler-protected OpenFeed article. Open to read." : item.body.replace(/\s+/g, " ").slice(0, 180));
-      const metadata = `<title>${title} · OpenFeed</title><link rel="canonical" href="${escape(url)}"><meta name="description" content="${description}"><meta property="og:type" content="article"><meta property="og:title" content="${title}"><meta property="og:description" content="${description}"><meta property="og:url" content="${escape(url)}"><meta name="twitter:card" content="summary">`;
+      const title = escape(item.title ?? "CoBanter article");
+      const description = escape(item.editorial.spoilers ? "A spoiler-protected CoBanter article. Open to read." : item.body.replace(/\s+/g, " ").slice(0, 180));
+      const metadata = `<title>${title} · CoBanter</title><link rel="canonical" href="${escape(url)}"><meta name="description" content="${description}"><meta property="og:type" content="article"><meta property="og:title" content="${title}"><meta property="og:description" content="${description}"><meta property="og:url" content="${escape(url)}"><meta name="twitter:card" content="summary">`;
       const json = JSON.stringify({ ...item, slug }).replace(/</g, "\\u003c");
       const html = shell.replace(/<title>[\s\S]*?<\/title>/, metadata)
         .replace('<div id="root"></div>', `<div id="root">${articleMarkup(item, base)}</div><script id="article-data" type="application/json">${json}</script>`);
@@ -90,10 +90,10 @@ export function buildArchive(root = process.cwd()) {
     mkdirSync(directory, { recursive: true });
     const url = new URL(topicPath(topic, base), origin).href;
     const title = escape(topicLabel(topic));
-    const description = escape(`News, stories, and ideas about ${topicLabel(topic)} on OpenFeed.`);
-    const metadata = `<title>${title} · OpenFeed</title><link rel="canonical" href="${escape(url)}"><meta name="description" content="${description}"><meta property="og:type" content="website"><meta property="og:title" content="${title} · OpenFeed"><meta property="og:description" content="${description}"><meta property="og:url" content="${escape(url)}"><meta name="twitter:card" content="summary">`;
+    const description = escape(`News, stories, and ideas about ${topicLabel(topic)} on CoBanter.`);
+    const metadata = `<title>${title} · CoBanter</title><link rel="canonical" href="${escape(url)}"><meta name="description" content="${description}"><meta property="og:type" content="website"><meta property="og:title" content="${title} · CoBanter"><meta property="og:description" content="${description}"><meta property="og:url" content="${escape(url)}"><meta name="twitter:card" content="summary">`;
     const links = topicArticles.get(topic)!.map(item => `<li><a href="${articlePath(item, base)}">${escape(item.title ?? "Article")}</a></li>`).join("");
-    const markup = `<div class="app"><header class="app-header"><a class="app-title" href="${base}">OpenFeed</a></header><main class="app-main"><h1>${title}</h1><p>${description}</p>${links ? `<ul>${links}</ul>` : "<p>No posts here yet.</p>"}<a href="${base}">All topics</a></main></div>`;
+    const markup = `<div class="app"><header class="app-header"><a class="app-title" href="${base}">CoBanter</a></header><main class="app-main"><h1>${title}</h1><p>${description}</p>${links ? `<ul>${links}</ul>` : "<p>No posts here yet.</p>"}<a href="${base}">All topics</a></main></div>`;
     writeFileSync(path.join(directory, "index.html"), shell.replace(/<title>[\s\S]*?<\/title>/, metadata).replace('<div id="root"></div>', `<div id="root">${markup}</div>`));
     const indexPath = (file: string) => file === "manifest.json" ? `topics/${slug}/manifest.json` : file.replace("archive/page-", `archive/page-${slug}-`);
     for (const [file, page] of paginateManifest({ ...manifest, batches: topicBatches.get(topic)! })) {
@@ -107,7 +107,7 @@ export function buildArchive(root = process.cwd()) {
     mkdirSync(path.dirname(target), { recursive: true });
     writeFileSync(target, JSON.stringify(page));
   }
-  writeFileSync(path.join(dist, "404.html"), `<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Page not found · OpenFeed</title><body><h1>Page not found</h1><p>This address doesn't match a published article or topic.</p><a href="${base}">Return to OpenFeed</a></body></html>`);
+  writeFileSync(path.join(dist, "404.html"), `<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Page not found · CoBanter</title><body><h1>Page not found</h1><p>This address doesn't match a published article or topic.</p><a href="${base}">Return to CoBanter</a></body></html>`);
   const bytes = (directory: string): number => readdirSync(directory).reduce((sum, name) => {
     const file = path.join(directory, name), info = statSync(file);
     return sum + (info.isDirectory() ? bytes(file) : info.size);

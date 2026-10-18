@@ -86,7 +86,7 @@ adaptive sizing or navigation rewrite was warranted by this session's evidence.
 absolute UTC calendar dates **with the year every time**. `PublicationDate` is shared
 by Cards, the normal feed and the React article. Prebuilt article HTML uses the same
 helper and meaningful `<time datetime>` values, so the distinction also exists before
-JavaScript loads. Feed and React article headers use `relativeTime` for Openfeed's
+JavaScript loads. Feed and React article headers use `relativeTime` for CoBanter's
 creation age (for example, `Added 1h ago`), restoring the quick age scan requested
 after #40. The exact UTC creation timestamp remains in `datetime` and the tooltip.
 Posts older than the relative formatter's five-week window use an absolute date
@@ -102,7 +102,7 @@ dates remain absolute and are never inferred from the post's creation age.
 | Mixed dated/undated | Dated publisher's date; `Publication date unavailable` beside the other | No claim that all supporting material is recent. |
 | Entirely undated | `Publication date unavailable` for each source | No automatic evergreen/background label, regardless of news/story/explainer format. |
 | Invalid or future source timestamp | `Publication date unavailable`; reason in tooltip | Not treated as established dated reporting. No invalid/future `<time>` or substitution from `retrievedAt`/`createdAt`. |
-| Article `createdAt` in feed/article header | `Added 1h ago` / `Added 1d ago` | Openfeed's creation age, **not** a source or event date; exact UTC timestamp and explanation in tooltip. Older posts and prebuilt HTML use an absolute Added date. Missing/invalid/future creation time says `Added date unavailable`. |
+| Article `createdAt` in feed/article header | `Added 1h ago` / `Added 1d ago` | CoBanter's creation age, **not** a source or event date; exact UTC timestamp and explanation in tooltip. Older posts and prebuilt HTML use an absolute Added date. Missing/invalid/future creation time says `Added date unavailable`. |
 
 No inferred source freshness badges or invented event dates. The date is a publisher's
 publication date, not proof that the reported event happened that day. Cards keep

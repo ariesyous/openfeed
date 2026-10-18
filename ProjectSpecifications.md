@@ -1,4 +1,4 @@
-# OpenFeed — Product specification
+# CoBanter — Product specification
 
 ## Purpose
 

@@ -1,4 +1,4 @@
-# OpenFeed
+# CoBanter
 
 Useful reading about the real world: news, explainers, true stories, and clearly labelled
 AI-written banter. Dark mode is the default; an explicit light preference is saved locally.

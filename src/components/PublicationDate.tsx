@@ -5,7 +5,7 @@ import { formatRelativeTime } from "../lib/relativeTime";
 export function PublicationDate({ iso, added = false }: { iso?: string; added?: boolean }) {
   const now = new Date();
   const date = publicationDate(iso, now);
-  const meaning = added ? "When Openfeed created this article, not when its sources were published." : "Source publication date (UTC), not when Openfeed added this article.";
+  const meaning = added ? "When CoBanter created this article, not when its sources were published." : "Source publication date (UTC), not when CoBanter added this article.";
   if (date.status === "dated") {
     const age = added ? formatRelativeTime(date.dateTime, now) : "";
     const label = age === "just now" ? age : /^\d+[mhdw]$/.test(age) ? `${age} ago` : date.label;

@@ -32,7 +32,7 @@ export function PostCard({
   const discussion = item.editorial?.discussion ?? [];
   const hiddenSpoilers = item.editorial?.spoilers && !showSpoilers;
   const author = accountsById.get(item.authorId);
-  const displayName = author?.displayName ?? (item.editorial ? "OpenFeed" : "Unknown");
+  const displayName = author?.displayName ?? (item.editorial ? "CoBanter" : "Unknown");
   const handle = author?.handle ?? "unknown";
   const referenced = item.referencedPostId
     ? itemsById?.get(item.referencedPostId)

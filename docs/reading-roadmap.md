@@ -1,4 +1,4 @@
-# OpenFeed: permanent reading and return visits
+# CoBanter: permanent reading and return visits
 
 Decision record, September 17, 2026. Implements the direction agreed in #18–#21.
 
@@ -135,7 +135,7 @@ after deployment.
   inform capacity and freshness expectations.
 
 The platform accounts are design inputs, not causal evidence that these features
-have already increased OpenFeed engagement. Topic weights, related reading,
+have already increased CoBanter engagement. Topic weights, related reading,
 recurring columns, archive search and RSS remain follow-on candidates.
 
 ## Topic permalink follow-up

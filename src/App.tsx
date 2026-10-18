@@ -73,9 +73,9 @@ export function App() {
   }, []);
   useEffect(() => {
     if (articleRoute && article) {
-      document.title = `${article.title ?? "Article"} · OpenFeed`;
+      document.title = `${article.title ?? "Article"} · CoBanter`;
       requestAnimationFrame(() => { document.getElementById("article-view")?.focus(); window.scrollTo({ top: 0 }); });
-    } else if (!articleRoute) document.title = viewMode === "cards" ? "Cards · OpenFeed" : community === null ? "Topic not found · OpenFeed" : community ? `${topicLabel(community)} · OpenFeed` : "OpenFeed";
+    } else if (!articleRoute) document.title = viewMode === "cards" ? "Cards · CoBanter" : community === null ? "Topic not found · CoBanter" : community ? `${topicLabel(community)} · CoBanter` : "CoBanter";
   }, [articleRoute, article, community, viewMode]);
   const openArticle = (item: FeedItem) => {
     window.history.replaceState({ ...window.history.state, feedScroll: window.scrollY }, "");
@@ -110,7 +110,7 @@ export function App() {
   const cardsActive = viewMode === "cards" && !articleRoute;
   return <div className={`app${cardsActive ? " app--cards" : ""}`}>
     <header className="app-header">
-      <a className="app-title" href={base} onClick={(event) => { if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || event.button !== 0) return; event.preventDefault(); goHome(); }}>OpenFeed<span className="app-tagline"> A little more worth reading.</span></a>
+      <a className="app-title" href={base} onClick={(event) => { if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || event.button !== 0) return; event.preventDefault(); goHome(); }}>CoBanter<span className="app-tagline"> A little more worth reading.</span></a>
       {!articleRoute && <nav className="view-switch" aria-label="Reading view">
         <button aria-pressed={viewMode === "feed"} onClick={() => changeView("feed")}>Feed</button>
         <button aria-pressed={viewMode === "cards"} onClick={() => changeView("cards")}>Cards</button>

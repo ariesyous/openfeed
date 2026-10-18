@@ -44,7 +44,7 @@ describe("article navigation", () => {
     window.history.replaceState({}, "", topicPath(post.community));
     const view = render(<App />);
     await screen.findByRole("link", { name: post.title });
-    expect(document.title).toBe(`${topicLabel(post.community)} · OpenFeed`);
+    expect(document.title).toBe(`${topicLabel(post.community)} · CoBanter`);
     const nav = () => within(screen.getByRole("navigation", { name: "Topics" }));
     expect(nav().getByRole("link", { name: topicLabel(post.community) })).toHaveAttribute("href", topicPath(post.community));
     expect(screen.getAllByRole("article")).toHaveLength(batch.items.filter(item => item.community === post.community).length);

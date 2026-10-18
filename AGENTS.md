@@ -1,4 +1,4 @@
-# OpenFeed agent notes
+# CoBanter agent notes
 
 ## Current direction — September 15, 2026
 
