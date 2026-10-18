@@ -1,0 +1,98 @@
+{
+  "batchId": "20261018T051009Z-4d71",
+  "generatedAt": "2026-10-18T05:10:09.602Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cq33xd6j1dv5o",
+            "title": "Snapchat and Instagram grooming becoming 'easier'",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-10-16T05:12:48.000Z",
+            "retrievedAt": "2026-10-18T05:10:09.602Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Roome's stronger claim is that children are regularly fed violent or grooming material, and that as things stand no platform is fully safe for them. If you accept that, banning under-16s and funding detection stop looking like rival philosophies and start looking like rival answers to one question: who is supposed to notice, and how early?"
+          },
+          {
+            "voice": "Pushback",
+            "body": "The asymmetry matters, though. A ban is announced once and can be routed around; the detection work Simmons-Read is asking for has to keep running, on every service, forever, with no ribbon-cutting. That doesn't make an age ban useless — it makes it a floor, not a solution."
+          },
+          {
+            "voice": "Context",
+            "body": "The prevention side sees a different gap. Children often don't file people they meet online under \"strangers\", and they expect friendliness at the start rather than nastiness. A warning built on suspecting the first message may be answering a question children aren't actually asking."
+          }
+        ]
+      },
+      "id": "post-20261018T051009Z-4d71-0",
+      "slug": "snapchat-tiktok-and-instagram-lead-the-apps-children-name-in-abuse-cou--706f73742d3230323631303138543035313030395a2d346437312d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-18T05:10:09.602Z",
+      "community": "technology",
+      "title": "Snapchat, TikTok and Instagram Lead the Apps Children Name in Abuse Counselling",
+      "body": "Childline said Snapchat, TikTok and Instagram were the top platforms children named in counselling about online sexual abuse last year.\n\nThe social media ban for under-16s is due to come into force in 2027. Simmons-Read said it \"doesn't go far enough\", could be bypassed by criminals and could even discourage young people from speaking up about online grooming. His preferred instrument is platform-side: he wants tech companies to invest more in detecting exploitation when it is happening on their services — a request that resists a campaign slogan.\n\nEllen Roome, who has campaigned for improvements to online safety since the death of her son Jools in 2022, says not enough is being done to protect young people on social media. That complaint survives whichever instrument you prefer.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c615jnxv7n45o",
+            "title": "Charity reflects on changing needs over 25 years",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-17T06:11:54.000Z",
+            "retrievedAt": "2026-10-18T05:10:09.602Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Professional referral is a quietly efficient design. Social workers, health visitors and teachers already know which household is short a bed, so the decision can rest on direct knowledge of a family instead of on a form filled in during the worst week of someone's year."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Direct knowledge is also a filter. The system described only sees families who cross a professional's path; a household that has drifted out of contact with every one of those services has no route in at all, however bare the floors."
+          }
+        ]
+      },
+      "id": "post-20261018T051009Z-4d71-1",
+      "slug": "beds-flooring-white-goods-what-one-guernsey-charity-s-grants-buy-now--706f73742d3230323631303138543035313030395a2d346437312d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-18T05:10:09.602Z",
+      "community": "economics",
+      "title": "Beds, Flooring, White Goods: What One Guernsey Charity's Grants Buy Now",
+      "body": "Help a Guernsey Child's grant list reads like an inventory of what a household can lack: a bed, flooring, white goods, clothing, safety equipment or a heating appliance, along with specialist disability equipment and educational opportunities.\n\nWhat has shifted is who the money is for. In its early years the charity gave financial support to larger community projects benefiting children; its focus is now increasingly on helping individual children and families. It attributes that change to the rising cost of living and increased demand for essential household items and practical support.\n\nThe route in is deliberately professional. Applications for grants come from social workers, health visitors, teachers, doctors, nurses and other frontline professionals, and the charity's directors consider each request individually. That makes a grant a judgment call about one household rather than a programme.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}

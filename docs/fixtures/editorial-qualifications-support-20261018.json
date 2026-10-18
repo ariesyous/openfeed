@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261018T051009Z-4d71",
+  "startedAt": "2026-10-18T05:10:09.602Z",
+  "status": "data_written",
+  "chunks": [
+    {
+      "index": 1,
+      "requestedModel": "deepseek/deepseek-v4.1-flash",
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "redactionsApplied": false,
+      "sources": [
+        {
+          "id": "8d249f9e866084a3",
+          "url": "https://www.bbc.co.uk/news/articles/cq33xd6j1dv5o",
+          "title": "Snapchat and Instagram grooming becoming 'easier'",
+          "publisher": "BBC Technology",
+          "retrievedAt": "2026-10-18T05:10:09.602Z",
+          "publishedAt": "2026-10-16T05:12:48.000Z",
+          "evergreen": false
+        },
+        {
+          "id": "336779df18ed2aed",
+          "url": "https://www.bbc.co.uk/news/articles/c615jnxv7n45o",
+          "title": "Charity reflects on changing needs over 25 years",
+          "publisher": "BBC Business",
+          "retrievedAt": "2026-10-18T05:10:09.602Z",
+          "publishedAt": "2026-10-17T06:11:54.000Z",
+          "evergreen": false
+        }
+      ],
+      "evidence": [
+        {
+          "id": "S1E10",
+          "sourceId": "8d249f9e866084a3",
+          "quote": "Childline said Snapchat, TikTok and Instagram were the top platforms children named in counselling about online sexual abuse last year."
+        },
+        {
+          "id": "S1E8",
+          "sourceId": "8d249f9e866084a3",
+          "quote": "Simmons-Read said the social media ban for under 16s, which is due to come into force in 2027, \"doesn't go far enough\", could be bypassed"
+        },
+        {
+          "id": "S1E9",
+          "sourceId": "8d249f9e866084a3",
+          "quote": "by criminals and could even discourage young people from speaking up about online grooming."
+        },
+        {
+          "id": "S1E18",
+          "sourceId": "8d249f9e866084a3",
+          "quote": "\"We want tech platforms to invest more in detecting exploitation when it's happening on their platforms,\" he said."
+        },
+        {
+          "id": "S1E6",
+          "sourceId": "8d249f9e866084a3",
+          "quote": "Ellen Roome, from Cheltenham, who has been campaigning for improvements to online safety since the death of her son Jools in 2022, said not enough"
+        },
+        {
+          "id": "S1E7",
+          "sourceId": "8d249f9e866084a3",
+          "quote": "is being done to protect young people on social media."
+        },
+        {
+          "id": "S1E16",
+          "sourceId": "8d249f9e866084a3",
+          "quote": "\"Children are regularly being fed content that is either violent or grooming material and I think as it stands, there isn't any platform that is"
+        },
+        {
+          "id": "S1E17",
+          "sourceId": "8d249f9e866084a3",
+          "quote": "fully safe for them,\" she said."
+        },
+        {
+          "id": "S1E21",
+          "sourceId": "8d249f9e866084a3",
+          "quote": "She works with schools to inform children how to be safe online, but said they are often unaware of the risks, including not viewing people"
+        },
+        {
+          "id": "S1E22",
+          "sourceId": "8d249f9e866084a3",
+          "quote": "they meet online as strangers and expecting them to be \"nasty\" from the start."
+        },
+        {
+          "id": "S2E6",
+          "sourceId": "336779df18ed2aed",
+          "quote": "The charity said in its early years it gave financial support to a number of larger community projects benefiting children but there was now an"
+        },
+        {
+          "id": "S2E7",
+          "sourceId": "336779df18ed2aed",
+          "quote": "increasing focus on helping individual children and families."
+        },
+        {
+          "id": "S2E16",
+          "sourceId": "336779df18ed2aed",
+          "quote": "Applications for grants come in from social workers, health visitors, teachers, doctors, nurses and other frontline professionals and are considered individually by the charity's Directors."
+        },
+        {
+          "id": "S2E17",
+          "sourceId": "336779df18ed2aed",
+          "quote": "The charity said the increasing focus on helping in individual cases meant providing something as \"fundamental as a bed, flooring, white goods, clothing, safety equipment"
+        },
+        {
+          "id": "S2E18",
+          "sourceId": "336779df18ed2aed",
+          "quote": "or a heating appliance, as well as specialist disability equipment and educational opportunities\"."
+        },
+        {
+          "id": "S2E5",
+          "sourceId": "336779df18ed2aed",
+          "quote": "These included the rising cost of living and increased demand for essential household items and practical support, it said."
+        },
+        {
+          "id": "S2E15",
+          "sourceId": "336779df18ed2aed",
+          "quote": "The charity said it works through professional referrers who know the children and families involved."
+        }
+      ],
+      "posts": [
+        {
+          "postId": "post-20261018T051009Z-4d71-0",
+          "evidenceIds": [
+            "S1E10",
+            "S1E8",
+            "S1E9",
+            "S1E18",
+            "S1E6",
+            "S1E7"
+          ],
+          "discussion": [
+            {
+              "turnIndex": 0,
+              "voice": "Take",
+              "evidenceIds": [
+                "S1E16",
+                "S1E17"
+              ]
+            },
+            {
+              "turnIndex": 1,
+              "voice": "Pushback",
+              "evidenceIds": [
+                "S1E8",
+                "S1E9",
+                "S1E18"
+              ]
+            },
+            {
+              "turnIndex": 2,
+              "voice": "Context",
+              "evidenceIds": [
+                "S1E21",
+                "S1E22"
+              ]
+            }
+          ]
+        },
+        {
+          "postId": "post-20261018T051009Z-4d71-1",
+          "evidenceIds": [
+            "S2E6",
+            "S2E7",
+            "S2E16",
+            "S2E17",
+            "S2E18",
+            "S2E5"
+          ],
+          "discussion": [
+            {
+              "turnIndex": 0,
+              "voice": "Take",
+              "evidenceIds": [
+                "S2E15",
+                "S2E16"
+              ]
+            },
+            {
+              "turnIndex": 1,
+              "voice": "Pushback",
+              "evidenceIds": [
+                "S2E16"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

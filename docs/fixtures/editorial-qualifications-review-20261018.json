@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-10-18",
+  "method": "Manual review of all body claims and discussion turns against selected support and both retrieved publisher pages; not independent event verification or a blinded comparison.",
+  "generationRun": "39099607441",
+  "checkout": "3997d1cf42aa8f911dd0adee5b74cca8a80b7bb4",
+  "publicationCommit": "6917f1e9a7fa42980ebee1782aab5558630ca8ad",
+  "deploymentRun": "39099788711",
+  "requestedModel": "deepseek/deepseek-v4.1-flash",
+  "resolvedModel": "deepseek/deepseek-v4.1-flash",
+  "batchId": "20261018T051009Z-4d71",
+  "attempts": 1,
+  "elapsedMs": 166006,
+  "posts": 2,
+  "turns": 5,
+  "rejectedResponses": 0,
+  "discussionOmissions": 0,
+  "providerFailures": 0,
+  "emptySelections": 0,
+  "stopReason": "insufficient unused evidence or publisher diversity",
+  "auditArtifact": {
+    "id": "12125558125",
+    "name": "editorial-support-39099607441-1",
+    "expiresAt": "2026-11-01T05:12:59Z",
+    "sha256": "40a4a199f0180a50ee29b395ff1950f195e3578125d5855fdea15ebaa5ee1569"
+  },
+  "sourceRetrievals": [
+    {
+      "postId": "post-20261018T051009Z-4d71-0",
+      "title": "Snapchat, TikTok and Instagram Lead the Apps Children Name in Abuse Counselling",
+      "url": "https://www.bbc.co.uk/news/articles/cq33xd6j1dv5o",
+      "articleUrl": "https://ariesyous.github.io/openfeed/p/snapchat-tiktok-and-instagram-lead-the-apps-children-name-in-abuse-cou--706f73742d3230323631303138543035313030395a2d346437312d30/",
+      "status": 200,
+      "retrievedAt": "2026-10-18T05:14:00.196Z",
+      "pageSha256": "9bb3889235ae8b3c507e51afcc3fee31429f7d24328ed7ccc8fff5cbca01a49e",
+      "sections": 6,
+      "characters": 5837,
+      "exactSelectedSupport": true,
+      "snippets": 10,
+      "bodyWords": 127,
+      "discussionWords": 148,
+      "turns": 3
+    },
+    {
+      "postId": "post-20261018T051009Z-4d71-1",
+      "title": "Beds, Flooring, White Goods: What One Guernsey Charity's Grants Buy Now",
+      "url": "https://www.bbc.co.uk/news/articles/c615jnxv7n45o",
+      "articleUrl": "https://ariesyous.github.io/openfeed/p/beds-flooring-white-goods-what-one-guernsey-charity-s-grants-buy-now--706f73742d3230323631303138543035313030395a2d346437312d31/",
+      "status": 200,
+      "retrievedAt": "2026-10-18T05:14:00.225Z",
+      "pageSha256": "b367175f92e8dcb4bb57f344702712e4c2ede92303cf10fd364c8d2cd4fe2ee0",
+      "sections": 2,
+      "characters": 2060,
+      "exactSelectedSupport": true,
+      "snippets": 7,
+      "bodyWords": 135,
+      "discussionWords": 87,
+      "turns": 2
+    }
+  ],
+  "liveVerification": {
+    "batchMatchesFrozenEdition": true,
+    "bothArticlesHttp200": true,
+    "allDiscussionTextPresent": true,
+    "latestManifestBatchAtResumedCheck": "20261018T155406Z-ea87"
+  },
+  "dispositions": {
+    "retain": 0,
+    "revise": 1,
+    "correct": 1
+  },
+  "limitations": [
+    "Two posts and different source topics do not establish a causal improvement.",
+    "Exact snippet matches prove provenance, not semantic fidelity.",
+    "The near-copy guard did not reject a response in this run.",
+    "This manual run does not advance ordinary-run observation cohorts.",
+    "No published text was rewritten by this review."
+  ],
+  "reviews": [
+    {
+      "disposition": "correct",
+      "title": "Snapchat, TikTok and Instagram Lead the Apps Children Name in Abuse Counselling",
+      "bodyClaims": [
+        {
+          "claim": "Top platforms named in Childline counselling last year",
+          "evidenceIds": [
+            "S1E10"
+          ],
+          "verdict": "supported",
+          "note": "Population qualification preserved."
+        },
+        {
+          "claim": "Under-16 ban due in 2027; Simmons-Read says insufficient, bypassable and potentially discouraging disclosure",
+          "evidenceIds": [
+            "S1E8",
+            "S1E9"
+          ],
+          "verdict": "supported_with_context_omission",
+          "note": "Criticism attributed. Introduce his role and make jurisdiction explicit; selected support itself does not name the country."
+        },
+        {
+          "claim": "Simmons-Read wants platform investment in exploitation detection",
+          "evidenceIds": [
+            "S1E18"
+          ],
+          "verdict": "supported",
+          "note": "Campaign-slogan observation is editorial interpretation."
+        },
+        {
+          "claim": "Roome campaigned after son Jools died in 2022 and says protection is inadequate",
+          "evidenceIds": [
+            "S1E6",
+            "S1E7"
+          ],
+          "verdict": "supported",
+          "note": "Attribution retained. Final instrument comparison is commentary."
+        }
+      ],
+      "discussion": [
+        {
+          "turnIndex": 0,
+          "verdict": "retain",
+          "contribution": "Adds Roome attribution and a conditional comparison of ban and detection.",
+          "note": "Keeps the broad safety assessment as her claim, not established universal fact.",
+          "voice": "Take",
+          "evidenceIds": [
+            "S1E16",
+            "S1E17"
+          ]
+        },
+        {
+          "turnIndex": 1,
+          "verdict": "qualify",
+          "contribution": "Challenges the comparison through ongoing enforcement work; ribbon-cutting joke has a purpose.",
+          "note": "Announcement-once framing underplays continuing ban enforcement. It is not evidence that age restrictions have no recurring work.",
+          "voice": "Pushback",
+          "evidenceIds": [
+            "S1E8",
+            "S1E9",
+            "S1E18"
+          ]
+        },
+        {
+          "turnIndex": 2,
+          "verdict": "correct",
+          "contribution": "Introduces prevention psychology, but reverses the cited premise.",
+          "note": "S1E21–S1E22 describe children expecting dangerous people to be nasty from the start. The turn says children expect friendliness rather than nastiness, then reasons from that inversion. The contradictory evidence was selected and full section context was offered.",
+          "voice": "Context",
+          "evidenceIds": [
+            "S1E21",
+            "S1E22"
+          ]
+        }
+      ],
+      "postId": "post-20261018T051009Z-4d71-0",
+      "titleReview": "Supported counselling population; not a general platform-risk ranking."
+    },
+    {
+      "disposition": "revise",
+      "title": "Beds, Flooring, White Goods: What One Guernsey Charity's Grants Buy Now",
+      "bodyClaims": [
+        {
+          "claim": "Grants cover beds, flooring, white goods, clothing, safety or heating equipment, disability equipment and educational opportunities",
+          "evidenceIds": [
+            "S2E17",
+            "S2E18"
+          ],
+          "verdict": "supported",
+          "note": "Useful concrete detail."
+        },
+        {
+          "claim": "Shift from larger community projects toward individual children and families",
+          "evidenceIds": [
+            "S2E6",
+            "S2E7"
+          ],
+          "verdict": "supported",
+          "note": "Increasing focus retained rather than claiming complete replacement."
+        },
+        {
+          "claim": "Charity attributes changing needs to rising living costs and demand for essential items and practical support",
+          "evidenceIds": [
+            "S2E5"
+          ],
+          "verdict": "supported",
+          "note": "Attribution retained; surrounding reading context connects the statement to changing pressures."
+        },
+        {
+          "claim": "Professional grant applications considered individually by directors",
+          "evidenceIds": [
+            "S2E16"
+          ],
+          "verdict": "supported",
+          "note": "Final judgment-versus-programme contrast is unnecessary commentary, not a factual distinction established by the article."
+        }
+      ],
+      "discussion": [
+        {
+          "turnIndex": 0,
+          "verdict": "qualify",
+          "contribution": "Argues that referrers knowledge can help identify need.",
+          "note": "Efficiency is an assessment, not measured in the article. Comparison with a burdensome form is invented; describe a potential benefit without asserting a different application process.",
+          "voice": "Take",
+          "evidenceIds": [
+            "S2E15",
+            "S2E16"
+          ]
+        },
+        {
+          "turnIndex": 1,
+          "verdict": "revise",
+          "contribution": "Responds with the possible access cost of professional referrals.",
+          "note": "No route in at all is unsupported. The source does not establish that disconnected households cannot seek referral or exclude every alternative. Keep the concern conditional.",
+          "voice": "Pushback",
+          "evidenceIds": [
+            "S2E16"
+          ]
+        }
+      ],
+      "postId": "post-20261018T051009Z-4d71-1",
+      "titleReview": "Supported concrete inventory with explicit Guernsey location."
+    }
+  ]
+}
