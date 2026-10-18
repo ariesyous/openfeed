@@ -4,7 +4,7 @@ import { tmpdir } from "node:os";
 import path from "node:path";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { generateEditorial } from "../editorial/generate";
-import { buildReviewInput, validateReview, reviewDigest, reviewTransportSchema, ReviewResponseSchema, type ReviewInput, type ReviewResponse } from "../editorial/review";
+import { buildReviewInput, validateReview, reviewDigest, ReviewResponseSchema, type ReviewInput, type ReviewResponse } from "../editorial/review";
 import { prepareEvidence } from "../editorial/evidence";
 import { createEditorialAudit, EditorialReviewAuditSchema, REVIEW_FILE_NAME, type EditorialAuditChunk, type EditorialReviewRecord } from "../editorial/audit";
 import type { SourcePacket } from "../editorial/sources";
@@ -48,12 +48,7 @@ const roots: string[] = [];
 afterEach(() => { vi.restoreAllMocks(); for (const root of roots.splice(0)) rmSync(root, { recursive: true, force: true }); });
 
 describe("review coverage and source boundaries", () => {
-  it("simplifies provider constraints without relaxing local bounds or required claim accounting", () => {
-    const transport = JSON.stringify(reviewTransportSchema());
-    expect(transport).not.toMatch(/minLength|maxLength|minItems|maxItems/);
-    expect(transport).toContain('"additionalProperties":false');
-    expect(transport).toContain('"segments"');
-    expect(transport).toContain('"unsupported_fact"');
+  it("enforces local segment bounds in addition to provider constraints", () => {
     const input = buildReviewInput([post], prepared);
     const result = pass(input);
     result.posts[0].checks[0].segments![0].explanation = "x".repeat(241);

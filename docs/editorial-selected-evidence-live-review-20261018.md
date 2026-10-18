@@ -84,3 +84,26 @@ was still active. The controls above remain historical evidence, not an availabl
 model option. Local generation, scheduled/manual generation and reviewer controls
 are now pinned to DeepSeek Flash; legacy environment model overrides are ignored.
 Workflow dropdowns were removed. The three-hour schedule is unchanged.
+
+Run `39157487829` had completed review of two candidates before cancellation, but
+publication and deployment steps were skipped. It is not a published edition.
+DeepSeek-only commit `08b6e73` deployed in run
+[39157764456](https://github.com/ariesyous/openfeed/actions/runs/39157764456), with
+all 325 Linux tests passing. HTTPS verification of CoBanter.com returned HTTP 200.
+
+DeepSeek controls [39157764229](https://github.com/ariesyous/openfeed/actions/runs/39157764229)
+passed the reversal suite, then failed local schema validation on both title-suite
+attempts under the simplified transport. Fresh generation
+[39157766374](https://github.com/ariesyous/openfeed/actions/runs/39157766374)
+produced a valid writer response, then two empty-at-length review responses:
+three calls, about 218 seconds, no completed review or publication.
+
+The Gemini-specific transport simplification was consequently retired. Full provider
+bounds are restored alongside unchanged local validation. DeepSeek calls explicitly
+request `reasoning.effort: low` while retaining reasoning, the 24,000-token cap,
+the same context and all publication gates. The public OpenRouter model metadata
+retrieved October 18 lists `max`, `high`, `low`, `none`, with `high` as default.
+[OpenRouter documents that reasoning and visible output share the token budget](https://openrouter.ai/docs/guides/best-practices/reasoning-tokens).
+The empty-at-length responses with reasoning present are consistent with budget
+exhaustion, though the logs do not include a measured reasoning-token breakdown.
+This is a reliability adjustment whose editorial quality still needs observation.

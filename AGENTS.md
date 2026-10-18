@@ -303,11 +303,9 @@ gate over both body and discussion and retain the manual collapse option. Card m
 continues to link to the full discussion; its fitting contract is unchanged.
 
 ## Review transport compatibility — October 18, 2026
-Reviewer transport retains required fields, types, enums and strict objects, but
-omits nested string/array size bounds. The unchanged local live schema enforces all
-bounds and complete claim accounting before publication. Generic HTTP 400 errors
-remain fatal. Manual reviewer controls default to DeepSeek and allow explicit Gemini
-comparison; this does not change the scheduled model. See
+The temporary Gemini compatibility schema was retired after the DeepSeek-only user
+direction. Reviewer transport and local live schemas both retain all bounds and
+complete claim accounting. Generic HTTP 400 errors remain fatal. See
 docs/editorial-selected-evidence-live-review-20261018.md for controls and failed runs.
 
 ## DeepSeek only and CoBanter — October 18, 2026 (latest user direction)
@@ -317,6 +315,10 @@ and stale `OPENROUTER_MODEL` settings are ignored. This supersedes all older mod
 selection instructions, including the comparison option above. Preserve historical
 model identities and audits. Hosting is now CoBanter.com; preserve the concurrent
 domain/routing changes and use the current domain for live verification.
+DeepSeek writer/reviewer calls use supported low reasoning effort after repeated
+empty-at-length review responses under the default high setting. The 24,000-token
+cap, shared call/deadline limits, full context and strict review rules are unchanged.
+Controls and a fresh manual quality review must distinguish reliability from accuracy.
 
 ## Complete claim accounting and evidence labels — October 18, 2026
 Live reviews require ordered segments covering each complete unchanged unit, classified

@@ -15,6 +15,19 @@ const baseOpts = {
 };
 
 describe("callOpenRouter", () => {
+  it("uses DeepSeek with bounded reasoning effort and preserves strict output constraints", async () => {
+    let request: Record<string, unknown> = {};
+    const schema = { type: "object", properties: {}, additionalProperties: false };
+    await callOpenRouter({ ...baseOpts, maxTokens: 24000, jsonSchema: { name: "review", schema },
+      fetchImpl: async (_url, init) => {
+        request = JSON.parse(String(init?.body));
+        return jsonResponse({ model: "deepseek/deepseek-v4.1-flash", choices: [{ message: { content: "{}" } }] });
+      },
+    });
+    expect(request).toMatchObject({ model: "deepseek/deepseek-v4.1-flash", reasoning: { effort: "low" }, max_tokens: 24000,
+      response_format: { type: "json_schema", json_schema: { name: "review", strict: true, schema } },
+    });
+  });
   it("returns ok:true with the resolved model on a valid 200 response", async () => {
     const fetchImpl = async () =>
       jsonResponse({

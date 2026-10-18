@@ -118,11 +118,13 @@ never includes raw completions; the check never fetches sources or writes public
 manual check is separate from each ordinary edition's shared budget. Its small,
 prompt-aligned controls demonstrate targeted behavior, not general accuracy.
 
-The provider transport schema retains required fields, types, enums and strict
-objects, but omits string/array size constraints to reduce nested schema complexity.
-The unchanged local live schema still enforces every size bound and coverage rule
-before a review can authorize publication. Generic provider 400 errors remain fatal;
+The provider transport and local live schemas both enforce size bounds, required
+fields, types, enums and strict objects. Generic provider 400 errors remain fatal;
 they are not automatically treated as permission to bypass structured output.
+DeepSeek writer/reviewer calls explicitly use its supported low reasoning effort
+after repeated empty-at-length completions at the default high setting. The same
+24,000-token output cap, eight-call budget and strict publication checks apply.
+This reliability setting needs live quality review; controls are not a quality guarantee.
 
 Live review remains necessary. Measure false negatives and false positives, retained
 banter, publication counts, source availability, call counts and latency. Do not describe
