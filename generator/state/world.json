@@ -2405,7 +2405,11 @@
     "data centres opposing them and developing them are not the only two choices",
     "if you have the scratch they have the scares",
     "apichatpong weerasethakul s jengira s magnificent dream with tilda swinton boarded by triangle of sadness mexican co producer piano",
-    "pope leo says he will gradually resume duties after cancer surgery"
+    "pope leo says he will gradually resume duties after cancer surgery",
+    "burnt out cars and shattered glass on paris streets after protests turn to riots and looting",
+    "noah adams longtime host of npr s all things considered has died",
+    "sergei loznitsa s imperium wins best film at bfi london film festival",
+    "search for amelia earhart s plane resumes after stormy weather"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -4812,12 +4816,16 @@
     "https://theconversation.com/data-centres-opposing-them-and-developing-them-are-not-the-only-two-choices-291528",
     "https://www.npr.org/2026/10/18/nx-s1-5985869/if-you-have-the-scratch-they-have-the-scares",
     "https://variety.com/2026/film/global/apichatpong-weerasethakul-tilda-swinton-piano-1236915017/",
-    "https://www.npr.org/2026/10/18/g-s1-148654/pope-leo-says-he-will-gradually-resume-duties-after-cancer-surgery"
+    "https://www.npr.org/2026/10/18/g-s1-148654/pope-leo-says-he-will-gradually-resume-duties-after-cancer-surgery",
+    "https://www.bbc.co.uk/news/articles/c574pdzl0k4no",
+    "https://www.npr.org/2026/10/18/nx-s1-5556931/noah-adams-all-things-considered-has-died",
+    "https://variety.com/2026/film/festivals/sergei-loznitsa-imperium-best-film-london-film-festival-1236915621/",
+    "https://www.bbc.co.uk/news/articles/cv70pxe5j90eo"
   ],
   "initialized": true,
-  "cycleCount": 145,
+  "cycleCount": 146,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-10-18T15:54:06.016Z",
+  "lastRunAt": "2026-10-18T16:48:47.369Z",
   "communities": [
     "technology",
     "science",
@@ -4839,11 +4847,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20261018T043736Z-3e70",
-      "generatedAtCycle": 141,
-      "summary": "Teaching AI to Read Crystals, Not Just Text; Tarantino Has Finished His 10th-Film Script, but the Play Comes First; Settlers Targeted European Diplomats in a West Bank Village, Belgian Minister Says; Alberta's Referendum Isn't on Leaving Canada — It's on Whether to Start the Process; Union Warns Over Rising Violence Against Manitoba School Support Staff; Nearly 40 Years After Hellraiser, Clive Barker Is Ready to Open the Box Again; James McAvoy's Residual Ledger Has Exactly One Film on It; Elon "
-    },
-    {
       "batchId": "20261018T044607Z-39d1",
       "generatedAtCycle": 142,
       "summary": "The Free-Fruit Trial Judged by Wastage, Not Grocery Bills; Starshield Loses the Connection Above 100 mph; The Postwar Slump That Had Jimmy Stewart Eyeing the Family Store; A Post Referencing Palestine Action Didn't Meet the Criminal Threshold, Police Say; Bettany: We Hadn't Spoken in Years When the Texts Were Read in Court; The Creative Prompts Aimed at Perfectionism, Not Inspiration"
@@ -4862,6 +4865,11 @@
       "batchId": "20261018T155406Z-ea87",
       "generatedAtCycle": 145,
       "summary": "Fires at Two St Petersburg Oil Facilities After an Overnight Attack Kills at Least One; Absorb It, React With It, or Burn It: Three Ways to Fight an Industrial Smell; \"You Can See Everything\" Took $15 Million From 855 Screens — About $17,500 Each; Before AI Measured Students, Universities Measured \"Intelligence\"; Power Usage Effectiveness Measures a Data Centre's Overhead, Not Its Value; $10 Million In, $400 Million Out, and a Studio Pipeline Behind It; Apichatpong's Next Film Uses Cell Phones a"
+    },
+    {
+      "batchId": "20261018T164847Z-b1c0",
+      "generatedAtCycle": 146,
+      "summary": "A Mostly Peaceful March, and 1,500 Damaged Shops; Noah Adams Listened for the Person, Not the Talking Point; A BFI Prize for the Documentary That Praises Quiet Resilience; The Earhart Search Returns to a Shape in the Lagoon"
     }
   ]
 }
