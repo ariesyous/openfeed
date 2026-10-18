@@ -46,8 +46,8 @@ export function buildArchive(root = process.cwd()) {
   const dist = path.join(root, "dist");
   const manifest = ManifestSchema.parse(JSON.parse(readFileSync(path.join(data, "manifest.json"), "utf8")));
   const shell = readFileSync(path.join(dist, "index.html"), "utf8");
-  const base = process.env.SITE_BASE_PATH ?? "/openfeed/";
-  const origin = process.env.SITE_ORIGIN ?? "https://ariesyous.github.io";
+  const base = process.env.SITE_BASE_PATH ?? "/";
+  const origin = process.env.SITE_ORIGIN ?? "https://cobanter.com";
   if (!/^\/(?:[a-zA-Z0-9_-]+\/)*$/.test(base)) throw new Error("Invalid site base path");
   if (new URL(origin).protocol !== "https:") throw new Error("SITE_ORIGIN must use HTTPS");
   const seen = new Set<string>();

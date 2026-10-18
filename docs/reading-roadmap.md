@@ -29,7 +29,9 @@ and direct links; direct pages do not download the feed. JS/CSS assets are share
 Hash and query routes would simplify deployment but provide weaker standalone
 sharing previews. Real static pages are the selected approach. `SITE_BASE_PATH`
 and `SITE_ORIGIN` control generated URLs; the Vite base must match the configured
-base when moving deployments. The current deployment remains `/openfeed/`.
+base when moving deployments. Since October 18, 2026, production uses the root of
+`https://cobanter.com/`; the earlier `/openfeed/` examples describe the original
+GitHub project URL. Article slugs and stored content remain unchanged.
 
 The complete publication manifest remains a generator-side catalog. Build output
 partitions its references into pages of at most 50, filled from oldest to newest

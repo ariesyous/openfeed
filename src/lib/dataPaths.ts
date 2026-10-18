@@ -1,6 +1,6 @@
 import { topicSlug } from "../../shared/topics";
 
-/** Resolves a path under public/data/ relative to the app's base path (root locally, /openfeed/ on GitHub Pages). */
+/** Resolves a path under public/data/ relative to the app's configured base path. */
 export function dataUrl(path: string): string {
   const base = import.meta.env.BASE_URL;
   return `${base}data/${path}`.replace(/([^:])\/{2,}/g, "$1/");

@@ -6,6 +6,13 @@ AI-written banter. Dark mode is the default; an explicit light preference is sav
 The frontend is static React/TypeScript on GitHub Pages. Generation happens offline in
 GitHub Actions through OpenRouter. The browser never receives API keys or calls a model.
 
+Production lives at https://cobanter.com/ with GitHub Pages serving the domain root.
+Cloudflare manages DNS: the apex (flattened CNAME) and `www` point to
+`ariesyous.github.io`, using DNS-only records so GitHub provisions and serves HTTPS.
+The repository's Pages custom domain is `cobanter.com`. `SITE_BASE_PATH` defaults to
+`/` in both Vite and the archive builder; `SITE_ORIGIN` defaults to
+`https://cobanter.com`. For another deployment, set the same base for the full build.
+
 ## Development
 
 ```bash
