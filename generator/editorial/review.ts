@@ -17,13 +17,21 @@ const TitleAttributionSchema = z.object({
   sourceEvidenceId: z.string().min(1).max(40).nullable(),
   relation: z.enum(["aligned", "interpretation", "mismatch", "no_attributed_claim"]),
 }).strict();
+const SegmentSchema = z.object({
+  text: z.string().min(1).max(1800),
+  kind: z.enum(["supported_fact", "unsupported_fact", "opinion"]),
+  evidenceIds: z.array(z.string().min(1).max(40)).max(6),
+  explanation: z.string().min(1).max(240),
+}).strict();
 const CheckSchema = z.object({
   target: z.string().min(1).max(24),
   verdict: z.enum(["supported", "opinion", "reject"]),
   reason: reason.nullable(),
   claim: z.string().min(1).max(200).nullable(),
   explanation: z.string().min(1).max(400),
-  evidenceIds: z.array(z.string().min(1).max(40)).max(3),
+  evidenceIds: z.array(z.string().min(1).max(40)).max(6),
+  // Historical review artifacts predate complete-text claim accounting.
+  segments: z.array(SegmentSchema).min(1).max(32).optional(),
 }).strict();
 export const ReviewResponseSchema = z.object({
   posts: z.array(z.object({
@@ -34,7 +42,9 @@ export const ReviewResponseSchema = z.object({
 }).strict();
 export type ReviewResponse = z.infer<typeof ReviewResponseSchema>;
 export const LiveReviewResponseSchema = ReviewResponseSchema.extend({ posts: z.array(
-  ReviewResponseSchema.shape.posts.element.extend({ titleAttribution: TitleAttributionSchema }),
+  ReviewResponseSchema.shape.posts.element.extend({ titleAttribution: TitleAttributionSchema,
+    checks: z.array(CheckSchema.extend({ segments: z.array(SegmentSchema).min(1).max(32) })).min(4).max(6),
+  }),
 ).min(1).max(4) });
 export type ReviewInput = ReturnType<typeof buildReviewInput>;
 export const reviewDigest = (post: ReviewPost) => createHash("sha256").update(JSON.stringify({
@@ -52,7 +62,9 @@ export function buildReviewInput(posts: ReviewPost[], prepared: ReturnType<typeo
         { target: "title", text: post.title, evidenceIds: post.evidenceIds },
         { target: "body", text: post.body, evidenceIds: post.evidenceIds },
         ...(post.discussion ?? []).map((turn, i) => ({ target: `discussion.${i}`, text: turn.body, evidenceIds: turn.evidenceIds })),
-      ],
+      ].map(unit => ({ ...unit, selectedEvidence: unit.evidenceIds.map(id => ({
+        id, text: prepared.evidenceById.get(id)!.quote,
+      })) })),
       sources: prepared.sources.filter(source => source.evidence.some(entry => attached.has(prepared.evidenceById.get(entry.id)?.sourceId))),
     };
   }) };
@@ -96,6 +108,26 @@ export function validateReview(json: unknown, input: ReviewInput): ParseOutcome<
     for (const check of post.checks) {
       const unit = original.units.find(u => u.target === check.target);
       if (!unit || check.evidenceIds.some(id => !allowed.has(id))) errors.push("Review target or evidence does not belong to this post");
+      if (unit) {
+        const normalize = (text: string) => text.replace(/\s+/g, " ").trim();
+        if (normalize(check.segments.map(segment => segment.text).join(" ")) !== normalize(unit.text))
+          errors.push("Claim segments must cover the complete unchanged unit in order, with no missing, duplicated or rewritten words");
+        for (const segment of check.segments) {
+          if (!normalize(unit.text).includes(normalize(segment.text)))
+            errors.push("Every claim segment must be an exact span of its unit, ignoring whitespace only");
+          if (segment.evidenceIds.some(id => !unit.evidenceIds.includes(id)))
+            errors.push("Claim support must come only from this unit's selected evidence, never another turn or unselected context");
+          if (segment.kind === "supported_fact" && !segment.evidenceIds.length)
+            errors.push("Every supported factual segment requires selected evidence");
+        }
+        const unsupported = check.segments.some(segment => segment.kind === "unsupported_fact");
+        if (unsupported && (check.verdict !== "reject" || check.reason === "noncontributing"))
+          errors.push("Any unsupported factual segment must reject its unit for a factual defect");
+        if (check.verdict === "reject" && check.reason !== "noncontributing" && !unsupported)
+          errors.push("A factual rejection must identify an unsupported factual segment");
+        if (check.verdict !== "reject" && check.evidenceIds.some(id => !unit.evidenceIds.includes(id)))
+          errors.push("Every passing check citation must belong to that unit's selected evidence");
+      }
       if (check.verdict === "reject") {
         if (!check.reason || !check.claim || !unit?.text.includes(check.claim)) errors.push("Rejected units require a reason and exact short claim from that unit");
         if (check.reason === "noncontributing" && !check.target.startsWith("discussion.")) errors.push("Contribution judgments apply only to discussion turns");

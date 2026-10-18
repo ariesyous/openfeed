@@ -38,6 +38,9 @@ describe("editorial voice", () => {
       "S2E2 raises how this trend has changed the economy.",
       "The two deployment paths work as S5E3 states.",
       "S6E2 notes it is newly launched.",
+      "The gross was reported [S3E6].",
+      "The release is planned [S3E7, S3E8].",
+      "A useful qualification [ S2E1 ; S2E2 ].",
     ]) expect(hasSourceProcessCommentary(text), text).toBe(true);
   });
 
@@ -118,7 +121,7 @@ describe("editorial voice", () => {
         const corrected = calls === (fallback ? 3 : 2);
         if (corrected) expect(request.messages[1].content).toContain("Source-process commentary in body");
         if (fallback) expect(request.response_format).toBeUndefined();
-        const post = {format: "news", title: draft.title, body: corrected ? draft.body : "The excerpt does not tell us enough to assess the trial.",
+        const post = {format: "news", title: draft.title, body: corrected ? draft.body : "The trial precedes the decision [S1E1].",
           topic: null, spoilers: null, evidenceIds: ["S1E1"], discussion: [
             {voice: "Take", body: "A trial seems a sensible first step.", evidenceIds: ["S1E1"]},
             {voice: "Pushback", body: "Testing should inform the decision, not become a rubber stamp for release.", evidenceIds: ["S1E1"]},

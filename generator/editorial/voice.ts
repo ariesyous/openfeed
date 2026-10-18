@@ -1,6 +1,9 @@
 // Catch recognizable narration about the generator's inputs. This is a focused
 // editorial guard, not a semantic quality check or a ban on publisher attribution.
 const PROCESS_COMMENTARY = [
+  // Bracketed source-reference suffixes leaked into published bodies. Keep plain
+  // and parenthesized season/episode notation available for TV criticism.
+  /\[\s*S\d+E\d+(?:\s*[,;]\s*S\d+E\d+)*\s*\]/i,
   // Citation-like narration leaked by a normal free-router edition. Match the
   // attribution grammar, not every S1E1 token: season/episode labels are valid
   // reader-facing material for film and television criticism.

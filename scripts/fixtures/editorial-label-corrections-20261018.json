@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 1,
+  "review": "Three observed label leaks from run 39149634407; exact formatting correction authorized by user.",
+  "corrections": [
+    {
+      "postId": "post-20261018T172715Z-7712-0",
+      "batchId": "20261018T172715Z-7712",
+      "reason": "Remove leaked internal evidence citation labels only; preserve all prose and discussion.",
+      "beforeSha256": "07346fd17684f12c740961ab24a79a767f384dd5e2455fa6cd27258748943843",
+      "afterSha256": "594c68548b75c0aed2a0b6c7ab88b969a543a45266dca5bfd9030f821e5d287a",
+      "before": {
+        "editorial": {
+          "format": "news",
+          "sources": [
+            {
+              "url": "https://variety.com/2026/film/news/la-bola-negra-box-office-netflix-reports-grosses-1236915765/",
+              "title": "Box Office: ‘La Bola Negra’ Scores $277,500 From Four Theaters as Netflix Reports Grosses for First Time Ever",
+              "publisher": "Variety Film",
+              "publishedAt": "2026-10-18T17:12:54.000Z",
+              "retrievedAt": "2026-10-18T17:27:15.344Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "spoilers": false,
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "The disclosure has a second function beyond publicity. Box office dollars are uniformly reported, so unlike streaming metrics — which can be twisted and touted in any direction — a number is either a hit or a miss, and Netflix has never won best picture. Reporting the gross makes the Oscar case legible to people who don't read streaming-hours charts."
+            },
+            {
+              "voice": "Pushback",
+              "body": "Then again, Netflix spent years treating multiplexes as a marketing stunt rather than a financial strategy, and it never disclosed what its earlier theatrical runs made. A number released on the studio's own schedule is still a story the studio is telling about itself."
+            }
+          ]
+        },
+        "id": "post-20261018T172715Z-7712-0",
+        "slug": "netflix-reported-box-office-for-the-first-time-and-the-first-number-is--706f73742d3230323631303138543137323731355a2d373731322d30",
+        "kind": "text_post",
+        "authorId": "editorial-news",
+        "createdAt": "2026-10-18T17:27:15.344Z",
+        "community": "movies",
+        "title": "Netflix Reported Box Office for the First Time, and the First Number Is $69,375 a Screen",
+        "body": "Netflix has disclosed box office grosses for the first time, and the release it chose to report on was its awards hopeful “La Bola Negra,” which scored $277,500 from four theaters — a $69,375 average per location [S3E6]. The streamer says it will keep the film in theaters for 45 days, its longest theatrical rollout to date, before a Netflix release on Dec. 2 [S3E7, S3E8]. The per-screen average ranks as the second-highest ever for a non-English-language film, behind “Parasite,” which opened in 2019 to $393,216 from three theaters, or $131,072 per location [S3E12, S3E13]. Netflix has reported the numbers at all [S3E1].",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "news",
+          "sources": [
+            {
+              "url": "https://variety.com/2026/film/news/la-bola-negra-box-office-netflix-reports-grosses-1236915765/",
+              "title": "Box Office: ‘La Bola Negra’ Scores $277,500 From Four Theaters as Netflix Reports Grosses for First Time Ever",
+              "publisher": "Variety Film",
+              "publishedAt": "2026-10-18T17:12:54.000Z",
+              "retrievedAt": "2026-10-18T17:27:15.344Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "spoilers": false,
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "The disclosure has a second function beyond publicity. Box office dollars are uniformly reported, so unlike streaming metrics — which can be twisted and touted in any direction — a number is either a hit or a miss, and Netflix has never won best picture. Reporting the gross makes the Oscar case legible to people who don't read streaming-hours charts."
+            },
+            {
+              "voice": "Pushback",
+              "body": "Then again, Netflix spent years treating multiplexes as a marketing stunt rather than a financial strategy, and it never disclosed what its earlier theatrical runs made. A number released on the studio's own schedule is still a story the studio is telling about itself."
+            }
+          ]
+        },
+        "id": "post-20261018T172715Z-7712-0",
+        "slug": "netflix-reported-box-office-for-the-first-time-and-the-first-number-is--706f73742d3230323631303138543137323731355a2d373731322d30",
+        "kind": "text_post",
+        "authorId": "editorial-news",
+        "createdAt": "2026-10-18T17:27:15.344Z",
+        "community": "movies",
+        "title": "Netflix Reported Box Office for the First Time, and the First Number Is $69,375 a Screen",
+        "body": "Netflix has disclosed box office grosses for the first time, and the release it chose to report on was its awards hopeful “La Bola Negra,” which scored $277,500 from four theaters — a $69,375 average per location. The streamer says it will keep the film in theaters for 45 days, its longest theatrical rollout to date, before a Netflix release on Dec. 2. The per-screen average ranks as the second-highest ever for a non-English-language film, behind “Parasite,” which opened in 2019 to $393,216 from three theaters, or $131,072 per location. Netflix has reported the numbers at all.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20261018T172715Z-7712-1",
+      "batchId": "20261018T172715Z-7712",
+      "reason": "Remove leaked internal evidence citation labels only; preserve all prose and discussion.",
+      "beforeSha256": "b44b68051778cdcd20ad33f360f593665f2dd75c9e91ac13eae53a1e71f895d4",
+      "afterSha256": "cc8fd4723b65ed2efd4b39757e7a26891cedeaafa241a57eb1613bff139f9c6d",
+      "before": {
+        "editorial": {
+          "format": "news",
+          "sources": [
+            {
+              "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+              "title": "Anthropic gives outside AI watchdog “employee-like” access",
+              "publisher": "Ars Technica",
+              "publishedAt": "2026-10-18T16:25:19.000Z",
+              "retrievedAt": "2026-10-18T17:27:15.344Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "spoilers": false,
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "“Employee-like access” is the phrase to sit with. METR isn't being handed an API key and a rate limit; its people are in the building with the lab's own hardware and internal systems, which is the difference between testing a product and watching how it is made."
+            },
+            {
+              "voice": "Pushback",
+              "body": "Embedded access is also access somebody had to grant. Whether that makes evaluation independent or merely insider-permitted is the open question, and third-party evaluation is described not as a settled practice but as one of the steps the labs themselves have proposed in response to worry about more capable systems."
+            }
+          ]
+        },
+        "id": "post-20261018T172715Z-7712-1",
+        "slug": "anthropic-gives-metr-a-desk-inside-the-lab-with-access-to-its-hardware--706f73742d3230323631303138543137323731355a2d373731322d31",
+        "kind": "text_post",
+        "authorId": "editorial-news",
+        "createdAt": "2026-10-18T17:27:15.344Z",
+        "community": "ai_agents",
+        "title": "Anthropic Gives METR a Desk Inside the Lab, With Access to Its Hardware and Systems",
+        "body": "Anthropic has granted external evaluators “employee-like access” to assess the risks of its models, following through on a commitment to increase safeguards over concern that the technology could run catastrophically out of control [S5E1, S5E2]. The beneficiary is METR, a nonprofit that has worked with leading labs including OpenAI, Anthropic, Google and Meta; it now has a team embedded in the Claude maker's office with access to its hardware and internal systems [S5E3, S5E4]. A greater role for third-party evaluators is among the main concrete steps the labs have proposed as concern rises about dangers more capable AI systems could pose to the economy, cyber security and humanity at large [S5E5, S5E6].",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "news",
+          "sources": [
+            {
+              "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+              "title": "Anthropic gives outside AI watchdog “employee-like” access",
+              "publisher": "Ars Technica",
+              "publishedAt": "2026-10-18T16:25:19.000Z",
+              "retrievedAt": "2026-10-18T17:27:15.344Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "spoilers": false,
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "“Employee-like access” is the phrase to sit with. METR isn't being handed an API key and a rate limit; its people are in the building with the lab's own hardware and internal systems, which is the difference between testing a product and watching how it is made."
+            },
+            {
+              "voice": "Pushback",
+              "body": "Embedded access is also access somebody had to grant. Whether that makes evaluation independent or merely insider-permitted is the open question, and third-party evaluation is described not as a settled practice but as one of the steps the labs themselves have proposed in response to worry about more capable systems."
+            }
+          ]
+        },
+        "id": "post-20261018T172715Z-7712-1",
+        "slug": "anthropic-gives-metr-a-desk-inside-the-lab-with-access-to-its-hardware--706f73742d3230323631303138543137323731355a2d373731322d31",
+        "kind": "text_post",
+        "authorId": "editorial-news",
+        "createdAt": "2026-10-18T17:27:15.344Z",
+        "community": "ai_agents",
+        "title": "Anthropic Gives METR a Desk Inside the Lab, With Access to Its Hardware and Systems",
+        "body": "Anthropic has granted external evaluators “employee-like access” to assess the risks of its models, following through on a commitment to increase safeguards over concern that the technology could run catastrophically out of control. The beneficiary is METR, a nonprofit that has worked with leading labs including OpenAI, Anthropic, Google and Meta; it now has a team embedded in the Claude maker's office with access to its hardware and internal systems. A greater role for third-party evaluators is among the main concrete steps the labs have proposed as concern rises about dangers more capable AI systems could pose to the economy, cyber security and humanity at large.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    },
+    {
+      "postId": "post-20261018T172715Z-7712-2",
+      "batchId": "20261018T172715Z-7712",
+      "reason": "Remove leaked internal evidence citation labels only; preserve all prose and discussion.",
+      "beforeSha256": "57331a32632c0fa5b166f0ef30d7aaf5dcfeeb66a3033f6af430e40af8a454d1",
+      "afterSha256": "10991e032db6c1b844edd1f1334f354172b9f019868561b4277a0e9529f37213",
+      "before": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://theconversation.com/qanda-with-an-alberta-politics-expert-taking-the-provinces-pulse-on-the-eve-of-the-referendum-approaches-294417",
+              "title": "Q&A with an Alberta politics expert: Taking the province’s pulse on the eve of the referendum approaches",
+              "publisher": "The Conversation Canada",
+              "publishedAt": "2026-10-15T15:12:36.000Z",
+              "retrievedAt": "2026-10-18T17:27:15.344Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "spoilers": false,
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "What makes the tactic striking is that the numbers were never on its side. Wesley says polls over the last two years consistently show about 70 to 75 per cent of Albertans want to remain in Canada, which suggests the prize was never the vote — it was the agenda slot, which he credits to groups such as Take Back Alberta and others."
+            },
+            {
+              "voice": "Pushback",
+              "body": "An agenda slot arrives attached to a ballot, though, and that ballot is crowded: 10 questions in total, five of them about immigration, in wording Wesley describes as not particularly concise, with plenty of people struggling to understand what they are voting on. Access to a governing party is not the same as a clean question."
+            }
+          ]
+        },
+        "id": "post-20261018T172715Z-7712-2",
+        "slug": "why-alberta-separatism-went-looking-for-a-party-to-borrow--706f73742d3230323631303138543137323731355a2d373731322d32",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-10-18T17:27:15.344Z",
+        "community": "canada",
+        "title": "Why Alberta Separatism Went Looking for a Party to Borrow",
+        "body": "Alberta's independence referendum is being held on Oct. 19 [S6E1, S6E2]. The political scientist Jared Wesley's account of how separatism got onto that ballot turns on a change in tactics rather than a burst of party-building. Similar parties had been tried in Western Canada before and failed to win seats [S6E5]. So, watching far-right populist movements in the United States and the United Kingdom, organizers concluded they did not need a party of their own at all — they needed to get inside mainstream ones, “and in particular, governing parties” [S6E7, S6E8, S6E10].",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      },
+      "after": {
+        "editorial": {
+          "format": "explainer",
+          "sources": [
+            {
+              "url": "https://theconversation.com/qanda-with-an-alberta-politics-expert-taking-the-provinces-pulse-on-the-eve-of-the-referendum-approaches-294417",
+              "title": "Q&A with an Alberta politics expert: Taking the province’s pulse on the eve of the referendum approaches",
+              "publisher": "The Conversation Canada",
+              "publishedAt": "2026-10-15T15:12:36.000Z",
+              "retrievedAt": "2026-10-18T17:27:15.344Z"
+            }
+          ],
+          "basis": "publisher_excerpt",
+          "spoilers": false,
+          "discussion": [
+            {
+              "voice": "Take",
+              "body": "What makes the tactic striking is that the numbers were never on its side. Wesley says polls over the last two years consistently show about 70 to 75 per cent of Albertans want to remain in Canada, which suggests the prize was never the vote — it was the agenda slot, which he credits to groups such as Take Back Alberta and others."
+            },
+            {
+              "voice": "Pushback",
+              "body": "An agenda slot arrives attached to a ballot, though, and that ballot is crowded: 10 questions in total, five of them about immigration, in wording Wesley describes as not particularly concise, with plenty of people struggling to understand what they are voting on. Access to a governing party is not the same as a clean question."
+            }
+          ]
+        },
+        "id": "post-20261018T172715Z-7712-2",
+        "slug": "why-alberta-separatism-went-looking-for-a-party-to-borrow--706f73742d3230323631303138543137323731355a2d373731322d32",
+        "kind": "text_post",
+        "authorId": "editorial-explainer",
+        "createdAt": "2026-10-18T17:27:15.344Z",
+        "community": "canada",
+        "title": "Why Alberta Separatism Went Looking for a Party to Borrow",
+        "body": "Alberta's independence referendum is being held on Oct. 19. The political scientist Jared Wesley's account of how separatism got onto that ballot turns on a change in tactics rather than a burst of party-building. Similar parties had been tried in Western Canada before and failed to win seats. So, watching far-right populist movements in the United States and the United Kingdom, organizers concluded they did not need a party of their own at all — they needed to get inside mainstream ones, “and in particular, governing parties”.",
+        "meta": {
+          "kind": "generic"
+        },
+        "engagement": {
+          "likes": 0,
+          "reposts": 0,
+          "replies": 0,
+          "views": 0,
+          "viralityScore": 0
+        },
+        "comments": []
+      }
+    }
+  ]
+}

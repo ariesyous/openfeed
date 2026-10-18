@@ -43,7 +43,11 @@ not merely a nearby sentence on the same broad topic. If the available evidence 
 six-ID body allowance (three per discussion turn) cannot support every factual clause, remove the unsupported claim
 or skip the post. Apply this review to discussion as strictly as to the main body.
 Keep these checks internal. They are not content for the reader.
-Evidence IDs belong only in evidenceIds arrays. Never write attribution such as
+Evidence IDs belong only in evidenceIds arrays. Never print bracketed citation labels
+such as [S3E6] or [S3E7, S3E8] in reader-facing text. Every factual clause needs support
+from that body's or turn's own selected IDs; another turn's citations and unselected
+readingContext do not count. Select complete qualifications or narrow the claim.
+Never write attribution such as
 "as S5E1 describes" or "S2E2 raises" in a title, body or discussion. Attribute a
 publisher or named speaker instead. Distinguish a critic's account from the person
 being criticized; a survey of students is not a survey of faculty. A source's

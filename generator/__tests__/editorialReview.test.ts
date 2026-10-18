@@ -32,6 +32,8 @@ function pass(input: ReviewInput): ReviewResponse {
     checks: p.units.map(u => ({
     target: u.target, verdict: u.target.startsWith("discussion.") ? "opinion" : "supported",
     claim: null, reason: null, explanation: "The factual premise is supported; the metaphor and preference add a perspective.", evidenceIds: u.evidenceIds.slice(0, 1),
+    segments: [{ text: u.text, kind: u.target.startsWith("discussion.") ? "opinion" : "supported_fact",
+      evidenceIds: u.evidenceIds.slice(0, 1), explanation: "Selected premise supports this mock judgment." }],
   })) })) };
 }
 function reject(input: ReviewInput, category: "reversed_fact" | "unsupported_claim" = "reversed_fact") {
@@ -39,12 +41,48 @@ function reject(input: ReviewInput, category: "reversed_fact" | "unsupported_cla
   Object.assign(result.posts[0].checks[2], { verdict: "reject", reason: category,
     claim: input.posts[0].units[2].text.slice(0, 100),
     explanation: category === "reversed_fact" ? "The source says children expect nastiness, not friendliness." : "Professional referrals do not establish that a disconnected family has no possible route to help." });
+  result.posts[0].checks[2].segments![0].kind = "unsupported_fact";
   return result;
 }
 const roots: string[] = [];
 afterEach(() => { vi.restoreAllMocks(); for (const root of roots.splice(0)) rmSync(root, { recursive: true, force: true }); });
 
 describe("review coverage and source boundaries", () => {
+  it("requires complete unchanged claim accounting and disallows borrowing support from another unit", () => {
+    const candidate = { ...post, body: "The charity works through professionals. It opened in 2017.",
+      discussion: [{ ...post.discussion[0], evidenceIds: ["S1E2"] }, post.discussion[1]] };
+    const input = buildReviewInput([candidate], prepareEvidence([{ ...packets[0], sections: undefined,
+      excerpt: "The charity works through professionals.\n\nIt opened in 2017." }]));
+    expect(input.posts[0].units[1].selectedEvidence.map(e => e.id)).toEqual(["S1E1"]);
+    for (const mutate of [
+      (r: ReviewResponse) => { delete r.posts[0].checks[1].segments; },
+      (r: ReviewResponse) => { r.posts[0].checks[1].segments![0].text = "The charity works through professionals."; },
+      (r: ReviewResponse) => { r.posts[0].checks[1].segments![0].text += " Extra claim."; },
+      (r: ReviewResponse) => { r.posts[0].checks[1].segments![0].evidenceIds = ["S1E2"]; },
+      (r: ReviewResponse) => { r.posts[0].checks[1].segments![0].evidenceIds = []; },
+      (r: ReviewResponse) => { r.posts[0].checks[1].evidenceIds = ["S1E1", "S1E2"]; },
+      (r: ReviewResponse) => { r.posts[0].checks[1].segments![0].kind = "unsupported_fact"; },
+    ]) { const result = pass(input); mutate(result); expect(validateReview(result, input).ok).toBe(false); }
+    const historical = pass(input); delete historical.posts[0].checks[1].segments;
+    expect(ReviewResponseSchema.safeParse(historical).success).toBe(true);
+  });
+  it("allows separate pure banter and rejects an unsupported fact even when wider context contains it", () => {
+    const candidate = { ...post, body: "The charity works through professionals. It opened in 2017.",
+      discussion: [{ ...post.discussion[0], body: "Bureaucracy found its boxing gloves." }, post.discussion[1]] };
+    const input = buildReviewInput([candidate], prepareEvidence([{ ...packets[0], sections: undefined,
+      excerpt: "The charity works through professionals.\n\nIt opened in 2017." }]));
+    const result = pass(input);
+    result.posts[0].checks[2].segments![0].evidenceIds = [];
+    const check = result.posts[0].checks[1];
+    check.segments = [
+      { text: "The charity works through professionals.", kind: "supported_fact", evidenceIds: ["S1E1"], explanation: "Mock selected support." },
+      { text: "It opened in 2017.", kind: "unsupported_fact", evidenceIds: [], explanation: "The selected evidence does not supply the year." },
+    ];
+    Object.assign(check, { verdict: "reject", reason: "unsupported_claim", claim: "It opened in 2017." });
+    expect(validateReview(result, input).ok).toBe(true);
+    check.segments.reverse();
+    expect(validateReview(result, input).ok).toBe(false);
+  });
   it("requires a literal title attribution trace while retaining historical audit compatibility", () => {
     const input = buildReviewInput([post], prepared);
     const result = pass(input);
@@ -60,6 +98,7 @@ describe("review coverage and source boundaries", () => {
     result.posts[0].titleAttribution = { titleText: candidate.title, titleActor: "Documentary", sourceActor: "jury", sourceEvidenceId: "S1E1", relation: "mismatch" };
     expect(validateReview(result, input).ok).toBe(false);
     Object.assign(result.posts[0].checks[0], { verdict: "reject", reason: "misattribution", claim: "Documentary That Praises", explanation: "The jury praises the family; the title attributes that evaluation to the documentary." });
+    result.posts[0].checks[0].segments![0].kind = "unsupported_fact";
     expect(validateReview(result, input).ok).toBe(true);
     result.posts[0].titleAttribution.titleActor = "jury";
     expect(validateReview(result, input).ok).toBe(false);

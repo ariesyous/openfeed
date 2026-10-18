@@ -39,6 +39,19 @@ without an attributed claim use explicit null actor fields. Actor identification
 and the relationship judgment remain model decisions, not a grammatical fact checker.
 Older audits without the trace remain readable; new live responses cannot omit it.
 
+Live checks also require a complete-text `segments` ledger. Contiguous copied spans,
+joined in order, must reproduce the entire unit (whitespace normalization only).
+Each span is a supported fact, unsupported fact or opinion, with a bounded explanation.
+Every supported fact requires IDs from that unit's own selection. All citations on
+a passing check must also be selected by that unit; one valid citation can no longer
+cover for other borrowed IDs. Each unit receives its selected quotation texts directly.
+Unselected source context remains available only to contradict or qualify a claim.
+Any unsupported factual span requires rejection of the whole post. Pure opinions can
+have no segment citation, while the unit still identifies its selected factual premise.
+The model must separate factual clauses from jokes; this classification and semantic
+entailment remain fallible. Complete text accounting is not proof of correct judgment.
+Older audits can omit segments. Current reviews cannot.
+
 One rejected unit withholds the whole parent and its exchange. Survivors pass the
 existing cross-chunk validator again before enrichment and the sole validated
 publisher. A review timeout, malformed result or provider failure cannot release its
@@ -61,8 +74,11 @@ When `EDITORIAL_AUDIT_DIR` is set, `editorial-review.json` persists each complet
 review immediately, including all-rejected runs. It holds bounded selected support,
 candidate titles and SHA-256 digests, decisions, and requested/resolved reviewer model
 identities. Digests cover the title, body, evidence IDs and discussion actually reviewed.
-They identify candidates without retaining complete rejected drafts. Claim fragments
-are deliberate bounded review fields, not raw completion dumps. No full reading context,
+The new claim ledger copies candidate prose into bounded parsed spans, so a rejected
+candidate's text can now be reconstructed from its review. This is intentional claim
+coverage, not raw completion storage. Each unit has at most 32 spans, each at most
+1,800 characters with a 240-character explanation; full-unit coverage limits their
+combined text to the actual candidate. No full reading context,
 reasoning, prompts or credentials are retained. An individual source passage referenced
 only to explain a contradiction may not be in the selected-support snapshot; retrieve
 that publisher page when assessing the judgment. This is not a full request replay.
@@ -86,9 +102,11 @@ suite exercises actual separate reviewer requests through the provider wrapper.
 
 The manually dispatched `Check editorial reviewer` workflow runs one bounded live
 check against reversal, unsupported absolutes and title-attribution errors, alongside
-corrected counterparts and editorial titles with opinion and metaphor. Two four-post
-suites use DeepSeek Flash, at most four calls and a shared 15-minute request
-deadline, and never fetches sources or writes public content/state. This optional
+corrected counterparts and editorial titles with opinion and metaphor. A third suite
+tests facts supplied only by another turn or unselected source text, then the same
+prose with the required IDs selected. Three four-post suites use DeepSeek Flash,
+at most six calls and a shared 15-minute request deadline. The 96-KiB bounded result
+never includes raw completions; the check never fetches sources or writes public content/state. This optional
 manual check is separate from each ordinary edition's shared budget. Its small,
 prompt-aligned controls demonstrate targeted behavior, not general accuracy.
 
@@ -98,3 +116,13 @@ an approved post as automatically fact-checked or treat fewer published posts as
 of improved quality. The same model can repeat its writer's mistake, and a reviewer
 can be too literal about a joke. Ordinary-run observation cohorts remain separate
 from manual validation runs.
+
+## Evidence-label correction
+
+The voice guard rejects square-bracket source references such as `[S3E6]` and
+`[S3E7, S3E8]` through the existing retry path; it never silently strips fresh prose.
+Plain and parenthesized TV season/episode notation remains supported. Three already
+published bodies in batch `20261018T172715Z-7712` are corrected by
+`scripts/correctEvidenceLabels.ts` using exact before/after snapshots and the existing
+guarded publisher. Only those labels are removed. Words, discussions, IDs, slugs,
+dates, sources and publication catalog are preserved; the original audit stays frozen.

@@ -301,3 +301,18 @@ four-post suites (at most four calls/shared 15-minute deadline), separate from g
 Editorial discussions start expanded in feed and article views. Preserve the spoiler
 gate over both body and discussion and retain the manual collapse option. Card mode
 continues to link to the full discussion; its fitting contract is unchanged.
+
+## Complete claim accounting and evidence labels — October 18, 2026
+Live reviews require ordered segments covering each complete unchanged unit, classified
+as supported fact, unsupported fact or opinion. Every factual support ID and every
+passing check ID must be selected by that same unit. Context and another turn cannot
+authorize facts. Unsupported segments reject the whole post; pure banter remains free
+to express opinions. Semantic classification is still fallible. Historical audit schemas
+allow missing segments; current responses do not. Bounded parsed review spans now retain
+the candidate prose, including rejected candidates; never retain raw completions, reasoning
+or readingContext. Preserve the 512-KiB audit and shared eight-call/45-minute limits.
+Manual controls have three four-post suites, at most six calls/shared 15 minutes, with a
+96-KiB result bound. Square-bracket evidence labels retry through the voice guard; plain
+and parenthesized TV episode notation remains valid. The three exact label-only corrections
+in scripts/correctEvidenceLabels.ts use the guarded publisher; preserve original audits,
+permanent identities, dates, discussions and the exact correction record.

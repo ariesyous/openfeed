@@ -48,6 +48,21 @@ const titlePost = {
     { voice: "Pushback", body: "And I would rather dignity not become a polite word for passivity. Quiet is a description, not an obligation.", evidenceIds: ["S1E2"] },
   ],
 };
+const scopePacket: SourcePacket = { id: "scope", title: "Seized turtles and a later law amendment", publisher: "Synthetic control D", topic: "canada",
+  url: "https://example.com/synthetic-scope", retrievedAt: now.toISOString(),
+  excerpt: "Officers seized sixty-three turtles in 2022.\n\nThe law was amended in 2009.\n\nThe amendments came into force in 2017." };
+const scopePost = { title: "A Seizure of Sixty-Three Turtles", body: "Officers seized sixty-three turtles in 2022.", evidenceIds: ["S1E1"],
+  discussion: [
+    { voice: "Context", body: "The law was amended in 2009. The amendments came into force in 2017.", evidenceIds: ["S1E2"] },
+    { voice: "Reply", body: "The amendments came into force in 2017. Apparently the legal clock travels by turtle.", evidenceIds: ["S1E3"] },
+  ],
+};
+const wrongBody = { ...structuredClone(scopePost), body: "Officers seized sixty-three turtles in 2022. The amendments came into force in 2017." };
+wrongBody.discussion[0].evidenceIds = ["S1E2", "S1E3"];
+const correctedScope = structuredClone(scopePost);
+correctedScope.discussion[0].evidenceIds = ["S1E2", "S1E3"];
+const correctedBody = structuredClone(wrongBody);
+correctedBody.evidenceIds = ["S1E1", "S1E3"];
 const suites: { name: string; posts: ReviewPost[]; prepared: ReturnType<typeof prepareEvidence>; expectedRejected: string[] }[] = [
   { name: "reversal_and_unsupported_absolute", posts: [expectation, referral, correctedExpectation, correctedReferral], prepared, expectedRejected: ["P1", "P2"] },
   { name: "title_attribution_and_editorial_voice", prepared: prepareEvidence([titlePacket]), expectedRejected: ["P1", "P2"], posts: [
@@ -56,6 +71,8 @@ const suites: { name: string; posts: ReviewPost[]; prepared: ReturnType<typeof p
     { ...titlePost, title: "Jury Praises Quiet Resilience in Award-Winning Documentary" },
     { ...titlePost, title: "Quiet Resilience Deserves a Louder Conversation" },
   ] },
+  { name: "unit_selected_support_and_banter", prepared: prepareEvidence([scopePacket]), expectedRejected: ["P1", "P2"],
+    posts: [scopePost, wrongBody, correctedScope, correctedBody] },
 ];
 const started = Date.now();
 const apiKey = getApiKey();
@@ -75,12 +92,12 @@ for (const suite of suites) {
   console.log(`[review check] suite=${suite.name} passed=${passed} expected=${suite.expectedRejected.join(",")} actual=${rejected.join(",")}`);
 }
 const passed = results.every(result => result.passed);
-const record = { schemaVersion: 2, synthetic: true, scope: "Four deliberately wrong controls and four supported or opinionated counterparts across two bounded suites; no publication.",
+const record = { schemaVersion: 3, synthetic: true, scope: "Six deliberately wrong controls and six supported or opinionated counterparts across three bounded suites; no publication.",
   elapsedMs: Date.now() - started, passed, suites: results };
 // Fixed bounded diagnostic artifact, not raw completion/reading context.
 const serialized = JSON.stringify(record, null, 2).split(apiKey).join("[REDACTED]")
   .replace(/Bearer\s+[^\s"',;]+/gi, "Bearer [REDACTED]").replace(/sk-or-[\w-]+/g, "[REDACTED]");
-if (Buffer.byteLength(serialized) > 64 * 1024) throw new Error("Review check exceeds artifact bound");
+if (Buffer.byteLength(serialized) > 96 * 1024) throw new Error("Review check exceeds artifact bound");
 mkdirSync("artifacts", { recursive: true });
 writeFileSync("artifacts/editorial-review-check.json", serialized + "\n");
 console.log(`[review check] passed=${passed} elapsedMs=${record.elapsedMs}`);

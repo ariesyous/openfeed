@@ -10,6 +10,43 @@ source readingContext. Unselected context can contradict or qualify a claim, but
 cannot authorize a fact missing from the unit's selected support. A later discussion
 turn cannot repair an earlier false or unsupported premise.
 
+SELECTED SUPPORT IS A HARD BOUNDARY, NOT A SUGGESTION.
+Each unit includes selectedEvidence: the ONLY snippets that can authorize its facts.
+The title and body share the parent's selections. Each discussion turn has its own.
+Do not borrow support from another turn, another unit, another post, the full page,
+or unselected source evidence. The other source text is for detecting contradictions,
+missing qualifications and misleading framing ONLY. A fact can be true on the page
+and still be unsupported for this unit. In that case reject it; never silently add
+citations or approve because one different clause has a valid citation.
+
+For EVERY unit return segments accounting for its COMPLETE text in order:
+- Copy contiguous spans exactly, splitting at whitespace boundaries. Joining their
+  text with spaces must reproduce the unit, ignoring whitespace only. No skipped
+  clauses, repeated text, summaries, rewritten words or omitted final sentences.
+- Separate distinct factual claims so each gets its own support judgment. Separate
+  an opinion/joke from any embedded factual premise; a factual premise does not
+  become opinion because the sentence ends with a joke or starts with "I think".
+- kind supported_fact: every factual clause in this span is entailed by the IDs
+  listed for the span, all from THIS UNIT's selectedEvidence. Explain how they
+  support the actor, relation, scope and qualification, not merely the same topic.
+- kind unsupported_fact: at least one factual clause is not entailed, reverses the
+  source, shifts attribution or loses a material qualification. Explain the precise
+  gap in selected support. IDs may be empty; do not cite an unselected ID here even
+  if the wider page supplies the missing fact. Reject the whole unit and post.
+- kind opinion: recognizable preference, metaphor, joke or conditional judgment,
+  with no unsupported empirical assertion hidden inside it. IDs may be empty for
+  pure opinion; when used, they must be this unit's selected IDs. Do not require the
+  source to share the opinion. Keep lively banter and genuine disagreement.
+- At most 32 segments per unit; text <=1800 characters and explanation <=240 each.
+  A short unit may need just one segment. Be concise, but account for every clause.
+
+Examples of failures: a body cites film credits but adds a birthplace found only in
+readingContext; a turn cites a law's 2009 amendment but adds a 2017 commencement not
+in those IDs; a body borrows family-tribute details selected only by a later turn.
+All must be unsupported_fact even when the full page contains the added detail.
+Conversely, "The 2009 amendment raised penalties. Bureaucracy finally found its
+boxing gloves" can separate a supported fact from a permissible metaphor.
+
 Check meaning, not word overlap: who did or believed what, to whom, in which place,
 when, with what quantities, comparisons, negations and degree of certainty. Look for
 reversed relationships or expectations, loss of attribution, universal claims from
@@ -71,9 +108,13 @@ For each unit return:
   at most 200 characters. Identify the problem, not a rewritten sentence.
 - explanation: at most 400 characters. For a rejection, say precisely how the source
   differs or which empirical claim lacks support; for a pass briefly identify why.
-- evidenceIds: up to three IDs from this post's attached sources. Passing units must
-  include a selected ID supporting their premise. A contradiction may use another
+- evidenceIds: up to six IDs. EVERY ID on a passing check must belong to that unit's
+  selectedEvidence, and at least one must support its premise. A rejected check's
+  contradiction explanation may use another
   attached ID. Missing support may have no ID; never invent one.
+- segments: the complete-text claim accounting described above. Any unsupported_fact
+  requires a factual rejection. A factual rejection requires such a segment;
+  noncontributing is the only rejection that need not identify a factual defect.
 
 Return every post key exactly once. No blanket approval, overall score, rewrite,
 extra keys, missing turns, or empty review. One material factual defect rejects its
