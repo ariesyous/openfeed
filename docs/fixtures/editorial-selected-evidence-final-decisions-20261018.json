@@ -1,0 +1,647 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261018T194145Z-617e",
+  "startedAt": "2026-10-18T19:41:45.628Z",
+  "reviews": [
+    {
+      "support": {
+        "index": 1,
+        "requestedModel": "deepseek/deepseek-v4.1-flash",
+        "resolvedModel": "deepseek/deepseek-v4.1-flash",
+        "redactionsApplied": false,
+        "sources": [
+          {
+            "id": "4ba2dcd8cec2b738",
+            "url": "https://variety.com/2026/film/reviews/capturing-bigfoot-review-an-amazing-doc-uncovers-the-truth-1236915797/",
+            "title": "‘Capturing Bigfoot’ Review: An Astounding Documentary Uncovers the Truth",
+            "publisher": "Variety Film",
+            "retrievedAt": "2026-10-18T19:41:45.628Z",
+            "publishedAt": "2026-10-18T19:05:42.000Z",
+            "evergreen": false
+          },
+          {
+            "id": "83e821571c436a96",
+            "url": "https://www.bbc.co.uk/news/articles/cmx2375zqwwwo",
+            "title": "There's a crackdown on sports piracy - but is it already out of control?",
+            "publisher": "BBC Business",
+            "retrievedAt": "2026-10-18T19:41:45.628Z",
+            "publishedAt": "2026-10-18T00:11:09.000Z",
+            "evergreen": false
+          }
+        ],
+        "evidence": [
+          {
+            "id": "S4E2",
+            "sourceId": "4ba2dcd8cec2b738",
+            "quote": "This famous evidence of the creature known as Bigfoot was shot by a man named Roger Patterson in Northern California on Oct. 20, 1967."
+          },
+          {
+            "id": "S4E9",
+            "sourceId": "4ba2dcd8cec2b738",
+            "quote": "The footage lasts just 59 seconds."
+          },
+          {
+            "id": "S4E10",
+            "sourceId": "4ba2dcd8cec2b738",
+            "quote": "As an opening title informs us, “No one has ever been able to determine whether the film is real or a hoax.”"
+          },
+          {
+            "id": "S4E17",
+            "sourceId": "4ba2dcd8cec2b738",
+            "quote": "Then it adds, “Until now.”"
+          },
+          {
+            "id": "S4E22",
+            "sourceId": "4ba2dcd8cec2b738",
+            "quote": "“Capturing Bigfoot” is an astounding documentary about the legend of Bigfoot — about how it was born, how it took hold, and how that iconic"
+          },
+          {
+            "id": "S4E23",
+            "sourceId": "4ba2dcd8cec2b738",
+            "quote": "piece of film footage came to be."
+          },
+          {
+            "id": "S4E7",
+            "sourceId": "4ba2dcd8cec2b738",
+            "quote": "Patterson would take his young son on camping trips in a VW van into the mountains of Northern California, on the lookout for Bigfoot."
+          },
+          {
+            "id": "S4E12",
+            "sourceId": "4ba2dcd8cec2b738",
+            "quote": "He would stuff two live horses into the van — an indication, right there, that he had a bit of a screw loose."
+          },
+          {
+            "id": "S5E4",
+            "sourceId": "83e821571c436a96",
+            "quote": "\"For 18 to 34-year-olds, it's over 70% who admit to doing this regularly,\" says Daniel Monaghan, a researcher at Ampere Analysis."
+          },
+          {
+            "id": "S5E12",
+            "sourceId": "83e821571c436a96",
+            "quote": "\"Over half of 35 to 44s admit to doing it, and about a third of those aged 45 to 64.\""
+          },
+          {
+            "id": "S5E8",
+            "sourceId": "83e821571c436a96",
+            "quote": "In August, a man in Lancashire was jailed for six and a half years for running an illegal streaming service that police said had generated"
+          },
+          {
+            "id": "S5E9",
+            "sourceId": "83e821571c436a96",
+            "quote": "almost £1m in illicit profits."
+          },
+          {
+            "id": "S5E18",
+            "sourceId": "83e821571c436a96",
+            "quote": "This year's Champions League final went behind a paywall in the UK for the first time in more than 30 years."
+          },
+          {
+            "id": "S5E24",
+            "sourceId": "83e821571c436a96",
+            "quote": "Viewers were asked to pay at least £4.99 to watch it, prompting a backlash, including from the then-prime minister, Arsenal fan Sir Keir Starmer."
+          },
+          {
+            "id": "S5E5",
+            "sourceId": "83e821571c436a96",
+            "quote": "\"What it comes down to is the financial side - that's the big one - and ease of access as well,\" he says."
+          },
+          {
+            "id": "S5E19",
+            "sourceId": "83e821571c436a96",
+            "quote": "Meanwhile the streams he uses are free, with links readily obtainable on social media."
+          },
+          {
+            "id": "S5E20",
+            "sourceId": "83e821571c436a96",
+            "quote": "These links, used by Kiran and his friends, have practical downsides – such as frequent buffering or poor quality, or platforms that disappear without warning."
+          }
+        ],
+        "posts": [
+          {
+            "postId": "post-review-20261018T194145Z-617e-1-0",
+            "evidenceIds": [
+              "S4E2",
+              "S4E9",
+              "S4E10",
+              "S4E17",
+              "S4E22",
+              "S4E23"
+            ],
+            "discussion": [
+              {
+                "turnIndex": 0,
+                "voice": "Take",
+                "evidenceIds": [
+                  "S4E9",
+                  "S4E10",
+                  "S4E17"
+                ]
+              },
+              {
+                "turnIndex": 1,
+                "voice": "Pushback",
+                "evidenceIds": [
+                  "S4E22",
+                  "S4E23"
+                ]
+              },
+              {
+                "turnIndex": 2,
+                "voice": "Reply",
+                "evidenceIds": [
+                  "S4E7",
+                  "S4E12"
+                ]
+              }
+            ]
+          },
+          {
+            "postId": "post-review-20261018T194145Z-617e-1-1",
+            "evidenceIds": [
+              "S5E4",
+              "S5E12",
+              "S5E8",
+              "S5E9",
+              "S5E18",
+              "S5E24"
+            ],
+            "discussion": [
+              {
+                "turnIndex": 0,
+                "voice": "Take",
+                "evidenceIds": [
+                  "S5E8",
+                  "S5E9",
+                  "S5E4"
+                ]
+              },
+              {
+                "turnIndex": 1,
+                "voice": "Pushback",
+                "evidenceIds": [
+                  "S5E5",
+                  "S5E19",
+                  "S5E20"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "decisions": {
+        "posts": [
+          {
+            "key": "P1",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Both title elements trace to the selected evidence: the footage runs 59 seconds (S4E9) and the film's opening title adds the line 'Until now' (S4E17, with S4E10 identifying the speaker as the opening title). No shifted claim or unsupported detail.",
+                "evidenceIds": [
+                  "S4E9",
+                  "S4E17",
+                  "S4E10"
+                ],
+                "segments": [
+                  {
+                    "text": "Fifty-Nine Seconds of Bigfoot,",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S4E9"
+                    ],
+                    "explanation": "S4E9 states the footage lasts just 59 seconds, matching the title's duration."
+                  },
+                  {
+                    "text": "and a Title Card That Says 'Until Now'",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S4E17",
+                      "S4E10"
+                    ],
+                    "explanation": "S4E10 identifies the opening title card; S4E17 records that it then adds 'Until now.'"
+                  }
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "The factual clauses match the selected evidence: Patterson's Northern California footage of 20 Oct 1967 (S4E2), 59 seconds (S4E9), the review's 'astounding documentary' description (S4E22-23), the opening title's real-or-hoax line (S4E10) and its 'Until now' addition (S4E17). The closing lines are clearly framed as interpretation.",
+                "evidenceIds": [
+                  "S4E2",
+                  "S4E9",
+                  "S4E10",
+                  "S4E17",
+                  "S4E22",
+                  "S4E23"
+                ],
+                "segments": [
+                  {
+                    "text": "The best-known footage of the creature called Bigfoot was shot by a man named Roger Patterson in Northern California on 20 October 1967.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S4E2"
+                    ],
+                    "explanation": "S4E2 gives the same shooter, place and date for the famous Bigfoot footage."
+                  },
+                  {
+                    "text": "It lasts 59 seconds.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S4E9"
+                    ],
+                    "explanation": "S4E9: the footage lasts just 59 seconds."
+                  },
+                  {
+                    "text": "That is the material at the centre of Capturing Bigfoot, which Variety's review calls an astounding documentary about the legend — how it was born, how it took hold, and how that iconic piece of film came to be.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S4E22",
+                      "S4E23"
+                    ],
+                    "explanation": "S4E22-23 call 'Capturing Bigfoot' an astounding documentary about the legend's birth and hold and how the iconic footage came to be; the evaluation is attributed to the review, not asserted by the body."
+                  },
+                  {
+                    "text": "The film's opening title states the problem plainly: no one has ever been able to determine whether the footage is real or a hoax.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S4E10"
+                    ],
+                    "explanation": "S4E10 quotes the opening title: no one has ever been able to determine whether the film is real or a hoax."
+                  },
+                  {
+                    "text": "Then it adds two words. Until now.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S4E17"
+                    ],
+                    "explanation": "S4E17: the title then adds 'Until now.'"
+                  },
+                  {
+                    "text": "Whether you buy the promise or not, it is a confident piece of programming:",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Evaluative framing of the title card's promise, with no empirical assertion."
+                  },
+                  {
+                    "text": "a claim to settle, in the space of one film, a question that has survived decades of argument over less than a minute of film.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S4E17",
+                      "S4E10",
+                      "S4E9"
+                    ],
+                    "explanation": "Interpretation resting on supported premises: the 'Until now' claim (S4E17), the never-resolved real-or-hoax question (S4E10) and 59 seconds of film (S4E9)."
+                  },
+                  {
+                    "text": "The wager is that a documentary can close a case the footage itself never could.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Subjective reading of what the film's promise stakes."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "A subjective riff on the title card. Its factual clause — the card conceding no one has determined real or hoax, then adding 'Until now' — is exactly S4E10 and S4E17; the 'thin foundation' and 'magic trick' lines are metaphor.",
+                "evidenceIds": [
+                  "S4E9",
+                  "S4E10",
+                  "S4E17"
+                ],
+                "segments": [
+                  {
+                    "text": "Fifty-nine seconds is a thin foundation for a legend,",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S4E9"
+                    ],
+                    "explanation": "Subjective verdict; the 59-second duration it rests on is supported by S4E9."
+                  },
+                  {
+                    "text": "and the title card seems to know it:",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Personifying metaphor about the title card, no empirical claim."
+                  },
+                  {
+                    "text": "it concedes that no one has ever determined whether the film is real, then promises the answer anyway.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S4E10",
+                      "S4E17"
+                    ],
+                    "explanation": "S4E10 quotes the card's concession that no one has determined real or hoax; S4E17 records the added 'Until now'."
+                  },
+                  {
+                    "text": "That is a magic trick's structure — declare the impossible, then do it.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Metaphorical comparison; no factual assertion to verify."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "reject",
+                "reason": "unsupported_claim",
+                "claim": "The solved mystery may be the least interesting thing on offer.",
+                "explanation": "This turn's evidence (S4E22-S4E23) only says the documentary traces how the legend was born and took hold and how the footage came to be. It does not establish that the mystery is solved. That premise also drops the post's own qualification that the film merely claims/wagers to settle it (the title card's promissory 'Until now' belongs to other units' selections).",
+                "evidenceIds": [
+                  "S4E22",
+                  "S4E23"
+                ],
+                "segments": [
+                  {
+                    "text": "The solved mystery",
+                    "kind": "unsupported_fact",
+                    "evidenceIds": [],
+                    "explanation": "Not entailed by S4E22-S4E23, which cover the legend's birth and the footage's origin, not a resolution of the real-or-hoax question; the solving exists in this post only as the title card's promise, which this turn treats as accomplished."
+                  },
+                  {
+                    "text": "may be the least interesting thing on offer.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Subjective ranking of what the film offers."
+                  },
+                  {
+                    "text": "On the review's account, the film traces how the legend was born and took hold",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S4E22",
+                      "S4E23"
+                    ],
+                    "explanation": "S4E22-S4E23: the documentary is about the legend of Bigfoot — how it was born and how it took hold."
+                  },
+                  {
+                    "text": "— the Patterson footage as a cultural event rather than a zoological one.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S4E22",
+                      "S4E23"
+                    ],
+                    "explanation": "Interpretive gloss on the doc's focus on how the iconic footage came to be."
+                  },
+                  {
+                    "text": "A documentary about how a story takes hold can be more rewarding than a verdict on the ape.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Stated preference; no factual assertion."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.2",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "The reported details match this turn's own selections: Patterson's camping trips in a VW van with his young son looking for Bigfoot (S4E7) and the two live horses stuffed into the van (S4E12, where 'the van' is the same VW van). The framing and closing quip are opinion.",
+                "evidenceIds": [
+                  "S4E7",
+                  "S4E12"
+                ],
+                "segments": [
+                  {
+                    "text": "And the human at the centre sounds better than the mystery.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Subjective preference about which thread is more interesting."
+                  },
+                  {
+                    "text": "The review has Patterson taking his young son camping in a VW van on Bigfoot hunts — and stuffing two live horses into that same van.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S4E7",
+                      "S4E12"
+                    ],
+                    "explanation": "S4E7 gives the son, VW van and Bigfoot lookout; S4E12 says he stuffed two live horses into the same van described in that passage."
+                  },
+                  {
+                    "text": "Solve the film, not the ape.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Humorous imperative, no factual claim."
+                  }
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "Fifty-Nine Seconds of Bigfoot, and a Title Card That Says 'Until Now'",
+              "titleActor": "a Title Card",
+              "sourceActor": "it",
+              "sourceEvidenceId": "S4E17",
+              "relation": "aligned"
+            }
+          },
+          {
+            "key": "P2",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "The 70%-plus admission figure for 18-34s is S5E4, and the six-and-a-half-year sentence is S5E8-S5E9 for the Lancashire man jailed over an illegal streaming service (a loose but not false 'seller' label for the service's operator). No shifted finding.",
+                "evidenceIds": [
+                  "S5E4",
+                  "S5E8",
+                  "S5E9"
+                ],
+                "segments": [
+                  {
+                    "text": "Over 70% of 18-34s Admit to Using Unofficial Streams;",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S5E4"
+                    ],
+                    "explanation": "S5E4: for 18 to 34-year-olds, over 70% admit to doing this regularly, i.e. using alternative means to watch paywalled material."
+                  },
+                  {
+                    "text": "a Seller Got Six and a Half Years",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S5E8",
+                      "S5E9"
+                    ],
+                    "explanation": "S5E8-S5E9: a man was jailed for six and a half years for running an illegal streaming service police said generated almost £1m; 'seller' loosely names that service's operator."
+                  }
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Every factual clause is covered by this unit's selections: the Champions League final paywall and £4.99 backlash including Starmer (S5E18, S5E24), Monaghan's 70%/half/third figures (S5E4, S5E12) and the Lancashire sentence and nearly £1m (S5E8-S5E9). The two evaluative sentences are flagged as commentary.",
+                "evidenceIds": [
+                  "S5E18",
+                  "S5E24",
+                  "S5E4",
+                  "S5E12",
+                  "S5E8",
+                  "S5E9"
+                ],
+                "segments": [
+                  {
+                    "text": "This year's Champions League final went behind a UK paywall for the first time in more than 30 years.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S5E18"
+                    ],
+                    "explanation": "S5E18 states the same first-time UK paywall after more than 30 years."
+                  },
+                  {
+                    "text": "Viewers were asked to pay at least £4.99, and the charge prompted a backlash that included the then-prime minister and Arsenal fan, Keir Starmer.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S5E24"
+                    ],
+                    "explanation": "S5E24 gives the £4.99 minimum, the backlash and Starmer as then-prime minister and Arsenal fan."
+                  },
+                  {
+                    "text": "The audience for paywalled sport is not queueing up to buy.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S5E4"
+                    ],
+                    "explanation": "Rhetorical characterization whose premise — very high unauthorized-viewing rates among young viewers — is S5E4."
+                  },
+                  {
+                    "text": "Ampere Analysis researcher Daniel Monaghan says over 70% of 18-to-34-year-olds admit to regularly using unofficial means to watch that kind of coverage, over half of 35-to-44s, and about a third of 45-to-64s.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S5E4",
+                      "S5E12"
+                    ],
+                    "explanation": "S5E4 attributes the over-70% 18-34 figure to Monaghan of Ampere Analysis; S5E12 gives over half of 35-44s and about a third of 45-64s."
+                  },
+                  {
+                    "text": "The enforcement has escalated accordingly.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S5E8"
+                    ],
+                    "explanation": "Interpretive link to the August jailing recorded in S5E8."
+                  },
+                  {
+                    "text": "In August, a man in Lancashire was jailed for six and a half years for running an illegal streaming service that police said had generated almost £1m in illicit profits.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S5E8",
+                      "S5E9"
+                    ],
+                    "explanation": "S5E8-S5E9 match the August sentence, the Lancashire location, the illegal streaming service and the nearly £1m police cited."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "A supply-versus-demand take. Its factual base — a prison sentence for running an illegal streaming service that police said generated almost £1m (S5E8-S5E9) and high unauthorized-use rates (S5E4) — is supported; 'looks more like a pricing problem' is a hedged interpretation, not a measurement.",
+                "evidenceIds": [
+                  "S5E8",
+                  "S5E9",
+                  "S5E4"
+                ],
+                "segments": [
+                  {
+                    "text": "The cases that produce prison time are about the business of piracy — running a service, generating the profits police counted.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S5E8",
+                      "S5E9"
+                    ],
+                    "explanation": "S5E8-S5E9: the six-and-a-half-year sentence followed from running an illegal streaming service that police said generated almost £1m."
+                  },
+                  {
+                    "text": "The demand side looks more like a pricing problem, and six and a half years for one operator doesn't change what a subscription costs.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S5E4"
+                    ],
+                    "explanation": "Hedged interpretation ('looks more like') plus a judgment; the premise of widespread unauthorized viewing among young audiences is S5E4."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "The reported views and facts match this turn's selections: the user's emphasis on cost and ease of access (S5E5), free links obtainable on social media (S5E19), and the downsides of buffering, poor quality and vanishing platforms (S5E20). The closing summary is an evaluation of that account.",
+                "evidenceIds": [
+                  "S5E5",
+                  "S5E19",
+                  "S5E20"
+                ],
+                "segments": [
+                  {
+                    "text": "Price is only half of it; access matters too.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Framing judgment about what drives the behaviour, no factual measurement claimed."
+                  },
+                  {
+                    "text": "One user of these streams says it comes down to money and ease of access,",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S5E5"
+                    ],
+                    "explanation": "S5E5 has the user saying it comes down to the financial side and ease of access; S5E19-S5E20 in this unit identify him as a user of the links."
+                  },
+                  {
+                    "text": "and describes free links circulating on social media",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S5E19"
+                    ],
+                    "explanation": "S5E19: the streams he uses are free, with links readily obtainable on social media."
+                  },
+                  {
+                    "text": "while conceding the experience buffers, looks poor, and that the platforms can vanish.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S5E20"
+                    ],
+                    "explanation": "S5E20 records the same practical downsides for the links Kiran uses: frequent buffering, poor quality, platforms disappearing without warning."
+                  },
+                  {
+                    "text": "On that account, piracy is not a better product — just a more available one.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Summary evaluation of the account just given; no additional empirical claim."
+                  }
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "Over 70% of 18-34s Admit to Using Unofficial Streams; a Seller Got Six and a Half Years",
+              "titleActor": "18-34s",
+              "sourceActor": "18 to 34-year-olds",
+              "sourceEvidenceId": "S5E4",
+              "relation": "aligned"
+            }
+          }
+        ]
+      },
+      "candidates": [
+        {
+          "title": "Fifty-Nine Seconds of Bigfoot, and a Title Card That Says 'Until Now'",
+          "digest": "d1ee392bcae6b1878914496b0fb81aa762617d040c1f142dd35f1641870299a0"
+        },
+        {
+          "title": "Over 70% of 18-34s Admit to Using Unofficial Streams; a Seller Got Six and a Half Years",
+          "digest": "930467d8246e741c2238e198223e66b6cff9a9ca564827e30476970067b701a7"
+        }
+      ]
+    }
+  ]
+}

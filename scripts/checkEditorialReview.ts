@@ -74,6 +74,30 @@ const suites: { name: string; posts: ReviewPost[]; prepared: ReturnType<typeof p
   { name: "unit_selected_support_and_banter", prepared: prepareEvidence([scopePacket]), expectedRejected: ["P1", "P2"],
     posts: [scopePost, wrongBody, correctedScope, correctedBody] },
 ];
+// Added after the final live audit; do not claim live success until this suite runs.
+const scopeAttribution = prepareEvidence([
+  { ...packets[0], id: "population", excerpt: "Researchers surveyed British sports fans about using unofficial streams to watch paywalled sport.\n\nOf those aged 18 to 34, over 70 per cent said they did this regularly." },
+  { ...packets[1], id: "narrator", excerpt: "Kiran said price and ease of access were his reasons for using unofficial streams.\n\nThe BBC reported buffering and poor quality on those streams." },
+]);
+const wrongPopulation = { title: "Over 70% of Adults Aged 18 to 34 Use Unofficial Streams",
+  body: "Over 70 per cent of adults aged 18 to 34 regularly use unofficial streams.", evidenceIds: ["S1E2"],
+  discussion: [
+    { voice: "Take", body: "Numbers travel faster than caveats. I want both on the ticket.", evidenceIds: ["S1E2"] },
+    { voice: "Reply", body: "Fair, but precision need not arrive wearing a lab coat.", evidenceIds: ["S1E2"] },
+  ] };
+const wrongNarrator = { title: "Cheap Streams and an Unpleasant Viewing Experience",
+  body: "Kiran said price and ease of access were his reasons for using unofficial streams. The BBC reported buffering and poor quality on those streams.", evidenceIds: ["S2E1", "S2E2"],
+  discussion: [
+    { voice: "Take", body: "Kiran admitted that the streams buffer and look poor. Cheap does not mean pleasant.", evidenceIds: ["S2E2"] },
+    { voice: "Reply", body: "Price can win an argument without winning a beauty contest.", evidenceIds: ["S2E1"] },
+  ] };
+const correctPopulation = { ...structuredClone(wrongPopulation),
+  title: "Over 70% of Surveyed British Sports Fans Aged 18 to 34 Used Unofficial Streams",
+  body: "Among surveyed British sports fans aged 18 to 34, over 70 per cent said they regularly used unofficial streams to watch paywalled sport.", evidenceIds: ["S1E1", "S1E2"] };
+const correctNarrator = structuredClone(wrongNarrator);
+correctNarrator.discussion[0].body = "The BBC reports that the streams buffer and look poor. Cheap does not mean pleasant.";
+suites.push({ name: "population_antecedents_and_reporter_attribution", prepared: scopeAttribution,
+  expectedRejected: ["P1", "P2"], posts: [wrongPopulation, wrongNarrator, correctPopulation, correctNarrator] });
 const started = Date.now();
 const apiKey = getApiKey();
 const results = [];
@@ -92,7 +116,7 @@ for (const suite of suites) {
   console.log(`[review check] suite=${suite.name} passed=${passed} expected=${suite.expectedRejected.join(",")} actual=${rejected.join(",")}`);
 }
 const passed = results.every(result => result.passed);
-const record = { schemaVersion: 3, synthetic: true, scope: "Six deliberately wrong controls and six supported or opinionated counterparts across three bounded suites; no publication.",
+const record = { schemaVersion: 4, synthetic: true, scope: "Eight deliberately wrong controls and eight supported or opinionated counterparts across four bounded suites; no publication.",
   elapsedMs: Date.now() - started, passed, suites: results };
 // Fixed bounded diagnostic artifact, not raw completion/reading context.
 const serialized = JSON.stringify(record, null, 2).split(apiKey).join("[REDACTED]")

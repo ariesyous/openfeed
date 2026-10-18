@@ -1,5 +1,12 @@
 # Selected-evidence review and label corrections — October 18, 2026
 
+**Outcome:** DeepSeek is the only active model. Label corrections and stronger local
+and model review gates are deployed. Two fresh runs each published one post; the last
+still needed a manual population/attribution correction. Filtering is stronger and
+the discussions add useful arguments, but autonomous factual reliability is not yet
+established. The final prompt/control additions below await live verification because
+the OpenRouter key reached its existing $5 monthly limit. No billing limit was changed.
+
 The generator now requires complete, ordered claim accounting for every title, body
 and discussion turn. Each factual segment must cite that unit's selected evidence;
 unselected page context and another turn's citations cannot supply missing support.
@@ -191,3 +198,66 @@ and manual ledger. Full fetched pages remain outside Git and public/build paths.
 One short explainer and seven rejections are encouraging gate behavior, but do not
 establish a reliable, varied, worthwhile feed. The missing continuation demonstrates
 why local completeness checks and manual review remain necessary.
+
+## Final run after complete-sentence enforcement
+
+Implementation `d5ba66e` deployed in
+[39159921438](https://github.com/ariesyous/openfeed/actions/runs/39159921438), with
+all 328 Linux tests, type checking, lint and build passing. Replaying the actual
+published survey selection now rejects its missing continuation while historical
+validation remains compatible; see the bounded `editorial-selected-evidence-regression-20261018.json` fixture.
+
+Run [39159920672](https://github.com/ariesyous/openfeed/actions/runs/39159920672)
+generated four drafts in five provider calls over 823,227 ms. Its first review
+withheld the Bigfoot candidate for treating a promised solution as a solved mystery,
+and approved a sports-piracy post. The next review tried to cite evidence outside a
+unit's selections and failed local validation. Its retry received HTTP 403: the
+OpenRouter key's monthly limit was exhausted ($5 of $5, reset reported as November 1,
+2026, 00:00 UTC). Those later two candidates were not published and have no completed
+review artifact. Only the previously reviewed post was retained, in batch
+`20261018T194145Z-617e`, publication commit `f6b6bd7`.
+
+Both retained source pages were retrieved successfully; all 17 selected snippets
+matched. The original publication matched its approved digest and live batch, its
+article returned HTTP 200 with both discussion turns, and it had no evidence-label
+leaks. The title/body used complete split sentence groups.
+
+### Reading verdict and remaining semantic misses
+
+The 121-word body and 105-word exchange have a concrete payoff: the first turn argues
+that prosecuting suppliers does not address price, and the reply adds access and a
+poor viewing experience. That is a useful back-and-forth, with a sharp final judgment,
+not generic headline padding. But approval still missed these defects:
+
+- The percentage's population broadened from British sports fans to people in an age
+  band generally. The selected percentage snippets also lacked the antecedent that
+  identifies the activity/population. A whole sentence can still depend on earlier context.
+- The second turn attributed free links and buffering observations to the interviewee,
+  although these details were reporter narration in the source.
+- “Enforcement has escalated accordingly” asserted a trend/causal connection that
+  a selected prison-sentence example does not establish. Labeling a connecting sentence
+  as opinion does not remove its empirical premise.
+
+The Bigfoot rejection is defensible under the selected-support contract: “the solved
+mystery” presupposes a solution not supported by that turn's IDs. The reviewer allowed
+the magic-trick metaphor and horse-in-a-van joke. Its passing body nevertheless used
+“best-known” where the selected sentence only said “famous,” another example of why
+rejection/approval counts do not measure complete semantic accuracy.
+
+`scripts/correctSelectedSupport.ts` corrects the fresh sports post through the existing
+guarded publisher: it restores the population in title/body, attributes narration to
+the BBC, and narrows the trend/generalization language. The price/access disagreement
+and concluding opinion remain. One post changed, then zero on a second run. Identity,
+slug, date, sources and discussion structure are unchanged. Original generated prose
+and decisions are frozen in `editorial-selected-evidence-final-*` fixtures; the exact
+before/after correction record is separate. This is a human-reviewed correction,
+not evidence that the original generation passed manual review.
+
+Writer/reviewer instructions now explicitly require selected antecedents, population,
+geography and comparison baselines; distinguish reporter narration from interviewee
+claims; and treat empirical trend/causal bridges as factual. The fourth synthetic suite
+tests missing population support and narrator misattribution against corrected
+counterparts while preserving jokes. It has **not** run live because of the key cap.
+The three earlier suites passed before this final guidance; do not upgrade that result
+to a four-suite success. Further scheduled generations are quota-blocked until the
+limit resets or the account owner changes it. Schedule and billing settings remain unchanged.

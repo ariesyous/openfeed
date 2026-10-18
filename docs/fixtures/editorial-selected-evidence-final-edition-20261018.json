@@ -1,0 +1,50 @@
+{
+  "batchId": "20261018T194145Z-617e",
+  "generatedAt": "2026-10-18T19:41:45.628Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cmx2375zqwwwo",
+            "title": "There's a crackdown on sports piracy - but is it already out of control?",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-18T00:11:09.000Z",
+            "retrievedAt": "2026-10-18T19:41:45.628Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The cases that produce prison time are about the business of piracy — running a service, generating the profits police counted. The demand side looks more like a pricing problem, and six and a half years for one operator doesn't change what a subscription costs."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Price is only half of it; access matters too. One user of these streams says it comes down to money and ease of access, and describes free links circulating on social media while conceding the experience buffers, looks poor, and that the platforms can vanish. On that account, piracy is not a better product — just a more available one."
+          }
+        ]
+      },
+      "id": "post-20261018T194145Z-617e-0",
+      "slug": "over-70-of-18-34s-admit-to-using-unofficial-streams-a-seller-got-six-a--706f73742d3230323631303138543139343134355a2d363137652d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-18T19:41:45.628Z",
+      "community": "economics",
+      "title": "Over 70% of 18-34s Admit to Using Unofficial Streams; a Seller Got Six and a Half Years",
+      "body": "This year's Champions League final went behind a UK paywall for the first time in more than 30 years. Viewers were asked to pay at least £4.99, and the charge prompted a backlash that included the then-prime minister and Arsenal fan, Keir Starmer.\n\nThe audience for paywalled sport is not queueing up to buy. Ampere Analysis researcher Daniel Monaghan says over 70% of 18-to-34-year-olds admit to regularly using unofficial means to watch that kind of coverage, over half of 35-to-44s, and about a third of 45-to-64s.\n\nThe enforcement has escalated accordingly. In August, a man in Lancashire was jailed for six and a half years for running an illegal streaming service that police said had generated almost £1m in illicit profits.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}

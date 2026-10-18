@@ -328,6 +328,18 @@ before review; passing reviewer judgments must satisfy the same rule. Never repa
 missing IDs or raise citation caps: narrow claims to fit complete groups. Historical
 validation remains compatible and existing publication/audit identities stay frozen.
 
+## Final selected-support audit — October 18, 2026
+Read docs/editorial-selected-evidence-live-review-20261018.md. Final run 39159920672
+published one of four drafts (two completed reviews: one pass, one rejection; two
+later drafts remained unreviewed). Manual review still found population scope and
+reporter/interviewee attribution misses. scripts/correctSelectedSupport.ts applies
+one exact reviewed correction through the guarded publisher, retaining identity and
+the price/access discussion. Original edition/decisions remain frozen. New prompt
+guidance and the fourth manual-control suite address these misses but are NOT yet
+live-validated: OpenRouter reported its $5 monthly key limit exhausted, resetting
+2026-11-01 UTC. Never raise billing limits automatically. The earlier three suites
+passed; do not imply all four have passed or that model approval proves entailment.
+
 ## Complete claim accounting and evidence labels — October 18, 2026
 Live reviews require ordered segments covering each complete unchanged unit, classified
 as supported fact, unsupported fact or opinion. Every factual support ID and every

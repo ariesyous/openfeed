@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "run": 39159920672,
+  "batchId": "20261018T194145Z-617e",
+  "requestedModel": "deepseek/deepseek-v4.1-flash",
+  "resolvedModel": "deepseek/deepseek-v4.1-flash",
+  "generatedDrafts": 4,
+  "completedReviewedCandidates": 2,
+  "reviewRejectedCandidates": 1,
+  "publishedBeforeManualCorrection": 1,
+  "unreviewedCandidates": 2,
+  "providerCalls": 5,
+  "elapsedMs": 823227,
+  "quota": {
+    "httpStatus": 403,
+    "monthlyLimitUSD": 5,
+    "usedUSD": 5,
+    "resetReportedAt": "2026-11-01T00:00:00.000Z",
+    "billingChanged": false
+  },
+  "findings": [
+    {
+      "candidate": "Bigfoot",
+      "published": false,
+      "assessment": "Withholding justified under selected-support contract: solved mystery presupposes an outcome not selected in that turn. Metaphor and horse-in-van joke passed. Passing body also overstates famous as best-known."
+    },
+    {
+      "candidate": "Sports piracy",
+      "published": true,
+      "assessment": "Useful price/access disagreement, but manual review found widened population, reporter narration attributed to interviewee, and unsupported trend/causal framing. Original approval is not a manual pass.",
+      "correction": "scripts/fixtures/editorial-selected-support-correction-20261018.json",
+      "discussionPreserved": true
+    }
+  ],
+  "finalPromptAndFourthControlSuiteLiveValidated": false,
+  "retrieval": {
+    "reviewAuditSha256": "3d196471c83032c2123c726de099e18da206d6f31e27a8183f4d6e11370ceccf",
+    "results": [
+      {
+        "index": 0,
+        "url": "https://variety.com/2026/film/reviews/capturing-bigfoot-review-an-amazing-doc-uncovers-the-truth-1236915797/",
+        "title": "‘Capturing Bigfoot’ Review: An Astounding Documentary Uncovers the Truth",
+        "status": 200,
+        "retrievedAt": "2026-10-18T19:57:47.648Z",
+        "pageSha256": "34bdc149954c9344c1ce3ea1f58f92b43f2f11d3d0fadbbb43dce300fac874fb",
+        "sections": 5,
+        "characters": 5000,
+        "exactSelectedSupport": true,
+        "selectedSnippetCount": 8
+      },
+      {
+        "index": 1,
+        "url": "https://www.bbc.co.uk/news/articles/cmx2375zqwwwo",
+        "title": "There's a crackdown on sports piracy - but is it already out of control?",
+        "status": 200,
+        "retrievedAt": "2026-10-18T19:57:47.600Z",
+        "pageSha256": "6781ba431e91405835e8aa879ef4f8ebb75fb1c1cd74737dca64b6cb81ba2b3a",
+        "sections": 6,
+        "characters": 5954,
+        "exactSelectedSupport": true,
+        "selectedSnippetCount": 9
+      }
+    ]
+  },
+  "originalPublicationVerification": {
+    "batchId": "20261018T194145Z-617e",
+    "liveBatchMatches": true,
+    "supportSha256": "9983d3f8cdab31303d399949c108e58013863b9f71227bf8267cd890ab06e897",
+    "reviewSha256": "3d196471c83032c2123c726de099e18da206d6f31e27a8183f4d6e11370ceccf",
+    "supportChecks": [
+      {
+        "url": "https://variety.com/2026/film/reviews/capturing-bigfoot-review-an-amazing-doc-uncovers-the-truth-1236915797/",
+        "method": "production publisher adapter",
+        "selectedSnippets": 8,
+        "exactMatch": true,
+        "mismatches": []
+      },
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cmx2375zqwwwo",
+        "method": "production publisher adapter",
+        "selectedSnippets": 9,
+        "exactMatch": true,
+        "mismatches": []
+      }
+    ],
+    "checks": [
+      {
+        "postId": "post-20261018T194145Z-617e-0",
+        "title": "Over 70% of 18-34s Admit to Using Unofficial Streams; a Seller Got Six and a Half Years",
+        "digest": "930467d8246e741c2238e198223e66b6cff9a9ca564827e30476970067b701a7",
+        "articleUrl": "https://cobanter.com/p/over-70-of-18-34s-admit-to-using-unofficial-streams-a-seller-got-six-a--706f73742d3230323631303138543139343134355a2d363137652d30/",
+        "httpStatus": 200,
+        "allDiscussionTextPresent": true,
+        "bodyWords": 121,
+        "discussionWords": 105,
+        "bodyEvidenceIds": [
+          "S5E4",
+          "S5E12",
+          "S5E8",
+          "S5E9",
+          "S5E18",
+          "S5E24"
+        ],
+        "discussion": [
+          {
+            "turnIndex": 0,
+            "voice": "Take",
+            "evidenceIds": [
+              "S5E8",
+              "S5E9",
+              "S5E4"
+            ]
+          },
+          {
+            "turnIndex": 1,
+            "voice": "Pushback",
+            "evidenceIds": [
+              "S5E5",
+              "S5E19",
+              "S5E20"
+            ]
+          }
+        ],
+        "leakedEvidenceMarkers": false
+      }
+    ]
+  }
+}

@@ -14,6 +14,10 @@ Select every part of a contextGroup when its sentence spans multiple evidence ID
 This applies independently to the parent and each discussion turn. If complete groups
 will not fit the six parent IDs or three turn IDs, narrow the claims or choose another
 source detail; do not select half a sentence or borrow a continuation from context.
+Select the antecedent and population as well: "doing this" alone cannot support a
+named activity, and a percentage alone cannot identify its denominator. Keep survey
+populations and geography explicit. Attribute reporter narration to the publisher,
+not to a nearby interviewee. Do not invent causal/trend bridges between true facts.
 
 SOURCE HANDLING IS INTERNAL
 Publish finished, self-contained editorial writing about the subject. Keep judgments

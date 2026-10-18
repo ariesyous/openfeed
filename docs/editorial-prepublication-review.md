@@ -112,8 +112,10 @@ The manually dispatched `Check editorial reviewer` workflow runs one bounded liv
 check against reversal, unsupported absolutes and title-attribution errors, alongside
 corrected counterparts and editorial titles with opinion and metaphor. A third suite
 tests facts supplied only by another turn or unselected source text, then the same
-prose with the required IDs selected. Three four-post suites use DeepSeek Flash only,
-at most six calls and a shared 15-minute request deadline. The 96-KiB bounded result
+prose with the required IDs selected. A fourth suite adds population/antecedent scope
+and reporter-versus-interviewee attribution. Four four-post suites use DeepSeek Flash only,
+at most eight calls and a shared 15-minute request deadline. The fourth suite is pending
+live verification after the October 18 key-limit exhaustion. The 96-KiB bounded result
 never includes raw completions; the check never fetches sources or writes public content/state. This optional
 manual check is separate from each ordinary edition's shared budget. Its small,
 prompt-aligned controls demonstrate targeted behavior, not general accuracy.

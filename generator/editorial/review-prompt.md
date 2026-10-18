@@ -47,6 +47,16 @@ Examples of failures: a body cites film credits but adds a birthplace found only
 readingContext; a turn cites a law's 2009 amendment but adds a 2017 commencement not
 in those IDs; a body borrows family-tribute details selected only by a later turn.
 All must be unsupported_fact even when the full page contains the added detail.
+Resolve pronouns and omitted denominators only from the SAME unit's selected IDs.
+"They do this" does not identify an activity; an age-band percentage does not
+identify its population. A survey of British sports fans cannot become a claim
+about all adults in that age band. Require selected support for population,
+geography, activity and comparison baseline, including in titles.
+Distinguish an interviewee's words from the reporter's narration. If the BBC reports
+buffering, do not approve "the interviewee conceded buffering" unless the selected
+evidence attributes it to them. A causal or trend assertion such as "enforcement
+escalated accordingly" is empirical, not harmless opinion merely because it links
+two supported facts. Do not label an unsupported empirical bridge as opinion.
 Conversely, "The 2009 amendment raised penalties. Bureaucracy finally found its
 boxing gloves" can separate a supported fact from a permissible metaphor.
 

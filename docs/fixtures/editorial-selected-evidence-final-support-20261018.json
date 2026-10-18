@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261018T194145Z-617e",
+  "startedAt": "2026-10-18T19:41:45.628Z",
+  "status": "data_written",
+  "chunks": [
+    {
+      "index": 1,
+      "requestedModel": "deepseek/deepseek-v4.1-flash",
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "redactionsApplied": false,
+      "review": {
+        "requestedModel": "deepseek/deepseek-v4.1-flash",
+        "resolvedModel": "deepseek/deepseek-v4.1-flash",
+        "candidateDigests": [
+          "930467d8246e741c2238e198223e66b6cff9a9ca564827e30476970067b701a7"
+        ]
+      },
+      "sources": [
+        {
+          "id": "83e821571c436a96",
+          "url": "https://www.bbc.co.uk/news/articles/cmx2375zqwwwo",
+          "title": "There's a crackdown on sports piracy - but is it already out of control?",
+          "publisher": "BBC Business",
+          "retrievedAt": "2026-10-18T19:41:45.628Z",
+          "publishedAt": "2026-10-18T00:11:09.000Z",
+          "evergreen": false
+        }
+      ],
+      "evidence": [
+        {
+          "id": "S5E4",
+          "sourceId": "83e821571c436a96",
+          "quote": "\"For 18 to 34-year-olds, it's over 70% who admit to doing this regularly,\" says Daniel Monaghan, a researcher at Ampere Analysis."
+        },
+        {
+          "id": "S5E12",
+          "sourceId": "83e821571c436a96",
+          "quote": "\"Over half of 35 to 44s admit to doing it, and about a third of those aged 45 to 64.\""
+        },
+        {
+          "id": "S5E8",
+          "sourceId": "83e821571c436a96",
+          "quote": "In August, a man in Lancashire was jailed for six and a half years for running an illegal streaming service that police said had generated"
+        },
+        {
+          "id": "S5E9",
+          "sourceId": "83e821571c436a96",
+          "quote": "almost £1m in illicit profits."
+        },
+        {
+          "id": "S5E18",
+          "sourceId": "83e821571c436a96",
+          "quote": "This year's Champions League final went behind a paywall in the UK for the first time in more than 30 years."
+        },
+        {
+          "id": "S5E24",
+          "sourceId": "83e821571c436a96",
+          "quote": "Viewers were asked to pay at least £4.99 to watch it, prompting a backlash, including from the then-prime minister, Arsenal fan Sir Keir Starmer."
+        },
+        {
+          "id": "S5E5",
+          "sourceId": "83e821571c436a96",
+          "quote": "\"What it comes down to is the financial side - that's the big one - and ease of access as well,\" he says."
+        },
+        {
+          "id": "S5E19",
+          "sourceId": "83e821571c436a96",
+          "quote": "Meanwhile the streams he uses are free, with links readily obtainable on social media."
+        },
+        {
+          "id": "S5E20",
+          "sourceId": "83e821571c436a96",
+          "quote": "These links, used by Kiran and his friends, have practical downsides – such as frequent buffering or poor quality, or platforms that disappear without warning."
+        }
+      ],
+      "posts": [
+        {
+          "postId": "post-20261018T194145Z-617e-0",
+          "evidenceIds": [
+            "S5E4",
+            "S5E12",
+            "S5E8",
+            "S5E9",
+            "S5E18",
+            "S5E24"
+          ],
+          "discussion": [
+            {
+              "turnIndex": 0,
+              "voice": "Take",
+              "evidenceIds": [
+                "S5E8",
+                "S5E9",
+                "S5E4"
+              ]
+            },
+            {
+              "turnIndex": 1,
+              "voice": "Pushback",
+              "evidenceIds": [
+                "S5E5",
+                "S5E19",
+                "S5E20"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
