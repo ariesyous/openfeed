@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-10-18",
+  "generationRun": "39146696530",
+  "checkout": "1645b437cd4997ee845969d7fd93346b64983178",
+  "publicationCommit": "d7edf82748a3f91ea7b5118d06e9f698b32f4d5e",
+  "deploymentRun": "39147607299",
+  "batchId": "20261018T164847Z-b1c0",
+  "requestedModel": "deepseek/deepseek-v4.1-flash",
+  "resolvedWriterModel": "deepseek/deepseek-v4.1-flash",
+  "resolvedReviewerModel": "deepseek/deepseek-v4.1-flash",
+  "attempts": 7,
+  "successfulWriterCalls": 1,
+  "failedWriterCalls": 5,
+  "reviewCalls": 1,
+  "reviewRejectedPosts": 0,
+  "elapsedMs": 713404,
+  "reviewElapsedApproxMs": 20831,
+  "stopReason": "provider or validation budget exhausted",
+  "auditArtifact": {
+    "id": "12144305445",
+    "name": "editorial-support-39146696530-1",
+    "expiresAt": "2026-11-01T17:00:44Z",
+    "supportSha256": "8b05e2bd40074b414706b8c1049040b5ba5f444566ac5bb5468fd98c76506aaa",
+    "reviewSha256": "ec35920a369eea7d4ecf72f695a4694959201970e2e42557dccaaccd9226f155"
+  },
+  "sourceRetrievals": [
+    {
+      "index": 0,
+      "url": "https://www.bbc.co.uk/news/articles/c574pdzl0k4no",
+      "title": "Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting",
+      "status": 200,
+      "retrievedAt": "2026-10-18T17:01:37.500Z",
+      "pageSha256": "4c5a5c1d2d8c7a9fddd74082be2d1430caa2392df18ce4065230b5e42068a798",
+      "sections": 3,
+      "characters": 5462,
+      "exactSelectedSupport": true,
+      "selectedSnippetCount": 5
+    },
+    {
+      "index": 1,
+      "url": "https://www.npr.org/2026/10/18/nx-s1-5556931/noah-adams-all-things-considered-has-died",
+      "title": "Noah Adams, longtime host of NPR's All Things Considered, has died",
+      "status": 200,
+      "retrievedAt": "2026-10-18T17:01:37.732Z",
+      "pageSha256": "7e42fba41374b8d74f48852753f64178dbf90af22c6d3f2c832e60075620c511",
+      "sections": 5,
+      "characters": 5927,
+      "exactSelectedSupport": true,
+      "selectedSnippetCount": 7
+    },
+    {
+      "index": 2,
+      "url": "https://variety.com/2026/film/festivals/sergei-loznitsa-imperium-best-film-london-film-festival-1236915621/",
+      "title": "Sergei Loznitsa’s ‘Imperium’ Wins Best Film at BFI London Film Festival",
+      "status": 200,
+      "retrievedAt": "2026-10-18T17:01:37.474Z",
+      "pageSha256": "65b73bbc090d35a299b5c7d7ac7d0d3e5aa6144ccb003be3f4373916caf52b80",
+      "sections": 4,
+      "characters": 3526,
+      "exactSelectedSupport": true,
+      "selectedSnippetCount": 6
+    },
+    {
+      "index": 3,
+      "url": "https://www.bbc.co.uk/news/articles/cv70pxe5j90eo",
+      "title": "Search for Amelia Earhart's plane resumes after stormy weather",
+      "status": 200,
+      "retrievedAt": "2026-10-18T17:01:37.522Z",
+      "pageSha256": "cc60e49cf5ba14db626b61073b3117f7c90a153e0b521a41c7d087b572a9b430",
+      "sections": 5,
+      "characters": 4565,
+      "exactSelectedSupport": true,
+      "selectedSnippetCount": 7
+    }
+  ],
+  "liveVerification": {
+    "batchMatches": true,
+    "fourArticlesHttp200": true,
+    "allDiscussionTextPresent": true
+  },
+  "dispositions": {
+    "retain": 3,
+    "revise": 1,
+    "correct": 0
+  },
+  "limitations": [
+    "Manual assessment of four posts; not a causal comparison or accuracy benchmark.",
+    "Publisher/source agreement is not independent real-world verification.",
+    "No candidate was rejected in this fresh run; it does not demonstrate error interception.",
+    "The reviewer overlooked a title attribution nuance.",
+    "No historical or newly published prose was rewritten by this review; ordinary-run cohorts unchanged."
+  ],
+  "reviews": [
+    {
+      "postId": "post-20261018T164847Z-b1c0-0",
+      "title": "A Mostly Peaceful March, and 1,500 Damaged Shops",
+      "digest": "6fdf0bda3a5949ba500ba09ab0fe789dac86303799bea9d9090c374630e1bf9c",
+      "disposition": "retain",
+      "titleReview": "Mostly peaceful qualification retained alongside the damage count; plural protests and an explicit France reference would be a more precise headline, but the body supplies national scope.",
+      "bodyClaims": [
+        {
+          "claim": "About 550,000 demonstrators, about 1,800 arrests on Saturday, largely peaceful protests",
+          "evidenceIds": [
+            "S1E6"
+          ],
+          "verdict": "supported",
+          "note": "Approximation and largely-peaceful qualification retained."
+        },
+        {
+          "claim": "Looting in Paris, Marseille and Lille",
+          "evidenceIds": [
+            "S1E14"
+          ],
+          "verdict": "supported",
+          "note": "Does not say these were the only affected places."
+        },
+        {
+          "claim": "More than 500 emergency personnel injured according to interior ministry",
+          "evidenceIds": [
+            "S1E3"
+          ],
+          "verdict": "supported",
+          "note": "Source attribution and more-than qualification retained."
+        },
+        {
+          "claim": "About 1,500 damaged shops/retailers, attributed to trade federation",
+          "evidenceIds": [
+            "S1E7"
+          ],
+          "verdict": "supported",
+          "note": "Body preserves attribution; title rounds away about."
+        },
+        {
+          "claim": "Fuel prices, cost of living and public services including schools were protest grievances",
+          "evidenceIds": [
+            "S1E9"
+          ],
+          "verdict": "supported",
+          "note": "Aggregate grievances, not an individualized account of every demonstrator."
+        }
+      ],
+      "discussion": [
+        {
+          "turnIndex": 0,
+          "verdict": "retain",
+          "contribution": "Raises the interpretive problem of a large protest and disorder sharing the same event.",
+          "note": "People with a different plan is posed as a possible crowd dynamic, not an independently established identity for every looter. Prefer the body’s precise arrest number to the loose thousands phrasing.",
+          "voice": "Take",
+          "evidenceIds": [
+            "S1E6",
+            "S1E7",
+            "S1E14"
+          ]
+        },
+        {
+          "turnIndex": 1,
+          "verdict": "retain",
+          "contribution": "Challenges letting destruction erase the reasons people demonstrated.",
+          "note": "An editorial framing disagreement grounded in the reported grievances; no new motive attributed to a named person.",
+          "voice": "Pushback",
+          "evidenceIds": [
+            "S1E9",
+            "S1E6",
+            "S1E7"
+          ]
+        }
+      ],
+      "bodyWords": 77,
+      "discussionWords": 90
+    },
+    {
+      "postId": "post-20261018T164847Z-b1c0-1",
+      "title": "Noah Adams Listened for the Person, Not the Talking Point",
+      "digest": "2aea2e1c56924f8380d3fd1d27c1565b947bbd9baca62ac382f1b16556f6e982",
+      "disposition": "retain",
+      "titleReview": "A supported interpretive portrait of listening and observation. The fuller source explicitly discusses avoiding pre-programmed answers; selected body IDs support the underlying reporting method.",
+      "bodyClaims": [
+        {
+          "claim": "Adams hosted All Things Considered for 18 years",
+          "evidenceIds": [
+            "S2E1"
+          ],
+          "verdict": "supported"
+        },
+        {
+          "claim": "Died Friday at home in Yellow Springs, Ohio at 84, according to wife Neenah Ellis",
+          "evidenceIds": [
+            "S2E7"
+          ],
+          "verdict": "supported"
+        },
+        {
+          "claim": "Train travel, days in small towns, questions and listening were his reporting method",
+          "evidenceIds": [
+            "S2E2"
+          ],
+          "verdict": "supported"
+        },
+        {
+          "claim": "Block worked alongside him before hosting and recalled his observation",
+          "evidenceIds": [
+            "S2E18"
+          ],
+          "verdict": "supported"
+        },
+        {
+          "claim": "Glass repeatedly cited Adams’s interviewing as inspiration for This American Life",
+          "evidenceIds": [
+            "S2E5",
+            "S2E6"
+          ],
+          "verdict": "supported",
+          "note": "Sentence continuation retained."
+        }
+      ],
+      "discussion": [
+        {
+          "turnIndex": 0,
+          "verdict": "retain",
+          "contribution": "An appreciative opinion about reporting among people rather than staging the tribute around a job title.",
+          "note": "Press-conference contrast reads as advice, not a claim Adams never attended one.",
+          "voice": "Take",
+          "evidenceIds": [
+            "S2E2"
+          ]
+        },
+        {
+          "turnIndex": 1,
+          "verdict": "retain",
+          "contribution": "Adds the notebook and shorthand detail and broadens listening into observation.",
+          "note": "Half the craft is a rhetorical division, not an unsupported measured statistic.",
+          "voice": "Pushback",
+          "evidenceIds": [
+            "S2E18",
+            "S2E22"
+          ]
+        }
+      ],
+      "bodyWords": 93,
+      "discussionWords": 38
+    },
+    {
+      "postId": "post-20261018T164847Z-b1c0-2",
+      "title": "A BFI Prize for the Documentary That Praises Quiet Resilience",
+      "digest": "f6c4c4ed61f7d333b32c2e8a8a59185fc3c589206c413d9773751c358ac70717",
+      "disposition": "revise",
+      "titleReview": "The title assigns praise of quiet resilience to the documentary; the source establishes that the jury praised the family’s resilience. The model approval paraphrases the title with the jury as speaker, overlooking this small attribution shift. Suggested title: Concrete Land Wins the Grierson Award as Its Jury Praises Quiet Resilience.",
+      "bodyClaims": [
+        {
+          "claim": "70th BFI London Film Festival and Grierson Award to Bkerat’s feature debut Concrete Land",
+          "evidenceIds": [
+            "S3E2",
+            "S3E6"
+          ],
+          "verdict": "supported",
+          "note": "The festival edition appears in a sentence fragment; the full page confirms the event context."
+        },
+        {
+          "claim": "Several generations of a mixed-race family in Jordan resisting displacement and hostility",
+          "evidenceIds": [
+            "S3E6",
+            "S3E7"
+          ],
+          "verdict": "supported"
+        },
+        {
+          "claim": "Sandhya Suri headed the documentary jury and directed Santosh",
+          "evidenceIds": [
+            "S3E10"
+          ],
+          "verdict": "supported"
+        },
+        {
+          "claim": "Jury’s quoted assessment of the family’s resilience, dignity and cultural erasure",
+          "evidenceIds": [
+            "S3E14",
+            "S3E15"
+          ],
+          "verdict": "supported",
+          "note": "Body clearly attributes the assessment, unlike the title."
+        }
+      ],
+      "discussion": [
+        {
+          "turnIndex": 0,
+          "verdict": "retain",
+          "contribution": "Reads the jury’s phrase as an expression of documentary taste.",
+          "note": "Patience over volume is recognizable interpretation; it does not invent film scenes or claim to have watched it.",
+          "voice": "Take",
+          "evidenceIds": [
+            "S3E14",
+            "S3E15"
+          ]
+        },
+        {
+          "turnIndex": 1,
+          "verdict": "retain",
+          "contribution": "Challenges the aesthetic framing of displacement and distinguishes dignity from passivity.",
+          "note": "Conditional criticism, with the jury’s wording attributed explicitly. This is useful disagreement, not an unsupported empirical effect.",
+          "voice": "Pushback",
+          "evidenceIds": [
+            "S3E14",
+            "S3E15",
+            "S3E7"
+          ]
+        }
+      ],
+      "bodyWords": 82,
+      "discussionWords": 41
+    },
+    {
+      "postId": "post-20261018T164847Z-b1c0-3",
+      "title": "The Earhart Search Returns to a Shape in the Lagoon",
+      "digest": "ba57f681a63ab5489870a3d9d807ed551b941bdc6e4fbea88714f67b259f4f90",
+      "disposition": "retain",
+      "titleReview": "Does not promise a discovery; correctly centers the search on an unidentified shape.",
+      "bodyClaims": [
+        {
+          "claim": "Search resumed after severe weather interrupted work for days",
+          "evidenceIds": [
+            "S6E1",
+            "S6E2"
+          ],
+          "verdict": "supported"
+        },
+        {
+          "claim": "Nikumaroro is part of Kiribati; team investigates Taraia Object seen in lagoon aerial imagery",
+          "evidenceIds": [
+            "S6E8",
+            "S6E9"
+          ],
+          "verdict": "supported"
+        },
+        {
+          "claim": "Some skeptics believe the object was a fallen tree",
+          "evidenceIds": [
+            "S6E6",
+            "S6E7"
+          ],
+          "verdict": "supported",
+          "note": "Skeptics’ alternative remains attributed, not established as the object’s identity."
+        }
+      ],
+      "discussion": [
+        {
+          "turnIndex": 0,
+          "verdict": "retain",
+          "contribution": "Turns the mundane alternative into an evidentiary baseline.",
+          "note": "The premise is repeated for an argument rather than simply recapping the body.",
+          "voice": "Take",
+          "evidenceIds": [
+            "S6E6",
+            "S6E7"
+          ]
+        },
+        {
+          "turnIndex": 1,
+          "verdict": "retain",
+          "contribution": "Pushes back against reflexive dismissal while acknowledging unsuccessful past searches.",
+          "note": "Past failure supported by S6E15; no discovery, probability or inevitability invented.",
+          "voice": "Pushback",
+          "evidenceIds": [
+            "S6E15",
+            "S6E6",
+            "S6E7"
+          ]
+        }
+      ],
+      "bodyWords": 63,
+      "discussionWords": 56
+    }
+  ]
+}

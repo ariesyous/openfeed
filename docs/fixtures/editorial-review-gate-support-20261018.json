@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261018T164847Z-b1c0",
+  "startedAt": "2026-10-18T16:48:47.369Z",
+  "status": "data_written",
+  "chunks": [
+    {
+      "index": 1,
+      "requestedModel": "deepseek/deepseek-v4.1-flash",
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "redactionsApplied": false,
+      "review": {
+        "requestedModel": "deepseek/deepseek-v4.1-flash",
+        "resolvedModel": "deepseek/deepseek-v4.1-flash",
+        "candidateDigests": [
+          "6fdf0bda3a5949ba500ba09ab0fe789dac86303799bea9d9090c374630e1bf9c",
+          "2aea2e1c56924f8380d3fd1d27c1565b947bbd9baca62ac382f1b16556f6e982",
+          "f6c4c4ed61f7d333b32c2e8a8a59185fc3c589206c413d9773751c358ac70717",
+          "ba57f681a63ab5489870a3d9d807ed551b941bdc6e4fbea88714f67b259f4f90"
+        ]
+      },
+      "sources": [
+        {
+          "id": "22d9e3d39f2a88cf",
+          "url": "https://www.bbc.co.uk/news/articles/c574pdzl0k4no",
+          "title": "Burnt out cars and shattered glass on Paris streets after protests turn to riots and looting",
+          "publisher": "BBC World",
+          "retrievedAt": "2026-10-18T16:48:47.369Z",
+          "publishedAt": "2026-10-18T12:07:31.000Z",
+          "evergreen": false
+        },
+        {
+          "id": "096a7b8d06624333",
+          "url": "https://www.npr.org/2026/10/18/nx-s1-5556931/noah-adams-all-things-considered-has-died",
+          "title": "Noah Adams, longtime host of NPR's All Things Considered, has died",
+          "publisher": "NPR",
+          "retrievedAt": "2026-10-18T16:48:47.369Z",
+          "publishedAt": "2026-10-18T16:30:00.000Z",
+          "evergreen": false
+        },
+        {
+          "id": "a194f78f613bd74e",
+          "url": "https://variety.com/2026/film/festivals/sergei-loznitsa-imperium-best-film-london-film-festival-1236915621/",
+          "title": "Sergei Loznitsa’s ‘Imperium’ Wins Best Film at BFI London Film Festival",
+          "publisher": "Variety Film",
+          "retrievedAt": "2026-10-18T16:48:47.369Z",
+          "publishedAt": "2026-10-18T13:00:00.000Z",
+          "evergreen": false
+        },
+        {
+          "id": "1f91918277b7fd64",
+          "url": "https://www.bbc.co.uk/news/articles/cv70pxe5j90eo",
+          "title": "Search for Amelia Earhart's plane resumes after stormy weather",
+          "publisher": "BBC World",
+          "retrievedAt": "2026-10-18T16:48:47.369Z",
+          "publishedAt": "2026-10-18T13:47:07.000Z",
+          "evergreen": false
+        }
+      ],
+      "evidence": [
+        {
+          "id": "S1E6",
+          "sourceId": "22d9e3d39f2a88cf",
+          "quote": "Police arrested about 1,800 people on Saturday as some 550,000 demonstrators took to the streets for protests that were largely peaceful."
+        },
+        {
+          "id": "S1E14",
+          "sourceId": "22d9e3d39f2a88cf",
+          "quote": "Widespread looting took place across the cities of Paris, Marseille and Lille, as well as other areas."
+        },
+        {
+          "id": "S1E3",
+          "sourceId": "22d9e3d39f2a88cf",
+          "quote": "More than 500 police officers, gendarmes and firefighters were injured in the unrest on Saturday, France's interior ministry said."
+        },
+        {
+          "id": "S1E7",
+          "sourceId": "22d9e3d39f2a88cf",
+          "quote": "About 1,500 shops and retailers were also damaged in the disturbances, the Retail and Trade Federation said."
+        },
+        {
+          "id": "S1E9",
+          "sourceId": "22d9e3d39f2a88cf",
+          "quote": "They were demonstrating against rising fuel prices, the cost of living and deteriorating public services, including schools."
+        },
+        {
+          "id": "S2E1",
+          "sourceId": "096a7b8d06624333",
+          "quote": "Noah Adams, a writer, broadcaster, and storyteller who hosted All Things Considered for 18 years, has died."
+        },
+        {
+          "id": "S2E7",
+          "sourceId": "096a7b8d06624333",
+          "quote": "Adams died Friday at his home in Yellow Springs, Ohio, according to his wife, Neenah Ellis. He was 84."
+        },
+        {
+          "id": "S2E2",
+          "sourceId": "096a7b8d06624333",
+          "quote": "Adams would ride trains across the country, or spend days in small towns talking to whoever he came across. He'd ask questions. He'd listen."
+        },
+        {
+          "id": "S2E18",
+          "sourceId": "096a7b8d06624333",
+          "quote": "\"He was always observing,\" recalled Melissa Block, who produced pieces alongside Adams for years before hosting All Things Considered herself."
+        },
+        {
+          "id": "S2E5",
+          "sourceId": "096a7b8d06624333",
+          "quote": "Over the years Glass would repeatedly cite Adams and his interviewing style as an inspiration for the feel and tone of the public radio program"
+        },
+        {
+          "id": "S2E6",
+          "sourceId": "096a7b8d06624333",
+          "quote": "he'd go on to create: This American Life."
+        },
+        {
+          "id": "S2E22",
+          "sourceId": "096a7b8d06624333",
+          "quote": "\"He would have a little reporter's notebook and he would be taking notes in shorthand."
+        },
+        {
+          "id": "S3E2",
+          "sourceId": "a194f78f613bd74e",
+          "quote": "the 70th BFI London Film Festival competition."
+        },
+        {
+          "id": "S3E6",
+          "sourceId": "a194f78f613bd74e",
+          "quote": "The Grierson Award for documentary went to Asmahan Bkerat’s feature directorial debut “Concrete Land,” which spends time with several generations of a mixed-race family in"
+        },
+        {
+          "id": "S3E7",
+          "sourceId": "a194f78f613bd74e",
+          "quote": "Jordan as they resist displacement and hostility."
+        },
+        {
+          "id": "S3E10",
+          "sourceId": "a194f78f613bd74e",
+          "quote": "“Santosh” director Sandhya Suri headed the documentary jury, alongside Melbourne International Film Festival senior programmer Kate Fitzpatrick and BAFTA and Emmy-winning producer Andee Ryder."
+        },
+        {
+          "id": "S3E14",
+          "sourceId": "a194f78f613bd74e",
+          "quote": "“In a noisy and often polemical world it was refreshing, humbling and deeply relevant to see the quiet resilience and dignity of this family in"
+        },
+        {
+          "id": "S3E15",
+          "sourceId": "a194f78f613bd74e",
+          "quote": "the face of the erasure of their culture and traditions,” the jury said."
+        },
+        {
+          "id": "S6E1",
+          "sourceId": "1f91918277b7fd64",
+          "quote": "A search for the wreckage of Amelia Earhart's plane on a remote island in the Pacific Ocean has resumed after severe weather caused researchers to"
+        },
+        {
+          "id": "S6E2",
+          "sourceId": "1f91918277b7fd64",
+          "quote": "stop for several days."
+        },
+        {
+          "id": "S6E8",
+          "sourceId": "1f91918277b7fd64",
+          "quote": "A team has travelled to Nikumaroro Island, part of Kiribati, hoping to solve the mystery of the famed aviator's disappearance by investigating the so-called Taraia"
+        },
+        {
+          "id": "S6E9",
+          "sourceId": "1f91918277b7fd64",
+          "quote": "Object, spotted in the atoll's lagoon in aerial imagery."
+        },
+        {
+          "id": "S6E6",
+          "sourceId": "1f91918277b7fd64",
+          "quote": "While researchers have previously found evidence of a human presence on the island around the time of Earhart's disappearance, some skeptics believe the Taraia Object"
+        },
+        {
+          "id": "S6E7",
+          "sourceId": "1f91918277b7fd64",
+          "quote": "was just a tree that had fallen from the atoll into the lagoon."
+        },
+        {
+          "id": "S6E15",
+          "sourceId": "1f91918277b7fd64",
+          "quote": "Previous attempts to find her Electra have also come up short."
+        }
+      ],
+      "posts": [
+        {
+          "postId": "post-20261018T164847Z-b1c0-0",
+          "evidenceIds": [
+            "S1E6",
+            "S1E14",
+            "S1E3",
+            "S1E7",
+            "S1E9"
+          ],
+          "discussion": [
+            {
+              "turnIndex": 0,
+              "voice": "Take",
+              "evidenceIds": [
+                "S1E6",
+                "S1E7",
+                "S1E14"
+              ]
+            },
+            {
+              "turnIndex": 1,
+              "voice": "Pushback",
+              "evidenceIds": [
+                "S1E9",
+                "S1E6",
+                "S1E7"
+              ]
+            }
+          ]
+        },
+        {
+          "postId": "post-20261018T164847Z-b1c0-1",
+          "evidenceIds": [
+            "S2E1",
+            "S2E7",
+            "S2E2",
+            "S2E18",
+            "S2E5",
+            "S2E6"
+          ],
+          "discussion": [
+            {
+              "turnIndex": 0,
+              "voice": "Take",
+              "evidenceIds": [
+                "S2E2"
+              ]
+            },
+            {
+              "turnIndex": 1,
+              "voice": "Pushback",
+              "evidenceIds": [
+                "S2E18",
+                "S2E22"
+              ]
+            }
+          ]
+        },
+        {
+          "postId": "post-20261018T164847Z-b1c0-2",
+          "evidenceIds": [
+            "S3E2",
+            "S3E6",
+            "S3E7",
+            "S3E10",
+            "S3E14",
+            "S3E15"
+          ],
+          "discussion": [
+            {
+              "turnIndex": 0,
+              "voice": "Take",
+              "evidenceIds": [
+                "S3E14",
+                "S3E15"
+              ]
+            },
+            {
+              "turnIndex": 1,
+              "voice": "Pushback",
+              "evidenceIds": [
+                "S3E14",
+                "S3E15",
+                "S3E7"
+              ]
+            }
+          ]
+        },
+        {
+          "postId": "post-20261018T164847Z-b1c0-3",
+          "evidenceIds": [
+            "S6E1",
+            "S6E2",
+            "S6E8",
+            "S6E9",
+            "S6E6",
+            "S6E7"
+          ],
+          "discussion": [
+            {
+              "turnIndex": 0,
+              "voice": "Take",
+              "evidenceIds": [
+                "S6E6",
+                "S6E7"
+              ]
+            },
+            {
+              "turnIndex": 1,
+              "voice": "Pushback",
+              "evidenceIds": [
+                "S6E15",
+                "S6E6",
+                "S6E7"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "synthetic": true,
+  "scope": "Two deliberately wrong controls and two corrected counterparts with opinion and metaphor; no publication.",
+  "requestedModel": "deepseek/deepseek-v4.1-flash",
+  "resolvedModel": "deepseek/deepseek-v4.1-flash",
+  "attempts": 1,
+  "elapsedMs": 8845,
+  "expectedRejected": [
+    "P1",
+    "P2"
+  ],
+  "actualRejected": [
+    "P1",
+    "P2"
+  ],
+  "passed": true,
+  "decisions": {
+    "posts": [
+      {
+        "key": "P1",
+        "checks": [
+          {
+            "target": "title",
+            "verdict": "supported",
+            "reason": null,
+            "claim": null,
+            "explanation": "Source title/evidence describe the expectation as mistaken and quote the officer's claim about expecting nastiness, so the title is supported.",
+            "evidenceIds": [
+              "S1E1"
+            ]
+          },
+          {
+            "target": "body",
+            "verdict": "supported",
+            "reason": null,
+            "claim": null,
+            "explanation": "Directly matches S1E1.",
+            "evidenceIds": [
+              "S1E1"
+            ]
+          },
+          {
+            "target": "discussion.0",
+            "verdict": "reject",
+            "reason": "reversed_fact",
+            "claim": "children expect friendliness at the start rather than nastiness",
+            "explanation": "S1E1 says children often expect dangerous people to be nasty from the start. This turn reverses that into expecting friendliness rather than nastiness.",
+            "evidenceIds": [
+              "S1E1"
+            ]
+          },
+          {
+            "target": "discussion.1",
+            "verdict": "opinion",
+            "reason": null,
+            "claim": null,
+            "explanation": "Subjective preference/joke; its premise about waiting for an obvious villain aligns with the officer's stated expectation.",
+            "evidenceIds": [
+              "S1E1"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "P2",
+        "checks": [
+          {
+            "target": "title",
+            "verdict": "supported",
+            "reason": null,
+            "claim": null,
+            "explanation": "S2E1 says the charity works through professional referrers who know the families, directly supporting the title.",
+            "evidenceIds": [
+              "S2E1"
+            ]
+          },
+          {
+            "target": "body",
+            "verdict": "supported",
+            "reason": null,
+            "claim": null,
+            "explanation": "Both sentences match S2E1 and S2E2 directly.",
+            "evidenceIds": [
+              "S2E1",
+              "S2E2"
+            ]
+          },
+          {
+            "target": "discussion.0",
+            "verdict": "opinion",
+            "reason": null,
+            "claim": null,
+            "explanation": "Subjective preference; the premise that referrers know families is supported by S2E1.",
+            "evidenceIds": [
+              "S2E1"
+            ]
+          },
+          {
+            "target": "discussion.1",
+            "verdict": "reject",
+            "reason": "unsupported_claim",
+            "claim": "A household out of contact with these professionals has no route to help at all.",
+            "explanation": "The sources say the charity works through professional referrers and considers teacher, doctor and social worker applications. They do not establish that anyone out of contact with such professionals has no possible route to help.",
+            "evidenceIds": [
+              "S2E1",
+              "S2E2"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "P3",
+        "checks": [
+          {
+            "target": "title",
+            "verdict": "supported",
+            "reason": null,
+            "claim": null,
+            "explanation": "Source title/evidence describe the expectation as mistaken and quote the officer's claim about expecting nastiness, so the title is supported.",
+            "evidenceIds": [
+              "S1E1"
+            ]
+          },
+          {
+            "target": "body",
+            "verdict": "supported",
+            "reason": null,
+            "claim": null,
+            "explanation": "Directly matches S1E1.",
+            "evidenceIds": [
+              "S1E1"
+            ]
+          },
+          {
+            "target": "discussion.0",
+            "verdict": "opinion",
+            "reason": null,
+            "claim": null,
+            "explanation": "Cautious joke/interpretation; it accepts children's expectation of immediate nastiness and treats a friendly opening as a safety-test limitation, consistent with the mistaken-expectation framing.",
+            "evidenceIds": [
+              "S1E1"
+            ]
+          },
+          {
+            "target": "discussion.1",
+            "verdict": "opinion",
+            "reason": null,
+            "claim": null,
+            "explanation": "Subjective preference/joke; its premise about waiting for an obvious villain aligns with the officer's stated expectation.",
+            "evidenceIds": [
+              "S1E1"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "P4",
+        "checks": [
+          {
+            "target": "title",
+            "verdict": "supported",
+            "reason": null,
+            "claim": null,
+            "explanation": "S2E1 says the charity works through professional referrers who know the families, directly supporting the title.",
+            "evidenceIds": [
+              "S2E1"
+            ]
+          },
+          {
+            "target": "body",
+            "verdict": "supported",
+            "reason": null,
+            "claim": null,
+            "explanation": "Both sentences match S2E1 and S2E2 directly.",
+            "evidenceIds": [
+              "S2E1",
+              "S2E2"
+            ]
+          },
+          {
+            "target": "discussion.0",
+            "verdict": "opinion",
+            "reason": null,
+            "claim": null,
+            "explanation": "Subjective preference; the premise that referrers know families is supported by S2E1.",
+            "evidenceIds": [
+              "S2E1"
+            ]
+          },
+          {
+            "target": "discussion.1",
+            "verdict": "opinion",
+            "reason": null,
+            "claim": null,
+            "explanation": "Cautious possibility ('may', 'could') about a limitation of professional referrals. It does not assert a source fact, and its premise of knowing families is supported by S2E1/S2E2.",
+            "evidenceIds": [
+              "S2E1",
+              "S2E2"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
