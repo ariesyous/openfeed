@@ -1,0 +1,361 @@
+{
+  "batchId": "20261018T043736Z-3e70",
+  "generatedAt": "2026-10-18T04:37:36.174Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
+            "title": "Giving AI a “crystal clear” view of the materials world",
+            "publisher": "MIT News",
+            "publishedAt": "2026-10-18T04:00:00.000Z",
+            "retrievedAt": "2026-10-18T04:37:36.174Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "MIT News notes the experimental literature is heavily biased toward a few popular classes of crystals, so any model trained on it risks skewing toward those materials."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The model also draws on first-principles computational databases, not just the experimental literature, so that text bias may not be the whole story."
+          }
+        ]
+      },
+      "id": "post-20261018T043736Z-3e70-0",
+      "slug": "teaching-ai-to-read-crystals-not-just-text--706f73742d3230323631303138543034333733365a2d336537302d30",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-18T04:37:36.174Z",
+      "community": "ai_agents",
+      "title": "Teaching AI to Read Crystals, Not Just Text",
+      "body": "MIT News notes that the approach doesn’t work well yet, and the problem comes down to data: most materials are crystals — 3D periodic arrangements of atoms whose structures are stored in specialized formats, not the text streams that large language models are trained on. MIT researchers have now created a multimodal AI model that tackles the problem by combining 3D atomic structures with natural-language descriptions.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/quentin-tarantino-confirms-script-for-tenth-film-1236915169/",
+            "title": "Quentin Tarantino Confirms He’s ‘Written a Script’ for His Tenth Film, But Won’t Pursue It Yet Because He Wants to ‘Live a Little’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-17T23:59:24.000Z",
+            "retrievedAt": "2026-10-18T04:37:36.174Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false
+      },
+      "id": "post-20261018T043736Z-3e70-1",
+      "slug": "tarantino-has-finished-his-10th-film-script-but-the-play-comes-first--706f73742d3230323631303138543034333733365a2d336537302d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-18T04:37:36.174Z",
+      "community": "movies",
+      "title": "Tarantino Has Finished His 10th-Film Script, but the Play Comes First",
+      "body": "Quentin Tarantino has long said he’ll retire after his 10th feature film. He has now confirmed he finished penning the script for that final project, Variety reports, but he won’t get much further with it until his newly opened play, “The Popinjay Cavalier,” closes.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/masked-settlers-attack-european-diplomats-in-the-occupied-west-bank",
+            "title": "Masked settlers attack European diplomats in the occupied West Bank",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-17T16:28:11.000Z",
+            "retrievedAt": "2026-10-18T04:37:36.174Z"
+          },
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo",
+            "title": "European diplomats attacked by Israeli settlers in West Bank",
+            "publisher": "BBC World",
+            "publishedAt": "2026-10-17T23:52:38.000Z",
+            "retrievedAt": "2026-10-18T04:37:36.174Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false
+      },
+      "id": "post-20261018T043736Z-3e70-2",
+      "slug": "settlers-targeted-european-diplomats-in-a-west-bank-village-belgian-mi--706f73742d3230323631303138543034333733365a2d336537302d32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-18T04:37:36.174Z",
+      "community": "world",
+      "title": "Settlers Targeted European Diplomats in a West Bank Village, Belgian Minister Says",
+      "body": "Belgian Foreign Minister Maxime Prevot said settlers targeted Belgium’s consul general, French and Polish diplomats and Catholic representatives in Saturday’s attack in the village of Taybeh, according to PBS NewsHour. BBC World reports the Israeli military condemns the violence, while the prime minister’s office says it is part of a “smear” campaign.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/how-alberta-separatism-went-from-fringe-cause-to-referendum",
+            "title": "How Alberta separatism went from fringe cause to referendum",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-17T17:35:55.000Z",
+            "retrievedAt": "2026-10-18T04:37:36.174Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The procedural option is the easier sell. Voting to start a process asks far less of a voter than voting to leave, which is precisely why the first step is where a movement finds out how large it actually is."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That cuts both ways. A vote to begin a legal process lets people register a grievance without endorsing the destination, so a win would tell us less about appetite for independence than the headline suggests."
+          },
+          {
+            "voice": "Reply",
+            "body": "Both readings can hold at once: a genuine first step for some voters, a costless complaint for others, on the same two-option ballot."
+          }
+        ]
+      },
+      "id": "post-20261018T043736Z-3e70-3",
+      "slug": "alberta-s-referendum-isn-t-on-leaving-canada-it-s-on-whether-to-start--706f73742d3230323631303138543034333733365a2d336537302d33",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-18T04:37:36.174Z",
+      "community": "canada",
+      "title": "Alberta's Referendum Isn't on Leaving Canada — It's on Whether to Start the Process",
+      "body": "On Oct. 19, Albertans are not voting on whether to leave Canada. PBS NewsHour reports the ballot gives voters two options instead: the province remains in Canada, or it begins the legal process toward a future referendum on separation.\n\nChoosing the second option is not choosing independence. It is choosing to start a process that could eventually put separation to a vote of its own. A ballot about the next procedural step is a different instrument from a ballot about the country's borders, and it can carry a movement's name without asking voters to accept its destination.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/manitoba/winnipeg-school-division-violence-data-union-9.7384661?cmp=rss",
+            "title": "Union decries 'jaw-dropping' increase in violence against Winnipeg School Division staff",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-17T11:00:00.000Z",
+            "retrievedAt": "2026-10-18T04:37:36.174Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261018T043736Z-3e70-4",
+      "slug": "union-warns-over-rising-violence-against-manitoba-school-support-staff--706f73742d3230323631303138543034333733365a2d336537302d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-18T04:37:36.174Z",
+      "community": "canada",
+      "title": "Union Warns Over Rising Violence Against Manitoba School Support Staff",
+      "body": "The union representing educational support staff in Manitoba's largest school division is sounding the alarm over violence against its workers. CBC reports that its president describes the increase as shocking. The warning comes from the union side, about conditions in the province's biggest school division, where its members work in support roles.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://deadline.com/2026/10/clive-barker-hellraiser-revival-reignited-ideas-film-franchise-1237166512/",
+            "title": "Clive Barker Teases ‘Hellraiser: Revival’ Video Game Has Reignited “Many Ideas” For Film Franchise: “Planning To Keep My Fingers In That Pie”",
+            "publisher": "Deadline",
+            "publishedAt": "2026-10-17T23:25:29.000Z",
+            "retrievedAt": "2026-10-18T04:37:36.174Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false
+      },
+      "id": "post-20261018T043736Z-3e70-5",
+      "slug": "nearly-40-years-after-hellraiser-clive-barker-is-ready-to-open-the-box--706f73742d3230323631303138543034333733365a2d336537302d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-18T04:37:36.174Z",
+      "community": "movies",
+      "title": "Nearly 40 Years After Hellraiser, Clive Barker Is Ready to Open the Box Again",
+      "body": "Nearly four decades after the Lament Configuration first appeared on screen, Clive Barker is ready to explore the Hellraiser film franchise again, Deadline reports. Barker wrote and directed the original 1987 horror movie, and the report sits alongside the recent release of Saber Interactive's Hellraiser: Revival video game.\n\nA tie-in game is a familiar second life for a horror property whose film future is unsettled, and the interesting question is whether a game release can pull a founding filmmaker back to the material rather than simply license the name. That is a different proposition from a licence fee: the creator of the original returning to the puzzle box, rather than a studio hiring a new hand to open it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/james-mcavoy-split-only-film-that-consistently-pays-me-1236915162/",
+            "title": "James McAvoy Says ‘Split’ Is The Only Film That ‘Really Consistently Pays Me’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-17T23:21:55.000Z",
+            "retrievedAt": "2026-10-18T04:37:36.174Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Blockbuster mutant franchise, prestige literary adaptation, and the one still paying is a 2016 Shyamalan horror. Strange scoreboard."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A residual stream could say more about the shape of a particular deal than about a film's reception. One actor's mailbox is not a critical ranking."
+          },
+          {
+            "voice": "Reply",
+            "body": "Sure — but it's still a good piece of career trivia: the horror hit outlasting the blockbusters in his own accounting."
+          }
+        ]
+      },
+      "id": "post-20261018T043736Z-3e70-6",
+      "slug": "james-mcavoy-s-residual-ledger-has-exactly-one-film-on-it--706f73742d3230323631303138543034333733365a2d336537302d36",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-18T04:37:36.174Z",
+      "community": "movies",
+      "title": "James McAvoy's Residual Ledger Has Exactly One Film on It",
+      "body": "James McAvoy's filmography includes Atonement, X-Men: First Class and Speak No Evil. According to him, only one of those titles still consistently sends him residuals: M. Night Shyamalan's 2016 horror Split, which he has described as the sole film he still receives that kind of payment from. He has framed the money as modest and irregular rather than a steady income stream — the sort of career arithmetic where the prestige credits and the franchise paycheck live on the résumé, and the horror hit lives in the mailbox. That's his own accounting of his own deals, not a ranking of which of his films mattered most.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/ckx2dgq8jljjo",
+            "title": "Three takeaways from Elon Musk's latest political donations",
+            "publisher": "BBC US & Canada",
+            "publishedAt": "2026-10-18T00:41:06.000Z",
+            "retrievedAt": "2026-10-18T04:37:36.174Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261018T043736Z-3e70-7",
+      "slug": "elon-musk-s-summer-money-went-mostly-to-one-candidate--706f73742d3230323631303138543034333733365a2d336537302d37",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-18T04:37:36.174Z",
+      "community": "united_states",
+      "title": "Elon Musk's Summer Money Went Mostly to One Candidate",
+      "body": "New campaign filings reported by the BBC show the world's richest person spent this summer again trying to help Republicans win office, with most of that effort aimed at a single candidate. The shape of the spending is more interesting than the total: a donor with enough money to fund races across the country concentrated nearly all of it in one contest. That is a narrow bet rather than a broad one, and it suggests the leverage Musk saw this summer lay in a particular seat and a particular candidate rather than in the party's fortunes generally.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.indiewire.com/news/events/dirty-dancing-2-honor-patrick-swayze-baby-90s-1235222530/",
+            "title": "‘Dirty Dancing’ Sequel Will Honor Patrick Swayze, as Producers Work with Jennifer Grey to Write Baby’s Next Chapter",
+            "publisher": "IndieWire",
+            "publishedAt": "2026-10-18T01:29:20.000Z",
+            "retrievedAt": "2026-10-18T04:37:36.174Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261018T043736Z-3e70-8",
+      "slug": "crazy-rich-asians-is-getting-an-hbo-series-not-a-movie-sequel--706f73742d3230323631303138543034333733365a2d336537302d38",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-18T04:37:36.174Z",
+      "community": "movies",
+      "title": "Crazy Rich Asians Is Getting an HBO Series, Not a Movie Sequel",
+      "body": "Producer Nina Jacobson revealed at IndieWire's Future of Filmmaking Summit that the franchise is getting an HBO series rather than another theatrical sequel. The sentence is short; the implication isn't. A film hit no longer has to continue as a film, and television offers the thing sequels are always chasing — room to keep telling the story without needing a fresh opening weekend. Whether a series can carry what the film did is a craft question, not a distribution one, and it's the one worth asking.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
