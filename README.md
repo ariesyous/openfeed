@@ -71,8 +71,8 @@ film criticism, AI research, science, philosophy and economics. RSS 2.0, RSS 1.0
 and Atom share the same date, publisher-domain and excerpt checks. See
 [the feed inventory and validation snapshot](docs/source-feeds.md) for the additions.
 
-Posts may carry 2–4 labelled AI-generated perspectives with a preview and expandable
-exchange. These are interpretations/banter, not real public comments. Each generated
+Every newly generated post must carry a 2–4-turn labelled AI-generated exchange,
+with distinct perspectives responding to one another. These are interpretations/banter, not real public comments. Each generated
 turn must cite evidence from the post's sources. Plot spoilers require an explicit reveal.
 The new four-post sampler was prepared from retrieved BFI, World History Encyclopedia,
 and Stanford Encyclopedia of Philosophy material. It illustrates the intended writing;
@@ -92,7 +92,8 @@ Recognizable process narration in a title, body or discussion triggers a correct
 within the existing retry budget. Attribution and evidence-backed caveats about the
 subject remain welcome. This focused text check does not replace editorial review.
 
-Editions target twenty posts in requests of at most four, sharing eight total provider attempts.
+Editions have an eight-post ceiling in requests of at most four, sharing eight total provider attempts.
+There is no minimum or topic quota: one worthwhile post or an empty edition is acceptable.
 A shared 45-minute generation budget caps request timeouts and retry waits; the workflow
 has a 55-minute safety timeout. Validated partial editions can publish when a later request fails; weak evidence never gets padded. Manual Actions runs default to
 `openrouter/free`; Gemini, DeepSeek Flash, and `stealth/space-bunny-alpha` remain optional manual selections. Scheduled runs every three hours
@@ -100,7 +101,7 @@ always use `deepseek/deepseek-v4.1-flash`, independent of the repository model v
 
 An empty model response defers that request's sources for the current run and tries
 a different unused selection. These calls share the same attempt/time budgets;
-generation stops when the target, budget, or remaining evidence is exhausted.
+generation stops when the ceiling, budget, or remaining evidence is exhausted.
 Deferred sources are not marked as covered and can be reconsidered on later runs.
 Logs report candidate/offered/deferred counts and the number of empty selections.
 
@@ -119,9 +120,16 @@ discussion-source checks still run. Unknown IDs or cross-source discussion citat
 are rejected. This removes exact quotation transcription from the model's job without
 treating a valid citation as proof of semantic correctness.
 
-Each request receives at most 16 sources, selected round-robin across available topics
-with richer excerpts preferred within each topic, and at most 12 numbered excerpts per
-source. Excerpts preserve original text and stay within 25 words/300 characters. The
+RSS descriptions now serve as discovery. Supported publishers get bounded article-body
+retrieval; substantial full feed content can also qualify. Failed or thin pages are skipped,
+without falling back to promotional blurbs. See [generation quality](docs/editorial-generation-quality.md)
+for the supported layouts and retrieval limits.
+
+Requests containing sectioned article context receive at most eight sources and up to
+24 numbered snippets per article, exposing later sections as well as the opening.
+Evergreen-only requests retain the existing 16-source/12-snippet bounds. Sources are
+selected across topics; snippets preserve section and sentence boundaries.
+Excerpts preserve original text and stay within 25 words/300 characters. The
 model must ground claims in these excerpts, not fill gaps from its memory.
 
 Evergreen extraction now retains a coherent prose section rather than combining page
@@ -132,9 +140,9 @@ for sixteen offline review examples. See [editorial integrity](docs/editorial-in
 for the evidence contract, audit fields, corrected posts and remaining live review gate.
 These checks establish provenance and inspectability, not automatic factual correctness.
 
-Optional discussion is validated independently: a clearly isolated invalid array is omitted
-whole only after the parent and edition gates pass. Audits retain only surviving support
-and record a bounded omission reason. See [editorial depth](docs/editorial-depth.md) for
+New generation rejects responses containing absent, invalid, or repeated discussion turns
+and retries within the shared budget. It never publishes a new post after dropping its
+discussion. Historical validation still supports optional discussions. See [editorial depth](docs/editorial-depth.md) for
 the thirteen-page source pilot, diagnostics, and the fixed ordinary-run review protocol.
 The #36 and #37 observation requirements remain open.
 
@@ -165,7 +173,7 @@ slugs automatically. Source coverage is durable; model prompt summaries stay bou
 
 The evergreen shelf is finite (currently 59 reviewed publisher pages) alongside
 recurring RSS. Intake logs remaining unconsumed shelf entries; replenish culture and
-background reading as needed. Twenty is a quality-dependent target, not a filler quota.
+background reading as needed. Eight is a ceiling, not a filler quota.
 
 Pull requests run typecheck, lint, tests and the full static build without deploying.
 Main pushes and manual Deploy dispatches publish GitHub Pages as before.

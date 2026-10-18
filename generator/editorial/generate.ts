@@ -11,7 +11,8 @@ import { buildAuditChunk, type EditorialAuditChunk, type DiscussionOmissionReaso
 import { FORMATS, TOPICS } from "./accounts";
 import type { SourcePacket } from "./sources";
 
-export const EDITORIAL_MAX_POSTS = 20;
+// A ceiling, not a quota. Historical validation still accepts twenty-post batches.
+export const EDITORIAL_MAX_POSTS = 8;
 export const EDITORIAL_REQUEST_POSTS = 4;
 export const EDITORIAL_MAX_ATTEMPTS = 8;
 export const EDITORIAL_TIME_BUDGET_MS = 45 * 60_000;
@@ -44,7 +45,7 @@ const DraftSchema = z.object({
           .max(3),
       }),
     )
-    .max(EDITORIAL_MAX_POSTS),
+    .max(20),
 });
 // Models select existing evidence IDs; only code copies quotations and source IDs.
 // Strict output uses required nullable properties for optional editorial fields.
@@ -78,9 +79,12 @@ type CitedDraftOutcome = { ok: true; value: Draft; selection: CitedSelection[] }
   | { ok: false; issues: string[] };
 export function editorialJsonSchema(evidenceIds: string[], maxPosts: number) {
   if (!evidenceIds.length) throw new Error("Cannot generate without evidence IDs");
+  const post = responseSchema(z.enum(evidenceIds), maxPosts).shape.posts.element;
   return {
     name: "editorial_edition",
-    schema: z.toJSONSchema(responseSchema(z.enum(evidenceIds), maxPosts)),
+    schema: z.toJSONSchema(z.object({ posts: z.array(post.extend({
+      discussion: post.shape.discussion.unwrap(),
+    })).max(maxPosts) })),
   };
 }
 
@@ -159,6 +163,7 @@ export function validateCitedDraft(
   evidenceById: Map<string, EvidenceEntry>,
   packets: SourcePacket[],
   now: Date,
+  requireDiscussion = false,
 ): CitedDraftOutcome {
   const parsed = ResponseEnvelope.safeParse(json);
   if (!parsed.success) return {
@@ -197,6 +202,13 @@ export function validateCitedDraft(
     if (!withDiscussion.ok) { selected.discussionOmission = "support_or_voice"; continue; }
     parent.discussion = withDiscussion.value.posts[0].discussion;
     selected.discussion = block.data;
+  }
+  // New generations require a complete exchange. Historical callers retain the
+  // optional-block isolation contract; no existing articles are rewritten.
+  if (requireDiscussion && checked.value.posts.some(post => !post.discussion ||
+    new Set(post.discussion.map(turn => turn.voice)).size < 2 ||
+    new Set(post.discussion.map(turn => turn.body.trim().toLocaleLowerCase("en"))).size !== post.discussion.length)) {
+    return { ok: false, issues: ["Every published post needs a valid 2–4-turn AI exchange with distinct perspectives; revise the whole post or omit it"] };
   }
   // No IDs are repaired and no individual turns/sentences are rewritten.
   return { ok: true, value: checked.value, selection };
@@ -270,7 +282,7 @@ export async function generateEditorial(
   let rejectedResponses = 0;
   let attempts = 0;
   let acceptedChunks = 0;
-  let reason = "target reached";
+  let reason = "edition ceiling reached";
   const models = new Set<string>();
   while (accepted.length < EDITORIAL_MAX_POSTS && attempts < EDITORIAL_MAX_ATTEMPTS) {
     const used = new Set(accepted.flatMap(post => post.sourceIds));
@@ -314,7 +326,7 @@ export async function generateEditorial(
           const rawPosts = json && typeof json === "object" && "posts" in json ? json.posts : undefined;
           if (Array.isArray(rawPosts)) generatedDrafts += rawPosts.filter(post =>
             post !== null && typeof post === "object" && !Array.isArray(post)).length;
-          const draft = validateCitedDraft(json, prepared.evidenceById, available, now);
+          const draft = validateCitedDraft(json, prepared.evidenceById, available, now, true);
           if (!draft.ok) return draft;
           if (draft.value.posts.length > maxPosts) return { ok: false, issues: [`At most ${maxPosts} posts remain in this edition`] };
           const titles = [...accepted, ...draft.value.posts].map(post => post.title.toLowerCase().replace(/[^a-z0-9]/g, ""));
@@ -366,9 +378,9 @@ export async function generateEditorial(
       break;
     }
   }
-  if (accepted.length < EDITORIAL_MAX_POSTS && reason === "target reached") reason = "edition attempt budget exhausted";
+  if (accepted.length < EDITORIAL_MAX_POSTS && reason === "edition ceiling reached") reason = "edition attempt budget exhausted";
   const items = enrichEditorial({ posts: accepted }, packets, now, runId);
-  const summary = `[editorial] target=${EDITORIAL_MAX_POSTS} actual=${items.length} attempts=${attempts}/${EDITORIAL_MAX_ATTEMPTS} generatedDrafts=${generatedDrafts} discussionOmissions=${discussionOmissions} providerFailures=${providerFailures} rejectedResponses=${rejectedResponses} emptySelections=${emptySelections} deferredSources=${deferredSources.size} elapsedMs=${clock() - started}; ${reason}`;
+  const summary = `[editorial] ceiling=${EDITORIAL_MAX_POSTS} actual=${items.length} attempts=${attempts}/${EDITORIAL_MAX_ATTEMPTS} generatedDrafts=${generatedDrafts} discussionOmissions=${discussionOmissions} providerFailures=${providerFailures} rejectedResponses=${rejectedResponses} emptySelections=${emptySelections} deferredSources=${deferredSources.size} elapsedMs=${clock() - started}; ${reason}`;
   console.log(summary);
   if (process.env.GITHUB_STEP_SUMMARY) {
     const safe = (text: string) => redactEditorialDiagnostic(text, apiKey).replace(/[<>`|]/g, " ").slice(0, 200);

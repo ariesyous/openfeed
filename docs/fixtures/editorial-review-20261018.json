@@ -1,0 +1,446 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-10-18",
+  "cutoffUtc": "2026-10-18T04:12:38Z",
+  "scope": "Unblinded census of latest published edition: 10 posts and 11 discussion turns. Previous two published editions read for style and angle context only; not fully source-audited.",
+  "publicationCommit": "f2492b87f8e1843fe3a214ae7bbe598e9a36952f",
+  "actualCheckout": "8af13cc5953d41dfbee368f39592e99235cda856",
+  "runId": 39077881715,
+  "event": "schedule",
+  "runUrl": "https://github.com/ariesyous/openfeed/actions/runs/39077881715",
+  "artifactId": 12117322964,
+  "artifactExpiresAt": "2026-10-31T23:14:29Z",
+  "supportSha256": "e3de8f21b847955a467c543413854bd2a4f57ced5779c47c7f5fdfbaadad8e7f",
+  "requestedModel": "deepseek/deepseek-v4.1-flash",
+  "resolvedModels": [
+    "deepseek/deepseek-v4.1-flash"
+  ],
+  "diagnostics": {
+    "collectedSources": 200,
+    "unusedSources": 40,
+    "target": 20,
+    "actualPublished": 10,
+    "attempts": 8,
+    "generatedDraftObjects": 24,
+    "discussionOmissions": 0,
+    "providerFailures": 0,
+    "rejectedResponses": 4,
+    "elapsedGenerationMs": 168939
+  },
+  "counts": {
+    "retain": 2,
+    "revise": 6,
+    "correct": 2,
+    "discussionTurns": 11,
+    "linkedSourcePages": 12
+  },
+  "limits": [
+    "Editorial decisions are subjective and not model factual-accuracy percentages.",
+    "Current pages corroborate reporting; they do not reconstruct all evidence offered at generation time.",
+    "Support artifact contains selected spans only.",
+    "The two earlier editions are context, not additional factual-audit samples.",
+    "No content corrections, model calls, issue edits or observation-gate completion."
+  ],
+  "posts": [
+    {
+      "postId": "post-20261017T231136Z-a4c5-0",
+      "title": "Kitimat Puts Two Dogs on the Mayoral Ballot to Pull Voters to the Polls",
+      "articleUrl": "https://ariesyous.github.io/openfeed/p/kitimat-puts-two-dogs-on-the-mayoral-ballot-to-pull-voters-to-the-poll--706f73742d3230323631303137543233313133365a2d613463352d30/",
+      "sourceUrls": [
+        "https://www.cbc.ca/news/canada/british-columbia/kitimat-dog-mayor-race-9.7382752?cmp=rss"
+      ],
+      "decision": "correct",
+      "payoff": 1,
+      "substance": 1,
+      "worthwhile": false,
+      "claims": [
+        [
+          "Turnout was 21%; two dogs are intended to attract families to voting.",
+          "supported",
+          "Chunk 1 S12E1–E2 and CBC page agree."
+        ],
+        [
+          "Dogs were added to the mayor's race.",
+          "misleading_factual_framing",
+          "CBC describes a separate ceremonial dog-mayor contest, dedicated ballot box, and winner serving alongside the human mayor. The title and opening omit that essential distinction."
+        ],
+        [
+          "Dinner-table discussions, long-term voter development, and novelty campaigns tending to produce attention rather than votes.",
+          "unsupported_generalization",
+          "The source reports children's immediate engagement; it does not establish these general outcomes. A possible household effect is reasonable speculation if kept conditional."
+        ]
+      ],
+      "discussion": [
+        [
+          "Take",
+          "mixed",
+          "The turnout is supported; opening a voter mailer is a hypothetical, not an observed result."
+        ],
+        [
+          "Pushback",
+          "unsupported_generalization",
+          "Targeting children is supported; children growing into election-aware adults is asserted without longitudinal evidence."
+        ],
+        [
+          "Reply",
+          "unsupported_outcome",
+          "Saying underlying apathy stays exactly unchanged declares an outcome the source does not establish."
+        ]
+      ],
+      "action": "Clarify the separate ceremonial contest in title and opening. Keep the amusing concrete detail; remove unsupported effectiveness claims."
+    },
+    {
+      "postId": "post-20261017T231136Z-a4c5-1",
+      "title": "TikTok Suspends the 'Musk' Ad Account Just Before the Documentary Goes Wide",
+      "articleUrl": "https://ariesyous.github.io/openfeed/p/tiktok-suspends-the-musk-ad-account-just-before-the-documentary-goes-w--706f73742d3230323631303137543233313133365a2d613463352d31/",
+      "sourceUrls": [
+        "https://variety.com/2026/film/news/musk-documentary-tiktok-account-permanently-suspended-1236914995/"
+      ],
+      "decision": "revise",
+      "payoff": 2,
+      "substance": 1,
+      "worthwhile": false,
+      "claims": [
+        [
+          "Permanent ad-account suspension, Friday timing, Gibney direction and documentary's political focus.",
+          "supported",
+          "Chunk 1 S7E1–E3; current Variety page confirms."
+        ],
+        [
+          "Variety does not give TikTok's reasoning.",
+          "current_page_supported_not_selected",
+          "The current page says TikTok did not immediately respond; this is absent from selected support. It does not establish that no explanation exists anywhere."
+        ],
+        [
+          "Suspension is a distribution decision; competing-platform ownership makes innocent timing impossible.",
+          "unsupported_insinuation",
+          "Ad access is conflated with film distribution; the strong motive inference is not established by the cited report. Labelling the inference does not make the suspicion proportionate."
+        ]
+      ],
+      "discussion": [
+        [
+          "Take",
+          "unsupported_interpretation",
+          "Calling the suspension the film's thesis in real time assumes a relationship the story does not establish."
+        ],
+        [
+          "Pushback",
+          "adds_perspective",
+          "Correctly challenges the causal narrative, but does not neutralize the earlier insinuation; uncertainty should be scoped to this report."
+        ]
+      ],
+      "action": "Keep the reported suspension. Remove the motive insinuation and distinguish advertising from film distribution."
+    },
+    {
+      "postId": "post-20261017T231136Z-a4c5-2",
+      "title": "The 'Good Guy With a Gun' Argument Is a Claim About Timing",
+      "articleUrl": "https://ariesyous.github.io/openfeed/p/the-good-guy-with-a-gun-argument-is-a-claim-about-timing--706f73742d3230323631303137543233313133365a2d613463352d32/",
+      "sourceUrls": [
+        "https://www.pbs.org/newshour/nation/oregon-father-is-the-latest-armed-civilian-to-confront-a-gunman-in-a-u-s-mass-shooting"
+      ],
+      "decision": "revise",
+      "payoff": 1,
+      "substance": 1,
+      "worthwhile": false,
+      "claims": [
+        [
+          "Gun-rights advocates argue civilians may act before police arrive.",
+          "supported",
+          "Chunk 1 S5E1–E2 and PBS/AP page."
+        ],
+        [
+          "Timing and correct intervention matter.",
+          "interpretation",
+          "Reasonable analysis of the stated argument, but calling timing its entire weight overstates the framing."
+        ],
+        [
+          "Base rates rarely feature in the argument.",
+          "unsupported_generalization",
+          "No evidence about advocacy frequency. The linked article itself gives a defined study population and intervention counts. This is not proof advocates always discuss rates; it shows the post omitted useful context available in its source."
+        ]
+      ],
+      "discussion": [],
+      "action": "Replace the sweeping claim with the source's carefully defined evidence, or publish a shorter account of the argument. Do not turn active-attack counts into a probability about all mass shootings."
+    },
+    {
+      "postId": "post-20261017T231136Z-a4c5-3",
+      "title": "The Whalefall Production Designer Built a Whale's Stomach Out of Mattress Foam",
+      "articleUrl": "https://ariesyous.github.io/openfeed/p/the-whalefall-production-designer-built-a-whale-s-stomach-out-of-mattr--706f73742d3230323631303137543233313133365a2d613463352d33/",
+      "sourceUrls": [
+        "https://variety.com/2026/artisans/features/whalefall-production-design-whale-stomach-bile-1236910368/"
+      ],
+      "decision": "revise",
+      "payoff": 1,
+      "substance": 1,
+      "worthwhile": false,
+      "claims": [
+        [
+          "Jay's role, actor, search, California setting and whale dimensions.",
+          "supported",
+          "Chunk 1 S14E2–E3 and Variety page."
+        ],
+        [
+          "Ramsey Avery used foam and silicone for the practical set.",
+          "source_title_and_current_page_supported",
+          "The selected quotes cover the premise, not construction. The retained source title supplies the materials; the full article explains their different uses."
+        ],
+        [
+          "Materials are cheap/available in bulk; human drama is the least believable element.",
+          "unsupported_or_unearned_criticism",
+          "No cost evidence and no basis for a verdict on the film's dramatic credibility. Softness is a harmless association; a review-like conclusion is not earned by a production blurb."
+        ]
+      ],
+      "discussion": [],
+      "action": "Retain spoiler protection. Use one actual construction constraint and solution instead of a mattress joke plus an unsupported film judgment."
+    },
+    {
+      "postId": "post-20261017T231136Z-a4c5-4",
+      "title": "Nova Scotia Apple Growers Look Past the U.S. Market",
+      "articleUrl": "https://ariesyous.github.io/openfeed/p/nova-scotia-apple-growers-look-past-the-u-s-market--706f73742d3230323631303137543233313133365a2d613463352d34/",
+      "sourceUrls": [
+        "https://www.cbc.ca/news/canada/nova-scotia/nova-scotia-apples-exports-9.7380375?cmp=rss"
+      ],
+      "decision": "revise",
+      "payoff": 1,
+      "substance": 1,
+      "worthwhile": false,
+      "claims": [
+        [
+          "Growers seek markets beyond the US amid trade tensions.",
+          "supported",
+          "Chunk 2 S12E1 and CBC page."
+        ],
+        [
+          "New buyers necessarily mean new varieties, standards and seasons of work.",
+          "unsupported_generalization",
+          "The selected support does not supply this mechanism; current article describes market development and existing competitive varieties, not an obligatory replanting cycle."
+        ],
+        [
+          "What to plant for future buyers.",
+          "speculative_question",
+          "An acceptable question, but it replaces the actual development rather than explaining it."
+        ]
+      ],
+      "discussion": [],
+      "action": "Name the intended markets and seasonal advantage after acquiring that evidence. Avoid inventing a crop-change mechanism."
+    },
+    {
+      "postId": "post-20261017T231136Z-a4c5-5",
+      "title": "A Political March Billed as Nonpartisan",
+      "articleUrl": "https://ariesyous.github.io/openfeed/p/a-political-march-billed-as-nonpartisan--706f73742d3230323631303137543233313133365a2d613463352d35/",
+      "sourceUrls": [
+        "https://www.pbs.org/newshour/nation/no-kings-rallies-across-u-s-urge-voters-to-cast-ballots-early-ahead-of-midterms"
+      ],
+      "decision": "revise",
+      "payoff": 1,
+      "substance": 1,
+      "worthwhile": false,
+      "claims": [
+        [
+          "Hundreds of events, nonpartisan billing and nearly two years of anti-Trump marches.",
+          "supported",
+          "Chunk 2 S5E1–E2 and PBS/AP."
+        ],
+        [
+          "Nonpartisan is a neutral label in tension with political grievance.",
+          "misleading_interpretive_frame",
+          "Nonpartisan does not require political neutrality. The body later acknowledges the distinction but makes the supposed contradiction its hook."
+        ],
+        [
+          "Readers must decide what organizers meant.",
+          "unhelpful_omission",
+          "The source title and full article already state the early-voting purpose; the body omits that most useful news detail."
+        ]
+      ],
+      "discussion": [
+        [
+          "Take",
+          "redundant_interpretation",
+          "Restates the political audience without adding evidence."
+        ],
+        [
+          "Pushback",
+          "adds_perspective",
+          "Useful distinction between candidate endorsement and procedural aims; early voting should be in the body rather than merely a hypothetical example."
+        ]
+      ],
+      "action": "Lead with the early-voting effort; preserve a concise distinction between nonpartisanship and political neutrality."
+    },
+    {
+      "postId": "post-20261017T231136Z-a4c5-6",
+      "title": "France's Cost-of-Living Protests Draw More Than Half a Million as Disorder Spreads",
+      "articleUrl": "https://ariesyous.github.io/openfeed/p/france-s-cost-of-living-protests-draw-more-than-half-a-million-as-diso--706f73742d3230323631303137543233313133365a2d613463352d36/",
+      "sourceUrls": [
+        "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
+        "https://www.bbc.co.uk/news/articles/c6d937wedj7jo",
+        "https://www.bbc.co.uk/news/videos/cwz0vy770gpzo"
+      ],
+      "decision": "retain",
+      "payoff": 2,
+      "substance": 1,
+      "worthwhile": true,
+      "claims": [
+        [
+          "Nationwide French protests alongside students over living costs; fiscal-crisis attribution.",
+          "supported",
+          "Chunk 3 S4E1 supports the attribution; current NPR page confirms protests and student context."
+        ],
+        [
+          "More than half a million participants, fires and looting.",
+          "supported",
+          "Chunk 3 S3E1/S2E1 and current BBC pages."
+        ],
+        [
+          "Crowd-edge destruction as a general pattern.",
+          "interpretation_low_value",
+          "A rhetorical ending, not a demonstrated general causal explanation. Core brief remains useful; optional trim would improve it."
+        ]
+      ],
+      "discussion": [],
+      "action": "Keep as a useful brief; preferably trim the moralizing ending and retain distinction between peaceful marchers and violent groups.",
+      "angle": "Useful update of post-20261017T203839Z-17a0-2: adds turnout and later disorder, though the event repeats."
+    },
+    {
+      "postId": "post-20261017T231136Z-a4c5-7",
+      "title": "The Stories a Family Photo Album Doesn't Tell",
+      "articleUrl": "https://ariesyous.github.io/openfeed/p/the-stories-a-family-photo-album-doesn-t-tell--706f73742d3230323631303137543233313133365a2d613463352d37/",
+      "sourceUrls": [
+        "https://psyche.co/ideas/what-is-hidden-in-the-photographs-we-keep-of-each-other"
+      ],
+      "decision": "revise",
+      "payoff": 1,
+      "substance": 1,
+      "worthwhile": false,
+      "claims": [
+        [
+          "Sawa Kurotani revisits family albums in her mother's apartment in Japan.",
+          "supported",
+          "Chunk 3 S12E1 and Psyche page."
+        ],
+        [
+          "Albums select a remembered family story.",
+          "interpretation_supported_in_broad_outline",
+          "The current essay gives concrete relational absences and a nuanced account of care; the post supplies generic examples instead."
+        ],
+        [
+          "Missing photographs usually mean no camera; duplicate prints imply a desired official story.",
+          "unsupported_generalization",
+          "Neither frequency claim nor categorical intention follows from the selected sentence or full essay."
+        ]
+      ],
+      "discussion": [
+        [
+          "Take",
+          "unsupported_generalization",
+          "A second print does not establish a family's motive."
+        ],
+        [
+          "Pushback",
+          "adds_perspective_but_repetitive",
+          "Alternative mundane explanations are fair hypotheses, but largely repeat the body's qualification."
+        ]
+      ],
+      "action": "Use one specific pattern from the essay and attribute its interpretation. Remove invented motives/frequencies."
+    },
+    {
+      "postId": "post-20261017T231136Z-a4c5-8",
+      "title": "The Hohle Fels Bird Figurines and the Case That Art Was Survival Equipment",
+      "articleUrl": "https://ariesyous.github.io/openfeed/p/the-hohle-fels-bird-figurines-and-the-case-that-art-was-survival-equip--706f73742d3230323631303137543233313133365a2d613463352d38/",
+      "sourceUrls": [
+        "https://aeon.co/videos/hohle-fels-cave-illuminates-the-rich-symbolic-world-of-ice-age-humans"
+      ],
+      "decision": "retain",
+      "payoff": 2,
+      "substance": 2,
+      "worthwhile": true,
+      "claims": [
+        [
+          "Aeon presents bird figurines as evidence for art's contribution to evolutionary success.",
+          "supported_attributed",
+          "Chunk 4 S5E1 uses the strong essential wording; current Aeon page describes Nicholas Conard's more qualified evolutionary-advantage hypothesis."
+        ],
+        [
+          "Art might be causal or reflect other advantageous capacities.",
+          "explicit_hypothesis",
+          "A useful distinction, not a new reported experimental finding. Keep it conditional; the post does not prove equal likelihood of the alternatives."
+        ],
+        [
+          "The figurines alone do not settle that causal choice.",
+          "interpretation",
+          "A reasonable critique of the inference, not an independent scientific review."
+        ]
+      ],
+      "discussion": [
+        [
+          "Take",
+          "conditional_interpretation",
+          "Survival-tool analogy is explicitly conditional, with no invented archaeological result."
+        ],
+        [
+          "Pushback",
+          "conditional_interpretation",
+          "Alternative causal account stays hypothetical; adds the clearest conceptual value in the edition."
+        ]
+      ],
+      "action": "Retain. Naming Conard and using his qualified formulation would improve precision. Only the page/description, not the video, was independently examined."
+    },
+    {
+      "postId": "post-20261017T231136Z-a4c5-9",
+      "title": "Happy With the Body, Afraid of the World It Moved In",
+      "articleUrl": "https://ariesyous.github.io/openfeed/p/happy-with-the-body-afraid-of-the-world-it-moved-in--706f73742d3230323631303137543233313133365a2d613463352d39/",
+      "sourceUrls": [
+        "https://psyche.co/turning-points/transitioning-made-me-happy-but-it-came-with-a-high-price"
+      ],
+      "decision": "correct",
+      "payoff": 1,
+      "substance": 1,
+      "worthwhile": false,
+      "claims": [
+        [
+          "André Aram is the person who lived as a trans woman for two years.",
+          "contradicted",
+          "Psyche identifies André Dourado as the subject, as told to journalist André Aram. The RSS excerpt's byline is insufficient to identify the first-person speaker."
+        ],
+        [
+          "Bodily satisfaction coexisted with fear of the surrounding world.",
+          "supported_for_dourado",
+          "Chunk 4 S8E1–E2 and the current memoir; must attribute to the correct person."
+        ],
+        [
+          "Safety and bodily contentment are distinct; the surrounding world affects decisions.",
+          "interpretation",
+          "Thoughtful and compatible with the account, but abstract repetition replaces its particular story."
+        ]
+      ],
+      "discussion": [],
+      "action": "Correct subject/interviewer attribution. Keep the personal account distinct from general claims about transition or detransition."
+    }
+  ],
+  "priorEditions": [
+    {
+      "batchId": "20261017T230152Z-d83f",
+      "posts": 19
+    },
+    {
+      "batchId": "20261017T203839Z-17a0",
+      "posts": 17
+    }
+  ],
+  "crossEditionNotes": [
+    {
+      "ids": [
+        "post-20261017T230152Z-d83f-4",
+        "post-20261017T203839Z-17a0-9"
+      ],
+      "finding": "Same John Wilson/Harry Styles project. Later post adds venue/timing but repeats the announcement; limited incremental payoff. Context-only assessment."
+    },
+    {
+      "ids": [
+        "post-20261017T230152Z-d83f-14",
+        "post-20261017T230152Z-d83f-15",
+        "post-20261017T230152Z-d83f-17"
+      ],
+      "finding": "Trailer announcement omits new details; Hader announcement omits revealed details; offshoring-paper announcement omits its result. Editorial payoff failures observable from text; sources not audited in this slice."
+    }
+  ]
+}

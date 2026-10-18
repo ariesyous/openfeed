@@ -247,3 +247,21 @@ article tiles are not that body. Keep the exact layout markers, fail closed on m
 and preserve coherent-section boundaries. Source packet validation is not generated quality;
 #36/#37 historical observation counts are unchanged. Blue Heron’s structural angle needs
 spoiler protection; Carmela’s analysis is the interviewer’s interpretation, not Falco’s belief.
+
+## Richer context and required discussion — October 18, 2026
+The user explicitly wants a back-and-forth AI discussion on every newly published post.
+Read docs/editorial-generation-quality.md. New generation has an eight-post ceiling,
+not a quota, and requires 2–4 supported turns with distinct voices and turn text.
+Invalid discussion rejects the response for bounded retry; never publish a bare parent
+after dropping its exchange. Keep historical optional-discussion validation compatible.
+Preserve humour, opinions and disagreement; ground factual premises and require a concrete
+reading payoff rather than padding a headline. These are not semantic fact-checking gates.
+
+RSS blurbs are discovery only. Substantial full feed prose or explicit publisher-body
+retrieval supplies recurring context. Keep the six fixed publisher adapters, validated
+HTTPS hosts, no redirects, 24-candidate/four-concurrent/20-second/1-MB fetch bounds and
+6,000-character complete-paragraph limit. Skip unsupported or thin pages without fallback.
+Sectioned requests offer at most eight sources and 24 snippets per sectioned source;
+legacy/evergreen evidence retains its prior bounds and fixtures. Never join across omitted
+modules or split a long-sentence group at the cap. Eight attempts and the shared generation
+deadline remain unchanged. No historical posts, schedule or model settings were changed.

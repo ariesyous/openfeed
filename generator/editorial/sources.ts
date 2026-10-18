@@ -2,6 +2,9 @@ import { createHash } from "node:crypto";
 import { XMLParser } from "fast-xml-parser";
 import { collectEvergreen } from "./evergreen";
 import type { FeedSource } from "../../schemas";
+import { collectArticleContext } from "./context";
+import { coverageTitle } from "./coverage";
+import { sourceArticleSections } from "./articleText";
 
 export interface SourceFeed {
   publisher: string;
@@ -61,11 +64,12 @@ export interface SourcePacket extends FeedSource {
   id: string;
   excerpt: string;
   topic: string;
+  contextKind?: "feed_article" | "article";
+  sections?: string[];
 }
 const MAX_BYTES = 1_000_000;
 
-export function plainText(input: unknown): string {
-  if (typeof input !== "string") return "";
+function decodeMarkup(input: string): string {
   return input
     .replace(
       /&(?:amp|lt|gt|quot|apos|nbsp);/g,
@@ -86,7 +90,11 @@ export function plainText(input: unknown): string {
       return number > 0 && number <= 0x10ffff
         ? String.fromCodePoint(number)
         : " ";
-    })
+    });
+}
+export function plainText(input: unknown): string {
+  if (typeof input !== "string") return "";
+  return decodeMarkup(input)
     // RSS descriptions can contain escaped HTML as well as CDATA markup.
     .replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/gi, " ")
     .replace(/<[^>]*>/g, " ")
@@ -117,9 +125,12 @@ export function parseSourceFeed(
   const packets: SourcePacket[] = [];
   for (const row of rows) {
     const title = plainText(textValue(row.title)).slice(0, 300);
-    const excerpt = plainText(atom
-      ? textValue(row.content) || textValue(row.summary)
-      : textValue(row["content:encoded"]) || textValue(row.description)).slice(
+    const fullContent = atom ? textValue(row.content) : textValue(row["content:encoded"]);
+    // Atom HTML is often entity-escaped; CDATA already contains literal markup.
+    const contentHtml = fullContent.includes("<") ? fullContent : decodeMarkup(fullContent);
+    const sections = fullContent ? sourceArticleSections(`<div id="storytext">${contentHtml}</div>`, "NPR") : [];
+    const feedArticle = sections.join("\n\n");
+    const excerpt = feedArticle || plainText(fullContent || (atom ? textValue(row.summary) : textValue(row.description))).slice(
       0,
       6000,
     );
@@ -165,6 +176,7 @@ export function parseSourceFeed(
       excerpt,
       publisher: feed.publisher,
       topic: feed.topic,
+      ...(feedArticle.length >= 300 ? { contextKind: "feed_article" as const, sections } : {}),
       publishedAt: published.toISOString(),
       retrievedAt: now.toISOString(),
     });
@@ -200,6 +212,7 @@ export async function collectSources(
   now: Date,
   fetchImpl: typeof fetch = fetch,
   coveredUrls: ReadonlySet<string> = new Set(),
+  coveredTitles: ReadonlySet<string> = new Set(),
 ): Promise<SourcePacket[]> {
   const results = await Promise.allSettled(
     SOURCE_FEEDS.map(async (feed) => {
@@ -222,6 +235,10 @@ export async function collectSources(
         `[sources] ${SOURCE_FEEDS[index].publisher} unavailable; skipping`,
       );
   });
-  packets.push(...await collectEvergreen(now, fetchImpl, coveredUrls));
-  return [...new Map(packets.map((p) => [p.url, p])).values()];
+  const unused = [...new Map(packets.filter(packet => !coveredUrls.has(packet.url) &&
+    !coveredTitles.has(coverageTitle(packet.title))).map(packet => [packet.url, packet])).values()];
+  const [articles, evergreen] = await Promise.all([
+    collectArticleContext(unused, fetchImpl), collectEvergreen(now, fetchImpl, coveredUrls),
+  ]);
+  return [...new Map([...articles, ...evergreen].map(p => [p.url, p])).values()];
 }

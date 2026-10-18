@@ -8,6 +8,7 @@ export interface EvidenceEntry {
 interface EvidenceGroup {
   paragraph: number;
   spans: string[];
+  section?: number;
 }
 
 const sentences = new Intl.Segmenter("en", { granularity: "sentence" });
@@ -105,31 +106,44 @@ export function prepareEvidence(packets: SourcePacket[]) {
   }
   for (const group of topics.values()) group.sort((a, b) => b.excerpt.length - a.excerpt.length);
   const selected: SourcePacket[] = [];
-  for (let round = 0; selected.length < 16; round++) {
+  const sourceLimit = packets.some(packet => packet.sections) ? 8 : 16;
+  for (let round = 0; selected.length < sourceLimit; round++) {
     let added = false;
     for (const group of topics.values()) {
-      if (group[round] && selected.length < 16) { selected.push(group[round]); added = true; }
+      if (group[round] && selected.length < sourceLimit) { selected.push(group[round]); added = true; }
     }
     if (!added) break;
   }
   const evidenceById = new Map<string, EvidenceEntry>();
   const sources = selected.map((source, index) => {
-    const groups = evidenceGroups(source.excerpt);
-    const evidence: { id: string; text: string; contextGroup: string; paragraph: number; part: number; parts: number }[] = [];
-    let contextTruncated = groups.length > 0 && !source.excerpt.trimEnd().endsWith(groups.at(-1)!.spans.at(-1)!);
+    // Article sections remain separate. Round-robin leading groups expose later
+    // mechanisms without splicing prose across headings, ads or omitted modules.
+    const sectionTexts = source.sections ?? [source.excerpt];
+    const sections = sectionTexts.map((text, index) =>
+      evidenceGroups(text).map(group => ({ ...group, section: index + 1 })));
+    const groups: EvidenceGroup[] = [];
+    for (let round = 0; sections.some(section => section[round]); round++) {
+      for (const section of sections) if (section[round]) groups.push(section[round]);
+    }
+    const evidenceLimit = source.sections ? 24 : 12;
+    const evidence: { id: string; text: string; contextGroup: string; section?: number; paragraph: number; part: number; parts: number }[] = [];
+    let contextTruncated = sections.some((section, i) => sectionTexts[i].trim().length > 0 &&
+      (!section.length || !sectionTexts[i].trimEnd().endsWith(section.at(-1)!.spans.at(-1)!)));
     for (const [groupIndex, group] of groups.entries()) {
-      // A sentence's final qualification must not disappear at the twelve-ID cap.
-      if (evidence.length + group.spans.length > 12) { contextTruncated = true; break; }
+      // A sentence's final qualification must not disappear at the evidence cap.
+      if (evidence.length + group.spans.length > evidenceLimit) { contextTruncated = true; break; }
       for (const [part, quote] of group.spans.entries()) {
         const id = `S${index + 1}E${evidence.length + 1}`;
         evidenceById.set(id, { sourceId: source.id, quote });
         evidence.push({ id, text: quote, contextGroup: `S${index + 1}G${groupIndex + 1}`,
+          ...(source.sections ? { section: group.section } : {}),
           paragraph: group.paragraph, part: part + 1, parts: group.spans.length });
       }
     }
     return {
       publisher: source.publisher, title: source.title, topic: source.topic,
-      publishedAt: source.publishedAt ?? null, evergreen: source.evergreen ?? false, contextTruncated, evidence,
+      publishedAt: source.publishedAt ?? null, evergreen: source.evergreen ?? false,
+      contextKind: source.contextKind ?? (source.evergreen ? "evergreen" : "feed"), contextTruncated, evidence,
     };
   }).filter((source) => source.evidence.length > 0);
   return { sources, evidenceById };

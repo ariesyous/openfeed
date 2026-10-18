@@ -1,0 +1,415 @@
+{
+  "batchId": "20261017T231136Z-a4c5",
+  "generatedAt": "2026-10-17T23:11:36.981Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/british-columbia/kitimat-dog-mayor-race-9.7382752?cmp=rss",
+            "title": "Who's a good mayor? Kitimat adds 2 dogs to the ballot to boost voter turnout",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-17T12:00:00.000Z",
+            "retrievedAt": "2026-10-17T23:11:36.981Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The 21 per cent figure is the real story. A stunt can get a family to open the voter information mailer, but the dog isn't on the hook for what happens after that."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Cheap cynicism undersells it. The appeal here is explicitly aimed at children, and kids who follow a novelty race grow into adults who know when municipal elections are."
+          },
+          {
+            "voice": "Reply",
+            "body": "Both can be true: the gimmick works as civic theatre, and the underlying apathy stays exactly where it was. I'd rather see the town publish turnout next cycle than celebrate the dogs."
+          }
+        ]
+      },
+      "id": "post-20261017T231136Z-a4c5-0",
+      "slug": "kitimat-puts-two-dogs-on-the-mayoral-ballot-to-pull-voters-to-the-poll--706f73742d3230323631303137543233313133365a2d613463352d30",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-17T23:11:36.981Z",
+      "community": "canada",
+      "title": "Kitimat Puts Two Dogs on the Mayoral Ballot to Pull Voters to the Polls",
+      "body": "Kitimat, B.C., has a turnout problem: only 21 per cent of eligible voters cast ballots in the last municipal election. The town's response is to add two canine candidates to the mayor's race, hoping the dogs draw more residents — children included — into the voting habit. It's a publicity stunt with a plaintive core. A dog on a ballot doesn't fix anything structural about local democracy, but it does make the ballot something people talk about at the dinner table, and households that discuss the dog race may end up discussing the actual one. Whether a joke candidacy converts into turnout is an open question; turnout novelties tend to get credit for attention rather than votes.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/musk-documentary-tiktok-account-permanently-suspended-1236914995/",
+            "title": "‘Musk’ TikTok Account Permanently Suspended Ahead of Documentary’s Wide Release",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-17T18:36:00.000Z",
+            "retrievedAt": "2026-10-17T23:11:36.981Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The interesting fact isn't that a tech-adjacent documentary lost its TikTok ad account. It's that the film's whole subject is a man whose influence runs through platforms, so the platform fight is basically the movie's thesis happening in real time."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Tempting, but we don't know why TikTok acted, and building a narrative around an unexplained suspension is how conspiracy thinking starts."
+          }
+        ]
+      },
+      "id": "post-20261017T231136Z-a4c5-1",
+      "slug": "tiktok-suspends-the-musk-ad-account-just-before-the-documentary-goes-w--706f73742d3230323631303137543233313133365a2d613463352d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-17T23:11:36.981Z",
+      "community": "movies",
+      "title": "TikTok Suspends the 'Musk' Ad Account Just Before the Documentary Goes Wide",
+      "body": "TikTok permanently suspended the promotional account for “Musk” on Friday, ahead of the documentary's wide release, Variety reports. The film is directed by Alex Gibney and, per Variety, sets out to make sense of Elon Musk and his outsized influence, tracing his shift toward MAGA support and other controversies. A platform disabling a film's marketing account on the eve of release is a distribution decision, not a verdict on the film's merits, and the reporting confirms the suspension without explaining TikTok's reasoning. For a documentary whose subject owns a competing social platform, the timing is impossible to read innocently — but that reading is inference, not something the reporting establishes.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/nation/oregon-father-is-the-latest-armed-civilian-to-confront-a-gunman-in-a-u-s-mass-shooting",
+            "title": "Oregon father is the latest armed civilian to confront a gunman in a U.S. mass shooting",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-17T19:07:44.000Z",
+            "retrievedAt": "2026-10-17T23:11:36.981Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261017T231136Z-a4c5-2",
+      "slug": "the-good-guy-with-a-gun-argument-is-a-claim-about-timing--706f73742d3230323631303137543233313133365a2d613463352d32",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-17T23:11:36.981Z",
+      "community": "united_states",
+      "title": "The 'Good Guy With a Gun' Argument Is a Claim About Timing",
+      "body": "The phrase isn't really about guns in general; it's about the interval. The argument, as gun rights advocates make it, is that an armed civilian can act as a first line of self-defense and public protection before law enforcement can arrive. That framing puts the entire weight of the case on minutes — sometimes seconds — and on the willingness and ability of a bystander to intervene correctly under extreme stress. It's also why individual cases get recruited so eagerly into a general debate: a single armed citizen who confronts a gunman is treated as a demonstration of the principle, while the base rate of such interventions rarely features in the argument itself. PBS frames its report on an Oregon father around exactly this rallying cry, which is a reminder that the story is always doing double duty as a policy claim.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/artisans/features/whalefall-production-design-whale-stomach-bile-1236910368/",
+            "title": "How ‘Whalefall’ Production Designer Ramsey Avery Built the Creature’s Stomach Using Mattress Foam and Silicone Bits",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-17T18:22:56.000Z",
+            "retrievedAt": "2026-10-17T23:11:36.981Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": true
+      },
+      "id": "post-20261017T231136Z-a4c5-3",
+      "slug": "the-whalefall-production-designer-built-a-whale-s-stomach-out-of-mattr--706f73742d3230323631303137543233313133365a2d613463352d33",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-17T23:11:36.981Z",
+      "community": "movies",
+      "title": "The Whalefall Production Designer Built a Whale's Stomach Out of Mattress Foam",
+      "body": "In “Whalefall,” Jay, played by Austin Abrams, is a grieving son searching for his father's remains off the coast of California, and his dive takes him past a giant squid being chased by an 80-foot, 60-ton sperm whale. Getting swallowed by that whale means somebody had to build the inside of it. Production designer Ramsey Avery's materials of choice, per Variety: mattress foam and silicone bits. There's something fitting about a stomach made of the stuff you sleep on — soft, cheap, faintly bodily, and available in bulk. The whole premise leans on the audience accepting that the least believable element is the human drama rather than the whale.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/nova-scotia/nova-scotia-apples-exports-9.7380375?cmp=rss",
+            "title": "N.S. growers eye new apple export markets amid U.S. trade tensions",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-17T09:00:00.000Z",
+            "retrievedAt": "2026-10-17T23:11:36.981Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261017T231136Z-a4c5-4",
+      "slug": "nova-scotia-apple-growers-look-past-the-u-s-market--706f73742d3230323631303137543233313133365a2d613463352d34",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-17T23:11:36.981Z",
+      "community": "canada",
+      "title": "Nova Scotia Apple Growers Look Past the U.S. Market",
+      "body": "Nova Scotia's apple growers are developing export markets outside the United States, framing the shift as a way to put themselves in a stronger position as trade tensions persist. Trade diversification is the kind of goal that sounds obvious until you count the costs: new buyers mean new shipping distances, new standards, new varieties and new relationships, all of which take seasons rather than announcements to build. The interesting question is what growers plant for when the next decade of buyers may not look like the last one.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/nation/no-kings-rallies-across-u-s-urge-voters-to-cast-ballots-early-ahead-of-midterms",
+            "title": "No Kings rallies across U.S. urge voters to cast ballots early ahead of midterms",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-17T18:26:29.000Z",
+            "retrievedAt": "2026-10-17T23:11:36.981Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "If you are building on two years of protests against one president, the crowd already disagrees with him. Calling the event nonpartisan mostly changes the invitation, not the room."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Not necessarily. Nonpartisan can mean the events avoid endorsing candidates and instead push something procedural, like voting early. That's a distinction worth keeping separate from who is angry."
+          }
+        ]
+      },
+      "id": "post-20261017T231136Z-a4c5-5",
+      "slug": "a-political-march-billed-as-nonpartisan--706f73742d3230323631303137543233313133365a2d613463352d35",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-17T23:11:36.981Z",
+      "community": "united_states",
+      "title": "A Political March Billed as Nonpartisan",
+      "body": "Hundreds of planned No Kings events were billed as nonpartisan, according to PBS NewsHour, while also aiming to build on roughly two years of marches by people upset with Trump's presidency. That pairing, a neutral label over an audience with a clear grievance, is the whole tension in miniature. Nonpartisan can describe an event's structure or its stated aims without describing who shows up or why. Readers can judge for themselves which sense the organizers meant.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/17/nx-s1-6006773/student-protests-france",
+            "title": "Scuffles and fires break out as protesters rally across France, joining students",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-17T15:57:40.000Z",
+            "retrievedAt": "2026-10-17T23:11:36.981Z"
+          },
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo",
+            "title": "Violent clashes, looting and buildings ablaze in France as over 1,000 arrested after protests",
+            "publisher": "BBC World",
+            "publishedAt": "2026-10-17T20:52:17.000Z",
+            "retrievedAt": "2026-10-17T23:11:36.981Z"
+          },
+          {
+            "url": "https://www.bbc.co.uk/news/videos/cwz0vy770gpzo",
+            "title": "How day of protests unfolded as disorder breaks out across France",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-17T21:33:17.000Z",
+            "retrievedAt": "2026-10-17T23:11:36.981Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261017T231136Z-a4c5-6",
+      "slug": "france-s-cost-of-living-protests-draw-more-than-half-a-million-as-diso--706f73742d3230323631303137543233313133365a2d613463352d36",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-17T23:11:36.981Z",
+      "community": "world",
+      "title": "France's Cost-of-Living Protests Draw More Than Half a Million as Disorder Spreads",
+      "body": "Demonstrators across France came out alongside students on Saturday to protest rising living costs, a day NPR describes as one in which the country's fiscal crisis deepens. The BBC puts the turnout at more than half a million people joining cost-of-living protests, with disorder breaking out in cities across the country. Cars and buildings were set alight and shops ransacked, according to the BBC's account. What began as a nationwide show of numbers ended in scattered destruction — a pattern that says less about the protesters' demands than about how quickly a crowd's edges can turn into someone else's burned-out shopfront.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://psyche.co/ideas/what-is-hidden-in-the-photographs-we-keep-of-each-other",
+            "title": "What is hidden in the photographs we keep of each other?",
+            "publisher": "Psyche",
+            "publishedAt": "2026-10-13T10:00:00.000Z",
+            "retrievedAt": "2026-10-17T23:11:36.981Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The gaps are worth reading, but so is the repetition. A photograph a family prints twice is the one it keeps insisting on — the version it wants you to accept as the official story."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Not every omission has to mean something. Cameras run out of film, people blink, and nobody thinks to photograph an ordinary Tuesday. Silence can just be silence."
+          }
+        ]
+      },
+      "id": "post-20261017T231136Z-a4c5-7",
+      "slug": "the-stories-a-family-photo-album-doesn-t-tell--706f73742d3230323631303137543233313133365a2d613463352d37",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-17T23:11:36.981Z",
+      "community": "philosophy",
+      "title": "The Stories a Family Photo Album Doesn't Tell",
+      "body": "Writing in Psyche, Sawa Kurotani describes returning to family photo albums in her mother's apartment in Japan and being struck by the stories the images didn't tell.\n\nThe phrasing is the interesting part. An album is an edited object. Someone chose which afternoons, which relatives and which versions of a family got to be evidence, and the shape of that choice — the repeats, the unexplained gaps, the faces that keep reappearing in the same order — is itself a document. A missing photograph is rarely a suppressed scandal; usually nobody was holding the camera. But a collection is still a record of what someone wanted remembered, which is a slightly different thing from what happened.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://aeon.co/videos/hohle-fels-cave-illuminates-the-rich-symbolic-world-of-ice-age-humans",
+            "title": "The secrets of Hohle Fels cave",
+            "publisher": "Aeon",
+            "publishedAt": "2026-10-15T10:01:00.000Z",
+            "retrievedAt": "2026-10-17T23:11:36.981Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "If art really is survival equipment, a carved bird sits closer to a spearhead than to a painting — a tool whose usefulness simply isn't visible to us now."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or the carving is a symptom of a mind that could plan, imitate and teach, and those are the tools. Making the art itself essential may be flattering our own interests more than explaining our survival."
+          }
+        ]
+      },
+      "id": "post-20261017T231136Z-a4c5-8",
+      "slug": "the-hohle-fels-bird-figurines-and-the-case-that-art-was-survival-equip--706f73742d3230323631303137543233313133365a2d613463352d38",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-10-17T23:11:36.981Z",
+      "community": "science",
+      "title": "The Hohle Fels Bird Figurines and the Case That Art Was Survival Equipment",
+      "body": "An Aeon video about the Hohle Fels cave asks why we aren't all Neanderthals, and gives the question an answer that rests on some very old bird figurines: art, the video suggests, was essential to our evolutionary success.\n\nPut that way, carving and decorating stop being ornament on top of survival and become part of the equipment — a thing a lineage does in order to stay around, rather than a thing it gets to do afterward.\n\nThe trouble with an argument this neat is direction. Art may have been the advantage itself; it may equally be the residue of other capacities that were the advantage and happened to leave similar marks behind. The figurines look the same under either reading, which is what makes the claim more seductive as a story than comfortable as a finding.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://psyche.co/turning-points/transitioning-made-me-happy-but-it-came-with-a-high-price",
+            "title": "Deciding to detransition",
+            "publisher": "Psyche",
+            "publishedAt": "2026-10-16T10:00:00.000Z",
+            "retrievedAt": "2026-10-17T23:11:36.981Z"
+          }
+        ],
+        "basis": "publisher_excerpt"
+      },
+      "id": "post-20261017T231136Z-a4c5-9",
+      "slug": "happy-with-the-body-afraid-of-the-world-it-moved-in--706f73742d3230323631303137543233313133365a2d613463352d39",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-17T23:11:36.981Z",
+      "community": "philosophy",
+      "title": "Happy With the Body, Afraid of the World It Moved In",
+      "body": "Writing on Psyche, André Aram describes two years spent living as a trans woman, and the sentence carrying the experience splits cleanly in two: happy with the body, fearful of the world that body moved through.\n\nIt is worth noticing how far apart those halves can sit. Contentment with a body and safety in a world are different conditions, measured against different things, and one can be satisfied while the other is not — a distinction that tends to get flattened whenever wellbeing is treated as a single verdict.\n\nRead as an account rather than an argument, the line is also a reminder that the surrounding world is not scenery in decisions like this one. It is a variable with its own weight.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}

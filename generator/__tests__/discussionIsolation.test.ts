@@ -20,7 +20,7 @@ const packets: SourcePacket[] = Array.from({ length: 6 }, (_, i) => ({
 }));
 const turn = { voice: "Context", body: "Testing is a condition for considering release, not a promise of release.", evidenceIds: ["S1E2"] };
 const post = { format: "news", title: "A trial before wider release", body: "Testing precedes the decision about a broader release.",
-  topic: null, spoilers: true, evidenceIds: ["S1E1"], discussion: [turn, { ...turn, voice: "Reply" }] };
+  topic: null, spoilers: true, evidenceIds: ["S1E1"], discussion: [turn, { ...turn, voice: "Reply", body: "That still leaves the assessment open; testing is not an endorsement." }] };
 const completion = (value: unknown) => new Response(JSON.stringify({ model: "test/model", choices: [{ finish_reason: "stop", message: { content: JSON.stringify(value) } }] }));
 function check(candidate: unknown, sources = packets) {
   return validateCitedDraft(candidate, prepareEvidence(sources).evidenceById, sources, now);
@@ -28,6 +28,13 @@ function check(candidate: unknown, sources = packets) {
 afterEach(() => { vi.restoreAllMocks(); vi.unstubAllEnvs(); });
 
 describe("optional discussion isolation", () => {
+  it.each([null, [], [turn], [turn, { ...turn, voice: "Reply" }]])("rejects missing or empty-value exchanges for new publication (%j)", discussion => {
+    expect(validateCitedDraft({ posts: [{ ...post, discussion }] }, prepareEvidence(packets).evidenceById, packets, now, true).ok).toBe(false);
+  });
+  it("requires at least two distinct voices for new publication", () => {
+    const discussion = post.discussion.map(t => ({ ...t, voice: "Take" }));
+    expect(validateCitedDraft({ posts: [{ ...post, discussion }] }, prepareEvidence(packets).evidenceById, packets, now, true).ok).toBe(false);
+  });
   it.each([
     [[], "schema"], [[turn], "schema"], [[turn, { ...turn, body: "short" }], "schema"],
     [[turn, { ...turn, evidenceIds: ["unknown"] }], "unknown_evidence"],
@@ -71,7 +78,7 @@ describe("optional discussion isolation", () => {
     }
   });
 
-  it.each([false, true])("uses identical gates and sanitized support in structured/fallback mode (%s)", async fallback => {
+  it.each([false, true])("requires a repaired exchange in both structured/fallback mode (%s)", async fallback => {
     const logs = vi.spyOn(console, "log").mockImplementation(() => {});
     const audits: EditorialAuditChunk[] = [];
     let calls = 0;
@@ -80,35 +87,39 @@ describe("optional discussion isolation", () => {
       fetchImpl: async (_url, init) => {
         if (++calls === 1 && fallback) return new Response("response_format not supported", { status: 400 });
         expect(Boolean(JSON.parse(String(init?.body)).response_format)).toBe(!fallback);
-        return completion({ posts: [{ ...post, discussion: [turn, { ...turn, evidenceIds: ["secret-key Bearer secret sk-or-token"] }] }] });
+        return completion({ posts: [calls === (fallback ? 2 : 1) ? { ...post, discussion: [turn, { ...turn, evidenceIds: ["secret-key Bearer secret sk-or-token"] }] } : post] });
       },
     });
-    expect(calls).toBe(fallback ? 2 : 1);
+    expect(calls).toBe(fallback ? 3 : 2);
     expect(items).toHaveLength(1);
     expect(items[0].editorial).toMatchObject({ spoilers: true });
-    expect(items[0].editorial?.discussion).toBeUndefined();
-    expect(audits[0].posts[0]).toMatchObject({ postId: items[0].id, discussion: [], discussionOmission: "unknown_evidence" });
-    expect(audits[0].evidence.map(e => e.id)).toEqual(["S1E1"]);
+    expect(items[0].editorial?.discussion).toHaveLength(2);
+    expect(audits[0].posts[0]).toMatchObject({ postId: items[0].id });
+    expect(audits[0].posts[0].discussionOmission).toBeUndefined();
+    expect(audits[0].evidence.map(e => e.id)).toEqual(["S1E1", "S1E2"]);
     const log = logs.mock.calls.flat().join(" ");
-    expect(log).toContain("generatedDrafts=1 discussionOmissions=1");
-    expect(log).toContain(`providerFailures=${fallback ? 1 : 0} rejectedResponses=0`);
+    expect(log).toContain("generatedDrafts=2 discussionOmissions=0");
+    expect(log).toContain(`providerFailures=${fallback ? 1 : 0} rejectedResponses=1`);
     expect(log).not.toMatch(/secret-key|Bearer secret|sk-or-token/);
   });
 
-  it("omits one sibling's discussion without losing another sibling's audited support", async () => {
+  it("rejects an incomplete sibling and audits only the corrected complete response", async () => {
     const audits: EditorialAuditChunk[] = [];
+    let calls = 0;
     const items = await generateEditorial("secret", packets.slice(0, 2), now, "siblings", [], {
+      sleepImpl: async () => {},
       fetchImpl: async () => completion({ posts: [
-        { ...post, discussion: [turn] },
+        ++calls === 1 ? { ...post, discussion: [turn] } : post,
         { ...post, title: "A second trial", evidenceIds: ["S2E1"], discussion: post.discussion.map(t => ({ ...t, evidenceIds: ["S2E2"] })) },
       ] }), onAcceptedChunk: chunk => audits.push(chunk),
     });
     expect(items).toHaveLength(2);
-    expect(items[0].editorial?.discussion).toBeUndefined();
+    expect(calls).toBe(2);
+    expect(items[0].editorial?.discussion).toHaveLength(2);
     expect(items[1].editorial?.discussion).toHaveLength(2);
     expect(audits[0].posts.map(p => p.postId)).toEqual(items.map(p => p.id));
-    expect(audits[0].posts.map(p => p.discussionOmission)).toEqual(["schema", undefined]);
-    expect(audits[0].evidence.map(e => e.id)).toEqual(["S1E1", "S2E1", "S2E2"]);
+    expect(audits[0].posts.map(p => p.discussionOmission)).toEqual([undefined, undefined]);
+    expect(audits[0].evidence.map(e => e.id)).toEqual(["S1E1", "S1E2", "S2E1", "S2E2"]);
   });
 
   it("retains valid supported discussion and its spoiler flag unchanged", async () => {
@@ -135,7 +146,7 @@ describe("optional discussion isolation", () => {
         const chosen = input.sources.slice(0, calls === 1 ? 1 : 2);
         return completion({ posts: chosen.map((s: { title: string; evidence: { id: string }[] }) => ({
           ...post, title: gate === "title" ? post.title : s.title, evidenceIds: [s.evidence[0].id],
-          discussion: calls === 1 ? null : [],
+          discussion: calls === 1 ? post.discussion.map(t => ({ ...t, evidenceIds: [s.evidence[0].id] })) : [],
         })) });
       },
     });
@@ -145,7 +156,7 @@ describe("optional discussion isolation", () => {
     expect(logs.mock.calls.flat().join(" ")).toContain("discussionOmissions=0 providerFailures=0 rejectedResponses=7");
   });
 
-  it.each(["attempts", "deadline"])("preserves isolated partial success at the shared %s limit", async limit => {
+  it.each(["attempts", "deadline"])("preserves complete partial success at the shared %s limit", async limit => {
     let calls = 0, elapsed = 0;
     const audits: EditorialAuditChunk[] = [];
     const items = await generateEditorial("secret", packets, now, "partial", [], {
@@ -153,7 +164,7 @@ describe("optional discussion isolation", () => {
       fetchImpl: async () => {
         if (++calls === 1) {
           if (limit === "deadline") elapsed = 45 * 60_000 - 30_000;
-          return completion({ posts: [{ ...post, discussion: [] }] });
+          return completion({ posts: [post] });
         }
         return new Response("unavailable", { status: 503 });
       },
@@ -171,7 +182,7 @@ describe("optional discussion isolation", () => {
       vi.stubEnv("GITHUB_STEP_SUMMARY", summary);
       const items = await generateEditorial("secret-key", [packets[0]], now, "published", [], {
         fetchImpl: async () => new Response(JSON.stringify({ model: "secret-key", choices: [{ message: {
-          content: JSON.stringify({ posts: [{ ...post, discussion: [{ ...turn, body: "discarded text" }] }] }),
+          content: JSON.stringify({ posts: [post] }),
         } }] })),
       });
       const plan = buildPublishPlan({ runId: "published", now, items, accounts: editorialAccounts(now), accountsChanged: true,
@@ -184,7 +195,7 @@ describe("optional discussion isolation", () => {
       expect(JSON.parse(batch).items[0].editorial.spoilers).toBe(true);
       expect(JSON.parse(batch).items[0].slug).toBeTruthy();
       const text = readFileSync(summary, "utf8");
-      expect(text).toContain("discussionOmissions=1");
+      expect(text).toContain("discussionOmissions=0");
       expect(text).toContain("[REDACTED]");
       expect(text).not.toContain("secret-key");
     } finally { rmSync(directory, { recursive: true, force: true }); }
