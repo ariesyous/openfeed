@@ -3,6 +3,8 @@ import type { SourcePacket } from "./sources";
 export interface EvidenceEntry {
   sourceId: string;
   quote: string;
+  /** All IDs needed to retain this split sentence, for new generation only. */
+  groupIds?: string[];
 }
 
 interface EvidenceGroup {
@@ -132,9 +134,10 @@ export function prepareEvidence(packets: SourcePacket[]) {
     for (const [groupIndex, group] of groups.entries()) {
       // A sentence's final qualification must not disappear at the evidence cap.
       if (evidence.length + group.spans.length > evidenceLimit) { contextTruncated = true; break; }
+      const groupIds = group.spans.map((_, part) => `S${index + 1}E${evidence.length + part + 1}`);
       for (const [part, quote] of group.spans.entries()) {
         const id = `S${index + 1}E${evidence.length + 1}`;
-        evidenceById.set(id, { sourceId: source.id, quote });
+        evidenceById.set(id, { sourceId: source.id, quote, groupIds });
         evidence.push({ id, text: quote, contextGroup: `S${index + 1}G${groupIndex + 1}`,
           ...(source.sections ? { section: group.section } : {}),
           paragraph: group.paragraph, part: part + 1, parts: group.spans.length });

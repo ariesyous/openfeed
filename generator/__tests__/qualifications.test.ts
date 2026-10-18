@@ -24,6 +24,22 @@ const completion = (value: unknown) => new Response(JSON.stringify({ model: "tes
 afterEach(() => vi.restoreAllMocks());
 
 describe("qualifications alongside selectable evidence", () => {
+  it("rejects incomplete split sentences per new unit without repairing selections or changing historical validation", () => {
+    const source = { ...packet, excerpt: "Of 422 pre-teens surveyed between the ages of 11 and 13, 68 per cent said their faith, religion or spiritual journey is an important part of who they are." };
+    const prepared = prepareEvidence([source]);
+    const ids = [...prepared.evidenceById.keys()];
+    expect(ids).toHaveLength(2);
+    const candidate = { ...post, evidenceIds: ids,
+      discussion: discussion.map(turn => ({ ...turn, evidenceIds: ids })) };
+    expect(validateCitedDraft({ posts: [candidate] }, prepared.evidenceById, [source], now, true).ok).toBe(true);
+    const incomplete = { ...candidate, discussion: [{ ...candidate.discussion[0], evidenceIds: [ids[0]] }, candidate.discussion[1]] };
+    const result = validateCitedDraft({ posts: [incomplete] }, prepared.evidenceById, [source], now, true);
+    expect(result.ok).toBe(false);
+    if (!result.ok) expect(result.issues.join(" ")).toContain("complete sentence group");
+    expect(incomplete.discussion[0].evidenceIds).toEqual([ids[0]]);
+    expect(validateCitedDraft({ posts: [incomplete] }, prepared.evidenceById, [source], now).ok).toBe(true);
+    expect(validateCitedDraft({ posts: [{ ...candidate, evidenceIds: [ids[0]] }] }, prepared.evidenceById, [source], now, true).ok).toBe(false);
+  });
   it("keeps a later scope qualification beside the mechanism even beyond the snippet cap", () => {
     // Synthetic counterpart of the observed multi-section report: the previous
     // interleaving could expose a threshold but omit the following scope paragraph.

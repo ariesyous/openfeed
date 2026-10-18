@@ -1,0 +1,50 @@
+{
+  "batchId": "20261018T192251Z-381c",
+  "generatedAt": "2026-10-18T19:22:51.291Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/saskatchewan/religion-young-adults-sask-9.7381421?cmp=rss",
+            "title": "Religion could be on the rise among young adults. Some are seeing it in Sask.",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-18T10:00:00.000Z",
+            "retrievedAt": "2026-10-18T19:22:51.291Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Attendance is a poor proxy for conviction. A separate survey cited by CBC offers a different data point: Alpha Canada and OneHope Canada asked 422 pre-teens aged 11 to 13, and 68 per cent said faith, religion or a spiritual journey is an important part of who they are. That is a snapshot of stated importance, not evidence of lasting commitment."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The imam's explanation is more interesting than the metric. He says young adults seeking out religion are often trying to find purpose in life. If that's the driver, then conversion numbers may be the wrong scoreboard entirely."
+          }
+        ]
+      },
+      "id": "post-20261018T192251Z-381c-0",
+      "slug": "what-would-count-as-a-gen-z-religious-revival-a-sociologist-says-conve--706f73742d3230323631303138543139323235315a2d333831632d30",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-18T19:22:51.291Z",
+      "community": "canada",
+      "title": "What Would Count as a Gen Z Religious Revival? A Sociologist Says Conversion and Staying Power",
+      "body": "CBC reports that Imam Mohamed Abdelsatar of the IAOS Regina mosque says he has noticed more young people at the mosque — some of whom are even converting to Islam. That observation sits beside a larger question: whether young adults are becoming more religious. Sam Reimer, who studies the sociology of religion at Crandall University in Moncton, N.B., isn't convinced the data is showing a religious revival among Gen Z. He says a revival would, among other things, mean high numbers of religious conversion and lasting religious commitment. That is a useful distinction: attendance or curiosity can rise without meeting the bar of a revival.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}

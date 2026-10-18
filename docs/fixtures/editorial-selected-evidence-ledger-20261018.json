@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 1,
+  "run": 39158483721,
+  "batchId": "20261018T192251Z-381c",
+  "model": "deepseek/deepseek-v4.1-flash",
+  "scope": "Manual selected-support and reading-quality audit of eight candidates, one published; not independent verification of underlying reporting.",
+  "candidates": [
+    {
+      "title": "Over 70% of 18-34s Admit to Pirating Sport. Rights Cost £6.7bn Over Four Years.",
+      "digest": "c04fed27552e3f0ea47101febc798ec7ca6227a7ab014e53505f888e9defac02",
+      "published": false,
+      "rejectedUnits": [
+        {
+          "target": "body",
+          "reason": "unsupported_claim"
+        },
+        {
+          "target": "discussion.1",
+          "reason": "unsupported_claim"
+        }
+      ],
+      "manualAssessment": "Withholding justified: missing selected actor/foreign-rights support and overbroad stream-quality comparison. Price inference is also weak."
+    },
+    {
+      "title": "Zelenskyy Blames Washington for Ukraine's Starshield Cuts; Trump Denies Interfering",
+      "digest": "75654337c3ac0c65b70937a84c129eaf6d9c6e4b53a8443a99a3b8a9079f59f8",
+      "published": false,
+      "rejectedUnits": [
+        {
+          "target": "discussion.0",
+          "reason": "misattribution"
+        }
+      ],
+      "manualAssessment": "Withholding justified: responsibility became ownership attributed to Musk. Body retains attributed dispute and uncertainty."
+    },
+    {
+      "title": "A Bigfoot Documentary Promises the Answer to a 59-Second Mystery",
+      "digest": "336d876b0c08d58ec28583dac4d3a25e7363ec021a4dc223130e1b635af2c12a",
+      "published": false,
+      "rejectedUnits": [
+        {
+          "target": "body",
+          "reason": "unsupported_claim"
+        }
+      ],
+      "manualAssessment": "Withholding justified under selected-support contract: ape-like description is on page but not selected. Roadshow metaphor was preserved."
+    },
+    {
+      "title": "What Would Count as a Gen Z Religious Revival? A Sociologist Says Conversion and Staying Power",
+      "digest": "51493e93754a16896caffd6d7d291e153a0f52c543ecc425b8e2287cf46e0a6d",
+      "published": true,
+      "rejectedUnits": [],
+      "manualAssessment": "Published source claim agrees with page, but survey turn omits the final part of its selected sentence. Useful measurement discussion; low humour; Christian sponsor context could be clearer."
+    },
+    {
+      "title": "A Washington Post Photographer Says Netanyahu Called the Attack on Her 'Alleged'",
+      "digest": "5abbf96bf687523be5292b14e076ee3dd913896d61cf6cad1356285a50489497",
+      "published": false,
+      "rejectedUnits": [
+        {
+          "target": "body",
+          "reason": "unsupported_claim"
+        },
+        {
+          "target": "discussion.0",
+          "reason": "unsupported_claim"
+        }
+      ],
+      "manualAssessment": "Withholding justified: body borrows letter/election context; turn borrows injury and quote. Supported criticism was preserved."
+    },
+    {
+      "title": "A Binder Called 'My Book of Knowledge,' and a Jeopardy! Run Worth $66,101",
+      "digest": "2687e9791b9c9f075d586d0e34b798595ea80ff4629cdca961f4c95d4a1a7b73",
+      "published": false,
+      "rejectedUnits": [
+        {
+          "target": "discussion.0",
+          "reason": "unsupported_claim"
+        }
+      ],
+      "manualAssessment": "Withholding justified: 15 years trying to appear on the show became 15 years of writing facts. Other approved details, including father relationship, still deserve selected-antecedent scrutiny."
+    },
+    {
+      "title": "Alberta Votes on Staying in Canada, and Québec's Version Could Arrive by 2030",
+      "digest": "20d97a33e63ef2a5a68e7b2a45b2b882ce171c8adbde63ed0e4ec93e8c1c3d9b",
+      "published": false,
+      "rejectedUnits": [
+        {
+          "target": "body",
+          "reason": "unsupported_claim"
+        }
+      ],
+      "manualAssessment": "Withholding justified under selected-support contract: shared autonomy is on page but outside selected body support. Whip metaphor retained."
+    },
+    {
+      "title": "Taylor Swift's First Full-Band Set Since the Eras Tour Had Two Very Recent Songs In It",
+      "digest": "f92aa1c9edc33ce85ed99605015d6b13d9312764e6bab9cda701f21eb408c120",
+      "published": false,
+      "rejectedUnits": [
+        {
+          "target": "body",
+          "reason": "unsupported_claim"
+        }
+      ],
+      "manualAssessment": "Withholding justified: exactly half new needs the omitted remaining-song support. Awards-voter premise also lacks selected support; rejection did not identify every defect."
+    }
+  ],
+  "retrieval": {
+    "reviewAuditSha256": "e4a3d611ecd6300c25b45f68fecc8fc301db03cc6c778d66709704aa13f4fd1c",
+    "results": [
+      {
+        "index": 0,
+        "url": "https://www.bbc.co.uk/news/articles/cmx2375zqwwwo",
+        "title": "There's a crackdown on sports piracy - but is it already out of control?",
+        "status": 200,
+        "retrievedAt": "2026-10-18T19:36:34.346Z",
+        "pageSha256": "6cae8789c13f30ed573e35a42697f30d138a2f902500405d3b843086184a7fa5",
+        "sections": 6,
+        "characters": 5954,
+        "exactSelectedSupport": true,
+        "selectedSnippetCount": 8
+      },
+      {
+        "index": 1,
+        "url": "https://www.npr.org/2026/10/18/nx-s1-6007382/ukraine-us-starshield-starlink-what-to-know-trump",
+        "title": "Ukraine and the U.S. are at odds over Starshield. Here's what to know",
+        "status": 200,
+        "retrievedAt": "2026-10-18T19:36:34.597Z",
+        "pageSha256": "8c9c9cacae34606926e715327414460ee2cd90f454d628933189a2e74645f692",
+        "sections": 9,
+        "characters": 5402,
+        "exactSelectedSupport": true,
+        "selectedSnippetCount": 11
+      },
+      {
+        "index": 2,
+        "url": "https://variety.com/2026/film/reviews/capturing-bigfoot-review-an-amazing-doc-uncovers-the-truth-1236915797/",
+        "title": "‘Capturing Bigfoot’ Review: An Astounding Documentary Uncovers the Truth",
+        "status": 200,
+        "retrievedAt": "2026-10-18T19:36:34.401Z",
+        "pageSha256": "51a5405b5408df6f1339459c8a315c22da955b1b23f2af208344d8596505b6e6",
+        "sections": 5,
+        "characters": 5000,
+        "exactSelectedSupport": false,
+        "selectedSnippetCount": 8
+      },
+      {
+        "index": 3,
+        "url": "https://www.cbc.ca/news/canada/saskatchewan/religion-young-adults-sask-9.7381421?cmp=rss",
+        "title": "Religion could be on the rise among young adults. Some are seeing it in Sask.",
+        "status": 200,
+        "retrievedAt": "2026-10-18T19:36:34.458Z",
+        "pageSha256": "49b1f00ff9562f4c89f5a9a40df40f4ce306777c458101799f7127be9883d7e6",
+        "sections": 8,
+        "characters": 5941,
+        "exactSelectedSupport": true,
+        "selectedSnippetCount": 9
+      },
+      {
+        "index": 4,
+        "url": "https://www.pbs.org/newshour/world/photographer-attacked-by-settlers-in-the-west-bank-feels-insulted-by-netanyahu",
+        "title": "Photographer attacked by settlers in the West Bank feels insulted by Netanyahu",
+        "status": 200,
+        "retrievedAt": "2026-10-18T19:36:34.579Z",
+        "pageSha256": "245a9bfd8c13f944d1e2784e7c635825c63714018374d2dd470172d513908614",
+        "sections": 7,
+        "characters": 4876,
+        "exactSelectedSupport": true,
+        "selectedSnippetCount": 10
+      },
+      {
+        "index": 5,
+        "url": "https://www.cbc.ca/news/canada/saskatchewan/outlook-jeopardy-champion-9.7385096?cmp=rss",
+        "title": "Saskatchewan-born man achieves dream of becoming Jeopardy! Champion",
+        "status": 200,
+        "retrievedAt": "2026-10-18T19:36:34.473Z",
+        "pageSha256": "639bef59bbac6711595860eb05c4eeca502aea58f518403ac67e69b1ae262ea4",
+        "sections": 4,
+        "characters": 4424,
+        "exactSelectedSupport": true,
+        "selectedSnippetCount": 10
+      },
+      {
+        "index": 6,
+        "url": "https://theconversation.com/alberta-and-quebec-referendums-test-canadian-unity-amid-hostility-from-the-u-s-294387",
+        "title": "Alberta and Québec referendums test Canadian unity amid hostility from the U.S.",
+        "status": 200,
+        "retrievedAt": "2026-10-18T19:36:34.300Z",
+        "pageSha256": "67954a281ef128106f44ff012dca098e089e9c757e566f2747600bc3bcab6b4f",
+        "sections": 0,
+        "characters": 0,
+        "exactSelectedSupport": false,
+        "selectedSnippetCount": 12
+      },
+      {
+        "index": 7,
+        "url": "https://variety.com/2026/film/news/taylor-swift-performance-academy-gala-five-songs-1236915817/",
+        "title": "Taylor Swift Fires Up Academy Gala With Four Songs in Her First Band Performance Since the Eras Tour",
+        "status": 200,
+        "retrievedAt": "2026-10-18T19:36:34.429Z",
+        "pageSha256": "edd58004620fa0dcd21ce1711cbf54c2ad38093ef8f24e3263b548d116fd58ca",
+        "sections": 6,
+        "characters": 2611,
+        "exactSelectedSupport": true,
+        "selectedSnippetCount": 10
+      }
+    ]
+  },
+  "verification": {
+    "batchId": "20261018T192251Z-381c",
+    "liveBatchMatches": true,
+    "supportSha256": "7c12cf53034c03a732ef5ba3c317a488987fa8dbf6e4a1126db976876f711851",
+    "reviewSha256": "e4a3d611ecd6300c25b45f68fecc8fc301db03cc6c778d66709704aa13f4fd1c",
+    "supportChecks": [
+      {
+        "url": "https://www.bbc.co.uk/news/articles/cmx2375zqwwwo",
+        "method": "production publisher adapter",
+        "selectedSnippets": 8,
+        "exactMatch": true,
+        "mismatches": []
+      },
+      {
+        "url": "https://www.npr.org/2026/10/18/nx-s1-6007382/ukraine-us-starshield-starlink-what-to-know-trump",
+        "method": "production publisher adapter",
+        "selectedSnippets": 11,
+        "exactMatch": true,
+        "mismatches": []
+      },
+      {
+        "url": "https://variety.com/2026/film/reviews/capturing-bigfoot-review-an-amazing-doc-uncovers-the-truth-1236915797/",
+        "method": "manual paragraph extraction of retrieved publisher page; not production adapter",
+        "selectedSnippets": 8,
+        "exactMatch": false,
+        "mismatches": [
+          "S4E7"
+        ],
+        "note": "The retrieved page says into the mountains where the retained feed snippet says up into the mountains; substantive claim agrees."
+      },
+      {
+        "url": "https://www.cbc.ca/news/canada/saskatchewan/religion-young-adults-sask-9.7381421?cmp=rss",
+        "method": "production publisher adapter",
+        "selectedSnippets": 9,
+        "exactMatch": true,
+        "mismatches": []
+      },
+      {
+        "url": "https://www.pbs.org/newshour/world/photographer-attacked-by-settlers-in-the-west-bank-feels-insulted-by-netanyahu",
+        "method": "production publisher adapter",
+        "selectedSnippets": 10,
+        "exactMatch": true,
+        "mismatches": []
+      },
+      {
+        "url": "https://www.cbc.ca/news/canada/saskatchewan/outlook-jeopardy-champion-9.7385096?cmp=rss",
+        "method": "production publisher adapter",
+        "selectedSnippets": 10,
+        "exactMatch": true,
+        "mismatches": []
+      },
+      {
+        "url": "https://theconversation.com/alberta-and-quebec-referendums-test-canadian-unity-amid-hostility-from-the-u-s-294387",
+        "method": "manual paragraph extraction of retrieved publisher page; not production adapter",
+        "selectedSnippets": 12,
+        "exactMatch": true,
+        "mismatches": []
+      },
+      {
+        "url": "https://variety.com/2026/film/news/taylor-swift-performance-academy-gala-five-songs-1236915817/",
+        "method": "production publisher adapter",
+        "selectedSnippets": 10,
+        "exactMatch": true,
+        "mismatches": []
+      }
+    ],
+    "checks": [
+      {
+        "postId": "post-20261018T192251Z-381c-0",
+        "title": "What Would Count as a Gen Z Religious Revival? A Sociologist Says Conversion and Staying Power",
+        "digest": "51493e93754a16896caffd6d7d291e153a0f52c543ecc425b8e2287cf46e0a6d",
+        "articleUrl": "https://cobanter.com/p/what-would-count-as-a-gen-z-religious-revival-a-sociologist-says-conve--706f73742d3230323631303138543139323235315a2d333831632d30/",
+        "httpStatus": 200,
+        "allDiscussionTextPresent": true,
+        "bodyWords": 105,
+        "discussionWords": 98,
+        "bodyEvidenceIds": [
+          "S3E3",
+          "S3E4",
+          "S3E11",
+          "S3E12",
+          "S3E21"
+        ],
+        "discussion": [
+          {
+            "turnIndex": 0,
+            "voice": "Take",
+            "evidenceIds": [
+              "S3E7",
+              "S3E8",
+              "S3E17"
+            ]
+          },
+          {
+            "turnIndex": 1,
+            "voice": "Pushback",
+            "evidenceIds": [
+              "S3E15"
+            ]
+          }
+        ],
+        "leakedEvidenceMarkers": false
+      }
+    ]
+  }
+}

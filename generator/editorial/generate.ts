@@ -178,7 +178,9 @@ export function validateCitedDraft(
   const resolve = (ids: string[], issues: string[], path: string) => ids.flatMap((id) => {
     const entry = evidenceById.get(id);
     if (!entry) { issues.push(`${path}: unknown evidence ID ${id}; select a supplied ID`); return []; }
-    return [entry];
+    if (requireDiscussion && entry.groupIds?.some(part => !ids.includes(part)))
+      issues.push(`${path}: select the complete sentence group ${entry.groupIds.join(", ")} or choose a different supported claim; never omit a sentence's continuation`);
+    return [{ sourceId: entry.sourceId, quote: entry.quote }];
   });
   const issues: string[] = [];
   const parents = parsed.data.posts.map((post, index) => {
@@ -201,7 +203,10 @@ export function validateCitedDraft(
     const discussion = block.data!.map((turn, turnIndex) => ({ ...turn,
       evidence: resolve(turn.evidenceIds, discussionIssues, `discussion.${turnIndex}.evidenceIds`),
     }));
-    if (discussionIssues.length) { selected.discussionOmission = "unknown_evidence"; continue; }
+    if (discussionIssues.length) {
+      if (requireDiscussion) return { ok: false, issues: discussionIssues };
+      selected.discussionOmission = "unknown_evidence"; continue;
+    }
     const parent = checked.value.posts[index];
     const withDiscussion = validateDraft({ posts: [{ ...parent, discussion }] }, packets, now);
     if (!withDiscussion.ok) { selected.discussionOmission = "support_or_voice"; continue; }

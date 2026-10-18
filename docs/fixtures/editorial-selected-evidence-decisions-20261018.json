@@ -1,0 +1,2520 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261018T192251Z-381c",
+  "startedAt": "2026-10-18T19:22:51.291Z",
+  "reviews": [
+    {
+      "support": {
+        "index": 1,
+        "requestedModel": "deepseek/deepseek-v4.1-flash",
+        "resolvedModel": "deepseek/deepseek-v4.1-flash",
+        "redactionsApplied": false,
+        "sources": [
+          {
+            "id": "83e821571c436a96",
+            "url": "https://www.bbc.co.uk/news/articles/cmx2375zqwwwo",
+            "title": "There's a crackdown on sports piracy - but is it already out of control?",
+            "publisher": "BBC Business",
+            "retrievedAt": "2026-10-18T19:22:51.291Z",
+            "publishedAt": "2026-10-18T00:11:09.000Z",
+            "evergreen": false
+          },
+          {
+            "id": "56f1d9ff338dc0f3",
+            "url": "https://www.npr.org/2026/10/18/nx-s1-6007382/ukraine-us-starshield-starlink-what-to-know-trump",
+            "title": "Ukraine and the U.S. are at odds over Starshield. Here's what to know",
+            "publisher": "NPR",
+            "retrievedAt": "2026-10-18T19:22:51.291Z",
+            "publishedAt": "2026-10-18T18:38:49.000Z",
+            "evergreen": false
+          }
+        ],
+        "evidence": [
+          {
+            "id": "S5E18",
+            "sourceId": "83e821571c436a96",
+            "quote": "This year's Champions League final went behind a paywall in the UK for the first time in more than 30 years."
+          },
+          {
+            "id": "S5E24",
+            "sourceId": "83e821571c436a96",
+            "quote": "Viewers were asked to pay at least £4.99 to watch it, prompting a backlash, including from the then-prime minister, Arsenal fan Sir Keir Starmer."
+          },
+          {
+            "id": "S5E10",
+            "sourceId": "83e821571c436a96",
+            "quote": "In its most recent deal, it sold its viewing rights to domestic audiences for £6.7bn over four years, with almost as much coming from"
+          },
+          {
+            "id": "S5E16",
+            "sourceId": "83e821571c436a96",
+            "quote": "In June, a postman from Pembrokeshire was jailed for over three years for selling illegal subscriptions and supplying pirate software to nearly 2,000 people."
+          },
+          {
+            "id": "S5E4",
+            "sourceId": "83e821571c436a96",
+            "quote": "\"For 18 to 34-year-olds, it's over 70% who admit to doing this regularly,\" says Daniel Monaghan, a researcher at Ampere Analysis."
+          },
+          {
+            "id": "S5E12",
+            "sourceId": "83e821571c436a96",
+            "quote": "\"Over half of 35 to 44s admit to doing it, and about a third of those aged 45 to 64.\""
+          },
+          {
+            "id": "S5E20",
+            "sourceId": "83e821571c436a96",
+            "quote": "These links, used by Kiran and his friends, have practical downsides – such as frequent buffering or poor quality, or platforms that disappear without warning."
+          },
+          {
+            "id": "S5E13",
+            "sourceId": "83e821571c436a96",
+            "quote": "\"Getting every single game will cost you hundreds of pounds a year.\""
+          },
+          {
+            "id": "S7E12",
+            "sourceId": "56f1d9ff338dc0f3",
+            "quote": "Zelenskyy told NBC's Meet the Press on Sunday he believes the U.S. government is behind his military's loss of normal access to the Starshield and"
+          },
+          {
+            "id": "S7E13",
+            "sourceId": "56f1d9ff338dc0f3",
+            "quote": "Starlink services, claiming tech firm SpaceX imposed the restrictions in response to a \"message from [the] American government.\""
+          },
+          {
+            "id": "S7E4",
+            "sourceId": "56f1d9ff338dc0f3",
+            "quote": "Starlink is a satellite internet network operated by Elon Musk's SpaceX to provide internet service to the U.S. and other counties. Since 2024, the U.S."
+          },
+          {
+            "id": "S7E15",
+            "sourceId": "56f1d9ff338dc0f3",
+            "quote": "Defense Department has shared a high-powered military version of the network called Starshield with Ukraine, which has cost the Pentagon billions of dollars."
+          },
+          {
+            "id": "S7E6",
+            "sourceId": "56f1d9ff338dc0f3",
+            "quote": "It's unclear why Ukraine has experienced restricted access to Starshield."
+          },
+          {
+            "id": "S7E7",
+            "sourceId": "56f1d9ff338dc0f3",
+            "quote": "Speaking to reporters on Friday, President Trump denied interfering with Starshield."
+          },
+          {
+            "id": "S7E17",
+            "sourceId": "56f1d9ff338dc0f3",
+            "quote": "SpaceX CEO Elon Musk said on X that the U.S. government is responsible for the system, and that \"any limits on speed or usage are"
+          },
+          {
+            "id": "S7E18",
+            "sourceId": "56f1d9ff338dc0f3",
+            "quote": "decided by the US military and ultimately POTUS.\""
+          },
+          {
+            "id": "S7E19",
+            "sourceId": "56f1d9ff338dc0f3",
+            "quote": "\"I don't know if it was anybody because it wasn't me, and I don't think it was Elon."
+          },
+          {
+            "id": "S7E2",
+            "sourceId": "56f1d9ff338dc0f3",
+            "quote": "In a post on X over the weekend, Zelenskyy said the restrictions on the system have hindered Ukraine's ability to intercept weapons launched by Russia,"
+          },
+          {
+            "id": "S7E3",
+            "sourceId": "56f1d9ff338dc0f3",
+            "quote": "calling the consequences \"very painful and unpleasant.\""
+          }
+        ],
+        "posts": [
+          {
+            "postId": "post-review-20261018T192251Z-381c-1-0",
+            "evidenceIds": [
+              "S5E18",
+              "S5E24",
+              "S5E10",
+              "S5E16",
+              "S5E4",
+              "S5E12"
+            ],
+            "discussion": [
+              {
+                "turnIndex": 0,
+                "voice": "Take",
+                "evidenceIds": [
+                  "S5E10",
+                  "S5E4",
+                  "S5E12"
+                ]
+              },
+              {
+                "turnIndex": 1,
+                "voice": "Pushback",
+                "evidenceIds": [
+                  "S5E20",
+                  "S5E13"
+                ]
+              }
+            ]
+          },
+          {
+            "postId": "post-review-20261018T192251Z-381c-1-1",
+            "evidenceIds": [
+              "S7E12",
+              "S7E13",
+              "S7E4",
+              "S7E15",
+              "S7E6",
+              "S7E7"
+            ],
+            "discussion": [
+              {
+                "turnIndex": 0,
+                "voice": "Take",
+                "evidenceIds": [
+                  "S7E17",
+                  "S7E18"
+                ]
+              },
+              {
+                "turnIndex": 1,
+                "voice": "Pushback",
+                "evidenceIds": [
+                  "S7E19",
+                  "S7E6"
+                ]
+              },
+              {
+                "turnIndex": 2,
+                "voice": "Reply",
+                "evidenceIds": [
+                  "S7E2",
+                  "S7E3"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "decisions": {
+        "posts": [
+          {
+            "key": "P1",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Title's 70%+ admission figure and £6.7bn/four-year rights figure match selected evidence.",
+                "evidenceIds": [
+                  "S5E4",
+                  "S5E10"
+                ],
+                "segments": [
+                  {
+                    "text": "Over 70% of 18-34s Admit to Pirating Sport.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S5E4"
+                    ],
+                    "explanation": "S5E4: researcher says over 70% of 18-34s admit to doing this regularly; article context is sports piracy."
+                  },
+                  {
+                    "text": "Rights Cost £6.7bn Over Four Years.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S5E10"
+                    ],
+                    "explanation": "S5E10: most recent deal sold domestic viewing rights for £6.7bn over four years."
+                  }
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "reject",
+                "reason": "unsupported_claim",
+                "claim": "the Premier League's most recent deal sold domestic viewing rights",
+                "explanation": "S5E10 supports the £6.7bn/four-year domestic rights but uses 'it' without naming the seller; the 'Premier League' antecedent appears only in unselected readingContext, so the body adds an unsupported actor.",
+                "evidenceIds": [
+                  "S5E10"
+                ],
+                "segments": [
+                  {
+                    "text": "This year's Champions League final went behind a paywall in the UK for the first time in more than 30 years, with viewers asked to pay at least £4.99.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S5E18",
+                      "S5E24"
+                    ],
+                    "explanation": "S5E18 supports paywall first time in >30 years; S5E24 supports viewers asked to pay at least £4.99."
+                  },
+                  {
+                    "text": "The backlash included the then-prime minister, Arsenal fan Keir Starmer, the BBC reports.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S5E24"
+                    ],
+                    "explanation": "S5E24 supports backlash and Starmer detail; source publisher is BBC Business."
+                  },
+                  {
+                    "text": "The money on the other side of the wall is enormous:",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S5E10"
+                    ],
+                    "explanation": "Evaluative metaphor; the large rights-deal premise is supported by S5E10."
+                  },
+                  {
+                    "text": "the Premier League's most recent deal sold domestic viewing rights for £6.7bn over four years, with almost as much again coming from foreign rights.",
+                    "kind": "unsupported_fact",
+                    "evidenceIds": [
+                      "S5E10"
+                    ],
+                    "explanation": "S5E10 supports the £6.7bn/four-year domestic rights and foreign-rights figures, but uses 'it' without naming the seller; 'Premier League' appears only in unselected readingContext."
+                  },
+                  {
+                    "text": "Enforcement, so far, has produced individual cases rather than a visible industry:",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S5E16"
+                    ],
+                    "explanation": "Evaluative characterization; the following individual case is supported by S5E16."
+                  },
+                  {
+                    "text": "in June, a postman from Pembrokeshire was jailed for over three years for selling illegal subscriptions and supplying pirate software to nearly 2,000 people.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S5E16"
+                    ],
+                    "explanation": "S5E16 directly supports the June jailing, sentence, and details."
+                  },
+                  {
+                    "text": "What keeps the unofficial market fed is demand.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Metaphorical/opinion statement about demand."
+                  },
+                  {
+                    "text": "Daniel Monaghan, a researcher at Ampere Analysis, says over 70% of 18 to 34-year-olds admit to doing this regularly, over half of 35 to 44s, and about a third of those aged 45 to 64.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S5E4",
+                      "S5E12"
+                    ],
+                    "explanation": "S5E4 supports 18-34 over 70%; S5E12 supports 35-44 over half and 45-64 about a third."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Turn pairs supported rights-deal and piracy-rate figures; evaluative framing is opinion.",
+                "evidenceIds": [
+                  "S5E10",
+                  "S5E4",
+                  "S5E12"
+                ],
+                "segments": [
+                  {
+                    "text": "The awkward part is the pairing:",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Evaluative framing."
+                  },
+                  {
+                    "text": "one domestic rights deal worth £6.7bn over four years,",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S5E10"
+                    ],
+                    "explanation": "S5E10: domestic viewing rights sold for £6.7bn over four years."
+                  },
+                  {
+                    "text": "and a majority of the youngest adult cohort saying they watch by other means.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S5E4"
+                    ],
+                    "explanation": "S5E4: over 70% of 18-34s admit to doing this regularly, i.e., watching by other means."
+                  },
+                  {
+                    "text": "A third of 45-to-64s doing the same",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S5E12"
+                    ],
+                    "explanation": "S5E12: about a third of those aged 45 to 64 admit to doing it."
+                  },
+                  {
+                    "text": "is what should worry rights-holders.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Evaluative judgment."
+                  },
+                  {
+                    "text": "This isn't a teenagers-only habit, and it isn't a fringe one.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S5E4",
+                      "S5E12"
+                    ],
+                    "explanation": "Interpretive inference from the supported age-group rates."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "reject",
+                "reason": "unsupported_claim",
+                "claim": "If the cheaper option is also the more annoying one and still wins",
+                "explanation": "Selected S5E13 gives legal cost but not that unofficial streams are cheaper/free; that fact is only in unselected S5E19. S5E20 also only lists example downsides, not 'worse in every practical way'.",
+                "evidenceIds": [
+                  "S5E20",
+                  "S5E13"
+                ],
+                "segments": [
+                  {
+                    "text": "Maybe price isn't doing most of the work.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Speculative opinion."
+                  },
+                  {
+                    "text": "The unofficial streams are worse in every practical way —",
+                    "kind": "unsupported_fact",
+                    "evidenceIds": [
+                      "S5E20"
+                    ],
+                    "explanation": "S5E20 lists examples of practical downsides, but does not establish that unofficial streams are worse in every practical way."
+                  },
+                  {
+                    "text": "buffering, poor quality, platforms that disappear without warning —",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S5E20"
+                    ],
+                    "explanation": "S5E20 lists frequent buffering, poor quality, and platforms that disappear without warning."
+                  },
+                  {
+                    "text": "and people choose them anyway,",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S5E20"
+                    ],
+                    "explanation": "S5E20 says these links are used by Kiran and his friends."
+                  },
+                  {
+                    "text": "even when a legal route would cost hundreds of pounds a year for the full slate.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S5E13"
+                    ],
+                    "explanation": "S5E13: getting every single game costs hundreds of pounds a year."
+                  },
+                  {
+                    "text": "If the cheaper option is also the more annoying one and still wins,",
+                    "kind": "unsupported_fact",
+                    "evidenceIds": [
+                      "S5E13"
+                    ],
+                    "explanation": "Selected evidence gives the legal cost but not that unofficial streams are cheaper/free; that premise appears only in unselected S5E19."
+                  },
+                  {
+                    "text": "something other than cost is driving the choice.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Conditional conclusion/opinion."
+                  }
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "Over 70% of 18-34s Admit to Pirating Sport. Rights Cost £6.7bn Over Four Years.",
+              "titleActor": "18-34s",
+              "sourceActor": "18 to 34-year-olds",
+              "sourceEvidenceId": "S5E4",
+              "relation": "aligned"
+            }
+          },
+          {
+            "key": "P2",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Both title claims match selected evidence: Zelenskyy's blame and Trump's denial.",
+                "evidenceIds": [
+                  "S7E12",
+                  "S7E13",
+                  "S7E7"
+                ],
+                "segments": [
+                  {
+                    "text": "Zelenskyy Blames Washington for Ukraine's Starshield Cuts;",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S7E12",
+                      "S7E13"
+                    ],
+                    "explanation": "S7E12-S7E13: Zelenskyy says he believes the U.S. government is behind loss of normal access to Starshield and Starlink."
+                  },
+                  {
+                    "text": "Trump Denies Interfering",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S7E7"
+                    ],
+                    "explanation": "S7E7: Trump denied interfering with Starshield."
+                  }
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "All body claims are directly supported by selected evidence.",
+                "evidenceIds": [
+                  "S7E12",
+                  "S7E13",
+                  "S7E4",
+                  "S7E15",
+                  "S7E6",
+                  "S7E7"
+                ],
+                "segments": [
+                  {
+                    "text": "Ukrainian President Volodymyr Zelenskyy told NBC's Meet the Press on Sunday that he believes the U.S. government is behind his military's loss of normal access to Starshield and Starlink, claiming that SpaceX imposed the restrictions because of a message from the American government.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S7E12",
+                      "S7E13"
+                    ],
+                    "explanation": "S7E12-S7E13 directly support Zelenskyy's statement and claim."
+                  },
+                  {
+                    "text": "Starshield is the military-grade version of SpaceX's Starlink satellite internet network;",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S7E4",
+                      "S7E15"
+                    ],
+                    "explanation": "S7E4: Starlink is operated by SpaceX; S7E15: Starshield is a high-powered military version."
+                  },
+                  {
+                    "text": "since 2024, the U.S. Defense Department has shared it with Ukraine, at a cost of billions of dollars to the Pentagon.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S7E4",
+                      "S7E15"
+                    ],
+                    "explanation": "S7E4 'Since 2024, the U.S.' plus S7E15: Defense Department shared Starshield with Ukraine, costing billions."
+                  },
+                  {
+                    "text": "It remains unclear why Ukraine's access was restricted.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S7E6"
+                    ],
+                    "explanation": "S7E6: unclear why Ukraine experienced restricted access to Starshield."
+                  },
+                  {
+                    "text": "Speaking to reporters on Friday, President Trump denied interfering with Starshield.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S7E7"
+                    ],
+                    "explanation": "S7E7 directly supports Trump's denial."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "reject",
+                "reason": "misattribution",
+                "claim": "He says the U.S. government owns the system",
+                "explanation": "S7E17 says Musk said the U.S. government is responsible for the system; it does not say he said it owns the system. The turn puts a stronger ownership claim in Musk's mouth.",
+                "evidenceIds": [
+                  "S7E17"
+                ],
+                "segments": [
+                  {
+                    "text": "Musk's own account is the strangest piece of this.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Evaluative opinion."
+                  },
+                  {
+                    "text": "He says the U.S. government owns the system,",
+                    "kind": "unsupported_fact",
+                    "evidenceIds": [
+                      "S7E17"
+                    ],
+                    "explanation": "S7E17 says Musk said the U.S. government is responsible for the system, not that it owns it."
+                  },
+                  {
+                    "text": "and that any limits on speed or usage are decided by the U.S. military and ultimately the president.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S7E17",
+                      "S7E18"
+                    ],
+                    "explanation": "S7E17-S7E18 quote Musk saying limits are decided by the US military and ultimately POTUS."
+                  },
+                  {
+                    "text": "That doesn't settle who ordered what, but it does concede that Washington, not SpaceX, holds the switch.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S7E17",
+                      "S7E18"
+                    ],
+                    "explanation": "Interpretive inference from the supported control quote."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Turn uses a supported Trump quote and the stated uncertainty about cause; framing is opinion.",
+                "evidenceIds": [
+                  "S7E19",
+                  "S7E6"
+                ],
+                "segments": [
+                  {
+                    "text": "Which makes the official denials narrower than they sound.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Evaluative opinion."
+                  },
+                  {
+                    "text": "Trump's line — that it wasn't him and he didn't think it was Musk —",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S7E19"
+                    ],
+                    "explanation": "S7E19: Trump quote that it wasn't him and he doesn't think it was Elon."
+                  },
+                  {
+                    "text": "is an answer about who gave an order, not about why the access changed.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S7E19",
+                      "S7E6"
+                    ],
+                    "explanation": "Interpretive framing supported by the quote and S7E6's stated uncertainty about cause."
+                  },
+                  {
+                    "text": "If the restriction is real and the ordering of it is denied, the gap between the two is the story.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S7E6",
+                      "S7E19"
+                    ],
+                    "explanation": "Conditional inference; S7E6 notes restricted access and S7E19 the denial."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.2",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Zelenskyy's stated effect and wording are directly supported; the framing is opinion.",
+                "evidenceIds": [
+                  "S7E2",
+                  "S7E3"
+                ],
+                "segments": [
+                  {
+                    "text": "And the gap matters because of what Zelenskyy says the restriction cost him:",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Transitional/evaluative framing."
+                  },
+                  {
+                    "text": "he says it hindered Ukraine's ability to intercept weapons launched by Russia,",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S7E2"
+                    ],
+                    "explanation": "S7E2: Zelenskyy said restrictions hindered Ukraine's ability to intercept Russian weapons."
+                  },
+                  {
+                    "text": "and called the consequences very painful and unpleasant.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S7E3"
+                    ],
+                    "explanation": "S7E3: Zelenskyy called the consequences 'very painful and unpleasant.'"
+                  },
+                  {
+                    "text": "A dispute about intent sits on top of an effect he describes in concrete terms.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Evaluative characterization."
+                  }
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "Zelenskyy Blames Washington for Ukraine's Starshield Cuts; Trump Denies Interfering",
+              "titleActor": "Zelenskyy",
+              "sourceActor": "Zelenskyy",
+              "sourceEvidenceId": "S7E12",
+              "relation": "aligned"
+            }
+          }
+        ]
+      },
+      "candidates": [
+        {
+          "title": "Over 70% of 18-34s Admit to Pirating Sport. Rights Cost £6.7bn Over Four Years.",
+          "digest": "c04fed27552e3f0ea47101febc798ec7ca6227a7ab014e53505f888e9defac02"
+        },
+        {
+          "title": "Zelenskyy Blames Washington for Ukraine's Starshield Cuts; Trump Denies Interfering",
+          "digest": "75654337c3ac0c65b70937a84c129eaf6d9c6e4b53a8443a99a3b8a9079f59f8"
+        }
+      ]
+    },
+    {
+      "support": {
+        "index": 2,
+        "requestedModel": "deepseek/deepseek-v4.1-flash",
+        "resolvedModel": "deepseek/deepseek-v4.1-flash",
+        "redactionsApplied": false,
+        "sources": [
+          {
+            "id": "4ba2dcd8cec2b738",
+            "url": "https://variety.com/2026/film/reviews/capturing-bigfoot-review-an-amazing-doc-uncovers-the-truth-1236915797/",
+            "title": "‘Capturing Bigfoot’ Review: An Astounding Documentary Uncovers the Truth",
+            "publisher": "Variety Film",
+            "retrievedAt": "2026-10-18T19:22:51.291Z",
+            "publishedAt": "2026-10-18T19:05:42.000Z",
+            "evergreen": false
+          },
+          {
+            "id": "aeeeea3536a78760",
+            "url": "https://www.cbc.ca/news/canada/saskatchewan/religion-young-adults-sask-9.7381421?cmp=rss",
+            "title": "Religion could be on the rise among young adults. Some are seeing it in Sask.",
+            "publisher": "CBC Canada",
+            "retrievedAt": "2026-10-18T19:22:51.291Z",
+            "publishedAt": "2026-10-18T10:00:00.000Z",
+            "evergreen": false
+          }
+        ],
+        "evidence": [
+          {
+            "id": "S4E2",
+            "sourceId": "4ba2dcd8cec2b738",
+            "quote": "This famous evidence of the creature known as Bigfoot was shot by a man named Roger Patterson in Northern California on Oct. 20, 1967."
+          },
+          {
+            "id": "S4E8",
+            "sourceId": "4ba2dcd8cec2b738",
+            "quote": "It opens with the shaky, grainy 16mm footage that’s the most widely viewed piece of cinéma vérité in history apart from the Zapruder film."
+          },
+          {
+            "id": "S4E9",
+            "sourceId": "4ba2dcd8cec2b738",
+            "quote": "The footage lasts just 59 seconds."
+          },
+          {
+            "id": "S4E10",
+            "sourceId": "4ba2dcd8cec2b738",
+            "quote": "As an opening title informs us, “No one has ever been able to determine whether the film is real or a hoax.”"
+          },
+          {
+            "id": "S4E17",
+            "sourceId": "4ba2dcd8cec2b738",
+            "quote": "Then it adds, “Until now.”"
+          },
+          {
+            "id": "S4E22",
+            "sourceId": "4ba2dcd8cec2b738",
+            "quote": "“Capturing Bigfoot” is an astounding documentary about the legend of Bigfoot — about how it was born, how it took hold, and how that iconic"
+          },
+          {
+            "id": "S4E7",
+            "sourceId": "4ba2dcd8cec2b738",
+            "quote": "Patterson would take his young son on camping trips in a VW van up into the mountains of Northern California, on the lookout for Bigfoot."
+          },
+          {
+            "id": "S4E12",
+            "sourceId": "4ba2dcd8cec2b738",
+            "quote": "He would stuff two live horses into the van — an indication, right there, that he had a bit of a screw loose."
+          },
+          {
+            "id": "S3E3",
+            "sourceId": "aeeeea3536a78760",
+            "quote": "Imam Mohamed Abdelsatar of the IAOS Regina mosque says he's noticed more young people at the mosque — some of whom are even"
+          },
+          {
+            "id": "S3E4",
+            "sourceId": "aeeeea3536a78760",
+            "quote": "converting to Islam."
+          },
+          {
+            "id": "S3E11",
+            "sourceId": "aeeeea3536a78760",
+            "quote": "Sam Reimer, who studies the sociology of religion at Crandall University in Moncton, N.B., isn't convinced the data is showing a religious revival"
+          },
+          {
+            "id": "S3E12",
+            "sourceId": "aeeeea3536a78760",
+            "quote": "among Gen Z."
+          },
+          {
+            "id": "S3E21",
+            "sourceId": "aeeeea3536a78760",
+            "quote": "He says a revival would, among other things, mean high numbers of religious conversion and lasting religious commitment."
+          },
+          {
+            "id": "S3E7",
+            "sourceId": "aeeeea3536a78760",
+            "quote": "Alpha Canada, an organization that introduces people to the basics of Christianity, partnered with OneHope Canada, a Christian mission organization, on a study released"
+          },
+          {
+            "id": "S3E8",
+            "sourceId": "aeeeea3536a78760",
+            "quote": "in late 2025."
+          },
+          {
+            "id": "S3E17",
+            "sourceId": "aeeeea3536a78760",
+            "quote": "Of 422 pre-teens surveyed between the ages of 11 and 13, 68 per cent said their faith, religion or spiritual journey is an important part"
+          },
+          {
+            "id": "S3E15",
+            "sourceId": "aeeeea3536a78760",
+            "quote": "He says young adults seeking out religion are often trying to find purpose in life."
+          }
+        ],
+        "posts": [
+          {
+            "postId": "post-review-20261018T192251Z-381c-2-0",
+            "evidenceIds": [
+              "S4E2",
+              "S4E8",
+              "S4E9",
+              "S4E10",
+              "S4E17",
+              "S4E22"
+            ],
+            "discussion": [
+              {
+                "turnIndex": 0,
+                "voice": "Take",
+                "evidenceIds": [
+                  "S4E10",
+                  "S4E17"
+                ]
+              },
+              {
+                "turnIndex": 1,
+                "voice": "Pushback",
+                "evidenceIds": [
+                  "S4E7",
+                  "S4E12"
+                ]
+              }
+            ]
+          },
+          {
+            "postId": "post-review-20261018T192251Z-381c-2-1",
+            "evidenceIds": [
+              "S3E3",
+              "S3E4",
+              "S3E11",
+              "S3E12",
+              "S3E21"
+            ],
+            "discussion": [
+              {
+                "turnIndex": 0,
+                "voice": "Take",
+                "evidenceIds": [
+                  "S3E7",
+                  "S3E8",
+                  "S3E17"
+                ]
+              },
+              {
+                "turnIndex": 1,
+                "voice": "Pushback",
+                "evidenceIds": [
+                  "S3E15"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "decisions": {
+        "posts": [
+          {
+            "key": "P1",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "The title attributes the promise to the documentary, and the selected evidence has the film's own opening title adding “Until now” after saying the film's real-or-hoax status was never determined.",
+                "evidenceIds": [
+                  "S4E9",
+                  "S4E10",
+                  "S4E17",
+                  "S4E22"
+                ],
+                "segments": [
+                  {
+                    "text": "A Bigfoot Documentary Promises the Answer",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S4E10",
+                      "S4E17"
+                    ],
+                    "explanation": "S4E10 has the film's opening title telling viewers no one has determined whether the footage is real or a hoax; S4E17 adds “Until now,” so the film's own title card promises resolution."
+                  },
+                  {
+                    "text": "to a 59-Second Mystery",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S4E9",
+                      "S4E10"
+                    ],
+                    "explanation": "S4E9 fixes the footage at 59 seconds, and S4E10 frames the unresolved real-or-hoax question as the mystery the film promises to settle."
+                  }
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "reject",
+                "reason": "unsupported_claim",
+                "claim": "Roger Patterson's 1967 footage of an ape-like figure in Northern California.",
+                "explanation": "S4E2 supports Patterson, 1967 and Northern California, but describes the subject only as “the creature known as Bigfoot.” The “ape-like figure” description exists only in unselected section 1 of the article, so it exceeds this unit's selected support.",
+                "evidenceIds": [
+                  "S4E2"
+                ],
+                "segments": [
+                  {
+                    "text": "Variety's review of “Capturing Bigfoot” describes a documentary that opens with the most widely viewed piece of cinéma vérité apart from the Zapruder film:",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S4E8",
+                      "S4E22"
+                    ],
+                    "explanation": "S4E8 says the film opens with the shaky 16mm footage that is the most widely viewed cinéma vérité in history apart from the Zapruder film; S4E22 names “Capturing Bigfoot” as the documentary."
+                  },
+                  {
+                    "text": "Roger Patterson's 1967 footage of an ape-like figure in Northern California.",
+                    "kind": "unsupported_fact",
+                    "evidenceIds": [
+                      "S4E2"
+                    ],
+                    "explanation": "S4E2 supports Patterson, 1967 and Northern California but calls the subject only “the creature known as Bigfoot.” The “ape-like figure” description appears solely in unselected section 1 of the article, which cannot authorize it here."
+                  },
+                  {
+                    "text": "It runs 59 seconds.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S4E9"
+                    ],
+                    "explanation": "S4E9: “The footage lasts just 59 seconds.”"
+                  },
+                  {
+                    "text": "An opening title tells viewers that no one has ever determined whether the film is real or a hoax, then adds “Until now.”",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S4E10",
+                      "S4E17"
+                    ],
+                    "explanation": "S4E10 quotes the opening title on no one determining real or hoax; S4E17 adds “Until now.”"
+                  },
+                  {
+                    "text": "The review says the documentary is about how the legend was born, how it took hold, and how the iconic footage came to be.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S4E22"
+                    ],
+                    "explanation": "S4E22 with its sentence group (S4G18, S4E23) says the documentary is about how the legend was born, how it took hold and how that iconic piece of film footage came to be."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "The quoted title card is supported by S4E10/S4E17, and the surrounding assessment of its rhetorical weight is clearly subjective.",
+                "evidenceIds": [
+                  "S4E10",
+                  "S4E17"
+                ],
+                "segments": [
+                  {
+                    "text": "The confidence is the story.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Evaluative framing about the film's tone, no empirical assertion."
+                  },
+                  {
+                    "text": "A title card that says “Until now”",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S4E10",
+                      "S4E17"
+                    ],
+                    "explanation": "S4E17 has the opening title adding “Until now”; S4E10 identifies that opening title card."
+                  },
+                  {
+                    "text": "is doing a lot of work before any evidence arrives, and the phrase is more interesting than any single frame of the footage.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Subjective judgment about the title card's effect and interest, not a factual claim needing source support."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "The biographical details are supported by S4E7/S4E12, and the roadshow characterization is a permissible metaphor.",
+                "evidenceIds": [
+                  "S4E7",
+                  "S4E12"
+                ],
+                "segments": [
+                  {
+                    "text": "Or the interesting part is Patterson himself.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Preference about what is most interesting, no empirical content."
+                  },
+                  {
+                    "text": "He took his young son on Bigfoot camping trips in a VW van and, by the review's account, stuffed two live horses into it",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S4E7",
+                      "S4E12"
+                    ],
+                    "explanation": "S4E7: camping trips with his young son in a VW van, on the lookout for Bigfoot; S4E12: he would stuff two live horses into the van."
+                  },
+                  {
+                    "text": "— a detail that makes the search look less like science and more like a one-man roadshow.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Figurative characterization of the search, with the underlying detail already supported."
+                  }
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "A Bigfoot Documentary Promises the Answer to a 59-Second Mystery",
+              "titleActor": "A Bigfoot Documentary",
+              "sourceActor": "it",
+              "sourceEvidenceId": "S4E17",
+              "relation": "aligned"
+            }
+          },
+          {
+            "key": "P2",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "The title assigns the revival criteria to a sociologist, and the source assigns them to Sam Reimer, who studies the sociology of religion; conversion and lasting commitment match his stated criteria.",
+                "evidenceIds": [
+                  "S3E11",
+                  "S3E12",
+                  "S3E21"
+                ],
+                "segments": [
+                  {
+                    "text": "What Would Count as a Gen Z Religious Revival?",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S3E11",
+                      "S3E12"
+                    ],
+                    "explanation": "S3E11/S3E12 have Sam Reimer addressing whether the data shows a religious revival among Gen Z, grounding the Gen Z revival question."
+                  },
+                  {
+                    "text": "A Sociologist Says Conversion and Staying Power",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S3E11",
+                      "S3E21"
+                    ],
+                    "explanation": "S3E11 identifies Sam Reimer as studying the sociology of religion; S3E21 has him say a revival would mean high numbers of religious conversion and lasting religious commitment."
+                  }
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Each factual clause tracks S3E3/S3E4, S3E11/S3E12 and S3E21, including the “among other things” qualification; the closing point is analysis.",
+                "evidenceIds": [
+                  "S3E3",
+                  "S3E4",
+                  "S3E11",
+                  "S3E12",
+                  "S3E21"
+                ],
+                "segments": [
+                  {
+                    "text": "CBC reports that Imam Mohamed Abdelsatar of the IAOS Regina mosque says he has noticed more young people at the mosque — some of whom are even converting to Islam.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S3E3",
+                      "S3E4"
+                    ],
+                    "explanation": "S3E3/S3E4: the IAOS Regina imam says he has noticed more young people at the mosque, some of whom are even converting to Islam."
+                  },
+                  {
+                    "text": "That observation sits beside a larger question: whether young adults are becoming more religious.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Editorial framing of the piece's theme as a question; no empirical assertion beyond the article's topic."
+                  },
+                  {
+                    "text": "Sam Reimer, who studies the sociology of religion at Crandall University in Moncton, N.B., isn't convinced the data is showing a religious revival among Gen Z.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S3E11",
+                      "S3E12"
+                    ],
+                    "explanation": "S3E11/S3E12: Reimer, who studies the sociology of religion at Crandall University in Moncton, N.B., isn't convinced the data is showing a religious revival among Gen Z."
+                  },
+                  {
+                    "text": "He says a revival would, among other things, mean high numbers of religious conversion and lasting religious commitment.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S3E21"
+                    ],
+                    "explanation": "S3E21 quotes Reimer: a revival would, among other things, mean high numbers of religious conversion and lasting religious commitment."
+                  },
+                  {
+                    "text": "That is a useful distinction: attendance or curiosity can rise without meeting the bar of a revival.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Analytic inference from Reimer's stated criteria, presented as the writer's assessment rather than a new finding."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "The survey figures and the conducting organizations match S3E7, S3E8 and S3E17, and the caveat about stated importance is interpretive.",
+                "evidenceIds": [
+                  "S3E7",
+                  "S3E8",
+                  "S3E17"
+                ],
+                "segments": [
+                  {
+                    "text": "Attendance is a poor proxy for conviction.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Evaluative claim about measurement, no empirical assertion."
+                  },
+                  {
+                    "text": "A separate survey cited by CBC offers a different data point: Alpha Canada and OneHope Canada asked 422 pre-teens aged 11 to 13, and 68 per cent said faith, religion or a spiritual journey is an important part of who they are.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S3E7",
+                      "S3E8",
+                      "S3E17"
+                    ],
+                    "explanation": "S3E7/S3E8: Alpha Canada partnered with OneHope Canada on a study released in late 2025; S3E17 (with its sentence group S3E18) gives 422 pre-teens aged 11-13, 68 per cent saying faith, religion or spiritual journey is an important part ofwho"
+                  },
+                  {
+                    "text": "That is a snapshot of stated importance, not evidence of lasting commitment.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Interpretive caveat about what the survey measures, not an unsupported empirical claim."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "The imam's stated explanation is supported by S3E15, and the metric skepticism is a clearly conditional, subjective take.",
+                "evidenceIds": [
+                  "S3E15"
+                ],
+                "segments": [
+                  {
+                    "text": "The imam's explanation is more interesting than the metric.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Preference about which explanation is more interesting."
+                  },
+                  {
+                    "text": "He says young adults seeking out religion are often trying to find purpose in life.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S3E15"
+                    ],
+                    "explanation": "S3E15: “He says young adults seeking out religion are often trying to find purpose in life.”"
+                  },
+                  {
+                    "text": "If that's the driver, then conversion numbers may be the wrong scoreboard entirely.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Conditional speculation about measurement, explicitly framed as a possibility."
+                  }
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "What Would Count as a Gen Z Religious Revival? A Sociologist Says Conversion and Staying Power",
+              "titleActor": "A Sociologist",
+              "sourceActor": "Sam Reimer",
+              "sourceEvidenceId": "S3E11",
+              "relation": "aligned"
+            }
+          }
+        ]
+      },
+      "candidates": [
+        {
+          "title": "A Bigfoot Documentary Promises the Answer to a 59-Second Mystery",
+          "digest": "336d876b0c08d58ec28583dac4d3a25e7363ec021a4dc223130e1b635af2c12a"
+        },
+        {
+          "title": "What Would Count as a Gen Z Religious Revival? A Sociologist Says Conversion and Staying Power",
+          "digest": "51493e93754a16896caffd6d7d291e153a0f52c543ecc425b8e2287cf46e0a6d"
+        }
+      ]
+    },
+    {
+      "support": {
+        "index": 3,
+        "requestedModel": "deepseek/deepseek-v4.1-flash",
+        "resolvedModel": "deepseek/deepseek-v4.1-flash",
+        "redactionsApplied": false,
+        "sources": [
+          {
+            "id": "b75edbecf65bd5af",
+            "url": "https://www.pbs.org/newshour/world/photographer-attacked-by-settlers-in-the-west-bank-feels-insulted-by-netanyahu",
+            "title": "Photographer attacked by settlers in the West Bank feels insulted by Netanyahu",
+            "publisher": "PBS NewsHour",
+            "retrievedAt": "2026-10-18T19:22:51.291Z",
+            "publishedAt": "2026-10-18T17:13:24.000Z",
+            "evergreen": false
+          },
+          {
+            "id": "c898da23df13396c",
+            "url": "https://www.cbc.ca/news/canada/saskatchewan/outlook-jeopardy-champion-9.7385096?cmp=rss",
+            "title": "Saskatchewan-born man achieves dream of becoming Jeopardy! Champion",
+            "publisher": "CBC Canada",
+            "retrievedAt": "2026-10-18T19:22:51.291Z",
+            "publishedAt": "2026-10-18T11:00:00.000Z",
+            "evergreen": false
+          }
+        ],
+        "evidence": [
+          {
+            "id": "S6E1",
+            "sourceId": "b75edbecf65bd5af",
+            "quote": "JERUSALEM (AP) — The photographer with The Washington Post who was attacked by Jewish settlers in the occupied West Bank so badly that several vertebrae"
+          },
+          {
+            "id": "S6E3",
+            "sourceId": "b75edbecf65bd5af",
+            "quote": "Levine, from her hospital bed, has told The Associated Press she was \"shocked and insulted\" that Netanyahu referred to the attack on her and others"
+          },
+          {
+            "id": "S6E4",
+            "sourceId": "b75edbecf65bd5af",
+            "quote": "as \"alleged,\" adding that the prime minister \"had all the evidence on the table.\""
+          },
+          {
+            "id": "S6E21",
+            "sourceId": "b75edbecf65bd5af",
+            "quote": "She said she has not heard from Netanyahu. His outgoing government is dominated by West Bank settlers and their supporters."
+          },
+          {
+            "id": "S6E6",
+            "sourceId": "b75edbecf65bd5af",
+            "quote": "Herzog was \"actually very sweet,\" Levine said Sunday. \"Down to earth, calling them thugs, inviting me for a personal hug."
+          },
+          {
+            "id": "S6E15",
+            "sourceId": "b75edbecf65bd5af",
+            "quote": "He's ashamed for what happened: 'These people are a stain on Israeli society.'\""
+          },
+          {
+            "id": "S6E12",
+            "sourceId": "b75edbecf65bd5af",
+            "quote": "In contrast, she described the sharp condemnation of settler violence expressed to her in a call from Israel's president, and in a letter signed by"
+          },
+          {
+            "id": "S6E13",
+            "sourceId": "b75edbecf65bd5af",
+            "quote": "several of the country's top former security and intelligence officials."
+          },
+          {
+            "id": "S6E17",
+            "sourceId": "b75edbecf65bd5af",
+            "quote": "Rights groups have said few settlers are ever punished for the attacks that have surged in recent years."
+          },
+          {
+            "id": "S6E7",
+            "sourceId": "b75edbecf65bd5af",
+            "quote": "Levine told the AP that \"I never wanted the story to be about me but about the people I've tried to document\" over decades."
+          },
+          {
+            "id": "S7E6",
+            "sourceId": "c898da23df13396c",
+            "quote": "Rian Robertson became a returning champion winning four consecutive games. Across his five appearances he won a cumulative total of $66,101 US."
+          },
+          {
+            "id": "S7E7",
+            "sourceId": "c898da23df13396c",
+            "quote": "He says that he's been trying to get on the show seriously for about 15 years, but his interest in facts and general knowledge questions"
+          },
+          {
+            "id": "S7E3",
+            "sourceId": "c898da23df13396c",
+            "quote": "\"When he was younger, whenever he found out a fact that he kind of liked or was interested in, he would write it in this"
+          },
+          {
+            "id": "S7E4",
+            "sourceId": "c898da23df13396c",
+            "quote": "loose leaf paper and stick it in a binder."
+          },
+          {
+            "id": "S7E9",
+            "sourceId": "c898da23df13396c",
+            "quote": "And he called it his book of knowledge,\" said Ian."
+          },
+          {
+            "id": "S7E20",
+            "sourceId": "c898da23df13396c",
+            "quote": "champion was born and raised in Outlook, Sask., a town located about 80 kilometres south of Saskatoon, with a population of just over 2,300."
+          },
+          {
+            "id": "S7E11",
+            "sourceId": "c898da23df13396c",
+            "quote": "\"I mean obviously as someone who loves the game of Jeopardy!, I wish I could keep playing in perpetuity, but I mean you have got"
+          },
+          {
+            "id": "S7E12",
+            "sourceId": "c898da23df13396c",
+            "quote": "to lose at some point, I guess,\" said Rian."
+          },
+          {
+            "id": "S7E15",
+            "sourceId": "c898da23df13396c",
+            "quote": "\"I am just so thrilled, because I mean to see anyone achieve a lifelong dream is amazing, and in fact, he's inspired me to get"
+          },
+          {
+            "id": "S7E16",
+            "sourceId": "c898da23df13396c",
+            "quote": "back on the bandwagon because my dream is to be fluently bilingual in French before I die,\" said Susan."
+          }
+        ],
+        "posts": [
+          {
+            "postId": "post-review-20261018T192251Z-381c-3-0",
+            "evidenceIds": [
+              "S6E1",
+              "S6E3",
+              "S6E4",
+              "S6E21",
+              "S6E6",
+              "S6E15"
+            ],
+            "discussion": [
+              {
+                "turnIndex": 0,
+                "voice": "Take",
+                "evidenceIds": [
+                  "S6E3",
+                  "S6E4",
+                  "S6E6"
+                ]
+              },
+              {
+                "turnIndex": 1,
+                "voice": "Pushback",
+                "evidenceIds": [
+                  "S6E12",
+                  "S6E13",
+                  "S6E17"
+                ]
+              },
+              {
+                "turnIndex": 2,
+                "voice": "Reply",
+                "evidenceIds": [
+                  "S6E7"
+                ]
+              }
+            ]
+          },
+          {
+            "postId": "post-review-20261018T192251Z-381c-3-1",
+            "evidenceIds": [
+              "S7E6",
+              "S7E7",
+              "S7E3",
+              "S7E4",
+              "S7E9",
+              "S7E20"
+            ],
+            "discussion": [
+              {
+                "turnIndex": 0,
+                "voice": "Take",
+                "evidenceIds": [
+                  "S7E3",
+                  "S7E4",
+                  "S7E9"
+                ]
+              },
+              {
+                "turnIndex": 1,
+                "voice": "Pushback",
+                "evidenceIds": [
+                  "S7E11",
+                  "S7E12"
+                ]
+              },
+              {
+                "turnIndex": 2,
+                "voice": "Reply",
+                "evidenceIds": [
+                  "S7E15",
+                  "S7E16"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "decisions": {
+        "posts": [
+          {
+            "key": "P1",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "The headline attributes the statement to the Washington Post photographer she is the one saying Netanyahu called the attack on her 'alleged,' which matches S6E3/S6E4: Levine told the AP she was 'shocked and insulted' that Netanyahu referred to the attack on her and others as 'alleged.' Actor, action and object agree.",
+                "evidenceIds": [
+                  "S6E3",
+                  "S6E4",
+                  "S6E1"
+                ],
+                "segments": [
+                  {
+                    "text": "A Washington Post Photographer Says Netanyahu Called the Attack on Her 'Alleged'",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S6E1",
+                      "S6E3",
+                      "S6E4"
+                    ],
+                    "explanation": "S6E1 identifies her as the photographer with The Washington Post, and S6E3-S6E4 have her telling the AP that Netanyahu referred to the attack on her and others as 'alleged,' so the headline's speaker (the photographer) and the reported word"
+                  }
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "reject",
+                "reason": "unsupported_claim",
+                "claim": "A letter signed by several of the country's former top security and intelligence officials condemned the violence as well, she said",
+                "explanation": "The letter (and the contrast she drew with the prime minister's wording) is supported only by S6E12/S6E13, which are selected for discussion.1, not for the body. 'Israel holds elections in two weeks' likewise appears only in the unselected reading context. Borrowing another unit's support is not allowed.",
+                "evidenceIds": [
+                  "S6E1",
+                  "S6E3",
+                  "S6E4",
+                  "S6E21",
+                  "S6E6",
+                  "S6E15"
+                ],
+                "segments": [
+                  {
+                    "text": "Heidi Levine, a photographer with The Washington Post, was attacked by Jewish settlers in the occupied West Bank badly enough that several vertebrae were broken, the Associated Press reports.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S6E1"
+                    ],
+                    "explanation": "S6E1 (with its sentence group) states that the photographer with The Washington Post was attacked by Jewish settlers in the occupied West Bank so badly that several vertebrae were broken; AP attribution comes from the same dateline."
+                  },
+                  {
+                    "text": "From her hospital bed she said she was “shocked and insulted” that Prime Minister Benjamin Netanyahu referred to the attack on her and others as “alleged,” adding that he “had all the evidence on the table.”",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S6E3",
+                      "S6E4"
+                    ],
+                    "explanation": "S6E3-S6E4 give Levine, from her hospital bed, saying she was 'shocked and insulted' that Netanyahu called the attack on her and others 'alleged' and that the prime minister 'had all the evidence on the table.'"
+                  },
+                  {
+                    "text": "She told the AP she has not heard from Netanyahu, whose outgoing government is dominated by West Bank settlers and their supporters;",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S6E21"
+                    ],
+                    "explanation": "S6E21 states she has not heard from Netanyahu and that his outgoing government is dominated by West Bank settlers and their supporters."
+                  },
+                  {
+                    "text": "Israel's president, who did call her,",
+                    "kind": "unsupported_fact",
+                    "evidenceIds": [],
+                    "explanation": "The body's selected IDs never identify Herzog as Israel's president or state that he called her; that comes from S6E12 and the unselected context, which cannot authorize the fact for this unit."
+                  },
+                  {
+                    "text": "she described as kind, calling the attackers thugs and a stain on Israeli society.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S6E6",
+                      "S6E15"
+                    ],
+                    "explanation": "S6E6 has Levine calling Herzog 'actually very sweet' and quoting him calling them 'thugs'; S6E15 has him saying 'These people are a stain on Israeli society.'"
+                  },
+                  {
+                    "text": "A letter signed by several of the country's former top security and intelligence officials condemned the violence as well, she said — a letter she contrasted with the prime minister's word choice.",
+                    "kind": "unsupported_fact",
+                    "evidenceIds": [],
+                    "explanation": "The letter and her contrast are supported only by S6E12/S6E13, which are selected for discussion.1, not for the body; no body selection covers a letter or its signers."
+                  },
+                  {
+                    "text": "Israel holds elections in two weeks.",
+                    "kind": "unsupported_fact",
+                    "evidenceIds": [],
+                    "explanation": "No selected ID states an election date; the two-weeks-out timing exists only in the unselected reading context, which cannot authorize it for the body."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "reject",
+                "reason": "unsupported_claim",
+                "claim": "Levine had broken vertebrae and a president on the phone calling her attackers a stain on Israeli society",
+                "explanation": "This turn's selections are only S6E3, S6E4 and S6E6. None mentions broken vertebrae (that is S6E1/S6E2, selected for the body), and none contains the 'stain on Israeli society' line (S6E15, selected for the body/title). The office wording also shifts the word 'alleged' from Netanyahu himself to 'the prime minister's office.'",
+                "evidenceIds": [
+                  "S6E3",
+                  "S6E4",
+                  "S6E6"
+                ],
+                "segments": [
+                  {
+                    "text": "The word “alleged” is doing the work here.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S6E3",
+                      "S6E4"
+                    ],
+                    "explanation": "An interpretive jab whose premise (that 'alleged' was the word used) is supported by S6E3-S6E4."
+                  },
+                  {
+                    "text": "Levine had broken vertebrae",
+                    "kind": "unsupported_fact",
+                    "evidenceIds": [],
+                    "explanation": "Nothing in this turn's selected evidence (S6E3, S6E4, S6E6) mentions vertebrae or broken bones; that injury detail comes from S6E1/S6E2, selected only for the body."
+                  },
+                  {
+                    "text": "and a president on the phone calling her attackers a stain on Israeli society",
+                    "kind": "unsupported_fact",
+                    "evidenceIds": [],
+                    "explanation": "S6E6 shows Herzog as sweet and calling them 'thugs,' but does not identify him as president, state that he phoned her, or contain the 'stain on Israeli society' line (S6E15, not selected for this turn)."
+                  },
+                  {
+                    "text": "— and the prime minister's office, in her account, went with the vocabulary of an unresolved question.",
+                    "kind": "unsupported_fact",
+                    "evidenceIds": [],
+                    "explanation": "The source has Netanyahu himself referring to the attack as 'alleged' (S6E3-S6E4); attributing the wording to 'the prime minister's office' shifts the actor, and no selected ID supports the office as the speaker."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "The turn's facts match its selections: S6E12 gives the call from Israel's president and the letter, S6E13 names the former security/intelligence officials who signed it, and S6E17 states that rights groups say few settlers are ever punished for attacks that have surged in recent years. 'Cheap,' 'not policy' and 'sympathy costs nothing' are commentary on those supported premises.",
+                "evidenceIds": [
+                  "S6E12",
+                  "S6E13",
+                  "S6E17"
+                ],
+                "segments": [
+                  {
+                    "text": "Calls and letters are cheap.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Evaluative framing, not an empirical claim."
+                  },
+                  {
+                    "text": "The president's phone call and the letter from ex-security chiefs are expressions of shame, not policy,",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S6E12",
+                      "S6E13"
+                    ],
+                    "explanation": "The existence of the president's call and the letter from top former security and intelligence officials is supported by S6E12-S6E13; calling them shame rather than policy is the turn's own evaluation."
+                  },
+                  {
+                    "text": "and rights groups say few settlers are ever punished for attacks that have surged in recent years.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S6E17"
+                    ],
+                    "explanation": "S6E17 states exactly that rights groups have said few settlers are ever punished for the attacks that have surged in recent years."
+                  },
+                  {
+                    "text": "Sympathy costs nothing to give.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Aphoristic commentary with no separate factual assertion."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.2",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "S6E7 supports the substance: Levine told the AP she 'never wanted the story to be about me but about the people I've tried to document' over decades. The comment on why that makes her comparison telling is interpretation resting on that supported quote.",
+                "evidenceIds": [
+                  "S6E7"
+                ],
+                "segments": [
+                  {
+                    "text": "Still, the comparison Levine draws is telling precisely because of who is making it:",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "An evaluative lead-in; it asserts no separate empirical fact."
+                  },
+                  {
+                    "text": "a photographer who says she never wanted the story to be about her at all, only about the people she has spent decades documenting.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S6E7"
+                    ],
+                    "explanation": "S6E7 quotes Levine saying she never wanted the story to be about her but about the people she has tried to document over decades, matching the speaker, the sentiment and the time span."
+                  }
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "A Washington Post Photographer Says Netanyahu Called the Attack on Her 'Alleged'",
+              "titleActor": "A Washington Post Photographer",
+              "sourceActor": "Levine",
+              "sourceEvidenceId": "S6E3",
+              "relation": "aligned"
+            }
+          },
+          {
+            "key": "P2",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "The binder and its name are supported by S7E3/S7E4/S7E9 (he wrote facts on loose-leaf paper, stuck them in a binder, and called it his book of knowledge), and the $66,101 figure by S7E6 (four consecutive wins, cumulative $66,101 US across five appearances). The title asserts no claim by a named actor.",
+                "evidenceIds": [
+                  "S7E3",
+                  "S7E4",
+                  "S7E6",
+                  "S7E9"
+                ],
+                "segments": [
+                  {
+                    "text": "A Binder Called 'My Book of Knowledge,'",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S7E3",
+                      "S7E4",
+                      "S7E9"
+                    ],
+                    "explanation": "S7E3-S7E4 have him writing facts he liked on loose-leaf paper and sticking them in a binder; S7E9 has Ian saying he called it his book of knowledge."
+                  },
+                  {
+                    "text": "and a Jeopardy! Run Worth $66,101",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S7E6"
+                    ],
+                    "explanation": "S7E6 gives the cumulative total of $66,101 US across his five appearances as returning champion."
+                  }
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Each reported fact maps to the body's selections: S7E6 (returning champion, four consecutive wins, $66,101 US over five appearances), S7E7 (about 15 years trying seriously to get on the show), S7E3/S7E4/S7E9 (childhood habit of writing facts on loose-leaf paper into a binder, 'his book of knowledge,' said Ian) and S7E20 (born and raised in Outlook, Sask., about 80 km south of Saskatoon, population",
+                "evidenceIds": [
+                  "S7E6",
+                  "S7E7",
+                  "S7E3",
+                  "S7E4",
+                  "S7E9",
+                  "S7E20"
+                ],
+                "segments": [
+                  {
+                    "text": "Rian Robertson became a returning champion on Jeopardy!, winning four consecutive games and a cumulative $66,101 US across five appearances, CBC reports.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S7E6"
+                    ],
+                    "explanation": "S7E6 states he became a returning champion winning four consecutive games and that across five appearances he won a cumulative $66,101 US; the CBC attribution is the source's own publisher."
+                  },
+                  {
+                    "text": "He had been trying seriously to get on the show for about 15 years.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S7E7"
+                    ],
+                    "explanation": "S7E7: 'he's been trying to get on the show seriously for about 15 years.'"
+                  },
+                  {
+                    "text": "His father, Ian, remembers the childhood habit behind it: whenever Rian found out a fact he liked, he wrote it on loose-leaf paper and kept it in a binder — “his book of knowledge.”",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S7E3",
+                      "S7E4",
+                      "S7E9"
+                    ],
+                    "explanation": "S7E3-S7E4: when younger, whenever he found a fact he liked he would write it on loose-leaf paper and stick it in a binder; S7E9 has Ian saying 'he called it his book of knowledge.'"
+                  },
+                  {
+                    "text": "Robertson was born and raised in Outlook, Sask., a town of just over 2,300 people about 80 kilometres south of Saskatoon.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S7E20"
+                    ],
+                    "explanation": "S7E20 states the champion was born and raised in Outlook, Sask., about 80 kilometres south of Saskatoon, population just over 2,300."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "reject",
+                "reason": "unsupported_claim",
+                "claim": "Fifteen years of writing down whatever fact caught his attention",
+                "explanation": "This turn's selections (S7E3, S7E4, S7E9) describe a childhood habit of writing down facts; the '15 years' in the source attaches to trying to get on the show (S7E7), which is not selected here. So the fifteen-year span is both unsupported in this unit and shifted onto the writing habit.",
+                "evidenceIds": [
+                  "S7E3",
+                  "S7E4",
+                  "S7E9"
+                ],
+                "segments": [
+                  {
+                    "text": "The binder is the underrated part of this résumé.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S7E3",
+                      "S7E4"
+                    ],
+                    "explanation": "Evaluative claim about the binder, whose existence is supported by S7E3-S7E4."
+                  },
+                  {
+                    "text": "Fifteen years of writing down whatever fact caught his attention is a stranger, slower preparation than memorizing trivia lists",
+                    "kind": "unsupported_fact",
+                    "evidenceIds": [],
+                    "explanation": "No ID selected for this turn mentions fifteen years; S7E7 ties that span to trying to get on the show, while the writing-down habit is placed in childhood in S7E3-S7E4. The comparison is opinion, but the fifteen-year premise is unsupported."
+                  },
+                  {
+                    "text": "— and it is the habit the wins are built on.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Causal evaluation presented as commentary, resting on the binder habit described in S7E3-S7E4."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "The quoted lines match the selections exactly: S7E11 has him wishing he could keep playing 'in perpetuity,' S7E12 the shrug that 'you have got to lose at some point,' said Rian. The closing characterization of his appetite is interpretation of those supported quotes.",
+                "evidenceIds": [
+                  "S7E11",
+                  "S7E12"
+                ],
+                "segments": [
+                  {
+                    "text": "A collector's hobby doesn't explain the appetite.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Interpretive framing with no separate empirical assertion."
+                  },
+                  {
+                    "text": "He says he wishes he could keep playing “in perpetuity” and shrugs that “you have got to lose at some point.”",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S7E11",
+                      "S7E12"
+                    ],
+                    "explanation": "S7E11-S7E12 quote Rian: he wishes he could keep playing in perpetuity but 'you have got to lose at some point.'"
+                  },
+                  {
+                    "text": "That's not someone hoarding facts; that's someone who wanted the contest itself to continue.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S7E11",
+                      "S7E12"
+                    ],
+                    "explanation": "Subjective reading of the supported quotes."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.2",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "S7E15-S7E16 support the substance: Susan says he inspired her to get back on the bandwagon because her dream is to be fluently bilingual in French, and that she has resumed pursuing it; the 'aftershock' framing is commentary.",
+                "evidenceIds": [
+                  "S7E15",
+                  "S7E16"
+                ],
+                "segments": [
+                  {
+                    "text": "The most useful aftershock may be back in Saskatchewan:",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Speculative framing ('may be'), not a hard empirical claim."
+                  },
+                  {
+                    "text": "his mother, Susan, says that since his run she has taken up her French lessons again, chasing her own dream of being fluently bilingual.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S7E15",
+                      "S7E16"
+                    ],
+                    "explanation": "S7E15-S7E16 have Susan saying he inspired her to get back on the bandwagon because her dream is to be fluently bilingual in French, which supports the resumption and the dream."
+                  }
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "A Binder Called 'My Book of Knowledge,' and a Jeopardy! Run Worth $66,101",
+              "titleActor": null,
+              "sourceActor": null,
+              "sourceEvidenceId": null,
+              "relation": "no_attributed_claim"
+            }
+          }
+        ]
+      },
+      "candidates": [
+        {
+          "title": "A Washington Post Photographer Says Netanyahu Called the Attack on Her 'Alleged'",
+          "digest": "5abbf96bf687523be5292b14e076ee3dd913896d61cf6cad1356285a50489497"
+        },
+        {
+          "title": "A Binder Called 'My Book of Knowledge,' and a Jeopardy! Run Worth $66,101",
+          "digest": "2687e9791b9c9f075d586d0e34b798595ea80ff4629cdca961f4c95d4a1a7b73"
+        }
+      ]
+    },
+    {
+      "support": {
+        "index": 4,
+        "requestedModel": "deepseek/deepseek-v4.1-flash",
+        "resolvedModel": "deepseek/deepseek-v4.1-flash",
+        "redactionsApplied": false,
+        "sources": [
+          {
+            "id": "21a193dc4fa8ed00",
+            "url": "https://theconversation.com/alberta-and-quebec-referendums-test-canadian-unity-amid-hostility-from-the-u-s-294387",
+            "title": "Alberta and Québec referendums test Canadian unity amid hostility from the U.S.",
+            "publisher": "The Conversation Canada",
+            "retrievedAt": "2026-10-18T19:22:51.291Z",
+            "publishedAt": "2026-10-18T12:05:35.000Z",
+            "evergreen": false
+          },
+          {
+            "id": "0ec62874309239b2",
+            "url": "https://variety.com/2026/film/news/taylor-swift-performance-academy-gala-five-songs-1236915817/",
+            "title": "Taylor Swift Fires Up Academy Gala With Four Songs in Her First Band Performance Since the Eras Tour",
+            "publisher": "Variety Film",
+            "retrievedAt": "2026-10-18T19:22:51.291Z",
+            "publishedAt": "2026-10-18T18:05:24.000Z",
+            "evergreen": false
+          }
+        ],
+        "evidence": [
+          {
+            "id": "S3E1",
+            "sourceId": "21a193dc4fa8ed00",
+            "quote": "People in the Canadian province of Alberta are voting on whether to stay in Canada or begin a process for a second, binding referendum on"
+          },
+          {
+            "id": "S3E11",
+            "sourceId": "21a193dc4fa8ed00",
+            "quote": "By 2030, those in Québec could face a similar choice."
+          },
+          {
+            "id": "S3E12",
+            "sourceId": "21a193dc4fa8ed00",
+            "quote": "Alberta’s grievances focus on federal economic, energy and climate policies, immigration and political representation."
+          },
+          {
+            "id": "S3E20",
+            "sourceId": "21a193dc4fa8ed00",
+            "quote": "Québec’s concern is the protection of its distinctive language and culture in an anglo-dominated North America."
+          },
+          {
+            "id": "S3E9",
+            "sourceId": "21a193dc4fa8ed00",
+            "quote": "Trump’s tariffs have affected the two provinces differently — and they’ve responded accordingly."
+          },
+          {
+            "id": "S3E17",
+            "sourceId": "21a193dc4fa8ed00",
+            "quote": "Alberta is among the least affected by Trump’s tariffs because its exports of oil, gas and beef are exempted."
+          },
+          {
+            "id": "S3E4",
+            "sourceId": "21a193dc4fa8ed00",
+            "quote": "In May, Alberta Premier Danielle Smith announced a referendum with two options in a clear bid to unite her divided United Conservative Party (UCP)."
+          },
+          {
+            "id": "S3E13",
+            "sourceId": "21a193dc4fa8ed00",
+            "quote": "The move followed a court’s dismissal of a citizen petition on independence pushed by separatist elements within the party."
+          },
+          {
+            "id": "S3E19",
+            "sourceId": "21a193dc4fa8ed00",
+            "quote": "Polls show that some 70 per cent of people in Alberta and Québec favour remaining in Canada, and many oppose the referendums."
+          },
+          {
+            "id": "S3E14",
+            "sourceId": "21a193dc4fa8ed00",
+            "quote": "Through three stints governing, the PQ has held two independence referendums."
+          },
+          {
+            "id": "S3E23",
+            "sourceId": "21a193dc4fa8ed00",
+            "quote": "The 1980 vote failed by 40-60 per cent of voter support, and in 1995, those wanting to separate from Canada lost by a narrow"
+          },
+          {
+            "id": "S3E24",
+            "sourceId": "21a193dc4fa8ed00",
+            "quote": "50.6-49.4 margin."
+          },
+          {
+            "id": "S8E1",
+            "sourceId": "0ec62874309239b2",
+            "quote": "Taylor Swift got some of the old gang back together for her first full-band performance since the Eras Tour, delivering a four-song set to a"
+          },
+          {
+            "id": "S8E2",
+            "sourceId": "0ec62874309239b2",
+            "quote": "black-tie audience Saturday night at the Academy Museum 6th Annual Gala."
+          },
+          {
+            "id": "S8E3",
+            "sourceId": "0ec62874309239b2",
+            "quote": "As an indicator of just how long she’s been off any kind of regular performance circuit, the gala-capping show included Swift’s first-ever live rendering of"
+          },
+          {
+            "id": "S8E4",
+            "sourceId": "0ec62874309239b2",
+            "quote": "“The Fate of Ophelia,” the smash hit single she released just over a year ago, on Oct. 3, 2025."
+          },
+          {
+            "id": "S8E5",
+            "sourceId": "0ec62874309239b2",
+            "quote": "As expected, she also sang her contender for the 2027 Oscars, “I Knew It, I Knew You,” from the Pixar film “Toy Story 5.”"
+          },
+          {
+            "id": "S8E20",
+            "sourceId": "0ec62874309239b2",
+            "quote": "Her backing crew had some singers and players who would be familiar to Swifties, but also some differences in the lineup, which was stripped down"
+          },
+          {
+            "id": "S8E21",
+            "sourceId": "0ec62874309239b2",
+            "quote": "in some regards and packed out in others, namely with a horn section."
+          },
+          {
+            "id": "S8E22",
+            "sourceId": "0ec62874309239b2",
+            "quote": "She was joined by two sax players — not a regular staple of her touring outfit — as well as four singers and a guitarist,"
+          },
+          {
+            "id": "S8E6",
+            "sourceId": "0ec62874309239b2",
+            "quote": "For the remaining two slots in her set, Swift dug farther back into the past, covering both her cynical and romantic bases, opening with “Blank"
+          },
+          {
+            "id": "S8E7",
+            "sourceId": "0ec62874309239b2",
+            "quote": "Space” and ending with “Love Story.”"
+          }
+        ],
+        "posts": [
+          {
+            "postId": "post-review-20261018T192251Z-381c-4-0",
+            "evidenceIds": [
+              "S3E1",
+              "S3E11",
+              "S3E12",
+              "S3E20",
+              "S3E9",
+              "S3E17"
+            ],
+            "discussion": [
+              {
+                "turnIndex": 0,
+                "voice": "Take",
+                "evidenceIds": [
+                  "S3E4",
+                  "S3E13"
+                ]
+              },
+              {
+                "turnIndex": 1,
+                "voice": "Pushback",
+                "evidenceIds": [
+                  "S3E19"
+                ]
+              },
+              {
+                "turnIndex": 2,
+                "voice": "Reply",
+                "evidenceIds": [
+                  "S3E14",
+                  "S3E23",
+                  "S3E24"
+                ]
+              }
+            ]
+          },
+          {
+            "postId": "post-review-20261018T192251Z-381c-4-1",
+            "evidenceIds": [
+              "S8E1",
+              "S8E2",
+              "S8E3",
+              "S8E4",
+              "S8E5"
+            ],
+            "discussion": [
+              {
+                "turnIndex": 0,
+                "voice": "Take",
+                "evidenceIds": [
+                  "S8E20",
+                  "S8E21",
+                  "S8E22"
+                ]
+              },
+              {
+                "turnIndex": 1,
+                "voice": "Pushback",
+                "evidenceIds": [
+                  "S8E6",
+                  "S8E7"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "decisions": {
+        "posts": [
+          {
+            "key": "P1",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Headline attributes the vote to Alberta, matching S3E1's 'People in the Canadian province of Alberta are voting...', and 'Québec's Version Could Arrive by 2030' tracks S3E11's 'By 2030, those in Québec could face a similar choice.' No shift of actor or scope.",
+                "evidenceIds": [
+                  "S3E1",
+                  "S3E11"
+                ],
+                "segments": [
+                  {
+                    "text": "Alberta Votes on Staying in Canada,",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S3E1"
+                    ],
+                    "explanation": "S3E1 states that people in Alberta are voting on whether to stay in Canada or begin a process for a second, binding referendum; headline's metonym 'Alberta' matches. 'Staying in Canada' is verbatim in S3E1."
+                  },
+                  {
+                    "text": "and Québec's Version Could Arrive by 2030",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S3E11"
+                    ],
+                    "explanation": "S3E11 says that by 2030 those in Québec could face a similar choice, which is exactly the possible arrival of a Québec version by 2030."
+                  }
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "reject",
+                "reason": "unsupported_claim",
+                "claim": "The two movements share an appetite for more autonomy from Ottawa and not much else.",
+                "explanation": "The shared 'appetite for more autonomy from Ottawa' is asserted only in S3E3, which is not among this unit's selected IDs; S3E12 and S3E20 establish differing grievances and concerns, not a shared goal. A fact present on the page but outside the selected support cannot authorize the clause.",
+                "evidenceIds": [
+                  "S3E1",
+                  "S3E11",
+                  "S3E9",
+                  "S3E12",
+                  "S3E17",
+                  "S3E20"
+                ],
+                "segments": [
+                  {
+                    "text": "Albertans are voting on whether to stay in Canada or begin a process toward a second, binding referendum on independence.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S3E1"
+                    ],
+                    "explanation": "S3E1: people in Alberta are voting on whether to stay in Canada or begin a process for a second, binding referendum; its sentence group supplies 'independence'."
+                  },
+                  {
+                    "text": "By 2030, Québecers could face a similar choice,",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S3E11"
+                    ],
+                    "explanation": "S3E11: by 2030, those in Québec could face a similar choice."
+                  },
+                  {
+                    "text": "which means two distinct unity arguments are running on different clocks north of the border — one urgent, one still hypothetical enough to argue about for years.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S3E1",
+                      "S3E11"
+                    ],
+                    "explanation": "Editorial framing of two campaigns on different timelines; the premises (one vote underway, one possible by 2030) are supported by S3E1 and S3E11."
+                  },
+                  {
+                    "text": "The two movements share an appetite for more autonomy from Ottawa and not much else.",
+                    "kind": "unsupported_fact",
+                    "evidenceIds": [],
+                    "explanation": "The shared appetite for more autonomy from Ottawa appears only in unselected S3E3; the selected IDs give Alberta's grievances (S3E12) and Québec's language/culture concern (S3E20), not a common autonomy goal."
+                  },
+                  {
+                    "text": "Alberta's grievances centre on federal economic, energy and climate policy, immigration and political representation;",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S3E12"
+                    ],
+                    "explanation": "S3E12 lists Alberta's grievances as federal economic, energy and climate policies, immigration and political representation."
+                  },
+                  {
+                    "text": "Québec's turn on protecting a distinctive language and culture in an anglo-dominated North America.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S3E20"
+                    ],
+                    "explanation": "S3E20 gives Québec's concern as protecting its distinctive language and culture in an anglo-dominated North America."
+                  },
+                  {
+                    "text": "Trump's tariffs have hit the two provinces differently,",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S3E9"
+                    ],
+                    "explanation": "S3E9: Trump's tariffs have affected the two provinces differently."
+                  },
+                  {
+                    "text": "and Alberta is among the least affected because its oil, gas and beef exports are exempted.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S3E17"
+                    ],
+                    "explanation": "S3E17: Alberta is among the least affected because oil, gas and beef exports are exempted."
+                  },
+                  {
+                    "text": "The same external pressure that shapes the national mood therefore lands unevenly on the two campaigns, which is worth remembering whenever someone claims Washington will settle the question for them.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S3E9"
+                    ],
+                    "explanation": "Inference about external pressure landing unevenly, resting on the supported differential tariff impact in S3E9."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Smith's two-option referendum as a bid to unite a divided UCP (S3E4) and the prior court dismissal of a separatist-backed citizen petition (S3E13) are both accurately restated; the whip metaphor is commentary.",
+                "evidenceIds": [
+                  "S3E4",
+                  "S3E13"
+                ],
+                "segments": [
+                  {
+                    "text": "The Alberta vote is also a piece of party management.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S3E4"
+                    ],
+                    "explanation": "Analytic framing supported by S3E4's 'clear bid to unite her divided United Conservative Party'; no unsupported empirical premise."
+                  },
+                  {
+                    "text": "Premier Danielle Smith announced a two-option referendum in a bid to unite a divided UCP,",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S3E4"
+                    ],
+                    "explanation": "S3E4: Alberta Premier Danielle Smith announced a referendum with two options in a bid to unite her divided UCP."
+                  },
+                  {
+                    "text": "after a court dismissed a citizen petition on independence pushed by separatist elements inside the party.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S3E13"
+                    ],
+                    "explanation": "S3E13: the move followed a court's dismissal of a citizen petition on independence pushed by separatist elements within the party."
+                  },
+                  {
+                    "text": "A ballot can be a whip with a polling station attached.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Metaphor about ballots and party discipline; contains no empirical assertion requiring source support."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "The polling figure and the observation that many oppose the referendums come straight from S3E19; the surrounding lines are commentary, not unsupported assertions.",
+                "evidenceIds": [
+                  "S3E19"
+                ],
+                "segments": [
+                  {
+                    "text": "Party management works right up until the public gets a say.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Aphoristic commentary about party management meeting public votes; no factual premise needing support."
+                  },
+                  {
+                    "text": "Polls put about 70 per cent of people in both provinces in favour of remaining in Canada, and many oppose the referendums at all.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S3E19"
+                    ],
+                    "explanation": "S3E19: polls show about 70 per cent in Alberta and Québec favour remaining in Canada, and many oppose the referendums."
+                  },
+                  {
+                    "text": "Scheduling a vote is not the same as wanting one.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Distinction between holding a vote and wanting one; evaluative, no unsupported empirical claim."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.2",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "The PQ's two referendums across three governing stints and both margins (40-60 in 1980; 50.6-49.4 in 1995) are exactly what S3E14, S3E23 and S3E24 state; the framing lines are opinion.",
+                "evidenceIds": [
+                  "S3E14",
+                  "S3E23",
+                  "S3E24"
+                ],
+                "segments": [
+                  {
+                    "text": "Awkward majorities are exactly what the sovereignty movement has learned to live with.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S3E23"
+                    ],
+                    "explanation": "Subjective framing of the sovereignty movement's experience with close results; rests on the supported record of referendum outcomes."
+                  },
+                  {
+                    "text": "The Parti Québecois has held two independence referendums across three stints governing:",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S3E14"
+                    ],
+                    "explanation": "S3E14: through three stints governing, the PQ has held two independence referendums."
+                  },
+                  {
+                    "text": "the 1980 vote failed 40-60,",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S3E23"
+                    ],
+                    "explanation": "S3E23: the 1980 vote failed by 40-60 per cent of voter support."
+                  },
+                  {
+                    "text": "and the 1995 vote was decided by 50.6 per cent to 49.4.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S3E23",
+                      "S3E24"
+                    ],
+                    "explanation": "S3E23/S3E24 give the 1995 result decided by a 50.6-49.4 margin; the turn does not reverse who lost."
+                  },
+                  {
+                    "text": "Comfortable polling has a short shelf life.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Generalizing comment on polling leads; no specific empirical claim requiring support."
+                  }
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "Alberta Votes on Staying in Canada, and Québec's Version Could Arrive by 2030",
+              "titleActor": "Alberta",
+              "sourceActor": "People in the Canadian province of Alberta",
+              "sourceEvidenceId": "S3E1",
+              "relation": "aligned"
+            }
+          },
+          {
+            "key": "P2",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Title's actor is Swift, matching S8E1's first full-band performance since the Eras Tour; the two recent songs are the single released Oct. 3, 2025 (S8E4) and the current 2027 Oscar contender (S8E5). 'Very recent' is loose editorial characterization of her newest material.",
+                "evidenceIds": [
+                  "S8E1",
+                  "S8E4",
+                  "S8E5"
+                ],
+                "segments": [
+                  {
+                    "text": "Taylor Swift's First Full-Band Set Since the Eras Tour",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S8E1"
+                    ],
+                    "explanation": "S8E1: Taylor Swift's first full-band performance since the Eras Tour, delivering a four-song set; 'set' matches."
+                  },
+                  {
+                    "text": "Had Two Very Recent Songs In It",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S8E4",
+                      "S8E5"
+                    ],
+                    "explanation": "The two songs at issue are her newest: 'The Fate of Ophelia', released Oct. 3, 2025 (S8E4), and 'I Knew It, I Knew You', her 2027 Oscar contender from Toy Story 5 (S8E5). 'Very recent' is a degree descriptor, not a new fact."
+                  }
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "reject",
+                "reason": "unsupported_claim",
+                "claim": "Half of it was new material.",
+                "explanation": "Asserting that the other half of the four-song set was not new requires S8E6/S8E7 (the 'remaining two slots' dug back into the past), which are selected only for the later turn. This unit's IDs name just two recent songs and never establish what the other two were.",
+                "evidenceIds": [
+                  "S8E1",
+                  "S8E2",
+                  "S8E3",
+                  "S8E4",
+                  "S8E5"
+                ],
+                "segments": [
+                  {
+                    "text": "Taylor Swift gave the Academy Museum's 6th Annual Gala its closing performance on Saturday night: her first full-band set since the Eras Tour, four songs delivered to a black-tie audience.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S8E1",
+                      "S8E2",
+                      "S8E3"
+                    ],
+                    "explanation": "S8E1-S8E2: four-song set to a black-tie audience Saturday night at the Academy Museum 6th Annual Gala; S8E3 calls it the gala-capping show, i.e., the closing performance."
+                  },
+                  {
+                    "text": "Half of it was new material.",
+                    "kind": "unsupported_fact",
+                    "evidenceIds": [],
+                    "explanation": "'Half' implies the remaining two of the four songs were not new; that comes from S8E6/S8E7, selected only for a later turn, not from S8E1-S8E5."
+                  },
+                  {
+                    "text": "She gave “The Fate of Ophelia” its first-ever live performance",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S8E3"
+                    ],
+                    "explanation": "S8E3: the show included Swift's first-ever live rendering of 'The Fate of Ophelia'."
+                  },
+                  {
+                    "text": "— a single she released on Oct. 3, 2025, which is a useful gauge of how long she has been off any kind of regular performance circuit.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S8E4",
+                      "S8E3"
+                    ],
+                    "explanation": "S8E4 gives the release date (Oct. 3, 2025, just over a year ago); S8E3 frames it as an indicator of how long she has been off any regular performance circuit."
+                  },
+                  {
+                    "text": "She also sang “I Knew It, I Knew You,” her contender for the 2027 Oscars, from Pixar's “Toy Story 5.”",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S8E5"
+                    ],
+                    "explanation": "S8E5: she also sang her contender for the 2027 Oscars, 'I Knew It, I Knew You', from the Pixar film 'Toy Story 5'."
+                  },
+                  {
+                    "text": "That pairing says something about the room she was playing to:",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Editorial framing of what the song pairing signals; no empirical assertion in this clause."
+                  },
+                  {
+                    "text": "a museum gala with awards voters in it gets the Oscar song,",
+                    "kind": "unsupported_fact",
+                    "evidenceIds": [],
+                    "explanation": "Selected evidence gives an Academy Museum gala (S8E2) and an Oscar-contending song (S8E5), but nothing about awards voters being present in the room; the premise is invented, not entailed."
+                  },
+                  {
+                    "text": "and a song with a year of streaming behind it finally gets a stage.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S8E3",
+                      "S8E4"
+                    ],
+                    "explanation": "Interpretation that the year-old single finally got a live airing; S8E3 supports its first-ever live rendering and S8E4 the release timing."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "The familiar-but-altered backing crew, the stripped-down/packed-out lineup with a horn section, and the two sax players outside her regular touring outfit all match S8E20-S8E22; the house-band conclusion is opinion.",
+                "evidenceIds": [
+                  "S8E20",
+                  "S8E21",
+                  "S8E22"
+                ],
+                "segments": [
+                  {
+                    "text": "The lineup is the real tell of a one-off show.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Interpretive claim about what the lineup reveals; no factual premise beyond the supported lineup details."
+                  },
+                  {
+                    "text": "Her backing crew looked familiar in places but the band was stripped down in some regards and packed out in others — namely a horn section,",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S8E20",
+                      "S8E21"
+                    ],
+                    "explanation": "S8E20: backing crew had some singers and players familiar to Swifties but also differences, the lineup stripped down in some regards and packed out in others, namely with a horn section (S8E21)."
+                  },
+                  {
+                    "text": "with two sax players who are not a regular staple of her touring outfit.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S8E22"
+                    ],
+                    "explanation": "S8E22: she was joined by two sax players, not a regular staple of her touring outfit."
+                  },
+                  {
+                    "text": "That is a house-band arrangement, not a tour rehearsal.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Evaluative conclusion drawn from the lineup evidence; no separate empirical assertion."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "The two remaining slots, the dug-into-the-past move, the cynical/romantic bases and the 'Blank Space' opening and 'Love Story' close all come from S8E6-S8E7; the surrounding legacy-set judgement is opinion.",
+                "evidenceIds": [
+                  "S8E6",
+                  "S8E7"
+                ],
+                "segments": [
+                  {
+                    "text": "Fine, but a horn section is a flourish.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Subjective evaluation of the horn section; disagreement/banter, no unsupported fact."
+                  },
+                  {
+                    "text": "The revealing choice is the other two slots: she dug backward, opening with “Blank Space” and closing with “Love Story,” covering both her cynical and romantic bases.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S8E6",
+                      "S8E7"
+                    ],
+                    "explanation": "S8E6-S8E7: for the remaining two slots Swift dug farther back into the past, covering both her cynical and romantic bases, opening with 'Blank Space' and ending with 'Love Story'."
+                  },
+                  {
+                    "text": "That is a legacy set built for a formal room, not a glimpse of where the next tour goes.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Evaluative characterization of the set as a legacy set for a formal room; opinion, not a sourced claim."
+                  }
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "Taylor Swift's First Full-Band Set Since the Eras Tour Had Two Very Recent Songs In It",
+              "titleActor": "Taylor Swift",
+              "sourceActor": "Taylor Swift",
+              "sourceEvidenceId": "S8E1",
+              "relation": "aligned"
+            }
+          }
+        ]
+      },
+      "candidates": [
+        {
+          "title": "Alberta Votes on Staying in Canada, and Québec's Version Could Arrive by 2030",
+          "digest": "20d97a33e63ef2a5a68e7b2a45b2b882ce171c8adbde63ed0e4ec93e8c1c3d9b"
+        },
+        {
+          "title": "Taylor Swift's First Full-Band Set Since the Eras Tour Had Two Very Recent Songs In It",
+          "digest": "f92aa1c9edc33ce85ed99605015d6b13d9312764e6bab9cda701f21eb408c120"
+        }
+      ]
+    }
+  ]
+}

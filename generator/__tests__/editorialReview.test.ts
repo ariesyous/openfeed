@@ -48,6 +48,19 @@ const roots: string[] = [];
 afterEach(() => { vi.restoreAllMocks(); for (const root of roots.splice(0)) rmSync(root, { recursive: true, force: true }); });
 
 describe("review coverage and source boundaries", () => {
+  it("cannot approve a factual sentence using only its first split evidence part", () => {
+    const source = { ...packets[0], sections: undefined,
+      excerpt: "Of 422 pre-teens surveyed between the ages of 11 and 13, 68 per cent said their faith, religion or spiritual journey is an important part of who they are." };
+    const supplied = prepareEvidence([source]);
+    const candidate = { ...post, evidenceIds: ["S1E1", "S1E2"],
+      discussion: post.discussion.map(turn => ({ ...turn, evidenceIds: ["S1E1", "S1E2"] })) };
+    const input = buildReviewInput([candidate], supplied);
+    expect(validateReview(pass(input), input).ok).toBe(true);
+    input.posts[0].units[2].evidenceIds = ["S1E1"];
+    const result = validateReview(pass(input), input);
+    expect(result.ok).toBe(false);
+    if (!result.ok) expect(result.issues.join(" ")).toContain("every part of a split source sentence");
+  });
   it("enforces local segment bounds in addition to provider constraints", () => {
     const input = buildReviewInput([post], prepared);
     const result = pass(input);

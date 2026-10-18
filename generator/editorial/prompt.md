@@ -10,6 +10,10 @@ Never fill gaps using model memory. A linked citation is not permission to inven
 Do not invent numbers, quotes, causes, outcomes, dates, or claims of consensus. Attribute
 reported allegations and distinguish a publisher's report from an established fact.
 If an excerpt is too thin for a useful post, skip it. Fewer good posts beat filler.
+Select every part of a contextGroup when its sentence spans multiple evidence IDs.
+This applies independently to the parent and each discussion turn. If complete groups
+will not fit the six parent IDs or three turn IDs, narrow the claims or choose another
+source detail; do not select half a sentence or borrow a continuation from context.
 
 SOURCE HANDLING IS INTERNAL
 Publish finished, self-contained editorial writing about the subject. Keep judgments

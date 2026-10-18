@@ -127,6 +127,12 @@ The eight-call budget, deadline and strict publication checks are unchanged.
 A lower reasoning experiment failed controls and was retired. Live quality review
 remains necessary; controls are not a quality guarantee.
 
+New writer selections must include every part of a split evidence sentence in each
+unit, independently. The parent still has six IDs and each turn three; narrow claims
+when complete sentence groups will not fit. Missing continuations trigger bounded
+retry, never automatic ID repair. The reviewer also cannot approve an incomplete
+group. Historical optional-discussion validation and frozen audits remain compatible.
+
 Live review remains necessary. Measure false negatives and false positives, retained
 banter, publication counts, source availability, call counts and latency. Do not describe
 an approved post as automatically fact-checked or treat fewer published posts as proof

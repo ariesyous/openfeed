@@ -109,6 +109,12 @@ export function validateReview(json: unknown, input: ReviewInput): ParseOutcome<
       const unit = original.units.find(u => u.target === check.target);
       if (!unit || check.evidenceIds.some(id => !allowed.has(id))) errors.push("Review target or evidence does not belong to this post");
       if (unit) {
+        if (check.verdict !== "reject") for (const id of unit.evidenceIds) {
+          const snippet = original.sources.flatMap(source => source.evidence).find(entry => entry.id === id);
+          if (snippet && original.sources.flatMap(source => source.evidence)
+            .some(entry => entry.contextGroup === snippet.contextGroup && !unit.evidenceIds.includes(entry.id)))
+            errors.push("Passing units must select every part of a split source sentence; incomplete evidence groups cannot authorize publication");
+        }
         const normalize = (text: string) => text.replace(/\s+/g, " ").trim();
         if (normalize(check.segments.map(segment => segment.text).join(" ")) !== normalize(unit.text))
           errors.push("Claim segments must cover the complete unchanged unit in order, with no missing, duplicated or rewritten words");

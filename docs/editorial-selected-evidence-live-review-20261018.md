@@ -121,3 +121,73 @@ The final configuration restores DeepSeek's default reasoning and the full bound
 provider schema. Review calls allow 48,000 tokens; writer calls retain 24,000.
 The shared eight-call/45-minute budget and all evidence/review checks are unchanged.
 This supplies headroom for reasoning plus the expanded claim-accounting response.
+
+Final implementation `fac7c7b` deployed successfully in
+[39158481401](https://github.com/ariesyous/openfeed/actions/runs/39158481401), with
+type checking, lint, all 326 Linux tests and build passing. Controls
+[39158481795](https://github.com/ariesyous/openfeed/actions/runs/39158481795)
+passed all three suites in four calls and 83,677 ms. The selected-support suite
+needed one retry for incomplete post coverage; local validation caught that omission.
+All six erroneous controls were withheld and all six supported/opinionated controls
+accepted. Requested/resolved model: `deepseek/deepseek-v4.1-flash`.
+The final decisions are in `fixtures/editorial-selected-evidence-controls-final-20261018.json`.
+The three corrected label-leak articles and their batch were also rechecked on
+`https://cobanter.com`: all returned successfully, matched the corrected local data,
+and contained no bracketed evidence labels.
+
+## Successful fresh run and manual review
+
+Run [39158483721](https://github.com/ariesyous/openfeed/actions/runs/39158483721)
+completed four writer/reviewer pairs in eight calls and 758,096 ms (about 12.6 minutes).
+Eight candidates were reviewed; seven were withheld and one published in batch
+`20261018T192251Z-381c`. Requested/resolved model was DeepSeek Flash throughout.
+There were no provider failures, omitted discussions or empty selections. Publication
+commit `11205ad` deployed successfully in
+[39159473511](https://github.com/ariesyous/openfeed/actions/runs/39159473511).
+
+The published CBC-based religious-revival explainer is useful: its 105-word body
+distinguishes attendance from conversion and lasting commitment, explicitly retaining
+“among other things.” Its two turns (98 words) add a different survey measure and
+then challenge whether conversion counts capture a search for purpose. The exchange
+adds an argument rather than restating the headline. It is lightly wry, not especially
+funny. The pre-teen survey is explicitly separate from the Gen Z question; the reader
+should not treat it as representative evidence of a Gen Z revival. Identifying the
+survey sponsors as Christian organizations would make its context clearer.
+
+However, the first turn selected S3E17 without S3E18, the end of the survey sentence.
+The retrieved page supports the whole claim, but the complete claim is not present in
+the unit's selected snippets. The model approved this incomplete selection. This is a
+real selected-support miss, not a false source claim. The audit is preserved unchanged.
+
+The follow-up adds a local complete-sentence-group check before review and a matching
+review approval gate. Every split sentence must be selected whole within that unit;
+it cannot borrow its tail from another unit or readingContext. The six/three-ID caps
+remain, so the writer must narrow a claim when its complete support will not fit.
+Regression tests reproduce the 422-person survey sentence and preserve historical
+validation compatibility. Existing published prose is not silently rewritten.
+
+### Withheld candidates
+
+| Candidate | Manual assessment of rejection |
+| --- | --- |
+| Sports piracy | Correctly caught an actor found only in wider context and an unsupported absolute about stream quality. The price argument is also weak reasoning: tolerating inconvenience does not show that price is unimportant. |
+| Ukraine/Starshield | Correctly caught “responsible for” being rewritten as “owns” and attributed to Musk. The body retained the dispute and uncertainty. |
+| Bigfoot documentary | The selected snippets did not include the physical description added to the body. The page supports it, so this is a citation-selection defect, not invented reporting. The roadshow joke was allowed. |
+| West Bank photographer | Correctly caught the body borrowing the letter from a later turn and adding an election date from unselected context; another turn borrowed injury/quotation details. Supported critical commentary remained allowed. |
+| Jeopardy champion | Correctly caught 15 years of trying to appear on the show being turned into 15 years of writing facts in a binder. This is a substantive relationship/timeline error. |
+| Alberta/Québec | The shared autonomy claim was in the page but outside the body's selections. The ballot-as-party-whip metaphor and the opposing discussion were allowed. |
+| Taylor Swift | The body inferred exactly half the set was new without selecting support for the remaining songs. Other phrasing, including awards voters in the room, also deserved selected-support scrutiny; a rejected post is not proof the reviewer found every defect. |
+
+All eight source URLs were retrieved successfully. Seventy-seven of 78 retained
+snippets matched the retrieved page text exactly. The remaining Variety snippet says
+“up into the mountains” where the retrieved page says “into the mountains”; the
+substantive camping-trip claim agrees. Bigfoot and The Conversation were also inspected
+using local paragraph extraction of their retrieved pages; no production parser was
+weakened. The published batch matched CoBanter.com, its article returned HTTP 200,
+both turns were present, the approved candidate digest matched, and no labels leaked.
+
+Bounded fixtures preserve the edition, review decisions, accepted support, controls
+and manual ledger. Full fetched pages remain outside Git and public/build paths.
+One short explainer and seven rejections are encouraging gate behavior, but do not
+establish a reliable, varied, worthwhile feed. The missing continuation demonstrates
+why local completeness checks and manual review remain necessary.

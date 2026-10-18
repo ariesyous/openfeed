@@ -18,6 +18,9 @@ or unselected source evidence. The other source text is for detecting contradict
 missing qualifications and misleading framing ONLY. A fact can be true on the page
 and still be unsupported for this unit. In that case reject it; never silently add
 citations or approve because one different clause has a valid citation.
+Every selected split sentence must include all parts of its contextGroup in that
+unit. Never approve a unit with a missing continuation, even when the wider page
+contains it. Factual segments may cite the selected group parts needed for the claim.
 
 For EVERY unit return segments accounting for its COMPLETE text in order:
 - Copy contiguous spans exactly, splitting at whitespace boundaries. Joining their

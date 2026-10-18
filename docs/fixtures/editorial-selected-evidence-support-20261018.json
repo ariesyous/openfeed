@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "runId": "20261018T192251Z-381c",
+  "startedAt": "2026-10-18T19:22:51.291Z",
+  "status": "data_written",
+  "chunks": [
+    {
+      "index": 1,
+      "requestedModel": "deepseek/deepseek-v4.1-flash",
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "redactionsApplied": false,
+      "review": {
+        "requestedModel": "deepseek/deepseek-v4.1-flash",
+        "resolvedModel": "deepseek/deepseek-v4.1-flash",
+        "candidateDigests": [
+          "51493e93754a16896caffd6d7d291e153a0f52c543ecc425b8e2287cf46e0a6d"
+        ]
+      },
+      "sources": [
+        {
+          "id": "aeeeea3536a78760",
+          "url": "https://www.cbc.ca/news/canada/saskatchewan/religion-young-adults-sask-9.7381421?cmp=rss",
+          "title": "Religion could be on the rise among young adults. Some are seeing it in Sask.",
+          "publisher": "CBC Canada",
+          "retrievedAt": "2026-10-18T19:22:51.291Z",
+          "publishedAt": "2026-10-18T10:00:00.000Z",
+          "evergreen": false
+        }
+      ],
+      "evidence": [
+        {
+          "id": "S3E3",
+          "sourceId": "aeeeea3536a78760",
+          "quote": "Imam Mohamed Abdelsatar of the IAOS Regina mosque says he's noticed more young people at the mosque — some of whom are even"
+        },
+        {
+          "id": "S3E4",
+          "sourceId": "aeeeea3536a78760",
+          "quote": "converting to Islam."
+        },
+        {
+          "id": "S3E11",
+          "sourceId": "aeeeea3536a78760",
+          "quote": "Sam Reimer, who studies the sociology of religion at Crandall University in Moncton, N.B., isn't convinced the data is showing a religious revival"
+        },
+        {
+          "id": "S3E12",
+          "sourceId": "aeeeea3536a78760",
+          "quote": "among Gen Z."
+        },
+        {
+          "id": "S3E21",
+          "sourceId": "aeeeea3536a78760",
+          "quote": "He says a revival would, among other things, mean high numbers of religious conversion and lasting religious commitment."
+        },
+        {
+          "id": "S3E7",
+          "sourceId": "aeeeea3536a78760",
+          "quote": "Alpha Canada, an organization that introduces people to the basics of Christianity, partnered with OneHope Canada, a Christian mission organization, on a study released"
+        },
+        {
+          "id": "S3E8",
+          "sourceId": "aeeeea3536a78760",
+          "quote": "in late 2025."
+        },
+        {
+          "id": "S3E17",
+          "sourceId": "aeeeea3536a78760",
+          "quote": "Of 422 pre-teens surveyed between the ages of 11 and 13, 68 per cent said their faith, religion or spiritual journey is an important part"
+        },
+        {
+          "id": "S3E15",
+          "sourceId": "aeeeea3536a78760",
+          "quote": "He says young adults seeking out religion are often trying to find purpose in life."
+        }
+      ],
+      "posts": [
+        {
+          "postId": "post-20261018T192251Z-381c-0",
+          "evidenceIds": [
+            "S3E3",
+            "S3E4",
+            "S3E11",
+            "S3E12",
+            "S3E21"
+          ],
+          "discussion": [
+            {
+              "turnIndex": 0,
+              "voice": "Take",
+              "evidenceIds": [
+                "S3E7",
+                "S3E8",
+                "S3E17"
+              ]
+            },
+            {
+              "turnIndex": 1,
+              "voice": "Pushback",
+              "evidenceIds": [
+                "S3E15"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

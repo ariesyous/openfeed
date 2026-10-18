@@ -320,6 +320,14 @@ empty-at-length responses at 24,000; writers retain 24,000. A low reasoning expe
 failed controls and was retired. Shared call/deadline limits, full context and strict
 review rules remain unchanged. Distinguish reliability from accuracy in live review.
 
+## Complete selected sentences — October 18, 2026
+The first successful strict-claim run published one of eight candidates. Manual review
+found its survey turn selected only the first part of a split sentence. New generation
+now requires every groupIds/contextGroup part within each parent's or turn's own IDs,
+before review; passing reviewer judgments must satisfy the same rule. Never repair
+missing IDs or raise citation caps: narrow claims to fit complete groups. Historical
+validation remains compatible and existing publication/audit identities stay frozen.
+
 ## Complete claim accounting and evidence labels — October 18, 2026
 Live reviews require ordered segments covering each complete unchanged unit, classified
 as supported fact, unsupported fact or opinion. Every factual support ID and every
