@@ -320,3 +320,17 @@ After two live runs exhausted review attempts on empty length-limited completion
 ordinary writing requests are capped at two posts so each detailed review is smaller.
 The transport/historical four-post bound remains compatible. Four writer/review pairs
 can reach the eight-post ceiling only without retries; keep the shared budget unchanged.
+
+## Custom domain — October 18, 2026
+Production is `https://cobanter.com/` on the existing GitHub Pages workflow.
+Cloudflare's apex flattened CNAME points to `ariesyous.github.io` with DNS-only
+routing; GitHub owns apex TLS and legacy project redirects. The `www` CNAME points
+to the same target with proxying enabled. Cloudflare's exact-host rule `Redirect
+www to secure cobanter.com` redirects both schemes to the HTTPS apex, retaining
+the path and query string. Keep that proxy enabled for the redirect. The domain is
+verified in the `ariesyous` GitHub account; retain its DNS challenge TXT record.
+Vite and the archive builder default to `/`; archive metadata defaults to the new
+origin. Keep `SITE_BASE_PATH` consistent across both build stages when overriding.
+Preserve all article slugs, batches and publication dates. Earlier `/openfeed/`
+examples and audit links describe the original project URL; GitHub redirects those
+URLs to the corresponding custom-domain paths.

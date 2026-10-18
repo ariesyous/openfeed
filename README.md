@@ -7,8 +7,10 @@ The frontend is static React/TypeScript on GitHub Pages. Generation happens offl
 GitHub Actions through OpenRouter. The browser never receives API keys or calls a model.
 
 Production lives at https://cobanter.com/ with GitHub Pages serving the domain root.
-Cloudflare manages DNS: the apex (flattened CNAME) and `www` point to
-`ariesyous.github.io`, using DNS-only records so GitHub provisions and serves HTTPS.
+Cloudflare manages DNS: the apex flattened CNAME points to `ariesyous.github.io`
+with DNS-only routing so GitHub provisions and serves HTTPS. The `www` CNAME has
+Cloudflare proxying enabled and the rule `Redirect www to secure cobanter.com`
+redirects that exact hostname to HTTPS on the apex, preserving paths and queries.
 The repository's Pages custom domain is `cobanter.com`. `SITE_BASE_PATH` defaults to
 `/` in both Vite and the archive builder; `SITE_ORIGIN` defaults to
 `https://cobanter.com`. For another deployment, set the same base for the full build.
@@ -175,13 +177,13 @@ provider errors returned inside HTTP 200 responses. No raw reasoning is logged.
 ## Permanent articles and returning readers
 
 Published editorial content is retained forever. Every article has a stable readable
-URL and a real HTML page under `/openfeed/p/<slug>/`, with article-specific sharing
+URL and a real HTML page under `/p/<slug>/`, with article-specific sharing
 metadata. The feed and archive load batches incrementally; initial navigation never
 requires the entire archive. The build emits indexes with at most 50 batch refs each.
 
 Browse topics from a visible left sidebar on desktop or a horizontally scrollable
 link bar on smaller screens. Each topic has a permanent URL such as
-`/openfeed/topics/ai-agents/`, with a real static page for direct visits and refreshes.
+`/topics/ai-agents/`, with a real static page for direct visits and refreshes.
 Topic indexes load only editions containing that topic, with incremental archive
 pagination. The sidebar and article topic labels support opening in a new tab.
 In-app article navigation preserves the feed, filters
@@ -209,7 +211,7 @@ indexes into `dist`; Vite development uses the source manifest and filters local
 
 ## Card mode
 
-Choose **Cards** in the header, or open `/openfeed/?view=cards`, to browse the same
+Choose **Cards** in the header, or open `/?view=cards`, to browse the same
 posts one at a time. Card mode uses the original title and body without rewriting,
 truncation or a separate generation step. It browses all topics, including when
 entered from a topic page. Sources remain linked; article links open the full page
