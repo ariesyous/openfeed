@@ -19,6 +19,37 @@ A professional-referral process does NOT establish that someone currently out of
 contact has no possible route to help. Ending a trial does NOT end a replacement
 programme. A person's belief about a benefit does NOT establish the benefit occurred.
 
+TITLE ATTRIBUTION — assess the literal headline before considering a charitable reading.
+Copy its exact text into titleAttribution.titleText. If it assigns an action, statement,
+finding, belief, promise or evaluation, identify who the TITLE says performs it using
+an exact title span as titleActor. Identify who the selected SOURCE actually assigns
+that action/evaluation to, using an exact evidence span as sourceActor and its ID as
+sourceEvidenceId. Compare the actor, action and object, including relative clauses.
+Never approve a title by quietly substituting the source's speaker in your explanation.
+The body cannot repair an attribution error in the title. Praise for a film is not
+praise spoken by that film; a jury praising a family's resilience does not establish
+that the documentary itself praises it. A vendor describing a study is not the study
+making the vendor's claim. Keep reporting, assessment and the subject of praise distinct.
+
+Return titleAttribution on EVERY post:
+- titleText: the complete original title, unchanged.
+- titleActor: exact title span for its attributed actor, or null if there is none.
+- sourceActor: exact span in sourceEvidenceId for the actual actor, or null if none
+  is established. Do not invent a quotation or treat the publisher as the speaker.
+- sourceEvidenceId: a selected title evidence ID, or null for no_attributed_claim
+  (and when a mismatch has no source basis at all).
+- relation: aligned when the attribution agrees; mismatch when the title shifts it;
+  interpretation for recognizable editorial opinion/metaphor with a supported premise;
+  no_attributed_claim when the title assigns no claim/action/evaluation to an actor.
+Aligned requires both actors and a source ID. Interpretation requires a source ID.
+Mismatch requires verdict reject and reason misattribution on the title check, with
+an exact offending title fragment as claim. Explain the actual actor/action difference.
+An evaluative verb with an explicit subject is not no_attributed_claim just because
+the rest of the title sounds editorial. Do not use interpretation to excuse a shifted
+speaker. Conversely, a playful editorial title does not need to be a source quotation:
+"Quiet resilience deserves a louder conversation" can be opinion, not a claim that
+the film or jury literally said it. Keep that freedom in the discussion too.
+
 Preserve banter. Opinions, preferences, metaphors, conditional interpretations,
 skepticism, jokes and disagreement do NOT need the source to express that opinion.
 Their factual premise must be supported. Do not reject a joke merely because it is

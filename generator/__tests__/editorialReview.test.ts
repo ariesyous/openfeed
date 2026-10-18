@@ -4,7 +4,7 @@ import { tmpdir } from "node:os";
 import path from "node:path";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { generateEditorial } from "../editorial/generate";
-import { buildReviewInput, validateReview, reviewDigest, type ReviewInput, type ReviewResponse } from "../editorial/review";
+import { buildReviewInput, validateReview, reviewDigest, ReviewResponseSchema, type ReviewInput, type ReviewResponse } from "../editorial/review";
 import { prepareEvidence } from "../editorial/evidence";
 import { createEditorialAudit, EditorialReviewAuditSchema, REVIEW_FILE_NAME, type EditorialAuditChunk, type EditorialReviewRecord } from "../editorial/audit";
 import type { SourcePacket } from "../editorial/sources";
@@ -27,7 +27,9 @@ const post = makePost("A misleading expectation", "S1E1");
 const completion = (value: unknown) => new Response(JSON.stringify({ model: "test/resolved", choices: [{ finish_reason: "stop", message: { content: JSON.stringify(value) } }] }));
 const isReview = (request: { messages: { content: string }[] }) => request.messages[0].content.startsWith("You are the publication editor");
 function pass(input: ReviewInput): ReviewResponse {
-  return { posts: input.posts.map(p => ({ key: p.key, checks: p.units.map(u => ({
+  return { posts: input.posts.map(p => ({ key: p.key,
+    titleAttribution: { titleText: p.units[0].text, titleActor: null, sourceActor: null, sourceEvidenceId: null, relation: "no_attributed_claim" },
+    checks: p.units.map(u => ({
     target: u.target, verdict: u.target.startsWith("discussion.") ? "opinion" : "supported",
     claim: null, reason: null, explanation: "The factual premise is supported; the metaphor and preference add a perspective.", evidenceIds: u.evidenceIds.slice(0, 1),
   })) })) };
@@ -43,6 +45,41 @@ const roots: string[] = [];
 afterEach(() => { vi.restoreAllMocks(); for (const root of roots.splice(0)) rmSync(root, { recursive: true, force: true }); });
 
 describe("review coverage and source boundaries", () => {
+  it("requires a literal title attribution trace while retaining historical audit compatibility", () => {
+    const input = buildReviewInput([post], prepared);
+    const result = pass(input);
+    delete result.posts[0].titleAttribution;
+    expect(validateReview(result, input).ok).toBe(false);
+    expect(ReviewResponseSchema.safeParse(result).success).toBe(true);
+  });
+  it("rejects a repaired-title explanation and prevents an attribution mismatch from passing", () => {
+    const source = { ...packets[0], sections: undefined, excerpt: "The jury praised the family's quiet resilience in the documentary." };
+    const candidate = { ...post, title: "The Documentary That Praises Quiet Resilience" };
+    const input = buildReviewInput([candidate], prepareEvidence([source]));
+    const result = pass(input);
+    result.posts[0].titleAttribution = { titleText: candidate.title, titleActor: "Documentary", sourceActor: "jury", sourceEvidenceId: "S1E1", relation: "mismatch" };
+    expect(validateReview(result, input).ok).toBe(false);
+    Object.assign(result.posts[0].checks[0], { verdict: "reject", reason: "misattribution", claim: "Documentary That Praises", explanation: "The jury praises the family; the title attributes that evaluation to the documentary." });
+    expect(validateReview(result, input).ok).toBe(true);
+    result.posts[0].titleAttribution.titleActor = "jury";
+    expect(validateReview(result, input).ok).toBe(false);
+    result.posts[0].titleAttribution.titleActor = "Documentary";
+    result.posts[0].titleAttribution.sourceActor = "director";
+    expect(validateReview(result, input).ok).toBe(false);
+    result.posts[0].titleAttribution.sourceActor = "jury";
+    result.posts[0].titleAttribution.titleText = "A Jury Praises Quiet Resilience";
+    expect(validateReview(result, input).ok).toBe(false);
+  });
+  it("allows an editorial title interpretation with a selected premise instead of forcing source speech", () => {
+    const input = buildReviewInput([{ ...post, title: "Quiet resilience deserves a louder conversation" }],
+      prepareEvidence([{ ...packets[0], sections: undefined, excerpt: "The jury praised the family's quiet resilience in the documentary." }]));
+    const result = pass(input);
+    result.posts[0].titleAttribution = { titleText: input.posts[0].units[0].text, titleActor: null, sourceActor: null, sourceEvidenceId: "S1E1", relation: "interpretation" };
+    result.posts[0].checks[0].verdict = "opinion";
+    expect(validateReview(result, input).ok).toBe(true);
+    result.posts[0].titleAttribution.sourceEvidenceId = "S2E1";
+    expect(validateReview(result, input).ok).toBe(false);
+  });
   it("offers complete context only from the post's attached sources", () => {
     const input = buildReviewInput([post], prepared);
     expect(input.posts[0].sources).toHaveLength(1);

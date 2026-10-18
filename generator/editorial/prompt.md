@@ -103,6 +103,9 @@ Before writing, identify one supported payoff: a concrete mechanism, memorable d
 myth variant/cultural context, or interpretive disagreement. A longer packet is not
 necessarily a better packet. Prefer specific usable evidence over lists of names or claims
 of importance. If there is no worthwhile payoff, skip it instead of expanding the prose.
+Keep the title's actor and attribution accurate: a jury praising a subject does not
+make the film itself the speaker of that praise. An accurate body cannot repair a
+headline that assigns a claim, finding or judgment to the wrong person or thing.
 The title must promise only what the body delivers. A "how" title needs the mechanism;
 a surprising-story title needs the detail that makes it surprising. Narrow the title or
 omit the post when that promise cannot be met. Keep the complete thought brief when appropriate.

@@ -29,6 +29,16 @@ a maximum 200-character claim fragment and a maximum 400-character explanation.
 Passing judgments also explain their basis. A strict JSON response schema and plain
 JSON fallback use the same validation. A malformed review never counts as approval.
 
+Live reviews additionally return a bounded title-attribution trace: the exact title,
+its actor as an exact title span, the source actor as an exact selected-evidence span,
+the evidence ID and a relationship judgment. A mismatch must reject the title for
+misattribution. Replacing the title's subject in the explanation cannot validate an
+invented title-actor span. Aligned claims require both actors; clearly editorial
+interpretations can cite a premise without pretending to quote a speaker. Titles
+without an attributed claim use explicit null actor fields. Actor identification
+and the relationship judgment remain model decisions, not a grammatical fact checker.
+Older audits without the trace remain readable; new live responses cannot omit it.
+
 One rejected unit withholds the whole parent and its exchange. Survivors pass the
 existing cross-chunk validator again before enrichment and the sole validated
 publisher. A review timeout, malformed result or provider failure cannot release its
@@ -75,8 +85,9 @@ tests mock approval to isolate their earlier provenance/retry contracts; the new
 suite exercises actual separate reviewer requests through the provider wrapper.
 
 The manually dispatched `Check editorial reviewer` workflow runs one bounded live
-check against two synthetic error patterns and corrected counterparts with opinion
-and metaphor. It uses DeepSeek Flash, at most two calls and a 15-minute request
+check against reversal, unsupported absolutes and title-attribution errors, alongside
+corrected counterparts and editorial titles with opinion and metaphor. Two four-post
+suites use DeepSeek Flash, at most four calls and a shared 15-minute request
 deadline, and never fetches sources or writes public content/state. This optional
 manual check is separate from each ordinary edition's shared budget. Its small,
 prompt-aligned controls demonstrate targeted behavior, not general accuracy.

@@ -25,7 +25,7 @@ export function PostCard({
   onAuthorClick,
   onCommunityClick,
 }: PostCardProps) {
-  const [expanded, setExpanded] = useState(Boolean(articleView));
+  const [expanded, setExpanded] = useState(Boolean(articleView || item.editorial));
   const [shareStatus, setShareStatus] = useState("");
   const url = articlePath(item, import.meta.env.BASE_URL);
   const [showSpoilers, setShowSpoilers] = useState(false);

@@ -10,6 +10,13 @@ export interface ReviewPost {
   discussion?: { body: string; voice: string; evidenceIds: string[] }[] | null;
 }
 const reason = z.enum(["reversed_fact", "unsupported_claim", "missing_qualification", "misattribution", "noncontributing"]);
+const TitleAttributionSchema = z.object({
+  titleText: z.string().min(1).max(150),
+  titleActor: z.string().min(1).max(120).nullable(),
+  sourceActor: z.string().min(1).max(120).nullable(),
+  sourceEvidenceId: z.string().min(1).max(40).nullable(),
+  relation: z.enum(["aligned", "interpretation", "mismatch", "no_attributed_claim"]),
+}).strict();
 const CheckSchema = z.object({
   target: z.string().min(1).max(24),
   verdict: z.enum(["supported", "opinion", "reject"]),
@@ -21,9 +28,14 @@ const CheckSchema = z.object({
 export const ReviewResponseSchema = z.object({
   posts: z.array(z.object({
     key: z.string().min(1).max(8), checks: z.array(CheckSchema).min(4).max(6),
+    // Older bounded audits remain readable; live reviews require the trace below.
+    titleAttribution: TitleAttributionSchema.optional(),
   }).strict()).min(1).max(4),
 }).strict();
 export type ReviewResponse = z.infer<typeof ReviewResponseSchema>;
+export const LiveReviewResponseSchema = ReviewResponseSchema.extend({ posts: z.array(
+  ReviewResponseSchema.shape.posts.element.extend({ titleAttribution: TitleAttributionSchema }),
+).min(1).max(4) });
 export type ReviewInput = ReturnType<typeof buildReviewInput>;
 export const reviewDigest = (post: ReviewPost) => createHash("sha256").update(JSON.stringify({
   title: post.title, body: post.body, evidenceIds: post.evidenceIds,
@@ -48,7 +60,7 @@ export function buildReviewInput(posts: ReviewPost[], prepared: ReturnType<typeo
 
 /** Complete coverage and exact claim locations are mandatory even without structured output. */
 export function validateReview(json: unknown, input: ReviewInput): ParseOutcome<ReviewResponse> {
-  const parsed = ReviewResponseSchema.safeParse(json);
+  const parsed = LiveReviewResponseSchema.safeParse(json);
   if (!parsed.success) return { ok: false, issues: ["Return the complete editorial review schema with all posts and units"] };
   const errors: string[] = [];
   if (parsed.data.posts.length !== input.posts.length || new Set(parsed.data.posts.map(p => p.key)).size !== input.posts.length)
@@ -57,6 +69,28 @@ export function validateReview(json: unknown, input: ReviewInput): ParseOutcome<
     const original = input.posts.find(p => p.key === post.key);
     if (!original) { errors.push("Unknown reviewed post"); continue; }
     const allowed = new Set(original.sources.flatMap(source => source.evidence.map(entry => entry.id)));
+    const title = original.units.find(unit => unit.target === "title")!;
+    const trace = post.titleAttribution;
+    const titleCheck = post.checks.find(check => check.target === "title");
+    const sourceSpan = original.sources.flatMap(source => source.evidence).find(entry => entry.id === trace.sourceEvidenceId);
+    if (trace.titleText !== title.text || (trace.titleActor !== null && !title.text.includes(trace.titleActor)))
+      errors.push("Title attribution must assess the exact original title and an actor actually present in it; do not silently rewrite its subject");
+    if (trace.sourceEvidenceId !== null && !title.evidenceIds.includes(trace.sourceEvidenceId))
+      errors.push("Title attribution must use the title's selected evidence");
+    if (trace.sourceActor !== null && (!sourceSpan || !sourceSpan.text.includes(trace.sourceActor)))
+      errors.push("Source actor must be an exact span of the identified selected evidence");
+    if (trace.relation === "no_attributed_claim") {
+      if (trace.titleActor !== null || trace.sourceActor !== null || trace.sourceEvidenceId !== null)
+        errors.push("A title without an attributed claim must have null actor and source fields");
+    } else if (trace.relation === "aligned" && (!trace.titleActor || !trace.sourceActor || !trace.sourceEvidenceId)) {
+      errors.push("Aligned attribution requires both actors and their selected source evidence");
+    } else if (trace.relation === "interpretation" && !trace.sourceEvidenceId) {
+      errors.push("A title interpretation requires a selected factual premise");
+    }
+    if (trace.relation === "mismatch" && (!trace.titleActor || titleCheck?.verdict !== "reject" || titleCheck.reason !== "misattribution"))
+      errors.push("A title attribution mismatch must reject the title for misattribution");
+    if (titleCheck?.reason === "misattribution" && trace.relation !== "mismatch")
+      errors.push("Title rejection and attribution trace must agree about misattribution");
     if (post.checks.length !== original.units.length || new Set(post.checks.map(c => c.target)).size !== original.units.length)
       errors.push("Review every title, body and discussion turn exactly once");
     for (const check of post.checks) {
@@ -81,7 +115,7 @@ export async function reviewEditorial(options: {
     ...options,
     systemPrompt: readFileSync(new URL("./review-prompt.md", import.meta.url), "utf8"),
     initialUserPrompt: JSON.stringify(input),
-    jsonSchema: { name: "editorial_review", schema: z.toJSONSchema(ReviewResponseSchema) },
+    jsonSchema: { name: "editorial_review", schema: z.toJSONSchema(LiveReviewResponseSchema) },
     maxTokens: ADVANCE_WORLD_MAX_TOKENS, timeoutMs: ADVANCE_WORLD_TIMEOUT_MS,
     parse: json => validateReview(json, input),
   });

@@ -290,3 +290,14 @@ Persist bounded editorial-review.json decisions outside public/build paths, incl
 all-rejected runs, with credential redaction and 14-day workflow artifact retention.
 No raw completions or full readingContext in audits. Accepted support records contain
 reviewer model identity and candidate digests; historical audit compatibility remains.
+
+## Title attribution and open discussions — October 18, 2026
+Live reviewer responses require titleAttribution: exact title text and actor span,
+source actor and selected evidence ID, and a relationship judgment. A mismatch must
+reject the title for misattribution; never approve by silently replacing its subject.
+Keep subjective editorial titles and banter with supported premises. Historical review
+audits can omit this trace; current responses cannot. Manual live controls now use two
+four-post suites (at most four calls/shared 15-minute deadline), separate from generation.
+Editorial discussions start expanded in feed and article views. Preserve the spoiler
+gate over both body and discussion and retain the manual collapse option. Card mode
+continues to link to the full discussion; its fitting contract is unchanged.

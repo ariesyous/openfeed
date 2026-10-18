@@ -4,6 +4,7 @@ import { logEditorialAttempt } from "../generator/editorial/diagnostics";
 import { prepareEvidence } from "../generator/editorial/evidence";
 import { reviewEditorial } from "../generator/editorial/review";
 import type { SourcePacket } from "../generator/editorial/sources";
+import type { ReviewPost } from "../generator/editorial/review";
 
 // Manual live contract check, never part of scheduled publication. Synthetic
 // controls exercise known error patterns; they are not historical regeneration
@@ -37,22 +38,50 @@ const correctedExpectation = structuredClone(expectation);
 correctedExpectation.discussion[0].body = "Children may expect a dangerous person to appear nasty immediately. Apparently the villain forgot to wear the costume; a friendly opening is a poor safety test.";
 const correctedReferral = structuredClone(referral);
 correctedReferral.discussion[1].body = "That familiarity may also be a blind spot: families outside those relationships could be harder to notice. Knowing the people you can see is not the same as seeing everyone who needs help.";
+const titlePacket: SourcePacket = { id: "jury", title: "A festival jury assesses a documentary", publisher: "Synthetic control C", topic: "movies",
+  url: "https://example.com/synthetic-jury", retrievedAt: now.toISOString(),
+  excerpt: "The festival jury gave the documentary The Long Road an award.\n\nThe jury praised the family's quiet resilience." };
+const titlePost = {
+  title: "A Prize for the Documentary That Praises Quiet Resilience", body: titlePacket.excerpt, evidenceIds: ["S1E1", "S1E2"],
+  discussion: [
+    { voice: "Take", body: "Patience over volume is an appealing taste. I would rather an award start an argument than finish one.", evidenceIds: ["S1E2"] },
+    { voice: "Pushback", body: "And I would rather dignity not become a polite word for passivity. Quiet is a description, not an obligation.", evidenceIds: ["S1E2"] },
+  ],
+};
+const suites: { name: string; posts: ReviewPost[]; prepared: ReturnType<typeof prepareEvidence>; expectedRejected: string[] }[] = [
+  { name: "reversal_and_unsupported_absolute", posts: [expectation, referral, correctedExpectation, correctedReferral], prepared, expectedRejected: ["P1", "P2"] },
+  { name: "title_attribution_and_editorial_voice", prepared: prepareEvidence([titlePacket]), expectedRejected: ["P1", "P2"], posts: [
+    titlePost,
+    { ...titlePost, title: "The Director Praises the Family's Quiet Resilience" },
+    { ...titlePost, title: "Jury Praises Quiet Resilience in Award-Winning Documentary" },
+    { ...titlePost, title: "Quiet Resilience Deserves a Louder Conversation" },
+  ] },
+];
 const started = Date.now();
 const apiKey = getApiKey();
-const result = await reviewEditorial({ apiKey, posts: [expectation, referral, correctedExpectation, correctedReferral], prepared,
-  maxAttempts: 2, deadlineMs: started + 15 * 60_000,
-  onAttempt: info => logEditorialAttempt(info, apiKey, Date.now() - started),
-});
-const rejected = result.value.posts.filter(post => post.checks.some(check => check.verdict === "reject")).map(post => post.key).sort();
-const passed = JSON.stringify(rejected) === JSON.stringify(["P1", "P2"]);
-const record = { schemaVersion: 1, synthetic: true, scope: "Two deliberately wrong controls and two corrected counterparts with opinion and metaphor; no publication.",
-  requestedModel: result.requestedModel, resolvedModel: result.resolvedModel, attempts: result.attempts,
-  elapsedMs: Date.now() - started, expectedRejected: ["P1", "P2"], actualRejected: rejected, passed, decisions: result.value };
+const results = [];
+for (const suite of suites) {
+  for (const post of suite.posts) for (const id of [...post.evidenceIds, ...(post.discussion ?? []).flatMap(turn => turn.evidenceIds)]) {
+    if (!suite.prepared.evidenceById.has(id)) throw new Error("Synthetic control has an unknown evidence ID");
+  }
+  const result = await reviewEditorial({ apiKey, posts: suite.posts, prepared: suite.prepared,
+    maxAttempts: 2, deadlineMs: started + 15 * 60_000,
+    onAttempt: info => logEditorialAttempt(info, apiKey, Date.now() - started),
+  });
+  const rejected = result.value.posts.filter(post => post.checks.some(check => check.verdict === "reject")).map(post => post.key).sort();
+  const passed = JSON.stringify(rejected) === JSON.stringify(suite.expectedRejected);
+  results.push({ name: suite.name, requestedModel: result.requestedModel, resolvedModel: result.resolvedModel, attempts: result.attempts,
+    expectedRejected: suite.expectedRejected, actualRejected: rejected, passed, decisions: result.value });
+  console.log(`[review check] suite=${suite.name} passed=${passed} expected=${suite.expectedRejected.join(",")} actual=${rejected.join(",")}`);
+}
+const passed = results.every(result => result.passed);
+const record = { schemaVersion: 2, synthetic: true, scope: "Four deliberately wrong controls and four supported or opinionated counterparts across two bounded suites; no publication.",
+  elapsedMs: Date.now() - started, passed, suites: results };
 // Fixed bounded diagnostic artifact, not raw completion/reading context.
 const serialized = JSON.stringify(record, null, 2).split(apiKey).join("[REDACTED]")
   .replace(/Bearer\s+[^\s"',;]+/gi, "Bearer [REDACTED]").replace(/sk-or-[\w-]+/g, "[REDACTED]");
 if (Buffer.byteLength(serialized) > 64 * 1024) throw new Error("Review check exceeds artifact bound");
 mkdirSync("artifacts", { recursive: true });
 writeFileSync("artifacts/editorial-review-check.json", serialized + "\n");
-console.log(`[review check] passed=${passed} expected=P1,P2 actual=${rejected.join(",")} attempts=${result.attempts} elapsedMs=${record.elapsedMs}`);
+console.log(`[review check] passed=${passed} elapsedMs=${record.elapsedMs}`);
 if (!passed) process.exitCode = 1;
