@@ -74,6 +74,13 @@ behavior, not a model's ability to recognize arbitrary factual errors. Existing 
 tests mock approval to isolate their earlier provenance/retry contracts; the new review
 suite exercises actual separate reviewer requests through the provider wrapper.
 
+The manually dispatched `Check editorial reviewer` workflow runs one bounded live
+check against two synthetic error patterns and corrected counterparts with opinion
+and metaphor. It uses DeepSeek Flash, at most two calls and a 15-minute request
+deadline, and never fetches sources or writes public content/state. This optional
+manual check is separate from each ordinary edition's shared budget. Its small,
+prompt-aligned controls demonstrate targeted behavior, not general accuracy.
+
 Live review remains necessary. Measure false negatives and false positives, retained
 banter, publication counts, source availability, call counts and latency. Do not describe
 an approved post as automatically fact-checked or treat fewer published posts as proof

@@ -1,0 +1,32 @@
+name: Check editorial reviewer
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  review-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Check known error patterns and preserve opinion
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_MODEL: deepseek/deepseek-v4.1-flash
+        run: pnpm exec tsx scripts/checkEditorialReview.ts
+      - uses: actions/upload-artifact@v4
+        if: always() && hashFiles('artifacts/editorial-review-check.json') != ''
+        with:
+          name: editorial-review-check-${{ github.run_id }}
+          path: artifacts/editorial-review-check.json
+          retention-days: 14
+          if-no-files-found: error
