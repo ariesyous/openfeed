@@ -2409,7 +2409,14 @@
     "burnt out cars and shattered glass on paris streets after protests turn to riots and looting",
     "noah adams longtime host of npr s all things considered has died",
     "sergei loznitsa s imperium wins best film at bfi london film festival",
-    "search for amelia earhart s plane resumes after stormy weather"
+    "search for amelia earhart s plane resumes after stormy weather",
+    "box office la bola negra scores 277 500 from four theaters as netflix reports grosses for first time ever",
+    "anthropic gives outside ai watchdog employee like access",
+    "q a with an alberta politics expert taking the province s pulse on the eve of the referendum approaches",
+    "pope leo tells faithful in st peter s square he will gradually resume duties after cancer surgery",
+    "i took a chance on the whisky industry and i haven t looked back",
+    "how canada can better track what happens to trafficked wildlife after they re seized",
+    "georgina cates an awfully big adventure and 2point4 children actress dies at 51"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -4820,12 +4827,19 @@
     "https://www.bbc.co.uk/news/articles/c574pdzl0k4no",
     "https://www.npr.org/2026/10/18/nx-s1-5556931/noah-adams-all-things-considered-has-died",
     "https://variety.com/2026/film/festivals/sergei-loznitsa-imperium-best-film-london-film-festival-1236915621/",
-    "https://www.bbc.co.uk/news/articles/cv70pxe5j90eo"
+    "https://www.bbc.co.uk/news/articles/cv70pxe5j90eo",
+    "https://variety.com/2026/film/news/la-bola-negra-box-office-netflix-reports-grosses-1236915765/",
+    "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+    "https://theconversation.com/qanda-with-an-alberta-politics-expert-taking-the-provinces-pulse-on-the-eve-of-the-referendum-approaches-294417",
+    "https://www.pbs.org/newshour/world/pope-leo-tells-faithful-in-st-peters-square-he-will-gradually-resume-duties-after-cancer-surgery",
+    "https://www.bbc.co.uk/news/articles/c6y8ln9831v3o",
+    "https://theconversation.com/how-canada-can-better-track-what-happens-to-trafficked-wildlife-after-theyre-seized-293935",
+    "https://variety.com/2026/film/news/georgina-cates-dead-awfully-big-adventure-2point4-children-1236915784/"
   ],
   "initialized": true,
-  "cycleCount": 146,
+  "cycleCount": 147,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-10-18T16:48:47.369Z",
+  "lastRunAt": "2026-10-18T17:27:15.344Z",
   "communities": [
     "technology",
     "science",
@@ -4847,11 +4861,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20261018T044607Z-39d1",
-      "generatedAtCycle": 142,
-      "summary": "The Free-Fruit Trial Judged by Wastage, Not Grocery Bills; Starshield Loses the Connection Above 100 mph; The Postwar Slump That Had Jimmy Stewart Eyeing the Family Store; A Post Referencing Palestine Action Didn't Meet the Criminal Threshold, Police Say; Bettany: We Hadn't Spoken in Years When the Texts Were Read in Court; The Creative Prompts Aimed at Perfectionism, Not Inspiration"
-    },
-    {
       "batchId": "20261018T051009Z-4d71",
       "generatedAtCycle": 143,
       "summary": "Snapchat, TikTok and Instagram Lead the Apps Children Name in Abuse Counselling; Beds, Flooring, White Goods: What One Guernsey Charity's Grants Buy Now"
@@ -4870,6 +4879,11 @@
       "batchId": "20261018T164847Z-b1c0",
       "generatedAtCycle": 146,
       "summary": "A Mostly Peaceful March, and 1,500 Damaged Shops; Noah Adams Listened for the Person, Not the Talking Point; A BFI Prize for the Documentary That Praises Quiet Resilience; The Earhart Search Returns to a Shape in the Lagoon"
+    },
+    {
+      "batchId": "20261018T172715Z-7712",
+      "generatedAtCycle": 147,
+      "summary": "Netflix Reported Box Office for the First Time, and the First Number Is $69,375 a Screen; Anthropic Gives METR a Desk Inside the Lab, With Access to Its Hardware and Systems; Why Alberta Separatism Went Looking for a Party to Borrow; Pope Leo XIV Thanks the Faithful Four Days After Lung Surgery; Zoey Darnbrough Didn't Know Her Hometown Had a Distillery. Now She Co-ordinates Its Tourism; The Turtles Mailed as Building Blocks, and the Canadian Law That Stops Asking After That; A June Instagram Pos"
     }
   ]
 }

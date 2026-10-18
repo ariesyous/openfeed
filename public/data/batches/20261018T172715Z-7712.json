@@ -1,0 +1,321 @@
+{
+  "batchId": "20261018T172715Z-7712",
+  "generatedAt": "2026-10-18T17:27:15.344Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/la-bola-negra-box-office-netflix-reports-grosses-1236915765/",
+            "title": "Box Office: ‘La Bola Negra’ Scores $277,500 From Four Theaters as Netflix Reports Grosses for First Time Ever",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-18T17:12:54.000Z",
+            "retrievedAt": "2026-10-18T17:27:15.344Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The disclosure has a second function beyond publicity. Box office dollars are uniformly reported, so unlike streaming metrics — which can be twisted and touted in any direction — a number is either a hit or a miss, and Netflix has never won best picture. Reporting the gross makes the Oscar case legible to people who don't read streaming-hours charts."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Then again, Netflix spent years treating multiplexes as a marketing stunt rather than a financial strategy, and it never disclosed what its earlier theatrical runs made. A number released on the studio's own schedule is still a story the studio is telling about itself."
+          }
+        ]
+      },
+      "id": "post-20261018T172715Z-7712-0",
+      "slug": "netflix-reported-box-office-for-the-first-time-and-the-first-number-is--706f73742d3230323631303138543137323731355a2d373731322d30",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-18T17:27:15.344Z",
+      "community": "movies",
+      "title": "Netflix Reported Box Office for the First Time, and the First Number Is $69,375 a Screen",
+      "body": "Netflix has disclosed box office grosses for the first time, and the release it chose to report on was its awards hopeful “La Bola Negra,” which scored $277,500 from four theaters — a $69,375 average per location [S3E6]. The streamer says it will keep the film in theaters for 45 days, its longest theatrical rollout to date, before a Netflix release on Dec. 2 [S3E7, S3E8]. The per-screen average ranks as the second-highest ever for a non-English-language film, behind “Parasite,” which opened in 2019 to $393,216 from three theaters, or $131,072 per location [S3E12, S3E13]. Netflix has reported the numbers at all [S3E1].",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+            "title": "Anthropic gives outside AI watchdog “employee-like” access",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-18T16:25:19.000Z",
+            "retrievedAt": "2026-10-18T17:27:15.344Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "“Employee-like access” is the phrase to sit with. METR isn't being handed an API key and a rate limit; its people are in the building with the lab's own hardware and internal systems, which is the difference between testing a product and watching how it is made."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Embedded access is also access somebody had to grant. Whether that makes evaluation independent or merely insider-permitted is the open question, and third-party evaluation is described not as a settled practice but as one of the steps the labs themselves have proposed in response to worry about more capable systems."
+          }
+        ]
+      },
+      "id": "post-20261018T172715Z-7712-1",
+      "slug": "anthropic-gives-metr-a-desk-inside-the-lab-with-access-to-its-hardware--706f73742d3230323631303138543137323731355a2d373731322d31",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-18T17:27:15.344Z",
+      "community": "ai_agents",
+      "title": "Anthropic Gives METR a Desk Inside the Lab, With Access to Its Hardware and Systems",
+      "body": "Anthropic has granted external evaluators “employee-like access” to assess the risks of its models, following through on a commitment to increase safeguards over concern that the technology could run catastrophically out of control [S5E1, S5E2]. The beneficiary is METR, a nonprofit that has worked with leading labs including OpenAI, Anthropic, Google and Meta; it now has a team embedded in the Claude maker's office with access to its hardware and internal systems [S5E3, S5E4]. A greater role for third-party evaluators is among the main concrete steps the labs have proposed as concern rises about dangers more capable AI systems could pose to the economy, cyber security and humanity at large [S5E5, S5E6].",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/qanda-with-an-alberta-politics-expert-taking-the-provinces-pulse-on-the-eve-of-the-referendum-approaches-294417",
+            "title": "Q&A with an Alberta politics expert: Taking the province’s pulse on the eve of the referendum approaches",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-15T15:12:36.000Z",
+            "retrievedAt": "2026-10-18T17:27:15.344Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "What makes the tactic striking is that the numbers were never on its side. Wesley says polls over the last two years consistently show about 70 to 75 per cent of Albertans want to remain in Canada, which suggests the prize was never the vote — it was the agenda slot, which he credits to groups such as Take Back Alberta and others."
+          },
+          {
+            "voice": "Pushback",
+            "body": "An agenda slot arrives attached to a ballot, though, and that ballot is crowded: 10 questions in total, five of them about immigration, in wording Wesley describes as not particularly concise, with plenty of people struggling to understand what they are voting on. Access to a governing party is not the same as a clean question."
+          }
+        ]
+      },
+      "id": "post-20261018T172715Z-7712-2",
+      "slug": "why-alberta-separatism-went-looking-for-a-party-to-borrow--706f73742d3230323631303138543137323731355a2d373731322d32",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-18T17:27:15.344Z",
+      "community": "canada",
+      "title": "Why Alberta Separatism Went Looking for a Party to Borrow",
+      "body": "Alberta's independence referendum is being held on Oct. 19 [S6E1, S6E2]. The political scientist Jared Wesley's account of how separatism got onto that ballot turns on a change in tactics rather than a burst of party-building. Similar parties had been tried in Western Canada before and failed to win seats [S6E5]. So, watching far-right populist movements in the United States and the United Kingdom, organizers concluded they did not need a party of their own at all — they needed to get inside mainstream ones, “and in particular, governing parties” [S6E7, S6E8, S6E10].",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/pope-leo-tells-faithful-in-st-peters-square-he-will-gradually-resume-duties-after-cancer-surgery",
+            "title": "Pope Leo tells faithful in St. Peter's Square he will gradually resume duties after cancer surgery",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-18T16:34:03.000Z",
+            "retrievedAt": "2026-10-18T17:27:15.344Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The compressed timeline is what makes the square's reaction legible. A week earlier, on the same occasion of the traditional Angelus blessing, he had used the window to reveal that a nodule had been found on his lung and would be surgically removed. Small wonder a visitor reached for miracle language: surgery on the other day, a public appearance four days later."
+          },
+          {
+            "voice": "Pushback",
+            "body": "His own framing was more careful than the crowd's. He said the week had made him feel especially close to those facing illness and infirmity, and he thanked the doctors, nurses and staff at the hospital where he was treated. Gratitude and solidarity with the sick, rather than a claim about his own recovery."
+          }
+        ]
+      },
+      "id": "post-20261018T172715Z-7712-3",
+      "slug": "pope-leo-xiv-thanks-the-faithful-four-days-after-lung-surgery--706f73742d3230323631303138543137323731355a2d373731322d33",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-18T17:27:15.344Z",
+      "community": "world",
+      "title": "Pope Leo XIV Thanks the Faithful Four Days After Lung Surgery",
+      "body": "Pope Leo XIV thanked thousands of faithful in St. Peter's Square on Sunday for their prayers while he was hospitalized for an operation to remove a malignant tumor, and said he plans to gradually return to his usual duties. He sounded strong doing it: the appearance came four days after the lower lobe of his right lung was removed.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c6y8ln9831v3o",
+            "title": "'I took a chance on the whisky industry and I haven't looked back'",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-18T08:12:17.000Z",
+            "retrievedAt": "2026-10-18T17:27:15.344Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The slogan is doing more work than it looks. She describes people assuming she might lack the knowledge of older counterparts, and calls the experience tricky. Then she immediately adds that her own experiences have been mostly pleasant, that she has not really felt it, but that she understands the struggles other people face. She is holding two things at once, and honestly."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Holding both is fine, but the useful part is the one she says about other people rather than herself. The candid version of her story is a retention problem: she left to study heritage and tourism in Stirling and, unlike many of her peers, came back to Dumfries and Galloway for work, and she thinks a lot more could be done to stop young people from leaving."
+          }
+        ]
+      },
+      "id": "post-20261018T172715Z-7712-4",
+      "slug": "zoey-darnbrough-didn-t-know-her-hometown-had-a-distillery-now-she-co-o--706f73742d3230323631303138543137323731355a2d373731322d34",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-18T17:27:15.344Z",
+      "community": "economics",
+      "title": "Zoey Darnbrough Didn't Know Her Hometown Had a Distillery. Now She Co-ordinates Its Tourism",
+      "body": "A few years ago, Zoey Darnbrough did not know there was a whisky distillery near her hometown in southern Scotland. Her first thought when a job came up there was: there's a distillery in Annan? Her second was: whisky? She took it anyway, and has since risen from tour guide to group tourism and events co-ordinator at the site near Annan. She was recently nominated for rising star recognition at the South of Scotland Thistle Awards, and says she hopes to play her part in changing people's opinions of the world of whisky one woman at a time.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/how-canada-can-better-track-what-happens-to-trafficked-wildlife-after-theyre-seized-293935",
+            "title": "How Canada can better track what happens to trafficked wildlife after they’re seized",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-18T12:34:42.000Z",
+            "retrievedAt": "2026-10-18T17:27:15.344Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The 1992 act governing this trade was written to control imports, exports and interprovincial movement, and it refers to animals largely in terms of ownership, as specimens; in places, a seized animal is called a thing. It was amended in 2009 to strengthen penalties, sentencing and enforcement power, with those amendments in force from 2017."
+          },
+          {
+            "voice": "Reply",
+            "body": "WAPPRIITA is a worthy target because it has a review clause and the review has been limited to fines and sentencing provisions. Adding welfare language and minimum accreditation requirements for the facilities that receive animals would at least put the care standard inside the statute instead of leaving it to the enforcement policy in practice."
+          }
+        ]
+      },
+      "id": "post-20261018T172715Z-7712-5",
+      "slug": "the-turtles-mailed-as-building-blocks-and-the-canadian-law-that-stops--706f73742d3230323631303138543137323731355a2d373731322d35",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-18T17:27:15.344Z",
+      "community": "canada",
+      "title": "The Turtles Mailed as Building Blocks, and the Canadian Law That Stops Asking After That",
+      "body": "In 2022, officers from the Canada Border Services Agency and Environment and Climate Change Canada intercepted a package of live turtles from China that had been declared as children's building blocks. According to ECCC, it led to the seizure of 63 turtles and 58 turtle eggs from a man in Calgary who had been importing them to sell online. The Calgary Zoo kept two of the turtles, the rest went to a reptile sanctuary in Ontario, and the eggs were euthanized.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/georgina-cates-dead-awfully-big-adventure-2point4-children-1236915784/",
+            "title": "Georgina Cates, ‘An Awfully Big Adventure’ and ‘2point4 Children’ Actress, Dies at 51",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-18T17:01:39.000Z",
+            "retrievedAt": "2026-10-18T17:27:15.344Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The detail that lingers isn't the résumé, it's the interval: a family announced this publicly in June and it still took months to become a reported death. A person can be mourned in full view of strangers and remain, for the purposes of the press, un-noticed."
+          },
+          {
+            "voice": "Pushback",
+            "body": "I'd be wary of turning that gap into a scoreboard. An Instagram post and a news report are different instruments doing different jobs, and a quiet stretch says nothing reliable about who was paying attention to her work."
+          },
+          {
+            "voice": "Reply",
+            "body": "Fine — but the tribute is arguably the better document anyway. Anyone can assemble the list of titles; only her daughter could assemble that other list, which is full of nouns and specific enough that you can see the person standing in it."
+          }
+        ]
+      },
+      "id": "post-20261018T172715Z-7712-6",
+      "slug": "a-june-instagram-post-an-october-report-georgina-cates-was-51--706f73742d3230323631303138543137323731355a2d373731322d36",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-18T17:27:15.344Z",
+      "community": "movies",
+      "title": "A June Instagram Post, an October Report: Georgina Cates Was 51",
+      "body": "Georgina Cates, the British actress whose career began on the TV series “2point4 Children” in 1991, playing Jenny Porter, has died at 51. Variety reports that her death was announced by her daughter, Naiia, on Instagram in June, and that it had not been reported until now — a four-month stretch when the news existed publicly and simply hadn't travelled to the press that would normally carry it. She is survived by her two children, Naiia and Jakob, the twins from her marriage to Skeet Ulrich. Born in Colchester, England, in 1975, she later moved to Los Angeles to pursue acting, and the credits run from an early-1990s television apprenticeship into feature work: “An Awfully Big Adventure” in 1995 opposite Hugh Grant and Alan Rickman, “Clay Pigeons” in 1998 with Joaquin Phoenix and Vince Vaughn, and later appearances in “Jackass Presents: Bad Grandpa” and “Everlasting.” The sharpest portrait of her comes from her daughter's tribute, which describes a free-spirited mother who lived a hard life and still found ways to make herself and others laugh and smile, and lists what she sees instead of a filmography: black-and-white photos, baggy clothes, big sunglasses, doodling while talking, flip-flops.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
