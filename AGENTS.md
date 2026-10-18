@@ -302,6 +302,22 @@ Editorial discussions start expanded in feed and article views. Preserve the spo
 gate over both body and discussion and retain the manual collapse option. Card mode
 continues to link to the full discussion; its fitting contract is unchanged.
 
+## Review transport compatibility — October 18, 2026
+Reviewer transport retains required fields, types, enums and strict objects, but
+omits nested string/array size bounds. The unchanged local live schema enforces all
+bounds and complete claim accounting before publication. Generic HTTP 400 errors
+remain fatal. Manual reviewer controls default to DeepSeek and allow explicit Gemini
+comparison; this does not change the scheduled model. See
+docs/editorial-selected-evidence-live-review-20261018.md for controls and failed runs.
+
+## DeepSeek only and CoBanter — October 18, 2026 (latest user direction)
+The user removed all other model choices. Local generation, scheduled/manual Actions
+and reviewer controls use only `deepseek/deepseek-v4.1-flash`; there is no model dropdown
+and stale `OPENROUTER_MODEL` settings are ignored. This supersedes all older model
+selection instructions, including the comparison option above. Preserve historical
+model identities and audits. Hosting is now CoBanter.com; preserve the concurrent
+domain/routing changes and use the current domain for live verification.
+
 ## Complete claim accounting and evidence labels — October 18, 2026
 Live reviews require ordered segments covering each complete unchanged unit, classified
 as supported fact, unsupported fact or opinion. Every factual support ID and every

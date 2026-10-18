@@ -51,8 +51,9 @@ sources. It demonstrates the new format; recurring model-generated editions stil
 live quality evaluation. Thin RSS descriptions may support only short briefs, not deep
 explainers. Full articles remain linked for context.
 
-Set `OPENROUTER_API_KEY` locally or as a repository secret. `OPENROUTER_MODEL` selects
-the model for local runs; manual Actions runs use the model dropdown. Scheduled runs
+Set `OPENROUTER_API_KEY` locally or as a repository secret. DeepSeek Flash is the only
+model for local generation, manual Actions and reviewer checks; legacy
+`OPENROUTER_MODEL` values are ignored. Scheduled runs
 are enabled every three hours at minute 17 (`17 */3 * * *`, UTC) and always use
 `deepseek/deepseek-v4.1-flash`. Successful editions are committed and deployed automatically.
 Concurrency prevents overlapping generation jobs. The old `FEED_SCHEDULE_ENABLED`
@@ -101,12 +102,11 @@ Recognizable process narration in a title, body or discussion triggers a correct
 within the existing retry budget. Attribution and evidence-backed caveats about the
 subject remain welcome. This focused text check does not replace editorial review.
 
-Editions have an eight-post ceiling in requests of at most four, sharing eight total provider attempts.
+Editions have an eight-post ceiling in requests of at most two, sharing eight total provider attempts.
 There is no minimum or topic quota: one worthwhile post or an empty edition is acceptable.
 A shared 45-minute generation budget caps request timeouts and retry waits; the workflow
-has a 55-minute safety timeout. Validated partial editions can publish when a later request fails; weak evidence never gets padded. Manual Actions runs default to
-`openrouter/free`; Gemini, DeepSeek Flash, and `stealth/space-bunny-alpha` remain optional manual selections. Scheduled runs every three hours
-always use `deepseek/deepseek-v4.1-flash`, independent of the repository model variable.
+has a 55-minute safety timeout. Reviewed partial editions can publish when a later request fails; weak evidence never gets padded. All writer and reviewer calls
+use `deepseek/deepseek-v4.1-flash`, including scheduled runs every three hours.
 
 An empty model response defers that request's sources for the current run and tries
 a different unused selection. These calls share the same attempt/time budgets;
@@ -170,7 +170,7 @@ discussion. Historical validation still supports optional discussions. See [edit
 the thirteen-page source pilot, diagnostics, and the fixed ordinary-run review protocol.
 The #36 and #37 observation requirements remain open.
 
-`openrouter/free` remains the local and manual default. Provider failures can still occur; diagnostics now
+Provider failures can still occur with DeepSeek; diagnostics
 distinguish absent choices, empty text with finish/reasoning/refusal metadata, and
 provider errors returned inside HTTP 200 responses. No raw reasoning is logged.
 

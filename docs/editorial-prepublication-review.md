@@ -112,8 +112,7 @@ The manually dispatched `Check editorial reviewer` workflow runs one bounded liv
 check against reversal, unsupported absolutes and title-attribution errors, alongside
 corrected counterparts and editorial titles with opinion and metaphor. A third suite
 tests facts supplied only by another turn or unselected source text, then the same
-prose with the required IDs selected. Three four-post suites default to DeepSeek Flash
-(Gemini Flash is an explicit manual comparison option),
+prose with the required IDs selected. Three four-post suites use DeepSeek Flash only,
 at most six calls and a shared 15-minute request deadline. The 96-KiB bounded result
 never includes raw completions; the check never fetches sources or writes public content/state. This optional
 manual check is separate from each ordinary edition's shared budget. Its small,

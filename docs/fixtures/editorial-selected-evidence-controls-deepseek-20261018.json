@@ -1,0 +1,1367 @@
+{
+  "schemaVersion": 3,
+  "synthetic": true,
+  "scope": "Six deliberately wrong controls and six supported or opinionated counterparts across three bounded suites; no publication.",
+  "elapsedMs": 88618,
+  "passed": true,
+  "suites": [
+    {
+      "name": "reversal_and_unsupported_absolute",
+      "requestedModel": "deepseek/deepseek-v4.1-flash",
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "attempts": 1,
+      "expectedRejected": [
+        "P1",
+        "P2"
+      ],
+      "actualRejected": [
+        "P1",
+        "P2"
+      ],
+      "passed": true,
+      "decisions": {
+        "posts": [
+          {
+            "key": "P1",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "Editorial framing of the expectation described in S1E1; no actor is assigned, so this is a characterization rather than a reported claim or finding.",
+                "evidenceIds": [
+                  "S1E1"
+                ],
+                "segments": [
+                  {
+                    "text": "A misleading expectation of danger",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S1E1"
+                    ],
+                    "explanation": "Evaluative framing of the expectation S1E1 describes ('children often expect dangerous people to be nasty from the start'); the source need not share the wording of an editorial title."
+                  }
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "The sentence restates S1E1 with the same actor (a prevention officer), scope ('often') and content, so nothing is added or reversed.",
+                "evidenceIds": [
+                  "S1E1"
+                ],
+                "segments": [
+                  {
+                    "text": "A prevention officer said children often expect dangerous people to be nasty from the start.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E1"
+                    ],
+                    "explanation": "Matches S1E1 exactly: actor prevention officer, expectation that dangerous people are nasty from the start, qualified by 'often'."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "reject",
+                "reason": "reversed_fact",
+                "claim": "children expect friendliness at the start rather than nastiness",
+                "explanation": "S1E1 says children expect dangerous people to be NASTY from the start; this turn flips the expectation to friendliness, contradicting the selected evidence.",
+                "evidenceIds": [
+                  "S1E1"
+                ],
+                "segments": [
+                  {
+                    "text": "The officer says children expect friendliness at the start rather than nastiness.",
+                    "kind": "unsupported_fact",
+                    "evidenceIds": [
+                      "S1E1"
+                    ],
+                    "explanation": "Reverses S1E1, which states the children's expectation is of nastiness, not friendliness."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "A stated preference for teaching boundaries over waiting for obvious villainy; the metaphor embeds only the supported premise that danger is not announced by nasty behaviour.",
+                "evidenceIds": [
+                  "S1E1"
+                ],
+                "segments": [
+                  {
+                    "text": "I would rather teach useful boundaries than wait for someone to audition for the role of obvious villain.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S1E1"
+                    ],
+                    "explanation": "Preference conditional on the supported premise that villainy is not obvious from the start; no unsupported empirical assertion."
+                  }
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "A misleading expectation of danger",
+              "titleActor": null,
+              "sourceActor": null,
+              "sourceEvidenceId": null,
+              "relation": "no_attributed_claim"
+            }
+          },
+          {
+            "key": "P2",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Refers to the referral arrangement stated in S2E1 (referrers who know the families); no actor or claim is attributed.",
+                "evidenceIds": [
+                  "S2E1"
+                ],
+                "segments": [
+                  {
+                    "text": "Knowing the family through a professional referral",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S2E1"
+                    ],
+                    "explanation": "Entailed by S2E1: the charity works through professional referrers who know the families."
+                  }
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Both paragraphs match S2E1 and S2E2 verbatim, preserving actor (the charity), route and referrer types.",
+                "evidenceIds": [
+                  "S2E1",
+                  "S2E2"
+                ],
+                "segments": [
+                  {
+                    "text": "The charity works through professional referrers who know the families.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S2E1"
+                    ],
+                    "explanation": "Direct restatement of S2E1."
+                  },
+                  {
+                    "text": "It considers applications from teachers, doctors and social workers.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S2E2"
+                    ],
+                    "explanation": "Direct restatement of S2E2, including the listed professions."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "Preference for referrers with existing knowledge; the premise that referrers know the families comes from S2E1, and the case-number remark is evaluative.",
+                "evidenceIds": [
+                  "S2E1"
+                ],
+                "segments": [
+                  {
+                    "text": "I like the advantage of a referrer who already knows the family.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S2E1"
+                    ],
+                    "explanation": "Liking is a preference; its premise (referrers know the families) is in S2E1."
+                  },
+                  {
+                    "text": "A household is more than an abstract case number.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Evaluative remark, no empirical assertion requiring support."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "reject",
+                "reason": "unsupported_claim",
+                "claim": "A household out of contact with these professionals has no route to help at all.",
+                "explanation": "S2E1-S2E2 only describe one referral route (teachers, doctors, social workers); they do not establish that families out of contact with such professionals have no possible route to help at all.",
+                "evidenceIds": [
+                  "S2E1",
+                  "S2E2"
+                ],
+                "segments": [
+                  {
+                    "text": "A household out of contact with these professionals has no route to help at all.",
+                    "kind": "unsupported_fact",
+                    "evidenceIds": [
+                      "S2E1",
+                      "S2E2"
+                    ],
+                    "explanation": "Universal negative ('no route at all') goes beyond the selected evidence, which says only that the charity works through such referrers."
+                  }
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "Knowing the family through a professional referral",
+              "titleActor": null,
+              "sourceActor": null,
+              "sourceEvidenceId": null,
+              "relation": "no_attributed_claim"
+            }
+          },
+          {
+            "key": "P3",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "Editorial framing of the expectation in S1E1; no actor is assigned, so no claim is attributed to a source speaker.",
+                "evidenceIds": [
+                  "S1E1"
+                ],
+                "segments": [
+                  {
+                    "text": "A misleading expectation of danger",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S1E1"
+                    ],
+                    "explanation": "Interpretive headline on the expectation described in S1E1; editorial wording need not originate with the source."
+                  }
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Identical to S1E1 in actor, scope and content.",
+                "evidenceIds": [
+                  "S1E1"
+                ],
+                "segments": [
+                  {
+                    "text": "A prevention officer said children often expect dangerous people to be nasty from the start.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E1"
+                    ],
+                    "explanation": "Exact restatement of S1E1, including the 'often' qualification."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "Hedged ('may expect') restatement of S1E1 plus a joke/evaluation that a friendly opening is a poor safety test; the premise is supported and the judgment is subjective.",
+                "evidenceIds": [
+                  "S1E1"
+                ],
+                "segments": [
+                  {
+                    "text": "Children may expect a dangerous person to appear nasty immediately.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E1"
+                    ],
+                    "explanation": "S1E1 supports that children often expect dangerous people to be nasty from the start; 'may' keeps the claim within that scope."
+                  },
+                  {
+                    "text": "Apparently the villain forgot to wear the costume; a friendly opening is a poor safety test.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S1E1"
+                    ],
+                    "explanation": "Joke and evaluative judgment about safety testing; the underlying point (danger is not visibly nasty at first) is just the S1E1 expectation."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "Preference for teaching boundaries over waiting for obvious villainy; metaphor with a supported premise, no unsupported empirical content.",
+                "evidenceIds": [
+                  "S1E1"
+                ],
+                "segments": [
+                  {
+                    "text": "I would rather teach useful boundaries than wait for someone to audition for the role of obvious villain.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S1E1"
+                    ],
+                    "explanation": "Stated preference/joke resting on the supported premise that dangerous people do not present as obvious villains."
+                  }
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "A misleading expectation of danger",
+              "titleActor": null,
+              "sourceActor": null,
+              "sourceEvidenceId": null,
+              "relation": "no_attributed_claim"
+            }
+          },
+          {
+            "key": "P4",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Describes the referral arrangement in S2E1; no actor or finding is attributed, so nothing is shifted.",
+                "evidenceIds": [
+                  "S2E1"
+                ],
+                "segments": [
+                  {
+                    "text": "Knowing the family through a professional referral",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S2E1"
+                    ],
+                    "explanation": "Entailed by S2E1's account of professional referrers who know the families."
+                  }
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Both paragraphs reproduce S2E1 and S2E2 without additions or changed attribution.",
+                "evidenceIds": [
+                  "S2E1",
+                  "S2E2"
+                ],
+                "segments": [
+                  {
+                    "text": "The charity works through professional referrers who know the families.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S2E1"
+                    ],
+                    "explanation": "Direct restatement of S2E1."
+                  },
+                  {
+                    "text": "It considers applications from teachers, doctors and social workers.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S2E2"
+                    ],
+                    "explanation": "Direct restatement of S2E2, professions included."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "Subjective preference for referrers who already know the family; the premise is in S2E1 and the second sentence is evaluative, not empirical.",
+                "evidenceIds": [
+                  "S2E1"
+                ],
+                "segments": [
+                  {
+                    "text": "I like the advantage of a referrer who already knows the family.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S2E1"
+                    ],
+                    "explanation": "Preference whose factual premise (referrers know the families) is stated in S2E1."
+                  },
+                  {
+                    "text": "A household is more than an abstract case number.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Evaluative remark with no unsupported empirical assertion."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "Clearly hedged possibility ('may also be a blind spot', 'could be harder to notice') built on the supported referral premise; the closing line is a general judgment, not a factual assertion.",
+                "evidenceIds": [
+                  "S2E1",
+                  "S2E2"
+                ],
+                "segments": [
+                  {
+                    "text": "That familiarity may also be a blind spot: families outside those relationships could be harder to notice.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S2E1",
+                      "S2E2"
+                    ],
+                    "explanation": "Conditional inference from S2E1-S2E2 (help routed via professionals who know families); presented as a possibility, not asserted fact."
+                  },
+                  {
+                    "text": "Knowing the people you can see is not the same as seeing everyone who needs help.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "General evaluative observation; no specific empirical claim requiring citation."
+                  }
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "Knowing the family through a professional referral",
+              "titleActor": null,
+              "sourceActor": null,
+              "sourceEvidenceId": null,
+              "relation": "no_attributed_claim"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "title_attribution_and_editorial_voice",
+      "requestedModel": "deepseek/deepseek-v4.1-flash",
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "attempts": 1,
+      "expectedRejected": [
+        "P1",
+        "P2"
+      ],
+      "actualRejected": [
+        "P1",
+        "P2"
+      ],
+      "passed": true,
+      "decisions": {
+        "posts": [
+          {
+            "key": "P1",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "reject",
+                "reason": "misattribution",
+                "claim": "the Documentary That Praises Quiet Resilience",
+                "explanation": "The title assigns the praise to the documentary itself. The only selected evidence for praise (S1E2) says the jury praised the family's quiet resilience; no selected evidence states or implies the film praises anything.",
+                "evidenceIds": [
+                  "S1E2"
+                ],
+                "segments": [
+                  {
+                    "text": "A Prize for the Documentary That Praises Quiet Resilience",
+                    "kind": "unsupported_fact",
+                    "evidenceIds": [
+                      "S1E2"
+                    ],
+                    "explanation": "Attributes praise of quiet resilience to the documentary. S1E2 attributes that praise to the jury, not to the film."
+                  }
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Both sentences reproduce the selected evidence exactly: the jury gave The Long Road an award (S1E1) and praised the family's quiet resilience (S1E2). No added facts.",
+                "evidenceIds": [
+                  "S1E1",
+                  "S1E2"
+                ],
+                "segments": [
+                  {
+                    "text": "The festival jury gave the documentary The Long Road an award.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E1"
+                    ],
+                    "explanation": "Matches S1E1: actor is the festival jury, object is the documentary The Long Road, action is giving an award."
+                  },
+                  {
+                    "text": "The jury praised the family's quiet resilience.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E2"
+                    ],
+                    "explanation": "Matches S1E2: the jury praised the family's quiet resilience, with the same actor and object."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "Recognizable preference about how awards should function; no empirical assertion about the film, jury or family beyond the source's praise.",
+                "evidenceIds": [
+                  "S1E2"
+                ],
+                "segments": [
+                  {
+                    "text": "Patience over volume is an appealing taste.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Stated aesthetic preference; no factual assertion."
+                  },
+                  {
+                    "text": "I would rather an award start an argument than finish one.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Counterfactual preference about awards; asserts no specific event."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "Normative caution about how 'quiet' is read; an opinion, not a claim about what the jury said or did.",
+                "evidenceIds": [
+                  "S1E2"
+                ],
+                "segments": [
+                  {
+                    "text": "And I would rather dignity not become a polite word for passivity.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Expressed preference about the connotations of dignity; no empirical assertion."
+                  },
+                  {
+                    "text": "Quiet is a description, not an obligation.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Interpretive/normative statement about a word's use, not a factual report."
+                  }
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "A Prize for the Documentary That Praises Quiet Resilience",
+              "titleActor": "the Documentary",
+              "sourceActor": "The jury",
+              "sourceEvidenceId": "S1E2",
+              "relation": "mismatch"
+            }
+          },
+          {
+            "key": "P2",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "reject",
+                "reason": "misattribution",
+                "claim": "The Director Praises the Family's Quiet Resilience",
+                "explanation": "The title credits a director with praising the family's resilience. The selected evidence (S1E2) assigns that praise to the jury; no selected evidence mentions a director at all.",
+                "evidenceIds": [
+                  "S1E2"
+                ],
+                "segments": [
+                  {
+                    "text": "The Director Praises the Family's Quiet Resilience",
+                    "kind": "unsupported_fact",
+                    "evidenceIds": [
+                      "S1E2"
+                    ],
+                    "explanation": "Speaker is shifted: S1E2 has the jury praising the family's quiet resilience, not the director."
+                  }
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Both sentences reproduce S1E1 and S1E2 exactly, with the same actors and objects.",
+                "evidenceIds": [
+                  "S1E1",
+                  "S1E2"
+                ],
+                "segments": [
+                  {
+                    "text": "The festival jury gave the documentary The Long Road an award.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E1"
+                    ],
+                    "explanation": "Matches S1E1: festival jury gives the documentary The Long Road an award."
+                  },
+                  {
+                    "text": "The jury praised the family's quiet resilience.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E2"
+                    ],
+                    "explanation": "Matches S1E2: the jury praised the family's quiet resilience."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "Subjective preference about awards and debate; no hidden empirical premise about the film or jury.",
+                "evidenceIds": [
+                  "S1E2"
+                ],
+                "segments": [
+                  {
+                    "text": "Patience over volume is an appealing taste.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Aesthetic preference, not a factual report."
+                  },
+                  {
+                    "text": "I would rather an award start an argument than finish one.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Conditional preference; no specific event asserted."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "Normative caution about the word 'quiet'; no empirical assertion requiring source support.",
+                "evidenceIds": [
+                  "S1E2"
+                ],
+                "segments": [
+                  {
+                    "text": "And I would rather dignity not become a polite word for passivity.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Expressed preference about dignity's connotations."
+                  },
+                  {
+                    "text": "Quiet is a description, not an obligation.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Interpretive statement about usage, not a factual claim."
+                  }
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "The Director Praises the Family's Quiet Resilience",
+              "titleActor": "The Director",
+              "sourceActor": "The jury",
+              "sourceEvidenceId": "S1E2",
+              "relation": "mismatch"
+            }
+          },
+          {
+            "key": "P3",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Title attributes the praise to the jury (S1E2) and the award to the documentary (S1E1), matching the source actors and objects.",
+                "evidenceIds": [
+                  "S1E1",
+                  "S1E2"
+                ],
+                "segments": [
+                  {
+                    "text": "Jury Praises Quiet Resilience",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E2"
+                    ],
+                    "explanation": "S1E2: the jury praised the family's quiet resilience; actor and object align."
+                  },
+                  {
+                    "text": "in Award-Winning Documentary",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E1"
+                    ],
+                    "explanation": "S1E1 says the documentary received an award, so calling it award-winning follows."
+                  }
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Verbatim reproduction of the two selected evidence sentences; no added or shifted facts.",
+                "evidenceIds": [
+                  "S1E1",
+                  "S1E2"
+                ],
+                "segments": [
+                  {
+                    "text": "The festival jury gave the documentary The Long Road an award.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E1"
+                    ],
+                    "explanation": "Matches S1E1's actor, action and object exactly."
+                  },
+                  {
+                    "text": "The jury praised the family's quiet resilience.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E2"
+                    ],
+                    "explanation": "Matches S1E2's actor, action and object exactly."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "Taste-based preference about awards; nothing empirical asserted beyond the source's praise.",
+                "evidenceIds": [
+                  "S1E2"
+                ],
+                "segments": [
+                  {
+                    "text": "Patience over volume is an appealing taste.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Subjective taste statement."
+                  },
+                  {
+                    "text": "I would rather an award start an argument than finish one.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Conditional preference about awards; no factual assertion."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "Interpretive caution about how quietness is read; no unsupported empirical premise.",
+                "evidenceIds": [
+                  "S1E2"
+                ],
+                "segments": [
+                  {
+                    "text": "And I would rather dignity not become a polite word for passivity.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Expressed preference about the connotations of dignity."
+                  },
+                  {
+                    "text": "Quiet is a description, not an obligation.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Normative/conceptual statement about the word 'quiet'."
+                  }
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "Jury Praises Quiet Resilience in Award-Winning Documentary",
+              "titleActor": "Jury",
+              "sourceActor": "The jury",
+              "sourceEvidenceId": "S1E2",
+              "relation": "aligned"
+            }
+          },
+          {
+            "key": "P4",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "Editorial evaluation rather than a claim assigned to a source actor; the quiet-resilience premise has support in S1E2. No source is depicted as saying this.",
+                "evidenceIds": [
+                  "S1E2"
+                ],
+                "segments": [
+                  {
+                    "text": "Quiet Resilience Deserves a Louder Conversation",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S1E2"
+                    ],
+                    "explanation": "Playful editorial verdict, not a quotation or action attributed to the jury or film; the praised-resilience premise rests on S1E2."
+                  }
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Both sentences reproduce the selected evidence verbatim with the same actors and objects.",
+                "evidenceIds": [
+                  "S1E1",
+                  "S1E2"
+                ],
+                "segments": [
+                  {
+                    "text": "The festival jury gave the documentary The Long Road an award.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E1"
+                    ],
+                    "explanation": "Matches S1E1 exactly."
+                  },
+                  {
+                    "text": "The jury praised the family's quiet resilience.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E2"
+                    ],
+                    "explanation": "Matches S1E2 exactly."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "Subjective preference about awards and argument; no factual claim requiring support.",
+                "evidenceIds": [
+                  "S1E2"
+                ],
+                "segments": [
+                  {
+                    "text": "Patience over volume is an appealing taste.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Aesthetic preference statement."
+                  },
+                  {
+                    "text": "I would rather an award start an argument than finish one.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Conditional preference; asserts no event."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "Interpretive caution about dignity and quietness; contributes a distinct angle without unsupported facts.",
+                "evidenceIds": [
+                  "S1E2"
+                ],
+                "segments": [
+                  {
+                    "text": "And I would rather dignity not become a polite word for passivity.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Expressed preference about the word 'dignity'."
+                  },
+                  {
+                    "text": "Quiet is a description, not an obligation.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Normative statement about usage of 'quiet'."
+                  }
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "Quiet Resilience Deserves a Louder Conversation",
+              "titleActor": null,
+              "sourceActor": null,
+              "sourceEvidenceId": "S1E2",
+              "relation": "interpretation"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "unit_selected_support_and_banter",
+      "requestedModel": "deepseek/deepseek-v4.1-flash",
+      "resolvedModel": "deepseek/deepseek-v4.1-flash",
+      "attempts": 1,
+      "expectedRejected": [
+        "P1",
+        "P2"
+      ],
+      "actualRejected": [
+        "P1",
+        "P2"
+      ],
+      "passed": true,
+      "decisions": {
+        "posts": [
+          {
+            "key": "P1",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Title states a seizure of sixty-three turtles; S1E1 reports officers seized sixty-three turtles in 2022.",
+                "evidenceIds": [
+                  "S1E1"
+                ],
+                "segments": [
+                  {
+                    "text": "A Seizure of Sixty-Three Turtles",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E1"
+                    ],
+                    "explanation": "S1E1 directly supports the seizure-of-sixty-three-turtles event in the title."
+                  }
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Body exactly matches S1E1.",
+                "evidenceIds": [
+                  "S1E1"
+                ],
+                "segments": [
+                  {
+                    "text": "Officers seized sixty-three turtles in 2022.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E1"
+                    ],
+                    "explanation": "S1E1 states officers seized sixty-three turtles in 2022."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "reject",
+                "reason": "unsupported_claim",
+                "claim": "The amendments came into force in 2017.",
+                "explanation": "S1E2 supports only the 2009 amendment. The 2017 commencement is absent from this unit's selected evidence; it may appear elsewhere but cannot be borrowed into this turn.",
+                "evidenceIds": [
+                  "S1E2"
+                ],
+                "segments": [
+                  {
+                    "text": "The law was amended in 2009.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E2"
+                    ],
+                    "explanation": "S1E2 directly states the law was amended in 2009."
+                  },
+                  {
+                    "text": "The amendments came into force in 2017.",
+                    "kind": "unsupported_fact",
+                    "evidenceIds": [],
+                    "explanation": "No selected evidence in this unit authorizes the 2017 commencement claim."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "The factual clause matches S1E3, and the turtle-clock line is playful commentary.",
+                "evidenceIds": [
+                  "S1E3"
+                ],
+                "segments": [
+                  {
+                    "text": "The amendments came into force in 2017.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E3"
+                    ],
+                    "explanation": "S1E3 directly states this."
+                  },
+                  {
+                    "text": "Apparently the legal clock travels by turtle.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Playful metaphor about legal pace; no additional empirical claim."
+                  }
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "A Seizure of Sixty-Three Turtles",
+              "titleActor": null,
+              "sourceActor": null,
+              "sourceEvidenceId": null,
+              "relation": "no_attributed_claim"
+            }
+          },
+          {
+            "key": "P2",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Title states a seizure of sixty-three turtles; S1E1 reports officers seized sixty-three turtles in 2022.",
+                "evidenceIds": [
+                  "S1E1"
+                ],
+                "segments": [
+                  {
+                    "text": "A Seizure of Sixty-Three Turtles",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E1"
+                    ],
+                    "explanation": "S1E1 directly supports the seizure-of-sixty-three-turtles event in the title."
+                  }
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "reject",
+                "reason": "unsupported_claim",
+                "claim": "The amendments came into force in 2017.",
+                "explanation": "This body unit selects only S1E1. The first sentence is supported, but the 2017 commencement sentence has no selected support here even though S1E3 exists elsewhere.",
+                "evidenceIds": [
+                  "S1E1"
+                ],
+                "segments": [
+                  {
+                    "text": "Officers seized sixty-three turtles in 2022.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E1"
+                    ],
+                    "explanation": "S1E1 directly states this."
+                  },
+                  {
+                    "text": "The amendments came into force in 2017.",
+                    "kind": "unsupported_fact",
+                    "evidenceIds": [],
+                    "explanation": "S1E1 does not state any 2017 commencement; this unit has no selected support for it."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Both sentences are directly supported by the selected evidence.",
+                "evidenceIds": [
+                  "S1E2",
+                  "S1E3"
+                ],
+                "segments": [
+                  {
+                    "text": "The law was amended in 2009.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E2"
+                    ],
+                    "explanation": "S1E2 directly states this."
+                  },
+                  {
+                    "text": "The amendments came into force in 2017.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E3"
+                    ],
+                    "explanation": "S1E3 directly states this."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "The factual clause matches S1E3, and the turtle-clock line is playful commentary.",
+                "evidenceIds": [
+                  "S1E3"
+                ],
+                "segments": [
+                  {
+                    "text": "The amendments came into force in 2017.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E3"
+                    ],
+                    "explanation": "S1E3 directly states this."
+                  },
+                  {
+                    "text": "Apparently the legal clock travels by turtle.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Playful metaphor about legal pace; no additional empirical claim."
+                  }
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "A Seizure of Sixty-Three Turtles",
+              "titleActor": null,
+              "sourceActor": null,
+              "sourceEvidenceId": null,
+              "relation": "no_attributed_claim"
+            }
+          },
+          {
+            "key": "P3",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Title states a seizure of sixty-three turtles; S1E1 reports officers seized sixty-three turtles in 2022.",
+                "evidenceIds": [
+                  "S1E1"
+                ],
+                "segments": [
+                  {
+                    "text": "A Seizure of Sixty-Three Turtles",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E1"
+                    ],
+                    "explanation": "S1E1 directly supports the seizure-of-sixty-three-turtles event in the title."
+                  }
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Body exactly matches S1E1.",
+                "evidenceIds": [
+                  "S1E1"
+                ],
+                "segments": [
+                  {
+                    "text": "Officers seized sixty-three turtles in 2022.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E1"
+                    ],
+                    "explanation": "S1E1 states officers seized sixty-three turtles in 2022."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Both sentences are directly supported by the selected evidence.",
+                "evidenceIds": [
+                  "S1E2",
+                  "S1E3"
+                ],
+                "segments": [
+                  {
+                    "text": "The law was amended in 2009.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E2"
+                    ],
+                    "explanation": "S1E2 directly states this."
+                  },
+                  {
+                    "text": "The amendments came into force in 2017.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E3"
+                    ],
+                    "explanation": "S1E3 directly states this."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "The factual clause matches S1E3, and the turtle-clock line is playful commentary.",
+                "evidenceIds": [
+                  "S1E3"
+                ],
+                "segments": [
+                  {
+                    "text": "The amendments came into force in 2017.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E3"
+                    ],
+                    "explanation": "S1E3 directly states this."
+                  },
+                  {
+                    "text": "Apparently the legal clock travels by turtle.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Playful metaphor about legal pace; no additional empirical claim."
+                  }
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "A Seizure of Sixty-Three Turtles",
+              "titleActor": null,
+              "sourceActor": null,
+              "sourceEvidenceId": null,
+              "relation": "no_attributed_claim"
+            }
+          },
+          {
+            "key": "P4",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Title states a seizure of sixty-three turtles; S1E1 reports officers seized sixty-three turtles in 2022.",
+                "evidenceIds": [
+                  "S1E1"
+                ],
+                "segments": [
+                  {
+                    "text": "A Seizure of Sixty-Three Turtles",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E1"
+                    ],
+                    "explanation": "S1E1 directly supports the seizure-of-sixty-three-turtles event in the title."
+                  }
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Both sentences are directly supported by the selected evidence.",
+                "evidenceIds": [
+                  "S1E1",
+                  "S1E3"
+                ],
+                "segments": [
+                  {
+                    "text": "Officers seized sixty-three turtles in 2022.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E1"
+                    ],
+                    "explanation": "S1E1 directly states this."
+                  },
+                  {
+                    "text": "The amendments came into force in 2017.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E3"
+                    ],
+                    "explanation": "S1E3 directly states this."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Both sentences are directly supported by the selected evidence.",
+                "evidenceIds": [
+                  "S1E2",
+                  "S1E3"
+                ],
+                "segments": [
+                  {
+                    "text": "The law was amended in 2009.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E2"
+                    ],
+                    "explanation": "S1E2 directly states this."
+                  },
+                  {
+                    "text": "The amendments came into force in 2017.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E3"
+                    ],
+                    "explanation": "S1E3 directly states this."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "The factual clause matches S1E3, and the turtle-clock line is playful commentary.",
+                "evidenceIds": [
+                  "S1E3"
+                ],
+                "segments": [
+                  {
+                    "text": "The amendments came into force in 2017.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E3"
+                    ],
+                    "explanation": "S1E3 directly states this."
+                  },
+                  {
+                    "text": "Apparently the legal clock travels by turtle.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Playful metaphor about legal pace; no additional empirical claim."
+                  }
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "A Seizure of Sixty-Three Turtles",
+              "titleActor": null,
+              "sourceActor": null,
+              "sourceEvidenceId": null,
+              "relation": "no_attributed_claim"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

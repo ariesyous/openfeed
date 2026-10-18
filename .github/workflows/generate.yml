@@ -5,16 +5,6 @@ on:
   schedule:
     - cron: "17 */3 * * *"
   workflow_dispatch:
-    inputs:
-      model:
-        description: OpenRouter model to generate against
-        type: choice
-        default: openrouter/free
-        options:
-          - openrouter/free
-          - google/gemini-3.8-flash
-          - deepseek/deepseek-v4.1-flash
-          - stealth/space-bunny-alpha
 
 permissions:
   contents: write
@@ -53,7 +43,6 @@ jobs:
       - name: Run generator
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          OPENROUTER_MODEL: ${{ github.event_name == 'workflow_dispatch' && inputs.model || 'deepseek/deepseek-v4.1-flash' }}
           EDITORIAL_AUDIT_DIR: artifacts
         run: pnpm generate
 

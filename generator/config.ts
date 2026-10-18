@@ -5,12 +5,10 @@ function envInt(name: string, fallback: number): number {
   return Number.isFinite(parsed) ? parsed : fallback;
 }
 
-// A function, not a top-level const: config.ts is statically imported (and its
-// top-level evaluated) before generate.ts's main() calls loadEnvFile(), so a
-// top-level const here would always see OPENROUTER_MODEL as unset and silently
-// fall back to openrouter/free regardless of .env.
+// DeepSeek-only by user request. Legacy OPENROUTER_MODEL values cannot switch
+// local generation, scheduled runs or reviewer controls to another model.
 export function getOpenRouterModel(): string {
-  return process.env.OPENROUTER_MODEL || "openrouter/free";
+  return "deepseek/deepseek-v4.1-flash";
 }
 export const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
 

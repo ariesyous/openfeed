@@ -135,7 +135,7 @@ describe("audit through the real bounded generation path", () => {
   }));
   async function generate(partial: boolean, reportModel = true) {
     vi.spyOn(console, "log").mockImplementation(() => {});
-    vi.stubEnv("OPENROUTER_MODEL", "openrouter/free");
+    vi.stubEnv("OPENROUTER_MODEL", "openrouter/free"); // Stale configuration must not change the pinned model.
     const chunks: EditorialAuditChunk[] = []; let calls = 0;
     const fetchImpl: typeof fetch = async (_url, init) => {
       calls++;
@@ -158,7 +158,7 @@ describe("audit through the real bounded generation path", () => {
     expect(calls).toBe(4); expect(items).toHaveLength(8); expect(chunks).toHaveLength(4);
     expect(chunks.map(chunk => chunk.evidence[0].id)).toEqual(["S1E1", "S1E1", "S1E1", "S1E1"]);
     expect(chunks[0].evidence[0].sourceId).not.toBe(chunks[1].evidence[0].sourceId);
-    expect(chunks.map(chunk => chunk.requestedModel)).toEqual(Array(4).fill("openrouter/free"));
+    expect(chunks.map(chunk => chunk.requestedModel)).toEqual(Array(4).fill("deepseek/deepseek-v4.1-flash"));
     expect(chunks.map(chunk => chunk.resolvedModel)).toEqual(["resolved/model-1", "resolved/model-2", "resolved/model-3", "resolved/model-4"]);
     expect(chunks.flatMap(chunk => chunk.posts.map(post => post.postId))).toEqual(items.map(item => item.id));
     expect(JSON.stringify(items)).not.toMatch(/evidenceIds|redactionsApplied|resolved\/model/);
@@ -168,7 +168,7 @@ describe("audit through the real bounded generation path", () => {
     const { chunks, items } = await generate(false, false);
     expect(items).toHaveLength(8);
     expect(chunks.map(chunk => chunk.resolvedModel)).toEqual([null, null, null, null]);
-    expect(chunks.map(chunk => chunk.requestedModel)).toEqual(Array(4).fill("openrouter/free"));
+    expect(chunks.map(chunk => chunk.requestedModel)).toEqual(Array(4).fill("deepseek/deepseek-v4.1-flash"));
     expect(() => serializeEditorialAudit(envelope(chunks))).not.toThrow();
   });
   it("keeps only accepted support when later provider attempts exhaust the shared budget", async () => {
