@@ -5,12 +5,15 @@ import { PostCard } from "./components/PostCard";
 import { TransparencyBanner } from "./components/TransparencyBanner";
 import { FeedItemSchema, type FeedItem } from "../schemas";
 import { topicFromPath, topicLabel, topicPath } from "../shared/topics";
-import { articlePath, articleSlug } from "../shared/articles";
+import { articlePath, matchesArticleSlug } from "../shared/articles";
 
 const base = import.meta.env.BASE_URL;
 const cardsRoute = () => new URLSearchParams(window.location.search).get("view") === "cards";
 function embeddedArticle(): FeedItem | null {
-  try { return FeedItemSchema.parse(JSON.parse(document.getElementById("article-data")?.textContent ?? "null")); }
+  try {
+    const item = FeedItemSchema.parse(JSON.parse(document.getElementById("article-data")?.textContent ?? "null"));
+    return item.editorial && matchesArticleSlug(item, routeSlug() ?? "") ? item : null;
+  }
   catch { return null; }
 }
 function routeSlug(): string | null {
@@ -55,13 +58,13 @@ export function App() {
         return;
       }
       const embedded = embeddedArticle();
-      if (embedded && articleSlug(embedded) === slug) { setArticle(embedded); return; }
+      if (embedded && matchesArticleSlug(embedded, slug)) { setArticle(embedded); return; }
       setArticle(null);
       try {
         const response = await fetch(`${base}p/${slug}/article.json`, { signal: abort.signal });
         if (!response.ok) throw new Error("unavailable");
         const item = FeedItemSchema.parse(await response.json());
-        if (!item.editorial || articleSlug(item) !== slug) throw new Error("wrong article");
+        if (!item.editorial || !matchesArticleSlug(item, slug)) throw new Error("wrong article");
         if (!abort.signal.aborted && navigation === request) setArticle(item);
       } catch {
         if (!abort.signal.aborted && navigation === request) setRouteError("This article couldn't be loaded. Check your connection and try again.");
@@ -73,6 +76,10 @@ export function App() {
   }, []);
   useEffect(() => {
     if (articleRoute && article) {
+      const canonicalPath = articlePath(article, base);
+      if (window.location.pathname !== canonicalPath) {
+        window.history.replaceState(window.history.state, "", canonicalPath + window.location.search + window.location.hash);
+      }
       document.title = `${article.title ?? "Article"} · CoBanter`;
       requestAnimationFrame(() => { document.getElementById("article-view")?.focus(); window.scrollTo({ top: 0 }); });
     } else if (!articleRoute) document.title = viewMode === "cards" ? "Cards · CoBanter" : community === null ? "Topic not found · CoBanter" : community ? `${topicLabel(community)} · CoBanter` : "CoBanter";

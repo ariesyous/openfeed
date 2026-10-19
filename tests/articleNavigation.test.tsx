@@ -105,4 +105,31 @@ describe("article navigation", () => {
     expect(await screen.findByText(/This article couldn't be loaded/)).toBeVisible();
     expect(screen.getByRole("button", { name: "Try again" })).toBeVisible();
   });
+  it.each([true, false])("opens a legacy URL and replaces it with the short sharing URL (embedded: %s)", async (embedded) => {
+    const legacy = { ...post, slug: `original-headline--${Buffer.from(post.id).toString("hex")}` };
+    const oldPath = `/p/${legacy.slug}/`;
+    expect(oldPath).not.toBe(articlePath(legacy));
+    window.history.replaceState({ preserved: true }, "", `${oldPath}?ref=message#sources`);
+    if (embedded) {
+      const data = document.createElement("script");
+      data.id = "article-data"; data.type = "application/json"; data.textContent = JSON.stringify(legacy); document.body.append(data);
+    } else vi.stubGlobal("fetch", vi.fn(async () => ({ ok: true, json: async () => legacy })));
+    const clipboard = vi.fn().mockResolvedValue(undefined);
+    vi.stubGlobal("navigator", { ...navigator, clipboard: { writeText: clipboard } });
+    render(<App />);
+    expect(await screen.findByRole("heading", { name: post.title })).toBeVisible();
+    await waitFor(() => expect(window.location.pathname).toBe(articlePath(legacy)));
+    expect(window.location.search + window.location.hash).toBe("?ref=message#sources");
+    expect(window.history.state).toEqual({ preserved: true });
+    fireEvent.click(screen.getByRole("button", { name: "Copy link" }));
+    expect(clipboard).toHaveBeenCalledWith(`${window.location.origin}${articlePath(legacy)}`);
+    if (embedded) expect(fetch).not.toHaveBeenCalled();
+    else expect(fetch).toHaveBeenCalledTimes(1);
+  });
+  it("rejects an article payload belonging to a different address", async () => {
+    window.history.replaceState({}, "", "/p/another-article--1234567890/");
+    render(<App />);
+    expect(await screen.findByText(/This article couldn't be loaded/)).toBeVisible();
+    expect(screen.queryByRole("heading", { name: post.title })).not.toBeInTheDocument();
+  });
 });

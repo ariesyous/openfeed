@@ -4,7 +4,7 @@ import { mkdtempSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "nod
 import path from "node:path";
 import { tmpdir } from "node:os";
 import { TOPICS, topicFromPath, topicPath, topicSlug } from "../shared/topics";
-import { articleSlug, articlePath, withArticleSlug } from "../shared/articles";
+import { articleSlug, articleRouteSlug, articlePath, withArticleSlug } from "../shared/articles";
 import { articleMarkup, buildArchive, paginateManifest } from "../scripts/buildArchive";
 import { BatchFileSchema, ManifestSchema, type Manifest } from "../schemas";
 const manifest = JSON.parse(readFileSync("public/data/manifest.json", "utf8")) as Manifest;
@@ -12,11 +12,56 @@ const item = BatchFileSchema.parse(JSON.parse(readFileSync(`public/data/${manife
 describe("permanent articles", () => {
   it("creates safe slugs and preserves identity after title edits", () => {
     const first = withArticleSlug({ ...item, id: "one/../", title: "Héllo & Rome?!", slug: undefined });
-    expect(first.slug).toMatch(/^hello-rome--[a-f0-9]+$/);
+    expect(first.slug).toMatch(/^hello-rome--[a-f0-9]{10}$/);
     expect(articleSlug({ ...first, title: "A corrected headline" })).toBe(first.slug);
     expect(articleSlug({ ...first, id: "different", slug: undefined })).not.toBe(first.slug);
     expect(articleSlug({ ...first, title: "!!!", slug: undefined })).toMatch(/^article--/);
     expect(articlePath(first, "/openfeed/")).toBe(`/openfeed/p/${first.slug}/`);
+  });
+  it("shortens legacy addresses without changing stored slugs or following title edits", () => {
+    const legacy = { ...item, id: "historical-article-id", slug: `original-headline--${Buffer.from("historical-article-id").toString("hex")}` };
+    expect(articleRouteSlug(legacy)).toMatch(/^original-headline--[a-f0-9]{10}$/);
+    expect(articlePath({ ...legacy, title: "Corrected headline" })).toBe(articlePath(legacy));
+    expect(withArticleSlug(legacy).slug).toBe(legacy.slug);
+    expect(articleSlug(legacy)).toBe(legacy.slug);
+    const long = withArticleSlug({ ...item, slug: undefined, title: "a".repeat(150) });
+    expect(articleRouteSlug(long).length).toBeLessThanOrEqual(72);
+  });
+  it.each(["/", "/openfeed/"])("builds short and historical pages with short sharing metadata under %s", (base) => {
+    const root = mkdtempSync(path.join(tmpdir(), "openfeed-short-urls-"));
+    const fixture = BatchFileSchema.parse(JSON.parse(readFileSync(`public/data/${manifest.batches[0].file}`, "utf8")));
+    const legacy = { ...item, id: "historical-article-id", slug: `original-headline--${Buffer.from("historical-article-id").toString("hex")}`, body: "PRIVATE SPOILER BODY", editorial: { ...item.editorial!, spoilers: true } };
+    const fresh = withArticleSlug({ ...item, id: "new-article-id", slug: undefined });
+    vi.stubEnv("SITE_BASE_PATH", base);
+    vi.stubEnv("SITE_ORIGIN", "https://cobanter.com");
+    try {
+      mkdirSync(path.join(root, "public/data/batches"), { recursive: true });
+      mkdirSync(path.join(root, "dist"));
+      writeFileSync(path.join(root, "dist/index.html"), '<html><head><title>CoBanter</title></head><body><div id="root"></div></body></html>');
+      writeFileSync(path.join(root, "public/data/manifest.json"), JSON.stringify({ ...manifest, batches: [manifest.batches[0]] }));
+      const batchFile = path.join(root, "public/data", manifest.batches[0].file);
+      writeFileSync(batchFile, JSON.stringify({ ...fixture, items: [legacy, fresh] }));
+      buildArchive(root);
+      for (const slug of [legacy.slug, articleRouteSlug(legacy), fresh.slug!]) {
+        const expected = slug === fresh.slug ? fresh : legacy;
+        const html = readFileSync(path.join(root, "dist/p", slug, "index.html"), "utf8");
+        const url = `https://cobanter.com${articlePath(expected, base)}`;
+        expect(html).toContain(`rel="canonical" href="${url}"`);
+        expect(html).toContain(`property="og:url" content="${url}"`);
+        expect(JSON.parse(readFileSync(path.join(root, "dist/p", slug, "article.json"), "utf8"))).toEqual(expected);
+        if (expected === legacy) {
+          expect(html).toContain('<details><summary>Show spoilers</summary><p class="post-card-body">PRIVATE SPOILER BODY');
+          expect(html).toContain('property="og:description" content="A spoiler-protected CoBanter article. Open to read."');
+        }
+      }
+      // A future stored address must never overwrite another article's short alias.
+      const collision = { ...fresh, slug: articleRouteSlug(legacy) };
+      writeFileSync(batchFile, JSON.stringify({ ...fixture, items: [legacy, collision] }));
+      expect(() => buildArchive(root)).toThrow("Duplicate article slug");
+    } finally {
+      vi.unstubAllEnvs();
+      rmSync(root, { recursive: true, force: true });
+    }
   });
   it("serves every historical batch through small stable pages", () => {
     const batches = Array.from({ length: 121 }, (_, index) => ({ ...manifest.batches[0], id: `batch-${121-index}` }));

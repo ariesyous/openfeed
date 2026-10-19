@@ -3,7 +3,7 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { BatchFileSchema, ManifestSchema, type BatchRef, type FeedItem, type Manifest } from "../schemas";
 import { TOPICS, topicLabel, topicPath, topicSlug } from "../shared/topics";
-import { articlePath, articleSlug } from "../shared/articles";
+import { articlePath, articleRouteSlug, articleSlug } from "../shared/articles";
 import { publicationDate } from "../shared/publicationDate";
 
 export const INDEX_PAGE_SIZE = 50;
@@ -66,10 +66,11 @@ export function buildArchive(root = process.cwd()) {
     for (const item of batch.items) {
       if (!item.editorial) continue;
       const slug = articleSlug(item);
-      if (seen.has(slug)) throw new Error(`Duplicate article slug: ${slug}`);
-      seen.add(slug);
-      const directory = path.join(dist, "p", slug);
-      mkdirSync(directory, { recursive: true });
+      const routes = new Set([articleRouteSlug(item), slug]);
+      for (const route of routes) {
+        if (seen.has(route)) throw new Error(`Duplicate article slug: ${route}`);
+        seen.add(route);
+      }
       const url = new URL(articlePath(item, base), origin).href;
       const title = escape(item.title ?? "CoBanter article");
       const description = escape(item.editorial.spoilers ? "A spoiler-protected CoBanter article. Open to read." : item.body.replace(/\s+/g, " ").slice(0, 180));
@@ -77,9 +78,14 @@ export function buildArchive(root = process.cwd()) {
       const json = JSON.stringify({ ...item, slug }).replace(/</g, "\\u003c");
       const html = shell.replace(/<title>[\s\S]*?<\/title>/, metadata)
         .replace('<div id="root"></div>', `<div id="root">${articleMarkup(item, base)}</div><script id="article-data" type="application/json">${json}</script>`);
-      writeFileSync(path.join(directory, "index.html"), html);
-      // Small direct payload supports client-side navigation without loading old batches.
-      writeFileSync(path.join(directory, "article.json"), JSON.stringify({ ...item, slug }));
+      // Retain old addresses as complete pages with the short canonical/sharing URL.
+      for (const route of routes) {
+        const directory = path.join(dist, "p", route);
+        mkdirSync(directory, { recursive: true });
+        writeFileSync(path.join(directory, "index.html"), html);
+        // Small direct payload supports client-side navigation without loading old batches.
+        writeFileSync(path.join(directory, "article.json"), JSON.stringify({ ...item, slug }));
+      }
       count++;
     }
   }

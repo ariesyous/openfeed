@@ -33,6 +33,16 @@ base when moving deployments. Since October 18, 2026, production uses the root o
 `https://cobanter.com/`; the earlier `/openfeed/` examples describe the original
 GitHub project URL. Article slugs and stored content remain unchanged.
 
+October 18 sharing follow-up: new stored slugs use a title prefix of at most 60
+characters plus a stable ten-character hexadecimal ID hash. Existing stored slugs
+and source batches stay frozen; their short public aliases use the original stored
+headline prefix, so later title corrections cannot move links. The archive emits
+both addresses with the short URL in canonical and sharing metadata. React replaces
+an old address in browser history while preserving its query, fragment and Back
+state. Copy link, feed, cards and topic links use the short address. The build checks
+all canonical and historical routes together and fails on collisions rather than
+overwriting content. This hash is an address disambiguator, not a security token.
+
 The complete publication manifest remains a generator-side catalog. Build output
 partitions its references into pages of at most 50, filled from oldest to newest
 so appending new editions doesn't shift historical page boundaries. The browser
