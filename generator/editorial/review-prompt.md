@@ -40,7 +40,8 @@ For EVERY unit account for its COMPLETE text using explicit partition boundaries
   immediately after the previous lastWord. Choose strictly increasing lastWord ends.
   Code slices the unchanged original text at those boundaries; no words can be skipped.
 - finalSegment explicitly classifies the ENTIRE remaining suffix. Its lastWord is
-  fixed by this unit's schema to the final supplied word index. You must assess every
+  fixed by this unit's schema to its explicit finalWordIndex (not its word count).
+  Copy that final index exactly. You must assess every
   claim in that suffix, including the final sentence. Never label an unsupported
   factual clause opinion just to finish the partition. Use segments:[] when the whole
   short unit can be judged as one finalSegment. Separate claims and jokes as needed.

@@ -127,6 +127,26 @@ export function reviewTransportSchema(input: ReviewInput) {
   return z.object({ posts: z.object(posts).strict() }).strict();
 }
 
+/** Explain the branch the reviewer explicitly chose, without logging its prose or
+ * accepting/repairing anything. A generic union error cannot guide a bounded retry. */
+function reviewSchemaIssues(issues: readonly z.core.$ZodIssue[], json: unknown): z.core.$ZodIssue[] {
+  return issues.flatMap(issue => {
+    if (issue.code !== "invalid_union") return [issue];
+    let value: unknown = json;
+    for (const key of issue.path) value = value && typeof value === "object"
+      ? (value as Record<PropertyKey, unknown>)[key] : undefined;
+    const object = value && typeof value === "object" ? value as Record<string, unknown> : undefined;
+    const trace = object?.titleAttribution as { relation?: unknown } | undefined;
+    let branch: number | undefined;
+    if (issue.path.length === 2 && issue.path[0] === "posts" && typeof trace?.relation === "string")
+      branch = trace.relation === "mismatch" ? 1 : 0;
+    if (issue.path.length === 4 && issue.path[2] === "checks" && typeof object?.verdict === "string")
+      branch = object.verdict === "reject" ? 1 : 0;
+    const options = branch === undefined ? issue.errors : [issue.errors[branch]];
+    return options.map(errors => reviewSchemaIssues(errors, json)).sort((a, b) => a.length - b.length)[0];
+  });
+}
+
 /** Partition boundaries name immutable original words. No model-copied prose is
  * accepted or repaired. Unknown/overlapping/reversed ends and absent final judgments
  * fail closed; every word is included in an explicitly classified segment.
@@ -134,8 +154,8 @@ export function reviewTransportSchema(input: ReviewInput) {
  */
 export function validateReviewTransport(json: unknown, input: ReviewInput): ParseOutcome<ReviewResponse> {
   const parsed = reviewTransportSchema(input).safeParse(json);
-  if (!parsed.success) return { ok: false, issues: parsed.error.issues.slice(0, 8).map(issue =>
-    `${issue.path.join(".")}: ${issue.message}. Use the named post/unit properties, that unit's selected IDs, and bounded original word ranges`) };
+  if (!parsed.success) return { ok: false, issues: reviewSchemaIssues(parsed.error.issues, json).slice(0, 8).map(issue =>
+    `${issue.path.join(".")}: ${issue.message.slice(0, 250)}. Keep the declared attribution/verdict consistent; use this unit's selected IDs and explicit complete partitions`) };
   const issues: string[] = [];
   const posts = Object.entries(parsed.data.posts).map(([key, post]) => {
     const original = input.posts.find(candidate => candidate.key === key)!;
@@ -252,7 +272,8 @@ export async function reviewEditorial(options: {
     // Compact indices avoid resending an object/property name for every word.
     // All prose, selected support and full bounded reading context are retained.
     initialUserPrompt: JSON.stringify({ posts: input.posts.map(post => ({ ...post,
-      units: post.units.map(unit => ({ ...unit, words: unit.words.map(({ index, text }) => [index, text]) })),
+      units: post.units.map(unit => ({ ...unit, finalWordIndex: unit.words.length - 1,
+        words: unit.words.map(({ index, text }) => [index, text]) })),
     })) }),
     jsonSchema: { name: "editorial_review", schema: z.toJSONSchema(reviewTransportSchema(input), { reused: "ref" }) },
     // Complete-text review plus DeepSeek's default reasoning repeatedly exhausted

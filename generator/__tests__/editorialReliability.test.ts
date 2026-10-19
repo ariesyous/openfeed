@@ -129,6 +129,11 @@ describe("review without prose copying", () => {
       (r: typeof good) => { Object.assign(r.posts.P1.checks.body.finalSegment!, { kind: "unsupported_fact" }); },
       (r: typeof good) => { Object.assign(r.posts.P1.titleAttribution as object, { relation: "mismatch", titleActor: "A cautious trial" }); },
     ]) { const bad = structuredClone(good); change(bad); expect(validateReviewTransport(bad, input).ok).toBe(false); }
+    const inconsistent = structuredClone(good);
+    Object.assign(inconsistent.posts.P1.titleAttribution as object, { relation: "mismatch", titleActor: "A cautious trial" });
+    const error = validateReviewTransport(inconsistent, input);
+    expect(error.ok).toBe(false);
+    if (!error.ok) expect(error.issues.join(" ")).toMatch(/checks.title.reason.*misattribution/);
     const split = rangeReviewFixture(approve(input));
     const check = split.posts.P1.checks.body as { segments: unknown[]; finalSegment: { lastWord: number } };
     check.segments = [{ ...check.finalSegment, lastWord: 3 }];
@@ -153,7 +158,10 @@ describe("larger bounded editions", () => {
           calls++;
           if (calls === 1) return new Response("unavailable", { status: 503 });
           const request = JSON.parse(String(init?.body)), input = JSON.parse(request.messages[1].content.split("\n\nYour previous")[0]);
-          if (request.messages[0].content.startsWith("You are the publication editor")) return completion(approve(input));
+          if (request.messages[0].content.startsWith("You are the publication editor")) {
+            for (const post of input.posts) for (const unit of post.units) expect(unit.finalWordIndex).toBe(unit.words.length - 1);
+            return completion(approve(input));
+          }
           expect(input.sources.length).toBeLessThanOrEqual(4);
           expect(input.sources[0].readingContext).toEqual([{ section: 1, text: source.excerpt }]);
           return completion({ posts: input.sources.slice(0, input.maxPosts).map((s: { title: string; evidence: { id: string }[] }) => candidate(s.title, s.evidence[0].id)) });

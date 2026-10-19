@@ -136,3 +136,12 @@ wire decisions; it does not make the model's factual classifications infallible.
 The writer also receives concrete examples of the observed first-name, count,
 background-credit, narration/statement and causal-bridge selection errors. These are
 guidance, not a new semantic gate, and preserve grounded opinions and banter.
+
+The first follow-up control,
+[39299176126](https://github.com/ariesyous/openfeed/actions/runs/39299176126),
+passed the reversal suite, then exhausted both attempts on local object-schema
+validation for the two wrong-title controls. The generic union errors identified
+only the posts, not their conflicting fields. That implementation was not merged.
+Retry diagnostics now report bounded leaf-field issues from the explicitly declared
+attribution/verdict branch. They retain no candidate prose or raw completion and
+change no acceptance rule. This failed control remains distinct from later results.
