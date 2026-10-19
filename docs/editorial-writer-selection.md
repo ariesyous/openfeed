@@ -85,3 +85,57 @@ These are semantic concerns in synthetic, unpublished content; do not describe
 this control as proof that every factual premise is entailed. The unchanged
 reviewer accepted them, and the original decisions are retained. Ordinary-run
 yield remains a separate measurement.
+
+## Ordinary comparison
+
+The last run using the previous writer,
+[39320680453](https://github.com/ariesyous/openfeed/actions/runs/39320680453),
+started before this fix and published twelve articles from twenty-eight reviewed
+candidates. Fourteen completed reviews withheld sixteen candidates, including
+revisions. It used 31/32 calls, with zero provider failures, one writer validation
+retry and sixteen review calls. The final unused call could not start a writer
+without reserving its mandatory review. Generation took 1,706,101 ms (28m26s).
+Its 349,490-byte review audit remains unchanged.
+Deployment [39324659293](https://github.com/ariesyous/openfeed/actions/runs/39324659293)
+succeeded. All twelve public articles matched their approved digests, complete
+unit ledgers, attached source URLs and required discussions, without evidence
+labels. This is publication verification, not a new semantic audit.
+
+The source packet had 46 usable contexts. Rejections again included a screenwriter's
+name, a filesystem's background, an analogy's missing antecedent, a comparison's
+uncited bus-fine amount and facts borrowed from another turn. Several revisions
+introduced another unselected detail. This is a baseline for the passage change;
+its publication commit contains the concurrently merged code but its running writer
+used the earlier checkout. It cannot be counted as a passage-writer result.
+
+The first ordinary passage-writer run,
+[39323911203](https://github.com/ariesyous/openfeed/actions/runs/39323911203),
+reached the **twenty-article ceiling** in 1,117,410 ms (18m37s), using 32/32 calls.
+All fifteen review calls produced valid decisions on their first attempts. Those
+reviews approved twenty of thirty candidates and withheld ten, including revisions.
+Two writer responses retried excessive whole-turn evidence cost; neither bypassed
+the three-snippet limit. Provider failures and omitted discussions were both zero.
+The source packet contained 41 usable contexts, versus 46 in the preceding run.
+The review/support audits were 346,034/62,844 bytes, below the unchanged limits.
+Deployment [39327197029](https://github.com/ariesyous/openfeed/actions/runs/39327197029)
+succeeded. All twenty live articles matched their approved candidate digests,
+complete unit ledgers, attached source URLs and 2–4-turn discussions, with no
+leaked evidence labels. The archive retained all 2,452 permanent articles. This
+checks faithful publication, not the semantic accuracy of each approved claim.
+The batch uses twenty distinct source URLs across eleven publisher groups, with
+at most two sources per group, including the shared BBC group.
+
+| Ordinary run | Writer | Articles | Reviewed candidates | Withheld | Provider calls | Review calls / completed | Generation |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | --- |
+| 39320680453 | Previous | 12 | 28 | 16 | 31 | 16 / 14 | 28m26s |
+| 39323911203 | Passage selection + support remapping | 20 | 30 | 10 | 32 | 15 / 15 | 18m37s |
+
+Using the same parent-source set to identify repeat candidates, the previous run
+approved four of ten repeat candidates and the passage run approved eight of nine.
+These counts describe the frozen decisions; different packets and one edition per
+writer prevent a controlled causal or consistency claim. The observed gain does
+not come from larger citation allowances, a larger call/deadline budget or dropped
+source checks. Reversed claims, unsupported details, misattributed titles and
+over-budget selections were still withheld/retried. Do not count publication
+verification toward the historical semantic observation cohorts or call model
+approval certified fact checking.

@@ -472,3 +472,15 @@ Manual inspection still questioned an uncited cache-threshold cost explanation
 and an elaboration of founders' work history; do not equate model approval with
 entailment. These synthetic controls remain unpublished and do not establish
 ordinary yield or advance the semantic observation counts.
+The first ordinary passage run 39323911203 reached twenty articles in 18m37s,
+32/32 calls, zero provider failures and fifteen valid first-attempt reviews.
+It approved 20/30 candidates and withheld ten, versus 12/28 approved and sixteen
+withheld in preceding old-writer run 39320680453 (28m26s, 31/32 calls). Two new
+writer responses still retried the unchanged whole-turn citation cap. Audit sizes
+were 346,034 review / 62,844 support bytes. These are different source packets
+(41 versus 46 contexts), one ordinary result each, not proof of consistent twenty
+or general semantic accuracy. Preserve original decisions and observation counts.
+Deployment 39327197029 succeeded; all twenty live articles matched approved digests,
+complete unit ledgers, source URLs and required discussions without evidence-label
+leakage. The archive retained 2,452 permanent articles. This verifies publication,
+not semantic accuracy or sustained twenty-article yield.
