@@ -155,3 +155,15 @@ consistency requirement remains enforced locally, with a specific post/title ret
 instruction. Required units, same-unit IDs, segment bounds and complete claim
 accounting were not relaxed. Diagnostics now preserve full post/unit paths through
 nested schema errors, and each input unit explicitly supplies finalWordIndex.
+
+Final compatible control
+[39300768072](https://github.com/ariesyous/openfeed/actions/runs/39300768072)
+on `c3bf9ab` passed all four suites on their first attempts: eight wrong candidates
+withheld and eight supported/opinionated counterparts allowed, in four DeepSeek
+Flash calls and 109,239 ms. The exact bounded decisions are retained separately in
+`fixtures/editorial-review-partition-controls-20261019.json`. Linux
+[CI](https://github.com/ariesyous/openfeed/actions/runs/39300776580) passed typecheck,
+lint, all 367 tests and the production build retaining 2,420 permanent articles.
+This verifies the targeted controls and compatibility, not final-format ordinary
+yield or general semantic accuracy. The two failed conditional-format controls and
+the original thirteen-post edition remain unchanged.

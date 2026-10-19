@@ -444,3 +444,9 @@ Materialized audit spans, original
 local source/coverage/attribution checks and all shared budgets remain unchanged.
 Writer examples address observed own-unit name/count/background/attribution/causal
 selection mistakes without removing supported opinions, disagreement or humour.
+Final compatible control 39300768072 passed all four existing suites on their first
+attempts: eight wrong candidates withheld/eight counterparts allowed, four calls and
+109,239 ms. Preserve its separate dated partition-control fixture and both preceding
+failed conditional-schema outcomes. Linux validation passed all 367 tests and retained
+2,420 articles. Final-format ordinary yield and semantic observation counts remain
+separate; do not describe the synthetic controls as proof of general accuracy.
