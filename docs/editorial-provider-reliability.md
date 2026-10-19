@@ -11,6 +11,7 @@ leaked evidence labels. This verified publication, not a new semantic audit.
 | --- | ---: | ---: | ---: | ---: | ---: | --- |
 | 39201229564 | 16 | 32 | 14 | 8 | 3 | Call budget |
 | 39259511428 | 8 | 28 | 10 | 10 | 5 | 45-minute deadline |
+| 39294295875 | 13 | 32 | 13 | 13 | 0 | Call budget |
 
 The second run had two writer completions empty at the token limit, a terminated
 response, another empty completion and a final response timeout. Three review
@@ -96,4 +97,73 @@ of ordinary latency or general accuracy. The bounded original decisions are in
 A fresh read-only intake against the current durable coverage returned 44 usable
 unused sources across twelve publisher groups and 22 distinct-source slots under
 the unchanged two-per-group rule. This is supply before editorial rejection, not
-a promise of twenty articles. Ordinary generation performance remains to be observed.
+a promise of twenty articles. It predates the ordinary run below.
+
+## First ordinary run and final review-format follow-up
+
+[39294295875](https://github.com/ariesyous/openfeed/actions/runs/39294295875), on
+merged implementation `01316a3`, published thirteen articles in 1,695,953 ms
+(28 minutes 16 seconds), with **zero provider failures**. Its thirteen completed
+reviews assessed twenty-six candidates and withheld thirteen. All thirteen published
+articles matched their approved digests, complete unit ledgers and attached source
+URLs on the live site, with required discussions and no evidence-label leakage.
+Deployment [39298349492](https://github.com/ariesyous/openfeed/actions/runs/39298349492)
+succeeded. The review audit was 349,104 bytes. Original decisions remain frozen.
+
+Three malformed review calls still consumed the budget: one omitted a title's final
+word, another omitted a turn's final word, and the last combined unsupported segments
+and a title-attribution mismatch with passing decisions. That final response did not
+authorize its two candidates, which were withheld. Two writer retries caught process
+commentary and an excessive expanded evidence allowance. This is a concrete improvement
+in provider reliability and elapsed time, not evidence of consistent twenty-post yield.
+The source-based rejections remain part of the strict publication boundary.
+
+The follow-up transport lets reviewers explicitly classify contiguous partitions using
+inclusive lastWord boundaries. Prefix segments start at zero/after the preceding end;
+a required finalSegment explicitly classifies the remaining suffix and has the unit's
+final word fixed in the request schema. A short unit can consist solely of that final
+judgment. No missing suffix is filled after the response: an absent final judgment,
+wrong final index, reversed/repeated end, forbidden firstWord or unknown property fails.
+Every unchanged word still receives a model-supplied support/opinion judgment, and the
+materialized original spans pass the unchanged complete-coverage and evidence gates.
+There are still at most 32 segments total, with the same span/explanation bounds.
+
+Passing transport branches cannot contain unsupported_fact segments. The unchanged
+local attribution gate requires any mismatch judgment to reject the title with reason
+misattribution. Local consistency checks remain authoritative after materialization
+and in JSON fallback. No inconsistent response can authorize publication; the model's
+factual classifications remain fallible.
+The writer also receives concrete examples of the observed first-name, count,
+background-credit, narration/statement and causal-bridge selection errors. These are
+guidance, not a new semantic gate, and preserve grounded opinions and banter.
+
+The first follow-up control,
+[39299176126](https://github.com/ariesyous/openfeed/actions/runs/39299176126),
+passed the reversal suite, then exhausted both attempts on local object-schema
+validation for the two wrong-title controls. The generic union errors identified
+only the posts, not their conflicting fields. That implementation was not merged.
+Retry diagnostics now report bounded leaf-field issues from the explicitly declared
+attribution/verdict branch. They retain no candidate prose or raw completion and
+change no acceptance rule. This failed control remains distinct from later results.
+
+The diagnostic follow-up,
+[39299993544](https://github.com/ariesyous/openfeed/actions/runs/39299993544),
+again passed the first suite but failed twice on title reasons required by a
+conditional post-level schema. That conditional transport was retired rather than
+shipping a format that repeatedly exhausted review attempts. The same title
+consistency requirement remains enforced locally, with a specific post/title retry
+instruction. Required units, same-unit IDs, segment bounds and complete claim
+accounting were not relaxed. Diagnostics now preserve full post/unit paths through
+nested schema errors, and each input unit explicitly supplies finalWordIndex.
+
+Final compatible control
+[39300768072](https://github.com/ariesyous/openfeed/actions/runs/39300768072)
+on `c3bf9ab` passed all four suites on their first attempts: eight wrong candidates
+withheld and eight supported/opinionated counterparts allowed, in four DeepSeek
+Flash calls and 109,239 ms. The exact bounded decisions are retained separately in
+`fixtures/editorial-review-partition-controls-20261019.json`. Linux
+[CI](https://github.com/ariesyous/openfeed/actions/runs/39300776580) passed typecheck,
+lint, all 367 tests and the production build retaining 2,420 permanent articles.
+This verifies the targeted controls and compatibility, not final-format ordinary
+yield or general semantic accuracy. The two failed conditional-format controls and
+the original thirteen-post edition remain unchanged.

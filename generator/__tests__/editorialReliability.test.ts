@@ -119,6 +119,29 @@ describe("review without prose copying", () => {
       kind: "supported_fact", evidenceIds: ["S1E2"], explanation: "Borrowed support." }] });
     expect(schema.safeParse(borrowed).success).toBe(false);
   });
+  it("requires an explicit final judgment and rejects reversed ends, omitted suffixes and inconsistent verdicts", () => {
+    const good = rangeReviewFixture(approve(input));
+    expect(validateReviewTransport(good, input).ok).toBe(true);
+    for (const change of [
+      (r: typeof good) => { delete (r.posts.P1.checks.body as Record<string, unknown>).finalSegment; },
+      (r: typeof good) => { const c = r.posts.P1.checks.body as { finalSegment: { lastWord: number } }; c.finalSegment.lastWord--; },
+      (r: typeof good) => { const c = r.posts.P1.checks.body as { segments: unknown[]; finalSegment: object }; c.segments = [c.finalSegment]; },
+      (r: typeof good) => { Object.assign(r.posts.P1.checks.body.finalSegment!, { kind: "unsupported_fact" }); },
+      (r: typeof good) => { Object.assign(r.posts.P1.titleAttribution as object, { relation: "mismatch", titleActor: "A cautious trial" }); },
+    ]) { const bad = structuredClone(good); change(bad); expect(validateReviewTransport(bad, input).ok).toBe(false); }
+    const inconsistent = structuredClone(good);
+    Object.assign(inconsistent.posts.P1.titleAttribution as object, { relation: "mismatch", titleActor: "A cautious trial" });
+    const error = validateReviewTransport(inconsistent, input);
+    expect(error.ok).toBe(false);
+    if (!error.ok) expect(error.issues.join(" ")).toMatch(/P1.title.*misattribution/);
+    const split = rangeReviewFixture(approve(input));
+    const check = split.posts.P1.checks.body as { segments: unknown[]; finalSegment: { lastWord: number } };
+    check.segments = [{ ...check.finalSegment, lastWord: 3 }];
+    const parsed = validateReviewTransport(split, input);
+    expect(parsed.ok).toBe(true);
+    if (parsed.ok) expect(parsed.value.posts[0].checks[1].segments?.map(s => s.text))
+      .toEqual(["The operator tested terminals.", "It called the trial ‘limited’."]);
+  });
 });
 
 describe("larger bounded editions", () => {
@@ -135,7 +158,10 @@ describe("larger bounded editions", () => {
           calls++;
           if (calls === 1) return new Response("unavailable", { status: 503 });
           const request = JSON.parse(String(init?.body)), input = JSON.parse(request.messages[1].content.split("\n\nYour previous")[0]);
-          if (request.messages[0].content.startsWith("You are the publication editor")) return completion(approve(input));
+          if (request.messages[0].content.startsWith("You are the publication editor")) {
+            for (const post of input.posts) for (const unit of post.units) expect(unit.finalWordIndex).toBe(unit.words.length - 1);
+            return completion(approve(input));
+          }
           expect(input.sources.length).toBeLessThanOrEqual(4);
           expect(input.sources[0].readingContext).toEqual([{ section: 1, text: source.excerpt }]);
           return completion({ posts: input.sources.slice(0, input.maxPosts).map((s: { title: string; evidence: { id: string }[] }) => candidate(s.title, s.evidence[0].id)) });

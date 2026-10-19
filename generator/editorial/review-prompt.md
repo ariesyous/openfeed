@@ -33,13 +33,20 @@ Every selected split sentence must include all parts of its contextGroup in that
 unit. Never approve a unit with a missing continuation, even when the wider page
 contains it. Factual segments may cite the selected group parts needed for the claim.
 
-For EVERY unit return segments accounting for its COMPLETE text in order:
-- Refer to the supplied zero-based word indices using inclusive firstWord/lastWord.
-  Do NOT copy unit text into segments. Code takes exact original spans from the indices.
-  The first range starts at 0; each next firstWord equals the preceding lastWord + 1;
-  the final lastWord equals the final supplied word index. No gaps, overlaps, reordering,
-  skipped clauses or omitted final sentences. Choose boundaries between claims or jokes.
-  Example for four words: 0..1 then 2..3 covers everything. 0..1 then 3..3 is invalid.
+For EVERY unit account for its COMPLETE text using explicit partition boundaries:
+- Return segments (zero to 31 prefix segments) and a REQUIRED finalSegment. Each
+  has lastWord, kind, evidenceIds and explanation. Do NOT return firstWord or copied
+  text on segments. The first segment starts at word 0; each following segment starts
+  immediately after the previous lastWord. Choose strictly increasing lastWord ends.
+  Code slices the unchanged original text at those boundaries; no words can be skipped.
+- finalSegment explicitly classifies the ENTIRE remaining suffix. Its lastWord is
+  fixed by this unit's schema to its explicit finalWordIndex (not its word count).
+  Copy that final index exactly. You must assess every
+  claim in that suffix, including the final sentence. Never label an unsupported
+  factual clause opinion just to finish the partition. Use segments:[] when the whole
+  short unit can be judged as one finalSegment. Separate claims and jokes as needed.
+  Example for four words: a prefix ending at 1, then finalSegment ending at 3,
+  means exact spans 0..1 and 2..3. A duplicate or decreasing end is invalid.
 - Separate distinct factual claims so each gets its own support judgment. Separate
   an opinion/joke from any embedded factual premise; a factual premise does not
   become opinion because the sentence ends with a joke or starts with "I think".
@@ -54,7 +61,7 @@ For EVERY unit return segments accounting for its COMPLETE text in order:
   with no unsupported empirical assertion hidden inside it. IDs may be empty for
   pure opinion; when used, they must be this unit's selected IDs. Do not require the
   source to share the opinion. Keep lively banter and genuine disagreement.
-- At most 32 segments per unit; original span <=1800 characters and explanation <=240 each.
+- At most 32 segments including finalSegment; original span <=1800 characters and explanation <=240 each.
   A short unit may need just one segment. Be concise, but account for every clause.
 
 Examples of failures: a body cites film credits but adds a birthplace found only in
@@ -138,7 +145,7 @@ For each named unit property return:
   selectedEvidence, and at least one must support its premise. A rejected check's
   contradiction explanation may use another
   attached ID. Missing support may have no ID; never invent one.
-- segments: the complete-text claim accounting described above. Any unsupported_fact
+- segments and finalSegment: the complete-text claim accounting described above. Any unsupported_fact
   requires a factual rejection. A factual rejection requires such a segment;
   noncontributing is the only rejection that need not identify a factual defect.
 

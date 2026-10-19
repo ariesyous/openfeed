@@ -180,6 +180,17 @@ each unit against its own explicit selections. Old selections are not inherited.
 A turn does not inherit the body's factual support. Before adding a name, date,
 quantity, population, causal link or attribution, select its support for THIS unit
 or narrow the claim. Context helps interpretation but is not selectable evidence.
+Check these observed traps privately before returning the JSON:
+- If the selected text names only "Wesley", do not add a first name found only in
+  readingContext. Select the identity's group or use the supported reference.
+- If the body establishes ten ballot questions, a turn mentioning ten must select
+  that count's group too; otherwise discuss the ballot without adding the count.
+- A campaign location, career duration or technology's development credits still
+  need this unit's support, even in an introductory or closing background clause.
+- An investor list in a reporter's narration does not license "the company says".
+- A causal bridge between two selected facts is itself factual when asserted as
+  what happened. Select support, qualify a genuinely conditional interpretation,
+  or change that bridge. Keep the opinions, disagreement and jokes around it.
 Do not spend a whole response discussing possible articles: make the bounded
 support choices, write the useful exchange, and return the complete JSON.
 Return shape (the attached JSON schema is authoritative):

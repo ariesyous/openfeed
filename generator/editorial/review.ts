@@ -73,10 +73,11 @@ export function buildReviewInput(posts: ReviewPost[], prepared: ReturnType<typeo
 }
 
 const WordRange = z.object({ firstWord: z.number().int().min(0).max(1800), lastWord: z.number().int().min(0).max(1800) }).strict();
-const RangeSegment = SegmentSchema.omit({ text: true }).extend(WordRange.shape).strict();
+const PartitionSegment = SegmentSchema.omit({ text: true }).extend({ lastWord: WordRange.shape.lastWord }).strict();
 const AttributionTransport = TitleAttributionSchema.omit({ titleText: true }).strict();
 type BoundCheck = Omit<z.infer<typeof CheckSchema>, "target" | "claim" | "segments"> & {
-  claim: z.infer<typeof WordRange> | null; segments: z.infer<typeof RangeSegment>[];
+  claim: z.infer<typeof WordRange> | null; segments: z.infer<typeof PartitionSegment>[];
+  finalSegment: z.infer<typeof PartitionSegment>;
 };
 type BoundPost = { titleAttribution: z.infer<typeof AttributionTransport>; checks: Record<string, BoundCheck> };
 
@@ -91,44 +92,72 @@ export function reviewTransportSchema(input: ReviewInput) {
       const own = z.array(z.enum(unit.evidenceIds)).max(6);
       const range = WordRange.extend({ lastWord: z.number().int().min(0).max(unit.words.length - 1),
         firstWord: z.number().int().min(0).max(unit.words.length - 1) });
-      const segment = RangeSegment.extend({ ...range.shape, evidenceIds: own });
+      const segment = PartitionSegment.extend({ lastWord: range.shape.lastWord, evidenceIds: own });
+      const passingSegment = segment.extend({ kind: z.enum(["supported_fact", "opinion"]) });
+      const finalSegment = segment.extend({ lastWord: z.literal(unit.words.length - 1) });
       const base = z.object({
         // Assess the spans first, then give the unit verdict. No missing-premise
         // citation or unsupported passing ID is expressible in strict output.
-        segments: z.array(segment).min(1).max(32), verdict: CheckSchema.shape.verdict,
+        // Explicit partition ends cover from word zero through a required final
+        // segment. No gap or omitted suffix is expressible, and every word still
+        // receives its own model-supplied classification/support judgment.
+        segments: z.array(segment).max(31), finalSegment, verdict: CheckSchema.shape.verdict,
         reason: CheckSchema.shape.reason, claim: range.nullable(),
         explanation: CheckSchema.shape.explanation, evidenceIds: CheckSchema.shape.evidenceIds,
       }).strict();
+      const rejected = base.extend({ verdict: z.literal("reject"), evidenceIds: z.array(z.enum(attached)).max(6), reason,
+        claim: range });
       checks[unit.target] = z.union([
-        base.extend({ verdict: z.enum(["supported", "opinion"]), evidenceIds: own.min(1), reason: z.null(), claim: z.null() }),
-        base.extend({ verdict: z.literal("reject"), evidenceIds: z.array(z.enum(attached)).max(6), reason,
-          claim: range }),
+        base.extend({ verdict: z.enum(["supported", "opinion"]), evidenceIds: own.min(1), reason: z.null(), claim: z.null(),
+          segments: z.array(passingSegment).max(31), finalSegment: passingSegment.extend({ lastWord: z.literal(unit.words.length - 1) }) }),
+        rejected,
       ]);
     }
+    const attribution = AttributionTransport.extend({ sourceEvidenceId: z.enum(post.units[0].evidenceIds).nullable() });
     posts[post.key] = z.object({
-      titleAttribution: AttributionTransport.extend({
-        sourceEvidenceId: z.enum(post.units[0].evidenceIds).nullable(),
-      }),
+      // Keep cross-field attribution consistency in the unchanged local gate.
+      // Conditional post-level schemas failed the bounded DeepSeek controls.
+      titleAttribution: attribution,
       checks: z.object(checks).strict(),
     }).strict();
   }
   return z.object({ posts: z.object(posts).strict() }).strict();
 }
 
-/** Ranges name immutable original words. No model-copied prose is accepted or repaired.
- * Gaps, overlaps, reordered/unknown ranges and incomplete unit ledgers all fail closed.
+/** Explain the branch the reviewer explicitly chose, without logging its prose or
+ * accepting/repairing anything. A generic union error cannot guide a bounded retry. */
+function reviewSchemaIssues(issues: readonly z.core.$ZodIssue[], json: unknown, prefix: PropertyKey[] = []): z.core.$ZodIssue[] {
+  return issues.flatMap(issue => {
+    const path = [...prefix, ...issue.path];
+    if (issue.code !== "invalid_union") return [{ ...issue, path }];
+    let value: unknown = json;
+    for (const key of path) value = value && typeof value === "object"
+      ? (value as Record<PropertyKey, unknown>)[key] : undefined;
+    const object = value && typeof value === "object" ? value as Record<string, unknown> : undefined;
+    let branch: number | undefined;
+    if (path.length === 4 && path[2] === "checks" && typeof object?.verdict === "string")
+      branch = object.verdict === "reject" ? 1 : 0;
+    const options = branch === undefined ? issue.errors : [issue.errors[branch]];
+    return options.map(errors => reviewSchemaIssues(errors, json, path)).sort((a, b) => a.length - b.length)[0];
+  });
+}
+
+/** Partition boundaries name immutable original words. No model-copied prose is
+ * accepted or repaired. Unknown/overlapping/reversed ends and absent final judgments
+ * fail closed; every word is included in an explicitly classified segment.
  * Materialize the original spans, then run ALL existing semantic-decision gates.
  */
 export function validateReviewTransport(json: unknown, input: ReviewInput): ParseOutcome<ReviewResponse> {
   const parsed = reviewTransportSchema(input).safeParse(json);
-  if (!parsed.success) return { ok: false, issues: parsed.error.issues.slice(0, 8).map(issue =>
-    `${issue.path.join(".")}: ${issue.message}. Use the named post/unit properties, that unit's selected IDs, and bounded original word ranges`) };
+  if (!parsed.success) return { ok: false, issues: reviewSchemaIssues(parsed.error.issues, json).slice(0, 8).map(issue =>
+    `${issue.path.join(".")}: ${issue.message.slice(0, 250)}. Keep the declared attribution/verdict consistent; use this unit's selected IDs and explicit complete partitions`) };
   const issues: string[] = [];
   const posts = Object.entries(parsed.data.posts).map(([key, post]) => {
     const original = input.posts.find(candidate => candidate.key === key)!;
     return { key, titleAttribution: { ...post.titleAttribution, titleText: original.units[0].text },
       checks: Object.entries(post.checks).map(([target, decision]) => {
-        const check = { ...decision, target };
+        const { segments: prefix, finalSegment, ...rest } = decision;
+        const check = { ...rest, target };
         const unit = original.units.find(candidate => candidate.target === check.target);
         if (!unit) { issues.push(`${key}.${check.target}: unknown unit`); return check; }
         const words = wordSpans(unit.text);
@@ -139,8 +168,8 @@ export function validateReviewTransport(json: unknown, input: ReviewInput): Pars
           return unit.text.slice(words[firstWord].start, words[lastWord].start + words[lastWord].text.length);
         };
         let nextWord = 0;
-        const segments = check.segments.map(({ firstWord, lastWord, ...segment }) => {
-          if (firstWord !== nextWord) issues.push(`${key}.${check.target}: ranges must cover every word once in order; expected firstWord ${nextWord}`);
+        const segments = [...prefix, finalSegment].map(({ lastWord, ...segment }) => {
+          const firstWord = nextWord;
           nextWord = lastWord + 1;
           return { ...segment, text: span({ firstWord, lastWord }) };
         });
@@ -183,7 +212,7 @@ export function validateReview(json: unknown, input: ReviewInput): ParseOutcome<
       errors.push("A title interpretation requires a selected factual premise");
     }
     if (trace.relation === "mismatch" && (!trace.titleActor || titleCheck?.verdict !== "reject" || titleCheck.reason !== "misattribution"))
-      errors.push("A title attribution mismatch must reject the title for misattribution");
+      errors.push(`${post.key}.title: A title attribution mismatch must reject the title for misattribution; use verdict reject and reason misattribution without changing the actual actor judgment`);
     if (titleCheck?.reason === "misattribution" && trace.relation !== "mismatch")
       errors.push("Title rejection and attribution trace must agree about misattribution");
     if (post.checks.length !== original.units.length || new Set(post.checks.map(c => c.target)).size !== original.units.length)
@@ -238,7 +267,8 @@ export async function reviewEditorial(options: {
     // Compact indices avoid resending an object/property name for every word.
     // All prose, selected support and full bounded reading context are retained.
     initialUserPrompt: JSON.stringify({ posts: input.posts.map(post => ({ ...post,
-      units: post.units.map(unit => ({ ...unit, words: unit.words.map(({ index, text }) => [index, text]) })),
+      units: post.units.map(unit => ({ ...unit, finalWordIndex: unit.words.length - 1,
+        words: unit.words.map(({ index, text }) => [index, text]) })),
     })) }),
     jsonSchema: { name: "editorial_review", schema: z.toJSONSchema(reviewTransportSchema(input), { reused: "ref" }) },
     // Complete-text review plus DeepSeek's default reasoning repeatedly exhausted
