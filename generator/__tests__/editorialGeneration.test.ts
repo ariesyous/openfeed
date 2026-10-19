@@ -82,7 +82,7 @@ describe("editorial structured generation", () => {
       expect(requests.map((r) => Boolean(r.response_format))).toEqual([true, false, false]);
       const log = logger.mock.calls.flat().join(" ");
       expect(log).toContain("unsupported_structured_output");
-      expect(log).toContain("posts.0.evidenceGroupIds");
+      expect(log).toContain("posts.0.title.evidenceGroupIds");
       expect(log).toContain("structured output: false");
     } finally { logger.mockRestore(); }
   });

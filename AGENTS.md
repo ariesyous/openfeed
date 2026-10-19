@@ -450,3 +450,20 @@ attempts: eight wrong candidates withheld/eight counterparts allowed, four calls
 failed conditional-schema outcomes. Linux validation passed all 367 tests and retained
 2,420 articles. Final-format ordinary yield and semantic observation counts remain
 separate; do not describe the synthetic controls as proof of general accuracy.
+
+## Passage evidence selection — October 19, 2026
+Read docs/editorial-writer-selection.md. Writer title/body/turn prose now uses
+explicit evidence/text passages in ordered paragraphs. Compile only the writer's
+choices; never infer missing citations or rewrite claims. Union title plus entire
+body under six original snippets and each entire turn under three. Reusing a group
+across passages is allowed; duplicates within one choice, unknown IDs, partial
+groups and over-budget unions fail. All materialized prose still passes unchanged
+local gates and mandatory whole-unit review. Passage structure is a selection aid,
+not an entailment check. Preserve opinions, humour, natural paragraphs and history.
+Revision feedback remaps earlier complete support by exact quote AND source ID
+to current group IDs. It is diagnostic only; every new choice must be explicit.
+The manual writer control has two two-post suites, at most eight calls/shared
+fifteen minutes, no publication/state writes and a 192-KiB bounded parsed artifact
+with fourteen-day retention. Ordinary 20-post/32-call/45-minute limits, models,
+source checks, citation caps and billing limits are unchanged. Local checks passed
+all 373 tests; live selection controls and ordinary yield require separate results.

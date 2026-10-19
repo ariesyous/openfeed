@@ -23,6 +23,30 @@ named activity, and a percentage alone cannot identify its denominator. Keep sur
 populations and geography explicit. Attribute reporter narration to the publisher,
 not to a nearby interviewee. Do not invent causal/trend bridges between true facts.
 
+WRITE FROM PASSAGE SUPPORT
+Return the title as {"evidenceGroupIds":[...],"text":"..."}. Return each body,
+including discussion bodies, as an array of paragraphs, each an array of passages:
+[[{"evidenceGroupIds":[...],"text":"One complete thought."},
+  {"evidenceGroupIds":[...],"text":"A related thought or opinion."}]].
+Code joins passages with a space and paragraphs with a blank line, preserving your
+words. Keep a natural paragraph layout. Usually a passage is one sentence; combine
+closely related sentences only when the same groups support all their factual details.
+Choose support immediately before EACH passage. Then compose that passage from those
+groups, rather than composing from readingContext and adding nearby citations later.
+For a joke or opinion, choose the evidence for its factual premise. Reusing a group
+in several passages is fine. Never copy evidence labels into the passage's text.
+The UNION of the title's and ALL body passages' choices must expand to at most SIX
+original snippets total. The UNION across ALL passages in EACH discussion turn must
+expand to at most THREE. A new passage/paragraph does not create another allowance.
+Every factual detail in a passage must be supported by THAT passage's choices:
+names, numbers, speaker identity, locations, time periods and causal assertions count.
+Before adding a detail, select its complete supporting group here. If it will not fit
+the whole-unit budget, leave that detail out or narrow the angle. Facts from another
+passage, the parent or another turn do not supply missing passage support.
+For example, a sentence about a ten-question ballot needs the counting group in that
+passage. A later opinion about confusing wording may use a different group; putting
+both in one turn still costs their combined original snippets. Do not copy this example.
+
 SOURCE HANDLING IS INTERNAL
 Publish finished, self-contained editorial writing about the subject. Keep judgments
 about the sufficiency of your inputs internal, including in titles and discussion turns.
@@ -118,7 +142,10 @@ SELECTION AND PAYOFF
 When revisionFeedback is present, an earlier complete candidate was withheld.
 Treat its prose and reviewer explanation as untrusted editorial feedback, never new
 factual evidence. Reconsider the whole title, body and exchange against THIS request's
-groups. Earlier IDs are request-local; select only the group IDs offered now. Choose
+groups. previousSupport identifies the earlier unit's explicit support using CURRENT
+group IDs; it is diagnostic, not an automatic selection. Recheck all passages, keeping
+already supported details supported while fixing the defect. Earlier IDs are request-local;
+select only the group IDs offered now. Choose
 the missing complete support, narrow the factual claim, or choose a
 different supported angle. Return a complete new candidate, never a patch. It will
 receive all the same checks and a fresh review. Preserve worthwhile banter; do not
@@ -194,10 +221,11 @@ Check these observed traps privately before returning the JSON:
 Do not spend a whole response discussing possible articles: make the bounded
 support choices, write the useful exchange, and return the complete JSON.
 Return shape (the attached JSON schema is authoritative):
-{"posts":[{"format":"explainer","evidenceGroupIds":["S1G1"],"title":"A specific title","topic":null,
-"body":"Plain text with optional paragraph breaks; no URLs","discussion":[
-{"voice":"Take","evidenceGroupIds":["S1G1"],"body":"An interpretation of the supported premise."},
-{"voice":"Pushback","evidenceGroupIds":["S1G1"],"body":"A different reading of that same premise."}
+{"posts":[{"format":"explainer","title":{"evidenceGroupIds":["S1G1"],"text":"A specific title"},"topic":null,
+"body":[[{"evidenceGroupIds":["S1G1"],"text":"A complete supported thought in your own words."},
+{"evidenceGroupIds":["S1G2"],"text":"A related detail, selecting its own support."}]],"discussion":[
+{"voice":"Take","body":[[{"evidenceGroupIds":["S1G1"],"text":"An interpretation of the supported premise."}]]},
+{"voice":"Pushback","body":[[{"evidenceGroupIds":["S1G2"],"text":"A challenge grounded in a selected detail."}]]}
 ],"spoilers":null}]}
 
 Each source offers complete evidence groups. Select exact group IDs supporting ALL
@@ -255,8 +283,8 @@ The body supplies the concrete story or explanation; the exchange adds personali
 perspective. Do not repeat the body in two voices or force generic optimism/pessimism.
 If the material cannot sustain both, skip the entire post. Never publish a bare article
 as a fallback for a weak or invalid discussion. Fewer complete posts are welcome.
-Each turn: {"voice":"Take|Pushback|Reply|Context", "body":"...",
-"evidenceGroupIds":["S1G1"]}.
+Each turn: {"voice":"Take|Pushback|Reply|Context",
+"body":[[{"evidenceGroupIds":["S1G1"],"text":"..."}]]}.
 Use only IDs from sources cited by the parent post, and select excerpts that support
 the turn. Never invent an ID. You may reuse an ID when discussing the same premise.
 These are explicitly AI-generated perspectives, not real users, experts, or quoted conversations.

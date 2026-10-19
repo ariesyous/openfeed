@@ -2,6 +2,11 @@ name: Check editorial reviewer
 
 on:
   workflow_dispatch:
+    inputs:
+      writer_selection:
+        description: Check the writer's passage selection with mandatory review
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -19,13 +24,26 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - name: Check known error patterns and preserve opinion
+        if: ${{ !inputs.writer_selection }}
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: pnpm exec tsx scripts/checkEditorialReview.ts
+      - name: Check writer selection with mandatory source review
+        if: ${{ inputs.writer_selection }}
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: pnpm exec tsx scripts/checkEditorialWriter.ts
       - uses: actions/upload-artifact@v4
         if: always() && hashFiles('artifacts/editorial-review-check.json') != ''
         with:
           name: editorial-review-check-${{ github.run_id }}
           path: artifacts/editorial-review-check.json
+          retention-days: 14
+          if-no-files-found: error
+      - uses: actions/upload-artifact@v4
+        if: always() && hashFiles('artifacts/editorial-writer-check.json') != ''
+        with:
+          name: editorial-writer-check-${{ github.run_id }}
+          path: artifacts/editorial-writer-check.json
           retention-days: 14
           if-no-files-found: error

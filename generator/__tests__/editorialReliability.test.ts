@@ -9,7 +9,7 @@ import { buildReviewInput, reviewTransportSchema, validateReviewTransport, type 
 import { generateEditorial, validateCitedDraft } from "../editorial/generate";
 import { createEditorialAudit, EditorialReviewAuditSchema, REVIEW_FILE_NAME, MAX_AUDIT_BYTES } from "../editorial/audit";
 import type { SourcePacket } from "../editorial/sources";
-import { rangeReviewFixture } from "./helpers/transport";
+import { rangeReviewFixture, writerFixture } from "./helpers/transport";
 
 const now = new Date("2026-10-19T00:00:00Z");
 const source: SourcePacket = { id: "one", title: "A cautious trial", topic: "technology", publisher: "Publisher",
@@ -24,7 +24,7 @@ const candidate = (title = source.title, id = "S1G1") => ({ title, format: "news
 });
 const prepared = prepareEvidence([source]);
 const selected = { ...candidate(), evidenceIds: ["S1E1"], discussion: candidate().discussion.map(turn => ({ ...turn, evidenceIds: ["S1E1"] })) };
-const completion = (value: unknown) => new Response(JSON.stringify({ model: "test/resolved", choices: [{ finish_reason: "stop", message: { content: JSON.stringify((value as ReturnType<typeof approve>)?.posts?.[0]?.checks ? rangeReviewFixture(value as ReturnType<typeof approve>) : value) } }] }));
+const completion = (value: unknown) => new Response(JSON.stringify({ model: "test/resolved", choices: [{ finish_reason: "stop", message: { content: JSON.stringify((value as ReturnType<typeof approve>)?.posts?.[0]?.checks ? rangeReviewFixture(value as ReturnType<typeof approve>) : writerFixture(value)) } }] }));
 // Mock judgments verify transport/accounting, never semantic accuracy of a live model.
 function approve(input: ReviewInput) {
   return { posts: input.posts.map(post => ({ key: post.key,
@@ -45,7 +45,7 @@ describe("atomic writer selections", () => {
     const prepared = prepareEvidence([packet]), writer = prepareWriterEvidence(prepared);
     expect(writer.sources[0].evidence).toEqual([{ id: "S1G1", text: long, snippetCount: 2, section: undefined, paragraph: 1 }]);
     expect(JSON.stringify(writerResponseSchema(writer.groups, 2))).not.toContain("S1E1");
-    const result = resolveWriterSelection({ posts: [candidate()] }, writer.groups, 2);
+    const result = resolveWriterSelection(writerFixture({ posts: [candidate()] }), writer.groups, 2);
     expect(result.ok).toBe(true);
     if (!result.ok) throw Error("Expected an atomic group selection");
     expect(result.value.posts[0].evidenceIds).toEqual(["S1E1", "S1E2"]);
@@ -57,11 +57,11 @@ describe("atomic writer selections", () => {
   it("rejects half-sentence IDs, unknown/duplicate groups, excessive expanded cost and extra legacy fields", () => {
     const writer = prepareWriterEvidence(prepareEvidence([{ ...source, excerpt: Array(4).fill(long).join("\n\n") }]));
     for (const evidenceGroupIds of [["S1E1"], ["unknown"], ["S1G1", "S1G1"], ["S1G1", "S1G2", "S1G3", "S1G4"]]) {
-      expect(resolveWriterSelection({ posts: [{ ...candidate(), evidenceGroupIds }] }, writer.groups, 2).ok).toBe(false);
+      expect(resolveWriterSelection(writerFixture({ posts: [{ ...candidate(), evidenceGroupIds }] }), writer.groups, 2).ok).toBe(false);
     }
     const overTurn = candidate(); overTurn.discussion[0].evidenceGroupIds = ["S1G1", "S1G2"];
-    expect(resolveWriterSelection({ posts: [overTurn] }, writer.groups, 2).ok).toBe(false);
-    expect(resolveWriterSelection({ posts: [{ ...candidate(), evidenceIds: ["S1E1"] }] }, writer.groups, 2).ok).toBe(false);
+    expect(resolveWriterSelection(writerFixture({ posts: [overTurn] }), writer.groups, 2).ok).toBe(false);
+    expect(resolveWriterSelection({ posts: [candidate()] }, writer.groups, 2).ok).toBe(false);
   });
   it("narrows sectioned choice packets while retaining full contexts and prioritizing a revision", () => {
     const packets = Array.from({ length: 12 }, (_, i) => ({ ...source, id: `context${i}`, title: `Context ${i}`,
@@ -185,7 +185,15 @@ describe("larger bounded editions", () => {
         calls++;
         const request = JSON.parse(String(init?.body)), input = JSON.parse(request.messages[1].content);
         if (calls === 1) return completion({ posts: [{ ...candidate(), body: candidate().body + " It opened in 2017." }] });
-        if (calls === 3) { expect(input.revisionFeedback[0].defects[0].reason).toBe("unsupported_claim"); return completion({ posts: [candidate()] }); }
+        if (calls === 3) {
+          expect(input.revisionFeedback[0].defects[0].reason).toBe("unsupported_claim");
+          expect(input.revisionFeedback[0].previousSupport).toEqual([
+            { target: "title/body", evidenceGroupIds: ["S1G1"], unavailableSnippetCount: 0 },
+            { target: "discussion.0", evidenceGroupIds: ["S1G1"], unavailableSnippetCount: 0 },
+            { target: "discussion.1", evidenceGroupIds: ["S1G1"], unavailableSnippetCount: 0 },
+          ]);
+          return completion({ posts: [candidate()] });
+        }
         const review = approve(input);
         if (calls === 2) Object.assign(review.posts[0].checks[1], { verdict: "reject", reason: "unsupported_claim", claim: { firstWord: 0, lastWord: 0 },
           segments: [{ ...review.posts[0].checks[1].segments[0], kind: "unsupported_fact" }] });

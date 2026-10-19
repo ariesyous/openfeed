@@ -4,7 +4,7 @@ import { FeedItemSchema, type FeedItem } from "../../schemas";
 import { generateValidated, GenerationDeadlineError, GenerationFailedError, type ParseOutcome } from "../retry";
 import { ADVANCE_WORLD_MAX_TOKENS, ADVANCE_WORLD_TIMEOUT_MS } from "../config";
 import { prepareEvidence, type EvidenceEntry } from "./evidence";
-import { prepareWriterEvidence, resolveWriterSelection, writerResponseSchema } from "./selection";
+import { prepareWriterEvidence, remapPreviousSupport, resolveWriterSelection, writerResponseSchema, type PreviousWriterSupport } from "./selection";
 import { EDITORIAL_MAX_POSTS, EDITORIAL_MAX_ATTEMPTS, EDITORIAL_TIME_BUDGET_MS } from "./limits";
 export { EDITORIAL_MAX_POSTS, EDITORIAL_MAX_ATTEMPTS, EDITORIAL_TIME_BUDGET_MS } from "./limits";
 import { logEditorialAttempt, redactEditorialDiagnostic } from "./diagnostics";
@@ -291,7 +291,7 @@ export async function generateEditorial(
   // Empty selections are deferred only for this run, never marked as published.
   const deferredSources = new Set<string>();
   const revisionCounts = new Map<string, number>();
-  const revisions = new Map<string, { sourceTitles: string[]; candidate: { title: string; body: string; discussion: { voice: string; body: string }[] }; defects: { target: string; reason: string | null; claim: string | null; explanation: string }[] }>();
+  const revisions = new Map<string, { sourceTitles: string[]; candidate: { title: string; body: string; discussion: { voice: string; body: string }[] }; support: PreviousWriterSupport; defects: { target: string; reason: string | null; claim: string | null; explanation: string }[] }>();
   let emptySelections = 0;
   let generatedDrafts = 0;
   let discussionOmissions = 0;
@@ -354,7 +354,9 @@ export async function generateEditorial(
           now: now.toISOString(), sources: requestSources, maxPosts,
           recentEditions: [...recentEditions, ...accepted.map(post => post.title)],
           publisherSlotsRemaining,
-          revisionFeedback: [...new Set([...offeredIds].flatMap(id => revisions.has(id) ? [revisions.get(id)!] : []))],
+          revisionFeedback: [...new Set([...offeredIds].flatMap(id => revisions.has(id) ? [revisions.get(id)!] : []))]
+            .map(({ support, ...feedback }) => ({ ...feedback,
+              previousSupport: remapPreviousSupport(support, prepared, writerEvidence.groups) })),
         }),
         parse: (json) => {
           // Count identifiable JSON post objects, even when their parent validation fails.
@@ -425,6 +427,9 @@ export async function generateEditorial(
             sourceTitles: candidate.sourceIds.map(id => packets.find(packet => packet.id === id)!.title),
             candidate: { title: candidate.title, body: candidate.body,
               discussion: candidate.discussion!.map(({ voice, body }) => ({ voice, body })) },
+            support: [{ target: "title/body", evidence: selected[index].evidenceIds.map(id => prepared.evidenceById.get(id)!) },
+              ...selected[index].discussion!.map((turn, j) => ({ target: `discussion.${j}`,
+                evidence: turn.evidenceIds.map(id => prepared.evidenceById.get(id)!) }))],
             defects: rejected.map(({ target, reason, claim, explanation }) => ({ target, reason, claim, explanation })),
           };
           for (const id of candidate.sourceIds) { revisionCounts.set(id, 1); revisions.set(id, feedback); }
