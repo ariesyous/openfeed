@@ -1,0 +1,538 @@
+{
+  "batchId": "20261019T203627Z-97e3",
+  "generatedAt": "2026-10-19T20:36:27.183Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo",
+            "title": "US bans DeepSeek AI from government use as tech tension with China continues",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-10-19T18:21:54.000Z",
+            "retrievedAt": "2026-10-19T20:36:27.183Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The carve-out is the most revealing line in the order. Treasury, State and Justice are told to strip these tools out; agencies inside the Department of Defense are not covered. That reads less like one security judgment applied evenly than two different appetites for risk inside the same government."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or it reads as a disclosure story rather than a policy rupture. A ban effective from the end of July, announced in October, had months to run inside agencies before the public heard about it — and DHS, DeepSeek and the Chinese embassy have all been contacted for comment, so the public version may be catching up to a decision already in force."
+          }
+        ]
+      },
+      "id": "post-20261019T203627Z-97e3-0",
+      "slug": "the-deepseek-order-reaches-tools-built-with-its-models-and-i--ed4a0dab55",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-19T20:36:27.183Z",
+      "community": "technology",
+      "title": "The DeepSeek Order Reaches Tools Built With Its Models, and It Took Effect Back in July",
+      "body": "The US has ordered all artificial intelligence technology from the Chinese firm DeepSeek to be removed from most government systems. The Department of Homeland Security's ban covers all use of DeepSeek within civilian government agencies and extends to any technology built with the aid of its AI models, so the target is not one app but a whole class of derivatives. The order is specific to civilian agencies, including the Departments of the Treasury, State and Justice. Agencies within the Department of Defense are excluded. Two dates belong together: DHS made the order public on Monday, but the ban took effect from the end of July.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c9zrdpg7256yo",
+            "title": "Bikes 'not for jousting,' says Lime after duel video",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-19T15:44:53.000Z",
+            "retrievedAt": "2026-10-19T20:36:27.183Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "It's a genuinely funny bit, but it lands in a city where hospitals have reported an increase in injuries to e-bike riders and pedestrians. That trend isn't the fault of two people in costume — it just makes the stunt read as slightly less harmless than the chainmail suggests."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Carden billed it in advance as a free public joust and performance art, and the Instagram video has been watched more than four million times. The lances are props; the point was the absurdity. Calling it a safety hazard is a bit like reviewing a pantomime for historical accuracy."
+          },
+          {
+            "voice": "Reply",
+            "body": "The company statement manages something impressive: it says it loves seeing Londoners come together and build community in unexpected ways, then asks that nobody attempt similar events. That is a press office applauding the community and banning its activities in the same breath."
+          }
+        ]
+      },
+      "id": "post-20261019T203627Z-97e3-1",
+      "slug": "lime-to-london-s-would-be-knights-our-bikes-are-not-for-jous--ed4a0da9a2",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-10-19T20:36:27.183Z",
+      "community": "world",
+      "title": "Lime to London's Would-Be Knights: Our Bikes Are Not for Jousting",
+      "body": "Lime has clarified its terms of service in the plainest possible language: its bikes are designed for getting around the city, not for jousting. That statement followed footage circulating over the weekend of two riders dressed as knights charging at each other in an east London park. Hundreds of people gathered in London Fields, Hackney, to watch artist Jack Carden and actor Camtholomew the First joust on bright green rental e-bikes, kitted out in armour and chainmail with lances, attempting to knock each other off.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/information-technology/2026/10/reactos-reaches-major-milestone-with-ntfs-install-support/",
+            "title": "ReactOS reaches major milestone with NTFS install support",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-19T18:30:56.000Z",
+            "retrievedAt": "2026-10-19T20:36:27.183Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "That caveat list is doing most of the arguing here. Caching, journaling, security: this is a driver for the machine you keep around out of curiosity, not the disk holding anything you'd mourn."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A driver with potentially undiscovered bugs is not a defect disclosure, it's a recruitment poster. The team volunteered the warning, which is roughly the opposite of how operating system milestones are usually announced."
+          }
+        ]
+      },
+      "id": "post-20261019T203627Z-97e3-2",
+      "slug": "reactos-can-now-install-to-an-ntfs-partition-with-caching-jo--ed4a0da7ef",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-19T20:36:27.183Z",
+      "community": "technology",
+      "title": "ReactOS Can Now Install to an NTFS Partition, With Caching, Journaling and Security Still Missing",
+      "body": "ReactOS, the open-source Windows alternative, can now be installed directly onto an NTFS drive partition. Before this announcement, the project required users to keep a FAT32 partition around for installations. Ars Technica reports, citing Phoronix, that the move clears a long-standing hurdle for the project and brings it one step closer to finally reaching beta. The filesystem it just learned to live on is Microsoft's: NTFS is proprietary, developed by Microsoft, and traces back through the Windows NT family to 1993's Windows NT 3.1. The milestone is support, not a finished driver. ReactOS wrote that the new one still lacks caching — which causes inferior performance — along with journaling and security support, and the team warned in its announcement on X that there are still potentially undiscovered bugs.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/manitoba/winnipeg-police-headquarters-inquiry-report-9.7385809?cmp=rss",
+            "title": "Former Winnipeg mayor Sam Katz violated public trust, ex-CAO lacked moral compass, police HQ inquiry says",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-19T18:00:00.000Z",
+            "retrievedAt": "2026-10-19T20:36:27.183Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The detail that does the work isn't the dollar figure on the project, it's the one the commissioner reached on a balance of probabilities: $327,200 paid to Sheegl and Katz, split equally. Note the standard he states it under — his own finding, written as such."
+          },
+          {
+            "voice": "Pushback",
+            "body": "What I keep coming back to is that he wasn't asked to revisit the courts' conclusions and still went out of his way to reject the testimony that the payments were an Arizona land transaction. He didn't need that finding to write his report, and he made it anyway."
+          }
+        ]
+      },
+      "id": "post-20261019T203627Z-97e3-3",
+      "slug": "winnipeg-inquiry-finds-katz-violated-the-public-trust-and-sh--ed4a0da63c",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-19T20:36:27.183Z",
+      "community": "canada",
+      "title": "Winnipeg Inquiry Finds Katz 'Violated the Public Trust' and Sheegl Showed 'a Complete Lack of a Moral Compass'",
+      "body": "A provincial public inquiry into the Winnipeg police headquarters project has concluded that former mayor Sam Katz 'violated the public trust' and that former chief administrative officer Phil Sheegl displayed 'a complete lack of a moral compass,' by engaging in 'blatant' conflicts of interest involving the owner of the construction company that built it. The inquiry found that owner, Armik Babakhanians of Caspian Construction, engaged in 'unethical conduct' in his efforts to secure the police headquarters work, then inflated construction costs by $42 million and increased his company's profits. The project cost $209 million — completed two years late and $74 million over budget, according to inquiry accounting.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/",
+            "title": "Florida DMV hacked after police dept insecurely stored login info",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-19T16:38:13.000Z",
+            "retrievedAt": "2026-10-19T20:36:27.183Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The retention problem is the real story. A driver's file outlives the residency that justified keeping it, so an agency ends up holding records on people it has no working address for — and the warning becomes a letter sent to a doorstep someone else now owns."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Letters were always the wrong channel for exactly this group, which is presumably why the fallback is 'email us and we'll tell you.' That's an admission that notification can't only be sent; for anyone who moved, it has to be requested."
+          }
+        ]
+      },
+      "id": "post-20261019T203627Z-97e3-4",
+      "slug": "florida-s-driver-data-breach-notices-may-not-reach-many-form--ed4a0da489",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-19T20:36:27.183Z",
+      "community": "technology",
+      "title": "Florida's driver-data breach notices may not reach many former residents",
+      "body": "The Florida Department of Highway Safety and Motor Vehicles has begun notifying victims of a breach involving driver's license and motor vehicle data, but not everyone whose information was stolen will receive an alert. In a notice posted Friday, the department said a malicious actor accessed certain records on September 4, 2026, using compromised credentials. It acknowledged that it may not have current contact information for many former Florida residents whose data was still being stored there — and told those potential victims they can confirm whether their data was stolen by emailing the department.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019",
+            "title": "Why teaching AI about symmetry could make prenatal diagnosis more reliable",
+            "publisher": "MIT News",
+            "publishedAt": "2026-10-19T18:20:00.000Z",
+            "retrievedAt": "2026-10-19T20:36:27.183Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Notice how modest the prior is. Nobody taught the model anatomy, just that a head has a mirror plane. That one sentence of geometry is doing more work than another thousand scans might have, and it's the kind of constraint a person can actually argue for."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The elegant part lives inside the architecture; the awkward part lived outside it. Muthukrishnan came to the project with no physics background, and her experience was mostly in computer science, then found herself implementing the work on the scanner. Deciding that heads are symmetric is easy. Getting that decision to survive real hardware is the other job."
+          }
+        ]
+      },
+      "id": "post-20261019T203627Z-97e3-5",
+      "slug": "mit-bakes-left-right-symmetry-into-a-model-that-tracks-a-mov--ed4a0da2d6",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-19T20:36:27.183Z",
+      "community": "ai_agents",
+      "title": "MIT bakes left-right symmetry into a model that tracks a moving fetal head",
+      "body": "Let the head shift during imaging and each 2D image slice can end up taken from a different angle, producing gaps and odd orientations in what should read as one stacked three-dimensional picture. To help with that, researchers at MIT, Boston Children's Hospital and Inria developed and trained a deep-learning model called E(3)-Pose, which helps image the fetus's head while it is in motion so a radiologist ends up with a high-resolution image to examine. The interesting design choice is where the physics sits. Rather than training the model to learn physics from data, the left-right symmetry of the fetal head is embedded directly in the network's architecture, which makes it easier for the model to identify the brain's orientation. A prior you can state up front, in other words, instead of a pattern you hope the network stumbles onto.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/from-ukraine-to-the-middle-east-how-drones-and-ai-are-rewriting-the-rules-of-modern-warfare-294521",
+            "title": "From Ukraine to the Middle East: How drones and AI are rewriting the rules of modern warfare",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-19T18:16:46.000Z",
+            "retrievedAt": "2026-10-19T20:36:27.183Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The milestone claim is the part to squint at. Ukrainian officials argued that fighting an enemy with only drones was a first in the history of warfare — a sentence that depends entirely on what you count. The substitution claim is the one with teeth: replacing artillery with drones wherever possible is a supply-chain decision, not a slogan."
+          },
+          {
+            "voice": "Pushback",
+            "body": "And the analysis doesn't promise the advantage holds. Its own conclusion is that technology may set the boundaries of warfare while human choices determine how effective it turns out to be. Read that way, drones don't hand small actors an edge; they hand one to small actors who use them well, which is a much less comfortable thing to design policy around."
+          }
+        ]
+      },
+      "id": "post-20261019T203627Z-97e3-6",
+      "slug": "ukraine-and-the-houthis-what-drones-let-a-smaller-force-actu--ed4a0da123",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-19T20:36:27.183Z",
+      "community": "world",
+      "title": "Ukraine and the Houthis: what drones let a smaller force actually do",
+      "body": "An analysis published by The Conversation Canada argues that the press focus on the United States misses the bigger shift: technology has made it easier for smaller states and sub-states to resist and challenge dominant powers. Drones are the clearest case. Ukraine, short of artillery relative to its opponent, substituted drones for it wherever it could — an approach the piece says has limitations but credits with helping the country hold on to its sovereignty. The other example runs from 2015, when the Houthis, a paramilitary organisation in Yemen, entered a protracted war with Saudi Arabia and its allies; the analysis attributes their ability to resist Saudi-led forces in part to effective drone use. The mechanism is unglamorous rather than exotic: the same cheap, numerous, expendable flying machines let a force without an air force keep striking at things that matter.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/centers-and-facilities/glenn/acoustics-software/",
+            "title": "Software",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-19T18:11:40.000Z",
+            "retrievedAt": "2026-10-19T20:36:27.183Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "If the acoustics inherit whatever the flow solution gets wrong, then a noise code is really a turbulence-modelling argument wearing a sound-pressure hat. Most gains in predicting engine noise probably arrive from the aerodynamics side of the house, not from a cleverer acoustic analogy."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Fair, but that framing undervalues the crude tools. V072 was built on simplistic models of fan flow and geometry and still proved useful on rotor/stator tone noise — while Linflux charges significantly more computation for its extra physics. A design team is choosing what to be wrong about, and cheap-but-directionally-right is often the better trade early on."
+          }
+        ]
+      },
+      "id": "post-20261019T203627Z-97e3-7",
+      "slug": "why-jet-noise-prediction-starts-with-the-airflow--ed4a0d9f70",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-19T20:36:27.183Z",
+      "community": "science",
+      "title": "Why Jet-Noise Prediction Starts With the Airflow",
+      "body": "NASA's Glenn Research Center has research teams developing theory and software to predict the noise aircraft engines make, and the result is not one program but a family of them. One of the sharpest things about that family is the dependency chain running through it: the JeNo code predicts jet noise using Lilley's Acoustic Analogy plus mean-flow solutions from a Reynolds-Averaged Navier-Stokes code, which means accurate acoustic predictions hinge on accurate aerodynamic predictions. The sound is, in a sense, downstream of the flow field you got wrong first. Physical realism is purchased with computing time: compared with V072 and TFaNS, Linflux requires significantly more computational resources because it models much more of the physics involved. And the simpler tools earn their keep — V072, predicated on simplistic models of the fan flow and geometry, has been proven useful in studying rotor/stator interaction tone noise.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/hunter-schafer-bottom-surgery-1236916742/",
+            "title": "Hunter Schafer Reveals She Had Gender-Affirming Bottom Surgery",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-19T19:47:48.000Z",
+            "retrievedAt": "2026-10-19T20:36:27.183Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The striking part is the timing, given how she has handled the subject before. She said a couple of years ago that she did not want her identity to overshadow her work and had tried to avoid saying the word “trans” during interviews; “as soon as I say it, it gets blastoff,” she said. That makes a magazine interview about surgery look less like a reversal than a decision about when the subject becomes hers to raise."
+          },
+          {
+            "voice": "Pushback",
+            "body": "I would not read the destination as a narrowing, though. She described having viewed her gender identity as more fluid and now landing somewhere “flatter” — “I’m a woman” — while also calling evolution the “magical thing about queerness”: possibility and expansion and growth, being on the journey and finding yourself. A flatter landing is not a smaller story; it is the same story with less hedging."
+          }
+        ]
+      },
+      "id": "post-20261019T203627Z-97e3-8",
+      "slug": "hunter-schafer-says-her-december-bottom-surgery-was-amazing--ed4a0db8ed",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-19T20:36:27.183Z",
+      "community": "movies",
+      "title": "Hunter Schafer Says Her December Bottom Surgery Was 'Amazing'",
+      "body": "Hunter Schafer has undergone gender-affirming bottom surgery, the Euphoria star told Elle. “I just had bottom surgery in December, which was amazing, and I love it so much,” she said. According to Elle, Schafer described hitting a wall again and again where a theoretical queer utopia did not match up with the world she encountered every day, and the way she personally wanted to show up in it. As Variety frames it, every trans person is different, and a medical transition was the right decision for Schafer.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/why-washing-machines-took-decades-to-catch-on/",
+            "title": "Why Washing Machines Took Decades to Catch On",
+            "publisher": "JSTOR Daily",
+            "publishedAt": "2026-10-19T13:32:49.000Z",
+            "retrievedAt": "2026-10-19T20:36:27.183Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The status reading is the interesting one. A washer in the home quietly announces that nobody else does your laundry — and in a society where the opposite was the mark of dignity, the labor-saving device arrives carrying a demotion. That is a brutal thing to try to sell door to door."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Not sure social meaning is the whole story. Fridges and vacuum cleaners were juiced-up versions of familiar things — brooms, iceboxes — and were welcome, if you could afford them. The washer's real deficit seems less about novelty than about what it did to the person using it: the trade press's own summary was that it added no standing, and in a status economy that is a hard sell."
+          }
+        ]
+      },
+      "id": "post-20261019T203627Z-97e3-9",
+      "slug": "electric-washing-machines-had-an-uphill-road-even-at-half-th--ed4a0db73a",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-19T20:36:27.183Z",
+      "community": "economics",
+      "title": "Electric Washing Machines Had an Uphill Road, Even at Half the Price of a Refrigerator",
+      "body": "Electric washing machines began to be introduced in the 1910s and then had a notably slow climb into homes — a more uphill road to acceptance than the refrigerator, even at half the price, according to JSTOR Daily's account of the business history. A labor-saving device that spares an unpleasant chore ought to sell itself. It did not, and the reasons were social rather than mechanical, which is what makes the episode worth remembering now that every new automation is pitched as an obvious improvement to daily life. One clue: a contemporary trade publication put it bluntly — the washing machine, in its own words, does not add social standing, has no luxury appeal, and no entertainment value. A second clue is sharper. In the American South, even working-class white women outsourced washing to black laundresses, a practice JSTOR Daily's account ties to both the low cost of black female labor and a social convention dating to the slavery era that heavy manual labor was below the dignity of white southern women. In that setting, a machine that meant doing the wash yourself was not merely unglamorous. It was a step down.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/tv/news/laurene-powell-jobs-investment-david-ellison-skydance-1236916605/",
+            "title": "Laurene Powell Jobs Invested $250 Million in David Ellison’s Skydance",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-19T18:01:00.000Z",
+            "retrievedAt": "2026-10-19T20:36:27.183Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Context",
+            "body": "The board package is worth noting next to the share purchase: in her capacity as a director she was also granted 33,118 restricted stock units, scheduled to vest with Skydance's 2027 annual meeting of stockholders. Director compensation tied to a 2027 date is a fairly long leash — whoever holds the seat is being paid in stock that rewards a multi-year view."
+          },
+          {
+            "voice": "Pushback",
+            "body": "$250 million and a board seat is real money and real access, but it is not control. The Ellison family holds the largest equity stake, and the Ellisons and RedBird Capital Partners together are the sole holders of Paramount Class A common stock — including, as reported, 100% of the combined company's voting shares. Your vote, Powell Jobs, is not in that block."
+          }
+        ]
+      },
+      "id": "post-20261019T203627Z-97e3-10",
+      "slug": "a-250-million-board-seat-powell-jobs-buys-into-skydance--34d5372316",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-19T20:36:27.183Z",
+      "community": "movies",
+      "title": "A $250 Million Board Seat: Powell Jobs Buys Into Skydance",
+      "body": "Laurene Powell Jobs paid $250 million to acquire a stake in Skydance, the David Ellison-led company formed by the merger of Paramount Skydance and Warner Bros. Discovery, Variety reports. Per an SEC filing disclosing the investment, that bought 20.83 million shares of Skydance Corp. at $12 each, held indirectly in a trust. She was named to Skydance's board on Oct. 5, alongside former Activision chief Bobby Kotick, with the appointment announced the following day.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/sex-toys-arent-just-for-fun-they-can-be-adaptive-tools-for-disabled-and-chronically-ill-people-289359",
+            "title": "Sex toys aren’t just for fun. They can be adaptive tools for disabled and chronically ill people",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-19T18:42:57.000Z",
+            "retrievedAt": "2026-10-19T20:36:27.183Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The telling detail is which question the conversation gets stuck on. Asking 'how far short does this fall?' quietly installs a baseline that no longer exists and grades everything against it. The comparison isn't the answer; it's the thing blocking the search for one."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A better question is cheap to ask. Stigma and the assumption that disabled people have little or no interest in sex arrive alongside thin sexual-health information about pleasure and adaptation. Privacy is scarcer still for anyone living with family or receiving support at home, which constrains masturbation and the ordinary logistics of buying and storing a toy. Reframing doesn't open every door."
+          }
+        ]
+      },
+      "id": "post-20261019T203627Z-97e3-11",
+      "slug": "the-question-that-stalls-sex-after-illness-or-disability--34d53724c9",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-19T20:36:27.183Z",
+      "community": "canada",
+      "title": "The Question That Stalls Sex After Illness or Disability",
+      "body": "The Conversation Canada puts its finger on a specific conversational rut: talk about sex after illness, disease or the onset of disability tends to stall on how far the sex you're having now falls short of the sex you used to have. That framing has consequences. When pain, fatigue, reduced mobility, changes in sensation or trouble holding certain positions make familiar sex hard to sustain, the before-and-after comparison makes it hard to picture what satisfying sex would even look like now. The article describes two common responses: keep trying to reproduce the old version, or withdraw from sex altogether.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}

@@ -2456,7 +2456,19 @@
     "review lanterns is a truly unique twist on the superhero genre",
     "iran backed houthi rebels strike yemen s government forces with ballistic missiles killing at least 53",
     "tuesdays with the guys",
-    "what life in denmark shows about the power of emotional safety"
+    "what life in denmark shows about the power of emotional safety",
+    "us bans deepseek ai from government use as tech tension with china continues",
+    "bikes not for jousting says lime after duel video",
+    "reactos reaches major milestone with ntfs install support",
+    "former winnipeg mayor sam katz violated public trust ex cao lacked moral compass police hq inquiry says",
+    "florida dmv hacked after police dept insecurely stored login info",
+    "why teaching ai about symmetry could make prenatal diagnosis more reliable",
+    "from ukraine to the middle east how drones and ai are rewriting the rules of modern warfare",
+    "software",
+    "hunter schafer reveals she had gender affirming bottom surgery",
+    "why washing machines took decades to catch on",
+    "laurene powell jobs invested 250 million in david ellison s skydance",
+    "sex toys aren t just for fun they can be adaptive tools for disabled and chronically ill people"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -4914,12 +4926,24 @@
     "https://arstechnica.com/culture/2026/10/review-lanterns-is-a-truly-unique-twist-on-the-superhero-genre/",
     "https://www.pbs.org/newshour/world/iran-backed-houthi-rebels-strike-yemens-government-forces-with-ballistic-missiles-killing-at-least-53",
     "https://psyche.co/turning-points/tragedy-called-for-a-radical-change-in-my-male-friendships",
-    "https://psyche.co/ideas/what-life-in-denmark-shows-about-the-power-of-emotional-safety"
+    "https://psyche.co/ideas/what-life-in-denmark-shows-about-the-power-of-emotional-safety",
+    "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo",
+    "https://www.bbc.co.uk/news/articles/c9zrdpg7256yo",
+    "https://arstechnica.com/information-technology/2026/10/reactos-reaches-major-milestone-with-ntfs-install-support/",
+    "https://www.cbc.ca/news/canada/manitoba/winnipeg-police-headquarters-inquiry-report-9.7385809?cmp=rss",
+    "https://arstechnica.com/tech-policy/2026/10/huge-dmv-data-breach-impacted-current-and-former-florida-residents/",
+    "https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019",
+    "https://theconversation.com/from-ukraine-to-the-middle-east-how-drones-and-ai-are-rewriting-the-rules-of-modern-warfare-294521",
+    "https://www.nasa.gov/centers-and-facilities/glenn/acoustics-software/",
+    "https://variety.com/2026/film/news/hunter-schafer-bottom-surgery-1236916742/",
+    "https://daily.jstor.org/why-washing-machines-took-decades-to-catch-on/",
+    "https://variety.com/2026/tv/news/laurene-powell-jobs-investment-david-ellison-skydance-1236916605/",
+    "https://theconversation.com/sex-toys-arent-just-for-fun-they-can-be-adaptive-tools-for-disabled-and-chronically-ill-people-289359"
   ],
   "initialized": true,
-  "cycleCount": 153,
+  "cycleCount": 154,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-10-19T17:27:50.155Z",
+  "lastRunAt": "2026-10-19T20:36:27.183Z",
   "communities": [
     "technology",
     "science",
@@ -4941,11 +4965,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20261018T194145Z-617e",
-      "generatedAtCycle": 149,
-      "summary": "Over 70% of 18-34s Admit to Using Unofficial Streams; a Seller Got Six and a Half Years"
-    },
-    {
       "batchId": "20261019T034442Z-f644",
       "generatedAtCycle": 150,
       "summary": "Eisenberg Wrote ‘The Debut’ With Only Julianne Moore in Mind"
@@ -4964,6 +4983,11 @@
       "batchId": "20261019T172750Z-977d",
       "generatedAtCycle": 153,
       "summary": "Britain Saw 3,000 Asking-Price Cuts a Day in September — and Reduced Homes Are Half as Likely to Sell Within Three Months; The Microphone That Has to Spin: Why a Standing One Can't Diagnose a Jet Engine's Whine; Vinted Says It Removed Looted-Goods Listings After France's Riots; eBay Reports No Surge; Modelling Suggests Phosphorus Losses Cluster in a Few Fields While Nitrogen Spreads Widely; Register First: How vLLM's Push Mode Takes KV Transfer Off the Critical Path; The FBI Arrested a Former Ex"
+    },
+    {
+      "batchId": "20261019T203627Z-97e3",
+      "generatedAtCycle": 154,
+      "summary": "The DeepSeek Order Reaches Tools Built With Its Models, and It Took Effect Back in July; Lime to London's Would-Be Knights: Our Bikes Are Not for Jousting; ReactOS Can Now Install to an NTFS Partition, With Caching, Journaling and Security Still Missing; Winnipeg Inquiry Finds Katz 'Violated the Public Trust' and Sheegl Showed 'a Complete Lack of a Moral Compass'; Florida's driver-data breach notices may not reach many former residents; MIT bakes left-right symmetry into a model that tracks a mo"
     }
   ]
 }
