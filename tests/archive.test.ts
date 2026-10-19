@@ -48,12 +48,25 @@ describe("permanent articles", () => {
         const url = `https://cobanter.com${articlePath(expected, base)}`;
         expect(html).toContain(`rel="canonical" href="${url}"`);
         expect(html).toContain(`property="og:url" content="${url}"`);
+        const imageUrl = html.match(/property="og:image" content="([^"]+)"/)?.[1];
+        expect(imageUrl).toMatch(new RegExp(`^https://cobanter\\.com${base}og/[a-z0-9-]+\\.png$`));
+        expect(html).toContain('property="og:image:width" content="1200"');
+        expect(html).toContain('property="og:image:height" content="630"');
+        expect(html).toContain('name="twitter:card" content="summary_large_image"');
+        expect(html).toContain(`name="twitter:image" content="${imageUrl}"`);
+        const image = readFileSync(path.join(root, "dist", new URL(imageUrl!).pathname.slice(base.length)));
+        expect(image.subarray(0, 8).toString("hex")).toBe("89504e470d0a1a0a");
+        expect(image.readUInt32BE(16)).toBe(1200);
+        expect(image.readUInt32BE(20)).toBe(630);
         expect(JSON.parse(readFileSync(path.join(root, "dist/p", slug, "article.json"), "utf8"))).toEqual(expected);
         if (expected === legacy) {
           expect(html).toContain('<details><summary>Show spoilers</summary><p class="post-card-body">PRIVATE SPOILER BODY');
           expect(html).toContain('property="og:description" content="A spoiler-protected CoBanter article. Open to read."');
         }
       }
+      const oldHtml = readFileSync(path.join(root, "dist/p", legacy.slug, "index.html"), "utf8");
+      const newHtml = readFileSync(path.join(root, "dist/p", articleRouteSlug(legacy), "index.html"), "utf8");
+      expect(oldHtml.match(/property="og:image" content="([^"]+)"/)?.[1]).toBe(newHtml.match(/property="og:image" content="([^"]+)"/)?.[1]);
       // A future stored address must never overwrite another article's short alias.
       const collision = { ...fresh, slug: articleRouteSlug(legacy) };
       writeFileSync(batchFile, JSON.stringify({ ...fixture, items: [legacy, collision] }));

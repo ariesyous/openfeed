@@ -5,6 +5,7 @@ import { BatchFileSchema, ManifestSchema, type BatchRef, type FeedItem, type Man
 import { TOPICS, topicLabel, topicPath, topicSlug } from "../shared/topics";
 import { articlePath, articleRouteSlug, articleSlug } from "../shared/articles";
 import { publicationDate } from "../shared/publicationDate";
+import { PREVIEW_HEIGHT, PREVIEW_WIDTH, writeArticlePreview } from "./articlePreview";
 
 export const INDEX_PAGE_SIZE = 50;
 const escape = (value: string) => value.replace(/[&<>"']/g, (c) => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"})[c]!);
@@ -74,7 +75,9 @@ export function buildArchive(root = process.cwd()) {
       const url = new URL(articlePath(item, base), origin).href;
       const title = escape(item.title ?? "CoBanter article");
       const description = escape(item.editorial.spoilers ? "A spoiler-protected CoBanter article. Open to read." : item.body.replace(/\s+/g, " ").slice(0, 180));
-      const metadata = `<title>${title} · CoBanter</title><link rel="canonical" href="${escape(url)}"><meta name="description" content="${description}"><meta property="og:type" content="article"><meta property="og:title" content="${title}"><meta property="og:description" content="${description}"><meta property="og:url" content="${escape(url)}"><meta name="twitter:card" content="summary">`;
+      const preview = writeArticlePreview(item, dist, base, origin);
+      const imageMetadata = `<meta property="og:image" content="${escape(preview.url)}"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="${PREVIEW_WIDTH}"><meta property="og:image:height" content="${PREVIEW_HEIGHT}"><meta property="og:image:alt" content="${escape(preview.alt)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${escape(preview.url)}"><meta name="twitter:image:alt" content="${escape(preview.alt)}">`;
+      const metadata = `<title>${title} · CoBanter</title><link rel="canonical" href="${escape(url)}"><meta name="description" content="${description}"><meta property="og:site_name" content="CoBanter"><meta property="og:type" content="article"><meta property="og:title" content="${title}"><meta property="og:description" content="${description}"><meta property="og:url" content="${escape(url)}">${imageMetadata}`;
       const json = JSON.stringify({ ...item, slug }).replace(/</g, "\\u003c");
       const html = shell.replace(/<title>[\s\S]*?<\/title>/, metadata)
         .replace('<div id="root"></div>', `<div id="root">${articleMarkup(item, base)}</div><script id="article-data" type="application/json">${json}</script>`);

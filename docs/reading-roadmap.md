@@ -43,6 +43,18 @@ state. Copy link, feed, cards and topic links use the short address. The build c
 all canonical and historical routes together and fails on collisions rather than
 overwriting content. This hash is an address disambiguator, not a security token.
 
+Article sharing images are generated at build time by `scripts/articlePreview.ts`.
+Every article gets a 1200×630 PNG containing its public headline, topic, format and
+CoBanter branding. Long headlines wrap and scale without truncation. Images never
+read body or discussion text; spoiler articles receive a spoiler-protected label.
+The original and short article URLs share one absolute `og:image` URL, image size,
+type and alt metadata, plus a Twitter large-image card. These tags are present in
+static HTML so crawlers do not need JavaScript. PNG content hashes refresh the
+image URL after headline or design changes; social apps can still cache the page's
+previous preview until they recrawl it. No request-time image service, model call
+or publisher-image fetching is involved. Build fonts and their OFL license are
+bundled under `scripts/assets/fonts`; the renderer stays out of the browser bundle.
+
 The complete publication manifest remains a generator-side catalog. Build output
 partitions its references into pages of at most 50, filled from oldest to newest
 so appending new editions doesn't shift historical page boundaries. The browser
