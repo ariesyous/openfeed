@@ -317,7 +317,15 @@ export async function generateEditorial(
     const available = packets.filter(packet => !deferredSources.has(packet.id) && !used.has(packet.id) && !usedTitles.has(coverageTitle(packet.title)) && (publishers.get(publisherKey(packet.publisher)) ?? 0) < 2);
     const distinctSources = [...new Map(available.map(packet => [coverageTitle(packet.title), packet])).values()];
     const pendingRevisions = distinctSources.filter(packet => revisions.has(packet.id));
-    const prepared = prepareEvidence(pendingRevisions.length ? pendingRevisions : distinctSources);
+    // A single revision should not monopolize a two-post writer/reviewer pair.
+    // Select revisions first, then fill the packet with other eligible sources.
+    const prepared = prepareEvidence([...pendingRevisions,
+      ...distinctSources.filter(packet => !revisions.has(packet.id))], {
+      priorityIds: new Set(pendingRevisions.map(packet => packet.id)),
+      // Four complete contexts are enough choice for two posts. Keep every
+      // paragraph/snippet per offered source; other candidates stay available.
+      sourceLimit: distinctSources.some(packet => packet.sections) ? 4 : undefined,
+    });
     const writerEvidence = prepareWriterEvidence(prepared);
     const offeredIds = new Set([...writerEvidence.groups.values()].flatMap(ids => ids.map(id => prepared.evidenceById.get(id)!.sourceId)));
     const preparedIds = new Set([...prepared.evidenceById.values()].map(entry => entry.sourceId));

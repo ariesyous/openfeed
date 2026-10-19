@@ -404,3 +404,19 @@ fourth suite retried one missing-premise citation; range accounting did not fail
 See the new dated control fixture; do not rewrite prior audit outcomes or advance
 ordinary-edition observation counts from these synthetic controls. Linux validation
 passed all 355 tests. Ordinary-run yield still requires separate observation.
+
+## Provider and review retry reduction — October 19, 2026
+Read docs/editorial-provider-reliability.md. The first throughput runs published sixteen
+and eight articles, with all twenty-four deployed and matching approved digests; this
+is publication verification, not a new semantic audit or an observation-cohort update.
+Requests stream SSE with bounded framing, discarded reasoning and mandatory terminal
+choice plus DONE. Never accept partial JSON after disconnection or skip malformed/error
+events. Route the same DeepSeek model by throughput with parameter support required
+and same-model fallbacks; keep default reasoning, 24k/48k token caps and billing limits.
+Sectioned two-post writers offer four full source contexts; unused candidates stay
+available. Prioritize revisions but fill the other slot with eligible new sources.
+Live review transport has required named post/unit objects and per-unit citation enums;
+passing check citations cannot be empty. Compact indexed words and shared schema
+definitions retain full context and all existing local gates. Materialized audits
+retain their original contract and 512-KiB bounds. Keep twenty posts, 32 calls and
+45 minutes; no semantic check is relaxed to improve yield.

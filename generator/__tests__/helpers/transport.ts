@@ -11,7 +11,7 @@ export function writerFixture(value: unknown): unknown {
 
 import type { ReviewResponse } from "../../editorial/review";
 export function reviewFixture(value: ReviewResponse) {
-  return { posts: value.posts.map(post => ({ ...post,
+  return rangeReviewFixture({ posts: value.posts.map(post => ({ ...post,
     titleAttribution: post.titleAttribution && Object.fromEntries(Object.entries(post.titleAttribution).filter(([key]) => key !== "titleText")),
     checks: post.checks.map(check => {
       let nextWord = 0;
@@ -22,5 +22,12 @@ export function reviewFixture(value: ReviewResponse) {
         }),
       };
     }),
-  })) };
+  })) });
+}
+
+/** Adapt synthetic range arrays to the required per-post/per-unit wire objects. */
+export function rangeReviewFixture(value: { posts: { key: string; titleAttribution: unknown; checks: { target: string }[] }[] }) {
+  return { posts: Object.fromEntries(value.posts.map(({ key, titleAttribution, checks }) => [key, {
+    titleAttribution, checks: Object.fromEntries(checks.map(({ target, ...check }) => [target, check])),
+  }])) };
 }

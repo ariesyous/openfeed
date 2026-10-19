@@ -174,6 +174,14 @@ Do not repeat recently covered URLs. No filler to satisfy a format quota.
 
 Return ONLY JSON. Include topic, discussion, and spoilers on every post; only topic and
 spoilers may be null. Every post needs a valid discussion. Never exceed maxPosts.
+When revisionFeedback is present, revise those rejected posts first and use other
+eligible sources for any remaining post slot. Fix every named defect, then recheck
+each unit against its own explicit selections. Old selections are not inherited.
+A turn does not inherit the body's factual support. Before adding a name, date,
+quantity, population, causal link or attribution, select its support for THIS unit
+or narrow the claim. Context helps interpretation but is not selectable evidence.
+Do not spend a whole response discussing possible articles: make the bounded
+support choices, write the useful exchange, and return the complete JSON.
 Return shape (the attached JSON schema is authoritative):
 {"posts":[{"format":"explainer","evidenceGroupIds":["S1G1"],"title":"A specific title","topic":null,
 "body":"Plain text with optional paragraph breaks; no URLs","discussion":[

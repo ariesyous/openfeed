@@ -1,5 +1,9 @@
 # Generation capacity and reliability — October 19, 2026
 
+Follow-up: [provider and review reliability](editorial-provider-reliability.md)
+records the first two ordinary generation results (sixteen and eight articles)
+and the subsequent transport, request-schema and revision-batching improvements.
+
 The reader requested substantially more articles without weaker source checks.
 [39196115867](https://github.com/ariesyous/openfeed/actions/runs/39196115867) had
 15 usable sources, six reviewed candidates, five reviewer rejections and two writer

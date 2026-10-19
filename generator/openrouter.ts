@@ -1,4 +1,5 @@
 import { getOpenRouterModel, OPENROUTER_URL } from "./config";
+import { readCompletionStream, StreamProviderError } from "./stream";
 
 export interface OpenRouterMessage {
   role: "system" | "user";
@@ -51,7 +52,10 @@ export async function callOpenRouter(opts: CallOpenRouterOptions): Promise<OpenR
   const body: Record<string, unknown> = {
     model,
     messages: opts.messages,
-    stream: false,
+    stream: true,
+    // Keep the model/reasoning unchanged, prefer faster healthy endpoints, and
+    // require support for the requested schema. Same-model fallbacks stay enabled.
+    provider: { sort: "throughput", require_parameters: true, allow_fallbacks: true },
   };
   if (opts.maxTokens) {
     body.max_tokens = opts.maxTokens;
@@ -131,12 +135,16 @@ export async function callOpenRouter(opts: CallOpenRouterOptions): Promise<OpenR
 
   let json: unknown;
   try {
-    json = await response.json();
+    json = response.headers.get("content-type")?.includes("text/event-stream")
+      ? await readCompletionStream(response) : await response.json();
   } catch (err) {
     // Headers can arrive before the body is fully written, so a slow completion can get
     // aborted mid-body-read once timeoutMs elapses -- surfacing here, not in the fetch()
     // try/catch above. Report the real cause rather than a generic "not valid JSON".
-    const reason = err instanceof Error ? `${err.name}: ${err.message}` : String(err);
+    if (err instanceof StreamProviderError)
+      return { ok: false, kind: [400, 401, 402, 403].includes(Number(err.code)) ? "fatal" : "retryable", reason: err.message };
+    const reason = err instanceof SyntaxError ? "invalid completion stream or response JSON"
+      : err instanceof Error || err instanceof DOMException ? `${err.name}: ${err.message}` : "unknown response read failure";
     return { ok: false, kind: "retryable", reason: `failed to read response body: ${reason}` };
   }
 
