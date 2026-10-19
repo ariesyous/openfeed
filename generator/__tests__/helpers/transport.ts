@@ -28,6 +28,15 @@ export function reviewFixture(value: ReviewResponse) {
 /** Adapt synthetic range arrays to the required per-post/per-unit wire objects. */
 export function rangeReviewFixture(value: { posts: { key: string; titleAttribution: unknown; checks: { target: string }[] }[] }) {
   return { posts: Object.fromEntries(value.posts.map(({ key, titleAttribution, checks }) => [key, {
-    titleAttribution, checks: Object.fromEntries(checks.map(({ target, ...check }) => [target, check])),
+    titleAttribution, checks: Object.fromEntries(checks.map(({ target, ...check }) => {
+      const { segments, ...rest } = check as typeof check & { segments?: { firstWord: number; lastWord: number; [key: string]: unknown }[] };
+      let nextWord = 0;
+      const partitions = segments?.map(({ firstWord, lastWord, ...segment }) => {
+        const invalidStart = firstWord !== nextWord; nextWord = lastWord + 1;
+        // Preserve deliberate malformed fixture starts as forbidden wire fields.
+        return { ...segment, lastWord, ...(invalidStart ? { firstWord } : {}) };
+      });
+      return [target, { ...rest, segments: partitions?.slice(0, -1), finalSegment: partitions?.at(-1) }];
+    })),
   }])) };
 }

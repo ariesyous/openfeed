@@ -425,3 +425,18 @@ eight wrong candidates withheld/eight counterparts allowed in four calls/127,470
 Keep its dated provider-control fixture separate from earlier controls and ordinary
 observation counts. Linux validation passed all 366 tests. Yield is still observed
 separately; this control result is not a general semantic-accuracy guarantee.
+
+## Complete review partitions — October 19, 2026
+The first ordinary provider-reliability run 39294295875 published thirteen articles
+in 28m16s with zero provider failures, but three malformed review calls and thirteen
+source-based candidate rejections. All thirteen deployed articles matched approved
+digests and complete unit ledgers. Do not call this consistent twenty-post yield or
+advance semantic observation cohorts from publication verification.
+Review transport now uses explicit lastWord partition boundaries and a required
+finalSegment judgment whose final index is fixed by the unit schema. Every original
+word is classified; never repair missing judgments, accept gaps/overlaps or skip a
+suffix. Passing branches cannot contain unsupported_fact. An attribution mismatch
+must use the rejected-title/misattribution branch. Materialized audit spans, original
+local source/coverage/attribution checks and all shared budgets remain unchanged.
+Writer examples address observed own-unit name/count/background/attribution/causal
+selection mistakes without removing supported opinions, disagreement or humour.

@@ -73,10 +73,11 @@ export function buildReviewInput(posts: ReviewPost[], prepared: ReturnType<typeo
 }
 
 const WordRange = z.object({ firstWord: z.number().int().min(0).max(1800), lastWord: z.number().int().min(0).max(1800) }).strict();
-const RangeSegment = SegmentSchema.omit({ text: true }).extend(WordRange.shape).strict();
+const PartitionSegment = SegmentSchema.omit({ text: true }).extend({ lastWord: WordRange.shape.lastWord }).strict();
 const AttributionTransport = TitleAttributionSchema.omit({ titleText: true }).strict();
 type BoundCheck = Omit<z.infer<typeof CheckSchema>, "target" | "claim" | "segments"> & {
-  claim: z.infer<typeof WordRange> | null; segments: z.infer<typeof RangeSegment>[];
+  claim: z.infer<typeof WordRange> | null; segments: z.infer<typeof PartitionSegment>[];
+  finalSegment: z.infer<typeof PartitionSegment>;
 };
 type BoundPost = { titleAttribution: z.infer<typeof AttributionTransport>; checks: Record<string, BoundCheck> };
 
@@ -86,37 +87,49 @@ export function reviewTransportSchema(input: ReviewInput) {
   const posts: Record<string, z.ZodType<BoundPost>> = {};
   for (const post of input.posts) {
     const checks: Record<string, z.ZodType<BoundCheck>> = {};
+    let mismatchTitle: z.ZodType<BoundCheck> | undefined;
     const attached = [...new Set(post.sources.flatMap(source => source.evidence.map(entry => entry.id)))];
     for (const unit of post.units) {
       const own = z.array(z.enum(unit.evidenceIds)).max(6);
       const range = WordRange.extend({ lastWord: z.number().int().min(0).max(unit.words.length - 1),
         firstWord: z.number().int().min(0).max(unit.words.length - 1) });
-      const segment = RangeSegment.extend({ ...range.shape, evidenceIds: own });
+      const segment = PartitionSegment.extend({ lastWord: range.shape.lastWord, evidenceIds: own });
+      const passingSegment = segment.extend({ kind: z.enum(["supported_fact", "opinion"]) });
+      const finalSegment = segment.extend({ lastWord: z.literal(unit.words.length - 1) });
       const base = z.object({
         // Assess the spans first, then give the unit verdict. No missing-premise
         // citation or unsupported passing ID is expressible in strict output.
-        segments: z.array(segment).min(1).max(32), verdict: CheckSchema.shape.verdict,
+        // Explicit partition ends cover from word zero through a required final
+        // segment. No gap or omitted suffix is expressible, and every word still
+        // receives its own model-supplied classification/support judgment.
+        segments: z.array(segment).max(31), finalSegment, verdict: CheckSchema.shape.verdict,
         reason: CheckSchema.shape.reason, claim: range.nullable(),
         explanation: CheckSchema.shape.explanation, evidenceIds: CheckSchema.shape.evidenceIds,
       }).strict();
+      const rejected = base.extend({ verdict: z.literal("reject"), evidenceIds: z.array(z.enum(attached)).max(6), reason,
+        claim: range });
       checks[unit.target] = z.union([
-        base.extend({ verdict: z.enum(["supported", "opinion"]), evidenceIds: own.min(1), reason: z.null(), claim: z.null() }),
-        base.extend({ verdict: z.literal("reject"), evidenceIds: z.array(z.enum(attached)).max(6), reason,
-          claim: range }),
+        base.extend({ verdict: z.enum(["supported", "opinion"]), evidenceIds: own.min(1), reason: z.null(), claim: z.null(),
+          segments: z.array(passingSegment).max(31), finalSegment: passingSegment.extend({ lastWord: z.literal(unit.words.length - 1) }) }),
+        unit.target === "title" ? rejected.extend({ reason: reason.exclude(["misattribution"]) }) : rejected,
       ]);
+      if (unit.target === "title") mismatchTitle = rejected.extend({ reason: z.literal("misattribution") });
     }
-    posts[post.key] = z.object({
-      titleAttribution: AttributionTransport.extend({
-        sourceEvidenceId: z.enum(post.units[0].evidenceIds).nullable(),
-      }),
+    const attribution = AttributionTransport.extend({ sourceEvidenceId: z.enum(post.units[0].evidenceIds).nullable() });
+    posts[post.key] = z.union([z.object({
+      titleAttribution: attribution.extend({ relation: z.enum(["aligned", "interpretation", "no_attributed_claim"]) }),
       checks: z.object(checks).strict(),
-    }).strict();
+    }).strict(), z.object({
+      titleAttribution: attribution.extend({ relation: z.literal("mismatch"), titleActor: z.string().min(1).max(120) }),
+      checks: z.object({ ...checks, title: mismatchTitle! }).strict(),
+    }).strict()]);
   }
   return z.object({ posts: z.object(posts).strict() }).strict();
 }
 
-/** Ranges name immutable original words. No model-copied prose is accepted or repaired.
- * Gaps, overlaps, reordered/unknown ranges and incomplete unit ledgers all fail closed.
+/** Partition boundaries name immutable original words. No model-copied prose is
+ * accepted or repaired. Unknown/overlapping/reversed ends and absent final judgments
+ * fail closed; every word is included in an explicitly classified segment.
  * Materialize the original spans, then run ALL existing semantic-decision gates.
  */
 export function validateReviewTransport(json: unknown, input: ReviewInput): ParseOutcome<ReviewResponse> {
@@ -128,7 +141,8 @@ export function validateReviewTransport(json: unknown, input: ReviewInput): Pars
     const original = input.posts.find(candidate => candidate.key === key)!;
     return { key, titleAttribution: { ...post.titleAttribution, titleText: original.units[0].text },
       checks: Object.entries(post.checks).map(([target, decision]) => {
-        const check = { ...decision, target };
+        const { segments: prefix, finalSegment, ...rest } = decision;
+        const check = { ...rest, target };
         const unit = original.units.find(candidate => candidate.target === check.target);
         if (!unit) { issues.push(`${key}.${check.target}: unknown unit`); return check; }
         const words = wordSpans(unit.text);
@@ -139,8 +153,8 @@ export function validateReviewTransport(json: unknown, input: ReviewInput): Pars
           return unit.text.slice(words[firstWord].start, words[lastWord].start + words[lastWord].text.length);
         };
         let nextWord = 0;
-        const segments = check.segments.map(({ firstWord, lastWord, ...segment }) => {
-          if (firstWord !== nextWord) issues.push(`${key}.${check.target}: ranges must cover every word once in order; expected firstWord ${nextWord}`);
+        const segments = [...prefix, finalSegment].map(({ lastWord, ...segment }) => {
+          const firstWord = nextWord;
           nextWord = lastWord + 1;
           return { ...segment, text: span({ firstWord, lastWord }) };
         });
