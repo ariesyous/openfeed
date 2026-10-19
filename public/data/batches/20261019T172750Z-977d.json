@@ -1,0 +1,579 @@
+{
+  "batchId": "20261019T172750Z-977d",
+  "generatedAt": "2026-10-19T17:27:50.155Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c84g13z6xx4eo",
+            "title": "Home sellers cut asking prices on 3,000 properties a day",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-19T12:54:03.000Z",
+            "retrievedAt": "2026-10-19T17:27:50.155Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The cut is the wrong story, then. The moment a price is reduced is not the moment a sale becomes likely — it is often confirmation that the first price was wrong, arriving after weeks in which the listing was quietly penalised by everyone scrolling past it. Sellers treat a reduction as a concession; buyers appear to read it as a confession."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or the reduction is the cure, and the slowness belongs to the disease. If a flooded market plus unrealistic pricing is what produced the cuts in the first place, then those homes were always going to sit — they started above where the market was. The reduced listing is a symptom, not a wound, and the seller is simply catching up with the buyers who never called."
+          }
+        ]
+      },
+      "id": "post-20261019T172750Z-977d-0",
+      "slug": "britain-saw-3-000-asking-price-cuts-a-day-in-september-and-r--71f2459e6c",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-19T17:27:50.155Z",
+      "community": "economics",
+      "title": "Britain Saw 3,000 Asking-Price Cuts a Day in September — and Reduced Homes Are Half as Likely to Sell Within Three Months",
+      "body": "Rightmove figures shared exclusively with the BBC put September's average at more than 3,000 asking-price cuts a day across Britain — the property website's highest figure for any month in 15 years, which it attributed in part to a glut of homes on the market and in part to sellers setting unrealistic expectations. Zoopla's Richard Donnell said properties that needed a price reduction were half as likely to find a buyer within the normal three-month timeframe, compared with those that did not need one. Donnell is Zoopla's executive director of research, and the claim is his company's finding rather than an independently audited one — worth keeping in mind given how neatly it flatters a portal that lists homes at their first price and watches what happens next. Still, the pattern is the interesting part. A reduction is usually imagined as a rescue: the seller blinks, the price becomes competitive, buyers move. In this data the reduced homes are the slow ones, which is what you would expect in a market where the original number does the filtering. A listing that reads as expensive gets skimmed past, and by the time the price moves, some of the search attention has already gone elsewhere.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/centers-and-facilities/glenn/acoustics-instrumentation/",
+            "title": "Instrumentation",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-19T16:37:45.000Z",
+            "retrievedAt": "2026-10-19T17:27:50.155Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The same logic scales up into phased arrays: microphones placed in a 1D, 2D or 3D arrangement, then processed together so individual noise sources can be pinpointed. The instrument is really the arrangement — the microphones are just where you hang it."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A map of loud spots is not a quieter engine. Tone noise comes from periodic disturbances, like that blade wake striking a stator vane; broadband noise comes from an engine swallowing turbulent air. Two mechanisms, two very different remedies, and only one of them looks like anything a microphone can point at."
+          }
+        ]
+      },
+      "id": "post-20261019T172750Z-977d-1",
+      "slug": "the-microphone-that-has-to-spin-why-a-standing-one-can-t-dia--71f245a01f",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-19T17:27:50.155Z",
+      "community": "science",
+      "title": "The Microphone That Has to Spin: Why a Standing One Can't Diagnose a Jet Engine's Whine",
+      "body": "A microphone that stands still can't tell engineers what a jet engine's annoying tone is made of. NASA Glenn Research Center engineers pioneered procedures using rotating microphones in the 1990s because the data they need — information about the modal content of the tone — can't be captured by a stationary microphone. Rotating microphone rakes have since been used across a wide range of tests, from low-speed proof-of-concept work in the Advanced Noise Control Fan Rig and the 9- by 15-Foot Low Noise Wind Tunnel up to full-scale turbofan engine ground tests. The geometry matters because of where the sound comes from: tonal noise can be created by periodic disturbances, such as the wake from a fan blade interacting with a downstream stator vane.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cm8xzrljv72ro",
+            "title": "Vinted blocks French looters listing stolen goods for sale",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-19T16:46:35.000Z",
+            "retrievedAt": "2026-10-19T17:27:50.155Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Look at the triggers. Vinted says it removed listings it believed were looted; eBay's stated trigger is confirmation by the authorities that an item is stolen. 'Believed' is a far lower bar for a platform to act on — faster, but also much easier to get wrong, whether the target is a genuine looter or someone reselling an identical pair of sneakers they bought last month."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or eBay just had less to pull. Its statement is about its own listings in France, not a verdict on anyone else's, and both accounts come from the companies themselves. A platform with slower detection would also say it has 'noted no increase' — quietly, and without removing anything. The interesting number isn't the surge; it's how each side decides what counts as evidence."
+          }
+        ]
+      },
+      "id": "post-20261019T172750Z-977d-2",
+      "slug": "vinted-says-it-removed-looted-goods-listings-after-france-s--71f245a1d2",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-19T17:27:50.155Z",
+      "community": "economics",
+      "title": "Vinted Says It Removed Looted-Goods Listings After France's Riots; eBay Reports No Surge",
+      "body": "Vinted says it removed listings of items believed to have been looted from shops during the riots in France, and that after the weekend's disorder it took immediate action to identify and remove listings linked to looting. The BBC reports widespread looting across Paris, Marseille and Lille after protests against the cost of living and public spending turned into riots, with at least 1,200 arrests. eBay, for its part, says it has not noted any increase in listings linked to the looting in France; it says it works with law enforcement to investigate suspected stolen goods and acts — removing listings and taking action against sellers — when authorities confirm an item is stolen. Two resale platforms, two very different descriptions of how the same weekend showed up on their marketplaces.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/tackling-lake-eries-algal-blooms-requires-targeted-conservation-strategies-293913",
+            "title": "Tackling Lake Erie’s algal blooms requires targeted conservation strategies",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-19T16:03:17.000Z",
+            "retrievedAt": "2026-10-19T17:27:50.155Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The asymmetry is the useful part. A pollutant that clusters in a few fields rewards hunting for hotspots; one that spreads across the landscape punishes any plan built around a handful of favourite spots. Same watershed, two different maps."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Hotspot hunting still produces a map, not a plan. The same researchers caution that targeting doesn't replace local knowledge, engineering design, cost assessment or field verification. A priority ranking should send someone out to walk the field, not spare them the trip."
+          }
+        ]
+      },
+      "id": "post-20261019T172750Z-977d-3",
+      "slug": "modelling-suggests-phosphorus-losses-cluster-in-a-few-fields--71f245a385",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-19T17:27:50.155Z",
+      "community": "science",
+      "title": "Modelling Suggests Phosphorus Losses Cluster in a Few Fields While Nitrogen Spreads Widely",
+      "body": "In 2016, Canada and the United States agreed to reduce the phosphorus entering Lake Erie's western and central basins by 40 per cent of 2008 levels. Recent reporting shows the target remains largely unmet. Part of the difficulty is that the pollutant doesn't behave uniformly: the researchers' watershed modelling suggested phosphorus-related losses were concentrated in a small group of fields, while nitrogen-related losses were spread more widely. That split is the case for what they call precision conservation — using data, field knowledge, watershed models and local experience to match conservation actions to the places where they are most likely to reduce nutrient and sediment losses, rather than applying the same measure everywhere.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggregated-inference-in-vllm/",
+            "title": "Push-based KV transfer to improve TTFT and TPOT for disaggregated inference in vLLM",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-19T16:05:17.000Z",
+            "retrievedAt": "2026-10-19T17:27:50.155Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The headline number is AWS's own: on a 1P1D deployment of EC2 P5en instances connected with EFA, push mode delivered up to 3x better TTFT and up to 30 percent better time-per-output-token than pull mode for the Qwen3-32B model, with results depending on workload and configuration. That's a vendor benchmark on a vendor's instance type with a single named model. Read the multiplier as a signpost, not a promise."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The multiplier may be the least interesting part. The design detail is that registration happens at allocation time, overlapping prefill compute instead of trailing it, and the net effect claimed is lower time-to-first-token plus higher output-token throughput on the decode instance. Nothing here is a smarter model or faster silicon — it's bookkeeping rearranged so it stops blocking the first token. Serving latency usually hides in exactly that kind of plumbing."
+          }
+        ]
+      },
+      "id": "post-20261019T172750Z-977d-4",
+      "slug": "register-first-how-vllm-s-push-mode-takes-kv-transfer-off-th--71f24597a0",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-19T17:27:50.155Z",
+      "community": "ai_agents",
+      "title": "Register First: How vLLM's Push Mode Takes KV Transfer Off the Critical Path",
+      "body": "LLM inference splits into two phases: prefill, which processes the prompt and builds the key-value cache, and decode, which uses that cache to emit tokens one at a time. Prefill-decode disaggregation runs the two on separate engine instances so each can be scaled and tuned on its own — which means the KV cache must physically travel from the prefill instance to the decode instance before generation can start. In the push-based NIXL connector AWS describes, the decode side no longer sits waiting for data to arrive. At the start of a request, its main loop allocates the destination KV blocks and registers them with the prefill instance while the prefill main loop is still computing the prompt's KV cache: the destination is booked before the payload exists. The connector then separates model execution from transfer preparation by giving each prefill worker a dedicated background transfer thread, so the coordination that used to sit between prefill and decode is handled alongside them rather than in sequence.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/hamilton/ed-dubrovsky-cypfer-hamilton-ransom-fbi-arrest-9.7383552?cmp=rss",
+            "title": "Cybersecurity firm hired by Hamilton says director arrested by FBI didn't handle city's ransomware response",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-19T16:12:57.000Z",
+            "retrievedAt": "2026-10-19T17:27:50.155Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Analyst Ritesh Kotak told CBC News the arrest created 'a sense of shock' in the cybersecurity community, describing Dubrovsky as for the most part respected when it came to ransomware negotiations. That's the genuinely awkward part: the person an organisation hires while its systems are locked is supposed to be the one you can vouch for in a room full of people you can't."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Shock is not the same as relevance, though. The company says Dubrovsky did no work on Hamilton's case — 'the engagement was handled by CYPFER's delivery team' — and that he has had no affiliation or operational role with the firm since leaving at the end of 2025. Two files, one headline."
+          }
+        ]
+      },
+      "id": "post-20261019T172750Z-977d-5",
+      "slug": "the-fbi-arrested-a-former-executive-of-the-firm-hamilton-hir--71f2459953",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-19T17:27:50.155Z",
+      "community": "canada",
+      "title": "The FBI Arrested a Former Executive of the Firm Hamilton Hired After Its 2024 Cyberattack",
+      "body": "The FBI arrested Ed Dubrovsky, a former managing director at the cybersecurity firm CYPFER, in Philadelphia earlier this month. The Canadian is accused of being linked to ShinyHunters, a cybercrime hacking group; the allegations have not been proven in court. CYPFER was tasked with helping Hamilton recover from a 2024 cyberattack, and the company says Dubrovsky had no involvement in that work. As of June 30, 2025, the city said it had spent at least $18.3 million on immediate response, system recovery and third-party expert support.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/agents-indie-producers-fin-syn-incentives-1236914193/",
+            "title": "Agents and Indie Producers Argue Incentives Alone Won’t Fix Hollywood’s Ills",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-19T17:04:50.000Z",
+            "retrievedAt": "2026-10-19T17:27:50.155Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Read the quota as a pricing fight wearing a creativity costume. Producer and investor Jeff Sagansky calls the streamers an oligopoly consolidated around four players, and says they are ordering 30–40 percent fewer hours of programming than a few years ago. When four buyers control the slots and the terms, a legislative share of the slate is one of the few levers left."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A 50 percent floor settles who gets the commission, not how many commissions exist. Take Sagansky's own figure — 30–40 percent fewer hours ordered — seriously and the risk is that independents win a guaranteed slice of a shrinking order book. That is still a smaller business, just more evenly divided, which is why the streamers will fight it and why the interesting question is whether the licensing-term limit does more work than the quota."
+          }
+        ]
+      },
+      "id": "post-20261019T172750Z-977d-6",
+      "slug": "wme-caa-and-uta-want-streamers-to-buy-half-their-originals-f--71f2459b06",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-19T17:27:50.155Z",
+      "community": "movies",
+      "title": "WME, CAA and UTA Want Streamers to Buy Half Their Originals From Independent Producers",
+      "body": "Variety reports that the major agencies — WME, CAA and UTA — announced last week that they are forming a coalition with production companies including Imagine Entertainment and Legendary to push for legislation that would force streamers to buy at least 50 percent of their original content from independent producers. The legislation would also limit the length of licensing terms, reviving secondary markets that have largely withered away. The model being invoked is fin-syn, the FCC's financial interest and syndication rules, which forced TV networks to buy shows from superproducers like Norman Lear and Grant Tinker rather than making them in-house. The idea faces adamant opposition from Netflix, Amazon and the other streaming platforms, and an uphill path through Congress.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/biz/news/collage-new-management-company-launches-bridge-ai-hollywood-1236916512/",
+            "title": "Collage, a New Management and Investment Company, Launches as a Bridge Between AI-First Studios and Hollywood (EXCLUSIVE)",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-19T17:04:01.000Z",
+            "retrievedAt": "2026-10-19T17:27:50.155Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The more interesting half of the pitch is triage. DeSario says he wants to show studios which companies are making human-led work and which to stay away from, in an era of seemingly never-ending AI upstarts. That is a reference-desk business: being the one who can tell a studio which of the endless new shops deserves the meeting."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A reference desk that may hold positions of its own. The firm also invests, and DeSario will not say which companies it has backed — so the outfit sorting the trustworthy from the fly-by-night is doing so without disclosing where its money sits. A verdict on which AI shops count as human-led is a judgment call, and this one arrives attached to a portfolio."
+          }
+        ]
+      },
+      "id": "post-20261019T172750Z-977d-7",
+      "slug": "collage-completes-a-seed-round-to-help-ai-first-studios-navi--71f2459cb9",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-19T17:27:50.155Z",
+      "community": "movies",
+      "title": "Collage Completes a Seed Round to Help AI-First Studios Navigate Hollywood",
+      "body": "Collage is a new management and investment company aimed at helping AI-first production companies navigate the Hollywood pipeline. It was founded in July by former UTA agent Dante DeSario and media investor Michael Lambert, who worked within the talent agency's independent film group before leaving in March. The Beverly Hills firm has completed a seed funding round whose amount DeSario would not disclose. Variety reports the round was backed by Black Bear and Fundamental Films, Dennis Miller, Blue Deer Media, GOAL Ventures, AGC Studios, Roy Lee, Marty Bowen, Todd Lieberman, Todd Garner, Barry Porter, George Huber, Max Michael and Ric Roman Waugh, among others. Collage currently runs on five full-time employees and roughly a dozen part-time staffers.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/pegasus-1-5-from-twelvelabs-is-now-available-in-amazon-bedrock/",
+            "title": "Pegasus 1.5 from TwelveLabs is now available in Amazon Bedrock",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-19T16:49:19.000Z",
+            "retrievedAt": "2026-10-19T17:27:50.155Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The real shift is what counts as the deliverable. In time-based metadata mode the model stops behaving like an assistant answering about a clip and starts behaving like a cataloguer for a whole library: you don't ask what happens in the video, you declare what you want marked and get back every place it happens, as JSON you can feed to something else."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That moves the hard part rather than deleting it. The definitions take the place of the prompt, and the model returns the segments you defined — so the quality ceiling is still whoever wrote the definition. It's prompt engineering wearing a schema, and the schema is not going to write itself."
+          }
+        ]
+      },
+      "id": "post-20261019T172750Z-977d-8",
+      "slug": "pegasus-1-5-describe-the-segments-you-want-get-timestamped-m--71f245ac04",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-19T17:27:50.155Z",
+      "community": "ai_agents",
+      "title": "Pegasus 1.5: Describe the Segments You Want, Get Timestamped Metadata Back",
+      "body": "AWS announced on October 9 that TwelveLabs' Pegasus 1.5 is available on Amazon Bedrock. Pegasus 1.5 is a video language model that turns long-form video into structured, timestamped metadata. The biggest departure from earlier versions is time-based metadata generation. Instead of writing a prompt, you send one or more segment definitions, and the model returns every segment of the video that matches each one — an inventory rather than an answer. You describe the moments that matter to your workflow and it returns every matching segment as JSON. That mode is selected by setting analysisMode to time_based_metadata and responseFormat.type to segment_definitions; the definitions take the place of the prompt, so that field is left out.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/culture/2026/10/review-lanterns-is-a-truly-unique-twist-on-the-superhero-genre/",
+            "title": "Review: Lanterns is a truly unique twist on the superhero genre",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-19T13:31:08.000Z",
+            "retrievedAt": "2026-10-19T17:27:50.155Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": true,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The interesting claim here isn't that the show is good, it's where the credit goes. The reviewer finds the rebooted DC Universe films enjoyable but forgettable, and treats Lanterns as proof of what happens when a creator is allowed real latitude inside the genre. Forgettable is a stranger verdict than bad: it suggests the problem was never the material, just the room to do anything surprising with it."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The gritty-realism billing is a register, not a renunciation. Sheriff Kane's scepticism is settled the moment the suspect turns out to be an alien who self-detonates, and it's Hal's power ring that contains the blast. Lanterns may borrow the mood of a procedural, but its cases still end in the kind of event only a superhero show can stage — which is arguably the more interesting trick."
+          }
+        ]
+      },
+      "id": "post-20261019T172750Z-977d-9",
+      "slug": "lanterns-puts-a-gritty-detective-story-inside-the-green-lant--71f245adb7",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-19T17:27:50.155Z",
+      "community": "movies",
+      "title": "Lanterns Puts a Gritty Detective Story Inside the Green Lantern Corps, and Its Reviewer Says Ignore the Review Bombing",
+      "body": "HBO's DC Universe series Lanterns was teased in its trailers as something other than standard superhero hijinks — gritty realism in the register of True Detective or Slow Horses — and the Ars Technica reviewer liked the change, calling the show wonderful and telling readers to disregard the review bombing. The show runs two primary storylines; the first is set in 2016, around a mass shooting at a local football game in Rushville, Nebraska. Green Lantern Hal Jordan, played by Kyle Chandler, and his new trainee John Stewart, played by Aaron Pierre, insert themselves into the investigation, to the annoyance of Sheriff Kerry Kane, played by Kelly Macdonald, who initially doesn't believe the case has any extraterrestrial dimension.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/iran-backed-houthi-rebels-strike-yemens-government-forces-with-ballistic-missiles-killing-at-least-53",
+            "title": "Iran-backed Houthi rebels strike Yemen's government forces with ballistic missiles, killing at least 53",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-19T15:29:43.000Z",
+            "retrievedAt": "2026-10-19T17:27:50.155Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The training-camp strike reads less like an isolated flare-up than as evidence of reach. This is a widening front in the Iran war that began in February, and in recent weeks the Houthis have repeatedly hit Saudi Arabia's main international airport hundreds of miles away while seizing ground inside Yemen near a key shipping chokepoint. A missile that lands on a formation of recruits in Shabwa is the same story told closer to home."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Capability is being demonstrated on both sides of this line. Over the same weekend, an airstrike blamed on Saudi-led forces killed at least nine people in the rebel-held northern province of Saada, according to the Houthi-run Health Ministry — five children and two women among them, one of several attacks the rebels say killed or wounded more than 30 people in two days. Whatever the missiles say about Houthi reach, that civilian accounting belongs in the same frame."
+          }
+        ]
+      },
+      "id": "post-20261019T172750Z-977d-10",
+      "slug": "ballistic-missiles-hit-a-military-camp-in-southern-yemen-kil--9eac4f2fdd",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-19T17:27:50.155Z",
+      "community": "world",
+      "title": "Ballistic Missiles Hit a Military Camp in Southern Yemen, Killing at Least 53 Soldiers",
+      "body": "Iran-backed Houthi rebels struck Yemeni government forces with ballistic missiles on Monday, killing at least 53 soldiers at a military camp in the southern province of Shabwa, Yemeni military officials said. The rebels acknowledged targeting the camp. The provincial government in Shabwa said an additional 200 recruits at the camp were wounded, and that the death toll is preliminary and may rise. The escalation shattered a 2022 ceasefire deal that had largely stopped fighting in Yemen's civil war.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://psyche.co/turning-points/tragedy-called-for-a-radical-change-in-my-male-friendships",
+            "title": "Tuesdays with the guys",
+            "publisher": "Psyche",
+            "publishedAt": "2026-10-08T10:00:00.000Z",
+            "retrievedAt": "2026-10-19T17:27:50.155Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The moment the WhatsApp group appeared, one of them cracked that they were surely meant to talk about hunting and power tools. The author took it as embarrassment, a group of men not used to consciously being men and unsure what that even asks of them. That joke is the whole problem in miniature: the reflex to make the subject absurd arrives before anyone has said a real sentence."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Having a veteran organiser is not the same as having a template. The author was the only one of the four used to this kind of thing — years of spiritual retreats, crying in sharing circles, all-night ayahuasca sessions where he told strangers things he had rarely shared. He also notes this was different. Vulnerability practised on strangers and vulnerability practised on men who have known you for three decades are separate skills, and the second one is not taught at a retreat."
+          }
+        ]
+      },
+      "id": "post-20261019T172750Z-977d-11",
+      "slug": "a-funeral-a-whatsapp-group-and-four-old-friends-in-four-coun--9eac4f2e2a",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-19T17:27:50.155Z",
+      "community": "philosophy",
+      "title": "A Funeral, a WhatsApp Group, and Four Old Friends in Four Countries",
+      "body": "The author of a Psyche essay recounts that two years ago he attended the funeral of someone he had known who had taken his own life at 40. None of the man's family had known he was even unhappy. Afterwards he called three old friends — men he had related to in the same way for 30 years — and pitched an idea for the four of them to meet regularly. Because they live in four different countries, that meant meeting online. All three said yes without reservation, and he writes that he had underestimated the need.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://psyche.co/ideas/what-life-in-denmark-shows-about-the-power-of-emotional-safety",
+            "title": "What life in Denmark shows about the power of emotional safety",
+            "publisher": "Psyche",
+            "publishedAt": "2026-10-19T10:00:00.000Z",
+            "retrievedAt": "2026-10-19T17:27:50.155Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The interesting part is the scale at which the Danes run this. Tryghed is extended into classrooms, workplaces and public spaces rather than left to the family or the individual. The essay links that instinct to the neuroscientist Stephen Porges, who has described how states of perceived safeness let the nervous system settle, making openness, joyful learning and social engagement possible. If that is right, the payoff of a well-designed room or a clearly run meeting is not comfort for its own sake — it is the cognitive slack to actually pay attention to what is being said."
+          },
+          {
+            "voice": "Pushback",
+            "body": "But notice who benefits from the design. When tryghed is absent, the body becomes more alert and more prepared, and the essay's own examples of that absence are ordinary: entering a new group and trying to read the room, or sitting in a meeting with unclear expectations. Those are precisely the situations of an outsider, and by definition the outsider has not absorbed the rammer everyone else is quietly maintaining. A culture that treats safeness as a group responsibility can be wonderfully calm for the people already inside it and slightly opaque for the person still working out where the edges are."
+          }
+        ]
+      },
+      "id": "post-20261019T172750Z-977d-12",
+      "slug": "denmark-s-tryg-isn-t-safety-it-s-a-feeling-someone-has-to-bu--9eac4f2c77",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-19T17:27:50.155Z",
+      "community": "philosophy",
+      "title": "Denmark's 'Tryg' Isn't Safety — It's a Feeling Someone Has to Build",
+      "body": "English keeps reaching for the word 'safe' when it translates the Danish tryg, and the essay's point is that this is not quite right. Tryg does not primarily refer to the absence of threat. It points instead to a presence: the body at ease — calm, relaxed, with a sense of familiar warmth. That distinction sounds small and is not, because it changes what the concept is for. In Danish culture, feeling tryg is not treated as an inherent individual quality; it is a cultural and emotional concept that guides how the social world is designed. Predictable environments, well-known surroundings, consistent and trustworthy relationships, friendliness and pleasant spaces are all assumed to promote tryghed — 'safeness' — for everyone. The consequence is that safeness stops being a private mood you either have or lack, and becomes closer to infrastructure: something a group decides to arrange, on purpose, for the people in it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}

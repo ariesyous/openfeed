@@ -2443,7 +2443,20 @@
     "stratospheric airship flew from us to japan to test sky cell tower concept",
     "horrible unmanly indispensable",
     "a kelvin wave raised sea levels on the west coast more are coming",
-    "is everything conscious"
+    "is everything conscious",
+    "home sellers cut asking prices on 3 000 properties a day",
+    "instrumentation",
+    "vinted blocks french looters listing stolen goods for sale",
+    "tackling lake erie s algal blooms requires targeted conservation strategies",
+    "push based kv transfer to improve ttft and tpot for disaggregated inference in vllm",
+    "cybersecurity firm hired by hamilton says director arrested by fbi didn t handle city s ransomware response",
+    "agents and indie producers argue incentives alone won t fix hollywood s ills",
+    "collage a new management and investment company launches as a bridge between ai first studios and hollywood exclusive",
+    "pegasus 1 5 from twelvelabs is now available in amazon bedrock",
+    "review lanterns is a truly unique twist on the superhero genre",
+    "iran backed houthi rebels strike yemen s government forces with ballistic missiles killing at least 53",
+    "tuesdays with the guys",
+    "what life in denmark shows about the power of emotional safety"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -4888,12 +4901,25 @@
     "https://arstechnica.com/gadgets/2026/10/trans-pacific-journey-tested-stratospheric-cell-tower-concept-in-japan/",
     "https://aeon.co/essays/the-renaissance-gun-from-diabolical-device-to-popular-militias",
     "https://www.npr.org/2026/10/19/nx-s1-6001744/el-nino-kelvin-wave-west-coast",
-    "https://aeon.co/essays/does-the-principle-of-sufficient-reason-make-panpsychism-true"
+    "https://aeon.co/essays/does-the-principle-of-sufficient-reason-make-panpsychism-true",
+    "https://www.bbc.co.uk/news/articles/c84g13z6xx4eo",
+    "https://www.nasa.gov/centers-and-facilities/glenn/acoustics-instrumentation/",
+    "https://www.bbc.co.uk/news/articles/cm8xzrljv72ro",
+    "https://theconversation.com/tackling-lake-eries-algal-blooms-requires-targeted-conservation-strategies-293913",
+    "https://aws.amazon.com/blogs/machine-learning/push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggregated-inference-in-vllm/",
+    "https://www.cbc.ca/news/canada/hamilton/ed-dubrovsky-cypfer-hamilton-ransom-fbi-arrest-9.7383552?cmp=rss",
+    "https://variety.com/2026/film/news/agents-indie-producers-fin-syn-incentives-1236914193/",
+    "https://variety.com/2026/biz/news/collage-new-management-company-launches-bridge-ai-hollywood-1236916512/",
+    "https://aws.amazon.com/blogs/machine-learning/pegasus-1-5-from-twelvelabs-is-now-available-in-amazon-bedrock/",
+    "https://arstechnica.com/culture/2026/10/review-lanterns-is-a-truly-unique-twist-on-the-superhero-genre/",
+    "https://www.pbs.org/newshour/world/iran-backed-houthi-rebels-strike-yemens-government-forces-with-ballistic-missiles-killing-at-least-53",
+    "https://psyche.co/turning-points/tragedy-called-for-a-radical-change-in-my-male-friendships",
+    "https://psyche.co/ideas/what-life-in-denmark-shows-about-the-power-of-emotional-safety"
   ],
   "initialized": true,
-  "cycleCount": 152,
+  "cycleCount": 153,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-10-19T13:22:04.435Z",
+  "lastRunAt": "2026-10-19T17:27:50.155Z",
   "communities": [
     "technology",
     "science",
@@ -4915,11 +4941,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20261018T192251Z-381c",
-      "generatedAtCycle": 148,
-      "summary": "What Would Count as a Gen Z Religious Revival? A Sociologist Says Conversion and Staying Power"
-    },
-    {
       "batchId": "20261018T194145Z-617e",
       "generatedAtCycle": 149,
       "summary": "Over 70% of 18-34s Admit to Using Unofficial Streams; a Seller Got Six and a Half Years"
@@ -4938,6 +4959,11 @@
       "batchId": "20261019T132204Z-daa8",
       "generatedAtCycle": 152,
       "summary": "Uber's £340m cab claims were thrown out on timing, never tested on the truth; Election results take days when margins are thin and mail ballots arrive last; Civil Service Pension Delays Meet a Two-Year Tax Deadline; Lucca's 60th Edition Books the Games-and-Cinema Crossover; The Airship That Wants to Be a Cell Tower: Helium for Lift, a Propeller for Staying Put; Lorenzo de’ Medici’s 1492 inventory listed five firearms; his descendant’s storerooms held 91 by 1539; A deep ocean Kelvin wave is lifti"
+    },
+    {
+      "batchId": "20261019T172750Z-977d",
+      "generatedAtCycle": 153,
+      "summary": "Britain Saw 3,000 Asking-Price Cuts a Day in September — and Reduced Homes Are Half as Likely to Sell Within Three Months; The Microphone That Has to Spin: Why a Standing One Can't Diagnose a Jet Engine's Whine; Vinted Says It Removed Looted-Goods Listings After France's Riots; eBay Reports No Surge; Modelling Suggests Phosphorus Losses Cluster in a Few Fields While Nitrogen Spreads Widely; Register First: How vLLM's Push Mode Takes KV Transfer Off the Critical Path; The FBI Arrested a Former Ex"
     }
   ]
 }
