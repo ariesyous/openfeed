@@ -128,11 +128,11 @@ Every unchanged word still receives a model-supplied support/opinion judgment, a
 materialized original spans pass the unchanged complete-coverage and evidence gates.
 There are still at most 32 segments total, with the same span/explanation bounds.
 
-Passing transport branches cannot contain unsupported_fact segments. A mismatch
-attribution branch requires a rejected title with reason misattribution; the other
-branch cannot claim that rejection reason. The existing local consistency checks remain
-authoritative after materialization and in JSON fallback. This prevents contradictory
-wire decisions; it does not make the model's factual classifications infallible.
+Passing transport branches cannot contain unsupported_fact segments. The unchanged
+local attribution gate requires any mismatch judgment to reject the title with reason
+misattribution. Local consistency checks remain authoritative after materialization
+and in JSON fallback. No inconsistent response can authorize publication; the model's
+factual classifications remain fallible.
 The writer also receives concrete examples of the observed first-name, count,
 background-credit, narration/statement and causal-bridge selection errors. These are
 guidance, not a new semantic gate, and preserve grounded opinions and banter.
@@ -145,3 +145,13 @@ only the posts, not their conflicting fields. That implementation was not merged
 Retry diagnostics now report bounded leaf-field issues from the explicitly declared
 attribution/verdict branch. They retain no candidate prose or raw completion and
 change no acceptance rule. This failed control remains distinct from later results.
+
+The diagnostic follow-up,
+[39299993544](https://github.com/ariesyous/openfeed/actions/runs/39299993544),
+again passed the first suite but failed twice on title reasons required by a
+conditional post-level schema. That conditional transport was retired rather than
+shipping a format that repeatedly exhausted review attempts. The same title
+consistency requirement remains enforced locally, with a specific post/title retry
+instruction. Required units, same-unit IDs, segment bounds and complete claim
+accounting were not relaxed. Diagnostics now preserve full post/unit paths through
+nested schema errors, and each input unit explicitly supplies finalWordIndex.

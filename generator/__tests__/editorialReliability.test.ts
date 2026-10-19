@@ -133,7 +133,7 @@ describe("review without prose copying", () => {
     Object.assign(inconsistent.posts.P1.titleAttribution as object, { relation: "mismatch", titleActor: "A cautious trial" });
     const error = validateReviewTransport(inconsistent, input);
     expect(error.ok).toBe(false);
-    if (!error.ok) expect(error.issues.join(" ")).toMatch(/checks.title.reason.*misattribution/);
+    if (!error.ok) expect(error.issues.join(" ")).toMatch(/P1.title.*misattribution/);
     const split = rangeReviewFixture(approve(input));
     const check = split.posts.P1.checks.body as { segments: unknown[]; finalSegment: { lastWord: number } };
     check.segments = [{ ...check.finalSegment, lastWord: 3 }];

@@ -87,7 +87,6 @@ export function reviewTransportSchema(input: ReviewInput) {
   const posts: Record<string, z.ZodType<BoundPost>> = {};
   for (const post of input.posts) {
     const checks: Record<string, z.ZodType<BoundCheck>> = {};
-    let mismatchTitle: z.ZodType<BoundCheck> | undefined;
     const attached = [...new Set(post.sources.flatMap(source => source.evidence.map(entry => entry.id)))];
     for (const unit of post.units) {
       const own = z.array(z.enum(unit.evidenceIds)).max(6);
@@ -111,39 +110,35 @@ export function reviewTransportSchema(input: ReviewInput) {
       checks[unit.target] = z.union([
         base.extend({ verdict: z.enum(["supported", "opinion"]), evidenceIds: own.min(1), reason: z.null(), claim: z.null(),
           segments: z.array(passingSegment).max(31), finalSegment: passingSegment.extend({ lastWord: z.literal(unit.words.length - 1) }) }),
-        unit.target === "title" ? rejected.extend({ reason: reason.exclude(["misattribution"]) }) : rejected,
+        rejected,
       ]);
-      if (unit.target === "title") mismatchTitle = rejected.extend({ reason: z.literal("misattribution") });
     }
     const attribution = AttributionTransport.extend({ sourceEvidenceId: z.enum(post.units[0].evidenceIds).nullable() });
-    posts[post.key] = z.union([z.object({
-      titleAttribution: attribution.extend({ relation: z.enum(["aligned", "interpretation", "no_attributed_claim"]) }),
+    posts[post.key] = z.object({
+      // Keep cross-field attribution consistency in the unchanged local gate.
+      // Conditional post-level schemas failed the bounded DeepSeek controls.
+      titleAttribution: attribution,
       checks: z.object(checks).strict(),
-    }).strict(), z.object({
-      titleAttribution: attribution.extend({ relation: z.literal("mismatch"), titleActor: z.string().min(1).max(120) }),
-      checks: z.object({ ...checks, title: mismatchTitle! }).strict(),
-    }).strict()]);
+    }).strict();
   }
   return z.object({ posts: z.object(posts).strict() }).strict();
 }
 
 /** Explain the branch the reviewer explicitly chose, without logging its prose or
  * accepting/repairing anything. A generic union error cannot guide a bounded retry. */
-function reviewSchemaIssues(issues: readonly z.core.$ZodIssue[], json: unknown): z.core.$ZodIssue[] {
+function reviewSchemaIssues(issues: readonly z.core.$ZodIssue[], json: unknown, prefix: PropertyKey[] = []): z.core.$ZodIssue[] {
   return issues.flatMap(issue => {
-    if (issue.code !== "invalid_union") return [issue];
+    const path = [...prefix, ...issue.path];
+    if (issue.code !== "invalid_union") return [{ ...issue, path }];
     let value: unknown = json;
-    for (const key of issue.path) value = value && typeof value === "object"
+    for (const key of path) value = value && typeof value === "object"
       ? (value as Record<PropertyKey, unknown>)[key] : undefined;
     const object = value && typeof value === "object" ? value as Record<string, unknown> : undefined;
-    const trace = object?.titleAttribution as { relation?: unknown } | undefined;
     let branch: number | undefined;
-    if (issue.path.length === 2 && issue.path[0] === "posts" && typeof trace?.relation === "string")
-      branch = trace.relation === "mismatch" ? 1 : 0;
-    if (issue.path.length === 4 && issue.path[2] === "checks" && typeof object?.verdict === "string")
+    if (path.length === 4 && path[2] === "checks" && typeof object?.verdict === "string")
       branch = object.verdict === "reject" ? 1 : 0;
     const options = branch === undefined ? issue.errors : [issue.errors[branch]];
-    return options.map(errors => reviewSchemaIssues(errors, json)).sort((a, b) => a.length - b.length)[0];
+    return options.map(errors => reviewSchemaIssues(errors, json, path)).sort((a, b) => a.length - b.length)[0];
   });
 }
 
@@ -217,7 +212,7 @@ export function validateReview(json: unknown, input: ReviewInput): ParseOutcome<
       errors.push("A title interpretation requires a selected factual premise");
     }
     if (trace.relation === "mismatch" && (!trace.titleActor || titleCheck?.verdict !== "reject" || titleCheck.reason !== "misattribution"))
-      errors.push("A title attribution mismatch must reject the title for misattribution");
+      errors.push(`${post.key}.title: A title attribution mismatch must reject the title for misattribution; use verdict reject and reason misattribution without changing the actual actor judgment`);
     if (titleCheck?.reason === "misattribution" && trace.relation !== "mismatch")
       errors.push("Title rejection and attribution trace must agree about misattribution");
     if (post.checks.length !== original.units.length || new Set(post.checks.map(c => c.target)).size !== original.units.length)

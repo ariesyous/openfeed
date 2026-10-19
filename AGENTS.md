@@ -436,7 +436,11 @@ Review transport now uses explicit lastWord partition boundaries and a required
 finalSegment judgment whose final index is fixed by the unit schema. Every original
 word is classified; never repair missing judgments, accept gaps/overlaps or skip a
 suffix. Passing branches cannot contain unsupported_fact. An attribution mismatch
-must use the rejected-title/misattribution branch. Materialized audit spans, original
+must still reject its title for misattribution in the unchanged local gate. A
+conditional post-level schema failed controls 39299176126 and 39299993544 and was
+retired; do not weaken the local consistency rule. Preserve bounded field-specific
+retry feedback with full post/unit paths and explicit finalWordIndex inputs.
+Materialized audit spans, original
 local source/coverage/attribution checks and all shared budgets remain unchanged.
 Writer examples address observed own-unit name/count/background/attribution/causal
 selection mistakes without removing supported opinions, disagreement or humour.
