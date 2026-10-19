@@ -1,0 +1,932 @@
+{
+  "kind": "synthetic_writer_selection_controls",
+  "elapsedMs": 86274,
+  "results": [
+    {
+      "name": "identity_counts_and_discussion_support",
+      "writer": {
+        "attempts": 1,
+        "requestedModel": "deepseek/deepseek-v4.1-flash",
+        "resolvedModel": "deepseek/deepseek-v4.1-flash"
+      },
+      "reviewer": {
+        "attempts": 1,
+        "requestedModel": "deepseek/deepseek-v4.1-flash",
+        "resolvedModel": "deepseek/deepseek-v4.1-flash"
+      },
+      "passed": true,
+      "rejected": [],
+      "decisions": {
+        "posts": [
+          {
+            "key": "P1",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Headline's factual premises — ten ballot questions and a warning about the independence question's framing — are covered by S1E1 and S1E3/S1E6; it attributes no claim to a named actor.",
+                "evidenceIds": [
+                  "S1E1",
+                  "S1E3",
+                  "S1E6"
+                ],
+                "segments": [
+                  {
+                    "text": "Ten Questions, and a Warning About What the Independence Question Actually Asks",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E1",
+                      "S1E3",
+                      "S1E6"
+                    ],
+                    "explanation": "Ten questions confirmed by S1E1; the 'warning' about what the independence question really asks matches S1E3/S1E6, where Vale warns the vote could be confused with a decision to leave. No actor is named in the headline."
+                  }
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Every factual clause tracks selected evidence: ballot size and topics, Vale's review, the two-step referendum wording, his confusion concern and label argument, and the prospective immigration powers.",
+                "evidenceIds": [
+                  "S1E1",
+                  "S1E2",
+                  "S1E4",
+                  "S1E3",
+                  "S1E6",
+                  "S1E7"
+                ],
+                "segments": [
+                  {
+                    "text": "The proposed provincial ballot carries ten questions, five of them about immigration. Political scientist Morgan Vale reviewed how the proposed questions are worded.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E1",
+                      "S1E2"
+                    ],
+                    "explanation": "Ballot has ten questions, five on immigration (S1E1); Vale reviewed the proposed wording (S1E2)."
+                  },
+                  {
+                    "text": "The independence question is built as two steps rather than one: voters would be asked whether the province should hold a later referendum on independence, not whether the province should become independent. Vale's concern is that the two steps collapse into one in a voter's mind — that a vote on holding a future referendum gets read as a decision to leave the country. Calling the first ballot an independence vote, he argues, hides the distance between the two decisions.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E4",
+                      "S1E3",
+                      "S1E6"
+                    ],
+                    "explanation": "Two-step structure — later referendum, not becoming independent — from S1E4; voter confusion from S1E3; the 'independence vote' label obscuring the distinction from S1E6."
+                  },
+                  {
+                    "text": "The immigration questions are prospective in the same way: they concern proposed provincial powers rather than a transfer of authority that has already happened.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E7"
+                    ],
+                    "explanation": "S1E7 states the immigration questions concern proposed provincial powers rather than an enacted transfer, matching the 'prospective' framing."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "Subjective commentary on campaign framing; the premise that the 'independence vote' label hides the distinction is supported by S1E6.",
+                "evidenceIds": [
+                  "S1E6"
+                ],
+                "segments": [
+                  {
+                    "text": "This is not a legal nitpick.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "'Not a legal nitpick' is evaluative framing, not an empirical assertion."
+                  },
+                  {
+                    "text": "A ballot can be immaculate about its own effect and still lose the argument in the room, because what travels through a campaign is the label, not the clause — and 'independence vote' is a much stickier label than 'vote about scheduling a vote'.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S1E6"
+                    ],
+                    "explanation": "Campaign-label metaphor: sticks with the label rather than the clause. Its premise — 'independence vote' obscures the two decisions — comes from S1E6."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "The empirical middle — separate amendment process, no referendum date — matches S1E8 and S1E5; the closing image is a supported metaphor.",
+                "evidenceIds": [
+                  "S1E8",
+                  "S1E5"
+                ],
+                "segments": [
+                  {
+                    "text": "Cleaner wording would not settle the thing voters are actually circling.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Subjective judgment that cleaner wording would not settle the voters' underlying question."
+                  },
+                  {
+                    "text": "The constitutional amendment the reporter describes is a separate process requiring agreement beyond the province, and no date has even been set for the later referendum.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E8",
+                      "S1E5"
+                    ],
+                    "explanation": "S1E8: constitutional amendment is a separate process requiring agreement beyond the province. S1E5: no date set for the later referendum."
+                  },
+                  {
+                    "text": "Sharpen the question all you like; it still points at machinery nobody has scheduled.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S1E5"
+                    ],
+                    "explanation": "Metaphor about unscheduled machinery, grounded in the absent referendum date (S1E5)."
+                  }
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "Ten Questions, and a Warning About What the Independence Question Actually Asks",
+              "titleActor": null,
+              "sourceActor": null,
+              "sourceEvidenceId": null,
+              "relation": "no_attributed_claim"
+            }
+          },
+          {
+            "key": "P2",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Headline attributes the childhood-building to Mira Lane, exactly as S2E1/S2E2 do, and the 'never shows' clause matches the routines not being added to the film.",
+                "evidenceIds": [
+                  "S2E1",
+                  "S2E2"
+                ],
+                "segments": [
+                  {
+                    "text": "Mira Lane Rehearses a Childhood the Film Never Shows",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S2E1",
+                      "S2E2"
+                    ],
+                    "explanation": "S2E1: Lane imagines the seven-year-old before rehearsing the adult role. S2E2: the invented routines are private preparation, not added to the film — so the film never shows them."
+                  }
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "All body clauses, including the interviewer's interpretation, are directly entailed by the selected actor and interview evidence.",
+                "evidenceIds": [
+                  "S2E1",
+                  "S2E2",
+                  "S2E3",
+                  "S2E4",
+                  "S2E5",
+                  "S2E6"
+                ],
+                "segments": [
+                  {
+                    "text": "Actor Mira Lane says that before she rehearses the adult role, she imagines the character at seven years old. She invents ordinary childhood routines for that child as a private preparation exercise — not as scenes meant to reach the film.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S2E1",
+                      "S2E2"
+                    ],
+                    "explanation": "S2E1: imagines the character at seven before rehearsing the adult role. S2E2: ordinary childhood routines invented privately, not scenes for the film."
+                  },
+                  {
+                    "text": "Lane has worked as an actor for three decades. She says the exercise helps her think about habits the adult character might not explain aloud.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S2E3",
+                      "S2E4"
+                    ],
+                    "explanation": "S2E3: three decades as an actor. S2E4: the exercise helps her think about habits the adult character might not explain aloud."
+                  },
+                  {
+                    "text": "She also names a tension in the job: audiences expect familiar performances, while she worries about growing bored with her own work. Her interviewer reads that as the problem of staying recognizable without repeating yourself.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S2E5",
+                      "S2E6"
+                    ],
+                    "explanation": "S2E5 gives audiences expecting familiar performances plus her boredom worry; S2E6 gives the interviewer's reading of that tension as staying recognizable without repeating."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "Interpretive metaphor whose factual premises — private unfilmed exercise, habits not explained aloud — are supported by S2E2 and S2E4.",
+                "evidenceIds": [
+                  "S2E4",
+                  "S2E2"
+                ],
+                "segments": [
+                  {
+                    "text": "The invented childhood is doing real work even though it never gets filmed.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S2E2"
+                    ],
+                    "explanation": "Evaluative claim that the unseen childhood does 'real work'; the never-filmed part is supported by S2E2."
+                  },
+                  {
+                    "text": "It is a way of giving the adult character habits that arrive without a line of dialogue explaining them — the audience sees the residue, not the homework.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S2E4",
+                      "S2E2"
+                    ],
+                    "explanation": "Interpretive metaphor: habits arriving without dialogue (S2E4) and audience seeing the residue of an unfilmed exercise (S2E2)."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "The correction of a causal reading matches S2E7; the remaining hedged possibilities are presented as possibilities, not assertions.",
+                "evidenceIds": [
+                  "S2E3",
+                  "S2E7"
+                ],
+                "segments": [
+                  {
+                    "text": "Worth keeping separate, though: the three decades of work and the private warm-up are two facts standing side by side, not a cause and its effect.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S2E3",
+                      "S2E7"
+                    ],
+                    "explanation": "S2E3 supplies the three decades and the private preparation; S2E7 states the interview does not establish that the exercise caused longevity or prevented boredom."
+                  },
+                  {
+                    "text": "The boredom she describes might have nothing to do with how she prepares, and the preparation might be one of many things she does.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S2E7"
+                    ],
+                    "explanation": "Hedged possibilities ('might') that boredom is unrelated to her preparation and that the exercise is one of many practices."
+                  }
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "Mira Lane Rehearses a Childhood the Film Never Shows",
+              "titleActor": "Mira Lane",
+              "sourceActor": "Mira Lane",
+              "sourceEvidenceId": "S2E1",
+              "relation": "aligned"
+            }
+          }
+        ]
+      },
+      "support": {
+        "index": 1,
+        "requestedModel": "deepseek/deepseek-v4.1-flash",
+        "resolvedModel": "deepseek/deepseek-v4.1-flash",
+        "redactionsApplied": false,
+        "sources": [
+          {
+            "id": "ballot",
+            "url": "https://example.com/writer-control-ballot",
+            "title": "Ten questions, and a warning about wording",
+            "publisher": "Synthetic control ballot",
+            "retrievedAt": "2026-10-19T20:54:04.343Z",
+            "publishedAt": "2026-10-19T20:54:04.343Z",
+            "evergreen": false
+          },
+          {
+            "id": "actor",
+            "url": "https://example.com/writer-control-actor",
+            "title": "An actor builds the character before the script begins",
+            "publisher": "Synthetic control actor",
+            "retrievedAt": "2026-10-19T20:54:04.343Z",
+            "publishedAt": "2026-10-19T20:54:04.343Z",
+            "evergreen": false
+          }
+        ],
+        "evidence": [
+          {
+            "id": "S1E1",
+            "sourceId": "ballot",
+            "quote": "The proposed provincial ballot contains ten questions, five of them about immigration."
+          },
+          {
+            "id": "S1E4",
+            "sourceId": "ballot",
+            "quote": "The ballot would ask whether the province should hold a later referendum on independence; it would not itself authorize independence."
+          },
+          {
+            "id": "S1E2",
+            "sourceId": "ballot",
+            "quote": "Political scientist Morgan Vale reviewed the wording of the proposed questions."
+          },
+          {
+            "id": "S1E3",
+            "sourceId": "ballot",
+            "quote": "Vale said voters could confuse a vote on holding a future referendum with a decision to leave the country."
+          },
+          {
+            "id": "S1E6",
+            "sourceId": "ballot",
+            "quote": "Vale argues that describing the first ballot as an independence vote obscures the distinction between the two decisions."
+          },
+          {
+            "id": "S1E7",
+            "sourceId": "ballot",
+            "quote": "The five immigration questions concern proposed provincial powers rather than an already enacted transfer of authority."
+          },
+          {
+            "id": "S1E8",
+            "sourceId": "ballot",
+            "quote": "The reporter describes a constitutional amendment as a separate process requiring agreement beyond the province; the report does not enumerate its participants."
+          },
+          {
+            "id": "S1E5",
+            "sourceId": "ballot",
+            "quote": "The provincial government has not set a date for that later referendum."
+          },
+          {
+            "id": "S2E1",
+            "sourceId": "actor",
+            "quote": "Actor Mira Lane says she imagines a character at seven years old before rehearsing the adult role."
+          },
+          {
+            "id": "S2E2",
+            "sourceId": "actor",
+            "quote": "She invents ordinary childhood routines for the character as a private preparation exercise, rather than adding those scenes to the film."
+          },
+          {
+            "id": "S2E3",
+            "sourceId": "actor",
+            "quote": "Lane has worked as an actor for three decades."
+          },
+          {
+            "id": "S2E4",
+            "sourceId": "actor",
+            "quote": "She says the exercise helps her think about habits the adult character might not explain aloud."
+          },
+          {
+            "id": "S2E5",
+            "sourceId": "actor",
+            "quote": "Lane also says audiences expect familiar performances while she worries about becoming bored with her own work."
+          },
+          {
+            "id": "S2E6",
+            "sourceId": "actor",
+            "quote": "The interviewer interprets that tension as a problem of staying recognizable without repeating oneself."
+          },
+          {
+            "id": "S2E7",
+            "sourceId": "actor",
+            "quote": "The interview does not establish that the childhood exercise caused her career longevity or prevented boredom."
+          }
+        ],
+        "posts": [
+          {
+            "postId": "post-writer-control-1792443244343-0",
+            "evidenceIds": [
+              "S1E1",
+              "S1E4",
+              "S1E2",
+              "S1E3",
+              "S1E6",
+              "S1E7"
+            ],
+            "discussion": [
+              {
+                "turnIndex": 0,
+                "voice": "Take",
+                "evidenceIds": [
+                  "S1E6"
+                ]
+              },
+              {
+                "turnIndex": 1,
+                "voice": "Pushback",
+                "evidenceIds": [
+                  "S1E8",
+                  "S1E5"
+                ]
+              }
+            ]
+          },
+          {
+            "postId": "post-writer-control-1792443244343-1",
+            "evidenceIds": [
+              "S2E1",
+              "S2E2",
+              "S2E3",
+              "S2E4",
+              "S2E5",
+              "S2E6"
+            ],
+            "discussion": [
+              {
+                "turnIndex": 0,
+                "voice": "Take",
+                "evidenceIds": [
+                  "S2E4",
+                  "S2E2"
+                ]
+              },
+              {
+                "turnIndex": 1,
+                "voice": "Pushback",
+                "evidenceIds": [
+                  "S2E3",
+                  "S2E7"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "candidateDigests": [
+        "c102380d336932c301c713092f023edd9a809adf190993f2800aab3b52aa00d4",
+        "7b298ee185bb98f12754e87943ce17e06b9d5dd1e854d1cf46e14744aa64f0a6"
+      ]
+    },
+    {
+      "name": "reporter_attribution_and_technical_background",
+      "writer": {
+        "attempts": 1,
+        "requestedModel": "deepseek/deepseek-v4.1-flash",
+        "resolvedModel": "deepseek/deepseek-v4.1-flash"
+      },
+      "reviewer": {
+        "attempts": 1,
+        "requestedModel": "deepseek/deepseek-v4.1-flash",
+        "resolvedModel": "deepseek/deepseek-v4.1-flash"
+      },
+      "passed": true,
+      "rejected": [],
+      "decisions": {
+        "posts": [
+          {
+            "key": "P1",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Title attributes the offer to the new consultancy, matching S1E1's attribution to Framehouse of helping studios evaluate AI vendors; S1E2 supports the advisory/testing work.",
+                "evidenceIds": [
+                  "S1E1",
+                  "S1E2"
+                ],
+                "segments": [
+                  {
+                    "text": "A new consultancy offers film studios a second opinion on AI tools",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E1",
+                      "S1E2"
+                    ],
+                    "explanation": "The title's actor is the consultancy itself; S1E1 identifies Framehouse as a new consultancy that will help studios evaluate AI vendors, and S1E2 adds that its work includes testing and advising. 'Second opinion' is a fair label for that."
+                  }
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "Every clause maps to selected evidence with correct attribution: S1E1 formation/role, S1E2 testing and advising, S1E5 founders (attributed to Framehouse), S1E3 investors (credited to The Screen Desk), S1E7 bridge aim (reporter), S1E6 workers' concern.",
+                "evidenceIds": [
+                  "S1E1",
+                  "S1E2",
+                  "S1E5",
+                  "S1E3",
+                  "S1E7",
+                  "S1E6"
+                ],
+                "segments": [
+                  {
+                    "text": "Framehouse, a newly formed consultancy, will help film studios evaluate AI vendors.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E1"
+                    ],
+                    "explanation": "Framehouse as a new consultancy helping studios evaluate AI vendors matches S1E1."
+                  },
+                  {
+                    "text": "The firm says its work will include testing production tools and advising studios about adopting them.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E2"
+                    ],
+                    "explanation": "Testing production tools and advising studios about adopting them is exactly S1E2, attributed to the firm."
+                  },
+                  {
+                    "text": "Its founders previously worked in film production and software procurement, according to Framehouse.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E5"
+                    ],
+                    "explanation": "Founders' film-production and software-procurement backgrounds with the 'according to Framehouse' hedge reproduce S1E5."
+                  },
+                  {
+                    "text": "The Screen Desk lists Northlight Fund and Harbor Ventures among the consultancy's investors.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E3"
+                    ],
+                    "explanation": "Investors Northlight Fund and Harbor Ventures are listed by The Screen Desk per S1E3, and the body keeps that attribution."
+                  },
+                  {
+                    "text": "The reporter describes the venture's ambition as serving as a bridge between studios and tool makers.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E7"
+                    ],
+                    "explanation": "The reporter's bridge framing matches S1E7, including attribution to the reporter."
+                  },
+                  {
+                    "text": "Film workers have voiced concern about AI adoption, the reporter notes.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S1E6"
+                    ],
+                    "explanation": "Film workers' concern about AI adoption, attributed to the reporter, matches S1E6's description of the article."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "Subjective endorsement of the consultancy's pitch; its factual premise (founders' combined film and software backgrounds, tool testing/advisory work) is supported by S1E5 and S1E2.",
+                "evidenceIds": [
+                  "S1E5",
+                  "S1E2"
+                ],
+                "segments": [
+                  {
+                    "text": "A vetting shop staffed by people who have both shipped films and bought software is a plausible pitch: someone to sit through the demos and read the contracts before a studio commits.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S1E5",
+                      "S1E2"
+                    ],
+                    "explanation": "The premise (staff with film-production and software-procurement backgrounds, a shop testing tools and advising studios) rests on S1E5 and S1E2; 'plausible pitch' and 'sit through the demos and read the contracts' are the discussant's own, "
+                  }
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "Conditional, hedged reading of the same pitch; premise supported by S1E2 (advising studios on adopting tools) and S1E6 (film workers' concern). It does not assert bias as fact.",
+                "evidenceIds": [
+                  "S1E6",
+                  "S1E2"
+                ],
+                "segments": [
+                  {
+                    "text": "The same pitch can read two ways. If you are a film worker uneasy about AI adoption, a firm whose stated job is advising studios on adopting these tools may look less like an evaluator than an advocate with a clipboard.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S1E2",
+                      "S1E6"
+                    ],
+                    "explanation": "A conditional worry ('may look less like an evaluator than an advocate'): the firm's stated work includes advising studios on adopting tools (S1E2) and film workers are uneasy (S1E6). The perception claim is hedged opinion, not an assertion"
+                  }
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "A new consultancy offers film studios a second opinion on AI tools",
+              "titleActor": "A new consultancy",
+              "sourceActor": "a new consultancy called Framehouse",
+              "sourceEvidenceId": "S1E1",
+              "relation": "aligned"
+            }
+          },
+          {
+            "key": "P2",
+            "checks": [
+              {
+                "target": "title",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "The title's actor, a multi-turn agent request, matches S2E1's request in the team's multi-turn agent test; skipping prefix recomputation matches S2E2.",
+                "evidenceIds": [
+                  "S2E1",
+                  "S2E2"
+                ],
+                "segments": [
+                  {
+                    "text": "How a multi-turn agent request skips recomputing its prefix",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S2E1",
+                      "S2E2"
+                    ],
+                    "explanation": "S1E1 places the reused cache blocks in the team's multi-turn agent test and S2E2 says reuse avoided recomputing the same prefix tokens, exactly the title's actor and action."
+                  }
+                ]
+              },
+              {
+                "target": "body",
+                "verdict": "supported",
+                "reason": null,
+                "claim": null,
+                "explanation": "All four descriptive sentences and the closing credit/testing sentence map directly to S2E1-S2E6, preserving the accelerator-specific scope of the test.",
+                "evidenceIds": [
+                  "S2E1",
+                  "S2E2",
+                  "S2E3",
+                  "S2E4",
+                  "S2E5",
+                  "S2E6"
+                ],
+                "segments": [
+                  {
+                    "text": "In a team's multi-turn agent test, a request reused attention-cache blocks that the preceding turn had created.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S2E1"
+                    ],
+                    "explanation": "Request in the multi-turn agent test reusing blocks from the preceding turn is S2E1."
+                  },
+                  {
+                    "text": "Reusing those blocks avoided recomputing the same prefix tokens at the start of the next request.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S2E2"
+                    ],
+                    "explanation": "Avoiding recomputation of the same prefix tokens when the next request began matches S2E2."
+                  },
+                  {
+                    "text": "The implementation stores reusable blocks outside the active worker and fetches them when another turn needs them.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S2E3"
+                    ],
+                    "explanation": "Storing reusable blocks outside the active worker and fetching them on demand is S2E3."
+                  },
+                  {
+                    "text": "Operators can configure a minimum prefix length before the reuse path is attempted.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S2E4"
+                    ],
+                    "explanation": "Configurable minimum prefix length before the reuse path is attempted is S2E4."
+                  },
+                  {
+                    "text": "The engineering post credits a contributor to the open-source ServingBench project with adapting the implementation to the team's accelerator, and the authors tested the change on that accelerator.",
+                    "kind": "supported_fact",
+                    "evidenceIds": [
+                      "S2E5",
+                      "S2E6"
+                    ],
+                    "explanation": "S2E5 supports the ServingBench contributor credit for adapting to the team's accelerator; S2E6 supports that the authors tested the change on that accelerator."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.0",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "Commentary on why a minimum prefix exists. Its premise—saving comes from not redoing shared tokens—is supported by S2E2, and the configurable threshold by S2E4; the rationale is a benign inference.",
+                "evidenceIds": [
+                  "S2E4",
+                  "S2E2"
+                ],
+                "segments": [
+                  {
+                    "text": "That minimum prefix length is the honest part of the design.",
+                    "kind": "opinion",
+                    "evidenceIds": [],
+                    "explanation": "Subjective praise of the configurable threshold as the 'honest part of the design'."
+                  },
+                  {
+                    "text": "The saving comes from not redoing shared tokens, so below some threshold there simply isn't enough overlap to be worth the bookkeeping.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S2E2",
+                      "S2E4"
+                    ],
+                    "explanation": "S2E2 supplies the saving mechanism (reusing blocks instead of recomputing shared prefix tokens) and S2E4 supplies the configurable minimum prefix; the threshold rationale is the discussant's inference, not a new finding."
+                  }
+                ]
+              },
+              {
+                "target": "discussion.1",
+                "verdict": "opinion",
+                "reason": null,
+                "claim": null,
+                "explanation": "Hedged caution that the win is hardware-specific; premises supported by S2E6 (one accelerator, no all-platform comparison) and S2E7 (no always-cheaper claim), with the crossover inference presented as conditional.",
+                "evidenceIds": [
+                  "S2E6",
+                  "S2E7"
+                ],
+                "segments": [
+                  {
+                    "text": "Treat the win as hardware-specific. The measurement covers one accelerator, and fetching stored blocks may not always be cheaper than recomputing them, so the crossover point is a local question rather than a general rule.",
+                    "kind": "opinion",
+                    "evidenceIds": [
+                      "S2E6",
+                      "S2E7"
+                    ],
+                    "explanation": "S2E6 supports the single-accelerator measurement and absence of an all-platform comparison; S2E7 supports the hedge that fetching cached blocks is not claimed to be always cheaper. The local-vs-general conclusion is the discussant's caution"
+                  }
+                ]
+              }
+            ],
+            "titleAttribution": {
+              "titleText": "How a multi-turn agent request skips recomputing its prefix",
+              "titleActor": "a multi-turn agent request",
+              "sourceActor": "a request",
+              "sourceEvidenceId": "S2E1",
+              "relation": "aligned"
+            }
+          }
+        ]
+      },
+      "support": {
+        "index": 2,
+        "requestedModel": "deepseek/deepseek-v4.1-flash",
+        "resolvedModel": "deepseek/deepseek-v4.1-flash",
+        "redactionsApplied": false,
+        "sources": [
+          {
+            "id": "studio",
+            "url": "https://example.com/writer-control-studio",
+            "title": "A consultancy between studios and AI vendors",
+            "publisher": "Synthetic control studio",
+            "retrievedAt": "2026-10-19T20:54:04.343Z",
+            "publishedAt": "2026-10-19T20:54:04.343Z",
+            "evergreen": false
+          },
+          {
+            "id": "cache",
+            "url": "https://example.com/writer-control-cache",
+            "title": "A cache reused on the next agent turn",
+            "publisher": "Synthetic control cache",
+            "retrievedAt": "2026-10-19T20:54:04.343Z",
+            "publishedAt": "2026-10-19T20:54:04.343Z",
+            "evergreen": false
+          }
+        ],
+        "evidence": [
+          {
+            "id": "S1E1",
+            "sourceId": "studio",
+            "quote": "The Screen Desk reports that a new consultancy called Framehouse will help film studios evaluate AI vendors."
+          },
+          {
+            "id": "S1E2",
+            "sourceId": "studio",
+            "quote": "The consultancy says its work will include testing production tools and advising studios about adopting them."
+          },
+          {
+            "id": "S1E5",
+            "sourceId": "studio",
+            "quote": "Framehouse says its founders previously worked in film production and software procurement."
+          },
+          {
+            "id": "S1E3",
+            "sourceId": "studio",
+            "quote": "The Screen Desk lists Northlight Fund and Harbor Ventures among Framehouse's investors."
+          },
+          {
+            "id": "S1E7",
+            "sourceId": "studio",
+            "quote": "The reporter says the consultancy aims to serve as a bridge between studios and tool makers."
+          },
+          {
+            "id": "S1E6",
+            "sourceId": "studio",
+            "quote": "The article describes film workers' concern about AI adoption but does not report a finding that Framehouse's evaluations are biased."
+          },
+          {
+            "id": "S2E1",
+            "sourceId": "cache",
+            "quote": "In the team's multi-turn agent test, a request reused attention-cache blocks created during the preceding turn."
+          },
+          {
+            "id": "S2E2",
+            "sourceId": "cache",
+            "quote": "Reusing those blocks avoided recomputing the same prefix tokens when the next request began."
+          },
+          {
+            "id": "S2E3",
+            "sourceId": "cache",
+            "quote": "The implementation stores reusable blocks outside the active worker and fetches them when another turn needs them."
+          },
+          {
+            "id": "S2E4",
+            "sourceId": "cache",
+            "quote": "Operators can configure a minimum prefix length before the reuse path is attempted."
+          },
+          {
+            "id": "S2E5",
+            "sourceId": "cache",
+            "quote": "The engineering post credits a contributor to the open-source ServingBench project for adapting the implementation to the team's accelerator."
+          },
+          {
+            "id": "S2E6",
+            "sourceId": "cache",
+            "quote": "The authors tested the change on that accelerator; the post does not present a comparison covering every hardware platform."
+          },
+          {
+            "id": "S2E7",
+            "sourceId": "cache",
+            "quote": "The post does not claim that fetching cached blocks is always cheaper than recomputing them."
+          }
+        ],
+        "posts": [
+          {
+            "postId": "post-writer-control-1792443244343-0",
+            "evidenceIds": [
+              "S1E1",
+              "S1E2",
+              "S1E5",
+              "S1E3",
+              "S1E7",
+              "S1E6"
+            ],
+            "discussion": [
+              {
+                "turnIndex": 0,
+                "voice": "Take",
+                "evidenceIds": [
+                  "S1E5",
+                  "S1E2"
+                ]
+              },
+              {
+                "turnIndex": 1,
+                "voice": "Pushback",
+                "evidenceIds": [
+                  "S1E6",
+                  "S1E2"
+                ]
+              }
+            ]
+          },
+          {
+            "postId": "post-writer-control-1792443244343-1",
+            "evidenceIds": [
+              "S2E1",
+              "S2E2",
+              "S2E3",
+              "S2E4",
+              "S2E5",
+              "S2E6"
+            ],
+            "discussion": [
+              {
+                "turnIndex": 0,
+                "voice": "Take",
+                "evidenceIds": [
+                  "S2E4",
+                  "S2E2"
+                ]
+              },
+              {
+                "turnIndex": 1,
+                "voice": "Pushback",
+                "evidenceIds": [
+                  "S2E6",
+                  "S2E7"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "candidateDigests": [
+        "15898bcb185a2f60c2c1e18311645be87c456fc6d853a4e01112f6db5eff5aab",
+        "5d23a16f4df0daffe5f163669e41c1eee78bd5202fb106e7ed8f4da1c92dea6e"
+      ]
+    }
+  ]
+}

@@ -466,4 +466,9 @@ The manual writer control has two two-post suites, at most eight calls/shared
 fifteen minutes, no publication/state writes and a 192-KiB bounded parsed artifact
 with fourteen-day retention. Ordinary 20-post/32-call/45-minute limits, models,
 source checks, citation caps and billing limits are unchanged. Local checks passed
-all 373 tests; live selection controls and ordinary yield require separate results.
+all 373 tests. Live writer control 39323123287 produced four reviewer-approved
+candidates in four first-attempt calls/86,274 ms. Preserve its exact dated fixture.
+Manual inspection still questioned an uncited cache-threshold cost explanation
+and an elaboration of founders' work history; do not equate model approval with
+entailment. These synthetic controls remain unpublished and do not establish
+ordinary yield or advance the semantic observation counts.

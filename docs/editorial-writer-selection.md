@@ -66,3 +66,22 @@ transport, local validation and reviewer. Its parsed support/decision artifact i
 bounded to 192 KiB and retained fourteen days; no raw completion, reasoning or full
 reading context is saved. Control results and ordinary-run yield must be recorded
 separately. Neither advances the historical semantic observation cohorts.
+
+Live control [39323123287](https://github.com/ariesyous/openfeed/actions/runs/39323123287)
+on `ac21c7d` produced four locally valid candidates and four reviewer approvals,
+with both writer/reviewer pairs succeeding on their first attempts: four calls,
+86,274 ms, no retry. The original parsed 41,396-byte artifact is frozen in
+`fixtures/editorial-writer-selection-controls-20261019.json`. Linux
+[CI](https://github.com/ariesyous/openfeed/actions/runs/39323119287) passed the same
+373 tests, typecheck, lint and build retaining 2,420 articles.
+
+Inspection confirms explicit support for the named researcher, ballot count,
+actor's career length, reporter's investor list and engineering contribution.
+Approval is still fallible: the cache discussion interprets a configurable
+threshold as a definite bookkeeping break-even point, although its selected
+sentences do not establish that explanation. The consultancy discussion also
+elaborates founders' work history into having shipped films/bought software.
+These are semantic concerns in synthetic, unpublished content; do not describe
+this control as proof that every factual premise is entailed. The unchanged
+reviewer accepted them, and the original decisions are retained. Ordinary-run
+yield remains a separate measurement.
