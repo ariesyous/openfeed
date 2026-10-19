@@ -1,9 +1,21 @@
-/** Synthetic writer fixtures use one snippet per sentence. Keep their historical
- * snippet form for direct validator tests; emit explicit group choices on the wire.
+/** Synthetic fixtures keep historical prose/snippet forms for direct validators.
+ * Mock writer responses explicitly choose the same groups for their passages.
  */
 export function writerFixture(value: unknown): unknown {
   if (Array.isArray(value)) return value.map(writerFixture);
   if (!value || typeof value !== "object") return value;
+  const obj = value as Record<string, unknown>;
+  const groups = obj.evidenceGroupIds ?? (Array.isArray(obj.evidenceIds)
+    ? obj.evidenceIds.map(id => String(id).replace(/^S(\d+)E(\d+)$/, "S$1G$2")) : undefined);
+  if (typeof obj.body === "string" && groups) {
+    const { evidenceIds: _ids, evidenceGroupIds: _groups, title, ...rest } = obj;
+    void _ids; void _groups;
+    const passage = (text: string) => ({ evidenceGroupIds: groups, text });
+    return { ...Object.fromEntries(Object.entries(rest).map(([key, entry]) => [key, writerFixture(entry)])),
+      ...(typeof title === "string" ? { title: passage(title) } : {}),
+      body: obj.body.split("\n\n").map(paragraph => [passage(paragraph)]),
+    };
+  }
   return Object.fromEntries(Object.entries(value).map(([key, entry]) => key === "evidenceIds"
     ? ["evidenceGroupIds", (entry as string[]).map(id => id.replace(/^S(\d+)E(\d+)$/, "S$1G$2"))]
     : [key, writerFixture(entry)]));
