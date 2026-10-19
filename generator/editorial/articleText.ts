@@ -15,6 +15,10 @@ const bodyMarkers: Record<string, (node: Node) => boolean> = {
   "Psyche": node => hasClass(node, "article-content") && hasClass(node, "text-copy"),
   "Variety Film": node => hasClass(node, "a-content") && hasClass(node, "a-content--logo-end"),
   "BBC": node => node.nodeName === "article",
+  "MIT News": node => node.nodeName === "div" && hasClass(node, "news-article--content--body--inner"),
+  "Ars Technica": node => node.nodeName === "article" && hasClass(node, "h-entry"),
+  "Aeon": node => node.nodeName === "div" && attribute(node, "id") === "article-content" && hasClass(node, "article-content"),
+  "JSTOR Daily": node => node.nodeName === "div" && hasClass(node, "entry-content"),
 };
 export const hasArticleAdapter = (publisher: string) => Boolean(bodyMarkers[publisher.startsWith("BBC") ? "BBC" : publisher]);
 
@@ -25,16 +29,19 @@ export function sourceArticleSections(html: string, publisher: string): string[]
   if (/<!DOCTYPE|<!ENTITY/i.test(cleaned)) return [];
   const marker = bodyMarkers[publisher.startsWith("BBC") ? "BBC" : publisher];
   if (!marker) return [];
+  const isIgnored = (node: Node) => ignored(node) ||
+    (publisher === "JSTOR Daily" && hasClass(node, "daily_email_signup")) ||
+    (publisher === "Aeon" && hasClass(node, "pullquote"));
   const roots: Node[] = [];
   const find = (node: Node) => {
-    if (ignored(node)) return;
+    if (isIgnored(node)) return;
     if (marker(node)) { roots.push(node); return; }
     children(node).forEach(find);
   };
   find(parse(cleaned));
   if (roots.length !== 1) return [];
   const text = (node: Node): string => {
-    if (ignored(node)) return "";
+    if (isIgnored(node)) return "";
     if ("value" in node && node.nodeName === "#text") return node.value;
     if (node.nodeName === "br") return " ";
     return children(node).map(text).join("");
@@ -43,7 +50,7 @@ export function sourceArticleSections(html: string, publisher: string): string[]
   const boundary = () => { if (sections.at(-1)!.length) sections.push([]); };
   const walk = (node: Node) => {
     const tag = node.nodeName;
-    if (ignored(node) || tag === "article") { boundary(); return; }
+    if (isIgnored(node) || tag === "article") { boundary(); return; }
     if (/^h[1-6]$/.test(tag) || tag === "section") boundary();
     if (tag === "p") {
       const paragraph = text(node).replace(/\s+/g, " ").trim();
@@ -53,7 +60,31 @@ export function sourceArticleSections(html: string, publisher: string): string[]
     } else children(node).forEach(walk);
     if (tag === "section") boundary();
   };
-  children(roots[0]).forEach(walk);
+  if (publisher === "Aeon") {
+    // The inspected essay text is inside one has-dropcap block. Audio-player
+    // labels alongside it in #article-content are not article prose.
+    const bodies: Node[] = [];
+    const findBody = (node: Node) => {
+      if (isIgnored(node)) return;
+      if (node.nodeName === "div" && hasClass(node, "has-dropcap")) { bodies.push(node); return; }
+      children(node).forEach(findBody);
+    };
+    children(roots[0]).forEach(findBody);
+    if (bodies.length !== 1) return [];
+    children(bodies[0]).forEach(walk);
+  } else if (publisher === "Ars Technica") {
+    // Inspected Ars articles split their body over several post-content blocks.
+    // Only those blocks qualify; author bios/sidebar prose elsewhere do not.
+    // Keep a boundary across the intervening layout/advertising modules.
+    const blocks = (node: Node) => {
+      if (isIgnored(node)) return;
+      if (node.nodeName === "div" && hasClass(node, "post-content")) {
+        boundary(); children(node).forEach(walk); boundary(); return;
+      }
+      children(node).forEach(blocks);
+    };
+    children(roots[0]).forEach(blocks);
+  } else children(roots[0]).forEach(walk);
   const bounded: string[] = [];
   let remaining = 6000;
   for (const section of sections) {

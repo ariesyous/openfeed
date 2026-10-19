@@ -3,11 +3,13 @@ import { callOpenRouter, type JsonSchemaSpec, type OpenRouterMessage } from "./o
 
 export class GenerationFailedError extends Error {
   readonly attempts: number;
+  readonly fatal: boolean;
 
-  constructor(message: string, attempts: number) {
+  constructor(message: string, attempts: number, fatal = false) {
     super(message);
     this.name = "GenerationFailedError";
     this.attempts = attempts;
+    this.fatal = fatal;
   }
 }
 
@@ -125,7 +127,7 @@ export async function generateValidated<T>(
       opts.onAttempt?.({ attempt, outcomeKind: outcome.kind, detail: outcome.reason });
 
       if (outcome.kind === "fatal") {
-        throw new GenerationFailedError(outcome.reason, attempt);
+        throw new GenerationFailedError(outcome.reason, attempt, true);
       }
       if (outcome.kind === "unsupported_structured_output") {
         useStructured = false;

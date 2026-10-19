@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-10-19T04:38:28.614Z",
+  "scope": "Fixed-feed layout/parser checks only, including covered pages for inspection; not generation quality or revived coverage. Full fetched HTML remains outside Git/public paths.",
+  "cases": [
+    {
+      "publisher": "Aeon",
+      "url": "https://aeon.co/essays/the-politics-of-masculinity-at-the-end-of-the-roman-republic",
+      "accepted": true,
+      "sections": 2,
+      "characters": 5163
+    },
+    {
+      "publisher": "Ars Technica",
+      "url": "https://arstechnica.com/science/2026/10/science-says-your-boss-should-talk-less-in-meetings/",
+      "accepted": false,
+      "sections": 0,
+      "characters": 0
+    },
+    {
+      "publisher": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+      "accepted": true,
+      "sections": 2,
+      "characters": 3923
+    },
+    {
+      "publisher": "MIT News",
+      "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
+      "accepted": true,
+      "sections": 1,
+      "characters": 5642
+    },
+    {
+      "publisher": "MIT News",
+      "url": "https://news.mit.edu/2026/fostering-community-amid-kendall-square-innovation-1016",
+      "accepted": true,
+      "sections": 1,
+      "characters": 4248
+    },
+    {
+      "publisher": "Aeon",
+      "url": "https://aeon.co/videos/hohle-fels-cave-illuminates-the-rich-symbolic-world-of-ice-age-humans",
+      "accepted": false,
+      "sections": 0,
+      "characters": 0
+    },
+    {
+      "publisher": "JSTOR Daily",
+      "url": "https://daily.jstor.org/the-women-breaking-the-rules-of-balinese-dance/",
+      "accepted": false,
+      "sections": 0,
+      "characters": 0
+    },
+    {
+      "publisher": "JSTOR Daily",
+      "url": "https://daily.jstor.org/ten-poems-about-sleep-and-dreaming/",
+      "accepted": true,
+      "sections": 2,
+      "characters": 3851
+    }
+  ]
+}

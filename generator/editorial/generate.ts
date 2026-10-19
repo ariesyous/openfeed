@@ -4,6 +4,9 @@ import { FeedItemSchema, type FeedItem } from "../../schemas";
 import { generateValidated, GenerationDeadlineError, GenerationFailedError, type ParseOutcome } from "../retry";
 import { ADVANCE_WORLD_MAX_TOKENS, ADVANCE_WORLD_TIMEOUT_MS } from "../config";
 import { prepareEvidence, type EvidenceEntry } from "./evidence";
+import { prepareWriterEvidence, resolveWriterSelection, writerResponseSchema } from "./selection";
+import { EDITORIAL_MAX_POSTS, EDITORIAL_MAX_ATTEMPTS, EDITORIAL_TIME_BUDGET_MS } from "./limits";
+export { EDITORIAL_MAX_POSTS, EDITORIAL_MAX_ATTEMPTS, EDITORIAL_TIME_BUDGET_MS } from "./limits";
 import { logEditorialAttempt, redactEditorialDiagnostic } from "./diagnostics";
 import { coverageTitle } from "./coverage";
 import { editorialVoiceIssues } from "./voice";
@@ -14,13 +17,10 @@ import { FORMATS, TOPICS } from "./accounts";
 import type { SourcePacket } from "./sources";
 
 // A ceiling, not a quota. Historical validation still accepts twenty-post batches.
-export const EDITORIAL_MAX_POSTS = 8;
 export const EDITORIAL_REQUEST_POSTS = 4;
 // Keep the transport/historical bound at four, but give detailed claim review
 // smaller ordinary batches after repeated live length-limit failures.
 export const EDITORIAL_GENERATION_POSTS = 2;
-export const EDITORIAL_MAX_ATTEMPTS = 8;
-export const EDITORIAL_TIME_BUDGET_MS = 45 * 60_000;
 const publisherKey = (publisher: string) => publisher.startsWith("BBC") ? "BBC" : publisher;
 
 const DiscussionTurn = z.object({
@@ -290,6 +290,8 @@ export async function generateEditorial(
   const accepted: Draft["posts"] = [];
   // Empty selections are deferred only for this run, never marked as published.
   const deferredSources = new Set<string>();
+  const revisionCounts = new Map<string, number>();
+  const revisions = new Map<string, { sourceTitles: string[]; candidate: { title: string; body: string; discussion: { voice: string; body: string }[] }; defects: { target: string; reason: string | null; claim: string | null; explanation: string }[] }>();
   let emptySelections = 0;
   let generatedDrafts = 0;
   let discussionOmissions = 0;
@@ -314,15 +316,20 @@ export async function generateEditorial(
     }
     const available = packets.filter(packet => !deferredSources.has(packet.id) && !used.has(packet.id) && !usedTitles.has(coverageTitle(packet.title)) && (publishers.get(publisherKey(packet.publisher)) ?? 0) < 2);
     const distinctSources = [...new Map(available.map(packet => [coverageTitle(packet.title), packet])).values()];
-    const prepared = prepareEvidence(distinctSources);
-    if (!prepared.sources.length) {
+    const pendingRevisions = distinctSources.filter(packet => revisions.has(packet.id));
+    const prepared = prepareEvidence(pendingRevisions.length ? pendingRevisions : distinctSources);
+    const writerEvidence = prepareWriterEvidence(prepared);
+    const offeredIds = new Set([...writerEvidence.groups.values()].flatMap(ids => ids.map(id => prepared.evidenceById.get(id)!.sourceId)));
+    const preparedIds = new Set([...prepared.evidenceById.values()].map(entry => entry.sourceId));
+    for (const id of preparedIds) if (!offeredIds.has(id)) deferredSources.add(id);
+    if (!writerEvidence.sources.length) {
+      if (preparedIds.size) continue; // Unusable group sizes must not hide later usable sources.
       reason = emptySelections ? "no untried evidence remains after empty selections" : "insufficient unused evidence or publisher diversity";
       break;
     }
-    const offeredIds = new Set([...prepared.evidenceById.values()].map(entry => entry.sourceId));
     console.log(`[editorial] candidates=${distinctSources.length} offered=${offeredIds.size} deferred=${deferredSources.size} accepted=${accepted.length}/${EDITORIAL_MAX_POSTS}`);
     const maxPosts = Math.min(EDITORIAL_GENERATION_POSTS, EDITORIAL_MAX_POSTS - accepted.length);
-    const requestSources = prepared.sources.map(source => ({
+    const requestSources = writerEvidence.sources.map(source => ({
       ...source,
       publisherGroup: publisherKey(source.publisher),
     }));
@@ -332,13 +339,14 @@ export async function generateEditorial(
     let selected: CitedSelection[] | undefined;
     try {
       const result = await generateValidated({
-        ...dependencies, apiKey, deadlineMs, maxAttempts: EDITORIAL_MAX_ATTEMPTS - attempts - 1,
-        jsonSchema: editorialJsonSchema([...prepared.evidenceById.keys()], maxPosts),
+        ...dependencies, apiKey, deadlineMs, maxAttempts: Math.min(3, EDITORIAL_MAX_ATTEMPTS - attempts - 1),
+        jsonSchema: { name: "editorial_edition", schema: z.toJSONSchema(writerResponseSchema(writerEvidence.groups, maxPosts)) },
         systemPrompt: readFileSync(new URL("./prompt.md", import.meta.url), "utf8"),
         initialUserPrompt: JSON.stringify({
           now: now.toISOString(), sources: requestSources, maxPosts,
           recentEditions: [...recentEditions, ...accepted.map(post => post.title)],
           publisherSlotsRemaining,
+          revisionFeedback: [...new Set([...offeredIds].flatMap(id => revisions.has(id) ? [revisions.get(id)!] : []))],
         }),
         parse: (json) => {
           // Count identifiable JSON post objects, even when their parent validation fails.
@@ -346,7 +354,9 @@ export async function generateEditorial(
           const rawPosts = json && typeof json === "object" && "posts" in json ? json.posts : undefined;
           if (Array.isArray(rawPosts)) generatedDrafts += rawPosts.filter(post =>
             post !== null && typeof post === "object" && !Array.isArray(post)).length;
-          const draft = validateCitedDraft(json, prepared.evidenceById, available, now, true);
+          const resolved = resolveWriterSelection(json, writerEvidence.groups, maxPosts);
+          if (!resolved.ok) return resolved;
+          const draft = validateCitedDraft(resolved.value, prepared.evidenceById, available, now, true);
           if (!draft.ok) return draft;
           if (draft.value.posts.length > maxPosts) return { ok: false, issues: [`At most ${maxPosts} posts remain in this edition`] };
           const titles = [...accepted, ...draft.value.posts].map(post => post.title.toLowerCase().replace(/[^a-z0-9]/g, ""));
@@ -399,7 +409,18 @@ export async function generateEditorial(
         const rejected = decision.checks.filter(check => check.verdict === "reject");
         if (!rejected.length) { passed.push(index); continue; }
         reviewRejectedPosts++;
-        for (const id of result.value.posts[index].sourceIds) deferredSources.add(id);
+        const candidate = result.value.posts[index];
+        if (candidate.sourceIds.every(id => !revisionCounts.has(id))) {
+          // One deliberate whole-post revision, followed by the SAME provenance
+          // gates and a fresh independent review. No silent citation/text repair.
+          const feedback = {
+            sourceTitles: candidate.sourceIds.map(id => packets.find(packet => packet.id === id)!.title),
+            candidate: { title: candidate.title, body: candidate.body,
+              discussion: candidate.discussion!.map(({ voice, body }) => ({ voice, body })) },
+            defects: rejected.map(({ target, reason, claim, explanation }) => ({ target, reason, claim, explanation })),
+          };
+          for (const id of candidate.sourceIds) { revisionCounts.set(id, 1); revisions.set(id, feedback); }
+        } else for (const id of candidate.sourceIds) deferredSources.add(id);
         logEditorialAttempt({ attempt: attempts, outcomeKind: "review_withheld",
           detail: `candidate=${index} reasons=${rejected.map(check => `${check.target}:${check.reason}`).join(",")}` }, apiKey, clock() - started);
       }
@@ -433,8 +454,16 @@ export async function generateEditorial(
       if (!(error instanceof GenerationFailedError)) throw error;
       attempts += error.attempts;
       reason = error instanceof GenerationDeadlineError ? "edition time budget exhausted" : "provider or validation budget exhausted";
-      if (!accepted.length) throw error;
-      break;
+      if (error instanceof GenerationDeadlineError || error.fatal) {
+        if (!accepted.length) throw error;
+        break;
+      }
+      // Exhausted local retries withhold these candidates, not the entire run.
+      // Try other sources within the SAME call/deadline budget, even before a pass.
+      const failedIds = selected?.flatMap(post => post.evidenceIds.map(id => prepared.evidenceById.get(id)!.sourceId)) ?? [...offeredIds];
+      for (const id of failedIds) deferredSources.add(id);
+      logEditorialAttempt({ attempt: attempts, outcomeKind: "chunk_withheld", detail: "Local writer/reviewer retries exhausted; trying other unused evidence" }, apiKey, clock() - started);
+      reason = "edition ceiling reached";
     }
   }
   if (accepted.length < EDITORIAL_MAX_POSTS && reason === "edition ceiling reached") reason = "edition attempt budget exhausted";
@@ -443,7 +472,7 @@ export async function generateEditorial(
   console.log(summary);
   if (process.env.GITHUB_STEP_SUMMARY) {
     const safe = (text: string) => redactEditorialDiagnostic(text, apiKey).replace(/[<>`|]/g, " ").slice(0, 200);
-    appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## Editorial generation\n\n${summary}\n\nModels: ${[...models].map(safe).join(", ") || "none"}\n\nTopics: ${items.map(item => item.community).join(", ")}\n\nOutcome: ${items.length ? "validated candidate ready for publication" : "no-op; existing edition retained"}\n`);
+    appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## Editorial generation\n\nReady for publication: **${items.length}/${EDITORIAL_MAX_POSTS} articles**\n\nProvider calls: ${attempts}/${EDITORIAL_MAX_ATTEMPTS}. Reviewer withholdings: ${reviewRejectedPosts} (includes revision decisions). Stop: ${reason}.\n\n${summary}\n\nModels: ${[...models].map(safe).join(", ") || "none"}\n\nTopics: ${items.map(item => item.community).join(", ")}\n\nOutcome: ${items.length ? "validated candidate ready for publication" : "no-op; existing edition retained"}\n`);
   }
   return items;
 }

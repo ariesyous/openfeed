@@ -1,5 +1,6 @@
 // @vitest-environment node
 import { afterEach, describe, expect, it, vi } from "vitest";
+import { writerFixture } from "./helpers/transport";
 import { existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, symlinkSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
@@ -118,7 +119,7 @@ describe("bounded editorial support records", () => {
 
   it("rejects deployment paths and symlinks into them, and removes stale run records", () => {
     const directory = root(); mkdirSync(path.join(directory, "public"));
-    symlinkSync(path.join(directory, "public"), path.join(directory, "linked-public"));
+    symlinkSync(path.join(directory, "public"), path.join(directory, "linked-public"), process.platform === "win32" ? "junction" : "dir");
     for (const target of ["public/data", "dist/audit", "dist-ssr/audit", "linked-public/audit"])
       expect(() => createEditorialAudit({ root: directory, directory: target, runId: "test", now })).toThrow(/outside/);
     const artifacts = path.join(directory, "artifacts"); mkdirSync(artifacts);
@@ -148,7 +149,7 @@ describe("audit through the real bounded generation path", () => {
           { voice: "Pushback", body: "A wider rollout would be a separate judgment.", evidenceIds: [source.evidence[0].id] },
         ],
       }));
-      return new Response(JSON.stringify({ ...(reportModel ? { model: `resolved/model-${calls}` } : {}), choices: [{ message: { content: JSON.stringify({ posts }) }, finish_reason: "stop" }] }));
+      return new Response(JSON.stringify({ ...(reportModel ? { model: `resolved/model-${calls}` } : {}), choices: [{ message: { content: JSON.stringify(writerFixture({ posts })) }, finish_reason: "stop" }] }));
     };
     const items = await generateEditorial("secret-key", packets, now, "test", [], { fetchImpl, sleepImpl: async () => {}, onAcceptedChunk: chunk => chunks.push(chunk) });
     return { chunks, items, calls };
@@ -173,7 +174,7 @@ describe("audit through the real bounded generation path", () => {
   });
   it("keeps only accepted support when later provider attempts exhaust the shared budget", async () => {
     const { chunks, items, calls } = await generate(true);
-    expect(calls).toBe(7); expect(items).toHaveLength(2); expect(chunks).toHaveLength(1);
+    expect(calls).toBe(4); expect(items).toHaveLength(2); expect(chunks).toHaveLength(1);
     expect(chunks[0].posts.map(post => post.postId)).toEqual(items.map(item => item.id));
   });
 });

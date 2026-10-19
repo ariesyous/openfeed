@@ -372,3 +372,33 @@ origin. Keep `SITE_BASE_PATH` consistent across both build stages when overridin
 Preserve all article slugs, batches and publication dates. Earlier `/openfeed/`
 examples and audit links describe the original project URL; GitHub redirects those
 URLs to the corresponding custom-domain paths.
+
+## Higher throughput without weaker checks — October 19, 2026
+Read docs/editorial-throughput.md. The user explicitly requested substantially more
+articles per run. The ceiling is now twenty, with 32 shared provider calls, the same
+45-minute deadline and two-post ordinary chunks. Writers get at most three local
+attempts, reviewers two; always reserve review. No billing/key limit changes.
+Fixed feeds retain up to 24 dated entries each. Intake considers up to 72 context
+candidates/six per publisher group, still fetching
+four concurrently with the existing host, body, timeout and size checks. Publication
+still allows two distinct sources per publisher group. No blurbs/thin-page fallback.
+Four inspected adapters add Ars Technica, MIT News, Aeon essays and JSTOR Daily;
+retain their exact inner-body markers and module/section exclusions. Inspected NASA
+image pages and oversized AWS pages remain skipped; never loosen extraction for them.
+Writer transport selects atomic evidenceGroupIds; code expands explicit choices to
+complete original snippet groups before all existing strict checks. Six/three snippet
+caps remain. Historical snippet validation and persisted identities stay compatible.
+Reviewer transport uses indexed word ranges; code checks complete ordered coverage,
+materializes exact spans, then applies the unchanged live decision/attribution gates.
+No gaps, borrowed support, rewritten prose or unsupported passing units are accepted.
+Whole rejected posts may get one deliberate revision plus a fresh mandatory review.
+Malformed/exhausted local chunks defer sources and allow other candidates under the
+same shared limits. Fatal authentication/billing failures stop calls. Audits retain
+original spans, decisions and digests; 512-KiB bounds and blocking persistence remain.
+Mocked twenty-post integration demonstrates capacity, not live accuracy or yield.
+Live reviewer control 39200596347 passed all four suites (eight wrong candidates
+withheld/eight supported or opinionated counterparts allowed) in five calls. The
+fourth suite retried one missing-premise citation; range accounting did not fail.
+See the new dated control fixture; do not rewrite prior audit outcomes or advance
+ordinary-edition observation counts from these synthetic controls. Linux validation
+passed all 355 tests. Ordinary-run yield still requires separate observation.

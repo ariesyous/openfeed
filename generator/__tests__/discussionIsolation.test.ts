@@ -7,6 +7,7 @@ import { loadWorldState } from "../worldState";
 import { makeEditorialWorld } from "../editorial/state";
 import { editorialAccounts } from "../editorial/accounts";
 import { afterEach, describe, expect, it, vi } from "vitest";
+import { writerFixture } from "./helpers/transport";
 import { generateEditorial, validateCitedDraft } from "../editorial/generate";
 import { prepareEvidence } from "../editorial/evidence";
 import type { EditorialAuditChunk } from "../editorial/audit";
@@ -26,7 +27,7 @@ const packets: SourcePacket[] = Array.from({ length: 6 }, (_, i) => ({
 const turn = { voice: "Context", body: "Testing is a condition for considering release, not a promise of release.", evidenceIds: ["S1E2"] };
 const post = { format: "news", title: "A trial before wider release", body: "Testing precedes the decision about a broader release.",
   topic: null, spoilers: true, evidenceIds: ["S1E1"], discussion: [turn, { ...turn, voice: "Reply", body: "That still leaves the assessment open; testing is not an endorsement." }] };
-const completion = (value: unknown) => new Response(JSON.stringify({ model: "test/model", choices: [{ finish_reason: "stop", message: { content: JSON.stringify(value) } }] }));
+const completion = (value: unknown) => new Response(JSON.stringify({ model: "test/model", choices: [{ finish_reason: "stop", message: { content: JSON.stringify(writerFixture(value)) } }] }));
 function check(candidate: unknown, sources = packets) {
   return validateCitedDraft(candidate, prepareEvidence(sources).evidenceById, sources, now);
 }
@@ -155,10 +156,10 @@ describe("optional discussion isolation", () => {
         })) });
       },
     });
-    expect(calls).toBe(7); // One provider call is reserved for mandatory review.
+    expect(calls).toBe(4); // One accepted call plus three bounded writer retries.
     expect(items).toHaveLength(1);
     expect(audits).toHaveLength(1);
-    expect(logs.mock.calls.flat().join(" ")).toContain("discussionOmissions=0 providerFailures=0 rejectedResponses=6");
+    expect(logs.mock.calls.flat().join(" ")).toContain("discussionOmissions=0 providerFailures=0 rejectedResponses=3");
   });
 
   it.each(["attempts", "deadline"])("preserves complete partial success at the shared %s limit", async limit => {
@@ -174,7 +175,7 @@ describe("optional discussion isolation", () => {
         return new Response("unavailable", { status: 503 });
       },
     });
-    expect(calls).toBe(limit === "deadline" ? 1 : 7);
+    expect(calls).toBe(limit === "deadline" ? 1 : 4);
     expect(items).toHaveLength(1);
     expect(audits).toHaveLength(1);
   });
@@ -187,7 +188,7 @@ describe("optional discussion isolation", () => {
       vi.stubEnv("GITHUB_STEP_SUMMARY", summary);
       const items = await generateEditorial("secret-key", [packets[0]], now, "published", [], {
         fetchImpl: async () => new Response(JSON.stringify({ model: "secret-key", choices: [{ message: {
-          content: JSON.stringify({ posts: [post] }),
+          content: JSON.stringify(writerFixture({ posts: [post] })),
         } }] })),
       });
       const plan = buildPublishPlan({ runId: "published", now, items, accounts: editorialAccounts(now), accountsChanged: true,
@@ -211,13 +212,14 @@ describe("optional discussion isolation", () => {
     const logs = vi.spyOn(console, "log").mockImplementation(() => {});
     const errors = vi.spyOn(console, "error").mockImplementation(() => {});
     let calls = 0;
-    await expect(generateEditorial("secret", packets, now, "broken", [], {
+    const items = await generateEditorial("secret", packets, now, "broken", [], {
       sleepImpl: async () => {}, fetchImpl: async () => {
         calls++;
         return new Response(JSON.stringify({ choices: [{ message: { content: '{"posts":["secret malformed' } }] }));
       },
-    })).rejects.toThrow("all 7 attempts failed");
-    expect(calls).toBe(7); // One provider call is reserved for mandatory review.
+    });
+    expect(items).toEqual([]);
+    expect(calls).toBe(3);
     expect(errors).not.toHaveBeenCalled();
     expect(logs.mock.calls.flat().join(" ")).not.toContain("secret malformed");
   });

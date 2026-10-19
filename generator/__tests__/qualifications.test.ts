@@ -1,5 +1,6 @@
 // @vitest-environment node
 import { afterEach, describe, expect, it, vi } from "vitest";
+import { writerFixture } from "./helpers/transport";
 import { prepareEvidence } from "../editorial/evidence";
 import { discussionRepetitionIssues } from "../editorial/discussion";
 import { editorialJsonSchema, generateEditorial, validateCitedDraft } from "../editorial/generate";
@@ -20,7 +21,7 @@ const discussion = [
   { voice: "Pushback", body: "That is a generous reading. I would want the inconvenience explained before applauding the compromise.", evidenceIds: ["S1E1"] },
 ];
 const post = { format: "news", title: "A limited trial", body: packet.excerpt, topic: null, spoilers: null, evidenceIds: ["S1E1"], discussion };
-const completion = (value: unknown) => new Response(JSON.stringify({ model: "test/model", choices: [{ finish_reason: "stop", message: { content: JSON.stringify(value) } }] }));
+const completion = (value: unknown) => new Response(JSON.stringify({ model: "test/model", choices: [{ finish_reason: "stop", message: { content: JSON.stringify(writerFixture(value)) } }] }));
 afterEach(() => vi.restoreAllMocks());
 
 describe("qualifications alongside selectable evidence", () => {

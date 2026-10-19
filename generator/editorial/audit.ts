@@ -4,6 +4,7 @@ import { z } from "zod";
 import type { EvidenceEntry } from "./evidence";
 import type { SourcePacket } from "./sources";
 import { ReviewResponseSchema } from "./review";
+import { EDITORIAL_MAX_CHUNKS } from "./limits";
 
 export const AUDIT_FILE_NAME = "editorial-audit.json";
 export const REVIEW_FILE_NAME = "editorial-review.json";
@@ -23,7 +24,7 @@ const SourceSchema = z.object({
 const DiscussionOmissionSchema = z.enum(["schema", "unknown_evidence", "support_or_voice"]);
 export type DiscussionOmissionReason = z.infer<typeof DiscussionOmissionSchema>;
 const AuditChunkSchema = z.object({
-  index: z.number().int().min(1).max(8),
+  index: z.number().int().min(1).max(EDITORIAL_MAX_CHUNKS),
   requestedModel: z.string().min(1).max(200), resolvedModel: z.string().min(1).max(200).nullable(),
   redactionsApplied: z.boolean(),
   review: z.object({
@@ -51,13 +52,13 @@ export type EditorialReviewRecord = z.infer<typeof ReviewRecordSchema>;
 export const EditorialReviewAuditSchema = z.object({
   schemaVersion: z.literal(1), runId: id, startedAt: z.string().datetime(),
   // These decisions do not claim a publication, deployment, or infallible fact check.
-  reviews: z.array(ReviewRecordSchema).max(8),
+  reviews: z.array(ReviewRecordSchema).max(EDITORIAL_MAX_CHUNKS),
 }).strict();
 export const EditorialAuditSchema = z.object({
   schemaVersion: z.literal(1), runId: id, startedAt: z.string().datetime(),
   // Neither status claims a Git commit, a push, or a successful Pages deployment.
   status: z.enum(["validated_candidate", "data_written"]),
-  chunks: z.array(AuditChunkSchema).min(1).max(8),
+  chunks: z.array(AuditChunkSchema).min(1).max(EDITORIAL_MAX_CHUNKS),
 }).strict().superRefine((audit, ctx) => {
   const posts = audit.chunks.flatMap(chunk => chunk.posts);
   if (posts.length > 20 || new Set(posts.map(post => post.postId)).size !== posts.length)
@@ -189,7 +190,7 @@ export function createEditorialAudit(options: { directory: string; runId: string
       renameSync(reviewTemporary, reviewFile);
     },
     onAcceptedChunk(chunk: EditorialAuditChunk) {
-      if (candidateRecorded || chunks.length >= 8) throw new Error("Editorial audit no longer accepts chunks");
+      if (candidateRecorded || chunks.length >= EDITORIAL_MAX_CHUNKS) throw new Error("Editorial audit no longer accepts chunks");
       const parsed = AuditChunkSchema.safeParse(chunk);
       if (!parsed.success) throw new Error("Editorial audit chunk is invalid");
       chunks.push(parsed.data);

@@ -1,6 +1,9 @@
 // @vitest-environment node
 import { describe, expect, it, vi } from "vitest";
+import { writerFixture } from "./helpers/transport";
 import { editorialJsonSchema, generateEditorial, validateCitedDraft } from "../editorial/generate";
+import { z } from "zod";
+import { prepareWriterEvidence, writerResponseSchema } from "../editorial/selection";
 import { prepareEvidence } from "../editorial/evidence";
 import { logEditorialAttempt } from "../editorial/diagnostics";
 import type { SourcePacket } from "../editorial/sources";
@@ -25,7 +28,7 @@ const post = {
   evidenceIds: ["S1E1"],
 };
 const completion = (value: unknown) => new Response(JSON.stringify({
-  model: "test/resolved-model", choices: [{finish_reason: "stop", message: {content: JSON.stringify(value)}}],
+  model: "test/resolved-model", choices: [{finish_reason: "stop", message: {content: JSON.stringify(writerFixture(value))}}],
 }));
 
 // Exercise the real editorial -> retry -> OpenRouter path without paid model calls.
@@ -40,7 +43,7 @@ describe("editorial structured generation", () => {
       };
       const items = await generateEditorial("secret", [source], now, "test", [], {fetchImpl});
       expect(requests[0].response_format).toEqual({type: "json_schema", json_schema: {
-        name: "editorial_edition", strict: true, schema: editorialJsonSchema([...prepareEvidence([source]).evidenceById.keys()], 2).schema,
+        name: "editorial_edition", strict: true, schema: z.toJSONSchema(writerResponseSchema(prepareWriterEvidence(prepareEvidence([source])).groups, 2)),
       }});
       const schema = editorialJsonSchema([...prepareEvidence([source]).evidenceById.keys()], 4).schema;
       const walk = (node: unknown) => {
@@ -79,7 +82,7 @@ describe("editorial structured generation", () => {
       expect(requests.map((r) => Boolean(r.response_format))).toEqual([true, false, false]);
       const log = logger.mock.calls.flat().join(" ");
       expect(log).toContain("unsupported_structured_output");
-      expect(log).toContain("posts.0.evidenceIds: unknown evidence ID invented");
+      expect(log).toContain("posts.0.evidenceGroupIds");
       expect(log).toContain("structured output: false");
     } finally { logger.mockRestore(); }
   });
@@ -102,7 +105,7 @@ it("redacts credentials, strips control characters, and bounds diagnostic output
   } finally { logger.mockRestore(); }
 });
 
-describe("eight-post edition ceiling", () => {
+describe("twenty-post edition ceiling", () => {
   const packets = Array.from({ length: 24 }, (_, index) => ({ ...source,
     id: `source-${index}`, url: `https://example.com/${index}`, publisher: `Publisher ${index}`,
     title: `Distinct source ${index}`, excerpt: `Source ${index} reports a carefully monitored trial before any wider release is considered.`,
@@ -112,15 +115,15 @@ describe("eight-post edition ceiling", () => {
     const input = JSON.parse(request.messages[1].content.split("\n\nYour previous")[0]);
     return input.sources.slice(0, input.maxPosts).map((entry: { title: string; evidence: { id: string }[] }) => ({ ...post, title: entry.title, evidenceIds: [entry.evidence[0].id], discussion: post.discussion.map(turn => ({ ...turn, evidenceIds: [entry.evidence[0].id] })) }));
   }
-  it("produces at most eight distinct posts in four two-post chunks with one total attempt budget", async () => {
+  it("produces at most twenty distinct posts in ten two-post chunks with one total attempt budget", async () => {
     const sizes: number[] = [];
     const fetchImpl: typeof fetch = async (_url, init) => {
       const posts = chunk(init); sizes.push(posts.length); return completion({ posts });
     };
     const items = await generateEditorial("secret", packets, now, "ten", [], { fetchImpl });
-    expect(sizes).toEqual([2, 2, 2, 2]);
-    expect(items).toHaveLength(8);
-    expect(new Set(items.flatMap(item => item.editorial!.sources.map(entry => entry.url))).size).toBe(8);
+    expect(sizes).toEqual(Array(10).fill(2));
+    expect(items).toHaveLength(20);
+    expect(new Set(items.flatMap(item => item.editorial!.sources.map(entry => entry.url))).size).toBe(20);
   });
   it("publishes an already validated partial edition when later attempts fail", async () => {
     let calls = 0;
@@ -159,15 +162,15 @@ describe("eight-post edition ceiling", () => {
     expect(calls).toBe(1);
     expect(items).toHaveLength(2);
   });
-  it("reaches the ceiling despite three transient provider failures", async () => {
+  it("reaches the ceiling despite two transient provider failures", async () => {
     let calls = 0;
     const fetchImpl: typeof fetch = async (_url, init) => {
-      if (++calls <= 3) return new Response("unavailable", { status: 503 });
+      if (++calls <= 2) return new Response("unavailable", { status: 503 });
       return completion({ posts: chunk(init) });
     };
     const items = await generateEditorial("secret", packets, now, "retry", [], { fetchImpl, sleepImpl: async () => {} });
-    expect(calls).toBe(7);
-    expect(items).toHaveLength(8);
+    expect(calls).toBe(12);
+    expect(items).toHaveLength(20);
   });
 
   it("continues after an empty second chunk using different evidence and preserves the first chunk", async () => {
@@ -195,7 +198,7 @@ describe("eight-post edition ceiling", () => {
     const next = await generateEditorial("secret", packets.filter(packet => declined.includes(packet.title)), now, "later", [], {
       fetchImpl: async (_url, init) => completion({ posts: chunk(init) }),
     });
-    expect(next).toHaveLength(8);
+    expect(next).toHaveLength(declined.length);
   });
 
   it("stops after exhausting distinct selections without repeating an empty request", async () => {
@@ -228,13 +231,13 @@ describe("eight-post edition ceiling", () => {
       posts: ++calls === 1 ? [] : chunk(init),
     });
     const items = await generateEditorial("secret", many, now, "initial-empty", [], { fetchImpl });
-    expect(calls).toBe(5);
-    expect(items).toHaveLength(8);
-    expect(new Set(items.map(item => item.editorial!.sources[0].url)).size).toBe(8);
+    expect(calls).toBe(11);
+    expect(items).toHaveLength(20);
+    expect(new Set(items.map(item => item.editorial!.sources[0].url)).size).toBe(20);
   });
 
-  it("charges empty selections and provider retries to the same eight-attempt budget", async () => {
-    const many = Array.from({ length: 160 }, (_, index) => ({ ...source,
+  it("charges empty selections and provider retries to the same 32-attempt budget", async () => {
+    const many = Array.from({ length: 800 }, (_, index) => ({ ...source,
       id: `many-${index}`, url: `https://example.com/many-${index}`,
       publisher: `Publisher ${index}`, title: `Source number ${index}`,
     }));
@@ -246,7 +249,7 @@ describe("eight-post edition ceiling", () => {
       return completion({ posts: [] });
     };
     const items = await generateEditorial("secret", many, now, "bounded-empty", [], { fetchImpl, sleepImpl: async () => {} });
-    expect(calls).toBe(7); // One provider call is reserved for mandatory review.
+    expect(calls).toBe(31); // One provider call is reserved for mandatory review.
     expect(items).toHaveLength(2);
   });
 
@@ -299,7 +302,7 @@ describe("run 31 validation regressions", () => {
       if (++calls === 1) return new Response("response_format not supported", {status: 400});
       expect(request.response_format).toBeUndefined();
       if (calls === 2) return completion({posts: [{...post, evidenceIds: ["S1E1','S1E2"]}]});
-      expect(request.messages[1].content).toContain("unknown evidence ID S1E1','S1E2");
+      expect(request.messages[1].content).toContain("evidenceGroupIds");
       return completion({posts: [post]});
     };
     const items = await generateEditorial("secret", [source], now, "ids", [], {fetchImpl, sleepImpl: async () => {}});

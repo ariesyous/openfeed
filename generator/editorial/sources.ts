@@ -68,6 +68,7 @@ export interface SourcePacket extends FeedSource {
   sections?: string[];
 }
 const MAX_BYTES = 1_000_000;
+export const SOURCE_FEED_ARTICLE_LIMIT = 24;
 
 function decodeMarkup(input: string): string {
   return input
@@ -183,7 +184,7 @@ export function parseSourceFeed(
   }
   return packets
     .sort((a, b) => b.publishedAt!.localeCompare(a.publishedAt!))
-    .slice(0, 8);
+    .slice(0, SOURCE_FEED_ARTICLE_LIMIT);
 }
 export async function readBounded(response: Response): Promise<string> {
   if (!response.ok || !response.body)

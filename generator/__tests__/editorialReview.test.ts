@@ -3,6 +3,7 @@ import { mkdtempSync, readFileSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { afterEach, describe, expect, it, vi } from "vitest";
+import { writerFixture, reviewFixture } from "./helpers/transport";
 import { generateEditorial } from "../editorial/generate";
 import { buildReviewInput, validateReview, reviewDigest, ReviewResponseSchema, type ReviewInput, type ReviewResponse } from "../editorial/review";
 import { prepareEvidence } from "../editorial/evidence";
@@ -24,7 +25,7 @@ const makePost = (title: string, evidenceId: string) => ({ title, format: "news"
   ],
 });
 const post = makePost("A misleading expectation", "S1E1");
-const completion = (value: unknown) => new Response(JSON.stringify({ model: "test/resolved", choices: [{ finish_reason: "stop", message: { content: JSON.stringify(value) } }] }));
+const completion = (value: unknown) => new Response(JSON.stringify({ model: "test/resolved", choices: [{ finish_reason: "stop", message: { content: JSON.stringify((value as ReviewResponse)?.posts?.[0] && "checks" in (value as ReviewResponse).posts[0] ? reviewFixture(value as ReviewResponse) : writerFixture(value)) } }] }));
 const isReview = (request: { messages: { content: string }[] }) => request.messages[0].content.startsWith("You are the publication editor");
 function pass(input: ReviewInput): ReviewResponse {
   return { posts: input.posts.map(p => ({ key: p.key,
@@ -194,10 +195,11 @@ describe("mandatory editorial gate", () => {
       fetchImpl: async (_url, init) => {
         calls++;
         const request = JSON.parse(String(init?.body));
+        if (!isReview(request) && calls > 2) return completion({ posts: [] });
         return completion(isReview(request) ? reject(JSON.parse(request.messages[1].content), category) : { posts: [first, second] });
       },
     });
-    expect(calls).toBe(2);
+    expect(calls).toBe(3);
     expect(items).toHaveLength(1);
     expect(items[0]).toMatchObject({ title: second.title, editorial: { spoilers: true,
       discussion: second.discussion.map(({ voice, body }) => ({ voice, body })) } });
@@ -222,13 +224,13 @@ describe("mandatory editorial gate", () => {
     });
     expect(items).toEqual([]);
     const saved = EditorialReviewAuditSchema.parse(JSON.parse(readFileSync(path.join(root, "artifacts", REVIEW_FILE_NAME), "utf8")));
-    expect(saved.reviews).toHaveLength(1);
+    expect(saved.reviews).toHaveLength(2);
     expect(JSON.stringify(saved)).not.toMatch(/readingContext|apiKey|messages|completion|secret|hidden-token/);
     expect(JSON.stringify(saved)).toContain("[REDACTED]");
   });
   it.each(["malformed", "provider"])("never releases an unreviewed candidate after %s review failure", async failure => {
     let calls = 0;
-    await expect(generateEditorial("secret", packets.slice(0, 1), now, "failure", [], {
+    const items = await generateEditorial("secret", packets.slice(0, 1), now, "failure", [], {
       sleepImpl: async () => {},
       fetchImpl: async (_url, init) => {
         calls++;
@@ -236,7 +238,8 @@ describe("mandatory editorial gate", () => {
         if (!isReview(request)) return completion({ posts: [post] });
         return failure === "provider" ? new Response("unavailable", { status: 503 }) : completion({ posts: [] });
       },
-    })).rejects.toThrow("all 2 attempts failed");
+    });
+    expect(items).toEqual([]);
     expect(calls).toBe(3);
   });
   it("applies identical review validation after structured output fallback", async () => {
@@ -253,17 +256,17 @@ describe("mandatory editorial gate", () => {
     });
     expect(reviewCalls).toBe(2); expect(items).toHaveLength(1);
   });
-  it("reserves the last of eight total provider attempts for review", async () => {
+  it("reserves the last of 32 total provider attempts for review", async () => {
     let calls = 0;
-    const items = await generateEditorial("secret", packets.slice(0, 1), now, "budget", [], {
+    const items = await generateEditorial("secret", Array.from({ length: 100 }, (_, i) => ({ ...packets[0], id: `budget-${i}`, title: `Budget source ${i}`, publisher: `Publisher ${i}` })), now, "budget", [], {
       sleepImpl: async () => {}, fetchImpl: async (_url, init) => {
         calls++;
-        if (calls <= 6) return new Response("unavailable", { status: 503 });
+        if (calls <= 30) return new Response("unavailable", { status: 503 });
         const request = JSON.parse(String(init?.body));
         return completion(isReview(request) ? pass(JSON.parse(request.messages[1].content)) : { posts: [post] });
       },
     });
-    expect(calls).toBe(8); expect(items).toHaveLength(1);
+    expect(calls).toBe(32); expect(items).toHaveLength(1);
   });
   it("does not publish a candidate when generation uses the remaining deadline", async () => {
     let elapsed = 0, calls = 0;
@@ -283,7 +286,7 @@ describe("mandatory editorial gate", () => {
         return completion({ posts: input.sources.slice(0, input.maxPosts).map((s: { title: string; evidence: { id: string }[] }) => makePost(s.title, s.evidence[0].id)) });
       },
     });
-    expect(items).toHaveLength(2); expect(calls).toBe(5);
+    expect(items).toHaveLength(2); expect(calls).toBe(8);
   });
   it("stops before publication when the review audit cannot be persisted", async () => {
     await expect(generateEditorial("secret", packets.slice(0, 1), now, "audit-failure", [], {

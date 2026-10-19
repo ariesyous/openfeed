@@ -2,7 +2,8 @@ import { hasArticleAdapter, sourceArticleSections } from "./articleText";
 import { coverageTitle } from "./coverage";
 import { readBounded, SOURCE_FEEDS, type SourcePacket } from "./sources";
 
-export const MAX_ARTICLE_FETCHES = 24;
+export const MAX_ARTICLE_FETCHES = 72;
+export const MAX_PUBLISHER_CANDIDATES = 6;
 export const ARTICLE_FETCH_CONCURRENCY = 4;
 const publisherKey = (name: string) => name.startsWith("BBC") ? "BBC" : name;
 
@@ -23,7 +24,7 @@ export function contextCandidates(packets: SourcePacket[]): SourcePacket[] {
       if (!packet) continue;
       present = true;
       const key = publisherKey(packet.publisher), title = coverageTitle(packet.title);
-      if (titles.has(title) || (publishers.get(key) ?? 0) >= 3) continue;
+      if (titles.has(title) || (publishers.get(key) ?? 0) >= MAX_PUBLISHER_CANDIDATES) continue;
       selected.push(packet); titles.add(title); publishers.set(key, (publishers.get(key) ?? 0) + 1);
       if (selected.length === MAX_ARTICLE_FETCHES) break;
     }
