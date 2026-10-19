@@ -61,12 +61,42 @@ describe("permanent articles", () => {
         expect(JSON.parse(readFileSync(path.join(root, "dist/p", slug, "article.json"), "utf8"))).toEqual(expected);
         if (expected === legacy) {
           expect(html).toContain('<details><summary>Show spoilers</summary><p class="post-card-body">PRIVATE SPOILER BODY');
+          expect(html).toContain('<div data-nosnippet><details>');
           expect(html).toContain('property="og:description" content="A spoiler-protected CoBanter article. Open to read."');
         }
       }
       const oldHtml = readFileSync(path.join(root, "dist/p", legacy.slug, "index.html"), "utf8");
       const newHtml = readFileSync(path.join(root, "dist/p", articleRouteSlug(legacy), "index.html"), "utf8");
       expect(oldHtml.match(/property="og:image" content="([^"]+)"/)?.[1]).toBe(newHtml.match(/property="og:image" content="([^"]+)"/)?.[1]);
+      const sitemap = readFileSync(path.join(root, "dist/sitemap.xml"), "utf8");
+      expect(sitemap).toContain(`<loc>https://cobanter.com${articlePath(legacy, base)}</loc>`);
+      expect(sitemap).toContain(`<loc>https://cobanter.com${articlePath(fresh, base)}</loc>`);
+      expect(sitemap).not.toContain(`/p/${legacy.slug}/`);
+      expect(sitemap).not.toContain("article.json");
+      expect(sitemap).not.toContain("?view=cards");
+      expect(sitemap).not.toContain("<lastmod>");
+      const robots = readFileSync(path.join(root, "dist/robots.txt"), "utf8");
+      expect(robots).toContain("User-agent: *\nAllow: /\n");
+      expect(robots).toContain(`Sitemap: https://cobanter.com${base}sitemap.xml`);
+      const llms = readFileSync(path.join(root, "dist/llms.txt"), "utf8");
+      expect(llms).toContain(`# CoBanter\n`);
+      expect(llms).toContain(`https://cobanter.com${base}archive/`);
+      expect(llms).not.toContain("PRIVATE SPOILER BODY");
+      const home = readFileSync(path.join(root, "dist/index.html"), "utf8");
+      expect(home).toContain(`rel="canonical" href="https://cobanter.com${base}"`);
+      expect(home).toContain(`href="${articlePath(legacy, base)}"`);
+      expect(home).toContain(`href="${topicPath(legacy.community, base)}"`);
+      expect(home).toContain('<details><summary>Show spoilers</summary><p class="post-card-body">PRIVATE SPOILER BODY');
+      const schema = JSON.parse(oldHtml.match(/<script id="page-structured-data" type="application\/ld\+json">([\s\S]*?)<\/script>/)![1]);
+      expect(schema["@type"]).toBe("Article");
+      expect(schema.url).toBe(`https://cobanter.com${articlePath(legacy, base)}`);
+      expect(schema.author).toEqual({ "@type": "Organization", name: "CoBanter", url: `https://cobanter.com${base}` });
+      expect(schema.citation).toEqual(legacy.editorial.sources.map(source => source.url));
+      expect(schema.datePublished).toBe(legacy.createdAt);
+      expect(JSON.stringify(schema)).not.toContain("PRIVATE SPOILER BODY");
+      expect(oldHtml.match(/rel="canonical"/g)).toHaveLength(1);
+      expect(oldHtml.match(/name="description"/g)).toHaveLength(1);
+      expect(readFileSync(path.join(root, "dist/404.html"), "utf8")).toContain('name="robots" content="noindex, follow"');
       // A future stored address must never overwrite another article's short alias.
       const collision = { ...fresh, slug: articleRouteSlug(legacy) };
       writeFileSync(batchFile, JSON.stringify({ ...fixture, items: [legacy, collision] }));
@@ -133,7 +163,7 @@ describe("permanent topic pages", () => {
     try {
       mkdirSync(path.join(root, "public/data/batches"), { recursive: true });
       mkdirSync(path.join(root, "dist"));
-      writeFileSync(path.join(root, "dist/index.html"), '<html><head><title>CoBanter</title><script src="/openfeed/assets/app.js"></script></head><body><div id="root"></div></body></html>');
+      writeFileSync(path.join(root, "dist/index.html"), '<html><head><title>CoBanter</title><script type="module" src="/openfeed/assets/app.js"></script></head><body><div id="root"></div></body></html>');
       writeFileSync(path.join(root, "public/data/manifest.json"), JSON.stringify({ ...manifest, batches: refs }));
       refs.forEach((ref, index) => writeFileSync(path.join(root, "public/data", ref.file), JSON.stringify({ ...fixture, batchId: ref.id, items: [{ ...item, id: `topic-post-${index}`, slug: undefined, community: index === 0 ? "movies" : "ai_agents", title: `Title ${index}`, body: "SPOILER BODY", editorial: { ...item.editorial!, spoilers: true } }] })));
       buildArchive(root);
@@ -155,6 +185,17 @@ describe("permanent topic pages", () => {
       const empty = ManifestSchema.parse(JSON.parse(readFileSync(path.join(root, "dist/data/topics/canada/manifest.json"), "utf8")));
       expect(empty.batches).toEqual([]);
       expect(readFileSync(path.join(root, "dist/topics/canada/index.html"), "utf8")).toContain("No posts here yet.");
+      const firstArchive = readFileSync(path.join(root, "dist/archive/index.html"), "utf8");
+      const secondArchive = readFileSync(path.join(root, "dist/archive/page-2/index.html"), "utf8");
+      expect(firstArchive).toContain('rel="next" href="/openfeed/archive/page-2/"');
+      expect(secondArchive).toContain('rel="prev" href="/openfeed/archive/"');
+      expect(firstArchive + secondArchive).not.toContain('src="/openfeed/assets/app.js"');
+      expect(firstArchive + secondArchive).not.toContain("SPOILER BODY");
+      const allArticleLinks = (firstArchive + secondArchive).match(/href="\/openfeed\/p\//g);
+      expect(allArticleLinks).toHaveLength(refs.length);
+      const sitemap = readFileSync(path.join(root, "dist/sitemap.xml"), "utf8");
+      expect(sitemap.match(/<loc>https:\/\/ariesyous.github.io\/openfeed\/p\//g)).toHaveLength(refs.length);
+      expect(sitemap).toContain("https://ariesyous.github.io/openfeed/archive/page-2/");
     } finally {
       vi.unstubAllEnvs();
       rmSync(root, { recursive: true, force: true });

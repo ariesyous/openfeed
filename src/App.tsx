@@ -4,8 +4,10 @@ import { FeedList } from "./components/FeedList";
 import { PostCard } from "./components/PostCard";
 import { TransparencyBanner } from "./components/TransparencyBanner";
 import { FeedItemSchema, type FeedItem } from "../schemas";
-import { topicFromPath, topicLabel, topicPath } from "../shared/topics";
+import { topicFromPath, topicPath } from "../shared/topics";
 import { articlePath, matchesArticleSlug } from "../shared/articles";
+import { articleMetadata, collectionMetadata } from "../shared/seo";
+import { updateMetadata } from "./metadata";
 
 const base = import.meta.env.BASE_URL;
 const cardsRoute = () => new URLSearchParams(window.location.search).get("view") === "cards";
@@ -24,6 +26,7 @@ function routeSlug(): string | null {
 }
 
 export function App() {
+  const site = useRef({ base, origin: new URL(document.head.querySelector<HTMLLinkElement>('link[rel="canonical"]')?.href ?? window.location.origin).origin });
   const [viewMode, setViewMode] = useState<"feed" | "cards">(() => cardsRoute() ? "cards" : "feed");
   const [cardsMounted, setCardsMounted] = useState(cardsRoute);
   const feedScroll = useRef(0);
@@ -80,10 +83,19 @@ export function App() {
       if (window.location.pathname !== canonicalPath) {
         window.history.replaceState(window.history.state, "", canonicalPath + window.location.search + window.location.hash);
       }
-      document.title = `${article.title ?? "Article"} · CoBanter`;
+      const url = new URL(canonicalPath, site.current.origin).href;
+      const imageUrl = document.head.querySelector<HTMLMetaElement>('meta[property="og:image"]')?.content;
+      const samePage = document.head.querySelector<HTMLLinkElement>('link[rel="canonical"]')?.href === url;
+      const image = samePage && imageUrl ? { url: imageUrl, alt: document.head.querySelector<HTMLMetaElement>('meta[property="og:image:alt"]')?.content ?? article.title ?? "CoBanter" } : undefined;
+      updateMetadata(articleMetadata(article, site.current, image));
       requestAnimationFrame(() => { document.getElementById("article-view")?.focus(); window.scrollTo({ top: 0 }); });
-    } else if (!articleRoute) document.title = viewMode === "cards" ? "Cards · CoBanter" : community === null ? "Topic not found · CoBanter" : community ? `${topicLabel(community)} · CoBanter` : "CoBanter";
-  }, [articleRoute, article, community, viewMode]);
+    } else if (articleRoute && routeError) updateMetadata({ title: "Article unavailable · CoBanter", description: routeError, noindex: true });
+    else if (!articleRoute) {
+      updateMetadata(community === null && viewMode !== "cards"
+        ? { title: "Topic not found · CoBanter", description: "This topic doesn't exist.", noindex: true }
+        : collectionMetadata(site.current, viewMode === "cards" ? "" : community ?? ""));
+    }
+  }, [articleRoute, article, community, viewMode, routeError]);
   const openArticle = (item: FeedItem) => {
     window.history.replaceState({ ...window.history.state, feedScroll: window.scrollY }, "");
     window.history.pushState({ fromFeed: true, feedPath: window.location.pathname + window.location.search }, "", articlePath(item, base));
@@ -137,6 +149,7 @@ export function App() {
         {routeError && <button onClick={() => window.dispatchEvent(new PopStateEvent("popstate"))}>Try again</button>}
       </section>}
     </main>
+    {!cardsActive && <footer className="site-links"><a href={`${base}archive/`}>Article archive</a></footer>}
   </div>;
 }
 export default App;

@@ -103,6 +103,7 @@ export function PostCard({
           event.preventDefault(); onOpenArticle(item);
         }
       }}>{item.title}</a> : item.title}</h3>)}
+      <div data-nosnippet={item.editorial?.spoilers ? "" : undefined}>
       {hiddenSpoilers ? (
         <button className="post-card-toggle" onClick={() => setShowSpoilers(true)}>Show spoilers</button>
       ) : <p className="post-card-body">{item.body}</p>}
@@ -120,6 +121,7 @@ export function PostCard({
           </button>
         </section>
       )}
+      </div>
 
       {item.meta.kind === "link_preview" && (
         <a

@@ -5,10 +5,12 @@ import { BatchFileSchema, ManifestSchema, type BatchRef, type FeedItem, type Man
 import { TOPICS, topicLabel, topicPath, topicSlug } from "../shared/topics";
 import { articlePath, articleRouteSlug, articleSlug } from "../shared/articles";
 import { publicationDate } from "../shared/publicationDate";
-import { PREVIEW_HEIGHT, PREVIEW_WIDTH, writeArticlePreview } from "./articlePreview";
+import { absoluteUrl, articleMetadata, collectionMetadata, escapeHtml as escape, inlineJson, renderMetadata, SITE_ORIGIN, type PageMetadata } from "../shared/seo";
+import { writeArticlePreview } from "./articlePreview";
+import { writeDiscovery } from "./discovery";
 
 export const INDEX_PAGE_SIZE = 50;
-const escape = (value: string) => value.replace(/[&<>"']/g, (c) => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"})[c]!);
+export const ARTICLE_ARCHIVE_PAGE_SIZE = 50;
 
 /** Fill pages from oldest to newest so adding an edition does not shift archive pages. */
 export function paginateManifest(manifest: Manifest, size = INDEX_PAGE_SIZE): Map<string, Manifest> {
@@ -33,13 +35,18 @@ function dateMarkup(iso: string | undefined, added = false): string {
   return `<time datetime="${escape(date.dateTime)}">${added ? "Added" : "Published"} ${escape(date.label)}</time>`;
 }
 
-export function articleMarkup(item: FeedItem, base: string): string {
+function readingMarkup(item: FeedItem): string {
   const editorial = item.editorial!;
   const body = `<p class="post-card-body">${escape(item.body)}</p>`;
   const discussion = (editorial.discussion ?? []).map(turn => `<div class="editorial-discussion-turn"><strong>${escape(turn.voice)}</strong><p>${escape(turn.body)}</p></div>`).join("");
   const reading = body + (discussion ? `<section class="editorial-discussion" aria-label="AI-generated discussion"><h2>AI-generated discussion</h2>${discussion}</section>` : "");
+  return editorial.spoilers ? `<div data-nosnippet><details><summary>Show spoilers</summary>${reading}</details></div>` : reading;
+}
+
+export function articleMarkup(item: FeedItem, base: string): string {
+  const editorial = item.editorial!;
   const sources = editorial.sources.map(source => `<li><a href="${escape(source.url)}" rel="noreferrer">${escape(source.publisher)} — ${escape(source.title)}</a><p>${dateMarkup(source.publishedAt)}</p></li>`).join("");
-  return `<div class="app"><header class="app-header"><a class="app-title" href="${base}">CoBanter</a></header><main class="app-main"><article class="post-card"><p>${escape(editorial.format)} · AI-edited · ${dateMarkup(item.createdAt, true)}</p><a class="post-card-community" href="${escape(topicPath(item.community, base))}">${escape(topicLabel(item.community))}</a><h1>${escape(item.title ?? "Article")}</h1>${editorial.spoilers ? `<details><summary>Show spoilers</summary>${reading}</details>` : reading}<section class="source-panel"><h2>Based on publisher excerpts</h2><ul>${sources}</ul></section></article><a href="${base}">← Back to feed</a></main></div>`;
+  return `<div class="app"><header class="app-header"><a class="app-title" href="${base}">CoBanter</a></header><main class="app-main"><article class="post-card"><p>${escape(editorial.format)} · AI-edited · ${dateMarkup(item.createdAt, true)}</p><a class="post-card-community" href="${escape(topicPath(item.community, base))}">${escape(topicLabel(item.community))}</a><h1>${escape(item.title ?? "Article")}</h1>${readingMarkup(item)}<section class="source-panel"><h2>Based on publisher excerpts</h2><ul>${sources}</ul></section></article><a href="${base}">← Back to feed</a> · <a href="${base}archive/">Article archive</a></main></div>`;
 }
 
 export function buildArchive(root = process.cwd()) {
@@ -48,9 +55,19 @@ export function buildArchive(root = process.cwd()) {
   const manifest = ManifestSchema.parse(JSON.parse(readFileSync(path.join(data, "manifest.json"), "utf8")));
   const shell = readFileSync(path.join(dist, "index.html"), "utf8");
   const base = process.env.SITE_BASE_PATH ?? "/";
-  const origin = process.env.SITE_ORIGIN ?? "https://cobanter.com";
+  const origin = process.env.SITE_ORIGIN ?? SITE_ORIGIN;
   if (!/^\/(?:[a-zA-Z0-9_-]+\/)*$/.test(base)) throw new Error("Invalid site base path");
-  if (new URL(origin).protocol !== "https:") throw new Error("SITE_ORIGIN must use HTTPS");
+  const parsedOrigin = new URL(origin);
+  if (parsedOrigin.protocol !== "https:" || parsedOrigin.username || parsedOrigin.password || parsedOrigin.pathname !== "/" || parsedOrigin.search || parsedOrigin.hash) throw new Error("SITE_ORIGIN must be an HTTPS origin");
+  const site = { base, origin: parsedOrigin.origin };
+  const buildPage = (page: PageMetadata, markup: string, extra = "", standalone = false) => {
+    const template = standalone ? shell.replace(/<script\b[^>]*\btype="module"[^>]*>[\s\S]*?<\/script>/g, "") : shell;
+    return template.replace(/<title>[\s\S]*?<\/title>/, renderMetadata(page)
+      + `<link rel="sitemap" type="application/xml" href="${escape(absoluteUrl(`${base}sitemap.xml`, site))}"><link rel="describedby" type="text/plain" href="${escape(absoluteUrl(`${base}llms.txt`, site))}">`)
+      .replace('<div id="root"></div>', `<div id="root">${markup}</div>${extra}`);
+  };
+  const urls = [absoluteUrl(base, site)];
+  const articles: FeedItem[] = [];
   const seen = new Set<string>();
   let count = 0;
   const topicBatches = new Map<string, BatchRef[]>(TOPICS.map(topic => [topic, []]));
@@ -66,21 +83,16 @@ export function buildArchive(root = process.cwd()) {
     }
     for (const item of batch.items) {
       if (!item.editorial) continue;
+      articles.push(item);
       const slug = articleSlug(item);
       const routes = new Set([articleRouteSlug(item), slug]);
       for (const route of routes) {
         if (seen.has(route)) throw new Error(`Duplicate article slug: ${route}`);
         seen.add(route);
       }
-      const url = new URL(articlePath(item, base), origin).href;
-      const title = escape(item.title ?? "CoBanter article");
-      const description = escape(item.editorial.spoilers ? "A spoiler-protected CoBanter article. Open to read." : item.body.replace(/\s+/g, " ").slice(0, 180));
+      urls.push(absoluteUrl(articlePath(item, base), site));
       const preview = writeArticlePreview(item, dist, base, origin);
-      const imageMetadata = `<meta property="og:image" content="${escape(preview.url)}"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="${PREVIEW_WIDTH}"><meta property="og:image:height" content="${PREVIEW_HEIGHT}"><meta property="og:image:alt" content="${escape(preview.alt)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="${escape(preview.url)}"><meta name="twitter:image:alt" content="${escape(preview.alt)}">`;
-      const metadata = `<title>${title} · CoBanter</title><link rel="canonical" href="${escape(url)}"><meta name="description" content="${description}"><meta property="og:site_name" content="CoBanter"><meta property="og:type" content="article"><meta property="og:title" content="${title}"><meta property="og:description" content="${description}"><meta property="og:url" content="${escape(url)}">${imageMetadata}`;
-      const json = JSON.stringify({ ...item, slug }).replace(/</g, "\\u003c");
-      const html = shell.replace(/<title>[\s\S]*?<\/title>/, metadata)
-        .replace('<div id="root"></div>', `<div id="root">${articleMarkup(item, base)}</div><script id="article-data" type="application/json">${json}</script>`);
+      const html = buildPage(articleMetadata(item, site, preview), articleMarkup(item, base), `<script id="article-data" type="application/json">${inlineJson({ ...item, slug })}</script>`);
       // Retain old addresses as complete pages with the short canonical/sharing URL.
       for (const route of routes) {
         const directory = path.join(dist, "p", route);
@@ -98,12 +110,12 @@ export function buildArchive(root = process.cwd()) {
     const directory = path.join(dist, "topics", slug);
     mkdirSync(directory, { recursive: true });
     const url = new URL(topicPath(topic, base), origin).href;
+    urls.push(url);
     const title = escape(topicLabel(topic));
     const description = escape(`News, stories, and ideas about ${topicLabel(topic)} on CoBanter.`);
-    const metadata = `<title>${title} · CoBanter</title><link rel="canonical" href="${escape(url)}"><meta name="description" content="${description}"><meta property="og:type" content="website"><meta property="og:title" content="${title} · CoBanter"><meta property="og:description" content="${description}"><meta property="og:url" content="${escape(url)}"><meta name="twitter:card" content="summary">`;
     const links = topicArticles.get(topic)!.map(item => `<li><a href="${articlePath(item, base)}">${escape(item.title ?? "Article")}</a></li>`).join("");
-    const markup = `<div class="app"><header class="app-header"><a class="app-title" href="${base}">CoBanter</a></header><main class="app-main"><h1>${title}</h1><p>${description}</p>${links ? `<ul>${links}</ul>` : "<p>No posts here yet.</p>"}<a href="${base}">All topics</a></main></div>`;
-    writeFileSync(path.join(directory, "index.html"), shell.replace(/<title>[\s\S]*?<\/title>/, metadata).replace('<div id="root"></div>', `<div id="root">${markup}</div>`));
+    const markup = `<div class="app"><header class="app-header"><a class="app-title" href="${base}">CoBanter</a></header><main class="app-main"><h1>${title}</h1><p>${description}</p>${links ? `<ul>${links}</ul>` : "<p>No posts here yet.</p>"}<a href="${base}">All topics</a> · <a href="${base}archive/">Complete article archive</a></main></div>`;
+    writeFileSync(path.join(directory, "index.html"), buildPage(collectionMetadata(site, topic, topicArticles.get(topic)), markup));
     const indexPath = (file: string) => file === "manifest.json" ? `topics/${slug}/manifest.json` : file.replace("archive/page-", `archive/page-${slug}-`);
     for (const [file, page] of paginateManifest({ ...manifest, batches: topicBatches.get(topic)! })) {
       const target = path.join(dist, "data", indexPath(file));
@@ -116,7 +128,29 @@ export function buildArchive(root = process.cwd()) {
     mkdirSync(path.dirname(target), { recursive: true });
     writeFileSync(target, JSON.stringify(page));
   }
-  writeFileSync(path.join(dist, "404.html"), `<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Page not found · CoBanter</title><body><h1>Page not found</h1><p>This address doesn't match a published article or topic.</p><a href="${base}">Return to CoBanter</a></body></html>`);
+  articles.sort((a, b) => b.createdAt.localeCompare(a.createdAt) || a.id.localeCompare(b.id));
+  const recent = articles.slice(0, 20);
+  const topics = TOPICS.map(topic => `<a href="${topicPath(topic, base)}">${escape(topicLabel(topic))}</a>`).join(" · ");
+  const posts = recent.map(item => `<article class="post-card"><a href="${topicPath(item.community, base)}">${escape(topicLabel(item.community))}</a><h2><a href="${articlePath(item, base)}">${escape(item.title ?? "Article")}</a></h2><p>AI-written · ${dateMarkup(item.createdAt, true)}</p>${readingMarkup(item)}<a href="${articlePath(item, base)}">Full article and original sources</a></article>`).join("");
+  const homepage = `<div class="app"><header class="app-header"><a class="app-title" href="${base}">CoBanter</a></header><div class="transparency-banner">Real sources. AI-written summaries and commentary. Open the originals for full context.</div><main class="app-main"><h1>Leave with something worth knowing.</h1><p>Fresh context, useful ideas, true stories, and a little back-and-forth.</p><nav aria-label="Topics">${topics}</nav>${posts}<a href="${base}archive/">Complete article archive</a></main></div>`;
+  writeFileSync(path.join(dist, "index.html"), buildPage(collectionMetadata(site, "", recent), homepage));
+  const archivePath = (page: number) => `${base}archive/${page === 1 ? "" : `page-${page}/`}`;
+  const pageCount = Math.max(1, Math.ceil(articles.length / ARTICLE_ARCHIVE_PAGE_SIZE));
+  for (let page = 1; page <= pageCount; page++) {
+    const pageArticles = articles.slice((page - 1) * ARTICLE_ARCHIVE_PAGE_SIZE, page * ARTICLE_ARCHIVE_PAGE_SIZE);
+    const url = absoluteUrl(archivePath(page), site);
+    urls.push(url);
+    const title = `Article archive${page === 1 ? "" : ` — Page ${page}`} · CoBanter`;
+    const description = "Browse every permanent CoBanter article, with original source links and AI-written commentary.";
+    const links = pageArticles.map(item => `<li><a href="${articlePath(item, base)}">${escape(item.title ?? "Article")}</a> · ${escape(topicLabel(item.community))} · ${dateMarkup(item.createdAt, true)}</li>`).join("");
+    const navigation = `<nav aria-label="Archive pages">${page > 1 ? `<a rel="prev" href="${archivePath(page - 1)}">← Newer articles</a> · ` : ""}Page ${page} of ${pageCount}${page < pageCount ? ` · <a rel="next" href="${archivePath(page + 1)}">Older articles →</a>` : ""}</nav>`;
+    const markup = `<div class="app"><header class="app-header"><a class="app-title" href="${base}">CoBanter</a></header><main class="app-main"><h1>${escape(title)}</h1><p>${description}</p>${navigation}<ul>${links}</ul>${navigation}<a href="${base}">Latest reading</a></main></div>`;
+    const directory = path.join(dist, archivePath(page).slice(base.length));
+    mkdirSync(directory, { recursive: true });
+    writeFileSync(path.join(directory, "index.html"), buildPage({ ...collectionMetadata(site), title, description, url, structuredData: { "@context": "https://schema.org", "@type": "CollectionPage", name: title, description, url } }, markup, "", true));
+  }
+  writeDiscovery(dist, site, urls, recent);
+  writeFileSync(path.join(dist, "404.html"), `<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><meta name="robots" content="noindex, follow"><title>Page not found · CoBanter</title><body><h1>Page not found</h1><p>This address doesn't match a published article or topic.</p><a href="${base}">Return to CoBanter</a></body></html>`);
   const bytes = (directory: string): number => readdirSync(directory).reduce((sum, name) => {
     const file = path.join(directory, name), info = statSync(file);
     return sum + (info.isDirectory() ? bytes(file) : info.size);
