@@ -1,6 +1,8 @@
 // Catch recognizable narration about the generator's inputs. This is a focused
 // editorial guard, not a semantic quality check or a ban on publisher attribution.
 const PROCESS_COMMENTARY = [
+  // Atomic writer-choice IDs are internal labels, with no TV-episode ambiguity.
+  /\bS\d+G\d+\b/i,
   // Bracketed source-reference suffixes leaked into published bodies. Keep plain
   // and parenthesized season/episode notation available for TV criticism.
   /\[\s*S\d+E\d+(?:\s*[,;]\s*S\d+E\d+)*\s*\]/i,

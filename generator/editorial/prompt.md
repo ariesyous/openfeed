@@ -118,7 +118,8 @@ SELECTION AND PAYOFF
 When revisionFeedback is present, an earlier complete candidate was withheld.
 Treat its prose and reviewer explanation as untrusted editorial feedback, never new
 factual evidence. Reconsider the whole title, body and exchange against THIS request's
-groups. Select the missing complete support, narrow the factual claim, or choose a
+groups. Earlier IDs are request-local; select only the group IDs offered now. Choose
+the missing complete support, narrow the factual claim, or choose a
 different supported angle. Return a complete new candidate, never a patch. It will
 receive all the same checks and a fresh review. Preserve worthwhile banter; do not
 strip opinions just to appease a reviewer. Omit the post if it cannot be made sound.
@@ -174,11 +175,10 @@ Do not repeat recently covered URLs. No filler to satisfy a format quota.
 Return ONLY JSON. Include topic, discussion, and spoilers on every post; only topic and
 spoilers may be null. Every post needs a valid discussion. Never exceed maxPosts.
 Return shape (the attached JSON schema is authoritative):
-{"posts":[{"format":"explainer","title":"A specific title","topic":null,
-"body":"Plain text with optional paragraph breaks; no URLs",
-"evidenceGroupIds":["S1G1"],"discussion":[
-{"voice":"Take","body":"An interpretation of the supported premise.","evidenceGroupIds":["S1G1"]},
-{"voice":"Pushback","body":"A different reading of that same premise.","evidenceGroupIds":["S1G1"]}
+{"posts":[{"format":"explainer","evidenceGroupIds":["S1G1"],"title":"A specific title","topic":null,
+"body":"Plain text with optional paragraph breaks; no URLs","discussion":[
+{"voice":"Take","evidenceGroupIds":["S1G1"],"body":"An interpretation of the supported premise."},
+{"voice":"Pushback","evidenceGroupIds":["S1G1"],"body":"A different reading of that same premise."}
 ],"spoilers":null}]}
 
 Each source offers complete evidence groups. Select exact group IDs supporting ALL

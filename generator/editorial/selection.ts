@@ -34,10 +34,12 @@ export function writerResponseSchema(groups: ReadonlyMap<string, string[]>, maxP
     .min(1).max(limit);
   return z.object({ posts: z.array(z.object({
     format: z.enum(FORMATS),
+    // Put support before prose in the transport as well as the instructions.
+    evidenceGroupIds: ids(6),
     title: z.string().min(1).max(150), topic: z.enum(TOPICS).nullable(),
-    body: z.string().min(20).max(1800), evidenceGroupIds: ids(6),
+    body: z.string().min(20).max(1800),
     discussion: z.array(z.object({
-      voice: z.enum(["Take", "Pushback", "Reply", "Context"]), body: z.string().min(10).max(700), evidenceGroupIds: ids(3),
+      voice: z.enum(["Take", "Pushback", "Reply", "Context"]), evidenceGroupIds: ids(3), body: z.string().min(10).max(700),
     }).strict()).min(2).max(4), spoilers: z.boolean().nullable(),
   }).strict()).max(maxPosts) }).strict();
 }

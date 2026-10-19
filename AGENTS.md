@@ -388,6 +388,8 @@ image pages and oversized AWS pages remain skipped; never loosen extraction for 
 Writer transport selects atomic evidenceGroupIds; code expands explicit choices to
 complete original snippet groups before all existing strict checks. Six/three snippet
 caps remain. Historical snippet validation and persisted identities stay compatible.
+Keep new group IDs out of reader-facing prose through the voice guard; preserve
+ordinary TV season/episode notation and the existing snippet-label protections.
 Reviewer transport uses indexed word ranges; code checks complete ordered coverage,
 materializes exact spans, then applies the unchanged live decision/attribution gates.
 No gaps, borrowed support, rewritten prose or unsupported passing units are accepted.

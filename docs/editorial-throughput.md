@@ -50,8 +50,11 @@ per parent and three per turn; over-budget choices retry. Groups retain the exis
 paragraph/section and short-qualification handling; omitted modules never join. Sources without a discussion-sized group are
 skipped. Quotes remain exact, bounded source substrings. Review, digests, audits and
 publication retain the original snippet contract and historical compatibility.
+The process-commentary guard rejects new `S1G1` labels in reader-facing prose as well
+as the existing snippet-label patterns; ordinary TV episode notation remains valid.
 
-The writer chooses support before prose, selecting identity, antecedents, scope and
+The transport places support before title/body/turn prose as well as instructing the
+writer to plan that support first, selecting identity, antecedents, scope and
 qualifications for each unit. Reading context constrains claims; it cannot add facts.
 
 Each unchanged title/body/turn includes indexed words. Review segments and offending
