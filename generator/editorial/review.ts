@@ -74,21 +74,45 @@ export function buildReviewInput(posts: ReviewPost[], prepared: ReturnType<typeo
 
 const WordRange = z.object({ firstWord: z.number().int().min(0).max(1800), lastWord: z.number().int().min(0).max(1800) }).strict();
 const RangeSegment = SegmentSchema.omit({ text: true }).extend(WordRange.shape).strict();
-const RangeCheck = CheckSchema.omit({ segments: true, claim: true }).extend({
-  claim: WordRange.nullable(), segments: z.array(RangeSegment).min(1).max(32),
-}).strict();
-const RangeReviewSchema = z.object({ posts: z.array(z.object({
-  key: z.string().min(1).max(8),
-  titleAttribution: TitleAttributionSchema.omit({ titleText: true }).strict(),
-  checks: z.array(RangeCheck).min(4).max(6),
-}).strict()).min(1).max(4) }).strict();
+const AttributionTransport = TitleAttributionSchema.omit({ titleText: true }).strict();
+type BoundCheck = Omit<z.infer<typeof CheckSchema>, "target" | "claim" | "segments"> & {
+  claim: z.infer<typeof WordRange> | null; segments: z.infer<typeof RangeSegment>[];
+};
+type BoundPost = { titleAttribution: z.infer<typeof AttributionTransport>; checks: Record<string, BoundCheck> };
 
-/** Constrain transport keys to this request; local validation still checks ownership. */
+/** Named required properties bind each decision to its immutable post/unit. Citations
+ * are constrained where they are used, rather than a request-wide ID menu. */
 export function reviewTransportSchema(input: ReviewInput) {
-  return RangeReviewSchema.extend({ posts: z.array(RangeReviewSchema.shape.posts.element.extend({
-    key: z.enum(input.posts.map(post => post.key)),
-    checks: z.array(RangeCheck.extend({ target: z.enum([...new Set(input.posts.flatMap(post => post.units.map(unit => unit.target)))]) })).min(4).max(6),
-  })).min(input.posts.length).max(input.posts.length) });
+  const posts: Record<string, z.ZodType<BoundPost>> = {};
+  for (const post of input.posts) {
+    const checks: Record<string, z.ZodType<BoundCheck>> = {};
+    const attached = [...new Set(post.sources.flatMap(source => source.evidence.map(entry => entry.id)))];
+    for (const unit of post.units) {
+      const own = z.array(z.enum(unit.evidenceIds)).max(6);
+      const range = WordRange.extend({ lastWord: z.number().int().min(0).max(unit.words.length - 1),
+        firstWord: z.number().int().min(0).max(unit.words.length - 1) });
+      const segment = RangeSegment.extend({ ...range.shape, evidenceIds: own });
+      const base = z.object({
+        // Assess the spans first, then give the unit verdict. No missing-premise
+        // citation or unsupported passing ID is expressible in strict output.
+        segments: z.array(segment).min(1).max(32), verdict: CheckSchema.shape.verdict,
+        reason: CheckSchema.shape.reason, claim: range.nullable(),
+        explanation: CheckSchema.shape.explanation, evidenceIds: CheckSchema.shape.evidenceIds,
+      }).strict();
+      checks[unit.target] = z.union([
+        base.extend({ verdict: z.enum(["supported", "opinion"]), evidenceIds: own.min(1), reason: z.null(), claim: z.null() }),
+        base.extend({ verdict: z.literal("reject"), evidenceIds: z.array(z.enum(attached)).max(6), reason,
+          claim: range }),
+      ]);
+    }
+    posts[post.key] = z.object({
+      titleAttribution: AttributionTransport.extend({
+        sourceEvidenceId: z.enum(post.units[0].evidenceIds).nullable(),
+      }),
+      checks: z.object(checks).strict(),
+    }).strict();
+  }
+  return z.object({ posts: z.object(posts).strict() }).strict();
 }
 
 /** Ranges name immutable original words. No model-copied prose is accepted or repaired.
@@ -97,28 +121,30 @@ export function reviewTransportSchema(input: ReviewInput) {
  */
 export function validateReviewTransport(json: unknown, input: ReviewInput): ParseOutcome<ReviewResponse> {
   const parsed = reviewTransportSchema(input).safeParse(json);
-  if (!parsed.success) return { ok: false, issues: ["Return all supplied post keys and unit targets with bounded firstWord/lastWord ranges"] };
+  if (!parsed.success) return { ok: false, issues: parsed.error.issues.slice(0, 8).map(issue =>
+    `${issue.path.join(".")}: ${issue.message}. Use the named post/unit properties, that unit's selected IDs, and bounded original word ranges`) };
   const issues: string[] = [];
-  const posts = parsed.data.posts.map(post => {
-    const original = input.posts.find(candidate => candidate.key === post.key)!;
-    return { ...post, titleAttribution: { ...post.titleAttribution, titleText: original.units[0].text },
-      checks: post.checks.map(check => {
+  const posts = Object.entries(parsed.data.posts).map(([key, post]) => {
+    const original = input.posts.find(candidate => candidate.key === key)!;
+    return { key, titleAttribution: { ...post.titleAttribution, titleText: original.units[0].text },
+      checks: Object.entries(post.checks).map(([target, decision]) => {
+        const check = { ...decision, target };
         const unit = original.units.find(candidate => candidate.target === check.target);
-        if (!unit) { issues.push(`${post.key}.${check.target}: unknown unit`); return check; }
+        if (!unit) { issues.push(`${key}.${check.target}: unknown unit`); return check; }
         const words = wordSpans(unit.text);
         const span = ({ firstWord, lastWord }: z.infer<typeof WordRange>) => {
           if (lastWord < firstWord || !words[firstWord] || !words[lastWord]) {
-            issues.push(`${post.key}.${check.target}: range is outside the original word indices`); return "";
+            issues.push(`${key}.${check.target}: range is outside the original word indices`); return "";
           }
           return unit.text.slice(words[firstWord].start, words[lastWord].start + words[lastWord].text.length);
         };
         let nextWord = 0;
         const segments = check.segments.map(({ firstWord, lastWord, ...segment }) => {
-          if (firstWord !== nextWord) issues.push(`${post.key}.${check.target}: ranges must cover every word once in order; expected firstWord ${nextWord}`);
+          if (firstWord !== nextWord) issues.push(`${key}.${check.target}: ranges must cover every word once in order; expected firstWord ${nextWord}`);
           nextWord = lastWord + 1;
           return { ...segment, text: span({ firstWord, lastWord }) };
         });
-        if (nextWord !== words.length) issues.push(`${post.key}.${check.target}: ranges must end at lastWord ${words.length - 1}`);
+        if (nextWord !== words.length) issues.push(`${key}.${check.target}: ranges must end at lastWord ${words.length - 1}`);
         return { ...check, claim: check.claim === null ? null : span(check.claim), segments };
       }),
     };
@@ -209,8 +235,12 @@ export async function reviewEditorial(options: {
   const result = await generateValidated({
     ...options,
     systemPrompt: readFileSync(new URL("./review-prompt.md", import.meta.url), "utf8"),
-    initialUserPrompt: JSON.stringify(input),
-    jsonSchema: { name: "editorial_review", schema: z.toJSONSchema(reviewTransportSchema(input)) },
+    // Compact indices avoid resending an object/property name for every word.
+    // All prose, selected support and full bounded reading context are retained.
+    initialUserPrompt: JSON.stringify({ posts: input.posts.map(post => ({ ...post,
+      units: post.units.map(unit => ({ ...unit, words: unit.words.map(({ index, text }) => [index, text]) })),
+    })) }),
+    jsonSchema: { name: "editorial_review", schema: z.toJSONSchema(reviewTransportSchema(input), { reused: "ref" }) },
     // Complete-text review plus DeepSeek's default reasoning repeatedly exhausted
     // the writer's 24k cap. Keep review reasoning quality and allow output headroom.
     maxTokens: 48_000, timeoutMs: ADVANCE_WORLD_TIMEOUT_MS,
