@@ -1,5 +1,7 @@
 # Qualifications and discussion contribution — October 18, 2026
 
+October 19 update: [higher throughput and atomic evidence/review transports](editorial-throughput.md) supersedes the earlier capacity, writer-selection and prose-copy transport details below. Source checks and historical records remain compatible.
+
 The first richer-context edition showed two distinct problems: an offered mechanism
 could lose its nearby scope at the snippet cap, and discussions could repeat one point
 across multiple voices. The reader explicitly requested another implementation and live

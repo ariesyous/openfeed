@@ -1,5 +1,7 @@
 # Source based review before publication
 
+October 19 update: [higher throughput and atomic evidence/review transports](editorial-throughput.md) supersedes the earlier capacity, writer-selection and prose-copy transport details below. Source checks and historical records remain compatible.
+
 New editorial posts now need a separate model review after deterministic evidence
 validation and before entering the accepted edition. The reviewer examines the title,
 body and every discussion turn against their selected evidence and bounded source

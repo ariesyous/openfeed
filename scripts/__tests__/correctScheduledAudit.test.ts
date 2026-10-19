@@ -14,7 +14,7 @@ const repo = fileURLToPath(new URL("../../", import.meta.url));
 let root: string;
 const targets = new Set(record.corrections.map(c => `public/data/batches/${c.batchId}.json`));
 const snapshot = () => Object.fromEntries(readdirSync(root, { recursive: true, withFileTypes: true })
-  .filter(e => e.isFile()).map(e => [path.relative(root, path.join(e.parentPath, e.name)), readFileSync(path.join(e.parentPath, e.name), "utf8")]));
+  .filter(e => e.isFile()).map(e => [path.relative(root, path.join(e.parentPath, e.name)).split(path.sep).join("/"), readFileSync(path.join(e.parentPath, e.name), "utf8").replace(/\r\n/g, "\n")]));
 beforeEach(() => {
   root = mkdtempSync(path.join(tmpdir(), "openfeed-scheduled-review-"));
   cpSync(path.join(repo, "public/data"), path.join(root, "public/data"), { recursive: true });

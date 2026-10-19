@@ -1,5 +1,7 @@
 # Richer context and complete AI discussions — October 18, 2026
 
+October 19 update: [higher throughput and atomic evidence/review transports](editorial-throughput.md) supersedes the earlier capacity, writer-selection and prose-copy transport details below. Source checks and historical records remain compatible.
+
 The reader wants fewer worthwhile posts with a back-and-forth AI discussion on every
 new post. Commentary, humour and strong interpretations remain part of the product.
 The change addresses source access and selection; it does not retroactively edit articles

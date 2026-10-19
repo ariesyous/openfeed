@@ -66,6 +66,11 @@ describe("callOpenRouter", () => {
     expect(result).toMatchObject({ ok: false, kind: "fatal" });
   });
 
+  it.each([401, 403])("does not retry authentication or key-limit failures (%s)", async status => {
+    expect(await callOpenRouter({ ...baseOpts, fetchImpl: async () => new Response("key limit", { status }) })).toMatchObject({ ok: false, kind: "fatal" });
+    expect(await callOpenRouter({ ...baseOpts, fetchImpl: async () => jsonResponse({ error: { code: String(status), message: "key limit" } }) })).toMatchObject({ ok: false, kind: "fatal" });
+  });
+
   it("classifies a 400 citing response_format as unsupported_structured_output", async () => {
     const fetchImpl = async () =>
       new Response(JSON.stringify({ error: { message: "response_format not supported" } }), {

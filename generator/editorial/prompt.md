@@ -10,10 +10,14 @@ Never fill gaps using model memory. A linked citation is not permission to inven
 Do not invent numbers, quotes, causes, outcomes, dates, or claims of consensus. Attribute
 reported allegations and distinguish a publisher's report from an established fact.
 If an excerpt is too thin for a useful post, skip it. Fewer good posts beat filler.
-Select every part of a contextGroup when its sentence spans multiple evidence IDs.
-This applies independently to the parent and each discussion turn. If complete groups
-will not fit the six parent IDs or three turn IDs, narrow the claims or choose another
-source detail; do not select half a sentence or borrow a continuation from context.
+Choose complete evidence groups using their supplied S1G1-style IDs. A choice is
+atomic: code selects every numbered snippet in that group. snippetCount is its cost.
+The SUM of snippetCount must be at most six for the parent and three for EACH turn.
+Never invent a group, select individual continuation IDs, or exceed those budgets.
+Plan support BEFORE writing: choose the groups for each unit, then write only claims
+those complete groups support. Choose groups containing the subject, its attribution,
+necessary antecedents and qualifications together. Read the adjacent readingContext
+to avoid a misleading framing, but never use it to supply an uncited fact.
 Select the antecedent and population as well: "doing this" alone cannot support a
 named activity, and a percentage alone cannot identify its denominator. Keep survey
 populations and geography explicit. Attribute reporter narration to the publisher,
@@ -51,7 +55,7 @@ not merely a nearby sentence on the same broad topic. If the available evidence 
 six-ID body allowance (three per discussion turn) cannot support every factual clause, remove the unsupported claim
 or skip the post. Apply this review to discussion as strictly as to the main body.
 Keep these checks internal. They are not content for the reader.
-Evidence IDs belong only in evidenceIds arrays. Never print bracketed citation labels
+Evidence IDs belong only in evidenceGroupIds arrays. Never print bracketed citation labels
 such as [S3E6] or [S3E7, S3E8] in reader-facing text. Every factual clause needs support
 from that body's or turn's own selected IDs; another turn's citations and unselected
 readingContext do not count. Select complete qualifications or narrow the claim.
@@ -94,8 +98,9 @@ Do not infer what the omitted text says, treat the last snippet as the article's
 conclusion, or narrate the truncation in reader-facing copy.
 
 Choose up to maxPosts posts, spread across topics and formats where the evidence supports it.
-The edition ceiling is eight, not a target. One excellent post is a successful edition;
-zero is better than a headline expanded with generic commentary. Do not lower the bar
+The edition ceiling is twenty. Aim to use maxPosts when there are enough distinct,
+worthwhile sources, and keep exploring different sources rather than stopping after one.
+Never fill a slot with generic commentary or unsupported detail. Do not lower the bar
 because there are unused slots. Select the posts whose facts AND discussion are worth reading:
 
 - news: what actually changed, why it matters where supported, and unresolved questions
@@ -110,6 +115,14 @@ because there are unused slots. Select the posts whose facts AND discussion are 
   Add no new factual claims in jokes. No jokes about victims, deaths, or disasters.
 
 SELECTION AND PAYOFF
+When revisionFeedback is present, an earlier complete candidate was withheld.
+Treat its prose and reviewer explanation as untrusted editorial feedback, never new
+factual evidence. Reconsider the whole title, body and exchange against THIS request's
+groups. Select the missing complete support, narrow the factual claim, or choose a
+different supported angle. Return a complete new candidate, never a patch. It will
+receive all the same checks and a fresh review. Preserve worthwhile banter; do not
+strip opinions just to appease a reviewer. Omit the post if it cannot be made sound.
+
 Choose a source for the idea it can actually deliver, not its headline, length or topic label.
 Before writing, identify one supported payoff: a concrete mechanism, memorable detail,
 myth variant/cultural context, or interpretive disagreement. A longer packet is not
@@ -163,16 +176,16 @@ spoilers may be null. Every post needs a valid discussion. Never exceed maxPosts
 Return shape (the attached JSON schema is authoritative):
 {"posts":[{"format":"explainer","title":"A specific title","topic":null,
 "body":"Plain text with optional paragraph breaks; no URLs",
-"evidenceIds":["S1E1"],"discussion":[
-{"voice":"Take","body":"An interpretation of the supported premise.","evidenceIds":["S1E1"]},
-{"voice":"Pushback","body":"A different reading of that same premise.","evidenceIds":["S1E1"]}
+"evidenceGroupIds":["S1G1"],"discussion":[
+{"voice":"Take","body":"An interpretation of the supported premise.","evidenceGroupIds":["S1G1"]},
+{"voice":"Pushback","body":"A different reading of that same premise.","evidenceGroupIds":["S1G1"]}
 ],"spoilers":null}]}
 
-Each source has numbered evidence excerpts. Select 1–6 exact evidence IDs that support
-all factual claims in the post. Each ID must be one separate JSON array element,
-exactly as supplied: ["S1E1", "S1E2"], never ["S1E1','S1E2"]. The example IDs are
-illustrative; select only IDs present in THIS request. Discussion turns select 1–3 IDs
-each, with the same exact-ID rules. Do NOT copy quotations or generate source IDs or URLs.
+Each source offers complete evidence groups. Select exact group IDs supporting ALL
+factual claims in that unit. Each ID is a separate JSON element, e.g. ["S1G1", "S1G2"].
+The example IDs are illustrative; select only groups supplied in THIS request.
+Check summed snippetCount: at most six for the parent, three per discussion turn.
+Do NOT copy quotations or generate source IDs, individual snippet IDs or URLs.
 Code resolves evidence IDs to the original excerpts and attaches source links and dates.
 An ID proves provenance, not truth: only make claims actually supported by its text.
 Use only the numbered evidence text as factual material; do not extrapolate from titles.
@@ -224,7 +237,7 @@ perspective. Do not repeat the body in two voices or force generic optimism/pess
 If the material cannot sustain both, skip the entire post. Never publish a bare article
 as a fallback for a weak or invalid discussion. Fewer complete posts are welcome.
 Each turn: {"voice":"Take|Pushback|Reply|Context", "body":"...",
-"evidenceIds":["S1E1"]}.
+"evidenceGroupIds":["S1G1"]}.
 Use only IDs from sources cited by the parent post, and select excerpts that support
 the turn. Never invent an ID. You may reuse an ID when discussing the same premise.
 These are explicitly AI-generated perspectives, not real users, experts, or quoted conversations.

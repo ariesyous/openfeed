@@ -23,9 +23,12 @@ unit. Never approve a unit with a missing continuation, even when the wider page
 contains it. Factual segments may cite the selected group parts needed for the claim.
 
 For EVERY unit return segments accounting for its COMPLETE text in order:
-- Copy contiguous spans exactly, splitting at whitespace boundaries. Joining their
-  text with spaces must reproduce the unit, ignoring whitespace only. No skipped
-  clauses, repeated text, summaries, rewritten words or omitted final sentences.
+- Refer to the supplied zero-based word indices using inclusive firstWord/lastWord.
+  Do NOT copy unit text into segments. Code takes exact original spans from the indices.
+  The first range starts at 0; each next firstWord equals the preceding lastWord + 1;
+  the final lastWord equals the final supplied word index. No gaps, overlaps, reordering,
+  skipped clauses or omitted final sentences. Choose boundaries between claims or jokes.
+  Example for four words: 0..1 then 2..3 covers everything. 0..1 then 3..3 is invalid.
 - Separate distinct factual claims so each gets its own support judgment. Separate
   an opinion/joke from any embedded factual premise; a factual premise does not
   become opinion because the sentence ends with a joke or starts with "I think".
@@ -40,7 +43,7 @@ For EVERY unit return segments accounting for its COMPLETE text in order:
   with no unsupported empirical assertion hidden inside it. IDs may be empty for
   pure opinion; when used, they must be this unit's selected IDs. Do not require the
   source to share the opinion. Keep lively banter and genuine disagreement.
-- At most 32 segments per unit; text <=1800 characters and explanation <=240 each.
+- At most 32 segments per unit; original span <=1800 characters and explanation <=240 each.
   A short unit may need just one segment. Be concise, but account for every clause.
 
 Examples of failures: a body cites film credits but adds a birthplace found only in
@@ -70,7 +73,7 @@ contact has no possible route to help. Ending a trial does NOT end a replacement
 programme. A person's belief about a benefit does NOT establish the benefit occurred.
 
 TITLE ATTRIBUTION — assess the literal headline before considering a charitable reading.
-Copy its exact text into titleAttribution.titleText. If it assigns an action, statement,
+Code records the exact original title; do not return titleText. If it assigns an action, statement,
 finding, belief, promise or evaluation, identify who the TITLE says performs it using
 an exact title span as titleActor. Identify who the selected SOURCE actually assigns
 that action/evaluation to, using an exact evidence span as sourceActor and its ID as
@@ -82,7 +85,6 @@ that the documentary itself praises it. A vendor describing a study is not the s
 making the vendor's claim. Keep reporting, assessment and the subject of praise distinct.
 
 Return titleAttribution on EVERY post:
-- titleText: the complete original title, unchanged.
 - titleActor: exact title span for its attributed actor, or null if there is none.
 - sourceActor: exact span in sourceEvidenceId for the actual actor, or null if none
   is established. Do not invent a quotation or treat the publisher as the speaker.
@@ -117,8 +119,9 @@ For each unit return:
   or reject (at least one material problem).
 - reason: null for passing units; otherwise reversed_fact, unsupported_claim,
   missing_qualification, misattribution, or noncontributing.
-- claim: null for passing units; otherwise an exact substring of the offending unit,
-  at most 200 characters. Identify the problem, not a rewritten sentence.
+- claim: null for passing units; otherwise {firstWord,lastWord} identifying an exact
+  offending fragment of at most 200 characters. Use the supplied word indices.
+  Code copies the original fragment; do not return a string or rewrite the claim.
 - explanation: at most 400 characters. For a rejection, say precisely how the source
   differs or which empirical claim lacks support; for a pass briefly identify why.
 - evidenceIds: up to six IDs. EVERY ID on a passing check must belong to that unit's

@@ -18,7 +18,7 @@ function allFiles(directory: string): Record<string, string> {
     .filter(entry => entry.isFile())
     .map(entry => {
       const filename = path.join(entry.parentPath, entry.name);
-      return [path.relative(directory, filename), readFileSync(filename, "utf8")];
+      return [path.relative(directory, filename).split(path.sep).join("/"), readFileSync(filename, "utf8").replace(/\r\n/g, "\n")];
     }));
 }
 

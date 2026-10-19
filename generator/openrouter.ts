@@ -86,6 +86,9 @@ export async function callOpenRouter(opts: CallOpenRouterOptions): Promise<OpenR
     if (response.status === 402) {
       return { ok: false, kind: "fatal", reason: "insufficient OpenRouter credits (402)" };
     }
+    if (response.status === 401 || response.status === 403) {
+      return { ok: false, kind: "fatal", reason: `OpenRouter authentication, permission or key limit failure (${response.status})` };
+    }
     if (response.status === 429) {
       return {
         ok: false,
@@ -145,7 +148,7 @@ export async function callOpenRouter(opts: CallOpenRouterOptions): Promise<OpenR
   if (envelope?.error) {
     const code = envelope.error.code;
     const message = typeof envelope.error.message === "string" ? envelope.error.message.slice(0, 300) : "unspecified error";
-    return { ok: false, kind: code === 402 ? "fatal" : "retryable", reason: `provider error (${String(code ?? "unknown")}): ${message}` };
+    return { ok: false, kind: [401, 402, 403].includes(Number(code)) ? "fatal" : "retryable", reason: `provider error (${String(code ?? "unknown")}): ${message}` };
   }
   const reportedModel = typeof envelope?.model === "string" && envelope.model.trim() ? envelope.model.trim() : null;
   // A routing alias is not an identified underlying model. Preserve the historical

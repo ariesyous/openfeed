@@ -18,7 +18,7 @@ function files(): Record<string, string> {
   return Object.fromEntries(readdirSync(root, {recursive: true, withFileTypes: true})
     .filter(entry => entry.isFile()).map(entry => {
       const filename = path.join(entry.parentPath, entry.name);
-      return [path.relative(root, filename), readFileSync(filename, "utf8")];
+      return [path.relative(root, filename).split(path.sep).join("/"), readFileSync(filename, "utf8").replace(/\r\n/g, "\n")];
     }));
 }
 beforeEach(() => {

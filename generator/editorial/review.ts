@@ -52,6 +52,8 @@ export const reviewDigest = (post: ReviewPost) => createHash("sha256").update(JS
   discussion: post.discussion?.map(({ voice, body, evidenceIds }) => ({ voice, body, evidenceIds })),
 })).digest("hex");
 
+const wordSpans = (text: string) => [...text.matchAll(/\S+/g)].map((match, index) => ({ index, text: match[0], start: match.index }));
+
 export function buildReviewInput(posts: ReviewPost[], prepared: ReturnType<typeof prepareEvidence>) {
   const sourceIds = (ids: string[]) => new Set(ids.map(id => prepared.evidenceById.get(id)?.sourceId));
   return { posts: posts.map((post, index) => {
@@ -62,12 +64,67 @@ export function buildReviewInput(posts: ReviewPost[], prepared: ReturnType<typeo
         { target: "title", text: post.title, evidenceIds: post.evidenceIds },
         { target: "body", text: post.body, evidenceIds: post.evidenceIds },
         ...(post.discussion ?? []).map((turn, i) => ({ target: `discussion.${i}`, text: turn.body, evidenceIds: turn.evidenceIds })),
-      ].map(unit => ({ ...unit, selectedEvidence: unit.evidenceIds.map(id => ({
+      ].map(unit => ({ ...unit, words: wordSpans(unit.text).map(({ index, text }) => ({ index, text })), selectedEvidence: unit.evidenceIds.map(id => ({
         id, text: prepared.evidenceById.get(id)!.quote,
       })) })),
       sources: prepared.sources.filter(source => source.evidence.some(entry => attached.has(prepared.evidenceById.get(entry.id)?.sourceId))),
     };
   }) };
+}
+
+const WordRange = z.object({ firstWord: z.number().int().min(0).max(1800), lastWord: z.number().int().min(0).max(1800) }).strict();
+const RangeSegment = SegmentSchema.omit({ text: true }).extend(WordRange.shape).strict();
+const RangeCheck = CheckSchema.omit({ segments: true, claim: true }).extend({
+  claim: WordRange.nullable(), segments: z.array(RangeSegment).min(1).max(32),
+}).strict();
+const RangeReviewSchema = z.object({ posts: z.array(z.object({
+  key: z.string().min(1).max(8),
+  titleAttribution: TitleAttributionSchema.omit({ titleText: true }).strict(),
+  checks: z.array(RangeCheck).min(4).max(6),
+}).strict()).min(1).max(4) }).strict();
+
+/** Constrain transport keys to this request; local validation still checks ownership. */
+export function reviewTransportSchema(input: ReviewInput) {
+  return RangeReviewSchema.extend({ posts: z.array(RangeReviewSchema.shape.posts.element.extend({
+    key: z.enum(input.posts.map(post => post.key)),
+    checks: z.array(RangeCheck.extend({ target: z.enum([...new Set(input.posts.flatMap(post => post.units.map(unit => unit.target)))]) })).min(4).max(6),
+  })).min(input.posts.length).max(input.posts.length) });
+}
+
+/** Ranges name immutable original words. No model-copied prose is accepted or repaired.
+ * Gaps, overlaps, reordered/unknown ranges and incomplete unit ledgers all fail closed.
+ * Materialize the original spans, then run ALL existing semantic-decision gates.
+ */
+export function validateReviewTransport(json: unknown, input: ReviewInput): ParseOutcome<ReviewResponse> {
+  const parsed = reviewTransportSchema(input).safeParse(json);
+  if (!parsed.success) return { ok: false, issues: ["Return all supplied post keys and unit targets with bounded firstWord/lastWord ranges"] };
+  const issues: string[] = [];
+  const posts = parsed.data.posts.map(post => {
+    const original = input.posts.find(candidate => candidate.key === post.key)!;
+    return { ...post, titleAttribution: { ...post.titleAttribution, titleText: original.units[0].text },
+      checks: post.checks.map(check => {
+        const unit = original.units.find(candidate => candidate.target === check.target);
+        if (!unit) { issues.push(`${post.key}.${check.target}: unknown unit`); return check; }
+        const words = wordSpans(unit.text);
+        const span = ({ firstWord, lastWord }: z.infer<typeof WordRange>) => {
+          if (lastWord < firstWord || !words[firstWord] || !words[lastWord]) {
+            issues.push(`${post.key}.${check.target}: range is outside the original word indices`); return "";
+          }
+          return unit.text.slice(words[firstWord].start, words[lastWord].start + words[lastWord].text.length);
+        };
+        let nextWord = 0;
+        const segments = check.segments.map(({ firstWord, lastWord, ...segment }) => {
+          if (firstWord !== nextWord) issues.push(`${post.key}.${check.target}: ranges must cover every word once in order; expected firstWord ${nextWord}`);
+          nextWord = lastWord + 1;
+          return { ...segment, text: span({ firstWord, lastWord }) };
+        });
+        if (nextWord !== words.length) issues.push(`${post.key}.${check.target}: ranges must end at lastWord ${words.length - 1}`);
+        return { ...check, claim: check.claim === null ? null : span(check.claim), segments };
+      }),
+    };
+  });
+  if (issues.length) return { ok: false, issues: [...new Set(issues)] };
+  return validateReview({ posts }, input);
 }
 
 /** Complete coverage and exact claim locations are mandatory even without structured output. */
@@ -153,11 +210,11 @@ export async function reviewEditorial(options: {
     ...options,
     systemPrompt: readFileSync(new URL("./review-prompt.md", import.meta.url), "utf8"),
     initialUserPrompt: JSON.stringify(input),
-    jsonSchema: { name: "editorial_review", schema: z.toJSONSchema(LiveReviewResponseSchema) },
+    jsonSchema: { name: "editorial_review", schema: z.toJSONSchema(reviewTransportSchema(input)) },
     // Complete-text review plus DeepSeek's default reasoning repeatedly exhausted
     // the writer's 24k cap. Keep review reasoning quality and allow output headroom.
     maxTokens: 48_000, timeoutMs: ADVANCE_WORLD_TIMEOUT_MS,
-    parse: json => validateReview(json, input),
+    parse: json => validateReviewTransport(json, input),
   });
   return result;
 }

@@ -1,7 +1,7 @@
 // @vitest-environment node
 import { describe, expect, it, vi } from "vitest";
 import { sourceArticleSections } from "../editorial/articleText";
-import { ARTICLE_FETCH_CONCURRENCY, collectArticleContext, contextCandidates, MAX_ARTICLE_FETCHES } from "../editorial/context";
+import { ARTICLE_FETCH_CONCURRENCY, collectArticleContext, contextCandidates, MAX_ARTICLE_FETCHES, MAX_PUBLISHER_CANDIDATES } from "../editorial/context";
 import { prepareEvidence } from "../editorial/evidence";
 import { collectSources, parseSourceFeed, SOURCE_FEEDS, type SourcePacket } from "../editorial/sources";
 import { coverageTitle } from "../editorial/coverage";
@@ -22,6 +22,10 @@ describe("bounded article context", () => {
     ["Psyche", '<div class="article-content text-copy">', '</div>'],
     ["Variety Film", '<div class="a-content a-content--logo-end">', '</div>'],
     ["BBC World", '<article>', '</article>'],
+    ["MIT News", '<div class="news-article--content--body--inner">', '</div>'],
+    ["Ars Technica", '<article class="h-entry"><div class="post-content">', '</div></article>'],
+    ["Aeon", '<div id="article-content" class="article-content"><div class="has-dropcap">', '</div></div>'],
+    ["JSTOR Daily", '<div class="entry-content">', '</div>'],
   ])("extracts the inspected %s body and retains distinct sections", (publisher, start, end) => {
     const html = `<!DOCTYPE html><nav>Menu</nav>${start}<p>${opening}</p><aside><p>Unrelated prose.</p></aside><h2>Mechanism</h2><p>${mechanism}</p>${end}`;
     expect(sourceArticleSections(html, publisher)).toEqual([opening, mechanism]);
@@ -33,6 +37,25 @@ describe("bounded article context", () => {
     expect(sourceArticleSections(html, "Psyche")).toEqual([opening, mechanism]);
     expect(sourceArticleSections(page.replace('class="article-content text-copy"', 'class="unknown"'), "Psyche")).toEqual([]);
     expect(sourceArticleSections(page + page, "Psyche")).toEqual([]);
+  });
+
+  it("retains separate Ars body blocks and excludes author bios and layout modules", () => {
+    const html = `<article class="h-entry"><div class="post-content post-content-double"><p>${opening}</p></div><div class="advertisement"><p>An unrelated promotion.</p></div><div class="post-content post-content-double"><p>${mechanism}</p></div><div class="author-bio"><p>An unrelated biography.</p></div></article>`;
+    expect(sourceArticleSections(html, "Ars Technica")).toEqual([opening, mechanism]);
+    expect(sourceArticleSections(html.replaceAll("post-content", "unknown-content"), "Ars Technica")).toEqual([]);
+    expect(sourceArticleSections(html + html, "Ars Technica")).toEqual([]);
+  });
+  it.each([
+    ["Aeon", '<div id="article-content" class="article-content"><div class="has-dropcap">', "pullquote"],
+    ["JSTOR Daily", '<div class="entry-content">', "daily_email_signup"],
+  ])("excludes inspected %s promotional/duplicate modules without reconnecting paragraphs", (publisher, start, moduleClass) => {
+    expect(sourceArticleSections(`${start}<p>${opening}</p><div class="${moduleClass}"><p>Unrelated signup or duplicate pull quote.</p></div><p>${mechanism}</p></div>`, publisher)).toEqual([opening, mechanism]);
+    expect(sourceArticleSections(`<div class="unknown"><p>${opening}</p></div>`, publisher)).toEqual([]);
+  });
+  it("requires Aeon's essay body and excludes adjacent audio labels", () => {
+    const before = '<div id="article-content" class="article-content"><p>Listen to this essay</p><p>25 minute listen</p>';
+    expect(sourceArticleSections(`${before}<div class="has-dropcap"><p>${opening}</p></div></div>`, "Aeon")).toEqual([opening]);
+    expect(sourceArticleSections(`${before}<p>${opening}</p></div>`, "Aeon")).toEqual([]);
   });
 
   it("keeps complete paragraphs, rejects declarations and never jumps past oversized prose", () => {
@@ -101,14 +124,14 @@ describe("bounded article context", () => {
   });
 
   it("bounds topic-diverse selection and concurrent retrieval", async () => {
-    const packets = Array.from({ length: 60 }, (_, i) => {
+    const packets = Array.from({ length: 600 }, (_, i) => {
       const feed = SOURCE_FEEDS[i % SOURCE_FEEDS.length];
       return { ...packet, id: `id${i}`, publisher: feed.publisher, topic: feed.topic, title: `Article ${i}`, url: `https://${feed.hosts[0]}/article-${i}`, contextKind: "feed_article" as const };
     });
     const selected = contextCandidates(packets);
-    expect(selected.length).toBeLessThanOrEqual(MAX_ARTICLE_FETCHES);
+    expect(selected.length).toBe(MAX_ARTICLE_FETCHES);
     expect(new Set(selected.map(p => p.topic)).size).toBeGreaterThan(5);
-    expect(selected.filter(p => p.publisher.startsWith("BBC")).length).toBeLessThanOrEqual(3);
+    expect(selected.filter(p => p.publisher.startsWith("BBC")).length).toBeLessThanOrEqual(MAX_PUBLISHER_CANDIDATES);
     let active = 0, peak = 0;
     await collectArticleContext(packets, async () => {
       peak = Math.max(peak, ++active); await new Promise(resolve => setTimeout(resolve, 1)); active--;

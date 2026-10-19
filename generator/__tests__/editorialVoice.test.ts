@@ -1,5 +1,6 @@
 // @vitest-environment node
 import { describe, expect, it, vi } from "vitest";
+import { writerFixture } from "./helpers/transport";
 import { editorialVoiceIssues, hasSourceProcessCommentary } from "../editorial/voice";
 import { generateEditorial, validateDraft } from "../editorial/generate";
 import type { SourcePacket } from "../editorial/sources";
@@ -126,7 +127,7 @@ describe("editorial voice", () => {
             {voice: "Take", body: "A trial seems a sensible first step.", evidenceIds: ["S1E1"]},
             {voice: "Pushback", body: "Testing should inform the decision, not become a rubber stamp for release.", evidenceIds: ["S1E1"]},
           ]};
-        return new Response(JSON.stringify({model: "test/model", choices: [{finish_reason: "stop", message: {content: JSON.stringify({posts: [post]})}}]}));
+        return new Response(JSON.stringify({model: "test/model", choices: [{finish_reason: "stop", message: {content: JSON.stringify(writerFixture({posts: [post]}))}}]}));
       };
       const items = await generateEditorial("secret", [source], now, "voice", [], {fetchImpl, sleepImpl: async () => {}});
       expect(calls).toBe(fallback ? 3 : 2);

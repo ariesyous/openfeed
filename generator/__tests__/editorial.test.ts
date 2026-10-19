@@ -90,12 +90,12 @@ describe("source ingestion", () => {
 
   it("bounds and sorts Atom intake and rejects entity declarations", () => {
     const entry = atom().match(/<entry>[\s\S]*?<\/entry>/)![0];
-    const xml = `<feed>${Array.from({length: 12}, (_, i) => entry.replace(source.url, `${source.url}/${i}`)
-      .replace(source.publishedAt!, `2026-09-${String(i + 1).padStart(2, "0")}T12:00:00Z`)).join("")}</feed>`;
+    const xml = `<feed>${Array.from({length: 40}, (_, i) => entry.replace(source.url, `${source.url}/${i}`)
+      .replace(source.publishedAt!, new Date(now.getTime() - i * 3_600_000).toISOString())).join("")}</feed>`;
     const packets = parseSourceFeed(xml, {...SOURCE_FEEDS[0], maxAgeDays: 30}, now);
-    expect(packets).toHaveLength(8);
-    expect(packets[0].publishedAt).toBe("2026-09-12T12:00:00.000Z");
-    expect(packets.at(-1)!.publishedAt).toBe("2026-09-05T12:00:00.000Z");
+    expect(packets).toHaveLength(24);
+    expect(packets[0].publishedAt).toBe(now.toISOString());
+    expect(packets.at(-1)!.publishedAt).toBe(new Date(now.getTime() - 23 * 3_600_000).toISOString());
     expect(() => parseSourceFeed('<!DOCTYPE feed [<!ENTITY x "unsafe">]>' + atom(), SOURCE_FEEDS[0], now)).toThrow();
   });
 
