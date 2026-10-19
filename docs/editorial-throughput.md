@@ -46,8 +46,8 @@ The writer returns `evidenceGroupIds`. Code resolves each explicitly selected gr
 to all its original snippet IDs before the existing `validateCitedDraft` gates. It
 does not repair an incomplete model-supplied snippet selection. Unknown groups,
 legacy fields and duplicate choices fail. Expanded support still fits six snippets
-per parent and three per turn; over-budget choices retry. Groups cannot bridge
-paragraphs/sections or omitted text. Sources without a discussion-sized group are
+per parent and three per turn; over-budget choices retry. Groups retain the existing
+paragraph/section and short-qualification handling; omitted modules never join. Sources without a discussion-sized group are
 skipped. Quotes remain exact, bounded source substrings. Review, digests, audits and
 publication retain the original snippet contract and historical compatibility.
 
@@ -91,3 +91,22 @@ failure and persists all ten review/support chunks within the audit bound. These
 establish contracts and capacity, not live accuracy or a guaranteed twenty-post yield.
 Live controls and ordinary-run yield require separate observation. Historical review
 counts, original publications and audits remain unchanged.
+
+## Live control gate
+
+[39200596347](https://github.com/ariesyous/openfeed/actions/runs/39200596347), on
+implementation `207e6cd`, passed all four synthetic suites: eight deliberately wrong
+candidates were withheld and eight supported/opinionated counterparts passed. This
+includes the formerly unrun population/antecedent and reporter-attribution suite.
+Five DeepSeek Flash calls took 318,509 ms. The first three suites passed immediately;
+the fourth needed a retry after omitting a selected-premise citation. The original
+local gate rejected that incomplete response. There were no prose-copy/range failures.
+The bounded original decisions are retained in
+`fixtures/editorial-throughput-controls-20261019.json`; they are synthetic controls,
+not ordinary-edition observations or proof of general semantic accuracy.
+
+Linux [validation](https://github.com/ariesyous/openfeed/actions/runs/39200844785)
+passed typecheck, lint, all 355 tests and the production build. The local rebased build
+also retained all 2,383 articles. A further live intake against the latest coverage
+state returned 36 sources/eleven publisher groups, with nineteen source slots before
+editorial rejection. Availability varies; ordinary generation yield remains to be measured.

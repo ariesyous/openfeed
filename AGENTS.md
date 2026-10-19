@@ -396,3 +396,9 @@ Malformed/exhausted local chunks defer sources and allow other candidates under 
 same shared limits. Fatal authentication/billing failures stop calls. Audits retain
 original spans, decisions and digests; 512-KiB bounds and blocking persistence remain.
 Mocked twenty-post integration demonstrates capacity, not live accuracy or yield.
+Live reviewer control 39200596347 passed all four suites (eight wrong candidates
+withheld/eight supported or opinionated counterparts allowed) in five calls. The
+fourth suite retried one missing-premise citation; range accounting did not fail.
+See the new dated control fixture; do not rewrite prior audit outcomes or advance
+ordinary-edition observation counts from these synthetic controls. Linux validation
+passed all 355 tests. Ordinary-run yield still requires separate observation.
