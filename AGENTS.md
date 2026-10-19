@@ -420,3 +420,8 @@ passing check citations cannot be empty. Compact indexed words and shared schema
 definitions retain full context and all existing local gates. Materialized audits
 retain their original contract and 512-KiB bounds. Keep twenty posts, 32 calls and
 45 minutes; no semantic check is relaxed to improve yield.
+Live control 39293451703 passed all four existing suites on their first attempt:
+eight wrong candidates withheld/eight counterparts allowed in four calls/127,470 ms.
+Keep its dated provider-control fixture separate from earlier controls and ordinary
+observation counts. Linux validation passed all 366 tests. Yield is still observed
+separately; this control result is not a general semantic-accuracy guarantee.

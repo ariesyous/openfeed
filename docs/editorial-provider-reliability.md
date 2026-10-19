@@ -78,3 +78,22 @@ boundaries, empty passing-premise citations, full source context, and fresh revi
 of a revision paired with a new article. The existing twenty-post integration and
 strict validation regressions remain. Live controls and ordinary-run performance
 must be recorded separately; synthetic controls do not establish consistent yield.
+
+Typecheck, lint, all 366 tests and the production build passed locally; the archive
+retained all 2,407 permanent articles. Linux CI
+[39293453033](https://github.com/ariesyous/openfeed/actions/runs/39293453033)
+passed the same checks on implementation `f8872ae`.
+
+Live control [39293451703](https://github.com/ariesyous/openfeed/actions/runs/39293451703)
+passed all four existing suites on that implementation: eight deliberately wrong
+posts were withheld, and eight supported or opinionated counterparts passed.
+Every suite passed its first call, with no transport or local-validation retry;
+four DeepSeek Flash calls took 127,470 ms. The previous throughput controls used
+five calls and 318,509 ms. This is one small synthetic comparison, not a prediction
+of ordinary latency or general accuracy. The bounded original decisions are in
+`fixtures/editorial-provider-controls-20261019.json`; earlier fixtures remain frozen.
+
+A fresh read-only intake against the current durable coverage returned 44 usable
+unused sources across twelve publisher groups and 22 distinct-source slots under
+the unchanged two-per-group rule. This is supply before editorial rejection, not
+a promise of twenty articles. Ordinary generation performance remains to be observed.
