@@ -5,6 +5,7 @@ import { App } from "../src/App";
 import { topicLabel, topicPath } from "../shared/topics";
 import { articlePath } from "../shared/articles";
 import type { BatchFile, Manifest } from "../schemas";
+import { articleDescription, SITE_DESCRIPTION } from "../shared/seo";
 const manifest = JSON.parse(readFileSync("public/data/manifest.json", "utf8")) as Manifest;
 const batch = JSON.parse(readFileSync(`public/data/${manifest.batches[0].file}`, "utf8")) as BatchFile;
 const accounts = JSON.parse(readFileSync("public/data/accounts.json", "utf8"));
@@ -28,6 +29,9 @@ describe("article navigation", () => {
     fireEvent.click(screen.getByRole("link", { name: post.title }));
     const article = await screen.findByRole("region", { name: "Article" });
     expect(window.location.pathname).toBe(articlePath(post));
+    expect(new URL(document.head.querySelector<HTMLLinkElement>('link[rel="canonical"]')!.href).pathname).toBe(articlePath(post));
+    expect(document.head.querySelector<HTMLMetaElement>('meta[name="description"]')?.content).toBe(articleDescription(post));
+    expect(JSON.parse(document.getElementById("page-structured-data")!.textContent!)["@type"]).toBe("Article");
     expect(within(article).getByRole("button", { name: "Copy link" })).toBeVisible();
     expect(screen.queryByRole("button", { name: /Save|Mark read|Mark caught up/ })).not.toBeInTheDocument();
     await act(async () => { window.history.back(); });
@@ -35,10 +39,14 @@ describe("article navigation", () => {
     await waitFor(() => expect(within(screen.getByRole("navigation", { name: "Topics" })).getByRole("link", { name: topicLabel(post.community) })).toHaveAttribute("aria-current", "page"));
     expect(screen.getAllByRole("article")).toHaveLength(before);
     expect(vi.mocked(fetch).mock.calls).toHaveLength(requestsBeforeArticle);
+    expect(new URL(document.head.querySelector<HTMLLinkElement>('link[rel="canonical"]')!.href).pathname).toBe(topicPath(post.community));
+    expect(document.head.querySelector('meta[property="article:published_time"]')).toBeNull();
+    expect(document.head.querySelectorAll('link[rel="canonical"]')).toHaveLength(1);
     expect(screen.queryByRole("combobox")).not.toBeInTheDocument();
     expect(screen.queryByRole("button", { name: /Save|Mark read|Mark caught up/ })).not.toBeInTheDocument();
     fireEvent.click(within(screen.getByRole("navigation", { name: "Topics" })).getByRole("link", { name: "All topics" }));
     await waitFor(() => expect(screen.getAllByRole("article")).toHaveLength(batch.items.length));
+    expect(document.head.querySelector<HTMLMetaElement>('meta[name="description"]')?.content).toBe(SITE_DESCRIPTION);
   });
   it("loads a bookmarked topic, survives refresh, and handles topic Back/Forward", async () => {
     window.history.replaceState({}, "", topicPath(post.community));
@@ -86,6 +94,8 @@ describe("article navigation", () => {
     render(<App />);
     expect(screen.getByRole("heading", { name: "Topic not found" })).toBeVisible();
     expect(fetch).not.toHaveBeenCalled();
+    expect(document.head.querySelector<HTMLMetaElement>('meta[name="robots"]')?.content).toBe("noindex, follow");
+    expect(document.head.querySelector('link[rel="canonical"]')).toBeNull();
   });
   it("renders a direct static article without downloading the feed, and survives a remount", async () => {
     window.history.replaceState({}, "", articlePath(post));
@@ -104,6 +114,7 @@ describe("article navigation", () => {
     render(<App />);
     expect(await screen.findByText(/This article couldn't be loaded/)).toBeVisible();
     expect(screen.getByRole("button", { name: "Try again" })).toBeVisible();
+    expect(document.head.querySelector<HTMLMetaElement>('meta[name="robots"]')?.content).toBe("noindex, follow");
   });
   it.each([true, false])("opens a legacy URL and replaces it with the short sharing URL (embedded: %s)", async (embedded) => {
     const legacy = { ...post, slug: `original-headline--${Buffer.from(post.id).toString("hex")}` };

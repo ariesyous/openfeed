@@ -15,6 +15,10 @@ The repository's Pages custom domain is `cobanter.com`. `SITE_BASE_PATH` default
 `/` in both Vite and the archive builder; `SITE_ORIGIN` defaults to
 `https://cobanter.com`. For another deployment, set the same base for the full build.
 
+Each build also generates the complete sitemap, robots policy, `llms.txt` agent guide,
+crawlable homepage and paginated HTML article archive. See
+[discoverability and search engine onboarding](docs/discoverability.md).
+
 ## Development
 
 ```bash

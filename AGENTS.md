@@ -484,3 +484,16 @@ Deployment 39327197029 succeeded; all twenty live articles matched approved dige
 complete unit ledgers, source URLs and required discussions without evidence-label
 leakage. The archive retained 2,452 permanent articles. This verifies publication,
 not semantic accuracy or sustained twenty-article yield.
+
+## Discoverability — October 19, 2026
+Read docs/discoverability.md. The archive build generates robots.txt, a complete
+canonical-only sitemap (partitioned beyond 10,000 URLs), llms.txt, crawlable homepage
+content and a paginated HTML archive covering every editorial article. Keep these
+derived from the complete catalog, preserve aliases and article identities, and do
+not invent modification dates. shared/seo.ts owns build/client metadata and JSON-LD;
+React navigation must clear stale canonicals, images, dates and schemas. CoBanter is
+the organizational author; source publishers are citations and discussion voices are
+not real people or reader engagement. Protect spoiler reading with the reveal gate
+and data-nosnippet; exclude it from metadata and the agent guide. llms.txt is a guide,
+not a crawler permission override or an indexing guarantee. Search Console/Bing
+verification and submission are separate account actions, not implied by deployment.

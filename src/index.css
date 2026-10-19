@@ -63,6 +63,13 @@ body {
   padding: 0.45rem 1rem;
 }
 
+.site-links {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-size: .875rem;
+}
+
 .app-main {
   flex: 1;
   width: 100%;
