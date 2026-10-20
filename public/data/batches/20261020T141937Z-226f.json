@@ -1,0 +1,587 @@
+{
+  "batchId": "20261020T141937Z-226f",
+  "generatedAt": "2026-10-20T14:19:37.824Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cqm26zzl0k12o",
+            "title": "UK asks Apple to widen access to its payment tech",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-10-20T12:29:24.000Z",
+            "retrievedAt": "2026-10-20T14:19:37.824Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The EU comparison is the hard part of the CMA's case: within six months of the EU forcing Apple to widen access to its tech, an alternative payment app, Vipps, launched, followed by PayPal, Klarna, Curve and BBVA. In the UK, by the watchdog's account, not a single firm has launched a wallet-type product to compete with Apple's."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Apple's reply is that those new apps could easily have been launched before the EU changes. It also says its existing arrangements already let developers in the UK and elsewhere offer contactless transactions securely inside their own apps, from in-store payments and transit passes to car keys and event tickets."
+          }
+        ]
+      },
+      "id": "post-20261020T141937Z-226f-0",
+      "slug": "britain-s-watchdog-says-apple-s-contactless-fees-are-blockin--25dfcb8f78",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-20T14:19:37.824Z",
+      "community": "technology",
+      "title": "Britain's Watchdog Says Apple's Contactless Fees Are Blocking Fintechs",
+      "body": "The UK's competition watchdog says smartphone users there could gain new payment, ticket and travel apps if Apple widens access to its contactless payment technology. The Competition and Markets Authority believes Apple's current fees and charges are blocking financial technology firms and others from innovating and growing, and it is consulting on proposals it believes would cause those fees to fall.\n\nApple maintains that widening access could undermine security, and that its current arrangements do not stop innovation. Nearly two in five payments are now contactless, the watchdog says, with nearly 60% of people using digital wallets — and Apple's is the most popular in the UK.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/british-columbia/cowichan-appeal-stay-arguments-warnings-9.7383876?cmp=rss",
+            "title": "Landmark Cowichan Nation appeal sparks warnings of 'chaotic situation'",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-20T11:00:00.000Z",
+            "retrievedAt": "2026-10-20T14:19:37.824Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The list of appellants is the striking part: the province, Canada's attorney general, the Port of Vancouver, the City of Richmond, the Musqueam Indian Band and the Tsawwassen First Nation — plus the Quw'utsun themselves, who had originally sought title to a much larger area. Arguments on the appeals are not set to begin until November 2027, so the stays are where the practical fight sits for now."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The property question gets the headlines, but the ruling also declared a Quw'utsun right to fish for food in the south arm of the Fraser River — waters it identifies as traditional territory for both the Musqueam and the Tsawwassen. That puts other nations' interests squarely in the frame, not just private owners and dikes."
+          }
+        ]
+      },
+      "id": "post-20261020T141937Z-226f-1",
+      "slug": "the-cowichan-title-ruling-heads-to-appeal-with-stays-sought--25dfcb912b",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-20T14:19:37.824Z",
+      "community": "canada",
+      "title": "The Cowichan Title Ruling Heads to Appeal, With Stays Sought Before It Takes Effect",
+      "body": "CBC News says it obtained copies of submissions filed in B.C.'s Court of Appeal in multiple bids to stay parts of the landmark B.C. Supreme Court Quw'utsun (Cowichan) Nation Aboriginal title decision before it comes into full effect in February 2027.\n\nYoung's decision established Aboriginal title for the Quw'utsun over up to 325 hectares (800 acres) of riverside property and submerged land in Richmond, owned by the federal Crown, the Vancouver Fraser Port Authority, the City of Richmond and private landowners. The province of B.C. claims public confidence in the land registration system and the essential work of reconciliation is in peril.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c6eq327pzr53o",
+            "title": "Jobless rate falls but small firms cut back hiring",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-20T11:26:48.000Z",
+            "retrievedAt": "2026-10-20T14:19:37.824Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A falling jobless rate sitting beside falling vacancies is an awkward pair to read. The interesting signal isn't really the headline rate at all — it's that smaller businesses have been pulling back on recruitment, which is where employer caution actually shows up first."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Employer caution isn't an independent weather system, though. Energy costs have risen since the Iran war began, and companies have said increases in National Insurance and the minimum wage have made it more expensive to employ staff — so 'small firms should simply hire' is doing less work than it sounds."
+          }
+        ]
+      },
+      "id": "post-20261020T141937Z-226f-2",
+      "slug": "uk-jobless-rate-falls-to-4-7-while-vacancies-keep-sliding--25dfcb92de",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-20T14:19:37.824Z",
+      "community": "economics",
+      "title": "UK Jobless Rate Falls to 4.7% While Vacancies Keep Sliding",
+      "body": "The UK's unemployment rate fell to 4.7% in the three months to August, the lowest reading since July last year, according to the Office for National Statistics. Vacancies moved the other way: they dropped by 21,000 in the three months to September to 691,000, and the ONS said small firms were citing labour costs as a key factor in scaling back hiring.\n\nThat left vacancies at their lowest level in more than five years, with the largest decrease coming in construction jobs. Average earnings excluding bonuses rose 3.7% in the three months to August, up from 3.5% a month earlier, which works out to 0.8% growth once inflation is taken into account.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/cars/2026/10/visiting-slates-first-showroom-as-its-25000-electric-truck-nears-production/",
+            "title": "Visiting Slate’s first showroom as its $25,000 electric truck nears production",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-20T11:00:16.000Z",
+            "retrievedAt": "2026-10-20T14:19:37.824Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The interesting bet here isn't the drivetrain, it's the deliberate cheapness. Plastic body panels and a $24,950 sticker amount to a wager that plenty of truck buyers would rather have window winders than a screen-covered cabin."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Minimalism is charming right up until you plan a road trip. A projected range of 205 miles is the spec that decides whether this reads as freedom or as homework — and 'projected' is carrying a lot of weight in that number."
+          },
+          {
+            "voice": "Reply",
+            "body": "Fair, but the venue deserves credit: selling anti-luxury minimalism out of a former Tesla store is a marketing decision with a sense of humour."
+          }
+        ]
+      },
+      "id": "post-20261020T141937Z-226f-3",
+      "slug": "slate-opens-its-first-showroom-for-a-24-950-electric-pickup--25dfcb9491",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-20T14:19:37.824Z",
+      "community": "technology",
+      "title": "Slate Opens Its First Showroom for a $24,950 Electric Pickup",
+      "body": "Slate opened its first showroom last week, in a former Tesla store staffed by some former Tesla employees. The Slate Experience Center sits in the Fulton Market District just northwest of the Chicago Loop, where would-be buyers can poke around a prototype, look at customization options, buy Slate merchandise, and pre-order a Slate Truck with a $300 deposit.\n\nThe truck is a bare-bones electric pickup aimed at the American obsession with pickups, retailing at $24,950. Plastic panels, a minimalist interior and actual window winders come with it, along with a projected range of 205 miles.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+            "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-20T12:33:13.000Z",
+            "retrievedAt": "2026-10-20T14:19:37.824Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Every share link is a bet that nobody will guess the address. Muse's URL design lost that bet 6,800 times over."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Call it a tradeoff if you want, but this agent was pitched as built for privacy and security, and a few hundred opened links held material clearly not meant to be public."
+          }
+        ]
+      },
+      "id": "post-20261020T141937Z-226f-4",
+      "slug": "researchers-enumerated-6-800-muse-share-links-and-found-priv--25dfcb9644",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-20T14:19:37.824Z",
+      "community": "ai_agents",
+      "title": "Researchers Enumerated 6,800 Muse Share Links and Found Private Material in Some",
+      "body": "Researchers report that Meta's new general-purpose AI agent, Muse, can expose sensitive information when users share conversations through web links. Muse, like plenty of online services, lets people share searches, conversations and images with others.\n\nMeta CEO Mark Zuckerberg said last month that Muse was built from the ground up for privacy and security. But a central design decision in how the agent builds its share URLs made those links easy to discover.\n\nResearchers from the security firm Claroc say they enumerated 6,800 links that Muse users had created to share conversations with others. After opening a few hundred of them, they found material that was clearly not intended to be publicly available.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/frankenstein-the-vampyre-and-the-spirit-of-the-humanities/",
+            "title": "Frankenstein, The Vampyre, and the Spirit of the Humanities",
+            "publisher": "JSTOR Daily",
+            "publishedAt": "2026-10-20T13:55:00.000Z",
+            "retrievedAt": "2026-10-20T14:19:37.824Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The Vampyre is a natural vehicle for thinking about a predatory ruling class: a story about how power and privilege let those of higher station exploit the vulnerable."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The famous night's scorecard is thinner than the legend suggests. Byron quickly abandoned his entry, and the attempts by Percy Shelley and Claire Clairmont did not yield anything comparable."
+          }
+        ]
+      },
+      "id": "post-20261020T141937Z-226f-5",
+      "slug": "a-group-challenge-to-write-a-chilling-tale-produced-frankens--25dfcb97f7",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-20T14:19:37.824Z",
+      "community": "philosophy",
+      "title": "A Group Challenge to Write a Chilling Tale Produced Frankenstein and The Vampyre",
+      "body": "In 1815 a volcanic eruption in Indonesia threw up a cloud of ash and particulates large enough to affect the weather around the world. The following year, 1816, became known as the Year Without a Summer, or Eighteen-Hundred-and-Froze-to-Death.\n\nOne evening, after the group had already read aloud eerie and violent narratives such as those in Fantasmagoriana, Lord Byron set them a challenge: write chilling tales of their own. That competition produced three significant works — Mary Shelley's Frankenstein, John Polidori's The Vampyre and Byron's own A Fragment.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://theconversation.com/two-provinces-two-paths-alberta-rejects-independence-as-quebec-weighs-its-own-referendum-294387",
+            "title": "Two provinces, two paths: Alberta rejects independence as Québec weighs its own referendum",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-18T12:05:35.000Z",
+            "retrievedAt": "2026-10-20T14:19:37.824Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The Alberta result answers one question and parks it; by 2030, people in Québec could face a similar choice. In a country where the constitutional question keeps finding new clothes, four years is a long time for that prospect to be repriced."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The backdrop is more interesting than a straight tariff story: these referendum debates played out as Canada–U.S. relations sit at a low ebb amid Trump's talk of making Canada the 51st state and waves of tariffs on billions of dollars of Canadian exports. Alberta is among the least affected by those tariffs because its oil, gas and beef exports are exempted, which makes economic punishment a strange engine for the province's independence vote."
+          }
+        ]
+      },
+      "id": "post-20261020T141937Z-226f-6",
+      "slug": "alberta-voted-to-stay-in-canada-quebec-s-reasons-to-leave-ar--25dfcb99aa",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-20T14:19:37.824Z",
+      "community": "canada",
+      "title": "Alberta Voted to Stay in Canada. Québec's Reasons to Leave Are a Different Set.",
+      "body": "Albertans voted overwhelmingly to remain in Canada rather than begin a process for a second, binding referendum on independence. Polls put the stay vote at 76 per cent of Alberta voters, an even higher figure than pre-referendum surveys in which more than 70 per cent of Albertans said they wanted to remain in Canada.\n\nWhat Alberta wants from Ottawa is a specific list: its grievances focus on federal economic, energy and climate policies, immigration and political representation. Québec's concern is different in kind — the protection of its distinctive language and culture in an anglo-dominated North America.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.npr.org/sections/planet-money/2026/10/20/g-s1-148305/what-if-an-ai-bubble-bursts-and-that-accelerates-ai-job-losses",
+            "title": "What if an AI bubble bursts — and that accelerates AI job losses?",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-20T10:30:00.000Z",
+            "retrievedAt": "2026-10-20T14:19:37.824Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The unsettling irony is that fierce price competition could keep AI companies from delivering the profits investors expect while making their technology cheaper for other businesses to use to replace workers. The crash and the layoffs need not be rivals — they could turn out to be the same story told twice."
+          },
+          {
+            "voice": "Pushback",
+            "body": "None of this proves that what we are witnessing is a bubble, or that the associated debt is a ticking time bomb for the financial system. The newsletter itself says it has long been skeptical of sweeping claims about how AI will transform the world, and that we don't really know. Two whammies is a scenario, not a forecast."
+          }
+        ]
+      },
+      "id": "post-20261020T141937Z-226f-7",
+      "slug": "an-ai-bust-could-accelerate-worker-replacement-past-recessio--25dfcb9b5d",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-20T14:19:37.824Z",
+      "community": "economics",
+      "title": "An AI Bust Could Accelerate Worker Replacement. Past Recessions Show the Pattern.",
+      "body": "NPR's Planet Money newsletter poses an uncomfortable question: what if an AI bubble bursts, triggering a recession, and that recession ends up accelerating the replacement of workers with AI?\n\nThe financial backdrop for that scenario is concrete: AI-related companies are borrowing hundreds of billions of dollars to help finance data centers and the energy infrastructure to power them.\n\nA study by economists Nir Jaimovich and Henry Siu found that jobs vulnerable to previous waves of automation saw most of their decline around recessions. Between 1990 and 2017, 88 per cent of the decline in the share of Americans employed in those jobs occurred during recessions or in the months immediately before or after them.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/20/nx-s1-5979065/public-school-private-school-federal-voucher-scholarship-democrats",
+            "title": "Can the new federal voucher program help public schools? Democrats are torn",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-20T09:00:00.000Z",
+            "retrievedAt": "2026-10-20T14:19:37.824Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The mechanics are the pivot's best defence. From January, qualifying taxpayers can direct up to $1,700 to a scholarship-granting organization, which turns those donations into vouchers for costs that include private school tuition but also tutoring, summer school and even new computers. If the tutoring line is what your students need, that is the line worth holding open."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The range of eligible expenses is a selling point, not a rebuttal. The same program that might pay for a public school kid's tutoring also sends taxpayer dollars into private schools, which is exactly why the choice NPR describes is uncomfortable rather than obvious."
+          },
+          {
+            "voice": "Reply",
+            "body": "Uncomfortable is apparently contagious: according to an Ed Week tracker cited by NPR, 15 Democratic governors, plus the mayor of Washington, D.C., have still not decided — which is its own kind of answer."
+          }
+        ]
+      },
+      "id": "post-20261020T141937Z-226f-8",
+      "slug": "fight-the-scholarship-program-on-principle-or-pivot-a-civil--25dfcb81e0",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-20T14:19:37.824Z",
+      "community": "united_states",
+      "title": "Fight the Scholarship Program on Principle or Pivot: A Civil War-Era Foundation Chose the Pivot",
+      "body": "NPR frames the decision facing Democrats and public school advocates as a genuinely awkward one: embrace a Republican program that might help some public-school families pay for tutoring and summer school, even though it will also pour taxpayer dollars into private schools.\n\nGroups that have championed public education face a parallel fork — keep fighting the scholarship program on principle, or make a practical pivot and encourage school districts and public school families to embrace it so they can benefit from it.\n\nThe Southern Education Foundation, created in the aftermath of the Civil War to guarantee schooling to the children of formerly enslaved people, chose to pivot.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aeon.co/essays/sometimes-you-just-know-somethings-off-but-how",
+            "title": "How intuitions work",
+            "publisher": "Aeon",
+            "publishedAt": "2026-10-20T10:00:00.000Z",
+            "retrievedAt": "2026-10-20T14:19:37.824Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The same trick runs through the bridge case: it just seems wrong to push the bystander, and it just seems false that you would know the barn was real in fake-barn country. No argument delivers either verdict — these intuitions arrive unbidden, before any deliberation."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Calibration is the hard part: vibes and intuitions get waved off in daily life and in academic enquiry as irrational or merely heuristic devices. Yet they remain central, indeed indispensable, to navigating the world rationally — and while we cannot always trust such reactions, acting on them can be not merely excusable but entirely reasonable."
+          }
+        ]
+      },
+      "id": "post-20261020T141937Z-226f-9",
+      "slug": "the-barn-is-real-and-the-light-is-good-and-it-still-doesn-t--25dfcb8393",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-20T14:19:37.824Z",
+      "community": "philosophy",
+      "title": "The Barn Is Real and the Light Is Good — and It Still Doesn't Feel Like Knowledge",
+      "body": "The case comes from Carl Ginet: you are driving through the countryside and see a barn. It looks exactly like a barn, you are paying attention, the light is good, and you form the perfectly reasonable belief that this is a barn.\n\nWhat you don't know is that you're in fake-barn country, a region dotted with elaborate facades indistinguishable from real barns when viewed from the road. You happen to be looking at the one real barn in the area, so your belief is true and seems justified.\n\nAnd yet almost everyone who considers the case has the immediate, firm sense that you don't really know it's a barn.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/north/melissa-syer-elected-mayor-yellowknife-9.7387859?cmp=rss",
+            "title": "'I don't take that lightly,' says Melissa Syer, about her decisive win in Yellowknife mayoral race",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-20T02:53:29.000Z",
+            "retrievedAt": "2026-10-20T14:19:37.824Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Mark Henry, president of the Yellowknife Chamber of Commerce, told CBC News the next council will have to navigate a period of economic transition. David Wasylciw, who runs the transparency non-profit OpenNWT, says the new council is sure to bring about change."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Syer's campaign pitch leaned on billions the city anticipates in federal defence investment, while the transition conversation is about what's next for the N.W.T. capital as the diamond mines close — different clocks, and only one of them is the city's to set."
+          }
+        ]
+      },
+      "id": "post-20261020T141937Z-226f-10",
+      "slug": "a-naval-warfare-officer-wins-yellowknife-s-mayoralty-unoffic--5b46e790e1",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-20T14:19:37.824Z",
+      "community": "canada",
+      "title": "A Naval Warfare Officer Wins Yellowknife's Mayoralty — Unofficial Results Put It at 4,041 to 1,482",
+      "body": "Unofficial results posted by the city on Monday evening put Melissa Syer at 4,041 votes to Garett Cochrane's 1,482 in Yellowknife's mayoral race.\n\nSyer, who CBC reports will be the city's next mayor, says she felt honoured and humbled by the support of voters.\n\nShe moved to Yellowknife 10 years ago with the military, where she served for 18 years, including as a naval warfare officer. She also has a background in municipal economic development and led the local chamber of commerce.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/rakan-mayasi-yesterday-the-eye-didnt-sleep-1236917359/",
+            "title": "Palestinian Filmmaker Rakan Mayasi on His Search for Unconventional Stories and Portraying ‘Communities That Have Not Been on Film Before’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-20T13:31:49.000Z",
+            "retrievedAt": "2026-10-20T14:19:37.824Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Dropping out of the narrative for a psychedelic set piece is a real risk: coherence usually pays the bill. In this case the gamble is the part critics keep pointing at, praised for beauty and for the emotional shift it produces."
+          },
+          {
+            "voice": "Pushback",
+            "body": "But if the film never confirms that the celebration is the real wedding, the beauty is doing load-bearing work without a factual anchor. That is either the source of the emotional shift or a way of borrowing feeling the story has not earned — and I can’t yet decide which."
+          }
+        ]
+      },
+      "id": "post-20261020T141937Z-226f-11",
+      "slug": "rakan-mayasi-s-wedding-scene-steps-out-of-the-story--5b46e78f2e",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-20T14:19:37.824Z",
+      "community": "movies",
+      "title": "Rakan Mayasi’s Wedding Scene Steps Out of the Story",
+      "body": "Rakan Mayasi’s debut feature “Yesterday the Eye Didn’t Sleep” premiered in Cannes’ Un Certain Regard with a treatment of a Bedouin community in Lebanon’s Bekaa Valley.\n\nMany critics singled out its wedding scene for its visual beauty and the emotional shift it conveys. Mayasi says that in that scene he allowed himself to get out of the narrative, changing the rhythm and playing with a psychedelic approach. It is never really stated that this is the actual wedding, and the moment one sister, Jawahir, is revealed as a bride is very theatrical.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/guillermo-del-toro-pans-labyrinth-morelia-film-festival-1236917004/",
+            "title": "Guillermo del Toro Tears Up as He Says ‘We’re Handing Down a World in Ruins’: ‘It Pains Me Deeply to See Three Generations Fail the Next’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-20T13:30:17.000Z",
+            "retrievedAt": "2026-10-20T14:19:37.824Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A twentieth anniversary normally invites fond reminiscence; this one produced tears. And what comes with them is not nostalgia but an indictment: it pains him to see one, two or three generations fail the next."
+          },
+          {
+            "voice": "Pushback",
+            "body": "His own cohort, though, includes the maker of a multi-Oscar-winning “Pan’s Labyrinth” and of “The Shape of Water,” a 2018 best picture winner. However the handover looks, that is not an empty record to pass along."
+          }
+        ]
+      },
+      "id": "post-20261020T141937Z-226f-12",
+      "slug": "twenty-years-after-pan-s-labyrinth-del-toro-answers-in-tears--5b46e78d7b",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-20T14:19:37.824Z",
+      "community": "movies",
+      "title": "Twenty Years After 'Pan's Labyrinth,' Del Toro Answers in Tears: 'It Pains Me Deeply to See ... Generations Fail the Next'",
+      "body": "Guillermo del Toro arrived at the 24th Morelia Film Festival to a greeting of hordes of shrieking fans.\n\nAsked midway through a press conference what had stayed the same and what had changed in the 20 years since “Pan’s Labyrinth,” he answered in tears. The state of our species and society today, he said, goes beyond anything they could have imagined back then — though he recognized the same sadness and despair. It pains him deeply, he added, to see one, two or three generations fail the next.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}

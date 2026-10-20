@@ -2518,7 +2518,20 @@
     "ai game clones are making indie developers afraid to show their work",
     "developers can now access sagemaker studio through the new aws experience",
     "stelco s u s owner says steelmaker had strongest quarter since acquisition as massive layoffs underway",
-    "ai could absolutely replace human actors ceo of generative ai startup runway says at italy s view conference it s already happening in a way"
+    "ai could absolutely replace human actors ceo of generative ai startup runway says at italy s view conference it s already happening in a way",
+    "uk asks apple to widen access to its payment tech",
+    "landmark cowichan nation appeal sparks warnings of chaotic situation",
+    "jobless rate falls but small firms cut back hiring",
+    "visiting slate s first showroom as its 25 000 electric truck nears production",
+    "meta muse exposes users personal and business secrets when they share conversations",
+    "frankenstein the vampyre and the spirit of the humanities",
+    "two provinces two paths alberta rejects independence as québec weighs its own referendum",
+    "what if an ai bubble bursts and that accelerates ai job losses",
+    "can the new federal voucher program help public schools democrats are torn",
+    "how intuitions work",
+    "i don t take that lightly says melissa syer about her decisive win in yellowknife mayoral race",
+    "palestinian filmmaker rakan mayasi on his search for unconventional stories and portraying communities that have not been on film before",
+    "guillermo del toro tears up as he says we re handing down a world in ruins it pains me deeply to see three generations fail the next"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -5038,12 +5051,25 @@
     "https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/",
     "https://aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience/",
     "https://www.cbc.ca/news/canada/hamilton/cleveland-cliffs-stelco-strongest-quarter-9.7387277?cmp=rss",
-    "https://variety.com/2026/tv/global/ai-could-replace-actors-runway-ceo-cristobal-valenzuela-1236916525/"
+    "https://variety.com/2026/tv/global/ai-could-replace-actors-runway-ceo-cristobal-valenzuela-1236916525/",
+    "https://www.bbc.co.uk/news/articles/cqm26zzl0k12o",
+    "https://www.cbc.ca/news/canada/british-columbia/cowichan-appeal-stay-arguments-warnings-9.7383876?cmp=rss",
+    "https://www.bbc.co.uk/news/articles/c6eq327pzr53o",
+    "https://arstechnica.com/cars/2026/10/visiting-slates-first-showroom-as-its-25000-electric-truck-nears-production/",
+    "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+    "https://daily.jstor.org/frankenstein-the-vampyre-and-the-spirit-of-the-humanities/",
+    "https://theconversation.com/two-provinces-two-paths-alberta-rejects-independence-as-quebec-weighs-its-own-referendum-294387",
+    "https://www.npr.org/sections/planet-money/2026/10/20/g-s1-148305/what-if-an-ai-bubble-bursts-and-that-accelerates-ai-job-losses",
+    "https://www.npr.org/2026/10/20/nx-s1-5979065/public-school-private-school-federal-voucher-scholarship-democrats",
+    "https://aeon.co/essays/sometimes-you-just-know-somethings-off-but-how",
+    "https://www.cbc.ca/news/canada/north/melissa-syer-elected-mayor-yellowknife-9.7387859?cmp=rss",
+    "https://variety.com/2026/film/global/rakan-mayasi-yesterday-the-eye-didnt-sleep-1236917359/",
+    "https://variety.com/2026/film/global/guillermo-del-toro-pans-labyrinth-morelia-film-festival-1236917004/"
   ],
   "initialized": true,
-  "cycleCount": 157,
+  "cycleCount": 158,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-10-20T08:35:30.930Z",
+  "lastRunAt": "2026-10-20T14:19:37.824Z",
   "communities": [
     "technology",
     "science",
@@ -5065,11 +5091,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20261019T172750Z-977d",
-      "generatedAtCycle": 153,
-      "summary": "Britain Saw 3,000 Asking-Price Cuts a Day in September — and Reduced Homes Are Half as Likely to Sell Within Three Months; The Microphone That Has to Spin: Why a Standing One Can't Diagnose a Jet Engine's Whine; Vinted Says It Removed Looted-Goods Listings After France's Riots; eBay Reports No Surge; Modelling Suggests Phosphorus Losses Cluster in a Few Fields While Nitrogen Spreads Widely; Register First: How vLLM's Push Mode Takes KV Transfer Off the Critical Path; The FBI Arrested a Former Ex"
-    },
-    {
       "batchId": "20261019T203627Z-97e3",
       "generatedAtCycle": 154,
       "summary": "The DeepSeek Order Reaches Tools Built With Its Models, and It Took Effect Back in July; Lime to London's Would-Be Knights: Our Bikes Are Not for Jousting; ReactOS Can Now Install to an NTFS Partition, With Caching, Journaling and Security Still Missing; Winnipeg Inquiry Finds Katz 'Violated the Public Trust' and Sheegl Showed 'a Complete Lack of a Moral Compass'; Florida's driver-data breach notices may not reach many former residents; MIT bakes left-right symmetry into a model that tracks a mo"
@@ -5088,6 +5109,11 @@
       "batchId": "20261020T083530Z-de5d",
       "generatedAtCycle": 157,
       "summary": "The Gravity Gap: How Two Tandem Satellites Measure Water and Ice From Orbit; The DOJ Charged 28 Noncitizens in California — All Green-Card Holders, a Number Who Don't Appear to Have Voted; Díaz Guaranteed a Game 6 Win — Then Gave the Rays a Four-Run Lead; Seventh Day of Clashes in Albania as Protesters Press to Oust Edi Rama; Roofless in Scarborough: Police Investigate a Possible Fraud While an Insurer Denies Most of the Claim; Andy Burnham's New Rules Would Give Drivers the Right to Challenge '"
+    },
+    {
+      "batchId": "20261020T141937Z-226f",
+      "generatedAtCycle": 158,
+      "summary": "Britain's Watchdog Says Apple's Contactless Fees Are Blocking Fintechs; The Cowichan Title Ruling Heads to Appeal, With Stays Sought Before It Takes Effect; UK Jobless Rate Falls to 4.7% While Vacancies Keep Sliding; Slate Opens Its First Showroom for a $24,950 Electric Pickup; Researchers Enumerated 6,800 Muse Share Links and Found Private Material in Some; A Group Challenge to Write a Chilling Tale Produced Frankenstein and The Vampyre; Alberta Voted to Stay in Canada. Québec's Reasons to Leav"
     }
   ]
 }
