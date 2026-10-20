@@ -2488,7 +2488,24 @@
     "ai proved the quasi riemann hypothesis what happens now",
     "ask me anything",
     "longtime cnn anchor christiane amanpour leaving network after a storied career of 43 years",
-    "unifor stellantis workers in ontario vote 97 in favour of strike mandate with talks still stalled"
+    "unifor stellantis workers in ontario vote 97 in favour of strike mandate with talks still stalled",
+    "morocco s first female prime minister caught between the king clerics and feminists",
+    "nasa s simulated mars crew marks one year inside habitat",
+    "five ways el niño is affecting the weather around the world",
+    "psa patch your plex media server before someone hacks it",
+    "you can see everything sets oscar campaigns for best picture supporting actress and more categories",
+    "shortening canadian teacher education risks devaluing the profession of teaching",
+    "dfo searching for injured whale struck by b c ferries vessel in howe sound",
+    "batteries help reduce emissions but how do we reduce their emissions",
+    "n l man sentenced to 7 years in prison for shooting snowmobiler in the head",
+    "banijay ceo marco bassetti urges european producers to fight for better terms of trade with hollywood studios and streamers should provide rewards for creativity",
+    "amazon sagemaker jumpstart 2026 year to date in review",
+    "judge chastises trump administration plan to push ahead overhaul of dc golf course",
+    "structured outputs for anthropic claude models on amazon bedrock",
+    "martian dawn",
+    "s p a c e s",
+    "french authorities impose curfews after weekend rioting",
+    "2026 midterms could be the most expensive on record and macron condemns protests"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -4978,12 +4995,29 @@
     "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
     "https://psyche.co/videos/what-happens-when-a-sudanese-refugee-lets-strangers-ask-him-anything",
     "https://www.pbs.org/newshour/nation/longtime-cnn-anchor-christiane-amanpour-leaving-network-after-a-storied-career-of-43-years",
-    "https://www.cbc.ca/news/canada/windsor/unifor-stellantis-favour-strike-mandate-9.7386680?cmp=rss"
+    "https://www.cbc.ca/news/canada/windsor/unifor-stellantis-favour-strike-mandate-9.7386680?cmp=rss",
+    "https://www.bbc.co.uk/news/articles/cmqxn4gggdw4o",
+    "https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/",
+    "https://www.bbc.co.uk/weather/articles/c6dx07dznpyyo",
+    "https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware/",
+    "https://variety.com/2026/film/awards/you-can-see-everything-oscars-eligibility-awards-1236916699/",
+    "https://theconversation.com/shortening-canadian-teacher-education-risks-devaluing-the-profession-of-teaching-291238",
+    "https://www.cbc.ca/news/canada/british-columbia/b-c-ferries-strikes-humpback-whale-howe-sound-9.7386868?cmp=rss",
+    "https://arstechnica.com/science/2026/10/batteries-have-a-small-carbon-footprint-we-can-make-it-smaller/",
+    "https://www.cbc.ca/news/canada/newfoundland-labrador/harold-wayne-hynes-7-years-9.7387181?cmp=rss",
+    "https://variety.com/2026/film/global/banijay-ceo-marco-bassetti-european-terms-trade-hollywood-1236916272/",
+    "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-jumpstart-2026-year-to-date-in-review/",
+    "https://www.npr.org/2026/10/19/nx-s1-6007746/golf-course-potomac-white-house-tree-removal",
+    "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock/",
+    "https://www.nasa.gov/image-article/martian-dawn/",
+    "https://psyche.co/videos/whats-it-like-to-remember-your-past-but-forget-your-present",
+    "https://www.pbs.org/newshour/show/french-authorities-impose-curfews-after-weekend-rioting",
+    "https://www.npr.org/2026/10/19/g-s1-148733/up-first-newsletter-ukraine-russia-campaign-finances-france-protests"
   ],
   "initialized": true,
-  "cycleCount": 155,
+  "cycleCount": 156,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-10-19T21:05:22.581Z",
+  "lastRunAt": "2026-10-20T00:22:50.244Z",
   "communities": [
     "technology",
     "science",
@@ -5005,11 +5039,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20261019T045037Z-a30d",
-      "generatedAtCycle": 151,
-      "summary": "Anthropic's Public Benefit Fund: 5% of Shares Now, Another 2% if the Board Says So; A 59-Second Bigfoot Film, and a Documentary That Promises ‘Until Now’; Autumn Comes to Bieszczady When the Beeches Stop Making Green; China's Economy Picked Up to 4.5% as the AI Boom Helped Lift Exports; A Startup Chasing On-Demand Sunlight Buys Two Rides From India's Skyroot; Jesse Eisenberg Says a Razzie Cost Him Studio Roles, So He Turned to Directing; Three Versions of Who Restricted Ukraine's Starshield Acce"
-    },
-    {
       "batchId": "20261019T132204Z-daa8",
       "generatedAtCycle": 152,
       "summary": "Uber's £340m cab claims were thrown out on timing, never tested on the truth; Election results take days when margins are thin and mail ballots arrive last; Civil Service Pension Delays Meet a Two-Year Tax Deadline; Lucca's 60th Edition Books the Games-and-Cinema Crossover; The Airship That Wants to Be a Cell Tower: Helium for Lift, a Propeller for Staying Put; Lorenzo de’ Medici’s 1492 inventory listed five firearms; his descendant’s storerooms held 91 by 1539; A deep ocean Kelvin wave is lifti"
@@ -5028,6 +5057,11 @@
       "batchId": "20261019T210522Z-eb5b",
       "generatedAtCycle": 155,
       "summary": "Skip the Party, Take Over a Governing One: Alberta's Separatist Turn; Kenyan cult leader Paul Mackenzie convicted of murdering 191 people, nearly all of them children; Why Recycling a Tonne of Metal Rarely Spares a Tonne of Ore; The KV Cache That Travels Both Ways Between Prefill and Decode; The Maple Syrup Reserve Is Empty, So Quebec's Weather Is the Buffer Now; Why NASA's Jet-Noise Dome Is Lined With 17,000 Fibreglass Wedges; Police Have Not Said an Australian MP Was Hit Deliberately; the Prim"
+    },
+    {
+      "batchId": "20261020T002250Z-7d94",
+      "generatedAtCycle": 156,
+      "summary": "Morocco's First Female Prime Minister Arrives With a Two-Decade-Low Turnout; One Year Into NASA's 1,700-Square-Foot Simulated Mars Habitat; Why El Niño Makes One Ocean Busy and the Other Quiet; Someone Stood Up a Fake Plex Server. The Scans Arrived Within a Day.; Amanda Seyfried Will Be Campaigned for Supporting Actress in an A24 Documentary That Opened to $15 Million; Canada Is Shortening Teacher Training. England's Evidence Suggests That Can Weaken How Teaching Is Valued.; A Humpback Whale Was"
     }
   ]
 }
