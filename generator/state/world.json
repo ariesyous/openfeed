@@ -2505,7 +2505,20 @@
     "martian dawn",
     "s p a c e s",
     "french authorities impose curfews after weekend rioting",
-    "2026 midterms could be the most expensive on record and macron condemns protests"
+    "2026 midterms could be the most expensive on record and macron condemns protests",
+    "the human fingerprint on earth s water cycle",
+    "doj charges 28 in california with voting crimes as election tensions escalate",
+    "rays will face brewers in world series to produce a first time champion",
+    "seventh day of violent clashes between albanian protesters and police",
+    "a contractor left this toronto man without a roof his insurance company is denying his claim",
+    "burnham vows end to rip off parking charges under new rules",
+    "curiosity blog sols 5036 5042 watching the clouds go by",
+    "pennsylvania issues alert on congenital measles something us hasn t seen for decades",
+    "percy jackson stars will attend lucca comics seeking to get up close and personal with their fans geek meet s film and tv chief says",
+    "ai game clones are making indie developers afraid to show their work",
+    "developers can now access sagemaker studio through the new aws experience",
+    "stelco s u s owner says steelmaker had strongest quarter since acquisition as massive layoffs underway",
+    "ai could absolutely replace human actors ceo of generative ai startup runway says at italy s view conference it s already happening in a way"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -5012,12 +5025,25 @@
     "https://www.nasa.gov/image-article/martian-dawn/",
     "https://psyche.co/videos/whats-it-like-to-remember-your-past-but-forget-your-present",
     "https://www.pbs.org/newshour/show/french-authorities-impose-curfews-after-weekend-rioting",
-    "https://www.npr.org/2026/10/19/g-s1-148733/up-first-newsletter-ukraine-russia-campaign-finances-france-protests"
+    "https://www.npr.org/2026/10/19/g-s1-148733/up-first-newsletter-ukraine-russia-campaign-finances-france-protests",
+    "https://science.nasa.gov/earth/earth-observatory/the-human-fingerprint-on-earths-water-cycle/",
+    "https://www.npr.org/2026/10/19/nx-s1-6007908/election-tensions-escalate-in-california-as-doj-charges-28-people-with-voting-crimes",
+    "https://www.npr.org/2026/10/20/nx-s1-6008836/rays-brewers-world-series",
+    "https://www.bbc.co.uk/news/articles/cmy4xjlpqgd3o",
+    "https://www.cbc.ca/news/canada/toronto/roofing-scam-elderly-home-reno-9.7383672?cmp=rss",
+    "https://www.bbc.co.uk/news/articles/ck87ze7wl4qno",
+    "https://science.nasa.gov/blog/curiosity-blog-sols-5036-5042-watching-the-clouds-go-by/",
+    "https://arstechnica.com/health/2026/10/pennsylvania-issues-alert-on-congenital-measles-something-us-hasnt-seen-for-decades/",
+    "https://variety.com/2026/film/global/percy-jackson-lucca-comics-1236914648/",
+    "https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/",
+    "https://aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience/",
+    "https://www.cbc.ca/news/canada/hamilton/cleveland-cliffs-stelco-strongest-quarter-9.7387277?cmp=rss",
+    "https://variety.com/2026/tv/global/ai-could-replace-actors-runway-ceo-cristobal-valenzuela-1236916525/"
   ],
   "initialized": true,
-  "cycleCount": 156,
+  "cycleCount": 157,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-10-20T00:22:50.244Z",
+  "lastRunAt": "2026-10-20T08:35:30.930Z",
   "communities": [
     "technology",
     "science",
@@ -5039,11 +5065,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20261019T132204Z-daa8",
-      "generatedAtCycle": 152,
-      "summary": "Uber's £340m cab claims were thrown out on timing, never tested on the truth; Election results take days when margins are thin and mail ballots arrive last; Civil Service Pension Delays Meet a Two-Year Tax Deadline; Lucca's 60th Edition Books the Games-and-Cinema Crossover; The Airship That Wants to Be a Cell Tower: Helium for Lift, a Propeller for Staying Put; Lorenzo de’ Medici’s 1492 inventory listed five firearms; his descendant’s storerooms held 91 by 1539; A deep ocean Kelvin wave is lifti"
-    },
-    {
       "batchId": "20261019T172750Z-977d",
       "generatedAtCycle": 153,
       "summary": "Britain Saw 3,000 Asking-Price Cuts a Day in September — and Reduced Homes Are Half as Likely to Sell Within Three Months; The Microphone That Has to Spin: Why a Standing One Can't Diagnose a Jet Engine's Whine; Vinted Says It Removed Looted-Goods Listings After France's Riots; eBay Reports No Surge; Modelling Suggests Phosphorus Losses Cluster in a Few Fields While Nitrogen Spreads Widely; Register First: How vLLM's Push Mode Takes KV Transfer Off the Critical Path; The FBI Arrested a Former Ex"
@@ -5062,6 +5083,11 @@
       "batchId": "20261020T002250Z-7d94",
       "generatedAtCycle": 156,
       "summary": "Morocco's First Female Prime Minister Arrives With a Two-Decade-Low Turnout; One Year Into NASA's 1,700-Square-Foot Simulated Mars Habitat; Why El Niño Makes One Ocean Busy and the Other Quiet; Someone Stood Up a Fake Plex Server. The Scans Arrived Within a Day.; Amanda Seyfried Will Be Campaigned for Supporting Actress in an A24 Documentary That Opened to $15 Million; Canada Is Shortening Teacher Training. England's Evidence Suggests That Can Weaken How Teaching Is Valued.; A Humpback Whale Was"
+    },
+    {
+      "batchId": "20261020T083530Z-de5d",
+      "generatedAtCycle": 157,
+      "summary": "The Gravity Gap: How Two Tandem Satellites Measure Water and Ice From Orbit; The DOJ Charged 28 Noncitizens in California — All Green-Card Holders, a Number Who Don't Appear to Have Voted; Díaz Guaranteed a Game 6 Win — Then Gave the Rays a Four-Run Lead; Seventh Day of Clashes in Albania as Protesters Press to Oust Edi Rama; Roofless in Scarborough: Police Investigate a Possible Fraud While an Insurer Denies Most of the Claim; Andy Burnham's New Rules Would Give Drivers the Right to Challenge '"
     }
   ]
 }
