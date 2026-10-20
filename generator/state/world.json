@@ -2531,7 +2531,26 @@
     "how intuitions work",
     "i don t take that lightly says melissa syer about her decisive win in yellowknife mayoral race",
     "palestinian filmmaker rakan mayasi on his search for unconventional stories and portraying communities that have not been on film before",
-    "guillermo del toro tears up as he says we re handing down a world in ruins it pains me deeply to see three generations fail the next"
+    "guillermo del toro tears up as he says we re handing down a world in ruins it pains me deeply to see three generations fail the next",
+    "google resolves cloud outage affecting uk banks and websites",
+    "nasa provides progress update on moon base rovers",
+    "tiktok staff raised child safety alarms court records show executives failed to act",
+    "nasa experimental mars helicopter blade designs target longer flights",
+    "polestar tries to quantify what it s like to drive a performance car",
+    "sudan army drones hit mourners and fuel market killing more than 300 people sources say",
+    "why these 5 everyday items fluctuate in price at the grocery store",
+    "russian spacecraft maneuvers in extreme proximity to satellite used by ukraine",
+    "david fincher cut 60 pages of tarantino s cliff booth script the first draft was 230 pages it was essentially two movies",
+    "russian missile and drone blitz kills 9 in ukraine as zelenskyy meets u s and european officials in norway",
+    "alana mayo promoted to head of film production development alongside julie rapaport at amazon mgm studios",
+    "marine life dramatically declined in gulf of mexico in years after bp oil spill study finds",
+    "insurance for ai hyperscaler debt et al",
+    "access openai gpt models on amazon bedrock from canada with cross region inference",
+    "wainwright fire shows the importance of health care system resilience to canadian security",
+    "work management context for ai agents with smartsheet mcp on aws",
+    "protecting children from harm isn t enough welfare systems must support healing through quality mental health care",
+    "crypto king aiden pleterski s fraud trial adjourned until next week due to medical issue",
+    "plasma donation company grifols begins phased reopening of centres after 2 month hiatus"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -5064,12 +5083,31 @@
     "https://aeon.co/essays/sometimes-you-just-know-somethings-off-but-how",
     "https://www.cbc.ca/news/canada/north/melissa-syer-elected-mayor-yellowknife-9.7387859?cmp=rss",
     "https://variety.com/2026/film/global/rakan-mayasi-yesterday-the-eye-didnt-sleep-1236917359/",
-    "https://variety.com/2026/film/global/guillermo-del-toro-pans-labyrinth-morelia-film-festival-1236917004/"
+    "https://variety.com/2026/film/global/guillermo-del-toro-pans-labyrinth-morelia-film-festival-1236917004/",
+    "https://www.bbc.co.uk/news/articles/cxdd8mm6qy4mo",
+    "https://www.nasa.gov/missions/moon-base/nasa-provides-progress-update-on-moon-base-rovers/",
+    "https://www.npr.org/2026/10/20/nx-s1-6005809/tiktok-child-safety-money-laundering",
+    "https://www.nasa.gov/science-research/aeronautics-research/nasa-experimental-mars-helicopter-blade-designs-target-longer-flights/",
+    "https://arstechnica.com/cars/2026/10/polestar-tries-to-quantify-what-its-like-to-drive-a-performance-car/",
+    "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo",
+    "https://www.npr.org/2026/10/20/nx-s1-5989636/grocery-prices-eggs-coffee-inflation",
+    "https://arstechnica.com/space/2026/10/russian-spacecraft-maneuvers-in-extreme-proximity-to-satellite-used-by-ukraine/",
+    "https://variety.com/2026/film/news/david-fincher-cut-tarantino-cliff-booth-script-60-pages-1236917825/",
+    "https://www.pbs.org/newshour/world/russian-missile-and-drone-blitz-kills-9-in-ukraine-as-zelenskyy-meets-u-s-and-european-officials-in-norway",
+    "https://variety.com/2026/film/news/amazon-mgm-julie-rapaport-alana-mayo-heads-of-film-production-development-1236917826/",
+    "https://www.pbs.org/newshour/science/marine-life-dramatically-declined-in-gulf-of-mexico-in-years-after-bp-oil-spill-study-finds",
+    "https://econbrowser.com/archives/2026/10/insurance-for-ai-hyperscaler-debt-et-al",
+    "https://aws.amazon.com/blogs/machine-learning/access-openai-gpt-models-on-amazon-bedrock-from-canada-with-cross-region-inference/",
+    "https://theconversation.com/wainwright-fire-shows-the-importance-of-health-care-system-resilience-to-canadian-security-294715",
+    "https://aws.amazon.com/blogs/machine-learning/work-management-context-for-ai-agents-with-smartsheet-mcp-on-aws/",
+    "https://theconversation.com/protecting-children-from-harm-isnt-enough-welfare-systems-must-support-healing-through-quality-mental-health-care-292733",
+    "https://www.cbc.ca/news/canada/toronto/crypto-king-aiden-pleterskis-fraud-trial-adjourned-until-next-week-due-to-medical-issue-9.7388586?cmp=rss",
+    "https://www.cbc.ca/news/canada/manitoba/grifols-plasma-donation-resumption-9.7388170?cmp=rss"
   ],
   "initialized": true,
-  "cycleCount": 158,
+  "cycleCount": 159,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-10-20T14:19:37.824Z",
+  "lastRunAt": "2026-10-20T19:18:37.011Z",
   "communities": [
     "technology",
     "science",
@@ -5091,11 +5129,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20261019T203627Z-97e3",
-      "generatedAtCycle": 154,
-      "summary": "The DeepSeek Order Reaches Tools Built With Its Models, and It Took Effect Back in July; Lime to London's Would-Be Knights: Our Bikes Are Not for Jousting; ReactOS Can Now Install to an NTFS Partition, With Caching, Journaling and Security Still Missing; Winnipeg Inquiry Finds Katz 'Violated the Public Trust' and Sheegl Showed 'a Complete Lack of a Moral Compass'; Florida's driver-data breach notices may not reach many former residents; MIT bakes left-right symmetry into a model that tracks a mo"
-    },
-    {
       "batchId": "20261019T210522Z-eb5b",
       "generatedAtCycle": 155,
       "summary": "Skip the Party, Take Over a Governing One: Alberta's Separatist Turn; Kenyan cult leader Paul Mackenzie convicted of murdering 191 people, nearly all of them children; Why Recycling a Tonne of Metal Rarely Spares a Tonne of Ore; The KV Cache That Travels Both Ways Between Prefill and Decode; The Maple Syrup Reserve Is Empty, So Quebec's Weather Is the Buffer Now; Why NASA's Jet-Noise Dome Is Lined With 17,000 Fibreglass Wedges; Police Have Not Said an Australian MP Was Hit Deliberately; the Prim"
@@ -5114,6 +5147,11 @@
       "batchId": "20261020T141937Z-226f",
       "generatedAtCycle": 158,
       "summary": "Britain's Watchdog Says Apple's Contactless Fees Are Blocking Fintechs; The Cowichan Title Ruling Heads to Appeal, With Stays Sought Before It Takes Effect; UK Jobless Rate Falls to 4.7% While Vacancies Keep Sliding; Slate Opens Its First Showroom for a $24,950 Electric Pickup; Researchers Enumerated 6,800 Muse Share Links and Found Private Material in Some; A Group Challenge to Write a Chilling Tale Produced Frankenstein and The Vampyre; Alberta Voted to Stay in Canada. Québec's Reasons to Leav"
+    },
+    {
+      "batchId": "20261020T191837Z-a41c",
+      "generatedAtCycle": 159,
+      "summary": "Google Cloud's London Region Faltered, and UK Banks and Courts Felt It; NASA Wants the Crewed Moon Base Rovers Delivered Before the Artemis Crews Arrive; TikTok Staff Raised Child Safety Alarms; Court Records Show Frustration With Leadership; NASA's New Mars Airfoil Could Stretch a Single Helicopter Flight From 0.7 km to 18.7 km; Polestar Wants to Measure the Driver, Not Just the Car; Sudan's Army Accused of Drone Strikes That Reportedly Killed More Than 300; Why a Dozen Eggs Swings So Hard: Bir"
     }
   ]
 }
