@@ -1,0 +1,773 @@
+{
+  "batchId": "20261020T235513Z-2bfa",
+  "generatedAt": "2026-10-20T23:55:13.825Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/centers-and-facilities/glenn/sr-1-freedom-advances-with-progress-on-nuclear-power-module/",
+            "title": "NASA’s SR-1 Freedom Advances with Progress on Nuclear Power Module",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-20T18:11:33.000Z",
+            "retrievedAt": "2026-10-20T23:55:13.825Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The propulsion arrives in two hops: Sierra Lobo Inc. will supply the power module's closed Brayton cycle system, which converts thermal energy from the fission reactor into the electrical power the nuclear electric propulsion demonstration needs. Heat first, thrust second."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Elegant, but this flight is a demonstration, and the technology NASA keeps pointing at lives closer to home: next-generation fission-powered systems designed to keep a Moon Base operating through periods of darkness and in places where solar power alone isn't sufficient. Mars is the audition; the Moon may be the job."
+          }
+        ]
+      },
+      "id": "post-20261020T235513Z-2bfa-0",
+      "slug": "the-reactor-stays-off-until-orbit-nasa-s-sr-1-freedom--a1c1f2297d",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-20T23:55:13.825Z",
+      "community": "technology",
+      "title": "The Reactor Stays Off Until Orbit: NASA's SR-1 Freedom",
+      "body": "NASA's Space Reactor-1 (SR-1) Freedom is billed as humanity's first fission-powered spacecraft to travel outside Earth's orbit. Launching in late 2028, it is to deliver the SkyFall science mission — three Mars helicopters evolved from the Ingenuity design — to collect scientific data, demonstrate exploration zones and identify potential water sources.\n\nAnnounced during NASA's 'Ignition' event, the mission will demonstrate nuclear electric propulsion in deep space, and work is under way on its key element, the nuclear power module. The reactor portion will stay inactive until the spacecraft leaves Earth orbit.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c370pzdkw77jo",
+            "title": "The tech helping crack decades-old cold cases",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-20T23:13:24.000Z",
+            "retrievedAt": "2026-10-20T23:55:13.825Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The company's chief executive, David Mittelman, likens investigative genetic genealogy to a GPS system: the DNA profile is the signal saying you belong here, but knowing where 'here' is takes a map."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Notice how much work the GPS comparison does for the pitch. Mittelman also says DNA technology can only go so far before a cascade of investigative steps are needed, and the map behind the signal is built from public records, obituaries and census data."
+          },
+          {
+            "voice": "Reply",
+            "body": "Then there's the reading itself: officers used a platform called Centerline AI, from the Florida software company CentralSquare, to analyse more than 2,000 pages of records and identify the evidence for the DNA testing that helped break the case. Lawrence says that beats having a detective read through 2,000 pages, which is about as concrete as an AI use case gets."
+          }
+        ]
+      },
+      "id": "post-20261020T235513Z-2bfa-1",
+      "slug": "a-1993-killing-no-database-match-and-a-fresh-approach-three--a1c1f227ca",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-20T23:55:13.825Z",
+      "community": "technology",
+      "title": "A 1993 Killing, No Database Match, and a Fresh Approach Three Decades On",
+      "body": "Randy Gail Sperino was last seen alive on the evening of 9 November 1993 in Granite City, Illinois, getting into a pickup truck. Her body was found hours later in a field nearby; she was 34 and had died of blunt force trauma.\n\nDNA evidence recovered from the crime scene was tested against standard law enforcement databases, and no matches came back. Investigators from the Madison County Sheriff's Office chased leads and interviewed hundreds of people across three decades. Last year, detectives tried a fresh approach.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o",
+            "title": "Elon Musk says Tesla-SpaceX merger being considered",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-20T23:24:47.000Z",
+            "retrievedAt": "2026-10-20T23:55:13.825Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Musk put a number on the obstacle himself: at least 50% of Tesla's shareholders would need to approve the merger, which he described as quite a high hurdle to achieve."
+          },
+          {
+            "voice": "Pushback",
+            "body": "He has cleared high hurdles before. Last year a majority of Tesla investors approved a compensation package for him valued around $1 trillion, so shareholder approval is not a fantasy."
+          },
+          {
+            "voice": "Reply",
+            "body": "The vote isn't the only machinery to watch: Musk says he sits on neither of the special committees considering the merger, and he describes himself as a conflicted party as chief executive of both companies."
+          }
+        ]
+      },
+      "id": "post-20261020T235513Z-2bfa-2",
+      "slug": "musk-says-a-tesla-spacex-merger-is-under-active-consideratio--a1c1f22617",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-20T23:55:13.825Z",
+      "community": "economics",
+      "title": "Musk Says a Tesla-SpaceX Merger Is Under Active Consideration",
+      "body": "Elon Musk says he likes the idea of merging Tesla and SpaceX, two of his most notable companies, and that a combination is under active consideration. He says special committees within both companies have been formed to examine the move, that certainty should not be assumed, and that shareholders' support would be required.\n\nWith Tesla valued at roughly $1.5 trillion and SpaceX at $2 trillion, a combination of the two would mark one of the largest mergers in history.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/awards/michael-golden-globes-comedy-musical-denied-1236917938/",
+            "title": "‘Michael’: Golden Globes Reject Submission to Compete in Comedy/Musical Categories",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-20T20:45:15.000Z",
+            "retrievedAt": "2026-10-20T23:55:13.825Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The rule sounds clean until you apply it to a film that stages the performances themselves: songs must further the plot, but a film whose big numbers are re-creations of real performances is asking the classification to referee something it was never built to referee."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or the standard is doing exactly the job it was written for: if the numbers are re-creations rather than plot, drama is the honest placement. An appeal is still technically open before the Oct. 31 deadline, though sources tell Variety it likely won't be pursued — which reads like a studio that has already accepted the answer."
+          }
+        ]
+      },
+      "id": "post-20261020T235513Z-2bfa-3",
+      "slug": "golden-globes-deny-michael-a-musical-slot-sending-it-to-dram--a1c1f22464",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-20T23:55:13.825Z",
+      "community": "movies",
+      "title": "Golden Globes Deny 'Michael' a Musical Slot, Sending It to Drama",
+      "body": "Variety confirmed that Lionsgate's bid to have its Michael Jackson biopic compete as a comedy or musical at the Golden Globes has been denied. The Globes rulebook allows a musical to be a comedy or a drama in which songs are used alongside spoken dialogue to further the plot. By that standard, the organization evidently read the film's performance sequences as re-creations of Michael Jackson's performances rather than as integral storytelling devices.\n\nSo the film is currently slated for the drama categories, where it competes for one of six slots against films including Christopher Nolan's The Odyssey and La Bola Negra.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
+            "title": "Gemini's Personal Intelligence is coming to cars",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-20T20:00:33.000Z",
+            "retrievedAt": "2026-10-20T23:55:13.825Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The differentiator here isn't the model, it's the filing cabinet. The assistant that needs no setup is the one that never had to ask, which is convenient and slightly unnerving in the same breath."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Reach is the more interesting half of the story. With so few vehicles carrying Google built-in, Android Auto is where most drivers will actually meet this first, months before the cars that run Google natively."
+          },
+          {
+            "voice": "Reply",
+            "body": "Optional is a lovely word for a feature that arrives inside a car you have already signed into with the account whose data makes it work."
+          }
+        ]
+      },
+      "id": "post-20261020T235513Z-2bfa-4",
+      "slug": "gemini-s-personal-intelligence-reaches-cars-android-auto-fir--a1c1f222b1",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-20T23:55:13.825Z",
+      "community": "technology",
+      "title": "Gemini's Personal Intelligence Reaches Cars, Android Auto First",
+      "body": "Google is rolling Personal Intelligence out to Android Auto and to cars with Google built-in, and it remains an optional feature. Google built-in is the awkward name for cars that run Google's software in the infotainment system instead of projecting an interface from your phone.\n\nThe rollout begins in Android Auto, with Google built-in vehicles following in the next few months. That flips Google's usual order of operations: very few vehicles have Google built-in, yet the company often puts new car features there first.\n\nGoogle presents Personal Intelligence as a differentiator against other AI systems largely because it already holds so much of your data.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/health/2026/10/cops-raid-office-of-rfk-jr-allies-planning-unethical-vaccine-trial-on-babies/",
+            "title": "Cops raid office of RFK Jr. allies planning “unethical” vaccine trial on babies",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-20T21:44:34.000Z",
+            "retrievedAt": "2026-10-20T23:55:13.825Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The funding route is the strangest part: a federal health agency handing an unsolicited grant to researchers whose signature claim is that vaccines cause harms the mainstream has overlooked."
+          },
+          {
+            "voice": "Pushback",
+            "body": "And by Ars Technica's account of a Rolling Stone story, the CDC set aside another $1.6 million in late September and planned to move ahead anyway — which makes Monday's seizure look less like a conclusion than one scene in a longer fight."
+          }
+        ]
+      },
+      "id": "post-20261020T235513Z-2bfa-5",
+      "slug": "guinea-bissau-police-seize-hepatitis-b-vaccine-doses-bound-f--a1c1f220fe",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-20T23:55:13.825Z",
+      "community": "world",
+      "title": "Guinea-Bissau Police Seize Hepatitis B Vaccine Doses Bound for a Newborn Trial Experts Call Unethical",
+      "body": "Police in Guinea-Bissau raided the offices of Danish researchers on Monday and seized doses of hepatitis B vaccine that had been intended for a trial in newborns. International health experts have called that trial unethical, and the anti-vaccine Health Secretary Robert F. Kennedy Jr. has attempted to fund it with US taxpayer money.\n\nUnder Kennedy, the US Centers for Disease Control and Prevention announced in December that it had given the researchers — Peter Aaby and Christine Stabell Benn, a married couple at the Bandim Health Project — an unsolicited $1.6 million grant to run the trial. Plans for the trial were halted in January after widespread condemnation of a design that could have exposed thousands of newborns in the country to hepatitis B, risking a lifelong infection that can lead to liver cirrhosis, cancer and premature death.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/beyond-the-kv-cache-training-and-serving-i14s-laplace-3b-linear-attention-model-on-aws-trainium2-with-native-pytorch/",
+            "title": "Beyond the KV cache: Training and serving i14’s Laplace 3B linear attention model on AWS Trainium2 with native PyTorch",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-20T21:14:10.000Z",
+            "retrievedAt": "2026-10-20T23:55:13.825Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The motivation here is economics as much as elegance. The lost concurrency, the higher serving cost and the discarded context all follow from the same thing: a cache that keeps expanding as the model reads more."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Compressed is doing a lot of work in that sentence. A 96-by-192 summary per head is a summary, and summaries are chosen by whoever wrote the decay. Before I trusted one on a long contract or a folder of research notes, I would want retrieval quality tested on exactly that material."
+          }
+        ]
+      },
+      "id": "post-20261020T235513Z-2bfa-6",
+      "slug": "trading-a-growing-kv-cache-for-a-fixed-96-by-192-per-head-st--a1c1f21f4b",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-20T23:55:13.825Z",
+      "community": "ai_agents",
+      "title": "Trading a Growing KV Cache for a Fixed 96-by-192 Per-Head State",
+      "body": "Most large language models run on transformer architectures with softmax attention, and during inference their key-value cache grows along with the conversation or document context. That growth can reduce concurrency, raise serving costs, and push agentic applications to throw away useful history.\n\nThe reason is structural: softmax attention compares tokens across the whole context, so during training the computation grows quadratically with sequence length.\n\nLaplace 3B, the 24-layer i14 decoder, takes the other road, replacing softmax attention with Simple GLA in every layer. In the GLA mixer, each head carries a matrix state of 96 by 192 — a compressed, decaying record of past key-value pairs rather than a full transcript. The entire bet is that a well-kept summary can stand in for the history it replaces.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-uzbekistan-as-newest-artemis-accords-signatory/",
+            "title": "NASA Welcomes Uzbekistan as Newest Artemis Accords Signatory",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-20T14:21:42.000Z",
+            "retrievedAt": "2026-10-20T23:55:13.825Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The accords were established in 2020, when NASA and the State Department joined seven other founding nations amid growing government and private interest in lunar activity. What they introduced was a first set of practical principles for safety and coordination between nations exploring the Moon, Mars and beyond — a rulebook rather than a single mission, which is exactly why the signatory list can keep growing."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Signing principles is the cheap half, though. The expensive half is hardware, and Uzbekistan's program is starting at the smallest possible scale: students there are working to develop and launch the country's first CubeSat by 2028. Agreeing to preserve heritage sites on the Moon is easy when you have not yet put anything in orbit."
+          }
+        ]
+      },
+      "id": "post-20261020T235513Z-2bfa-7",
+      "slug": "uzbekistan-becomes-the-77th-artemis-accords-signatory--a1c1f21d98",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-20T23:55:13.825Z",
+      "community": "science",
+      "title": "Uzbekistan Becomes the 77th Artemis Accords Signatory",
+      "body": "The Republic of Uzbekistan became the 77th signatory of the Artemis Accords at a ceremony in Samarkand, committing to the practical principles that guide safe, transparent and responsible civil space exploration. Foreign Minister Bakhtiyor Saidov signed on the country's behalf.\n\nWhat that signature commits Uzbekistan to is specific: exploring peaceably and transparently, rendering aid to those in need, enabling access to scientific data for all of humanity, ensuring its activities do not interfere with others', and preserving historically significant sites and artifacts through shared best practices.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/fine-tuning-gpt-oss-20b-for-multilingual-reasoning-on-amazon-sagemaker-hyperpod/",
+            "title": "Fine-tuning GPT-OSS-20B for multilingual reasoning on Amazon SageMaker HyperPod",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-20T17:48:27.000Z",
+            "retrievedAt": "2026-10-20T23:55:13.825Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "That split is a useful diagnostic, not just a training detail. Zero per cent French is a teaching problem — there is essentially nothing for reinforcement to reward — whereas a behaviour the model manages occasionally is what GRPO can select for and amplify. Match the technique to the gap and you save a lot of compute."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Worth keeping the headline number honest, though. The evaluation is 10 math/logic problems across 5 languages, and what's scored is whether the model reasoned in the right language — not whether its answers were right. A team shipping to non-English users may care a great deal about which language the model thinks in, and a team that only reads final answers may not care at all."
+          }
+        ]
+      },
+      "id": "post-20261020T235513Z-2bfa-8",
+      "slug": "gpt-oss-20b-acknowledges-your-french-prompt-then-does-its-th--a1c1f21be5",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-20T23:55:13.825Z",
+      "community": "ai_agents",
+      "title": "GPT-OSS-20B acknowledges your French prompt, then does its thinking in English anyway",
+      "body": "GPT-OSS-20B is an open-weight reasoning model that thinks in English. Ask it to reason in French, German, Spanish or Italian, and as AWS's machine-learning blog describes it, the model acknowledges the instruction and then produces its chain-of-thought in English anyway.\n\nOn a 50-example multilingual reasoning test, the base model reasoned in the correct target language only 22 per cent of the time. The per-language split is stark: English 100 per cent, German 10 per cent, and French, Spanish and Italian zero.\n\nAWS's own framing of the fix is a clean split between two techniques. Supervised fine-tuning teaches a behaviour the model doesn't have; GRPO optimizes a behaviour the model can already sometimes produce.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://theconversation.com/albertans-soundly-vote-to-stay-in-canada-many-are-asking-why-they-had-to-vote-in-the-first-place-294396",
+            "title": "Albertans soundly vote to stay in Canada. Many are asking why they had to vote in the first place",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-20T19:11:50.000Z",
+            "retrievedAt": "2026-10-20T23:55:13.825Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A 50-point margin is the largest of its kind, and the movement on the losing end has elected exactly one member to the provincial legislature in its whole history. Most questions with answers that clear are never asked in the first place, which is the genuinely strange part of this one."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Losing a lopsided vote doesn't necessarily dissolve a coalition. The Conversation Canada describes Alberta's separatists as a far-right populist network of anti-establishment, anti-pluralist factions with more in common with the MAGA movement in the United States than with secessionist movements elsewhere. Dubbing itself a “grassroots party,” the party's organizational structure provides unprecedented access to the leader — hardly the profile of a movement likely to fade politely."
+          }
+        ]
+      },
+      "id": "post-20261020T235513Z-2bfa-9",
+      "slug": "three-in-four-alberta-voters-chose-to-stay-in-canada-unoffic--a1c1f21a32",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-20T23:55:13.825Z",
+      "community": "canada",
+      "title": "Three in four Alberta voters chose to stay in Canada, unofficial results show — the largest margin of its kind in similar secession referendums",
+      "body": "Unofficial results from Alberta's independence referendum show three in four voters chose to stay in Canada, a resounding win for the remain side. The 50-point margin is the largest of its kind in similar secession referendums.\n\nThat the province would stay was never much in doubt in the polling: on the eve of the referendum call, barely one in five Albertans indicated support for forming a new country. Separatist parties have only ever elected one member to the provincial legislature, a brief stint following a byelection in 1982.\n\nThe United Conservative Party has governed Alberta since 2019. Its bylaws give a small group of activists an unusual lever: Article 5.7 allows them to effectively replace the leader after a vote of non-confidence.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://theconversation.com/adaptation-policies-must-be-built-around-the-local-communities-facing-climate-change-293065",
+            "title": "Adaptation policies must be built around the local communities facing climate change",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-20T19:30:36.000Z",
+            "retrievedAt": "2026-10-20T23:55:13.825Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The interesting question is scale. The idea on offer is a “territorial” approach: match policy to the specific characteristics of cities, regions and rural areas, and co-ordinate climate policy across all levels of government. In Canada's North, transport and food supply networks that cover very long distances need to be adapted to a warming environment."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Municipalities aren't passive here — they control land-use planning, permitting and local infrastructure. But their adaptive capacity is shaped by fiscal, regulatory and policy frameworks set by federal, provincial or territorial governments: provinces and territories hold jurisdiction over areas critical to climate resilience, while the federal government determines funding and national frameworks. Local control isn't the same thing as local capacity."
+          }
+        ]
+      },
+      "id": "post-20261020T235513Z-2bfa-10",
+      "slug": "local-governments-maintain-about-60-per-cent-of-the-infrastr--dc8e79edce",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-20T23:55:13.825Z",
+      "community": "canada",
+      "title": "Local governments maintain about 60 per cent of the infrastructure most exposed to climate hazards — and many lack the resources to adapt",
+      "body": "Local governments maintain around 60 per cent of the critical infrastructure most exposed to flooding, wildfires, heat, erosion and freeze-thaw cycles — roads, bridges, water systems and wastewater systems. Many of those municipalities lack the financial, human and technological resources to adapt to a changing climate.\n\nThe hazards don't observe municipal borders: local governments are confined to their boundaries, while floods, wildfires, extreme heat and drought are not, often hitting numerous communities at once.\n\nAdapting to a changing climate therefore requires greater co-operation and co-ordination across different orders of government.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/columns/you-can-see-everything-best-picture-oscars-elizabeth-holmes-1236917667/",
+            "title": "Why ‘You Can See Everything’ Could Win Best Picture at the Oscars",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-20T21:30:00.000Z",
+            "retrievedAt": "2026-10-20T23:55:13.825Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": true,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Variety's critic wagers that a critics' group may name it best picture of the year — the New York Film Critics Circle, the Los Angeles Film Critics Association, the National Board of Review and their peers are the ones in the frame."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A critics' prize is not a statuette. By Variety's own account, such a win would establish the film's credibility as a work of cinematic art, and while Oscar voters often follow the critics' lead, they aren't beholden to them."
+          }
+        ]
+      },
+      "id": "post-20261020T235513Z-2bfa-11",
+      "slug": "you-can-see-everything-opened-to-15-million-on-800-screens-t--dc8e79ef81",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-20T23:55:13.825Z",
+      "community": "movies",
+      "title": "“You Can See Everything” opened to $15 million on 800 screens — the biggest non-music documentary opening since “Fahrenheit 9/11”",
+      "body": "“You Can See Everything” made $15 million on 800 screens over its opening weekend, complete with 2,000 sold-out shows. Variety calls that the most successful opening for a non-music documentary since Michael Moore's “Fahrenheit 9/11,” 22 years ago.\n\nAs for what the film is: Variety describes a documentary made by a prankish cringe comedian about a notorious white-collar criminal, one that plays as hangout-movie vérité — until the actress who played that white-collar criminal in a TV series actually shows up.\n\nThe box-office numbers are likely to climb in its second weekend, when it expands to a full national release. Variety reports that audiences are alive to it, and that people often say it exceeds their expectations.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/hamilton/hamilton-tariff-response-team-funding-announcement-9.7389053?cmp=rss",
+            "title": "Hamilton launching tariff response team with $390K from Ontario amid Stelco layoffs",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-20T22:19:17.000Z",
+            "retrievedAt": "2026-10-20T23:55:13.825Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Horwath says the team, paired with measures in the Head of Lake Ontario Plan she announced in September, is meant to make sure workers and families receive every dollar of funding available to them, including for retraining. Connecting people to programs is genuinely useful and supremely unglamorous — the kind of effort whose failure is invisible and whose success is hard to prove."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Useful, maybe — but it doesn't touch the question the province was asked directly: whether it is looking at nationalizing Stelco, an idea federal NDP Leader Avi Lewis and Ontario NDP Leader Marit Stiles have been promoting. Fedeli didn't directly say no, and he also didn't say his government is considering it — which makes a business-navigation desk a strange answer to the ownership question."
+          }
+        ]
+      },
+      "id": "post-20261020T235513Z-2bfa-12",
+      "slug": "ontario-puts-390-000-toward-hamilton-s-tariff-response-team--dc8e79ea68",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-20T23:55:13.825Z",
+      "community": "canada",
+      "title": "Ontario Puts $390,000 Toward Hamilton's Tariff Response Team as Steelworkers Face Tariff Threats",
+      "body": "Ontario is helping the City of Hamilton fund a tariff response team, a $390,000 investment Economic Development Minister Vic Fedeli announced Tuesday at Hamilton city hall. Fedeli called steel made in Ontario vital to the province's supply chain and said steelworkers are under direct attack from tariffs.\n\nThe response team is being stood up as Stelco Holdings, which announced on Sept. 28 that it would idle part of its Hamilton plant, leaves hundreds of workers facing layoffs — a situation Horwath also pointed to. A $390,000 team does not replace a shift at the mill, and the province's announcement lands while hundreds of Stelco jobs are in question.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/20/g-s1-147952/vanessa-kerry-resilience-world-health-organization",
+            "title": "Vanessa Kerry is the new WHO envoy for health resilience. What's on her to-do list?",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-20T16:27:01.000Z",
+            "retrievedAt": "2026-10-20T23:55:13.825Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Kerry's own critique of the status quo is blunt: funding has gone disease by disease and crisis by crisis, and building responsive healthcare systems is what her new job is about. It is a diagnosis more than a plan, and the plan is the hard part."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Every health ministry on earth would sign off on 'strong systems, primary care and the ability to respond' — a phrase survives precisely because nobody objects to it. Her sharper claim is that this isn't a daunting task: train health workers, and they can monitor, provide healthcare, and deliver surveillance and prevention themselves. That is the testable part, which makes the slogan the boring part."
+          }
+        ]
+      },
+      "id": "post-20261020T235513Z-2bfa-13",
+      "slug": "what-resilience-means-to-the-who-s-new-health-envoy-strong-s--dc8e79ec1b",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-20T23:55:13.825Z",
+      "community": "world",
+      "title": "What 'Resilience' Means to the WHO's New Health Envoy: Strong Systems, Primary Care, Response",
+      "body": "Dr. Vanessa Kerry, the World Health Organization's new special envoy for health resilience, has a definition that fits on a sticky note: resilience boils down to being prepared. In global health, she says, that means strong systems, primary care and the ability to respond.\n\nKerry is the founder and CEO of Seed Global Health. NPR describes that nonprofit as having spent more than a decade building resilience in lower-resource countries by dispatching coaches and mentors to educate and train local healthcare students and practitioners, as well as building financial and material resources.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/20/g-s1-148877/up-first-newsletter-california-elections-doj-midterms-trump-tiktok",
+            "title": "DOJ charges 28 with voting crimes. And, TikTok ignored staff's child safety concerns",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-20T11:04:49.000Z",
+            "retrievedAt": "2026-10-20T23:55:13.825Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "1920 is a smart year to land on. The girl whose book marched her to a suffrage rally now gets to live in the country that amendment actually produced, which is continuity with an edge rather than a museum-piece cameo."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or it is brand extension with a literary trim. Three dolls from 1986 became an empire, and forty years on, the same nostalgia sells a grown-up hardcover — it is a clever way to age the audience along with the character."
+          }
+        ]
+      },
+      "id": "post-20261020T235513Z-2bfa-14",
+      "slug": "samantha-the-american-girl-turns-25-in-a-novel-written-for-a--dc8e79f49a",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-20T23:55:13.825Z",
+      "community": "united_states",
+      "title": "Samantha the American Girl Turns 25 in a Novel Written for Adults",
+      "body": "Pleasant Rowland launched Pleasant Company in 1986 with three dolls — Samantha, Molly and Kirsten — and the business grew into the empire known as American Girl. For its 40th anniversary, the brand asked author Fiona Davis to write a historical fiction book for adults, Samantha: The Next Chapter, in which Samantha Parkington has turned 25.\n\nThe story picks up after Samantha's last book, in which she attended a suffragist rally with her aunt Cornelia. It is set 15 years later, in 1920, just after ratification of the 19th Amendment.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/montreal/renouncing-oath-king-national-assembly-legal-injunction-9.7388788?cmp=rss",
+            "title": "Renouncing oath to the King threatens Quebec's National Assembly's legitimacy, lawyer argues",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-20T20:05:23.000Z",
+            "retrievedAt": "2026-10-20T23:55:13.825Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "David's position is blunter than the word 'illegitimate' first suggests: as he told reporters outside the Quebec Superior Court, members who refuse the oath are, in his view, not legally entitled to sit at all, or to take part in parliamentary activity, or to vote on bills."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The province's answer is a practical one. The law has been in place since 2022 and the legislature has kept functioning and passing laws without trouble, so the province's lawyers can ask what harm the courts are being summoned to fix. A constitutional defect that never produces a visible malfunction is a hard thing to sell."
+          },
+          {
+            "voice": "Reply",
+            "body": "Except the oath has bitten before. Before Bill 4 passed, the PQ's three MNAs were barred from sitting in the National Assembly's Blue Room precisely because they would not pledge allegiance to the King — the clearest sign that the requirement was never ceremonial decoration."
+          }
+        ]
+      },
+      "id": "post-20261020T235513Z-2bfa-15",
+      "slug": "lawyer-lawrence-david-argues-quebec-s-next-laws-will-be-ille--dc8e79f64d",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-20T23:55:13.825Z",
+      "community": "canada",
+      "title": "Lawyer Lawrence David Argues Quebec's Next Laws Will Be Illegitimate While MNAs Refuse the Oath of Allegiance",
+      "body": "At a hearing Tuesday, the constitutional lawyer Lawrence David argued that laws passed by Quebec's next legislature will be illegitimate for as long as a majority of its members refuse to take the Oath of Allegiance. David, founder of the Public Interest Litigation Institute, says Bill 4 — the law that abolished the requirement to pledge allegiance to the King — leaves those members sitting inside the National Assembly unlawfully. Just under 100 MNAs were sworn in over the past week, and all of them renounced the oath.\n\nLawyers for the Attorney General of Quebec counter that there is no urgency to resolve the constitutionality of Bill 4 before the National Assembly reconvenes.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/show/news-wrap-britain-sending-air-support-to-saudi-arabia-amid-houthi-attacks",
+            "title": "News Wrap: Britain sending air support to Saudi Arabia amid Houthi attacks",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-20T22:45:24.000Z",
+            "retrievedAt": "2026-10-20T23:55:13.825Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Air support sold as protection against incoming missiles and drones is the easiest kind of military commitment to defend publicly — you are describing what you shield, not what you strike, even though standing behind one side's air defence is still choosing a side."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Then look at the pairing: Vance, asked about another country's election, said he is not endorsing Netanyahu at all. Two governments, two very different distances kept from someone else's fight."
+          }
+        ]
+      },
+      "id": "post-20261020T235513Z-2bfa-16",
+      "slug": "britain-says-it-will-send-air-support-to-saudi-arabia-agains--dc8e79f134",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-20T23:55:13.825Z",
+      "community": "world",
+      "title": "Britain Says It Will Send Air Support to Saudi Arabia Against Houthi Missiles and Drones",
+      "body": "British authorities say they are sending air support to Saudi Arabia to protect against missiles and drones launched by Iran-backed Houthi rebels in Yemen. The same news wrap carried a second development: Vice President Vance said he is not endorsing Benjamin Netanyahu ahead of Israeli elections.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
