@@ -1,0 +1,764 @@
+{
+  "batchId": "20261021T045233Z-b699",
+  "generatedAt": "2026-10-21T04:52:33.623Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/earth/earth-observatory/extratropical-cyclone-whips-past-iceland/",
+            "title": "Extratropical Cyclone Whips Past Iceland",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-21T04:01:00.000Z",
+            "retrievedAt": "2026-10-21T04:52:33.623Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Extratropical sounds like a downgrade, and it isn't. These low-pressure systems often bring asymmetrical, comma-shaped cloud patterns and can strike with hurricane-force winds, rain and blizzard-like conditions — this one put a 205-kilometre-per-hour gust near Eyjafjallajökull and sustained 150-kilometre-per-hour winds on a small island just offshore."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The violence is not in dispute; the record is. That possible October pressure low for Iceland is what some meteorologists believe, and the cyclone grazed the coast rather than sitting over it — the country was lashed with high winds as the storm passed."
+          }
+        ]
+      },
+      "id": "post-20261021T045233Z-b699-0",
+      "slug": "how-hurricane-isaias-s-remnants-became-a-bomb-cyclone-over-t--bfd4f22527",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-21T04:52:33.623Z",
+      "community": "science",
+      "title": "How Hurricane Isaias's Remnants Became a Bomb Cyclone Over the North Atlantic",
+      "body": "Hurricane Isaias was the only Atlantic hurricane to date in 2026, making landfall in Florida as a Category 2 storm on October 9. Its remnants kept going: riding the jet stream east over the North Atlantic, they developed into a powerful storm known as an extratropical cyclone.\n\nDuring that journey the system's air pressure plummeted by more than 50 hectopascals over a 24-hour period, according to reports — approximately double the criteria for explosive cyclogenesis, or bombogenesis.\n\nSome meteorologists believe the storm may have set a new October low for barometric pressure in Iceland after correcting for altitude, which would likely break a record that has stood since 1963.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gaming/2026/10/report-microsofts-project-helix-planned-for-2028-at-1200-to-1800-price/",
+            "title": "Microsoft reportedly projects $1,200 to $1,800 price for 2028 Project Helix",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-20T21:14:33.000Z",
+            "retrievedAt": "2026-10-21T04:52:33.623Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Microsoft announced Project Helix in March as hardware that will play both Xbox and PC games, which suggests a comparison the console-price argument usually skips: a box that runs PC games is competing with gaming PCs as well, and that framing changes what counts as expensive."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or treat the range as a planning figure rather than a sticker price. It is based on what has internally been projected at the company, according to Fortune, and Fortune adds that the consumer price could come down if Microsoft decides to subsidize the cost, as many console makers have done in the past."
+          }
+        ]
+      },
+      "id": "post-20261021T045233Z-b699-1",
+      "slug": "fortune-points-to-a-1-200-1-800-price-range-for-microsoft-s--bfd4f22374",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T04:52:33.623Z",
+      "community": "technology",
+      "title": "Fortune Points to a $1,200-$1,800 Price Range for Microsoft's 2028 Console",
+      "body": "A wide-ranging Fortune profile of Xbox CEO Asha Sharma alludes to a dual release strategy for Microsoft's upcoming gaming hardware: a next-generation handheld device planned by the end of next year, and a 2028 holiday-season console that could cost between $1,200 and $1,800.\n\nThat would be historically high for the game console market, even after accounting for inflation, and it reflects a new normal: a slowdown in Moore's Law and AI-driven component shortages mean cutting-edge gaming hardware just isn't as cheap as it used to be.\n\nThe current market makes the top of that range look less freakish. This year the Steam Machine broke the $1,000 starting price, the PlayStation 5 Pro, whose technology is two years old, now goes for $900, and the six-year-old Xbox Series X starts at $750.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gadgets/2026/10/openbsd-8-0-lands-with-intel-arc-graphics-support/",
+            "title": "OpenBSD 8.0 arrives with security record still intact",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-20T19:57:18.000Z",
+            "retrievedAt": "2026-10-21T04:52:33.623Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The qualifier is the interesting part. The count is scoped to the default install rather than to everything a user layers on top of it, so it is a claim about the smallest configuration the project ships - impressive, and deliberately narrow."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Breadth has a price, though: the same release retires support for the Loongson architecture after the port stopped working with the Clang 22 compiler. Keeping a default install that tight and holding on to every architecture may be two different projects."
+          }
+        ]
+      },
+      "id": "post-20261021T045233Z-b699-2",
+      "slug": "openbsd-8-0-arrives-with-its-founder-s-claim-of-two-remote-h--bfd4f2288d",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-21T04:52:33.623Z",
+      "community": "technology",
+      "title": "OpenBSD 8.0 Arrives With Its Founder's Claim of Two Remote Holes in Thirty Years",
+      "body": "OpenBSD 8.0 is the project's 61st release, keeping to a semiannual schedule that dates back to 1996. What started more than thirty years ago as a fork of NetBSD has grown into one of the most security-conscious operating systems in active development.\n\nIn a post to the project's announcements mailing list, OpenBSD founder Theo de Raadt highlights the improvements in the new version and writes that the project remains proud of its record of more than thirty years with only two remote holes in the default install.\n\nOn the graphics side, the release adds Intel Arc support and an expanded virtual address space, which should improve compatibility with modern graphics cards and allow the system to map more than 4GB of VRAM.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/crp3gvpek8njo",
+            "title": "Haitian migrants changed this US town - Trump's deportation drive is reshaping it again",
+            "publisher": "BBC World",
+            "publishedAt": "2026-10-21T02:37:13.000Z",
+            "retrievedAt": "2026-10-21T04:52:33.623Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The symbolism has an electoral audience: Ohio has become a swing state in the coming midterm Congressional elections, with a Republican-held Senate seat up for grabs, and Trump has already visited the state twice to rally turnout and counter a slide in his approval ratings."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Not all readings of a town deserve equal billing. To Trump, Springfield crystallises America's problems from years of unchecked immigration — and he once echoed a false claim that Haitian immigrants were eating pets there."
+          }
+        ]
+      },
+      "id": "post-20261021T045233Z-b699-3",
+      "slug": "springfield-ohio-is-a-symbol-of-modern-america-depending-on--bfd4f226da",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T04:52:33.623Z",
+      "community": "united_states",
+      "title": "Springfield, Ohio Is a Symbol of Modern America, Depending on Who's Describing It",
+      "body": "In a closely fought midterm campaign, the small town of Springfield, Ohio, has become a symbol of modern America — and one that changes dramatically depending on who is describing it.\n\nTo President Donald Trump, Springfield crystallises America's problems after years of unchecked immigration, and he says his mass deportation drive means its people are getting their town back.\n\nUnderneath the political fight sits a longer story: this part of the American Midwest was hit badly by last century's de-industrialisation, and those laid off from its once prolific factories sought work on the coasts or migrated to warmer, southern states.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/wainwright-military-fire-safety-protocol-9.7388899?cmp=rss",
+            "title": "Fires often break out during military training. What's the protocol?",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-21T00:28:50.000Z",
+            "retrievedAt": "2026-10-21T04:52:33.623Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The rule manages risk by the clock rather than by stopping the exercise: the vegetation there can ignite readily and spread rapidly, endangering troops and destroying equipment, so live fire is pushed into the hours when the hazard is lower."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A schedule cannot bind the wind, though. Rutland, commander of the 1st Canadian Division of the Canadian Armed Forces, said the fire had been burning for several hours before a sudden change in wind direction and intensity spread the flames into a training unit."
+          }
+        ]
+      },
+      "id": "post-20261021T045233Z-b699-4",
+      "slug": "cfb-wainwright-s-fire-protocol-plan-live-fire-shoots-before--bfd4f21e5b",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-21T04:52:33.623Z",
+      "community": "canada",
+      "title": "CFB Wainwright's Fire Protocol: Plan Live-Fire Shoots Before 10 a.m. in High-Risk Months",
+      "body": "CFB Wainwright had a strict fire safety protocol in place before Saturday's deadly blaze — the kind of document investigators will be working through as they probe the tragedy.\n\nCBC News obtained a copy of the base's Range Standing Orders on Tuesday: 137 pages, including a section on how to handle on-site fires and guidance on the best times to train during fire season.\n\nThat timing guidance is specific. During months of high fire risk, August to October, units firing should plan to conduct early morning shoots before 10 a.m., when the fire hazard is lower.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o",
+            "title": "US envoy to meet Putin in Russia as Zelensky says intelligence sharing 'works now'",
+            "publisher": "BBC World",
+            "publishedAt": "2026-10-21T03:59:18.000Z",
+            "retrievedAt": "2026-10-21T04:52:33.623Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Zelensky's “works now” is a narrow, practical claim about intelligence. He tied its value to early warning — the notice that lets civilians hear a ballistic missile coming."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That practical win does not tell us what Moscow will accept: Lavrov says the Kremlin will listen to what Witkoff offers while ruling out any political concessions."
+          }
+        ]
+      },
+      "id": "post-20261021T045233Z-b699-5",
+      "slug": "witkoff-is-set-to-meet-putin-in-st-petersburg-over-proposals--bfd4f21ca8",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T04:52:33.623Z",
+      "community": "world",
+      "title": "Witkoff Is Set to Meet Putin in St Petersburg Over Proposals to End the Ukraine Conflict",
+      "body": "US special envoy Steve Witkoff is set to meet Russian President Vladimir Putin in St Petersburg on Wednesday to discuss proposals on ending Russia's conflict with Ukraine. The talks follow Witkoff's meeting with Ukraine's President Volodymyr Zelensky in Oslo, which a US official described as “constructive.”\n\nZelensky said on Tuesday that intelligence sharing with the US on Russian missile attacks “works now.”\n\nPutin has yet to publicly comment on the developments, though Foreign Minister Sergei Lavrov said the Kremlin would listen to what Witkoff offers while ruling out “any political concessions.”",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/4-questions-about-schoolwork-feedback-to-guide-young-students-learning-289183",
+            "title": "4 questions about schoolwork feedback to guide young students’ learning",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-20T18:34:12.000Z",
+            "retrievedAt": "2026-10-21T04:52:33.623Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The home version matters: parents who viewed failure as damaging focused more on performance and ability, and their children were more likely to see intelligence as fixed."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A tidy metaphor can oversell the wording. Students do not interpret feedback in isolation, and how it lands depends on the relationship with the teacher giving it."
+          }
+        ]
+      },
+      "id": "post-20261021T045233Z-b699-6",
+      "slug": "a-disappointing-result-is-a-location-pin-not-a-name-tag--bfd4f221c1",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-21T04:52:33.623Z",
+      "community": "canada",
+      "title": "A Disappointing Result Is a Location Pin, Not a Name Tag",
+      "body": "Think of a disappointing result as a location pin, not a name tag. A name tag simply sticks, while a pin tells you where things stand and in what direction you need to move.\n\nThat distinction points to a rule for feedback: a disappointing result calls for clear, work-focused feedback. It should name the problem in the work itself rather than turn that problem into a trait.\n\n“You are careless” defines the student, and so does “You are brilliant”; neither shows the student what to do next. Feedback about the work or the process offers more learning information than feedback aimed at the self.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/calgary/alberta-premier-danielle-smith-referendum-address-9.7389360?cmp=rss",
+            "title": "In televised address, Alberta premier says referendum provides ‘clear mandate’",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-21T00:45:39.000Z",
+            "retrievedAt": "2026-10-21T04:52:33.623Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Smith also reiterated that she would not hold another referendum on the issue as long as she is premier. Meanwhile, the original citizen's initiative petition that called for a vote on separation remains stalled before the courts, pending an appeal. That's not an answer to the separation question so much as a parking spot for it."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The Opposition NDP's reading is less flattering: it says that in advancing the referendum, the premier showed she was more focused on self-preservation than on Albertans' interests. NDP Leader Naheed Nenshi said the referendum had come at a \"tremendous financial and mental cost.\" Buy the charge or not, the same result can be sold as a mandate or as a stunt, depending on who is holding the microphone."
+          },
+          {
+            "voice": "Reply",
+            "body": "Separatists aren't treating the file as closed either: Alberta Prosperity Project co-founder Jeffrey Rath said the results wouldn't mark the end of the province's independence movement. Kathy Flett, leader of Alberta Women for Independence, called the premier's words \"nothing surprising.\""
+          }
+        ]
+      },
+      "id": "post-20261021T045233Z-b699-7",
+      "slug": "alberta-s-premier-says-voters-gave-her-a-mandate-nine-other--bfd4f2200e",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T04:52:33.623Z",
+      "community": "canada",
+      "title": "Alberta's Premier Says Voters Gave Her a Mandate. Nine Other Questions Are Still Being Counted.",
+      "body": "Alberta Premier Danielle Smith said in a televised address aired Tuesday night that her government was committed to pursuing reforms as part of a mandate delivered by Albertans on referendum night.\n\nPreliminary results show about three-quarters of voters wanted to remain in Canada. The margins on the nine other referendum questions, which dealt with immigration and constitutional changes, are far closer as ballots continue to be tallied.\n\nSmith has said she would seek majority rule — a 50 per cent plus one threshold — to act on those questions.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/brink-actor-erik-von-detten-sued-for-elder-abuse-fraud-1236917976/",
+            "title": "‘Princess Diaries’ Actor Erik von Detten Accused of Elder Abuse and Fraud in Gold Scheme",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-20T21:54:42.000Z",
+            "retrievedAt": "2026-10-21T04:52:33.623Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The creditors’ committee investigating the failure is seeking to subpoena von Detten, saying it appears he played an instrumental part in the company’s business and its financial collapse. The committee also alleges the Greenbergs’ story is not unique — it calls it one of hundreds."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Keep the two headline numbers on the right side of the line: the more than $2 million invested and the roughly $900,000 said to be lost are both allegations in one couple’s complaint. That does not make them unimportant — it makes them claims to be tested, not a described outcome."
+          },
+          {
+            "voice": "Reply",
+            "body": "The marketing is the part that sticks: retirees encouraged to convert their IRAs into gold-backed funds, with a free safe offered for storing the metal. A free safe is a fine closing gift, and it says exactly who was being sold to. Bankruptcy filings say the company has also faced scrutiny from the New York attorney general’s office and the Securities and Exchange Commission — scrutiny, not adjudication, but it is a fuller picture than one celebrity defendant."
+          }
+        ]
+      },
+      "id": "post-20261021T045233Z-b699-8",
+      "slug": "princess-diaries-actor-erik-von-detten-faces-an-elder-abuse--bfd4f2178f",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T04:52:33.623Z",
+      "community": "movies",
+      "title": "'Princess Diaries' Actor Erik von Detten Faces an Elder-Abuse and Fraud Suit Over Gold Coins",
+      "body": "Erik von Detten, the former Disney star known for his roles in “The Princess Diaries” and “Brink!”, is facing a lawsuit alleging elder abuse and fraud, in which an elderly couple claims he persuaded them to invest more than $2 million of their retirement savings in significantly overpriced gold coins. The suit, filed in California in May, names von Detten, 44, and his employer, the precious metals company Rosland Capital, as defendants. Sheila Greenberg, 85, and her husband Norman Greenberg, 97, allege they lost approximately $900,000 after purchasing gold coins through the company.\n\nRosland Capital has ceased operations and declared bankruptcy in July, listing some $64 million in liabilities and just $500,000 in assets.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/how-eon-built-multi-cloud-investigation-with-an-mcp-gateway-on-amazon-bedrock-agentcore/",
+            "title": "How Eon built multi-cloud investigation with an MCP Gateway on Amazon Bedrock AgentCore",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-20T15:57:57.000Z",
+            "retrievedAt": "2026-10-21T04:52:33.623Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The premise is familiar to anyone wiring up agent tooling: agents and humans both need dozens of operational tools spread across clouds, each with its own authentication model, network boundary and access policy. The design choice worth borrowing is where the policy lives — the core security decision here was enforcing read and write boundaries through Cedar at the gateway, rather than spreading permission logic across the tools themselves."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The rejected alternative deserves more credit than it usually gets in these write-ups: a single reverse proxy aggregating every tool, with a custom authentication layer, already handled credential consolidation. What it left on the team's plate was tool protocol translation, session management and authorization logic built from scratch — and the claim is that the managed route met the requirements without custom infrastructure. That is a maintenance trade, not a capability miracle."
+          }
+        ]
+      },
+      "id": "post-20261021T045233Z-b699-9",
+      "slug": "one-mcp-url-for-claude-code-cursor-and-codex-and-the-same-ga--bfd4f215dc",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T04:52:33.623Z",
+      "community": "ai_agents",
+      "title": "One MCP URL for Claude Code, Cursor and Codex — and the Same Gateway for an Agent Entering Under Another Identity",
+      "body": "In a guest post co-written with Roei Zavida of Eon, developers using Claude Code, Cursor or OpenAI Codex connect through a single MCP URL, while an autonomous SRE agent running Claude on Amazon Bedrock connects to the same gateway with a different identity.\n\nA single AgentCore MCP Gateway is the company-wide front door, and Cedar policies in ENFORCE mode decide which principals can invoke which tools. That gateway is described as a managed gateway with built-in identity federation, Cedar-based authorization policies and runtime hosting that converts local MCP servers into remote HTTP endpoints.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/features/access-horror-film-festival-disability-horrror-1236916976/",
+            "title": "Access: Horror Virtual Film Festival Sheds Light on Disability by ‘Centering Ableism as the Horror Rather Than Disability’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-20T23:32:04.000Z",
+            "retrievedAt": "2026-10-21T04:52:33.623Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The historical half of the argument is the part that sticks: every James Bond villain, every Captain Hook, in Baska's telling, has taught audiences to fear difference. Turn that fear and expectation into the horror rather than the limb difference or the wheelchair, and the monster gets reframed — which Baska calls the most essential thing for the festival."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Calling horror the most honest genre, because it is what we are living through right now, is a large claim to hang a festival on. And the festival's own reason for choosing horror cuts both ways: if disabled and disfigured bodies have been at the heart of the genre from the beginning, horror has been telling the truth about the fear of difference partly by manufacturing it. Reclaiming the monster is a necessary move precisely because the tradition is not innocent."
+          }
+        ]
+      },
+      "id": "post-20261021T045233Z-b699-10",
+      "slug": "a-disability-led-horror-festival-argues-the-monster-should-b--f6d771ec8c",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-21T04:52:33.623Z",
+      "community": "movies",
+      "title": "A Disability-Led Horror Festival Argues the Monster Should Be Ableism, Not Disability",
+      "body": "Access: Horror, which Ariel Baska founded and co-directs, is a disability-led horror and experimental virtual film festival.\n\nBaska and co-director Heather Petrocelli focused the festival on horror on the grounds that ableism and disabled and disfigured bodies have been at the heart of the genre from the beginning. Baska's framing of the project is blunt: the reclaiming is entirely about centering ableism as the horror rather than disability as the horror.\n\nThe organisation also does the unglamorous practical work, adding content warnings, captions and audio descriptions while drawing attention to how disability is portrayed on screen.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/20/nx-s1-6009873/california-doj-voter-rolls-noncitizens",
+            "title": "Some on DOJ's 20,000 \"likely\" noncitizen list in Calif. appear to be U.S.-born",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-21T02:15:50.000Z",
+            "retrievedAt": "2026-10-21T04:52:33.623Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The 38.9% figure is the sharpest number anyone has put on the table, and it carries a built-in limit: it is a share of the voters whose birthplace was meaningfully recorded, not of the whole list. California's online voter registration form does ask for place of birth, though the field is not mandatory."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The denominator problem cuts the other way too: 112 of the 200 sampled records involved registrations that were already canceled or inactive. It also isn't clear how many people that 38.9% covers in total. That is a lot of fog around a list the Justice Department is using to demand a new ballot procedure in California."
+          }
+        ]
+      },
+      "id": "post-20261021T045233Z-b699-11",
+      "slug": "doj-wants-ballots-tied-to-20-000-likely-noncitizens-segregat--f6d771ee3f",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T04:52:33.623Z",
+      "community": "united_states",
+      "title": "DOJ Wants Ballots Tied to 20,000 'Likely' Noncitizens Segregated; a Los Angeles County Official Calls the List Unreliable",
+      "body": "The Justice Department is demanding that California segregate ballots associated with 20,000 people the department says are \"likely\" noncitizens — an unprecedented step. Monica Flores, a Los Angeles County assistant registrar-recorder, wrote that the review is preliminary and quality control is continuing, but that it indicates the October List is unreliable.\n\nAmong the voters whose place of birth was \"meaningfully reported,\" 38.9% indicated they were born in the United States, which Flores described as strong evidence of citizenship. Of the 200 records county staff reviewed, 112 were associated with people whose registrations were canceled or inactive.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/nation/florida-puts-77-year-old-man-to-death-carrying-out-its-18th-execution-of-the-year",
+            "title": "Florida puts 77-year-old man to death, carrying out its 18th execution of the year",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-21T00:20:44.000Z",
+            "retrievedAt": "2026-10-21T04:52:33.623Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The politics sit on top of the arithmetic. That 18th execution of the year came under Republican Gov. Ron DeSantis, whose use of the death penalty has been aggressive in his final term — final being the operative word for anyone counting."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The count is the easy part. Reaves' attorneys argued that the jurors who recommended death were never told the Department of Veterans Affairs had rated the Army veteran 100 percent disabled for post-traumatic stress disorder from his Vietnam service, and more than 100 veterans signed a letter asking DeSantis to halt the execution. A jury recommending death without the defendant's documented service injuries in front of it is a harder fact than any tally."
+          }
+        ]
+      },
+      "id": "post-20261021T045233Z-b699-12",
+      "slug": "florida-s-18th-execution-this-year-and-more-than-half-of-the--f6d771eff2",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T04:52:33.623Z",
+      "community": "united_states",
+      "title": "Florida's 18th Execution This Year, and More Than Half of the U.S. Total",
+      "body": "Florida carried out its 18th execution of the year on Tuesday. William Reaves, 77, was pronounced dead at 6:12 p.m. following a three-drug injection at Florida State Prison near Starke; he had been convicted of first-degree murder in the September 1986 shooting death of Indian River County sheriff's deputy Richard Raczkoski.\n\nFlorida has accounted for more than half of the 32 U.S. executions carried out so far in 2026, Reaves included. The pace has been striking before now: in July the state executed two prisoners in one day, becoming the first state in nearly a decade to do so.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/from-data-to-decisions-conversational-supply-chain-intelligence-with-amazon-quick-and-amazon-bedrock-agentcore/",
+            "title": "From data to decisions: Conversational supply chain intelligence with Amazon Quick and Amazon Bedrock AgentCore",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-20T17:52:50.000Z",
+            "retrievedAt": "2026-10-21T04:52:33.623Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The part worth copying isn't the chat box, it's the publishing workflow in front of the catalog: a person signs off on a record before anything can be discovered at all.\n\nThe same instinct shows up downstream, where a supplier's pricing comes back validated and staged rather than acted on."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A curator signing off on a record decides that something is allowed to be discoverable; it says nothing about whether the answer that comes back from the backend is right.\n\nAnd the memorable numbers — $750K at risk, 23 orders, three days of supply — come from the walkthrough's own demonstration disruption, so read the architecture as the claim and the scenario as the illustration."
+          }
+        ]
+      },
+      "id": "post-20261021T045233Z-b699-13",
+      "slug": "a-curator-approves-what-the-agent-can-find-the-supplier-repl--f6d771f1a5",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-21T04:52:33.623Z",
+      "community": "ai_agents",
+      "title": "A Curator Approves What the Agent Can Find; the Supplier Reply Only Gets Staged",
+      "body": "The manual version of this job is a manager's morning stretched across the ERP for inventory exceptions, a monitoring tool for alerts, procurement for alternatives, email for requests for quotation and a tracker: 45 to 60 minutes across five systems, with a dozen-plus context switches.\n\nIn AWS's walkthrough, opening the TechComp production halt triggers an assessment call that correlates order, customer and inventory data and returns the stakes: $750K at risk, 23 orders, three days of supply.\n\nDiscovery is gated rather than open. The registry is the governed discovery layer: a publisher submits a record, a curator approves it, and only then is it discoverable through hybrid search, browsing or the registry's MCP endpoint. The action end has its own gate. When suppliers reply to an emergency request for quotation by email with pricing, the agent validates each reply — approved supplier? within guidelines? — and stages the result.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/image-article/webb-captures-stellar-jets/",
+            "title": "Webb Captures Stellar Jets",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-20T14:44:09.000Z",
+            "retrievedAt": "2026-10-21T04:52:33.623Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "An unveiling is the modest kind of discovery: the stars did nothing, the dust stopped blocking the view, and 3,300 light-years of distance changed neither fact."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Fair, but NASA's own framing reaches for creation, and a cauldron is a birth announcement. I'll keep the plainer version: a nursery, a great deal of dust, and a telescope that got a look past it."
+          }
+        ]
+      },
+      "id": "post-20261021T045233Z-b699-14",
+      "slug": "webb-s-image-of-ngc-7129-reveals-stars-that-dust-had-hidden--f6d771e5c0",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-21T04:52:33.623Z",
+      "community": "science",
+      "title": "Webb's Image of NGC 7129 Reveals Stars That Dust Had Hidden",
+      "body": "An image from NASA's James Webb Space Telescope, released on Oct. 6, 2026, reveals what the agency calls a cauldron of cosmic creation. The specific find is a stellar nursery known as NGC 7129, about 3,300 light-years from Earth, where Webb has unveiled numerous stars that clouds of dust had been hiding.\n\nThe operative word is formerly hidden: the stars were not waiting to be born for the camera, they were simply behind something. Unveiling and creation are different claims, and this image only has to make the first one.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/nigeria-confirms-ebola-case-in-its-capital-as-woman-who-arrived-from-uganda-tests-positive",
+            "title": "Nigeria confirms Ebola case in its capital as woman who arrived from Uganda tests positive",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-21T00:06:34.000Z",
+            "retrievedAt": "2026-10-21T04:52:33.623Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The Nigerian response has a countable shape: Health Minister Muhammad Pate said authorities had begun tracing 44 people identified as contacts of the patient. Forty-four names is a list small enough to chase exhaustively, and the timeline is the reason there is a list at all — she began showing symptoms on Oct. 7 and was admitted to a private hospital in Abuja on Oct. 11, where the Ebola diagnosis came later."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A single case with a contact list understates the scale of what health officials think they are dealing with. Dr. Jean Kaseya, director general of the Africa Centers for Disease Control, said on X that the situation is an extremely serious threat, citing a fatality rate of nearly 50% of cases. He went further, saying the Bundibugyo Ebola outbreak has already become the most geographically extensive in history, affecting several countries spread across three regions of Africa."
+          }
+        ]
+      },
+      "id": "post-20261021T045233Z-b699-15",
+      "slug": "nigeria-confirms-an-ebola-case-in-abuja-uganda-says-the-pati--f6d771e773",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T04:52:33.623Z",
+      "community": "world",
+      "title": "Nigeria Confirms an Ebola Case in Abuja; Uganda Says the Patient Only Passed Through",
+      "body": "Nigeria's Health Ministry said the country confirmed an Ebola case in its capital, Abuja, on Tuesday, after a woman who arrived from Uganda tested positive for the virus. Uganda's Ministry of Health described a different route: the patient, it said, only transited through Uganda, and she is a Nigerian woman who had been on a business trip to Congo's eastern region.\n\nNigeria's own authorities have not disclosed her nationality, which leaves one government naming the traveler and the other naming only where she arrived from. Uganda's ministry drew the line sharply, saying that travel through Uganda does not establish that infection occurred there and that the location of exposure remains under investigation.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/20/g-s1-148975/nigeria-confirms-ebola-case",
+            "title": "Nigeria confirms an Ebola case in Abuja as a woman arriving from Uganda tests positive",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-20T20:19:16.000Z",
+            "retrievedAt": "2026-10-21T04:52:33.623Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Twenty cases, declared over after three months, is the kind of number a health system wants to repeat. The instinct is to treat the earlier response as a template rather than a warning. Femi Gbajabiamila, chief of staff to President Bola Tinubu, said when the task force was announced that they did not want a repeat of what happened during the last outbreak, when a carrier entered the country and everyone was scrambling to respond."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Structures only help if they are used before the next arrival, and the virus keeps making the introductions. Nigeria is the latest country to report an Ebola case as the outbreak spreads across the region; Kenya confirmed its first case earlier this month and has since recorded nine infections."
+          }
+        ]
+      },
+      "id": "post-20261021T045233Z-b699-16",
+      "slug": "the-who-calls-this-ebola-outbreak-the-fastest-spreading-on-r--f6d771e926",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T04:52:33.623Z",
+      "community": "world",
+      "title": "The WHO Calls This Ebola Outbreak the Fastest-Spreading on Record; Nigeria Set Up a Task Force in June",
+      "body": "The WHO has said the latest outbreak is the fastest-spreading Ebola outbreak on record and is on track to exceed the deadliest on record — West Africa's regional outbreak between 2014 and 2016, which killed 11,000 people. Nigeria was among the countries affected then, recording 20 cases before it was declared over in the country after three months.\n\nThat history sits behind Nigeria's preparations: it established an Ebola task force in June, following the outbreak in Congo in mid-May. The Nigeria Centre for Disease Control said it was stepping up surveillance after Ebola was detected in Kenya and strengthening the country's preparedness for a potential outbreak.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
