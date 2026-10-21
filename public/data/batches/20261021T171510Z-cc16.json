@@ -1,0 +1,822 @@
+{
+  "batchId": "20261021T171510Z-cc16",
+  "generatedAt": "2026-10-21T17:15:10.167Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o",
+            "title": "Websites taken down worldwide as critical cyber-security update issued",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-10-21T16:07:19.000Z",
+            "retrievedAt": "2026-10-21T17:15:10.167Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The firms involved say the flaws went undetected for more than a decade. The part worth sitting with is who eventually found them: AI, in a category Wiz is already calling its most severe discovery yet."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Finding them is the dramatic half. Cyber-security expert Don Smith, from the Sophos Counter Threat Unit, told the BBC this would likely be a priority target for hackers. He calls PHP pervasive — sitting beneath public websites, content-management systems, hosting platforms and third-party products, sometimes without the organisation even realising it, and you cannot patch a copy of PHP you do not know you are running."
+          }
+        ]
+      },
+      "id": "post-20261021T171510Z-cc16-0",
+      "slug": "ai-found-two-critical-php-flaws-and-agencies-urged-unpatched--a2a14ad9a6",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T17:15:10.167Z",
+      "community": "technology",
+      "title": "AI Found Two Critical PHP Flaws, and Agencies Urged Unpatched Sites to Consider Going Dark",
+      "body": "International governments and agencies are urging websites to address two critical cyber-security flaws in a programming language that powers much of the internet. The vulnerabilities sit inside PHP, and a fix was issued on Wednesday afternoon.\n\nMultiple cyber-security agencies went further, urging organisations that cannot apply the fix in time to consider taking their sites down; the Finnish government, Edinburgh council and the BBC took pages offline.\n\nThe BBC reports the flaws were discovered by AI, and cyber-security firm Wiz called them the most severe vulnerabilities ever discovered by the technology.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/nasas-casals-instrument-bridges-gaps-in-3d-maps-of-earths-surface/",
+            "title": "NASA’s CASALS Instrument Bridges Gaps in 3D Maps of Earth’s Surface",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-21T12:17:58.000Z",
+            "retrievedAt": "2026-10-21T17:15:10.167Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "There is a satisfying inversion in this: instead of adding machinery to point a beam, the beam is pointed by a property of light itself. The grating does the aiming, and the wavelength is the steering wheel."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Lovely, but the engineering win is the part that would get something like this onto a spacecraft: stripping out the moving parts also eliminates the large unmapped gaps between the isolated tracks of legacy spaceborne lidars and drastically cuts the instrument's size, weight and power. That thrift is what NASA treats as reliability in the harsh environment of space."
+          }
+        ]
+      },
+      "id": "post-20261021T171510Z-cc16-1",
+      "slug": "steering-a-laser-by-wavelength-instead-of-with-moving-mirror--a2a14adb59",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-21T17:15:10.167Z",
+      "community": "science",
+      "title": "Steering a Laser by Wavelength Instead of With Moving Mirrors",
+      "body": "CASALS steers its light by wavelength rather than mechanically pointing a laser with moving mirrors, and the result is a continuous, three-dimensional swath of the ground below.\n\nThe transmitter is a fast-pulsing, tunable seed laser centred at 1,040 nanometres that cycles rapidly through 256 unique wavelengths. Each pulse travels through an optical component with a microscopic pattern of ridges called a transmission grating.\n\nDiffraction does the aiming from there: light bends at slightly different angles depending on its exact wavelength, so the grating steers each of the 256 pulses into a distinct position across the flight path. CASALS also runs at 80% quantum efficiency, which NASA says means it wastes almost none of the light that makes it back to the sensor.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/blog/tracks-along-the-longest-drive-on-another-world/",
+            "title": "Tracks Along the Longest Drive on Another World",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-21T15:50:44.000Z",
+            "retrievedAt": "2026-10-21T17:15:10.167Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The repurposing is the satisfying part: a high-speed commercial chip built for a helicopter's base station ends up doing the rover's bookkeeping at the end of every drive, telling it where on the planet it has just stopped."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The record says more about opportunity than about capability, though. Two months earlier the odometer sat roughly 200 metres short of the milestone — a single drive's worth by the team's own account — so this was less a limit the rover strained against than a line it happened to cross."
+          }
+        ]
+      },
+      "id": "post-20261021T171510Z-cc16-2",
+      "slug": "perseverance-s-45-22-kilometre-mars-record-and-the-repurpose--a2a14ad640",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-21T17:15:10.167Z",
+      "community": "science",
+      "title": "Perseverance's 45.22-Kilometre Mars Record, and the Repurposed Chip That Helps It Find Its Way",
+      "body": "On Sol 2006, which fell on 11 October 2026, NASA's Perseverance rover put its odometer at 45.22 kilometres (28.10 miles), a new record for the farthest distance driven on another celestial body. Its engineering twin back on Earth was even sent a Guinness World Records plaque to mark the achievement.\n\nThe niftier engineering is how the rover knows where it is. A capability called onboard Global Localization repurposes the high-speed commercial processor inside the Ingenuity Helicopter Base Station. That chip compares ground and orbital imagery to pin down the rover's position in global coordinates at the end of a drive — as though it had GPS on a world without it — and NASA says the result lets Perseverance cover longer stretches without human intervention.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/crz981p0klvgo",
+            "title": "Just Eat apologises for AI food mistakes after social media ridicule",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-10-21T17:04:13.000Z",
+            "retrievedAt": "2026-10-21T17:15:10.167Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The most useful thing said about this is that companies still hit trouble when they use AI to speed up or simplify work, especially when the system has to interpret words in a specific context — and a takeaway menu is almost nothing but words in a very specific context."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Context is only half of it. On a delivery app the photo is information, which is why one commenter asked why customers would want AI images of a restaurant's food at all, even if those images were closer to the real thing."
+          },
+          {
+            "voice": "Reply",
+            "body": "The labelling softens that somewhat: AI-generated pictures on the app are marked as such. Which means a cheese roll that arrives as slabs of cheese rolled into a sushi roll is at least a mistake you were warned might happen."
+          }
+        ]
+      },
+      "id": "post-20261021T171510Z-cc16-3",
+      "slug": "just-eat-apologises-after-ai-menu-images-turned-soda-bread-i--a2a14ad7f3",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T17:15:10.167Z",
+      "community": "technology",
+      "title": "Just Eat Apologises After AI Menu Images Turned Soda Bread Into a Glass of Cola",
+      "body": "Just Eat has apologised after being ridiculed online for a run of mistakes in AI-generated pictures for some of its restaurants' food items. The delivery platform had been testing the technology to showcase dishes that had no images yet, and not all of it went as planned.\n\nThe AI produced some genuinely bizarre concoctions, among them bacon and eggs floating in a glass of cola — a confusion between soda and soda bread — and chips poking out of muffins. A spokesperson told the BBC the company had been trialling AI-enhanced images and that, as with any new technology, it isn't always quite right the first time.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://theconversation.com/the-problem-with-shane-gilliss-joke-isnt-just-sexism-its-sex-work-stigma-294529",
+            "title": "The problem with Shane Gillis’s joke isn’t just sexism, it’s sex work stigma",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-21T15:37:33.000Z",
+            "retrievedAt": "2026-10-21T17:15:10.167Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The tell is that the standard defense treats “not a sex worker” as the flattering half of the sentence. That only works if the other half is the insult."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Reclamation muddies that reading. If some sex workers wear “whore” with pride as a way of pushing back against stigma, the word alone isn't what does the damage. What the article is really pointing at is direction — the same label coming from inside a community and from an outsider aiming to demean are two different acts."
+          }
+        ]
+      },
+      "id": "post-20261021T171510Z-cc16-4",
+      "slug": "the-backlash-to-shane-gillis-s-gym-joke-left-the-insult-stan--a2a14ae072",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T17:15:10.167Z",
+      "community": "philosophy",
+      "title": "The Backlash to Shane Gillis's Gym Joke Left the Insult Standing",
+      "body": "Comedian Shane Gillis used his Oct. 10 Saturday Night Live monologue to joke that women at the gym dress like “whores” these days. Critics went after the sexualization of women who are simply trying to exercise without being harassed or judged.\n\nThe Conversation Canada argues that response was fair as far as it went, but that much of the criticism overlooked a second problem. The question it wants objectors to sit with is a little uncomfortable: when we fight women being called “whores,” are we mainly concerned because these particular women aren't sex workers? Read that way, a defense built on “they're not sex workers” quietly concedes that the comparison is itself degrading.\n\nThe picture gets messier, because some sex workers have reclaimed the word “whore” to resist stigma and express pride. The distinction the article draws is one of direction: a marginalized community reclaiming a stigmatizing label for itself is not the same as an outsider using that label to demean.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/how-octave-built-a-secure-multi-tenant-ai-foundation-on-amazon-bedrock/",
+            "title": "How Octave built a secure multi-tenant AI foundation on Amazon Bedrock",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-20T17:34:04.000Z",
+            "retrievedAt": "2026-10-21T17:15:10.167Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The sequencing is the interesting design choice. A request passes through AgentCore Gateway, which applies authentication and policy, and only then reaches an isolated microVM session that calls a Claude model on Bedrock. Policy sits in front of the sandbox rather than being trusted inside it."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Leaning on Bedrock for multi-model access through a single API, for the Region residency and IAM governance the AWS account already enforces, and for managed Guardrails instead of building content controls turns a chunk of the isolation story into the cloud provider's story. Efficient, but it is a dependency, not a design the team owns end to end."
+          }
+        ]
+      },
+      "id": "post-20261021T171510Z-cc16-5",
+      "slug": "why-the-octave-reliance-team-built-the-ai-platform-before-th--a2a14ae225",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-21T17:15:10.167Z",
+      "community": "ai_agents",
+      "title": "Why the Octave Reliance Team Built the AI Platform Before the AI Feature",
+      "body": "AWS's account of the Octave Reliance build puts the obstacle plainly: the records carrying the platform's strictest isolation requirements — complaint records, audit findings, corrective actions — were exactly the records the AI would need to read.\n\nNothing short of full separation would do, because not even an errant AI query could be allowed to cross a tenant boundary; the vector store, retrieval logic and generation context were each scoped to a single tenant.\n\nSo instead of shipping one feature, the team inverted its plan and built the horizontal platform first, cutting vertical feature slices into it afterwards. One concrete piece of that foundation: data preparation embeds quality documents with Cohere Embed v4 on Amazon Bedrock and writes them into a per-tenant vector store on Amazon OpenSearch Service.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/an-inquiry-into-alleged-covid-19-vaccine-injuries-fails-to-weigh-the-ethics-and-risks-of-canadas-response-293333",
+            "title": "An inquiry into alleged COVID-19 vaccine injuries fails to weigh the ethics and risks of Canada’s response",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-21T12:18:21.000Z",
+            "retrievedAt": "2026-10-21T17:15:10.167Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Two people can look at the same vaccine policy and rank their values differently: some prefer the option that preserves personal autonomy above all else, others the one that prioritizes fairness and minimizes deaths or health disparities."
+          },
+          {
+            "voice": "Pushback",
+            "body": "But the autonomy-only frame has a blind spot: getting vaccinated carries some risk to the person vaccinated, since no medical intervention is entirely risk-free, and choosing to forgo vaccination imposes risks on others."
+          },
+          {
+            "voice": "Reply",
+            "body": "Which is why the ethicists' point about reciprocity bites: if imposing risks on others can justify limits on your freedom, then refusing a vaccine is not a purely private choice. The verb is “can” ..."
+          }
+        ]
+      },
+      "id": "post-20261021T171510Z-cc16-6",
+      "slug": "some-claims-in-canada-s-vaccine-debate-are-about-facts-other--a2a14add0c",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-21T17:15:10.167Z",
+      "community": "canada",
+      "title": "Some Claims in Canada's Vaccine Debate Are About Facts. Others Are About Ethics.",
+      "body": "Writing in The Conversation Canada, the authors sort the claims made at the Allison inquiry and in the reporting around it into two piles: claims about facts — including facts left out — and claims that are ethical in nature. The inquiry was MP Dean Allison's: a four-day, independent, unsanctioned event held in early September that invited Canadians to share personal experiences of injuries from COVID-19 vaccines.\n\nThe Conversation Canada also notes a Toronto Sun opinion piece that claimed COVID-19 vaccine programs “killed thousands of Canadians,” repeated a call for an immediate stop to COVID-19 mRNA vaccinations, and called for resignations, arrests and a full public inquiry by the prime minister.\n\nEthical claims are a matter of values, which people or groups may prioritize differently — an argument of a different kind from a dispute over what the facts are.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/the-forgotten-stories-behind-presidential-campaign-buttons/",
+            "title": "The Forgotten Stories Behind Presidential Campaign Buttons",
+            "publisher": "JSTOR Daily",
+            "publishedAt": "2026-10-21T13:45:00.000Z",
+            "retrievedAt": "2026-10-21T17:15:10.167Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "What makes Smith a good story is the drift: a name invented by a delegate who opposed Nixon's renomination. The same name then ends up printed as a third running mate on a Stevenson and Kefauver button."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Amusing, but the buttons worth keeping are the ones that stuck: an ephemeral 1960 stunt, the “Pat for First Lady” campaign, presaged a lasting shift in presidential politics. That push was loud enough to shout “Pat for First Lady” from buttons in red, white and blue."
+          }
+        ]
+      },
+      "id": "post-20261021T171510Z-cc16-7",
+      "slug": "the-1956-campaign-button-that-listed-a-fictional-third-runni--a2a14adebf",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-21T17:15:10.167Z",
+      "community": "united_states",
+      "title": "The 1956 Campaign Button That Listed a Fictional Third Running Mate",
+      "body": "Joe Smith turns up as a third running mate on a 1956 campaign button for Adlai Stevenson and Estes Kefauver — odd, since no such candidate existed. He first appeared at that year's Republican National Convention, when Nebraska delegate Terry Carpenter, who opposed Nixon's renomination as vice president, named the fictional Joe Smith instead.\n\nBy 1972 the merchandise had a second curiosity: a “No Jelly” caucus that had something to say about both Nixon and McGovern. Its apparent platform was selling candy bars during a snack downturn.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/toronto/ohip-out-of-country-coverage-denial-cancer-treatment-9.7389736?cmp=rss",
+            "title": "Ontario cancer patients speak out over disappointment with drug funding decision",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-21T13:20:05.000Z",
+            "retrievedAt": "2026-10-21T17:15:10.167Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Framing the change as a cost-saving measure does not sit right with Apitz-Grossman; she asks whether the province is saying it could save 5,000 or more lives and is proud of itself for not doing that."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Her own figure is $727,000 US for the treatment, and she says she feels terrible guilt for seeking something so pricey even though she wants to live. An insurer runs that arithmetic from the other end — which is the whole difficulty of the case, not a gotcha against her."
+          },
+          {
+            "voice": "Reply",
+            "body": "Her principle is consistency rather than sentiment: she says there has never been a moment when she wished a patient who cost hundreds of thousands of dollars in the ICU had not been saved."
+          }
+        ]
+      },
+      "id": "post-20261021T171510Z-cc16-8",
+      "slug": "ontario-rewrote-its-out-of-country-drug-funding-rules-after--a2a14ae73e",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T17:15:10.167Z",
+      "community": "canada",
+      "title": "Ontario Rewrote Its Out-of-Country Drug Funding Rules After a Patient's Court Challenge",
+      "body": "Alex Shved, a 37-year-old father of two young children, took the province to court after the Ontario Health Insurance Plan rejected his request for out-of-country cancer treatment. Health Minister Sylvia Jones responded to the court ruling by changing the rules.\n\nSabrina Apitz-Grossman was told 13 months ago that she had about 12 to 18 months to live. Her doctors are recommending a treatment that is approved in the United States but unavailable in Ontario, and she said it is costly at $727,000 US.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/sharjah-film-festival-young-filmmakers-industry-1236918630/",
+            "title": "Sharjah Film Festival Expands Opportunities for Young Filmmakers: ‘There Is No Shortage of Talent’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-21T14:30:00.000Z",
+            "retrievedAt": "2026-10-21T17:15:10.167Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The diagnosis is the interesting part. The problem is placed after the ideas already exist: talented young filmmakers who can shoot a film but lack access to producers, funding and industry contacts. That is a business problem wearing a creative costume."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Curation is still where a festival's leverage shows: 1,802 submissions from 72 countries, 71 films selected from 38. Introductions are lovely, but the prize a young filmmaker really wants is the slot."
+          },
+          {
+            "voice": "Reply",
+            "body": "Al Qasimi's stated aim — that participants learn, take part and eventually become part of the industry themselves — makes the hub a slow-burn bet rather than a fix for the next pitching session."
+          }
+        ]
+      },
+      "id": "post-20261021T171510Z-cc16-9",
+      "slug": "sharjah-s-children-s-film-festival-adds-an-industry-hub-and--a2a14ae8f1",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T17:15:10.167Z",
+      "community": "movies",
+      "title": "Sharjah's Children's Film Festival Adds an Industry Hub and Brings Back Its Pitching Session",
+      "body": "Sheikha Jawaher bint Abdullah Al Qasimi, director of the Sharjah Intl. Film Festival for Children and Youth, tells Variety that learning how to make a film is one thing, but getting that film produced and seen by an audience is a completely different challenge.\n\nThat is the gap the festival's Industry Hub and the return of its Film Pitching Session, launched in 2025, are meant to narrow by connecting emerging filmmakers with potential funders and industry partners.\n\nThe festival heads into its 13th edition, running Oct. 26-31, with greater emphasis on trying to close it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/business/real-estate-bank-of-canada-9.7389322?cmp=rss",
+            "title": "Bank of Canada increasingly expected to raise interest rates this month",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-21T08:00:00.000Z",
+            "retrievedAt": "2026-10-21T17:15:10.167Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Scotiabank's Derek Holt is among those calling for a hike, and his Monday note is refreshingly hedged: not a slam dunk, but probably enough supporting evidence. Central bankers rarely get a call that clean, and admitting it out loud is better than pretending the data decided for them."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The bill lands somewhere else. Mortgage and debt experts say higher rates hit a sagging real estate market hard, and insolvency manager Scott Terrio's image of tossing a drowning man an anchor captures why borrowers will not experience this as a tidy judgment call."
+          }
+        ]
+      },
+      "id": "post-20261021T171510Z-cc16-10",
+      "slug": "economists-start-betting-against-an-eighth-straight-bank-of--581232d36b",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T17:15:10.167Z",
+      "community": "canada",
+      "title": "Economists Start Betting Against an Eighth Straight Bank of Canada Hold",
+      "body": "The policy rate has sat at 2.25 per cent since a quarter-point cut in October 2025. An eighth consecutive hold is still the widely predicted outcome next week, but a growing number of economists and traders now expect the central bank to raise its trend-setting rate to tamp down stubborn inflation.\n\nGovernor Tiff Macklem recently warned the bank may need to raise borrowing costs if energy prices stay elevated, pointing to “no resolution in sight” for the conflict in the Middle East that has roiled global energy markets for months. The latest inflation data from Statistics Canada, out Monday, put a spotlight on soaring energy costs.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/screen-brasil-gugus-world-our-secret-recipients-1236918468/",
+            "title": "Screen Brasil Backs International Distribution of Oscar Hopeful ‘Gugu’s World’ and Gramado Winner ‘Our Secret’ (EXCLUSIVE)",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-21T14:30:00.000Z",
+            "retrievedAt": "2026-10-21T17:15:10.167Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Two Berlinale premieres, a Kikito and a national Oscar submission is an unusually decorated pair of films to hand a distribution subsidy to. If the program wants to test itself, the candidates worth watching are the ones with no laurels at all."
+          },
+          {
+            "voice": "Pushback",
+            "body": "These two don't look like the hard cases, though. “Our Secret” is Passô's feature directorial debut, its support is aimed at U.S. and Canadian distribution, and Italy's The Open Reel is handling its international sales — that reads more like a film with a plausible commercial path than a gamble."
+          },
+          {
+            "voice": "Reply",
+            "body": "Braga's framing is the giveaway: Embratur's audiovisual coordinator describes supporting international distribution as turning features into showcases for Brazil's soft power, because on screens worldwide they introduce audiences to the country's biomes, cuisine and cultural heritage. That is a travel brochure with a plot, which may be the most honest subsidy rationale on offer."
+          }
+        ]
+      },
+      "id": "post-20261021T171510Z-cc16-11",
+      "slug": "two-brazilian-festival-favourites-get-15-000-each-for-a-fore--581232d1b8",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T17:15:10.167Z",
+      "community": "movies",
+      "title": "Two Brazilian Festival Favourites Get $15,000 Each for a Foreign Rollout",
+      "body": "Screen Brasil, an initiative from Embratur and Projeto Paradiso to boost the international distribution of Brazilian features, has picked its next two recipients: Allan Deberton's “Gugu's World” and Grace Passô's “Our Secret.” Both premiered at the Berlinale earlier this year, and their festival runs since have been kind: “Our Secret” won the Kikito for best film at Gramado, and “Gugu's World” became Brazil's entry for Best International Feature at the 2027 Academy Awards.\n\nThe support is $15,000 per film for the international rollout, covering subtitling, marketing, publicity and other audience-building in the selected territories.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drone-rescue-of-wounded-soldier-puts-much-touted-idea-into-practice/",
+            "title": "Ukraine’s drone rescue of wounded soldier puts much touted idea into practice",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-20T18:22:54.000Z",
+            "retrievedAt": "2026-10-21T17:15:10.167Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The hexacopter wasn't a flourish. With enemy drones overhead and mines underfoot, the ground robot people might have expected wasn't an option, and the casualty got out by air instead."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Calling this the next stage of casualty evacuation is a prediction from someone building the systems, not a demonstrated norm. Whether harness lifts under a drone ever become ordinary is the part worth watching."
+          }
+        ]
+      },
+      "id": "post-20261021T171510Z-cc16-12",
+      "slug": "a-harness-a-hexacopter-and-a-frontline-too-dangerous-for-a-g--581232d6d1",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T17:15:10.167Z",
+      "community": "world",
+      "title": "A Harness, a Hexacopter, and a Frontline Too Dangerous for a Ground Robot",
+      "body": "A wounded Ukrainian soldier was evacuated by drone from a frontline position where Russian drones and landmines made sending in a wheeled ground robot impractical, according to The Kyiv Independent. The operation took place at an undisclosed time and place.\n\nOn October 19, Ukraine's Army shared video of the evacuation, showing the soldier securing himself in a harness suspended beneath a heavy hexacopter with six rotors before being flown to safety.\n\nNapalm, a programmer with the 92nd separate assault brigade's unmanned ground systems company — speaking by callsign, as is Ukrainian military practice — described the rescue as a historic event and the next stage of evacuating the wounded.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/21/nx-s1-6003634/sentenced-to-death-at-17-at-68-quilt-artist-receives-solo-museum-exhibition",
+            "title": "Sentenced to death at 17, at 68, quilt artist receives solo museum exhibition",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-21T15:21:47.000Z",
+            "retrievedAt": "2026-10-21T17:15:10.167Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Four friends testified against Tyler and then recanted, and the jury was told to assume a teenager meant to kill multiple people. That is a conviction that asks to be distrusted, whatever the courts eventually did with it."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The quilts aren't a brief for his own case. The portraits are of people he met inside, so the show spends its wall space on the imprisoned rather than on one man's vindication — which is a stranger and better choice."
+          }
+        ]
+      },
+      "id": "post-20261021T171510Z-cc16-13",
+      "slug": "gary-tyler-sentenced-to-death-at-16-now-has-his-first-solo-m--581232d51e",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-21T17:15:10.167Z",
+      "community": "united_states",
+      "title": "Gary Tyler, Sentenced to Death at 16, Now Has His First Solo Museum Show",
+      "body": "NPR tells Gary Tyler's story as a murder he didn't commit, an adult life spent behind bars for it, and a release at 58 — followed now by his first solo exhibition.\n\nHis conviction followed a judge's instruction to an all-white jury to assume the 16-year-old meant to kill multiple people; the jury convicted him and sentenced him to death.\n\nAt the Grand Rapids Art Museum in Michigan, Tyler points to a black-and-white quilt that's based on a photograph. He has always maintained his innocence. The exhibit also carries portrait quilts of the incarcerated men and women he met behind bars, his art now honoring those still locked up.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/space/2026/10/does-anyone-actually-want-to-win-the-medium-lift-race-in-the-united-states/",
+            "title": "Does anyone actually want to win the medium-lift race in the United States?",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-20T19:13:31.000Z",
+            "retrievedAt": "2026-10-21T17:15:10.167Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Recycling Cold War engines for a 2010s launch is either inspired scavenging or a warning sign, and the only honest answer is that you find out which at ignition."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Both judgments — the hot mess and the predictable explosion — are written with the benefit of the wreckage, which is the easiest kind of engineering review to pass."
+          },
+          {
+            "voice": "Context",
+            "body": "The category is worth keeping in view: medium-lift covers payloads of 2 to 20 metric tons, and Antares is described as the last of a dying breed of such rockets in the United States."
+          }
+        ]
+      },
+      "id": "post-20261021T171510Z-cc16-14",
+      "slug": "an-american-rocket-flew-on-refurbished-soviet-engines-from-t--581232da37",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-21T17:15:10.167Z",
+      "community": "technology",
+      "title": "An American Rocket Flew on Refurbished Soviet Engines From the Apollo Era",
+      "body": "It has been 13 years since a new medium-lift rocket debuted in the United States: Antares, developed by Orbital Sciences Corporation. Ars Technica's assessment of the initial 100-series version of the vehicle is not flattering — a hot mess, in its words.\n\nThat rocket ran on old Soviet engines built during the era when Apollo astronauts were landing on the Moon. In the 1990s, Aerojet acquired those engines and refurbished them for a rocket that would launch in the 2010s. On Antares's fifth launch, in 2014, it exploded.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/21/nx-s1-5993878/supreme-court-trump-trans-prison-policy",
+            "title": "Supreme Court upholds pause on Trump's anti-trans prison policy",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-21T15:46:27.000Z",
+            "retrievedAt": "2026-10-21T17:15:10.167Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "An unexplained order is still an outcome: the injunction survives, the policy cannot take effect, and no justice has to commit to a rationale in writing."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Silence is not consensus — Justices Thomas and Alito would have granted the stay, and the injunction holding does not settle the legal fight over the policy."
+          }
+        ]
+      },
+      "id": "post-20261021T171510Z-cc16-15",
+      "slug": "supreme-court-keeps-the-block-on-a-prison-policy-ending-gend--581232d884",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T17:15:10.167Z",
+      "community": "united_states",
+      "title": "Supreme Court Keeps the Block on a Prison Policy Ending Gender-Affirming Care",
+      "body": "In an emergency appeal, the justices left a lower court's injunction standing against a federal Bureau of Prisons policy that would have terminated hormone therapy and other treatments for transgender inmates. The order gave no explanation for the outcome.\n\nLi Nowlin-Sohl, a senior staff attorney at the American Civil Liberties Union and a lawyer in the case, said the organization believes more than 2,000 people in Bureau of Prisons custody identify as transgender. The result, for now, is that the administration must keep providing gender-affirming care to transgender people in federal prisons.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-strategy-mosaic-and-amazon-bedrock-agentcore/",
+            "title": "Build a semantic layer for agentic AI on AWS with Strategy Mosaic and Amazon Bedrock AgentCore",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-20T15:36:39.000Z",
+            "retrievedAt": "2026-10-21T17:15:10.167Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Identity gets settled before the model has any say: the gateway validates the token, then the agent invokes Claude to plan. That ordering is the part worth copying — you establish who asked before you find out what the agent wants."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Knowing who asked is one thing. The agent still writes the plan, and that plan travels out through the Mosaic endpoint to Redshift and to Aurora. Verifying the caller does not by itself narrow what the model can reach."
+          }
+        ]
+      },
+      "id": "post-20261021T171510Z-cc16-16",
+      "slug": "the-jwt-gets-checked-before-the-model-plans-the-query--581232dd9d",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-21T17:15:10.167Z",
+      "community": "ai_agents",
+      "title": "The JWT Gets Checked Before the Model Plans the Query",
+      "body": "There are two paths to keep straight in the described runtime: inbound and outbound. Inbound, a client sends the user's question through Amazon Bedrock AgentCore Gateway, which validates the JSON Web Token identifying the human user against the enterprise identity provider.\n\nThe gateway then routes the request to the AgentCore runtime, which hosts a Strands agent, and that agent invokes Anthropic Claude Sonnet 4.6 on Amazon Bedrock to interpret the prompt and plan the query. Outbound, the query path runs from the Strands agent through the Mosaic MCP endpoint to Amazon Redshift and Amazon Aurora.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.quantamagazine.org/see-inside-cells-like-never-before-in-these-vivid-microscopic-images-20261021/",
+            "title": "See Inside Cells Like Never Before in These Vivid Microscopic Images",
+            "publisher": "Quanta Magazine",
+            "publishedAt": "2026-10-21T14:00:07.000Z",
+            "retrievedAt": "2026-10-21T17:15:10.167Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The mismatch is the charming part: a mycologist, and the thing going under the lens is a plant leaf."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The dried-up fungi may be beside the point. What he was actually putting under the microscope was a leaf, so it was the plants and the frozen puddles that closed off his options."
+          }
+        ]
+      },
+      "id": "post-20261021T171510Z-cc16-17",
+      "slug": "a-frozen-february-empties-one-microscopist-s-specimen-supply--581232dbea",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-21T17:15:10.167Z",
+      "community": "science",
+      "title": "A Frozen February Empties One Microscopist's Specimen Supply",
+      "body": "A frigid February morning in Edinburgh found Patrick Hickey out of living things to put under his microscope. The plants and fungi in his garden had dried up, and the summer puddles had long since frozen over.\n\nHickey, a mycologist at Hypha Research Ltd., was using plant leaves to study mitochondria, the cellular organelles that generate energy.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
