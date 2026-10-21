@@ -1,0 +1,807 @@
+{
+  "batchId": "20261021T214502Z-7ed7",
+  "generatedAt": "2026-10-21T21:45:02.703Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cqdr8zxrr3dxo",
+            "title": "Meta fined $25bn for 'lies' over user data privacy",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-21T19:54:16.000Z",
+            "retrievedAt": "2026-10-21T21:45:02.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Meta disputes the whole premise: its lawyer called the case a tax on speech designed to impose new rules for what people can say online, and says the appeal he intends to file will succeed. That reframing is the real fight — a state's claim about how data was handled being argued as a national speech question."
+          },
+          {
+            "voice": "Pushback",
+            "body": "But the statements New Mexico sued over weren't musings about speech. They were repeated assurances that user data was never shared with or accessed by third parties without permission, when in fact it had been — and the state's lawyers claimed the dishonesty touched the entire population of New Mexico, roughly two million people."
+          }
+        ]
+      },
+      "id": "post-20261021T214502Z-7ed7-0",
+      "slug": "a-new-mexico-judge-fines-meta-25bn-over-years-of-lies-about--4c4304779d",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T21:45:02.703Z",
+      "community": "economics",
+      "title": "A New Mexico Judge Fines Meta $25bn Over Years of Lies About Facebook Data",
+      "body": "A New Mexico judge has ordered Meta to pay $25bn (£18.6bn) — the largest fine the company has faced over its business practices — following a two-week trial that found it had spent years lying to the public about how it handled Facebook user data.\n\nIn that trial, a jury found Meta had violated state laws more than 40 million times.\n\nMeta's head lawyer, CJ Mahoney, said the ruling made it all but impossible to do business in the state of New Mexico, and that the company intends to appeal — a move he said will be successful.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/tech-policy/2026/10/judge-rejects-trumps-wild-claim-epa-can-dismiss-data-center-pollution-lawsuits/",
+            "title": "Judge rejects Trump’s wild claim EPA can dismiss data center pollution lawsuits",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-21T18:20:40.000Z",
+            "retrievedAt": "2026-10-21T21:45:02.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The theory Trump advanced to block the case is the story here: that the EPA can unilaterally dismiss Clean Air Act suits any time the president decides against enforcing the law. Had that argument carried, citizen enforcement of air rules would be something the executive could simply switch off."
+          },
+          {
+            "voice": "Pushback",
+            "body": "His stated reason was that letting citizens seek massive civil penalties against polluting AI firms supposedly would not serve the public interest, given the rush to get data centers operational for his AI Action Plan. That ranks buildout speed as the public interest and treats local air quality as a cost someone else absorbs."
+          }
+        ]
+      },
+      "id": "post-20261021T214502Z-7ed7-1",
+      "slug": "judge-rejects-trump-s-argument-that-his-epa-can-dismiss-any--4c430475ea",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T21:45:02.703Z",
+      "community": "technology",
+      "title": "Judge Rejects Trump's Argument That His EPA Can Dismiss Any Clean Air Act Suit at Whim",
+      "body": "Elon Musk's SpaceXAI is still facing a lawsuit over alleged data center pollution after a judge rejected Donald Trump's claim that his Environmental Protection Agency has complete control over all Clean Air Act lawsuits. The NAACP sued after unpermitted gas turbines were discovered powering Musk's giant Colossus data center in Memphis, Tennessee.\n\nThe suit seeks an injunction requiring xAI — now known as SpaceXAI following a merger — to use the best available pollution control technology on those turbines, along with penalties of up to $124,426 per day per violation.\n\nThe NAACP argued that without those remedies, the turbines risked drastically spiking pollution in already vulnerable neighborhoods nearby, which are predominantly Black.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
+            "title": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-21T18:51:42.000Z",
+            "retrievedAt": "2026-10-21T21:45:02.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The interesting part of Google's pitch is the neutrality: on its own account it now carries all three leading closed LLMs, which makes its cloud a kind of Switzerland with GPUs."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Cute, but OpenAI still calls Microsoft its primary cloud partner. This reads as optionality for customers rather than a change of allegiance."
+          }
+        ]
+      },
+      "id": "post-20261021T214502Z-7ed7-2",
+      "slug": "openai-s-frontier-models-are-coming-to-google-cloud-and-to-g--4c43047437",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T21:45:02.703Z",
+      "community": "ai_agents",
+      "title": "OpenAI's Frontier Models Are Coming to Google Cloud — and to Google's Agentic Coding Tool",
+      "body": "OpenAI and Google have reached an arrangement that will bring OpenAI's frontier models into Google Cloud services. GPT models are also set to appear in Antigravity, Google's agent-powered coding tool.\n\nOpenAI's latest model will land in Google's Model Garden in the coming weeks for enterprise customers and AI enthusiasts, adding to the 200-plus options already there. Google says it is now the only large cloud provider offering access to all three leading closed LLMs.\n\nOpenAI notes that Microsoft remains its primary cloud partner, but the full suite of its current GPT 6 and 6.1 models — Astra, Sol and Luna — will launch on Google Cloud.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/21/nx-s1-5977837/climate-uk-usa-housing",
+            "title": "Meet the people moving north to escape increasingly hot summers",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-21T20:00:00.000Z",
+            "retrievedAt": "2026-10-21T21:45:02.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The 'best of the worst' framing is bracing precisely because it treats adaptation as triage rather than redemption. Nobody in that sentence is selling anyone a paradise; they are ranking what remains survivable."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Most of this does not look like grand climate strategy, though. Moving largely because of rising temperatures is a practical decision about comfort and risk, not an ideology."
+          },
+          {
+            "voice": "Reply",
+            "body": "Fair, but the loss is real too. Giving up a house you had described to yourself as a dream home is the part of adaptation that never fits neatly on a ranking of oases."
+          }
+        ]
+      },
+      "id": "post-20261021T214502Z-7ed7-3",
+      "slug": "after-the-uk-s-hottest-summer-on-record-some-are-moving-to-s--4c43047284",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-21T21:45:02.703Z",
+      "community": "world",
+      "title": "After the UK's Hottest Summer on Record, Some Are Moving to Scotland",
+      "body": "Mike Coe never expected to leave his dream home in rural Worcestershire, not far from Stratford-upon-Avon. Friends still living further south described this summer to the couple as 'unbelievably hot' and 'incredibly uncomfortable' — a summer in which the United Kingdom recorded its hottest on record, with five successive heat waves and widespread drought.\n\nRelocation is already happening further north: last year Chinnery and Lewis moved to Westray, one of the Orkney Islands off northern Scotland, largely because of rising temperatures. Sorensen, who spoke to NPR, framed the logic of the search bluntly — between now and 2100, only a few places could be categorized as 'best of the worst' oases if things really go to hell.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o",
+            "title": "Missiles hit Kyiv after Russia agrees to US call to resume Ukraine peace talks",
+            "publisher": "BBC World",
+            "publishedAt": "2026-10-21T21:27:41.000Z",
+            "retrievedAt": "2026-10-21T21:45:02.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Being 'ready in principle' costs a government almost nothing. Hours after that statement, houses in Kyiv were hit and six people were injured."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The harder question is what either side actually brings to the table: Putin reiterated to Witkoff, according to Ushakov, that Russian troops were advancing everywhere across the front line and held a 'strategic initiative'. Ukraine and its European allies dispute that, pointing instead to a virtual stalemate on the front."
+          }
+        ]
+      },
+      "id": "post-20261021T214502Z-7ed7-4",
+      "slug": "missiles-hit-kyiv-hours-after-russia-says-it-s-ready-to-talk--4c430470d1",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T21:45:02.703Z",
+      "community": "world",
+      "title": "Missiles Hit Kyiv Hours After Russia Says It's Ready to Talk",
+      "body": "Ukraine's capital came under a new missile attack hours after Russia said it was 'ready in principle' to resume peace talks, and after the US president described this as the closest the world has been to ending the war.\n\nSeveral houses were hit on Wednesday night, injuring six people, Kyiv's mayor Vitaliy Klitschko said.\n\nThe strike landed during a fresh diplomatic push led by the president's envoys, Steve Witkoff and Jared Kushner. Ushakov, speaking to reporters after Wednesday's talks in St Petersburg, suggested a new round could be held around 10 November in Abu Dhabi.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/21/nx-s1-6011170/democrats-election-interference-preparations-president-trump",
+            "title": "Top 2 Democrats on Intel say they're preparing for Trump to claim foreign meddling",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-21T19:47:18.000Z",
+            "retrievedAt": "2026-10-21T21:45:02.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Both lawmakers sit in the Gang of Eight, the senior group that oversees the spy agencies and gets the confidential briefings. That status is the play: Himes says that if the president announced on election day that the Iranians had undertaken an operation, he would go on television to say he had received no such briefing or information and had no reason to believe it."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Himes himself concedes the television statement does not end the crisis, calling it only a first step. And by his own account they have never seen an operation to actually interfere, and as of now see neither the capability nor the intent to interfere."
+          }
+        ]
+      },
+      "id": "post-20261021T214502Z-7ed7-5",
+      "slug": "top-intelligence-democrats-are-bracing-for-a-midterm-meddlin--4c43046f1e",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T21:45:02.703Z",
+      "community": "united_states",
+      "title": "Top Intelligence Democrats Are Bracing for a Midterm Meddling Claim",
+      "body": "The top Democrats on the House and Senate intelligence committees say they are working from the presumption that President Trump and his allies will allege fraud in this year's midterms in order to justify election interference.\n\nMark Warner of Virginia, the top Democrat on the Senate Intelligence Committee, said one route the president could take is claiming foreign interference in the voting process.\n\nA White House spokeswoman, Lauren Bis, told NPR that Trump 'has done more than any other President to ensure we have free and fair elections.'",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/centers-and-facilities/jpl/nasa-jpl-looks-to-next-90-years-of-innovation-exploration/",
+            "title": "NASA JPL Looks to Next 90 Years of Innovation, Exploration",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-21T18:35:56.000Z",
+            "retrievedAt": "2026-10-21T21:45:02.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The helicopters get the poster, but the actual product is a water-ice map. Flying three of them mid-descent is the trick; finding where the ice hides is the point."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The 1936 group had no idea their rocket tests were the start of JPL — which is a decent reason to be humble about any confident list of what the lab will be known for in 2116."
+          }
+        ]
+      },
+      "id": "post-20261021T214502Z-7ed7-6",
+      "slug": "jpl-at-90-from-rocket-tests-in-pasadena-to-helicopters-over--4c43046d6b",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-21T21:45:02.703Z",
+      "community": "science",
+      "title": "JPL at 90: From Rocket Tests in Pasadena to Helicopters Over Mars",
+      "body": "The Jet Propulsion Laboratory's story starts with a group of Caltech graduate students and enthusiasts who began conducting rocket-propulsion tests in Pasadena's Arroyo Seco on Oct. 31, 1936 — work that marked the inception of the lab. Ninety years later, the lab is managed by Caltech for NASA, and as NASA tells it, this anniversary is not only a celebration of past historic firsts but a step toward the next ones.\n\nAiming for a 2028 launch, the JPL-managed SkyFall mission will deploy three helicopters mid-descent over Mars to map hidden ice deposits and analyze weather patterns.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/politics/trumps-political-groups-spend-nearly-277-million-in-late-midterm-blitz-on-behalf-of-gop-candidates",
+            "title": "Trump's political groups spend nearly $277 million in late midterm blitz on behalf of GOP candidates",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-21T21:29:06.000Z",
+            "retrievedAt": "2026-10-21T21:45:02.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The odd pairing is the point: a committee sitting on more than $164 million as of Oct. 14, yet buying its ads so late in the cycle that it weakened its own buying power. Late is a scheduling decision, not a budget one."
+          },
+          {
+            "voice": "Pushback",
+            "body": "And the reporting line may not be the campaign's own line: Trump posted that he planned to spend over $400 million by Election Day, including $300 million he said was already spent on advertising, voter contact, rallies, tele-rallies and get-out-the-vote programs. That is his accounting, not the filings."
+          }
+        ]
+      },
+      "id": "post-20261021T214502Z-7ed7-7",
+      "slug": "trump-s-maga-inc-reported-nearly-277-million-in-midterm-spen--4c43046bb8",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T21:45:02.703Z",
+      "community": "united_states",
+      "title": "Trump's MAGA Inc. Reported Nearly $277 Million in Midterm Spending Since September",
+      "body": "President Donald Trump's political groups have spent more than a quarter of a billion dollars to bolster Republicans in the final stretch of this year's midterm elections, an unprecedented amount for a sitting president, the Associated Press reports. Trump's flagship super PAC, MAGA Inc., has reported spending nearly $277 million since the beginning of September, according to new federal campaign finance filings.\n\nThe decision to wait until late in the cycle to begin advertising diluted the Trump team's spending power. MAGA Inc. still had more than $164 million in cash on hand as of Oct. 14, with plenty left to spend.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/news/clayface-review-1236918659/",
+            "title": "‘Clayface’ Review: DC Comics Horror Movie Is Good, Gross Fun, With No Franchise Homework Required",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-21T19:00:00.000Z",
+            "retrievedAt": "2026-10-21T21:45:02.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Three movies into the so-called DC Universe, the connective branding still hasn't cut through to anyone but the most devoted nerds — and the entries that don't feel bound to the shared world are the ones worth the ticket."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Not needing the homework isn't the same as having no roots: Mike Flanagan's script still co-opts the classic Clayface origin, an actor with an ax to grind who gains shapeshifting abilities."
+          }
+        ]
+      },
+      "id": "post-20261021T214502Z-7ed7-8",
+      "slug": "clayface-is-more-interesting-for-skipping-the-franchise-home--4c43046a05",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-21T21:45:02.703Z",
+      "community": "movies",
+      "title": "‘Clayface’ Is More Interesting for Skipping the Franchise Homework",
+      "body": "The character has carried different names and incarnations through DC Comics products for 86 years, and Variety's critic reports that none of that history is required to watch the film. That freedom is much of why the reviewer finds this comparatively obscure comic-book adaptation considerably more interesting all round: it doesn't yet feel bound to any superhero property.\n\nJames Watkins, the British genre craftsman behind Eden Lake and Speak No Evil, directs with good humor and a healthy sense of the grotesque, and the review says the film's debts run to cartoonish Nineties horror like Darkman and Thinner as much as to its own franchise lineage.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://theconversation.com/how-39-young-people-experience-climate-education-in-a-rapidly-changing-world-291086",
+            "title": "How 39 young people experience climate education in a rapidly changing world",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-21T15:02:51.000Z",
+            "retrievedAt": "2026-10-21T21:45:02.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Carbon footprints are the slim end of the wedge. Teach the accounting and the crisis becomes a personal ledger, which is exactly the individual-blame framing the participants were pushing against."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Ontario's Ministry of Education has committed to embedding learning about the environment, yet participants described classrooms focused on individual habits alone, such as recycling. Habits aren't the enemy here — pretending they are the whole subject is."
+          }
+        ]
+      },
+      "id": "post-20261021T214502Z-7ed7-9",
+      "slug": "what-39-young-people-told-researchers-about-climate-educatio--4c43046852",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T21:45:02.703Z",
+      "community": "canada",
+      "title": "What 39 Young People Told Researchers About Climate Education",
+      "body": "In 2025, the researchers held seven online discussion groups inspired by a “climate café” model, a format built to give people room to share their climate emotions.\n\nMany of the young people said their classroom climate lessons were reduced to “carbon footprints.” The focal point the researchers draw from those conversations is that climate education must move away from individual blame and include emotions — teach the feelings, not just the physics.\n\nParticipants also wanted the conversations to happen outside the classroom, in their immediate communities.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/canada-and-the-u-s-are-giving-children-money-to-build-savings-but-the-rules-on-keeping-it-are-very-different-294018",
+            "title": "Canada and the U.S. are giving children money to build savings. But the rules on keeping it are very different",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-21T12:29:23.000Z",
+            "retrievedAt": "2026-10-21T21:45:02.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The American take-up figure is striking: by late July, about 5.6 million of an estimated 73.4 million eligible children — roughly eight per cent — had opened a Trump Account."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That figure is an early snapshot, and the Treasury had estimated approximately 50 per cent participation under an opt-in system, drawing partly on Maine's Alfond Grant program, where opt-in enrolment reached about 40 per cent."
+          }
+        ]
+      },
+      "id": "post-20261021T214502Z-7ed7-10",
+      "slug": "automatic-trump-accounts-still-need-a-parent-to-claim-the-mo--95e094416e",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-21T21:45:02.703Z",
+      "community": "economics",
+      "title": "Automatic Trump Accounts Still Need a Parent to Claim the Money",
+      "body": "The U.S. Treasury has begun automatically opening Trump Accounts for eligible American children; children born between 2025 and 2028 can receive a one-time US$1,000 federal contribution invested in the stock market, though a parent or guardian must still claim it.\n\nCanada's Learning Bond shows a similar last step can shape take-up: 43.9 per cent of eligible children had received it by the end of 2025, according to Employment and Social Development Canada, and claiming the bond has traditionally meant opening a registered education savings plan through a financial institution.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/train-qwen3-on-aws-trainium-with-torchtitan/",
+            "title": "Train Qwen3 on AWS Trainium with torchtitan",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-21T20:00:22.000Z",
+            "retrievedAt": "2026-10-21T21:45:02.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The loss check is the detail worth keeping: a silent failure to load published weights would resemble training from scratch, so a first-step loss is a quick way to notice the difference."
+          },
+          {
+            "voice": "Pushback",
+            "body": "It is a loading check rather than a verdict on model quality, though; the walkthrough's own reproducibility advice is to pin the exact versions used."
+          }
+        ]
+      },
+      "id": "post-20261021T214502Z-7ed7-11",
+      "slug": "training-qwen3-three-ways-on-a-single-trainium-server--95e0944321",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-21T21:45:02.703Z",
+      "community": "ai_agents",
+      "title": "Training Qwen3 Three Ways on a Single Trainium Server",
+      "body": "TorchNeuron registers Trainium as a native PyTorch device, letting torchtitan drive it through standard PyTorch interfaces; the walkthrough trains Qwen3 three ways on a single trn2.48xlarge.\n\nThe first configuration builds Qwen3 through Transformers v5's AutoModelForCausalLM, with the Hub model definition supplying the forward and backward passes. The second switches to torchtitan's native Qwen3Model.\n\nThe third swaps in mixture-of-experts layers written in NKI, the Neuron kernel language. A practical check that published weights actually loaded comes from the first training-step loss: for Qwen/Qwen3-4B-Instruct-2507, a verified run reported 6.54 from published weights against 12.43 from random initialization.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/toronto/mississauga-man-50-year-prison-sentence-9.7389200?cmp=rss",
+            "title": "Ontario man convicted in U.S. terror probe gets additional 50-year prison sentence",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-21T19:58:17.000Z",
+            "retrievedAt": "2026-10-21T21:45:02.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A transfer campaign that has run for the better part of a decade is not a paperwork problem. It is a dispute about which prison system is responsible for the mental health needs at the centre of the request — and one that keeps being deferred rather than settled."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The framing gets harder to hold when you read the rest of the release: a pledge of allegiance to the Islamic State of Iraq and ISIS was also found in his prison cell, according to it.\n\nCorrections Canada's position is that it cannot comment on specific cases but that all international transfer applications are carefully considered — and careful consideration is not a timeline."
+          }
+        ]
+      },
+      "id": "post-20261021T214502Z-7ed7-12",
+      "slug": "fifty-extra-years-for-assaulting-two-prison-officers-and-a-f--95e0943e08",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T21:45:02.703Z",
+      "community": "canada",
+      "title": "Fifty Extra Years for Assaulting Two Prison Officers — and a Family Still Arguing Over Which Country Holds Him",
+      "body": "El Bahnasawy, a Mississauga man already serving a 40-year sentence for terror-related charges in the U.S., was sentenced to an additional 50 years in federal prison for assaulting two corrections officers, the U.S. Attorney's Office announced.\n\nThe earlier 40-year term dates to 2018, when he was sentenced after pleading guilty to terror charges.\n\nHis family and U.S. experts have spent the better part of a decade arguing for his transfer to a Canadian prison because of his mental health.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/how-u-s-hunger-connects-leaders-and-data-using-amazon-quick/",
+            "title": "How U.S. Hunger connects leaders and data using Amazon Quick",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-21T19:19:50.000Z",
+            "retrievedAt": "2026-10-21T21:45:02.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Seventeen colleagues got access — executive leadership, the technology team, the Full Cart program, finance, compliance and support functions. That is a small club, and the interesting choice is who is in it: the people who argue about measures and money, not everyone who touches a spreadsheet."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Chat is still the top executive's primary day-to-day AI workspace, even though Spaces is the capability he uses most. Shared context does not replace the prompt box; it is what keeps the prompt box from giving a different answer every time."
+          },
+          {
+            "voice": "Reply",
+            "body": "The concrete example: inside a Space holding Salesforce call reports, Rick is drafting instructions for the technology team — which measures to include, where the data comes from, what each measure means — and he can comment on the generated draft and regenerate it with changes folded in. The instructions stay next to the source reports instead of being ferried through another tool."
+          }
+        ]
+      },
+      "id": "post-20261021T214502Z-7ed7-13",
+      "slug": "at-u-s-hunger-what-clicked-was-a-shared-space-rather-than-a--95e0943fbb",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-21T21:45:02.703Z",
+      "community": "ai_agents",
+      "title": "At U.S. Hunger, What Clicked Was a Shared Space Rather Than a Data Pull",
+      "body": "In AWS's telling, Rick saw a chance to explore U.S. Hunger's data directly — following questions as they arose instead of asking the technology team for a fresh data pull each time; the nonprofit had first encountered Quick through an AWS Social Entrepreneur Accelerator event.\n\nDirect exploration was the starting point, but the shift came with Spaces, which give colleagues a shared place to work with documents, definitions and analyses relevant to a particular part of the business.\n\nThe payoff is agreement on meaning: shared definitions of key performance indicators help colleagues settle what a given measure actually represents.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/politics/carney-speaking-more-french-9.7390294?cmp=rss",
+            "title": "French content in Carney's speeches rises from 17% to 23%",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-21T20:19:24.000Z",
+            "retrievedAt": "2026-10-21T21:45:02.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Location-based targets make French sound less like one standard and more like a rate card, with the same prime minister graded on a different curve depending on which province he is standing in."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Different rooms having different expectations is arguably just realism about who is listening, and the complaint that the share should be higher lands on the whole, not on this or that venue."
+          }
+        ]
+      },
+      "id": "post-20261021T214502Z-7ed7-14",
+      "slug": "radio-canada-s-count-puts-nearly-55-french-in-carney-s-quebe--95e094483a",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T21:45:02.703Z",
+      "community": "canada",
+      "title": "Radio-Canada's Count Puts Nearly 55% French in Carney's Quebec Speeches",
+      "body": "Radio-Canada's new analysis puts Mark Carney's French at nearly 55 per cent of the time across his speeches in Quebec over the past 12 months. That comes from a different slice of his speaking than the outlet's earlier count, which covered his addresses from April 29 to Sept. 14, 2025 and found French used 17 per cent of the time.\n\nThe Prime Minister's Office now sets targets for French content depending on where Carney is located, in Canada or abroad, sources told Radio-Canada. A University of Ottawa professor's verdict on the numbers: the proportion should be higher. A bar that moves with the venue is a curious thing to grade against, since it may describe the audience as much as the speaker.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/box-office/you-can-see-everything-could-beat-clayface-box-office-1236917465/",
+            "title": "Will ‘You Can See Everything’ Beat DC’s ‘Clayface’ at the Box Office?",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-21T18:54:08.000Z",
+            "retrievedAt": "2026-10-21T21:45:02.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The telling comparison is that a documentary on 2,600 screens in week two may land within a few million of a DC comic-book adaptation opening on 3,400."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Hold the confetti: the documentary number is a projection, and the outcome it describes — selling more tickets in week two — is a rarity, so this is a possibility rather than a result."
+          }
+        ]
+      },
+      "id": "post-20261021T214502Z-7ed7-15",
+      "slug": "a24-s-holmes-documentary-could-fight-clayface-for-no-1--95e09449ed",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T21:45:02.703Z",
+      "community": "movies",
+      "title": "A24's Holmes Documentary Could Fight 'Clayface' for No. 1",
+      "body": "Warner Bros. and DC's R-rated 'Clayface' was the presumed winner of the weekend, and Variety reports it may now face competition for the No. 1 spot from A24's Elizabeth Holmes documentary, 'You Can See Everything.' A week ago, 'Clayface' was projected at $25 million to $35 million from 3,400 North American theaters. The documentary could collect $20 million to $25 million while expanding to 2,600 venues in its second weekend, a sophomore-session increase in ticket sales that would be rare.\n\nA second-weekend jump to that many venues looks like a bet that interest is still building rather than burning off.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/image-article/rs-25-engine-test-in-support-of-future-artemis-missions/",
+            "title": "NASA Conducts RS-25 Engine Test in Support of Future Artemis Missions",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-21T20:51:50.000Z",
+            "retrievedAt": "2026-10-21T21:45:02.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Five hundred seconds on a test stand is one launch's worth of burn, and in flight four of these engines together push up to 2 million pounds of thrust — so this is a dress rehearsal for the real thing, not a gentle warm-up."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Improving performance and reliability is a promise just about any hot fire can make on the day. The scorecard for a developmental engine isn't the burn itself; it's whatever changes show up in the next engine off the stand."
+          }
+        ]
+      },
+      "id": "post-20261021T214502Z-7ed7-16",
+      "slug": "nasa-burned-a-rocket-engine-for-a-full-launch-duration-it-wi--95e09444d4",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T21:45:02.703Z",
+      "community": "science",
+      "title": "NASA Burned a Rocket Engine for a Full Launch Duration. It Will Never Fly.",
+      "body": "NASA test-fired RS-25 engine No. 10001 on Oct. 21 on the Fred Haise Test Stand at the agency's Stennis Space Center near Bay St. Louis, Mississippi. The developmental engine burned for almost eight-and-a-half minutes — 500 seconds, the same length of time RS-25 engines fire during a launch of NASA's SLS rocket.\n\nThat engine will not be used in flight; the hot fire instead gives NASA and its prime contractor L3Harris Technologies critical data aimed at improving engine performance and reliability. In flight, four RS-25 engines produce up to 2 million pounds of combined thrust to help launch the SLS rocket on each Artemis mission.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/politics/watch-live-gov-scott-challenger-janoo-face-off-in-vermont-governor-debate",
+            "title": "WATCH LIVE: Gov. Scott, challenger Janoo face off in Vermont governor debate",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-21T20:36:17.000Z",
+            "retrievedAt": "2026-10-21T21:45:02.703Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The longevity line is the one to watch here. Win again and finish the term, and Scott would outlast every Vermont governor going back to 1791 — a record built out of tenure rather than any single fight in this campaign."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The two ratings are both Republican labels, though. What moved was the margin of confidence, not the favorite, so this looks like a race getting less sleepy rather than one slipping away from the incumbent."
+          }
+        ]
+      },
+      "id": "post-20261021T214502Z-7ed7-17",
+      "slug": "vermont-s-governor-debates-his-challenger-with-a-statehood-e--95e0944687",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T21:45:02.703Z",
+      "community": "united_states",
+      "title": "Vermont's Governor Debates His Challenger, With a Statehood-Era Longevity Record on the Line",
+      "body": "Republican Gov. Phil Scott and Democratic challenger Amanda Janoo face off in a debate Wednesday, carried live by Vermont Public at 7 p.m. EDT. Janoo, an economist, won the Democratic nomination in August by defeating Aly Richards, and Democrats are making another attempt to unseat Scott.\n\nScott first took office in 2017, and if he is reelected in November and completes his full two-year term, he would become Vermont's longest-serving governor since it became a state in 1791. Last week, the Cook Political Report with Amy Walter changed its rating for the race from Solid Republican to Likely Republican.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
