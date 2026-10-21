@@ -2584,7 +2584,20 @@
     "from data to decisions conversational supply chain intelligence with amazon quick and amazon bedrock agentcore",
     "webb captures stellar jets",
     "nigeria confirms ebola case in its capital as woman who arrived from uganda tests positive",
-    "nigeria confirms an ebola case in abuja as a woman arriving from uganda tests positive"
+    "nigeria confirms an ebola case in abuja as a woman arriving from uganda tests positive",
+    "the internet goes on high alert after discovery of 8 compromised tls certs",
+    "is ebola under control in kenya after nine cases confirmed",
+    "millions are struck off india s voter rolls in largest disenfranchisement in history",
+    "meta drops the word train from its commercial tos after ai backlash",
+    "expecting a baby 5 tips to help you prepare for pregnancy costs",
+    "us citizen stephen hubbard freed by russia as trump envoy meets putin",
+    "discover tools at runtime with aws agent registry",
+    "when i existed a cannes market standout swooped on for world sales by m appeal and now bound for tallinn black nights exclusive",
+    "ryan wedding ally tupac who allegedly offered cosmetic surgery to locate murder target requests bail",
+    "dear al pacino",
+    "more than 1 5 million canadian crime stoppers tips leaked cbc exclusive finds",
+    "build a semantic layer for agentic ai on aws with atscale and amazon bedrock agentcore",
+    "father s house starring david dencik and trine dyrholm picked up by dr sales ahead of tallinn competition"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -5170,12 +5183,25 @@
     "https://aws.amazon.com/blogs/machine-learning/from-data-to-decisions-conversational-supply-chain-intelligence-with-amazon-quick-and-amazon-bedrock-agentcore/",
     "https://www.nasa.gov/image-article/webb-captures-stellar-jets/",
     "https://www.pbs.org/newshour/world/nigeria-confirms-ebola-case-in-its-capital-as-woman-who-arrived-from-uganda-tests-positive",
-    "https://www.npr.org/2026/10/20/g-s1-148975/nigeria-confirms-ebola-case"
+    "https://www.npr.org/2026/10/20/g-s1-148975/nigeria-confirms-ebola-case",
+    "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/",
+    "https://www.bbc.co.uk/news/articles/c693z948px0jo",
+    "https://www.npr.org/2026/10/21/nx-s1-5997960/india-voter-rolls",
+    "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
+    "https://www.npr.org/2026/10/21/nx-s1-5996849/insurance-cost-baby-pregnancy",
+    "https://www.bbc.co.uk/news/articles/c6m24l9v3745o",
+    "https://aws.amazon.com/blogs/machine-learning/discover-tools-at-runtime-with-aws-agent-registry/",
+    "https://variety.com/2026/film/global/when-i-existed-cannes-market-standout-m-appeal-tallinn-1236918550/",
+    "https://www.cbc.ca/news/canada/montreal/atna-ohna-bail-hearing-9.7387384?cmp=rss",
+    "https://psyche.co/turning-points/why-i-wrote-mad-letters-to-celebrities-on-my-mothers-behalf",
+    "https://www.cbc.ca/news/investigates/canadian-crime-stoppers-tips-leaked-hack-investigation-9.7388820?cmp=rss",
+    "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-atscale-and-amazon-bedrock-agentcore/",
+    "https://variety.com/2026/film/global/trine-dyrholm-david-dencik-dr-sales-religious-sect-1236918444/"
   ],
   "initialized": true,
-  "cycleCount": 161,
+  "cycleCount": 162,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-10-21T04:52:33.623Z",
+  "lastRunAt": "2026-10-21T11:53:34.328Z",
   "communities": [
     "technology",
     "science",
@@ -5197,11 +5223,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20261020T083530Z-de5d",
-      "generatedAtCycle": 157,
-      "summary": "The Gravity Gap: How Two Tandem Satellites Measure Water and Ice From Orbit; The DOJ Charged 28 Noncitizens in California — All Green-Card Holders, a Number Who Don't Appear to Have Voted; Díaz Guaranteed a Game 6 Win — Then Gave the Rays a Four-Run Lead; Seventh Day of Clashes in Albania as Protesters Press to Oust Edi Rama; Roofless in Scarborough: Police Investigate a Possible Fraud While an Insurer Denies Most of the Claim; Andy Burnham's New Rules Would Give Drivers the Right to Challenge '"
-    },
-    {
       "batchId": "20261020T141937Z-226f",
       "generatedAtCycle": 158,
       "summary": "Britain's Watchdog Says Apple's Contactless Fees Are Blocking Fintechs; The Cowichan Title Ruling Heads to Appeal, With Stays Sought Before It Takes Effect; UK Jobless Rate Falls to 4.7% While Vacancies Keep Sliding; Slate Opens Its First Showroom for a $24,950 Electric Pickup; Researchers Enumerated 6,800 Muse Share Links and Found Private Material in Some; A Group Challenge to Write a Chilling Tale Produced Frankenstein and The Vampyre; Alberta Voted to Stay in Canada. Québec's Reasons to Leav"
@@ -5220,6 +5241,11 @@
       "batchId": "20261021T045233Z-b699",
       "generatedAtCycle": 161,
       "summary": "How Hurricane Isaias's Remnants Became a Bomb Cyclone Over the North Atlantic; Fortune Points to a $1,200-$1,800 Price Range for Microsoft's 2028 Console; OpenBSD 8.0 Arrives With Its Founder's Claim of Two Remote Holes in Thirty Years; Springfield, Ohio Is a Symbol of Modern America, Depending on Who's Describing It; CFB Wainwright's Fire Protocol: Plan Live-Fire Shoots Before 10 a.m. in High-Risk Months; Witkoff Is Set to Meet Putin in St Petersburg Over Proposals to End the Ukraine Conflict; "
+    },
+    {
+      "batchId": "20261021T115334Z-8417",
+      "generatedAtCycle": 162,
+      "summary": "Eight Weak TLS Keys — and the Devices That Won't Get the Update; Kenya's First Ebola Outbreak: Nine Cases, All Tied to One Traveller; India’s Voter Roll Revision Deleted an Estimated 130 Million Names; Meta Dropped the Word “Train” From Its Commercial Terms After a Scraping Backlash; A Health Plan Estimated About $2,700 Out of Pocket for a Routine Pregnancy; the Costs Ran Past the Budget; Russia Frees a 74-Year-Old American, and Trump Says No Swap Was Needed; Every Request Gets a Fresh Toolset: "
     }
   ]
 }

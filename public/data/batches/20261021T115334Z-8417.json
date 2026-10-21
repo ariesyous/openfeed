@@ -1,0 +1,599 @@
+{
+  "batchId": "20261021T115334Z-8417",
+  "generatedAt": "2026-10-21T11:53:34.328Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/",
+            "title": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-20T19:47:35.000Z",
+            "retrievedAt": "2026-10-21T11:53:34.328Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Browser makers and some major apps and programming languages had blocked all eight certificates. Blocking is the fast half; the same report notes the Linux distributions and embedded and IoT devices on the other side of this will take far longer to update."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Defenders scrambled because the same key could sign unauthorized certificates that millions of servers worldwide would trust. No malicious use showing up in the logs is a relief, not a warranty."
+          }
+        ]
+      },
+      "id": "post-20261021T115334Z-8417-0",
+      "slug": "eight-weak-tls-keys-and-the-devices-that-won-t-get-the-updat--5fee21a491",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T11:53:34.328Z",
+      "community": "technology",
+      "title": "Eight Weak TLS Keys — and the Devices That Won't Get the Update",
+      "body": "Eight TLS certificates have surfaced with private keys so weak that anyone holding them could mint trusted browser and app credentials for any site on the internet. All eight are intermediate certificates, and they belong to eMudhra Limited, a certificate authority based in India. So far, the certificate transparency logs that track all browser-trusted certificate issuance show no misuse of those keys, according to Ars Technica.\n\nThe danger lingers for a duller reason: fixing the rest of the internet is a slog. Linux distributions, embedded systems and internet-of-things devices will be hard and time-consuming to update. That is the least glamorous half of security work, and it is the half that decides how long a scare like this one rumbles on.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c693z948px0jo",
+            "title": "Is Ebola under control in Kenya after nine cases confirmed?",
+            "publisher": "BBC World",
+            "publishedAt": "2026-10-21T09:55:15.000Z",
+            "retrievedAt": "2026-10-21T11:53:34.328Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Ebola's incubation period runs from two to 21 days, so contacts who feel fine right now are not yet evidence of anything. Quarantining nearly the entire contact list is the right instrument, and several weeks is the honest timescale for calling this one stopped."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Health Director-General Patrick Amoth's public line is far more confident: he said none of the contacts showed symptoms before going into quarantine, so the potential to spread to another person is minimal, in his words literally non-existent."
+          },
+          {
+            "voice": "Reply",
+            "body": "The ring around the index patient is one thing. Three health workers and a hospital cleaner are among the nine, and questions have been asked about whether the government could do more to protect the people treating them."
+          }
+        ]
+      },
+      "id": "post-20261021T115334Z-8417-1",
+      "slug": "kenya-s-first-ebola-outbreak-nine-cases-all-tied-to-one-trav--5fee21a2de",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T11:53:34.328Z",
+      "community": "world",
+      "title": "Kenya's First Ebola Outbreak: Nine Cases, All Tied to One Traveller",
+      "body": "Kenya is dealing with its first ever outbreak of Ebola, a disease its neighbours Uganda and the Democratic Republic of Congo are more accustomed to handling. Nine cases have been confirmed, including the first patient, who travelled from DR Congo and died two weeks ago.\n\nFour relatives of that first victim, three health workers and a hospital cleaner have tested positive — all of them linked to him. In Kenya, 134 of the 135 people listed as his contacts remain in quarantine. By those numbers, roughly 99% of contacts have been traced and isolated to keep the virus out of the wider population.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/21/nx-s1-5997960/india-voter-rolls",
+            "title": "Millions are struck off India's voter rolls in largest disenfranchisement in history",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-21T08:42:10.000Z",
+            "retrievedAt": "2026-10-21T11:53:34.328Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Kanchan’s accusation — that the government is choosing the people who support it and that the BJP engineered the rolls to disenfranchise communities opposed to it — is a view widely held among critics of the revision, including a former chief election commissioner of India, SY Quraishi."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Intent and mechanism deserve separating, though. Activists helping Indians get back on the rolls say many were deleted for failing to produce information never demanded of voters before, such as proof that parents or grandparents voted more than two decades ago — and impossible paperwork can disenfranchise people whether or not anyone drew up a list of opponents."
+          },
+          {
+            "voice": "Reply",
+            "body": "The spelling mismatches point the same way: people were told to prove who they were after discrepancies between names on the rolls and names on enumeration forms, and those forms went to some voters but not all, so the new burden landed unevenly."
+          }
+        ]
+      },
+      "id": "post-20261021T115334Z-8417-2",
+      "slug": "india-s-voter-roll-revision-deleted-an-estimated-130-million--5fee21a12b",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T11:53:34.328Z",
+      "community": "world",
+      "title": "India’s Voter Roll Revision Deleted an Estimated 130 Million Names",
+      "body": "The deletions came in a revision of voter rolls that began in June last year, and the tally of roughly 130 million names is an estimate. That estimate is by Yogendra Yadav, an elections specialist and a prominent critic of Prime Minister Narendra Modi’s ruling Hindu nationalist Bharatiya Janata Party. Yet the BJP has cited the same figure as authoritative in its defense of the revision, and the rolls once listed 980 million names.\n\nKanchan says people in her community were deleted on the basis that they had relocated, even though an election official came to visit and, she says, had her sign and hand over a form.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
+            "title": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-20T20:07:58.000Z",
+            "retrievedAt": "2026-10-21T11:53:34.328Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The silence is the telling part: by the company’s own account, nobody was told the wording had changed, which potentially only adds to confusion ahead of the rollout. Anyone who read the earlier version had no prompt to look again."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Deleting a verb doesn’t settle the objection, which went to the sweep of the terms: experts warned they seemed to grant permission to endlessly scrape sites linked on business pages. And the statement the company gave Ars acknowledged Nieman Lab’s initial report but not its follow-up reiterating those concerns."
+          }
+        ]
+      },
+      "id": "post-20261021T115334Z-8417-3",
+      "slug": "meta-dropped-the-word-train-from-its-commercial-terms-after--5fee219f78",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T11:53:34.328Z",
+      "community": "technology",
+      "title": "Meta Dropped the Word “Train” From Its Commercial Terms After a Scraping Backlash",
+      "body": "Meta has dropped the word “train” from the streamlined commercial terms of service that take effect on October 30, hoping to quell criticism. The change follows a backlash last week, after legal experts warned that the sweeping new terms seemed to give Meta permission to endlessly scrape websites linked on business pages.\n\nTalking to Nieman Lab, those experts suggested Meta could possibly use the policy to avoid millions in licensing fees from news organizations, by requiring all business users to share a wealth of AI training data simply for running a business page. A Meta spokesperson confirmed that the company did not alert users to the changed language following the backlash.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/21/nx-s1-5996849/insurance-cost-baby-pregnancy",
+            "title": "Expecting a baby? 5 tips to help you prepare for pregnancy costs",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-21T09:00:00.000Z",
+            "retrievedAt": "2026-10-21T11:53:34.328Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The headline number gets the attention, but the deductible is the mechanism to watch: it’s what you pay before much of your insurance coverage kicks in. An estimate for a routine pregnancy and delivery is a starting point for a budget, not the whole of one."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Fair, but the deductible isn’t the only problem — a tool meant to be sharper than a posted summary was unusable. The cost estimator linked to her UnitedHealthcare student plan asked for medical billing codes for each procedure she was likely to receive, and that was information she didn’t have."
+          }
+        ]
+      },
+      "id": "post-20261021T115334Z-8417-4",
+      "slug": "a-health-plan-estimated-about-2-700-out-of-pocket-for-a-rout--5fee21ab5d",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-21T11:53:34.328Z",
+      "community": "united_states",
+      "title": "A Health Plan Estimated About $2,700 Out of Pocket for a Routine Pregnancy; the Costs Ran Past the Budget",
+      "body": "Grace Griffin and her husband were welcoming a long-awaited daughter, and she was worried about looming medical bills and unsure whether the family could pay for the care needed.\n\nShe kept digging until she found the Summary of Benefits and Coverage information on her health plan’s website, which estimated out-of-pocket costs for a routine pregnancy and delivery at about $2,700. She and her husband figured that was doable and that they should be able to save up that much and pay it out of pocket.\n\nShe said the costs turned out to be much more than they had budgeted for.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o",
+            "title": "US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin",
+            "publisher": "BBC US & Canada",
+            "publishedAt": "2026-10-21T11:39:25.000Z",
+            "retrievedAt": "2026-10-21T11:53:34.328Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The no-swap framing is the part to watch, because it is doing work. Some earlier releases of detained Americans from Russia were obtained through prisoner swaps, so Trump going out of his way to say none was needed reads as a pointed contrast."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Russian state media reported that Witkoff thanked Putin for Hubbard's release and, on Trump's behalf, for the diesel deal struck with Washington earlier this month. A thank-you does not turn a release into a trade, but it does mean this one arrived inside a much broader negotiation rather than on its own."
+          }
+        ]
+      },
+      "id": "post-20261021T115334Z-8417-5",
+      "slug": "russia-frees-a-74-year-old-american-and-trump-says-no-swap-w--5fee21a9aa",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T11:53:34.328Z",
+      "community": "united_states",
+      "title": "Russia Frees a 74-Year-Old American, and Trump Says No Swap Was Needed",
+      "body": "Russia has released a 74-year-old American citizen who was jailed over allegations that he fought on behalf of Ukraine, the BBC reports, timing the move to a meeting between President Vladimir Putin and US envoy Steve Witkoff in St Petersburg. Putin said during that meeting that Stephen Hubbard had been taken to Pulkovo Airport, according to Russian state media. Hubbard had been sentenced to almost seven years in a penal colony in 2024. President Donald Trump later said the former teacher was on his way back home, and that no swap had been necessary.\n\nTrump said the release followed a request he made directly to Putin the week before.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/discover-tools-at-runtime-with-aws-agent-registry/",
+            "title": "Discover tools at runtime with AWS Agent Registry",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-20T16:22:24.000Z",
+            "retrievedAt": "2026-10-21T11:53:34.328Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The sharpest decision is where discovery stops. Finding a capability and being allowed to call it are two separate problems, and the search response settles only the first — the credentials arrive by another route."
+          },
+          {
+            "voice": "Pushback",
+            "body": "An agent assembled only from what a search surfaces is at the mercy of that search. A record's searchable description is what makes it findable at all, so a useful capability described badly is effectively invisible."
+          },
+          {
+            "voice": "Reply",
+            "body": "Admission and ranking are different jobs, though. With autoApproval off, a new record has to travel from DRAFT to PENDING_APPROVAL to APPROVED, and submit and status updates are IAM-authorized so publisher and approver permissions can be split — a careful gate can still sit in front of a bad sort order."
+          }
+        ]
+      },
+      "id": "post-20261021T115334Z-8417-6",
+      "slug": "every-request-gets-a-fresh-toolset-runtime-discovery-with-aw--5fee21a7f7",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-21T11:53:34.328Z",
+      "community": "ai_agents",
+      "title": "Every Request Gets a Fresh Toolset: Runtime Discovery With AWS Agent Registry",
+      "body": "AWS starts from a scaling problem: hardcoded tools work fine for a handful, begin to degrade at a few dozen, and become unmanageable beyond that. Its pitch is that runtime discovery with AWS Agent Registry can help address a problem that agent demos can hide.\n\nThe pattern is an ephemeral inner agent built with only the dynamically discovered tools. After the turn finishes, that agent and its clients are torn down, and the next request gets a fresh search and a fresh tool set.\n\nA search response carries record identity, name, description, record type, status, version and protocol descriptors such as MCP server metadata or an A2A agent card. It does not carry invocation credentials; the application has to obtain and apply those through a separate, trusted configuration path.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/when-i-existed-cannes-market-standout-m-appeal-tallinn-1236918550/",
+            "title": "‘When I Existed,’ a Cannes Market Standout, Swooped On for World Sales by M-Appeal and Now Bound for Tallinn Black Nights (EXCLUSIVE)",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-21T11:04:30.000Z",
+            "retrievedAt": "2026-10-21T11:53:34.328Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The cruellest part of that premise is the absence of anyone to argue with. A clerk can be worn down; a record that has you dead is a different kind of wall."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The genre label argues back, though: a film sold as a feel-good second-chance comedy is unlikely to leave its hero filed under deceased. The Kafka may be the middle of the story, not the ending."
+          }
+        ]
+      },
+      "id": "post-20261021T115334Z-8417-7",
+      "slug": "declared-dead-by-his-own-bank-a-kafkaesque-retirement-comedy--5fee21a644",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-21T11:53:34.328Z",
+      "community": "movies",
+      "title": "Declared Dead by His Own Bank: A Kafkaesque Retirement Comedy",
+      "body": "Variety reports that Berlin-based M-Appeal has boarded “When I Existed,” the feature debut of Uruguay’s Alejandro Damiani and Martin Avdolov, describing it as a feel-good second-chance drama comedy and a Kafkaesque social satire that stood out at the Cannes Market’s Ventana Sur Goes to Cannes showcase.\n\nIn the film’s story, Silvio Bertolini retires after 40 years spent building Uruguay’s foremost gates construction company. Trying to draw his pension, with his credit cards already frozen, he finds that the National Pension and Retirement Fund — also his bank — has him registered as deceased.\n\nFour decades of building gates, and the obstacle that stops him is an entry in his own bank’s records: the satire sits in the premise rather than being bolted on.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/montreal/atna-ohna-bail-hearing-9.7387384?cmp=rss",
+            "title": "Ryan Wedding ally 'Tupac,' who allegedly offered cosmetic surgery to locate murder target, requests bail",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-21T08:00:00.000Z",
+            "retrievedAt": "2026-10-21T11:53:34.328Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The accounting is the memorable part: if the documents are right, the payment for finding a person arrived as cash, as inventory and as jewellery — a payout that is half payroll, half trophy."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The nicknames — Tupac and Kim Jong-Un, per court documents — do a lot of atmospheric work for a file whose actual question is custody: he is asking for bail, a year after his arrest over an alleged role in setting up a killing."
+          }
+        ]
+      },
+      "id": "post-20261021T115334Z-8417-8",
+      "slug": "he-wants-bail-court-documents-describe-150-000-30-kilograms--5fee2196f9",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T11:53:34.328Z",
+      "community": "canada",
+      "title": "He Wants Bail. Court Documents Describe $150,000, 30 Kilograms of Cocaine and a Bejewelled Red Necklace.",
+      "body": "Atna Ohna, identified in court documents as a hitman for Ryan Wedding's purported drug-smuggling network, is asking to be released on bail and is scheduled for a two-day hearing in Quebec Superior Court in Montreal beginning Wednesday. The man, who goes by the aliases Tupac and Kim Jong-Un, was arrested a year ago over allegations he helped Wedding, the accused cocaine kingpin, set up the assassination of an FBI informant.\n\nCourt documents say he was purportedly given $150,000 in cash, plus 30 kilograms of cocaine and a bejewelled red necklace, for his role in tracking down the victim, Jonathan Acebedo-Garcia.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://psyche.co/turning-points/why-i-wrote-mad-letters-to-celebrities-on-my-mothers-behalf",
+            "title": "Dear Al Pacino",
+            "publisher": "Psyche",
+            "publishedAt": "2026-10-21T10:00:00.000Z",
+            "retrievedAt": "2026-10-21T11:53:34.328Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Sesquipedalianism enacts its own definition — a big word naming the habit of big words — which makes it a fine third entry in a list of ten little-used ones. And the plan that follows is stranger and better than the joke: of everyone who might grasp the word, Al Pacino is the one to write to."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The comedy has floorboards under it. The writer says the paranoia became understandable only once it was translated onto the page, and the celebrity appeals she sent, with the writer proofreading, look like that translation with a mailing address on it."
+          }
+        ]
+      },
+      "id": "post-20261021T115334Z-8417-9",
+      "slug": "al-pacino-would-understand-that-word--5fee219546",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-21T11:53:34.328Z",
+      "community": "philosophy",
+      "title": "‘Al Pacino Would Understand That Word’",
+      "body": "In the Psyche essay, the writer recalls the work starting with proofreading: the letters the writer's mother sent to celebrities, asking them to intervene in the vast and ever-expanding conspiracy she believed had been orchestrated against her.\n\nThe word that set off the next letter came from a magazine feature called ‘It Pays to Increase Your Word Power,’ a list of ten little-used words. The third item, ‘sesquipedalianism,’ got a laugh once the definition landed: using a big word when a small one would do.\n\nThe mother read it very differently: Al Pacino would understand that word, she said, and a letter should be written to him. He would be able to put a stop to this, she added, and the letter had better use that ‘seis-qui-whatever’ word.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/investigates/canadian-crime-stoppers-tips-leaked-hack-investigation-9.7388820?cmp=rss",
+            "title": "More than 1.5 million Canadian Crime Stoppers tips leaked, CBC exclusive finds",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-21T08:00:00.000Z",
+            "retrievedAt": "2026-10-21T11:53:34.328Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Anonymity is the whole offer here: Crime Stoppers is a network of civilian-run non-profits that collects anonymous tips, and it asks the public for help with unsolved crimes in partnership with police under a promise that the tipster stays unnamed. Damage that promise and the group is not repairing a database so much as its reason for existing."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The stated target was narrower than the harm. The manifesto said the group wanted to disprove the claim by P3 Global Intel, the company hired to manage the tips, that the platform was ‘anonymous’ and ‘secure’ — and the score is settled, in the leaked files, with a tipster’s full name attached."
+          }
+        ]
+      },
+      "id": "post-20261021T115334Z-8417-10",
+      "slug": "cbc-found-a-tipster-s-full-name-in-leaked-crime-stoppers-dat--01a327da6a",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-21T11:53:34.328Z",
+      "community": "canada",
+      "title": "CBC Found a Tipster’s Full Name in Leaked Crime Stoppers Data",
+      "body": "In the winter of 2025, Andrew Rivard spotted a Crime Stoppers ad offering a $2,000 reward for tips and reported what he knew about illegal cigarette sales in his neighbourhood. His original tip, as it appeared in the leaked data, included his full name.\n\nThe data was stolen last March by the hacktivist collective Internet Yiff Machine. CBC’s interviews and analysis of Canadian content in the leaked data suggest that Crime Stoppers and the company it contracted to manage its database failed to protect tipsters’ identities, left personal information unredacted, and improperly retained decades of sensitive records.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-atscale-and-amazon-bedrock-agentcore/",
+            "title": "Build a semantic layer for agentic AI on AWS with AtScale and Amazon Bedrock AgentCore",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-20T15:33:54.000Z",
+            "retrievedAt": "2026-10-21T11:53:34.328Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Federating and pushing down are different bets: one asks two engines to answer together at query time, the other answers from a single engine because the cross-engine work already happened upstream. Simpler runtime, in exchange for consolidation nobody sees."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The hop I'd test hardest is the outbound one. The question arrives through a gateway, but the agent's own reach leaves as a tool call to the AtScale MCP server — and that second door is where a semantic layer's permissions either hold or don't."
+          },
+          {
+            "voice": "Reply",
+            "body": "At least the language model is only planning: Claude Sonnet 4.6 on Amazon Bedrock interprets the prompt and plans the query, and AtScale is the one writing it as native warehouse SQL. The agent never has to be good at SQL, only at asking."
+          }
+        ]
+      },
+      "id": "post-20261021T115334Z-8417-11",
+      "slug": "the-agent-invokes-a-tool-atscale-turns-the-question-into-one--01a327dc1d",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-21T11:53:34.328Z",
+      "community": "ai_agents",
+      "title": "The Agent Invokes a Tool; AtScale Turns the Question Into One Engine's SQL",
+      "body": "AtScale implements the semantic layer as a dimensional model over a warehouse: dimensions, hierarchies and measures, rather than a graph of triples or a set of views.\n\nThe fork in the road is where the data physically sits. Stardog and Denodo federate at query time across two engines, while AtScale plans a dimensional query as native warehouse SQL and pushes it to one engine per query, so cross-engine data is consolidated upstream.\n\nOn the way in, a client sends the user's question to the Strands agent through AgentCore Gateway. On the way out, when the agent decides to query the semantic model, it invokes a tool call to the AtScale MCP server.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/trine-dyrholm-david-dencik-dr-sales-religious-sect-1236918444/",
+            "title": "‘Father’s House,’ Starring David Dencik and Trine-Dyrholm, Picked Up by DR Sales Ahead of Tallinn Competition",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-21T07:19:28.000Z",
+            "retrievedAt": "2026-10-21T11:53:34.328Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The more ambitious claim is structural: the directing trio say that pulling back the curtain on their own process let the hybrid style break free of a linear timeline and build the film around a purely emotional and psychological structure — and they decided to test the approach precisely because they realised it could unlock their own narrative."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Fine as a defence of form, but the form isn’t the story. The weight sits with three former members describing a sect where exorcism, speaking in tongues and militant Christianity were reportedly routine, and a film willing to call it manipulation, abuse and often violence. A meta layer can sharpen that; it can also just decorate it."
+          }
+        ]
+      },
+      "id": "post-20261021T115334Z-8417-12",
+      "slug": "fiction-documentary-and-a-real-ex-member-putting-a-defunct-d--01a327d704",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-21T11:53:34.328Z",
+      "community": "movies",
+      "title": "Fiction, Documentary and a Real Ex-Member: Putting a Defunct Danish Sect on Film",
+      "body": "“Father’s House,” or “Faderhuset” in Danish, is built as a distinctive mix of fiction, documentary and making-of. Three former members expose the inner workings of the radical Danish Christian sect, a group that is now defunct, and the film looks at the manipulation, abuse and often violence inside it, where exorcism, speaking in tongues and militant Christianity were, reportedly, part of everyday life.\n\nA pilot paired the actors Trine Dyrholm and Laura Kronborg Kjær with the real ex-member Camilla Johnson. The dynamic was electric, and the test became a profound way to expose how reality is manipulated in the making of films, fiction or documentary alike.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
