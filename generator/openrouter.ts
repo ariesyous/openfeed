@@ -53,9 +53,11 @@ export async function callOpenRouter(opts: CallOpenRouterOptions): Promise<OpenR
     model,
     messages: opts.messages,
     stream: true,
-    // Keep the model/reasoning unchanged, prefer faster healthy endpoints, and
-    // require support for the requested schema. Same-model fallbacks stay enabled.
-    provider: { sort: "throughput", require_parameters: true, allow_fallbacks: true },
+    // Keep the model/reasoning unchanged, prefer the cheapest endpoints, and require
+    // support for the requested schema. Only fp8-or-better (or undisclosed) endpoints
+    // qualify, so price sorting never lands on fp4 variants. Same-model fallbacks stay.
+    provider: { sort: "price", quantizations: ["fp8", "fp16", "bf16", "fp32", "unknown"],
+      require_parameters: true, allow_fallbacks: true },
   };
   if (opts.maxTokens) {
     body.max_tokens = opts.maxTokens;
