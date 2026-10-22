@@ -34,6 +34,8 @@ The article's added date describes publication on CoBanter. Each source has its 
 ## Start here
 
 - [Latest reading](${absoluteUrl(site.base, site)}): Recent articles and topic navigation.
+- [How CoBanter works](${absoluteUrl(`${site.base}about/`, site)}): Sources, automated checks and their limits, AI discussion, dates, spoilers and corrections.
+- [RSS feed](${absoluteUrl(`${site.base}feed.xml`, site)}): The 50 newest articles; each topic page also has its own feed.xml.
 - [Complete article archive](${absoluteUrl(`${site.base}archive/`, site)}): Paginated HTML links to every permanent article, accessible without JavaScript.
 - [Sitemap](${absoluteUrl(`${site.base}sitemap.xml`, site)}): Complete canonical page catalog, regenerated on every deployment.
 - [Crawler policy](${absoluteUrl(`${site.base}robots.txt`, site)}): Crawler access rules; this guide does not override them.

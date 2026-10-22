@@ -10,6 +10,8 @@ const manifest = JSON.parse(readFileSync("public/data/manifest.json", "utf8")) a
 const batch = JSON.parse(readFileSync(`public/data/${manifest.batches[0].file}`, "utf8")) as BatchFile;
 const accounts = JSON.parse(readFileSync("public/data/accounts.json", "utf8"));
 const post = batch.items[0];
+// Article pages also request optional related reading; these checks concern feed/article data.
+const dataRequests = () => vi.mocked(fetch).mock.calls.filter(([url]) => !String(url).endsWith("/related.json"));
 beforeEach(() => {
   localStorage.clear();
   window.history.replaceState({}, "", "/");
@@ -25,20 +27,20 @@ describe("article navigation", () => {
     await screen.findByRole("link", { name: post.title });
     expect(window.location.pathname).toBe(topicPath(post.community));
     const before = screen.getAllByRole("article").length;
-    const requestsBeforeArticle = vi.mocked(fetch).mock.calls.length;
+    const requestsBeforeArticle = dataRequests().length;
     fireEvent.click(screen.getByRole("link", { name: post.title }));
     const article = await screen.findByRole("region", { name: "Article" });
     expect(window.location.pathname).toBe(articlePath(post));
     expect(new URL(document.head.querySelector<HTMLLinkElement>('link[rel="canonical"]')!.href).pathname).toBe(articlePath(post));
     expect(document.head.querySelector<HTMLMetaElement>('meta[name="description"]')?.content).toBe(articleDescription(post));
     expect(JSON.parse(document.getElementById("page-structured-data")!.textContent!)["@type"]).toBe("Article");
-    expect(within(article).getByRole("button", { name: "Copy link" })).toBeVisible();
+    expect(within(article).getByRole("button", { name: "Share" })).toBeVisible();
     expect(screen.queryByRole("button", { name: /Save|Mark read|Mark caught up/ })).not.toBeInTheDocument();
     await act(async () => { window.history.back(); });
     await waitFor(() => expect(window.location.pathname).toBe(topicPath(post.community)));
     await waitFor(() => expect(within(screen.getByRole("navigation", { name: "Topics" })).getByRole("link", { name: topicLabel(post.community) })).toHaveAttribute("aria-current", "page"));
     expect(screen.getAllByRole("article")).toHaveLength(before);
-    expect(vi.mocked(fetch).mock.calls).toHaveLength(requestsBeforeArticle);
+    expect(dataRequests()).toHaveLength(requestsBeforeArticle);
     expect(new URL(document.head.querySelector<HTMLLinkElement>('link[rel="canonical"]')!.href).pathname).toBe(topicPath(post.community));
     expect(document.head.querySelector('meta[property="article:published_time"]')).toBeNull();
     expect(document.head.querySelectorAll('link[rel="canonical"]')).toHaveLength(1);
@@ -103,10 +105,10 @@ describe("article navigation", () => {
     data.id = "article-data"; data.type = "application/json"; data.textContent = JSON.stringify(post); document.body.append(data);
     const view = render(<App />);
     expect(screen.getByRole("heading", { name: post.title })).toBeVisible();
-    expect(fetch).not.toHaveBeenCalled();
+    expect(dataRequests()).toHaveLength(0);
     view.unmount(); render(<App />);
     expect(screen.getByRole("heading", { name: post.title })).toBeVisible();
-    expect(fetch).not.toHaveBeenCalled();
+    expect(dataRequests()).toHaveLength(0);
   });
   it("shows a retryable failure for a missing article", async () => {
     window.history.replaceState({}, "", "/p/not-found/");
@@ -132,10 +134,10 @@ describe("article navigation", () => {
     await waitFor(() => expect(window.location.pathname).toBe(articlePath(legacy)));
     expect(window.location.search + window.location.hash).toBe("?ref=message#sources");
     expect(window.history.state).toEqual({ preserved: true });
-    fireEvent.click(screen.getByRole("button", { name: "Copy link" }));
+    fireEvent.click(screen.getByRole("button", { name: "Share" }));
     expect(clipboard).toHaveBeenCalledWith(`${window.location.origin}${articlePath(legacy)}`);
-    if (embedded) expect(fetch).not.toHaveBeenCalled();
-    else expect(fetch).toHaveBeenCalledTimes(1);
+    if (embedded) expect(dataRequests()).toHaveLength(0);
+    else expect(dataRequests()).toHaveLength(1);
   });
   it("rejects an article payload belonging to a different address", async () => {
     window.history.replaceState({}, "", "/p/another-article--1234567890/");

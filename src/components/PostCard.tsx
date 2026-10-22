@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { topicLabel, topicPath } from "../../shared/topics";
 import { articlePath } from "../../shared/articles";
+import { splitParagraphs } from "../../shared/reading";
 import type { Account, FeedItem } from "../../schemas";
 import { PublicationDate } from "./PublicationDate";
 import { Avatar } from "./Avatar";
@@ -43,25 +44,25 @@ export function PostCard({
   const hasComments = item.comments.length > 0;
 
   return (
-    <article className={`post-card post-card--${item.kind}`} id={item.id}>
+    <article className={`post-card post-card--${item.kind}${articleView ? " article-page" : ""}`} id={item.id}>
       {(item.kind === "repost" || item.kind === "reaction") && (
         <div className="post-kind">
           {item.kind === "repost" ? "↻ Reposted" : "↳ Reacting to a post"}
         </div>
       )}
-      <header className="post-card-header">
+      {!articleView && <header className="post-card-header">
         <Avatar
           seedKey={item.authorId}
           displayName={displayName}
           handle={handle}
         />
         <div className="post-card-author">
-          {articleView ? <span className="post-card-display-name">{displayName}</span> : <button
+          <button
             className="text-button post-card-display-name"
             onClick={() => onAuthorClick?.(item.authorId)}
           >
             {displayName}
-          </button>}
+          </button>
           <span className="post-card-handle">
             {item.editorial ? "AI-edited column" : `@${handle}`}
           </span>
@@ -69,7 +70,7 @@ export function PostCard({
         <span className="post-card-time">
           <PublicationDate iso={item.createdAt} added />
         </span>
-      </header>
+      </header>}
 
       <div className="post-card-meta">
         {item.editorial && (
@@ -103,10 +104,11 @@ export function PostCard({
           event.preventDefault(); onOpenArticle(item);
         }
       }}>{item.title}</a> : item.title}</h3>)}
+      {articleView && <p className="article-byline">{displayName} · {item.editorial ? "AI-edited" : `@${handle}`} · <PublicationDate iso={item.createdAt} added /></p>}
       <div data-nosnippet={item.editorial?.spoilers ? "" : undefined}>
       {hiddenSpoilers ? (
         <button className="post-card-toggle" onClick={() => setShowSpoilers(true)}>Show spoilers</button>
-      ) : <p className="post-card-body">{item.body}</p>}
+      ) : <div className="post-card-body">{splitParagraphs(item.body).map((paragraph, index) => <p key={index}>{paragraph}</p>)}</div>}
 
       {!hiddenSpoilers && discussion.length > 0 && (
         <section className="editorial-discussion" aria-label="AI-generated discussion">
@@ -161,9 +163,14 @@ export function PostCard({
       )}
       {item.editorial && <div className="share-actions">
         <button type="button" className="text-button" onClick={async () => {
-          try { await navigator.clipboard.writeText(new URL(url, window.location.origin).href); setShareStatus("Link copied"); }
+          const link = new URL(url, window.location.origin).href;
+          if (typeof navigator.share === "function") {
+            try { await navigator.share({ title: item.title ?? "CoBanter", url: link }); setShareStatus(""); return; }
+            catch (error) { if (error instanceof DOMException && error.name === "AbortError") return; }
+          }
+          try { await navigator.clipboard.writeText(link); setShareStatus("Link copied"); }
           catch { setShareStatus("Copy the article link from its title or address bar."); }
-        }}>Copy link</button>
+        }}>Share</button>
         <span role="status">{shareStatus}</span>
       </div>}
       {item.editorial ? (
