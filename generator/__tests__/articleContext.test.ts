@@ -26,6 +26,7 @@ describe("bounded article context", () => {
     ["Ars Technica", '<article class="h-entry"><div class="post-content">', '</div></article>'],
     ["Aeon", '<div id="article-content" class="article-content"><div class="has-dropcap">', '</div></div>'],
     ["JSTOR Daily", '<div class="entry-content">', '</div>'],
+    ["The Guardian", '<div data-gu-name="body"><div class="article-body-commercial-selector article-body-viewer-selector">', '</div></div>'],
   ])("extracts the inspected %s body and retains distinct sections", (publisher, start, end) => {
     const html = `<!DOCTYPE html><nav>Menu</nav>${start}<p>${opening}</p><aside><p>Unrelated prose.</p></aside><h2>Mechanism</h2><p>${mechanism}</p>${end}`;
     expect(sourceArticleSections(html, publisher)).toEqual([opening, mechanism]);
@@ -51,6 +52,15 @@ describe("bounded article context", () => {
   ])("excludes inspected %s promotional/duplicate modules without reconnecting paragraphs", (publisher, start, moduleClass) => {
     expect(sourceArticleSections(`${start}<p>${opening}</p><div class="${moduleClass}"><p>Unrelated signup or duplicate pull quote.</p></div><p>${mechanism}</p></div>`, publisher)).toEqual([opening, mechanism]);
     expect(sourceArticleSections(`<div class="unknown"><p>${opening}</p></div>`, publisher)).toEqual([]);
+  });
+  it("excludes Guardian pull quotes, images and credits without joining across them", () => {
+    const body = (inner: string) => `<div data-gu-name="body"><div class="article-body-commercial-selector article-body-viewer-selector">${inner}</div></div>`;
+    const html = body(`<p>${opening}</p><aside data-gu-name="pullquote"><p>A repeated pull quote.</p></aside><figure><figcaption>Photograph credit.</figcaption></figure><p>${mechanism}</p><footer><p>The series is streaming now.</p></footer>`);
+    expect(sourceArticleSections(html, "The Guardian")).toEqual([opening, mechanism]);
+    // Liveblogs and other layouts lack the inspected body container.
+    expect(sourceArticleSections(`<div data-gu-name="body"><p>${opening}</p></div>`, "The Guardian")).toEqual([]);
+    expect(sourceArticleSections(html + html, "The Guardian")).toEqual([]);
+    expect(SOURCE_FEEDS.filter(feed => feed.publisher === "The Guardian").map(feed => feed.url)).toEqual(["https://www.theguardian.com/uk/film/rss", "https://www.theguardian.com/tv-and-radio/the-sopranos/rss"]);
   });
   it("requires Aeon's essay body and excludes adjacent audio labels", () => {
     const before = '<div id="article-content" class="article-content"><p>Listen to this essay</p><p>25 minute listen</p>';

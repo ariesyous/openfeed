@@ -40,7 +40,7 @@ export const SOURCE_FEEDS: SourceFeed[] = [
   { publisher: "Variety Film", url: "https://variety.com/v/film/feed/", hosts: ["variety.com"], topic: "movies", maxAgeDays: 30 },
   { publisher: "Aeon", url: "https://aeon.co/feed.rss", hosts: ["aeon.co"], topic: "philosophy", maxAgeDays: 90 },
   { publisher: "BBC Business", url: "https://feeds.bbci.co.uk/news/business/rss.xml", hosts: ["bbc.co.uk", "bbc.com"], topic: "economics" },
-  { publisher: "The Guardian", url: "https://www.theguardian.com/film/rss", hosts: ["theguardian.com"], topic: "movies", maxAgeDays: 30 },
+  { publisher: "The Guardian", url: "https://www.theguardian.com/uk/film/rss", hosts: ["theguardian.com"], topic: "movies", maxAgeDays: 30 },
   // Criticism can remain useful years later; news still requires the 72-hour check.
   { publisher: "The Guardian", url: "https://www.theguardian.com/tv-and-radio/the-sopranos/rss", hosts: ["theguardian.com"], topic: "the_sopranos", maxAgeDays: 3650 },
   // Recurring publisher feeds retrieved and parser-checked September 18, 2026.
@@ -186,6 +186,9 @@ export function parseSourceFeed(
     .sort((a, b) => b.publishedAt!.localeCompare(a.publishedAt!))
     .slice(0, SOURCE_FEED_ARTICLE_LIMIT);
 }
+/** A short, credential-free reason for diagnostics; never response bodies. */
+export const failureReason = (error: unknown) =>
+  (error instanceof Error ? error.message : String(error)).replace(/\s+/g, " ").slice(0, 80);
 export async function readBounded(response: Response): Promise<string> {
   if (!response.ok || !response.body)
     throw new Error(`RSS request failed (${response.status})`);
@@ -226,14 +229,16 @@ export async function collectSources(
     }),
   );
   const packets: SourcePacket[] = [];
+  // Publishers can have several feeds (e.g. Guardian film and Sopranos); name the topic too.
+  const feedLabel = (feed: SourceFeed) => `${feed.publisher} (${feed.topic})`;
   results.forEach((result, index) => {
     if (result.status === "fulfilled") {
       packets.push(...result.value);
-      console.log(`[sources] ${SOURCE_FEEDS[index].publisher}: ${result.value.length} usable feed articles`);
+      console.log(`[sources] ${feedLabel(SOURCE_FEEDS[index])}: ${result.value.length} usable feed articles`);
     }
     else
       console.warn(
-        `[sources] ${SOURCE_FEEDS[index].publisher} unavailable; skipping`,
+        `[sources] ${feedLabel(SOURCE_FEEDS[index])} unavailable: ${failureReason(result.reason)}; skipping`,
       );
   });
   const covered = coveredUrlKeys(coveredUrls);

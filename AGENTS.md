@@ -517,3 +517,17 @@ trailing `-<digits>` ID; every other URL keeps its exact-URL key. State still st
 exact URLs and keys are derived at check time, so no migration is needed. Intake,
 evergreen filtering and within-run deduplication use the derived keys. Do not extend
 this to other publishers without evidence. Earlier duplicate posts stay published.
+
+## Source supply and shelf review — October 22, 2026
+Read docs/source-supply-review-20261022.md. Sopranos/mythology/lasting reading dried up
+from supply, not selection: the shelf was exhausted September 19, and the Guardian had
+no body adapter, so the October 18 blurb rule dropped every Sopranos feed item. The
+Guardian film feed URL also redirected. The Guardian adapter (single
+article-body-commercial/viewer-selector div) and /uk/film/rss fix both. Met essays sit
+behind a Vercel bot checkpoint (429) and WHE pages trip the DTD guard: they are marked
+`retired`, kept for history and never fetched. Never bypass bot checks or loosen the
+DTD guard. Shelf pages use a publisher adapter when one exists (first section of at
+least 300 characters, never joined), otherwise the generic reader. 33 reviewed
+additions (11 mythology, 10 Sopranos, 12 philosophy) bring the shelf to 100 pages. Their
+ledger and probes are provenance checks, not generated quality, and #36/#37 counts are
+unchanged. The shelf is still finite; per-run pacing was proposed but not implemented.

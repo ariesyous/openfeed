@@ -19,6 +19,8 @@ const bodyMarkers: Record<string, (node: Node) => boolean> = {
   "Ars Technica": node => node.nodeName === "article" && hasClass(node, "h-entry"),
   "Aeon": node => node.nodeName === "div" && attribute(node, "id") === "article-content" && hasClass(node, "article-content"),
   "JSTOR Daily": node => node.nodeName === "div" && hasClass(node, "entry-content"),
+  // Inspected October 22: pull quotes are asides, images figures, credits a footer.
+  "The Guardian": node => node.nodeName === "div" && hasClass(node, "article-body-commercial-selector") && hasClass(node, "article-body-viewer-selector"),
 };
 export const hasArticleAdapter = (publisher: string) => Boolean(bodyMarkers[publisher.startsWith("BBC") ? "BBC" : publisher]);
 
