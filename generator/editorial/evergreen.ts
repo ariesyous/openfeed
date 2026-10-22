@@ -1,6 +1,7 @@
 import { createHash } from "node:crypto";
 import { XMLParser } from "fast-xml-parser";
 import { plainText, readBounded, type SourcePacket } from "./sources";
+import { coverageUrl, coveredUrlKeys } from "./coverage";
 
 // Deliberate reading shelf: factual background and criticism, never current news.
 // Add URLs here as the shelf is reviewed; covered URLs are filtered by generate.ts.
@@ -186,7 +187,8 @@ export function articleExcerpt(html: string): string {
 }
 
 export async function collectEvergreen(now: Date, fetchImpl: typeof fetch, coveredUrls: ReadonlySet<string> = new Set()): Promise<SourcePacket[]> {
-  const shelf = EVERGREEN_SOURCES.filter(source => !coveredUrls.has(source.url));
+  const covered = coveredUrlKeys(coveredUrls);
+  const shelf = EVERGREEN_SOURCES.filter(source => !covered.has(coverageUrl(source.url)));
   console.log(`[sources] Evergreen shelf: ${shelf.length}/${EVERGREEN_SOURCES.length} unconsumed articles`);
   const results = await Promise.allSettled(shelf.map(async (source) => {
     const response = await fetchImpl(source.url, {

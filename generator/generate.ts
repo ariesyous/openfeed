@@ -8,7 +8,7 @@ import { loadWorldState } from "./worldState";
 import { collectSources } from "./editorial/sources";
 import { EDITORIAL_MAX_POSTS, generateEditorial } from "./editorial/generate";
 import { makeEditorialWorld } from "./editorial/state";
-import { coverageTitle } from "./editorial/coverage";
+import { coverageTitle, coverageUrl, coveredUrlKeys } from "./editorial/coverage";
 import { editorialAccounts } from "./editorial/accounts";
 import { createEditorialAudit, publishWithAudit } from "./editorial/audit";
 
@@ -24,10 +24,10 @@ async function main() {
   );
   if (manifest.batches.length && previous.contentMode !== "editorial") throw new Error("Editorial state is missing; refusing to replace published history");
   const coveredTitles = new Set(previous.coveredSourceTitles ?? []);
-  const coveredUrls = new Set(previous.coveredSourceUrls ?? []);
+  const coveredUrls = coveredUrlKeys(previous.coveredSourceUrls ?? []);
   const collected = await collectSources(now, fetch, coveredUrls, coveredTitles);
   const sources = collected.filter(
-    (source) => !coveredUrls.has(source.url) && !coveredTitles.has(coverageTitle(source.title)),
+    (source) => !coveredUrls.has(coverageUrl(source.url)) && !coveredTitles.has(coverageTitle(source.title)),
   );
   console.log(`[sources] collected=${collected.length} unused=${sources.length} previouslyCovered=${collected.length - sources.length}`);
   if (!sources.length) {
