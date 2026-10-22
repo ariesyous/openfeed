@@ -547,3 +547,12 @@ least 300 characters, never joined), otherwise the generic reader. 33 reviewed
 additions (11 mythology, 10 Sopranos, 12 philosophy) bring the shelf to 100 pages. Their
 ledger and probes are provenance checks, not generated quality, and #36/#37 counts are
 unchanged. The shelf is still finite; per-run pacing was proposed but not implemented.
+
+## Offer order for lasting and under-covered topics — October 22, 2026
+Read docs/editorial-offer-order.md. At the user's request, `orderOfferCandidates` orders
+candidates before `prepareEvidence(keepTopicOrder)`. Topics: fewest accepted this run,
+then fewest offers, then PREFERRED_TOPICS (Sopranos, mythology, philosophy), then intake
+order. Within a topic: fewest offers, shelf before feed, then longer context. This is a
+preference, not a quota. It never filters, defers or marks coverage. Keep all evidence,
+review, citation, publisher (two per group), 20-post/32-call/45-minute and revision-priority
+rules unchanged. Other prepareEvidence callers keep longest-first ordering.

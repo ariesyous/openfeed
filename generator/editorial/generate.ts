@@ -4,6 +4,7 @@ import { FeedItemSchema, type FeedItem } from "../../schemas";
 import { generateValidated, GenerationDeadlineError, GenerationFailedError, type ParseOutcome } from "../retry";
 import { ADVANCE_WORLD_MAX_TOKENS, ADVANCE_WORLD_TIMEOUT_MS } from "../config";
 import { prepareEvidence, type EvidenceEntry } from "./evidence";
+import { orderOfferCandidates } from "./offerOrder";
 import { prepareWriterEvidence, remapPreviousSupport, resolveWriterSelection, writerResponseSchema, type PreviousWriterSupport } from "./selection";
 import { EDITORIAL_MAX_POSTS, EDITORIAL_MAX_ATTEMPTS, EDITORIAL_TIME_BUDGET_MS } from "./limits";
 export { EDITORIAL_MAX_POSTS, EDITORIAL_MAX_ATTEMPTS, EDITORIAL_TIME_BUDGET_MS } from "./limits";
@@ -304,6 +305,9 @@ export async function generateEditorial(
   let reviewRejectedPosts = 0;
   let reason = "edition ceiling reached";
   const models = new Set<string>();
+  // Offer history for this run only; it orders candidates and never filters them.
+  const offersByTopic = new Map<string, number>();
+  const offersBySource = new Map<string, number>();
   while (accepted.length < EDITORIAL_MAX_POSTS && attempts < EDITORIAL_MAX_ATTEMPTS) {
     // A candidate must have at least one remaining call for its mandatory review.
     if (EDITORIAL_MAX_ATTEMPTS - attempts < 2) { reason = "insufficient attempt budget for generation and review"; break; }
@@ -319,9 +323,15 @@ export async function generateEditorial(
     const pendingRevisions = distinctSources.filter(packet => revisions.has(packet.id));
     // A single revision should not monopolize a two-post writer/reviewer pair.
     // Select revisions first, then fill the packet with other eligible sources.
+    const acceptedByTopic = new Map<string, number>();
+    for (const post of accepted) {
+      const topic = post.topic ?? packets.find(packet => packet.id === post.sourceIds[0])?.topic;
+      if (topic) acceptedByTopic.set(topic, (acceptedByTopic.get(topic) ?? 0) + 1);
+    }
     const prepared = prepareEvidence([...pendingRevisions,
-      ...distinctSources.filter(packet => !revisions.has(packet.id))], {
+      ...orderOfferCandidates(distinctSources.filter(packet => !revisions.has(packet.id)), { acceptedByTopic, offersByTopic, offersBySource })], {
       priorityIds: new Set(pendingRevisions.map(packet => packet.id)),
+      keepTopicOrder: true,
       // Four complete contexts are enough choice for two posts. Keep every
       // paragraph/snippet per offered source; other candidates stay available.
       sourceLimit: distinctSources.some(packet => packet.sections) ? 4 : undefined,
@@ -330,6 +340,10 @@ export async function generateEditorial(
     const offeredIds = new Set([...writerEvidence.groups.values()].flatMap(ids => ids.map(id => prepared.evidenceById.get(id)!.sourceId)));
     const preparedIds = new Set([...prepared.evidenceById.values()].map(entry => entry.sourceId));
     for (const id of preparedIds) if (!offeredIds.has(id)) deferredSources.add(id);
+    for (const packet of packets.filter(packet => offeredIds.has(packet.id))) {
+      offersBySource.set(packet.id, (offersBySource.get(packet.id) ?? 0) + 1);
+      offersByTopic.set(packet.topic, (offersByTopic.get(packet.topic) ?? 0) + 1);
+    }
     if (!writerEvidence.sources.length) {
       if (preparedIds.size) continue; // Unusable group sizes must not hide later usable sources.
       reason = emptySelections ? "no untried evidence remains after empty selections" : "insufficient unused evidence or publisher diversity";
