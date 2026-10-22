@@ -508,3 +508,15 @@ stored text. RSS, related.json and the search index must never carry spoiler pro
 the search index holds headlines and metadata only. Keep /about/ claims aligned with
 these notes: provenance and model review are not human fact-checking, discussion
 voices are not people. No newsletter or extra analytics without the user's request.
+
+## Current-pipeline review and Cards emulation — October 21, 2026
+Read docs/current-pipeline-review-20261021.md. #36's restarted gate (first four posts
+of five ordinary editions after run 39323911203, plus a philosophy supplement) found
+no factual errors in 21 posts/46 turns. Weak payoff and unintroduced names remain.
+One dedup gap: The Conversation reused article 294387 under a new slug, so URL and
+title coverage missed a repeated Alberta/Québec angle; keying by its numeric ID is
+not implemented. #37 is closed as superseded; its event/angle review is in that doc.
+Cards were measured at 390×844, 360×740, 844×390 and 1363×936 in emulation (see
+docs/card-mode.md). Default text is clean. At 200% text, the fallback notice is
+clipped and the site header overflows; both are unrepaired. Emulation is not a
+physical-phone trial; #25 stays open.
