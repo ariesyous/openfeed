@@ -62,7 +62,7 @@ Set `OPENROUTER_API_KEY` locally or as a repository secret. DeepSeek Flash is th
 model for local generation, manual Actions and reviewer checks; legacy
 `OPENROUTER_MODEL` values are ignored. Scheduled runs
 are enabled every three hours at minute 17 (`17 */3 * * *`, UTC) and always use
-`deepseek/deepseek-v4.1-flash`. Successful editions are committed and deployed automatically.
+`deepseek/deepseek-v4.1-flash-1017`. Successful editions are committed and deployed automatically.
 Concurrency prevents overlapping generation jobs. The old `FEED_SCHEDULE_ENABLED`
 rollout gate is no longer used; pause automation by disabling the workflow in Actions.
 
@@ -113,7 +113,7 @@ Editions have an eight-post ceiling in requests of at most two, sharing eight to
 There is no minimum or topic quota: one worthwhile post or an empty edition is acceptable.
 A shared 45-minute generation budget caps request timeouts and retry waits; the workflow
 has a 55-minute safety timeout. Reviewed partial editions can publish when a later request fails; weak evidence never gets padded. All writer and reviewer calls
-use `deepseek/deepseek-v4.1-flash`, including scheduled runs every three hours.
+use `deepseek/deepseek-v4.1-flash-1017`, including scheduled runs every three hours.
 
 An empty model response defers that request's sources for the current run and tries
 a different unused selection. These calls share the same attempt/time budgets;

@@ -5,10 +5,11 @@ function envInt(name: string, fallback: number): number {
   return Number.isFinite(parsed) ? parsed : fallback;
 }
 
-// DeepSeek-only by user request. Legacy OPENROUTER_MODEL values cannot switch
-// local generation, scheduled runs or reviewer controls to another model.
+// DeepSeek-only by user request, pinned to the October 17 V4.1 Flash snapshot. Legacy
+// OPENROUTER_MODEL values cannot switch local generation, scheduled runs or reviewer
+// controls to another model.
 export function getOpenRouterModel(): string {
-  return "deepseek/deepseek-v4.1-flash";
+  return "deepseek/deepseek-v4.1-flash-1017";
 }
 export const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
 

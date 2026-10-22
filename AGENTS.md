@@ -16,7 +16,7 @@ This direction supersedes the original fictional-world specification.
 - `editorial/generate.ts`: validates citations/evidence, enriches source metadata.
 - `editorial/state.ts`: tracks covered source URLs, never invented storylines.
 - `generator/publish.ts`: sole validated writer for public data and world state.
-- `.github/workflows/generate.yml`: manual model selection plus enabled schedule every three hours using deepseek/deepseek-v4.1-flash.
+- `.github/workflows/generate.yml`: manual model selection plus enabled schedule every three hours using deepseek/deepseek-v4.1-flash-1017.
 - `.github/workflows/deploy.yml`: validates, builds, and deploys pushes to main.
 
 The old bootstrap/advanceWorld modules and `scripts/seed/` are historical code, not the

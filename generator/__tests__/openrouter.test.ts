@@ -21,10 +21,10 @@ describe("callOpenRouter", () => {
     await callOpenRouter({ ...baseOpts, maxTokens: 24000, jsonSchema: { name: "review", schema },
       fetchImpl: async (_url, init) => {
         request = JSON.parse(String(init?.body));
-        return jsonResponse({ model: "deepseek/deepseek-v4.1-flash", choices: [{ message: { content: "{}" } }] });
+        return jsonResponse({ model: "deepseek/deepseek-v4.1-flash-1017", choices: [{ message: { content: "{}" } }] });
       },
     });
-    expect(request).toMatchObject({ model: "deepseek/deepseek-v4.1-flash", max_tokens: 24000,
+    expect(request).toMatchObject({ model: "deepseek/deepseek-v4.1-flash-1017", max_tokens: 24000,
       response_format: { type: "json_schema", json_schema: { name: "review", strict: true, schema } },
     });
     expect(request).not.toHaveProperty("reasoning");
