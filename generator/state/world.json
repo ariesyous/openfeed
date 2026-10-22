@@ -2693,7 +2693,27 @@
     "politics is widening u s gender divides in canada it s complicated",
     "some new yorkers back ban on horse drawn carriages but drivers fear for incomes",
     "how do we know that epic poems were recited from memory",
-    "why romantic relationships matter more to men than to women"
+    "why romantic relationships matter more to men than to women",
+    "the sopranos 10 years since it finished it s still the most masterful show ever",
+    "ancient theories of soul",
+    "nasa s hubble charts path for roman with gravitational lenses",
+    "lula says rival should be disqualified over alleged meta interference ahead of brazil vote",
+    "why using ai saves doctors time but won t fix physician burnout",
+    "see how big tech is transforming spain s landscape",
+    "healing and memory in ancient greece",
+    "does opting out of smart tv tracking work research finds suspicious traffic",
+    "trump merchandise stores are closing he has peaked",
+    "trump ordered to answer questions under oath in bbc lawsuit",
+    "tangles wins grand jury prize at animation is film festival",
+    "stop guessing auto scaling targets for tts on amazon sagemaker ai",
+    "first nations artists pull art from university of calgary after event inviting debate on residential schools",
+    "rip bioware ea shuts down storied rpg studio after over three decades",
+    "david chase i was annoyed that fans wanted tony soprano dead",
+    "venus of the sewers",
+    "obsession star inde navarrette says gen z wants films where we re not being sold we are tired of ads in movies and product placement",
+    "presocratic philosophy",
+    "the ancient world teemed with birds now we think with them",
+    "healing walk in memory of teen hit by truck on ont highway highlights need for more pedestrian safety efforts"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -5388,12 +5408,32 @@
     "https://www.cbc.ca/news/politics/politics-dating-young-canadians-9.7383968?cmp=rss",
     "https://www.bbc.co.uk/news/articles/c6qjnwd1pgjxo",
     "https://daily.jstor.org/how-do-we-know-that-epic-poems-were-recited-from-memory/",
-    "https://psyche.co/ideas/why-romantic-relationships-matter-more-to-men-than-to-women"
+    "https://psyche.co/ideas/why-romantic-relationships-matter-more-to-men-than-to-women",
+    "https://www.theguardian.com/tv-and-radio/2017/jun/08/the-sopranos-10-years-since-it-finished-its-still-the-most-masterful-show-ever",
+    "https://plato.stanford.edu/entries/ancient-soul/",
+    "https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses/",
+    "https://www.bbc.co.uk/news/articles/c6pwgve2lk5go",
+    "https://theconversation.com/why-using-ai-saves-doctors-time-but-wont-fix-physician-burnout-291250",
+    "https://www.npr.org/2026/10/22/nx-s1-5991641/ai-data-centers-spain-environmental-impact",
+    "https://daily.jstor.org/healing-and-memory-in-ancient-greece/",
+    "https://arstechnica.com/gadgets/2026/10/does-opting-out-of-smart-tv-tracking-work-research-finds-suspicious-traffic/",
+    "https://www.npr.org/2026/10/22/nx-s1-6002970/trump-merchandise-stores-closing-maga-midterms",
+    "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o",
+    "https://variety.com/2026/film/news/tangles-grand-jury-prize-animation-is-film-festival-1236921464/",
+    "https://aws.amazon.com/blogs/machine-learning/stop-guessing-auto-scaling-targets-for-tts-on-amazon-sagemaker-ai/",
+    "https://www.cbc.ca/news/canada/calgary/indigenous-artists-university-of-calgary-free-speech-debate-tom-flanagan-9.7390315?cmp=rss",
+    "https://arstechnica.com/gaming/2026/10/rip-bioware-ea-shuts-down-storied-rpg-studio-after-over-three-decades/",
+    "https://www.theguardian.com/tv-and-radio/2021/nov/03/david-chase-i-was-annoyed-that-fans-wanted-tony-soprano-dead",
+    "https://daily.jstor.org/venus-of-the-sewers/",
+    "https://variety.com/2026/film/news/inde-navarrette-gen-z-movies-without-ads-product-placement-1236919665/",
+    "https://plato.stanford.edu/entries/presocratics/",
+    "https://aeon.co/essays/the-ancient-world-teemed-with-birds-now-we-think-with-them",
+    "https://www.cbc.ca/news/canada/thunder-bay/remembering-markenna-agnew-9.7388787?cmp=rss"
   ],
   "initialized": true,
-  "cycleCount": 167,
+  "cycleCount": 168,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-10-22T11:56:56.659Z",
+  "lastRunAt": "2026-10-22T17:13:17.706Z",
   "communities": [
     "technology",
     "science",
@@ -5415,11 +5455,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20261021T171510Z-cc16",
-      "generatedAtCycle": 163,
-      "summary": "AI Found Two Critical PHP Flaws, and Agencies Urged Unpatched Sites to Consider Going Dark; Steering a Laser by Wavelength Instead of With Moving Mirrors; Perseverance's 45.22-Kilometre Mars Record, and the Repurposed Chip That Helps It Find Its Way; Just Eat Apologises After AI Menu Images Turned Soda Bread Into a Glass of Cola; The Backlash to Shane Gillis's Gym Joke Left the Insult Standing; Why the Octave Reliance Team Built the AI Platform Before the AI Feature; Some Claims in Canada's Vacc"
-    },
-    {
       "batchId": "20261021T214502Z-7ed7",
       "generatedAtCycle": 164,
       "summary": "A New Mexico Judge Fines Meta $25bn Over Years of Lies About Facebook Data; Judge Rejects Trump's Argument That His EPA Can Dismiss Any Clean Air Act Suit at Whim; OpenAI's Frontier Models Are Coming to Google Cloud — and to Google's Agentic Coding Tool; After the UK's Hottest Summer on Record, Some Are Moving to Scotland; Missiles Hit Kyiv Hours After Russia Says It's Ready to Talk; Top Intelligence Democrats Are Bracing for a Midterm Meddling Claim; JPL at 90: From Rocket Tests in Pasadena to "
@@ -5438,6 +5473,11 @@
       "batchId": "20261022T115656Z-5b99",
       "generatedAtCycle": 167,
       "summary": "The Sopranos: Chris Albrecht's Fear and David Chase's Blunt Reply; Medea's Rejuvenation Method: Blood Out, Herbs In; UNEP Concedes the 1.5°C Warming Goal Is No Longer Viable; Canada's Gambling-Ad Bill Nears a Vote; Seven Televised NHL Playoff Games Carried 3,000 Gambling Messages; Ten Pounds a Week Set Aside for Children in Care, Collectable at 18; Elizabeth Holmes's Partner Demanded a Percentage of the Film's Profits; A Median-Income Renter Household Needs 16 Years to Save a Down Payment — Twic"
+    },
+    {
+      "batchId": "20261022T171317Z-3381",
+      "generatedAtCycle": 168,
+      "summary": "A Guardian writer resisted The Sopranos as a suspected Analyse This spin-off; In the Homeric poems, the soul is what you risk in battle and what becomes a shade; A cosmic lens weighs a galaxy by how much it bends light; Lula's campaign seeks to disqualify Flávio Bolsonaro over alleged Meta interference; AI scribes save time; Canada's program shows where the savings go; Aragon's Data Center Plans: 27 Projects, Fast Permits, and a Lot of Water; At Greek Healing Sanctuaries, the Goddess of Memory W"
     }
   ]
 }
