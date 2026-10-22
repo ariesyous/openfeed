@@ -509,6 +509,15 @@ the search index holds headlines and metadata only. Keep /about/ claims aligned 
 these notes: provenance and model review are not human fact-checking, discussion
 voices are not people. No newsletter or extra analytics without the user's request.
 
+## The Conversation article-ID coverage — October 21, 2026
+The Conversation republished article 294387 under a new slug, so URL and title
+coverage both missed it (pipeline review, PR #57). `coverageUrl`
+in editorial/coverage.ts keys single-segment theconversation.com article URLs on their
+trailing `-<digits>` ID; every other URL keeps its exact-URL key. State still stores
+exact URLs and keys are derived at check time, so no migration is needed. Intake,
+evergreen filtering and within-run deduplication use the derived keys. Do not extend
+this to other publishers without evidence. Earlier duplicate posts stay published.
+
 ## Source supply and shelf review — October 22, 2026
 Read docs/source-supply-review-20261022.md. Sopranos/mythology/lasting reading dried up
 from supply, not selection: the shelf was exhausted September 19, and the Guardian had

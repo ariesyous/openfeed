@@ -2,6 +2,7 @@ import { createHash } from "node:crypto";
 import { XMLParser } from "fast-xml-parser";
 import { hasArticleAdapter, sourceArticleSections } from "./articleText";
 import { failureReason, plainText, readBounded, type SourcePacket } from "./sources";
+import { coverageUrl, coveredUrlKeys } from "./coverage";
 
 // Deliberate reading shelf: factual background and criticism, never current news.
 // Add URLs here as the shelf is reviewed; covered URLs are filtered by generate.ts.
@@ -239,7 +240,8 @@ export function shelfExcerpt(html: string, publisher: string): string {
 export const isRetired = (source: (typeof EVERGREEN_SOURCES)[number]) => Boolean(source.retired);
 
 export async function collectEvergreen(now: Date, fetchImpl: typeof fetch, coveredUrls: ReadonlySet<string> = new Set()): Promise<SourcePacket[]> {
-  const shelf = EVERGREEN_SOURCES.filter(source => !coveredUrls.has(source.url) && !isRetired(source));
+  const covered = coveredUrlKeys(coveredUrls);
+  const shelf = EVERGREEN_SOURCES.filter(source => !covered.has(coverageUrl(source.url)) && !isRetired(source));
   const retired = EVERGREEN_SOURCES.filter(isRetired).length;
   console.log(`[sources] Evergreen shelf: ${shelf.length}/${EVERGREEN_SOURCES.length} unconsumed articles (${retired} retired)`);
   const results = await Promise.allSettled(shelf.map(async (source) => {

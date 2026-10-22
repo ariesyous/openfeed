@@ -3,7 +3,7 @@ import { XMLParser } from "fast-xml-parser";
 import { collectEvergreen } from "./evergreen";
 import type { FeedSource } from "../../schemas";
 import { collectArticleContext } from "./context";
-import { coverageTitle } from "./coverage";
+import { coverageTitle, coverageUrl, coveredUrlKeys } from "./coverage";
 import { sourceArticleSections } from "./articleText";
 
 export interface SourceFeed {
@@ -241,10 +241,11 @@ export async function collectSources(
         `[sources] ${feedLabel(SOURCE_FEEDS[index])} unavailable: ${failureReason(result.reason)}; skipping`,
       );
   });
-  const unused = [...new Map(packets.filter(packet => !coveredUrls.has(packet.url) &&
-    !coveredTitles.has(coverageTitle(packet.title))).map(packet => [packet.url, packet])).values()];
+  const covered = coveredUrlKeys(coveredUrls);
+  const unused = [...new Map(packets.filter(packet => !covered.has(coverageUrl(packet.url)) &&
+    !coveredTitles.has(coverageTitle(packet.title))).map(packet => [coverageUrl(packet.url), packet])).values()];
   const [articles, evergreen] = await Promise.all([
-    collectArticleContext(unused, fetchImpl), collectEvergreen(now, fetchImpl, coveredUrls),
+    collectArticleContext(unused, fetchImpl), collectEvergreen(now, fetchImpl, covered),
   ]);
-  return [...new Map([...articles, ...evergreen].map(p => [p.url, p])).values()];
+  return [...new Map([...articles, ...evergreen].map(p => [coverageUrl(p.url), p])).values()];
 }
