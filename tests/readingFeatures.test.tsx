@@ -48,7 +48,8 @@ describe("headlines view", () => {
     fireEvent.click(screen.getByRole("button", { name: "Headlines" }));
     expect(document.querySelectorAll(".post-card--compact")).toHaveLength(batch.items.filter(item => item.editorial).length);
     expect(screen.queryByText("SECRET ENDING")).not.toBeInTheDocument();
-    expect(screen.getByText("Contains spoilers — open the article to reveal.")).toBeVisible();
+    // Scope to the card this test marks as a spoiler; real editions can contain other spoiler posts.
+    expect(within(document.getElementById(second.id)!).getByText("Contains spoilers — open the article to reveal.")).toBeVisible();
     expect(screen.getByRole("link", { name: second.title })).toHaveAttribute("href", articlePath(second));
     expect(localStorage.getItem("cobanter-density")).toBe("headlines");
     view.unmount();
