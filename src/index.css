@@ -273,6 +273,8 @@ summary:focus-visible {
 .density-switch { gap: 0; }
 .density-switch button:first-child { border-radius: 20px 0 0 20px; }
 .density-switch button:last-child { border-radius: 0 20px 20px 0; margin-left: -1px; }
+/* Keep the shared 1px seam in the active button's colour, whichever side it is on. */
+.density-switch button[aria-pressed="true"] { position: relative; z-index: 1; }
 .new-posts,
 .load-more {
   padding: .8rem var(--space-4);

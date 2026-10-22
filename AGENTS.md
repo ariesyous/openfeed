@@ -515,7 +515,8 @@ of five ordinary editions after run 39323911203, plus a philosophy supplement) f
 no factual errors in 21 posts/46 turns. Weak payoff and unintroduced names remain.
 One dedup gap: The Conversation reused article 294387 under a new slug, so URL and
 title coverage missed a repeated Alberta/Québec angle; keying by its numeric ID is
-not implemented. #37 is closed as superseded; its event/angle review is in that doc.
+handled separately in PR #58. #37 is closed as superseded; its event/angle review
+is in that doc.
 Cards were measured at 390×844, 360×740, 844×390 and 1363×936 in emulation (see
 docs/card-mode.md). Default text is clean. The 200%-text repair keeps the card a
 three-row grid; the fit notice overlays the reading row and covers the footer only
@@ -523,3 +524,17 @@ when taller than it, never entering the fit measurement. The header may wrap; an
 `.app` container query (20rem, root-relative) hides the wordmark and tightens
 spacing. Re-run the emulated table after Cards layout changes. Emulation is not a
 physical-phone trial; #25 stays open.
+
+## Source supply and shelf review — October 22, 2026
+Read docs/source-supply-review-20261022.md. Sopranos/mythology/lasting reading dried up
+from supply, not selection: the shelf was exhausted September 19, and the Guardian had
+no body adapter, so the October 18 blurb rule dropped every Sopranos feed item. The
+Guardian film feed URL also redirected. The Guardian adapter (single
+article-body-commercial/viewer-selector div) and /uk/film/rss fix both. Met essays sit
+behind a Vercel bot checkpoint (429) and WHE pages trip the DTD guard: they are marked
+`retired`, kept for history and never fetched. Never bypass bot checks or loosen the
+DTD guard. Shelf pages use a publisher adapter when one exists (first section of at
+least 300 characters, never joined), otherwise the generic reader. 33 reviewed
+additions (11 mythology, 10 Sopranos, 12 philosophy) bring the shelf to 100 pages. Their
+ledger and probes are provenance checks, not generated quality, and #36/#37 counts are
+unchanged. The shelf is still finite; per-run pacing was proposed but not implemented.
