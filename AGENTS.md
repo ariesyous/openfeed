@@ -498,17 +498,6 @@ and data-nosnippet; exclude it from metadata and the agent guide. llms.txt is a 
 not a crawler permission override or an indexing guarantee. Search Console/Bing
 verification and submission are separate account actions, not implied by deployment.
 
-## Site experience — October 21, 2026
-Read docs/site-experience.md. The user asked for marketability and quality work and
-chose brand, reading, follow/share and search. Brand assets, theme-before-paint and
-the hidden-mount prerender swap keep dark as the default; never follow the OS theme.
-Headlines is an optional browser-local layout, never read/saved state; Full stays
-default and Cards' fitting contract is unchanged. Paragraph splitting never rewrites
-stored text. RSS, related.json and the search index must never carry spoiler prose;
-the search index holds headlines and metadata only. Keep /about/ claims aligned with
-these notes: provenance and model review are not human fact-checking, discussion
-voices are not people. No newsletter or extra analytics without the user's request.
-
 ## Current-pipeline review and Cards emulation — October 21, 2026
 Read docs/current-pipeline-review-20261021.md. #36's restarted gate (first four posts
 of five ordinary editions after run 39323911203, plus a philosophy supplement) found
@@ -524,6 +513,17 @@ when taller than it, never entering the fit measurement. The header may wrap; an
 `.app` container query (20rem, root-relative) hides the wordmark and tightens
 spacing. Re-run the emulated table after Cards layout changes. Emulation is not a
 physical-phone trial; #25 stays open.
+
+## Site experience — October 21, 2026
+Read docs/site-experience.md. The user asked for marketability and quality work and
+chose brand, reading, follow/share and search. Brand assets, theme-before-paint and
+the hidden-mount prerender swap keep dark as the default; never follow the OS theme.
+Headlines is an optional browser-local layout, never read/saved state; Full stays
+default and Cards' fitting contract is unchanged. Paragraph splitting never rewrites
+stored text. RSS, related.json and the search index must never carry spoiler prose;
+the search index holds headlines and metadata only. Keep /about/ claims aligned with
+these notes: provenance and model review are not human fact-checking, discussion
+voices are not people. No newsletter or extra analytics without the user's request.
 
 ## Source supply and shelf review — October 22, 2026
 Read docs/source-supply-review-20261022.md. Sopranos/mythology/lasting reading dried up
