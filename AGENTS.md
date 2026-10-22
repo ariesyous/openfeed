@@ -16,7 +16,7 @@ This direction supersedes the original fictional-world specification.
 - `editorial/generate.ts`: validates citations/evidence, enriches source metadata.
 - `editorial/state.ts`: tracks covered source URLs, never invented storylines.
 - `generator/publish.ts`: sole validated writer for public data and world state.
-- `.github/workflows/generate.yml`: manual model selection plus enabled schedule every three hours using deepseek/deepseek-v4.1-flash.
+- `.github/workflows/generate.yml`: manual model selection plus enabled schedule every three hours using deepseek/deepseek-v4.1-flash-1017.
 - `.github/workflows/deploy.yml`: validates, builds, and deploys pushes to main.
 
 The old bootstrap/advanceWorld modules and `scripts/seed/` are historical code, not the
@@ -554,5 +554,24 @@ candidates before `prepareEvidence(keepTopicOrder)`. Topics: fewest accepted thi
 then fewest offers, then PREFERRED_TOPICS (Sopranos, mythology, philosophy), then intake
 order. Within a topic: fewest offers, shelf before feed, then longer context. This is a
 preference, not a quota. It never filters, defers or marks coverage. Keep all evidence,
-review, citation, publisher (two per group), 20-post/32-call/45-minute and revision-priority
+review, citation, publisher (two per group), 20-post/32-call/two-hour and revision-priority
 rules unchanged. Other prepareEvidence callers keep longest-first ordering.
+
+## DeepSeek 1017 snapshot and price routing — October 22, 2026
+The user kept DeepSeek and asked for a cheaper same-family option. Generation, review
+and manual controls now use `deepseek/deepseek-v4.1-flash-1017` (OpenRouter list price
+half of V4.1 Flash). Requests sort endpoints by price instead of throughput and allow
+only fp8/fp16/bf16/fp32/unknown quantizations, so fp4 variants are never selected;
+require_parameters and same-model fallbacks are unchanged. Token caps, call budgets,
+and every validation/review gate are unchanged. Writer controls before the
+routing change: 1017 approved 15/16 across four runs (39725733333, 39726236127,
+39726241211, 39726246245); V4.1 Flash approved 9/12 in the same-hour comparison
+(39726238778, 39726243916, 39726248282). Reviewer control 39725731433 passed all four
+suites on 1017. With price routing, reviewer control 39726937587 again passed all four
+suites (252,201 ms versus 116,364 ms with throughput routing) and writer control
+39726940109 approved 3/4, withholding one title misattribution. Calls were roughly
+twice as slow. At the user's request the shared generation deadline is now two
+hours (130-minute job timeout); the 32-call budget and twenty-post ceiling are
+unchanged, so the longer deadline adds headroom, not volume. These
+are small synthetic samples, not ordinary-yield or accuracy proof. Earlier model
+identities in docs and audits stay historical.

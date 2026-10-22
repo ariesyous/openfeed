@@ -153,7 +153,7 @@ describe("twenty-post edition ceiling", () => {
     let calls = 0;
     const fetchImpl: typeof fetch = async (_url, init) => {
       calls++;
-      elapsed = 45 * 60_000 - 30_000;
+      elapsed = 120 * 60_000 - 30_000;
       return completion({ posts: chunk(init) });
     };
     const items = await generateEditorial("secret", packets, now, "deadline", [], {
@@ -262,7 +262,7 @@ describe("twenty-post edition ceiling", () => {
     let elapsed = 0;
     const fetchImpl: typeof fetch = async (_url, init) => {
       if (++calls === 1) return completion({ posts: chunk(init) });
-      elapsed = 45 * 60_000 - 30_000;
+      elapsed = 120 * 60_000 - 30_000;
       return completion({ posts: [] });
     };
     const items = await generateEditorial("secret", many, now, "empty-deadline", [], {

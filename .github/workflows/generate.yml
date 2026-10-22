@@ -20,9 +20,9 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     # At most two posts per request, twenty per edition, 32 total writer/reviewer attempts.
-    # Generation has a shared 45-minute budget, leaving time to publish and deploy.
+    # Generation has a shared two-hour budget, leaving time to publish and deploy.
     # Source intake has its own short timeouts and skips unavailable feeds.
-    timeout-minutes: 55
+    timeout-minutes: 130
     steps:
       # ref (not the default github.sha) so a run queued behind the `generate`
       # concurrency group checks out whatever landed while it waited, rather than a

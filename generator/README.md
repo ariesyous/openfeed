@@ -4,7 +4,7 @@ The active pipeline is `generate.ts` → `editorial/sources.ts` →
 `editorial/generate.ts` → `publish.ts`.
 
 Run `pnpm generate` with `OPENROUTER_API_KEY`. All generation and review uses
-`deepseek/deepseek-v4.1-flash`; legacy `OPENROUTER_MODEL` values are ignored.
+`deepseek/deepseek-v4.1-flash-1017`; legacy `OPENROUTER_MODEL` values are ignored.
 Source configuration and editorial instructions are in `editorial/`.
 See the root README and AGENTS.md for quality constraints, scheduling, and validation.
 

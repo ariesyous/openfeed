@@ -169,7 +169,7 @@ describe("optional discussion isolation", () => {
       sleepImpl: async () => {}, nowImpl: () => elapsed, onAcceptedChunk: chunk => audits.push(chunk),
       fetchImpl: async () => {
         if (++calls === 1) {
-          if (limit === "deadline") elapsed = 45 * 60_000 - 30_000;
+          if (limit === "deadline") elapsed = 120 * 60_000 - 30_000;
           return completion({ posts: [post] });
         }
         return new Response("unavailable", { status: 503 });

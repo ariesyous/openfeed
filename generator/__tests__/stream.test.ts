@@ -22,7 +22,7 @@ describe("bounded provider streaming", () => {
         + frame(chunk({ content: '{"text":"caf' })) + frame(chunk({ content: 'é"}' }, "stop"))
         + frame({ ...chunk({}, "stop"), usage: { completion_tokens: 42 } }) + "data: [DONE]\r\n\r\n", true);
     } });
-    expect(request).toMatchObject({ stream: true, provider: { sort: "throughput", require_parameters: true, allow_fallbacks: true } });
+    expect(request).toMatchObject({ stream: true, provider: { sort: "price", quantizations: ["fp8", "fp16", "bf16", "fp32", "unknown"], require_parameters: true, allow_fallbacks: true } });
     expect(request).not.toHaveProperty("reasoning");
     expect(result).toMatchObject({ ok: true, content: '{"text":"café"}', finishReason: "stop", resolvedModel: "deepseek/deepseek-v4.1-flash" });
     expect(JSON.stringify(result)).not.toMatch(/Private reasoning|completion_tokens/);
