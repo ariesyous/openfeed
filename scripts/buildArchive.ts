@@ -53,7 +53,7 @@ function readingMarkup(item: FeedItem): string {
 
 /** Shared chrome for build-time pages; class names match the React app's styles. */
 export function staticHeader(base: string): string {
-  return `<a class="skip-link" href="#main">Skip to content</a><header class="app-header"><a class="app-title" href="${base}"><img class="app-mark" src="${base}favicon.svg" alt="" width="24" height="24">CoBanter<span class="app-tagline"> A little more worth reading.</span></a></header>`;
+  return `<a class="skip-link" href="#main">Skip to content</a><header class="app-header"><a class="app-title" href="${base}"><img class="app-mark" src="${base}favicon.svg" alt="" width="24" height="24"><span class="app-name">CoBanter</span><span class="app-tagline"> A little more worth reading.</span></a></header>`;
 }
 export function staticFooter(base: string, topic = ""): string {
   return `<footer class="site-links"><a href="${base}about/">How CoBanter works</a><a href="${base}archive/">Article archive</a><a href="${escape(feedPath(topic, base))}">RSS${topic ? ` · ${escape(topicLabel(topic))}` : ""}</a></footer>`;

@@ -20,8 +20,10 @@ export function SwipeCard({ item, active, disabled, onAdvance, onOpenArticle, on
   const [spoilers, setSpoilers] = useState(false);
   const [fits, setFits] = useState(true);
   const [drag, setDrag] = useState(0);
+  const [noticeCoversFooter, setNoticeCoversFooter] = useState(false);
   const reading = useRef<HTMLDivElement>(null);
   const copy = useRef<HTMLDivElement>(null);
+  const notice = useRef<HTMLDivElement>(null);
   const pointer = useRef<{ id: number; x: number; y: number; horizontal: boolean } | null>(null);
   const suppressClickUntil = useRef(0);
   const hiddenSpoilers = item.editorial?.spoilers && !spoilers;
@@ -45,6 +47,21 @@ export function SwipeCard({ item, active, disabled, onAdvance, onOpenArticle, on
     document.addEventListener("visibilitychange", measure);
     return () => { observer?.disconnect(); window.removeEventListener("resize", measure); document.removeEventListener("visibilitychange", measure); };
   }, [active, item, hiddenSpoilers, onPresented]);
+
+  // An unfit notice taller than the reading area covers the whole footer rather
+  // than slicing through source rows. Neither size depends on this choice.
+  useLayoutEffect(() => {
+    if (fits) return;
+    const measure = () => {
+      if (reading.current && notice.current) setNoticeCoversFooter(notice.current.offsetHeight > reading.current.clientHeight);
+    };
+    measure();
+    const observer = typeof ResizeObserver === "undefined" ? null : new ResizeObserver(measure);
+    if (reading.current) observer?.observe(reading.current);
+    if (notice.current) observer?.observe(notice.current);
+    window.addEventListener("resize", measure);
+    return () => { observer?.disconnect(); window.removeEventListener("resize", measure); };
+  }, [fits]);
 
   const cancel = () => { pointer.current = null; setDrag(0); };
   const start = (event: PointerEvent<HTMLElement>) => {
@@ -83,7 +100,7 @@ export function SwipeCard({ item, active, disabled, onAdvance, onOpenArticle, on
     if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
     event.preventDefault(); onOpenArticle(item);
   };
-  return <article className={`swipe-card${drag ? " is-dragging" : ""}`} aria-labelledby="card-title" inert={!active}
+  return <article className={`swipe-card${drag ? " is-dragging" : ""}${fits ? "" : " is-unfit"}`} aria-labelledby="card-title" inert={!active}
     style={{ transform: drag ? `translateX(${drag}px) rotate(${drag / 45}deg)` : undefined }}
     onPointerDown={start} onPointerMove={move} onPointerUp={finish} onPointerCancel={cancel}
     onLostPointerCapture={event => {
@@ -104,12 +121,13 @@ export function SwipeCard({ item, active, disabled, onAdvance, onOpenArticle, on
         <h1 id="card-title"><a href={href} tabIndex={fits ? undefined : -1} onClick={articleLink}>{item.title}</a></h1>
         {hiddenSpoilers ? <button className="card-spoilers" tabIndex={fits ? undefined : -1} onClick={() => setSpoilers(true)}>Show spoilers</button> : <p>{item.body}</p>}
       </div>
-      {!fits && <div className="card-fit-notice" role="status">
-        <strong>This post needs more room at this screen size.</strong>
-        <p>Open the article to read it in full, or try a taller or wider view.</p>
-        <a href={href} onClick={articleLink}>Open article</a>
-      </div>}
     </div>
+    {!fits && <div className={`card-fit-notice${noticeCoversFooter ? " covers-footer" : ""}`} role="status">
+      <div className="card-fit-notice-content" ref={notice}>
+        <strong>This post needs more room at this screen size.</strong>
+        <a href={href} onClick={articleLink}>Open the article to read it in full</a>
+      </div>
+    </div>}
     <footer className="swipe-card-footer">
       <div className="card-sources" aria-label="Sources">{item.editorial?.sources.map((source, index) => <div className="card-source" key={source.url}>
         <a href={source.url} target="_blank" rel="noreferrer" title={source.title} aria-label={`${source.publisher}: ${source.title}`}>{source.publisher}{item.editorial!.sources.filter(s => s.publisher === source.publisher).length > 1 ? ` ${index + 1}` : ""} ↗</a>

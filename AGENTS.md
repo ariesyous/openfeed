@@ -498,6 +498,22 @@ and data-nosnippet; exclude it from metadata and the agent guide. llms.txt is a 
 not a crawler permission override or an indexing guarantee. Search Console/Bing
 verification and submission are separate account actions, not implied by deployment.
 
+## Current-pipeline review and Cards emulation — October 21, 2026
+Read docs/current-pipeline-review-20261021.md. #36's restarted gate (first four posts
+of five ordinary editions after run 39323911203, plus a philosophy supplement) found
+no factual errors in 21 posts/46 turns. Weak payoff and unintroduced names remain.
+One dedup gap: The Conversation reused article 294387 under a new slug, so URL and
+title coverage missed a repeated Alberta/Québec angle; keying by its numeric ID is
+handled separately in PR #58. #37 is closed as superseded; its event/angle review
+is in that doc.
+Cards were measured at 390×844, 360×740, 844×390 and 1363×936 in emulation (see
+docs/card-mode.md). Default text is clean. The 200%-text repair keeps the card a
+three-row grid; the fit notice overlays the reading row and covers the footer only
+when taller than it, never entering the fit measurement. The header may wrap; an
+`.app` container query (20rem, root-relative) hides the wordmark and tightens
+spacing. Re-run the emulated table after Cards layout changes. Emulation is not a
+physical-phone trial; #25 stays open.
+
 ## Site experience — October 21, 2026
 Read docs/site-experience.md. The user asked for marketability and quality work and
 chose brand, reading, follow/share and search. Brand assets, theme-before-paint and

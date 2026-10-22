@@ -8,4 +8,7 @@ export const cardSamples = [
   { label: "spoilers", id: "post-20260918T044314Z-6f06-0" },
   { label: "undated", id: "post-20260918T182557Z-8bc1-2" },
   { label: "older", id: "post-20260918T044314Z-6f06-14" },
+  // Longest body (three sources) and longest title in the October 21 catalog.
+  { label: "current-longest-body", id: "post-20261002T004938Z-0529-12" },
+  { label: "current-longest-title", id: "post-20261002T004938Z-0529-13" },
 ] as const;

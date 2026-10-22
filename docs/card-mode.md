@@ -166,6 +166,8 @@ No bypass, external preview deployment, physical phone or model generation was u
 
 `tests/browser/cardSamples.ts` fixes eight unchanged posts against the baseline's
 226-post catalog. "Longest" refers to title/body character counts in that catalog.
+Two October 21 samples (`current-longest-body`, `current-longest-title`) were added
+later; see the October 21 section.
 
 | Sample query | Exact post ID | Coverage |
 | --- | --- | --- |
@@ -367,3 +369,112 @@ jsdom `scrollTo` warnings remain. The same four checks passed again on final bas
 frontend asset names. `git diff --check` also passed.
 No public copy, source metadata, application behavior, editorial counts or
 generation configuration was changed by this slice.
+
+## October 21 emulated mobile verification
+
+**Outcome: every sample fits or falls back correctly at default text on all four
+sizes. At 200% text on phones, three layout defects were reproduced and repaired
+(below); the full measurement set was re-run afterwards. Keep #25 open for the
+physical-phone trial.**
+
+### Environment and method
+
+The Claude desktop app's built-in browser served the development sample
+(`pnpm dev --host 127.0.0.1 --port 5174`, `tests/browser/cards.html`) from main at
+`b86e8da` (after #54/#55). Phone-size emulation reported coarse pointer and an
+Android Chrome user agent; inputs are still synthesized mouse events, not touch.
+Each sample was measured in a fixed-size same-origin iframe (its own CSS viewport)
+with cleared browser storage, then spot-checked with screenshots at the real
+emulated viewport. 200% text means a 32px root set after mount followed by a window
+`resize` event. Without that event, ResizeObserver callbacks did not run while the
+pane was hidden, which produced stale "fits" readings. Those readings were discarded.
+
+Two samples were added to `tests/browser/cardSamples.ts` because the archive outgrew
+the September catalog. `current-longest-body` (`post-20261002T004938Z-0529-12`, 1,799
+body characters, three sources) and `current-longest-title`
+(`post-20261002T004938Z-0529-13`, 150-character title) are the longest in the 2,596
+editorial posts as of October 21.
+
+### Default text (16px root)
+
+Copy height / reading height in CSS px; every row has no page scroll and controls
+and footer inside the viewport.
+
+| Sample | 390×844 | 360×740 | 844×390 | 1363×936 |
+| --- | --- | --- | --- | --- |
+| recent | fits 16px · 323/614 | fits 16px · 344/511 | fits 16px · 134/160 | fits 18.88px · 209/643 |
+| longest-title | fits 16px · 220/614 | fits 16px · 220/490 | fits 16px · 115/160 | fits 18.88px · 166/643 |
+| longest-body | fits 15.71px · 582/592 | fits 13.53px · 485/490 | **fallback** | fits 18.88px · 394/643 |
+| paragraphs | fits 16px · 217/614 | fits 16px · 259/511 | fits 16px · 155/160 | fits 18.88px · 209/643 |
+| multiple-sources | fits 16px · 198/572 | fits 16px · 219/470 | fits 16px · 93/140 | fits 18.88px · 192/623 |
+| spoilers (gate) | fits · 94/614 | fits · 94/490 | fits · 72/160 | fits · 92/643 |
+| undated | fits 16px · 259/576 | fits 16px · 280/474 | fits 16px · 134/160 | fits 18.88px · 182/643 |
+| older | fits 16px · 156/592 | fits 16px · 156/490 | fits 16px · 72/160 | fits 18.88px · 129/643 |
+| current-longest-body | **fallback** (602/574 at 13px) | **fallback** | **fallback** | fits 18.88px · 589/603 |
+| current-longest-title | fits 14.22px · 604/614 | **fallback** (553/511 at 13px) | **fallback** | fits 18.88px · 519/643 |
+
+Every fallback showed the "needs more room" notice, all source/date rows and the
+controls, with the notice's link fully inside the card. These default-text figures
+were identical before and after the repair below. The fitter never went below the 13px floor.
+The tightest fit (`longest-body` at 360×740, 13.53px) was readable in a screenshot,
+with full copy, source date and controls visible. Landscape was screenshot-checked at
+default text.
+
+### 200% text (32px root)
+
+Before the repair, **no sample fit** at 390×844 or 360×740; all twenty cases fell
+back at the 26px floor. That is the documented exception rather than a promise of
+fit. Three defects were reproduced:
+
+1. **The fallback notice was clipped.** The reading area shrank to 0–198px and the
+   notice was positioned inside it, so the notice and its link were cut off in every
+   case. At 360×740 with three sources the reading area was 0px: the card showed
+   topic and source rows with no title, body or explanation. Only the footer's own
+   "Open article ↗" link (overflowing the card border) remained.
+2. **The site header overflowed.** At 360×740 the header's content was 511px wide
+   in a 360px viewport; the Cards toggle was cut off and search and theme sat
+   off-screen. This affected every page, not just Cards.
+3. **The Next button overflowed.** The `1fr auto 1fr` control grid could not shrink
+   below its labels, so Next extended past the right edge at 390×844.
+
+### Repair
+
+- The card is a three-row grid (meta, reading area, footer) with the same sizing as
+  the previous flex column, so the measured reading area and every default-text
+  result above are unchanged. The fit notice is a card child overlaying the reading
+  row with a solid background, leaving the source rows visible. Only when its content
+  is taller than the reading row (measured separately) does it span the footer row
+  too, covering every source row instead of being clipped or slicing through one; the
+  article lists every source. The fit measurement never includes the notice, so
+  fit/fallback can't oscillate.
+- The notice is a heading plus one link ("Open the article to read it in full"),
+  replacing the extra sentence and separate link.
+- The site header may wrap. A container query on `.app` (`max-width: 20rem`, which
+  follows the root font size) hides the visible wordmark (keeping the mark and its
+  accessible name) and tightens header, notice and control spacing. At default text
+  it applies only below 320px widths.
+- Controls use `minmax(0, 1fr) auto minmax(0, 1fr)`, so they shrink with the
+  viewport; words wrap whole.
+
+After the repair the full table was re-run. Default-text results were identical
+and every default-text fallback kept its source rows visible. At both 200% sizes, in
+all twenty cases, every header link and button and every control was fully
+on-screen, and there was no page scroll. Every fallback showed the notice heading and
+link inside the card. Header height was 185–189px (two rows) instead of 239–250px
+with plain wrapping. At 390×844 the smaller controls left room for the spoiler gate
+to fit (219/220px). The notice covered the footer in only one of the nine fallbacks
+(`current-longest-body`); the other eight kept their source rows visible. At 360×740
+all ten fell back and the notice covered the footer in each. The worst case
+(`current-longest-body` at 360×740, three sources) was screenshot-checked: topic,
+notice, link and controls are visible and no covered source row shows through.
+
+### Still open
+
+- Reduced motion: the CSS rule exists (`.swipe-card { transition: none; transform:
+  none !important; }`), but the browser can't emulate the preference.
+- Real large-text settings: emulation set a 32px root after mount. Browser and OS
+  text-size settings (Android font scaling, iOS text size, desktop default font size)
+  need checking on a device.
+- Physical phone: real touch swipes from headline/source/background, short,
+  diagonal, cancelled and multi-touch gestures, long-press selection, pinch, browser
+  chrome show/hide, rotation, safe areas, screen reader and a reading-comfort trial.
