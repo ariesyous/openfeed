@@ -1,9 +1,18 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useFeed } from "../hooks/useFeed";
+import { markReady } from "../lib/ready";
 import { PostCard } from "./PostCard";
+import { PostCardCompact } from "./PostCardCompact";
 import { Avatar } from "./Avatar";
 import type { FeedItem } from "../../schemas";
-import { TOPICS, topicLabel, topicPath } from "../../shared/topics";
+import { TOPICS, topicLabel, topicPath, topicSlug } from "../../shared/topics";
+
+const DENSITY_KEY = "cobanter-density";
+type Density = "full" | "headlines";
+function storedDensity(): Density {
+  try { return localStorage.getItem(DENSITY_KEY) === "headlines" ? "headlines" : "full"; }
+  catch { return "full"; }
+}
 
 export function FeedList({ community = "", onOpenTopic, onOpenArticle }: {
   community?: string;
@@ -11,7 +20,13 @@ export function FeedList({ community = "", onOpenTopic, onOpenArticle }: {
   onOpenArticle?: (item: FeedItem) => void;
 } = {}) {
   const { sentinelRef, ...feed } = useFeed(community);
+  useEffect(() => { if (!feed.isLoadingInitial) markReady(); }, [feed.isLoadingInitial]);
   const [format, setFormat] = useState("");
+  const [density, setDensity] = useState(storedDensity);
+  const changeDensity = (value: Density) => {
+    setDensity(value);
+    try { localStorage.setItem(DENSITY_KEY, value); } catch { /* Device storage may be disabled. */ }
+  };
   const [authorId, setAuthorId] = useState("");
   const profileRef = useRef<HTMLElement>(null);
   const author = feed.accountsById.get(authorId);
@@ -75,6 +90,7 @@ export function FeedList({ community = "", onOpenTopic, onOpenArticle }: {
             <p>
               {community ? `News, stories, and ideas about ${topicLabel(community)}.` : "Fresh context, useful ideas, true stories, and a little back-and-forth."}
             </p>
+            <p className="feed-subscribe"><a href={community ? `${import.meta.env.BASE_URL}topics/${topicSlug(community)}/feed.xml` : `${import.meta.env.BASE_URL}feed.xml`}>Follow {community ? topicLabel(community) : "CoBanter"} by RSS</a></p>
           </div>
         </div>
         {feed.newPostCount > 0 && (
@@ -116,6 +132,7 @@ export function FeedList({ community = "", onOpenTopic, onOpenArticle }: {
             <span className="profile-note">AI-edited column · Posts below</span>
           </section>
         )}
+        <div className="feed-controls">
         <div className="format-tabs" aria-label="Reading format">
           {[
             ["", "All"],
@@ -136,8 +153,15 @@ export function FeedList({ community = "", onOpenTopic, onOpenArticle }: {
             </button>
           ))}
         </div>
+        <div className="density-switch" role="group" aria-label="Feed layout">
+          <button aria-pressed={density === "full"} onClick={() => changeDensity("full")}>Full posts</button>
+          <button aria-pressed={density === "headlines"} onClick={() => changeDensity("headlines")}>Headlines</button>
+        </div>
+        </div>
         <div className="feed-list">
-          {visible.map((item) => (
+          {visible.map((item) => density === "headlines" && item.editorial ? (
+            <PostCardCompact key={item.id} item={item} onOpenArticle={onOpenArticle} onCommunityClick={onOpenTopic} />
+          ) : (
             <PostCard
               key={item.id}
               item={item}

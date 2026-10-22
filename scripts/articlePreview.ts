@@ -62,9 +62,8 @@ export function layoutPreviewTitle(title: string) {
   throw new Error("Article preview headline does not fit");
 }
 
-export function renderArticlePreview(item: FeedItem): Buffer {
-  const content = previewContent(item);
-  const layout = layoutPreviewTitle(content.title);
+/** Shared branded frame: header mark, rules and footer. Returns the canvas to finish. */
+function previewFrame(footer: string) {
   const canvas = createCanvas(PREVIEW_WIDTH, PREVIEW_HEIGHT);
   const ctx = canvas.getContext("2d");
   ctx.fillStyle = "#101215";
@@ -89,6 +88,24 @@ export function renderArticlePreview(item: FeedItem): Buffer {
   ctx.fillStyle = "#30353e";
   ctx.fillRect(72, 142, 1056, 1);
 
+  ctx.fillStyle = "#30353e";
+  ctx.fillRect(72, 538, 1056, 1);
+  ctx.font = `400 21px "${FAMILY}"`;
+  ctx.fillStyle = "#a5aebb";
+  ctx.fillText(footer, 72, 586);
+  ctx.font = `700 21px "${FAMILY}"`;
+  ctx.fillStyle = "#bba1ff";
+  ctx.textAlign = "right";
+  ctx.fillText("cobanter.com", 1128, 586);
+  ctx.textAlign = "left";
+  return { canvas, ctx };
+}
+
+export function renderArticlePreview(item: FeedItem): Buffer {
+  const content = previewContent(item);
+  const layout = layoutPreviewTitle(content.title);
+  const { canvas, ctx } = previewFrame(content.spoilers ? "Spoiler-protected read" : "Real sources. Fresh perspectives.");
+
   ctx.font = `700 23px "${FAMILY}"`;
   ctx.fillStyle = "#bba1ff";
   ctx.fillText(content.topic.toUpperCase(), 72, 203);
@@ -101,29 +118,45 @@ export function renderArticlePreview(item: FeedItem): Buffer {
   ctx.font = `700 ${layout.fontSize}px "${FAMILY}"`;
   ctx.fillStyle = "#e9edf3";
   layout.lines.forEach((line, index) => ctx.fillText(line, 72, 248 + layout.fontSize + index * layout.lineHeight));
-
-  ctx.fillStyle = "#30353e";
-  ctx.fillRect(72, 538, 1056, 1);
-  ctx.font = `400 21px "${FAMILY}"`;
-  ctx.fillStyle = "#a5aebb";
-  ctx.fillText(content.spoilers ? "Spoiler-protected read" : "Real sources. Fresh perspectives.", 72, 586);
-  ctx.font = `700 21px "${FAMILY}"`;
-  ctx.fillStyle = "#bba1ff";
-  ctx.textAlign = "right";
-  ctx.fillText("cobanter.com", 1128, 586);
   return canvas.encodeSync("png");
 }
 
-export function writeArticlePreview(item: FeedItem, dist: string, base: string, origin: string) {
-  const png = renderArticlePreview(item);
+/** Home and topic pages: a headline plus a short description, no article content. */
+export function renderCollectionPreview(page: { eyebrow: string; title: string; subtitle: string }): Buffer {
+  const layout = layoutPreviewTitle(page.title);
+  const { canvas, ctx } = previewFrame("News · Explainers · True stories · AI discussion");
+  ctx.font = `700 23px "${FAMILY}"`;
+  ctx.fillStyle = "#bba1ff";
+  ctx.fillText(page.eyebrow.toUpperCase(), 72, 203);
+  ctx.font = `700 ${layout.fontSize}px "${FAMILY}"`;
+  ctx.fillStyle = "#e9edf3";
+  layout.lines.forEach((line, index) => ctx.fillText(line, 72, 248 + layout.fontSize + index * layout.lineHeight));
+  ctx.font = `400 26px "${FAMILY}"`;
+  ctx.fillStyle = "#a5aebb";
+  const subtitle = wrapText(ctx, page.subtitle, 1056).slice(0, 2);
+  const top = 248 + layout.lines.length * layout.lineHeight + 34;
+  subtitle.forEach((line, index) => { if (top + index * 34 < 520) ctx.fillText(line, 72, top + index * 34); });
+  return canvas.encodeSync("png");
+}
+
+function writePreview(png: Buffer, name: string, dist: string, base: string, origin: string) {
   // Content addressing gives corrected headlines/designs a fresh image cache key.
   const digest = createHash("sha256").update(png).digest("hex").slice(0, 16);
-  const filename = `${articleRouteSlug(item)}-${digest}.png`;
-  const directory = path.join(dist, "og");
-  mkdirSync(directory, { recursive: true });
-  writeFileSync(path.join(directory, filename), png);
+  const filename = `${name}-${digest}.png`;
+  const target = path.join(dist, "og", filename);
+  mkdirSync(path.dirname(target), { recursive: true });
+  writeFileSync(target, png);
+  return new URL(`${base}og/${filename}`, origin).href;
+}
+
+export function writeCollectionPreview(name: string, page: { eyebrow: string; title: string; subtitle: string }, dist: string, base: string, origin: string) {
+  // A separate directory keeps site images apart from article slugs.
+  return { url: writePreview(renderCollectionPreview(page), `site/${name}`, dist, base, origin), alt: `CoBanter · ${page.title}` };
+}
+
+export function writeArticlePreview(item: FeedItem, dist: string, base: string, origin: string) {
   return {
-    url: new URL(`${base}og/${filename}`, origin).href,
+    url: writePreview(renderArticlePreview(item), articleRouteSlug(item), dist, base, origin),
     alt: `CoBanter · ${topicLabel(item.community)}: ${previewContent(item).title}`,
   };
 }

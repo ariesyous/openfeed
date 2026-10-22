@@ -60,8 +60,8 @@ describe("permanent articles", () => {
         expect(image.readUInt32BE(20)).toBe(630);
         expect(JSON.parse(readFileSync(path.join(root, "dist/p", slug, "article.json"), "utf8"))).toEqual(expected);
         if (expected === legacy) {
-          expect(html).toContain('<details><summary>Show spoilers</summary><p class="post-card-body">PRIVATE SPOILER BODY');
-          expect(html).toContain('<div data-nosnippet><details>');
+          expect(html).toContain('<details class="spoiler-gate"><summary>Show spoilers</summary><div class="post-card-body"><p>PRIVATE SPOILER BODY');
+          expect(html).toContain('<div data-nosnippet><details class="spoiler-gate">');
           expect(html).toContain('property="og:description" content="A spoiler-protected CoBanter article. Open to read."');
         }
       }
@@ -86,7 +86,7 @@ describe("permanent articles", () => {
       expect(home).toContain(`rel="canonical" href="https://cobanter.com${base}"`);
       expect(home).toContain(`href="${articlePath(legacy, base)}"`);
       expect(home).toContain(`href="${topicPath(legacy.community, base)}"`);
-      expect(home).toContain('<details><summary>Show spoilers</summary><p class="post-card-body">PRIVATE SPOILER BODY');
+      expect(home).toContain('<details class="spoiler-gate"><summary>Show spoilers</summary><div class="post-card-body"><p>PRIVATE SPOILER BODY');
       const schema = JSON.parse(oldHtml.match(/<script id="page-structured-data" type="application\/ld\+json">([\s\S]*?)<\/script>/)![1]);
       expect(schema["@type"]).toBe("Article");
       expect(schema.url).toBe(`https://cobanter.com${articlePath(legacy, base)}`);
@@ -123,7 +123,7 @@ describe("permanent articles", () => {
   });
   it("renders original content and sources safely, protecting spoilers without JavaScript", () => {
     const html = articleMarkup({ ...item, body: '<script>alert("x")</script>', editorial: { ...item.editorial!, spoilers: true } }, "/openfeed/");
-    expect(html).toContain("<details><summary>Show spoilers</summary>");
+    expect(html).toContain("<details class=\"spoiler-gate\"><summary>Show spoilers</summary>");
     expect(html).toContain("&lt;script&gt;");
     expect(html).not.toContain('<script>alert');
     expect(html).toContain(item.editorial!.sources[0].url.replaceAll("&", "&amp;"));

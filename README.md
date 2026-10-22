@@ -18,6 +18,9 @@ The repository's Pages custom domain is `cobanter.com`. `SITE_BASE_PATH` default
 Each build also generates the complete sitemap, robots policy, `llms.txt` agent guide,
 crawlable homepage and paginated HTML article archive. See
 [discoverability and search engine onboarding](docs/discoverability.md).
+It also writes RSS feeds (`/feed.xml` and one per topic), the "How CoBanter works"
+page at `/about/`, related reading for each article, a headline search index, icons
+and a web app manifest. See [site experience](docs/site-experience.md).
 
 ## Development
 

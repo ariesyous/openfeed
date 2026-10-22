@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import type { FeedItem } from "../../schemas";
 import { useCardDeck } from "../hooks/useCardDeck";
+import { markReady } from "../lib/ready";
 import { SwipeCard } from "./SwipeCard";
 
 export function CardView({ active, onOpenArticle, onOpenTopic, onExit }: {
@@ -12,6 +13,8 @@ export function CardView({ active, onOpenArticle, onOpenTopic, onExit }: {
   const deck = useCardDeck(active);
   const region = useRef<HTMLElement>(null);
   const disabled = deck.busy || Boolean(deck.error);
+  const settled = Boolean(deck.current || deck.status || deck.error);
+  useEffect(() => { if (settled) markReady(); }, [settled]);
   useEffect(() => { if (active) region.current?.focus({ preventScroll: true }); }, [active]);
   useEffect(() => {
     if (!active) return;

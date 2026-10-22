@@ -23,17 +23,19 @@ export const absoluteUrl = (pathname: string, site: SiteLocation) => new URL(pat
 export const articleDescription = (item: FeedItem) => item.editorial?.spoilers
   ? SPOILER_DESCRIPTION : item.body.replace(/\s+/g, " ").trim().slice(0, 180);
 
-export function collectionMetadata(site: SiteLocation, topic = "", items: FeedItem[] = []): PageMetadata {
+export const topicDescription = (topic: string) => `News, stories, and ideas about ${topicLabel(topic)} on CoBanter.`;
+
+export function collectionMetadata(site: SiteLocation, topic = "", items: FeedItem[] = [], image?: PageMetadata["image"]): PageMetadata {
   const url = absoluteUrl(topicPath(topic, site.base), site);
   const home = absoluteUrl(site.base, site);
   const title = topic ? `${topicLabel(topic)} · CoBanter` : SITE_TITLE;
-  const description = topic ? `News, stories, and ideas about ${topicLabel(topic)} on CoBanter.` : SITE_DESCRIPTION;
+  const description = topic ? topicDescription(topic) : SITE_DESCRIPTION;
   return {
-    title, description, url, type: "website",
+    title, description, url, type: "website", image,
     structuredData: {
       "@context": "https://schema.org",
       "@graph": [
-        { "@type": "Organization", "@id": `${home}#publisher`, name: "CoBanter", url: home },
+        { "@type": "Organization", "@id": `${home}#publisher`, name: "CoBanter", url: home, logo: absoluteUrl(`${site.base}icon-512.png`, site) },
         { "@type": "WebSite", "@id": `${home}#website`, name: "CoBanter", url: home, inLanguage: "en", publisher: { "@id": `${home}#publisher` } },
         { "@type": "CollectionPage", "@id": url, url, name: title, description, isPartOf: { "@id": `${home}#website` },
           ...(items.length ? { mainEntity: { "@type": "ItemList", itemListElement: items.map((item, index) => ({
