@@ -10,7 +10,9 @@ import { searchRow, type SearchIndex } from "../shared/search";
 import type { BatchFile, FeedItem, Manifest } from "../schemas";
 
 const manifest = JSON.parse(readFileSync("public/data/manifest.json", "utf8")) as Manifest;
-const batch = JSON.parse(readFileSync(`public/data/${manifest.batches[0].file}`, "utf8")) as BatchFile;
+const liveBatch = JSON.parse(readFileSync(`public/data/${manifest.batches[0].file}`, "utf8")) as BatchFile;
+// The newest real edition may contain spoiler posts; fixtures start unflagged so tests mark their own.
+const batch: BatchFile = { ...liveBatch, items: liveBatch.items.map(item => item.editorial ? { ...item, editorial: { ...item.editorial, spoilers: false } } : item) };
 const accounts = JSON.parse(readFileSync("public/data/accounts.json", "utf8"));
 const [first, second] = batch.items.filter(item => item.editorial);
 const spoiler: FeedItem = { ...second, body: "SECRET ENDING", editorial: { ...second.editorial!, spoilers: true } };
