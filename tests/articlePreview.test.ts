@@ -18,7 +18,8 @@ describe("article sharing images", () => {
       expect(layout.lines.length * layout.lineHeight).toBeLessThanOrEqual(252);
       expect(Math.max(...layout.widths)).toBeLessThanOrEqual(1056);
     }
-  });
+  // Lays out every published headline, so its runtime grows with the permanent archive.
+  }, 30_000);
 
   it("uses only headline metadata and never leaks a spoiler body or discussion into pixels", () => {
     const spoiler = { ...item, editorial: { ...item.editorial!, spoilers: true } };

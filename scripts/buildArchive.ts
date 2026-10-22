@@ -8,7 +8,7 @@ import { publicationDate } from "../shared/publicationDate";
 import { splitParagraphs } from "../shared/reading";
 import { relatedReading, type RelatedReading } from "../shared/related";
 import { searchRow, type SearchIndex } from "../shared/search";
-import { absoluteUrl, articleMetadata, collectionMetadata, escapeHtml as escape, inlineJson, renderMetadata, SITE_DESCRIPTION, SITE_ORIGIN, topicDescription, type PageMetadata, type SiteLocation } from "../shared/seo";
+import { absoluteUrl, articleMetadata, collectionMetadata, escapeHtml as escape, inlineJson, renderMetadata, SITE_DESCRIPTION, SITE_ORIGIN, topicDescription, type PageMetadata, type ShareImages, type SiteLocation } from "../shared/seo";
 import { writeArticlePreview, writeCollectionPreview } from "./articlePreview";
 import { brandHead, writeBrandAssets } from "./brandAssets";
 import { writeDiscovery } from "./discovery";
@@ -136,6 +136,8 @@ export function buildArchive(root = process.cwd()) {
   }
   articles.sort((a, b) => b.createdAt.localeCompare(a.createdAt) || a.id.localeCompare(b.id));
   const topicArticles = new Map<string, FeedItem[]>(TOPICS.map(topic => [topic, articles.filter(item => item.community === topic)]));
+  // Keyed by topic ("" is home) so in-app navigation can keep each page's hashed share image.
+  const shareImages: ShareImages = {};
   for (const item of articles) {
     const slug = articleSlug(item);
     urls.push(absoluteUrl(articlePath(item, base), site));
@@ -161,6 +163,7 @@ export function buildArchive(root = process.cwd()) {
     const recent = topicArticles.get(topic)!.slice(0, 20);
     const links = recent.map(item => archiveLink(item, base)).join("");
     const image = writeCollectionPreview(`topic-${slug}`, { eyebrow: "Topic", title: topicLabel(topic), subtitle: topicDescription(topic) }, dist, base, origin);
+    shareImages[topic] = image;
     const markup = staticPage(base, `<div class="feed-layout">${topicNavigation(base, topic)}<div class="feed-content"><div class="feed-toolbar"><h1>${escape(topicLabel(topic))}</h1><p>${escape(topicDescription(topic))}</p></div>${links ? `<ul class="archive-list">${links}</ul>` : "<p>No posts here yet.</p>"}<p class="static-nav"><a href="${base}">All topics</a> · <a href="${base}archive/">Complete article archive</a></p></div></div>`, { mainClass: "app-main--feed", banner: true, topic });
     writeFileSync(path.join(directory, "index.html"), buildPage(collectionMetadata(site, topic, recent, image), markup, "", false, topic));
     const indexPath = (file: string) => file === "manifest.json" ? `topics/${slug}/manifest.json` : file.replace("archive/page-", `archive/page-${slug}-`);
@@ -177,6 +180,8 @@ export function buildArchive(root = process.cwd()) {
   }
   const recent = articles.slice(0, 20);
   const homeImage = writeCollectionPreview("home", { eyebrow: "CoBanter", title: "Leave with something worth knowing.", subtitle: SITE_DESCRIPTION }, dist, base, origin);
+  shareImages[""] = homeImage;
+  writeFileSync(path.join(dist, "data", "share-images.json"), JSON.stringify(shareImages));
   const homepage = staticPage(base, `<div class="feed-layout">${topicNavigation(base)}<div class="feed-content"><div class="feed-toolbar"><h1>Leave with something worth knowing.</h1><p>Fresh context, useful ideas, true stories, and a little back-and-forth.</p></div><div class="feed-list">${recent.map(item => postSummary(item, base)).join("")}</div><p class="static-nav"><a href="${base}archive/">Complete article archive</a></p></div></div>`, { mainClass: "app-main--feed", banner: true });
   writeFileSync(path.join(dist, "index.html"), buildPage(collectionMetadata(site, "", recent, homeImage), homepage));
   const archivePath = (page: number) => `${base}archive/${page === 1 ? "" : `page-${page}/`}`;

@@ -4,6 +4,7 @@ import { readFileSync } from "node:fs";
 import { App } from "../src/App";
 import { PostCard } from "../src/components/PostCard";
 import { articlePath } from "../shared/articles";
+import { topicLabel } from "../shared/topics";
 import type { RelatedReading } from "../shared/related";
 import { searchRow, type SearchIndex } from "../shared/search";
 import type { BatchFile, FeedItem, Manifest } from "../schemas";
@@ -32,7 +33,12 @@ beforeEach(() => {
     : url.includes("/batches/") ? { ok: true, json: async () => feedBatch }
     : jsonResponse(url)));
 });
-afterEach(() => { document.getElementById("article-data")?.remove(); vi.unstubAllGlobals(); vi.restoreAllMocks(); });
+afterEach(() => {
+  document.getElementById("article-data")?.remove();
+  // Page metadata persists in the shared document head; a stale og:image would look like a direct load.
+  document.head.querySelectorAll('meta[data-seo], link[rel="canonical"], #page-structured-data').forEach(node => node.remove());
+  vi.unstubAllGlobals(); vi.restoreAllMocks();
+});
 
 describe("headlines view", () => {
   it("is an opt-in, remembered layout that keeps spoilers hidden", async () => {
@@ -79,6 +85,42 @@ describe("article reading", () => {
     fireEvent.click(screen.getByRole("link", { name: "← Back to feed" }));
     await waitFor(() => expect(window.location.pathname).toBe("/"));
     await waitFor(() => expect(screen.queryByRole("region", { name: "Article" })).not.toBeInTheDocument());
+  });
+});
+
+describe("collection share images", () => {
+  const ogImage = () => document.head.querySelector<HTMLMetaElement>('meta[property="og:image"]')?.content;
+  it("keeps home and topic images through in-app navigation", async () => {
+    const images = { "": { url: "https://cobanter.com/og/site/home-1.png", alt: "CoBanter · Home" }, [first.community]: { url: "https://cobanter.com/og/site/topic-2.png", alt: "CoBanter · Topic" } };
+    routes = { "/data/share-images.json": images };
+    render(<App />);
+    await screen.findByRole("link", { name: first.title });
+    await waitFor(() => expect(ogImage()).toBe(images[""].url));
+    expect(document.head.querySelector<HTMLMetaElement>('meta[name="twitter:card"]')?.content).toBe("summary_large_image");
+    fireEvent.click(within(screen.getByRole("navigation", { name: "Topics" })).getByRole("link", { name: topicLabel(first.community) }));
+    await waitFor(() => expect(ogImage()).toBe(images[first.community].url));
+    fireEvent.click(within(screen.getByRole("navigation", { name: "Topics" })).getByRole("link", { name: "All topics" }));
+    await waitFor(() => expect(ogImage()).toBe(images[""].url));
+    expect(vi.mocked(fetch).mock.calls.filter(([url]) => String(url).endsWith("share-images.json"))).toHaveLength(1);
+  });
+  it("reuses a directly loaded page's image without fetching the map", async () => {
+    for (const [property, content] of [["og:image", "https://cobanter.com/og/site/home-static.png"], ["og:image:alt", "CoBanter · Static"]]) {
+      const meta = document.createElement("meta");
+      meta.setAttribute("property", property); meta.content = content; meta.dataset.seo = ""; document.head.append(meta);
+    }
+    render(<App />);
+    await screen.findByRole("link", { name: first.title });
+    expect(ogImage()).toBe("https://cobanter.com/og/site/home-static.png");
+    expect(document.head.querySelector<HTMLMetaElement>('meta[property="og:image:alt"]')?.content).toBe("CoBanter · Static");
+    expect(vi.mocked(fetch).mock.calls.some(([url]) => String(url).endsWith("share-images.json"))).toBe(false);
+  });
+  it("ignores a malformed image map", async () => {
+    routes = { "/data/share-images.json": { "": { url: "javascript:alert(1)", alt: "x" } } };
+    render(<App />);
+    await screen.findByRole("link", { name: first.title });
+    await waitFor(() => expect(vi.mocked(fetch).mock.calls.some(([url]) => String(url).endsWith("share-images.json"))).toBe(true));
+    expect(ogImage()).toBeUndefined();
+    expect(document.head.querySelector<HTMLMetaElement>('meta[name="twitter:card"]')?.content).toBe("summary");
   });
 });
 
