@@ -157,8 +157,9 @@ after deployment.
   inform capacity and freshness expectations.
 
 The platform accounts are design inputs, not causal evidence that these features
-have already increased CoBanter engagement. Topic weights, related reading,
-recurring columns, archive search and RSS remain follow-on candidates.
+have already increased CoBanter engagement. Topic weights and recurring
+columns remain follow-on candidates. Related reading, headline search and RSS shipped
+on October 21, 2026; see [site experience](site-experience.md).
 
 ## Topic permalink follow-up
 

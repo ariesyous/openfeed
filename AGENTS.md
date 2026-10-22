@@ -497,3 +497,14 @@ not real people or reader engagement. Protect spoiler reading with the reveal ga
 and data-nosnippet; exclude it from metadata and the agent guide. llms.txt is a guide,
 not a crawler permission override or an indexing guarantee. Search Console/Bing
 verification and submission are separate account actions, not implied by deployment.
+
+## Site experience — October 21, 2026
+Read docs/site-experience.md. The user asked for marketability and quality work and
+chose brand, reading, follow/share and search. Brand assets, theme-before-paint and
+the hidden-mount prerender swap keep dark as the default; never follow the OS theme.
+Headlines is an optional browser-local layout, never read/saved state; Full stays
+default and Cards' fitting contract is unchanged. Paragraph splitting never rewrites
+stored text. RSS, related.json and the search index must never carry spoiler prose;
+the search index holds headlines and metadata only. Keep /about/ claims aligned with
+these notes: provenance and model review are not human fact-checking, discussion
+voices are not people. No newsletter or extra analytics without the user's request.
