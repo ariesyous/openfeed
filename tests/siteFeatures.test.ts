@@ -6,7 +6,7 @@ import { tmpdir } from "node:os";
 import { XMLParser, XMLValidator } from "fast-xml-parser";
 import { buildArchive } from "../scripts/buildArchive";
 import { articlePath, withArticleSlug } from "../shared/articles";
-import { topicPath, topicSlug } from "../shared/topics";
+import { TOPICS, topicPath, topicSlug } from "../shared/topics";
 import type { RelatedReading } from "../shared/related";
 import type { SearchIndex } from "../shared/search";
 import { BatchFileSchema, type FeedItem, type Manifest } from "../schemas";
@@ -80,6 +80,15 @@ describe("site pages", () => {
       expect(image).toMatch(/^https:\/\/cobanter\.com\/og\/site\/[a-z0-9-]+-[a-f0-9]{16}\.png$/);
       expect(html).toContain('name="twitter:card" content="summary_large_image"');
       expect(existsSync(path.join(root, "dist", new URL(image!).pathname))).toBe(true);
+    }
+  });
+  it("publishes the home and topic share images for in-app navigation", () => {
+    const images = JSON.parse(read("data/share-images.json")) as Record<string, { url: string; alt: string }>;
+    expect(Object.keys(images).sort()).toEqual(["", ...TOPICS].sort());
+    for (const [topic, file] of [["", "index.html"], ["science", `topics/${topicSlug("science")}/index.html`]]) {
+      const html = read(file);
+      expect(html).toContain(`property="og:image" content="${images[topic].url}"`);
+      expect(html).toContain(`property="og:image:alt" content="${images[topic].alt}"`);
     }
   });
   it("publishes an honest standalone About page in the sitemap and agent guide", () => {

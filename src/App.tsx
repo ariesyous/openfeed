@@ -6,7 +6,7 @@ import { TransparencyBanner } from "./components/TransparencyBanner";
 import { FeedItemSchema, type FeedItem } from "../schemas";
 import { topicFromPath, topicLabel, topicPath, topicSlug } from "../shared/topics";
 import { articlePath, matchesArticleSlug } from "../shared/articles";
-import { articleMetadata, collectionMetadata } from "../shared/seo";
+import { articleMetadata, collectionMetadata, isShareImages, type ShareImages } from "../shared/seo";
 import { updateMetadata } from "./metadata";
 import { markReady } from "./lib/ready";
 
@@ -33,6 +33,14 @@ function routeSlug(): string | null {
   return /^[a-z0-9-]+$/.test(value) ? value : "invalid";
 }
 
+/** A directly loaded home/topic page already carries its own hashed share image. */
+function initialShareImages(): ShareImages {
+  const url = document.head.querySelector<HTMLMetaElement>('meta[property="og:image"]')?.content;
+  const topic = topicFromPath(window.location.pathname, base);
+  if (!url || routeSlug() || searchRoute() || topic === null) return {};
+  return { [topic]: { url, alt: document.head.querySelector<HTMLMetaElement>('meta[property="og:image:alt"]')?.content ?? "CoBanter" } };
+}
+
 export function App() {
   const site = useRef({ base, origin: new URL(document.head.querySelector<HTMLLinkElement>('link[rel="canonical"]')?.href ?? window.location.origin).origin });
   const [viewMode, setViewMode] = useState<"feed" | "cards">(() => cardsRoute() ? "cards" : "feed");
@@ -45,6 +53,8 @@ export function App() {
   const [searchMounted, setSearchMounted] = useState(searchRoute);
   const [feedMounted, setFeedMounted] = useState(() => !routeSlug() && !cardsRoute() && !searchRoute());
   const [routeError, setRouteError] = useState("");
+  const [shareImages, setShareImages] = useState(initialShareImages);
+  const shareImagesRequested = useRef(false);
   const [theme, setTheme] = useState<"dark" | "light">(() => {
     try { return localStorage.getItem("openfeed-theme") === "light" ? "light" : "dark"; }
     catch { return "dark"; }
@@ -111,9 +121,18 @@ export function App() {
       if (community === null && viewMode !== "cards") markReady();
       updateMetadata(community === null && viewMode !== "cards"
         ? { title: "Topic not found · CoBanter", description: "This topic doesn't exist.", noindex: true }
-        : collectionMetadata(site.current, viewMode === "cards" ? "" : community ?? ""));
+        : collectionMetadata(site.current, viewMode === "cards" ? "" : community ?? "", [], shareImages[viewMode === "cards" ? "" : community ?? ""]));
     }
-  }, [articleRoute, article, community, viewMode, routeError, searchActive]);
+  }, [articleRoute, article, community, viewMode, routeError, searchActive, shareImages]);
+  const collectionTopic = articleRoute || searchActive || (community === null && viewMode !== "cards") ? null : viewMode === "cards" ? "" : community ?? "";
+  useEffect(() => {
+    if (collectionTopic === null || collectionTopic in shareImages || shareImagesRequested.current) return;
+    shareImagesRequested.current = true;
+    fetch(`${base}data/share-images.json`)
+      .then(response => response.ok ? response.json() : null)
+      .then(value => { if (isShareImages(value)) setShareImages(current => ({ ...value, ...current })); })
+      .catch(() => { /* Share images are optional metadata. */ });
+  }, [collectionTopic, shareImages]);
   const origin = () => searchActive ? "search" : viewMode;
   const openArticle = (item: FeedItem) => {
     window.history.replaceState({ ...window.history.state, feedScroll: window.scrollY }, "");

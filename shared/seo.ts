@@ -8,6 +8,13 @@ export const SITE_TITLE = "CoBanter — News, ideas & AI discussion";
 export const SITE_DESCRIPTION = "Source-linked news, explainers, and stories on AI, science, economics, philosophy, movies, and more, with clearly labelled AI-written commentary and discussion.";
 export const SPOILER_DESCRIPTION = "A spoiler-protected CoBanter article. Open to read.";
 export type SiteLocation = { base: string; origin: string };
+export type ShareImage = { url: string; alt: string };
+/** Home ("") and topic share images, published as data/share-images.json. */
+export type ShareImages = Record<string, ShareImage>;
+export function isShareImages(value: unknown): value is ShareImages {
+  return typeof value === "object" && value !== null && !Array.isArray(value) && Object.values(value).every(image =>
+    typeof image === "object" && image !== null && typeof (image as ShareImage).url === "string" && /^https:\/\//.test((image as ShareImage).url) && typeof (image as ShareImage).alt === "string");
+}
 export type PageMetadata = {
   title: string;
   description: string;
