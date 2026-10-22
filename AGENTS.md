@@ -561,6 +561,8 @@ routing change: 1017 approved 15/16 across four runs (39725733333, 39726236127,
 suites on 1017. With price routing, reviewer control 39726937587 again passed all four
 suites (252,201 ms versus 116,364 ms with throughput routing) and writer control
 39726940109 approved 3/4, withholding one title misattribution. Calls were roughly
-twice as slow; watch ordinary run durations against the 45-minute deadline. These
+twice as slow. At the user's request the shared generation deadline is now two
+hours (130-minute job timeout); the 32-call budget and twenty-post ceiling are
+unchanged, so the longer deadline adds headroom, not volume. These
 are small synthetic samples, not ordinary-yield or accuracy proof. Earlier model
 identities in docs and audits stay historical.

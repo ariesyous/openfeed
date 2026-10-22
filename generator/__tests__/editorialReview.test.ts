@@ -271,7 +271,7 @@ describe("mandatory editorial gate", () => {
   it("does not publish a candidate when generation uses the remaining deadline", async () => {
     let elapsed = 0, calls = 0;
     await expect(generateEditorial("secret", packets.slice(0, 1), now, "deadline", [], {
-      nowImpl: () => elapsed, fetchImpl: async () => { calls++; elapsed = 45 * 60_000 - 30_000; return completion({ posts: [post] }); },
+      nowImpl: () => elapsed, fetchImpl: async () => { calls++; elapsed = 120 * 60_000 - 30_000; return completion({ posts: [post] }); },
     })).rejects.toThrow("edition time budget exhausted");
     expect(calls).toBe(1);
   });

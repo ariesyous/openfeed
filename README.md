@@ -111,8 +111,8 @@ subject remain welcome. This focused text check does not replace editorial revie
 
 Editions have an eight-post ceiling in requests of at most two, sharing eight total provider attempts.
 There is no minimum or topic quota: one worthwhile post or an empty edition is acceptable.
-A shared 45-minute generation budget caps request timeouts and retry waits; the workflow
-has a 55-minute safety timeout. Reviewed partial editions can publish when a later request fails; weak evidence never gets padded. All writer and reviewer calls
+A shared two-hour generation budget caps request timeouts and retry waits; the workflow
+has a 130-minute safety timeout. Reviewed partial editions can publish when a later request fails; weak evidence never gets padded. All writer and reviewer calls
 use `deepseek/deepseek-v4.1-flash-1017`, including scheduled runs every three hours.
 
 An empty model response defers that request's sources for the current run and tries
@@ -159,7 +159,7 @@ detection, not a semantic quality guarantee; see [the qualification update](docs
 New candidates also receive a separate [prepublication source review](docs/editorial-prepublication-review.md).
 Every title, body and discussion turn must pass; rejected posts are withheld whole,
 while approved banter stays unchanged. Writer and reviewer calls share the existing
-eight-attempt/45-minute budget. Bounded decisions are saved in `editorial-review.json`
+32-call/two-hour budget. Bounded decisions are saved in `editorial-review.json`
 alongside the selected-support artifact, including runs that publish nothing. This
 model judgment is an additional editorial gate, not a factual-accuracy guarantee.
 
