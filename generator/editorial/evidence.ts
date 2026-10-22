@@ -99,7 +99,7 @@ export function evidenceSpans(text: string): string[] {
 }
 
 /** Bound prompt size while retaining topic variety and preferring substantial excerpts. */
-export function prepareEvidence(packets: SourcePacket[], options: { priorityIds?: ReadonlySet<string>; sourceLimit?: number } = {}) {
+export function prepareEvidence(packets: SourcePacket[], options: { priorityIds?: ReadonlySet<string>; sourceLimit?: number; keepTopicOrder?: boolean } = {}) {
   const priorityIds = options.priorityIds ?? new Set<string>();
   // Callers may narrow a choice packet, never raise the existing evidence bounds.
   const sourceLimit = Math.min(options.sourceLimit ?? Infinity, packets.some(packet => packet.sections) ? 8 : 16);
@@ -111,7 +111,8 @@ export function prepareEvidence(packets: SourcePacket[], options: { priorityIds?
     group.push(source);
     topics.set(source.topic, group);
   }
-  for (const group of topics.values()) group.sort((a, b) => b.excerpt.length - a.excerpt.length);
+  // Callers that have already ordered candidates within each topic keep that order.
+  if (!options.keepTopicOrder) for (const group of topics.values()) group.sort((a, b) => b.excerpt.length - a.excerpt.length);
   for (let round = 0; selected.length < sourceLimit; round++) {
     let added = false;
     for (const group of topics.values()) {
