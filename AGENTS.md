@@ -517,6 +517,9 @@ One dedup gap: The Conversation reused article 294387 under a new slug, so URL a
 title coverage missed a repeated Alberta/Québec angle; keying by its numeric ID is
 not implemented. #37 is closed as superseded; its event/angle review is in that doc.
 Cards were measured at 390×844, 360×740, 844×390 and 1363×936 in emulation (see
-docs/card-mode.md). Default text is clean. At 200% text, the fallback notice is
-clipped and the site header overflows; both are unrepaired. Emulation is not a
+docs/card-mode.md). Default text is clean. The 200%-text repair keeps the card a
+three-row grid; the fit notice overlays the reading row and covers the footer only
+when taller than it, never entering the fit measurement. The header may wrap; an
+`.app` container query (20rem, root-relative) hides the wordmark and tightens
+spacing. Re-run the emulated table after Cards layout changes. Emulation is not a
 physical-phone trial; #25 stays open.

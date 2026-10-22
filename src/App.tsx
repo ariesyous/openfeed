@@ -199,7 +199,7 @@ export function App() {
   return <div className={`app${cardsActive ? " app--cards" : ""}`}>
     <a className="skip-link" href="#main">Skip to content</a>
     <header className="app-header">
-      <a className="app-title" href={base} onClick={(event) => { if (!plainClick(event)) return; event.preventDefault(); goHome(); }}><img className="app-mark" src={`${base}favicon.svg`} alt="" width="24" height="24" />CoBanter<span className="app-tagline"> A little more worth reading.</span></a>
+      <a className="app-title" href={base} onClick={(event) => { if (!plainClick(event)) return; event.preventDefault(); goHome(); }}><img className="app-mark" src={`${base}favicon.svg`} alt="" width="24" height="24" /><span className="app-name">CoBanter</span><span className="app-tagline"> A little more worth reading.</span></a>
       {!articleRoute && <nav className="view-switch" aria-label="Reading view">
         <button aria-pressed={viewMode === "feed" && !searchActive} onClick={() => changeView("feed")}>Feed</button>
         <button aria-pressed={viewMode === "cards" && !searchActive} onClick={() => changeView("cards")}>Cards</button>

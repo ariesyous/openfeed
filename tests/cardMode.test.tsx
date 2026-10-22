@@ -186,6 +186,18 @@ describe("card UI", () => {
     expect(screen.getByText(a.body)).toBeVisible();
     expect(callbacks.onPresented).toHaveBeenCalledWith(a);
   });
+  it("lets an unfit notice cover the footer only when the reading area is too small for it", () => {
+    vi.spyOn(HTMLElement.prototype, "clientHeight", "get").mockReturnValue(100);
+    vi.spyOn(HTMLElement.prototype, "offsetHeight", "get").mockReturnValue(80);
+    const view = render(<SwipeCard {...props()} />);
+    const notice = view.container.querySelector(".card-fit-notice")!;
+    expect(notice).not.toHaveClass("covers-footer");
+    vi.spyOn(HTMLElement.prototype, "offsetHeight", "get").mockReturnValue(160);
+    fireEvent(window, new Event("resize"));
+    expect(notice).toHaveClass("covers-footer");
+    const titleHref = view.container.querySelector("#card-title a")!.getAttribute("href");
+    expect(screen.getByRole("link", { name: "Open the article to read it in full" })).toHaveAttribute("href", titleHref);
+  });
   it("shrinks overflowing text to the largest fitting size and grows it back on resize", () => {
     // Simulate reflow as font size changes. Real mobile layout remains a browser check.
     vi.spyOn(HTMLElement.prototype, "clientHeight", "get").mockReturnValue(500);
