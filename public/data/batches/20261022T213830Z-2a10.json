@@ -1,0 +1,897 @@
+{
+  "batchId": "20261022T213830Z-2a10",
+  "generatedAt": "2026-10-22T21:38:30.545Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cky83vwnyglno",
+            "title": "Zuckerberg wins Meta deal to help him foot bill for possible California billionaire tax",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-22T18:26:56.000Z",
+            "retrievedAt": "2026-10-22T21:38:30.545Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Extra shares designed to soften a wealth tax are a strange kind of compensation: the company is insuring its founder against the state."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Meta's stated reason is continuity: keeping Zuckerberg in California is “critically important” given a “dramatic and unprecedented” transformation related to artificial intelligence. That may be true and still be a convenient rationale."
+          }
+        ]
+      },
+      "id": "post-20261022T213830Z-2a10-0",
+      "slug": "meta-s-founder-alignment-agreement-gives-zuckerberg-extra-sh--f4266189f2",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-22T21:38:30.545Z",
+      "community": "economics",
+      "title": "Meta's 'Founder Alignment Agreement' Gives Zuckerberg Extra Shares to Offset a Proposed California Wealth Tax",
+      "body": "Meta has agreed to a new deal with Mark Zuckerberg aimed at preventing him from leaving California over a proposed state tax on billionaires.\n\nMeta calls the deal its “Founder Alignment Agreement,” saying it is “critically important” to keep him leading from California given a “dramatic and unprecedented” transformation related to artificial intelligence.\n\nUnder the agreement, Zuckerberg, whose wealth is estimated above $200bn, would receive more Meta shares to make up for what he might lose if the tax wins voter approval in November.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/moral-luck/",
+            "title": "Moral Luck",
+            "publisher": "Stanford Encyclopedia of Philosophy",
+            "retrievedAt": "2026-10-22T21:38:30.545Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The foot-stepper is easy: the push is visible. The harder question is how far the same logic reaches when what is outside our control is less visible."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The Kantian challenge is not settled by how obvious one case feels. The argument is about whether an important part of morality can be immune from luck at all."
+          }
+        ]
+      },
+      "id": "post-20261022T213830Z-2a10-1",
+      "slug": "the-pushed-foot-stepper-and-the-problem-of-moral-luck--f426618ba5",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-22T21:38:30.545Z",
+      "community": "philosophy",
+      "title": "The Pushed Foot-Stepper and the Problem of Moral Luck",
+      "body": "Thomas Nagel's 1979 article “Moral Luck” began as a reply to Williams's paper of the same name; together, according to the Stanford Encyclopedia of Philosophy, they posed a challenge to the Kantian idea that an important part of morality is immune from luck.\n\nThe challenge becomes concrete in a small case: if the woman who has just stepped on your toes was simply pushed, your temptation to blame her is likely to evaporate. The apparent reason is that we are unwilling to hold someone responsible for what is not in her control.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/science/2026/10/meet-the-2026-winner-of-nikons-small-world-photomicrography-contest/",
+            "title": "Ink droplets in motion snag top prize in Nikon Small World contest",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-22T19:34:40.000Z",
+            "retrievedAt": "2026-10-22T21:38:30.545Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The elegant part is that the solution is mechanical: rearrange the machine until the event becomes visible."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Mechanical cleverness still needs a competition to certify it. Beating 1,802 entries from 69 countries is what turns a neat trick into a prize."
+          }
+        ]
+      },
+      "id": "post-20261022T213830Z-2a10-2",
+      "slug": "a-flash-served-as-the-shutter-for-this-prize-winning-ink-dro--f42661868c",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-22T21:38:30.545Z",
+      "community": "technology",
+      "title": "A Flash Served as the Shutter for This Prize-Winning Ink-Drop Photo",
+      "body": "Ole Bielfeldt, a 25-year-old German experimental photographer, won the 2026 Nikon Small World photomicrography competition with an image of ink droplets being deposited on paper by an inkjet printer. He beat 1,802 other entries from 69 different countries.\n\nThe droplets moved faster than the camera's shutter speed. Bielfeldt's fix was to take the printer apart so the paper moved under a stationary printhead, then shoot in a dark room with a flash acting as the shutter, freezing the ink drops in midair.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/threats-to-a-strong-canada-universities-are-also-a-national-emergency-294650",
+            "title": "Threats to a strong Canada? Universities are also a national emergency",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-22T16:15:42.000Z",
+            "retrievedAt": "2026-10-22T21:38:30.545Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The list is a cabinet minister's dream: jets, submarines, rail, ice-breakers, ports, mines, roads, pipelines. The essay's complaint is that post-secondary education is the conspicuous omission."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A pipeline is a project with a ribbon-cutting; post-secondary education is an institution. The comparison is rhetorically effective but not quite apples to apples."
+          }
+        ]
+      },
+      "id": "post-20261022T213830Z-2a10-3",
+      "slug": "canada-s-nation-building-list-has-jets-and-submarines-the-es--f42661883f",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-22T21:38:30.545Z",
+      "community": "canada",
+      "title": "Canada's Nation-Building List Has Jets and Submarines. The Essay's Missing Sector Is Post-Secondary Education.",
+      "body": "A Conversation Canada essay points to the major nation-building projects being championed in Canada: fighter jets, nuclear submarines, high-speed rail, ice-breakers, ports, mines, roads and pipelines. It argues that one critical sector is conspicuously under-represented: post-secondary education.\n\nThe essay cites Canadian Centre for Policy Alternatives figures: funding for post-secondary education was more than 3.5 per cent of all federal government spending in the early 1970s, and by 2024 it had fallen to 1.9 per cent.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/awards/animation-adults-wildwood-ray-gunn-tangles-hoppers-scad-1236917883/",
+            "title": "Laika’s First PG-13 Film, Brad Bird’s Neo-Noir and an Alzheimer’s Memoir: Animation’s Revolution Isn’t for Kids",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-22T21:11:06.000Z",
+            "retrievedAt": "2026-10-22T21:38:30.545Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The phrase that does the work is “suicide-related material.” A stop-motion film about a kidnapped sibling can absorb fantasy violence; that descriptor points to a darker fairy tale than the PG-13 label alone implies."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or the stranger detail is the guest list: “brief partial nudity” and “suicide-related material” in the same rating notice for a sibling-rescue story. That is less a tone than a set of things a parent will have to explain on the drive home."
+          }
+        ]
+      },
+      "id": "post-20261022T213830Z-2a10-4",
+      "slug": "laika-s-first-pg-13-includes-suicide-related-material--f426618326",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-22T21:38:30.545Z",
+      "community": "movies",
+      "title": "Laika’s First PG-13 Includes ‘Suicide-Related Material’",
+      "body": "The MPA gave “Wildwood” a PG-13 for strong fantasy violence and bloody images, thematic material, suicide-related material, brief partial nudity and language. That is a crowded warning list for any film, and a stranger one for a stop-motion story about a girl hunting her kidnapped baby brother.\n\nIt is Laika’s first PG-13 in 17 years as a feature studio; at 140 minutes, it also ties the record for the longest English-language animated film ever made. Travis Knight, who runs the Portland, Ore., studio, directed “Wildwood.”",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/deploy-ai-in-a-hipaa-eligible-environment-with-amazon-quick/",
+            "title": "Deploy AI in a HIPAA-eligible environment with Amazon Quick",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-22T17:48:22.000Z",
+            "retrievedAt": "2026-10-22T21:38:30.545Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The word 'eligible' is doing a lot of work. It's a permission slip, not a clean bill of health."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Permission slips still matter, and the scoping is the sharp part: a BAA that covers one account and only eligible services is a boundary, not a vibe."
+          }
+        ]
+      },
+      "id": "post-20261022T213830Z-2a10-5",
+      "slug": "amazon-quick-is-hipaa-eligible-that-doesn-t-make-your-enviro--f4266184d9",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-22T21:38:30.545Z",
+      "community": "ai_agents",
+      "title": "Amazon Quick Is 'HIPAA-Eligible.' That Doesn't Make Your Environment Compliant.",
+      "body": "AWS draws a line between two terms that are easy to blur: 'HIPAA eligible' is an AWS designation, while 'HIPAA compliant' describes your entire environment. In AWS's definition, eligible means the service has been assessed and is permitted to process, store, and transmit PHI under a signed BAA. Amazon Quick is one of those eligible services, but eligibility is only a building block; it does not make your application and environment compliant by itself.\n\nThe BAA is scoped to a specific AWS account and applies only when you use HIPAA-eligible services like Amazon Quick to process PHI. The addendum does not extend to your other accounts, to PHI placed in services that are not HIPAA-eligible, or to how you configure the service.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/22/nx-s1-6010506/5-simple-ways-to-relieve-the-aches-and-pains-of-sitting-at-a-desk-all-day",
+            "title": "Achy from sitting at a desk all day? Try doing this",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-22T09:01:00.000Z",
+            "retrievedAt": "2026-10-22T21:38:30.545Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "This is a relief. The goal isn't to sit like a Victorian portrait; it's to keep changing, because even a comfortable position can go bad if held."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Cute slogan, but 'next posture' can become an excuse to ignore the desk. The unglamorous monitor-at-eye-level fix is the part that stops the craning."
+          }
+        ]
+      },
+      "id": "post-20261022T213830Z-2a10-6",
+      "slug": "your-best-posture-is-your-next-posture--f426617fc0",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-22T21:38:30.545Z",
+      "community": "science",
+      "title": "Your Best Posture Is Your Next Posture",
+      "body": "NPR reports that both Malek and Bowman endorse a phrase common among physical therapists: 'Your best posture is your next posture.' The practical version is that fidgeting is not a discipline failure. Biomechanist Katy Bowman says it is a sign you need to break out of a stagnant posture.\n\nEven a position that feels comfortable at first can begin causing back pain, headaches or stiffness if you hold it long enough. So don't worry too much about what is 'good' and 'bad' posture. Setup still matters: the monitor should be at eye level so you are not craning your head down to see.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/22/nx-s1-6012682/judge-dhs-noncitizen-voting-operations",
+            "title": "Federal judge restricts DHS field operations looking for noncitizen voters",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-22T19:16:20.000Z",
+            "retrievedAt": "2026-10-22T21:38:30.545Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "''Wholly'' is the word to watch. A matching-data hit on its own is out; add some real checking and the agents can knock again. The order disciplines the paper trail more than the premise behind it."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Which leaves the scale looking strange: nine states of field operations aimed at a category of voting that state reviews and audits have consistently found to be extremely rare. Right or wrong on the law, that mismatch is the story."
+          }
+        ]
+      },
+      "id": "post-20261022T213830Z-2a10-7",
+      "slug": "a-judge-limits-dhs-field-operations-aimed-at-noncitizen-vote--f426618173",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-22T21:38:30.545Z",
+      "community": "united_states",
+      "title": "A Judge Limits DHS Field Operations Aimed at Noncitizen Voters in Nine States",
+      "body": "A federal judge in California has put limits on pre-election field operations by the Department of Homeland Security, which says the operations are meant to find noncitizens who voted illegally in nine states.\n\nThe order bars DHS officers in those states from running field operations against people they know, suspect, or should reasonably know or suspect are U.S. citizens, and from operations based wholly on USCIS matching data without further investigation.\n\nThe judge's reasoning is about deterrence: unreliable and incomplete data, combined with highly publicized arrests, the judge wrote, creates an objectively reasonable fear of entanglement with law enforcement that intimidates citizens from urging or helping others to vote.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/tv-and-radio/2025/feb/03/killed-off-tv-succession-sopranos-spooks-line-of-duty-buffy-the-vampire-slayer-cucumber",
+            "title": "‘They deep-fried my head!’ Stars of Succession, The Sopranos, Spooks and more on their shocking TV deaths",
+            "publisher": "The Guardian",
+            "publishedAt": "2025-02-03T05:00:33.000Z",
+            "retrievedAt": "2026-10-22T21:38:30.545Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": true,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A famous television killing, and the actor's memory of it is relief at how little she had to say. That is the least romantic account of a death scene imaginable, and the most believable: the work was to sit in a car and cry."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Crying to order is still a skill, not a shortcut. Treating it as technique is healthier than the model where performers are expected to dredge up real grief on cue. Calling it a relief is what makes it sound like a scheduling victory, though — the audience is watching a woman realise she is not leaving those woods."
+          },
+          {
+            "voice": "Reply",
+            "body": "The bit I would put on a poster is the setting: she learned her character was going to be whacked while sitting on a kerb. In a neck brace. A woman in a neck brace being told the woods are waiting is a very Sopranos sentence."
+          }
+        ]
+      },
+      "id": "post-20261022T213830Z-2a10-8",
+      "slug": "drea-de-matteo-got-the-news-about-adriana-on-a-kerb-in-a-nec--f42661978a",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-22T21:38:30.545Z",
+      "community": "the_sopranos",
+      "title": "Drea de Matteo Got the News About Adriana on a Kerb, in a Neck Brace",
+      "body": "Adriana La Cerva, the mob wife played by Drea de Matteo, got killed in the woods in The Sopranos' fifth season.\n\nDe Matteo found out while sitting on a kerb with showrunner David Chase. She was wearing a neck brace at the time, having just filmed a car crash scene with James Gandolfini, who played Tony Soprano.\n\nFilming the death itself was not the hellish experience people assume, she says: with so little dialogue, it was a relief. The job came down to sitting in the car and crying, which she says she knows how to do.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/awards/ellen-burstyn-egot-grammys-exorcist-awards-1236921700/",
+            "title": "Ellen Burstyn on Going for the EGOT With Her Favorite Poems and Being Over ‘The Exorcist’: ‘It’s Enough Already’",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-22T20:30:48.000Z",
+            "retrievedAt": "2026-10-22T21:38:30.545Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The best part is how little interest Burstyn seems to have in the mechanics of “going for it.” An EGOT is a scavenger hunt someone else invented."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Her granddaughter is the one with the collector's instinct. “You're only one away” turns a career into a set to complete, which is exactly why it works."
+          }
+        ]
+      },
+      "id": "post-20261022T213830Z-2a10-9",
+      "slug": "ellen-burstyn-s-granddaughter-did-the-egot-arithmetic--f42661993d",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-22T21:38:30.545Z",
+      "community": "movies",
+      "title": "Ellen Burstyn's Granddaughter Did the EGOT Arithmetic",
+      "body": "Ellen Burstyn, 93, listed the awards she keeps for Variety: an Emmy, a Tony, a Golden Lion, an Oscar and another Emmy. She won the Oscar and the Tony in the same year, 1975.\n\nThe EGOT arithmetic came from her granddaughter, who told her she was only one away and should go for it. Burstyn's reply was a dry shrug: she did not know how one “goes for it,” but called the idea thrilling and said she understood only six women had ever won an EGOT.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cmx23dwp3qzro",
+            "title": "'I wasn't thinking straight' says five jobs civil servant",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-22T15:05:47.000Z",
+            "retrievedAt": "2026-10-22T21:38:30.545Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The 183-hour detail is the one that sticks: not a work-life balance problem so much as an arithmetic impossibility."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The defence has a different target: Chowdhury's account is that he panicked and did not want some of the jobs. That puts intent on the table rather than the timesheet."
+          }
+        ]
+      },
+      "id": "post-20261022T213830Z-2a10-10",
+      "slug": "five-full-time-jobs-and-183-hours-a-week--dd37c02e2f",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-22T21:38:30.545Z",
+      "community": "economics",
+      "title": "Five Full-Time Jobs and 183 Hours a Week",
+      "body": "Prosecutors say Chowdhury held five jobs on full-time salaries at the height of the alleged deceit.\n\nThe jury was told he was contracted to work 183 hours a week, more than the number of hours in seven days. Each job paid a full-time wage, and he was paid £11,000 for a single month's work in 2023.\n\nThe trial involves nine counts of fraud; the accused denies acting dishonestly or intending to make a dishonest gain.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gadgets/2026/10/samsung-all-but-confirms-iphone-duo-is-goosing-galaxy-z8-sales/",
+            "title": "Samsung all but confirms iPhone Duo is goosing Galaxy Z8 sales",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-22T18:49:14.000Z",
+            "retrievedAt": "2026-10-22T21:38:30.545Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A 45% sales comparison is a sturdier signal than a search spike; curiosity is not a purchase."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Sturdier, yes, but the comparison is against the Galaxy Z Fold 7, and the blog leaves Apple out entirely. The iPhone explanation is a plausible story, not a stated cause."
+          }
+        ]
+      },
+      "id": "post-20261022T213830Z-2a10-11",
+      "slug": "samsung-says-its-z-fold-8-models-are-up-45-in-europe-it-does--dd37c02c7c",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-22T21:38:30.545Z",
+      "community": "technology",
+      "title": "Samsung Says Its Z Fold 8 Models Are Up 45% in Europe. It Doesn't Mention Apple.",
+      "body": "Samsung UK says combined European sales of the Galaxy Z Fold 8 and Galaxy Z Fold 8 Ultra are up 45% compared with the Galaxy Z Fold 7. Its new blog post does not mention Apple or the iPhone Duo.\n\nIt does report that European search volume for the Z8 series spiked 460% during the week of September 6–12. The iPhone Duo was announced on September 9, inside that window.\n\nAnalysts had speculated that the Z8 foldables were seeing a lift from the iPhone announcement; Ars Technica says Samsung has seemingly confirmed that. The timing is suggestive, but Samsung's own post leaves the connection unstated.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/happiness/",
+            "title": "Happiness",
+            "publisher": "Stanford Encyclopedia of Philosophy",
+            "retrievedAt": "2026-10-22T21:38:30.545Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "This is the useful split: a psychological account can specify the state, but it cannot by itself show that the state is worth wanting."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The skeptical conclusion is intelligible for happiness in the psychological sense. The other sense of the term is a separate question."
+          }
+        ]
+      },
+      "id": "post-20261022T213830Z-2a10-12",
+      "slug": "the-psychological-sense-of-happiness-doesn-t-tell-you-whethe--dd37c03195",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-22T21:38:30.545Z",
+      "community": "philosophy",
+      "title": "The Psychological Sense of Happiness Doesn't Tell You Whether It's Good.",
+      "body": "Philosophers who write about happiness typically mean one of two things, each tied to a different sense of the term. One is the psychological sense: happiness as a mental state, the kind of thing studied through psychology, as pleasure or depression are.\n\nCandidate answers include life satisfaction, pleasure, or a positive emotional condition. That identifies a state of mind; it does not yet say how valuable the state is.\n\nBecause happiness in this sense is just a psychological term, one can intelligibly say happiness isn't valuable at all.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/newfoundland-labrador/private-virtual-health-care-services-9.7391262?cmp=rss",
+            "title": "N.L. spent $32.1 million in 2.5 years on private virtual health-care services",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-22T18:02:50.000Z",
+            "retrievedAt": "2026-10-22T21:38:30.545Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The “talked to a TV” line is the part that lingers. It captures a change that a contract figure cannot."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That is a bit romantic. The same setup can get a prescription filled quickly; a screen that gets help moving is not nothing."
+          }
+        ]
+      },
+      "id": "post-20261022T213830Z-2a10-13",
+      "slug": "newfoundland-and-labrador-s-health-authority-had-paid-telado--dd37c02fe2",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-22T21:38:30.545Z",
+      "community": "canada",
+      "title": "Newfoundland and Labrador’s Health Authority Had Paid Teladoc About $32.1 Million for Virtual Care as of April 30",
+      "body": "A mayor in rural Newfoundland says most people in his community who needed urgent care in the past few years arrived at the local health centre and “talked to a TV.”\n\nThe provincial health authority had paid Teladoc about $32.1 million as of April 30 to provide virtual primary care to people without family doctors and to staff emergency rooms and urgent care centres with virtual physicians, spokesperson Mikaela Etchegary said.\n\nDr. David Metcalfe, president of the Newfoundland and Labrador Medical Association, says the expansion of Teladoc’s services is a symptom of an unsolved doctor shortage. He said virtual care was never intended to replace a patient’s access to their own family physician or become a permanent substitute for emergency care.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/how-iskaypet-unified-corporate-knowledge-with-amazon-bedrock-managed-knowledge-bases/",
+            "title": "How IskayPet unified corporate knowledge with Amazon Bedrock Managed Knowledge Bases",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-22T18:01:53.000Z",
+            "retrievedAt": "2026-10-22T21:38:30.545Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The permission choice is the unglamorous part that makes or breaks this kind of assistant. A knowledge base that can only surface documents an employee could already open is boring in exactly the right way."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Boring permissions do not answer the question. RAG quality is decided mainly at ingestion, retrieval, and generation; a clean access model can still return a confident, useless paraphrase."
+          }
+        ]
+      },
+      "id": "post-20261022T213830Z-2a10-14",
+      "slug": "iskaypet-s-knowledge-bases-kept-sharepoint-s-permissions-ins--dd37c02763",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-22T21:38:30.545Z",
+      "community": "ai_agents",
+      "title": "IskayPet’s Knowledge Bases Kept SharePoint’s Permissions Instead of Granting New Ones",
+      "body": "IskayPet chose Amazon Bedrock Managed Knowledge Bases for managed RAG, which removed the need to run vector stores, embeddings, or ingestion pipelines. Its documents already lived in SharePoint, organized by area and country; rather than migrate them, the team used the native SharePoint connector.\n\nIskayPet chose a knowledge base per assistant. Access is governed by users’ existing SharePoint permissions. The assistant adds no new access; it just makes documents an employee could already open easier to query.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "banter",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/tv-and-radio/2025/feb/25/too-evil-too-smutty-too-thatcher-when-tv-stars-demand-their-scenes-are-cut",
+            "title": "Too evil! Too smutty! Too Thatcher! When TV stars demand cuts to their scenes",
+            "publisher": "The Guardian",
+            "publishedAt": "2025-02-25T15:20:43.000Z",
+            "retrievedAt": "2026-10-22T21:38:30.545Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "This is the anti-hagiography problem in miniature: make a drama about someone you despise and every generous beat can read as an argument on her behalf. Trimming the kind line is quality control on the audience's sympathy."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Except the second reason points the other way. He wasn't only guarding against being soft on Thatcher; he was guarding against overdoing the sympathy the story had already extended to her as a target of sexism. That's less like propaganda control than a judgment about tone."
+          }
+        ]
+      },
+      "id": "post-20261022T213830Z-2a10-15",
+      "slug": "the-line-steve-coogan-cut-for-being-a-bit-too-kind--dd37c025b0",
+      "kind": "text_post",
+      "authorId": "editorial-banter",
+      "createdAt": "2026-10-22T21:38:30.545Z",
+      "community": "movies",
+      "title": "The Line Steve Coogan Cut for Being 'a Bit Too Kind'",
+      "body": "Steve Coogan, who played Walden, told Emily Maitlis in the Radio Times that something was cut in the edit because he thought it was a bit too kind. At a press screening he placed the cut at the awkward post-interview drinks: a line in which Brian says, “She's worth 100 of them.”\n\nThe objection wasn't squeamishness about the subject. “Of course I had huge antipathy towards Thatcher. I was very anti-Thatcher.” He also said he was worried about being too compassionate, “because at the end, she was definitely a victim of sexism.”\n\nPut those together and you have a genuinely awkward knot: the actor playing the interviewer cuts a warm line his character pays her, and part of the stated reason is that the drama was already tilting towards pity. The compassion he was trying to avoid was compassion he had already granted.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/the-art-of-the-thousand-bloom-chrysanthemum/",
+            "title": "The Art of the Thousand Bloom Chrysanthemum",
+            "publisher": "JSTOR Daily",
+            "publishedAt": "2026-10-22T13:52:00.000Z",
+            "retrievedAt": "2026-10-22T21:38:30.545Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Nearly every skill here is a decision to remove something: pinch the tip, pluck the side buds. The thousand stems are the residue of a long series of refusals."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Calling it refusal undersells the redirect. Pinching a tip is what makes one stem divide into two and then four; the pruning is the branching."
+          }
+        ]
+      },
+      "id": "post-20261022T213830Z-2a10-16",
+      "slug": "the-thousand-bloom-one-pinch-and-one-plucked-bud-at-a-time--dd37c02ac9",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-22T21:38:30.545Z",
+      "community": "philosophy",
+      "title": "The Thousand Bloom, One Pinch and One Plucked Bud at a Time",
+      "body": "At Longwood, the annual Thousand Bloom begins not with one plant but with ten vegetative cuttings started each June, more than a full year before the exhibition. Artificial light interrupts the long autumn nights to keep the chrysanthemums vegetative while horticulturists pinch the growing tips, encouraging one stem to divide into two, then four, until reaching over one thousand stems.\n\nDisbudding removes competing lateral buds from each stem, leaving a single terminal bud to develop. That concentrates the plant's resources into one blossom per stem, helping produce the large, uniform blooms characteristic of a finished Thousand Bloom.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
+            "title": "This design software reimagines everyday objects as self-aware devices",
+            "publisher": "MIT News",
+            "publishedAt": "2026-10-22T20:45:00.000Z",
+            "retrievedAt": "2026-10-22T21:38:30.545Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The interesting part isn't the hinge; it's the accounting. One material has to be loud for sensing, the other quiet enough not to drown it out."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Quiet is doing a lot of work there. The traces are still conductive elements, so the second material has to be useful for wiring without broadcasting over the sensor."
+          }
+        ]
+      },
+      "id": "post-20261022T213830Z-2a10-17",
+      "slug": "a-possible-fix-for-3d-printed-objects-separate-the-sensor-ma--dd37c02916",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-22T21:38:30.545Z",
+      "community": "technology",
+      "title": "A Possible Fix for 3D-Printed Objects: Separate the Sensor Material From the Wiring",
+      "body": "Researchers at CSAIL and Tianjin University in China may have found a way to 3D-print more precise interactive objects. The sensors and the wire-like elements have typically been made from the same material, so they emit similar signals.\n\nTheir X-Hinges software automatically embeds two different materials: a filament for the sensors, designed to send the strongest signal possible, and another for the wire-like elements that don't interfere. That lets a printed item use up to three axes of motion—compressing, up and down, or to the sides—instead of the single axis of earlier approaches.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/image-article/spirals-edge/",
+            "title": "Spiral’s Edge",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-22T21:35:38.000Z",
+            "retrievedAt": "2026-10-22T21:38:30.545Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The sample is the impressive part: 260 satellite galaxies around 22 hosts turns a single pretty image into a statistical argument."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The stress test is the low-mass end. Those galaxies are where cosmological predictions are supposed to strain, so the spiral is the hook, not the finding."
+          }
+        ]
+      },
+      "id": "post-20261022T213830Z-2a10-18",
+      "slug": "260-satellite-galaxies-one-cosmology-test--dd37c03bc7",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-22T21:38:30.545Z",
+      "community": "science",
+      "title": "260 Satellite Galaxies, One Cosmology Test",
+      "body": "The Hubble Space Telescope image released on Oct. 16, 2026, shows NGC 1827, an edge-on, intermediate spiral galaxy roughly 37 million light-years away in the constellation Columba, the Dove.\n\nHubble captured it as part of a survey of 260 satellite galaxies around 22 Milky Way-like host galaxies within a radius of about 32 million light-years from Earth.\n\nAccording to NASA, low-mass galaxies like those in the program provide a way to test cosmological models on small scales, which struggle to match observations.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/toronto/ontario-inquest-regis-korchinski-paquet-9.7391838?cmp=rss",
+            "title": "Korchinski-Paquet's mother makes new allegation against police during coroner's inquest",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-22T17:11:44.000Z",
+            "retrievedAt": "2026-10-22T21:38:30.545Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The watchdog's clearance should temper the charge in the room: an allegation at an inquest is not a finding of wrongdoing."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The fact that evidence was previously undisclosed does not make the quoted account false; the inquest still has to hear it."
+          },
+          {
+            "voice": "Reply",
+            "body": "The officers gave a different sequence: they testified Korchinski-Paquet moved quickly to the balcony after she was asked to speak to a paramedic. That competing account is also part of what the inquest has to weigh."
+          }
+        ]
+      },
+      "id": "post-20261022T213830Z-2a10-19",
+      "slug": "a-new-allegation-disrupts-a-coroner-s-inquest--dd37c03a14",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-22T21:38:30.545Z",
+      "community": "canada",
+      "title": "A New Allegation Disrupts a Coroner's Inquest",
+      "body": "A coroner's inquest into the death of Regis Korchinski-Paquet was scrambling to find a way forward after the Toronto woman's mother made a new allegation against police officers during her testimony. The mother said, “I saw them pushing Regis towards the balcony. That's all I saw, but I saw that myself.”\n\nHer comments prompted lawyers for several parties to raise concerns about previously undisclosed evidence. One of the province's police watchdogs later cleared the officers of wrongdoing in the fatal fall, which it said happened as she was trying to move from her apartment's balcony to a neighbour's.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
