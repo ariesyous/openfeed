@@ -68,3 +68,13 @@ escaped HTML, sorting/count bounds, and entity rejection. Local validation makes
 no model calls and publishes nothing. After merge, live generation logs should
 confirm yield and editorial mix from the Actions runner; publisher availability
 can differ between environments.
+
+## Guardian full text and film feed — October 22, 2026
+
+The Guardian film feed moved to `https://www.theguardian.com/uk/film/rss`. The old
+URL redirects, which intake rejects, so the feed had failed on every run. The
+Guardian now has an inspected body adapter, so items from both Guardian feeds can
+supply full article context. Without one, the October 18 rule that RSS blurbs are
+discovery only dropped every Sopranos feed item. Feed log lines now include the
+topic (e.g. `The Guardian (the_sopranos)`) and a short failure reason. See the
+[October 22 source supply review](source-supply-review-20261022.md).

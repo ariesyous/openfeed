@@ -30,7 +30,10 @@ describe("reviewed culture and ideas packets", () => {
     expect(result.ok).toBe(true); // Provenance only; payoff is a documented human judgment.
   });
 
-  it("uses the normal intake and never refetches consumed additions", async () => {
+  it("uses the normal intake, skips retired pages and never refetches consumed additions", async () => {
+    // The Met's symposium essay was retired on October 22 (bot checkpoint); its review stays historical.
+    const live = additions.filter(a => !EVERGREEN_SOURCES.find(s => s.url === a.url)?.retired);
+    expect(live).toHaveLength(3);
     const covered = new Set(EVERGREEN_SOURCES.filter(s => !additions.some(a => a.url === s.url)).map(s => s.url));
     const requested: string[] = [];
     const fetcher = (async (input: string | URL | Request) => {
@@ -40,7 +43,7 @@ describe("reviewed culture and ideas packets", () => {
       return new Response(row.offlineHtml, { status: 200 });
     }) as typeof fetch;
     const packets = await collectEvergreen(now, fetcher, covered);
-    expect(packets).toHaveLength(4);
+    expect(packets.map(packet => packet.url).sort()).toEqual(live.map(row => row.url).sort());
     for (const packet of packets) {
       expect(packet.publishedAt).toBeUndefined();
       expect(packet.evergreen).toBe(true);
@@ -48,6 +51,6 @@ describe("reviewed culture and ideas packets", () => {
       covered.add(packet.url);
     }
     expect(await collectEvergreen(now, fetcher, covered)).toEqual([]);
-    expect(requested).toHaveLength(4);
+    expect(requested.sort()).toEqual(live.map(row => row.url).sort());
   });
 });
