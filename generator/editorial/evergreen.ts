@@ -1,6 +1,7 @@
 import { createHash } from "node:crypto";
 import { XMLParser } from "fast-xml-parser";
-import { plainText, readBounded, type SourcePacket } from "./sources";
+import { hasArticleAdapter, sourceArticleSections } from "./articleText";
+import { failureReason, plainText, readBounded, type SourcePacket } from "./sources";
 
 // Deliberate reading shelf: factual background and criticism, never current news.
 // Add URLs here as the shelf is reviewed; covered URLs are filtered by generate.ts.
@@ -11,20 +12,20 @@ export const EVERGREEN_SOURCES = [
   {"topic": "movies", "publisher": "BFI", "title": "“I realised any attempt to replicate is going to be a failure”: Sophy Romvari on Blue Heron", "url": "https://www.bfi.org.uk/sight-and-sound/interviews/i-realised-any-attempt-replicate-going-be-failure-sophy-romvari-blue-heron"},
   {"topic": "the_sopranos", "publisher": "The Guardian", "title": "Edie Falco: ‘Alcohol was the answer to all my problems – and the cause of them’", "url": "https://www.theguardian.com/tv-and-radio/2021/dec/01/edie-falco-interview-tv-actor-alcohol-hillary-clinton-sopranos"},
   // September 19 packet review: complete narrow payoffs; see docs/culture-source-review-20260919.md.
-  {"topic": "greek_roman_mythology", "publisher": "The Metropolitan Museum of Art", "title": "The Symposium in Ancient Greece", "url": "https://www.metmuseum.org/essays/the-symposium-in-ancient-greece"},
+  {"topic": "greek_roman_mythology", "publisher": "The Metropolitan Museum of Art", "title": "The Symposium in Ancient Greece", "url": "https://www.metmuseum.org/essays/the-symposium-in-ancient-greece", "retired": "2026-10-22: metmuseum.org serves a Vercel bot checkpoint (HTTP 429) to automated requests; never bypass it."},
   {"topic": "philosophy", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Personal Identity", "url": "https://plato.stanford.edu/entries/identity-personal/"},
   {"topic": "economics", "publisher": "Stanford Encyclopedia of Philosophy", "title": "The Free Rider Problem", "url": "https://plato.stanford.edu/entries/free-rider/"},
   {"topic": "science", "publisher": "NASA", "title": "Ceres Facts", "url": "https://science.nasa.gov/dwarf-planets/ceres/facts/"},
   // WP2 source pilot: reviewed extraction AND numbered evidence; see docs/editorial-depth.md.
-  {"topic": "greek_roman_mythology", "publisher": "The Metropolitan Museum of Art", "title": "Theater in Ancient Greece", "url": "https://www.metmuseum.org/essays/theater-in-ancient-greece"},
-  {"topic": "greek_roman_mythology", "publisher": "The Metropolitan Museum of Art", "title": "Death, Burial, and the Afterlife in Ancient Greece", "url": "https://www.metmuseum.org/essays/death-burial-and-the-afterlife-in-ancient-greece"},
-  {"topic": "greek_roman_mythology", "publisher": "The Metropolitan Museum of Art", "title": "Mystery Cults in the Greek and Roman World", "url": "https://www.metmuseum.org/essays/mystery-cults-in-the-greek-and-roman-world"},
+  {"topic": "greek_roman_mythology", "publisher": "The Metropolitan Museum of Art", "title": "Theater in Ancient Greece", "url": "https://www.metmuseum.org/essays/theater-in-ancient-greece", "retired": "2026-10-22: metmuseum.org serves a Vercel bot checkpoint (HTTP 429) to automated requests; never bypass it."},
+  {"topic": "greek_roman_mythology", "publisher": "The Metropolitan Museum of Art", "title": "Death, Burial, and the Afterlife in Ancient Greece", "url": "https://www.metmuseum.org/essays/death-burial-and-the-afterlife-in-ancient-greece", "retired": "2026-10-22: metmuseum.org serves a Vercel bot checkpoint (HTTP 429) to automated requests; never bypass it."},
+  {"topic": "greek_roman_mythology", "publisher": "The Metropolitan Museum of Art", "title": "Mystery Cults in the Greek and Roman World", "url": "https://www.metmuseum.org/essays/mystery-cults-in-the-greek-and-roman-world", "retired": "2026-10-22: metmuseum.org serves a Vercel bot checkpoint (HTTP 429) to automated requests; never bypass it."},
   {"topic": "movies", "publisher": "Stanford Encyclopedia of Philosophy", "title": "The Paradox of Suspense", "url": "https://plato.stanford.edu/entries/paradox-suspense/"},
   {"topic": "philosophy", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Philosophy of Humor", "url": "https://plato.stanford.edu/entries/humor/"},
   {"topic": "philosophy", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Fiction", "url": "https://plato.stanford.edu/entries/fiction/"},
   {"topic": "economics", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Public Goods", "url": "https://plato.stanford.edu/entries/public-goods/"},
-  {"topic": "greek_roman_mythology", "publisher": "The Metropolitan Museum of Art", "title": "Roman Sarcophagi", "url": "https://www.metmuseum.org/essays/roman-sarcophagi"},
-  {"topic": "greek_roman_mythology", "publisher": "The Metropolitan Museum of Art", "title": "Roman Copies of Greek Statues", "url": "https://www.metmuseum.org/essays/roman-copies-of-greek-statues"},
+  {"topic": "greek_roman_mythology", "publisher": "The Metropolitan Museum of Art", "title": "Roman Sarcophagi", "url": "https://www.metmuseum.org/essays/roman-sarcophagi", "retired": "2026-10-22: metmuseum.org serves a Vercel bot checkpoint (HTTP 429) to automated requests; never bypass it."},
+  {"topic": "greek_roman_mythology", "publisher": "The Metropolitan Museum of Art", "title": "Roman Copies of Greek Statues", "url": "https://www.metmuseum.org/essays/roman-copies-of-greek-statues", "retired": "2026-10-22: metmuseum.org serves a Vercel bot checkpoint (HTTP 429) to automated requests; never bypass it."},
 
   // Retrieved and checked for usable article prose for the twenty-post rollout.
   {"topic": "philosophy", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Existentialism", "url": "https://plato.stanford.edu/entries/existentialism/"},
@@ -44,7 +45,7 @@ export const EVERGREEN_SOURCES = [
   {"topic": "economics", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Prisoner’s Dilemma", "url": "https://plato.stanford.edu/entries/prisoner-dilemma/"},
   {"topic": "greek_roman_mythology", "publisher": "World History Encyclopedia", "title": "Prometheus", "url": "https://www.worldhistory.org/Prometheus/"},
   {"topic": "greek_roman_mythology", "publisher": "World History Encyclopedia", "title": "Medusa", "url": "https://www.worldhistory.org/Medusa/"},
-  {"topic": "philosophy", "publisher": "World History Encyclopedia", "title": "Marcus Aurelius", "url": "https://www.worldhistory.org/Marcus_Aurelius/"},
+  {"topic": "philosophy", "publisher": "World History Encyclopedia", "title": "Marcus Aurelius", "url": "https://www.worldhistory.org/Marcus_Aurelius/", "retired": "2026-10-22: pages now embed SVG DOCTYPE declarations, which the extractor's DTD guard correctly rejects."},
 
   { topic: "the_sopranos", publisher: "BFI", title: "TV's a crowd", url: "https://www.bfi.org.uk/sight-and-sound/features/tvs-crowd" },
   { topic: "the_sopranos", publisher: "BFI", title: "The Many Saints of Newark and the baggage of The Sopranos", url: "https://www.bfi.org.uk/sight-and-sound/reviews/many-saints-newark-cant-escape-baggage-sopranos" },
@@ -68,8 +69,8 @@ export const EVERGREEN_SOURCES = [
   {"topic":"science","publisher":"NASA","title":"Asteroids","url":"https://science.nasa.gov/solar-system/asteroids/"},
   {"topic":"science","publisher":"NASA","title":"Comets","url":"https://science.nasa.gov/solar-system/comets/"},
   {"topic":"science","publisher":"NASA","title":"Exoplanets","url":"https://science.nasa.gov/exoplanets/"},
-  {"topic":"greek_roman_mythology","publisher":"The Metropolitan Museum of Art","title":"Greek Gods and Religious Practices","url":"https://www.metmuseum.org/essays/greek-gods-and-religious-practices"},
-  {"topic":"greek_roman_mythology","publisher":"The Metropolitan Museum of Art","title":"Greek Art in the Archaic Period","url":"https://www.metmuseum.org/essays/greek-art-in-the-archaic-period"},
+  {"topic":"greek_roman_mythology","publisher":"The Metropolitan Museum of Art","title":"Greek Gods and Religious Practices","url":"https://www.metmuseum.org/essays/greek-gods-and-religious-practices", "retired": "2026-10-22: metmuseum.org serves a Vercel bot checkpoint (HTTP 429) to automated requests; never bypass it."},
+  {"topic":"greek_roman_mythology","publisher":"The Metropolitan Museum of Art","title":"Greek Art in the Archaic Period","url":"https://www.metmuseum.org/essays/greek-art-in-the-archaic-period", "retired": "2026-10-22: metmuseum.org serves a Vercel bot checkpoint (HTTP 429) to automated requests; never bypass it."},
   {"topic":"science","publisher":"NASA","title":"Dark Matter","url":"https://science.nasa.gov/dark-matter/"},
   {"topic":"philosophy","publisher":"Internet Encyclopedia of Philosophy","title":"Aesthetics","url":"https://iep.utm.edu/aesthetics/"},
   {"topic":"philosophy","publisher":"Internet Encyclopedia of Philosophy","title":"Solipsism and the Problem of Other Minds","url":"https://iep.utm.edu/solipsis/"},
@@ -81,6 +82,41 @@ export const EVERGREEN_SOURCES = [
   {"topic":"economics","publisher":"Stanford Encyclopedia of Philosophy","title":"Normative Theories of Rational Choice: Expected Utility","url":"https://plato.stanford.edu/entries/rationality-normative-utility/"},
   {"topic":"economics","publisher":"Stanford Encyclopedia of Philosophy","title":"Bounded Rationality","url":"https://plato.stanford.edu/entries/bounded-rationality/"},
   {"topic":"science","publisher":"NASA","title":"Titan","url":"https://science.nasa.gov/saturn/moons/titan/"},
+  // October 22 supply review: 33 reviewed pages for mythology, Sopranos and philosophy.
+  // Guardian/JSTOR Daily/Aeon pages use their inspected adapters; see docs/source-supply-review-20261022.md.
+  {"topic": "greek_roman_mythology", "publisher": "JSTOR Daily", "title": "Healing and Memory in Ancient Greece", "url": "https://daily.jstor.org/healing-and-memory-in-ancient-greece/"},
+  {"topic": "greek_roman_mythology", "publisher": "JSTOR Daily", "title": "The Unusual, Unexpected Erechtheion", "url": "https://daily.jstor.org/the-unusual-unexpected-erechtheion/"},
+  {"topic": "greek_roman_mythology", "publisher": "JSTOR Daily", "title": "Smoke Gets in Your Eyes: Animal Sacrifice and the Greek Gods", "url": "https://daily.jstor.org/smoke-gets-in-your-eyes-animal-sacrifice-and-the-greek-gods/"},
+  {"topic": "greek_roman_mythology", "publisher": "JSTOR Daily", "title": "Venus of the Sewers", "url": "https://daily.jstor.org/venus-of-the-sewers/"},
+  {"topic": "greek_roman_mythology", "publisher": "Aeon", "title": "Replicants and robots: what can the ancient Greeks teach us?", "url": "https://aeon.co/essays/replicants-and-robots-what-can-the-ancient-greeks-teach-us"},
+  {"topic": "greek_roman_mythology", "publisher": "JSTOR Daily", "title": "How Do We Know That Epic Poems Were Recited from Memory?", "url": "https://daily.jstor.org/how-do-we-know-that-epic-poems-were-recited-from-memory/"},
+  {"topic": "greek_roman_mythology", "publisher": "JSTOR Daily", "title": "Super Mario, Homer’s Odyssey, and the Meaning of Marriage", "url": "https://daily.jstor.org/super-mario-homers-odyssey-and-the-meaning-of-marriage/"},
+  {"topic": "greek_roman_mythology", "publisher": "Aeon", "title": "How a vanished ancient Greek city helps us think about disasters", "url": "https://aeon.co/essays/how-a-vanished-ancient-greek-city-helps-us-think-about-disasters"},
+  {"topic": "greek_roman_mythology", "publisher": "Aeon", "title": "The ancient world teemed with birds; now we think with them", "url": "https://aeon.co/essays/the-ancient-world-teemed-with-birds-now-we-think-with-them"},
+  {"topic": "greek_roman_mythology", "publisher": "Aeon", "title": "When Homer envisioned Achilles, did he see a black man?", "url": "https://aeon.co/essays/when-homer-envisioned-achilles-did-he-see-a-black-man"},
+  {"topic": "greek_roman_mythology", "publisher": "Aeon", "title": "Why it pays to read for acrostics in the Classics", "url": "https://aeon.co/essays/why-it-pays-to-read-for-acrostics-in-the-classics"},
+  {"topic": "the_sopranos", "publisher": "The Guardian", "title": "The Sopranos: 10 years since it finished, it's still the most masterful show ever", "url": "https://www.theguardian.com/tv-and-radio/2017/jun/08/the-sopranos-10-years-since-it-finished-its-still-the-most-masterful-show-ever"},
+  {"topic": "the_sopranos", "publisher": "The Guardian", "title": "The Sopranos at 20: how the hit show changed the gangster genre", "url": "https://www.theguardian.com/tv-and-radio/2019/jan/14/the-sopranos-at-20-how-the-hit-show-changed-the-gangster-genre"},
+  {"topic": "the_sopranos", "publisher": "The Guardian", "title": "The Sopranos, glorious pioneer of today’s TV golden age", "url": "https://www.theguardian.com/commentisfree/2019/jan/13/the-sopranos-glorious-pioneer-of-todays-tv-golden-age"},
+  {"topic": "the_sopranos", "publisher": "The Guardian", "title": "David Chase on why he wrote The Sopranos: 'I needed help. I needed therapy'", "url": "https://www.theguardian.com/tv-and-radio/2019/sep/16/david-chase-the-sopranos-best-tv-21st-century"},
+  {"topic": "the_sopranos", "publisher": "The Guardian", "title": "The Sopranos: from enduring TV hit to the hottest show of lockdown", "url": "https://www.theguardian.com/tv-and-radio/2020/dec/19/sopranos-hit-social-media-generation-mafia-series-emotional-struggles"},
+  {"topic": "the_sopranos", "publisher": "The Guardian", "title": "The Sopranos: David Chase and Vincent Curatola on how they made a TV classic", "url": "https://www.theguardian.com/tv-and-radio/2021/mar/08/sopranos-david-chase-mobster-johnny-sack-how-they-made-tv-classic-fox-mob-murders"},
+  {"topic": "the_sopranos", "publisher": "The Guardian", "title": "David Chase: I was annoyed that fans wanted Tony Soprano dead", "url": "https://www.theguardian.com/tv-and-radio/2021/nov/03/david-chase-i-was-annoyed-that-fans-wanted-tony-soprano-dead"},
+  {"topic": "the_sopranos", "publisher": "The Ringer", "title": "Half a Wiseguy: The Genius and the Menace of Paulie Walnuts", "url": "https://www.theringer.com/2022/07/10/tv/sopranos-tony-sirico-obituary-paulie-walnuts-gualtieri"},
+  {"topic": "the_sopranos", "publisher": "The Ringer", "title": "Two Assholes Lost in the Woods: An Oral History of ‘Pine Barrens’", "url": "https://www.theringer.com/2021/05/05/tv/sopranos-pine-barrens-oral-history"},
+  {"topic": "the_sopranos", "publisher": "The Ringer", "title": "How ‘Goodfellas’ Serves As the Bridge Between ‘The Godfather’ and ‘The Sopranos’", "url": "https://www.theringer.com/2020/09/17/movies/goodfellas-martin-scorsese-the-godfather-the-sopranos"},
+  {"topic": "philosophy", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Socrates", "url": "https://plato.stanford.edu/entries/socrates/"},
+  {"topic": "philosophy", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Ancient Theories of Soul", "url": "https://plato.stanford.edu/entries/ancient-soul/"},
+  {"topic": "philosophy", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Presocratic Philosophy", "url": "https://plato.stanford.edu/entries/presocratics/"},
+  {"topic": "philosophy", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Pythagoras", "url": "https://plato.stanford.edu/entries/pythagoras/"},
+  {"topic": "philosophy", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Kant’s Moral Philosophy", "url": "https://plato.stanford.edu/entries/kant-moral/"},
+  {"topic": "philosophy", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Simone de Beauvoir", "url": "https://plato.stanford.edu/entries/beauvoir/"},
+  {"topic": "philosophy", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Confucius", "url": "https://plato.stanford.edu/entries/confucius/"},
+  {"topic": "philosophy", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Moral Luck", "url": "https://plato.stanford.edu/entries/moral-luck/"},
+  {"topic": "philosophy", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Happiness", "url": "https://plato.stanford.edu/entries/happiness/"},
+  {"topic": "philosophy", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Heraclitus", "url": "https://plato.stanford.edu/entries/heraclitus/"},
+  {"topic": "philosophy", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Democritus", "url": "https://plato.stanford.edu/entries/democritus/"},
+  {"topic": "philosophy", "publisher": "Stanford Encyclopedia of Philosophy", "title": "Aristotle", "url": "https://plato.stanford.edu/entries/aristotle/"}
 ];
 
 type HtmlNode = Record<string, unknown> & { ":@"?: Record<string, string> };
@@ -185,15 +221,33 @@ export function articleExcerpt(html: string): string {
   }
 }
 
+/**
+ * Shelf pages from publishers with an inspected body adapter use that adapter's first
+ * coherent section, never joining across its module boundaries. Pages whose layout the
+ * adapter does not recognize keep the generic single-section reader reviewed for them.
+ */
+export function shelfExcerpt(html: string, publisher: string): string {
+  if (hasArticleAdapter(publisher)) {
+    const sections = sourceArticleSections(html, publisher);
+    const section = sections.find(text => text.length >= 300);
+    if (section) return section;
+  }
+  return articleExcerpt(html);
+}
+
+/** Pages that can no longer be retrieved within the existing rules; kept for history, never fetched. */
+export const isRetired = (source: (typeof EVERGREEN_SOURCES)[number]) => Boolean(source.retired);
+
 export async function collectEvergreen(now: Date, fetchImpl: typeof fetch, coveredUrls: ReadonlySet<string> = new Set()): Promise<SourcePacket[]> {
-  const shelf = EVERGREEN_SOURCES.filter(source => !coveredUrls.has(source.url));
-  console.log(`[sources] Evergreen shelf: ${shelf.length}/${EVERGREEN_SOURCES.length} unconsumed articles`);
+  const shelf = EVERGREEN_SOURCES.filter(source => !coveredUrls.has(source.url) && !isRetired(source));
+  const retired = EVERGREEN_SOURCES.filter(isRetired).length;
+  console.log(`[sources] Evergreen shelf: ${shelf.length}/${EVERGREEN_SOURCES.length} unconsumed articles (${retired} retired)`);
   const results = await Promise.allSettled(shelf.map(async (source) => {
     const response = await fetchImpl(source.url, {
       signal: AbortSignal.timeout(20_000), redirect: "error",
       headers: { Accept: "text/html" },
     });
-    const excerpt = articleExcerpt(await readBounded(response));
+    const excerpt = shelfExcerpt(await readBounded(response), source.publisher);
     if (excerpt.length < 300) throw new Error("Insufficient article prose");
     return {
       ...source, excerpt, evergreen: true,
@@ -204,7 +258,7 @@ export async function collectEvergreen(now: Date, fetchImpl: typeof fetch, cover
   }));
   return results.flatMap((result, index) => {
     if (result.status === "fulfilled") return [result.value];
-    console.warn(`[sources] Evergreen article unavailable: ${shelf[index].title}; skipping`);
+    console.warn(`[sources] Evergreen article unavailable: ${shelf[index].title} (${failureReason(result.reason)}); skipping`);
     return [];
   });
 }
