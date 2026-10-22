@@ -547,3 +547,20 @@ least 300 characters, never joined), otherwise the generic reader. 33 reviewed
 additions (11 mythology, 10 Sopranos, 12 philosophy) bring the shelf to 100 pages. Their
 ledger and probes are provenance checks, not generated quality, and #36/#37 counts are
 unchanged. The shelf is still finite; per-run pacing was proposed but not implemented.
+
+## DeepSeek 1017 snapshot and price routing — October 22, 2026
+The user kept DeepSeek and asked for a cheaper same-family option. Generation, review
+and manual controls now use `deepseek/deepseek-v4.1-flash-1017` (OpenRouter list price
+half of V4.1 Flash). Requests sort endpoints by price instead of throughput and allow
+only fp8/fp16/bf16/fp32/unknown quantizations, so fp4 variants are never selected;
+require_parameters and same-model fallbacks are unchanged. Token caps, call budgets,
+deadline and every validation/review gate are unchanged. Writer controls before the
+routing change: 1017 approved 15/16 across four runs (39725733333, 39726236127,
+39726241211, 39726246245); V4.1 Flash approved 9/12 in the same-hour comparison
+(39726238778, 39726243916, 39726248282). Reviewer control 39725731433 passed all four
+suites on 1017. With price routing, reviewer control 39726937587 again passed all four
+suites (252,201 ms versus 116,364 ms with throughput routing) and writer control
+39726940109 approved 3/4, withholding one title misattribution. Calls were roughly
+twice as slow; watch ordinary run durations against the 45-minute deadline. These
+are small synthetic samples, not ordinary-yield or accuracy proof. Earlier model
+identities in docs and audits stay historical.
