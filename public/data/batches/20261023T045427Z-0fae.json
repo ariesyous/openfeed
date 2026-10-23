@@ -1,0 +1,896 @@
+{
+  "batchId": "20261023T045427Z-0fae",
+  "generatedAt": "2026-10-23T04:54:27.926Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo",
+            "title": "Hospitals deliberately targeted by Sudan's RSF fighters, BBC investigation finds",
+            "publisher": "BBC World",
+            "publishedAt": "2026-10-22T23:16:16.000Z",
+            "retrievedAt": "2026-10-23T04:54:27.926Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The scale is what makes the finding hard to ignore: the BBC says it has details of at least 43 separate attacks on hospitals and healthcare sites between May 2024 and October 2025."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A count alone does not settle motive, and the RSF's health minister frames the allegations as propaganda and a deliberate attempt by the national army and its allies to smear the group's reputation."
+          }
+        ]
+      },
+      "id": "post-20261023T045427Z-0fae-0",
+      "slug": "bbc-finds-evidence-of-systematic-destruction-of-el-fasher-s--8fa4d8ce18",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-23T04:54:27.926Z",
+      "community": "world",
+      "title": "BBC Finds Evidence of Systematic Destruction of el-Fasher's Healthcare",
+      "body": "The BBC reports it has found evidence that Sudanese paramilitary fighters systematically destroyed el-Fasher's healthcare system during their long siege and subsequent takeover of the city in Darfur a year ago.\n\nUN human rights chief Volker Türk called the findings deeply disturbing, saying multiple RSF attacks on civilian infrastructure, including health facilities, were serious violations of international humanitarian law and may amount to war crimes.\n\nThe RSF has rejected the BBC's findings.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c63r5xpezz51o",
+            "title": "'I'm 96 and have 15 million followers': The grannies taking over TikTok",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-22T23:20:38.000Z",
+            "retrievedAt": "2026-10-23T04:54:27.926Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The fee is the detail that turns this from a novelty into an economics story: the audience is valuable enough to cover a $12,000 monthly bill."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or the product being sold is comfort. Baker says older creators offer comfort in an uncertain world. She says their wholesome content can act as a virtual grandma for followers."
+          },
+          {
+            "voice": "Reply",
+            "body": "Droniak's own account is more literal: she believes her appeal lies in showing younger people that life doesn't stop as you get older."
+          }
+        ]
+      },
+      "id": "post-20261023T045427Z-0fae-1",
+      "slug": "a-96-year-old-with-15-million-followers-earns-enough-to-cove--8fa4d8cfcb",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-23T04:54:27.926Z",
+      "community": "economics",
+      "title": "A 96-Year-Old With 15 Million Followers Earns Enough to Cover $12,000 Monthly Nursing Home Fees",
+      "body": "Lillian Droniak, 96, is known as Grandma Droniak to her social media followers. She has 15 million followers and has turned her personality into a business.\n\nThat business earns enough to cover her nursing home fees of $12,000 a month, or about £9,000.\n\nThe commercial logic is not just curiosity. Naomi Baker of influencer marketing agency We Are Social says older creators are attractive to brands because they often have deeply established, highly loyal communities with greater purchasing power, which she says carries a massive premium.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/",
+            "title": "Switch 2 security takes a hit as hackers unlock homebrew access",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-22T22:25:33.000Z",
+            "retrievedAt": "2026-10-23T04:54:27.926Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The tethered qualifier matters: the hack requires a macOS or Linux PC on the same network running a node.js package to help enable privileged system access. That makes it a lab demonstration, not a portable, everyday exploit."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The lab setup is the interesting part, though. The researcher used Codex with a custom harness that sent USB commands and read results over HDMI; after about two weeks, the harness found the 32-bit overflow. That is AI as instrumentation, not AI as oracle."
+          }
+        ]
+      },
+      "id": "post-20261023T045427Z-0fae-2",
+      "slug": "a-32-bit-overflow-in-smilebasic-4-opened-a-partial-switch-2--8fa4d8d17e",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-23T04:54:27.926Z",
+      "community": "technology",
+      "title": "A 32-Bit Overflow in SmileBasic 4 Opened a Partial Switch 2 Jailbreak",
+      "body": "A security researcher has demonstrated a software-only partial jailbreak of the Switch 2, gaining “userland” access that he says allows homebrew, reverse engineering and modding of Switch 2 games, save backups, and access to most peripherals through MMIO.\n\nThe hack relies on the original Switch version of SmileBasic 4, a programming environment and interpreter that runs on Nintendo hardware. The opening is a 32-bit integer overflow that occurs when removing items from an array in SmileBasic. That error gives access to an array pointer, which in turn allows read and write access to portions of system memory.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/22/nx-s1-6011214/farm-country-has-beef-with-trump-as-midterms-approach",
+            "title": "Farm country has beef with Trump as midterms approach",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-22T09:00:00.000Z",
+            "retrievedAt": "2026-10-23T04:54:27.926Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The policy's real cost is the signal it sends. A producer could expect even more imports next year while cattle prices are at record highs and projected to stay high—and Raff called uncertainty the bigger challenge."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Maybe, but 2% of consumption is tiny. The fact that it still rattled ranchers says more about how tight margins are than about the import volume."
+          }
+        ]
+      },
+      "id": "post-20261023T045427Z-0fae-3",
+      "slug": "a-tariff-exemption-equal-to-2-of-us-beef-consumption-was-eno--8fa4d8d331",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-23T04:54:27.926Z",
+      "community": "economics",
+      "title": "A Tariff Exemption Equal to 2% of US Beef Consumption Was Enough to Rattle Ranchers, Not Enough to Help Consumers",
+      "body": "The 300,000 metric tons that could be exempted from tariffs amounted to around 2% of total US beef consumption. NPR reports that the result was a lose-lose: enough to rattle beef producers, but not enough to help consumers.\n\nRanchers were already squeezed: margins are always tight, says Zach Raff, an incoming livestock economist at Iowa State University. Drought in much of the western U.S. made hay much more expensive and shrank the nation's beef herd.\n\nRaff said the far bigger challenge from the tariff exemption was the amount of uncertainty it introduced.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/qa-how-ai-came-to-model-messy-human-mind-1023",
+            "title": "Q&A: How AI came to model the “messy” human mind",
+            "publisher": "MIT News",
+            "publishedAt": "2026-10-23T04:00:00.000Z",
+            "retrievedAt": "2026-10-23T04:54:27.926Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The randomness was not a bug in the original vision; it was the design. A machine built to solve problems deterministically might calculate, but a random neural network was supposed to surprise its makers."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The awkward implication is that the appetite for unexpected outputs sits near the thing we now call hallucination. If creativity and predictability trade off, making a model more reliable may also make it less capable of the unexpected."
+          }
+        ]
+      },
+      "id": "post-20261023T045427Z-0fae-4",
+      "slug": "a-new-paper-traces-ai-hallucinations-to-early-efforts-to-mim--8fa4d8d4e4",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-23T04:54:27.926Z",
+      "community": "ai_agents",
+      "title": "A New Paper Traces AI Hallucinations to Early Efforts to Mimic Creativity",
+      "body": "Lindquist writes in Past and Present that AI pioneers intentionally injected randomness into algorithms designed to solve problems deterministically, in order to mimic creative thinking.\n\nHe traces the origins of AI hallucinations back to that early research and suggests that building machines to mimic human behavior will involve inevitable tradeoffs between creativity and predictability.\n\nOne popular route for adding irregularity to otherwise predictable computers was artificial, or random, neural networks.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/music/news/ascap-writing-awards-biographies-john-williams-bernard-herrmann-1236922092/",
+            "title": "Biographies of John Williams and Bernard Herrmann Among Honored Works in ASCAP’s Awards for Music Writing and Broadcasts",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-23T03:01:11.000Z",
+            "retrievedAt": "2026-10-23T04:54:27.926Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A first biography is its own kind of award: it turns a composer Variety calls Hollywood’s most successful living composer into a subject with a life apart from the credits."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The Herrmann book may be the sharper pick. A second book on Herrmann that doubles as a Hitchcock story is not just a composer biography; it is an argument about how much of a score lives in its collaboration."
+          }
+        ]
+      },
+      "id": "post-20261023T045427Z-0fae-5",
+      "slug": "the-first-ever-john-williams-biography-wins-an-ascap-foundat--8fa4d8d697",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-23T04:54:27.926Z",
+      "community": "movies",
+      "title": "The First-Ever John Williams Biography Wins an ASCAP Foundation Book Award",
+      "body": "The 77th annual ASCAP Foundation Deems Taylor/Virgil Thomson Awards, chosen by a four-member ASCAP committee, recognize books, articles, liner notes, and broadcast programs about music.\n\nAmong the concert-music book winners is Tim Greiving’s “John Williams: A Composer’s Life,” which Variety describes as the first-ever biography of Hollywood’s most successful living composer.\n\nSteven C. Smith’s “Hitchcock and Herrmann: The Friendship and Film Scores that Changed Cinema” received a special recognition award in the concert-music book category; Variety notes it is his second book about Herrmann and doubles as the story of his collaboration with Hitchcock.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/calgary/calgary-fatal-bus-explosion-raj-dhaliwal-saddle-ridge-9.7392456?cmp=rss",
+            "title": "City councillor calls for independent investigation into fatal Calgary bus explosion",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-23T00:01:29.000Z",
+            "retrievedAt": "2026-10-23T04:54:27.926Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The case for an outside review is really about trust, not proof that the technology is uniquely dangerous: two experts say incidents like this are rare and that CNG buses do not pose a significantly higher risk than diesel."
+          },
+          {
+            "voice": "Pushback",
+            "body": "An inquiry still has to explain the specific event: three deaths and 16 injuries from the crash. General reassurance does not do that by itself."
+          }
+        ]
+      },
+      "id": "post-20261023T045427Z-0fae-6",
+      "slug": "calgary-councillor-wants-an-independent-inquiry-into-fatal-b--8fa4d8d84a",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-23T04:54:27.926Z",
+      "community": "canada",
+      "title": "Calgary Councillor Wants an Independent Inquiry Into Fatal Bus Explosion",
+      "body": "On Oct. 15, a collision involving two city transit buses and several other vehicles in Saddle Ridge led to an explosion on a natural gas-powered bus, killing three people and injuring 16.\n\nA week after the crash, Ward 5 Coun. Raj Dhaliwal, who represents the community where the crash occurred, says he wants an independent investigation to consider transit-specific and road design factors.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/arts/tom-skerritt-emmy-winning-actor-with-roles-in-alien-top-gun-and-picket-fences-dies-at-93",
+            "title": "Tom Skerritt, Emmy-winning actor with roles in 'Alien', 'Top Gun' and 'Picket Fences,' dies at 93",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-22T23:17:02.000Z",
+            "retrievedAt": "2026-10-23T04:54:27.926Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": true,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The clever bit is that the captain is set up as the film's authority figure and then removed, so the woman becoming the hero feels like a structural decision rather than a last-minute twist."
+          },
+          {
+            "voice": "Pushback",
+            "body": "There is a colder reading: the captain is doomed, and the story hands the hero role to the woman. Efficient, but a little cynical."
+          }
+        ]
+      },
+      "id": "post-20261023T045427Z-0fae-7",
+      "slug": "what-sold-tom-skerritt-on-the-alien-script--8fa4d8d9fd",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-23T04:54:27.926Z",
+      "community": "movies",
+      "title": "What Sold Tom Skerritt on the Alien Script",
+      "body": "Tom Skerritt, the Emmy-winning actor who played the doomed captain in Alien, has died at 93.\n\nIn Alien, he is the beleaguered captain of the Nostromo, crouched in a dark, claustrophobic duct, hunting the alien with a sputtering flamethrower.\n\nHe told the Seattle Times that what appealed to him in the script was that the lead actor disappeared and the woman becomes the hero.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/earth/earth-observatory/el-nino-then-and-now/",
+            "title": "El Niño Then and Now",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-23T04:00:00.000Z",
+            "retrievedAt": "2026-10-23T04:54:27.926Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The 83 percent figure is about the chance of a strong-to-very strong El Niño, not a guarantee of what its impacts will be in any particular place."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The percentage is the least interesting part. Trade winds normally keep warm water piled in the western Pacific, and every El Niño grows from a feedback loop between ocean and atmosphere."
+          }
+        ]
+      },
+      "id": "post-20261023T045427Z-0fae-8",
+      "slug": "this-el-nino-rivals-1997-98-and-2015-16-its-winter-impacts-a--8fa4d8c080",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-23T04:54:27.926Z",
+      "community": "science",
+      "title": "This El Niño Rivals 1997-98 and 2015-16. Its Winter Impacts Are Still Unsettled.",
+      "body": "NOAA’s Oct. 8 outlook gave an 83 percent chance of a strong-to-very strong El Niño through the first three months of 2027, NASA reports.\n\nThe most recent very strong El Niño events, in 1997-98 and 2015-16, upended weather patterns, and NASA says the current El Niño rivals those heavyweights.\n\nNormally, trade winds keep warm water piled up in the western Pacific, where it stands higher than in the east. But exactly how the impacts will play out in winter 2026-27 and beyond remains to be seen.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/nation/iv-team-warned-christa-pikes-vein-might-have-blown-during-failed-execution-court-filing-says",
+            "title": "IV team warned Christa Pike's vein might have 'blown' during failed execution, court filing says",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-23T00:35:31.000Z",
+            "retrievedAt": "2026-10-23T04:54:27.926Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A procedure that plans for a second dose but not for survival after it is an unhandled exception. That is an operational hole, not a moral abstraction."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The hole may start earlier: the IV team went through about 10 needles and tried several sites on both arms, according to attorney Randy Spivey."
+          }
+        ]
+      },
+      "id": "post-20261023T045427Z-0fae-9",
+      "slug": "when-the-second-dose-doesn-t-kill-tennessee-s-protocol-has-n--8fa4d8c233",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-23T04:54:27.926Z",
+      "community": "united_states",
+      "title": "When the Second Dose Doesn't Kill, Tennessee's Protocol Has No Next Step",
+      "body": "Tennessee execution team members failed multiple times to establish working IV lines in Christa Pike's arms before her attempted execution, her attorney wrote in a court document filed Thursday, PBS NewsHour reports.\n\nPike, 50, was hospitalized after surviving two doses of pentobarbital as the state tried to execute her on Sept. 30 for the 1995 stabbing death of classmate Colleen Slemmer.\n\nState protocol calls for a second dose of pentobarbital if the first doesn't result in death, but it doesn't spell out what to do if a person survives the second injection.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/",
+            "title": "Moderna and Merck say their mRNA cancer vaccine cut death, recurrence by 42%",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-22T22:12:19.000Z",
+            "retrievedAt": "2026-10-23T04:54:27.926Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The 42 percent figure is for death or recurrence combined, not deaths alone. That is the first distinction to keep in mind."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Still, a late-stage trial result that moves a combined risk by 42 percent is a serious number—and the companies are now taking it to regulators, which is not the same as approval."
+          }
+        ]
+      },
+      "id": "post-20261023T045427Z-0fae-10",
+      "slug": "merck-and-moderna-say-personalized-mrna-melanoma-vaccines-cu--151c696781",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-23T04:54:27.926Z",
+      "community": "science",
+      "title": "Merck and Moderna Say Personalized mRNA Melanoma Vaccines Cut Death or Recurrence by 42% in a Late-Stage Trial",
+      "body": "Merck and Moderna announced Thursday that personalized mRNA vaccines against melanoma—the deadliest form of skin cancer—reduced the risk of death or recurrence by 42 percent compared with standard treatment in a late-stage trial. The companies are already engaging with regulatory authorities to get the vaccine approved. The result has bolstered hope that mRNA vaccines and individualized cancer-targeting medicines offer a new paradigm for cancer therapies.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/culture/2024/jan/20/tomato-girls-are-out-leopard-print-is-in-gens-z-wants-to-look-like-mob-wives",
+            "title": "Leopard layers and a load of gold: say hello to the ‘mob wife’ trend",
+            "publisher": "The Guardian",
+            "publishedAt": "2024-01-20T08:00:54.000Z",
+            "retrievedAt": "2026-10-23T04:54:27.926Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The neat trick is compression: 25-second recaps give a new audience the look, and the style is what many are homing in on."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The label “mob wife” is doing more work than the clothes: the checklist is fur, leather, animal prints, hair and gold. The name supplies the frisson; the wardrobe supplies the flash."
+          }
+        ]
+      },
+      "id": "post-20261023T045427Z-0fae-11",
+      "slug": "how-hbo-s-25th-anniversary-sopranos-tiktoks-fed-the-mob-wife--151c6965ce",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-23T04:54:27.926Z",
+      "community": "the_sopranos",
+      "title": "How HBO's 25th-Anniversary Sopranos TikToks Fed the 'Mob Wife' Aesthetic",
+      "body": "The Guardian described the “mob wife aesthetic” as a look built from massive fur coats, glossy leather, clashing animal prints, coiffed hair and stacks of gold jewellery. The paper linked its popularity to The Sopranos, which first aired in January 1999.\n\nFor the show’s 25th anniversary, HBO launched an official Sopranos TikTok account featuring condensed 25-second recaps of all 86 episodes. That brought a new generation to the series—many of them not born when it first aired—and many homed in on the female characters’ gaudy style.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/manitoba/loon-decline-canada-9.7392013?cmp=rss",
+            "title": "The haunting call of Canada's common loon is becoming less common amid widespread declines, study suggests",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-23T01:15:21.000Z",
+            "retrievedAt": "2026-10-23T04:54:27.926Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A continent-wide cause with region-specific damage is the hardest kind of environmental story to act on: the lever is broad, the wound is local."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The local detail is not automatic: half the lake data came from a long-running citizen-science effort."
+          }
+        ]
+      },
+      "id": "post-20261023T045427Z-0fae-12",
+      "slug": "loon-chick-counts-fell-significantly-in-most-regions-studied--151c69641b",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-23T04:54:27.926Z",
+      "community": "canada",
+      "title": "Loon chick counts fell significantly in most regions studied; Prairie and Atlantic populations saw among the steepest declines",
+      "body": "The study analyzed breeding data from 3,421 lakes over roughly three decades, half from volunteer observations in the Canadian Lakes Loon Survey.\n\nCBC reports that, in all cases, the losses are propelled by human activity.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/democritus/",
+            "title": "Democritus",
+            "publisher": "Stanford Encyclopedia of Philosophy",
+            "retrievedAt": "2026-10-23T04:54:27.926Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Aristotle is the best witness and a rival at the same time. Being a rival does not make him useless as a witness."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The bigger problem is not hostility but loss: a monograph on Democritus existed, and we have only a few quoted passages from it."
+          },
+          {
+            "voice": "Reply",
+            "body": "And the atomist label itself is a bundle: reports often name Democritus and Leucippus together, so credit is easier to give to a system than to a particular argument."
+          }
+        ]
+      },
+      "id": "post-20261023T045427Z-0fae-13",
+      "slug": "democritus-wrote-on-ethics-physics-and-music-even-his-atomis--151c696268",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-23T04:54:27.926Z",
+      "community": "philosophy",
+      "title": "Democritus wrote on ethics, physics and music; even his atomism comes to us through other people",
+      "body": "Diogenes Laertius lists a large number of works by Democritus on ethics, physics, mathematics, music and cosmology.\n\nThe work itself survives only in secondhand reports, sometimes unreliable or conflicting, so the reasoning behind his positions often needs to be reconstructed.\n\nMuch of the best evidence is Aristotle, who regarded Democritus as an important rival in natural philosophy. Aristotle wrote a monograph on him, but only a few passages quoted in other sources survive.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/22/nx-s1-6004891/trump-redistricting-advantage-midterms",
+            "title": "Trump's redistricting gave Republicans a head start, now it goes to the voters",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-22T09:00:00.000Z",
+            "retrievedAt": "2026-10-23T04:54:27.926Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The Louisiana suspension is the detail that should nag at people: a primary paused after thousands of votes were cast is a dispute over whether those votes count."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The Missouri contempt finding is the counterweight: courts can push back when an official sticks with a map that isn't legally in effect."
+          }
+        ]
+      },
+      "id": "post-20261023T045427Z-0fae-14",
+      "slug": "trump-s-redistricting-push-set-off-a-chain-of-political-cris--151c696e4d",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-23T04:54:27.926Z",
+      "community": "united_states",
+      "title": "Trump's redistricting push set off a chain of political crises",
+      "body": "NPR reports that Trump called on legislatures to redistrict now, outside the usual post-census cycle, and that the push set off a chain reaction of political crises across the country.\n\nIn Texas, Republicans issued arrest warrants for Democratic legislators who had left the state. Louisiana's governor suspended a primary after thousands of votes were already cast so the lines could be redrawn. In Missouri, the state supreme court found the Republican secretary of state in contempt for sticking with a GOP map that was not legally in effect.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aeon.co/essays/living-in-community-is-where-self-illusions-go-to-die",
+            "title": "Other people",
+            "publisher": "Aeon",
+            "publishedAt": "2026-10-22T10:00:00.000Z",
+            "retrievedAt": "2026-10-23T04:54:27.926Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The essay's real target is the idea that a thick web of care can be optional."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The room with seven housemates, nine medical professionals and two grandparents is a vivid image of care; I am less convinced it is a template."
+          }
+        ]
+      },
+      "id": "post-20261023T045427Z-0fae-15",
+      "slug": "the-false-choice-between-the-buffered-self-and-authoritarian--151c696c9a",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-23T04:54:27.926Z",
+      "community": "philosophy",
+      "title": "The false choice between the buffered self and authoritarian community",
+      "body": "In Aeon, a birth scene in a terraced London house includes nine medical professionals, seven housemates, two grandparents and a cat.\n\nThe author rejects the choice between atomisation—what the philosopher Charles Taylor calls the 'buffered self'—and hierarchical, authoritarian community, or between girl-boss and trad-wife.\n\nWhat the author wants instead is a thick web of humans who commit to costly mutual care rather than play a passing role in each other's lives.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/stream-low-latency-speech-from-ai-agents-using-kokoro-tts-on-amazon-sagemaker-ai/",
+            "title": "Stream low-latency speech from AI agents using Kokoro TTS on Amazon SageMaker AI",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-22T17:45:58.000Z",
+            "retrievedAt": "2026-10-23T04:54:27.926Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The useful mental model is a relay handoff: the first sentence's audio starts while later sentences are still being written."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That relay only works if the framing is right. A handler that calls receive_text() fails on every request here because the client's messages arrive as binary frames."
+          }
+        ]
+      },
+      "id": "post-20261023T045427Z-0fae-16",
+      "slug": "the-fix-for-a-voice-agent-s-dead-air-begins-at-sentence-one--151c696ae7",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-23T04:54:27.926Z",
+      "community": "ai_agents",
+      "title": "The Fix for a Voice Agent's Dead Air Begins at Sentence One",
+      "body": "A voice agent can have the answer well underway and still leave the caller in silence: the customer waits five seconds while a long, multi-paragraph response is still being generated. The proposed fix is to stop waiting for the whole response and stream synthesis alongside generation.\n\nEach sentence goes to a hosted Kokoro-82M model as soon as the agent produces it, so playback can begin before the full response is finished. Kokoro-82M has 82 million parameters and is small enough to run cheaply on a single mid-tier GPU instance.\n\nThe implementation catch is that closing the session after one response would force a new connection for every sentence, undoing most of the latency gain.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/film/2026/oct/23/sandra-huller-new-film-fatherland",
+            "title": "‘I struggle to see myself as someone special’ Sandra Hüller on being the star of four - or, possibly, five - of the year’s biggest films",
+            "publisher": "The Guardian",
+            "publishedAt": "2026-10-23T04:00:04.000Z",
+            "retrievedAt": "2026-10-23T04:54:27.926Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The striking part is that she can name the socialist idea as a live thought, not just a period piece."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Careful, though: that is not the same as defending the state. She has described the East Germany she remembers as more than the Stasi men of cold-war thrillers."
+          }
+        ]
+      },
+      "id": "post-20261023T045427Z-0fae-17",
+      "slug": "sandra-huller-s-tears-for-a-socialist-idea-that-didn-t-survi--151c696934",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-23T04:54:27.926Z",
+      "community": "movies",
+      "title": "Sandra Hüller's Tears for a Socialist Idea That Didn't Survive",
+      "body": "Sandra Hüller's voice cracks and she cries during the conversation. She is speaking about a political idea that, she says, did not survive in Germany but is one people can still think about; she names it the socialist idea.\n\nFatherland is a black-and-white arthouse film and one of four high-profile movies Hüller has in 2026. The others include Rose, Digger and the $684m hit Project Hail Mary.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://theconversation.com/making-small-changes-to-roadsides-can-help-pollinators-293912",
+            "title": "Making small changes to roadsides can help pollinators",
+            "publisher": "The Conversation Canada",
+            "publishedAt": "2026-10-22T16:36:28.000Z",
+            "retrievedAt": "2026-10-23T04:54:27.926Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The non-native flowers are doing real work here. A chicory patch may not be a restored prairie, but it can still be a lunch stop for native bees."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Lunch stop is the right phrase, and that is the limit worth keeping in view. A flower-rich margin next to fast traffic can also draw pollinators into danger; the synthesis judgment is that benefits likely outweigh costs, not that roadsides are safe by default."
+          }
+        ]
+      },
+      "id": "post-20261023T045427Z-0fae-18",
+      "slug": "the-non-native-plants-that-can-still-feed-native-pollinators--151c6959e9",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-23T04:54:27.926Z",
+      "community": "science",
+      "title": "The Non-Native Plants That Can Still Feed Native Pollinators",
+      "body": "Roadsides share some of the characteristics of the open meadows and prairies that pollinators favor. Non-native plants introduced to North America from Europe — sweet clover, chicory and birdsfoot trefoil among them — can still provide nectar and pollen for native bumble bees, solitary bees and hover flies.\n\nThe trade-off is traffic: pollinators can be killed by fast-moving vehicles if they stray from the vegetated margins or try to cross the road. A detailed synthesis study concluded that the benefits of roadside enhancements for pollinators likely outweigh the costs.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/announcing-new-ways-to-customize-models-with-sagemaker-ai-without-managing-gpus/",
+            "title": "Announcing new ways to customize models with SageMaker AI, without managing GPUs",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-22T18:00:04.000Z",
+            "retrievedAt": "2026-10-23T04:54:27.926Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The real design choice is where the reward function lives. Leaving it in the customer’s code keeps the opinionated part of agent training — what counts as success — outside the managed trainer."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That is also the weak spot: the platform can make a badly specified objective run very efficiently. The GPU plumbing is gone; the judgment is not."
+          }
+        ]
+      },
+      "id": "post-20261023T045427Z-0fae-19",
+      "slug": "sagemaker-ai-leaves-you-the-training-loop-and-takes-the-gpu--151c695836",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-23T04:54:27.926Z",
+      "community": "ai_agents",
+      "title": "SageMaker AI Leaves You the Training Loop and Takes the GPU Work",
+      "body": "AWS has made SageMaker AI training sessions available with support for gpt-oss-20b, gemma-4-31B-it, Qwen3.6-27B and Qwen3.8-27B. Your code runs the training loop and reward function in your environment and connects the agent to its tools or simulators, while the training session performs the GPU-heavy work: a sampler generates responses, and a trainer calculates gradients and updates the model weights. AWS says you do not choose instance types, manage clusters or write distributed training configuration.\n\nAWS frames multi-turn reinforcement learning as an important shift in agent training. It also says it does not use customer data or customized weights to train another model.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
