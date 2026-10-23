@@ -2753,7 +2753,27 @@
     "stream low latency speech from ai agents using kokoro tts on amazon sagemaker ai",
     "i struggle to see myself as someone special sandra hüller on being the star of four or possibly five of the year s biggest films",
     "making small changes to roadsides can help pollinators",
-    "announcing new ways to customize models with sagemaker ai without managing gpus"
+    "announcing new ways to customize models with sagemaker ai without managing gpus",
+    "the indian workers filming their work to train ai",
+    "confucius",
+    "gen z candidates in both parties aim to tackle high housing costs",
+    "ukraine says starlink still restricted after trump says limits lifted",
+    "was charlie chaplin s tramp un american",
+    "disgraced emudhra drops out of tls business after using cert private key of 4",
+    "odyscenes the twelve best bits of the odyssey",
+    "why quebec s strategic reserve of maple syrup is running dry",
+    "amazon polly delivers a major upgrade to its generative engine",
+    "how rescale built an ai triage agent with strands agents and ai dlc",
+    "traction",
+    "goodbye james gandolfini",
+    "where to begin with billy wilder",
+    "iran says 7 oil tankers damaged in strait of hormuz and other middle east news",
+    "federal bureaucrats grilled over decision to strip status from over 700 innu in quebec",
+    "socrates in the street of the marble workers",
+    "leaked mass effect universe trailer gives a taste of what we re all missing",
+    "the sopranos on tiktok watching hbo s bizarre 25 second episode edits",
+    "rfk jr adviser calley means resigns amid growing maha discontent over lack of progress",
+    "can you ever really think what someone else is thinking"
   ],
   "coveredSourceUrls": [
     "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
@@ -5508,12 +5528,32 @@
     "https://aws.amazon.com/blogs/machine-learning/stream-low-latency-speech-from-ai-agents-using-kokoro-tts-on-amazon-sagemaker-ai/",
     "https://www.theguardian.com/film/2026/oct/23/sandra-huller-new-film-fatherland",
     "https://theconversation.com/making-small-changes-to-roadsides-can-help-pollinators-293912",
-    "https://aws.amazon.com/blogs/machine-learning/announcing-new-ways-to-customize-models-with-sagemaker-ai-without-managing-gpus/"
+    "https://aws.amazon.com/blogs/machine-learning/announcing-new-ways-to-customize-models-with-sagemaker-ai-without-managing-gpus/",
+    "https://www.bbc.co.uk/news/articles/ckvgyml6pdm9o",
+    "https://plato.stanford.edu/entries/confucius/",
+    "https://www.npr.org/2026/10/23/nx-s1-5983813/gen-z-candidates-midterms-housing-affordability",
+    "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o",
+    "https://daily.jstor.org/charlie-chaplins-tramp-un-american/",
+    "https://arstechnica.com/security/2026/10/disgraced-emudhra-drops-out-of-tls-business-following-certificate-debacle/",
+    "https://antigonejournal.com/2026/08/12-best-bits-odyssey/",
+    "https://www.cbc.ca/news/canada/quebec-maple-syrup-reserve-explainer-9.7389758?cmp=rss",
+    "https://aws.amazon.com/blogs/machine-learning/amazon-polly-delivers-a-major-upgrade-to-its-generative-engine/",
+    "https://aws.amazon.com/blogs/machine-learning/how-rescale-built-an-ai-triage-agent-with-strands-agents-and-ai-dlc/",
+    "https://aeon.co/essays/why-a-world-without-friction-is-a-world-without-progress",
+    "https://www.theguardian.com/commentisfree/2013/jun/20/james-gandolfini-death-sopranos",
+    "https://www.bfi.org.uk/features/where-begin-with-billy-wilder",
+    "https://www.pbs.org/newshour/world/iran-says-7-oil-tankers-damaged-in-strait-of-hormuz-and-other-middle-east-news",
+    "https://www.cbc.ca/news/canada/montreal/decision-to-strip-status-from-700-innu-quebec-9.7390670?cmp=rss",
+    "https://antigonejournal.com/2026/08/socrates-street-marble-workers/",
+    "https://arstechnica.com/gaming/2026/10/leaked-mass-effect-universe-trailer-gives-a-taste-of-what-were-all-missing/",
+    "https://www.theguardian.com/tv-and-radio/2024/jan/11/the-sopranos-tiktok-edits",
+    "https://www.pbs.org/newshour/politics/rfk-jr-adviser-calley-means-resigns-amid-growing-maha-discontent-over-lack-of-progress",
+    "https://psyche.co/ideas/can-you-ever-really-think-what-someone-else-is-thinking"
   ],
   "initialized": true,
-  "cycleCount": 170,
+  "cycleCount": 171,
   "createdAt": "2026-09-15T21:46:02.266Z",
-  "lastRunAt": "2026-10-23T04:54:27.926Z",
+  "lastRunAt": "2026-10-23T11:46:37.720Z",
   "communities": [
     "technology",
     "science",
@@ -5535,11 +5575,6 @@
   "unresolvedThreads": [],
   "recentBatchSummaries": [
     {
-      "batchId": "20261022T045213Z-f887",
-      "generatedAtCycle": 166,
-      "summary": "Eight Tech Firms, Microsoft and Infosys Among Them, Are Suspended From Permanent Hiring via a Visa Pathway; Papua New Guinea's Fires Have Already Set a Carbon Record for This Point in the Year; Ontario Police Recruits Allege Anti-Black Racism, Prompting an Investigation Request; US Embassy in Ottawa Alleges Canadian Election Meddling Ahead of Midterms; Carney Names Jeremy Hansen as Space Adviser as Canada Looks to Europe; Proving Which Agent Made the Call: Four Mechanisms for Agent Identity; Can"
-    },
-    {
       "batchId": "20261022T115656Z-5b99",
       "generatedAtCycle": 167,
       "summary": "The Sopranos: Chris Albrecht's Fear and David Chase's Blunt Reply; Medea's Rejuvenation Method: Blood Out, Herbs In; UNEP Concedes the 1.5°C Warming Goal Is No Longer Viable; Canada's Gambling-Ad Bill Nears a Vote; Seven Televised NHL Playoff Games Carried 3,000 Gambling Messages; Ten Pounds a Week Set Aside for Children in Care, Collectable at 18; Elizabeth Holmes's Partner Demanded a Percentage of the Film's Profits; A Median-Income Renter Household Needs 16 Years to Save a Down Payment — Twic"
@@ -5558,6 +5593,11 @@
       "batchId": "20261023T045427Z-0fae",
       "generatedAtCycle": 170,
       "summary": "BBC Finds Evidence of Systematic Destruction of el-Fasher's Healthcare; A 96-Year-Old With 15 Million Followers Earns Enough to Cover $12,000 Monthly Nursing Home Fees; A 32-Bit Overflow in SmileBasic 4 Opened a Partial Switch 2 Jailbreak; A Tariff Exemption Equal to 2% of US Beef Consumption Was Enough to Rattle Ranchers, Not Enough to Help Consumers; A New Paper Traces AI Hallucinations to Early Efforts to Mimic Creativity; The First-Ever John Williams Biography Wins an ASCAP Foundation Book A"
+    },
+    {
+      "batchId": "20261023T114637Z-d651",
+      "generatedAtCycle": 171,
+      "summary": "A Bengaluru Barber Is Recording His Hands. Whether Machines Will Do Workers' Jobs Is Unsettled.; The Philosopher Confucius Is Partly a Modern Portrait; A 26-year-old beat a longtime incumbent first elected before he was born. He wants eviction protections.; Ukrainian defence ministry sources say Starlink problems persist after Trump says Musk reversed limits; Chaplin's Tramp was an icon of poverty; the FBI kept a file on Chaplin; eMudhra, the Certificate Authority With a Private Key of 4, Is Qui"
     }
   ]
 }
