@@ -10,6 +10,7 @@ import { EDITORIAL_MAX_POSTS, EDITORIAL_MAX_ATTEMPTS, EDITORIAL_TIME_BUDGET_MS }
 export { EDITORIAL_MAX_POSTS, EDITORIAL_MAX_ATTEMPTS, EDITORIAL_TIME_BUDGET_MS } from "./limits";
 import { logEditorialAttempt, redactEditorialDiagnostic } from "./diagnostics";
 import { coverageTitle } from "./coverage";
+import { sameEventIndex } from "./sameEvent";
 import { editorialVoiceIssues } from "./voice";
 import { discussionRepetitionIssues } from "./discussion";
 import { buildAuditChunk, type EditorialAuditChunk, type EditorialReviewRecord, type DiscussionOmissionReason } from "./audit";
@@ -283,7 +284,9 @@ export async function generateEditorial(
   now: Date,
   runId: string,
   recentEditions: string[] = [],
-  dependencies: { fetchImpl?: typeof fetch; sleepImpl?: (ms: number) => Promise<void>; nowImpl?: () => number; onAcceptedChunk?: (chunk: EditorialAuditChunk) => void; onReviewedChunk?: (record: EditorialReviewRecord, apiKey: string) => void } = {},
+  dependencies: { fetchImpl?: typeof fetch; sleepImpl?: (ms: number) => Promise<void>; nowImpl?: () => number; onAcceptedChunk?: (chunk: EditorialAuditChunk) => void; onReviewedChunk?: (record: EditorialReviewRecord, apiKey: string) => void;
+    /** Source headlines published within the same-event window before this run. */
+    recentSourceTitles?: string[] } = {},
 ): Promise<FeedItem[]> {
   const clock = dependencies.nowImpl ?? Date.now;
   const started = clock();
@@ -294,6 +297,7 @@ export async function generateEditorial(
   const revisionCounts = new Map<string, number>();
   const revisions = new Map<string, { sourceTitles: string[]; candidate: { title: string; body: string; discussion: { voice: string; body: string }[] }; support: PreviousWriterSupport; defects: { target: string; reason: string | null; claim: string | null; explanation: string }[] }>();
   let emptySelections = 0;
+  let sameEventDeferrals = 0;
   let generatedDrafts = 0;
   let discussionOmissions = 0;
   let providerFailures = 0;
@@ -313,6 +317,17 @@ export async function generateEditorial(
     if (EDITORIAL_MAX_ATTEMPTS - attempts < 2) { reason = "insufficient attempt budget for generation and review"; break; }
     const used = new Set(accepted.flatMap(post => post.sourceIds));
     const usedTitles = new Set(packets.filter(packet => used.has(packet.id)).map(packet => coverageTitle(packet.title)));
+    // Likely same-event candidates wait for a later run, exactly like empty-selection
+    // deferral: never marked covered, never a durable rejection. docs/editorial-same-event.md
+    const sameEvent = sameEventIndex([...(dependencies.recentSourceTitles ?? []), ...packets.filter(packet => used.has(packet.id)).map(packet => packet.title)]);
+    for (const packet of packets) {
+      if (used.has(packet.id) || deferredSources.has(packet.id)) continue;
+      const match = sameEvent.match(packet.title);
+      if (!match) continue;
+      deferredSources.add(packet.id);
+      sameEventDeferrals++;
+      console.log(`[editorial] same-event deferral: ${JSON.stringify(packet.title.slice(0, 160))} resembles ${JSON.stringify(match.title.slice(0, 160))} (shared: ${match.shared.join(", ")})`);
+    }
     const publishers = new Map<string, number>();
     for (const packet of packets.filter(packet => used.has(packet.id))) {
       const key = publisherKey(packet.publisher);
@@ -495,7 +510,7 @@ export async function generateEditorial(
   }
   if (accepted.length < EDITORIAL_MAX_POSTS && reason === "edition ceiling reached") reason = "edition attempt budget exhausted";
   const items = enrichEditorial({ posts: accepted }, packets, now, runId);
-  const summary = `[editorial] ceiling=${EDITORIAL_MAX_POSTS} actual=${items.length} attempts=${attempts}/${EDITORIAL_MAX_ATTEMPTS} generatedDrafts=${generatedDrafts} discussionOmissions=${discussionOmissions} providerFailures=${providerFailures} rejectedResponses=${rejectedResponses} emptySelections=${emptySelections} deferredSources=${deferredSources.size} reviewCalls=${reviewCalls} reviewRejectedPosts=${reviewRejectedPosts} elapsedMs=${clock() - started}; ${reason}`;
+  const summary = `[editorial] ceiling=${EDITORIAL_MAX_POSTS} actual=${items.length} attempts=${attempts}/${EDITORIAL_MAX_ATTEMPTS} generatedDrafts=${generatedDrafts} discussionOmissions=${discussionOmissions} providerFailures=${providerFailures} rejectedResponses=${rejectedResponses} emptySelections=${emptySelections} sameEventDeferrals=${sameEventDeferrals} deferredSources=${deferredSources.size} reviewCalls=${reviewCalls} reviewRejectedPosts=${reviewRejectedPosts} elapsedMs=${clock() - started}; ${reason}`;
   console.log(summary);
   if (process.env.GITHUB_STEP_SUMMARY) {
     const safe = (text: string) => redactEditorialDiagnostic(text, apiKey).replace(/[<>`|]/g, " ").slice(0, 200);
