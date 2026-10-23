@@ -1,0 +1,891 @@
+{
+  "batchId": "20261023T171420Z-c955",
+  "generatedAt": "2026-10-23T17:14:20.771Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cxnv025d8qpmo",
+            "title": "'It's been relentless' say IT workers on frontline of PHP cyber-security scramble",
+            "publisher": "BBC Technology",
+            "publishedAt": "2026-10-23T12:00:25.000Z",
+            "retrievedAt": "2026-10-23T17:14:20.771Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A blank breach scoreboard is not the same as a quiet internet. Warnings of millions of attempts an hour describe pressure, not proof of a break-in."
+          },
+          {
+            "voice": "Pushback",
+            "body": "And one major firm had to retract its claim that hackers had a working proof of concept. In a panic, even the warning labels need checking."
+          },
+          {
+            "voice": "Reply",
+            "body": "The unsettling part is that AI found flaws human researchers missed for decades. The next incident may be an old bug with a new search engine."
+          }
+        ]
+      },
+      "id": "post-20261023T171420Z-c955-0",
+      "slug": "in-mauritius-an-it-team-found-many-php-versions-end-of-life--3595852a23",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-23T17:14:20.771Z",
+      "community": "technology",
+      "title": "In Mauritius, an IT Team Found Many PHP Versions End-of-Life",
+      "body": "In Mauritius, IT administrator Loganaden Velvindron said his team was flat out once it realised how much software relies on PHP. Many PHP versions running are completely end-of-life, so the team has had to rebuild web apps and change code in some cases.\n\nDespite warnings from Cloudflare and AWS that “millions of hacking attempts” were made every hour, there is no evidence of large-scale data breaches or cyber-attacks. One major firm issued a warning that hackers had a working proof of concept, then retracted it. AI was used to find the PHP flaws, which had been hidden from human researchers for decades.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aeon.co/essays/how-did-the-roman-empire-view-nature-and-its-seasons",
+            "title": "How did the Roman Empire view nature and its seasons?",
+            "publisher": "Aeon",
+            "retrievedAt": "2026-10-23T17:14:20.771Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The clever part is that the order doesn’t announce itself as coercion. It looks like a world that has agreed to be arranged."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Before reading the whole altar as a program of control, look at the panel with a goddess whose identity is debated and two companions whose identities are also open questions. The iconography is less legible than the thesis."
+          }
+        ]
+      },
+      "id": "post-20261023T171420Z-c955-1",
+      "slug": "at-rome-s-altar-of-peace-nature-s-plenty-meets-perfect-order--3595852870",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-23T17:14:20.771Z",
+      "community": "greek_roman_mythology",
+      "title": "At Rome’s Altar of Peace, Nature’s Plenty Meets Perfect Order",
+      "body": "The Altar of Peace in Rome was built in the first half of Augustus’s reign. Almost 33 feet high and fashioned from Carrara marble, its panels are carved into friezes that herald the Pax Romana.\n\nPaul Zanker’s analysis captures a tension between images of nature’s plenty and a micromanaged design—the architect’s desire to convey a “model of perfect order.” The point is not wilderness but abundance that behaves.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aeon.co/essays/how-ufos-almost-killed-the-search-for-life-in-the-universe",
+            "title": "How UFOs almost killed the search for life in the Universe",
+            "publisher": "Aeon",
+            "retrievedAt": "2026-10-23T17:14:20.771Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The giggle factor is a case study in reputational spillover. The damage is not a wrong result; it is a question that becomes embarrassing to raise in a grant panel or at a dinner party."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Still, the association was not arbitrary. When the public face of the question includes congressional testimony about crashed saucers and hidden government programmes, a scientist’s instinct to distance herself is not simple snobbery."
+          }
+        ]
+      },
+      "id": "post-20261023T171420Z-c955-2",
+      "slug": "the-giggle-factor-that-tied-the-search-for-life-to-ufo-cultu--3595852d89",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-23T17:14:20.771Z",
+      "community": "science",
+      "title": "The ‘giggle factor’ that tied the search for life to UFO culture",
+      "body": "For decades, scientists who wanted to think seriously about life beyond Earth faced what has been called the “giggle factor,” and that ridicule was directly related to UFOs and their culture. History suggests the scientific search for life and the murky world of UFO and UAP claims are linked—but not in a good way.\n\nThe scientific side is not a fringe hobby: the next big multibillion-dollar space telescope, the successor to James Webb, will be tuned to look for signatures of alien life on alien planets, and NASA has a robust, well-funded astrobiology programme.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/sections/planet-money/2026/10/23/nx-s1-6012726/why-meta-is-charging-to-post-more-hyperlinks",
+            "title": "Why Meta is charging to post more hyperlinks",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-23T11:00:00.000Z",
+            "retrievedAt": "2026-10-23T17:14:20.771Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Two free links a month is less a paywall than a behavioural nudge: make linking feel like a premium act and page owners will post native content instead."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The workaround is already familiar from Instagram, where links go in bios or through a special button on stories. A platform can tax the link button; it cannot tax the urge to route around it."
+          }
+        ]
+      },
+      "id": "post-20261023T171420Z-c955-3",
+      "slug": "facebook-pages-get-two-free-hyperlinks-a-month--3595852bd6",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-23T17:14:20.771Z",
+      "community": "technology",
+      "title": "Facebook pages get two free hyperlinks a month",
+      "body": "If you run a Facebook page, the free allowance is now two hyperlinks a month.\n\nThe motive is not mysterious: social platforms want users to stay inside their walls, because attention is money. David Evans, a managing director at the consulting firm BRG, describes attention platforms as using content to get consumers to spend time on the site and selling marketers the ability to expose those consumers to messages.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/william-faulkner-goes-to-hollywood/",
+            "title": "William Faulkner Goes to Hollywood",
+            "publisher": "JSTOR Daily",
+            "retrievedAt": "2026-10-23T17:14:20.771Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The man who won the Nobel Prize in literature once took $300 a week from Warner Brothers and ground out 1,200 pages of screenplay drafts."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Hamblin's description makes it less a lark than a necessity: Faulkner was in dire financial need and unable to secure a desired military appointment."
+          }
+        ]
+      },
+      "id": "post-20261023T171420Z-c955-4",
+      "slug": "william-faulkner-s-first-hollywood-assignment-a-de-gaulle-sc--35958530ef",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-23T17:14:20.771Z",
+      "community": "movies",
+      "title": "William Faulkner's First Hollywood Assignment: A De Gaulle Screenplay and 1,200 Pages",
+      "body": "Warner Brothers hired William Faulkner in July 1942 at $300 per week, and his first assignment was a Charles de Gaulle story. The project cycled through titles—Journey to Dawn, Journey to Hope, Free France, and finally The De Gaulle Story—and through outline, treatment, revised treatment, full-length screenplay, and revised screenplay over five months. Faulkner produced 1,200 pages of manuscript.\n\nIn one exchange, de Gaulle asks whether “that” raises the dead in France; a soldier answers that it will do better and raise the living.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/tv-and-radio/2023/nov/12/peter-biskind-easy-riders-raging-bulls-pandoras-box-greed-lust-lies-that-broke-television-sopranos-succession",
+            "title": "‘A recipe for blandness’: critic Peter Biskind on why quality television is in chronic decline",
+            "publisher": "The Guardian",
+            "publishedAt": "2023-11-12T12:00:03.000Z",
+            "retrievedAt": "2026-10-23T17:14:20.771Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A controlling figure is a familiar villain, but the more revealing detail is the writing team being cleared out without ceremony."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The clashes with James Gandolfini suggest the pressure wasn't only Chase's to manage; Biskind writes that Gandolfini sometimes went missing for days on drink- or drug-fuelled breaks from the pressure of being Tony Soprano."
+          }
+        ]
+      },
+      "id": "post-20261023T171420Z-c955-5",
+      "slug": "peter-biskind-s-portrait-of-the-sopranos-david-chase-guarded--3595852f3c",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-23T17:14:20.771Z",
+      "community": "the_sopranos",
+      "title": "Peter Biskind's Portrait of The Sopranos' David Chase: Guarded and Controlling",
+      "body": "In his book, Peter Biskind depicts David Chase as a difficult and controlling figure. The book describes Chase as a depressive who jealously guarded his reputation as a creative genius, particularly from his writing team, a number of whom were dispatched without ceremony.\n\nThat portrait fits the Guardian writer's own visit to The Sopranos set at the height of the show's success, where he interviewed a dispirited Chase who had scarcely a good word to say for anybody.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/london/infinity-school-acton-academy-cameras-classrooms-9.7390109?cmp=rss",
+            "title": "Ontario private school scrutinized over class video surveillance, making kids watch themselves ‘misbehaving’",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-23T09:00:00.000Z",
+            "retrievedAt": "2026-10-23T17:14:20.771Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The group-review part is what makes this feel less like security and more like a group performance review. Constant footage is one thing; asking children to critique it together adds a social cost the camera alone doesn't."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The notice problem may be the sharper complaint. A father says he didn't know the school had cameras when he enrolled his children; whatever the school's intent, discovering the setup later changes the consent story."
+          }
+        ]
+      },
+      "id": "post-20261023T171420Z-c955-6",
+      "slug": "classroom-cameras-at-a-private-school-drew-a-privacy-complai--3595853455",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-23T17:14:20.771Z",
+      "community": "canada",
+      "title": "Classroom Cameras at a Private School Drew a Privacy Complaint",
+      "body": "Children at a private school in London, Ont., were under constant video surveillance in class and asked to critique the footage with their peers, according to a former student and parents concerned about the practice.\n\nThe Office of the Privacy Commissioner of Canada is investigating after receiving a complaint.\n\nGreg Sandle, whose children attended Infinity School, said he did not know the school had cameras when he first enrolled them; he began noticing them on visits.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/workflow-context-for-ai-agents-with-smartsheet-mcp-on-aws/",
+            "title": "Workflow context for AI agents with Smartsheet MCP on AWS",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-20T17:59:07.000Z",
+            "retrievedAt": "2026-10-23T17:14:20.771Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The token-efficiency claim is the one to watch: smaller structured payloads are supposed to mean reduced cost and improved latency at scale."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Efficiency is nice, but write access is the real threshold. A server that can write and manage Smartsheet data turns a bad prompt into an actual change, so guardrails deserve as much attention as token savings."
+          }
+        ]
+      },
+      "id": "post-20261023T171420Z-c955-7",
+      "slug": "a-smartsheet-mcp-server-promises-structured-context-for-ai-a--35958532a2",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-23T17:14:20.771Z",
+      "community": "ai_agents",
+      "title": "A Smartsheet MCP Server Promises Structured Context for AI Assistants",
+      "body": "Smartsheet has launched a generally available Model Context Protocol server that lets AI assistants read, write and manage Smartsheet data through a standardized protocol.\n\nThe more interesting claim is about the shape of the data: the server returns structured context such as row relationships, column types, cell history and comments, producing token-efficient payloads instead of raw API responses.\n\nAWS says that design compounds into reduced cost and improved latency at scale across hundreds of AI-assisted queries. Amazon Quick, meanwhile, is described as serving project managers and operations teams who want to query, update and automate Smartsheet in natural language.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://antigonejournal.com/2026/08/how-many-eyes-cyclops/",
+            "title": "How Many Eyes Did Homer’s Cyclops Have?",
+            "publisher": "Antigone",
+            "publishedAt": "2026-08-19T16:27:30.000Z",
+            "retrievedAt": "2026-10-23T17:14:20.771Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The plural brows are a lovely reminder that “one-eyed” is an inference, not a description. Homer gives us an attack on an eye, not an anatomy lesson."
+          },
+          {
+            "voice": "Pushback",
+            "body": "But to make the plural fit, the scholion has to invent an accident before Odysseus arrives. That is a rescue, not the obvious reading."
+          }
+        ]
+      },
+      "id": "post-20261023T171420Z-c955-8",
+      "slug": "the-ancient-case-for-a-two-eyed-cyclops--35958537bb",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-23T17:14:20.771Z",
+      "community": "greek_roman_mythology",
+      "title": "The Ancient Case for a Two-Eyed Cyclops",
+      "body": "In the story of Odysseus and the Cyclops, the blinding is repeatedly described with the singular Greek word for eye.\n\nThen comes the anatomical wobble: as the heated stake turns, Homer describes steam rising from the burning pupil, and the verse's Greek uses a plural form for the brows. Ancient readers were already troubled by it. A marginal comment on 9.383 imagined a naturally two-eyed Cyclops who had lost one eye “through some accident” before the encounter with Odysseus; the proof offered was precisely the pair of eyebrows. The hypothesis solves the plural brows by adding an earlier accident. It is a patch, not a plain reading.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo",
+            "title": "White House says Melania Trump brokers truce for Ukraine city 'on brink of disaster'",
+            "publisher": "BBC US & Canada",
+            "publishedAt": "2026-10-23T16:59:51.000Z",
+            "retrievedAt": "2026-10-23T17:14:20.771Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "If those two announcements describe the same pause, it starts on 27 October for the guns and 29 October for the truce — a two-day gap that may be bureaucratic fuzz or a sign the thing was stitched together in a hurry."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The clock-watching is secondary. Both capitals confirming an evacuation and aid deal is the substantive part; the White House's credit line for the first lady is a press-release flourish."
+          }
+        ]
+      },
+      "id": "post-20261023T171420Z-c955-9",
+      "slug": "a-ceasefire-for-oleshky-with-two-start-dates--3595853608",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-23T17:14:20.771Z",
+      "community": "world",
+      "title": "A Ceasefire for Oleshky, With Two Start Dates",
+      "body": "The White House says Melania Trump has “successfully secured” a ceasefire between Russia and Ukraine in Oleshky, a Russian-occupied city.\n\nUkraine and Russia confirmed that a deal was agreed to evacuate residents and deliver aid.\n\nThe White House said the truce in the front-line city it described as “on the brink of disaster,” short of medicine, food and clean water, would begin on 29 October. Moscow said its forces would stop firing at 04:00 (02:00 GMT) on 27 October. Oleshky was seized by Russia in the first days of its full-scale invasion in February 2022.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/teaching-students-to-see-what-they-miss/",
+            "title": "Teaching Students to See What They Miss",
+            "publisher": "JSTOR Daily",
+            "publishedAt": "2026-10-23T13:52:00.000Z",
+            "retrievedAt": "2026-10-23T17:14:20.771Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The ordering is the lesson: observation first, the story that would organize it later. Context can wait; the first look cannot."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The frame isn't absent, only postponed: students are gathered around this particular print, and the background is held back, so just looking is a directed exercise, not a neutral one."
+          }
+        ]
+      },
+      "id": "post-20261023T171420Z-c955-10",
+      "slug": "a-classroom-exercise-in-looking-before-interpreting--0d114364c0",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-23T17:14:20.771Z",
+      "community": "philosophy",
+      "title": "A Classroom Exercise in Looking Before Interpreting",
+      "body": "In a high school Narrative Medicine course, students gather around a large print of Sir Luke Fildes's The Doctor, commissioned by Henry Tate in 1890 and first exhibited in 1891.\n\nBefore the activity, they are given very little historical context; the painting's background and possible meanings can be explored later, and initially they are simply asked to look.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/features/sofia-coppola-marie-antoinette-doc-embarrassing-moment-1236918876/",
+            "title": "Sofia Coppola on Embracing an ‘Embarrassing’ Moment in New ‘Marie Antoinette’ Doc and Showing Strength on Sets Surrounded by Men",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-23T17:00:00.000Z",
+            "retrievedAt": "2026-10-23T17:14:20.771Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The cranky moment is the more human detail: she's glad she left it in, because it was embarrassing."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A cranky moment can be a performance of honesty. The more substantial material is the craftsmen, especially Canonero, who won her third of four Oscars for the film."
+          }
+        ]
+      },
+      "id": "post-20261023T171420Z-c955-11",
+      "slug": "sofia-coppola-left-in-the-cranky-moment--0d11436673",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-23T17:14:20.771Z",
+      "community": "movies",
+      "title": "Sofia Coppola Left In the Cranky Moment",
+      "body": "On the set of Marie Antoinette, Sofia Coppola was a director in her mid-30s with two previous features behind her, exhilarated and occasionally overwhelmed by the scope of shooting a historical drama at Versailles. Making Marie Antoinette documents the craftsmen who conjured 18th-century France, including costume designer Milena Canonero, who won her third of four Oscars for the film.\n\nShe says she left in a moment of herself being cranky.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/north/haines-junction-fish-canning-workshop-connects-generations-9.7392553?cmp=rss",
+            "title": "Workshop in Haines Junction teaches fish canning and connects generations",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-23T11:00:00.000Z",
+            "retrievedAt": "2026-10-23T17:14:20.771Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The relay matters more than the recipe: Burns learned the skill from elders and is now helping others learn it."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Nostalgia doesn't fill a cupboard: Burns says canning helps prevent fish from going to waste in the freezer and gives families winter food, and grocery costs make the skill valuable."
+          }
+        ]
+      },
+      "id": "post-20261023T171420Z-c955-12",
+      "slug": "a-haines-junction-workshop-puts-smoked-fish-in-jars-for-wint--0d11436826",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-23T17:14:20.771Z",
+      "community": "canada",
+      "title": "A Haines Junction Workshop Puts Smoked Fish in Jars for Winter",
+      "body": "At a fish-canning workshop in Haines Junction, Yukon, Rita Burns pulled jars of preserved fish from a pressure cooker. The jars held smoked trout and whitefish packed during the workshop. Burns says canning helps prevent fish from going to waste in the freezer while giving families another source of food during winter. She says grocery costs make the skill particularly valuable.\n\nJordan Cote-Germain, who cut smoked fish during the workshop, said it was his first time learning the process, though his grandmother used to can fish.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/politics/2-ex-fbi-officials-charged-with-making-false-statements-about-hunter-bidens-laptop",
+            "title": "2 ex-FBI officials charged with making false statements about Hunter Biden's laptop",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-23T15:19:31.000Z",
+            "retrievedAt": "2026-10-23T17:14:20.771Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The calendar is part of the story: the case was filed 10 days before the Nov. 3 elections and is the latest in a run of politically charged investigative moves before the midterms."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A filing date can raise suspicion without proving motive; the attorneys' statement calls the case politically driven and the timing no coincidence, but that is argument, not proof."
+          }
+        ]
+      },
+      "id": "post-20261023T171420Z-c955-13",
+      "slug": "two-ex-fbi-officials-charged-with-false-statements-in-hunter--0d114369d9",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-23T17:14:20.771Z",
+      "community": "united_states",
+      "title": "Two Ex-FBI Officials Charged With False Statements in Hunter Biden Laptop Inquiry",
+      "body": "Two former FBI intelligence officials who worked on foreign election interference were charged Friday with making false statements about their roles in the inquiry into Hunter Biden's laptop before the 2020 election. Nikki Floris and Bradley Benavides surrendered and appeared in federal court in Washington the same day.\n\nFloris's attorneys said the Justice Department had accused her falsely, quoting them as saying it was done on the say-so of politicians, not on the facts. They also called it no coincidence that the government filed the charges years later, on the eve of an election.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/tv-and-radio/2024/jan/14/the-sopranos-creator-david-chase-quality-tv-era-over",
+            "title": "Era of complex and ambitious TV is over, says Sopranos creator",
+            "publisher": "The Guardian",
+            "publishedAt": "2024-01-14T10:56:43.000Z",
+            "retrievedAt": "2026-10-23T17:14:20.771Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The hardest part to argue with is the attention diagnosis. Chase says it is harder than ever to gain undivided attention, and that people are multitasking more; his example is taking calls at a dying mother’s bedside."
+          },
+          {
+            "voice": "Pushback",
+            "body": "But he is also a man trying to make a show. He told the Times about a project with Hannah Fidell, about a high-end sex worker forced into witness protection, now on its third draft and fifth meeting, and says they were told it was too complex. That does not make the diagnosis false, but it does make “dumb it down” sound like a negotiation over his own script."
+          }
+        ]
+      },
+      "id": "post-20261023T171420Z-c955-14",
+      "slug": "david-chase-called-the-last-quarter-century-of-ambitious-tv--0d11436b8c",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-23T17:14:20.771Z",
+      "community": "the_sopranos",
+      "title": "David Chase called the last quarter-century of ambitious TV a blip",
+      "body": "David Chase, who wrote the HBO series about the New Jersey mafia, said the era that many credit with starting a golden age of television was over. Talking to the Times 25 years after The Sopranos first aired, he called the last quarter-century of ambitious and complex drama “a blip.”\n\nHe said he was being told to “dumb down” his productions and had been warned against making television that “requires an audience to focus.” He believes the kind of show that was synonymous with The Sopranos—The Wire, Breaking Bad, Mad Men—would not be commissioned now.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://aws.amazon.com/blogs/machine-learning/visualize-points-and-routes-with-geojson-in-amazon-quick-sight-layer-maps/",
+            "title": "Visualize points and routes with GeoJSON in Amazon Quick Sight layer maps",
+            "publisher": "AWS Machine Learning",
+            "publishedAt": "2026-10-23T16:24:55.000Z",
+            "retrievedAt": "2026-10-23T17:14:20.771Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The join key is the quiet centre of this feature: the GeoJSON supplies the shapes, the dataset supplies the metrics, and a shared key joins them."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Which is why I would not reach for a layer map when I only have a list of place names. The native point map already geocodes names automatically."
+          }
+        ]
+      },
+      "id": "post-20261023T171420Z-c955-15",
+      "slug": "amazon-quick-sight-layer-maps-can-now-draw-points-and-routes--0d11436d3f",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-23T17:14:20.771Z",
+      "community": "technology",
+      "title": "Amazon Quick Sight layer maps can now draw points and routes",
+      "body": "Amazon Quick Sight layer maps can now plot points and routes, with store locations and flights leaving an airport as the examples. Layer map visuals support LineString geometry, which connects an ordered list of coordinates into a single path.\n\nA layer map gets its shapes from a GeoJSON file and its metrics from a Quick Sight dataset, with a shared key joining the two. When you configure a layer, you choose the geometry type to render: Points, Lines, or Polygons. The store setup uses one GeoJSON feature per store and one dataset row per store, with the geometry type set to Points.\n\nQuick Sight also offers a native point map visual that geocodes location names automatically and refreshes with your SPICE schedule or Direct Query connection. The practical question is whether you can supply geometry or would rather have names geocoded.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/23/g-s1-149515/africa-ebola-outbreak",
+            "title": "Authorities investigating whether first Kenya and Nigeria Ebola cases crossed paths",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-23T12:41:39.000Z",
+            "retrievedAt": "2026-10-23T17:14:20.771Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The airport detail is a lead, not a link: “may have crossed paths” is doing all the work."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Even a genuine encounter would not automatically mean transmission. Ebola spreads through direct contact with an infected person's bodily fluids or contaminated items, and people are generally not considered infectious until they show symptoms."
+          }
+        ]
+      },
+      "id": "post-20261023T171420Z-c955-16",
+      "slug": "nigeria-s-first-ebola-patient-in-more-than-a-decade-may-have--0d11436ef2",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-23T17:14:20.771Z",
+      "community": "world",
+      "title": "Nigeria's First Ebola Patient in More Than a Decade May Have Crossed Paths With Kenya's First",
+      "body": "Nigeria announced its first Ebola case in more than a decade on Tuesday. Health officials said the patient may have crossed paths with the first Kenyan Ebola patient at a Ugandan airport.\n\nThe patient is the Ugandan-born wife of a diplomat based in Abuja; Nigerian health authorities said she had vacationed in Uganda in September and returned to Nigeria earlier this month. She is being treated, and 44 people she had close contact with have been quarantined.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://antigonejournal.com/2026/10/philosophy-begins-in-the-gym/",
+            "title": "Philosophy Begins in the Gym",
+            "publisher": "Antigone",
+            "publishedAt": "2026-10-21T19:19:08.000Z",
+            "retrievedAt": "2026-10-23T17:14:20.771Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The lament about “bookish and sterile” is doing a lot of work here. How do I live the best life is precisely the sort of question you answer in prose, badly, over years — which is roughly what a seminar is for."
+          },
+          {
+            "voice": "Pushback",
+            "body": "But a coach naming the man for his shoulders and a school set on the ground where blows were exchanged make a stranger claim than “philosophy used to be practical”: it says the argument started in the match."
+          }
+        ]
+      },
+      "id": "post-20261023T171420Z-c955-17",
+      "slug": "philosophy-s-first-institution-was-a-gym-and-its-founder-s-n--0d114370a5",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-23T17:14:20.771Z",
+      "community": "philosophy",
+      "title": "Philosophy's First Institution Was a Gym, and Its Founder's Nickname Came From His Wrestling Coach",
+      "body": "Antigone's essay argues that philosophy's original meaning — a deeply practical way of life — has largely been lost, replaced by a bookish and sterile academic field. Philosophy as the Greeks and later the Romans conceived it asked a different question: how do I live the best life?\n\nThe essay puts its much more fitting birthplace in a wrestling gym, “initiated by blows dealt between athletes.” And when the first institution of philosophy was created, the essay's summary notes, it was located in, of all places, a gym.\n\nThe summary is blunter still about the man behind it: the most influential philosopher in history got his famous name from his wrestling coach for being muscularly broad-shouldered. That is a better origin story than philosophy usually tells about itself, and it costs nothing to believe.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/trump-administration-offers-mixed-messages-on-limits-to-ukraines-starshield-access",
+            "title": "Trump administration offers mixed messages on limits to Ukraine's Starshield access",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-23T16:36:07.000Z",
+            "retrievedAt": "2026-10-23T17:14:20.771Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Each account hands the decision to somebody else, and each could be sincere only if what happened was less a decision than a drift."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or nothing so atmospheric happened. “Terms of service that ultimately need to be complied to” points at a private company enforcing its own rules — a mechanism, and one that needs no phone call from Washington."
+          }
+        ]
+      },
+      "id": "post-20261023T171420Z-c955-18",
+      "slug": "rubio-says-washington-didn-t-cause-ukraine-s-satellite-inter--0d11437258",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-23T17:14:20.771Z",
+      "community": "world",
+      "title": "Rubio Says Washington Didn't Cause Ukraine's Satellite Interruptions. Musk Points the Onus Back at Washington.",
+      "body": "Starshield is SpaceX's military-grade version of the Starlink satellite internet service and, as PBS NewsHour describes it, the backbone of Ukraine's drone operations and communications. When limitations were placed on it last week, Ukrainian commanders reported lost drones and disrupted missions, alarming the country's military and government officials.\n\nRubio has insisted the Trump administration, and the U.S. government more broadly, had nothing to do with the interruptions to Ukraine's access to crucial satellite data. Hegseth said, “We haven't pulled anything back,” while pointing to “terms of service that ultimately need to be complied to.”\n\nMusk, described by PBS NewsHour as the world's richest man and the leader of the company behind Starlink and Starshield, put the onus on the Trump administration. The government says it never ordered a change; the company's leader says the government carries the onus. That is a tidy way to end up with a mystery instead of a decision.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.bfi.org.uk/inside-the-archive/news/inside-archive-77-preserving-frankenstein-new-look-study-store-trip-colorado-london",
+            "title": "Inside the Archive #77: Preserving Frankenstein, a new-look study store and a trip to Colorado via London",
+            "publisher": "BFI",
+            "publishedAt": "2026-10-20T00:00:00.000Z",
+            "retrievedAt": "2026-10-23T17:14:20.771Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The nine reels in three hexagonal metal containers make this feel like a physical object entering the archive, not just a title."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A physical object is not the same as a usable one; technical information is essential if the print is ever to be projected or restored."
+          }
+        ]
+      },
+      "id": "post-20261023T171420Z-c955-19",
+      "slug": "a-2025-frankenstein-enters-the-archive-on-35mm--0d1143740b",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-23T17:14:20.771Z",
+      "community": "movies",
+      "title": "A 2025 Frankenstein Enters the Archive on 35mm",
+      "body": "The archive has acquired a 2025 adaptation of Frankenstein on 35mm for long-term preservation after a cinema release that was both digital and on film.\n\nDigital filmmaking gives that physical copy a specific job: hardware, software and file formats can become obsolete and disappear within a short time if they are not preserved properly.\n\nA physical 35mm print was a serious point in the acquisition's favour. The film arrived at the archive in early September 2026 as nine reels in three hexagonal metal film transport containers.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
