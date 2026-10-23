@@ -618,3 +618,20 @@ matched 70 sources: 31 same event, 30 same story or work from another angle, 9 u
 It misses pairs more than 48 hours apart (Stellantis, earlier Pope Leo posts) and twins
 offered in one writer request. `scripts/calibrateSameEvent.ts` replays it offline.
 offerOrder.ts is unchanged.
+
+## Lasting supply and shelf pacing — October 23, 2026
+Read docs/source-supply-review-20261023.md. Lasting reading was 7.8% of Oct 9–22 posts
+against the reader's ~50%; the Oct 22 refill was spent in a day (up to seven shelf pages
+per edition). 72 reviewed additions bring the shelf to 172 pages (82 unconsumed). Each has
+a complete angle within three evidence IDs, a passing probe and an exact normal-intake
+recheck; this is provenance, not generated quality, and #36/#37 counts are unchanged.
+BFI (movies, 30 days) and Antigone (classics, 3,650 days) feeds carry blurbs only and
+qualify only through inspected adapters: BFI's single EmbeddedArticleText__TextContent
+div, Antigone's single pf-content inside entry-content. Both stop at the first divider,
+drop module slices and footnote markers, and fail closed. "►" availability lines are
+boundaries. Knowable (Cloudflare challenge), Criterion Current and History Today (403)
+are excluded; never bypass bot checks. EDITORIAL_MAX_SHELF_PAGES (3) caps shelf pages per
+edition through paceShelf, round-robin by topic; feed candidates are never dropped and
+unoffered shelf pages are never deferred or covered. Evidence, review, citation,
+publisher, call and deadline rules are unchanged. Estimated lasting share is ~20% while
+the shelf lasts (~3.5 days at eight editions a day) and ~5% after; refills stay manual.

@@ -1,0 +1,625 @@
+{
+ "checkedAt": {
+  "bfiPages": [
+   "2026-10-23T05:09:46.698Z",
+   "2026-10-23T05:10:37.871Z"
+  ],
+  "antigonePages": [
+   "2026-10-23T05:11:44.842Z",
+   "2026-10-23T05:12:44.540Z"
+  ]
+ },
+ "scope": "Recurring lasting-feed evaluation and adapter layout checks only: parser and extraction results, not generation quality. Full fetched HTML stays outside Git and public paths. Samples are structure-only skeletons of inspected pages: real tags and class names, synthetic prose, and sentinel text in every module that must be excluded.",
+ "feeds": [
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/rss-feed",
+   "decision": "add",
+   "topic": "movies",
+   "maxAgeDays": 30,
+   "status": 200,
+   "format": "RSS 2.0, dated pubDate, description blurbs only",
+   "robots": "robots.txt returns 404 (no rules)",
+   "itemsInspected": 30,
+   "accepted": 30,
+   "note": "Sight and Sound reviews, features, interviews and lists, plus some BFI news. One EmbeddedArticleText__TextContent root on every item page."
+  },
+  {
+   "publisher": "Antigone",
+   "url": "https://antigonejournal.com/feed/",
+   "decision": "add",
+   "topic": "greek_roman_mythology",
+   "maxAgeDays": 3650,
+   "status": 200,
+   "format": "RSS 2.0, dated pubDate, description blurbs only",
+   "robots": "User-agent: * with an empty Disallow",
+   "itemsInspected": 24,
+   "accepted": 24,
+   "note": "Classics essays, roughly three to five a month; a few competition notices and reader features."
+  },
+  {
+   "publisher": "Knowable Magazine",
+   "url": "https://knowablemagazine.org/rss",
+   "decision": "exclude",
+   "status": 200,
+   "reason": "Article pages serve a Cloudflare \"Just a moment...\" challenge to automated requests. Bot checks are never bypassed."
+  },
+  {
+   "publisher": "The Criterion Collection (Current)",
+   "url": "https://www.criterion.com/current/feed",
+   "decision": "exclude",
+   "status": 403,
+   "reason": "The feed returns HTTP 403 to automated requests."
+  },
+  {
+   "publisher": "History Today",
+   "url": "https://www.historytoday.com/feed/rss.xml",
+   "decision": "exclude",
+   "status": 403,
+   "reason": "The feed returns HTTP 403 to automated requests."
+  },
+  {
+   "publisher": "The Public Domain Review",
+   "url": "https://publicdomainreview.org/rss.xml",
+   "decision": "not added",
+   "status": 200,
+   "reason": "Full content:encoded prose, but art and archival curiosities fit none of the fixed reader topics."
+  },
+  {
+   "publisher": "RogerEbert.com",
+   "url": "https://www.rogerebert.com/feed",
+   "decision": "not added",
+   "status": 200,
+   "reason": "Mostly new-release, streaming and festival reviews: timely criticism, not lasting reading."
+  }
+ ],
+ "layouts": [
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/sight-and-sound/reviews/whalefall-austin-abrams-gives-it-his-all-passable-film-about-man-swallowed-whale",
+   "htmlSha256": "f2e429f117568f1331c829b4f68cfa27b7f8864236a1a649c9f0b6e7b3c3908c",
+   "htmlBytes": 155529,
+   "sections": 1,
+   "characters": 4581,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/sight-and-sound/features/portrait-of-a-lady-sofia-coppola-marie-antoinette",
+   "htmlSha256": "b5123fec1acb3e071b6e68946a233082f6c443894d4f830fc2fada6ed69e5e28",
+   "htmlBytes": 242588,
+   "sections": 3,
+   "characters": 5166,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/london-film-festival/interviews/manuela-martelli-meltdown",
+   "htmlSha256": "25491ff230b367e14c858be0325272e76bd165d0da0228f46bb0e8c3aea3d606",
+   "htmlBytes": 176711,
+   "sections": 3,
+   "characters": 5517,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/inside-the-archive/news/inside-archive-77-preserving-frankenstein-new-look-study-store-trip-colorado-london",
+   "htmlSha256": "311c7cce28c5cbfc7e32c3c998d177319ddd72bacd5aa23c4596ca1f03074f81",
+   "htmlBytes": 218644,
+   "sections": 7,
+   "characters": 5917,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/london-film-festival/interviews/mahershala-ali-your-mother-your-mother-your-mother-impact-representation",
+   "htmlSha256": "6a64364f4fcf8a46ebd8e40f39893a5fe679d96dc0c5fe038660d89961cd7bf2",
+   "htmlBytes": 159978,
+   "sections": 4,
+   "characters": 5151,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/features/where-begin-with-billy-wilder",
+   "htmlSha256": "edcd22ff2b11600931ba07f2145ccf27a73429dee961963936130071a979419b",
+   "htmlBytes": 179675,
+   "sections": 7,
+   "characters": 6000,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/london-film-festival/news/competition-winners-announced-70th-bfi-london-film-festival",
+   "htmlSha256": "44053fe85aa2c2d507d8884614d8bb12211f62a3a9d5ef50cbd20f63c8a834f2",
+   "htmlBytes": 173693,
+   "sections": 8,
+   "characters": 5984,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/sight-and-sound/reviews/club-kid-outrageously-funny-crowdpleaser",
+   "htmlSha256": "811090870f041d0badbd6a275b36b57c8fee6f91c8aadcb6c8fd98abe3280a14",
+   "htmlBytes": 156178,
+   "sections": 1,
+   "characters": 4409,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/london-film-festival/interviews/danny-boyle-ink",
+   "htmlSha256": "83ce4949d34c1e1f3bff7b7ae17e224f0e88f73fd62592e9a7dd9ba9e7505f66",
+   "htmlBytes": 187481,
+   "sections": 2,
+   "characters": 5816,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/features/revisiting-pakeezah-hindi-cinemas-great-tragedy-desire-entrapment",
+   "htmlSha256": "a417a4ad422fcc0f37a25e83f65336e0d59156c9e2a3fc229666195e622855c5",
+   "htmlBytes": 176606,
+   "sections": 4,
+   "characters": 5516,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/london-film-festival/interviews/robert-eggers-werwulf",
+   "htmlSha256": "5687121dec8d86fd283eabb247e194e9db75d3d9d9d9a343029ad65c6bcfe069",
+   "htmlBytes": 151920,
+   "sections": 2,
+   "characters": 4713,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/lists/10-great-black-white-films-2020s",
+   "htmlSha256": "67d88b1d566d89e74e2a8f2da613abbeb3f70a018a8870176c178c498b253d1a",
+   "htmlBytes": 224085,
+   "sections": 11,
+   "characters": 5920,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/sight-and-sound/reviews/all-rivers-spill-their-stories-sea-jeanie-finlays-documentary-display-community-solidarity-face-ecological-disaster",
+   "htmlSha256": "4e2ea0de5f6ae9e39c1cbe6c015b7ef1b5cb9a59ef5b212d22fe53a971bf7ac7",
+   "htmlBytes": 156783,
+   "sections": 1,
+   "characters": 4291,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/london-film-festival/interviews/javier-bardem-bunker-beloved",
+   "htmlSha256": "ce356b5e8ecee40a333aeac1fd2a9ce75d0d3a4ae577cc7cc53b3260615a6e41",
+   "htmlBytes": 171774,
+   "sections": 2,
+   "characters": 5694,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/sight-and-sound/reviews/once-upon-time-harlem-william-greaves-son-preserve-harlem-renaissance-reunion-with-marvel-cinema-verite",
+   "htmlSha256": "ea0ab1df192495f9ff08d00375259d13854f7802c0101187b6bd4eda136c0a1c",
+   "htmlBytes": 157490,
+   "sections": 1,
+   "characters": 4466,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/london-film-festival/interviews/michael-winterbottom-trip-northern-lights-steve-coogan-rob-brydon",
+   "htmlSha256": "6a58472fe2dce66ae60c4392ebb762f5ca621dda7c997f57d84475322f4e7c88",
+   "htmlBytes": 168289,
+   "sections": 2,
+   "characters": 5561,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/sight-and-sound/reviews/whose-side-are-you-harlan-county-usa-reviewed-1978",
+   "htmlSha256": "d102cf934431e6fc881167ea984a7d9a717d9f0283e02641153a541c21592c54",
+   "htmlBytes": 167182,
+   "sections": 3,
+   "characters": 3462,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/news/winners-announced-2026-bfi-chanel-filmmaker-awards",
+   "htmlSha256": "b1aa3884a96ae43409888120c4d817507b4b7bf991e89e42578c263df9159b9b",
+   "htmlBytes": 159293,
+   "sections": 2,
+   "characters": 5883,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/sight-and-sound/reviews/life-jorge-luis-borges-labyrinthian-voyage-through-work-argentinas-best-known-writer",
+   "htmlSha256": "11009d53a593cd09184bcb36a08a2fc8baed554282d7a88fb55bf4420cf5fcc4",
+   "htmlBytes": 147215,
+   "sections": 1,
+   "characters": 4650,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/london-film-festival/interviews/john-malkovich-wild-horse-nine-most-terrible-line-ive-ever-had-give",
+   "htmlSha256": "b744f70f946b3b0409189ba9ab51b6e54ffe1d7d089db22d613c780ff3e1834b",
+   "htmlBytes": 161466,
+   "sections": 3,
+   "characters": 5448,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/sight-and-sound/interviews/theres-such-sense-helplessness-right-now-america-beth-de-araujo-josephine",
+   "htmlSha256": "198a90a600ccd3bf6a57406ccf1e03959f45be22b1caa9c0026613a52d56e294",
+   "htmlBytes": 203647,
+   "sections": 2,
+   "characters": 5690,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/news/bfi-film-academy-launches-expanded-programme-2026-2029",
+   "htmlSha256": "16f7c7dc5dadbd3b550a2985fbccb5f9002430745a72f304268f77363fff8bdd",
+   "htmlBytes": 173436,
+   "sections": 2,
+   "characters": 5716,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/features/where-begin-with-lee-chang-dong",
+   "htmlSha256": "1c4ffffcfe6b7e4648f450417813a92640079ed4021f8bca83aff722ee10318a",
+   "htmlBytes": 186135,
+   "sections": 5,
+   "characters": 5283,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/london-film-festival/interviews/naomi-ackie-i-love-boosters-lff-screen-talk",
+   "htmlSha256": "a4f84f58b73b35860dfce7edb15454fd4ba423d0f6c8ca2bf80e7dedd4758ac0",
+   "htmlBytes": 158569,
+   "sections": 3,
+   "characters": 5239,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/sight-and-sound/interviews/you-can-show-range-emotion-that-you-dont-usually-get-cinema-derek-jarman-edward-ii",
+   "htmlSha256": "ecdc6cf396ab2272e3dd1a634fe1221e25fd830cf1726a7f80ae8541539c0b51",
+   "htmlBytes": 229540,
+   "sections": 4,
+   "characters": 5889,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/london-film-festival/interviews/andrew-scott-hamlet-elsinore-his-career-film-shakespeare-was-thinking-me-whole-time",
+   "htmlSha256": "f4e8af959cf65262f9d1bf4e708b71c0cfc623cb632cb84d14f640905189e01d",
+   "htmlBytes": 157616,
+   "sections": 3,
+   "characters": 4928,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/london-film-festival/interviews/sofia-coppola-making-marie-antoinette-her-career-film",
+   "htmlSha256": "c4d531b289e830c8929a9375d3741e0b0610ba01e952b8f3668679cf1da67e56",
+   "htmlBytes": 155408,
+   "sections": 3,
+   "characters": 4156,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/news/uk-global-screen-fund-support-latest-awards",
+   "htmlSha256": "bfe18311dca32cf9ea06552c382fdc2c7389a14e904109fa8639cdfd1ca28da8",
+   "htmlBytes": 165046,
+   "sections": 2,
+   "characters": 5489,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/sight-and-sound/reviews/uprising-murky-retelling-1381-peasants-revolt",
+   "htmlSha256": "bd4d7955e7c4f76f91ccb38540527ca3c94ea49928984fb972afc5a017910510",
+   "htmlBytes": 160116,
+   "sections": 1,
+   "characters": 2584,
+   "accepted": true
+  },
+  {
+   "publisher": "BFI",
+   "url": "https://www.bfi.org.uk/sight-and-sound/interviews/my-one-political-film-ken-russell-devils",
+   "htmlSha256": "d74d8a3da10e343d0c3ee0d0bdbd551a8f53e1ae687f9aedac1c9ded6158f701",
+   "htmlBytes": 194715,
+   "sections": 6,
+   "characters": 5709,
+   "accepted": true
+  },
+  {
+   "publisher": "Antigone",
+   "url": "https://antigonejournal.com/2026/10/philosophy-begins-in-the-gym/",
+   "htmlSha256": "ffcc34ff1a796aa86c0874d046cb44172c1ad38d918c39f12a9003c4879a5500",
+   "htmlBytes": 204532,
+   "sections": 6,
+   "characters": 5673,
+   "accepted": true
+  },
+  {
+   "publisher": "Antigone",
+   "url": "https://antigonejournal.com/2026/09/antigone-prize-classical-philology-2026-winners/",
+   "htmlSha256": "47ff1889511113128008ca87645b5ab06762d4010d6c0372410b4c87c8d02fe6",
+   "htmlBytes": 172707,
+   "sections": 1,
+   "characters": 3513,
+   "accepted": true
+  },
+  {
+   "publisher": "Antigone",
+   "url": "https://antigonejournal.com/2026/09/mithridatism-myth-poison-immunity/",
+   "htmlSha256": "9b112f2c754218ae40a2b93575490ed13fae7b83ad0393b0ec9b17bd1822e522",
+   "htmlBytes": 286004,
+   "sections": 4,
+   "characters": 5543,
+   "accepted": true
+  },
+  {
+   "publisher": "Antigone",
+   "url": "https://antigonejournal.com/2026/08/socrates-street-marble-workers/",
+   "htmlSha256": "5c7a331bf1ac1728f2d741ed24cb76858623a8636d1219bebce4e067f0a7b3e5",
+   "htmlBytes": 196747,
+   "sections": 6,
+   "characters": 5830,
+   "accepted": true
+  },
+  {
+   "publisher": "Antigone",
+   "url": "https://antigonejournal.com/2026/08/how-many-eyes-cyclops/",
+   "htmlSha256": "6ef8926068ff5cf7ec9cfbd852e77b9c89b8ebe7cbd7c31f8c290b268ccc7067",
+   "htmlBytes": 190605,
+   "sections": 5,
+   "characters": 5846,
+   "accepted": true
+  },
+  {
+   "publisher": "Antigone",
+   "url": "https://antigonejournal.com/2026/08/12-best-bits-odyssey/",
+   "htmlSha256": "fa08314801f05bb6e82852a51f82245bc2df2d719665d5f9b9a0280430747658",
+   "htmlBytes": 218311,
+   "sections": 8,
+   "characters": 5995,
+   "accepted": true
+  },
+  {
+   "publisher": "Antigone",
+   "url": "https://antigonejournal.com/2026/08/the-american-odyssey/",
+   "htmlSha256": "26587a4d13071fa5b92cf304f196ac31624b88d073291f34db2176d482c6654c",
+   "htmlBytes": 213504,
+   "sections": 6,
+   "characters": 5408,
+   "accepted": true
+  },
+  {
+   "publisher": "Antigone",
+   "url": "https://antigonejournal.com/2026/07/nolan-odyssey-end-civilization/",
+   "htmlSha256": "a62bc422b21d471b5d52c57653f2b428732e2bf7d13c2f6eec450ca326a9341a",
+   "htmlBytes": 183754,
+   "sections": 5,
+   "characters": 5653,
+   "accepted": true
+  },
+  {
+   "publisher": "Antigone",
+   "url": "https://antigonejournal.com/2026/07/in-search-of-ithaca/",
+   "htmlSha256": "071d8048719f5434f7b388ad797986b203aaee56302eddac547724f084da70a9",
+   "htmlBytes": 253055,
+   "sections": 9,
+   "characters": 5543,
+   "accepted": true
+  },
+  {
+   "publisher": "Antigone",
+   "url": "https://antigonejournal.com/2026/06/rabelais-greek-epigram/",
+   "htmlSha256": "5a3df57f60093b43a29efa274213625c4bddd034cea26e48c804da46bc894be5",
+   "htmlBytes": 197063,
+   "sections": 6,
+   "characters": 5586,
+   "accepted": true
+  },
+  {
+   "publisher": "Antigone",
+   "url": "https://antigonejournal.com/2026/06/equality-from-bc-to-dc/",
+   "htmlSha256": "ba7b73679d68d991978d91a2fa2d5d6c8ecae62d8cd963c458b04367aaedeaaa",
+   "htmlBytes": 213583,
+   "sections": 7,
+   "characters": 5976,
+   "accepted": true
+  },
+  {
+   "publisher": "Antigone",
+   "url": "https://antigonejournal.com/2026/06/readers-shelves/",
+   "htmlSha256": "d6c4213ed31411d9155452f9c2205da8501eda2ce6a9ba9103e55ee6b103c39d",
+   "htmlBytes": 230502,
+   "sections": 1,
+   "characters": 855,
+   "accepted": true
+  },
+  {
+   "publisher": "Antigone",
+   "url": "https://antigonejournal.com/2026/06/calcidius-latin-plato/",
+   "htmlSha256": "f82195ab4f794e049a4eb8aed74c49f15b247eac371c500e89fb91e066775415",
+   "htmlBytes": 243377,
+   "sections": 5,
+   "characters": 5691,
+   "accepted": true
+  },
+  {
+   "publisher": "Antigone",
+   "url": "https://antigonejournal.com/2026/06/what-was-stoicism/",
+   "htmlSha256": "25920c0f2411710af65cbecdcbd4fd3cc3f7e8ec4a8ecf51c72562b4556fb9d6",
+   "htmlBytes": 203834,
+   "sections": 6,
+   "characters": 5479,
+   "accepted": true
+  },
+  {
+   "publisher": "Antigone",
+   "url": "https://antigonejournal.com/2026/05/petrarch-cities-time-heraclitus/",
+   "htmlSha256": "b649fd52e5a391d739257639c9e2f95059b4750260309025f64075be81b03636",
+   "htmlBytes": 191808,
+   "sections": 4,
+   "characters": 5654,
+   "accepted": true
+  },
+  {
+   "publisher": "Antigone",
+   "url": "https://antigonejournal.com/2026/05/urban-satire-juvenal-3/",
+   "htmlSha256": "c04d0e27774d12e4aaf3c9b183ac602605fe87dbb6ce0a073e52bbe28cb3c9df",
+   "htmlBytes": 209384,
+   "sections": 7,
+   "characters": 5998,
+   "accepted": true
+  },
+  {
+   "publisher": "Antigone",
+   "url": "https://antigonejournal.com/2026/05/spartan-cult-artemis-orthia/",
+   "htmlSha256": "031c402f3f56ec9754ab8c3cf928e53bbf9686fe988a9fd68bf4da71fc1d9ad2",
+   "htmlBytes": 185671,
+   "sections": 8,
+   "characters": 5949,
+   "accepted": true
+  },
+  {
+   "publisher": "Antigone",
+   "url": "https://antigonejournal.com/2026/05/books-western-tradition/",
+   "htmlSha256": "bca53f31cbdc5c2f0706f2485b74b702559255e090449420b57e8a0cc657c032",
+   "htmlBytes": 158592,
+   "sections": 3,
+   "characters": 1055,
+   "accepted": true
+  },
+  {
+   "publisher": "Antigone",
+   "url": "https://antigonejournal.com/2026/05/interpretation-of-ancient-greek-literature/",
+   "htmlSha256": "6c1ababa5dbc5dcc6cd4e97e4cb712fdf0eea55890af22ca1205a2c3e60cb19d",
+   "htmlBytes": 230575,
+   "sections": 3,
+   "characters": 5835,
+   "accepted": true
+  },
+  {
+   "publisher": "Antigone",
+   "url": "https://antigonejournal.com/2026/05/unshod-dido-vergil/",
+   "htmlSha256": "3d9737444281742d1bf1b488b6ffc9d89aa777f4b808009a8b90a2a2522e4d88",
+   "htmlBytes": 270607,
+   "sections": 5,
+   "characters": 5775,
+   "accepted": true
+  },
+  {
+   "publisher": "Antigone",
+   "url": "https://antigonejournal.com/2026/05/britain-classical-18th-century/",
+   "htmlSha256": "e6dcd39125910e4ec778a2d2aae4b8178bde762c5c935ae771bcf55d3543a45c",
+   "htmlBytes": 188221,
+   "sections": 4,
+   "characters": 5676,
+   "accepted": true
+  },
+  {
+   "publisher": "Antigone",
+   "url": "https://antigonejournal.com/2026/04/arbor-fulgida-tolkien-shining-tree/",
+   "htmlSha256": "9964c59834db7182a8d96e4db189ff21b8073c60cc1d8c14f2b57f6d0478acb7",
+   "htmlBytes": 256108,
+   "sections": 5,
+   "characters": 5519,
+   "accepted": true
+  },
+  {
+   "publisher": "Antigone",
+   "url": "https://antigonejournal.com/2026/04/orphic-hymns/",
+   "htmlSha256": "9008e522f0ef06abe8d78fbe531b70900b73f971e6339a8308cbc127e34fdd2c",
+   "htmlBytes": 234726,
+   "sections": 7,
+   "characters": 5590,
+   "accepted": true
+  },
+  {
+   "publisher": "Antigone",
+   "url": "https://antigonejournal.com/2026/04/plato-on-heroism/",
+   "htmlSha256": "0d45b572b8da352e8f2f83d2b91c7bb6dac812c6a87c69b2f684b3868e5bfd7e",
+   "htmlBytes": 188149,
+   "sections": 8,
+   "characters": 5792,
+   "accepted": true
+  }
+ ],
+ "samples": [
+  {
+   "publisher": "BFI",
+   "kind": "review with an availability notice",
+   "html": "<div class=\"EmbeddedArticleText__TextContent-sc-7y7thi-0 EIeWL\"><div class=\"Text__Outer-sc-au2ztm-0 eEECBc text_block flowing_content\"><p>Inspected paragraph 1 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.</p></div><div class=\"Text__Outer-sc-au2ztm-0 eEECBc text_block flowing_content\"><p>Inspected paragraph 2 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.</p></div><div class=\"Text__Outer-sc-au2ztm-0 eEECBc text_block flowing_content\"><p>Inspected paragraph 3 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.</p></div><div class=\"Text__Outer-sc-au2ztm-0 eEECBc text_block flowing_content\"><p>Inspected paragraph 4 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.</p></div><div class=\"Text__Outer-sc-au2ztm-0 eEECBc text_block flowing_content\"><p>► EXCLUDED availability sentinel.</p></div><figure class=\"EditorialFigure__Figure-sc-1jlutum-0 kwkrVq align_large\"><div class=\"media__IframeContainer-sc-1il1c50-0 dfRHWI\"></div></figure></div>",
+   "expectedSections": [
+    "Inspected paragraph 1 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.\n\nInspected paragraph 2 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.\n\nInspected paragraph 3 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.\n\nInspected paragraph 4 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose."
+   ]
+  },
+  {
+   "publisher": "BFI",
+   "kind": "interview with divider and screening notice",
+   "html": "<div class=\"EmbeddedArticleText__TextContent-sc-7y7thi-0 EIeWL\"><div class=\"Text__Outer-sc-au2ztm-0 eEECBc text_block flowing_content\"><p>Inspected paragraph 1 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<span class=\"caps\"></span></p></div><div class=\"Text__Outer-sc-au2ztm-0 eEECBc text_block flowing_content\"><p>Inspected paragraph 2 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<span class=\"caps\"></span></p></div><div class=\"Text__Outer-sc-au2ztm-0 eEECBc text_block flowing_content\"><p>Inspected paragraph 3 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.</p></div><div class=\"Text__Outer-sc-au2ztm-0 eEECBc text_block flowing_content\"><p>Inspected paragraph 4 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<strong></strong></p></div><figure class=\"EditorialFigure__Figure-sc-1jlutum-0 kwkrVq align_default EmbeddedArticleText__ArticleEditorialImage-sc-7y7thi-2 kTAUuU\"><figcaption class=\"EditorialFigure__Figcaption-sc-1jlutum-1 ecJZvy\"><span>EXCLUDED sentinel.</span></figcaption></figure><figure class=\"EditorialFigure__Figure-sc-1jlutum-0 kwkrVq align_default EmbeddedArticleText__ArticleEditorialImage-sc-7y7thi-2 kTAUuU\"><figcaption class=\"EditorialFigure__Figcaption-sc-1jlutum-1 ecJZvy\"><span>EXCLUDED sentinel.</span></figcaption></figure><figure class=\"EditorialFigure__Figure-sc-1jlutum-0 kwkrVq align_default EmbeddedArticleText__ArticleEditorialImage-sc-7y7thi-2 kTAUuU\"><figcaption class=\"EditorialFigure__Figcaption-sc-1jlutum-1 ecJZvy\"><span>EXCLUDED sentinel.</span></figcaption></figure><hr class=\"Divider__Break-sc-1uc6nm8-0 dZLJRe\"><div class=\"Text__Outer-sc-au2ztm-0 eEECBc text_block flowing_content\"><p>Inspected paragraph 5 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<span class=\"caps\"></span></p></div></div>",
+   "expectedSections": [
+    "Inspected paragraph 1 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.\n\nInspected paragraph 2 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.\n\nInspected paragraph 3 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.\n\nInspected paragraph 4 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose."
+   ]
+  },
+  {
+   "publisher": "BFI",
+   "kind": "archive feature with headings, call to action and divider",
+   "html": "<div class=\"EmbeddedArticleText__TextContent-sc-7y7thi-0 EIeWL\"><h2 class=\"Headline__H2-sc-1w6zxht-2 hlOwUF\">EXCLUDED sentinel.</h2><div class=\"Text__Outer-sc-au2ztm-0 eEECBc text_block flowing_content\"><p>Inspected paragraph 1 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.</p></div><div class=\"Text__Outer-sc-au2ztm-0 eEECBc text_block flowing_content\"><p>Inspected paragraph 2 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<span class=\"caps\"></span><strong></strong></p></div><figure class=\"EditorialFigure__Figure-sc-1jlutum-0 kwkrVq align_default EmbeddedArticleText__ArticleEditorialImage-sc-7y7thi-2 kTAUuU\"><figcaption class=\"EditorialFigure__Figcaption-sc-1jlutum-1 ecJZvy\"><span>EXCLUDED sentinel.</span></figcaption></figure><div class=\"Text__Outer-sc-au2ztm-0 eEECBc text_block flowing_content\"><p>Inspected paragraph 3 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<span class=\"caps\"></span><span class=\"caps\"></span></p></div><div class=\"Text__Outer-sc-au2ztm-0 eEECBc text_block flowing_content\"><p>Inspected paragraph 4 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<span class=\"caps\"></span><span class=\"caps\"></span></p></div><figure class=\"EditorialFigure__Figure-sc-1jlutum-0 kwkrVq align_default EmbeddedArticleText__ArticleEditorialImage-sc-7y7thi-2 kTAUuU\"><figcaption class=\"EditorialFigure__Figcaption-sc-1jlutum-1 ecJZvy\"><span>EXCLUDED sentinel.</span><small class=\"EditorialFigure__Credit-sc-1jlutum-2 kEDIzP\">EXCLUDED sentinel.</small></figcaption></figure><figure class=\"EditorialFigure__Figure-sc-1jlutum-0 kwkrVq align_default EmbeddedArticleText__ArticleEditorialImage-sc-7y7thi-2 kTAUuU\"><figcaption class=\"EditorialFigure__Figcaption-sc-1jlutum-1 ecJZvy\"><span>EXCLUDED sentinel.</span></figcaption></figure><figure class=\"EditorialFigure__Figure-sc-1jlutum-0 kwkrVq align_default EmbeddedArticleText__ArticleEditorialImage-sc-7y7thi-2 kTAUuU\"><figcaption class=\"EditorialFigure__Figcaption-sc-1jlutum-1 ecJZvy\"><span>EXCLUDED sentinel.</span></figcaption></figure><figure class=\"EditorialFigure__Figure-sc-1jlutum-0 kwkrVq align_default EmbeddedArticleText__ArticleEditorialImage-sc-7y7thi-2 kTAUuU\"><figcaption class=\"EditorialFigure__Figcaption-sc-1jlutum-1 ecJZvy\"><span>EXCLUDED sentinel.</span></figcaption></figure><h2 class=\"Headline__H2-sc-1w6zxht-2 hlOwUF\"><span class=\"caps\">EXCLUDED sentinel.</span>EXCLUDED sentinel.</h2><figure class=\"EditorialFigure__Figure-sc-1jlutum-0 kwkrVq align_default EmbeddedArticleText__ArticleEditorialImage-sc-7y7thi-2 kTAUuU\"><figcaption class=\"EditorialFigure__Figcaption-sc-1jlutum-1 ecJZvy\"><span>EXCLUDED sentinel.</span><small class=\"EditorialFigure__Credit-sc-1jlutum-2 kEDIzP\">EXCLUDED sentinel.</small></figcaption></figure><h2 class=\"Headline__H2-sc-1w6zxht-2 hlOwUF\">EXCLUDED sentinel.</h2><figure class=\"EditorialFigure__Figure-sc-1jlutum-0 kwkrVq align_default EmbeddedArticleText__ArticleEditorialImage-sc-7y7thi-2 kTAUuU\"><figcaption class=\"EditorialFigure__Figcaption-sc-1jlutum-1 ecJZvy\"><span>EXCLUDED sentinel.</span></figcaption></figure><figure class=\"EditorialFigure__Figure-sc-1jlutum-0 kwkrVq align_default EmbeddedArticleText__ArticleEditorialImage-sc-7y7thi-2 kTAUuU\"><figcaption class=\"EditorialFigure__Figcaption-sc-1jlutum-1 ecJZvy\"><span>EXCLUDED sentinel.</span><small class=\"EditorialFigure__Credit-sc-1jlutum-2 kEDIzP\">EXCLUDED sentinel.</small></figcaption></figure><div class=\"CallToAction__Outer-sc-1u5870b-0 czAIYQ call_to_action_block\"><a class=\"Button__PrimaryButton-sc-1s3ot19-0 ioMifB\">EXCLUDED sentinel.</a></div><h2 class=\"Headline__H2-sc-1w6zxht-2 hlOwUF\">EXCLUDED sentinel.</h2><figure class=\"EditorialFigure__Figure-sc-1jlutum-0 kwkrVq align_default EmbeddedArticleText__ArticleEditorialImage-sc-7y7thi-2 kTAUuU\"><figcaption class=\"EditorialFigure__Figcaption-sc-1jlutum-1 ecJZvy\"><span>EXCLUDED sentinel.</span></figcaption></figure><hr class=\"Divider__Break-sc-1uc6nm8-0 dZLJRe\"><div class=\"Text__Outer-sc-au2ztm-0 eEECBc text_block flowing_content\"><p>Inspected paragraph 5 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<strong></strong><span class=\"caps\"></span></p></div></div>",
+   "expectedSections": [
+    "Inspected paragraph 1 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.\n\nInspected paragraph 2 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.",
+    "Inspected paragraph 3 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.\n\nInspected paragraph 4 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose."
+   ]
+  },
+  {
+   "publisher": "BFI",
+   "kind": "interview with an article grid module",
+   "html": "<div class=\"EmbeddedArticleText__TextContent-sc-7y7thi-0 EIeWL\"><div class=\"Text__Outer-sc-au2ztm-0 eEECBc text_block flowing_content\"><p>Inspected paragraph 1 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<span class=\"caps\"></span><span class=\"caps\"></span></p></div><div class=\"Text__Outer-sc-au2ztm-0 eEECBc text_block flowing_content\"><p>Inspected paragraph 2 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<a></a></p></div><div class=\"Text__Outer-sc-au2ztm-0 eEECBc text_block flowing_content\"><p>Inspected paragraph 3 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<span class=\"caps\"></span></p></div><div class=\"Text__Outer-sc-au2ztm-0 eEECBc text_block flowing_content\"><p>Inspected paragraph 4 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<strong></strong></p></div><figure class=\"EditorialFigure__Figure-sc-1jlutum-0 kwkrVq align_portrait EmbeddedArticleText__ArticleEditorialImage-sc-7y7thi-2 kTAUuU\"><figcaption class=\"EditorialFigure__Figcaption-sc-1jlutum-1 ecJZvy\"><span>EXCLUDED sentinel.</span></figcaption></figure><figure class=\"EditorialFigure__Figure-sc-1jlutum-0 kwkrVq align_default EmbeddedArticleText__ArticleEditorialImage-sc-7y7thi-2 kTAUuU\"><figcaption class=\"EditorialFigure__Figcaption-sc-1jlutum-1 ecJZvy\"><span>EXCLUDED sentinel.</span><small class=\"EditorialFigure__Credit-sc-1jlutum-2 kEDIzP\">EXCLUDED sentinel.</small></figcaption></figure><div class=\"Text__Outer-sc-au2ztm-0 eEECBc text_block flowing_content\"><p>► EXCLUDED availability sentinel.</p></div><div class=\"ArticleGrid__Outer-sc-j2cf0b-0 guNqtN article_grid_block\"><div class=\"ArticleGrid__Articles-sc-j2cf0b-1 hAQmlt withBackground\"><article class=\"ArticleCardHighlighted__Outer-sc-1jfhrn4-0 xureg articleCardHighlighted false\"><div class=\"ArticleCardHighlighted__Content-sc-1jfhrn4-4 knMqgZ\"><h3 class=\"ArticleCardHighlighted__Heading-sc-1jfhrn4-7 fzDhLQ\">EXCLUDED sentinel.</h3><p class=\"ArticleCardHighlighted__Standfirst-sc-1jfhrn4-8 fJLDFU\">Inspected paragraph 5 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.</p></div><div class=\"ArticleCardHighlighted__PageImageContainer-sc-1jfhrn4-5 jpsyEw\"><div class=\"ArticleCardHighlighted__PageImage-sc-1jfhrn4-6 bwHTSr image\"></div></div><a class=\"ArticleCardHighlighted__CallToAction-sc-1jfhrn4-3 iiNoqT\"><span>EXCLUDED sentinel.</span></a></article></div></div></div>",
+   "expectedSections": [
+    "Inspected paragraph 1 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.\n\nInspected paragraph 2 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.\n\nInspected paragraph 3 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.\n\nInspected paragraph 4 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose."
+   ]
+  },
+  {
+   "publisher": "BFI",
+   "kind": "news item with block quote slices",
+   "html": "<div class=\"EmbeddedArticleText__TextContent-sc-7y7thi-0 EIeWL\"><div class=\"Text__Outer-sc-au2ztm-0 eEECBc text_block flowing_content\"><p>Inspected paragraph 1 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<span class=\"caps\"></span><span class=\"caps\"></span><span class=\"caps\"></span><span class=\"caps\"></span><span class=\"caps\"></span><span class=\"caps\"></span><span class=\"caps\"></span><span class=\"caps\"></span></p></div><div class=\"Text__Outer-sc-au2ztm-0 eEECBc text_block flowing_content\"><p>Inspected paragraph 2 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<span class=\"caps\"></span></p></div><div class=\"Text__Outer-sc-au2ztm-0 eEECBc text_block flowing_content\"><p>Inspected paragraph 3 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<span class=\"caps\"></span><span class=\"caps\"></span></p></div><div class=\"Text__Outer-sc-au2ztm-0 eEECBc text_block flowing_content\"><ol><li>EXCLUDED sentinel.</li><li>EXCLUDED sentinel.</li><li>EXCLUDED sentinel.</li><li>EXCLUDED sentinel.</li><li>EXCLUDED sentinel.</li><li>EXCLUDED sentinel.</li><li>EXCLUDED sentinel.</li><li>EXCLUDED sentinel.</li><li>EXCLUDED sentinel.</li><li>EXCLUDED sentinel.</li><li>EXCLUDED sentinel.</li><li><span class=\"caps\">EXCLUDED sentinel.</span>EXCLUDED sentinel.</li></ol></div><blockquote class=\"Blockquote__Outer-sc-1ht7lfp-0 bHoggk block_quote_slice\"><q class=\"Blockquote__Quote-sc-1ht7lfp-1 bnkTzO\">EXCLUDED sentinel.EXCLUDED sentinel.</q><cite class=\"Blockquote__Citation-sc-1ht7lfp-2 dxCHAT\">EXCLUDED sentinel.</cite></blockquote><blockquote class=\"Blockquote__Outer-sc-1ht7lfp-0 bHoggk block_quote_slice\"><q class=\"Blockquote__Quote-sc-1ht7lfp-1 bnkTzO\">EXCLUDED sentinel.EXCLUDED sentinel.</q><cite class=\"Blockquote__Citation-sc-1ht7lfp-2 dxCHAT\">EXCLUDED sentinel.</cite></blockquote><blockquote class=\"Blockquote__Outer-sc-1ht7lfp-0 bHoggk block_quote_slice\"><q class=\"Blockquote__Quote-sc-1ht7lfp-1 bnkTzO\">EXCLUDED sentinel.EXCLUDED sentinel.</q><cite class=\"Blockquote__Citation-sc-1ht7lfp-2 dxCHAT\">EXCLUDED sentinel.</cite></blockquote><blockquote class=\"Blockquote__Outer-sc-1ht7lfp-0 bHoggk block_quote_slice\"><q class=\"Blockquote__Quote-sc-1ht7lfp-1 bnkTzO\">EXCLUDED sentinel.EXCLUDED sentinel.</q><cite class=\"Blockquote__Citation-sc-1ht7lfp-2 dxCHAT\">EXCLUDED sentinel.</cite></blockquote><div class=\"CallToAction__Outer-sc-1u5870b-0 czAIYQ call_to_action_block\"><a class=\"Button__PrimaryButton-sc-1s3ot19-0 ioMifB\">EXCLUDED sentinel.</a></div></div>",
+   "expectedSections": [
+    "Inspected paragraph 1 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.\n\nInspected paragraph 2 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.\n\nInspected paragraph 3 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose."
+   ]
+  },
+  {
+   "publisher": "Antigone",
+   "kind": "essay with byline, footnote referrers, divider, newsletter and further reading",
+   "html": "<div class=\"entry-content\"><div class=\"pf-content\"><p class=\"has-medium-font-size wp-block-paragraph\">Inspected paragraph 1 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<strong><em></em></strong></p><p class=\"wp-block-paragraph\"></p><p class=\"has-drop-cap has-text-align-justify wp-block-paragraph\">Inspected paragraph 2 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<em></em></p><p class=\"has-text-align-justify wp-block-paragraph\">Inspected paragraph 3 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.</p><div class=\"wp-block-image\"><figure class=\"aligncenter size-large is-resized coblocks-animate\"><figcaption class=\"wp-element-caption\"><em>EXCLUDED sentinel.</em></figcaption></figure></div><p class=\"has-drop-cap has-text-align-justify wp-block-paragraph\">Inspected paragraph 4 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<span class=\"footnote_referrer relative\"><a><sup class=\"footnote_plugin_tooltip_text\" id=\"footnote_plugin_tooltip_41683_1_1\">EXCLUDED sentinel.</sup></a><span class=\"footnote_tooltip position hidden\" id=\"footnote_plugin_tooltip_text_41683_1_1\">EXCLUDED sentinel.<em>EXCLUDED sentinel.</em>EXCLUDED sentinel.</span></span><span class=\"footnote_referrer relative\"><a><sup class=\"footnote_plugin_tooltip_text\" id=\"footnote_plugin_tooltip_41683_1_2\">EXCLUDED sentinel.</sup></a><span class=\"footnote_tooltip position hidden\" id=\"footnote_plugin_tooltip_text_41683_1_2\">EXCLUDED sentinel.<em>EXCLUDED sentinel.</em>EXCLUDED sentinel.<em>EXCLUDED sentinel.</em>EXCLUDED sentinel.</span></span><span class=\"footnote_referrer relative\"><a><sup class=\"footnote_plugin_tooltip_text\" id=\"footnote_plugin_tooltip_41683_1_3\">EXCLUDED sentinel.</sup></a><span class=\"footnote_tooltip position hidden\" id=\"footnote_plugin_tooltip_text_41683_1_3\">EXCLUDED sentinel.</span></span></p><div class=\"wp-block-image\"><figure class=\"aligncenter size-large is-resized coblocks-animate\"><figcaption class=\"wp-element-caption\"><em>EXCLUDED sentinel.</em></figcaption></figure></div><div class=\"wp-block-image\"><figure class=\"aligncenter size-full is-resized coblocks-animate\"><figcaption class=\"wp-element-caption\"><em>EXCLUDED sentinel.</em>EXCLUDED sentinel.<em>EXCLUDED sentinel.</em></figcaption></figure></div><div class=\"wp-block-image\"><figure class=\"aligncenter size-large is-resized coblocks-animate\"><figcaption class=\"wp-element-caption\"><em>EXCLUDED sentinel.</em>EXCLUDED sentinel.<em>EXCLUDED sentinel.</em></figcaption></figure></div><div class=\"wp-block-image\"><figure class=\"aligncenter size-full is-resized coblocks-animate\"><figcaption class=\"wp-element-caption\"><em>EXCLUDED sentinel.</em>EXCLUDED sentinel.<em>EXCLUDED sentinel.</em></figcaption></figure></div><div class=\"wp-block-image\"><figure class=\"aligncenter size-large is-resized coblocks-animate\"><figcaption class=\"wp-element-caption\"><em>EXCLUDED sentinel.<sup>EXCLUDED sentinel.</sup>EXCLUDED sentinel.<sup>EXCLUDED sentinel.</sup>EXCLUDED sentinel.</em></figcaption></figure></div><div class=\"wp-block-image\"><figure class=\"aligncenter size-full is-resized coblocks-animate\"><figcaption class=\"wp-element-caption\"><em>EXCLUDED sentinel.<a><u>EXCLUDED sentinel.</u></a>EXCLUDED sentinel.<a><u>EXCLUDED sentinel.</u></a>EXCLUDED sentinel.</em></figcaption></figure></div><div class=\"wp-block-image\"><figure class=\"aligncenter size-full is-resized coblocks-animate\"><figcaption class=\"wp-element-caption\"><em>EXCLUDED sentinel.</em></figcaption></figure></div><div class=\"wp-block-image\"><figure class=\"aligncenter size-full is-resized coblocks-animate\"><figcaption class=\"wp-element-caption\"><em>EXCLUDED sentinel.<a><u>EXCLUDED sentinel.</u></a>EXCLUDED sentinel.</em></figcaption></figure></div><div class=\"wp-block-image\"><figure class=\"aligncenter size-large is-resized coblocks-animate\"><figcaption class=\"wp-element-caption\"><em>EXCLUDED sentinel.</em></figcaption></figure></div><div class=\"wp-block-image\"><figure class=\"aligncenter size-large is-resized coblocks-animate\"><figcaption class=\"wp-element-caption\"><em>EXCLUDED sentinel.</em></figcaption></figure></div><div class=\"wp-block-image\"><figure class=\"aligncenter size-full is-resized coblocks-animate\"><figcaption class=\"wp-element-caption\"><em>EXCLUDED sentinel.</em></figcaption></figure></div><div class=\"wp-block-image\"><figure class=\"aligncenter size-full is-resized coblocks-animate\"><figcaption class=\"wp-element-caption\"><em>EXCLUDED sentinel.</em></figcaption></figure></div><div class=\"wp-block-image\"><figure class=\"aligncenter size-full is-resized coblocks-animate\"><figcaption class=\"wp-element-caption\"><em>EXCLUDED sentinel.<sup>EXCLUDED sentinel.</sup>EXCLUDED sentinel.</em></figcaption></figure></div><div class=\"wp-block-image is-style-rounded\"><figure class=\"aligncenter size-full is-resized coblocks-animate\"></figure></div><hr class=\"wp-block-separator has-alpha-channel-opacity\"><p class=\"has-text-align-justify has-medium-font-size wp-block-paragraph\">Inspected paragraph 5 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<em><a></a><a></a></em><em></em></p><hr class=\"wp-block-separator has-alpha-channel-opacity\"><h1 class=\"wp-block-heading has-medium-font-size\"><strong>EXCLUDED sentinel.</strong></h1><p class=\"has-text-align-justify wp-block-paragraph\">Inspected paragraph 6 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<em></em><sup></sup></p><p class=\"has-text-align-justify wp-block-paragraph\">Inspected paragraph 7 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<em></em></p><p class=\"has-text-align-justify wp-block-paragraph\">Inspected paragraph 8 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<em></em></p><p class=\"has-text-align-justify wp-block-paragraph\">Inspected paragraph 9 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<em></em></p><p class=\"has-text-align-justify wp-block-paragraph\">Inspected paragraph 10 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<em></em><em></em></p><div class=\"printfriendly pf-button pf-button-content pf-alignright\"><a><span class=\"pf-button-text\" id=\"printfriendly-text2\">EXCLUDED sentinel.</span></a></div></div><div class=\"sharedaddy sd-sharing-enabled\"><div class=\"robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing\"><h3 class=\"sd-title\">EXCLUDED sentinel.</h3><div class=\"sd-content\"><ul><li class=\"share-twitter\"><a class=\"share-twitter sd-button share-icon\"><span id=\"sharing-twitter-41683\">EXCLUDED sentinel.</span><span>EXCLUDED sentinel.</span></a></li><li class=\"share-facebook\"><a class=\"share-facebook sd-button share-icon\"><span id=\"sharing-facebook-41683\">EXCLUDED sentinel.</span><span>EXCLUDED sentinel.</span></a></li><li class=\"share-end\"></li></ul></div></div></div><div class=\"speaker-mute footnotes_reference_container\"><div class=\"footnote_container_prepare\"><p>Inspected paragraph 11 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<span class=\"footnote_reference_container_label pointer\"></span><span class=\"footnote_reference_container_collapse_button\"><a id=\"footnote_reference_container_collapse_button_41683_1\"></a></span></p></div><div id=\"footnote_references_container_41683_1\"><table class=\"footnotes_table footnote-reference-container\"><caption class=\"accessibility\">EXCLUDED sentinel.</caption><tbody><tr class=\"footnotes_plugin_reference_row\"><th class=\"footnote_plugin_index_combi pointer\"><a class=\"footnote_backlink\" id=\"footnote_plugin_reference_41683_1_1\"><span class=\"footnote_index_arrow\">EXCLUDED sentinel.</span>EXCLUDED sentinel.</a></th><td class=\"footnote_plugin_text\">EXCLUDED sentinel.<em>EXCLUDED sentinel.</em>EXCLUDED sentinel.</td></tr><tr class=\"footnotes_plugin_reference_row\"><th class=\"footnote_plugin_index_combi pointer\"><a class=\"footnote_backlink\" id=\"footnote_plugin_reference_41683_1_2\"><span class=\"footnote_index_arrow\">EXCLUDED sentinel.</span>EXCLUDED sentinel.</a></th><td class=\"footnote_plugin_text\">EXCLUDED sentinel.<em>EXCLUDED sentinel.</em>EXCLUDED sentinel.<em>EXCLUDED sentinel.</em>EXCLUDED sentinel.</td></tr></tbody></table></div></div></div>",
+   "expectedSections": [
+    "Inspected paragraph 2 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.\n\nInspected paragraph 3 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.",
+    "Inspected paragraph 4 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose."
+   ]
+  },
+  {
+   "publisher": "Antigone",
+   "kind": "essay with medium-size subheadings",
+   "html": "<div class=\"entry-content\"><div class=\"pf-content\"><p class=\"has-medium-font-size wp-block-paragraph\">Inspected paragraph 1 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<strong><em></em></strong></p><p class=\"wp-block-paragraph\"></p><p class=\"has-drop-cap has-text-align-justify wp-block-paragraph\">Inspected paragraph 2 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<em></em></p><p class=\"has-text-align-justify wp-block-paragraph\">Inspected paragraph 3 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.</p><div class=\"wp-block-image\"><figure class=\"aligncenter size-full is-resized coblocks-animate\"><figcaption class=\"wp-element-caption\"><em>EXCLUDED sentinel.</em></figcaption></figure></div><p class=\"has-medium-font-size wp-block-paragraph\">Inspected paragraph 4 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<strong></strong></p><p class=\"has-drop-cap has-text-align-justify wp-block-paragraph\">Inspected paragraph 5 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.</p><div class=\"wp-block-image\"><figure class=\"aligncenter size-full is-resized\"><figcaption class=\"wp-element-caption\"><em>EXCLUDED sentinel.</em></figcaption></figure></div><div class=\"wp-block-image\"><figure class=\"aligncenter size-full is-resized coblocks-animate\"><figcaption class=\"wp-element-caption\"><em>EXCLUDED sentinel.</em></figcaption></figure></div><p class=\"has-medium-font-size wp-block-paragraph\">Inspected paragraph 6 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<strong></strong></p><div class=\"wp-block-image\"><figure class=\"aligncenter size-full is-resized coblocks-animate\"><figcaption class=\"wp-element-caption\"><em>EXCLUDED sentinel.</em>EXCLUDED sentinel.</figcaption></figure></div><div class=\"wp-block-image\"><figure class=\"aligncenter size-full is-resized coblocks-animate\"><figcaption class=\"wp-element-caption\"><em>EXCLUDED sentinel.<sup>EXCLUDED sentinel.</sup>EXCLUDED sentinel.</em></figcaption></figure></div><p class=\"has-medium-font-size wp-block-paragraph\">Inspected paragraph 7 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<strong></strong></p><div class=\"wp-block-image\"><figure class=\"aligncenter size-full is-resized coblocks-animate\"><figcaption class=\"wp-element-caption\"><em>EXCLUDED sentinel.</em></figcaption></figure></div><p class=\"has-medium-font-size wp-block-paragraph\">Inspected paragraph 8 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<strong></strong></p><div class=\"wp-block-image\"><figure class=\"aligncenter size-full is-resized coblocks-animate\"><figcaption class=\"wp-element-caption\"><em>EXCLUDED sentinel.</em></figcaption></figure></div><div class=\"wp-block-image\"><figure class=\"aligncenter size-full is-resized coblocks-animate\"><figcaption class=\"wp-element-caption\"><em>EXCLUDED sentinel.</em></figcaption></figure></div><p class=\"has-medium-font-size wp-block-paragraph\">Inspected paragraph 9 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<strong></strong></p><div class=\"wp-block-image\"><figure class=\"aligncenter size-large is-resized\"><figcaption class=\"wp-element-caption\"><em>EXCLUDED sentinel.</em></figcaption></figure></div><p class=\"has-medium-font-size wp-block-paragraph\">Inspected paragraph 10 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<strong></strong></p><div class=\"wp-block-image is-style-rounded\"><figure class=\"aligncenter size-large is-resized coblocks-animate\"></figure></div><hr class=\"wp-block-separator has-alpha-channel-opacity\"><p class=\"has-text-align-justify has-medium-font-size wp-block-paragraph\">Inspected paragraph 11 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<em><a></a></em></p><hr class=\"wp-block-separator has-alpha-channel-opacity\"><p class=\"has-medium-font-size wp-block-paragraph\">Inspected paragraph 12 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<strong></strong><strong></strong></p><p class=\"has-text-align-justify wp-block-paragraph\">Inspected paragraph 13 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<em></em><em></em><em></em><em></em></p><p class=\"wp-block-paragraph\">Inspected paragraph 14 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<em></em><em></em></p><p class=\"has-text-align-justify wp-block-paragraph\">Inspected paragraph 15 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<em></em></p><p class=\"wp-block-paragraph\">Inspected paragraph 16 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<em></em></p><p class=\"has-text-align-justify wp-block-paragraph\">Inspected paragraph 17 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<em></em></p><p class=\"has-text-align-justify wp-block-paragraph\">Inspected paragraph 18 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<em></em></p><p class=\"has-text-align-justify wp-block-paragraph\">Inspected paragraph 19 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.<em></em><em></em></p><p class=\"wp-block-paragraph\"></p><div class=\"printfriendly pf-button pf-button-content pf-alignright\"><a><span class=\"pf-button-text\" id=\"printfriendly-text2\">EXCLUDED sentinel.</span></a></div></div><div class=\"sharedaddy sd-sharing-enabled\"><div class=\"robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing\"><h3 class=\"sd-title\">EXCLUDED sentinel.</h3><div class=\"sd-content\"><ul><li class=\"share-twitter\"><a class=\"share-twitter sd-button share-icon\"><span id=\"sharing-twitter-41452\">EXCLUDED sentinel.</span><span>EXCLUDED sentinel.</span></a></li><li class=\"share-facebook\"><a class=\"share-facebook sd-button share-icon\"><span id=\"sharing-facebook-41452\">EXCLUDED sentinel.</span><span>EXCLUDED sentinel.</span></a></li><li class=\"share-end\"></li></ul></div></div></div></div>",
+   "expectedSections": [
+    "Inspected paragraph 2 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.\n\nInspected paragraph 3 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose.",
+    "Inspected paragraph 5 keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose."
+   ]
+  }
+ ]
+}

@@ -1,9 +1,9 @@
 // @vitest-environment node
 import { describe, expect, it, vi } from "vitest";
 import { writerFixture } from "./helpers/transport";
-import { generateEditorial } from "../editorial/generate";
+import { EDITORIAL_MAX_SHELF_PAGES, generateEditorial } from "../editorial/generate";
 import { prepareEvidence } from "../editorial/evidence";
-import { orderOfferCandidates, PREFERRED_TOPICS } from "../editorial/offerOrder";
+import { orderOfferCandidates, paceShelf, PREFERRED_TOPICS } from "../editorial/offerOrder";
 import type { SourcePacket } from "../editorial/sources";
 
 vi.mock("../editorial/review", async importOriginal => ({
@@ -42,6 +42,16 @@ describe("offer ordering", () => {
     expect(orderOfferCandidates([feedShort, feedLong, shelf], empty).map(p => p.id)).toEqual(["shelf", "feed-long", "feed-short"]);
     const offered = { ...empty, offersBySource: new Map([["shelf", 1]]) };
     expect(orderOfferCandidates([feedShort, feedLong, shelf], offered).map(p => p.id)).toEqual(["feed-long", "feed-short", "shelf"]);
+  });
+
+  it("paces shelf pages round-robin across topics, keeps revisions first and never drops feed candidates", () => {
+    const shelf = (id: string, topic: string) => packet(id, topic, { evergreen: true, publishedAt: undefined });
+    const ordered = [shelf("sop-1", "the_sopranos"), shelf("sop-2", "the_sopranos"), packet("feed", "the_sopranos"),
+      shelf("myth-1", "greek_roman_mythology"), shelf("phil-1", "philosophy"), packet("news", "world")];
+    expect(paceShelf(ordered, 3).map(p => p.id)).toEqual(["sop-1", "feed", "myth-1", "phil-1", "news"]);
+    expect(paceShelf(ordered, 1, new Set(["sop-2"])).map(p => p.id)).toEqual(["sop-2", "feed", "news"]);
+    expect(paceShelf(ordered, 0).map(p => p.id)).toEqual(["feed", "news"]);
+    expect(paceShelf(ordered, -1).map(p => p.id)).toEqual(["feed", "news"]);
   });
 
   it("lets callers keep their within-topic order; the default still prefers the longest excerpt", () => {
@@ -88,5 +98,34 @@ describe("generation offers", () => {
     // A preference, not a quota: news topics still publish, and publisher limits still apply.
     expect(topics.filter(topic => !PREFERRED_TOPICS.includes(topic)).length).toBeGreaterThan(0);
     expect(new Set(items.flatMap(item => item.editorial!.sources.map(source => source.url))).size).toBe(items.length);
+  });
+
+  it("paces the finite shelf: one edition publishes at most the shelf cap and offers no more than it may still use", async () => {
+    const manyShelf = [...PREFERRED_TOPICS, "movies"].flatMap(topic => [1, 2, 3].map(n => packet(`${topic}-shelf-${n}`, topic, { evergreen: true, publishedAt: undefined })));
+    const shelfIds = new Set(manyShelf.map(p => p.title));
+    let acceptedShelf = 0;
+    const fetchImpl: typeof fetch = async (_url, init) => {
+      const request = JSON.parse(String(init?.body));
+      const input = JSON.parse(request.messages[1].content.split("\n\nYour previous")[0]);
+      const offeredShelf = input.sources.filter((source: { title: string }) => shelfIds.has(source.title));
+      expect(offeredShelf.length).toBeLessThanOrEqual(EDITORIAL_MAX_SHELF_PAGES - acceptedShelf);
+      // A writer that always prefers shelf pages, so only pacing can hold it back.
+      const chosen = [...offeredShelf, ...input.sources.filter((source: { title: string }) => !shelfIds.has(source.title))].slice(0, input.maxPosts);
+      acceptedShelf += chosen.filter((source: { title: string }) => shelfIds.has(source.title)).length;
+      const posts = chosen.map((source: { title: string; evidence: { id: string }[] }) => ({
+        format: "explainer", title: source.title, body: "The source documents the episode in detail.", topic: null, spoilers: null,
+        evidenceIds: [source.evidence[0].id],
+        discussion: [
+          { voice: "Take", body: "The documented sequence is the useful part.", evidenceIds: [source.evidence[0].id] },
+          { voice: "Pushback", body: "One documented episode is still only one episode.", evidenceIds: [source.evidence[0].id] },
+        ],
+      }));
+      return new Response(JSON.stringify({ model: "test/resolved", choices: [{ finish_reason: "stop", message: { content: JSON.stringify(writerFixture({ posts })) } }] }));
+    };
+    const items = await generateEditorial("secret", [...news, ...manyShelf], now, "paced", [], { fetchImpl });
+    const shelfItems = items.filter(item => item.editorial!.sources.some(source => shelfIds.has(source.title)));
+    expect(shelfItems).toHaveLength(EDITORIAL_MAX_SHELF_PAGES);
+    // Pacing never starves the rest of the edition.
+    expect(items.length).toBeGreaterThan(EDITORIAL_MAX_SHELF_PAGES);
   });
 });

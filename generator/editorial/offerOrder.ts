@@ -41,3 +41,20 @@ export function orderOfferCandidates(packets: readonly SourcePacket[], state: Of
       || compare(sourceKey(a.packet), sourceKey(b.packet)) || a.index - b.index)
     .map(entry => entry.packet);
 }
+
+/**
+ * Shelf pacing (October 23, 2026): keep at most `allowance` shelf pages in an ordered
+ * offer, taking each topic's first page before any topic's second, as per-topic
+ * round-robin evidence preparation would. Pending revisions keep their place first.
+ * Feed candidates are untouched, and dropped pages stay available to later editions.
+ */
+export function paceShelf(ordered: readonly SourcePacket[], allowance: number, priorityIds: ReadonlySet<string> = new Set()): SourcePacket[] {
+  const perTopic = new Map<string, number>();
+  const allowed = new Set(ordered.flatMap((packet, index) => {
+    if (!packet.evergreen) return [];
+    const rank = perTopic.get(packet.topic) ?? 0;
+    perTopic.set(packet.topic, rank + 1);
+    return [{ id: packet.id, key: [priorityIds.has(packet.id) ? 0 : 1, rank, index] }];
+  }).sort((a, b) => compare(a.key, b.key)).slice(0, Math.max(0, allowance)).map(entry => entry.id));
+  return ordered.filter(packet => !packet.evergreen || allowed.has(packet.id));
+}
