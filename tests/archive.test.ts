@@ -59,10 +59,17 @@ describe("permanent articles", () => {
         expect(image.readUInt32BE(16)).toBe(1200);
         expect(image.readUInt32BE(20)).toBe(630);
         expect(JSON.parse(readFileSync(path.join(root, "dist/p", slug, "article.json"), "utf8"))).toEqual(expected);
-        if (expected === legacy) {
+        if (expected === legacy) expect(html).toContain('property="og:description" content="A spoiler-protected CoBanter article. Open to read."');
+        if (slug === legacy.slug) {
+          // The old address is a small redirect page, not a second copy of the article.
+          expect(html).toContain(`<meta http-equiv="refresh" content="0; url=${url}">`);
+          expect(html).toContain(`location.replace(${JSON.stringify(articlePath(legacy, base))} + location.search + location.hash)`);
+          expect(html).not.toContain("PRIVATE SPOILER BODY");
+          expect(html).not.toContain("application/ld+json");
+          expect(html.length).toBeLessThan(4_000);
+        } else if (expected === legacy) {
           expect(html).toContain('<details class="spoiler-gate"><summary>Show spoilers</summary><div class="post-card-body"><p>PRIVATE SPOILER BODY');
           expect(html).toContain('<div data-nosnippet><details class="spoiler-gate">');
-          expect(html).toContain('property="og:description" content="A spoiler-protected CoBanter article. Open to read."');
         }
       }
       const oldHtml = readFileSync(path.join(root, "dist/p", legacy.slug, "index.html"), "utf8");
@@ -87,7 +94,7 @@ describe("permanent articles", () => {
       expect(home).toContain(`href="${articlePath(legacy, base)}"`);
       expect(home).toContain(`href="${topicPath(legacy.community, base)}"`);
       expect(home).toContain('<details class="spoiler-gate"><summary>Show spoilers</summary><div class="post-card-body"><p>PRIVATE SPOILER BODY');
-      const schema = JSON.parse(oldHtml.match(/<script id="page-structured-data" type="application\/ld\+json">([\s\S]*?)<\/script>/)![1]);
+      const schema = JSON.parse(newHtml.match(/<script id="page-structured-data" type="application\/ld\+json">([\s\S]*?)<\/script>/)![1]);
       expect(schema["@type"]).toBe("Article");
       expect(schema.url).toBe(`https://cobanter.com${articlePath(legacy, base)}`);
       expect(schema.author).toEqual({ "@type": "Organization", name: "CoBanter", url: `https://cobanter.com${base}` });
@@ -96,6 +103,7 @@ describe("permanent articles", () => {
       expect(JSON.stringify(schema)).not.toContain("PRIVATE SPOILER BODY");
       expect(oldHtml.match(/rel="canonical"/g)).toHaveLength(1);
       expect(oldHtml.match(/name="description"/g)).toHaveLength(1);
+      expect(newHtml.match(/rel="canonical"/g)).toHaveLength(1);
       expect(readFileSync(path.join(root, "dist/404.html"), "utf8")).toContain('name="robots" content="noindex, follow"');
       // A future stored address must never overwrite another article's short alias.
       const collision = { ...fresh, slug: articleRouteSlug(legacy) };

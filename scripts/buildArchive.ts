@@ -82,6 +82,14 @@ export function articleMarkup(item: FeedItem, base: string, related?: RelatedRea
   return staticPage(base, `<section class="article-shell"><a class="back-link" href="${base}">← Back to feed</a>${article}${related ? relatedMarkup(related, base) : ""}</section>`, { mainClass: "app-main--article", topic: item.community });
 }
 
+/** A permanent old address: the article's own sharing metadata and canonical link
+ * (social crawlers don't follow redirects), an instant same-origin script redirect
+ * that keeps the query and fragment, and a meta refresh plus link without JavaScript. */
+export function redirectPage(metadata: PageMetadata, path: string): string {
+  const url = escape(metadata.url!);
+  return `<!doctype html><html lang="en"><head><meta charset="utf-8">${renderMetadata({ ...metadata, structuredData: undefined })}<meta http-equiv="refresh" content="0; url=${url}"><script>location.replace(${inlineJson(path)} + location.search + location.hash)</script></head><body><p>This article has moved to <a href="${url}">${url}</a>.</p></body></html>`;
+}
+
 function postSummary(item: FeedItem, base: string): string {
   const editorial = item.editorial!;
   return `<article class="post-card"><div class="post-card-meta"><span class="format-label format-label--${escape(editorial.format)}">${escape(FORMAT_LABELS[editorial.format])}</span><a class="post-card-community" href="${topicPath(item.community, base)}">${escape(topicLabel(item.community))}</a></div><h2 class="post-card-title"><a href="${articlePath(item, base)}">${escape(item.title ?? "Article")}</a></h2><p class="article-byline">AI-written · ${dateMarkup(item.createdAt, true)}</p>${readingMarkup(item)}<p><a href="${articlePath(item, base)}">Full article and original sources</a></p></article>`;
@@ -143,12 +151,15 @@ export function buildArchive(root = process.cwd()) {
     urls.push(absoluteUrl(articlePath(item, base), site));
     const related = relatedReading(item, topicArticles.get(item.community) ?? [], base);
     const preview = writeArticlePreview(item, dist, base, origin);
-    const html = buildPage(articleMetadata(item, site, preview), articleMarkup(item, base, related), `<script id="article-data" type="application/json">${inlineJson({ ...item, slug })}</script>`, false, item.community);
-    // Retain old addresses as complete pages with the short canonical/sharing URL.
-    for (const route of new Set([articleRouteSlug(item), slug])) {
+    const metadata = articleMetadata(item, site, preview);
+    const html = buildPage(metadata, articleMarkup(item, base, related), `<script id="article-data" type="application/json">${inlineJson({ ...item, slug })}</script>`, false, item.community);
+    const canonicalRoute = articleRouteSlug(item);
+    // Old stored-slug addresses keep resolving through a small redirect page rather
+    // than a second full copy, which roughly halved each article's HTML footprint.
+    for (const route of new Set([canonicalRoute, slug])) {
       const directory = path.join(dist, "p", route);
       mkdirSync(directory, { recursive: true });
-      writeFileSync(path.join(directory, "index.html"), html);
+      writeFileSync(path.join(directory, "index.html"), route === canonicalRoute ? html : redirectPage(metadata, articlePath(item, base)));
       // Small direct payload supports client-side navigation without loading old batches.
       writeFileSync(path.join(directory, "article.json"), JSON.stringify({ ...item, slug }));
       writeFileSync(path.join(directory, "related.json"), JSON.stringify(related));
@@ -219,7 +230,9 @@ export function buildArchive(root = process.cwd()) {
     return sum + (info.isDirectory() ? bytes(file) : info.size);
   }, 0);
   const total = bytes(dist);
-  console.log(`[archive] ${articles.length} permanent articles; ${TOPICS.length} topic pages; ${(total / 1024 / 1024).toFixed(2)} MiB deployed output; ${INDEX_PAGE_SIZE} batch refs per index page.`);
-  if (total > 750 * 1024 * 1024) console.warn("[archive] Capacity review needed: output exceeds 750 MiB. Preserve all content; plan additional capacity.");
+  const perArticle = articles.length ? ` (${(total / articles.length / 1024).toFixed(1)} KiB per article)` : "";
+  console.log(`[archive] ${articles.length} permanent articles; ${TOPICS.length} topic pages; ${(total / 1024 / 1024).toFixed(2)} MiB deployed output${perArticle}; ${INDEX_PAGE_SIZE} batch refs per index page.`);
+  // GitHub Pages publishes at most 1 GB per site.
+  if (total > 750 * 1024 * 1024) console.warn("[archive] Capacity review needed: output exceeds 750 MiB of GitHub Pages' 1 GB site limit. Preserve all content; plan additional capacity.");
 }
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) buildArchive();

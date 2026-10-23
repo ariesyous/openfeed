@@ -4,7 +4,9 @@ import { mkdtempSync, readFileSync, readdirSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
 import { BatchFileSchema, ManifestSchema } from "../schemas";
+import { createCanvas, loadImage } from "@napi-rs/canvas";
 import { layoutPreviewTitle, previewContent, renderArticlePreview, writeArticlePreview } from "../scripts/articlePreview";
+import { encodePalettePng } from "../scripts/palettePng";
 
 const manifest = ManifestSchema.parse(JSON.parse(readFileSync("public/data/manifest.json", "utf8")));
 const items = manifest.batches.flatMap(ref => BatchFileSchema.parse(JSON.parse(readFileSync(`public/data/${ref.file}`, "utf8"))).items.filter(item => item.editorial));
@@ -43,8 +45,27 @@ describe("article sharing images", () => {
         expect(png.subarray(0, 8).toString("hex")).toBe("89504e470d0a1a0a");
         expect(png.readUInt32BE(16)).toBe(1200);
         expect(png.readUInt32BE(20)).toBe(630);
-        expect(png.length).toBeLessThan(300_000);
+        expect(png[25]).toBe(3); // indexed colour keeps the deployed archive small
+        expect(png.length).toBeLessThan(40_000);
       }
     } finally { rmSync(dist, { recursive: true, force: true }); }
+  });
+
+  it("palette encoding keeps flat colours exact and maps rare blends to the nearest kept colour", async () => {
+    const width = 20, height = 20, data = new Uint8ClampedArray(width * height * 4);
+    for (let i = 0; i < width * height; i++) {
+      // 300 distinct colours: pixels 0–299 unique, the rest one flat background.
+      data.set(i < 300 ? [i % 256, Math.floor(i / 256) * 100, 50, 255] : [16, 18, 21, 255], i * 4);
+    }
+    const decoded = await loadImage(encodePalettePng(data, width, height));
+    const ctx = createCanvas(width, height).getContext("2d");
+    ctx.drawImage(decoded, 0, 0);
+    const pixels = ctx.getImageData(0, 0, width, height).data;
+    expect([...pixels.subarray(399 * 4, 400 * 4)]).toEqual([16, 18, 21, 255]);
+    for (let i = 0; i < 300; i++) {
+      const distance = Math.hypot(pixels[i * 4] - data[i * 4], pixels[i * 4 + 1] - data[i * 4 + 1], pixels[i * 4 + 2] - data[i * 4 + 2]);
+      expect(distance).toBeLessThanOrEqual(45);
+    }
+    expect(() => encodePalettePng(new Uint8ClampedArray(4), 1, 1)).toThrow(/opaque/);
   });
 });

@@ -16,7 +16,7 @@ This direction supersedes the original fictional-world specification.
 - `editorial/generate.ts`: validates citations/evidence, enriches source metadata.
 - `editorial/state.ts`: tracks covered source URLs, never invented storylines.
 - `generator/publish.ts`: sole validated writer for public data and world state.
-- `.github/workflows/generate.yml`: manual model selection plus enabled schedule every three hours using deepseek/deepseek-v4.1-flash-1017.
+- `.github/workflows/generate.yml`: manual dispatch plus an hourly cron gated to one edition about every three hours, using deepseek/deepseek-v4.1-flash-1017.
 - `.github/workflows/deploy.yml`: validates, builds, and deploys pushes to main.
 
 The old bootstrap/advanceWorld modules and `scripts/seed/` are historical code, not the
@@ -575,3 +575,20 @@ hours (130-minute job timeout); the 32-call budget and twenty-post ceiling are
 unchanged, so the longer deadline adds headroom, not volume. These
 are small synthetic samples, not ordinary-yield or accuracy proof. Earlier model
 identities in docs and audits stay historical.
+
+## Site size and reliable cadence — October 23, 2026
+GitHub Pages publishes at most 1 GB per site; the October 22 deploy was 251 MiB for
+2,696 articles (93 KiB each), on course for the limit by early 2027. Share images are
+now 8-bit palette PNGs (`scripts/palettePng.ts`, about a third of the size, visually
+identical), and old stored-slug addresses are small redirect pages that keep the
+article's sharing metadata, canonical link, query and fragment instead of second full
+copies. Their `article.json`/`related.json` stay for in-app navigation. The same
+archive built to 122.6 MiB (46.6 KiB per article). Every old URL must keep resolving;
+never delete routes to save space. Output is still finite: at eight 20-post editions a
+day the 1 GB limit is about mid-February 2027 (docs/site-experience.md), so plan
+hosting capacity rather than removing content.
+GitHub created only about half the old `17 */3` scheduled runs, often late. The cron
+is now hourly and a gate job skips scheduled runs within 150 minutes of the newest
+edition's `generatedAt` (manual dispatch always runs), restoring the requested
+three-hour cadence. This is roughly twice the observed real API spend; never raise
+billing or key limits automatically.

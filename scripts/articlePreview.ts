@@ -2,10 +2,11 @@ import { createHash } from "node:crypto";
 import { mkdirSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { createCanvas, GlobalFonts, type SKRSContext2D } from "@napi-rs/canvas";
+import { createCanvas, GlobalFonts, type Canvas, type SKRSContext2D } from "@napi-rs/canvas";
 import type { FeedItem } from "../schemas";
 import { articleRouteSlug } from "../shared/articles";
 import { topicLabel } from "../shared/topics";
+import { encodePalettePng } from "./palettePng";
 
 export const PREVIEW_WIDTH = 1200;
 export const PREVIEW_HEIGHT = 630;
@@ -60,6 +61,11 @@ export function layoutPreviewTitle(title: string) {
     }
   }
   throw new Error("Article preview headline does not fit");
+}
+
+function palettePng(canvas: Canvas): Buffer {
+  const pixels = canvas.getContext("2d").getImageData(0, 0, PREVIEW_WIDTH, PREVIEW_HEIGHT);
+  return encodePalettePng(pixels.data, PREVIEW_WIDTH, PREVIEW_HEIGHT);
 }
 
 /** Shared branded frame: header mark, rules and footer. Returns the canvas to finish. */
@@ -118,7 +124,7 @@ export function renderArticlePreview(item: FeedItem): Buffer {
   ctx.font = `700 ${layout.fontSize}px "${FAMILY}"`;
   ctx.fillStyle = "#e9edf3";
   layout.lines.forEach((line, index) => ctx.fillText(line, 72, 248 + layout.fontSize + index * layout.lineHeight));
-  return canvas.encodeSync("png");
+  return palettePng(canvas);
 }
 
 /** Home and topic pages: a headline plus a short description, no article content. */
@@ -136,7 +142,7 @@ export function renderCollectionPreview(page: { eyebrow: string; title: string; 
   const subtitle = wrapText(ctx, page.subtitle, 1056).slice(0, 2);
   const top = 248 + layout.lines.length * layout.lineHeight + 34;
   subtitle.forEach((line, index) => { if (top + index * 34 < 520) ctx.fillText(line, 72, top + index * 34); });
-  return canvas.encodeSync("png");
+  return palettePng(canvas);
 }
 
 function writePreview(png: Buffer, name: string, dist: string, base: string, origin: string) {

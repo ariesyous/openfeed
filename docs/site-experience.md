@@ -72,6 +72,33 @@ no model calls in the browser.
 - Cards and Search are code-split with `React.lazy`. Batch fetches keep
   revalidating, because corrections can rewrite batch files in place.
 
+## Deploy size (October 23, 2026)
+
+GitHub Pages publishes at most 1 GB per site. Every article ships a share image and
+static pages, so output grows with the permanent archive.
+
+| Build of the same 2,696 articles | Deployed output | Per article |
+| --- | --- | --- |
+| Before (October 22 deploy) | 251.2 MiB | ~93 KiB |
+| Palette share images + old-address redirect pages | 122.6 MiB | 46.6 KiB |
+
+- `scripts/palettePng.ts` writes share images as opaque 8-bit indexed PNGs. Each image
+  has about 650 colours (flat areas plus text antialiasing). The 256 most frequent stay
+  exact and the rest map to their nearest kept colour: 59–78 KB became 21–28 KB with no
+  visible difference. Encoding is deterministic, so content-hashed URLs stay stable.
+- 2,382 older articles have a stored long slug as well as the short canonical route.
+  That address is now a ~3 KB page with the article's sharing tags, canonical link,
+  an instant same-origin redirect that keeps the query and fragment, and a meta
+  refresh. Both routes keep `article.json` and `related.json`.
+- After this change, images are about 63 MiB, canonical article HTML about 36 MiB and
+  article JSON about 14 MiB. The build log prints KiB per article. PNG row filters
+  and other deflate strategies were tried and saved under 1%.
+- This buys time, not unlimited capacity. At the configured 8 editions × 20 posts a
+  day (about 7.3 MiB/day), the 750 MiB warning arrives around mid-January 2027 and
+  1 GB around mid-February 2027; at the ~80 posts/day actually observed in October,
+  about twice as long. A hosting decision that keeps every permalink is needed before
+  then. Never delete content or routes to save space.
+
 ## Not done
 
 - No newsletter, analytics change (Cloudflare Web Analytics already runs), service

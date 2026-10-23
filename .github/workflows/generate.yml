@@ -1,9 +1,11 @@
 name: Generate sourced feed
 
-# Generation every three hours, as requested by the user.
+# Generation every three hours, as requested by the user. GitHub drops or delays many
+# scheduled runs (about half of the old `17 */3` slots never ran), so the cron fires
+# hourly and the gate below skips any scheduled run within 150 minutes of the last edition.
 on:
   schedule:
-    - cron: "17 */3 * * *"
+    - cron: "17 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -17,7 +19,40 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Manual runs always generate. A scheduled run generates only when the newest
+  # published edition started at least 150 minutes ago: on-time :17 runs stay three
+  # hours apart, and a start delayed by up to 30 minutes still lets the next slot run.
+  # An empty or failed run never updates the manifest, so the next hourly slot retries.
+  # The workflow-level concurrency group means a queued run reads main after the
+  # previous run's push.
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.gate.outputs.run }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+          sparse-checkout: public/data/manifest.json
+          sparse-checkout-cone-mode: false
+
+      - id: gate
+        env:
+          EVENT: ${{ github.event_name }}
+        run: |
+          node -e '
+            // The newest edition, not the manifest time, which corrections also rewrite.
+            const { batches } = JSON.parse(require("fs").readFileSync("public/data/manifest.json", "utf8"));
+            const generatedAt = batches.map(batch => batch.generatedAt).sort().at(-1);
+            const minutes = (Date.now() - Date.parse(generatedAt)) / 60000;
+            const run = process.env.EVENT !== "schedule" || !(minutes < 150);
+            console.log(`Latest edition ${generatedAt}, ${Math.round(minutes)} minutes ago; ${run ? "generating" : "skipping until 150 minutes"}.`);
+            require("fs").appendFileSync(process.env.GITHUB_OUTPUT, `run=${run}\n`);
+          '
+
   generate:
+    needs: gate
+    if: needs.gate.outputs.run == 'true'
     runs-on: ubuntu-latest
     # At most two posts per request, twenty per edition, 32 total writer/reviewer attempts.
     # Generation has a shared two-hour budget, leaving time to publish and deploy.
