@@ -5,6 +5,7 @@ import { ARTICLE_FETCH_CONCURRENCY, collectArticleContext, contextCandidates, MA
 import { prepareEvidence } from "../editorial/evidence";
 import { collectSources, parseSourceFeed, SOURCE_FEEDS, type SourcePacket } from "../editorial/sources";
 import { coverageTitle } from "../editorial/coverage";
+import layouts from "../../docs/fixtures/lasting-feed-review-20261023.json";
 
 // Synthetic prose in reduced, inspected publisher layouts; no copied full articles.
 const opening = "The workshop faced a practical problem when the flexible wall had to move underwater. The designers tested several materials before choosing a layered construction. Their first prototype survived repeated movement, although the trial did not establish how it would behave during a longer production. That limitation remained part of the team's assessment.";
@@ -27,6 +28,8 @@ describe("bounded article context", () => {
     ["Aeon", '<div id="article-content" class="article-content"><div class="has-dropcap">', '</div></div>'],
     ["JSTOR Daily", '<div class="entry-content">', '</div>'],
     ["The Guardian", '<div data-gu-name="body"><div class="article-body-commercial-selector article-body-viewer-selector">', '</div></div>'],
+    ["BFI", '<div class="EmbeddedArticleText__TextContent-sc-7y7thi-0 EIeWL">', '</div>'],
+    ["Antigone", '<div class="entry-content"><div class="pf-content">', '</div></div>'],
   ])("extracts the inspected %s body and retains distinct sections", (publisher, start, end) => {
     const html = `<!DOCTYPE html><nav>Menu</nav>${start}<p>${opening}</p><aside><p>Unrelated prose.</p></aside><h2>Mechanism</h2><p>${mechanism}</p>${end}`;
     expect(sourceArticleSections(html, publisher)).toEqual([opening, mechanism]);
@@ -62,6 +65,48 @@ describe("bounded article context", () => {
     expect(sourceArticleSections(html + html, "The Guardian")).toEqual([]);
     expect(SOURCE_FEEDS.filter(feed => feed.publisher === "The Guardian").map(feed => feed.url)).toEqual(["https://www.theguardian.com/uk/film/rss", "https://www.theguardian.com/tv-and-radio/the-sopranos/rss"]);
   });
+  it.each(layouts.samples)("keeps only article prose in the inspected $publisher layout: $kind", sample => {
+    const sections = sourceArticleSections(sample.html, sample.publisher);
+    expect(sections).toEqual(sample.expectedSections);
+    expect(sections.length).toBeGreaterThan(0);
+    expect(sections.join("\n\n")).not.toMatch(/EXCLUDED|►/);
+    // Every paragraph is a synthetic body paragraph; footnote markers and bylines never attach.
+    for (const paragraph of sections.flatMap(section => section.split("\n\n")))
+      expect(paragraph).toMatch(/^Inspected paragraph \d+ keeps its place in the reduced layout, so the adapter's section boundaries can be checked without copying article prose\.$/);
+  });
+
+  it("fails closed when the BFI or Antigone body container is missing, renamed or repeated", () => {
+    const bfi = `<div class="EmbeddedArticleText__TextContent-sc-7y7thi-0 EIeWL"><div class="Text__Outer-sc-au2ztm-0 text_block flowing_content"><p>${opening}</p></div></div>`;
+    expect(sourceArticleSections(bfi, "BFI")).toEqual([opening]);
+    expect(sourceArticleSections(bfi.replace("EmbeddedArticleText__TextContent-sc-", "EmbeddedArticleText__Teaser-sc-"), "BFI")).toEqual([]);
+    expect(sourceArticleSections(bfi + bfi, "BFI")).toEqual([]);
+    const antigone = `<div class="entry-content"><div class="pf-content"><p>${opening}</p></div></div>`;
+    expect(sourceArticleSections(antigone, "Antigone")).toEqual([opening]);
+    // The essay must be inside its single pf-content block; other entry-content prose is not.
+    expect(sourceArticleSections(`<div class="entry-content"><p>${opening}</p></div>`, "Antigone")).toEqual([]);
+    expect(sourceArticleSections(antigone.replace("</div></div>", `</div><div class="pf-content"><p>${mechanism}</p></div></div>`), "Antigone")).toEqual([]);
+  });
+
+  it("stops BFI and Antigone bodies at the first divider and drops their module slices", () => {
+    const bfi = `<div class="EmbeddedArticleText__TextContent-sc-7y7thi-0"><div class="text_block"><p>${opening}</p></div><div class="call_to_action_block"><p>Watch it on BFI Player.</p></div><blockquote class="block_quote_slice"><p>A quoted statement module.</p></blockquote><div class="text_block"><p>${mechanism}</p><p>► The film is in UK cinemas now.</p></div><hr><div class="text_block"><p>The film screens at a festival.</p></div></div>`;
+    expect(sourceArticleSections(bfi, "BFI")).toEqual([opening, mechanism]);
+    const antigone = `<div class="entry-content"><div class="pf-content"><p class="has-medium-font-size"><strong><em>An Author</em></strong></p><p>${opening}<span class="footnote_referrer"><a><sup>[1]</sup></a><span class="footnote_tooltip">A citation.</span></span></p><hr><p class="has-medium-font-size">Newsletter</p><p>Further reading that is not the essay.</p></div><div class="sharedaddy"><p>Share this.</p></div><div class="footnotes_reference_container"><p>1. A citation.</p></div></div>`;
+    expect(sourceArticleSections(antigone, "Antigone")).toEqual([opening]);
+  });
+
+  it("adds the inspected BFI and Antigone feeds with blurb-only intake and existing bounds", () => {
+    expect(SOURCE_FEEDS.filter(feed => ["BFI", "Antigone"].includes(feed.publisher))).toEqual([
+      { publisher: "BFI", url: "https://www.bfi.org.uk/rss-feed", hosts: ["bfi.org.uk"], topic: "movies", maxAgeDays: 30 },
+      { publisher: "Antigone", url: "https://antigonejournal.com/feed/", hosts: ["antigonejournal.com"], topic: "greek_roman_mythology", maxAgeDays: 3650 },
+    ]);
+    // Every inspected current item had one body root and at least 300 characters.
+    expect(layouts.layouts.filter(layout => layout.publisher === "BFI")).toHaveLength(30);
+    expect(layouts.layouts.filter(layout => layout.publisher === "Antigone")).toHaveLength(24);
+    expect(layouts.layouts.every(layout => layout.accepted && layout.characters <= 6000)).toBe(true);
+    for (const feed of layouts.feeds.filter(feed => feed.decision === "exclude"))
+      expect(SOURCE_FEEDS.some(source => source.url === feed.url)).toBe(false);
+  });
+
   it("requires Aeon's essay body and excludes adjacent audio labels", () => {
     const before = '<div id="article-content" class="article-content"><p>Listen to this essay</p><p>25 minute listen</p>';
     expect(sourceArticleSections(`${before}<div class="has-dropcap"><p>${opening}</p></div></div>`, "Aeon")).toEqual([opening]);

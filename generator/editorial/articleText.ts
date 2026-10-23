@@ -21,6 +21,18 @@ const bodyMarkers: Record<string, (node: Node) => boolean> = {
   "JSTOR Daily": node => node.nodeName === "div" && hasClass(node, "entry-content"),
   // Inspected October 22: pull quotes are asides, images figures, credits a footer.
   "The Guardian": node => node.nodeName === "div" && hasClass(node, "article-body-commercial-selector") && hasClass(node, "article-body-viewer-selector"),
+  // Inspected October 23: one styled-component text container of text-block slices.
+  "BFI": node => node.nodeName === "div" && attribute(node, "class").split(/\s+/).some(name => name.startsWith("EmbeddedArticleText__TextContent-sc-")),
+  "Antigone": node => node.nodeName === "div" && hasClass(node, "entry-content"),
+};
+// Module slices and inline footnote markers that are not article prose.
+const publisherIgnored: Record<string, (node: Node) => boolean> = {
+  "JSTOR Daily": node => hasClass(node, "daily_email_signup"),
+  "Aeon": node => hasClass(node, "pullquote"),
+  "BFI": node => ["call_to_action_block", "article_grid_block", "block_quote_slice"].some(name => hasClass(node, name)),
+  // Antigone's medium-size paragraphs are bylines and subheadings; they bound sections.
+  "Antigone": node => ["footnote_referrer", "printfriendly", "sharedaddy", "footnotes_reference_container"].some(name => hasClass(node, name)) ||
+    (node.nodeName === "p" && hasClass(node, "has-medium-font-size")),
 };
 export const hasArticleAdapter = (publisher: string) => Boolean(bodyMarkers[publisher.startsWith("BBC") ? "BBC" : publisher]);
 
@@ -31,9 +43,7 @@ export function sourceArticleSections(html: string, publisher: string): string[]
   if (/<!DOCTYPE|<!ENTITY/i.test(cleaned)) return [];
   const marker = bodyMarkers[publisher.startsWith("BBC") ? "BBC" : publisher];
   if (!marker) return [];
-  const isIgnored = (node: Node) => ignored(node) ||
-    (publisher === "JSTOR Daily" && hasClass(node, "daily_email_signup")) ||
-    (publisher === "Aeon" && hasClass(node, "pullquote"));
+  const isIgnored = (node: Node) => ignored(node) || Boolean(publisherIgnored[publisher]?.(node));
   const roots: Node[] = [];
   const find = (node: Node) => {
     if (isIgnored(node)) return;
@@ -56,24 +66,31 @@ export function sourceArticleSections(html: string, publisher: string): string[]
     if (/^h[1-6]$/.test(tag) || tag === "section") boundary();
     if (tag === "p") {
       const paragraph = text(node).replace(/\s+/g, " ").trim();
-      // Inline WATCH/READ MORE links are separate modules, not supporting prose.
-      if (/^(?:WATCH|READ MORE|LISTEN):/i.test(paragraph) || /(?:…|\.\.\.)[”"')\]]?$/.test(paragraph)) boundary();
+      // Inline WATCH/READ MORE links and BFI's "► … in cinemas" availability
+      // notices are separate modules, not supporting prose.
+      if (/^(?:WATCH|READ MORE|LISTEN):/i.test(paragraph) || /^►/.test(paragraph) || /(?:…|\.\.\.)[”"')\]]?$/.test(paragraph)) boundary();
       else if (paragraph) sections.at(-1)!.push(paragraph);
     } else children(node).forEach(walk);
     if (tag === "section") boundary();
   };
-  if (publisher === "Aeon") {
-    // The inspected essay text is inside one has-dropcap block. Audio-player
-    // labels alongside it in #article-content are not article prose.
+  // The inspected essay text is inside one inner block: Aeon's has-dropcap div
+  // (audio-player labels beside it are not prose) and Antigone's pf-content div
+  // (sharing buttons and the footnote table beside it are not prose).
+  const innerBody: Record<string, string> = { "Aeon": "has-dropcap", "Antigone": "pf-content" };
+  if (innerBody[publisher]) {
     const bodies: Node[] = [];
     const findBody = (node: Node) => {
       if (isIgnored(node)) return;
-      if (node.nodeName === "div" && hasClass(node, "has-dropcap")) { bodies.push(node); return; }
+      if (node.nodeName === "div" && hasClass(node, innerBody[publisher])) { bodies.push(node); return; }
       children(node).forEach(findBody);
     };
     children(roots[0]).forEach(findBody);
     if (bodies.length !== 1) return [];
-    children(bodies[0]).forEach(walk);
+    // Antigone's first separator precedes its newsletter promo and further reading.
+    for (const node of children(bodies[0])) { if (publisher === "Antigone" && node.nodeName === "hr") break; walk(node); }
+  } else if (publisher === "BFI") {
+    // The first divider precedes screening and availability notices.
+    for (const node of children(roots[0])) { if (node.nodeName === "hr") break; walk(node); }
   } else if (publisher === "Ars Technica") {
     // Inspected Ars articles split their body over several post-content blocks.
     // Only those blocks qualify; author bios/sidebar prose elsewhere do not.

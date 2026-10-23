@@ -72,3 +72,14 @@ checks that:
 This shows ordering, not live yield or quality. The real mix depends on what the
 writer chooses and what review approves, so it should be checked on the next
 ordinary editions.
+
+## Shelf pacing — October 23, 2026
+
+Publisher limits alone let an October 22 edition take seven shelf pages. Each edition
+now publishes at most `EDITORIAL_MAX_SHELF_PAGES` (3) shelf pages. `paceShelf` keeps
+only as many shelf candidates in each offer as the edition may still publish, taking
+each topic's first page before any topic's second, so preferred topics still appear in
+the first call. Pending revisions keep their place. Feed candidates are never dropped,
+and unoffered shelf pages are not deferred or covered; later editions can use them.
+Because a source backs at most one post, accepted shelf pages cannot exceed the cap.
+See the [October 23 source supply review](source-supply-review-20261023.md).

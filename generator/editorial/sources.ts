@@ -58,6 +58,10 @@ export const SOURCE_FEEDS: SourceFeed[] = [
   {"publisher":"Psyche","url":"https://psyche.co/feed.rss","hosts":["psyche.co"],"topic":"philosophy","maxAgeDays":90},
   {"publisher":"Econbrowser","url":"https://econbrowser.com/feed","hosts":["econbrowser.com"],"topic":"economics","maxAgeDays":7},
   {"publisher":"Bank of Canada","url":"https://www.bankofcanada.ca/content_type/research,boc-review-article,fsr-article/feed/","hosts":["bankofcanada.ca"],"topic":"economics","maxAgeDays":30},
+  // Recurring lasting reading inspected October 23, 2026. Both feeds carry blurbs only;
+  // bodies come from their inspected adapters. docs/source-supply-review-20261023.md
+  {"publisher":"BFI","url":"https://www.bfi.org.uk/rss-feed","hosts":["bfi.org.uk"],"topic":"movies","maxAgeDays":30},
+  {"publisher":"Antigone","url":"https://antigonejournal.com/feed/","hosts":["antigonejournal.com"],"topic":"greek_roman_mythology","maxAgeDays":3650},
 ];
 export interface SourcePacket extends FeedSource {
   evergreen?: boolean;

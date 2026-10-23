@@ -4,10 +4,10 @@ import { FeedItemSchema, type FeedItem } from "../../schemas";
 import { generateValidated, GenerationDeadlineError, GenerationFailedError, type ParseOutcome } from "../retry";
 import { ADVANCE_WORLD_MAX_TOKENS, ADVANCE_WORLD_TIMEOUT_MS } from "../config";
 import { prepareEvidence, type EvidenceEntry } from "./evidence";
-import { orderOfferCandidates } from "./offerOrder";
+import { orderOfferCandidates, paceShelf } from "./offerOrder";
 import { prepareWriterEvidence, remapPreviousSupport, resolveWriterSelection, writerResponseSchema, type PreviousWriterSupport } from "./selection";
-import { EDITORIAL_MAX_POSTS, EDITORIAL_MAX_ATTEMPTS, EDITORIAL_TIME_BUDGET_MS } from "./limits";
-export { EDITORIAL_MAX_POSTS, EDITORIAL_MAX_ATTEMPTS, EDITORIAL_TIME_BUDGET_MS } from "./limits";
+import { EDITORIAL_MAX_POSTS, EDITORIAL_MAX_ATTEMPTS, EDITORIAL_MAX_SHELF_PAGES, EDITORIAL_TIME_BUDGET_MS } from "./limits";
+export { EDITORIAL_MAX_POSTS, EDITORIAL_MAX_ATTEMPTS, EDITORIAL_MAX_SHELF_PAGES, EDITORIAL_TIME_BUDGET_MS } from "./limits";
 import { logEditorialAttempt, redactEditorialDiagnostic } from "./diagnostics";
 import { coverageTitle } from "./coverage";
 import { sameEventIndex } from "./sameEvent";
@@ -343,8 +343,12 @@ export async function generateEditorial(
       const topic = post.topic ?? packets.find(packet => packet.id === post.sourceIds[0])?.topic;
       if (topic) acceptedByTopic.set(topic, (acceptedByTopic.get(topic) ?? 0) + 1);
     }
-    const prepared = prepareEvidence([...pendingRevisions,
-      ...orderOfferCandidates(distinctSources.filter(packet => !revisions.has(packet.id)), { acceptedByTopic, offersByTopic, offersBySource })], {
+    // Offer only as many shelf pages as this edition may still publish. Each source
+    // backs at most one post, so accepted shelf pages never exceed the cap.
+    const shelfAllowance = EDITORIAL_MAX_SHELF_PAGES - packets.filter(packet => packet.evergreen && used.has(packet.id)).length;
+    const prepared = prepareEvidence(paceShelf([...pendingRevisions,
+      ...orderOfferCandidates(distinctSources.filter(packet => !revisions.has(packet.id)), { acceptedByTopic, offersByTopic, offersBySource })],
+    shelfAllowance, new Set(pendingRevisions.map(packet => packet.id))), {
       priorityIds: new Set(pendingRevisions.map(packet => packet.id)),
       keepTopicOrder: true,
       // Four complete contexts are enough choice for two posts. Keep every

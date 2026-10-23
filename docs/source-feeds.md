@@ -78,3 +78,14 @@ supply full article context. Without one, the October 18 rule that RSS blurbs ar
 discovery only dropped every Sopranos feed item. Feed log lines now include the
 topic (e.g. `The Guardian (the_sopranos)`) and a short failure reason. See the
 [October 22 source supply review](source-supply-review-20261022.md).
+
+## BFI and Antigone — October 23, 2026
+
+Two recurring lasting feeds were added after inspecting every current item page:
+[BFI features and reviews](https://www.bfi.org.uk/rss-feed) (movies, 30 days) and
+[Antigone](https://antigonejournal.com/feed/), a classics journal (Greek and Roman
+mythology, 3,650 days). Both carry blurbs only, so items qualify only through their
+new inspected body adapters; both fail closed when the container is missing or
+repeated. Knowable Magazine (Cloudflare challenge), the Criterion Current and History
+Today (HTTP 403) were excluded; the Public Domain Review and RogerEbert.com were not
+added. See the [October 23 source supply review](source-supply-review-20261023.md).
