@@ -592,3 +592,14 @@ is now hourly and a gate job skips scheduled runs within 150 minutes of the newe
 edition's `generatedAt` (manual dispatch always runs), restoring the requested
 three-hour cadence. This is roughly twice the observed real API spend; never raise
 billing or key limits automatically.
+
+## Phone reading pass — October 23, 2026
+Read docs/site-experience.md. At the user's approval, editorial feed cards no longer
+show the column header (avatar, column name, "AI-edited column"); the Added date sits
+in the format/topic row and the author profile filter is gone. Bylines read
+"CoBanter · AI-written · Added …". At ≤600px the banner is one short line, the h1 is
+smaller, the tagline is hidden, and format tabs plus Full/Headlines scroll on one row
+with RSS beside them. The sentinel auto-loads at most two older batches per mounted
+feed so the footer is reachable; "Load older posts" continues. "Show N new posts"
+is sticky in a polite live region, and hidden tabs skip the five-minute poll and
+check once when visible. All earlier reading decisions are unchanged.

@@ -146,7 +146,7 @@ describe("feed loading", () => {
     expect(result.current.accountsById.has("new-column")).toBe(true);
   });
 
-  it("lets readers explore profiles, filter communities, and expand discussions", async () => {
+  it("lets readers filter communities and expand discussions without column profiles", async () => {
     vi.spyOn(window, "scrollTo").mockImplementation(() => {});
     mockFeed();
     window.history.replaceState({}, "", "/");
@@ -157,16 +157,14 @@ describe("feed loading", () => {
     const author = accounts.find(
       (a: { id: string }) => a.id === source.items[0].authorId,
     );
+    // Four format columns add nothing to a card; the profile filter is gone with them.
     fireEvent.click(
       within(screen.getAllByRole("article")[0]).getAllByRole("button", {
         name: author.displayName,
       })[0],
     );
-    expect(
-      screen.getByRole("region", { name: `${author.displayName}'s profile` }),
-    ).toBeInTheDocument();
-    expect(screen.getByText(author.bio)).toBeInTheDocument();
-    fireEvent.click(screen.getByRole("button", { name: "← Back to feed" }));
+    expect(screen.queryByRole("region", { name: `${author.displayName}'s profile` })).not.toBeInTheDocument();
+    expect(screen.queryByText(author.bio)).not.toBeInTheDocument();
     fireEvent.click(within(screen.getByRole("navigation", { name: "Topics" })).getByRole("link", { name: topicLabel(source.items[0].community) }));
     const discussion = (await screen.findAllByRole("button", {
       name: /View discussion/,
@@ -228,6 +226,64 @@ describe("feed loading", () => {
       "first",
     ]);
     expect(second.result.current.newPostCount).toBe(0);
+  });
+  it("skips the background check in a hidden tab and catches up once when shown", async () => {
+    const mock = mockFeed();
+    const refresh = vi.spyOn(globalThis, "setInterval");
+    const { result } = renderHook(() => useFeed());
+    await waitFor(() => expect(result.current.isLoadingInitial).toBe(false));
+    const callback = refresh.mock.calls.find(([, delay]) => delay === 300_000)![0] as () => Promise<void>;
+    const manifestCalls = () => mock.fetcher.mock.calls.filter(([url]) => url.includes("manifest.json")).length;
+    const before = manifestCalls();
+    mock.publish();
+    const visibility = vi.spyOn(document, "visibilityState", "get").mockReturnValue("hidden");
+    await act(async () => { await callback(); });
+    expect(manifestCalls()).toBe(before);
+    expect(result.current.newPostCount).toBe(0);
+    visibility.mockReturnValue("visible");
+    await act(async () => { document.dispatchEvent(new Event("visibilitychange")); });
+    await waitFor(() => expect(result.current.newPostCount).toBe(1));
+    expect(manifestCalls()).toBe(before + 1);
+  });
+});
+
+describe("older-post auto-loading", () => {
+  const observers: { callback: IntersectionObserverCallback; disconnected: boolean }[] = [];
+  class FakeObserver {
+    entry: { callback: IntersectionObserverCallback; disconnected: boolean };
+    constructor(callback: IntersectionObserverCallback) { this.entry = { callback, disconnected: false }; observers.push(this.entry); }
+    observe() {}
+    disconnect() { this.entry.disconnected = true; }
+  }
+  const intersect = () => {
+    const live = observers.filter(o => !o.disconnected);
+    live.at(-1)?.callback([{ isIntersecting: true } as IntersectionObserverEntry], {} as IntersectionObserver);
+    return live.length;
+  };
+  it("loads two older batches from the sentinel, then leaves the footer reachable", async () => {
+    observers.length = 0;
+    vi.stubGlobal("IntersectionObserver", FakeObserver);
+    vi.spyOn(window, "scrollTo").mockImplementation(() => {});
+    const refs = ["b0", "b1", "b2", "b3"].map((id, index) => ref(id, `2026-09-1${5 - index}T12:00:00.000Z`));
+    vi.stubGlobal("fetch", vi.fn(async (url: string) => {
+      if (url.includes("manifest.json")) return { ok: true, json: async () => ({ ...sourceManifest, batches: refs }) };
+      if (url.endsWith("accounts.json")) return { ok: true, json: async () => accounts };
+      const id = url.match(/batches\/(b\d)\.json/)![1];
+      return { ok: true, json: async () => ({ ...source, batchId: id, items: [{ ...source.items[0], id }] }) };
+    }));
+    window.history.replaceState({}, "", "/");
+    render(<App />);
+    await waitFor(() => expect(screen.getAllByRole("article")).toHaveLength(1));
+    for (const count of [2, 3]) {
+      await act(async () => { intersect(); });
+      await waitFor(() => expect(screen.getAllByRole("article")).toHaveLength(count));
+    }
+    // A third sentinel hit does nothing; the reader can stop and reach the footer.
+    await act(async () => { expect(intersect()).toBe(0); });
+    expect(screen.getAllByRole("article")).toHaveLength(3);
+    expect(screen.getByRole("link", { name: "Article archive" })).toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: "Load older posts" }));
+    await waitFor(() => expect(screen.getAllByRole("article")).toHaveLength(4));
   });
 });
 

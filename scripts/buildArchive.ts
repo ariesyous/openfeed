@@ -77,7 +77,7 @@ export function articleMarkup(item: FeedItem, base: string, related?: RelatedRea
   const editorial = item.editorial!;
   const sources = editorial.sources.map(source => `<a class="source-link" href="${escape(source.url)}" rel="noreferrer"><span>${escape(source.publisher)} ↗</span><span>${escape(source.title)}</span>${dateMarkup(source.publishedAt)}</a>`).join("");
   const article = `<article class="post-card article-page"><div class="post-card-meta"><span class="format-label format-label--${escape(editorial.format)}">${escape(FORMAT_LABELS[editorial.format])}</span><a class="post-card-community" href="${escape(topicPath(item.community, base))}">${escape(topicLabel(item.community))}</a></div>`
-    + `<h1 class="post-card-title">${escape(item.title ?? "Article")}</h1><p class="article-byline">CoBanter · AI-edited · ${dateMarkup(item.createdAt, true)}</p>${readingMarkup(item)}`
+    + `<h1 class="post-card-title">${escape(item.title ?? "Article")}</h1><p class="article-byline">CoBanter · AI-written · ${dateMarkup(item.createdAt, true)}</p>${readingMarkup(item)}`
     + `<section class="source-panel"><h2 class="source-panel-label">${editorial.format === "banter" ? "Generated commentary · Source context" : "Based on publisher excerpts"}</h2>${sources}</section></article>`;
   return staticPage(base, `<section class="article-shell"><a class="back-link" href="${base}">← Back to feed</a>${article}${related ? relatedMarkup(related, base) : ""}</section>`, { mainClass: "app-main--article", topic: item.community });
 }
