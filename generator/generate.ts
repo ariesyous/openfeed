@@ -1,5 +1,5 @@
 import { appendFileSync, readFileSync } from "node:fs";
-import { ManifestSchema } from "../schemas";
+import { BatchFileSchema, ManifestSchema } from "../schemas";
 import { PUBLIC_DATA_DIR, WORLD_STATE_PATH } from "./config";
 import { getApiKey, loadEnvFile } from "./env";
 import { createRunId } from "./ids";
@@ -9,6 +9,7 @@ import { collectSources } from "./editorial/sources";
 import { EDITORIAL_MAX_POSTS, generateEditorial } from "./editorial/generate";
 import { makeEditorialWorld } from "./editorial/state";
 import { coverageTitle, coverageUrl, coveredUrlKeys } from "./editorial/coverage";
+import { SAME_EVENT_WINDOW_MS } from "./editorial/sameEvent";
 import { editorialAccounts } from "./editorial/accounts";
 import { createEditorialAudit, publishWithAudit } from "./editorial/audit";
 
@@ -35,7 +36,13 @@ async function main() {
     if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## Editorial generation\n\nCeiling: ${EDITORIAL_MAX_POSTS}. Published: 0. No new usable sources; existing edition preserved.\n`);
     return;
   }
+  // Recently published source headlines, for same-event deferral only (never coverage).
+  const recentSourceTitles = manifest.batches
+    .filter(batch => now.getTime() - Date.parse(batch.generatedAt) <= SAME_EVENT_WINDOW_MS)
+    .flatMap(batch => BatchFileSchema.parse(JSON.parse(readFileSync(`${PUBLIC_DATA_DIR}/${batch.file}`, "utf8"))).items
+      .flatMap(item => item.editorial?.sources.map(source => source.title) ?? []));
   const items = await generateEditorial(getApiKey(), sources, now, runId, previous.recentBatchSummaries.map((batch) => batch.summary), {
+    recentSourceTitles,
     onAcceptedChunk: audit?.onAcceptedChunk,
     onReviewedChunk: audit?.onReviewedChunk,
   });

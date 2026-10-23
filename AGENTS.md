@@ -531,8 +531,11 @@ coverage both missed it (pipeline review, PR #57). `coverageUrl`
 in editorial/coverage.ts keys single-segment theconversation.com article URLs on their
 trailing `-<digits>` ID; every other URL keeps its exact-URL key. State still stores
 exact URLs and keys are derived at check time, so no migration is needed. Intake,
-evergreen filtering and within-run deduplication use the derived keys. Do not extend
-this to other publishers without evidence. Earlier duplicate posts stay published.
+evergreen filtering and within-run deduplication use the derived keys. Deutsche Welle
+has the same evidence (ten `/a-<digits>` IDs published 21 times, September 19 to
+October 17), so `dw.com`/`www.dw.com` article paths key as `dw.com#a-<id>`. Do not
+extend this to other publishers without similar evidence. Earlier duplicate posts
+stay published.
 
 ## Source supply and shelf review — October 22, 2026
 Read docs/source-supply-review-20261022.md. Sopranos/mythology/lasting reading dried up
@@ -603,3 +606,15 @@ with RSS beside them. The sentinel auto-loads at most two older batches per moun
 feed so the footer is reachable; "Load older posts" continues. "Show N new posts"
 is sticky in a polite live region, and hidden tabs skip the five-minute poll and
 check once when visible. All earlier reading decisions are unchanged.
+
+## Same-event deferral — October 23, 2026
+Read docs/editorial-same-event.md. Candidates whose source headline shares at least
+three distinctive tokens with a source headline published in the last 48 hours, or
+accepted earlier in the run, join `deferredSources` for this run only. They are never
+marked covered or durably rejected, and every other check still applies. A token is
+not distinctive if it appears in over 2% (and over two) of those reference headlines.
+This is a headline heuristic, not semantic deduplication. The October 9–22 calibration
+matched 70 sources: 31 same event, 30 same story or work from another angle, 9 unrelated.
+It misses pairs more than 48 hours apart (Stellantis, earlier Pope Leo posts) and twins
+offered in one writer request. `scripts/calibrateSameEvent.ts` replays it offline.
+offerOrder.ts is unchanged.
