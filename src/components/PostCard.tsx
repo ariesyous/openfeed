@@ -33,7 +33,7 @@ export function PostCard({
   const discussion = item.editorial?.discussion ?? [];
   const hiddenSpoilers = item.editorial?.spoilers && !showSpoilers;
   const author = accountsById.get(item.authorId);
-  const displayName = author?.displayName ?? (item.editorial ? "CoBanter" : "Unknown");
+  const displayName = author?.displayName ?? "Unknown";
   const handle = author?.handle ?? "unknown";
   const referenced = item.referencedPostId
     ? itemsById?.get(item.referencedPostId)
@@ -50,7 +50,8 @@ export function PostCard({
           {item.kind === "repost" ? "↻ Reposted" : "↳ Reacting to a post"}
         </div>
       )}
-      {!articleView && <header className="post-card-header">
+      {/* Editorial posts carry their date in the meta row; only legacy posts name an author. */}
+      {!articleView && !item.editorial && <header className="post-card-header">
         <Avatar
           seedKey={item.authorId}
           displayName={displayName}
@@ -63,9 +64,7 @@ export function PostCard({
           >
             {displayName}
           </button>
-          <span className="post-card-handle">
-            {item.editorial ? "AI-edited column" : `@${handle}`}
-          </span>
+          <span className="post-card-handle">@{handle}</span>
         </div>
         <span className="post-card-time">
           <PublicationDate iso={item.createdAt} added />
@@ -97,6 +96,11 @@ export function PostCard({
         >
           {topicLabel(item.community)}
         </a>
+        {!articleView && item.editorial && (
+          <span className="post-card-time">
+            <PublicationDate iso={item.createdAt} added />
+          </span>
+        )}
       </div>
 
       {item.title && (articleView ? <h1 className="post-card-title">{item.title}</h1> : <h3 className="post-card-title">{item.editorial ? <a href={url} onClick={(event) => {
@@ -104,7 +108,7 @@ export function PostCard({
           event.preventDefault(); onOpenArticle(item);
         }
       }}>{item.title}</a> : item.title}</h3>)}
-      {articleView && <p className="article-byline">{displayName} · {item.editorial ? "AI-edited" : `@${handle}`} · <PublicationDate iso={item.createdAt} added /></p>}
+      {articleView && <p className="article-byline">{item.editorial ? "CoBanter · AI-written" : `${displayName} · @${handle}`} · <PublicationDate iso={item.createdAt} added /></p>}
       <div data-nosnippet={item.editorial?.spoilers ? "" : undefined}>
       {hiddenSpoilers ? (
         <button className="post-card-toggle" onClick={() => setShowSpoilers(true)}>Show spoilers</button>

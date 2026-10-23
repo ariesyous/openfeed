@@ -90,6 +90,10 @@ a {
   background: var(--surface);
   border-bottom: 1px solid var(--border);
 }
+/* Before the large-text container query below, which tightens further. Keeps 360px phones on one row. */
+@media (max-width: 600px) {
+  .app-header { padding: .6rem var(--space-3); }
+}
 .app-title {
   display: inline-flex;
   align-items: center;
@@ -151,6 +155,10 @@ a {
   padding: .45rem var(--space-4);
 }
 .transparency-banner a { color: inherit; font-weight: 600; white-space: nowrap; }
+@media (max-width: 600px) {
+  .transparency-banner { padding: .35rem var(--space-3); font-size: var(--text-xs); }
+  .banner-long { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+}
 
 .site-links {
   display: flex;
@@ -243,7 +251,6 @@ summary:focus-visible {
   font-size: .9rem;
   margin: 0;
 }
-.feed-toolbar .feed-subscribe { margin-top: var(--space-2); font-size: var(--text-sm); }
 .feed-controls {
   display: flex;
   flex-wrap: wrap;
@@ -252,6 +259,15 @@ summary:focus-visible {
   gap: var(--space-2) var(--space-4);
   margin: 0 0 var(--space-4);
 }
+.feed-control-row {
+  flex: 1 1 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-2) var(--space-4);
+}
+.feed-subscribe { font-size: var(--text-sm); white-space: nowrap; }
 .format-tabs, .density-switch {
   display: flex;
   flex-wrap: wrap;
@@ -284,34 +300,17 @@ summary:focus-visible {
   color: var(--accent);
   font-weight: 600;
 }
+/* Stays in reach under the sticky header while the reader is deep in the feed. */
+.new-posts-bar {
+  position: sticky;
+  top: calc(var(--header-height, 4.5rem) + var(--space-2));
+  z-index: 5;
+}
 .new-posts {
   width: 100%;
   margin-bottom: var(--space-4);
   background: var(--accent-soft);
-}
-.profile-card {
-  background: var(--accent-soft);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 1.2rem;
-  margin-bottom: var(--space-4);
-  scroll-margin-top: 75px;
-}
-.profile-heading {
-  display: flex;
-  align-items: center;
-  gap: .8rem;
-  margin-top: var(--space-4);
-}
-.profile-heading h2 {
-  font-size: 1.2rem;
-  margin: 0 0 .2rem;
-}
-.profile-heading span,
-.profile-interests,
-.profile-note {
-  color: var(--text-muted);
-  font-size: .85rem;
+  box-shadow: 0 4px 16px #0004;
 }
 
 /* Visible topic navigation: a horizontal bar on small screens, a desktop rail. */
@@ -356,6 +355,24 @@ summary:focus-visible {
   .topic-navigation h2 { padding-left: 1.2rem; }
   .topic-buttons { flex-direction: column; overflow: visible; }
 }
+/* Phones (and short landscape screens): reach the first post sooner. */
+@media (max-width: 600px), (max-height: 500px) {
+  .topic-navigation { margin-bottom: var(--space-1); }
+  .topic-navigation h2 { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .topic-buttons { padding: .25rem; }
+  .topic-buttons a { padding: .45rem .75rem; }
+  .feed-toolbar { padding: var(--space-1) var(--space-1) var(--space-2); }
+  .feed-toolbar h1 { font-size: 1.15rem; margin: 0; }
+  .feed-toolbar p { display: none; }
+  .feed-controls { flex-wrap: nowrap; gap: var(--space-3); margin-bottom: var(--space-3); }
+  /* The padding keeps focus outlines inside the scroller's clip. */
+  .feed-control-row { min-width: 0; flex-wrap: nowrap; justify-content: flex-start; gap: var(--space-2); overflow-x: auto; scrollbar-width: thin; padding: .45rem .2rem; margin: -.45rem 0; }
+  .format-tabs, .density-switch { flex: 0 0 auto; flex-wrap: nowrap; }
+  .format-tabs button, .density-switch button { padding: .35rem .7rem; white-space: nowrap; }
+  .feed-subscribe { flex: 0 0 auto; padding-right: var(--space-1); }
+  .feed-subscribe-long { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .new-posts { margin-bottom: var(--space-3); padding: .6rem var(--space-4); }
+}
 
 /* Post cards. */
 .post-card {
@@ -388,12 +405,17 @@ summary:focus-visible {
 }
 .post-card-time {
   margin-left: auto;
+  padding-left: var(--space-3);
   color: var(--text-muted);
   font-size: .8rem;
   text-align: right;
 }
+.post-card-header + .post-card-meta { margin-top: var(--space-2); }
 .post-card-meta {
-  margin-top: var(--space-2);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-1) 0;
 }
 .post-card-community {
   display: inline-block;
@@ -519,7 +541,6 @@ summary:focus-visible {
 
 /* Compact headlines. */
 .post-card--compact { padding: .8rem var(--space-4); }
-.post-card--compact .post-card-meta { margin-top: 0; display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-1) 0; }
 .post-card--compact .post-card-title { margin: .45rem 0 .25rem; font-size: 1.04rem; }
 .post-card-excerpt {
   margin: 0;
@@ -651,7 +672,6 @@ summary:focus-visible {
 .back-link, #article-view > a { display: inline-block; margin-bottom: var(--space-4); text-decoration: none; }
 .back-link:hover, #article-view > a:hover { text-decoration: underline; }
 .article-page { padding: clamp(1rem, 4vw, 2.25rem); }
-.article-page .post-card-meta { margin-top: 0; }
 .article-page .post-card-title {
   margin: var(--space-3) 0 var(--space-2);
   font-size: clamp(1.6rem, 4.5vw, 2.25rem);
@@ -751,9 +771,6 @@ kbd { padding: .05rem .35rem; border: 1px solid var(--border); border-radius: 4p
   }
   .comment-handle {
     display: none;
-  }
-  .feed-toolbar h1 {
-    font-size: 1.4rem;
   }
   .prose .feed-list-links { columns: 1; }
 }

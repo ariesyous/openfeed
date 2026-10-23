@@ -1,9 +1,8 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { useFeed } from "../hooks/useFeed";
 import { markReady } from "../lib/ready";
 import { PostCard } from "./PostCard";
 import { PostCardCompact } from "./PostCardCompact";
-import { Avatar } from "./Avatar";
 import type { FeedItem } from "../../schemas";
 import { TOPICS, topicLabel, topicPath, topicSlug } from "../../shared/topics";
 
@@ -27,27 +26,12 @@ export function FeedList({ community = "", onOpenTopic, onOpenArticle }: {
     setDensity(value);
     try { localStorage.setItem(DENSITY_KEY, value); } catch { /* Device storage may be disabled. */ }
   };
-  const [authorId, setAuthorId] = useState("");
-  const profileRef = useRef<HTMLElement>(null);
-  const author = feed.accountsById.get(authorId);
   const itemsById = new Map(feed.items.map((i) => [i.id, i]));
   const visible = feed.items.filter(
     (i) =>
       (!format || i.editorial?.format === format) &&
-      (!community || i.community === community) &&
-      (!authorId || i.authorId === authorId),
+      (!community || i.community === community),
   );
-  const openProfile = (id: string) => {
-    setAuthorId(id);
-    setFormat("");
-    requestAnimationFrame(() => {
-      profileRef.current?.focus();
-      profileRef.current?.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-      });
-    });
-  };
   if (feed.isLoadingInitial)
     return (
       <div className="feed-status" role="status">
@@ -73,7 +57,6 @@ export function FeedList({ community = "", onOpenTopic, onOpenArticle }: {
               onClick={(event) => {
                 if (!onOpenTopic || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey || event.button !== 0) return;
                 event.preventDefault();
-                setAuthorId("");
                 setFormat("");
                 onOpenTopic(topic);
               }}
@@ -85,78 +68,49 @@ export function FeedList({ community = "", onOpenTopic, onOpenArticle }: {
       </nav>
       <div className="feed-content">
         <div className="feed-toolbar">
-          <div>
-            <h1>{community ? topicLabel(community) : "Leave with something worth knowing."}</h1>
-            <p>
-              {community ? `News, stories, and ideas about ${topicLabel(community)}.` : "Fresh context, useful ideas, true stories, and a little back-and-forth."}
-            </p>
-            <p className="feed-subscribe"><a href={community ? `${import.meta.env.BASE_URL}topics/${topicSlug(community)}/feed.xml` : `${import.meta.env.BASE_URL}feed.xml`}>Follow {community ? topicLabel(community) : "CoBanter"} by RSS</a></p>
-          </div>
+          <h1>{community ? topicLabel(community) : "Leave with something worth knowing."}</h1>
+          <p>
+            {community ? `News, stories, and ideas about ${topicLabel(community)}.` : "Fresh context, useful ideas, true stories, and a little back-and-forth."}
+          </p>
         </div>
-        {feed.newPostCount > 0 && (
-          <button
-            className="new-posts"
-            disabled={feed.isLoadingMore}
-            onClick={() => {
-              setAuthorId("");
-              void feed.showNewPosts();
-            }}
-          >
-            Show {feed.newPostCount} new posts
-          </button>
-        )}
-        {author && (
-          <section
-            className="profile-card"
-            tabIndex={-1}
-            ref={profileRef}
-            aria-label={`${author.displayName}'s profile`}
-          >
-            <button className="text-button" onClick={() => setAuthorId("")}>
-              ← Back to feed
-            </button>
-            <div className="profile-heading">
-              <Avatar
-                seedKey={author.id}
-                displayName={author.displayName}
-                handle={author.handle}
-                size={56}
-              />
-              <div>
-                <h2>{author.displayName}</h2>
-                <span>@{author.handle}</span>
-              </div>
-            </div>
-            <p>{author.bio}</p>
-            <p className="profile-interests">{author.interests.join(" · ")}</p>
-            <span className="profile-note">AI-edited column · Posts below</span>
-          </section>
-        )}
         <div className="feed-controls">
-        <div className="format-tabs" aria-label="Reading format">
-          {[
-            ["", "All"],
-            ["news", "News"],
-            ["explainer", "Explained"],
-            ["story", "Stories"],
-            ["banter", "Banter"],
-          ].map(([value, label]) => (
+          {/* One row on phones: it scrolls sideways instead of wrapping above the first post. */}
+          <div className="feed-control-row">
+            <div className="format-tabs" role="group" aria-label="Reading format">
+              {[
+                ["", "All"],
+                ["news", "News"],
+                ["explainer", "Explained"],
+                ["story", "Stories"],
+                ["banter", "Banter"],
+              ].map(([value, label]) => (
+                <button
+                  key={value}
+                  aria-pressed={format === value}
+                  onClick={() => setFormat(value)}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
+            <div className="density-switch" role="group" aria-label="Feed layout">
+              <button aria-pressed={density === "full"} onClick={() => changeDensity("full")}>Full posts</button>
+              <button aria-pressed={density === "headlines"} onClick={() => changeDensity("headlines")}>Headlines</button>
+            </div>
+          </div>
+          <a className="feed-subscribe" href={community ? `${import.meta.env.BASE_URL}topics/${topicSlug(community)}/feed.xml` : `${import.meta.env.BASE_URL}feed.xml`}><span className="feed-subscribe-long">Follow {community ? topicLabel(community) : "CoBanter"} by</span> RSS</a>
+        </div>
+        {/* Always mounted so the arrival is announced; sticks under the header while reading. */}
+        <div className="new-posts-bar" aria-live="polite">
+          {feed.newPostCount > 0 && (
             <button
-              key={value}
-              aria-pressed={format === value}
-              onClick={() => {
-                setFormat(value);
-                setAuthorId("");
-              }}
+              className="new-posts"
+              disabled={feed.isLoadingMore}
+              onClick={() => void feed.showNewPosts()}
             >
-              {label}
+              Show {feed.newPostCount} new posts
             </button>
-          ))}
-        </div>
-        <div className="density-switch" role="group" aria-label="Feed layout">
-          <button aria-pressed={density === "full"} onClick={() => changeDensity("full")}>Full posts</button>
-          <button aria-pressed={density === "headlines"} onClick={() => changeDensity("headlines")}>Headlines</button>
-        </div>
+          )}
         </div>
         <div className="feed-list">
           {visible.map((item) => density === "headlines" && item.editorial ? (
@@ -168,7 +122,6 @@ export function FeedList({ community = "", onOpenTopic, onOpenArticle }: {
               onOpenArticle={onOpenArticle}
               accountsById={feed.accountsById}
               itemsById={itemsById}
-              onAuthorClick={openProfile}
               onCommunityClick={onOpenTopic}
             />
           ))}

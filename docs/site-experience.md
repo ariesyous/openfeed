@@ -99,6 +99,56 @@ static pages, so output grows with the permanent archive.
   about twice as long. A hosting decision that keeps every permalink is needed before
   then. Never delete content or routes to save space.
 
+## Phone reading pass (October 23, 2026)
+
+An October 23 review at 375×812 found the first post starting about 470 px down,
+under a two-line banner, a tagline, an RSS line, wrapped control rows and a card
+header that repeated the format chip. The user chose this pass. Every earlier
+decision above is unchanged: Full posts by default, expanded discussions,
+spoiler gates, Cards and its fitting contract, dark by default.
+
+- **No column header on editorial cards.** There are only four "columns", one
+  per format, so the avatar, column name ("The Brief") and "AI-edited column"
+  added nothing. The user approved removing them. The Added date sits at the
+  right end of the format/topic row. The author profile filter and profile card
+  are gone with it. Legacy non-editorial posts keep their author header.
+- **Bylines say "CoBanter · AI-written · Added …"** in the app article view and
+  the static article page, matching the homepage summaries.
+- **Above the fold at ≤600 px** (and on screens ≤500 px tall): the banner shows
+  a one-line short form (the clipped words stay available to screen readers),
+  the h1 is smaller, the tagline is hidden, and the visible "Topics" label is
+  hidden while the topic buttons stay. The format tabs and Full/Headlines share
+  one horizontally scrollable row, with the RSS link ("RSS"; its accessible name
+  is still "Follow … by RSS") beside it. The header uses tighter padding, which
+  keeps 360 px phones on one header row. The format tabs are a `role="group"`.
+  The static homepage banner keeps its long text until the app swaps in.
+- **The footer is reachable.** The scroll sentinel auto-loads at most two older
+  batches per mounted feed (`AUTO_LOAD_LIMIT` in `useFeed.ts`). After that,
+  "Load older posts" stays the way to continue, and About/Archive/RSS links in
+  the footer can be reached.
+- **New posts stay in reach.** "Show N new posts" is sticky just under the
+  header (its height is measured into `--header-height`) inside an always-mounted
+  polite live region.
+- **Hidden tabs do not poll.** The five-minute manifest check is skipped while
+  the document is hidden, and runs once when the tab becomes visible again.
+
+Measured with `pnpm preview` in the desktop app's emulated viewport (CSS px from
+the top, scrolled to 0):
+
+| Viewport | Root text | First post before → after | First title before → after |
+| --- | --- | --- | --- |
+| 375×812 | 100% | 473 → 223 | 572 → 272 |
+| 390×844 | 100% | 473 → 223 | 572 → 272 |
+| 360×740 | 100% | 519 → 223 | 618 → 272 |
+| 844×390 | 100% | 386 → 252 | 485 → 300 |
+| 375×812 | 200% | 1342 → 628 | 1555 → 766 |
+| 360×740 | 200% | 1407 → 628 | 1652 → 766 |
+| 844×390 | 200% | 1123 → 609 | 1306 → 705 |
+
+This is emulation, not a physical phone. The pane was hidden during part of the
+check, so IntersectionObserver and ResizeObserver only ran when screenshots
+forced a frame.
+
 ## Not done
 
 - No newsletter, analytics change (Cloudflare Web Analytics already runs), service

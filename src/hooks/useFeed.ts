@@ -22,6 +22,9 @@ async function fetchBatch(batch: BatchRef, signal: AbortSignal) {
   );
 }
 
+/** Older batches the scroll sentinel may fetch per mounted feed; then "Load older posts" takes over so the footer stays reachable. */
+export const AUTO_LOAD_LIMIT = 2;
+
 export function useFeed(topic = "") {
   const [items, setItems] = useState<FeedItem[]>([]);
   const [accounts, setAccounts] = useState<Account[]>([]);
@@ -36,10 +39,12 @@ export function useFeed(topic = "") {
   const busy = useRef(false);
   const loaded = useRef(new Set<string>());
   const newest = useRef<string | null>(null);
+  const autoLoads = useRef(0);
 
   useEffect(() => {
     const abort = new AbortController();
     controller.current = abort;
+    autoLoads.current = 0;
     async function initialize() {
       try {
         const [manifestData, accountData] = await Promise.all([
@@ -67,8 +72,9 @@ export function useFeed(topic = "") {
       }
     }
     void initialize();
-    const interval = setInterval(async () => {
-      if (!newest.current || busy.current) return;
+    // Hidden tabs skip the five-minute check and catch up once when shown again.
+    const checkForNewPosts = async () => {
+      if (!newest.current || busy.current || document.visibilityState === "hidden") return;
       try {
         const manifest = ManifestSchema.parse(
           await fetchJson(manifestUrl(topic), abort.signal),
@@ -83,10 +89,14 @@ export function useFeed(topic = "") {
       } catch {
         /* Keep the current feed when a background check fails. */
       }
-    }, 5 * 60_000);
+    };
+    const interval = setInterval(checkForNewPosts, 5 * 60_000);
+    const onVisibility = () => { if (document.visibilityState === "visible") void checkForNewPosts(); };
+    document.addEventListener("visibilitychange", onVisibility);
     return () => {
       abort.abort();
       clearInterval(interval);
+      document.removeEventListener("visibilitychange", onVisibility);
     };
   }, [attempt, topic]);
 
@@ -179,12 +189,16 @@ export function useFeed(topic = "") {
         !node ||
         error ||
         isLoadingMore ||
+        autoLoads.current >= AUTO_LOAD_LIMIT ||
         !("IntersectionObserver" in window)
       )
         return;
       observer.current = new IntersectionObserver(
         (entries) => {
-          if (entries.some((e) => e.isIntersecting)) void loadMore();
+          if (!entries.some((e) => e.isIntersecting) || autoLoads.current >= AUTO_LOAD_LIMIT) return;
+          autoLoads.current += 1;
+          observer.current?.disconnect();
+          void loadMore();
         },
         { rootMargin: "600px" },
       );

@@ -183,6 +183,16 @@ export function App() {
       if (mode === "feed") document.querySelector<HTMLButtonElement>(".view-switch button[aria-pressed='true']")?.focus({ preventScroll: true });
     });
   };
+  // Sticky feed notices sit just below the header, whose height changes with wrapping and text size.
+  const appRef = useRef<HTMLDivElement>(null);
+  const headerRef = useRef<HTMLElement>(null);
+  useEffect(() => {
+    const header = headerRef.current;
+    if (!header || typeof ResizeObserver === "undefined") return;
+    const observer = new ResizeObserver(() => appRef.current?.style.setProperty("--header-height", `${header.offsetHeight}px`));
+    observer.observe(header);
+    return () => observer.disconnect();
+  }, []);
   const openSearchRef = useRef(openSearch);
   useEffect(() => { openSearchRef.current = openSearch; });
   useEffect(() => {
@@ -196,9 +206,9 @@ export function App() {
   const cardsActive = viewMode === "cards" && !articleRoute && !searchActive;
   const backState = window.history.state;
   const backLabel = backState?.from === "search" ? "← Back to search" : viewMode === "cards" ? "← Back to cards" : "← Back to feed";
-  return <div className={`app${cardsActive ? " app--cards" : ""}`}>
+  return <div ref={appRef} className={`app${cardsActive ? " app--cards" : ""}`}>
     <a className="skip-link" href="#main">Skip to content</a>
-    <header className="app-header">
+    <header ref={headerRef} className="app-header">
       <a className="app-title" href={base} onClick={(event) => { if (!plainClick(event)) return; event.preventDefault(); goHome(); }}><img className="app-mark" src={`${base}favicon.svg`} alt="" width="24" height="24" /><span className="app-name">CoBanter</span><span className="app-tagline"> A little more worth reading.</span></a>
       {!articleRoute && <nav className="view-switch" aria-label="Reading view">
         <button aria-pressed={viewMode === "feed" && !searchActive} onClick={() => changeView("feed")}>Feed</button>

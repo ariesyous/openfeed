@@ -208,5 +208,6 @@ describe("permanent topic pages", () => {
       vi.unstubAllEnvs();
       rmSync(root, { recursive: true, force: true });
     }
-  });
+  // Builds a multi-page archive, including a share image per article.
+  }, 30_000);
 });

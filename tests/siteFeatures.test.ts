@@ -134,7 +134,7 @@ describe("related reading and search", () => {
     expect(read(`p/${newest.slug}/index.html`)).toContain(`Older in Science</span><a href="${articlePath(middle)}">`);
     expect(html).toContain(`class="post-card-community" href="${topicPath("science")}"`);
     expect(html).toContain('<div class="post-card-body"><p>First paragraph of middle.</p><p>Second paragraph of middle.</p></div>');
-    expect(html).toContain('<p class="article-byline">CoBanter · AI-edited · <time datetime="2026-10-02T00:00:00Z">Added Oct 2, 2026</time></p>');
+    expect(html).toContain('<p class="article-byline">CoBanter · AI-written · <time datetime="2026-10-02T00:00:00Z">Added Oct 2, 2026</time></p>');
   });
   it("indexes headlines and metadata, never bodies or discussion", () => {
     const index = JSON.parse(read("data/search-index.json")) as SearchIndex;

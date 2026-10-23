@@ -61,12 +61,35 @@ describe("headlines view", () => {
   });
 });
 
+describe("feed cards", () => {
+  it("drop the column header and keep the Added date in the meta row", async () => {
+    render(<App />);
+    await screen.findByRole("link", { name: first.title });
+    expect(document.querySelector(".feed-list .post-card-header")).toBeNull();
+    expect(screen.queryByText("AI-edited column")).not.toBeInTheDocument();
+    expect(screen.queryByRole("button", { name: "The Brief" })).not.toBeInTheDocument();
+    const meta = document.getElementById(first.id)!.querySelector(".post-card-meta")!;
+    expect(meta.lastElementChild).toHaveClass("post-card-time");
+    expect(meta.lastElementChild).toHaveTextContent(/^Added /);
+  });
+  it("group the format tabs and keep RSS beside the controls", async () => {
+    render(<App />);
+    await screen.findByRole("link", { name: first.title });
+    const formats = screen.getByRole("group", { name: "Reading format" });
+    expect(within(formats).getByRole("button", { name: "All" })).toHaveAttribute("aria-pressed", "true");
+    const rss = screen.getByRole("link", { name: "Follow CoBanter by RSS" });
+    expect(rss.closest(".feed-controls")).toBe(formats.closest(".feed-controls"));
+    expect(document.querySelector(".new-posts-bar")).toHaveAttribute("aria-live", "polite");
+  });
+});
+
 describe("article reading", () => {
-  const item: FeedItem = { ...first, body: "Opening paragraph.\n\nSecond paragraph." };
+  // The newest live post may itself be spoiler-marked; this fixture states its own flag.
+  const item: FeedItem = { ...first, body: "Opening paragraph.\n\nSecond paragraph.", editorial: { ...first.editorial!, spoilers: false } };
   it("renders paragraphs and a byline in place of the feed header", () => {
     const { container } = render(<PostCard item={item} articleView accountsById={new Map()} />);
     expect([...container.querySelectorAll(".post-card-body p")].map(node => node.textContent)).toEqual(["Opening paragraph.", "Second paragraph."]);
-    expect(container.querySelector(".article-byline")).toHaveTextContent(/^CoBanter · AI-edited · Added .+$/);
+    expect(container.querySelector(".article-byline")).toHaveTextContent(/^CoBanter · AI-written · Added .+$/);
     expect(container.querySelector(".post-card-header")).toBeNull();
   });
   it("uses the native share sheet when one exists", async () => {
