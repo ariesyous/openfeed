@@ -15,7 +15,8 @@ const manifest = JSON.parse(readFileSync("public/data/manifest.json", "utf8")) a
 const fixture = BatchFileSchema.parse(JSON.parse(readFileSync(`public/data/${manifest.batches[0].file}`, "utf8")));
 const template = fixture.items.find(item => item.editorial)!;
 const make = (id: string, createdAt: string, extra: Partial<FeedItem> = {}) => withArticleSlug({
-  ...template, id, slug: undefined, createdAt, community: "science", title: `Headline ${id}`,
+  // The newest real post may be spoiler-flagged; tests that need a spoiler pass their own editorial.
+  ...template, editorial: { ...template.editorial!, spoilers: false }, id, slug: undefined, createdAt, community: "science", title: `Headline ${id}`,
   body: `First paragraph of ${id}.\n\nSecond paragraph of ${id}.`, ...extra,
 });
 const newest = make("newest", "2026-10-03T00:00:00Z");
