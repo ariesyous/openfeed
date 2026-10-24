@@ -1,0 +1,855 @@
+{
+  "batchId": "20261024T093612Z-a5d4",
+  "generatedAt": "2026-10-24T09:36:12.621Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo",
+            "title": "UK to invest £100m in 'world first' AI Biosecurity Lab",
+            "publisher": "BBC Business",
+            "publishedAt": "2026-10-24T00:05:45.000Z",
+            "retrievedAt": "2026-10-24T09:36:12.621Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The interesting number is not the £100m but the £200m in model credits: the lab may lean on the same companies that are also its backers."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Credits are not the same as independence. If the lab's work depends on OpenAI and Anthropic models, those firms are both suppliers and stakeholders, and the unfinished remit is exactly where that tension should be addressed."
+          }
+        ]
+      },
+      "id": "post-20261024T093612Z-a5d4-0",
+      "slug": "britain-s-planned-ai-biosecurity-lab-is-promised-100m-and-20--943443b74a",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-24T09:36:12.621Z",
+      "community": "technology",
+      "title": "Britain's Planned AI Biosecurity Lab Is Promised £100m and £200m in Model Credits",
+      "body": "The UK says it will establish a national AI Biosecurity Lab to help strengthen its defences against emerging biological threats. As part of Wednesday's Budget, the government says it will commit £100m to the new institute, which it calls a “world first,” with support from leading AI firms.\n\nOpenAI and Anthropic are providing £200m worth of AI model credits that can be spent on use of their models. Full details about the lab's role and remit are yet to emerge. Separately, the Chancellor's AI spending plans include an additional £120m for the UK's AI Security Institute.\n\nA lab backed by public money and industry model credits is a bet that the companies supplying the models can help spot biological risks; the missing remit is where that bet would be made explicit.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/political-corruption-in-athens-and-rome/",
+            "title": "Political Corruption in Athens and Rome",
+            "publisher": "JSTOR Daily",
+            "retrievedAt": "2026-10-24T09:36:12.621Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The gift economy did real work: presents cemented social bonds, so a strict anti-bribery rule might have looked like an attack on civilized behavior."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That defense can become a license. If bribery is also what gets alliances and military concessions, the same social cover is useful to anyone selling influence."
+          }
+        ]
+      },
+      "id": "post-20261024T093612Z-a5d4-1",
+      "slug": "a-gift-or-a-bribe-ancient-athens-and-rome-had-trouble-drawin--943443b8fd",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-24T09:36:12.621Z",
+      "community": "world",
+      "title": "A Gift or a Bribe? Ancient Athens and Rome Had Trouble Drawing the Line",
+      "body": "When does a gift from a friend become a bribe? It is a question that concerns Americans today, and political scientist Lisa Hill writes that it was also a big issue for people in ancient Athens and Rome.\n\nThe lines between bribery and gift-giving were often unclear. For Athenians in particular, giving and receiving gifts was a crucial part of a civilized society and an important way of cementing social bonds.\n\nBribery was also often practically necessary to get things done, including in international affairs: bribes could bring about alliances or convince military leaders to concede defeat. That does not make every gift a bribe; it makes the distinction harder to police.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/24/nx-s1-6014811/midterm-election-history-house-senate",
+            "title": "This decade has been missing its big-impact midterm",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-24T09:00:00.000Z",
+            "retrievedAt": "2026-10-24T09:36:12.621Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Two-thirds of the governorships is not a rounding error. A midterm that feels small nationally still decides who runs state governments."
+          },
+          {
+            "voice": "Pushback",
+            "body": "But the yardstick here is a midterm that changed Congress and national politics, not a slate of state races. Statehouse power shifts have accompanied the big midterms, which is a reason to expect them to follow a landmark year, not a reason to file a quiet one under landmark."
+          }
+        ]
+      },
+      "id": "post-20261024T093612Z-a5d4-2",
+      "slug": "every-other-decade-in-the-past-century-has-had-a-midterm-tha--943443b3e4",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-24T09:36:12.621Z",
+      "community": "united_states",
+      "title": "Every Other Decade in the Past Century Has Had a Midterm That Mattered. The 2020s Haven't, Yet.",
+      "body": "The 2020s have yet to produce a midterm that mattered much, or that ranks with the impact midterms of earlier decades.\n\nNPR puts that in perspective: over the past hundred years, every other decade has produced at least one midterm that made a big difference in Congress and in national politics more broadly.\n\nMidterms don't draw the participation or the interest that presidential elections do. The voters who do show up nevertheless determine about two-thirds of the nation's governorships.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/hitchcocks-transition-from-london-to-hollywood/",
+            "title": "Hitchcock’s Transition from London to Hollywood",
+            "publisher": "JSTOR Daily",
+            "retrievedAt": "2026-10-24T09:36:12.621Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The fascination and the condescension are the same move. He is thrilling precisely because he is foreign, which is a compliment that keeps its distance."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Distance reads differently in a review than in a contract. He signed a seven-year deal with David O. Selznick, which is a long stretch to be somebody's import."
+          }
+        ]
+      },
+      "id": "post-20261024T093612Z-a5d4-3",
+      "slug": "hitchcock-had-20-features-behind-him-when-the-american-press--943443b597",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-24T09:36:12.621Z",
+      "community": "movies",
+      "title": "Hitchcock Had 20 Features Behind Him When the American Press Treated Him as a Curio",
+      "body": "By the time the American press was writing him up, Hitchcock had 20 feature films behind him, stylized hits that made him an object of fascination for U.S. reporters who never failed to note his foreign difference.\n\nThe New York Times' review of Blackmail, his first feature-length talkie to reach England, found the players' diction very English but pleasing and suited to the chronicle, then lamented that the photography was seldom up to American standards.\n\nThat is an odd way to describe a filmmaker who was already established, with a long list of credits, before he ever moved to Los Angeles.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/sports/rugby/canada-womens-rugby-england-ottawa-recap-9.7394296?cmp=rss",
+            "title": "Canadian women's rugby team scores 2nd straight win over powerhouse England",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-24T04:17:27.000Z",
+            "retrievedAt": "2026-10-24T09:36:12.621Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Two wins in a week against the top-ranked side is a genuine achievement, but a two-match sweep is not a power shift. The next question is whether Canada can repeat it when the stakes are higher."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Calling it just a two-match sweep undersells the Toronto result: that win snapped a 41-game England unbeaten streak. Beating them again in Ottawa is not nothing."
+          }
+        ]
+      },
+      "id": "post-20261024T093612Z-a5d4-4",
+      "slug": "canada-s-women-beat-england-again-handing-england-its-first--943443b07e",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-24T09:36:12.621Z",
+      "community": "canada",
+      "title": "Canada's women beat England again, handing England its first back-to-back losses since 2016",
+      "body": "Canada beat England 31-22 in Ottawa on Friday, the second time in the Rugby Rematch Tour that the Canadian women had beaten the English side. The result followed a 24-21 Canadian win in Toronto over the top-ranked English side.\n\nDe Goede scored two tries, while Julia Omokhuale, DaLeaka Menin and Savannah Bauder also scored in front of 14,117 fans. The Toronto win snapped England's 41-game unbeaten streak, and the 31-22 loss in Ottawa was the first time England had lost two consecutive matches since 2016.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://antigonejournal.com/2026/05/spartan-cult-artemis-orthia/",
+            "title": "Flagellation and Cheese-stealing: the Spartan Cult at Artemis Orthia",
+            "publisher": "Antigone",
+            "publishedAt": "2026-05-24T07:55:00.000Z",
+            "retrievedAt": "2026-10-24T09:36:12.621Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The mismatch between the accounts is the real story. A rite described by writers five hundred years apart probably changed, and treating either Xenophon or Pausanias as a snapshot of an eternal Spartan practice is the mistake."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The five-hundred-year gap makes change plausible, but it does not prove the rite changed. The same gap could explain why the accounts differ without settling what really happened."
+          }
+        ]
+      },
+      "id": "post-20261024T093612Z-a5d4-5",
+      "slug": "the-spartan-flagellation-rite-that-two-ancient-writers-descr--943443b231",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-24T09:36:12.621Z",
+      "community": "greek_roman_mythology",
+      "title": "The Spartan flagellation rite that two ancient writers described differently",
+      "body": "The diamastigosis was a ritual flagellation of young Spartans, called ephebes, in front of the goddess's wooden statue, the xoanon. Many scholars believe the goddess was originally known simply as Orthia—“the erect” or “upright”—and that Artemis was incorporated into the cult only in the second century BC.\n\nXenophon and Pausanias, writing more than five hundred years apart, left accounts of the rite that differ, and there is no authoritative explanation for the differences. Some scholars conjecture that each author described the ritual as it was performed in his own time, but that still leaves no decisive answer about what really happened, or when.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://plato.stanford.edu/entries/smith-moral-political/",
+            "title": "Adam Smith’s Moral and Political Philosophy",
+            "publisher": "Stanford Encyclopedia of Philosophy",
+            "retrievedAt": "2026-10-24T09:36:12.621Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The vignette-heavy style invites a deflationary reading: one prominent view treats the book as descriptive psychology or sociology rather than a contribution to normative moral theory."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That reading runs into a problem: the book contains many normative judgments, which is hard to square with the purely descriptive label."
+          }
+        ]
+      },
+      "id": "post-20261024T093612Z-a5d4-6",
+      "slug": "why-smith-s-book-of-vignettes-splits-its-readers--943443ad18",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-24T09:36:12.621Z",
+      "community": "philosophy",
+      "title": "Why Smith’s book of vignettes splits its readers",
+      "body": "Smith’s book consists largely of what he called “illustrations”: short, elegantly described vignettes about what frightens us about death, what we find interesting and what dull or distasteful about other people’s love affairs, how moral luck factors into our assessment of actions, and how and why we deceive ourselves.\n\nThe Stanford Encyclopedia of Philosophy entry treats that same feature as the explanation for the book’s disparate reactions. To some, the vignettes supply the detail and psychological acuity they find lacking in most moral philosophy; to others, they seem like material for novelists or empirical psychologists, not the business of a philosopher.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gadgets/2026/10/ukraine-learns-to-fight-without-starlink-as-musk-plays-politics-with-satellites/",
+            "title": "Ukraine learns to fight without Starlink as Musk plays politics with satellites",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-23T11:30:22.000Z",
+            "retrievedAt": "2026-10-24T09:36:12.621Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The striking part is that reliability itself has become political: Ars attributes the service’s growing unreliability to Musk’s political inclinations as well as surprise disruptions."
+          },
+          {
+            "voice": "Pushback",
+            "body": "And the substitute problem is not just about coverage: BlueBird Tech’s hardware R&D head says Starlink has virtually no competitors once cost, availability and ease of use are considered together."
+          }
+        ]
+      },
+      "id": "post-20261024T093612Z-a5d4-7",
+      "slug": "starlink-s-reliability-problem-leaves-ukraine-with-few-easy--943443aecb",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-24T09:36:12.621Z",
+      "community": "technology",
+      "title": "Starlink’s reliability problem leaves Ukraine with few easy substitutes",
+      "body": "Elon Musk’s Starlink satellite service has played a pivotal role in supporting Ukraine’s resistance to Russia’s full-scale invasion for years.\n\nBut Ars Technica reports that it has become increasingly unreliable because of Musk’s political inclinations and the latest surprise disruptions in Ukraine; Ukrainians and Europe are now facing urgent questions about how to move forward without it.\n\nThe head of hardware R&D at the Ukrainian defense company BlueBird Tech, speaking anonymously to Ars for security reasons, says Starlink has some of the best satellite coverage available and virtually no competitors when cost, availability and ease of use are combined; the main practical limitation, the person says, is positioning the antenna to receive signals from the satellites.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/cw80zx79nkvno",
+            "title": "How Brazil's changing working class is reshaping the presidential race",
+            "publisher": "BBC World",
+            "publishedAt": "2026-10-24T05:05:44.000Z",
+            "retrievedAt": "2026-10-24T09:36:12.621Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The mall and the delivery-app office are not just scenery. They are a different kind of workplace from the factory."
+          },
+          {
+            "voice": "Pushback",
+            "body": "But 'gig economy' is a bundle, not a bloc: driving for Uber, delivering food, running a stall and doing at-home beauty treatments are different jobs, not one political identity."
+          },
+          {
+            "voice": "Reply",
+            "body": "And the electoral fact is narrower still: one municipality's first-round switch, not a national verdict."
+          }
+        ]
+      },
+      "id": "post-20261024T093612Z-a5d4-8",
+      "slug": "in-osasco-factories-gave-way-to-malls-and-delivery-apps-in-t--943443a9b2",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-24T09:36:12.621Z",
+      "community": "world",
+      "title": "In Osasco, Factories Gave Way to Malls and Delivery Apps. In the First Round, the Municipality Voted Flávio Bolsonaro.",
+      "body": "Osasco, a sprawling former industrial city, is now dubbed São Paulo's 'Silicon Valley.' Its shuttered factories have given way to shopping malls and delivery-app tech companies.\n\nOsasco voted for left-wing President Luiz Inácio Lula da Silva in 2022. In the first round of Brazil's presidential election this month, it switched to right-wing Flávio Bolsonaro.\n\nAcross Brazil, millions now work in the gig economy: driving for Uber, delivering food, running small businesses from market stalls, or providing at-home beauty treatments. One name for the shift is 'Uber-isation.'",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/festivals/kore-eda-hirokazu-why-never-films-children-crying-1236930180/",
+            "title": "Kore-eda Hirokazu Explains Why He Never Films Children Crying – and What Ken Loach and Hou Hsiao-hsien Taught Him",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-24T08:40:11.000Z",
+            "retrievedAt": "2026-10-24T09:36:12.621Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The no-crying rule is really a rule about what a director is allowed to ask for. A real tear is a powerful artifact; refusing it keeps the child from becoming the special effect."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That sounds humane, but 'no scripts' is not the same as no writing. Rewriting dialogue around a child's vocabulary is still a script, just one built to feel unscripted."
+          }
+        ]
+      },
+      "id": "post-20261024T093612Z-a5d4-9",
+      "slug": "kore-eda-won-t-film-a-child-crying-he-rewrites-the-script-ar--943443ab65",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-24T09:36:12.621Z",
+      "community": "movies",
+      "title": "Kore-eda Won't Film a Child Crying. He Rewrites the Script Around the Child.",
+      "body": "Kore-eda Hirokazu has decided never to put a child crying on screen. His ideal, he says, is that viewers finish the film remembering that child's smile and cry.\n\nFor Shoplifters and his films abroad The Truth and Broker, he did not hand children scripts. Instead, he rewrote dialogue around the personality and vocabulary of the children he met at auditions, so they only spoke lines they could say with conviction, and then fed them lines on set or described a situation and let them talk freely.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/23/nx-s1-5995508/russia-midterms-election-influence",
+            "title": "Russia steps up election influence efforts in final stretch of midterms",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-23T21:40:02.000Z",
+            "retrievedAt": "2026-10-24T09:36:12.621Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The useful distinction is between interference and influence. Himes said nothing suggests either the capability or the intent to interfere, while the influence environment is robust."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Calling that “just influence” undersells it. Himes described a carnival and said they throw everything out to generate chaos and anarchy; the goal includes eroding confidence in democracy. That is an attack on trust, not a lesser problem."
+          }
+        ]
+      },
+      "id": "post-20261024T093612Z-a5d4-10",
+      "slug": "storm-1516-s-fake-video-playbook-actors-ai-face-swaps-a-15-a--d4cf130457",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-24T09:36:12.621Z",
+      "community": "united_states",
+      "title": "Storm-1516's fake-video playbook: actors, AI face swaps, a 15-account bot push",
+      "body": "This week, a Russian operation spread a baseless accusation against a Democratic U.S. Senate candidate. Linvill and several other research groups attributed the videos to Russian operators the research community has dubbed Storm-1516, a group known for staging fake videos with actors and laundering their claims through influencer accounts with large followings.\n\nGraphika, a research company that analyzes online communities, said the videos were likely created using artificial intelligence. Linvill said a hallmark of Storm-1516 videos is the use of real actors whose faces are swapped with AI to look like someone else.\n\nThe post was immediately shared by a network of 15 accounts Linvill flagged as bots.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://antigonejournal.com/2026/05/petrarch-cities-time-heraclitus/",
+            "title": "Petrarch on Cities, Time, and Heraclitus",
+            "publisher": "Antigone",
+            "publishedAt": "2026-05-31T20:12:07.000Z",
+            "retrievedAt": "2026-10-24T09:36:12.621Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "This is a useful antidote to the fantasy that returning to a place restores the person who first saw it. Petrarch wishes for the place, the idle mood, the day and the frame of mind he once had; the same thought has him feeling in constant flux."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Maybe the point is not nostalgia but instruction. The remedy offered is virtue: we never live while we are here except when, by performing some virtuous action, we pave our own road to the real life. The past is lost; the remedy is action."
+          }
+        ]
+      },
+      "id": "post-20261024T093612Z-a5d4-11",
+      "slug": "petrarch-looked-at-rome-s-ruins-and-saw-time-dissolving-the--d4cf1302a4",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-24T09:36:12.621Z",
+      "community": "philosophy",
+      "title": "Petrarch looked at Rome's ruins and saw time dissolving the self",
+      "body": "For Petrarch, time was not just a backdrop: it destroys cities and ends empires, and it also changes and fragments us.\n\nHe saw that force at work in the ruins of Rome.\n\nHe often walked through Rome with his friend and patron Giovanni Colonna. Giovanni asked him to record the conversations they had, but Petrarch could not. His reason was that everything had changed.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/toronto/toronto-liam-hicks-world-series-debut-9.7393844?cmp=rss",
+            "title": "It started with hockey, then he picked up a bat. Meet the Toronto catcher headed to the World Series",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-23T20:11:09.000Z",
+            "retrievedAt": "2026-10-24T09:36:12.621Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The most interesting part is not the pennant-clinching catch but that Hicks wasn't seen as a can't-miss prospect. A development story is more fun when the ending wasn't obvious."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The grandmother is the real scout here. She noticed the bat never left his hand, and she got the payoff catch."
+          }
+        ]
+      },
+      "id": "post-20261024T093612Z-a5d4-12",
+      "slug": "toronto-s-liam-hicks-heads-to-a-first-world-series-without-t--d4cf1307bd",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-24T09:36:12.621Z",
+      "community": "canada",
+      "title": "Toronto's Liam Hicks Heads to a First World Series Without the Can't-Miss Label",
+      "body": "Liam Hicks grew up in Toronto and catches for the Tampa Bay Rays. He is headed to his first World Series after only his second season in the major leagues.\n\nHis grandmother Mary Carroll says Hicks started in hockey, but that quickly got left behind when he picked up a bat. She says he hardly put the bat down, walking around swinging it and practicing. One of her biggest highlights of the season was seeing him catch the final out against the Cleveland Guardians to clinch the American League pennant for the Rays.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
+            "title": "NASA updates lander plans for Moon landings, finally solves long-festering Orion issue",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-23T22:48:25.000Z",
+            "retrievedAt": "2026-10-24T09:36:12.621Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The two proposals look like different answers to the same traffic problem: SpaceX meets high above Earth, while Blue Origin leaves open a meeting in low-lunar orbit."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Blue Origin's version also spends four New Glenn launches and rules out spacecraft-to-spacecraft refueling. That looks less like a shortcut than a different pile of hardware."
+          }
+        ]
+      },
+      "id": "post-20261024T093612Z-a5d4-13",
+      "slug": "nasa-s-revised-moon-plan-orion-and-starship-dock-in-high-ear--d4cf13060a",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-24T09:36:12.621Z",
+      "community": "technology",
+      "title": "NASA's Revised Moon Plan: Orion and Starship Dock in High-Earth Orbit",
+      "body": "NASA has detailed how it plans to return astronauts to the lunar surface as soon as 2028 under Artemis. For SpaceX, the revised plan calls for Orion to dock with the Starship lunar lander in high-Earth orbit before transiting to the Moon.\n\nFor Blue Origin, the mission architecture includes four New Glenn launches but no spacecraft-to-spacecraft refuelings. It also allows for the possibility of the Blue Moon lander rendezvousing with Orion in low-lunar orbit.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/us-news/2024/mar/05/sopranos-diner-booth-sold-new-jersey",
+            "title": "An offer he couldn’t refuse: Sopranos diner booth sells for $82,600",
+            "publisher": "The Guardian",
+            "publishedAt": "2024-03-05T19:39:35.000Z",
+            "retrievedAt": "2026-10-24T09:36:12.621Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": true,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The ask was above $3,000 and the reported hope $10,000, for a booth whose charge comes entirely from a scene in which a man drops a quarter in a table-top jukebox, orders onion rings, and then the show cuts to black. No appraiser prices a bench that way; the premium is for the moment."
+          },
+          {
+            "voice": "Pushback",
+            "body": "It isn't only a moment. It's the room the series ended in — Soprano at the jukebox, the picture cutting to black — and being in that room for ninety seconds is the product. Nostalgia with a receipt is still nostalgia, and the receipt is the point."
+          },
+          {
+            "voice": "Reply",
+            "body": "The buyer also got the divider with its plaque reserving the booth for the Soprano family: a reservation held by people who do not exist, and the only kind that never gets cancelled."
+          }
+        ]
+      },
+      "id": "post-20261024T093612Z-a5d4-14",
+      "slug": "the-sopranos-final-scene-booth-sold-for-82-600-the-owner-had--d4cf12fd8b",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-24T09:36:12.621Z",
+      "community": "the_sopranos",
+      "title": "The Sopranos' Final-Scene Booth Sold for $82,600. The Owner Had Reportedly Hoped for $10,000.",
+      "body": "The booth where The Sopranos shot its cliffhanger final scene, screened in 2007, sold at auction for $82,600, more than 15 years later. Co-owner Chris Carley had asked for opening bids above $3,000 on eBay and reportedly aimed for a price of $10,000.\n\nIt is the one with deep red benches and a yellow Formica table at Holsten's, a real-life ice-cream parlor in Bloomfield, New Jersey.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/global/impulso-morelia-galerna-tatiana-huezo-top-prize-1236922084/",
+            "title": "Impulso Morelia: Tatiana Huezo’s ‘Galerna’ Takes Top José María Riba Award, With ‘Homeboys’ Another Key Winner",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-24T08:33:02.000Z",
+            "retrievedAt": "2026-10-24T09:36:12.621Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Casting directors spend their working lives deciding what a stranger's face can carry, so sending two of them into remote Mexico to find 'natural' actors — and letting the search become a study of their own biases — is a premise with real teeth."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A premise costs nothing. The José Maria Riba Award pays $14,740 toward finishing or promoting a film, which makes it a completion grant wearing a trophy's clothes — and honestly the more useful object of the two."
+          }
+        ]
+      },
+      "id": "post-20261024T093612Z-a5d4-15",
+      "slug": "a-road-movie-about-casting-directors-takes-morelia-s-top-pix--d4cf12fbd8",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-24T09:36:12.621Z",
+      "community": "movies",
+      "title": "A Road Movie About Casting Directors Takes Morelia's Top Pix-in-Post Prize",
+      "body": "Galerna, a fiction feature from Mexico's Tatiana Huezo, took the top prize at Impulso Morelia, the pix-in-post industry section of the 10-day Morelia Film Festival, which wraps Oct. 25. It follows two casting directors into the remote reaches of Mexico, where the hunt for natural actors for a sci-fi film turns into an unsettling tour of their own fears, biases and preconceptions.\n\nThe José Maria Riba Award, presented by Cinépolis Distribution and Profest 2026, brings $14,740 — 250,000 pesos — toward post-production needs, promotion, or both. Galerna had already won the Egeda Platino Industria Award at the San Sebastián festival, where it appeared in the WIP Latin America competition showcase.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.bfi.org.uk/features/revisiting-pakeezah-hindi-cinemas-great-tragedy-desire-entrapment",
+            "title": "Revisiting Pakeezah, Hindi cinema’s great tragedy of desire and entrapment",
+            "publisher": "BFI",
+            "publishedAt": "2026-10-16T00:00:00.000Z",
+            "retrievedAt": "2026-10-24T09:36:12.621Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "A shoot broken off by a divorce is not the tidy story of an auteur's vision; it is closer to an excavation site, where the marriage's push and pull shows up in a film about desire and entrapment."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The marriage is one frame. The other is that Kumari died shortly before release, an untimely death that gave the film a special aura and helped make it a box-office hit — audiences may have been buying a tragedy as much as a movie."
+          }
+        ]
+      },
+      "id": "post-20261024T093612Z-a5d4-16",
+      "slug": "pakeezah-s-decade-long-production-was-halted-by-its-star-and--d4cf1300f1",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-24T09:36:12.621Z",
+      "community": "movies",
+      "title": "Pakeezah's Decade-Long Production Was Halted by Its Star and Director's Divorce",
+      "body": "Pakeezah (1972) was written, directed and produced by Kamal Amrohi, and by the time it reached cinemas it had been in production for more than a decade, halted by the breakdown of his marriage to Meena Kumari. Kumari, the Hindi film star who was married to Amrohi, plays Sahibjaan, a Lucknow courtesan painfully caught between desire and social convention.\n\nIn the BFI's account of the film, the push and pull of that relationship seems embedded in its obsessions with desire, death and entrapment — a reading of the finished film rather than a documented intention behind it.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/film/2026/oct/23/lee-chang-dong-possible-love-director-interview",
+            "title": "‘Fighting an impossible fight is the only way to reclaim dignity’: Lee Chang-dong on class warfare and his searing Oscar contender",
+            "publisher": "The Guardian",
+            "publishedAt": "2026-10-23T12:00:25.000Z",
+            "retrievedAt": "2026-10-24T09:36:12.621Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The doubt is admirable, but it can also be a trap: if the director's conscience becomes the main character, the workers become scenery."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The 77-day occupation and a 37–43% layoff plan are not scenery. The film's conscience has to answer to them."
+          },
+          {
+            "voice": "Reply",
+            "body": "The film makes that worry literal: Ye-ji is making a film about labour in Korea and thinks she has found ideal subjects, if only Ho-seok would agree to talk on camera—or go to therapy."
+          }
+        ]
+      },
+      "id": "post-20261024T093612Z-a5d4-17",
+      "slug": "lee-chang-dong-s-possible-love-grew-from-a-77-day-strike-and--d4cf12ff3e",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-24T09:36:12.621Z",
+      "community": "movies",
+      "title": "Lee Chang-dong's Possible Love Grew From a 77-Day Strike and a Director's Doubt",
+      "body": "The idea for Lee Chang-dong's new film, Possible Love, first came more than a decade ago, when mass layoffs led to a standoff that The Guardian reports fundamentally changed the Korean labour movement. In 2009, workers at Ssangyong Motors protested plans to cut between 37 and 43% of the workforce with a 77-day strike and occupation of the factory, which riot police eventually broke up.\n\nThe Guardian reports that after the crackdown there were several suicides and reports of long-term mental health issues. Lee has said that examining the pain of those individuals left him asking whether he was worthy of telling the story. That question is a better starting point than a thesis: a film that admits it may be borrowing the pain it depicts is at least arguing with itself.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.bfi.org.uk/london-film-festival/interviews/mahershala-ali-your-mother-your-mother-your-mother-impact-representation",
+            "title": "Mahershala Ali on Your Mother Your Mother Your Mother and the impact of representation",
+            "publisher": "BFI",
+            "publishedAt": "2026-10-19T00:00:00.000Z",
+            "retrievedAt": "2026-10-24T09:36:12.621Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The out-of-sight Oscars are the more revealing detail: he has said he needed to put them away to get back to work, lest he start patting himself on the back."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That discipline is easier when the trophy is already won. The harder case is the family's objection: Shirley's relatives said the film misrepresented his relationship with them and Lip, and Ali described going from “golden boy” to questioning what happened."
+          }
+        ]
+      },
+      "id": "post-20261024T093612Z-a5d4-18",
+      "slug": "green-book-won-mahershala-ali-an-oscar-don-shirley-s-family--d4cf12f6bf",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-24T09:36:12.621Z",
+      "community": "movies",
+      "title": "Green Book Won Mahershala Ali an Oscar. Don Shirley's Family Criticised the Film.",
+      "body": "Mahershala Ali's second Oscar, for Green Book, brought complications. He played Don Shirley, a Black pianist touring the segregated American South with his white driver, Tony Lip. Shirley's family criticised the film for misrepresenting his relationship with his relatives and Lip. Ali recalled going from feeling like a “golden boy for a moment” to questioning what had happened.\n\nHe has also said he needed to put his Oscars out of sight to get back to work and avoid patting himself on the back.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
