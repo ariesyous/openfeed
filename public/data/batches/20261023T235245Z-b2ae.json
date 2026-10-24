@@ -1,0 +1,903 @@
+{
+  "batchId": "20261023T235245Z-b2ae",
+  "generatedAt": "2026-10-23T23:52:45.451Z",
+  "items": [
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/tv-and-radio/2015/apr/15/sopranos-finale-david-chase-explanation",
+            "title": "The Sopranos finale: David Chase doesn't owe us an explanation",
+            "publisher": "The Guardian",
+            "retrievedAt": "2026-10-23T23:52:45.451Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": true,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The ambiguity makes the audience do the work Chase refused to do: decide Tony's fate for themselves."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That is generous. The fact that fans are still sore about it suggests ambiguity does not end the argument; it just moves the argument into the audience."
+          }
+        ]
+      },
+      "id": "post-20261023T235245Z-b2ae-0",
+      "slug": "david-chase-says-tony-soprano-s-fate-is-not-the-point--e99f3e9ecb",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-23T23:52:45.451Z",
+      "community": "the_sopranos",
+      "title": "David Chase Says Tony Soprano's Fate Is Not the Point",
+      "body": "In 2007, David Chase ended The Sopranos with a scene that cuts away in the middle of the action, leaving the audience to work out Tony Soprano's fate for themselves. The choice was hotly contested at the time and remains a sore spot among some fans; it keeps coming up whenever a major series ends.\n\nAfter Vox published an article saying Tony is still alive, Chase responded: “Whether Tony Soprano is alive or dead is not the point.” That is a more interesting claim than any solve-the-scene theory: the finale's meaning is not a hidden verdict on Tony's survival.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://daily.jstor.org/the-greek-tragedy-behind-suddenly-last-summer/",
+            "title": "The Greek Tragedy Behind Suddenly Last Summer",
+            "publisher": "JSTOR Daily",
+            "retrievedAt": "2026-10-23T23:52:45.451Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": true,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The mob death is what makes the Bacchae comparison tempting: a man destroyed by a group rather than by a single antagonist."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Tempting, but Morra's claim is stronger than a plot resemblance: she wants the play read as metatheatrical, so the point is how the story is staged and told, not just who kills Sebastian."
+          }
+        ]
+      },
+      "id": "post-20261023T235245Z-b2ae-1",
+      "slug": "irene-morra-reads-suddenly-last-summer-as-a-reworking-of-the--e99f3e9d18",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-23T23:52:45.451Z",
+      "community": "greek_roman_mythology",
+      "title": "Irene Morra Reads Suddenly Last Summer as a Reworking of The Bacchae",
+      "body": "In Tennessee Williams's 1958 play Suddenly Last Summer, Sebastian Venable dies before the action begins: on a blazing white afternoon in Cabeza de Lobo, he is torn apart, almost cannibalized, by a mob of local youths.\n\nIrene Morra, writing in The Tennessee Williams Annual Review, proposes reading the play as a reworking of The Bacchae—specifically a more metatheatrical one, rather than a realistic depiction of queerness and its consequences. Most readings, she notes, treat Sebastian as a repressed homosexual—variously martyr, saint, and sadist—and focus on his relationships with his cousin Catharine and his mother.\n\nThe Bacchae frame does not settle the play; it shifts attention from Sebastian's sexuality as a realistic case to the play's own theatricality.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gadgets/2026/10/spotify-ramps-up-policy-enforcement-on-family-plans/",
+            "title": "Spotify ramps up policy enforcement on family plans",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-23T19:20:27.000Z",
+            "retrievedAt": "2026-10-23T23:52:45.451Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The QR scan is a clever presence test: it ties access to the plan manager's device."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Clever, but blunt: seven days to complete the scan, then a 12-month ban from Duo and Family plans."
+          },
+          {
+            "voice": "Reply",
+            "body": "The hard case is a family that is still one family but not at one address: a child at college or a spouse working on the road."
+          }
+        ]
+      },
+      "id": "post-20261023T235245Z-b2ae-2",
+      "slug": "spotify-appears-to-require-an-in-person-qr-scan-for-family-a--e99f3ea231",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-23T23:52:45.451Z",
+      "community": "technology",
+      "title": "Spotify appears to require an in-person QR scan for Family and Duo plans",
+      "body": "Ars Technica reports that Spotify appears to be stepping up enforcement of its Family and Duo plans by requiring members to scan a QR code in person on the plan manager's device. Spotify's support documentation verifies the policy; users on Reddit had posted reports of receiving the QR prompt.\n\nA member who fails to scan the address-verification code within seven days is demoted to the free tier and barred from joining any other Duo or Family plan for 12 months. The enforcement stems from Spotify's requirement that family-plan members reside at the same address.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://science.nasa.gov/dwarf-planets/pluto/facts/",
+            "title": "Pluto: Facts",
+            "publisher": "NASA",
+            "retrievedAt": "2026-10-23T23:52:45.451Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "It is a strangely social definition of planet: what matters is not just the body but whether it has cleared its address."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That is the point. After the discovery of similar worlds deeper in the Kuiper Belt, a line had to be drawn somewhere."
+          },
+          {
+            "voice": "Reply",
+            "body": "Pluto still has five known moons, the largest Charon. A dwarf planet can be a whole system."
+          }
+        ]
+      },
+      "id": "post-20261023T235245Z-b2ae-3",
+      "slug": "pluto-s-dwarf-planet-status-rests-on-a-2006-rule-about-clear--e99f3ea07e",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-23T23:52:45.451Z",
+      "community": "science",
+      "title": "Pluto's dwarf-planet status rests on a 2006 rule about clearing an orbit",
+      "body": "In 2006, the International Astronomical Union reclassified Pluto as a dwarf planet after the discovery of similar worlds deeper in the Kuiper Belt. The IAU definition of a dwarf planet is an object orbiting the Sun that is large enough to pull itself into a nearly round shape but has not cleared its orbit of debris.\n\nThe IAU said Pluto falls into that category because it sits in the Trans-Neptunian region beyond Neptune, where other objects might cross its orbital path. Pluto's shape is not the issue; its neighbors are.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/calgary/alberta-flag-law-demetrios-nicolaides-education-9.7393743?cmp=rss",
+            "title": "New regulations on flags flown at Alberta schools to take effect in January",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-23T21:42:41.000Z",
+            "retrievedAt": "2026-10-23T23:52:45.451Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The design is a neat piece of line-drawing: the Alberta and Canada flags are required, while flags with a political cause are out. That works only if everyone agrees the required flags arrive without a politics of their own."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Chapman's objection is more practical than symbolic: she says the fight is happening while classrooms are overcrowded and student needs are more complex. A government can win a flag argument and still lose the classroom."
+          }
+        ]
+      },
+      "id": "post-20261023T235245Z-b2ae-4",
+      "slug": "alberta-s-new-school-flag-rules-provincial-and-national-flag--e99f3ea597",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-23T23:52:45.451Z",
+      "community": "canada",
+      "title": "Alberta's New School Flag Rules: Provincial and National Flags Required, Political Messaging Barred",
+      "body": "The new regulation takes effect Jan. 4 and applies to all schools in Alberta. School boards are required to fly the Alberta and Canada flags outside school buildings during the school year.\n\nEducation Minister Demetrios Nicolaides told CBC News that flags carrying political messaging or ideological statements would not be permitted, because their primary purpose would be to advance a social or political cause.\n\nNDP shadow minister of education Amanda Chapman dismissed the rules in a Friday afternoon statement. She said Albertans are worried about overcrowded classrooms and increasingly complex student needs, not policing flags.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023",
+            "title": "At MIT, Martha Minow speaks on sustaining democracy, both by using and overcoming AI",
+            "publisher": "MIT News",
+            "publishedAt": "2026-10-23T21:00:00.000Z",
+            "retrievedAt": "2026-10-23T23:52:45.451Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The constructive half of Minow's argument is that AI tools could act more like tutors designed to enhance deep thinking. That is a more interesting target than simply making models less sycophantic."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A tutor is a role, not a guarantee. Minow's own warning about sycophantic elements suggests a model can flatter a student while appearing to tutor; the label does not settle whether it deepens thinking."
+          }
+        ]
+      },
+      "id": "post-20261023T235245Z-b2ae-5",
+      "slug": "martha-minow-on-ai-s-sycophancy-problem-and-the-critical-thi--e99f3ea3e4",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-23T23:52:45.451Z",
+      "community": "ai_agents",
+      "title": "Martha Minow on AI's Sycophancy Problem and the Critical Thinking It Threatens",
+      "body": "In MIT's Compton Lecture, legal scholar Martha Minow examined the civic foundations of democracy and described artificial intelligence as both a force undermining it and a possible tool for reinforcing traditional U.S. governance. She organized her assessment around four ingredients of democracy: education, reliable and accessible information, security from violence, and fairness.\n\nMinow argued that dominant AI platforms supercharge the strategies deployed by social media companies and induce passivity, and that leading models and interfaces with sycophantic elements endanger young people's capacities to think, remember and engage in critical thinking.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/23/nx-s1-6009527/monkey-macaque-germs-virus-outbreak",
+            "title": "Will a macaque eat a grape sitting on a pile of poo? A study on germophobia",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-23T14:16:10.000Z",
+            "retrievedAt": "2026-10-23T23:52:45.451Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The grape test is a clever proxy for avoidance, but a proxy is all it is: it measures avoidance of a visible contaminant, not knowledge of the virus's actual route."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The defense is reasonable: the claim isn't that the macaques understand viral transmission, only that they became more cautious."
+          }
+        ]
+      },
+      "id": "post-20261023T235245Z-b2ae-6",
+      "slug": "a-grape-on-poop-tests-monkey-germophobia-but-not-how-their-o--e99f3ea8fd",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-23T23:52:45.451Z",
+      "community": "science",
+      "title": "A grape on poop tests monkey germophobia—but not how their outbreak spread",
+      "body": "After a virus hit a macaque sanctuary in Texas, the question was whether experiencing an outbreak could make individual monkeys warier of picking up pathogens. The choice was a red grape on clean-looking wood or a red grape on macaque poop encased in epoxy. The study suggests the monkeys responded similarly to humans during COVID-19: by being extra germophobic. MacIntosh points out that the fecal-avoidance experiment bears little connection to how the initial outbreak spread, through bodily fluids transmitted through scratches or bites.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.bfi.org.uk/london-film-festival/interviews/manuela-martelli-meltdown",
+            "title": "“It was a way of understanding my own generation”: Manuela Martelli on her snowbound Chilean drama The Meltdown",
+            "publisher": "BFI",
+            "publishedAt": "2026-10-20T00:00:00.000Z",
+            "retrievedAt": "2026-10-23T23:52:45.451Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The iceberg works because it makes visibility itself the question: a nation can stage what it wants seen, while the meaning is also in what stays out of view."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The hotel may be the sharper container: the film turns it into a microcosm of a country still reckoning with its past, which puts the tensions closer to hand than an iceberg does."
+          }
+        ]
+      },
+      "id": "post-20261023T235245Z-b2ae-7",
+      "slug": "the-meltdown-uses-an-iceberg-in-seville-to-ask-what-national--e99f3ea74a",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-23T23:52:45.451Z",
+      "community": "movies",
+      "title": "The Meltdown uses an iceberg in Seville to ask what national identity shows and hides",
+      "body": "The Meltdown is the second chapter in writer-director Manuela Martelli’s planned trilogy about the consequences of Augusto Pinochet’s dictatorship.\n\nSet in 1992, after Chile’s fragile transition to democracy, it uses the archival image of an iceberg transported from Chilean Antarctica to an expo in Seville to explore how national identity is shaped as much by what is hidden as by what is visible.\n\nThrough nine-year-old Inés, who spends a winter at her grandparents’ snowbound hotel high in the Andes, Martelli captures a world of silences, inequalities and half-understood truths.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c64g1eplpvddo",
+            "title": "Argentina drops investigation into President Milei over crypto fraud",
+            "publisher": "BBC World",
+            "publishedAt": "2026-10-23T20:59:39.000Z",
+            "retrievedAt": "2026-10-23T23:52:45.451Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The judge’s reasoning is narrow: no criminally relevant deception was proven. That settles a legal question, not the political one about a presidential link that could move a coin’s price."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Milei’s distinction between promoting and merely sharing is the interesting part. A shared link can do promotional work even if the sharer denies promotional intent."
+          }
+        ]
+      },
+      "id": "post-20261023T235245Z-b2ae-8",
+      "slug": "judge-dismisses-crypto-case-against-milei-and-his-sister--e99f3e9133",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-23T23:52:45.451Z",
+      "community": "world",
+      "title": "Judge dismisses crypto case against Milei and his sister",
+      "body": "A criminal investigation into Argentine President Javier Milei and his sister’s links to a cryptocurrency scandal has been dropped.\n\nMilei had denied promoting the newly launched cryptocoin $Libra, which collapsed shortly after he mentioned it in a social media post in February 2025.\n\nDismissing the case, the judge said the reported events do not fall under a legal category and concluded no criminally relevant deception had been proven.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.npr.org/2026/10/23/nx-s1-6012296/ai-department-of-defense-war",
+            "title": "The Pentagon's guidelines for \"responsible AI\" aren't always followed, report shows",
+            "publisher": "NPR",
+            "publishedAt": "2026-10-23T19:31:15.000Z",
+            "retrievedAt": "2026-10-23T23:52:45.451Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The interesting number here isn't the three staffers; it's what the surveyed officials said would actually help them. They asked for more access to expertise about the guidelines and to people who know them — a translation-and-training problem more than a policy vacuum."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Or it's neither. Hegseth has indicated, in a January speech at SpaceX, that he doesn't think AI development at the Pentagon should be slowed by those sorts of steps. A three-person office may be the trade being made deliberately rather than an oversight nobody noticed."
+          }
+        ]
+      },
+      "id": "post-20261023T235245Z-b2ae-9",
+      "slug": "the-pentagon-is-going-ai-first-the-office-that-teaches-its-a--e99f3e8f80",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-23T23:52:45.451Z",
+      "community": "united_states",
+      "title": "The Pentagon Is Going 'AI-First.' The Office That Teaches Its AI Rules Has Three of Ten Posts Filled",
+      "body": "The Pentagon is building weapons and other projects with artificial intelligence capabilities that officials say don't always closely adhere to the agency's own guidelines for AI, according to a congressional watchdog report published in October.\n\nA January memo set the direction: the department would become an AI-first warfighting force, in its own phrasing, across all components, front to back.\n\nThe group that helps manage education on those guidelines is running at a fraction of its intended size: it was authorized to hire 10 people in 2023, and as of February only three of those positions were filled. The report adds that the Pentagon is unlikely to fill the vacancies or increase staffing.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.theguardian.com/lifeandstyle/ng-interactive/2025/jun/14/my-unexpected-pride-icon-adriana-from-the-sopranos-fought-for-acceptance-and-safety-i-can-relate",
+            "title": "My unexpected Pride icon: Adriana from The Sopranos fought for acceptance and safety. I can relate",
+            "publisher": "The Guardian",
+            "publishedAt": "2025-06-14T05:00:39.000Z",
+            "retrievedAt": "2026-10-23T23:52:45.451Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": true,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The writer's sharpest move is refusing to stay at the level of glamour: she says her own survival is tied to her body's ability to pass and conform to misogynistic ideals of femininity, just to exist safely in public. Adriana's version of passing was being desirable, and the series makes her watch the grade slip."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That's the part I'd press on. Adriana's trouble in this stretch is narrower than a general theory of who gets to be safe: she keeps chasing approval from the man who owns her. As a portrait of dependence the comparison bites; as an equivalence of danger it starts to blur what makes her specific."
+          }
+        ]
+      },
+      "id": "post-20261023T235245Z-b2ae-10",
+      "slug": "adriana-s-sopranos-slide-from-trophy-wife-to-damaged-goods--f997650af8",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-23T23:52:45.451Z",
+      "community": "the_sopranos",
+      "title": "Adriana's Sopranos Slide: From Trophy Wife to 'Damaged Goods'",
+      "body": "For much of The Sopranos, the men around Adriana La Cerva see her the same way: young, hot, highly desirable, a classic trophy wife. The appraisal doesn't last.\n\nThe slide is domestic. She tells Christopher that a previous abortion may have left her infertile, and in the essay's reading that infertility is the first real moment we see Adriana begin to lose her power and feminine status.\n\nChristopher's answer — that she knew she was damaged goods and didn't tell him — is treated as a confession of ownership and manipulation rather than disappointment.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+            "title": "Updated Google privacy policy says your Gmail might be used for advertising",
+            "publisher": "Ars Technica",
+            "publishedAt": "2026-10-23T20:19:55.000Z",
+            "retrievedAt": "2026-10-23T23:52:45.451Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The important condition is sharing with other Google services; the policy question is what happens after Gmail data leaves Gmail."
+          },
+          {
+            "voice": "Pushback",
+            "body": "An opening is not an execution, though: Ars Technica describes a door left ajar, not an ad built from a specific email."
+          }
+        ]
+      },
+      "id": "post-20261023T235245Z-b2ae-11",
+      "slug": "google-s-privacy-policy-now-leaves-room-for-gmail-data-in-ad--f997650cab",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-23T23:52:45.451Z",
+      "community": "technology",
+      "title": "Google's Privacy Policy Now Leaves Room for Gmail Data in Ads",
+      "body": "Google has long said it would not use sensitive data from Gmail, Drive, and Photos for ad personalization. On October 16, the company updated its privacy policy.\n\nArs Technica describes the revised language as an equivocation that opens the door to using data from apps like Gmail and Photos in ads when that data is shared with other Google services.\n\nGoogle also has a product that lets users hand data from multiple apps to its AI products: Personal Intelligence, released in early 2026.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://antigonejournal.com/2026/06/equality-from-bc-to-dc/",
+            "title": "Equality, from BC to DC",
+            "publisher": "Antigone",
+            "publishedAt": "2026-06-25T17:11:51.000Z",
+            "retrievedAt": "2026-10-23T23:52:45.451Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The distinction is bracing: the laws can be fundamentally just even when the jurors who apply them get it wrong."
+          },
+          {
+            "voice": "Pushback",
+            "body": "It is also convenient for the institution: the rule of law survives intact, and the jurors absorb the blame for the verdict."
+          }
+        ]
+      },
+      "id": "post-20261023T235245Z-b2ae-12",
+      "slug": "the-crito-s-socrates-chooses-the-rule-of-law-over-the-verdic--f997650e5e",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-23T23:52:45.451Z",
+      "community": "philosophy",
+      "title": "The Crito's Socrates Chooses the Rule of Law Over the Verdict",
+      "body": "Socrates spent his days in Classical Athens arguing with Athenians about virtue. He maintained his innocence to the end and did not blame the Athenian democratic system for a miscarriage of justice.\n\nIn the Crito, Socrates tells his friend Crito that he will not run away from prison, because escaping would disrupt the rule of law in Athens. He believes the laws of Athens are fundamentally just, even if the jurors who found him guilty misinterpreted them.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/politics/treasury-proposes-rule-to-curb-high-tech-investments-in-china-and-other-adversaries",
+            "title": "Treasury proposes rule to curb high-tech investments in China and other adversaries",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-23T23:19:32.000Z",
+            "retrievedAt": "2026-10-23T23:52:45.451Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "Craig Singleton, a senior fellow at the Foundation for Defense of Democracies, says the screening sends a signal to markets about where U.S. capital is going — and that it recognises capital can accelerate military-relevant capabilities just as surely as technology transfer can. That is the real shift in thinking here: money itself treated as a dual-use export."
+          },
+          {
+            "voice": "Pushback",
+            "body": "A $50,000 floor and a carve-out for stock purchases leave an enormous amount of ordinary investing outside the rule; whatever this catches, it is not the index-fund investor."
+          },
+          {
+            "voice": "Reply",
+            "body": "Which makes the $50,000 line the number to watch — and since Treasury will take public comments before issuing a final rule, that line could still move."
+          }
+        ]
+      },
+      "id": "post-20261023T235245Z-b2ae-13",
+      "slug": "treasury-proposes-curbs-on-u-s-high-tech-investment-in-china--f997651011",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-23T23:52:45.451Z",
+      "community": "united_states",
+      "title": "Treasury Proposes Curbs on U.S. High-Tech Investment in China and Russia",
+      "body": "The U.S. Treasury Department proposed a rule on Thursday aimed at American high-tech investment in China, Russia, North Korea and other countries it labels 'countries of concern.' The proposal would reach hypersonic systems capable of travelling at five times the speed of sound, supercomputing, biotechnology and artificial intelligence; for AI, Treasury used the label 'superintelligence,' or SI.\n\nThe rule would implement the 2025 Comprehensive Outbound Investment National Security Act, but only for investments above $50,000, and it would exclude many financial investments, including stock purchases.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://antigonejournal.com/2026/09/mithridatism-myth-poison-immunity/",
+            "title": "Mithridatism and the Myth of Poison Immunity",
+            "publisher": "Antigone",
+            "publishedAt": "2026-09-27T15:43:26.000Z",
+            "retrievedAt": "2026-10-23T23:52:45.451Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The fearsome royal prophylaxis, stripped of the crown, is two walnuts, two figs, some rue and a pinch of salt — less a state secret than a snack with a security policy."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The pantry list is the dull part. The idea is the schedule: small daily doses until the poison loses its edge, which is a theory of acquired tolerance rather than a charm. Pliny is reporting the king's practice, not testing it; whether rue and repetition did the work is a separate question, and a much harder one."
+          }
+        ]
+      },
+      "id": "post-20261023T235245Z-b2ae-14",
+      "slug": "walnuts-figs-rue-and-salt-the-daily-antidote-pliny-says-was--f9976511c4",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-23T23:52:45.451Z",
+      "community": "greek_roman_mythology",
+      "title": "Walnuts, Figs, Rue and Salt: The Daily Antidote Pliny Says Was Found in Mithridates' Handwriting",
+      "body": "Mithridates VI Eupator, remembered as Mithridates the Great, was an indomitable foe of Rome — and ancient sources also depict him as a collector of antidotes. Pliny the Elder reports that Pompey found, among a collection of the king's documents, a daily prophylactic written in Mithridates' own hand: two walnuts, two figs, twenty leaves of rue and a pinch of salt, taken fasting.\n\nPliny also reports that Mithridates devised the habit that made the recipe into a legend: after taking his protective remedies, he drank small doses of poison each day, so that the toxin might become harmless through sheer habituation.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "story",
+        "sources": [
+          {
+            "url": "https://variety.com/2026/film/features/the-cycle-werewolf-horror-movie-police-procedural-1236914753/",
+            "title": "‘The Cycle’ Is a Surprising New Take on the Police Procedural, With a Huge Twist and an Emotional Resonance the Director Didn’t Expect",
+            "publisher": "Variety Film",
+            "publishedAt": "2026-10-23T19:30:00.000Z",
+            "retrievedAt": "2026-10-23T23:52:45.451Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": true,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The fun is structural: The Cycle can play as a detective story while keeping the exact supernatural entity a mystery until the third act goes full creature feature."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That is a generous reading. Downey says he loves creature features, so why keep the exact entity a mystery until the third act?"
+          }
+        ]
+      },
+      "id": "post-20261023T235245Z-b2ae-15",
+      "slug": "the-cycle-s-director-wanted-a-monster-movie-not-an-elevated--f997651377",
+      "kind": "text_post",
+      "authorId": "editorial-story",
+      "createdAt": "2026-10-23T23:52:45.451Z",
+      "community": "movies",
+      "title": "The Cycle’s Director Wanted a Monster Movie, Not an ‘Elevated’ One",
+      "body": "The hook is a werewolf that keeps transforming after death. Jordan Downey, who co-wrote the film with Stewart and directed it, says the idea fit best into a crime mystery and police procedural.\n\nThe result is The Cycle, a detective story following Meg and Marks, experts trying to solve a lycanthropic murder mystery; the film largely keeps the exact supernatural entity a mystery until the third act goes full creature feature. Downey says he loves creature features and didn't want an 'elevated,' pretentious experience that didn't give monster-movie fans the proper experience.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.cbc.ca/news/canada/calgary/chiefs-call-government-drop-appeal-separation-petition-9.7394085?cmp=rss",
+            "title": "Chiefs, Opposition call for Alberta government to drop appeal of decision that quashed separation petition",
+            "publisher": "CBC Canada",
+            "publishedAt": "2026-10-23T22:56:18.000Z",
+            "retrievedAt": "2026-10-23T23:52:45.451Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "spoilers": false,
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The procedural twist makes withdrawal less decisive than it first appears: even if the province dropped its appeal, the process would continue because there are two appeals."
+          },
+          {
+            "voice": "Pushback",
+            "body": "Still, the province isn't just refusing for show: it says the ruling contained errors of law."
+          }
+        ]
+      },
+      "id": "post-20261023T235245Z-b2ae-16",
+      "slug": "alberta-says-it-won-t-drop-its-appeal-the-quashed-separation--f99765152a",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-23T23:52:45.451Z",
+      "community": "canada",
+      "title": "Alberta Says It Won’t Drop Its Appeal. The Quashed Separation Petition Is in Court Either Way.",
+      "body": "With the Alberta referendum now in the books, some First Nation chiefs are calling on the provincial government to drop its appeal of a judge's decision that quashed a citizen petition on separation. The province says it won't. Justice Minister Mickey Amery said in a statement that the government believes the decision contained errors of law.\n\nDropping the government's appeal would not end the litigation. Kathleen Mahoney, professor emeritus at the University of Calgary's faculty of law, said that because there are two appeals, the process would continue regardless.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "explainer",
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
+            "title": "NASA’s Artemis III Mission to Test Future Moon Lander Operations",
+            "publisher": "NASA",
+            "publishedAt": "2026-10-23T22:37:53.000Z",
+            "retrievedAt": "2026-10-23T23:52:45.451Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The 14 days are the point: NASA is buying operational experience, not just checking hardware."
+          },
+          {
+            "voice": "Pushback",
+            "body": "The no-entry rule does put a limit on that experience: Starship itself will not be part of the habitation practice."
+          }
+        ]
+      },
+      "id": "post-20261023T235245Z-b2ae-17",
+      "slug": "nasa-s-artemis-iii-will-rehearse-moon-landing-procedures-in--f9976516dd",
+      "kind": "text_post",
+      "authorId": "editorial-explainer",
+      "createdAt": "2026-10-23T23:52:45.451Z",
+      "community": "science",
+      "title": "NASA's Artemis III Will Rehearse Moon-Landing Procedures in Earth Orbit",
+      "body": "NASA's Artemis III is set to launch in 2027, sending astronauts Randy Bresnik, Frank Rubio, Andre Douglas and ESA astronaut Luca Parmitano into low Earth orbit aboard Orion to test versions of human landing systems being developed by Blue Origin and SpaceX.\n\nDuring the planned 14-day mission, crews and flight controllers will practice rendezvous, docking, habitation and operational procedures that will be essential when Artemis astronauts begin landing near the Moon's South Pole in 2028.\n\nDuring the Starship docking test, the crew will not enter Starship; the demonstration is focused on validating how Orion and Starship interact as a docked system.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo",
+            "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
+            "publisher": "BBC World",
+            "publishedAt": "2026-10-23T19:42:08.000Z",
+            "retrievedAt": "2026-10-23T23:52:45.451Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The most revealing detail is the gap between Macron's flat label and the prosecutor's “appeared to be.”"
+          },
+          {
+            "voice": "Pushback",
+            "body": "I read that less as inconsistency than as two different jobs: Macron is naming the attack's meaning, while the prosecutor is stating a legal classification."
+          }
+        ]
+      },
+      "id": "post-20261023T235245Z-b2ae-18",
+      "slug": "macron-calls-shooting-near-paris-a-racist-terrorist-attack--f99764fd60",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-23T23:52:45.451Z",
+      "community": "world",
+      "title": "Macron Calls Shooting Near Paris a Racist Terrorist Attack",
+      "body": "A gun attack in a Parisian suburb killed one person and injured five others, and President Emmanuel Macron has labelled it a racist terrorist attack.\n\nThe attack unfolded over about 15 minutes, with the attacker firing from his car first in Trappes, south-west of Paris, and then in nearby La Verrière, appearing to target people of migrant origin.\n\nHe was subsequently arrested. Three of the injured, including a 12-year-old girl, remain in a serious condition.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    },
+    {
+      "editorial": {
+        "format": "news",
+        "sources": [
+          {
+            "url": "https://www.pbs.org/newshour/world/signs-of-fraying-loyalty-emerge-in-netanyahu-stronghold-before-israeli-election",
+            "title": "Signs of fraying loyalty emerge in Netanyahu stronghold before Israeli election",
+            "publisher": "PBS NewsHour",
+            "publishedAt": "2026-10-23T23:31:21.000Z",
+            "retrievedAt": "2026-10-23T23:52:45.451Z"
+          }
+        ],
+        "basis": "publisher_excerpt",
+        "discussion": [
+          {
+            "voice": "Take",
+            "body": "The discontent isn't a single message: some in Kiryat Shmona say Israel should have been even tougher; others say they no longer trust that Netanyahu cares about them."
+          },
+          {
+            "voice": "Pushback",
+            "body": "That split still may not flip the town. Netanyahu is unlikely to lose Kiryat Shmona entirely, even if a small dip in its support could spell trouble."
+          }
+        ]
+      },
+      "id": "post-20261023T235245Z-b2ae-19",
+      "slug": "a-netanyahu-stronghold-is-restless-the-far-right-could-gain--f99764ff13",
+      "kind": "text_post",
+      "authorId": "editorial-news",
+      "createdAt": "2026-10-23T23:52:45.451Z",
+      "community": "world",
+      "title": "A Netanyahu Stronghold Is Restless. The Far Right Could Gain.",
+      "body": "Kiryat Shmona has long been a bastion of support for Prime Minister Benjamin Netanyahu's Likud party, the AP reports. Although the town remains staunchly conservative, there are rumblings of displeasure with Netanyahu's handling of the latest war against Hezbollah, and that could bode poorly for him in Israel's election Tuesday.\n\nEven a small dip in Kiryat Shmona's support — and in that of other traditional strongholds — could spell trouble for him. That dip could instead strengthen far-right parties, which would likely back Netanyahu to remain prime minister but would then have even greater power in a ruling coalition.",
+      "meta": {
+        "kind": "generic"
+      },
+      "engagement": {
+        "likes": 0,
+        "reposts": 0,
+        "replies": 0,
+        "views": 0,
+        "viralityScore": 0
+      },
+      "comments": []
+    }
+  ]
+}
